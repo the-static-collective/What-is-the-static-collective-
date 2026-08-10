@@ -67,6 +67,7 @@ Start with:
 
 - [`creative-field-laws.md`](patterns/creative-field-laws.md) — portable constraints for expanding creative systems without weakening trust.
 - [`creative-handoff.md`](patterns/creative-handoff.md) — a repeatable path from weird observation to lawful primitive to proof specimen.
+- [`field-traversal-and-illumination.md`](patterns/field-traversal-and-illumination.md) — addressable fields of awareness, receipt-bearing traversal, and explicit epistemic fog.
 
 ### [`fragments/`](fragments/)
 
