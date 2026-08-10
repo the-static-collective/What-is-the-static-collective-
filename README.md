@@ -92,6 +92,14 @@ Shared language whose meaning should remain coherent across projects.
 
 Start with [`static-collective-vocabulary.md`](glossary/static-collective-vocabulary.md): `anchor`, `ancestor`, `atmosphere`, `authority`, `compost`, `field`, `frontier`, `garment`, `ghost`, `possession`, `proposal`, `receipt`, `resolved timeline`, and `witness`.
 
+### [`witness/`](witness/)
+
+A public, non-authoritative **Memento notebook** for durable breadcrumbs future assistant sessions may retrieve when continuity matters.
+
+It keeps oddities, unresolved questions, jokes, and field notes without pretending that repository notes are automatic autobiographical memory. Its governing rule is: **remember without pretending certainty**.
+
+Nothing in `witness/` outranks current evidence or a project's canonical record.
+
 ---
 
 # A working method
