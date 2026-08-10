@@ -91,7 +91,7 @@ Receipts support claims about what happened. They do not replace the event, arti
 
 Shared language whose meaning should remain coherent across projects.
 
-Start with [`static-collective-vocabulary.md`](glossary/static-collective-vocabulary.md): `anchor`, `ancestor`, `atmosphere`, `authority`, `compost`, `field`, `frontier`, `garment`, `ghost`, `possession`, `proposal`, `receipt`, `resolved timeline`, and `witness`.
+Start with [`static-collective-vocabulary.md`](glossary/static-collective-vocabulary.md): `anchor`, `ancestor`, `atmosphere`, `authority`, `compost`, `field`, `field snapshot`, `frontier`, `garment`, `ghost`, `illumination`, `possession`, `proposal`, `receipt`, `resolved timeline`, `traversal`, `visibility`, and `witness`.
 
 ### [`witness/`](witness/)
 
