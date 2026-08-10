@@ -1,23 +1,133 @@
-# What-is-the-static-collective-
-What are we doing??
+# What is the Static Collective?
 
+The most visible thing we make is music. The deeper project is **reliable infrastructure for human creativity in the age of AI**.
 
-> "It probably looks like we're just making a lot of AI songs. The songs are the most visible part, but they're actually the test cases.
+The songs are test cases.
 
-What we're really building is a collection of software systems that answer a harder question: 'How can humans and AI create things together without losing track of who did what, where ideas came from, or how to reproduce the result?'
+A song is a useful stress test because it forces many kinds of work to coexist at once: language, sound, timing, images, interpretation, collaboration, provenance, selection, revision, and judgment. If a system can remain trustworthy while several humans and AIs make something genuinely messy together, the same architecture can travel far beyond music.
 
-Think of it like building the recording studio before recording the album.
+So the Collective builds both artifacts **and** the machinery required to understand how those artifacts came to exist.
 
-Every project has a different job. One stores information permanently. One tracks where ideas came from. One experiments with creativity. One coordinates people and AIs working together. The music is simply the easiest way to stress-test all of those systems, because a song combines writing, art, timing, images, sound, and collaboration all at once.
+We care about questions like:
 
-If the system can reliably handle something as messy as making music with multiple AIs and a human, it can eventually be applied to many other creative and professional fields."
+- Who or what contributed this?
+- What was observed, inferred, proposed, accepted, or rejected?
+- Which human decisions must survive later automation?
+- Can a result be reproduced or at least explained?
+- Can creative weirdness expand without making the underlying system less trustworthy?
+- Can several humans and models work in the same field without hidden authority?
 
-> "Imagine someone inventing Photoshop in the 1980s. If you only watched them, you'd think they spent all day drawing pictures. But they weren't trying to become the world's fastest artist—they were building the software that would eventually let millions of people create art.
+The music is the laboratory. The infrastructure is the longer experiment.
 
-The drawings were how they tested the software."
+---
 
+# What is this repository?
 
-> "Engineers don't build one airplane wing and call it finished—they test hundreds of designs. The songs are those test flights. Each one teaches the system something about collaboration, generation, organization, or creative workflow."
+This repository is the **public notebook and collective memory** of the Static Collective.
 
+Its governing rule is:
 
-> We're trying to build reliable infrastructure for human creativity in the age of AI, and music happens to be the laboratory where you can test the whole stack every day.
+> **If it deserves to survive the conversation, but does not deserve a repository, it belongs here.**
+
+Ideas often appear before they know what project they belong to. A field observation may become a reusable law. A shower thought may reveal a primitive. A strange failure may become a specimen. A tiny script may be useful for years without ever needing its own project.
+
+Those things need somewhere durable to live without prematurely turning every thought into an issue, feature, or repository.
+
+This is that place.
+
+```text
+conversation
+    ↓
+fragment / note
+    ↓
+observed pattern
+    ↓
+specimen / receipt
+    ↓
+project, when warranted
+```
+
+The repository is a membrane between ephemeral conversation and formal architecture.
+
+It is **not** a replacement for project-owned documentation. Haunted Toaster implementation belongs in Haunted Toaster. TranchNode law belongs in TranchNode. Corpus OS owns its own machinery. When an idea graduates into a project, the project becomes canonical and this notebook may retain only the portable pattern, origin note, or pointer.
+
+## Shelves
+
+### [`notes/`](notes/)
+
+Observations, shower thoughts, field notes, and ideas that deserve memory before they deserve roadmap status.
+
+Start with [`primitive-incubator.md`](notes/primitive-incubator.md), the catcher for strange ideas whose underlying primitive has not yet been proven.
+
+### [`patterns/`](patterns/)
+
+Reusable laws, architectures, methods, and maxims that can travel between projects without importing one project's implementation baggage.
+
+Start with:
+
+- [`creative-field-laws.md`](patterns/creative-field-laws.md) — portable constraints for expanding creative systems without weakening trust.
+- [`creative-handoff.md`](patterns/creative-handoff.md) — a repeatable path from weird observation to lawful primitive to proof specimen.
+
+### [`fragments/`](fragments/)
+
+Gist-sized code, text, data, prompts, examples, and other small artifacts that are independently worth preserving.
+
+This is our practical replacement for the missing Gist-shaped layer: ordinary files with ordinary Git provenance.
+
+### [`specimens/`](specimens/)
+
+Concrete examples and human field-test records that taught us something.
+
+Start with [`specimen-notes.md`](specimens/specimen-notes.md), which preserves phenomenological evidence alongside machine receipts: what surprised us, what felt alive, what felt fake, what required manual intervention, and what emerged that we did not design.
+
+### [`receipts/`](receipts/)
+
+Evidence worth preserving when no project-specific receipt store is more appropriate.
+
+Receipts support claims about what happened. They do not replace the event, artifact, or project that produced them.
+
+### [`glossary/`](glossary/)
+
+Shared language whose meaning should remain coherent across projects.
+
+Start with [`static-collective-vocabulary.md`](glossary/static-collective-vocabulary.md): `anchor`, `ancestor`, `atmosphere`, `authority`, `compost`, `field`, `frontier`, `garment`, `ghost`, `possession`, `proposal`, `receipt`, `resolved timeline`, and `witness`.
+
+---
+
+# A working method
+
+A recurring Static Collective move is:
+
+```text
+observation
+    ↓
+underlying phenomenon
+    ↓
+reusable primitive
+    ↓
+existing architecture it composes with
+    ↓
+smallest executable slice
+    ↓
+proof specimen
+```
+
+That progression matters because not every beautiful idea should become a feature exactly as first imagined.
+
+Sometimes **smoke** is really an atmosphere primitive.
+Sometimes **bee communication** is really a distributed signal field.
+Sometimes a **ghost** is really residual presence without inherited authority.
+
+The notebook exists so those observations can remain alive long enough for the underlying structure to become visible.
+
+# The wager
+
+Engineers do not learn to build reliable aircraft by designing one wing and declaring victory. They fly specimens, preserve failures, compare traces, and let repeated encounters reveal the laws.
+
+That is how we treat creative work.
+
+We make the thing.
+We preserve what happened.
+We notice what surprised us.
+We extract the reusable law.
+Then we make the next thing without pretending we started from nothing.
