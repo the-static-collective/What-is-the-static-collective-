@@ -2,6 +2,8 @@
 
 The most visible thing we make is music. The deeper project is **reliable infrastructure for human creativity in the age of AI**.
 
+> **[Enter the Front Room](start-here/front-room.md)** — a stable starting place for orienting a conversation before traversing deeper Collective context.
+
 The songs are test cases.
 
 A song is a useful stress test because it forces many kinds of work to coexist at once: language, sound, timing, images, interpretation, collaboration, provenance, selection, revision, and judgment. If a system can remain trustworthy while several humans and AIs make something genuinely messy together, the same architecture can travel far beyond music.
