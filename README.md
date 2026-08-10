@@ -2,6 +2,8 @@
 
 The most visible thing we make is music. The deeper project is **reliable infrastructure for human creativity in the age of AI**.
 
+> **[Enter the Front Room](start-here/front-room.md)** — a stable starting place for orienting a conversation before traversing deeper Collective context.
+
 The songs are test cases.
 
 A song is a useful stress test because it forces many kinds of work to coexist at once: language, sound, timing, images, interpretation, collaboration, provenance, selection, revision, and judgment. If a system can remain trustworthy while several humans and AIs make something genuinely messy together, the same architecture can travel far beyond music.
@@ -68,6 +70,7 @@ Start with:
 - [`creative-field-laws.md`](patterns/creative-field-laws.md) — portable constraints for expanding creative systems without weakening trust.
 - [`creative-handoff.md`](patterns/creative-handoff.md) — a repeatable path from weird observation to lawful primitive to proof specimen.
 - [`field-traversal-and-illumination.md`](patterns/field-traversal-and-illumination.md) — addressable fields of awareness, receipt-bearing traversal, and explicit epistemic fog.
+- [`world-reentry-memory.md`](patterns/world-reentry-memory.md) — narrative as a durable world-continuity layer that can reconstruct enough relational space for meaningful re-entry.
 
 ### [`scrapbook/`](scrapbook/)
 

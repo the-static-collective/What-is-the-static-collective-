@@ -1,5 +1,6 @@
 # Table of contents
 
+* [The Front Room](start-here/front-room.md)
 * [The Static Collective](README.md)
 
 ## Patterns
@@ -7,6 +8,8 @@
 * [Creative Field Laws](patterns/creative-field-laws.md)
 * [Field Traversal & Illumination](patterns/field-traversal-and-illumination.md)
 * [Creative Handoff](patterns/creative-handoff.md)
+* [The Room Can Vanish; the World Remains](patterns/world-reentry-memory.md)
+* [Stigmergic Field](patterns/stigmergic-field.md)
 
 ## Scrapbook
 
@@ -28,6 +31,7 @@
 ## Evidence
 
 * [Specimen Notes](specimens/specimen-notes.md)
+* [Stigmergic Field v0.1](specimens/stigmergic-field-v0.1.md)
 * [Receipts](receipts/README.md)
 
 ## Witness
