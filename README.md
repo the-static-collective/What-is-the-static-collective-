@@ -69,6 +69,12 @@ Start with:
 - [`creative-handoff.md`](patterns/creative-handoff.md) — a repeatable path from weird observation to lawful primitive to proof specimen.
 - [`field-traversal-and-illumination.md`](patterns/field-traversal-and-illumination.md) — addressable fields of awareness, receipt-bearing traversal, and explicit epistemic fog.
 
+### [`scrapbook/`](scrapbook/)
+
+Non-authoritative arrangements of ideas that may illuminate one another before the relationship deserves promotion into a pattern or project.
+
+Its governing rule is: **a scrapbook preserves adjacency without claiming equivalence.** Start with [`constellations/`](scrapbook/constellations/), where ingredients from different shelves or systems can be placed together to expose resonances, tensions, possible traversals, illumination, and residual fog.
+
 ### [`fragments/`](fragments/)
 
 Gist-sized code, text, data, prompts, examples, and other small artifacts that are independently worth preserving.
@@ -128,6 +134,8 @@ Sometimes **bee communication** is really a distributed signal field.
 Sometimes a **ghost** is really residual presence without inherited authority.
 
 The notebook exists so those observations can remain alive long enough for the underlying structure to become visible.
+
+The scrapbook adds a horizontal move to that vertical progression: several durable points may be arranged together without forcing them to graduate. The arrangement itself becomes a specimen of what is visible from a particular route through the notebook.
 
 # The wager
 
