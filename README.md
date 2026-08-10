@@ -67,6 +67,7 @@ Start with:
 
 - [`creative-field-laws.md`](patterns/creative-field-laws.md) — portable constraints for expanding creative systems without weakening trust.
 - [`creative-handoff.md`](patterns/creative-handoff.md) — a repeatable path from weird observation to lawful primitive to proof specimen.
+- [`world-reentry-memory.md`](patterns/world-reentry-memory.md) — narrative as a durable world-continuity layer that can reconstruct enough relational space for meaningful re-entry.
 
 ### [`fragments/`](fragments/)
 
