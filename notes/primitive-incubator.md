@@ -50,6 +50,27 @@ Represent three independent signal channels for one candidate direction: vector/
 **What would make this graduate:**  
 A specimen where distributed signals produce a useful coordination decision that is inspectable, replayable, and meaningfully different from a central chooser.
 
+### Graduated: Stigmergic Field v0.1 — 2026-08-10
+
+Status: **graduated to a portable pattern and linked executable specimen**.
+
+The experiment changed the original quorum-shaped framing in a useful way. The first proved primitive is not “quorum decides.” It is **environmental field state can become replayably legible without the field gaining authority**.
+
+- TranchNode owns the deterministic field projection and compatibility contract.
+- Band Runtime owns the coordinatorless encounter proof.
+- This notebook owns only the portable pattern, origin memory, and specimen record.
+- The original quorum experiment above remains historical evidence; it is not retroactively canonical.
+
+Notebook records:
+
+- [Stigmergic Field pattern](../patterns/stigmergic-field.md)
+- [Stigmergic Field v0.1 specimen](../specimens/stigmergic-field-v0.1.md)
+
+Canonical implementation PRs:
+
+- TranchNode: https://github.com/the-static-collective/tranchnode/pull/38
+- Band Runtime: https://github.com/the-static-collective/band-runtime/pull/16
+
 ---
 
 ## Incubating: atmosphere field

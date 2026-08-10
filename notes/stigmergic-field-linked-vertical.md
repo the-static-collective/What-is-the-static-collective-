@@ -1,6 +1,6 @@
 # Stigmergic Field linked vertical
 
-Status: **approved design; implementation in progress**
+Status: **graduated v0.1 specimen; implementation landed**
 
 Origin: the observation that honey-bee coordination is not one communication channel but a layered field: dance, contact, vibration, chemical traces, environmental state, inhibition, and even latency. The software translation is **not** “copy bee behavior.” It is:
 
@@ -34,38 +34,40 @@ Collective notebook
 
 ### 1. TranchNode — the comb
 
-Implementation issue:
+Implementation:
 
-- https://github.com/the-static-collective/tranchnode/issues/37
-
-Approved design landed in TranchNode PR #36.
+- issue: https://github.com/the-static-collective/tranchnode/issues/37
+- PR: https://github.com/the-static-collective/tranchnode/pull/38
+- merged commit: `dbec3437cae567d5455c48c19a1bdefaeb8b640d`
 
 TranchNode owns the generic field contract, event-distance decay, aggregation, canonical ordering, trace attribution, fingerprints, and the invariant that field output carries `authority: "none"`.
 
-It does **not** gain new ontology kinds in v0.1.
+It did **not** gain new ontology kinds in v0.1.
 
 ### 2. Band Runtime — the bees
 
-Implementation issue:
+Implementation:
 
-- https://github.com/the-static-collective/band-runtime/issues/15
+- issue: https://github.com/the-static-collective/band-runtime/issues/15
+- PR: https://github.com/the-static-collective/band-runtime/pull/16
+- merged commit: `116e1318f82a6162c665879cd5258788ab0ab755`
 
-Band Runtime is intentionally downstream of the finalized TranchNode fixture. It owns event interpretation and the behavioral specimen, but it may not copy TranchNode decay, aggregation, canonicalization, trace-addressing, or fingerprint logic.
+Band Runtime remains downstream of the finalized TranchNode fixture. It owns event interpretation and the behavioral specimen, but it does not copy TranchNode decay, aggregation, canonicalization, trace-addressing, or fingerprint logic.
 
-The proof target is concrete:
+The proved target is:
 
-> Multiple sovereign participants redistribute activity using shared, replayable environmental evidence without a central assignment, while every environmental condition remains attributable and non-authoritative.
+> Multiple sovereign participants redistributed activity using shared, replayable environmental evidence without a central assignment, while every environmental condition remained attributable and non-authoritative.
 
 ### 3. This notebook — the field book
 
-This repository preserves the origin, portable pattern, implementation pointers, specimen, and eventual human verdict.
+This repository preserves the origin, portable pattern, implementation pointers, specimen, and human verdict.
 
-The original bee entry in `notes/primitive-incubator.md` remains historical evidence. When the linked vertical lands, the idea may graduate into:
+Graduated records:
 
-- `patterns/stigmergic-field.md`
-- `specimens/stigmergic-field-v0.1.md`
+- [Stigmergic Field pattern](../patterns/stigmergic-field.md)
+- [Stigmergic Field v0.1 specimen](../specimens/stigmergic-field-v0.1.md)
 
-The notebook does not become canonical over TranchNode or Band Runtime.
+The original bee entry in `notes/primitive-incubator.md` remains historical evidence. The notebook does not become canonical over TranchNode or Band Runtime.
 
 ## Governing distinctions
 
@@ -91,25 +93,19 @@ immutable event
 
 There is no required bee CEO in the middle.
 
-## First proof boundary
+## What v0.1 taught us
 
-The v0.1 specimen must demonstrate all of the following:
+The executable fixture sharpened two parts of the initial idea:
 
-- replay-stable field state;
-- decay by accepted-event distance rather than wall clock;
-- source-attributable pressure;
-- visible inhibition without erasure;
-- no inaccessible-scope side channel;
-- no hidden scheduler or ranker;
-- at least three participants and two candidate directions;
-- a participant choosing an under-attended/receptive direction using only allowed local state plus visible field state;
-- an anti-cheat test that rejects an inserted central assignment;
-- preservation of refusal and protected silence.
+- saturation became pressure from a **third distinct positive witness**, not raw event count;
+- return became **repeated positive recognition**, so a later negative reversal remains tension rather than being mislabeled as renewed attraction.
+
+Those refinements are specimen evidence, not universal law.
 
 ## Promotion rule
 
 Project0 receives no ontology change in v0.1.
 
-Only after the executable specimen exists should the stack ask whether a smaller portable law has earned Project0-level status.
+The executable specimen now exists, but one bounded cross-repository proof is not enough to promote new constitutional vocabulary. The next question is whether the same smaller law survives a materially different domain without importing Band Runtime-specific semantics.
 
-Until then, this is a witnessed pattern under test, not constitutional truth.
+Until then, this is a graduated portable pattern with canonical implementations elsewhere, not Project0 constitutional truth.
