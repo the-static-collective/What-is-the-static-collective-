@@ -38,6 +38,14 @@ A shared space of possible states, signals, candidates, tensions, or influences 
 
 A field is often the right abstraction when useful behavior emerges from relationships among many partial contributions rather than one central object.
 
+A field may also describe a bounded state of awareness: the evidence, salience, tensions, unresolved questions, relationships, and frontier presently visible from a particular position. Shared underlying evidence does not require every observer to inhabit an identical field.
+
+## Field snapshot
+
+A bounded, addressable record of a field at a particular time or causal cut.
+
+A field snapshot may preserve anchors, salient evidence, tensions, unresolved questions, supporting artifacts, visibility state, and frontier without claiming to capture an observer's complete consciousness.
+
 ## Frontier
 
 The currently meaningful edge of explored possibility: the set or region from which the next genuinely new move can extend the work.
@@ -55,6 +63,12 @@ Garment answers **what is this world made of?** Examples may include photocopy, 
 A residual presence that remains after the source, participant, state, or event that produced it is no longer directly present.
 
 A ghost can witness prior presence, preserve causality, or affect expression. It does not inherit the authority of its source merely by persisting.
+
+## Illumination
+
+A change in visibility produced when evidence, traversal, comparison, or encounter makes previously unnoticed structure inspectable.
+
+Illumination may reveal a relation, contradiction, neighboring field, or frontier. It does not by itself make the revealed claim canonical or transfer authority to the illuminating process.
 
 ## Possession
 
@@ -79,6 +93,18 @@ A receipt should make later verification easier. It is evidence of an event or d
 A temporal projection in which the system has converted sufficient evidence and decisions into an ordered, usable sequence while preserving unresolved material honestly rather than inventing timing to create superficial completeness.
 
 Resolution describes the state of the projection, not omniscience about the source.
+
+## Traversal
+
+A meaningful transition from one field or bounded state of awareness to another.
+
+A traversal should preserve enough provenance to explain what prompted the move, what became newly visible, what remained unresolved, and which kind of relation connected the fields. Traversal may illuminate a claim without accepting it as truth.
+
+## Visibility
+
+The observer- and time-relative degree to which a field, relation, tension, or frontier is presently inspectable.
+
+Visibility should remain distinct from truth and authority. Useful systems may distinguish strongly evidenced territory from dim, fogged, contested, or presently unreachable territory without treating the map as complete.
 
 ## Witness
 
