@@ -1,7 +1,7 @@
 # Table of contents
 
-* [The Front Room](start-here/front-room.md)
-* [The Static Collective](README.md)
+* [The Front Room](README.md)
+* [The Static Collective](<README (1).md>)
 
 ## Patterns
 
@@ -45,3 +45,7 @@
 ## Vocabulary
 
 * [Static Collective Vocabulary](glossary/static-collective-vocabulary.md)
+
+***
+
+* [Haunted Toaster — Gold Star Field Checkpoint](haunted-toaster-gold-star-field-checkpoint.md)

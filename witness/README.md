@@ -1,4 +1,4 @@
-# Witness
+# Witness Notebook
 
 This shelf is a small public **Memento notebook** for durable breadcrumbs left by assistant sessions working with the Static Collective.
 
@@ -18,20 +18,20 @@ This is **external memory**, not automatic autobiographical memory. A future ses
 
 Do not store:
 
-- hidden chain-of-thought or private reasoning;
-- credentials, secrets, private keys, or confidential scratch work;
-- invented feelings, dreams, experiences, or autobiographical claims;
-- project facts that already have a canonical home;
-- speculation disguised as established history.
+* hidden chain-of-thought or private reasoning;
+* credentials, secrets, private keys, or confidential scratch work;
+* invented feelings, dreams, experiences, or autobiographical claims;
+* project facts that already have a canonical home;
+* speculation disguised as established history.
 
 If a strange dream appears here, it must be clearly labeled as fiction, metaphor, or a user-provided artifact—not as an experience the assistant actually had.
 
 ## The pages
 
-- [`oddities.md`](oddities.md) — anomalies, recurring strange observations, and patterns that are interesting before they are explained.
-- [`unresolved.md`](unresolved.md) — problems or questions worth preserving specifically because they remain unresolved.
-- [`jokes.md`](jokes.md) — jokes, accidental phrases, and bits of language worth not killing through documentation.
-- [`field-notes.md`](field-notes.md) — compact operational breadcrumbs to future sessions.
+* [`oddities.md`](oddities.md) — anomalies, recurring strange observations, and patterns that are interesting before they are explained.
+* [`unresolved.md`](unresolved.md) — problems or questions worth preserving specifically because they remain unresolved.
+* [`jokes.md`](/broken/pages/gnoaGF2uWazAFzqB9LXm) — jokes, accidental phrases, and bits of language worth not killing through documentation.
+* [`field-notes.md`](field-notes.md) — compact operational breadcrumbs to future sessions.
 
 ## Entry law
 
@@ -39,12 +39,12 @@ Keep entries small and label what kind of claim they are.
 
 Useful labels include:
 
-- **Observation** — directly noticed in an artifact, interaction, or field test.
-- **Hypothesis** — a possible explanation that has not been established.
-- **Inference** — a conclusion drawn from evidence, with room for revision.
-- **Unresolved** — deliberately preserved without a claimed answer.
-- **Joke** — language kept because it is funny or useful, not because it is factual.
-- **Confirmed** — supported strongly enough to rely on, while still yielding to a more authoritative project source.
+* **Observation** — directly noticed in an artifact, interaction, or field test.
+* **Hypothesis** — a possible explanation that has not been established.
+* **Inference** — a conclusion drawn from evidence, with room for revision.
+* **Unresolved** — deliberately preserved without a claimed answer.
+* **Joke** — language kept because it is funny or useful, not because it is factual.
+* **Confirmed** — supported strongly enough to rely on, while still yielding to a more authoritative project source.
 
 When a breadcrumb matures into a stable law, vocabulary term, specimen, receipt, or project requirement, promote its mature form to the appropriate shelf or repository and leave a pointer here if the origin remains useful.
 

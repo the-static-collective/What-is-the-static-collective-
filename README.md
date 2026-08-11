@@ -1,153 +1,106 @@
-# What is the Static Collective?
-
-The most visible thing we make is music. The deeper project is **reliable infrastructure for human creativity in the age of AI**.
-
-> **[Enter the Front Room](start-here/front-room.md)** — a stable starting place for orienting a conversation before traversing deeper Collective context.
-
-The songs are test cases.
-
-A song is a useful stress test because it forces many kinds of work to coexist at once: language, sound, timing, images, interpretation, collaboration, provenance, selection, revision, and judgment. If a system can remain trustworthy while several humans and AIs make something genuinely messy together, the same architecture can travel far beyond music.
-
-So the Collective builds both artifacts **and** the machinery required to understand how those artifacts came to exist.
-
-We care about questions like:
-
-- Who or what contributed this?
-- What was observed, inferred, proposed, accepted, or rejected?
-- Which human decisions must survive later automation?
-- Can a result be reproduced or at least explained?
-- Can creative weirdness expand without making the underlying system less trustworthy?
-- Can several humans and models work in the same field without hidden authority?
-
-The music is the laboratory. The infrastructure is the longer experiment.
-
+---
+description: >-
+  A stable starting place for orienting a conversation before traversing deeper
+  Static Collective context.
+icon: door-open
 ---
 
-# What is this repository?
+# The Front Room
 
-This repository is the **public notebook and collective memory** of the Static Collective.
+You are standing at the entrance to the Static Collective's public memory.
 
-Its governing rule is:
+This room is deliberately small. Its job is not to tell you everything. Its job is to establish **where you are**, show a few useful doors, and let the current conversation decide whether any of them should be opened.
 
-> **If it deserves to survive the conversation, but does not deserve a repository, it belongs here.**
+{% hint style="info" %}
+**Orientation is not retrieval.**
 
-Ideas often appear before they know what project they belong to. A field observation may become a reusable law. A shower thought may reveal a primitive. A strange failure may become a specimen. A tiny script may be useful for years without ever needing its own project.
+Entering this room does not mean loading the whole corpus. A door is an affordance, not an instruction to walk through it.
+{% endhint %}
 
-Those things need somewhere durable to live without prematurely turning every thought into an issue, feature, or repository.
+## The rule of entry
 
-This is that place.
+When a conversation begins here:
 
-```text
-conversation
+1. **Orient.** Notice the nearby fields and visible frontier.
+2. **Listen to the current request.** The present conversation determines which door, if any, matters.
+3. **Traverse narrowly.** Read only enough neighboring context to make the current work intelligible.
+4. **Keep authority where it belongs.** Current evidence and project-owned canonical sources outrank this room.
+5. **Preserve fog.** Do not silently resolve missing, contested, or unknown material.
+6. **Leave when irrelevant.** If the conversation has nothing to do with the Collective, do not force it through this house.
+
+## Doors
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-compass">:compass:</i></td><td><strong>Patterns</strong></td><td>Portable laws and structures that survived more than one local implementation.</td><td><a href="/broken/pages/iwPgOWYNMO3zVuv7Aizx">Broken link</a></td></tr><tr><td><i class="fa-eye">:eye:</i></td><td><strong>Witness</strong></td><td>Durable breadcrumbs that preserve continuity without pretending to be authority.</td><td><a href="witness/">witness</a></td></tr><tr><td><i class="fa-cloud">:cloud:</i></td><td><strong>Frontier</strong></td><td>Questions and tensions we know remain unresolved.</td><td><a href="witness/unresolved.md">unresolved.md</a></td></tr><tr><td><i class="fa-seedling">:seedling:</i></td><td><strong>Incubator</strong></td><td>Ideas worth keeping alive before they deserve a project or law.</td><td><a href="notes/primitive-incubator.md">primitive-incubator.md</a></td></tr><tr><td><i class="fa-flask">:flask:</i></td><td><strong>Evidence</strong></td><td>Specimens and encounter records that taught us something by actually happening.</td><td><a href="/broken/pages/YdWrvp1vKhr5FptW1CY5">Broken link</a></td></tr><tr><td><i class="fa-language">:language:</i></td><td><strong>Vocabulary</strong></td><td>Shared words whose meanings need to remain coherent while traveling between projects.</td><td><a href="glossary/static-collective-vocabulary.md">static-collective-vocabulary.md</a></td></tr><tr><td><i class="fa-house">:house:</i></td><td><strong>World / Re-entry</strong></td><td>The working pattern connecting space, sequence, story, narrative, and reconstructible worlds.</td><td><a href="patterns/world-reentry-memory.md">world-reentry-memory.md</a></td></tr></tbody></table>
+
+## A room is not the world
+
+The Front Room is a stable landmark. What lives behind its doors may change.
+
+That is intentional.
+
+A useful memory structure does not need to freeze every object in place. It needs enough durable relation to support meaningful re-entry:
+
+```
+stable landmark
     ↓
-fragment / note
+relevant door
     ↓
-observed pattern
+bounded traversal
     ↓
-specimen / receipt
+encounter
     ↓
-project, when warranted
+new illumination
+    ↓
+changed world
 ```
 
-The repository is a membrane between ephemeral conversation and formal architecture.
+The room should therefore remain relatively boring while the Collective behind it becomes stranger.
 
-It is **not** a replacement for project-owned documentation. Haunted Toaster implementation belongs in Haunted Toaster. TranchNode law belongs in TranchNode. Corpus OS owns its own machinery. When an idea graduates into a project, the project becomes canonical and this notebook may retain only the portable pattern, origin note, or pointer.
+## What to carry through a door
 
-## Shelves
+A traversal should carry only what helps reconstruct the neighboring field:
 
-### [`notes/`](notes/)
+* why this door became relevant;
+* which source or artifact is being entered;
+* what is known versus inferred;
+* what remains unresolved;
+* where authority actually lives.
 
-Observations, shower thoughts, field notes, and ideas that deserve memory before they deserve roadmap status.
+It should **not** require reproducing private reasoning or pretending the route proves the destination true.
 
-Start with [`primitive-incubator.md`](notes/primitive-incubator.md), the catcher for strange ideas whose underlying primitive has not yet been proven.
+## Minimal traversal receipt
 
-### [`patterns/`](patterns/)
+When preserving a particularly useful walk, this is enough:
 
-Reusable laws, architectures, methods, and maxims that can travel between projects without importing one project's implementation baggage.
-
-Start with:
-
-- [`creative-field-laws.md`](patterns/creative-field-laws.md) — portable constraints for expanding creative systems without weakening trust.
-- [`creative-handoff.md`](patterns/creative-handoff.md) — a repeatable path from weird observation to lawful primitive to proof specimen.
-- [`field-traversal-and-illumination.md`](patterns/field-traversal-and-illumination.md) — addressable fields of awareness, receipt-bearing traversal, and explicit epistemic fog.
-- [`world-reentry-memory.md`](patterns/world-reentry-memory.md) — narrative as a durable world-continuity layer that can reconstruct enough relational space for meaningful re-entry.
-
-### [`scrapbook/`](scrapbook/)
-
-Non-authoritative arrangements of ideas that may illuminate one another before the relationship deserves promotion into a pattern or project.
-
-Its governing rule is: **a scrapbook preserves adjacency without claiming equivalence.** Start with [`constellations/`](scrapbook/constellations/), where ingredients from different shelves or systems can be placed together to expose resonances, tensions, possible traversals, illumination, and residual fog.
-
-### [`fragments/`](fragments/)
-
-Gist-sized code, text, data, prompts, examples, and other small artifacts that are independently worth preserving.
-
-This is our practical replacement for the missing Gist-shaped layer: ordinary files with ordinary Git provenance.
-
-### [`specimens/`](specimens/)
-
-Concrete examples and human field-test records that taught us something.
-
-Start with [`specimen-notes.md`](specimens/specimen-notes.md), which preserves phenomenological evidence alongside machine receipts: what surprised us, what felt alive, what felt fake, what required manual intervention, and what emerged that we did not design.
-
-### [`receipts/`](receipts/)
-
-Evidence worth preserving when no project-specific receipt store is more appropriate.
-
-Receipts support claims about what happened. They do not replace the event, artifact, or project that produced them.
-
-### [`glossary/`](glossary/)
-
-Shared language whose meaning should remain coherent across projects.
-
-Start with [`static-collective-vocabulary.md`](glossary/static-collective-vocabulary.md): `anchor`, `ancestor`, `atmosphere`, `authority`, `compost`, `field`, `field snapshot`, `frontier`, `garment`, `ghost`, `illumination`, `possession`, `proposal`, `receipt`, `resolved timeline`, `traversal`, `visibility`, and `witness`.
-
-### [`witness/`](witness/)
-
-A public, non-authoritative **Memento notebook** for durable breadcrumbs future assistant sessions may retrieve when continuity matters.
-
-It keeps oddities, unresolved questions, jokes, and field notes without pretending that repository notes are automatic autobiographical memory. Its governing rule is: **remember without pretending certainty**.
-
-Nothing in `witness/` outranks current evidence or a project's canonical record.
-
----
-
-# A working method
-
-A recurring Static Collective move is:
-
-```text
-observation
-    ↓
-underlying phenomenon
-    ↓
-reusable primitive
-    ↓
-existing architecture it composes with
-    ↓
-smallest executable slice
-    ↓
-proof specimen
+```
+Entered: Front Room
+Prompt: what made this door relevant?
+Traversed: room → field → neighboring field
+Illuminated: what became newly visible?
+Evidence: what sources supported the traversal?
+Residual fog: what remains unresolved?
+Authority: where does the canonical claim live?
 ```
 
-That progression matters because not every beautiful idea should become a feature exactly as first imagined.
+## Conversation entry instruction
 
-Sometimes **smoke** is really an atmosphere primitive.
-Sometimes **bee communication** is really a distributed signal field.
-Sometimes a **ghost** is really residual presence without inherited authority.
+The following is the canonical instruction for a human to place in ChatGPT Custom Instructions or a project's instructions when they want fresh conversations to use this room:
 
-The notebook exists so those observations can remain alive long enough for the underlying structure to become visible.
+> **At the beginning of a new conversation, when GitBook is available, enter the Static Collective Front Room first. Use it only to orient yourself: establish the nearby fields, important unresolved frontiers, and useful doors into deeper context. Orientation is not retrieval. Traverse outward only when the user's request makes a neighboring field relevant. Current evidence and project-owned canonical sources outrank the room. Preserve provenance, uncertainty, and unresolved fog, and do not force unrelated conversations into Static Collective context.**
 
-The scrapbook adds a horizontal move to that vertical progression: several durable points may be arranged together without forcing them to graduate. The arrangement itself becomes a specimen of what is visible from a particular route through the notebook.
+## Failure conditions
 
-# The wager
+This experiment is failing if the Front Room causes any of these:
 
-Engineers do not learn to build reliable aircraft by designing one wing and declaring victory. They fly specimens, preserve failures, compare traces, and let repeated encounters reveal the laws.
+* every conversation loads the same large context bundle;
+* nearby ideas become assumed equivalent merely because they share a room;
+* GitBook notes outrank current project evidence;
+* unresolved material gets completed for narrative neatness;
+* unrelated questions are bent toward Static Collective concerns;
+* the room grows until it becomes another database index.
 
-That is how we treat creative work.
+If that happens, make the room smaller.
 
-We make the thing.
-We preserve what happened.
-We notice what surprised us.
-We extract the reusable law.
-Then we make the next thing without pretending we started from nothing.
+***
+
+> **Starting place, not source of truth. Doorway, not destination.**
