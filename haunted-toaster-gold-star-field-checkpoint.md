@@ -52,6 +52,20 @@ Working law:
 
 > **When little dynamic information survives, listen harder to what survived.**
 
+### Branch thought: event salience and inferred control lanes
+
+For loud or highly compressed songs, obvious musical events such as snare, kick, and bass hits should remain **significantly visible** instead of disappearing into a permanently raised activity floor.
+
+Explore analysis-only inferred control lanes rather than literal separated stems:
+
+* low-end / bass-pressure evidence;
+* transient / percussion evidence;
+* vocal-presence evidence;
+* sustained harmonic/body evidence;
+* optional high-frequency/noise/air evidence.
+
+These lanes are control evidence, not a claim that true stems have been recovered.
+
 ## Listener: short-line context
 
 Repeated field behavior suggests lyric line length or lexical distinctiveness may be a major predictor of Listener success.
@@ -70,6 +84,77 @@ Constraints:
 * contextual evidence is bounded to neighboring lines;
 * weak evidence remains unresolved rather than gaining invented timing;
 * record line length / context-use evidence so the hypothesis can be tested instead of silently baked in forever.
+
+## Listener: anchor-context re-listen, vocal-biased recovery, and musical structure
+
+This is deliberately a **deferred hardening slice**. Mine more field data before fixing thresholds, retry-window sizes, or section heuristics.
+
+### Authority law
+
+> **Confidence is evidence. Human anchors are authority.**
+
+A machine placement may be highly confident and still land in the wrong repeated chorus or refrain. When a human corrects a cue, that correction changes the Listener's temporal context and should reopen nearby **machine-owned** placements for another chance.
+
+Re-listen behavior:
+
+* human-adjusted cues become hard temporal anchors;
+* another human anchor must never be moved by re-listen;
+* the corrected anchor re-contextualizes the machine-owned span on both sides until the nearest human anchors or song boundaries;
+* prior machine confidence does not immunize a placement from reconsideration inside that newly bounded span;
+* receipts should preserve old → new placement evidence and the reason for re-listen.
+
+### Voice-biased second pass
+
+Second-pass recovery should be surgical rather than replacing the current Listener:
+
+* build a temporary **vocal-salience lens** for the bounded retry window;
+* emphasize likely human-vocal intelligibility while reducing obvious low-bass/extreme-high interference where useful;
+* use this for unresolved/review lines and for machine-owned neighbors reopened by a human anchor correction;
+* do not call the result a true vocal stem;
+* accept a new placement only when sequence/context evidence improves; otherwise remain unresolved.
+
+Short-line contextualization and the vocal-biased lens should compose: a short line may borrow bounded neighboring lexical context while the Listener re-hears the correct human-anchored region.
+
+### Basic Western-song structural prior
+
+The Listener should understand common Western song structure as a **soft prior**, never as compulsory form.
+
+Structural lyric tags such as `[verse]`, `[verse 2]`, `[chorus]`, `[pre-chorus]`, `[bridge]`, `[intro]`, `[outro]`, and similar tags should survive scrub/preparation as **non-rendered structural evidence** instead of being discarded before they can help alignment.
+
+Build three structural witnesses:
+
+1. **Declared structure** from lyric tags.
+2. **Inferred structure** from audio recurrence, section boundaries, phrase/pulse regularity, and related measured evidence.
+3. **Human anchors** as temporal authority.
+
+Working law:
+
+> **Tags suggest the map. Audio tests the map. Human anchors place the map.**
+
+Prefer a hybrid structural representation:
+
+* canonical audio structure can remain neutral (`A / B / C / A′` or equivalent);
+* familiar labels such as Verse / Chorus / Bridge attach as declared or best-effort semantic annotations;
+* disagreements between tag and audio remain explicit evidence rather than a silent overwrite;
+* atypical forms — through-composed, drone, prog, live jam, and other structures — remain legal.
+
+Wrong-chorus recovery is a primary target: repeated lyric/audio regions should be distinguished by sequence position and neighboring human anchors, not acoustic similarity alone.
+
+A future renderer may also benefit from the structural map — for example, a returning chorus could return visually as a **descendant rather than a reset** — but Listener authority and renderer behavior should remain separate concerns.
+
+### Data to mine before implementation
+
+Use upcoming field runs to collect:
+
+* line length / lexical distinctiveness versus match outcome;
+* confident-but-wrong repeated-section placements;
+* whether human anchor corrections improve neighboring machine placements;
+* lyric tag availability and reliability;
+* audio recurrence agreement with declared Verse / Chorus / Bridge tags;
+* whether a vocal-biased retry improves difficult lines;
+* low-end/transient inferred-lane usefulness for Listener recovery and visual event salience.
+
+Do not tune this machinery from one specimen. Let thresholds emerge from receipts and field evidence.
 
 ## Seven Toast Feels
 
@@ -96,6 +181,7 @@ It argues for protecting the current visual composer while improving the inputs 
 
 * better song-conditioned internal response;
 * better evidence handling for short lyric lines;
+* better human-anchored re-listening and structural context;
 * richer mood seeding;
 * preserved six-up diversity;
 * a durable known-good renderer checkpoint before experimentation.
