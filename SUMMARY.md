@@ -51,3 +51,4 @@
 * [Haunted Toaster — Gold Star Field Checkpoint](haunted-toaster-gold-star-field-checkpoint.md)
 * [Haunted Toaster — Listener UX Parity Gap](haunted-toaster-listener-ux-parity-gap.md)
 * [Visual Phrasing — Cool Is an Event](visual-phrasing-cool-is-an-event.md)
+* [Native Color Witness / Chromatic Decompression](native-color-witness-chromatic-decompression.md)
