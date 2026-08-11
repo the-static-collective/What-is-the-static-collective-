@@ -114,3 +114,70 @@ Take one state transition that normally erases a visible element and preserve a 
 
 **What would make this graduate:**  
 A specimen where the residual trace improves understanding or expression while remaining impossible to confuse with current authoritative state.
+
+---
+
+## Incubating: artifact witness gate
+
+**Primitive:**  
+A staged completion witness from accepted change to human-observed artifact behavior
+
+**Felt possibility:**  
+Artifact-producing systems need a stronger meaning of “done” than source merge. A change can be accepted in review yet miss the intended main lineage, miss the built artifact, fail to execute inside that artifact, or execute without presenting the intended behavior to the human.
+
+A useful provisional chain is:
+
+```text
+accepted change
+  -> intended-main ancestry
+  -> artifact inclusion
+  -> artifact execution
+  -> witnessed behavior
+```
+
+Each arrow is evidence-bearing. None is implied by the previous one.
+
+**Existing analogue:**  
+Haunted Toaster exposed several distinct specimens in one product family: a Listener change merged into a stacked branch rather than `main`; source-level UX present on `main` but not initially witnessed in the packaged appliance; later package-entrypoint and sandbox regressions that required artifact/runtime-specific proof. The broader analogue includes APKs, native binaries, rendered media, bootable images, and generated MIDI where source correctness alone cannot establish what the recipient actually receives.
+
+**What must stay invariant:**  
+Generic PR completion should not pretend to know every artifact's runtime semantics. Each producing repository may add its own witness gates. “Merged,” “included,” “executed,” and “human-witnessed” remain distinct claims. Human witness is required only where the behavior is inherently perceptual, device-specific, environment-specific, or otherwise not mechanically characterized; it must not become ritual evidence where automation is stronger.
+
+**Smallest experiment:**  
+In one artifact-producing repository, make the completion chain explicit and intentionally break each seam once: wrong target ancestry, omitted packaged asset, packaged runtime failure, and behavior that executes but is not actually presented. Require a legible failed gate for each specimen without changing generic PR-completion semantics.
+
+**What would make this graduate:**  
+Two or more materially different artifact-producing repositories can use the same gate vocabulary while keeping their repository-specific proof adapters separate, and the stronger completion law catches a real false-positive “done” state that ordinary merge/CI status would have accepted.
+
+---
+
+## Incubating: declared-freedom descendant
+
+**Primitive:**  
+Deterministic descendant generation that preserves ancestry and declares exactly which freedom was spent
+
+**Felt possibility:**  
+Several creative and substrate systems now produce lawful neighboring descendants from a preserved ancestor under deterministic pressure. The common structure may be smaller than either product's trigger semantics:
+
+```text
+preserved parent
++ declared resolver / generation policy
++ allowed dimensions
++ optional deterministic seed
+  -> independently addressed descendant proposal(s)
+  -> explicit changed-dimension evidence
+```
+
+**Existing analogue:**  
+TranchNode #29 defines a `BloomReceipt` after a refused proposal: the refusal remains true, protected state remains unchanged, and a neighboring proposal may be generated under a declared resolver. Haunted Toaster STOMP generates materially different lawful descendants from a selected ancestor under a deterministic “surprise me harder” pressure and records parent, seeds, locks, semantic breaks, distances, and threshold relaxation.
+
+These are family resemblances, not synonyms. **Lawful bloom is refusal-conditioned; STOMP is boredom/user-pressure conditioned.** Treating STOMP as a bloom would erase a meaningful trigger and authority distinction.
+
+**What must stay invariant:**  
+The parent remains immutable and independently addressable. Descendants begin as descendants/proposals rather than retroactive edits. Policy, seed where relevant, constraints, and changed dimensions remain inspectable. Ordinary admission still applies. The reason generation was invoked belongs to the calling layer and must not be fabricated by the generic descendant contract.
+
+**Smallest experiment:**  
+Do not share code yet. Characterize the smallest neutral receipt shape against a synthetic parent and bounded allowed-dimension set, then map one existing STOMP specimen and one future lawful-bloom specimen onto it. The mapping fails if it must lie about refusal, boredom, authority, or admission to make the shapes match.
+
+**What would make this graduate:**  
+Executable specimens in at least two domains show that the same ancestry + deterministic-pressure + changed-dimension contract can be reused without erasing their distinct trigger/authority semantics. Only then consider a shared receipt/helper boundary.
