@@ -26,7 +26,8 @@
 
 ## Frontier
 
-* [Primitive Incubator](notes/primitive-incubator.md)
+* [Primitive Incubator](frontier/primitive-incubator/README.md)
+  * [Artifact Resurrection — Exact Return](frontier/primitive-incubator/artifact-resurrection-exact-return.md)
 
 ## Evidence
 

@@ -4,10 +4,10 @@
 
 ## Ingredients
 
-- [Ghost](../../glossary/static-collective-vocabulary.md): residual presence after a source or event is no longer directly present.
-- [Receipt](../../glossary/static-collective-vocabulary.md): inspectable evidence supporting a claim about what happened or how something was produced.
-- [Witness](../../glossary/static-collective-vocabulary.md): a participant, process, or artifact that records or attests without necessarily deciding.
-- [Primitive Incubator: ghost](../../notes/primitive-incubator.md): residue may preserve causality without inheriting authority.
+* [Ghost](../../glossary/static-collective-vocabulary.md): residual presence after a source or event is no longer directly present.
+* [Receipt](../../glossary/static-collective-vocabulary.md): inspectable evidence supporting a claim about what happened or how something was produced.
+* [Witness](../../glossary/static-collective-vocabulary.md): a participant, process, or artifact that records or attests without necessarily deciding.
+* [Primitive Incubator: ghost](../../frontier/primitive-incubator/): residue may preserve causality without inheriting authority.
 
 ## Resonances
 
@@ -15,7 +15,7 @@ All three concern **what remains after or around an event**.
 
 But their responsibilities differ:
 
-```text
+```
 GHOST
 something remains
 
@@ -40,7 +40,7 @@ The triangle therefore needs provenance and scope.
 
 ## Possible traversal
 
-```text
+```
 past event
    ├── leaves residue ──> ghost
    ├── supports record ─> receipt
@@ -57,9 +57,9 @@ That could matter anywhere a system preserves effects after the originating sour
 
 ## Residual fog
 
-- When does a ghost become strong enough evidence to count as a receipt?
-- Can a machine-generated receipt itself serve as a witness, or is witness better reserved for a role that interprets or attests?
-- What minimum provenance keeps residue from being mistaken for current state?
+* When does a ghost become strong enough evidence to count as a receipt?
+* Can a machine-generated receipt itself serve as a witness, or is witness better reserved for a role that interprets or attests?
+* What minimum provenance keeps residue from being mistaken for current state?
 
 ## Promotion routes
 

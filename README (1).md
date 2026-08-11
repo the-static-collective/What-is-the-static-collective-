@@ -61,7 +61,7 @@ It is **not** a replacement for project-owned documentation. Haunted Toaster imp
 
 Observations, shower thoughts, field notes, and ideas that deserve memory before they deserve roadmap status.
 
-Start with [`primitive-incubator.md`](notes/primitive-incubator.md), the catcher for strange ideas whose underlying primitive has not yet been proven.
+Start with [`primitive-incubator.md`](frontier/primitive-incubator/), the catcher for strange ideas whose underlying primitive has not yet been proven.
 
 #### [`patterns/`](patterns/)
 

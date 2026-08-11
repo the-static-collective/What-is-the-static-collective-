@@ -4,16 +4,16 @@
 
 ## Ingredients
 
-- [Creative Field Laws](../../patterns/creative-field-laws.md): weirdness can expand without reducing trust; preserve anchors; coverage before randomness.
-- Haunted Toaster's recurring architecture of a stable kernel beneath an expandable creative field.
-- [Primitive Incubator](../../notes/primitive-incubator.md): strange ideas are preserved cheaply before they become roadmap obligations.
-- [Constellations](README.md): aggressive association is allowed so long as the lines remain labeled and non-authoritative.
+* [Creative Field Laws](../../patterns/creative-field-laws.md): weirdness can expand without reducing trust; preserve anchors; coverage before randomness.
+* Haunted Toaster's recurring architecture of a stable kernel beneath an expandable creative field.
+* [Primitive Incubator](../../frontier/primitive-incubator/): strange ideas are preserved cheaply before they become roadmap obligations.
+* [Constellations](./): aggressive association is allowed so long as the lines remain labeled and non-authoritative.
 
 ## Resonances
 
 Several Collective systems seem to become more generative when the trustworthy boundary is made **more explicit**, not less.
 
-```text
+```
 stable invariant
       ↓
 known lawful freedom
@@ -35,12 +35,12 @@ If every experiment must already fit existing categories, the system only explor
 
 So bounded weirdness needs at least two simultaneous permissions:
 
-- freedom to produce things the taxonomy did not predict
-- inability to counterfeit evidence or authority while doing so
+* freedom to produce things the taxonomy did not predict
+* inability to counterfeit evidence or authority while doing so
 
 ## Possible traversal
 
-```text
+```
 constraint
     --tension-->
 freedom
@@ -62,9 +62,9 @@ That may be a general design move: **loosen generative behavior while tightening
 
 ## Residual fog
 
-- Which constraints actually increase useful exploration, and which merely reduce possibility?
-- Can a system measure that its weirdness is becoming cosmetically random rather than structurally novel?
-- How much of the stable kernel should an exploratory participant be required to understand before contributing?
+* Which constraints actually increase useful exploration, and which merely reduce possibility?
+* Can a system measure that its weirdness is becoming cosmetically random rather than structurally novel?
+* How much of the stable kernel should an exploratory participant be required to understand before contributing?
 
 ## Promotion routes
 
