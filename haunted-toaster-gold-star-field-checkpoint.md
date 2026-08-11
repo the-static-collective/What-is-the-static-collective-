@@ -173,6 +173,71 @@ Ontology:
 
 Naming should remain suggestive but partly mysterious. Names such as **Risky hybrid** are useful precisely because they point somewhere without fully explaining themselves. To an outsider they are allowed to sound like potential nonsense. That ambiguity is part of the invitation.
 
+## Dynamic Camera Variance
+
+Watching multiple field specimens suggests a specific camera limitation: once a video enters a heavy-shake state, the **amount and character of shake can remain too static**. The problem is not that the camera needs more motion. The problem is that the camera needs **more expressive variation inside the chosen motion grammar**.
+
+Working law:
+
+> **Internal topology moves first; camera follows as consequence, not compensation.**
+
+A section can still own a coarse camera disposition — locked, drift, push, orbit, agitated, shake-like, etc. — but the camera response inside that section should become a bounded, time-varying signal rather than one mostly fixed intensity.
+
+### Three response layers
+
+1. **Section disposition**
+   * preserves the categorical camera identity selected by the timeline / Possession Arc;
+   * establishes the baseline character of the shot rather than frame-by-frame behavior.
+2. **Continuous modulation**
+   * varies camera intensity over time from measured musical evidence;
+   * candidate evidence includes local energy, local delta, transient pressure, and later Compression Pressure / inferred control lanes;
+   * continuous modulation should breathe rather than jitter.
+3. **Event punctuation**
+   * allows bounded camera bursts on musically meaningful attacks or transitions;
+   * likely inputs include transient/percussion peaks, low-end attacks, section boundaries, and other high-confidence events;
+   * bursts decay back toward the section disposition rather than establishing a permanent new maximum.
+
+### Shake is not one number
+
+Dynamic camera response should be able to vary several dimensions independently:
+
+* amplitude;
+* frequency / jitter rate;
+* directionality;
+* burst length;
+* recovery damping / inertia.
+
+This allows different musical actors to produce different camera consequences. A low-end hit may create a heavier body-lurch, while a sharp transient may produce a shorter high-frequency shake spike.
+
+### Inferred-lane opportunity
+
+If the planned analysis-only control lanes prove useful, they can feed the camera without pretending to be literal stems:
+
+* **low-end / bass-pressure evidence** → heavier lurch or displacement;
+* **transient / percussion evidence** → short shake spikes / snap;
+* **sustained harmonic/body evidence** → slower drift or sway pressure;
+* **vocal-presence evidence** → potentially suppresses excess shake or favors attention-steering rather than violence.
+
+These remain evidence channels, not semantic authority.
+
+### Guardrails
+
+Dynamic Camera Variance must not become a second renderer competing with topology.
+
+Constraints:
+
+* internal topology / primitive-field response remains primary;
+* no uncontrolled random shake;
+* preserve temporal smoothing and coherent recovery;
+* cap burst duration and amplitude;
+* preserve enough visual stability for lyric readability;
+* do not let high transient density turn the entire video into uninterrupted camera noise;
+* Witness Window remains a stable output contract even when the depicted camera is highly active.
+
+The target is **more expressive shake, not more shake**.
+
+This can be mined alongside the loud-song / Compression Pressure work because both may benefit from the same event evidence and inferred control lanes, but it should remain an independent response axis: a song can have strong internal event salience without requiring camera violence.
+
 ## Field specimen — Crooked Handle
 
 The **Crooked Handle** run (`6. Crooked Handle.wav`) is a second strong checkpoint on the same preserved alpha.7 renderer. Subjectively it was another standout video despite being a quieter, more relaxed song.
@@ -246,7 +311,7 @@ Crooked Handle narrows the near-term package scope:
 1. **Hold the renderer.** Preserve Gold Star / Crooked Handle behavior.
 2. Prioritize **Listener UI and re-listen ergonomics**.
 3. Prioritize **Seven Toast Feels / Toast Moods**.
-4. Keep Compression Pressure, inferred control lanes, structural Listener priors, and vocal-biased re-listen in the field-data queue until more receipts accumulate.
+4. Keep Compression Pressure, inferred control lanes, structural Listener priors, vocal-biased re-listen, and Dynamic Camera Variance in the field-data queue until more receipts accumulate.
 
 This specimen strengthens the package-release case more than it argues for another visual feature.
 
@@ -326,13 +391,13 @@ No release-scope expansion is justified by this specimen. The near-term line rem
 
 **hold renderer → fix Listener UI → Toast Moods → package candidate**
 
-Compression Pressure, inferred control lanes, structural Listener priors, and vocal-biased re-listen remain in the evidence-mining queue.
+Compression Pressure, inferred control lanes, structural Listener priors, vocal-biased re-listen, and Dynamic Camera Variance remain in the evidence-mining queue.
 
 ## Field verdict
 
 Gold Star, Crooked Handle, and Air Moved argue for preserving the current visual composer while improving the interfaces and evidence around it.
 
-The new contrast case adds a targeted hypothesis rather than a reason to rewrite the renderer: **dense songs may be spending response headroom too early.**
+The new contrast case adds a targeted hypothesis rather than a reason to rewrite the renderer: **dense songs may be spending response headroom too early.** Dynamic Camera Variance adds a second targeted refinement: **shake-heavy videos should vary their camera energy and character over time instead of holding one static shake intensity.**
 
 Near-term priorities remain:
 
@@ -340,6 +405,6 @@ Near-term priorities remain:
 * Toast Moods / Seven Toast Feels;
 * preserved six-up diversity;
 * durable known-good renderer checkpoint;
-* continued field mining before Compression Pressure or deeper Listener behavior is tuned.
+* continued field mining before Compression Pressure, Dynamic Camera Variance, or deeper Listener behavior is tuned.
 
 GitHub implementation / tracking slice: Haunted Toaster issue **#113**.
