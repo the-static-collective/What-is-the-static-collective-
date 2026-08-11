@@ -57,3 +57,4 @@
 * [Closed Witness Loop — The Watched Performer](closed-witness-loop-the-watched-performer.md)
 * [Linear v2 — Elastic Spine](linear-v2-elastic-spine.md)
 * [alpha.7 Field Verdict — Build Forward From Here](alpha.7-field-verdict-build-forward-from-here.md)
+* [Post-Repair Proof of Life — Different Kinds](post-repair-proof-of-life-different-kinds.md)
