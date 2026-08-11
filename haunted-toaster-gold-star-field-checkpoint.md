@@ -250,17 +250,96 @@ Crooked Handle narrows the near-term package scope:
 
 This specimen strengthens the package-release case more than it argues for another visual feature.
 
+## Field specimen — Air Moved / “Dr. Spaceman” case
+
+The **Air Moved** run (`5. Air Moved.wav`) is a useful contrast specimen. Subjectively it was **simple but nice** and felt like a louder song, but its visual dynamic range felt flatter than Crooked Handle. Treat the loudness classification as field observation until receipts expose absolute loudness / dynamic-spread measurements directly.
+
+Build/result evidence:
+
+* Full Measure `0.5.0-alpha.7`
+* commit `1472ddb061c471884f9f01be1f3355edc96cdee6`
+* 261.04 second PCM WAV source
+* accepted output
+* full timeline covered
+* continuous filter graph
+* Witness Window verified
+* output duration delta: 40 ms
+
+### Listener result: useful partial knowledge
+
+The lyric result was partial rather than complete:
+
+* 78 input lyric lines
+* 20 matched / timed
+* 8 review
+* 0 human corrections
+* 20 subtitle cues in the final output
+* provenance mode: `listened-partial`
+
+The important appliance result is that the unmatched remainder **did not interfere**. The run could still proceed as effectively a one-click process with only the known timing represented. This is a useful positive specimen for the existing “prefer unresolved over invented timing” law.
+
+### Dynamic-response finding
+
+Air Moved makes the loud-song / dynamic-range hypothesis more concrete.
+
+Its base VisualScore began with:
+
+* motion grammar: `fracture`
+* motion amplitude: **`1.0`**
+* motion variance: `0.04`
+* transient density: `0.849181`
+* topology: linear
+* primitive field: branches / oscillation
+
+The resolved timeline then kept **fracture motion across the entire 261-second song**. Its three Possession Arc transitions were spent elsewhere:
+
+1. camera `locked → drift` at 31s;
+2. palette `garment → analogous` at 77s;
+3. material `photocopy → grain` at 204s.
+
+Color Drift still supplied seven section-relative stops, so the video was not static. But the main motion axis entered at its nominal amplitude ceiling and never gained another categorical motion state.
+
+This suggests a specific failure mode worth testing:
+
+> **A loud or dense song may enter the renderer already near the motion ceiling. It can remain visually active yet feel dynamically flat because peaks and discrete hits have too little remaining headroom.**
+
+That refines Compression Pressure into three separate response responsibilities:
+
+1. **baseline continuous activity** — avoid dead-looking low-energy passages;
+2. **local/event salience** — snare, kick, bass, and other surviving attacks should punctuate visibly;
+3. **peak headroom** — do not spend the entire response range merely establishing that the song is loud.
+
+Do not solve this by globally reducing the renderer. Crooked Handle showed that the current mapping can exploit spacious musical contrast extremely well. Instead, mine whether dense/loud specimens repeatedly saturate motion early and whether inferred transient / low-end control lanes can preserve discrete event punctuation above a bounded baseline.
+
+### Data-mining implication
+
+The current specimen sequence now suggests a useful comparison set:
+
+* **Crooked Handle:** quieter / more spacious field impression → strong visual contrast and pronounced POP.
+* **Air Moved:** louder / denser field impression → visually good, but flatter dynamic range; base motion already `fracture @ 1.0`.
+
+This is increasingly consistent with the Compression Pressure hypothesis, but normalized section-energy values still cannot prove mastering compression. Add absolute surviving dynamic-spread evidence before calibrating the response law.
+
+### Release implication
+
+No release-scope expansion is justified by this specimen. The near-term line remains:
+
+**hold renderer → fix Listener UI → Toast Moods → package candidate**
+
+Compression Pressure, inferred control lanes, structural Listener priors, and vocal-biased re-listen remain in the evidence-mining queue.
+
 ## Field verdict
 
-Gold Star and Crooked Handle do **not** argue for a renderer rewrite.
+Gold Star, Crooked Handle, and Air Moved argue for preserving the current visual composer while improving the interfaces and evidence around it.
 
-They argue for protecting the current visual composer while improving the interfaces and evidence around it:
+The new contrast case adds a targeted hypothesis rather than a reason to rewrite the renderer: **dense songs may be spending response headroom too early.**
+
+Near-term priorities remain:
 
 * better Listener UI and re-listen ergonomics;
-* better evidence handling for short lyric lines;
-* better human-anchored re-listening and structural context, after more data mining;
-* richer mood seeding through Toast Feels;
+* Toast Moods / Seven Toast Feels;
 * preserved six-up diversity;
-* a durable known-good renderer checkpoint before experimentation.
+* durable known-good renderer checkpoint;
+* continued field mining before Compression Pressure or deeper Listener behavior is tuned.
 
 GitHub implementation / tracking slice: Haunted Toaster issue **#113**.
