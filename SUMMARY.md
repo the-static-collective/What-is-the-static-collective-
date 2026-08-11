@@ -54,3 +54,4 @@
 * [Native Color Witness / Chromatic Decompression](native-color-witness-chromatic-decompression.md)
 * [Haunted Memory — Composition With History](haunted-memory-composition-with-history.md)
 * [Fallible Witness — The Window Has an Eye](fallible-witness-the-window-has-an-eye.md)
+* [Closed Witness Loop — The Watched Performer](closed-witness-loop-the-watched-performer.md)
