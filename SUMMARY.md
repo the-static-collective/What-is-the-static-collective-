@@ -49,3 +49,4 @@
 ***
 
 * [Haunted Toaster — Gold Star Field Checkpoint](haunted-toaster-gold-star-field-checkpoint.md)
+* [Haunted Toaster — Listener UX Parity Gap](haunted-toaster-listener-ux-parity-gap.md)
