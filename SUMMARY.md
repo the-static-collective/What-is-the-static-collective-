@@ -56,3 +56,4 @@
 * [Fallible Witness — The Window Has an Eye](fallible-witness-the-window-has-an-eye.md)
 * [Closed Witness Loop — The Watched Performer](closed-witness-loop-the-watched-performer.md)
 * [Linear v2 — Elastic Spine](linear-v2-elastic-spine.md)
+* [alpha.7 Field Verdict — Build Forward From Here](alpha.7-field-verdict-build-forward-from-here.md)
