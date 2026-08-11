@@ -173,16 +173,93 @@ Ontology:
 
 Naming should remain suggestive but partly mysterious. Names such as **Risky hybrid** are useful precisely because they point somewhere without fully explaining themselves. To an outsider they are allowed to sound like potential nonsense. That ambiguity is part of the invitation.
 
+## Field specimen — Crooked Handle
+
+The **Crooked Handle** run (`6. Crooked Handle.wav`) is a second strong checkpoint on the same preserved alpha.7 renderer. Subjectively it was another standout video despite being a quieter, more relaxed song.
+
+Build/result evidence:
+
+* Full Measure `0.5.0-alpha.7`
+* commit `1472ddb061c471884f9f01be1f3355edc96cdee6`
+* 162.48 second PCM WAV source
+* accepted output
+* full timeline covered
+* continuous filter graph
+* Witness Window verified
+* output duration delta: 46 ms
+
+### Listener result
+
+This was an especially strong recognition specimen:
+
+* 52 lyric lines
+* **52 / 52 matched**
+* 2 review
+* **0 human corrections**
+
+This strengthens the case that the current recognition/alignment path can already be package-worthy when the specimen cooperates. Mine the failures before changing recognition itself.
+
+### Renderer result
+
+The most interesting fact is that the resolved timeline spent **zero ordinary mutation entropy**:
+
+* ordinary patch count: 0
+* entropy spent: 0
+
+Yet the higher-level composition laws still created substantial movement and development:
+
+* spiral topology
+* lattice / swarm primitive field
+* smoke atmosphere
+* base motion `still`, amplitude about `0.425`
+* base temporal density `frozen`
+* three Possession Arc transitions
+* five color-drift stops
+* motion `still → fracture` at 45s
+* palette `analogous → garment` at 125s
+* camera `push → orbit` at 146s
+* lyric resonance found `rain` and produced one rain-family resonance event inside the smoke atmosphere
+
+The result is useful evidence that the renderer does not require constant mutation to avoid boredom. Its existing structural laws can carry a restrained initial state into a vivid result.
+
+### Dynamic-range evidence
+
+Crooked Handle supports the Compression Pressure hypothesis while also arguing **against rushing a renderer change**.
+
+Its section analysis contains substantial internal contrast:
+
+* Opening: `0.3087`
+* Lift: `0.7579`
+* Release: `0.5641`
+* Lift: `0.8447`
+* Release: `0.5065`
+* Final form: `0.8521`
+
+A quieter/chiller song with usable internal contrast already **popped** under the current response law. This suggests the existing renderer is sensitive to relative musical shape.
+
+However, normalized section energy alone does not prove the proposed mastering-aware Compression Pressure formula. Before calibrating low-floor lift or local-delta magnification, compare absolute surviving dynamic spread — for example RMS percentile spread — across multiple loud/squashed and quiet/dynamic specimens.
+
+### Package-release implication
+
+Crooked Handle narrows the near-term package scope:
+
+1. **Hold the renderer.** Preserve Gold Star / Crooked Handle behavior.
+2. Prioritize **Listener UI and re-listen ergonomics**.
+3. Prioritize **Seven Toast Feels / Toast Moods**.
+4. Keep Compression Pressure, inferred control lanes, structural Listener priors, and vocal-biased re-listen in the field-data queue until more receipts accumulate.
+
+This specimen strengthens the package-release case more than it argues for another visual feature.
+
 ## Field verdict
 
-Gold Star does **not** argue for a renderer rewrite.
+Gold Star and Crooked Handle do **not** argue for a renderer rewrite.
 
-It argues for protecting the current visual composer while improving the inputs and pressures around it:
+They argue for protecting the current visual composer while improving the interfaces and evidence around it:
 
-* better song-conditioned internal response;
+* better Listener UI and re-listen ergonomics;
 * better evidence handling for short lyric lines;
-* better human-anchored re-listening and structural context;
-* richer mood seeding;
+* better human-anchored re-listening and structural context, after more data mining;
+* richer mood seeding through Toast Feels;
 * preserved six-up diversity;
 * a durable known-good renderer checkpoint before experimentation.
 
