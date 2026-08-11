@@ -53,3 +53,4 @@
 * [Visual Phrasing — Cool Is an Event](visual-phrasing-cool-is-an-event.md)
 * [Native Color Witness / Chromatic Decompression](native-color-witness-chromatic-decompression.md)
 * [Haunted Memory — Composition With History](haunted-memory-composition-with-history.md)
+* [Fallible Witness — The Window Has an Eye](fallible-witness-the-window-has-an-eye.md)
