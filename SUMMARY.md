@@ -29,6 +29,7 @@
 * [Primitive Incubator](frontier/primitive-incubator/README.md)
   * [Artifact Resurrection — Exact Return](frontier/primitive-incubator/artifact-resurrection-exact-return.md)
   * [TRAEX / Tracks — Crossing Grammar](frontier/primitive-incubator/traex-tracks-crossing-grammar.md)
+  * [Executable Membrane — JavaScript as Encounter Surface](frontier/primitive-incubator/executable-membrane-javascript-encounter-surface.md)
 
 ## Evidence
 
