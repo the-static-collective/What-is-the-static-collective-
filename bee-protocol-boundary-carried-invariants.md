@@ -48,6 +48,14 @@ Stigmergic Field could plausibly influence future capability routing, but Corpus
 
 The emergency preservation path in Corpus OS #4 should retain raw bytes, provider identity/asset role, byte length, SHA-256, and an append-only receipt before importing TranchNode, Exact Return, or universal lineage machinery. The 25-track pilot must prove transport first.
 
+#### Phase-A local proof — 2026-08-12
+
+Autodiscography Vault PR #2 expresses that refusal natively rather than importing downstream architecture. Its Phase-A branch contains a network-inert MV3 shell, synthetic-only Suno fixture boundary, append-only acquisition journal, exact SHA-256/byte-length verifier, explicit incomplete states, and a bounded Corpus OS handoff projection.
+
+The local test suite proves the recipient contract independently, including a regression that forbids `partial`, `missing`, `refused`, or `failed` asset receipts from carrying admitted asset byte length/SHA-256. Live Suno behavior remains outside the slice; Corpus OS #4 remains open through the separate 25-track pilot gate.
+
+This is BEE's desired shape: downstream systems receive exact pollen later, while the emergency preservation instrument stays boring enough to verify now.
+
 ## Admission test
 
 Before carrying pollen across a project boundary, ask:
