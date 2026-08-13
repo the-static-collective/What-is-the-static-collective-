@@ -84,11 +84,18 @@ source image bytes
 
 The profile should use ordinary deterministic image statistics rather than semantic vision. No face/object segmentation is required.
 
-The first relationship vocabulary should prove distinct source-relative behavior such as echo, counterpoint, or chromatic drain. At least one deterministic temporal event must visibly return toward the photograph's native chroma.
+alpha.8 v1 has exactly two source-relative relationship classes:
+
+* `echo` — remain near / extend the native chromatic field;
+* `counterpoint` — deliberately offset or oppose the native field under bounded deterministic policy.
+
+The same admitted source must make those two relationships materially distinguishable and exactly replayable. Additional relationship classes, including chromatic drain/residue, remain outside alpha.8.
+
+At least one deterministic temporal event must visibly return toward the photograph's native chroma.
 
 Native color is an event and compositional witness, not a permanent realism requirement.
 
-Toast Feel may bias the relationship or allowed chromatic distance, but must not dictate an exact palette or reveal schedule.
+Toast Feel may bias whether `echo` or `counterpoint` is favored, the allowed chromatic distance, or the bounded reveal pressure, but must not dictate an exact palette or reveal schedule.
 
 ## 5. Render choices remain transport choices
 
@@ -117,7 +124,7 @@ Gold Star remains recoverable
   -> browser UI witness passes
   -> Toast Feel reaches six-up and the final receipt
   -> NativeChromaticProfile is deterministic
-  -> source-relative color behavior is visible
+  -> echo and counterpoint are materially distinct on the same source
   -> native color visibly returns at a lawful recorded event
   -> preview and final render agree
   -> Universal render succeeds
@@ -128,7 +135,7 @@ Gold Star remains recoverable
 
 ## Explicitly outside alpha.8
 
-Compression Pressure, Dynamic Camera Variance, Linear v2 / Elastic Spine, deeper Listener structure, semantic/local color zones, Haunted Memory, Fallible Witness, Closed Witness Loop, foreign-video assimilation, Exact Return, and two-parent breeding remain valid later work.
+Compression Pressure, Dynamic Camera Variance, Linear v2 / Elastic Spine, deeper Listener structure, semantic/local color zones, additional chromatic relationship classes, Haunted Memory, Fallible Witness, Closed Witness Loop, foreign-video assimilation, Exact Return, and two-parent breeding remain valid later work.
 
 The release should stop expanding when three new human-visible truths are present:
 
