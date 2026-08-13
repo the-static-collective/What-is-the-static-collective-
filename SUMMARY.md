@@ -63,3 +63,4 @@
 * [Post-Repair Proof of Life — Different Kinds](post-repair-proof-of-life-different-kinds.md)
 * [BEE Protocol — Boundary-Carried Invariants](bee-protocol-boundary-carried-invariants.md)
 * [Sol Max Reserve — Reasoning-Sensitive Work](sol-max-reserve-reasoning-sensitive-work.md)
+* [Haunted Toaster — UI Witness Loop & Toastmoods Migration](haunted-toaster-ui-witness-loop-and-toastmoods-migration.md)
