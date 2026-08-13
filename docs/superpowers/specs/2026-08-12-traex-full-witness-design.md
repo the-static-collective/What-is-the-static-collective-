@@ -60,6 +60,8 @@ The operation vocabulary remains descriptive rather than normative:
 
 No crossing is required to fit exactly one verb.
 
+`EXPERIENCE` is always witness-relative. Every row using it must name the participant or witness that encountered the state. A machine execution may establish machine-observed experience; it must not be silently promoted into human experience.
+
 ## Specimen route
 
 ### Crossing 1 — External notice -> Corpus OS P0
@@ -88,7 +90,7 @@ Lineage must remain inspectable. The implementation is not described as merely a
 
 Operation: `EXPERIENCE + EXPRESS`
 
-GitHub Actions executes the implementation and emits machine-observable evidence.
+GitHub Actions executes the implementation and emits machine-observable evidence. The named witness for this `EXPERIENCE` is the CI execution, not a human operator.
 
 Key distinction: successful CI on a proposal branch proves behavior of that branch head; it does not itself admit the implementation to canonical `main`.
 
@@ -108,7 +110,7 @@ Authority distinction: the branch remains proposal history; `main` becomes the c
 
 Operation: `EXPERIENCE`
 
-The canonical landed state is executed after admission.
+The canonical landed state is executed after admission. The named witness for this `EXPERIENCE` is the post-merge CI execution.
 
 This crossing exists specifically to preserve the distinction between:
 
@@ -181,7 +183,7 @@ The specimen may interpret the operation type, but it must clearly distinguish i
 
 If evidence is absent, the track must say `unwitnessed`, `unknown`, or equivalent rather than completing the route by inference.
 
-Observer-relative experience must never be fabricated.
+Observer-relative experience must never be fabricated. Every `EXPERIENCE` claim must name its witness or participant.
 
 ## Architecture and placement
 
