@@ -66,3 +66,4 @@
 * [Haunted Toaster — UI Witness Loop & Toastmoods Migration](haunted-toaster-ui-witness-loop-and-toastmoods-migration.md)
 * [Haunted Toaster — alpha.8 Creative Expansion](haunted-toaster-alpha.8-creative-expansion.md)
 * [Haunted Toaster — alpha.8 Implementation Map](haunted-toaster-alpha.8-implementation-map.md)
+* [jublEchat — Witness Parity Checkpoint](jublechat-witness-parity-checkpoint.md)
