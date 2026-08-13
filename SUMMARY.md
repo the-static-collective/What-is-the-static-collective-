@@ -30,7 +30,7 @@
   * [Artifact Resurrection — Exact Return](frontier/primitive-incubator/artifact-resurrection-exact-return.md)
   * [TRAEX / Tracks — Crossing Grammar](frontier/primitive-incubator/traex-tracks-crossing-grammar.md)
   * [Executable Membrane — JavaScript as Encounter Surface](frontier/primitive-incubator/executable-membrane-javascript-encounter-surface.md)
-  * [Page](frontier/primitive-incubator/page.md)
+  * [Not-Pastor Ron — Meet the Story in Public](frontier/primitive-incubator/not-pastor-ron.md)
 
 ## Evidence
 
