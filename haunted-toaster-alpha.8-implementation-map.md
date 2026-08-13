@@ -1,6 +1,17 @@
 # Haunted Toaster — alpha.8 Implementation Map
 
-The approved alpha.8 release design now has an executable implementation map. GitHub remains implementation authority; this page is the published orientation layer.
+The approved alpha.8 release design is implemented on [GitHub PR #126](https://github.com/the-static-collective/the-haunted-toaster/pull/126). GitHub remains implementation authority; this page is the published orientation layer.
+
+## Test-candidate status
+
+Remote test head: `cd9803d65338d23389be786ff0cd209892ba4413`.
+
+* Version identity: `0.5.0-alpha.8`.
+* Full renderer proof: 144-script check, 276/276 unit tests, full production FFmpeg smoke, optional-image/MP3 stream-copy smoke, and a selected six-up winner rendered with an exact accepted receipt.
+* Browser witness: eight canonical Chromium states visually inspected at 1380 × 900 and committed as reviewed baselines; CI is comparison-only.
+* Vercel: generated production-renderer witness is Ready at the exact test head.
+* Windows: installer and portable application build succeeded; artifact upload proof is running at the exact test head.
+* Promotion: PR #126 is open and ready for testing. It is not merged, tagged, or released.
 
 ## Dependency line
 
@@ -10,20 +21,20 @@ failure evidence floor -----------┐
 UI Witness Gate                   |
   -> Toastmoods                   |
        -> Native Color v1         |
-             -> combined witness -┴-> alpha.8 package/tag
+             -> combined witness -┴-> alpha.8 test candidate
 ```
 
-Failure evidence may land independently as insurance. UI Witness is the hard ordering gate before Toastmoods. Native Color follows Toastmoods because Native Color relationship preference consumes canonical Toast Feel identity. Integration/release follows all four landed slices.
+Failure evidence is integrated as insurance. UI Witness precedes Toastmoods. Native Color follows Toastmoods because Native Color relationship preference consumes canonical Toast Feel identity.
 
-## Plan map
+## Implemented map
 
-1. **Failure evidence floor** — Haunted Toaster issue #116 / PR #119.
-2. **UI Witness Gate** — issue #122 / PR #124 plan/implementation line.
-3. **Toastmoods / Seven Toast Feels** — GitHub plan `docs/superpowers/plans/2026-08-13-alpha8-toastmoods-implementation-plan.md`.
-4. **Native Color Witness v1** — GitHub plan `docs/superpowers/plans/2026-08-13-alpha8-native-color-implementation-plan.md`.
-5. **Integration / package / tag gate** — GitHub plan `docs/superpowers/plans/2026-08-13-alpha8-integration-release-plan.md`.
+1. **Failure evidence floor** — abnormal score-driven FFmpeg exits retain sanitized sibling evidence under schema `full-measure.render-failure.v1`.
+2. **UI Witness Gate** — production renderer assets generate the Vercel/Playwright witness under policy `ui-witness-v1`.
+3. **Toastmoods / Seven Toast Feels** — six bounded ordinary pressure fields plus **MADD CLOWN CRAZY SLOTS**.
+4. **Native Color Witness v1** — canonical image profile, exact `echo` / `counterpoint` relationships, and at most one return window.
+5. **Integration / package gate** — exact alpha.8 capabilities, reviewed UI pixels, Vercel witness, and Windows package proof.
 
-GitHub also carries `docs/superpowers/plans/2026-08-13-alpha8-plan-index.md` as the compact execution index.
+GitHub carries the executable plans under `docs/superpowers/plans/`, the approved creative design under `docs/superpowers/specs/`, and the future UI update protocol at `docs/UI_CHANGE_PROTOCOL.md`.
 
 ## Frozen implementation invariants
 
@@ -33,21 +44,24 @@ GitHub also carries `docs/superpowers/plans/2026-08-13-alpha8-plan-index.md` as 
 * MADD CLOWN delegates to existing `visible-outcome-stomp-v1`; no second chaos engine.
 * Native Color v1 has exactly `echo` and `counterpoint`.
 * Native Color is expressive-renderer-only; old/non-expressive timelines remain unchanged.
-* Candidate preview already shares the production timeline compiler, so Native Color extends one compiler seam rather than creating preview-only color law.
+* Candidate preview and production share the same timeline compiler.
 * Universal H.264 remains the required release transport; Efficient HEVC remains optional/experimental.
-* The final alpha.8 tag is created only from the exact main commit proven by browser witness, Windows package, and field specimen.
+* The final alpha.8 tag may be created only from the exact main commit proven by browser witness, Windows package, and field specimen.
 
-## Self-review corrections made before execution
+## UI witness disposition
 
-Three concrete seams were corrected while turning the approved design into executable plans:
-
-1. Renderer Toast Feel furniture receives the canonical manifest through the existing sandbox bridge rather than attempting to import CommonJS directly or maintain a second copy.
-2. Toast-pressured score re-resolution explicitly rebuilds Primitive/Atmosphere state and Possession Arc, retaining Color Drift through the current resolver chain before Lyric Resonance is reattached.
-3. Native Color resolves Toast Feel preference from canonical `toastFeelId`, not compact receipt/family metadata, and extends the already-shared preview/production compiler.
+```
+UI impact: visual + behavioral + bridge
+browser witness: PASS @ cd9803d65338d23389be786ff0cd209892ba4413
+visual delta: expected and reviewed
+packaged witness required: yes
+packaged witness: build PASS; field interaction pending
+GitBook ontology changed: no
+```
 
 ## Stop line
 
-alpha.8 is complete when the packaged appliance proves three human-visible truths:
+alpha.8 becomes release-complete only after the packaged appliance proves three human-visible truths in field testing:
 
 1. a richer Toast Feel entry surface reaches accepted six-up/render evidence;
 2. the source image's own color can influence treatment and lawfully return;
