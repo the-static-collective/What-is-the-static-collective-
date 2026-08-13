@@ -2,7 +2,7 @@
 
 ## Implementation status
 
-The migration is implemented on [GitHub PR #126](https://github.com/the-static-collective/the-haunted-toaster/pull/126) at test head `cd9803d65338d23389be786ff0cd209892ba4413`.
+The migration is implemented on [GitHub PR #126](https://github.com/the-static-collective/the-haunted-toaster/pull/126) at test head `e83a6512be1b845a553a74dc3f9f0488f4082a65`.
 
 The browser witness is generated from the production renderer, Vercel is Ready, and eight reviewed Chromium baselines now cover:
 
@@ -75,7 +75,7 @@ Creative identity must never be inferred from DOM copy, CSS classes, icon art, o
 
 ```
 UI impact: visual + behavioral + bridge
-browser witness: PASS @ cd9803d65338d23389be786ff0cd209892ba4413
+browser witness: PASS @ e83a6512be1b845a553a74dc3f9f0488f4082a65
 visual delta: expected and reviewed
 packaged witness required: yes
 packaged witness: build PASS; field interaction pending

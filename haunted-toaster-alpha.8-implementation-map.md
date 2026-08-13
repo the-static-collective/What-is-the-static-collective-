@@ -4,13 +4,13 @@ The approved alpha.8 release design is implemented on [GitHub PR #126](https://g
 
 ## Test-candidate status
 
-Remote test head: `cd9803d65338d23389be786ff0cd209892ba4413`.
+Remote test head: `e83a6512be1b845a553a74dc3f9f0488f4082a65`.
 
 * Version identity: `0.5.0-alpha.8`.
 * Full renderer proof: 144-script check, 276/276 unit tests, full production FFmpeg smoke, optional-image/MP3 stream-copy smoke, and a selected six-up winner rendered with an exact accepted receipt.
 * Browser witness: eight canonical Chromium states visually inspected at 1380 × 900 and committed as reviewed baselines; CI is comparison-only.
 * Vercel: generated production-renderer witness is Ready at the exact test head.
-* Windows: installer and portable application build succeeded; artifact upload proof is running at the exact test head.
+* Windows: distinct Setup and Portable executables built and uploaded at the exact test head in [workflow run 31692261790](https://github.com/the-static-collective/the-haunted-toaster/actions/runs/31692261790); artifact `Haunted-Toaster-Windows-31692261790` is retained for 90 days.
 * Promotion: PR #126 is open and ready for testing. It is not merged, tagged, or released.
 
 ## Dependency line
@@ -52,7 +52,7 @@ GitHub carries the executable plans under `docs/superpowers/plans/`, the approve
 
 ```
 UI impact: visual + behavioral + bridge
-browser witness: PASS @ cd9803d65338d23389be786ff0cd209892ba4413
+browser witness: PASS @ e83a6512be1b845a553a74dc3f9f0488f4082a65
 visual delta: expected and reviewed
 packaged witness required: yes
 packaged witness: build PASS; field interaction pending
