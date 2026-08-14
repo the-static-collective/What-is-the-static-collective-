@@ -56,6 +56,18 @@ The recipient contract was independently proven before landing with 22 passing t
 
 This is BEE's desired shape: downstream systems receive exact pollen later, while the emergency preservation instrument stays boring enough to verify now.
 
+#### Phase-B1 live witness proof — 2026-08-14
+
+Autodiscography Vault issue #3 and PR #4 advance the next boundary without yet admitting transport. The proposed Phase-B1 extension installs a permanent read-only content script only on `https://suno.com/*` and `https://www.suno.com/*`, observes a hard maximum of 25 track candidates, and presents the resulting evidence in the local Vault side panel while keeping the acquisition control disabled.
+
+The authority floor remains deliberately narrow: no cookie permission, request/header interception, `<all_urls>`, reusable authentication extraction, browser-database access, telemetry, Vercel/server corpus hop, or provider-asset download path enters this slice. Missing provider identity stays explicit rather than being synthesized, and secret-shaped evidence fails closed as `reusable_auth_required`.
+
+TDD preserved the local-proof rule: on the red run, the existing Phase-A behaviors remained green while eight new Phase-B1 assertions failed for the intentionally absent live-witness behavior. On the final branch head `f7709b2e8f53c3743f05187b9e96fbf6a3671213`, GitHub Actions run 17 passed `npm ci`, all 28 tests, and the synthetic interruption/resume pilot.
+
+The remaining evidence gate is human and local: load the reviewed unpacked extension against a normal signed-in Suno library page and learn what provider IDs, links, titles, and asset surfaces are actually exposed without extracting reusable session material. Until that witness exists, Phase B2 transport and the full-corpus run remain unadmitted, and Corpus OS #4 stays open.
+
+This is a second BEE specimen from the same project: urgency permits a narrowly scoped witness to cross the provider boundary, but it still does not grant transport authority before local proof.
+
 ## Admission test
 
 Before carrying pollen across a project boundary, ask:
