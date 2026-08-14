@@ -31,6 +31,7 @@
   * [TRAEX / Tracks — Crossing Grammar](frontier/primitive-incubator/traex-tracks-crossing-grammar.md)
   * [Executable Membrane — JavaScript as Encounter Surface](frontier/primitive-incubator/executable-membrane-javascript-encounter-surface.md)
   * [Not-Pastor Ron — Meet the Story in Public](frontier/primitive-incubator/not-pastor-ron.md)
+  * [Declared Witness Channels](frontier/primitive-incubator/declared-witness-channels.md)
 
 ## Evidence
 
