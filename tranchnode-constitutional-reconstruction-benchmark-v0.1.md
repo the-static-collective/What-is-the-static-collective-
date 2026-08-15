@@ -6,14 +6,15 @@ description: >-
 
 # TranchNode — Constitutional Reconstruction Benchmark v0.1
 
-Status: **implemented / PR #39 ready for landing decision**
+Status: **landed on `main` via PR #39**
 
 Project authority remains in TranchNode:
 
 * GitHub issue: https://github.com/the-static-collective/tranchnode/issues/20
 * pull request: https://github.com/the-static-collective/tranchnode/pull/39
-* branch: `lumi/constitutional-reconstruction-benchmark-v0.1`
-* exact verified head: `8311952b6b5472301a721e2087346c37cd8baace`
+* approved branch head: `8311952b6b5472301a721e2087346c37cd8baace`
+* landed squash commit: `f119b57a211c77a9016ff3f33a25736adc13ca4e`
+* landed/tested tree: `344f807101154bacbe4afcddde78f03ccf0f4521`
 * design spec: `docs/superpowers/specs/2026-08-15-constitutional-reconstruction-benchmark-v0.1-design.md`
 * implementation plan: `docs/superpowers/plans/2026-08-15-constitutional-reconstruction-benchmark-v0.1.md`
 
@@ -83,7 +84,7 @@ Cut A remains what was knowable at Cut A.
 
 ## ConstitutionalDiff v0.1
 
-The machine-readable diff now distinguishes:
+The machine-readable diff distinguishes:
 
 * `new_history` from `rewritten_history`;
 * `new_projection` from `changed_occurrence`;
@@ -91,7 +92,7 @@ The machine-readable diff now distinguishes:
 
 The first two are exercised across the temporal specimen. The tension distinction is exercised through minimal structured diff fixtures rather than fabricating tension into the Covenant Circuit specimen.
 
-## Test-first evidence
+## Test-first and landing evidence
 
 The implementation was built through observable GitHub Actions RED/GREEN cycles:
 
@@ -100,21 +101,25 @@ The implementation was built through observable GitHub Actions RED/GREEN cycles:
 3. ConstitutionalDiff tests failed before the diff existed, then passed after implementation;
 4. owner-review found a real adapter-law bug: the fixture adapter accepted a tampered `projectionAt` for a known cut id. The regression test was committed first and failed 76/77. The adapter was then fixed to obey the same declared-cut law as the reference engine.
 
-The exact final head `8311952b6b5472301a721e2087346c37cd8baace` passed GitHub Actions run `31882162070`, which executes the repository gate:
+The approved branch head `8311952b6b5472301a721e2087346c37cd8baace` passed GitHub Actions run `31882162070`, which executed:
 
 ```bash
 npm run check
 ```
 
-The final PR diff contains only the design, implementation plan, benchmark manifest, benchmark module, and benchmark tests. It does not modify the ontology, the existing projection/fulfillment kernels, or the Covenant Circuit source evaluator.
+PR #39 was then squash-merged under explicit approval to `f119b57a211c77a9016ff3f33a25736adc13ca4e`.
+
+The landed squash commit has tree `344f807101154bacbe4afcddde78f03ccf0f4521`, exactly the same tree as the tested approved branch head. Therefore the repository content landed on `main` is byte-identical to the tree that passed the full PR gate.
+
+The merged diff contains only the design, implementation plan, benchmark manifest, benchmark module, and benchmark tests. It does not modify the ontology, the existing projection/fulfillment kernels, or the Covenant Circuit source evaluator.
 
 ## Tool boundaries
 
-Riqor evidence discipline was used for the workflow, but this ChatGPT host has no installed local `riqor` binary and no local GitHub network route. No synthetic Riqor trace was claimed; exact-head GitHub Actions is the available executable verification source.
+Riqor evidence discipline was used for the workflow, but this ChatGPT host has no installed local `riqor` binary and no local GitHub network route. No synthetic Riqor trace was claimed; exact-head GitHub Actions plus identical landed-tree verification are the executable evidence.
 
-Vercel remains out of scope. Connected-project inspection found no TranchNode Vercel project, and #20 explicitly does not require a product or UI surface.
+Vercel remains out of scope. TranchNode has no deployment surface required for #20.
 
-Develoop supplied the issue-to-PR workflow. PR Completion now stops at its required landing gate: merge requires explicit approval bound to the exact verified PR head.
+Develoop supplied the issue-to-PR workflow. PR Completion crossed its landing gate only after explicit approval bound to the exact verified PR head.
 
 ## Scope boundary
 
@@ -132,14 +137,14 @@ No automatic contradiction resolution.
 
 No UI or Vercel deployment.
 
-Issue #20 remains open after this vertical; broader cases and delta classes remain downstream work.
+Issue #20 remains open after this landed vertical; broader cases and delta classes remain downstream work.
 
 ## Frontier
 
-If PR #39 lands, widen #20 by evidence rather than ambition:
+With PR #39 landed, widen #20 by evidence rather than ambition:
 
 ```
-one executable temporal case
+one executable temporal case ✓
   → more temporal cases
   → more constitutional invariants
   → wider ConstitutionalDiff
