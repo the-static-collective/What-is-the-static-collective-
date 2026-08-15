@@ -29,7 +29,8 @@
 * [Primitive Incubator](frontier/primitive-incubator/README.md)
   * [Artifact Resurrection — Exact Return](frontier/primitive-incubator/artifact-resurrection-exact-return.md)
   * [TRAEX / Tracks — Crossing Grammar](frontier/primitive-incubator/traex-tracks-crossing-grammar.md)
-  * [Executable Membrane — JavaScript as Encounter Surface](frontier/primitive-incubator/executable-membrane-javascript-encounter-surface.md)
+  * [Executable Membrane — JavaScript as Encounter Surface](frontier/primitive-incubator/executable-membrane-javascript-encounter-surface/README.md)
+    * [Warranted Execution — Corpus OS Specimen](frontier/primitive-incubator/executable-membrane-javascript-encounter-surface/warranted-execution-corpus-os-specimen.md)
   * [Not-Pastor Ron — Meet the Story in Public](frontier/primitive-incubator/not-pastor-ron.md)
   * [Declared Witness Channels](frontier/primitive-incubator/declared-witness-channels.md)
 
