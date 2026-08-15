@@ -68,6 +68,20 @@ The remaining evidence gate is human and local: load the reviewed unpacked exten
 
 This is a second BEE specimen from the same project: urgency permits a narrowly scoped witness to cross the provider boundary, but it still does not grant transport authority before local proof.
 
+#### Phase-B2 one-track executable membrane — 2026-08-15
+
+Autodiscography Vault PR #5 carries the Phase-B1 witness one boundary farther without collapsing browser authentication into Vault authority. Duplicate DOM witnesses are aggregated by provider identity before the 25-track observation cap, so a sparse first node no longer wins permanently over a richer later title/source witness. `proposedAssets` remains distinct from `observedAssets`: only actually exposed media/link surfaces become transport candidates.
+
+Transport authority is separately admitted. The extension keeps required authority at `sidePanel`; Chrome `downloads` is declared only as an optional permission and requested from the explicit **Enable pilot transport** gesture. The exact observed transport URL may exist ephemerally in browser memory for that immediate Chrome download, but durable evidence carries only a redacted request descriptor hash. Cookie export, authorization-header capture, `<all_urls>`, browser-database access, Native Messaging, telemetry, server transport, and reusable session extraction remain outside the slice.
+
+The other side of the membrane is deliberately boring: Chrome stages one observed asset under `Downloads/Autodiscography-Vault/<run-id>/`; local `pilot:admit` then composes the existing Vault verifier, append-only journal, and handoff projection. It verifies SHA-256 and byte length, writes and verifies `.partial`, atomically promotes the final, appends the verified receipt, emits the bounded handoff, and independently re-verifies the final. A verified key is skipped only after its existing final matches the recorded receipt; corruption refuses overwrite.
+
+TDD was carried through four explicit RED→GREEN gates: live-witness enrichment, optional browser authority, durable request identity, and staged-byte admission. On PR #5 head `7d6dda1d443dba5d8fabe86836bb80686bb09e74`, GitHub Actions run 41 passed `npm ci`, the complete test suite, and the existing synthetic interruption/resume pilot.
+
+The unresolved evidence is intentionally human rather than simulated: one normal signed-in Suno specimen must show an enriched live witness, at least one real observed asset surface, explicit Downloads grant, one completed browser-staged file, successful local admission, independent byte-identity agreement, and no reusable URL/auth material in durable output. Until that happens, the 25-track acquisition control remains disabled and full-corpus transport remains unadmitted.
+
+This is BEE expressed as an executable membrane rather than a slogan: the browser keeps its authentication authority, the recipient receives only the smallest admitted capability and exact resulting evidence, and the next authority expansion waits on a local specimen instead of inheriting confidence from the donor boundary.
+
 ## Admission test
 
 Before carrying pollen across a project boundary, ask:
