@@ -1,6 +1,6 @@
 # Warranted Execution — Corpus OS Specimen
 
-Status: **landed implementation witness; GitBook publication pending**
+Status: **landed implementation witness; published**
 
 Date: **2026-08-15**
 
