@@ -1,8 +1,24 @@
 # jublEchat — Witness Parity Checkpoint
 
-**Status:** partial foundation repair; production persistence boundary remains open.
+> **Projection freshness**
+>
+> - **Disposition:** `STALE` as a current-state checkpoint; retained as truthful historical witness.
+> - **Canonical source:** `the-static-collective/jublEchat` GitHub PR #2 / repository history.
+> - **Source scope:** PR #2 — witness-parity prerequisite repair.
+> - **Witnessed source cut:** the earlier draft/open repair state described below; the page did not record an exact head SHA at observation time.
+> - **Compared source cut:** PR #2 merged at final head `2cfa7e0f925f5cead3aaeed6683bb831d1b062ba`, merge commit `1d0e04691b13d9bc34ce89b08030bcd0a964f055`.
+> - **Checked:** 2026-08-15.
+> - **Non-authority:** this checkpoint and its GitBook projection do not decide PR, repository, or runtime state.
 
-This checkpoint records prerequisite work for **Find Nearby Growth**. It does not declare the feature or the production witness path complete.
+**Historical status at the witnessed cut:** partial foundation repair; production persistence boundary remained open.
+
+This checkpoint records prerequisite work for **Find Nearby Growth**. The body below is intentionally preserved as the state witnessed at that earlier cut rather than silently rewritten into present tense.
+
+## Current note — prerequisite subsequently closed
+
+Canonical GitHub later advanced beyond this checkpoint. PR #2 merged after proving exact signed/persisted/replayed identity parity and durable explicit Still Alive evidence. The prerequisite described below is therefore satisfied in current repository history.
+
+Nearby Growth may now build as a read-only projection over explicit lineage/friction evidence, subject to its own issue, tests, and review. This note does not retroactively make the older checkpoint false; it makes the temporal boundary visible.
 
 ## What the repair branch now proves structurally
 
@@ -33,18 +49,18 @@ The repair branch now contains tests specifying that:
 
 The original replay defect was reproduced directly: the signing input and replay input produced different hashes because replay included the stored signature value. Canonicalization removes that self-reference.
 
-## What remains open
+## What remained open at this witnessed cut
 
-The Express/database transaction still needs to persist the **exact record that was signed**: same event identity, artifact identity, timestamp, version number, and explicit evidence arrays.
+The Express/database transaction still needed to persist the **exact record that was signed**: same event identity, artifact identity, timestamp, version number, and explicit evidence arrays.
 
-The current repository connector refuses writes to SQL migration files, including a schema-only migration. The connected Supabase account exposed in this session does not contain the jublEchat project, so applying the database change out-of-band would not be lawful evidence of a jublEchat repair.
+The repository connector available during this earlier pass refused writes to SQL migration files, including a schema-only migration. The connected Supabase account exposed in that session did not contain the jublEchat project, so applying the database change out-of-band would not have been lawful evidence of a jublEchat repair.
 
-Therefore PR #2 remains a draft and issue #1 remains open.
+**At that earlier cut**, PR #2 therefore remained a draft and issue #1 remained open. Canonical GitHub history later superseded that current-state claim by merging PR #2.
 
 ## Dependency law for Nearby Growth
 
-Do not build production Nearby Growth on this evidence until the authoritative write path proves:
+The original gate was:
 
 `server-signed event == database-persisted event == canonical replay event`
 
-After that floor is mechanically witnessed, Nearby Growth can remain a read-only projection over explicit lineage, active friction, human/graph links, and preserved alternate trajectories before any semantic-proximity lane is added.
+That gate is now satisfied by the merged PR #2 evidence. Nearby Growth can remain a read-only projection over explicit lineage, active friction, human/graph links, and preserved alternate trajectories before any semantic-proximity lane is added.
