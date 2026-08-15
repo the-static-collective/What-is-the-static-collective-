@@ -8,6 +8,7 @@
 * [Creative Field Laws](patterns/creative-field-laws.md)
 * [Field Traversal & Illumination](patterns/field-traversal-and-illumination.md)
 * [Creative Handoff](patterns/creative-handoff.md)
+* [Projection Freshness Witness](patterns/projection-freshness-witness.md)
 * [The Room Can Vanish; the World Remains](patterns/world-reentry-memory.md)
 * [Stigmergic Field](patterns/stigmergic-field.md)
 
