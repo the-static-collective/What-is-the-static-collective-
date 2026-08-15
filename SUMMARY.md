@@ -33,6 +33,7 @@
     * [Warranted Execution — Corpus OS Specimen](frontier/primitive-incubator/executable-membrane-javascript-encounter-surface/warranted-execution-corpus-os-specimen.md)
   * [Not-Pastor Ron — Meet the Story in Public](frontier/primitive-incubator/not-pastor-ron.md)
   * [Declared Witness Channels](frontier/primitive-incubator/declared-witness-channels.md)
+  * [Lawful Reachability / Constituted Reality](frontier/primitive-incubator/lawful-reachability-constituted-reality.md)
 
 ## Evidence
 
