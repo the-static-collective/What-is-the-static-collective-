@@ -2,6 +2,7 @@
 
 * [The Front Room](README.md)
 * [The Static Collective](<README (1).md>)
+* [Leave a Trace](CONTRIBUTING.md)
 
 ## Patterns
 
