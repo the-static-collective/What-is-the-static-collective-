@@ -29,6 +29,14 @@ This room is deliberately small. Its job is not to tell you everything. Its job 
 Entering this room does not mean loading the whole corpus. A door is an affordance, not an instruction to walk through it.
 {% endhint %}
 
+{% hint style="info" %}
+**Scan the doors freely. Cross them deliberately.**
+
+When many nearby doors are cheap to probe, inspect only their boundary metadata first: destination, relation, reachability, provenance, and relevance. Do not load destination content until the current request makes a crossing relevant.
+
+If a relevant projection is blocked, use another route only when its lineage to the authoritative source is explicit. Otherwise keep the destination fogged. A locked door does not make the hallway the room.
+{% endhint %}
+
 ## The rule of entry
 
 When a conversation begins here:
