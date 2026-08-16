@@ -27,11 +27,11 @@
 ## File Map
 
 - `specimens/front-room-threshold-scan-v0.1.md` — first evidence specimen; owns the seven-door boundary map and explicit no-content-loaded assertion.
-- `patterns/field-traversal-and-illumination.md` — portable laws: probe vs traversal, frictionless boundary parallelism, lineage-preserving alternate routes, temporary field/durable residue clarification from the prior Metta design where still missing.
+- `patterns/field-traversal-and-illumination.md` — portable laws: probe vs traversal, frictionless boundary parallelism, lineage-preserving alternate routes, inaccessible-authority behavior, and temporary-field/durable-residue clarification.
 - `README.md` — compact Front Room instruction for threshold scanning and blocked-authority behavior; must not become a registry or index.
 - `SUMMARY.md` — exposes the new specimen under Evidence.
 
-No other file should change unless verification proves one is strictly required.
+No other implementation file should change unless verification proves one is strictly required.
 
 ---
 
@@ -42,7 +42,7 @@ No other file should change unless verification proves one is strictly required.
 
 **Interfaces:**
 - Consumes: the seven existing Front Room doors declared in `README.md`; GitBook page-list metadata; GitBook space Git Sync metadata.
-- Produces: a durable `ThresholdScanReceipt` specimen containing one row/record per door and `contentLoadedDuringScan: false` only if the scan phase used no body-returning reads.
+- Produces: a durable `ThresholdScanReceipt` specimen containing one row per door and `contentLoadedDuringScan: false` only if the scan phase used no body-returning reads.
 
 - [ ] **Step 1: Start an evidence run if Riqor runtime is available**
 
@@ -53,9 +53,9 @@ riqor run start --goal "prove the Front Room seven-door threshold scan without l
 riqor run status --json
 ```
 
-Expected: one active repository-scoped run. If the local Riqor runtime is unavailable, record that limitation in the PR notes and continue with the concrete repository/GitBook evidence below; do not block the documentation specimen on Riqor availability.
+Expected: one active repository-scoped run. If the local Riqor runtime is unavailable, note that in the PR evidence summary and continue with the concrete GitBook/repository checks below.
 
-- [ ] **Step 2: Freeze the seven declared doors from the Front Room without following them**
+- [ ] **Step 2: Freeze the seven declared doors without following them**
 
 Run:
 
@@ -80,31 +80,23 @@ PY
 
 Expected: `seven Front Room doors present`.
 
-Do not open or read any destination file as part of this step.
+Do not open or read any destination body as part of this step.
 
-- [ ] **Step 3: Perform the scan with metadata/listing surfaces only**
+- [ ] **Step 3: Perform the threshold scan with metadata/listing surfaces only**
 
-Using the connected GitBook tool surface:
+Using the connected GitBook surface:
 
-1. Read the space metadata (`getSpaceById` or equivalent) and record:
-   - space id;
-   - Git Sync repository;
-   - Git Sync branch;
-   - sync operation state;
-   - revision id / observation timestamp if available.
-2. List page metadata (`listPages` or equivalent) and identify the GitBook page metadata corresponding to each of the seven Front Room door targets.
-3. For every destination record only metadata fields such as:
-   - GitBook page id;
-   - GitBook path/slug;
-   - Git-backed source path (`git.path`) where exposed;
-   - whether that projection is represented in the current page map.
-4. Do **not** call `get_page`, `fetch_file`, semantic search, webpage open, or any other body-returning operation for a destination during this scan phase.
+1. Read space metadata with `getSpaceById` or the equivalent metadata operation. Record the space id, Git Sync repository, branch, sync operation state, revision id, and observation time when available.
+2. List page metadata with `listPages` or equivalent. Identify the metadata entries corresponding to the seven Front Room destinations.
+3. For each door record only boundary metadata: page id, page path/slug, `git.path` when exposed, and whether the projection is represented in the current page map.
+4. Do **not** call `get_page`, GitHub `fetch_file`, semantic search, webpage open, or any other destination body-returning operation during the scan phase.
+5. If metadata alone cannot establish a route, classify it as `unverified` or `fogged`; do not retrieve content to settle the uncertainty.
 
-If a destination cannot be matched from metadata alone, record its projection/source state as `fogged` or `unverified`; do not fetch its body to resolve the ambiguity.
+For source-path existence inside a local checkout, `Path(source_path).is_file()` is allowed because it checks filesystem presence without loading the destination body.
 
-- [ ] **Step 4: Write the specimen from observed metadata**
+- [ ] **Step 4: Write the specimen using fixed field semantics**
 
-Create `specimens/front-room-threshold-scan-v0.1.md` with this exact structural contract:
+Create `specimens/front-room-threshold-scan-v0.1.md` with these sections and field rules:
 
 ```markdown
 # Front Room Threshold Scan v0.1
@@ -123,19 +115,25 @@ Test whether an agent can survey the boundaries of all seven Front Room doors wi
 
 ## Authority / lineage
 
-Record the observed GitBook Git Sync source, branch, sync state, and observation time/revision. State explicitly that this proves the observed projection/source lineage for this specimen only.
+Record the exact observed GitBook space id, Git Sync repository, branch, sync state, revision/observation marker, and the statement that these establish projection/source lineage only for this observed specimen.
 
 ## ThresholdScanReceipt
 
+Use exactly these columns:
+
 | Door | Relation | GitBook projection | Canonical Git source | Projection state | Source lineage | Relevance | Admitted crossing |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Patterns | portable laws / structures | <observed metadata> | <observed git.path> | <state> | <verified/unverified> | <judgment + reason> | no |
-| Witness | durable breadcrumbs | <observed metadata> | <observed git.path> | <state> | <verified/unverified> | <judgment + reason> | no |
-| Frontier | unresolved questions / tensions | <observed metadata> | <observed git.path> | <state> | <verified/unverified> | <judgment + reason> | no |
-| Incubator | pre-project / pre-law ideas | <observed metadata> | <observed git.path> | <state> | <verified/unverified> | <judgment + reason> | no |
-| Evidence | specimens / encounters | <observed metadata> | <observed git.path> | <state> | <verified/unverified> | <judgment + reason> | no |
-| Vocabulary | shared language | <observed metadata> | <observed git.path> | <state> | <verified/unverified> | <judgment + reason> | no |
-| World / Re-entry | reconstructible world continuity | <observed metadata> | <observed git.path> | <state> | <verified/unverified> | <judgment + reason> | no |
+
+Add exactly seven data rows in this order: Patterns, Witness, Frontier, Incubator, Evidence, Vocabulary, World / Re-entry.
+
+For each row:
+
+- `GitBook projection` = exact page path plus page id from page metadata, or `unverified` when no metadata match exists.
+- `Canonical Git source` = exact `git.path` from GitBook metadata, or `unverified` when absent.
+- `Projection state` = one of `represented-in-page-map`, `unverified`, or `fogged`.
+- `Source lineage` = `verified-by-git-sync` only when the observed Git Sync relationship and page metadata establish the source mapping; otherwise `unverified`.
+- `Relevance` = `relevant`, `not-relevant`, or `uncertain`, followed by one short reason tied to the current prompt.
+- `Admitted crossing` = `no` for all seven rows in the scan-only specimen.
 
 ## What the scan did not do
 
@@ -143,16 +141,14 @@ State that the scan did not read destination bodies, recursively scan child door
 
 ## Residual fog
 
-Record every unverified or surface-dependent condition, including any projection that could not be tested without a body read.
+Record every unverified or surface-dependent condition, including any projection whose public reachability could not be tested without loading body content.
 
 ## Verdict
 
-State only what the metadata proves. Do not claim that a rendered page is publicly reachable unless that was established through a non-body metadata surface.
+State only what the metadata proves. Do not claim a rendered page is publicly reachable unless that was established without loading its body.
 ```
 
-Replace every angle-bracket placeholder with observed values before committing. Do not leave `TBD`, `TODO`, or speculative certainty.
-
-- [ ] **Step 5: Verify the specimen contains all seven doors and the no-content-loaded assertion**
+- [ ] **Step 5: Verify specimen structure and absence of unresolved drafting markers**
 
 Run:
 
@@ -164,8 +160,15 @@ text = p.read_text(encoding='utf-8')
 for name in ['Patterns','Witness','Frontier','Incubator','Evidence','Vocabulary','World / Re-entry']:
     assert name in text, f'missing {name}'
 assert '`contentLoadedDuringScan`: false' in text
-for bad in ['TBD', 'TODO', '<observed', '<state>', '<verified', '<judgment']:
-    assert bad not in text, f'placeholder remains: {bad}'
+assert text.count('| Patterns |') == 1
+assert text.count('| Witness |') == 1
+assert text.count('| Frontier |') == 1
+assert text.count('| Incubator |') == 1
+assert text.count('| Evidence |') == 1
+assert text.count('| Vocabulary |') == 1
+assert text.count('| World / Re-entry |') == 1
+for bad in ['TBD', 'TODO', 'fill in later']:
+    assert bad not in text, f'unresolved drafting marker: {bad}'
 print('threshold specimen structure verified')
 PY
 ```
@@ -187,32 +190,31 @@ git commit -m "docs: preserve front room threshold scan specimen"
 - Modify: `patterns/field-traversal-and-illumination.md`
 
 **Interfaces:**
-- Consumes: the evidence boundary proved by `specimens/front-room-threshold-scan-v0.1.md` and the approved Threshold Scan design.
-- Produces: portable prose laws distinguishing threshold probe from traversal, positive frictionless boundary use, lawful route substitution, and the prior inaccessible-authority / temporary-field clarifications if not already present.
+- Consumes: `specimens/front-room-threshold-scan-v0.1.md` and the approved Threshold Scan design.
+- Produces: portable prose laws distinguishing threshold probing from traversal, positive frictionless boundary use, lawful route substitution, inaccessible-authority behavior, and temporary-field/durable-residue behavior.
 
-- [ ] **Step 1: Assert the current pattern has not already gained the new laws**
+- [ ] **Step 1: Check for pre-existing landed wording before editing**
 
 Run:
 
 ```bash
 python - <<'PY'
 from pathlib import Path
-text = Path('patterns/field-traversal-and-illumination.md').read_text(encoding='utf-8')
-for phrase in [
-    'Scan the doors freely. Cross them deliberately.',
-    'probing a threshold does not count as entering the room',
-    'route substitution is lawful only when provenance preserves the authority relationship',
-]:
-    assert phrase.lower() not in text.lower(), f'already present: {phrase}'
-print('new threshold laws not yet present')
+text = Path('patterns/field-traversal-and-illumination.md').read_text(encoding='utf-8').lower()
+phrases = [
+    'scan the doors freely. cross them deliberately.',
+    'probing a threshold does not count as entering the room.',
+    'route substitution is lawful only when provenance preserves the authority relationship.',
+]
+print({phrase: text.count(phrase) for phrase in phrases})
 PY
 ```
 
-Expected: `new threshold laws not yet present`. If any phrase is already present because another approved change landed first, re-read the current file and make only the missing additions; do not duplicate prose.
+Expected on the current baseline: zero for all three. If another approved change landed first, preserve it and add only missing requirements.
 
-- [ ] **Step 2: Add a focused subsection after traversal-as-epistemic-event**
+- [ ] **Step 2: Add threshold probing immediately after traversal-as-epistemic-event**
 
-Add this content, adapting only nearby heading numbering if required:
+Add this subsection, adjusting heading numbering only if the file's current structure requires it:
 
 ```markdown
 ### Threshold probing is not traversal
@@ -244,7 +246,7 @@ A threshold probe may inspect destination identity, declared relation, projectio
 
 - [ ] **Step 3: Add the lineage-preserving blocked-route rule near authority/fog handling**
 
-Add concise prose equivalent to:
+Add:
 
 ```markdown
 A projection may be unavailable even when the destination still exists through another authority-preserving route. An alternate route is lawful only when provenance establishes the relationship between the projection and the canonical source.
@@ -256,17 +258,17 @@ A projection may be unavailable even when the destination still exists through a
 > A locked door does not make the hallway the room.
 ```
 
-Do not describe caches or summaries as fallback authorities.
+Do not describe caches, summaries, or search results as fallback authorities.
 
 - [ ] **Step 4: Clarify temporary field vs durable residue in bounded reconstruction**
 
-Add one compact paragraph to the existing reconstruction section:
+Add this paragraph to the existing reconstruction section:
 
 ```markdown
 A field of awareness may be temporary, and the observer need not remain continuously present. Durable residue can still survive as field snapshots, traversal receipts, evidence references, and unresolved frontier. A later reconstruction may use that residue, but it must not imply continuity of consciousness that was not actually preserved.
 ```
 
-- [ ] **Step 5: Verify all required laws are present exactly once**
+- [ ] **Step 5: Verify required portable laws are present exactly once**
 
 Run:
 
@@ -293,7 +295,7 @@ PY
 
 Expected: `portable threshold laws verified`.
 
-- [ ] **Step 6: Commit the portable law update**
+- [ ] **Step 6: Commit the pattern update**
 
 ```bash
 git add patterns/field-traversal-and-illumination.md
@@ -302,19 +304,19 @@ git commit -m "docs: define threshold scan traversal law"
 
 ---
 
-### Task 3: Add the compact Front Room instruction and navigation entry
+### Task 3: Add the compact Front Room instruction and Evidence navigation
 
 **Files:**
 - Modify: `README.md`
 - Modify: `SUMMARY.md`
 
 **Interfaces:**
-- Consumes: portable laws from Task 2 and the specimen path from Task 1.
-- Produces: a small orientation-level threshold instruction and one Evidence navigation entry; no new registry or expanded door inventory.
+- Consumes: Task 2 portable laws and Task 1 specimen path.
+- Produces: one small orientation-level threshold instruction plus one navigation entry; no expanded door inventory.
 
-- [ ] **Step 1: Add one compact threshold-scan hint after the existing orientation hint or rule-of-entry block**
+- [ ] **Step 1: Add one compact threshold-scan hint near the existing orientation hint**
 
-Add a short block equivalent to:
+Add:
 
 ```markdown
 {% hint style="info" %}
@@ -326,11 +328,11 @@ If a relevant projection is blocked, use another route only when its lineage to 
 {% endhint %}
 ```
 
-Do not add page ids, GitHub paths, URLs, a door registry table, or per-door fallback instructions to the Front Room.
+Do not add page ids, GitHub paths, URLs, a registry table, or per-door fallback instructions to the Front Room.
 
-- [ ] **Step 2: Preserve the existing six rule-of-entry steps and door inventory unchanged**
+- [ ] **Step 2: Preserve the existing rule-of-entry list and seven-door inventory unchanged**
 
-Run after editing:
+Run:
 
 ```bash
 python - <<'PY'
@@ -347,23 +349,23 @@ for n, phrase in [
     assert f'{n}. {phrase}' in text, f'rule {n} changed or missing'
 for door in ['Patterns','Witness','Frontier','Incubator','Evidence','Vocabulary','World / Re-entry']:
     assert f'<strong>{door}</strong>' in text, f'door changed or missing: {door}'
-print('Front Room original entry rules and seven doors preserved')
+print('Front Room entry rules and seven doors preserved')
 PY
 ```
 
-Expected: `Front Room original entry rules and seven doors preserved`.
+Expected: `Front Room entry rules and seven doors preserved`.
 
-- [ ] **Step 3: Add the specimen to the Evidence section of `SUMMARY.md`**
+- [ ] **Step 3: Add the specimen under Evidence in `SUMMARY.md`**
 
-Add exactly one entry after `Specimen Notes`:
+Immediately after `Specimen Notes`, add exactly:
 
 ```markdown
 * [Front Room Threshold Scan v0.1](specimens/front-room-threshold-scan-v0.1.md)
 ```
 
-Do not reorganize unrelated navigation.
+Do not reorder unrelated navigation.
 
-- [ ] **Step 4: Verify navigation target exists and appears once**
+- [ ] **Step 4: Verify the navigation entry exists once and targets a real file**
 
 Run:
 
@@ -389,32 +391,41 @@ git commit -m "docs: expose threshold scan from front room"
 
 ---
 
-### Task 4: Verify the complete documentation slice and prepare the implementation PR
+### Task 4: Verify the complete slice and prepare PR readiness
 
 **Files:**
-- Verify only: `specimens/front-room-threshold-scan-v0.1.md`
-- Verify only: `patterns/field-traversal-and-illumination.md`
-- Verify only: `README.md`
-- Verify only: `SUMMARY.md`
+- Verify: `specimens/front-room-threshold-scan-v0.1.md`
+- Verify: `patterns/field-traversal-and-illumination.md`
+- Verify: `README.md`
+- Verify: `SUMMARY.md`
 
 **Interfaces:**
 - Consumes: Tasks 1–3.
 - Produces: fresh repository/GitBook evidence for PR readiness; no landing mutation.
 
-- [ ] **Step 1: Run repository whitespace and placeholder checks**
+- [ ] **Step 1: Run repository whitespace and unresolved-marker checks**
 
 ```bash
 git diff --check main...HEAD
-rg -n "TBD|TODO|<observed|<state>|<verified|<judgment" \
-  specimens/front-room-threshold-scan-v0.1.md \
-  patterns/field-traversal-and-illumination.md \
-  README.md \
-  SUMMARY.md && exit 1 || true
+python - <<'PY'
+from pathlib import Path
+paths = [
+    'specimens/front-room-threshold-scan-v0.1.md',
+    'patterns/field-traversal-and-illumination.md',
+    'README.md',
+    'SUMMARY.md',
+]
+for path in paths:
+    text = Path(path).read_text(encoding='utf-8')
+    for marker in ['TBD', 'TODO', 'fill in later']:
+        assert marker not in text, f'{path}: unresolved drafting marker {marker}'
+print('implementation docs contain no unresolved drafting markers')
+PY
 ```
 
-Expected: `git diff --check` exits 0; `rg` finds no plan placeholders in the implementation files.
+Expected: both commands exit 0.
 
-- [ ] **Step 2: Verify the diff is limited to the intended four implementation files plus the approved spec/plan files already on the branch**
+- [ ] **Step 2: Verify scope**
 
 Run:
 
@@ -422,7 +433,7 @@ Run:
 git diff --name-only main...HEAD
 ```
 
-Expected implementation changes:
+Allowed implementation files:
 
 ```text
 README.md
@@ -431,67 +442,63 @@ patterns/field-traversal-and-illumination.md
 specimens/front-room-threshold-scan-v0.1.md
 ```
 
-The branch may also contain the already-approved design and this implementation plan under `docs/superpowers/`. Any other changed file is scope expansion and must be removed or explicitly justified before review.
+The branch may also contain the approved design and this plan under `docs/superpowers/`. Any other changed file is scope expansion and must be removed or explicitly justified before review.
 
-- [ ] **Step 3: Re-run a metadata-only GitBook verification after the final mutation**
+- [ ] **Step 3: Re-run metadata-only GitBook verification after the final mutation**
 
-Using GitBook metadata/listing operations only:
+Using metadata/listing operations only:
 
 1. confirm the space is still Git-synced from `the-static-collective/What-is-the-static-collective-` `main`;
 2. confirm current sync state is not reported as failed;
-3. list page metadata and ensure the existing seven Front Room destination pages remain represented where they were represented before;
-4. do not fetch destination body text as part of this verification.
+3. list page metadata and verify the seven pre-existing Front Room destination entries remain represented where they were represented before;
+4. do not fetch destination body text during this verification.
 
-If the branch is not yet merged, do not claim the new specimen is published in GitBook. Only verify source-side structure pre-merge.
+Before merge, do not claim the new specimen is published in GitBook; only source-side structure is verifiable.
 
 - [ ] **Step 4: Complete the Riqor evidence run if one was started**
-
-Run:
 
 ```bash
 riqor run status --json
 riqor run complete --json
 ```
 
-Expected: no pending verification after the final mutation. If Riqor is unavailable, retain the limitation note and rely on the concrete checks above; do not fabricate Riqor evidence.
+Expected: no pending verification after the final mutation. If Riqor was unavailable, preserve that limitation in the PR evidence summary rather than inventing Riqor output.
 
-- [ ] **Step 5: Review the final diff line-by-line for minimality**
-
-Run:
+- [ ] **Step 5: Perform the minimal-diff review**
 
 ```bash
 git diff --stat main...HEAD
 git diff main...HEAD -- README.md SUMMARY.md patterns/field-traversal-and-illumination.md specimens/front-room-threshold-scan-v0.1.md
 ```
 
-For every changed line, ask whether it is required by the approved Threshold Scan slice. Remove any unrelated wording cleanup, navigation reorganization, extra fallback mechanisms, or speculative future architecture.
+Delete unrelated wording cleanup, navigation reorganization, extra fallback mechanisms, or speculative future architecture.
 
-- [ ] **Step 6: Push/update the implementation PR and invoke PR Completion readiness checks**
+- [ ] **Step 6: Push/update the implementation PR and run PR Completion readiness observation**
 
-Push the feature branch normally. Keep the PR draft until the implementation diff and evidence are complete. PR Completion should then observe CI/review state and bring the exact head to verified readiness.
+Push normally. Keep the PR draft until the implementation evidence is complete. PR Completion may repair branch-caused CI/review issues and bring the exact head to verified readiness.
 
 Do **not** merge, enable auto-merge, or enter a merge queue without fresh explicit approval for the current implementation head SHA.
 
-- [ ] **Step 7: Post-merge GitBook confirmation after explicit landing approval**
+- [ ] **Step 7: Verify GitBook after an explicitly approved merge**
 
 Only after the implementation PR is actually merged:
 
-1. confirm Git Sync reports a successful import containing the merged commit;
-2. list GitBook pages and confirm `Front Room Threshold Scan v0.1` appears under the expected navigation structure;
-3. verify the Front Room page still presents the same seven doors and the compact threshold-scan hint;
-4. if the published projection cannot be verified through the available surface, report it as residual fog rather than claiming publication success.
+1. confirm Git Sync reports a successful import after the merged commit;
+2. list GitBook pages and confirm `Front Room Threshold Scan v0.1` appears in the expected navigation structure;
+3. verify the Front Room still presents the same seven doors plus the compact threshold-scan hint;
+4. if the published projection cannot be verified through the available surface, report that as residual fog rather than claiming publication success.
 
 ---
 
 ## Self-Review Coverage
 
-- Spec requirement: distinguish destination from transport — covered by Task 1 lineage fields and Task 2 route law.
-- Spec requirement: probe != traversal — covered by Task 1 metadata-only procedure and Task 2 explicit law.
-- Spec requirement: exploit frictionless parallelism only at boundaries — covered by Task 1 seven-door scan and Task 2 positive law.
-- Spec requirement: lineage-preserving alternate routes — covered by Task 1 authority metadata and Task 2 route-substitution law.
-- Spec requirement: scan receipt is not permission — specimen records `Admitted crossing` separately; no body reads occur in Task 1.
-- Spec requirement: seven-door first proof only — Task 1 explicitly forbids recursion.
-- Spec requirement: keep Front Room small — Task 3 adds one compact hint and does not change the door inventory.
-- Spec requirement: no universal registry/crawler/warrant/resolver — enforced by Global Constraints and final minimality review.
-- Spec requirement: GitBook remains Git-synced from GitHub source of truth — verified in Task 4.
-- Prior Metta amendment: inaccessible authority and temporary field/durable residue — incorporated in Task 2 without inventing executable enforcement.
+- Destination identity vs transport: Task 1 lineage fields + Task 2 route law.
+- Probe vs traversal: Task 1 metadata-only procedure + Task 2 explicit law.
+- Positive frictionless boundary use: Task 1 seven-door scan + Task 2 positive law.
+- Lawful route substitution: Task 1 Git Sync provenance + Task 2 route-substitution law.
+- Scan receipt vs permission: Task 1 separates relevance from `Admitted crossing` and records all crossings as `no`.
+- Seven-door proof only: Task 1 forbids recursion.
+- Front Room stays small: Task 3 adds one compact hint and leaves the door inventory unchanged.
+- No registry/crawler/warrant/resolver: Global Constraints + Task 4 minimal-diff review.
+- GitHub remains GitBook editing source of truth: Task 4 metadata verification.
+- Inaccessible authority + temporary field/durable residue: Task 2 incorporates both without executable enforcement.
