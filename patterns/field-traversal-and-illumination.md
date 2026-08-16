@@ -80,6 +80,32 @@ The receipt does **not** prove that every revealed relation is true. It proves t
 
 **Law:** traversal may reveal a claim; traversal alone does not canonize it.
 
+### Threshold probing is not traversal
+
+Some observers—especially software agents—can test many nearby routes at negligible technical cost. That makes unrestricted retrieval easy, but it also creates a useful boundary operation: inspect whether a door exists, how it relates to the current field, and where its authority lives **without loading the destination field itself**.
+
+```text
+visible doors
+    ↓
+metadata-only threshold scan
+    ↓
+reachability + lineage + relevance
+    ↓
+deliberate crossing
+```
+
+> **Scan the doors freely. Cross them deliberately.**
+
+A threshold probe may inspect destination identity, declared relation, projection/source references, reachability metadata, provenance, and present-request relevance. It does not ingest destination body text, snippets from inside the destination, or neighboring destination content.
+
+**Law:** probing a threshold does not count as entering the room.
+
+**Law:** a visible or reachable field does not, by itself, authorize traversal into it.
+
+**Law:** when traversal cost approaches zero, boundedness must come from declared relevance or governance rather than assumed scarcity.
+
+**Law:** frictionless reachability is useful for surveying boundaries, not for silently expanding context.
+
 ---
 
 ## 3. Fog is first-class state
@@ -171,6 +197,14 @@ A frequently traversed path may be highly visible and still wrong. A novel path 
 
 **Law:** illumination changes visibility; it does not silently transfer authority.
 
+A projection may be unavailable even when the destination still exists through another authority-preserving route. An alternate route is lawful only when provenance establishes the relationship between the projection and the canonical source.
+
+**Law:** route substitution is lawful only when provenance preserves the authority relationship.
+
+**Law:** an inaccessible authoritative source does not transfer its authority to the nearest cache, summary, orientation page, or reconstruction.
+
+> A locked door does not make the hallway the room.
+
 ---
 
 ## 6. Different observers may lawfully hold different maps
@@ -206,6 +240,8 @@ A safer and more useful operation is **bounded reconstruction**:
 4. recover the traversal receipts that materially shaped it;
 5. state what could not be reconstructed;
 6. issue a reconstruction receipt.
+
+A field of awareness may be temporary, and the observer need not remain continuously present. Durable residue can still survive as field snapshots, traversal receipts, evidence references, and unresolved frontier. A later reconstruction may use that residue, but it must not imply continuity of consciousness that was not actually preserved.
 
 This makes a field revisitable without pretending that memory is perfect.
 
