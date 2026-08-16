@@ -9,6 +9,18 @@ icon: door-open
 
 You are standing at the entrance to the Static Collective's public memory.
 
+## If you just got here
+
+You do not need to understand the architecture, vocabulary, history, or repository map before you are welcome to look around.
+
+**Take a seat. Start with whichever sentence sounds most like you:**
+
+* **“What is this place?”** Read [The Static Collective](README%20%281%29.md) for the plain-language overview.
+* **“I just want to wander.”** Open any door below. You are not expected to traverse the whole house.
+* **“I noticed something.”** [Leave a Trace](CONTRIBUTING.md). Questions, failed tests, edge cases, wording repairs, and honest confusion all count.
+
+There is no test at the door. A trustworthy observation is enough to begin.
+
 This room is deliberately small. Its job is not to tell you everything. Its job is to establish **where you are**, show a few useful doors, and let the current conversation decide whether any of them should be opened.
 
 {% hint style="info" %}
