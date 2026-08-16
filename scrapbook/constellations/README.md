@@ -48,7 +48,7 @@ What evidence could justify moving some part of this into `patterns/`, `glossary
 5. **Allow contradictory constellations.** The same artifact may participate in multiple arrangements that do not fully agree.
 6. **Promotion is separate.** A constellation can be valuable forever without becoming a law.
 
-## First constellation set
+## Current constellation set
 
 - [Projection Is Witness](projection-is-witness.md)
 - [Memory Is Terrain](memory-is-terrain.md)
@@ -57,6 +57,7 @@ What evidence could justify moving some part of this into `patterns/`, `glossary
 - [Two Kinds of Evidence](two-kinds-of-evidence.md)
 - [Authority Narrows as Proof Grows](authority-narrows-as-proof-grows.md)
 - [Metaphor as Portal](metaphor-as-portal.md)
+- [Potential Energy Routing](potential-energy-routing.md)
 - [Bounded Weirdness](bounded-weirdness.md)
 
-The order is deliberate. It starts with where knowledge is projected, moves into how memory may become navigable terrain, then tests spatial route and sequence before crossing into evidence, authority, metaphor, and creative expansion.
+The order is deliberate. It starts with where knowledge is projected, moves into how memory may become navigable terrain, then tests spatial route and sequence before crossing into evidence, authority, metaphor, potential-energy routing, and bounded creative expansion.
