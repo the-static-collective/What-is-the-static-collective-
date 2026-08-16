@@ -23,6 +23,7 @@
 * [Two Kinds of Evidence](scrapbook/constellations/two-kinds-of-evidence.md)
 * [Authority Narrows as Proof Grows](scrapbook/constellations/authority-narrows-as-proof-grows.md)
 * [Metaphor as Portal](scrapbook/constellations/metaphor-as-portal.md)
+* [Potential Energy Routing](scrapbook/constellations/potential-energy-routing.md)
 * [Bounded Weirdness](scrapbook/constellations/bounded-weirdness.md)
 
 ## Frontier
