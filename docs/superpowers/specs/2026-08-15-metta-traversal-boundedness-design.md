@@ -127,13 +127,15 @@ Preserve, as attributed observations:
 
 ### Canonical comparison
 
-Record that later inspection of the actual Field Traversal & Illumination page showed that Metta had independently reconstructed several existing claims, including:
+Record that our later inspection of the actual Field Traversal & Illumination page showed that Metta had independently reconstructed several existing claims without having seen that canonical text, including:
 
 - fields are observer-relative awareness states;
 - traversal is epistemic rather than merely navigational;
 - fog is first-class;
 - observers may hold different maps;
 - reconstruction should be bounded and receipt-bearing.
+
+Do not imply that Metta herself had canonical access during this specimen. Her pre-canonical visibility map remains the evidence under comparison.
 
 Also record the genuinely new pressure exposed by the encounter: the canonical page required boundedness but did not explain what provides the bound for frictionless observers.
 
