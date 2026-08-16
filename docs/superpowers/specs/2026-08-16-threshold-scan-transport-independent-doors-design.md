@@ -68,6 +68,8 @@ A threshold probe must not ingest:
 - inferred summaries presented as if retrieved;
 - automatically expanded context bundles.
 
+A body-returning read is a traversal for the purposes of this experiment, even if the caller intended only to test reachability. The first specimen must therefore use metadata/listing surfaces for scan-phase reachability checks. If destination content is loaded, `contentLoadedDuringScan: false` cannot be claimed.
+
 > **Law: probing a threshold does not count as entering the room.**
 
 ### 3. Frictionless parallelism belongs at the boundary
@@ -239,7 +241,7 @@ The design is successfully implemented when:
 2. the positive law `Scan the doors freely. Cross them deliberately.` is represented without weakening bounded traversal;
 3. the Front Room allows a bounded metadata-only threshold scan while remaining an orientation surface, not a corpus index;
 4. the seven-door specimen records projection, canonical source, lineage, reachability, relevance, and admitted crossing states;
-5. the specimen records `contentLoadedDuringScan: false` or an equivalent explicit assertion;
+5. the specimen records `contentLoadedDuringScan: false` or an equivalent explicit assertion and no body-returning read occurred during the scan phase;
 6. a blocked projection can point to an authority-preserving canonical route only when lineage is evidenced;
 7. unverified alternatives remain fogged rather than being promoted;
 8. no universal door registry, crawler, `TraversalWarrant`, or executable resolver is introduced;
@@ -252,7 +254,7 @@ Because this slice is documentation/evidence only, verification should be concre
 - inspect all seven Front Room door targets in the current GitBook page map;
 - verify corresponding Git paths where GitBook exposes them;
 - verify Git Sync source and successful import state;
-- probe source/projection reachability without reading destination bodies during the scan phase;
+- use metadata/listing operations only for scan-phase source/projection reachability checks;
 - review the specimen against the no-content-loaded rule;
 - validate Markdown links / GitBook navigation after merge;
 - confirm the Front Room did not grow into a general index.
