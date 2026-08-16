@@ -37,6 +37,7 @@
   * [Not-Pastor Ron — Meet the Story in Public](frontier/primitive-incubator/not-pastor-ron.md)
   * [Declared Witness Channels](frontier/primitive-incubator/declared-witness-channels.md)
   * [Lawful Reachability / Constituted Reality](frontier/primitive-incubator/lawful-reachability-constituted-reality.md)
+  * [Refusal Topology — Influence Without Authority / Multiverse NAV](frontier/primitive-incubator/refusal-topology-influence-without-authority-multiverse-nav.md)
 
 ## Evidence
 
