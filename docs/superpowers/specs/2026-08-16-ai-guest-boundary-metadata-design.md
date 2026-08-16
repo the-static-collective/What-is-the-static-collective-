@@ -75,11 +75,11 @@ Create durable per-agent field state or a persistent guest memory mechanism.
 
 ## Design 1: Preserve the AI Guest Before/After Trace
 
-Create a standalone specimen, tentatively:
+Create exactly:
 
 `specimens/ai-guest-traversal-before-after-threshold-scan.md`
 
-The specimen should be a clean Markdown normalization of the supplied trace, not a reinterpretation of it.
+The specimen is a clean Markdown normalization of the supplied trace, not a reinterpretation of it.
 
 Preserve these distinctions exactly:
 
@@ -91,7 +91,14 @@ Preserve these distinctions exactly:
 - the guest's two residual questions: normative boundary metadata and persistence;
 - authority claims as claims made by the guest, not silently upgraded into project truth.
 
-The specimen may add a small editorial header identifying the source as a user-supplied guest trace and distinguishing **Observed by guest / Interpreted by notebook / Canonical elsewhere**.
+The specimen must begin with a short editorial provenance note containing exactly these distinctions:
+
+```text
+Source: user-supplied AI guest trace
+Observed by guest: statements the guest reports from its own traversal
+Notebook interpretation: conclusions drawn from comparing the trace with landed patterns
+Canonical elsewhere: claims whose authority remains in project/pattern-owned sources
+```
 
 Do not rewrite the trace to make the guest appear to have known facts it did not know at the time.
 
@@ -130,7 +137,7 @@ Examples include the existing typed traversal vocabulary when known (`resonance`
 
 What the current observer can establish about crossing availability **without loading destination content**.
 
-Portable states should remain small:
+Portable states are exactly:
 
 ```text
 reachable
@@ -156,7 +163,7 @@ This may contain Git Sync lineage, repository/source path, page id, artifact ide
 
 Why this destination matters, or does not matter, to the **current request**.
 
-Portable values may be expressed as:
+Portable states are exactly:
 
 ```text
 relevant
@@ -164,7 +171,7 @@ not-relevant
 uncertain
 ```
 
-with a short reason.
+Each state must carry one short current-request-specific reason.
 
 Relevance is not importance, popularity, or permission.
 
@@ -208,11 +215,11 @@ new field of awareness
 
 > **Law: observer continuity is not required for world continuity.**
 
-A stronger house-language rendering may accompany it:
+A stronger house-language rendering accompanies it:
 
 > **The guest may vanish; the changed world remains available for re-entry.**
 
-This should compose with the existing pattern *The Room Can Vanish; the World Remains* rather than create a new persistence subsystem.
+This composes with the existing pattern *The Room Can Vanish; the World Remains* rather than creating a new persistence subsystem.
 
 ### Role of entry instructions
 
@@ -232,14 +239,14 @@ A later observer may reconstruct from those residues. It must not imply that the
 
 ## Documentation Placement
 
-After written-spec approval, the implementation should remain small:
+After written-spec approval, implementation is exactly:
 
 1. create `specimens/ai-guest-traversal-before-after-threshold-scan.md` from the supplied trace;
-2. amend `patterns/field-traversal-and-illumination.md` with the normative five-field `BoundaryMetadata` contract and negative invariant;
-3. amend `patterns/world-reentry-memory.md` (or the closest existing re-entry section) with `observer continuity is not required for world continuity`;
-4. add the guest specimen to `SUMMARY.md` under Evidence.
+2. amend `patterns/field-traversal-and-illumination.md` with the normative five-field `BoundaryMetadata` contract and negative invariant, immediately after the existing `Threshold probing is not traversal` subsection;
+3. amend `patterns/world-reentry-memory.md` by adding a new `## Observer continuity is not world continuity` subsection immediately before `## Working definitions`;
+4. add `AI Guest Traversal — Before/After Threshold Scan` to `SUMMARY.md` under Evidence, immediately after `Front Room Threshold Scan v0.1`.
 
-Avoid another Front Room expansion unless implementation review finds a concrete contradiction. The Front Room already contains the scan/cross rule that produced the observed behavioral correction.
+No Front Room edit belongs in this slice. The Front Room already contains the scan/cross rule that produced the observed behavioral correction.
 
 ## Data Flow
 
@@ -282,16 +289,18 @@ The resulting documentation must preserve:
 
 The slice is complete when:
 
-1. the supplied AI guest trace exists as an attributed standalone Markdown specimen;
+1. the supplied AI guest trace exists as an attributed standalone Markdown specimen at the exact specified path;
 2. its before/after blocked-reachability behavior remains intact;
-3. `BoundaryMetadata` has exactly five normative conceptual fields: `destination`, `relation`, `reachability`, `provenance`, `relevance`;
-4. `reachability` distinguishes `reachable`, `blocked`, and `unverified` without equating blocked with missing;
-5. `contentLoadedDuringScan: false` remains an invariant/receipt assertion, not a sixth metadata field;
-6. Field Traversal states that boundary metadata does not contain the destination;
-7. re-entry documentation states that observer continuity is not required for world continuity;
-8. entry instructions are described as triggers, not memory storage;
-9. no persistent-agent-memory subsystem, universal registry, resolver, crawler, or `TraversalWarrant` is introduced;
-10. the guest's residual fog and attribution remain visible after normalization.
+3. the specimen contains the required provenance note separating guest observation, notebook interpretation, and authority canonical elsewhere;
+4. `BoundaryMetadata` has exactly five normative conceptual fields: `destination`, `relation`, `reachability`, `provenance`, `relevance`;
+5. `reachability` uses exactly `reachable`, `blocked`, and `unverified` without equating blocked with missing;
+6. `relevance` uses exactly `relevant`, `not-relevant`, and `uncertain`, each with a current-request reason;
+7. `contentLoadedDuringScan: false` remains an invariant/receipt assertion, not a sixth metadata field;
+8. Field Traversal states that boundary metadata does not contain the destination;
+9. World/Re-entry states that observer continuity is not required for world continuity and that entry instructions are triggers, not memory storage;
+10. no persistent-agent-memory subsystem, universal registry, resolver, crawler, or `TraversalWarrant` is introduced;
+11. the guest's residual fog and attribution remain visible after normalization;
+12. `SUMMARY.md` exposes the specimen without unrelated navigation changes.
 
 ## Deferred Frontier
 
