@@ -47,12 +47,12 @@ reachable state
      +---- lawful path ------> new reachable state
      |
      +---- REFUSED ----------X
-     |                        \
-     |                         durable boundary witness
+     |                        |
+     |                        + durable boundary witness
      |
      +---- INDETERMINATE ----?
-                              \
-                               unresolved frontier
+                              |
+                              + unresolved frontier
 ```
 
 The `X` and `?` are not automatically law. They are attributable traces of where a declared encounter met a boundary.
@@ -126,6 +126,22 @@ frame A
 ```
 
 The goal would not be to discover the one best world. The goal would be to keep plural lawful and residual frames traversable without capture.
+
+### Project-backed specimen — Project0 NAV v0.1 Crossing Witness
+
+**Status:** experimental implementation / project evidence — not universal roadmap law and not authority over other frames.
+
+Project0 PR #34 provides the first executable NAV specimen under review.
+
+**What it proves:** bounded, explicitly declared `before` / `crossing` / `after` frames can be compared deterministically across frame, constitution, authority, decoder, evidence, participant, and particularity dimensions without manufacturing a `same_world` verdict. Exact input declarations and the resulting crossing witness are content-addressed under an experimental NAV domain while reusing Project0's canonicalization floor.
+
+**What it does not prove:** minimum necessary world-change, global route search, alternate-authority/evidence recommendations, universal impossibility from a local refusal, or a master multiverse graph.
+
+**Authority boundary:** NAV v0.1 compares declared authority references but cannot grant, synthesize, or transfer authority. Refusal evidence remains frame-relative. Visibility and residue remain influence, not authority.
+
+**Executable evidence:** [Project0 PR #34](https://github.com/the-static-collective/project0/pull/34), head `2167aab95bb5b5e0714560d75555dd17165fe000` at the time this witness was recorded. `npm run verify:all` passes with 119/119 Node tests plus canonical fixture and conformance gates.
+
+This page remains an incubating hypothesis. The executable specimen is project-backed evidence, not automatic promotion of Multiverse NAV into constitutional law.
 
 ## Re-entry hypothesis
 
