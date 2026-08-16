@@ -1,10 +1,10 @@
 # Lawful Reachability / Constituted Reality
 
-**Status:** incubating / project-backed hypothesis
+**Status:** first Corpus specimen landed / project-backed hypothesis retained
 
-**First proving ground:** Corpus OS issue #20
+**First proving ground:** Corpus OS issue #20 — completed by PR #22
 
-**Dependency:** Corpus OS #17 — Linear Authority / Causal Accounting
+**Upstream dependency:** Corpus OS #17 — Linear Authority / Causal Accounting — satisfied
 
 ## The distinction
 
@@ -30,41 +30,21 @@ Working compression:
 
 > **Existence is observed. Reality is constituted. History is the lawful path between them.**
 
-## Why Corpus is ready to test it
+## First Corpus specimen — landed
 
-Corpus OS already has an adopted declaration root and one-shot Action Warrants. The next upstream proof, Causal Accounting, asks whether consequential attempts reconcile against attributable spent authority.
+Corpus OS now carries the first bounded implementation on `main`.
 
-Lawful Reachability begins only after that reconciliation exists.
-
-```
-adopted root
-    ↓
-balanced causal record
-    ↓
-terminal history
-    ↓
-balanced causal record
-    ↓
-CURRENT CONSTITUTED CUT
-```
-
-The reachability layer must remain a projection. It grants no authority and reaches no host.
-
-## First specimen
-
-The first Corpus proof should remain in-process and synthetic.
-
-A pure projection:
+The landed projection is shaped around:
 
 ```
 deriveWorldCut(root, causalRecords, observations)
 ```
 
-should distinguish at least:
+and preserves the distinctions required by the original hypothesis:
 
 ```
 balanced completion
-→ output may become constituted
+→ accountable output refs may become constituted
 
 warrant spent → host failed
 → history advances; no output manufactured
@@ -79,7 +59,23 @@ observed ref with no causal ancestry
 → ORPHAN_OBSERVATION
 ```
 
-The terminal distinction matters. Merely recording that authority was spent is insufficient: Session refusal, host failure, and completion are materially different histories and must not collapse into the same world cut.
+The implementation also fails closed on contradictory or unattributed balanced records, carries upstream Causal Accounting anomalies forward as unresolved/non-constituting evidence, and rejects authority-cut lineage crossings.
+
+The world cut remains a pure derived projection. It grants no authority, reaches no host, repairs no history, and carries `legalValidity: "unclaimed"`.
+
+## What the specimen proves — and does not
+
+The Corpus result demonstrates that observed substrate need not automatically redefine constituted state inside this bounded runtime model.
+
+It does **not** establish:
+
+* prevention of external mutation;
+* authenticity of rewritten or arbitrarily persisted causal records;
+* signatures or cryptographic attestation;
+* distributed consensus;
+* legal validity.
+
+This remains **tamper legibility**, not magical tamper prevention.
 
 ## Orphan observation
 
@@ -99,46 +95,33 @@ The older pattern says:
 
 > Do not preserve every room forever. Preserve enough truthful relation that the world can make another room.
 
-The Corpus hypothesis sharpens one possible implementation:
+The Corpus specimen sharpens one possible implementation:
 
 > Preserve enough accountable causality that the constituted present can be re-derived.
 
-The first proof is only deterministic structural re-derivation from supplied admitted evidence. It does **not** prove that an arbitrary serialized history can authenticate itself after restart.
-
-## Security boundary
-
-Lawful Reachability is **tamper legibility**, not magical tamper prevention.
-
-It may support:
-
-> Unauthorized substrate mutation need not automatically redefine constituted state.
-
-It does not establish:
-
-* prevention of external mutation;
-* authenticity of rewritten causal records;
-* signatures or cryptographic attestation;
-* distributed consensus;
-* legal validity.
+The landed proof is deterministic structural re-derivation from supplied admitted evidence. It does **not** prove that an arbitrary serialized history can authenticate itself after restart.
 
 ## Deferred consequences
 
-If the primitive survives the first proof, two larger structures fall out naturally but remain out of scope:
+With the first projection now executable, two downstream structures are mechanically imaginable but remain deliberately unimplemented:
 
-**Counterfactual worlds** — explore a proposed branch without promoting possibility into history.
+**Counterfactual worlds** — explore a supplied proposed branch without promoting possibility into constituted history.
 
 **Prospective reachability** — project which next states appear possible under the current constituted cut without turning the projection into a scheduler or authority source.
 
-Neither belongs in v0.1.
+Neither is automatically authorized by the first specimen. Each requires its own bounded design and proof.
 
 ## Project authority
 
 Canonical implementation/design authority remains in Corpus OS:
 
 * GitHub issue: https://github.com/the-static-collective/corpus-os/issues/20
-* Draft design/plan PR: https://github.com/the-static-collective/corpus-os/pull/19
+* Design / implementation-plan PR: https://github.com/the-static-collective/corpus-os/pull/19
+* Landed implementation PR: https://github.com/the-static-collective/corpus-os/pull/22
+* Implementation head: `7314fedf240cf9036fff4f88c2cd718fbd1b066c`
+* Landed merge commit: `71e17db5b5d5e50e8eeeba4c3168f4dcb9a9744c`
 
-This GitBook page is an incubator witness, not project authority.
+This GitBook page is a project-backed witness, not implementation authority.
 
 ## Graduation boundary
 
@@ -148,4 +131,4 @@ A future graduation requires a materially different second system to reproduce t
 
 Until then:
 
-> **Project-backed hypothesis. Concrete proving ground. Residual fog preserved.**
+> **First specimen landed. Project-backed hypothesis. Residual fog preserved.**
