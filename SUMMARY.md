@@ -42,6 +42,7 @@
   * [Physics of Meeting — Constitutional Worlds Without Capture](frontier/primitive-incubator/physics-of-meeting-constitutional-worlds-without-capture/README.md)
     * [Boot the House — Composed Proof v0.1](frontier/primitive-incubator/physics-of-meeting-constitutional-worlds-without-capture/boot-the-house-composed-proof-v0.1.md)
   * [Haunted Toaster Beta — Toastmood Field & CROSS](frontier/primitive-incubator/haunted-toaster-beta-toastmood-field-and-cross.md)
+  * [Haunted Toaster Beta Target — Living Creative Playground](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground.md)
 
 ## Evidence
 
