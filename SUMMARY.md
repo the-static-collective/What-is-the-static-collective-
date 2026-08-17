@@ -83,3 +83,4 @@
 * [TranchNode — Constitutional Reconstruction Benchmark v0.1](tranchnode-constitutional-reconstruction-benchmark-v0.1.md)
 * [Project0 — Floor 1.1 Reference Kernel Witness](project0-floor-1.1-reference-kernel-witness.md)
 * [Haunted Toaster — alpha.9 Render Ghost Field Witness](haunted-toaster-alpha.9-render-ghost-field-witness.md)
+* [Upper Room — First Scripture Heartbeat](upper-room-first-scripture-heartbeat.md)
