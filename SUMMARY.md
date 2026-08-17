@@ -39,6 +39,7 @@
   * [Lawful Reachability / Constituted Reality](frontier/primitive-incubator/lawful-reachability-constituted-reality.md)
   * [Refusal Topology — Influence Without Authority / Multiverse NAV](frontier/primitive-incubator/refusal-topology-influence-without-authority-multiverse-nav.md)
   * [Intent Stroke / Swype NAV — Traversal as Input](frontier/primitive-incubator/intent-stroke-swype-nav-traversal-as-input.md)
+  * [Physics of Meeting — Constitutional Worlds Without Capture](frontier/primitive-incubator/physics-of-meeting-constitutional-worlds-without-capture.md)
 
 ## Evidence
 
