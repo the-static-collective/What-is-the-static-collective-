@@ -106,6 +106,8 @@ A threshold probe may inspect destination identity, declared relation, projectio
 
 **Law:** frictionless reachability is useful for surveying boundaries, not for silently expanding context.
 
+Executable evidence now includes [Lawful Navigation Specimen 001](../specimens/lawful-navigation-specimen-001.md), a bounded Project0 → Corpus OS crossing in which the field materially changes while authority remains unchanged. It is one specimen of deliberate traversal, not a universal route rule.
+
 ---
 
 ## 3. Fog is first-class state
