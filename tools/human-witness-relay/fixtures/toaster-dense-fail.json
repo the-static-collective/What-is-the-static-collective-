@@ -1,0 +1,19 @@
+{
+  "schema": "static-collective/human-witness-event/v0",
+  "subject": {
+    "repository": "the-static-collective/the-haunted-toaster",
+    "pullRequest": 146,
+    "headSha": "944169c7f7bbd821f51fa8e404302cbaa8f4a342",
+    "gateId": "elastic-topology-response-v1-field-witness/dense-mastered-distorted",
+    "artifactRefs": ["artifact:windows-portable"],
+    "buildRefs": ["workflow:32057926247"]
+  },
+  "witness": {
+    "observedAt": "2026-08-18T00:11:00-05:00",
+    "observerRef": "human:synthetic-fixture",
+    "observation": "SYNTHETIC: dense mastered distorted specimen still collapsed into an undifferentiated field",
+    "disposition": "fail"
+  },
+  "evidenceRefs": ["evidence:synthetic-toaster-dense"],
+  "provenance": { "captureSurface": "fixture", "relayPolicy": "human-witness-relay-v0" }
+}
