@@ -44,6 +44,7 @@
   * [Haunted Toaster Beta — Toastmood Field & CROSS](frontier/primitive-incubator/haunted-toaster-beta-toastmood-field-and-cross.md)
   * [Haunted Toaster Beta Target — Living Creative Playground](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/README.md)
     * [Executable Beta Tracks](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/executable-beta-tracks.md)
+    * [Video Source, VSPantry & Receipt-Backed Memory](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/video-source-vspantry-and-receipt-backed-memory.md)
 
 ## Evidence
 
