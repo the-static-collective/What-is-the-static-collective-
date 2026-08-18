@@ -123,7 +123,7 @@ git commit -m "feat: recognize Toaster field witness specimens"
 - Modify: `tests/human-witness-relay-toaster.test.cjs`
 
 **Interfaces:**
-- Produces: `renderToasterEvidencePacket(event)` returning:
+- Produces: `renderToasterEvidencePacket(event, { eventId })` returning:
 
 ```js
 {
@@ -138,9 +138,12 @@ git commit -m "feat: recognize Toaster field witness specimens"
 }
 ```
 
+- `eventId` is required and is supplied by core after deterministic identity generation. The adapter does not recompute identity.
+
 - [ ] **Step 1: Write failing packet tests**
 
 Prove the rendered Markdown contains:
+- deterministic event ID supplied by core;
 - exact head SHA;
 - exact specimen identity;
 - human disposition;
@@ -154,7 +157,11 @@ Example assertion:
 
 ```js
 test("renders witness as evidence, not authority", () => {
-  const packet = renderToasterEvidencePacket(event("elastic-topology-response-v1-field-witness/quiet-spacious"));
+  const packet = renderToasterEvidencePacket(
+    event("elastic-topology-response-v1-field-witness/quiet-spacious"),
+    { eventId: `hwv0_${"a".repeat(64)}` },
+  );
+  assert.match(packet.markdown, /hwv0_a{64}/);
   assert.match(packet.markdown, /944169c7f7bbd821f51fa8e404302cbaa8f4a342/);
   assert.match(packet.markdown, /SYNTHETIC: specimen observation/);
   assert.match(packet.markdown, /pending project admission/i);
@@ -175,7 +182,7 @@ Use a stable section shape:
 ```markdown
 ### Human Witness Relay v0 — packaged field specimen
 
-- Event: `<event id supplied by core>`
+- Event: `<event id>`
 - Exact head: `<sha>`
 - Specimen: `<specimen>`
 - Human disposition: `<pass|fail|ambiguous>`
@@ -192,7 +199,7 @@ Project gate disposition: **pending project admission**.
 This witness does not itself authorize merge, release, regeneration, or gate closure.
 ```
 
-The adapter function itself need not know event ID; allow a second optional `context.eventId` argument or let the core inject it before final rendering. Pick one interface and keep it consistent in all tests.
+Reject a missing or malformed `eventId` instead of emitting an unattributed packet.
 
 - [ ] **Step 4: Verify GREEN**
 
@@ -263,6 +270,7 @@ git commit -m "feat: enforce Toaster witness head freshness"
 
 **Interfaces:**
 - Core registry gains the three exact Toaster adapter keys.
+- Each registered adapter object exposes `render(event, { eventId })` and calls `renderToasterEvidencePacket(event, { eventId })`.
 - Each fixture observation begins `SYNTHETIC:` and therefore cannot be mistaken for real field proof.
 
 - [ ] **Step 1: Write failing fixture + routing tests**
@@ -270,6 +278,7 @@ git commit -m "feat: enforce Toaster witness head freshness"
 Prove each fixture:
 - validates through core;
 - resolves to Toaster adapter;
+- receives the deterministic core `eventId` in rendered Markdown;
 - renders its exact disposition without changing `projectDisposition` from pending;
 - retains exact PR #146 head in the packet;
 - emits no `nextDoor` before project admission.
