@@ -1,0 +1,22 @@
+{
+  "schema": "static-collective/human-witness-event/v0",
+  "subject": {
+    "repository": "synthetic/example-project",
+    "pullRequest": 1,
+    "headSha": "1111111111111111111111111111111111111111",
+    "gateId": "synthetic-gate/pass",
+    "artifactRefs": ["artifact:synthetic-pass"],
+    "buildRefs": ["build:synthetic-1"]
+  },
+  "witness": {
+    "observedAt": "2026-08-18T00:00:00-05:00",
+    "observerRef": "human:synthetic-fixture",
+    "observation": "SYNTHETIC: bounded specimen passed the declared synthetic criterion",
+    "disposition": "pass"
+  },
+  "evidenceRefs": ["evidence:synthetic-pass"],
+  "provenance": {
+    "captureSurface": "fixture",
+    "relayPolicy": "human-witness-relay-v0"
+  }
+}
