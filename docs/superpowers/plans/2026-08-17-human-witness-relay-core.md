@@ -27,8 +27,6 @@
 
 ## File Structure
 
-Create the following focused files:
-
 - `tools/human-witness-relay/constants.cjs` — schema string, dispositions, forbidden key names, stable error codes.
 - `tools/human-witness-relay/validate.cjs` — pure event validation and forbidden-material scan.
 - `tools/human-witness-relay/event-id.cjs` — canonical deterministic identity from semantically stable fields.
@@ -55,16 +53,12 @@ Adapters are added by the two follow-on plans and registered only after their te
 - Produces: `SCHEMA`, `DISPOSITIONS`, `ERRORS`, `validateHumanWitnessEventV0(input)`.
 - `validateHumanWitnessEventV0(input)` returns `{ ok: true, event }` or `{ ok: false, errors: [{ code, path }] }`; it never throws for ordinary invalid input.
 
-- [ ] **Step 1: Write failing validator tests**
-
-Add tests proving the exact semantic floor:
+- [ ] **Step 1: Write the failing validator tests**
 
 ```js
 const test = require("node:test");
 const assert = require("node:assert/strict");
-const {
-  validateHumanWitnessEventV0,
-} = require("../tools/human-witness-relay/validate.cjs");
+const { validateHumanWitnessEventV0 } = require("../tools/human-witness-relay/validate.cjs");
 
 function validEvent(overrides = {}) {
   return {
@@ -84,10 +78,7 @@ function validEvent(overrides = {}) {
       disposition: "pass",
     },
     evidenceRefs: [],
-    provenance: {
-      captureSurface: "chat",
-      relayPolicy: "human-witness-relay-v0",
-    },
+    provenance: { captureSurface: "chat", relayPolicy: "human-witness-relay-v0" },
     ...overrides,
   };
 }
@@ -115,11 +106,9 @@ test("unknown disposition is rejected", () => {
 });
 ```
 
-Add one test for malformed SHA, empty observation, missing `gateId`, and non-ISO `observedAt`.
+Add explicit tests for malformed SHA, empty observation, missing `gateId`, and non-ISO `observedAt`.
 
-- [ ] **Step 2: Run the focused test and verify RED**
-
-Run:
+- [ ] **Step 2: Run the focused test to verify RED**
 
 ```bash
 node --test tests/human-witness-relay-core.test.cjs
@@ -129,7 +118,7 @@ Expected: FAIL because `validate.cjs` does not exist.
 
 - [ ] **Step 3: Implement constants and minimal validation**
 
-`constants.cjs` must export exactly:
+`constants.cjs` exports exactly:
 
 ```js
 const SCHEMA = "static-collective/human-witness-event/v0";
@@ -144,17 +133,15 @@ const ERRORS = Object.freeze({
 module.exports = { SCHEMA, DISPOSITIONS, ERRORS };
 ```
 
-`validate.cjs` must validate only the approved semantic floor and return a shallow/deep copied event rather than mutating caller input. It must preserve `witness.observation` verbatim.
+`validate.cjs` validates only the approved semantic floor, returns a copied event rather than mutating input, and preserves `witness.observation` verbatim.
 
-- [ ] **Step 4: Run focused tests and verify GREEN**
-
-Run:
+- [ ] **Step 4: Run focused tests to verify GREEN**
 
 ```bash
 node --test tests/human-witness-relay-core.test.cjs
 ```
 
-Expected: PASS for the transport contract tests written in Step 1.
+Expected: PASS for Task 1 tests.
 
 - [ ] **Step 5: Commit**
 
@@ -173,8 +160,8 @@ git commit -m "feat: validate human witness relay events"
 - Modify: `tests/human-witness-relay-core.test.cjs`
 
 **Interfaces:**
-- Produces: `findForbiddenMaterial(value)` returning stable `{ path, key }[]` evidence without echoing secret values.
-- `validateHumanWitnessEventV0` consumes that scanner and returns `WITNESS_FORBIDDEN_MATERIAL` errors.
+- Produces: `findForbiddenMaterial(value)` returning `{ path, key }[]` without echoing forbidden values.
+- `validateHumanWitnessEventV0` returns `WITNESS_FORBIDDEN_MATERIAL` for any forbidden field.
 
 - [ ] **Step 1: Add failing secret-exclusion tests**
 
@@ -198,13 +185,9 @@ test("rejects signed-url/session shaped keys recursively", () => {
 });
 ```
 
-Forbidden key matching must be case-insensitive for: `cookie`, `cookies`, `authorization`, `authorizationHeader`, `bearerToken`, `token`, `password`, `session`, `sessionId`, `browserStorage`, `localStorage`, `signedUrl`, `finalUrl`, `referrer`.
-
-Do not reject ordinary stable IDs merely because their value looks opaque.
+Forbidden key matching is case-insensitive for `cookie`, `cookies`, `authorization`, `authorizationHeader`, `bearerToken`, `token`, `password`, `session`, `sessionId`, `browserStorage`, `localStorage`, `signedUrl`, `finalUrl`, and `referrer`. Do not reject stable opaque IDs merely because their values are high entropy.
 
 - [ ] **Step 2: Verify RED**
-
-Run:
 
 ```bash
 node --test tests/human-witness-relay-core.test.cjs
@@ -214,7 +197,7 @@ Expected: FAIL because forbidden-material scanning is absent.
 
 - [ ] **Step 3: Implement recursive key-only detection**
 
-Implement `findForbiddenMaterial` so reported errors contain the structural path and forbidden key name but never the corresponding value.
+`findForbiddenMaterial` reports structural path + forbidden key name only. It never returns or embeds the corresponding value.
 
 - [ ] **Step 4: Verify GREEN**
 
@@ -256,15 +239,15 @@ Also prove object insertion-order differences outside ordered arrays do not chan
 
 - [ ] **Step 2: Verify RED**
 
-Run the focused test command; expected module-not-found failure.
+Run the focused test; expected module-not-found failure.
 
 - [ ] **Step 3: Implement canonical serialization + SHA-256**
 
-Use `node:crypto`. Canonicalize by explicitly constructing the identity object in the documented field order; do not generic-sort user objects that are not part of the identity contract.
+Use `node:crypto`. Build the identity object explicitly in the documented field order; do not generic-sort arbitrary user objects.
 
 - [ ] **Step 4: Verify GREEN**
 
-Run the focused test command; expected PASS.
+Run the focused test; expected PASS.
 
 - [ ] **Step 5: Commit**
 
@@ -283,7 +266,7 @@ git commit -m "feat: identify witness events deterministically"
 
 **Interfaces:**
 - Produces: `adapterKey(event): string`, `resolveWitnessAdapter(event, registry)`.
-- Registry shape: `Map<string, { render(event): object }>`.
+- Registry shape: `Map<string, { render(event, { eventId }): object }>`.
 - Adapter key is `${repository}#${gateId}`; prefix/wildcard support is intentionally absent in core v0.
 
 - [ ] **Step 1: Add failing routing tests**
@@ -300,7 +283,7 @@ test("unknown target fails closed", () => {
 test("explicit target resolves only its declared adapter", () => {
   const { adapterKey, resolveWitnessAdapter } = require("../tools/human-witness-relay/route.cjs");
   const event = validEvent();
-  const adapter = { render: () => ({ kind: "fixture" }) };
+  const adapter = { render: (_event, { eventId }) => ({ kind: "fixture", eventId }) };
   const registry = new Map([[adapterKey(event), adapter]]);
   assert.equal(resolveWitnessAdapter(event, registry), adapter);
 });
@@ -312,7 +295,7 @@ Run focused tests; expected failure because `route.cjs` is absent.
 
 - [ ] **Step 3: Implement explicit routing**
 
-Unknown targets must throw an `Error` carrying `code = ERRORS.TARGET_UNKNOWN`; error text may name the repository/gate but must not include witness observation text.
+Unknown targets throw an `Error` carrying `code = ERRORS.TARGET_UNKNOWN`; error text may name repository/gate but must not include witness observation text.
 
 - [ ] **Step 4: Verify GREEN**
 
@@ -343,7 +326,7 @@ git commit -m "feat: route witness events explicitly"
   event,
   adapterKey,
   projectDisposition: "pending-project-admission",
-  routing: adapter.render(event),
+  routing: adapter.render(event, { eventId }),
 }
 ```
 
@@ -356,7 +339,8 @@ Use `node:child_process.spawnSync` to prove:
 - validate-only succeeds for a valid event;
 - missing head exits `2`;
 - stdout never contains a forbidden secret supplied in invalid input;
-- `projectDisposition` is always `pending-project-admission` from core.
+- `projectDisposition` is always `pending-project-admission` from core;
+- the deterministic core `eventId` is the same ID passed to `adapter.render(event, { eventId })`.
 
 - [ ] **Step 2: Verify RED**
 
@@ -364,11 +348,9 @@ Run focused tests; expected failure because public API/CLI are absent.
 
 - [ ] **Step 3: Implement minimal composition and CLI**
 
-The CLI must not import HTTP, GitHub, GitBook, filesystem persistence, browser APIs, or credential helpers.
+Compute `eventId` exactly once in core, call `adapter.render(event, { eventId })`, and place the returned object under `routing`. The CLI must not import HTTP, GitHub, GitBook, filesystem persistence, browser APIs, or credential helpers.
 
 - [ ] **Step 4: Verify GREEN**
-
-Run:
 
 ```bash
 node --test tests/human-witness-relay-core.test.cjs
@@ -394,7 +376,7 @@ git commit -m "feat: add local witness relay command surface"
 - Modify: `tests/human-witness-relay-core.test.cjs`
 
 **Interfaces:**
-- Fixtures are transport-only and deliberately use synthetic repository/gate identities so they cannot be mistaken for real field proof.
+- Fixtures are transport-only and use synthetic repository/gate identities so they cannot be mistaken for real field proof.
 
 - [ ] **Step 1: Add fixture tests**
 
@@ -415,7 +397,7 @@ node --test tests/human-witness-relay-core.test.cjs
 node tools/human-witness-relay/cli.cjs --validate-only < tools/human-witness-relay/fixtures/pass.json
 ```
 
-Expected: all tests PASS; CLI emits a packet with `eventId`, exact synthetic observation, and `projectDisposition: "pending-project-admission"`.
+Expected: all tests PASS; CLI emits `eventId`, exact synthetic observation, and `projectDisposition: "pending-project-admission"`.
 
 - [ ] **Step 5: Commit**
 
