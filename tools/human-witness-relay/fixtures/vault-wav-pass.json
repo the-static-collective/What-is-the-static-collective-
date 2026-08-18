@@ -1,0 +1,26 @@
+{
+  "schema": "static-collective/human-witness-event/v0",
+  "subject": {
+    "repository": "the-static-collective/autodiscography-vault",
+    "pullRequest": 9,
+    "headSha": "0232ddf0e59e1b8148538a3c97b3527a76a8d008",
+    "gateId": "phase-b2c-one-real-wav-preservation",
+    "artifactRefs": ["vault-artifact:audio/synthetic-pass.wav"],
+    "buildRefs": []
+  },
+  "witness": {
+    "observedAt": "2026-08-18T00:20:00-05:00",
+    "observerRef": "human:synthetic-fixture",
+    "observation": "SYNTHETIC: one WAV preservation specimen completed with matching referenced machine evidence",
+    "disposition": "pass"
+  },
+  "evidenceRefs": [
+    "provider-track:synthetic-track-pass",
+    "run:synthetic-run-pass",
+    "receipt:receipts/synthetic-run-pass.audio_wav.json",
+    "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "bytes:123456",
+    "vault-artifact:audio/synthetic-pass.wav"
+  ],
+  "provenance": { "captureSurface": "fixture", "relayPolicy": "human-witness-relay-v0" }
+}
