@@ -2,9 +2,44 @@ const { SCHEMA, DISPOSITIONS, ERRORS } = require("./constants.cjs");
 
 const SHA40 = /^[a-f0-9]{40}$/;
 const ISO_WITH_ZONE = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$/;
+const FORBIDDEN_KEYS = new Set([
+  "cookie",
+  "cookies",
+  "authorization",
+  "authorizationheader",
+  "bearertoken",
+  "token",
+  "password",
+  "session",
+  "sessionid",
+  "browserstorage",
+  "localstorage",
+  "signedurl",
+  "finalurl",
+  "referrer",
+]);
 
 function clone(value) {
   return structuredClone(value);
+}
+
+function findForbiddenMaterial(value, path = "$", findings = []) {
+  if (!value || typeof value !== "object") return findings;
+
+  if (Array.isArray(value)) {
+    value.forEach((item, index) => findForbiddenMaterial(item, `${path}[${index}]`, findings));
+    return findings;
+  }
+
+  for (const [key, child] of Object.entries(value)) {
+    const childPath = path === "$" ? key : `${path}.${key}`;
+    if (FORBIDDEN_KEYS.has(key.toLowerCase())) {
+      findings.push({ path: childPath, key });
+      continue;
+    }
+    findForbiddenMaterial(child, childPath, findings);
+  }
+  return findings;
 }
 
 function validateHumanWitnessEventV0(input) {
@@ -12,6 +47,14 @@ function validateHumanWitnessEventV0(input) {
 
   if (!input || typeof input !== "object" || Array.isArray(input)) {
     return { ok: false, errors: [{ code: ERRORS.EVENT_INVALID, path: "$" }] };
+  }
+
+  const forbidden = findForbiddenMaterial(input);
+  if (forbidden.length > 0) {
+    return {
+      ok: false,
+      errors: forbidden.map(({ path }) => ({ code: ERRORS.FORBIDDEN_MATERIAL, path })),
+    };
   }
 
   const event = clone(input);
@@ -75,4 +118,4 @@ function validateHumanWitnessEventV0(input) {
   return { ok: true, event };
 }
 
-module.exports = { validateHumanWitnessEventV0 };
+module.exports = { findForbiddenMaterial, validateHumanWitnessEventV0 };
