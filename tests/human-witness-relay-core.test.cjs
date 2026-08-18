@@ -137,4 +137,103 @@ test("event identity ignores object insertion order outside ordered arrays", () 
   assert.equal(humanWitnessEventId(a), humanWitnessEventId(b));
 });
 
+test("unknown target fails closed", () => {
+  const { resolveWitnessAdapter } = require("../tools/human-witness-relay/route.cjs");
+  assert.throws(
+    () => resolveWitnessAdapter(validEvent(), new Map()),
+    (error) => error.code === "WITNESS_TARGET_UNKNOWN",
+  );
+});
+
+test("explicit target resolves only its declared adapter", () => {
+  const { adapterKey, resolveWitnessAdapter } = require("../tools/human-witness-relay/route.cjs");
+  const event = validEvent();
+  const adapter = { render: () => ({ kind: "fixture" }) };
+  const registry = new Map([[adapterKey(event), adapter]]);
+  assert.equal(resolveWitnessAdapter(event, registry), adapter);
+});
+
+test("public API keeps project disposition pending and supplies eventId to adapter", () => {
+  const { prepareWitnessRoutingPacket } = require("../tools/human-witness-relay/index.cjs");
+  const { adapterKey } = require("../tools/human-witness-relay/route.cjs");
+  const event = validEvent();
+  let seenContext = null;
+  const adapter = {
+    render: (_event, context) => {
+      seenContext = context;
+      return { kind: "fixture", eventId: context.eventId };
+    },
+  };
+  const registry = new Map([[adapterKey(event), adapter]]);
+  const packet = prepareWitnessRoutingPacket(event, registry);
+  assert.equal(packet.projectDisposition, "pending-project-admission");
+  assert.equal(packet.adapterKey, adapterKey(event));
+  assert.equal(packet.routing.eventId, packet.eventId);
+  assert.equal(seenContext.eventId, packet.eventId);
+});
+
+test("validate-only CLI succeeds for a valid event", () => {
+  const { spawnSync } = require("node:child_process");
+  const path = require("node:path");
+  const cli = path.join(__dirname, "../tools/human-witness-relay/cli.cjs");
+  const run = spawnSync(process.execPath, [cli, "--validate-only"], {
+    input: JSON.stringify(validEvent()),
+    encoding: "utf8",
+  });
+  assert.equal(run.status, 0, run.stderr);
+  const packet = JSON.parse(run.stdout);
+  assert.match(packet.eventId, /^hwv0_[a-f0-9]{64}$/);
+  assert.equal(packet.projectDisposition, "pending-project-admission");
+  assert.equal(packet.event.witness.observation, "quiet one breathes without losing the frame");
+});
+
+test("validate-only CLI exits 2 for missing head", () => {
+  const { spawnSync } = require("node:child_process");
+  const path = require("node:path");
+  const cli = path.join(__dirname, "../tools/human-witness-relay/cli.cjs");
+  const event = validEvent();
+  delete event.subject.headSha;
+  const run = spawnSync(process.execPath, [cli, "--validate-only"], {
+    input: JSON.stringify(event),
+    encoding: "utf8",
+  });
+  assert.equal(run.status, 2);
+  assert.match(run.stderr, /WITNESS_EXECUTION_IDENTITY_MISSING/);
+});
+
+test("CLI never echoes forbidden secret values", () => {
+  const { spawnSync } = require("node:child_process");
+  const path = require("node:path");
+  const cli = path.join(__dirname, "../tools/human-witness-relay/cli.cjs");
+  const event = validEvent();
+  event.provenance.authorization = "Bearer ultra-secret";
+  const run = spawnSync(process.execPath, [cli, "--validate-only"], {
+    input: JSON.stringify(event),
+    encoding: "utf8",
+  });
+  assert.equal(run.status, 2);
+  assert.doesNotMatch(run.stdout + run.stderr, /ultra-secret/);
+  assert.match(run.stderr, /WITNESS_FORBIDDEN_MATERIAL/);
+});
+
+test("synthetic disposition fixtures validate without claiming project authority", () => {
+  const fs = require("node:fs");
+  const path = require("node:path");
+  const { humanWitnessEventId } = require("../tools/human-witness-relay/event-id.cjs");
+  const fixtureDir = path.join(__dirname, "../tools/human-witness-relay/fixtures");
+  const names = ["pass.json", "fail.json", "ambiguous.json"];
+  const events = names.map((name) => JSON.parse(fs.readFileSync(path.join(fixtureDir, name), "utf8")));
+  for (const event of events) {
+    const result = validateHumanWitnessEventV0(event);
+    assert.equal(result.ok, true);
+    assert.match(event.witness.observation, /^SYNTHETIC:/);
+    const serialized = JSON.stringify(event);
+    assert.doesNotMatch(serialized, /"projectDisposition"\s*:\s*"satisfied"/);
+    assert.doesNotMatch(serialized, /merge approved|release approved/i);
+    assert.doesNotMatch(serialized, /https?:\/\//i);
+  }
+  const ids = events.map(humanWitnessEventId);
+  assert.equal(new Set(ids).size, 3);
+});
+
 module.exports = { validEvent };
