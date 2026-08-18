@@ -44,7 +44,7 @@
 **Interfaces:**
 - Produces: `VAULT_REPOSITORY`, `VAULT_PR`, `VAULT_GATE_ID`, `isVaultWitnessEvent(event)`, `parseVaultEvidenceRefs(event)`.
 - `VAULT_GATE_ID = "phase-b2c-one-real-wav-preservation"`.
-- `parseVaultEvidenceRefs` returns:
+- `parseVaultEvidenceRefs(event)` returns:
 
 ```js
 {
@@ -155,14 +155,7 @@ git commit -m "feat: recognize Vault one-WAV witness evidence"
 }
 ```
 
-Required stable evidence kinds for `complete: true` are:
-- provider track;
-- receipt;
-- SHA-256;
-- byte length;
-- Vault artifact reference.
-
-Run ID is recommended but optional because the design says "where available".
+Required stable evidence kinds for `complete: true` are provider track, receipt, SHA-256, byte length, and Vault artifact reference. Run ID is optional because the approved design says "where available".
 
 Important: `complete: true` means only that the relay has references to the required project evidence classes. It does not prove those references are truthful or that Vault admission succeeded.
 
@@ -212,7 +205,7 @@ git commit -m "feat: report Vault witness evidence completeness"
 - Modify: `tests/human-witness-relay-vault.test.cjs`
 
 **Interfaces:**
-- Produces: `renderVaultEvidencePacket(event, context = {})` returning:
+- Produces: `renderVaultEvidencePacket(event, { eventId })` returning:
 
 ```js
 {
@@ -228,9 +221,12 @@ git commit -m "feat: report Vault witness evidence completeness"
 }
 ```
 
+- `eventId` is required and is supplied by core after deterministic identity generation. The adapter does not recompute identity.
+
 - [ ] **Step 1: Write failing packet tests**
 
 Prove Markdown contains:
+- deterministic event ID supplied by core;
 - exact PR head;
 - provider track stable ID;
 - run ID when present;
@@ -241,12 +237,23 @@ Prove Markdown contains:
 - explicit statement that browser download alone is insufficient;
 - `Project gate disposition: pending project admission`.
 
-Prove it does not contain:
-- `gate closed`;
-- `merge approved`;
-- signed provider URLs;
-- authorization/cookie/token/session material;
-- a claim that WAV sanity/hash equality was performed by the relay.
+Prove it does not contain `gate closed`, `merge approved`, signed provider URLs, authorization/cookie/token/session material, or a claim that WAV sanity/hash equality was performed by the relay.
+
+Example assertion:
+
+```js
+test("renders Vault evidence without manufacturing project admission", () => {
+  const packet = renderVaultEvidencePacket(event(), { eventId: `hwv0_${"b".repeat(64)}` });
+  assert.match(packet.markdown, /hwv0_b{64}/);
+  assert.match(packet.markdown, /0232ddf0e59e1b8148538a3c97b3527a76a8d008/);
+  assert.match(packet.markdown, /provider track:.*track-123/i);
+  assert.match(packet.markdown, /SYNTHETIC: WAV landed/);
+  assert.match(packet.markdown, /pending project admission/i);
+  assert.doesNotMatch(packet.markdown, /gate closed|merge approved/i);
+  assert.equal(packet.projectDisposition, "pending-project-admission");
+  assert.equal(packet.nextDoor, null);
+});
+```
 
 - [ ] **Step 2: Verify RED**
 
@@ -254,7 +261,7 @@ Run focused tests; expected failure because renderer is absent.
 
 - [ ] **Step 3: Implement stable Markdown rendering**
 
-Required shape:
+Use exactly this semantic section shape:
 
 ```markdown
 ### Human Witness Relay v0 — one-real-WAV preservation specimen
@@ -284,6 +291,8 @@ Project gate disposition: **pending project admission**.
 This relay packet does not itself verify WAV container sanity, hash equality, byte length, durable destination, or journal safety and does not authorize merge or wider transport.
 ```
 
+Reject a missing or malformed `eventId` instead of emitting an unattributed packet.
+
 - [ ] **Step 4: Verify GREEN**
 
 Run focused tests; expected PASS.
@@ -304,7 +313,7 @@ git commit -m "feat: render Vault witness evidence packets"
 - Modify: `tests/human-witness-relay-vault.test.cjs`
 
 **Interfaces:**
-- Produces: `assertVaultHeadFresh(event, currentHeadSha)` with the same equality-only semantics as the Toaster adapter.
+- Produces: `assertVaultHeadFresh(event, currentHeadSha)` with equality-only semantics.
 
 - [ ] **Step 1: Write failing stale-head test**
 
@@ -349,7 +358,8 @@ git commit -m "feat: enforce Vault witness head freshness"
 
 **Interfaces:**
 - Register exactly `the-static-collective/autodiscography-vault#phase-b2c-one-real-wav-preservation`.
-- Fixtures must start human observation with `SYNTHETIC:` and use no real provider credentials or URLs.
+- Registered adapter exposes `render(event, { eventId })` and calls `renderVaultEvidencePacket(event, { eventId })`.
+- Fixtures start human observation with `SYNTHETIC:` and use no real provider credentials or URLs.
 
 - [ ] **Step 1: Write failing fixture/registration tests**
 
@@ -357,6 +367,7 @@ Prove:
 - pass fixture has complete evidence-class refs but remains pending project admission;
 - fail fixture preserves fail exactly and remains pending project admission;
 - ambiguous fixture lists missing machine evidence classes rather than inventing them;
+- core `eventId` appears in rendered Markdown;
 - all three route only to Vault adapter;
 - none emits a next door before project admission.
 
