@@ -102,6 +102,16 @@ test("rejects signed-url/session shaped keys recursively", () => {
   assert.equal(result.errors.filter((e) => e.code === "WITNESS_FORBIDDEN_MATERIAL").length, 2);
 });
 
+test("rejects signed URL values without echoing them", () => {
+  const event = validEvent();
+  event.evidenceRefs = ["https://provider.invalid/download.wav?signature=ultra-secret#fragment"];
+  const result = validateHumanWitnessEventV0(event);
+  assert.equal(result.ok, false);
+  const serialized = JSON.stringify(result);
+  assert.match(serialized, /WITNESS_FORBIDDEN_MATERIAL/);
+  assert.doesNotMatch(serialized, /ultra-secret|provider\.invalid/);
+});
+
 test("event identity is deterministic and observation-sensitive", () => {
   const { humanWitnessEventId } = require("../tools/human-witness-relay/event-id.cjs");
   const a = validEvent();
