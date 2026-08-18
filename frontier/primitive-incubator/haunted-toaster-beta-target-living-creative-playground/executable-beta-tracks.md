@@ -10,11 +10,19 @@ Parent target: [Haunted Toaster #148](https://github.com/the-static-collective/t
 
 This page is a navigation projection only. Each GitHub issue owns its implementation contract.
 
+## Current field gate
+
+PR #175 has now passed packaged Low & Slow, hot responsive renderer, Listener close/reopen durability, MADD CLOWN ordinary execution, and VSPantry bulk-admission field checks.
+
+The decisive hot specimen, `Static Between Stations`, ran `split-horizon-v3 + lattice + advect` with transient Elastic Topology Response and a bounded 48-knot contour. It completed and was judged “goofy, very toaster.”
+
+One original ancestor gate remains: explicit Re-listen must prove human anchors stay exact while machine-owned evidence may lawfully change.
+
 ## Track 1 — Candidate ecology
 
 [Issue #147 — Toastmood-driven six-up + two-parent CROSS](https://github.com/the-static-collective/the-haunted-toaster/issues/147)
 
-Turns six-up from a menu into a population: no mood preselection, latent Toastmood pressure, typed two-parent inheritance, deterministic descendants, and explicit genealogy.
+Turns six-up from a menu into a population: no mood preselection, latent Toastmood pressure, typed two-parent inheritance, deterministic descendants, explicit genealogy, and stronger initial chromatic coverage without a palette quota.
 
 ## Track 2 — Creative Verb Kernel v1
 
@@ -34,12 +42,33 @@ Allows at most one lawful-surprise role per family, optimized for semantic dista
 
 Preserves deterministic family history, distinguishes parentage from influence-only ghosts, and permits optional exact-source search history so a later encounter can intentionally explore elsewhere without moving memory into renderer authority.
 
+## Parallel bounded freedom slices
+
+[Issue #176 — Linear v3: expressive anatomy from authoritative primitive structure](https://github.com/the-static-collective/the-haunted-toaster/issues/176)
+
+Makes raster-4 Linear a real topology family without inventing a new canonical axis. Existing primitive structure/dynamics become capable of materially different Linear anatomy while historical `linear-v1` replay stays pinned.
+
+[Issue #177 — make VSPantry folder intake visibly alive](https://github.com/the-static-collective/the-haunted-toaster/issues/177)
+
+Preserves the working content-addressed intake path and adds truthful progress/terminal feedback so a large serial hash/probe/admit batch no longer looks like a dead button.
+
+Listener first-pass accuracy stays under [issue #113](https://github.com/the-static-collective/the-haunted-toaster/issues/113) until multiple field receipts justify threshold changes.
+
+Video creative consumption stays under [issue #44](https://github.com/the-static-collective/the-haunted-toaster/issues/44). VSPantry currently remembers specimens; Video is not yet render authority.
+
 ## Order
 
 ```
-renderer repair / stabilization
+PR #175 explicit Re-listen witness
+        ↓
+select trusted BETA ancestor
         ↓
 #147 candidate ecology
+  + starting chromatic coverage
+        ↓
+field witness six-up + CROSS
+        ↓
+#176 Linear v3
         ↓
 #149 creative verb kernel
         ↓
@@ -48,8 +77,18 @@ renderer repair / stabilization
 #151 lineage + Elsewhere memory
 ```
 
+\#177 VSPantry observability and #113 Listener evidence mining can proceed independently where they do not disturb the selected creative ancestor.
+
+\#44 Video assimilation remains later than the first candidate-ecology proof. #163 neutral/clear source-image behavior is also a separate creative-freedom lane and should not be folded into #147 or #176.
+
 The order is architectural, not a demand that every track land before all later design work begins. Each implementation PR should remain independently reviewable and preserve the accepted `VisualScore → ResolvedTimeline → render → receipt` authority boundary.
+
+## Governing field law
+
+> **Keep the Toaster's personality. Increase its expressive vocabulary.**
+
+> **More ways to surprise without ceasing to be the Toaster.**
 
 ## Deferred frontier
 
-`COMPOST`, seasonal/environmental laws, `NEW ORGANISM?` grammar proposals, and wider verb catalogs remain intentionally outside these first executable beta tracks.
+`COMPOST`, seasonal/environmental laws, `NEW ORGANISM?` grammar proposals, wider verb catalogs, and direct Frame Motion execution remain intentionally outside these first executable beta tracks.

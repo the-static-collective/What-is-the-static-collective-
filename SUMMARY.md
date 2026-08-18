@@ -46,6 +46,7 @@
   * [Haunted Toaster Beta Target — Living Creative Playground](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/README.md)
     * [Executable Beta Tracks](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/executable-beta-tracks.md)
     * [Video Source, VSPantry & Receipt-Backed Memory](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/video-source-vspantry-and-receipt-backed-memory.md)
+    * [BETA Field Witness — Creative Freedom Gate](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/beta-field-witness-creative-freedom-gate.md)
 
 ## Evidence
 

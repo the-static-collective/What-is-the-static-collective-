@@ -7,7 +7,7 @@ description: >-
 
 # Haunted Toaster Beta Target — Living Creative Playground
 
-Status: **project-backed beta umbrella; implementation remains gated behind current renderer repair/stabilization**
+Status: **renderer hot path proved in packaged field testing; BETA ancestor still awaits explicit Re-listen witness before promotion**
 
 Canonical project issue: [Haunted Toaster #148](https://github.com/the-static-collective/the-haunted-toaster/issues/148)
 
@@ -24,6 +24,12 @@ The governing product law is:
 The human should feel less like they are dialing renderer parameters and more like they are playing with visual creatures that can mutate, breed, carry history, and occasionally discover something neither side explicitly requested.
 
 The beta target is not “more controls.” It is **more meaningful agency with less furniture**.
+
+The 2026-08-18 packaged field run sharpened that law further:
+
+> **Keep the Toaster's personality. Increase its expressive vocabulary.**
+
+> **Do not make the human specify more. Give the Toaster more lawful degrees of freedom to decide differently.**
 
 ## Ordinary beta loop
 
@@ -47,11 +53,15 @@ Creative play happens upstream. The accepted `VisualScore → ResolvedTimeline �
 
 ## Track 0 — renderer trust gate
 
-Do not build the beta ecology on top of rendering behavior that is still under question.
+The repaired BETA integration line has now produced both restrained and fully responsive packaged field witnesses.
 
-PR #146 is under packaged field witness and may require repair. Stabilize that line first. Preserve the known-good renderer checkpoints and replay semantics before widening candidate freedom.
+Most importantly, `Static Between Stations` completed through the formerly dangerous hot path with `split-horizon-v3`, `lattice + advect`, transient Elastic Topology Response, a bounded 48-knot contour compacted from 214 source knots, Echo Tunnel and Cathedral Fan apparitions, and a final accepted render.
 
-This beta page does not authorize mixing feature work into renderer repair.
+Human verdict: **“goofy, very toaster.”**
+
+That is evidence to build forward from, not a reason to normalize or simplify the renderer.
+
+The current ancestor candidate remains PR #175. One original human gate is still pending: explicit Re-listen must prove that human anchors remain exact while machine-owned evidence may lawfully change. Do not silently promote, tag, or release the ancestor before that witness.
 
 ## Track 1 — candidate ecology
 
@@ -65,7 +75,8 @@ The first beta move changes six-up from a menu into a population:
 * exact two-parent `CROSS`;
 * typed inheritance rather than whole-object averaging;
 * deterministic descendants and genealogy;
-* coverage before randomness.
+* coverage before randomness;
+* starting chromatic identity becomes meaningful family-distance evidence without becoming a quota or a new user preselection control.
 
 Working criterion:
 
@@ -219,6 +230,10 @@ The proof is not merely that more combinations exist.
 > **Put a song in the room and see what species evolves around it.**
 
 The session should be enjoyable enough that the human wants to continue playing even before deciding to render.
+
+The latest field checkpoint adds a second criterion:
+
+> **More ways to surprise without ceasing to be the Toaster.**
 
 ## Authority note
 
