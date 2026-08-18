@@ -1,0 +1,22 @@
+{
+  "schema": "static-collective/human-witness-event/v0",
+  "subject": {
+    "repository": "synthetic/example-project",
+    "pullRequest": 1,
+    "headSha": "3333333333333333333333333333333333333333",
+    "gateId": "synthetic-gate/ambiguous",
+    "artifactRefs": ["artifact:synthetic-ambiguous"],
+    "buildRefs": ["build:synthetic-3"]
+  },
+  "witness": {
+    "observedAt": "2026-08-18T00:02:00-05:00",
+    "observerRef": "human:synthetic-fixture",
+    "observation": "SYNTHETIC: bounded specimen did not discriminate the declared synthetic criterion",
+    "disposition": "ambiguous"
+  },
+  "evidenceRefs": ["evidence:synthetic-ambiguous"],
+  "provenance": {
+    "captureSurface": "fixture",
+    "relayPolicy": "human-witness-relay-v0"
+  }
+}

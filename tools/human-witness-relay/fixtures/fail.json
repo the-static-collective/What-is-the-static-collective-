@@ -1,0 +1,22 @@
+{
+  "schema": "static-collective/human-witness-event/v0",
+  "subject": {
+    "repository": "synthetic/example-project",
+    "pullRequest": 1,
+    "headSha": "2222222222222222222222222222222222222222",
+    "gateId": "synthetic-gate/fail",
+    "artifactRefs": ["artifact:synthetic-fail"],
+    "buildRefs": ["build:synthetic-2"]
+  },
+  "witness": {
+    "observedAt": "2026-08-18T00:01:00-05:00",
+    "observerRef": "human:synthetic-fixture",
+    "observation": "SYNTHETIC: bounded specimen violated the declared synthetic criterion",
+    "disposition": "fail"
+  },
+  "evidenceRefs": ["evidence:synthetic-fail"],
+  "provenance": {
+    "captureSurface": "fixture",
+    "relayPolicy": "human-witness-relay-v0"
+  }
+}

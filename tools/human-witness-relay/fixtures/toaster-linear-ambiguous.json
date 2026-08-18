@@ -1,0 +1,19 @@
+{
+  "schema": "static-collective/human-witness-event/v0",
+  "subject": {
+    "repository": "the-static-collective/the-haunted-toaster",
+    "pullRequest": 146,
+    "headSha": "944169c7f7bbd821f51fa8e404302cbaa8f4a342",
+    "gateId": "elastic-topology-response-v1-field-witness/linear-positive-control",
+    "artifactRefs": ["artifact:windows-portable"],
+    "buildRefs": ["workflow:32057926247"]
+  },
+  "witness": {
+    "observedAt": "2026-08-18T00:12:00-05:00",
+    "observerRef": "human:synthetic-fixture",
+    "observation": "SYNTHETIC: Linear positive control did not clearly discriminate the response behavior",
+    "disposition": "ambiguous"
+  },
+  "evidenceRefs": ["evidence:synthetic-toaster-linear"],
+  "provenance": { "captureSurface": "fixture", "relayPolicy": "human-witness-relay-v0" }
+}
