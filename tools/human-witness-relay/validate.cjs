@@ -23,7 +23,21 @@ function clone(value) {
   return structuredClone(value);
 }
 
+function isSensitiveUrl(value) {
+  if (typeof value !== "string" || !/^https?:\/\//i.test(value)) return false;
+  try {
+    const url = new URL(value);
+    return url.search.length > 0 || url.hash.length > 0;
+  } catch {
+    return false;
+  }
+}
+
 function findForbiddenMaterial(value, path = "$", findings = []) {
+  if (isSensitiveUrl(value)) {
+    findings.push({ path, key: "$value" });
+    return findings;
+  }
   if (!value || typeof value !== "object") return findings;
 
   if (Array.isArray(value)) {
@@ -34,6 +48,10 @@ function findForbiddenMaterial(value, path = "$", findings = []) {
   for (const [key, child] of Object.entries(value)) {
     const childPath = path === "$" ? key : `${path}.${key}`;
     if (FORBIDDEN_KEYS.has(key.toLowerCase())) {
+      findings.push({ path: childPath, key });
+      continue;
+    }
+    if (isSensitiveUrl(child)) {
       findings.push({ path: childPath, key });
       continue;
     }
