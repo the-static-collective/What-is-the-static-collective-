@@ -84,4 +84,22 @@ test("non ISO observedAt is rejected", () => {
   assert.ok(result.errors.some((error) => error.path === "witness.observedAt"));
 });
 
+test("rejects secret-shaped fields without echoing their values", () => {
+  const event = validEvent();
+  event.provenance.authorizationHeader = "Bearer super-secret-value";
+  const result = validateHumanWitnessEventV0(event);
+  assert.equal(result.ok, false);
+  const serialized = JSON.stringify(result);
+  assert.match(serialized, /WITNESS_FORBIDDEN_MATERIAL/);
+  assert.doesNotMatch(serialized, /super-secret-value/);
+});
+
+test("rejects signed-url/session shaped keys recursively", () => {
+  const event = validEvent();
+  event.subject.extra = { cookie: "abc", signedUrl: "https://provider.invalid/x?sig=secret" };
+  const result = validateHumanWitnessEventV0(event);
+  assert.equal(result.ok, false);
+  assert.equal(result.errors.filter((e) => e.code === "WITNESS_FORBIDDEN_MATERIAL").length, 2);
+});
+
 module.exports = { validEvent };
