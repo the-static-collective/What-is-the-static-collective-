@@ -102,4 +102,39 @@ test("rejects signed-url/session shaped keys recursively", () => {
   assert.equal(result.errors.filter((e) => e.code === "WITNESS_FORBIDDEN_MATERIAL").length, 2);
 });
 
+test("event identity is deterministic and observation-sensitive", () => {
+  const { humanWitnessEventId } = require("../tools/human-witness-relay/event-id.cjs");
+  const a = validEvent();
+  const b = JSON.parse(JSON.stringify(a));
+  assert.equal(humanWitnessEventId(a), humanWitnessEventId(b));
+  assert.match(humanWitnessEventId(a), /^hwv0_[a-f0-9]{64}$/);
+  b.witness.observation += "!";
+  assert.notEqual(humanWitnessEventId(a), humanWitnessEventId(b));
+});
+
+test("event identity ignores object insertion order outside ordered arrays", () => {
+  const { humanWitnessEventId } = require("../tools/human-witness-relay/event-id.cjs");
+  const a = validEvent();
+  const b = {
+    provenance: { relayPolicy: a.provenance.relayPolicy, captureSurface: a.provenance.captureSurface },
+    evidenceRefs: [...a.evidenceRefs],
+    witness: {
+      disposition: a.witness.disposition,
+      observation: a.witness.observation,
+      observerRef: a.witness.observerRef,
+      observedAt: a.witness.observedAt,
+    },
+    subject: {
+      gateId: a.subject.gateId,
+      headSha: a.subject.headSha,
+      repository: a.subject.repository,
+      buildRefs: [...a.subject.buildRefs],
+      artifactRefs: [...a.subject.artifactRefs],
+      pullRequest: a.subject.pullRequest,
+    },
+    schema: a.schema,
+  };
+  assert.equal(humanWitnessEventId(a), humanWitnessEventId(b));
+});
+
 module.exports = { validEvent };
