@@ -58,6 +58,45 @@ Its versioned deterministic analysis can describe useful visual evidence such as
 
 The same specimen bytes under the same analysis policy must yield the same analysis identity.
 
+### Specimen Pulse — attached audio as influence, not soundtrack
+
+Some admitted short Video specimens carry attached audio. Haunted Toaster issue #183 preserves the project-owned design for treating that audio as a deterministic **Specimen Pulse v1** rather than discarding it or mixing it into the song.
+
+The intended boundary is:
+
+```
+admitted VSPantry specimen
+  + attached audio when actually present
+        ↓
+Specimen Pulse v1
+  clip-relative deterministic witness
+  authority: influence-only
+        ↓
+proposal / search influence when admitted
+
+and later, behind renderer trust:
+
+accepted foreign-material derivation
+        ↓
+Ghosted Topology Coupling v1
+        ↓
+existing Ghost Topology / resonant-overlap law
+        ↓
+accepted timeline → shared preview / production render
+```
+
+The source song remains the global musical clock and the only ordinary master-audio source. Specimen audio does **not** enter the final mux, does not gain Listener or lyric-timing authority, and does not become ambient renderer decision state.
+
+The useful visual metaphor is a drop shadow: primary topology is the object; the specimen pulse may cast a weaker displaced topology projection; bounded overlap may create interference, drag, echo, or residue without replacing the primary geometry.
+
+The first safe slice is analysis only: bounded energy/envelope, transient/onset, coarse spectral-pressure, flux/noisiness, and pulse/periodicity evidence where local deterministic tooling can support those claims honestly. No true-stem, beat, meter, or semantic-audio claims are required.
+
+A later **Ghosted Topology Coupling v1** belongs behind the renderer-trust and foreign-material execution gates. It should reuse existing Ghost Topology machinery rather than create another topology system.
+
+If a human monitoring path is ever exposed, **monitor gain** and **influence gain** remain separate. Quiet audition is not the authority or strength of the analysis, and neither may alter the final song master.
+
+Implementation authority: Haunted Toaster issue #183. This GitBook section is only the durable field projection.
+
 ## HDToastPack
 
 **HDToastPack** is the same conceptual contract at a higher capability/fidelity tier: longer clips, richer detail, and more expensive precomputation where flagship material warrants it.
@@ -153,13 +192,19 @@ Persist/index canonical sidecar receipts and derive rebuildable, inspectable enc
 
 Build deterministic versioned analysis manifests over Pantry specimens.
 
+The analysis family may include the analysis-only **Specimen Pulse v1** from Haunted Toaster #183 when attached audio is actually present. This adds clip-relative influence evidence only; it does not widen renderer or master-audio authority.
+
 ### Slice D — foreign-material-v1
 
 Only after the renderer trust line settles: shared preview/production media-input planning plus one deterministic assimilation primitive. Imported video remains foreign visual DNA metabolized by Haunted Toaster rather than stock footage placed on a timeline.
 
+A compatible follow-on may admit #183's **Ghosted Topology Coupling v1** through this execution boundary, reusing existing Ghost Topology/resonant-overlap semantics. Specimen Pulse availability alone is not permission to execute it.
+
 ### Slice E — population feeding
 
 Let Pantry/Pack/Memory evidence contribute to lawful six-up diversity and later CROSS/MOLT/HAUNT inheritance and influence.
+
+Specimen Pulse is a natural optional influence-only provider for this stage: a candidate may consume or ignore it, but availability does not imply consumption, ancestry, or renderer authority.
 
 ## Beta relationship
 
