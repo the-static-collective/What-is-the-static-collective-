@@ -52,6 +52,7 @@
     * [Video Source, VSPantry & Receipt-Backed Memory](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/video-source-vspantry-and-receipt-backed-memory.md)
     * [BETA Field Witness — Creative Freedom Gate](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/beta-field-witness-creative-freedom-gate.md)
   * [L-Branch v0.1 — Bounded Resonant Propagation](frontier/primitive-incubator/l-branch-v0.1-bounded-resonant-propagation.md)
+  * [Continuity Spine v0.1 — Staged Transformation Through Time](frontier/primitive-incubator/continuity-spine-v0.1-staged-transformation-through-time.md)
 
 ## Evidence
 
