@@ -5,11 +5,11 @@ icon: code-branch
 
 # Current Executable Project State
 
-**Projection observed: 2026-08-18.**
+**Projection observed: 2026-08-19.**
 
 This page is a convenience view, not project authority. The project-owned repository, its landed code, tests, receipts, and local documentation outrank this projection. If this page disagrees with a project, the project wins and this page is stale.
 
-The five machine-readable project snapshots below were reconciled against their current mains and landed in the owning repositories before this projection was published. This page does not combine them into a new master authority graph; it is only a bounded re-entry surface.
+The established five-project machine-status mesh remains intentionally bounded to Project 0, TranchNode, Corpus OS, Full Measure, and Founder Node. This pass reconciled all five against current `main`: Project 0, TranchNode, and Full Measure had materially newer executable state and are being refreshed in the owning repositories; Corpus OS and Founder Node had no newer executable commits and remain unchanged. This page does not combine them into a new master authority graph.
 
 ## The current crossing stack
 
@@ -27,29 +27,42 @@ Corpus OS — destination-local World Encounter admission v0.1
 Full Measure — local encounter residue / constituted destination projection
 ```
 
-The transport joins seams without joining authority. Gesture decoding does not authorize a crossing. Project 0 testimony does not become source authority by moving. Corpus OS still decides admission locally. Full Measure stores its own encounter residue rather than rewriting donor history.
+That crossing stack still stands. The last day’s growth is mostly **orthogonal capability around the crossing**, not a replacement authority path: Project 0 gained bounded propagation, thresholded local topology, and typed continuity; TranchNode gained staged transformation proof; Full Measure gained a basic-human operator projection and a bounded two-step locomotion specimen.
+
+Transport still joins seams without joining authority. Gesture decoding does not authorize a crossing. Project 0 testimony does not become source authority by moving. Corpus OS still decides admission locally. Full Measure stores its own encounter residue rather than rewriting donor history.
 
 ## Project 0
 
-**Current executable phase:** Floor 1.2 — executable encounter boundary.
+**Current executable phase:** Floor 1.2 — executable encounter boundary + experimental dynamics and continuity profiles.
 
-Landed code includes the Floor 1.1 reference kernel, advanced conformance proofs, NAV v0.1 crossing machinery, a fixture-only lawful Project0 → Corpus OS crossing witness, and World Encounter Envelope v0.1 exposed through a bounded stdio adapter.
+Alongside the Floor 1.1 reference kernel, NAV v0.1, the lawful Project0 → Corpus OS crossing witness, and World Encounter Envelope v0.1, current `main` now includes:
+
+- **L-Branch v0.1** — deterministic bounded resonant propagation through a predeclared finite topology without authority, disclosure, participant, or policy expansion;
+- **Snap-State v0.1** — deterministic thresholded topology whose active projection may change inside a fixed declared envelope while recoil cannot erase append-only event history;
+- **Typed Continuity Braid v0** — purpose-relative, lane-typed, root-closed continuity claims with explicit breakage/reconstitution and non-transitivity by default;
+- manuscript-transmission and reticulate/mixed-descent adversarial fixtures showing that copy, translation, reconstruction, and plural ancestry can remain distinguishable without inventing a new genealogy primitive.
+
+These are experimental Project 0 seams. They do not expand the frozen ontology or canonical receipt family, and continuity/influence does not grant authority.
 
 - Repository: [Project 0](https://github.com/the-static-collective/project0)
 - Machine projection: [`PROJECT_STATUS.json`](https://github.com/the-static-collective/project0/blob/main/PROJECT_STATUS.json)
-- Current World Encounter adapter proof: commit `6341b0223f2b57148d617dcc98d1e0d0c68e14a5`
-- Status publication: PR #45
+- L-Branch proof: commit `7192b0640c6cef2556081ffbe24d683914d7d7f9`
+- Snap-State proof: commit `99d797d467ac9fc7ddf1c954e55af385229701fc`
+- Typed Continuity Braid proof: commit `a7bae07e152ac8713bf1be58eaf053db76df1c61`
+- Current observed main: commit `61811dafc63fdef264aa8cbfa91cb2ecfe443476`
 
 ## TranchNode
 
-**Current executable phase:** Intent Stroke v0.2 process boundary.
+**Current executable phase:** Intent Stroke v0.2 process boundary + Continuity Spine v0.1.
 
-TranchNode decodes bounded traversal witnesses, exposes Intent Stroke over stdio, and accepts raw pointer points while binding them to the donor-owned canonical field layout before decoding.
+TranchNode still decodes bounded traversal witnesses, exposes Intent Stroke over stdio, and binds raw pointer points to the donor-owned canonical field layout before decoding. It now also contains **Continuity Spine v0.1**, a pure staged-transformation evaluator with a pinned Intent Stroke v0.1 → v0.2 specimen.
+
+The Spine keeps future attractors proposal-only, requires invariant-preserving overlap and witnessed responsibility transfer, and permits shedding only after the destination carrier bears the dependency. It describes or refuses transitions; it does not execute them or promote a desired future into present state.
 
 - Repository: [TranchNode](https://github.com/the-static-collective/tranchnode)
 - Machine projection: [`PROJECT_STATUS.json`](https://github.com/the-static-collective/tranchnode/blob/main/PROJECT_STATUS.json)
 - Raw-point v0.2 proof: commit `bf886c0b4938a1444a79afb7a7b384e91b5d5197`
-- Status publication: PR #55
+- Continuity Spine proof/current observed main: commit `ca32f69d63cfd1ef0e8ae70c73186bbe46968f9d`
 
 ## Corpus OS
 
@@ -57,22 +70,30 @@ TranchNode decodes bounded traversal witnesses, exposes Intent Stroke over stdio
 
 Corpus OS records adopted warranted execution, causal accounting, lawful reachability, latent reachability, and destination-local World Encounter admission v0.1 through a bounded stdio door without granting transport authority over the destination.
 
+No newer executable commit displaced that phase in this reconciliation pass.
+
 - Repository: [Corpus OS](https://github.com/the-static-collective/corpus-os)
 - Machine projection: [`PROJECT_STATUS.json`](https://github.com/the-static-collective/corpus-os/blob/main/PROJECT_STATUS.json)
 - World Encounter admission proof: commit `63c0be4cd49c383ae167ded99103b79ba4626416`
-- Status publication: PR #29
 
 ## Full Measure — World Layer
 
-**Current executable phase:** Boot the House v0.1 inhabited Garden encounter loop.
+**Current executable phase:** Boot the House v0.1 + Human Terminal v0.1 + STRIDE Specimen 001.
 
-Full Measure composes the local donor seams server-side, exposes an inhabited `WorldEncounterPanel`, keeps ambiguous traversal from becoming selection, requires explicit human crossing confirmation, and preserves admitted/refused/indeterminate/failed outcomes with local residue and return evidence. A composed proof receipt is landed.
+The inhabited Garden encounter loop still composes TranchNode, Project 0, explicit human confirmation, Corpus OS destination-local admission, and Full Measure-local residue. Two additional surfaces are now landed:
+
+- **Human Terminal v0.1** projects the existing Garden/world-runtime contracts into bounded basic-human moves without creating a second execution plane. Regression coverage pins `admitted`, `refused`, `indeterminate`, and `failed` as distinct residue outcomes.
+- **STRIDE Specimen 001** proves two Full Measure-local witnessed steps with fresh stance derivation after every completed attempt. Each step needs a separate confirmation; only admission may change constituted position; refusal/indeterminacy still leave footprints; a third step is explicitly outside the specimen.
+
+The founding STRIDE law is: **a stride contains no future authority.**
+
+**Collision Specimen 001 is still an open PR and is deliberately excluded from current executable state.** Its refusal/residue-influence claims remain frontier until landed.
 
 - Repository: [Full Measure — World Layer](https://github.com/the-static-collective/full-measure-world-layer)
 - Machine projection: [`PROJECT_STATUS.json`](https://github.com/the-static-collective/full-measure-world-layer/blob/main/PROJECT_STATUS.json)
-- Inhabited Garden proof: commit `cb99bfd7ca240d031ba33da96211e35cdb579f80`
-- Composed proof receipt: commit `05cdfd61780eba41cb9ddb314a814013ccb48a7c`
-- Status publication: PR #17
+- Human Terminal landing: commit `1fbbcd10c7d51b9ad4310853fecd225d59714544`
+- STRIDE proof: commit `f475b3d8592eaf2e4de01cc7d8fd1abf7f0e4447`
+- Current observed main / outcome-regression reinforcement: commit `5ac66fa58b35b699ae4dcf17af21a8e9d0be0752`
 
 ## Founder Node
 
@@ -80,19 +101,23 @@ Full Measure composes the local donor seams server-side, exposes an inhabited `W
 
 Founder Node routes through Authority Kit project boundaries and can show at most three nearby project doors only when a typed relation or proven shared invariant explains them. Relevance affects visibility only; review re-enters the normal compiler path and does not dispatch or mutate a destination.
 
+No newer executable commit displaced that phase in this reconciliation pass.
+
 - Repository: [Founder Node](https://github.com/the-static-collective/founder-node)
 - Machine projection: [`PROJECT_STATUS.json`](https://github.com/the-static-collective/founder-node/blob/main/PROJECT_STATUS.json)
 - Pollen Scout proof: commit `10af7368445e765d75862dbf172206dc9e1667f0`
-- Status publication: PR #4
 
 ## Other nearby executable surfaces
 
-These are not part of the five-snapshot publication mesh above, but they matter for re-entry:
+These projects have not been silently enrolled into the five-snapshot machine-status mesh. Their landed repository state still matters for re-entry:
 
-- **Upper Room** identifies its first executable Scripture heartbeat: React/Vite PWA shell, a translation-neutral Scripture adapter, local WEB John 1 witness, and browser proof.
+- **The Haunted Toaster** now has the BETA spine on current main, **Candidate Ecology + exact two-parent CROSS**, **BETA Home Bench**, persistent Video/VSPantry, and the receipt-backed Toaster Memory foundation. The packaged creative-freedom witness remains explicitly separate from the still-pending runtime Re-listen gate; design/frontier notes do not outrank current main.
+- **jublEchat** now includes **Residual Lineage v0**, a deterministic read-only historical residue projection that remains `authority: none` and fails closed on contradictory residue.
+- **Iron Lung** has executed its **v0.1 first breath**: a deterministic own-birth braided-circulation specimen with capability-based repair routing, proposal-only Spine escalation, explicit present selection, immutable descendant repair, and an isolated interpretation layer.
+- **National Treasure** now has executable Cicada pressure tests: **Witness Sigil v0.1 + Cicada Overfit Corpus**, followed by a matched mixed-descent-versus-independent-recurrence fixture pair. Recognition and mystery remain evidence pressure, not verification or authority.
+- **Upper Room** still identifies its first executable Scripture heartbeat: React/Vite PWA shell, a translation-neutral Scripture adapter, local WEB John 1 witness, and browser proof.
 - **Autodiscography Vault** identifies Phase B2: one-track browser transport into exact local admission, with the signed-in human specimen still separately gated.
-- **The Haunted Phonograph** now includes HAUNT v0.1: a bounded sibling-memory crossing where Toaster-origin memory may influence Phonograph proposal space while remaining `influence-only` and acquiring no evidence, score, timing, or renderer authority. The reciprocal Toaster receiver remains separately gated.
-- **The Haunted Toaster** remains prerelease-shaped; GitBook field witnesses do not outrank its current mainline code or beta receipts.
+- **The Haunted Phonograph** includes HAUNT v0.1: Toaster-origin memory may influence Phonograph proposal space while remaining `influence-only` and acquiring no evidence, score, timing, or renderer authority. The reciprocal Toaster receiver remains separately gated.
 
 ## Reading rule
 
