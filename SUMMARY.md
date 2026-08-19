@@ -57,6 +57,7 @@
   * [Entrusted Corpus — Trust Archaeology as Architecture](frontier/primitive-incubator/entrusted-corpus-trust-archaeology-as-architecture.md)
   * [Weather, Residue & Causal Explanation — Jubilee Convergence Cluster](frontier/primitive-incubator/weather-residue-and-causal-explanation-jubilee-convergence-cluster.md)
   * [Continuity Witness — Shared Questions, Local Answers](frontier/primitive-incubator/continuity-witness-shared-questions-local-answers.md)
+  * [Manuscript Transmission — Survival Without Collapse](frontier/primitive-incubator/manuscript-transmission-survival-without-collapse.md)
 
 ## Evidence
 
