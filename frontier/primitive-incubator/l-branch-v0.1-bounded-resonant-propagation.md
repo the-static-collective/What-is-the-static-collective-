@@ -1,6 +1,6 @@
 # L-Branch v0.1 — Bounded Resonant Propagation
 
-Status: **Frontier / green executable candidate on Project0 PR #47; not yet landed**
+Status: **Frontier / executable v0.1 landed on Project0 `main` via PR #47**
 
 ## The field law
 
@@ -174,7 +174,7 @@ The pollen metaphor here does not convert Pollen Scout into a generic transport 
 
 ## First falsifiable proof
 
-The executable candidate on Project0 PR #47 now contains the fixed topology:
+The landed Project0 v0.1 implementation contains the fixed topology:
 
 ```
 excitation E
@@ -199,15 +199,21 @@ Its frozen fixture family also proves:
 5. source fixture records remain unchanged;
 6. hostile accessor entries in declarations or candidate arrays are rejected without executing them.
 
-The candidate remains deliberately local and deterministic: no model, network, scheduler, database, queue, UI, hidden global state, or ambient agent loop is required.
+The implementation remains deliberately local and deterministic: no model, network, scheduler, database, queue, UI, hidden global state, or ambient agent loop is required.
 
-## Executable candidate evidence — 2026-08-19
+## Landed executable evidence — 2026-08-19
 
-Project0 PR #47 is currently open, non-draft, and mergeable at head:
+Project0 PR #47 was squash-merged into `main` on 2026-08-19.
+
+Reviewed feature head:
 
 `9d5cec6b95321355a09b256f2029012c160e6e2b`
 
-GitHub Actions run #138 executed the full repository gate:
+Landed squash commit:
+
+`7192b0640c6cef2556081ffbe24d683914d7d7f9`
+
+GitHub Actions run #138 executed the full repository gate on the approved feature head:
 
 ```
 npm run verify:all
@@ -223,7 +229,7 @@ Observed result:
 
 The Actions job checked the PR merge ref against the then-current `main`, not merely the feature branch in isolation.
 
-This is **project-backed executable candidate evidence**, not a claim that the work has landed on `main`, become a tagged contract, or graduated into a universal Static Collective Pattern.
+This is **project-backed landed executable evidence**. It is not a claim that L-Branch has become a universal Static Collective Pattern, a new canonical receipt family, or a frozen Project0 ontology law.
 
 ## Downstream possibilities after proof
 
@@ -238,19 +244,20 @@ These are possible adopters, not evidence that the law has already graduated.
 
 ## Project authority
 
-Canonical design / implementation authority remains in Project 0:
+Canonical implementation authority remains in Project 0:
 
-* GitHub issue: https://github.com/the-static-collective/project0/issues/46
-* Executable candidate PR: https://github.com/the-static-collective/project0/pull/47
-* Current candidate head: `9d5cec6b95321355a09b256f2029012c160e6e2b`
-* Design spec: `docs/superpowers/specs/2026-08-19-l-branch-v0.1-bounded-resonant-propagation-design.md`
-* Implementation plan: `docs/superpowers/plans/2026-08-19-l-branch-v0.1-bounded-resonant-propagation.md`
+* GitHub issue #46: https://github.com/the-static-collective/project0/issues/46 — completed by the landing;
+* merged PR #47: https://github.com/the-static-collective/project0/pull/47;
+* reviewed feature head: `9d5cec6b95321355a09b256f2029012c160e6e2b`;
+* landed squash commit: `7192b0640c6cef2556081ffbe24d683914d7d7f9`;
+* design spec: `docs/superpowers/specs/2026-08-19-l-branch-v0.1-bounded-resonant-propagation-design.md`;
+* implementation plan: `docs/superpowers/plans/2026-08-19-l-branch-v0.1-bounded-resonant-propagation.md`.
 
-This GitBook page is a public frontier projection. It does not turn a green PR into landed Project0 state, and it does not freeze L-Branch as a universal law.
+This GitBook page is a public frontier projection of landed Project0 evidence. It does not freeze L-Branch as a universal law or grant authority beyond the project-owned implementation.
 
 ## Residual fog
 
-The first implementation candidate resolves the initial questions about declaration/step/terminal addressed-record shape, finite continuation bounds, deterministic replay, influence/authority separation, and refusal preservation.
+The first landed implementation resolves the initial questions about declaration/step/terminal addressed-record shape, finite continuation bounds, deterministic replay, influence/authority separation, and refusal preservation.
 
 Still unresolved:
 
