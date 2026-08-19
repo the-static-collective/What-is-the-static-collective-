@@ -66,6 +66,7 @@
 * [Lawful Navigation Specimen 001](specimens/lawful-navigation-specimen-001.md)
 * [Stigmergic Field v0.1](specimens/stigmergic-field-v0.1.md)
 * [Receipts](receipts/README.md)
+* [Cicada Adversarial Witness — Landed Checkpoint](evidence/cicada-adversarial-witness-landed-checkpoint.md)
 
 ## Witness
 
