@@ -4,6 +4,10 @@
 * [The Static Collective](<README (1).md>)
 * [Leave a Trace](CONTRIBUTING.md)
 
+## Project State
+
+* [Current Executable Project State](project-state.md)
+
 ## Patterns
 
 * [Creative Field Laws](patterns/creative-field-laws.md)
