@@ -1,6 +1,6 @@
 # L-Branch v0.1 — Bounded Resonant Propagation
 
-Status: **Frontier / approved design direction; executable proof not yet landed**
+Status: **Frontier / green executable candidate on Project0 PR #47; not yet landed**
 
 ## The field law
 
@@ -25,7 +25,7 @@ admitted excitation
       ↓
 local eligibility
       ↓
-step receipt
+step record
       ↓
 new local evidence
       ↓
@@ -104,7 +104,7 @@ Before propagation starts, the branch must already declare enough to reconstruct
 
 Every step remains inside that envelope.
 
-The desired v0.1 terminal states are:
+The v0.1 terminal states are:
 
 ```
 completed
@@ -127,7 +127,7 @@ No silent disappearance is a valid terminal state.
 
 ## Relationship to existing primitives
 
-L-Branch is intended to join existing lines, not rename them.
+L-Branch joins existing lines; it does not rename them.
 
 ### Resonance Seeds
 
@@ -174,14 +174,14 @@ The pollen metaphor here does not convert Pollen Scout into a generic transport 
 
 ## First falsifiable proof
 
-A useful first executable specimen should contain a fixed topology such as:
+The executable candidate on Project0 PR #47 now contains the fixed topology:
 
 ```
 excitation E
      ↓
 A becomes eligible
      ↓
-B becomes eligible because receipt(A) now exists
+B becomes eligible because A now exists in branch-local history
      ↓
 C is attempted but refused because required authority is absent
      ↓
@@ -190,15 +190,40 @@ no further lawful candidate
 damped
 ```
 
-Then run variants that prove:
+Its frozen fixture family also proves:
 
-1. adding a prior recognition changes eligibility while authority stays byte-identical;
-2. increasing work budget exposes more lawful search while authority/disclosure stay unchanged;
+1. adding prior recognition `R` changes eligibility while authority stays byte-identical;
+2. increasing declared work budget exposes more lawful search while authority/policy stay unchanged;
 3. repeated execution from identical canonical inputs yields identical branch, step, refusal, and terminal identities;
 4. attempted refusal remains distinguishable from an unattempted candidate;
-5. source seed/tension/recognition records remain unchanged.
+5. source fixture records remain unchanged;
+6. hostile accessor entries in declarations or candidate arrays are rejected without executing them.
 
-If the proof requires a model, network, scheduler, hidden global state, or ambient agent loop, the first slice is too large.
+The candidate remains deliberately local and deterministic: no model, network, scheduler, database, queue, UI, hidden global state, or ambient agent loop is required.
+
+## Executable candidate evidence — 2026-08-19
+
+Project0 PR #47 is currently open, non-draft, and mergeable at head:
+
+`9d5cec6b95321355a09b256f2029012c160e6e2b`
+
+GitHub Actions run #138 executed the full repository gate:
+
+```
+npm run verify:all
+```
+
+Observed result:
+
+* TypeScript compile check: PASS;
+* Node/TypeScript tests: 168 passed, 0 failed;
+* Python canonical fixture verification: PASS;
+* conformance CLI: PASS;
+* dependency audit during `npm ci`: 0 vulnerabilities.
+
+The Actions job checked the PR merge ref against the then-current `main`, not merely the feature branch in isolation.
+
+This is **project-backed executable candidate evidence**, not a claim that the work has landed on `main`, become a tagged contract, or graduated into a universal Static Collective Pattern.
 
 ## Downstream possibilities after proof
 
@@ -216,16 +241,20 @@ These are possible adopters, not evidence that the law has already graduated.
 Canonical design / implementation authority remains in Project 0:
 
 * GitHub issue: https://github.com/the-static-collective/project0/issues/46
-* Design PR: https://github.com/the-static-collective/project0/pull/47
+* Executable candidate PR: https://github.com/the-static-collective/project0/pull/47
+* Current candidate head: `9d5cec6b95321355a09b256f2029012c160e6e2b`
 * Design spec: `docs/superpowers/specs/2026-08-19-l-branch-v0.1-bounded-resonant-propagation-design.md`
+* Implementation plan: `docs/superpowers/plans/2026-08-19-l-branch-v0.1-bounded-resonant-propagation.md`
 
-This GitBook page is a public frontier projection. It does not establish that L-Branch is executable, merged, conformance-proven, or a frozen Project 0 law.
+This GitBook page is a public frontier projection. It does not turn a green PR into landed Project0 state, and it does not freeze L-Branch as a universal law.
 
 ## Residual fog
 
-Still unresolved until implementation evidence exists:
+The first implementation candidate resolves the initial questions about declaration/step/terminal addressed-record shape, finite continuation bounds, deterministic replay, influence/authority separation, and refusal preservation.
 
-* exact serializable declaration/step/terminal receipt shapes;
-* the smallest sufficient continuation-law representation;
+Still unresolved:
+
+* whether the exact experimental record shapes should survive unchanged beyond `p0.l-branch/0.1`;
 * how L-Branch composes with executable #30 resonance evaluation without coupling the primitives;
+* how real downstream capability execution should bind Project0 lease-consumption receipts while preserving this propagation boundary;
 * whether repeated independent specimens eventually justify graduating any portion into a portable Pattern.
