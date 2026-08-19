@@ -53,6 +53,7 @@
     * [BETA Field Witness — Creative Freedom Gate](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/beta-field-witness-creative-freedom-gate.md)
   * [L-Branch v0.1 — Bounded Resonant Propagation](frontier/primitive-incubator/l-branch-v0.1-bounded-resonant-propagation.md)
   * [Continuity Spine v0.1 — Staged Transformation Through Time](frontier/primitive-incubator/continuity-spine-v0.1-staged-transformation-through-time.md)
+  * [Iron Lung v0.1 — First Breath / Braided Circulation](frontier/primitive-incubator/iron-lung-v0.1-first-breath-braided-circulation.md)
 
 ## Evidence
 
