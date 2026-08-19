@@ -29,7 +29,7 @@ That makes a new question visible:
 Related pages:
 
 * [Visual Phrasing — Cool Is an Event](visual-phrasing-cool-is-an-event.md)
-* [Haunted Toaster — Gold Star Field Checkpoint](haunted-toaster-gold-star-field-checkpoint.md)
+* [Haunted Toaster — Gold Star Field Checkpoint](haunted-toaster-gold-star-field-checkpoint/)
 
 ## Native Color Witness
 
