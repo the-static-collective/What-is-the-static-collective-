@@ -55,6 +55,7 @@
   * [Continuity Spine v0.1 — Staged Transformation Through Time](frontier/primitive-incubator/continuity-spine-v0.1-staged-transformation-through-time.md)
   * [Iron Lung v0.1 — First Breath / Braided Circulation](frontier/primitive-incubator/iron-lung-v0.1-first-breath-braided-circulation.md)
   * [Entrusted Corpus — Trust Archaeology as Architecture](frontier/primitive-incubator/entrusted-corpus-trust-archaeology-as-architecture.md)
+  * [Weather, Residue & Causal Explanation — Jubilee Convergence Cluster](frontier/primitive-incubator/weather-residue-and-causal-explanation-jubilee-convergence-cluster.md)
 
 ## Evidence
 
