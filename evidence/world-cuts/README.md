@@ -15,6 +15,22 @@ They are not current-state databases, dashboards, or authorities. A World Cut re
 
 The preserved file is copied **byte-for-byte** from the returned audit artifact. Its wording, mistakes, stale facts, unresolved fog, and evidence cut are part of the witness. Corrections belong in later commentary or a later World Cut, never as silent edits to this one.
 
+## World Cut 002 — Awareness v0.1 deterministic observer
+
+- observed at: `2026-08-20T23:31:44Z`
+- scope: `constitutional-core-v0`
+- World Cut ID: `wcv0_456c4b94dcd4c8d24cf7bfb639b32f8ab7ec4460f4fb13135f34c96fe7e438c1`
+- JSON: `5457` bytes · SHA-256 `7879c02a6c9cbe7476fa4e317180bbb8e74097cb666907feb7af29e963052ca9`
+- Markdown: `2189` bytes · SHA-256 `29ca706cd1471b70953b1a179399dfde792d4908c21f9616e8a36bd6807800a1`
+- integrity receipt: `491` bytes · SHA-256 `6351561851cc1fb9064c7389e5ea05530c3865f353cb47a3595d3cb366c074f4`
+- observed freshness matrix: five `stale`; zero `fresh`; zero `unverified`
+- human-held gate observed: Autodiscography Vault PR #9 one-real-WAV gate, `projectDisposition: not-attempted`
+- collection fog: source cuts were freshly read through the GitHub connector and replayed through the deterministic fixture lane because this execution environment could not exercise the live `gh api` subprocess adapter
+
+**World Cut 002 was produced by the deterministic Awareness v0.1 observer; its currentness findings belong to that cut and do not amend World Cut 001.**
+
+The all-stale matrix is preserved as found. It satisfies the stale-specimen side of the Awareness promotion test but leaves the required live `fresh` specimen open. The collection fog also leaves end-to-end execution of the live `gh` adapter open rather than synthesizing a pass.
+
 ## Rule
 
 > **A World Cut may become stale without becoming false history.**
