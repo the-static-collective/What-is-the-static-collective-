@@ -14,6 +14,8 @@ Repository design/plan checkpoint: [Haunted Toaster PR #188](https://github.com/
 
 Project implementation authority remains in GitHub. This page is a bounded field projection.
 
+**Sense-layer checkpoint:** Haunted Toaster PR #185, _Perceptual Reflex Layer + Compost Translation_, landed on `main` as `e71c5ef7b36bd6af489efa695a6a4d4de7e65384`. That landing constitutes architecture only: learned/foreign machinery remains testimony-only, production dependency admission remains separately gated, and exact tool/model/version/hash/license evidence must be re-witnessed when adopted.
+
 ## The missing organ
 
 Haunted Toaster now has increasingly clear separation among three useful organs:
