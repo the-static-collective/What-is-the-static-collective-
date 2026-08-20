@@ -52,23 +52,25 @@ These are portable questions—not one shared UI, daemon, graph, or database.
 
 ### Project 0 — portable continuity claim grammar
 
-Existing issue #8 already asks for decoder context, irreducible residuals, root closure, plurality, and non-impersonation.
+Project0 issue #8 is now closed completed. PR #50 landed **Typed Continuity Braid v0**, turning the continuity questions into executable conformance for:
 
-Planning PR #50 turns that into **Continuity Witness v0** with a TDD path for:
-
-* purpose-relative continuity;
+* purpose-relative, lane-typed continuity;
 * exact material-root closure;
 * environment / decoder / runtime context;
-* `preserved / transformed / lost / unresolved` distinctions;
-* plural lawful continuations;
+* explicit preserved / transformed / transferred / reconstituted / lost / broken / unresolved distinctions;
+* plural lawful continuations and non-transitivity by default;
 * historical-occurrence non-impersonation;
-* authority-laundering attacks;
-* deterministic `Why Current? / Still Alive?` projections.
+* authority-laundering and hostile-representation attacks;
+* deterministic `Why Current? / Still Alive?` read models.
+
+PR #53 then pressure-tested the landed grammar with manuscript-transmission and reticulate/mixed-descent fixtures. The existing multi-root/multi-parent grammar survived without a new genealogy primitive.
 
 Project0 remains the meaning/conformance floor. It does not become the runtime owner of everybody's current state.
 
-* Issue: https://github.com/the-static-collective/project0/issues/8
-* Draft planning PR: https://github.com/the-static-collective/project0/pull/50
+* Completed issue: https://github.com/the-static-collective/project0/issues/8
+* Landed implementation PR: https://github.com/the-static-collective/project0/pull/50
+* Landed manuscript/reticulate fixture PR: https://github.com/the-static-collective/project0/pull/53
+* Superseded design ancestry: https://github.com/the-static-collective/project0/pull/52
 
 ### TranchNode — boundary loss and residual topology
 
@@ -181,13 +183,12 @@ If the pattern survives implementation, it supports five broad public-good prope
 
 ## Graduation gate
 
-The architecture graduates only if:
+Project0's deterministic executable conformance gate is now satisfied. The architecture graduates only if the remaining cross-domain evidence also arrives:
 
-1. Project0 Continuity Witness v0 becomes deterministic executable conformance;
-2. TranchNode maps a real boundary specimen without weakening its stronger local loss semantics;
-3. a materially different product (Corpus OS or jublEchat) maps its local witness without importing another project's execution laws;
-4. the shared grammar catches at least one real false continuity / omitted-loss / authority-laundering case;
-5. shared helper code is introduced only after those adapters prove repeated structure.
+1. TranchNode maps a real boundary specimen without weakening its stronger local loss semantics;
+2. a materially different product (Corpus OS or jublEchat) maps its local witness without importing another project's execution laws;
+3. the shared grammar catches at least one real false continuity / omitted-loss / authority-laundering case outside its originating fixture family;
+4. shared helper code is introduced only after those adapters prove repeated structure.
 
 Until then, the correct topology is:
 

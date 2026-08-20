@@ -4,7 +4,7 @@
 
 **Date:** 2026-08-19
 
-**Project-backed design:** Project0 issue #51 / draft PR #52
+**Project-backed specimens:** Project0 PR #50 (Typed Continuity Braid v0) and PR #53 (manuscript + reticulate continuity fixtures); PR #52 is closed as superseded design ancestry.
 
 ## Candidate law
 
@@ -50,13 +50,15 @@ The shared system should preserve enough context to make such claims inspectable
 
 ## Project0 specimen
 
-Project0 PR #52 proposes manuscript transmission as an adversarial fixture family against the Typed Continuity Braid already under design in PR #50.
+Project0 has now executed this adversarial line. PR #50 landed Typed Continuity Braid v0; PR #53 then landed the manuscript-transmission and reticulate fixture family. PR #52 is closed as superseded design ancestry rather than implementation authority.
 
-The first executable proof, if the written spec is approved, is intentionally only three synthetic attacks:
+The executable proof includes these synthetic attacks:
 
 1. **copy != composition occurrence**;
 2. **translation != source exact form**;
 3. **two lawful reconstructions from the same fragments remain plural**.
+
+A fourth mixed-descent attack is recorded in the child Reticulate Continuity page: one descendant closes over two evidenced parents while omission of a known parent is refused. The result required no new genealogy primitive.
 
 Synthetic text is sufficient. The research supplies relationship shapes; Project0 does not need ancient corpus bytes, museum images, copyrighted editions, or a historical truth engine.
 
@@ -114,7 +116,7 @@ This clue composes with existing work rather than replacing it:
 
 Do not build a manuscript platform.
 
-First ask whether the existing continuity grammar can survive three synthetic fixtures without cheating:
+The existing continuity grammar has now survived the first synthetic fixtures without cheating:
 
 ```
 copy -> original?               REFUSE
@@ -122,7 +124,7 @@ translation -> exact source?    REFUSE
 fragments -> one forced whole?  REFUSE
 ```
 
-A positive result means the grammar survives a stronger hostile corpus. A failure is useful only if the repair generalizes beyond manuscript scholarship.
+That positive result means the grammar survives this stronger hostile corpus. It does not make manuscript-specific claims universal law; downstream domains must still reproduce the distinction independently.
 
 ## Failure conditions
 
@@ -147,7 +149,7 @@ Keep this in the Primitive Incubator until:
 4. plural lawful reconstructions remain representable;
 5. at least one materially different downstream organ independently reproduces the distinction.
 
-Historical elegance is not enough.
+The Project0 fixture gate is now satisfied. The downstream-reproduction gate remains open. Historical elegance is not enough.
 
 ## Design sentence
 
