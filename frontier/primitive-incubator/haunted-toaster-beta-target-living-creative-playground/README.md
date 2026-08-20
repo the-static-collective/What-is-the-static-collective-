@@ -13,6 +13,8 @@ Canonical project issue: [Haunted Toaster #148](https://github.com/the-static-co
 
 First child slice: [Haunted Toaster #147](https://github.com/the-static-collective/the-haunted-toaster/issues/147) — Toastmood-informed six-up + two-parent CROSS.
 
+Current interaction slice: [Haunted Toaster PR #189](https://github.com/the-static-collective/the-haunted-toaster/pull/189) — deterministic second six-up of contextual next-move proposals.
+
 ## Target
 
 Haunted Toaster beta should stop feeling primarily like a configuration surface and become a **playable creative ecology**.
@@ -81,6 +83,34 @@ The first beta move changes six-up from a menu into a population:
 Working criterion:
 
 > **Six substantially different hypotheses about what this source wants to become.**
+
+## Track 1.5 — contextual second six-up
+
+PR #189 makes the next creative act legible without turning the candidate room back into a toolbar.
+
+The interaction is now:
+
+```
+six creatures
+    ↓ choose one
+six addressed next-move proposals
+    ├─ EXPAND
+    ├─ MUTATE
+    ├─ CONVERGE
+    ├─ STOMP
+    ├─ CROSS × suggested current-family partner
+    └─ CROSS × suggested current-family partner
+```
+
+`DEAL SIX MORE` changes only the proposal deal. It does not regenerate the current family, spend render authority, bind a winner, or introduce hidden entropy.
+
+`EXPAND` is not a new renderer mode or ontology entry. It is a distinct human intent over the existing lane-inheriting mutation path. `CROSS` remains exact two-parent current-family execution.
+
+The implementation keeps proposal generation as a deterministic **renderer-local projection**. It does not add proposal authority to preload or IPC. Choosing a proposal delegates to the already-authoritative candidate operations; `Use selected timeline` remains the separate human binding act before production render.
+
+The move deck therefore sharpens the beta law:
+
+> **Proposal can become richer without authority becoming broader.**
 
 ## Track 2 — Creative Verb Kernel v1
 
@@ -223,6 +253,8 @@ The umbrella becomes materially real when one packaged session proves:
 9. locks / constraints → absolute throughout creative play;
 10. accepted winner → unchanged canonical timeline / renderer authority boundary.
 
+The near-term interaction gate added by PR #189 is narrower: choosing one current creature must expose exactly six deterministic, addressed proposals; re-dealing must change proposal identity without changing candidate identity; and executing one proposal must continue through existing candidate authority before any explicit timeline acceptance.
+
 ## Field criterion
 
 The proof is not merely that more combinations exist.
@@ -237,4 +269,4 @@ The latest field checkpoint adds a second criterion:
 
 ## Authority note
 
-GitHub issue #148 owns the project target. Issue #147 owns Track 1. Existing project issues retain authority over their own renderer, mutation, possession, residual, and compatibility semantics. This GitBook page is a durable frontier projection, not a replacement source of truth.
+GitHub issue #148 owns the project target. Issue #147 owns the candidate-ecology ancestor; issue #180 and PR #189 own the current Toastmood-door / second-six-up slice. Existing project issues retain authority over their own renderer, mutation, possession, residual, and compatibility semantics. This GitBook page is a durable frontier projection, not a replacement source of truth.
