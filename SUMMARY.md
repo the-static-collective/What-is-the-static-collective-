@@ -30,6 +30,7 @@
 * [Metaphor as Portal](scrapbook/constellations/metaphor-as-portal.md)
 * [Potential Energy Routing](scrapbook/constellations/potential-energy-routing.md)
 * [Bounded Weirdness](scrapbook/constellations/bounded-weirdness.md)
+* [Open Selador — Decompress the Pearl](scrapbook/open-selador-decompress-the-pearl.md)
 
 ## Frontier
 
