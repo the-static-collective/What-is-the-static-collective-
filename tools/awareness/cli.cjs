@@ -41,6 +41,23 @@ function readJson(filePath, label) {
   }
 }
 
+function ensureFixtureProvenance(fixture) {
+  if (!fixture || typeof fixture !== "object") return fixture;
+  const fog = Array.isArray(fixture.fog) ? fixture.fog : [];
+  if (fog.some((entry) => entry?.source === "awareness-v0.1#collection")) return fixture;
+  return {
+    ...fixture,
+    fog: [
+      ...fog,
+      {
+        source: "awareness-v0.1#collection",
+        code: "AWARENESS_FIXTURE_REPLAY",
+        note: "collector result supplied through deterministic fixture lane; live GitHub adapter not exercised",
+      },
+    ],
+  };
+}
+
 function writeArtifacts(outDir, artifacts) {
   const targets = {
     json: path.join(outDir, "world-cut.json"),
@@ -62,7 +79,9 @@ try {
   const args = parseArgs(process.argv.slice(2));
   const scope = readJson(args["--scope"], "--scope");
   const gates = args["--gates"] ? readJson(args["--gates"], "--gates") : null;
-  const fixture = args["--fixture"] ? readJson(args["--fixture"], "--fixture") : null;
+  const fixture = args["--fixture"]
+    ? ensureFixtureProvenance(readJson(args["--fixture"], "--fixture"))
+    : null;
   const observedAt = args["--observed-at"] ?? new Date().toISOString();
   const worldCut = runAwarenessAudit({
     scope,
