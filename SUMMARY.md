@@ -58,7 +58,8 @@
   * [Iron Lung v0.1 — First Breath / Braided Circulation](frontier/primitive-incubator/iron-lung-v0.1-first-breath-braided-circulation.md)
   * [Entrusted Corpus — Trust Archaeology as Architecture](frontier/primitive-incubator/entrusted-corpus-trust-archaeology-as-architecture.md)
   * [Weather, Residue & Causal Explanation — Jubilee Convergence Cluster](frontier/primitive-incubator/weather-residue-and-causal-explanation-jubilee-convergence-cluster.md)
-  * [Continuity Witness — Shared Questions, Local Answers](frontier/primitive-incubator/continuity-witness-shared-questions-local-answers.md)
+  * [Continuity Witness — Shared Questions, Local Answers](frontier/primitive-incubator/continuity-witness-shared-questions-local-answers/README.md)
+    * [Forkability — Continuity Without Convergence](frontier/primitive-incubator/continuity-witness-shared-questions-local-answers/forkability-continuity-without-convergence.md)
   * [Manuscript Transmission — Survival Without Collapse](frontier/primitive-incubator/manuscript-transmission-survival-without-collapse/README.md)
     * [Reticulate Continuity — Mixed Descent vs Recurrence](frontier/primitive-incubator/manuscript-transmission-survival-without-collapse/reticulate-continuity-mixed-descent-vs-recurrence.md)
 
