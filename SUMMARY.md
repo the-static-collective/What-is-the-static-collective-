@@ -61,6 +61,7 @@
   * [Weather, Residue & Causal Explanation — Jubilee Convergence Cluster](frontier/primitive-incubator/weather-residue-and-causal-explanation-jubilee-convergence-cluster.md)
   * [Continuity Witness — Shared Questions, Local Answers](frontier/primitive-incubator/continuity-witness-shared-questions-local-answers/README.md)
     * [Forkability — Continuity Without Convergence](frontier/primitive-incubator/continuity-witness-shared-questions-local-answers/forkability-continuity-without-convergence.md)
+    * [Attributable Transformation — Difference as Continuity Evidence](frontier/primitive-incubator/continuity-witness-shared-questions-local-answers/attributable-transformation-difference-as-continuity-evidence.md)
   * [Manuscript Transmission — Survival Without Collapse](frontier/primitive-incubator/manuscript-transmission-survival-without-collapse/README.md)
     * [Reticulate Continuity — Mixed Descent vs Recurrence](frontier/primitive-incubator/manuscript-transmission-survival-without-collapse/reticulate-continuity-mixed-descent-vs-recurrence.md)
   * [Tranchish v0 — Speakable Code / Readable Receipts](frontier/primitive-incubator/tranchish-v0-speakable-code-readable-receipts/README.md)
