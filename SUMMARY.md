@@ -52,6 +52,7 @@
     * [Video Source, VSPantry & Receipt-Backed Memory](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/video-source-vspantry-and-receipt-backed-memory.md)
     * [BETA Field Witness — Creative Freedom Gate](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/beta-field-witness-creative-freedom-gate.md)
     * [Resonant Disturbance v0 — Body Law](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/resonant-disturbance-v0-body-law.md)
+    * [Second Six-Up — Landed Receipt](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/second-six-up-landed-receipt.md)
   * [L-Branch v0.1 — Bounded Resonant Propagation](frontier/primitive-incubator/l-branch-v0.1-bounded-resonant-propagation.md)
   * [Continuity Spine v0.1 — Staged Transformation Through Time](frontier/primitive-incubator/continuity-spine-v0.1-staged-transformation-through-time.md)
   * [Iron Lung v0.1 — First Breath / Braided Circulation](frontier/primitive-incubator/iron-lung-v0.1-first-breath-braided-circulation.md)
