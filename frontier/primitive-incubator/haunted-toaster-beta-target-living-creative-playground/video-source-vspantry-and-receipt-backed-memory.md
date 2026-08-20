@@ -7,7 +7,7 @@ description: >-
 
 # Video Source, VSPantry & Receipt-Backed Memory
 
-Status: **project-backed beta architecture; Slice A is proven in Haunted Toaster PR #157 and ready for review**
+Status: **project-backed beta architecture; Video/VSPantry Slice A is landed, and live bulk-import observability is proven for the current BETA field package**
 
 Canonical project design: `docs/superpowers/specs/2026-08-17-video-source-pantry-toastpacks-memory-design.md`
 
@@ -49,6 +49,44 @@ canonical local VSPantry catalogue
 Filename, filesystem enumeration order, import order, and admission time do not become generation authority. Re-importing identical bytes is idempotent.
 
 The first intake stage stays deliberately cheap so a harvest of hundreds of short Flow clips can enter without requiring deep analysis up front.
+
+### Live folder-intake observability — issue #177
+
+Packaged BETA testing showed that the existing folder importer was functioning but could appear dead while serially hashing, probing, and admitting a large source folder. Issue #177 repairs the **observability**, not the ingestion law.
+
+The existing flat serial operation now exposes truthful progress through the existing VSPantry status surface:
+
+```
+selected folder
+    ↓
+supported files discovered
+    ↓
+current file index + filename
+    ↓
+completed admitted / duplicate / refused counts
+    ↓
+terminal catalogue size
+```
+
+Counts report completed work only; they never claim admission before the corresponding specimen operation has finished. The import action is marked busy only while that folder intake is active.
+
+The progress relay is presentation testimony. It does **not** change specimen IDs, hashing, ffprobe evidence, deduplication, catalogue semantics, traversal depth, Video generation authority, `VisualScore`, `ResolvedTimeline`, or production renderer behavior. The scan remains flat and serial; recursion and concurrency remain separate future decisions.
+
+TDD provenance is explicit. The RED head `59da730ad944c3b9c922f204e0c8a723228ac01c` ran as Actions `32327606711`: 408 established tests passed and exactly four new #177 contracts failed at the intended importer → IPC → preload → UI seams.
+
+The final BETA field-package head is `3554f4d5f28d311e67eb9e9c872514656fcc52cd`. Actions run `32328302222` passed consolidated application proof, runtime dependency audit, render/candidate smoke, and the Chromium renderer witness, including a dedicated transient VSPantry import-progress witness. The unsigned Windows package also passed.
+
+Windows field artifact:
+
+* `Haunted-Toaster-Windows-32328302222`
+* artifact id `9392238914`
+* size `424,862,239` bytes
+* digest `sha256:2eb92086c2a9b41a8070a988a9e954a0eda775748c421f8c25e95b46711e10c9`
+* contains distinct `Haunted-Toaster-0.5.0-alpha.8-x64-Portable.exe` and `Haunted-Toaster-0.5.0-alpha.8-x64-Setup.exe`
+
+The field package also carries the current-main Listener zero-lead / suspicious-long-gap hardening from PR #190; that Listener work remains mechanically separate from VSPantry authority.
+
+Implementation and package authority: Haunted Toaster issue #177 and PR #192. This section is only the durable project-backed projection.
 
 ## ToastPack
 
@@ -157,11 +195,11 @@ That separation is the core law of the whole loaf.
 
 Persistent first-class Video source, default-on Pantry admission, content addressing, ffprobe evidence, deterministic catalogue, cheap bulk folder intake, and UI/browser witness. **No renderer or generation semantic change.**
 
-Implementation: Haunted Toaster PR #157 — **proven and ready for review**.
+Implementation: Haunted Toaster PR #157 — landed foundation. Issue #177 / PR #192 adds live bulk-import observability without widening that authority.
 
 ### Slice A proof
 
-Final project proof ran against the PR merge result in GitHub Actions run `32096137746`.
+The original project proof ran against the PR #157 merge result in GitHub Actions run `32096137746`.
 
 Application witness:
 
@@ -183,6 +221,8 @@ Authority-boundary proof:
 * no files under `src/full-measure/src/generation/` changed;
 * `executionForRender()` remains Video-unaware;
 * Video remains session/pantry evidence until the renderer-facing slice is separately admitted.
+
+Current BETA field proof for #177 is recorded above and supersedes silence-as-progress in the folder-import UX while preserving these same authority boundaries.
 
 ### Slice B — Receipt Archive + Toaster Memory v1
 

@@ -73,6 +73,20 @@ Proof artifact: `upper-room-milestone-b-proof`, artifact id `9275389526`, digest
 
 The captured phone witness was inspected directly. Scripture occupies effectively the whole reading surface; the header remains subordinate; John 1 is readable; no premature chat, room controls, navigation framework, or AI surface competes with the passage.
 
+## Dust Specimen 001 — landed attention weather
+
+On 2026-08-19, Upper Room PR #3 landed as merge commit `10a952fe64c00f878f4e5dc691b09a78791b93d5` after exact-head CI passed and no unresolved review threads remained.
+
+The specimen adds a pure `src/features/dust/` domain module over synthetic John 1 attention observations. Its public projection exposes only Scripture anchor, coarse concentration, expiry, and `authority: none`. Raw attention observations remain input-only; weather-induced glance/return reflexes do not feed themselves back into the field; duplicate-kind spam is bounded; neighboring verse coordinates remain isolated; and the existing Scripture App remains independent of Dust.
+
+This is a bounded project projection, not a claim that shared attention transport or production telemetry now exists.
+
+Working law:
+
+> **Attention may become weather without becoming command.**
+
+Repository authority remains the Upper Room project and landed PR #3. This page records the new executable neighbor for re-entry only.
+
 ## Explicit negative space
 
 This milestone does **not** claim:
