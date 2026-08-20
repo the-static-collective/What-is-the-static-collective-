@@ -7,11 +7,11 @@ icon: code-branch
 
 # Current Executable Project State
 
-**Projection observed: 2026-08-19.**
+**Projection observed: 2026-08-20.**
 
 This page is a convenience view, not project authority. The project-owned repository, its landed code, tests, receipts, and local documentation outrank this projection. If this page disagrees with a project, the project wins and this page is stale.
 
-The established five-project machine-status mesh remains intentionally bounded to Project 0, TranchNode, Corpus OS, Full Measure, and Founder Node. This pass reconciled all five against current `main`: Project 0, TranchNode, and Full Measure had materially newer executable state and their repository-owned status projections are now refreshed; Corpus OS and Founder Node had no newer executable commits and remain unchanged. This page does not combine them into a new master authority graph.
+The established five-project machine-status mesh remains intentionally bounded to Project 0, TranchNode, Corpus OS, Full Measure, and Founder Node. Recent reconciliation now includes Corpus OS Continuity Attestation v0.1 as a landed executable local witness. This page does not combine these projects into a new master authority graph.
 
 ## The current crossing stack
 
@@ -29,7 +29,7 @@ Corpus OS — destination-local World Encounter admission v0.1
 Full Measure — local encounter residue / constituted destination projection
 ```
 
-That crossing stack still stands. The last day’s growth is mostly **orthogonal capability around the crossing**, not a replacement authority path: Project 0 gained bounded propagation, thresholded local topology, and typed continuity; TranchNode gained staged transformation proof; Full Measure gained a basic-human operator projection and a bounded two-step locomotion specimen.
+That crossing stack still stands. Recent growth remains mostly **orthogonal capability around the crossing**, not a replacement authority path: Project 0 gained bounded propagation, thresholded local topology, and typed continuity; TranchNode gained staged transformation proof; Corpus OS gained local constituted-world continuity attestation; Full Measure gained a basic-human operator projection, bounded two-step locomotion, and residue-driven collision witness.
 
 Transport still joins seams without joining authority. Gesture decoding does not authorize a crossing. Project 0 testimony does not become source authority by moving. Corpus OS still decides admission locally. Full Measure stores its own encounter residue rather than rewriting donor history.
 
@@ -69,15 +69,18 @@ The Spine keeps future attractors proposal-only, requires invariant-preserving o
 
 ## Corpus OS
 
-**Current executable phase:** constituted reality + destination-local World Encounter admission.
+**Current executable phase:** constituted reality + destination-local World Encounter admission + Continuity Attestation v0.1.
 
 Corpus OS records adopted warranted execution, causal accounting, lawful reachability, latent reachability, and destination-local World Encounter admission v0.1 through a bounded stdio door without granting transport authority over the destination.
 
-No newer executable commit displaced that phase in this reconciliation pass.
+It now also contains **Corpus Continuity Attestation v0.1**, a frozen local witness over two already-derived `WorldCut` values. The attestation distinguishes exact preservation from explicitly evidenced transformation and loss, leaves unexplained differences unresolved, and retains refusal/host-failure/completion history rather than flattening succession into success.
+
+The attestation is descriptive only. It does not mutate or re-derive a WorldCut, validate or consume warrants, reach Session/host execution, or make `authorityContinuity` executable. `legalValidity` remains `unclaimed`.
 
 * Repository: [Corpus OS](https://github.com/the-static-collective/corpus-os)
 * Machine projection: [`PROJECT_STATUS.json`](https://github.com/the-static-collective/corpus-os/blob/main/PROJECT_STATUS.json)
 * World Encounter admission proof: commit `63c0be4cd49c383ae167ded99103b79ba4626416`
+* Continuity Attestation proof: commit `1f3344b5f3f46d28ff6dda901d9c14620641b6ca`
 
 ## Full Measure — World Layer
 

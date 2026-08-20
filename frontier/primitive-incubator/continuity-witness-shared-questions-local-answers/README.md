@@ -126,13 +126,19 @@ This is a design refinement, not a claim that Upper Room has executable continui
 
 ### Corpus OS — constituted-world succession
 
-Corpus already distinguishes constituted present (#20), latent possibility (#23), and executable warrant authority (#14/#17).
+Corpus now has a landed local continuity witness in addition to constituted present (#20), latent possibility (#23), and executable warrant authority (#14/#17).
 
-Issue #30 now stages the first explicit **Continuity Attestation** specimen:
+PR #31 landed **Corpus Continuity Attestation v0.1**. It compares two already-derived `WorldCut` values and mechanically distinguishes exact preserved refs, explicitly evidenced transformations, explicitly evidenced losses, and unresolved differences while retaining each cut's terminal history and orphan evidence.
 
-> When Corpus moves between WorldCuts, explain what persisted, transformed, disappeared, or remains unresolved without making the continuity answer itself capable of doing anything.
+The governing boundary remains:
 
-* Issue: https://github.com/the-static-collective/corpus-os/issues/30
+> **WorldCut constitutes the world. Continuity Attestation explains the succession. Neither grants authority.**
+
+Authority-cut change is explicit. `authorityContinuity` is inert metadata only: it does not validate, revive, bridge, or consume a warrant. `legalValidity` remains `unclaimed`.
+
+* Completed issue: https://github.com/the-static-collective/corpus-os/issues/30
+* Landed PR: https://github.com/the-static-collective/corpus-os/pull/31
+* Merge commit: https://github.com/the-static-collective/corpus-os/commit/1f3344b5f3f46d28ff6dda901d9c14620641b6ca
 
 ## Residual Topology
 
@@ -198,12 +204,14 @@ If the pattern survives implementation, it supports five broad public-good prope
 
 ## Graduation gate
 
-Project0's deterministic executable conformance gate is now satisfied. The architecture graduates only if the remaining cross-domain evidence also arrives:
+Project0's deterministic executable conformance gate is now satisfied, and Corpus OS now supplies a materially different executable local witness. The architecture still has not graduated into shared runtime code.
+
+Remaining cross-domain pressure should prove:
 
 1. TranchNode maps a real boundary specimen without weakening its stronger local loss semantics;
-2. a materially different product (Corpus OS or jublEchat) maps its local witness without importing another project's execution laws;
+2. a hostile cross-domain conformance case can compare TranchNode and Corpus evidence without importing either project's execution laws;
 3. the shared grammar catches at least one real false continuity / omitted-loss / authority-laundering case outside its originating fixture family;
-4. shared helper code is introduced only after those adapters prove repeated structure.
+4. shared helper code is introduced only after those mappings prove repeated structure.
 
 Until then, the correct topology is:
 
