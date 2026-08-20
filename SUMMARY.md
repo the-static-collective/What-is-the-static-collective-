@@ -62,6 +62,7 @@
     * [Forkability — Continuity Without Convergence](frontier/primitive-incubator/continuity-witness-shared-questions-local-answers/forkability-continuity-without-convergence.md)
   * [Manuscript Transmission — Survival Without Collapse](frontier/primitive-incubator/manuscript-transmission-survival-without-collapse/README.md)
     * [Reticulate Continuity — Mixed Descent vs Recurrence](frontier/primitive-incubator/manuscript-transmission-survival-without-collapse/reticulate-continuity-mixed-descent-vs-recurrence.md)
+  * [Tranchish v0 — Speakable Code / Readable Receipts](frontier/primitive-incubator/tranchish-v0-speakable-code-readable-receipts.md)
 
 ## Evidence
 
