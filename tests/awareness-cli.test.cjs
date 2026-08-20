@@ -114,6 +114,16 @@ test("fixture CLI run emits fresh stale and unverified projections", () => {
   assert.match(payload.artifacts.receiptSha256, /^[a-f0-9]{64}$/);
 });
 
+test("fixture mode records that the live GitHub adapter was not exercised", () => {
+  const { run } = cliFixtureRun();
+  assert.equal(run.status, 0, run.stderr);
+  const payload = JSON.parse(run.stdout);
+  assert.ok(payload.worldCut.fog.some((entry) =>
+    entry.source === "awareness-v0.1#collection" &&
+    entry.code === "AWARENESS_FIXTURE_REPLAY"
+  ));
+});
+
 test("stdout mode creates no output files", () => {
   const { dir, run } = cliFixtureRun();
   assert.equal(run.status, 0, run.stderr);
