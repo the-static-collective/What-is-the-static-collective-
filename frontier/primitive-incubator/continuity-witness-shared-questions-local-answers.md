@@ -109,6 +109,21 @@ The continuity lesson is not “make emergence deterministic.” It is:
 * Lineage + creative memory: https://github.com/the-static-collective/the-haunted-toaster/issues/151
 * Candidate ecology / CROSS: https://github.com/the-static-collective/the-haunted-toaster/issues/147
 
+### Upper Room — continuity without captivity
+
+Upper Room PR #5 is now landed and names a project-owned governing edge that complements the portable grammar without importing it as runtime authority:
+
+> **Upper Room preserves the thread, not the pose.**
+
+Its local concern is **continuity without captivity**. Participants may branch, disagree, leave, return, change translation, revise understanding, or lose realtime presence while durable relations remain attributable enough for honest re-entry.
+
+The landed design distinguishes textual, witness, temporal, branch, relational, provenance, and return continuity, while explicitly refusing maximal recording, forced synchronization, model-generated canonical summaries, or the conversion of presence into control.
+
+This is a design refinement, not a claim that Upper Room has executable continuity machinery for every class. The executable Dust / Attention Weather specimen remains a separate local proof, and project authority stays in the Upper Room repository.
+
+* Landed design PR: https://github.com/the-static-collective/Upper-room/pull/5
+* Merge commit: https://github.com/the-static-collective/Upper-room/commit/0c96204e8a7f92d63df9d3d955db7f01384b0892
+
 ### Corpus OS — constituted-world succession
 
 Corpus already distinguishes constituted present (#20), latent possibility (#23), and executable warrant authority (#14/#17).
@@ -204,6 +219,9 @@ Until then, the correct topology is:
           │
       Haunted Toaster
       creative genealogy
+          │
+      Upper Room
+      shared encounter continuity
 ```
 
 The center is a **contract**, not a command center.
