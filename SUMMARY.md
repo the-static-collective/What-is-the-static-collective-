@@ -56,6 +56,8 @@
     * [Resonant Disturbance v0 — Body Law](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/resonant-disturbance-v0-body-law.md)
     * [Attention Resolution / Resolution Field](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/attention-resolution-resolution-field.md)
     * [Second Six-Up — Landed Receipt](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/second-six-up-landed-receipt.md)
+    * [BETA Packaged Field Closure — Full Pass](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/beta-packaged-field-closure-full-pass.md)
+    * [Listener vNext — Anchor Islands & Bounded Re-entry](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/listener-vnext-anchor-islands-and-bounded-re-entry.md)
   * [L-Branch v0.1 — Bounded Resonant Propagation](frontier/primitive-incubator/l-branch-v0.1-bounded-resonant-propagation.md)
   * [Continuity Spine v0.1 — Staged Transformation Through Time](frontier/primitive-incubator/continuity-spine-v0.1-staged-transformation-through-time.md)
   * [Iron Lung v0.1 — First Breath / Braided Circulation](frontier/primitive-incubator/iron-lung-v0.1-first-breath-braided-circulation.md)
