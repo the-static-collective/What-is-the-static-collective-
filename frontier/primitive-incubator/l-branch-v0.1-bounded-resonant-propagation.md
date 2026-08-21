@@ -38,6 +38,64 @@ damping / refusal / exhaustion / completion
 
 The branch is allowed to **ring**. It is not allowed to enlarge its own sovereignty.
 
+## Resonant cavity — geometry biases affordance, not authority
+
+A later field observation sharpens the biological analogy without changing the landed v0.1 contract.
+
+A resonant cavity does not need to command a particular motion. Its geometry can make some already-lawful modes easier to excite, reinforce, or sustain than others. The useful eCODEsystem hypothesis is therefore:
+
+> **Resonance changes affordance, not authority.**
+
+Conceptually:
+
+```
+declared geometry
+      +
+admitted excitation
+      ↓
+several lawful modes
+      ↓
+unequal susceptibility / persistence
+      ↓
+one mode rings more readily
+```
+
+The cavity does not mint permission. Authority remains separately declared and conserved. A frequently reinforced, synchronized, salient, or easy-to-reach mode does not become lawful merely because it resonates.
+
+This also suggests a bounded form of **held without being possessed**. A state may occupy a stable relational position because several independently attributable constraints continue to hold it there. No single relation must own the state, and stability itself does not create authority.
+
+```
+witness ─────────┐
+ancestry ────────┤
+receipt ─────────┼──> stable relational position
+local authority ─┤
+counter-witness ─┘
+```
+
+The resulting topology may eventually need vocabulary richer than binary reachable/unreachable — for example resonant, metastable, drifting, or decoupled — but those remain candidate relational descriptions, not new authority states or landed L-Branch dispositions.
+
+The most consequential extension concerns history. If an attributable scar, refusal, residue, or prior encounter changes the later local geometry, then later excitation may encounter a different susceptibility field:
+
+```
+encounter
+   ↓
+residue / scar
+   ↓
+changed local geometry
+   ↓
+changed resonance
+   ↓
+different future affordance
+```
+
+That gives a stronger compression:
+
+> **History may change the cavity, and the changed cavity may change what readily rings next — without deciding what must ring next.**
+
+This composes directly with [The Thirteenth May Be the Rim — Relational Vessel Topology](the-thirteenth-may-be-the-rim-relational-vessel-topology.md): the rim may bound a relational field while the cavity describes how that bounded geometry can participate dynamically. Neither relation nor resonance becomes a sovereign participant.
+
+**Evidence boundary:** beetle flight mechanics, resonant cavities, and levitation remain design metaphors here. This section does not claim that the landed Project0 fixture models continuous physics, acoustic levitation, insect physiology, or a newly proved universal eCODEsystem law.
+
 ## Candidate law
 
 > **Difficulty may expand search amplitude; it must not expand sovereignty.**
