@@ -1,24 +1,25 @@
 ---
 description: >-
   Incubating comparative overlay: biblical anthropology, whole-body and social
-  neuroscience, chakra phenomenology, and measurable versus proposed biofields.
+  neuroscience, molecular addressability, chakra phenomenology, and measurable
+  versus proposed biofields.
 ---
 
 # Embodied Personhood Overlay — Bible, Neuroscience, Chakras & Biofield
 
 **Status:** incubating research projection — not shared law, not medical guidance, not proof of chakra anatomy or subtle-energy physics\
-**Research authority:** National Treasure, `cases/embodied-personhood-overlay/`, landed from PR #22 at merge commit `395fda82441a17a591ebbe5054f0dc8a64907ee8`\
-**Current extension under review:** National Treasure PR #23 — social biology / inter-bodied regulation
+**Research authority:** National Treasure, `cases/embodied-personhood-overlay/`, landed core from PR #22; social-biology extension landed from PR #23\
+**Current extension under review:** National Treasure PR #25 — molecular addressability / chemical control surfaces
 
 > **Keep mechanism, phenomenology, theology, history, and metaphysics distinguishable long enough to see whether they actually converge.**
 
 ## Why this door became relevant
 
-A research inquiry first overlaid biblical language about heart, mind, soul-life, breath/spirit, attention, desire, selfhood, and transformation with contemporary whole-body neuroscience. A second pass added chakra/subtle-body traditions and claims about a human biofield. A third pass asked what changes when the interacting **relationship itself** becomes a measurable biological unit: mirror/action-perception systems, physiological synchrony, hyperscanning, social buffering, stress contagion, social touch, and isolation.
+A research inquiry first overlaid biblical language about heart, mind, soul-life, breath/spirit, attention, desire, selfhood, and transformation with contemporary whole-body neuroscience. A second pass added chakra/subtle-body traditions and claims about a human biofield. A third pass asked what changes when the interacting **relationship itself** becomes a measurable biological unit: mirror/action-perception systems, physiological synchrony, hyperscanning, social buffering, stress contagion, social touch, and isolation. A fourth pass now asks what changes when the organism is treated as **chemically addressable** through evolved receptors, enzymes, channels, transporters, second-messenger systems, and nuclear receptors.
 
-The interesting result is not “the Bible predicted neuroscience,” “chakras are proven,” or “synchrony proves telepathy.” It is that several very different traditions place unusual weight on **embodied, regional, relational, and trainable human experience**, while modern physiology increasingly rejects the caricature of a sovereign brain issuing commands to passive meat.
+The interesting result is not “the Bible predicted neuroscience,” “chakras are proven,” “synchrony proves telepathy,” or “humans evolved cannabis receptors.” It is that the person is materially open at several distinct scales: neural, visceral, social, electrical, and molecular.
 
-## Five maps that must not collapse
+## Six maps that must not collapse
 
 ```
 BIBLICAL ANTHROPOLOGY
@@ -33,11 +34,14 @@ brain ↔ viscera ↔ autonomics ↔ endocrine ↔ immune ↔ respiration
 SOCIAL BIOLOGY
 person A ↔ perception/action ↔ person B
               ↕
+MOLECULAR ADDRESSABILITY
+ligands ↔ receptors ↔ channels ↔ enzymes ↔ transporters
+              ↕
 MEASURABLE BIOPHYSICS
 electrical / magnetic / metabolic / photonic phenomena
 ```
 
-A stronger additional proposition — a distinct nonordinary subtle-energy/aura field — remains evidentially unresolved and must not borrow proof from measurable physiology or interpersonal synchrony merely because all can be described with words such as _field_, _energy_, or _coupling_.
+A stronger additional proposition — a distinct nonordinary subtle-energy/aura field — remains evidentially unresolved and must not borrow proof from measurable physiology, interpersonal synchrony, or molecular pharmacology merely because the language resonates.
 
 ## Biblical layer
 
@@ -67,7 +71,7 @@ This does not turn the heart or gut into independent conscious brains. It means 
 
 ## Social-biology layer — the inter-bodied extension
 
-The new fifth sheet asks whether `environment` is sometimes too vague a word. Other humans are not passive scenery. Their faces, voices, posture, timing, touch, movement, stress, calm, attention, and expectations can become causal inputs to another organism's nervous, autonomic, endocrine, immune, and behavioral state.
+Other humans are not passive scenery. Their faces, voices, posture, timing, touch, movement, stress, calm, attention, and expectations can become causal inputs to another organism's nervous, autonomic, endocrine, immune, and behavioral state.
 
 ### Mirror neurons: keep the real phenomenon, discard the mythology
 
@@ -77,13 +81,9 @@ Useful residue:
 
 > **Perceiving another body can recruit machinery related to representing one's own bodily actions.**
 
-Mirror neurons are therefore one doorway into embodied social perception, not a universal empathy organ.
-
 ### Interpersonal physiological synchrony
 
-Dyads can show temporal coordination across heart rate, heart-rate variability, respiration, skin conductance, pupil diameter, movement, and some endocrine measures. The effects are context-sensitive and can accompany cooperation, intimacy, distress, conflict, or co-dysregulation.
-
-A 2026 controlled experiment with familiar dyads found above-chance synchronization across several autonomic signals during mere visual contact relative to surrogate pairings, with some measures reduced when vision was blocked.
+Dyads can show temporal coordination across heart rate, respiration, skin conductance, pupil diameter, movement, and some endocrine measures. The effects are context-sensitive and can accompany cooperation, intimacy, distress, conflict, or co-dysregulation.
 
 A sufficient ordinary mechanism is already rich:
 
@@ -103,7 +103,7 @@ No hidden field is required for the relationship to become biologically coupled.
 
 ### Neural synchrony and embodied hyperscanning
 
-Hyperscanning records neural activity from multiple interacting people. Meta-analyses report interpersonal neural synchrony in some close-relationship and cooperative settings, usually with modest and context-dependent effects. Newer **embodied hyperscanning** approaches explicitly combine brain, body, behavior, and environment rather than treating two brains as disembodied clocks.
+Hyperscanning records neural activity from multiple interacting people. Meta-analyses report interpersonal neural synchrony in some close-relationship and cooperative settings, usually with modest and context-dependent effects.
 
 Critical restraint:
 
@@ -117,7 +117,7 @@ Shared stimuli, gaze, speech rhythm, movement, task structure, prediction, and r
 
 ### Social buffering and stress contagion
 
-A trusted or affiliative other can reduce physiological and behavioral responses to stress: **social buffering**. The opposite also occurs: stress can propagate socially. Reviews suggest partially overlapping neuroendocrine machinery across buffering and contagion.
+A trusted or affiliative other can reduce physiological and behavioral responses to stress: **social buffering**. The opposite also occurs: stress can propagate socially.
 
 Thus relational coupling is morally neutral at the mechanism level:
 
@@ -132,7 +132,7 @@ dysregulation can propagate
 
 ### Touch and isolation
 
-C-tactile afferents participate in gentle/social touch processing, though they do not explain every affective touch experience and are not intrinsically pleasant in every context. Social isolation and loneliness also show measurable associations with health-related biology, including some inflammatory markers, though the pathways are heterogeneous and not reducible to `loneliness = inflammation`.
+C-tactile afferents participate in gentle/social touch processing, though they do not explain every affective touch experience. Social isolation and loneliness also show measurable associations with health-related biology, including some inflammatory markers, though the pathways are heterogeneous.
 
 The bounded extraction is:
 
@@ -168,26 +168,6 @@ The standing distinction is:
 
 ## Candidate compression — inter-bodied personhood
 
-The earlier model:
-
-```
-brain ↔ body ↔ environment
-```
-
-now expands to:
-
-```
-brain A ↔ body A
-    ↕       ↕
- perception / action
-    ↕       ↕
-shared social environment
-    ↕       ↕
- perception / action
-    ↕       ↕
-brain B ↔ body B
-```
-
 Because B's changed state becomes input to A, the relationship itself becomes a dynamical system.
 
 Candidate compression:
@@ -199,6 +179,143 @@ Working adjective:
 > **inter-bodied**
 
 This remains an interpretive synthesis, not a claim of collective consciousness or loss of individual agency.
+
+## Molecular-addressability layer — chemical control surfaces
+
+The sixth sheet begins from a simple observation: the organism contains evolved biochemical machinery whose activity depends on molecular fit and context.
+
+That machinery includes:
+
+```
+receptors
+ion channels
+transporters
+enzymes
+nuclear receptors
+second-messenger systems
+```
+
+External compounds can therefore imitate a native ligand, block it, partially activate a receptor, tune an allosteric site, prevent signal removal, alter degradation, change ion flow, or modify gene expression.
+
+The governing restraint is:
+
+> **A molecule fitting a human receptor does not imply that the receptor evolved for that molecule.**
+
+### Cannabinoids as the opening specimen
+
+Humans possess an endogenous cannabinoid system containing endocannabinoids such as **anandamide (AEA)** and **2-AG**, cannabinoid receptors including **CB1** and **CB2**, and metabolic machinery including **FAAH** and **MAGL**.
+
+The useful correction is:
+
+```
+not:
+humans have receptors for cannabis
+
+better:
+humans have an endogenous cannabinoid signaling system
+        ↓
+plant cannabinoids can interact with parts of it
+```
+
+2-AG is especially interesting because it often participates in **retrograde synaptic signaling**: postsynaptic activity can produce a signal that travels backward to presynaptic CB1 receptors and changes subsequent transmitter release.
+
+This makes the endocannabinoid system a specimen of local feedback regulation, not merely a “cannabis pleasure pathway.”
+
+### The pattern generalizes
+
+| exogenous molecule / class        | major control surface                     | endogenous neighbor                   |
+| --------------------------------- | ----------------------------------------- | ------------------------------------- |
+| THC                               | cannabinoid receptors                     | anandamide / 2-AG                     |
+| morphine and many opioids         | opioid receptors                          | endorphins / enkephalins / dynorphins |
+| nicotine                          | nicotinic acetylcholine receptors         | acetylcholine                         |
+| caffeine                          | adenosine receptors                       | adenosine                             |
+| psychedelics such as psilocin/LSD | serotonergic receptors, especially 5-HT2A | serotonin                             |
+| benzodiazepines                   | allosteric sites on GABA-A receptors      | GABAergic signaling                   |
+| cocaine                           | monoamine transporters                    | native monoamine reuptake machinery   |
+| SSRIs                             | serotonin transporter                     | serotonin reuptake machinery          |
+| steroid-like compounds            | nuclear hormone receptors                 | endogenous steroid hormones           |
+
+The table is schematic. One famous target is never assumed to equal a compound's full pharmacology.
+
+### Receptors are more like control panels than single locks
+
+Caffeine illustrates **blocking**: at ordinary exposures it acts largely as an adenosine-receptor antagonist rather than adding an “energy molecule.”
+
+Benzodiazepines illustrate **allosteric tuning**: they bind sites distinct from the primary GABA-binding site and change receptor response.
+
+FAAH or MAGL inhibition illustrates **altering signal lifetime**: the target is metabolic machinery that clears endogenous cannabinoid signals rather than CB1 itself.
+
+Thus the chemical verbs include:
+
+```
+imitate
+block
+amplify
+dampen
+prevent removal
+change degradation
+allosterically tune
+change receptor trafficking
+change ion flow
+change gene expression
+```
+
+### Evolutionary inversion
+
+The opioid story makes the logic clear. Mammals do not possess an opioid system because poppies contain morphine. They possess endogenous opioid peptides and receptors; morphine happens to activate parts of that system.
+
+Receptor promiscuity provides one evolutionary mechanism for this broader phenomenon: biological binding pockets can be specific enough for endogenous function without being perfectly exclusive against every xenobiotic or synthetic molecule.
+
+Therefore:
+
+```
+outside molecule fits station
+        ≠
+station evolved for outside molecule
+```
+
+### The molecule is not the experience
+
+Psychoactive chemistry can alter pain, salience, appetite, sleepiness, fear, memory, motivation, time perception, bodily self-awareness, and sometimes the apparent structure of consciousness.
+
+But:
+
+> **The molecule does not contain the resulting experience. It changes the conditions under which the organism generates experience.**
+
+This resists reductions such as:
+
+```
+serotonin = happiness
+oxytocin = love
+cortisol = stress
+THC = relaxation
+```
+
+### Environmental chemistry and the boundary of self
+
+Taste and olfactory receptors make the basic architecture explicit:
+
+```
+external molecule
+      ↓
+specialized molecular receptor
+      ↓
+cellular response
+      ↓
+perception / behavior
+```
+
+The gut, immune system, endocrine system, metabolism, and microbiome make the boundary still more permeable because environmental molecules can be sensed, transformed, incorporated, or converted into signaling intermediates.
+
+Candidate compression:
+
+> **Molecular addressability: an organism contains evolved biochemical control surfaces that endogenous and exogenous molecules can activate, block, tune, or repurpose.**
+
+And:
+
+> **Some of what can change the self is neither inside the nervous system nor another mind: it can be environmental chemistry finding an addressable physiological station.**
+
+This is not chemical determinism. Dose, metabolism, receptor distribution, genetics, adaptation, context, expectation, current physiology, and learning all affect the outcome.
 
 ## Biofield layer: split the word first
 
@@ -218,17 +335,17 @@ Therefore:
 measurable bioelectricity
         ≠
 Reiki / aura field demonstrated
-```
 
-And now also:
-
-```
 interpersonal synchrony
         ≠
 telepathy / subtle field demonstrated
+
+molecular pharmacology
+        ≠
+subtle-energy mechanism demonstrated
 ```
 
-But the inverse is also too strong: failure to establish a traditional subtle field does not prove biology has nothing left to discover about organism-scale electrical organization or social coupling.
+But failure to establish a traditional subtle field does not prove biology has nothing left to discover about organism-scale electrical organization, social coupling, or molecular regulation.
 
 ## Chakra layer: historical correction first
 
@@ -286,7 +403,7 @@ metaphysical subtle-energy claim
 religious allegiance / ritual authority
 ```
 
-A biblical theology can disagree with the latter categories without denying ordinary sensation, breath regulation, interoception, imitation, social buffering, or synchrony. Likewise biblical `ruach`, `pneuma`, `dynamis`, laying on hands, glory, and healing language should not be reverse-engineered into vagal physiology, electromagnetism, biophotons, chakra mechanics, or hyperscanning results merely because the imagery resonates.
+A biblical theology can disagree with the latter categories without denying ordinary sensation, breath regulation, interoception, imitation, social buffering, synchrony, or molecular pharmacology. Likewise biblical `ruach`, `pneuma`, `dynamis`, laying on hands, glory, and healing language should not be reverse-engineered into vagal physiology, electromagnetism, biophotons, chakra mechanics, hyperscanning results, or receptor pharmacology merely because the imagery resonates.
 
 ## Current extraction
 
@@ -299,6 +416,10 @@ A biblical theology can disagree with the latter categories without denying ordi
 * interpersonal autonomic and neural synchrony are measurable phenomena;
 * social support can buffer stress while stress can also spread socially;
 * touch and social isolation have measurable physiological correlates;
+* endogenous ligand/receptor/enzyme/transport systems make the organism chemically addressable;
+* the endocannabinoid system includes endogenous ligands, cannabinoid receptors, and metabolic machinery;
+* exogenous drugs can activate, block, allosterically tune, or alter turnover within pre-existing signaling systems;
+* receptor promiscuity is an observed evolutionary phenomenon in at least some receptor families;
 * endogenous bioelectric and biomagnetic phenomena are measurable;
 * historical chakra traditions were plural;
 * the standardized Western seven-rainbow/endocrine/psychological chart is comparatively modern;
@@ -309,14 +430,19 @@ A biblical theology can disagree with the latter categories without denying ordi
 * chakra maps as culturally trained interoceptive coordinates;
 * learned attentional attractors around physiologically salient regions;
 * `inter-bodied` as a useful compression for socially coupled regulation;
+* `molecular addressability` as a portable systems-level description of biochemical openness;
 * some reports of “feeling someone's energy” as compressed awareness of subtle ordinary signals plus reciprocal physiology;
-* cross-cultural recurrence driven partly by shared human visceral, neural, and social anatomy.
+* cross-cultural recurrence driven partly by shared human visceral, neural, social, and chemical anatomy.
 
 **Explicitly not claimed**
 
 * mirror neurons explain empathy, spirituality, autism, or culture by themselves;
 * synchronized brains share thoughts;
 * physiological synchrony proves telepathy or a subtle field;
+* cannabinoid receptors evolved for cannabis;
+* opioid receptors evolved for poppies;
+* one neurotransmitter or hormone equals a complex subjective state;
+* plant-human molecular fit proves spiritual correspondence;
 * chakras are demonstrated anatomical organs;
 * biophotons explain aura perception;
 * the vagus nerve is biblical spirit;
@@ -343,11 +469,20 @@ For social synchrony / stronger biofield claims:
 5. preserve synchrony associated with distress and co-dysregulation rather than defining synchrony as inherently good;
 6. require any nonordinary channel hypothesis to predict effects that survive ordinary-channel exclusion and outperform known mechanisms.
 
+For molecular addressability:
+
+1. distinguish receptor binding from evolutionary purpose;
+2. distinguish one famous target from a compound's complete pharmacology;
+3. preserve dose, metabolism, tolerance, receptor distribution, active metabolites, and context;
+4. distinguish biochemical participation from identity with the resulting experience;
+5. treat “natural,” “endogenous,” and “exogenous” as descriptive rather than moral or safety labels;
+6. require independent evidence before translating plant-human molecular fit into historical, theological, or metaphysical correspondence.
+
 The frontier should remain open **and evidentially expensive**.
 
 ## Nearby doors
 
-* **National Treasure** owns the detailed archaeology, claim ledgers, sources, and the social-biology fifth-layer extension.
+* **National Treasure** owns the detailed archaeology, claim/source ledgers, social-biology fifth layer, and molecular-addressability sixth layer.
 * **Upper Room** may eventually benefit from the distinction between Scripture, embodied reading/prayer/community practice, ordinary physiological effects, and theological interpretation.
 * **Mouth / Eye / Hand / Hair** is a nearby constitutional-anatomy metaphor, but this page does not make symbolic anatomy into system authority.
 * **Groove Rooms / Band Runtime** is an intriguing future social-synchrony specimen because ensemble timing creates deliberate reciprocal coupling, but no project is enrolled from this research page.

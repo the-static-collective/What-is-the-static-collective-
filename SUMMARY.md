@@ -67,7 +67,8 @@
     * [Reticulate Continuity — Mixed Descent vs Recurrence](frontier/primitive-incubator/manuscript-transmission-survival-without-collapse/reticulate-continuity-mixed-descent-vs-recurrence.md)
   * [Tranchish v0 — Speakable Code / Readable Receipts](frontier/primitive-incubator/tranchish-v0-speakable-code-readable-receipts/README.md)
     * [Decompression Lab — Sound → Name → World](frontier/primitive-incubator/tranchish-v0-speakable-code-readable-receipts/decompression-lab-sound-name-world.md)
-  * [Embodied Personhood Overlay — Bible, Neuroscience, Chakras & Biofield](frontier/primitive-incubator/embodied-personhood-overlay-bible-neuroscience-chakras-and-biofield.md)
+  * [Embodied Personhood Overlay — Bible, Neuroscience, Chakras & Biofield](frontier/primitive-incubator/embodied-personhood-overlay-bible-neuroscience-chakras-and-biofield/README.md)
+    * [Layers Seven & Eight — Embodied History & Ecological Self](frontier/primitive-incubator/embodied-personhood-overlay-bible-neuroscience-chakras-and-biofield/layers-seven-and-eight-embodied-history-and-ecological-self.md)
   * [Inhabitable Code — Room Contract v0](frontier/primitive-incubator/inhabitable-code-room-contract-v0.md)
   * [The Thirteenth May Be the Rim — Relational Vessel Topology](frontier/primitive-incubator/the-thirteenth-may-be-the-rim-relational-vessel-topology.md)
 
