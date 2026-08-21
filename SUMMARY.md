@@ -69,6 +69,7 @@
     * [Decompression Lab — Sound → Name → World](frontier/primitive-incubator/tranchish-v0-speakable-code-readable-receipts/decompression-lab-sound-name-world.md)
   * [Embodied Personhood Overlay — Bible, Neuroscience, Chakras & Biofield](frontier/primitive-incubator/embodied-personhood-overlay-bible-neuroscience-chakras-and-biofield.md)
   * [Inhabitable Code — Room Contract v0](frontier/primitive-incubator/inhabitable-code-room-contract-v0.md)
+  * [The Thirteenth May Be the Rim — Relational Vessel Topology](frontier/primitive-incubator/the-thirteenth-may-be-the-rim-relational-vessel-topology.md)
 
 ## Evidence
 
