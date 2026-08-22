@@ -59,6 +59,7 @@
     * [Second Six-Up — Landed Receipt](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/second-six-up-landed-receipt.md)
     * [BETA Packaged Field Closure — Full Pass](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/beta-packaged-field-closure-full-pass.md)
     * [Listener vNext — Anchor Islands & Bounded Re-entry](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/listener-vnext-anchor-islands-and-bounded-re-entry.md)
+    * [Neutral Ground & Source Reveal](frontier/primitive-incubator/haunted-toaster-beta-target-living-creative-playground/neutral-ground-and-source-reveal.md)
   * [L-Branch v0.1 — Bounded Resonant Propagation](frontier/primitive-incubator/l-branch-v0.1-bounded-resonant-propagation.md)
   * [Continuity Spine v0.1 — Staged Transformation Through Time](frontier/primitive-incubator/continuity-spine-v0.1-staged-transformation-through-time.md)
   * [Iron Lung v0.1 — First Breath / Braided Circulation](frontier/primitive-incubator/iron-lung-v0.1-first-breath-braided-circulation.md)
@@ -83,6 +84,9 @@
   * [Causal Accounting / Linear Authority](frontier/primitive-incubator/causal-accounting-linear-authority.md)
   * [Human Witness Relay — Evidence That Compounds](frontier/primitive-incubator/human-witness-relay-evidence-that-compounds.md)
   * [Haunted Polaroid — Living Camera Organism](frontier/primitive-incubator/haunted-polaroid-living-camera-organism.md)
+  * [HAUNT v0.1 — Cross-Appliance Memory Language](frontier/primitive-incubator/haunt-v0.1-cross-appliance-memory-language.md)
+  * [Collision Specimen 001 — Witnessed Residue Loop](frontier/primitive-incubator/collision-specimen-001-witnessed-residue-loop.md)
+  * [Iron Lung v0.1 — Own-Birth Braided Circulation](frontier/primitive-incubator/iron-lung-v0.1-own-birth-braided-circulation.md)
 * [Haunted Toaster — Mutation Lattice, Shape Pack & Ghost Topology](frontier/haunted-toaster-mutation-lattice-shape-pack-and-ghost-topology.md)
 
 ## Evidence
