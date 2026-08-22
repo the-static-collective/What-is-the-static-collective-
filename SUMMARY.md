@@ -129,3 +129,4 @@
 * [Haunted Toaster — alpha.9 Render Ghost Field Witness](haunted-toaster-alpha.9-render-ghost-field-witness.md)
 * [Upper Room — First Scripture Heartbeat](upper-room-first-scripture-heartbeat.md)
 * [Haunted Toaster #192 — Landed Field Package](haunted-toaster-192-landed-field-package.md)
+* [Haunted Toaster — alpha.9 Field Slice: Semantic Attractors](haunted-toaster-alpha.9-field-slice-semantic-attractors.md)
