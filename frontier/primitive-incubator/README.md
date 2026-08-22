@@ -95,25 +95,25 @@ One renderer specimen showing the same garment with two atmospheres and the same
 
 ***
 
-## Incubating: ghost
+## Graduated: ghost → Ghost / Residual Presence — 2026-08-22
 
-**Primitive:**\
-Residual presence after a source, participant, state, or event is no longer directly present
+The original incubator primitive was:
 
-**Felt possibility:**\
-Systems that can preserve meaningful traces of what happened without pretending the original thing is still active.
+> **Residual presence after a source, participant, state, or event is no longer directly present.**
 
-**Existing analogue:**\
-Receipts, residual render state, provenance traces, rejected proposals, abandoned branches, afterimages, and causal history.
+Its invariant was already sharp:
 
-**What must stay invariant:**\
-A ghost cannot acquire the authority of the thing that produced it. Residue may witness prior presence; it must not counterfeit current presence.
+> **A ghost cannot acquire the authority of the thing that produced it. Residue may witness prior presence; it must not counterfeit current presence.**
 
-**Smallest experiment:**\
-Take one state transition that normally erases a visible element and preserve a clearly marked, non-authoritative residual trace with provenance back to the event that created it.
+The proposed smallest experiment was one marked, provenance-bearing residual trace after a state transition that would normally erase visible presence.
 
-**What would make this graduate:**\
-A specimen where the residual trace improves understanding or expression while remaining impossible to confuse with current authoritative state.
+That idea has now survived materially different local embodiments: Full Measure's refused/indeterminate encounter residue, jublEchat Residual Lineage, HAUNT v0.1 influence-only cross-appliance memory, and Haunted Toaster's repeated expressive use of aftermath and ghost topology.
+
+The shared invariant survived while the projects kept different schemas, triggers, storage, vocabulary, and authority rules. That is enough to move the idea out of incubation.
+
+See [Ghost / Residual Presence — History Without Authority](../../patterns/ghost-residual-presence-history-without-authority.md).
+
+The historical incubator question remains useful: when a trace improves understanding or expression, can it remain impossible to confuse with current authoritative state? The promoted pattern keeps that pressure rather than declaring every residue implementation conforming.
 
 ***
 
