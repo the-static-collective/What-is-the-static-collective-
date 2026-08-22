@@ -78,6 +78,7 @@
   * [Crossing Discipline — No Unaccounted Consequence](frontier/primitive-incubator/crossing-discipline-no-unaccounted-consequence.md)
     * [eCODE Is Teething — Future Coordinates & Receipt Worldlines](frontier/primitive-incubator/ecode-is-teething-future-coordinates-and-receipt-worldlines.md)
     * [Embodied Relief — Smallest Missing Consequence](frontier/primitive-incubator/crossing-discipline-no-unaccounted-consequence/embodied-relief-smallest-missing-consequence.md)
+  * [Resonant Membrane — Execution by Relation](frontier/primitive-incubator/resonant-membrane-execution-by-relation.md)
 
 ## Evidence
 
