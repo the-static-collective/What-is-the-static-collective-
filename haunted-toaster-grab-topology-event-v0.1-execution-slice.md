@@ -1,12 +1,10 @@
 # Haunted Toaster GRAB — Topology Event v0.1 Execution Slice
 
-> **Status:** implementation specimen in draft PR #200; machine CI and human visual witness still gating completion.
->
-> **Issue:** Haunted Toaster #195
->
-> **Design authority:** merged PR #196 / `topology-events-v0.1`
->
-> **Date:** 2026-08-21
+> **Status:** implementation specimen in draft PR #200; machine proof green, founding human visual witness still open\
+> **Issue:** Haunted Toaster #195\
+> **Design authority:** merged PR #196 / `topology-events-v0.1`\
+> **Witness infrastructure follow-up:** #206 Test 6-up\
+> **Date:** 2026-08-21; field hunt updated 2026-08-22
 
 GRAB is the first executable Topology Events specimen.
 
@@ -127,6 +125,43 @@ Draft PR #200 contains layered proof:
 
 The repository's normal `npm run verify` gate automatically includes these tests.
 
+## Field hunt — absence is not failure
+
+A packaged human hunt on 2026-08-22 attempted to obtain a GRAB witness by repeatedly generating ordinary six-ups and rendering plausible candidates.
+
+Three valid specimens were inspected. Their resolved timelines contained real topology encounters, including dissolve, scar, and succession outcomes, but **none contained a GRAB event**.
+
+That result does not fail GRAB. It fails the witness-selection method.
+
+Random generation is allowed to omit a rare deterministic behavior. Repeatedly spending full human renders until chance happens to produce the condition is therefore the wrong test harness.
+
+> **Rare behavior should be witnessed by constituted conditions, not by gambling for an occurrence.**
+
+The founding human gate remains open exactly as written.
+
+## Test 6-up — deterministic witness fixture
+
+GitHub #206 tracks the next packaged witness seam: a clearly labeled **Test 6-up** that can force rare conditions explicitly while leaving normal CandidateFamily generation untouched.
+
+Its founding boundary is:
+
+* test/witness surface only;
+* forced conditions are declared, deterministic, and receipted;
+* ordinary six-up distribution, addressing, lineage, locks, and acceptance semantics do not change;
+* GRAB receives one guaranteed specimen;
+* other rare human-gate conditions may occupy the remaining test slots.
+
+A useful founding six is:
+
+1. GRAB guaranteed;
+2. topology scar guaranteed;
+3. topology succession guaranteed;
+4. dense Atmosphere / Resolution stress;
+5. aggressive typography / material stress;
+6. composed integration stress creature.
+
+The occupants may evolve. The invariant is the important part: **forced witness conditions must never masquerade as ordinary generation.**
+
 ## Completion gate
 
 Machine success is necessary but not sufficient.
@@ -139,6 +174,8 @@ Fail the specimen if it reads as generic camera movement, a whole-frame wobble, 
 
 The human witness must also be able to see that the world after release is not exactly the world before contact.
 
-Only after that witness passes should this slice be considered the founding executable Topology Events specimen.
+The next honest route to that witness is #206, not more random hunting.
+
+Only after a guaranteed GRAB specimen passes that human gate should this slice be considered the founding executable Topology Events specimen.
 
 APERTURE, SPEAK, and GROW remain named contract/frontier vocabulary only. They are not claimed as executable effects by this slice.

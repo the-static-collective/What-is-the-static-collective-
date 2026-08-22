@@ -5,6 +5,27 @@
 
 The current Listener should not be replaced with a bigger recognizer merely because alignment remains imperfect. Field evidence points to a different problem: **continuity under partial evidence**.
 
+## 2026-08-22 field recheck — regression ungressed
+
+A temporary field report raised the possibility that the current packaged Re-listen path had stopped preserving existing human anchors. GitHub #203 captured that concern as a trust blocker while it was still uncertain.
+
+A follow-up human witness then ran Re-listen again and observed that the existing human anchors **held exactly**.
+
+The suspected regression did not reproduce. #203 was closed as not reproduced / not planned.
+
+This does **not** claim that Listener vNext has been implemented, and it does not erase the architectural reasons for Anchor Islands. It simply preserves the narrower current truth:
+
+```
+machine may reconsider machine-owned timing
+human anchor remains exact
+```
+
+The scare was useful because it restated the invariant under pressure. The field recheck confirmed the current build still obeyed it.
+
+Compression:
+
+> **Regression, ungressed.**
+
 ## Reframing
 
 The old conceptual shape is too close to:
@@ -186,6 +207,7 @@ The first executable work should include at least:
 * Gold Star Listener mining #113
 * current-main Listener hardening #186/#190/#192
 * packaged field closure #193
+* temporary non-reproduced regression report #203
 * canonical next issue #199
 
 GitHub issue #199 remains implementation/design authority for this next Listener frontier.
