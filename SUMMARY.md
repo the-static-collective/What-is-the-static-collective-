@@ -36,6 +36,7 @@
 ## Frontier
 
 * [Primitive Incubator](frontier/primitive-incubator/README.md)
+  * [Collective Dreamstate — Shared Dream, Separate Bodies](frontier/primitive-incubator/collective-dreamstate-shared-dream-local-consequence.md)
   * [Mouth, Eye, Hand, Hair — Constitutional Anatomy & Haunted Topology](frontier/primitive-incubator/mouth-eye-hand-hair-constitutional-anatomy-and-haunted-topology.md)
   * [Artifact Resurrection — Exact Return](frontier/primitive-incubator/artifact-resurrection-exact-return.md)
   * [TRAEX / Tracks — Crossing Grammar](frontier/primitive-incubator/traex-tracks-crossing-grammar.md)
