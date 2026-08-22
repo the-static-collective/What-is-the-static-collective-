@@ -107,7 +107,7 @@ A proposed attractor can tell the present what capabilities will eventually be r
 
 ## Relationship to BEE
 
-[BEE Protocol — Boundary-Carried Invariants](../../bee-protocol-boundary-carried-invariants.md) concerns an invariant crossing from one project to another while donor authority stays behind and the recipient proves it locally.
+[BEE Protocol — Boundary-Carried Invariants](../../bee-protocol-boundary-carried-invariants/) concerns an invariant crossing from one project to another while donor authority stays behind and the recipient proves it locally.
 
 Continuity Spine concerns **responsibility and dependency crossing from one stage to another through time**. The two are compatible but not identical.
 
