@@ -286,3 +286,158 @@ This note does not establish:
 The clue is smaller:
 
 > **Name the possible world honestly. Build only the lawful next step. Let receipts prove the road as it becomes real.**
+
+---
+
+## Compression ↔ Expression — The Body Hinge
+
+A second architecture clue sharpens the eCODE metaphor:
+
+> **Compression | expression is the hinge. The body is the bridge.**
+
+DNA is useful here not because biological DNA is literally append-only—it is not—but because it is a compact hereditary substrate whose meaning becomes actual only through living cellular machinery.
+
+For eCODE:
+
+```text
+COMPRESSION
+compact hereditary possibility
+        │
+        ▼
+BODY
+interpreter + constraint + memory + repair
+        │
+        ▼
+EXPRESSION
+constituted form in a particular world
+```
+
+The body is therefore more than a conventional runtime. It participates in execution. It supplies context, enforces limits, carries history, senses encounter, repairs damage, and changes while the compressed instruction is being expressed.
+
+Candidate compression:
+
+> **Compression preserves possibility. Expression spends possibility into form. The body is the conversion membrane between them.**
+
+### Expression is not heredity
+
+This distinction prevents every local adaptation from becoming constitutional mutation:
+
+```text
+runtime adaptation != hereditary mutation
+expression change   != ancestry rewrite
+```
+
+A system may alter how a compressed structure is expressed without altering the structure inherited by descendants.
+
+An inheritable change requires a stronger event: an attributable transformation of the hereditary substrate.
+
+---
+
+## CRISPR as Addressed Self-Editor
+
+CRISPR contributes a useful separation of concerns:
+
+```text
+WHERE?  -> address
+WHAT?   -> operation
+HOW?    -> body incorporates consequence
+```
+
+Mapped into eCODE:
+
+```text
+coordinate / witness
+        = WHERE
+
+operator / bounded transformation
+        = WHAT
+
+constituted body / world machinery
+        = HOW
+
+receipt + descendant
+        = WHAT ACTUALLY HAPPENED
+```
+
+The important architectural idea is not “tiny genetic scissors.” It is **addressed intervention into a participating substrate**.
+
+The editor does not need authority to replace the whole world. It needs a lawful coordinate, a bounded operation, and a body capable of incorporating or refusing the consequence.
+
+That suggests a narrow form of eCODE self-modification:
+
+> **eCODE does not arbitrarily rewrite itself. It produces attributable descendants of itself.**
+
+### Descendant-producing mutation
+
+A hereditary edit should not erase its ancestor:
+
+```text
+A
+│
+├── bounded mutation M
+│   receipt R
+▼
+B
+```
+
+`A` remains witnessable.
+
+`B` is a descendant whose difference from `A` is attributable through `M` and `R`.
+
+History is not rewritten. What history can produce next has changed.
+
+This composes directly with receipt worldlines: mutation becomes another accountable crossing rather than an exception to causal accounting.
+
+---
+
+## The Self-Editing Loop
+
+The resulting loop is:
+
+```text
+compression
+    ↓
+body
+    ↓
+expression
+    ↓
+encounter
+    ↓
+recognize a bounded hereditary locus
+    ↓
+addressed edit
+    ↓
+body incorporates / refuses / fails
+    ↓
+receipt
+    ↓
+descendant compression
+```
+
+The recursive possibility is important but should remain bounded:
+
+> A descendant may eventually inherit a changed editing grammar, but the change to that grammar must itself be attributable.
+
+Self-editing therefore does not mean unconstrained self-replacement.
+
+It means **heritable evolution of the machinery of inheritance through witnessed transformations**.
+
+---
+
+## Hard Boundaries
+
+This is an architectural analogy, not a claim that software is biological DNA or that biological DNA is an append-only ledger.
+
+The useful invariants are smaller:
+
+- **addressability** — intervention has a bounded locus;
+- **separation of address and operation** — where is distinct from what;
+- **participating substrate** — the body helps determine what an intervention becomes;
+- **expression/heredity distinction** — temporary behavior is not automatically inheritable;
+- **lineage** — descendants preserve attributable relation to ancestors;
+- **receipted mutation** — consequential change leaves a witnessable crossing;
+- **non-retroactivity** — mutation produces descendants rather than silently rewriting ancestry.
+
+Current crystal:
+
+> **eCODE is a hereditary executable medium: compression carries possibility, the body unfolds it into expression, and a CRISPR-shaped editor can alter what descendants inherit without erasing what came before.**
