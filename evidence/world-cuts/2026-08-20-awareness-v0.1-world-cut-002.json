@@ -1,0 +1,141 @@
+{
+  "schema": "static-collective/world-cut/v0",
+  "observedAt": "2026-08-20T23:31:44Z",
+  "observer": {
+    "kind": "tool",
+    "name": "awareness-v0.1"
+  },
+  "scope": {
+    "id": "constitutional-core-v0"
+  },
+  "repositories": [
+    {
+      "repository": "the-static-collective/project0",
+      "defaultBranch": "main",
+      "headSha": "498de6f5201ddabe3287a1e26a0fb9a7d46da628"
+    },
+    {
+      "repository": "the-static-collective/tranchnode",
+      "defaultBranch": "main",
+      "headSha": "18e8f55c33e055b4de91d60d976b06a7efbdc2b8"
+    },
+    {
+      "repository": "the-static-collective/corpus-os",
+      "defaultBranch": "main",
+      "headSha": "1f3344b5f3f46d28ff6dda901d9c14620641b6ca"
+    },
+    {
+      "repository": "the-static-collective/full-measure-world-layer",
+      "defaultBranch": "main",
+      "headSha": "4da374f52d7e2079481b3d71c1ee9a29f7557a39"
+    },
+    {
+      "repository": "the-static-collective/founder-node",
+      "defaultBranch": "main",
+      "headSha": "425d39f115443f075daa72a8ea107cb8ec36b67a"
+    }
+  ],
+  "projections": [
+    {
+      "projectionId": "project0-project-status",
+      "canonicalSource": "the-static-collective/project0",
+      "sourceScope": "main",
+      "witnessedSourceCut": "61811dafc63fdef264aa8cbfa91cb2ecfe443476",
+      "comparedSourceCut": "498de6f5201ddabe3287a1e26a0fb9a7d46da628",
+      "checkedAt": "2026-08-20T23:31:44Z",
+      "comparisonOk": true,
+      "evidenceRefs": [
+        "PROJECT_STATUS.json",
+        "github:default-branch-head"
+      ],
+      "disposition": "stale",
+      "nonAuthority": "observation only; does not mutate, merge, release, promote, admit, refuse, or supersede project-owned authority"
+    },
+    {
+      "projectionId": "tranchnode-project-status",
+      "canonicalSource": "the-static-collective/tranchnode",
+      "sourceScope": "main",
+      "witnessedSourceCut": "ca32f69d63cfd1ef0e8ae70c73186bbe46968f9d",
+      "comparedSourceCut": "18e8f55c33e055b4de91d60d976b06a7efbdc2b8",
+      "checkedAt": "2026-08-20T23:31:44Z",
+      "comparisonOk": true,
+      "evidenceRefs": [
+        "PROJECT_STATUS.json",
+        "github:default-branch-head"
+      ],
+      "disposition": "stale",
+      "nonAuthority": "observation only; does not mutate, merge, release, promote, admit, refuse, or supersede project-owned authority"
+    },
+    {
+      "projectionId": "corpus-os-project-status",
+      "canonicalSource": "the-static-collective/corpus-os",
+      "sourceScope": "main",
+      "witnessedSourceCut": "63c0be4cd49c383ae167ded99103b79ba4626416",
+      "comparedSourceCut": "1f3344b5f3f46d28ff6dda901d9c14620641b6ca",
+      "checkedAt": "2026-08-20T23:31:44Z",
+      "comparisonOk": true,
+      "evidenceRefs": [
+        "PROJECT_STATUS.json",
+        "github:default-branch-head"
+      ],
+      "disposition": "stale",
+      "nonAuthority": "observation only; does not mutate, merge, release, promote, admit, refuse, or supersede project-owned authority"
+    },
+    {
+      "projectionId": "full-measure-project-status",
+      "canonicalSource": "the-static-collective/full-measure-world-layer",
+      "sourceScope": "main",
+      "witnessedSourceCut": "5ac66fa58b35b699ae4dcf17af21a8e9d0be0752",
+      "comparedSourceCut": "4da374f52d7e2079481b3d71c1ee9a29f7557a39",
+      "checkedAt": "2026-08-20T23:31:44Z",
+      "comparisonOk": true,
+      "evidenceRefs": [
+        "PROJECT_STATUS.json",
+        "github:default-branch-head"
+      ],
+      "disposition": "stale",
+      "nonAuthority": "observation only; does not mutate, merge, release, promote, admit, refuse, or supersede project-owned authority"
+    },
+    {
+      "projectionId": "founder-node-project-status",
+      "canonicalSource": "the-static-collective/founder-node",
+      "sourceScope": "main",
+      "witnessedSourceCut": "10af7368445e765d75862dbf172206dc9e1667f0",
+      "comparedSourceCut": "425d39f115443f075daa72a8ea107cb8ec36b67a",
+      "checkedAt": "2026-08-20T23:31:44Z",
+      "comparisonOk": true,
+      "evidenceRefs": [
+        "PROJECT_STATUS.json",
+        "github:default-branch-head"
+      ],
+      "disposition": "stale",
+      "nonAuthority": "observation only; does not mutate, merge, release, promote, admit, refuse, or supersede project-owned authority"
+    }
+  ],
+  "humanGates": [
+    {
+      "gateId": "autodiscography-vault/one-real-wav",
+      "subject": "the-static-collective/autodiscography-vault#9",
+      "disposition": "human-gated",
+      "projectDisposition": "not-attempted",
+      "evidenceRefs": [
+        "https://github.com/the-static-collective/autodiscography-vault/pull/9",
+        "github:head:0232ddf0e59e1b8148538a3c97b3527a76a8d008"
+      ],
+      "nonAuthority": "observation only; does not mutate, merge, release, promote, admit, refuse, or supersede project-owned authority"
+    }
+  ],
+  "observations": [],
+  "fog": [
+    {
+      "source": "awareness-v0.1#collection",
+      "code": "AWARENESS_EXECUTION_ENVIRONMENT",
+      "note": "source cuts were captured through the GitHub connector and replayed through the deterministic fixture lane; the live gh adapter was not exercised at this cut"
+    }
+  ],
+  "nonAuthority": "observation only; does not mutate, merge, release, promote, admit, refuse, or supersede project-owned authority",
+  "worldCutId": "wcv0_456c4b94dcd4c8d24cf7bfb639b32f8ab7ec4460f4fb13135f34c96fe7e438c1",
+  "integrity": {
+    "bodySha256": "456c4b94dcd4c8d24cf7bfb639b32f8ab7ec4460f4fb13135f34c96fe7e438c1"
+  }
+}
