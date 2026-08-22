@@ -150,6 +150,23 @@ That means existing Toaster actions suddenly read as language operations:
 
 This could eventually allow the six-up interface to show six different grammatical consequences of one selected topology rather than six opaque random-looking visual outcomes.
 
+## Landed executable checkpoint — Haunted Toaster, 2026-08-22
+
+Haunted Toaster PR #211 landed on `main` as `899a920b17019a54dadfb0c6bb321cc6e4cf860b`.
+
+The landed proof is deliberately narrower than the language hypothesis. It now establishes, inside the Toaster and without importing National Treasure runtime code:
+
+* independent byte-for-byte compatibility with the five frozen `witness-sigil/v0.1` golden vectors;
+* a Toaster-owned `sigil-topology-expression/v0` contract with explicit roots, ordered operations, source channel, lineage, and canonical hash;
+* deterministic renderer-neutral topology plans;
+* deterministic six-utterance families under six fixed grammar roles;
+* replay and fail-closed validation for malformed or inconsistent evidence;
+* separate `witness-locked` and `free-sigil` channels.
+
+This landing does **not** constitute the stronger claim that the system has a living visual language. Recognition, composition, and productive-novelty remain human/perceptual questions. It also does not authorize VisualScore, ResolvedTimeline, preview, FFmpeg, UI, candidate-family policy, Ghost Topology execution, packaging behavior, authentication, identity, ancestry, admission, or authority semantics.
+
+GitHub / Haunted Toaster remains canonical for this implementation state. This page is a bounded projection of that landed checkpoint.
+
 ## Sentences are not receipts
 
 A generated topology expression may be receipt-bound, but the expression itself is still not authority.
