@@ -80,6 +80,7 @@
     * [Embodied Relief — Smallest Missing Consequence](frontier/primitive-incubator/crossing-discipline-no-unaccounted-consequence/embodied-relief-smallest-missing-consequence.md)
   * [Resonant Membrane — Execution by Relation](frontier/primitive-incubator/resonant-membrane-execution-by-relation.md)
   * [Scripture-Addressed World — Camp MMO Convergence](frontier/primitive-incubator/scripture-addressed-world-camp-mmo-convergence.md)
+  * [Causal Accounting / Linear Authority](frontier/primitive-incubator/causal-accounting-linear-authority.md)
 * [Haunted Toaster — Mutation Lattice, Shape Pack & Ghost Topology](frontier/haunted-toaster-mutation-lattice-shape-pack-and-ghost-topology.md)
 
 ## Evidence
@@ -116,7 +117,8 @@
 * [Linear v2 — Elastic Spine](linear-v2-elastic-spine.md)
 * [alpha.7 Field Verdict — Build Forward From Here](alpha.7-field-verdict-build-forward-from-here.md)
 * [Post-Repair Proof of Life — Different Kinds](post-repair-proof-of-life-different-kinds.md)
-* [BEE Protocol — Boundary-Carried Invariants](bee-protocol-boundary-carried-invariants.md)
+* [BEE Protocol — Boundary-Carried Invariants](bee-protocol-boundary-carried-invariants/README.md)
+  * [Autodiscography Vault — Phase B2C WAV Preservation](bee-protocol-boundary-carried-invariants/autodiscography-vault-phase-b2c-wav-preservation.md)
 * [Sol Max Reserve — Reasoning-Sensitive Work](sol-max-reserve-reasoning-sensitive-work.md)
 * [Haunted Toaster — UI Witness Loop & Toastmoods Migration](haunted-toaster-ui-witness-loop-and-toastmoods-migration.md)
 * [Haunted Toaster — alpha.8 Creative Expansion](haunted-toaster-alpha.8-creative-expansion.md)
