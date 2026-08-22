@@ -87,6 +87,7 @@
   * [HAUNT v0.1 — Cross-Appliance Memory Language](frontier/primitive-incubator/haunt-v0.1-cross-appliance-memory-language.md)
   * [Collision Specimen 001 — Witnessed Residue Loop](frontier/primitive-incubator/collision-specimen-001-witnessed-residue-loop.md)
   * [Iron Lung v0.1 — Own-Birth Braided Circulation](frontier/primitive-incubator/iron-lung-v0.1-own-birth-braided-circulation.md)
+  * [Perceptual Reflex Layer + Compost Translation](frontier/primitive-incubator/perceptual-reflex-layer-+-compost-translation.md)
 * [Haunted Toaster — Mutation Lattice, Shape Pack & Ghost Topology](frontier/haunted-toaster-mutation-lattice-shape-pack-and-ghost-topology.md)
 
 ## Evidence
