@@ -56,6 +56,46 @@ The canonical schedule contains zero to two ordered, non-overlapping windows and
 
 Topology locks prohibit every arc. A scar-axis lock prohibits that scar. Ordinary moods bias events, Risky Hybrid widens lawful pairings, and MADD CLOWN seeks one lawful event without bypassing constraints.
 
+## Sigil-derived topology grammar — frontier opened 2026-08-22
+
+The National Treasure Witness Sigil work now exposes a larger possibility than adding another Shape Pack.
+
+Its sixteen nibble-addressable primitives can be treated as **topological roots**, while the declared shape morphology operators behave like transformations in a visual grammar:
+
+```
+P0..PF roots
+  + ROTATE / REFLECT / REPEAT / OVERLAP / CUT / NEST / BRANCH / MERGE / ...
+  + ordered composition
+  + Ghost Topology temporal behavior
+        ↓
+normalized topology expression
+        ↓
+existing Toaster renderer layers inhabit the expression
+```
+
+The design principle is:
+
+> **Do not paste a sigil onto the image. Make the image obey its geometry.**
+
+This should remain a new topology **grammar**, not sixteen hard-coded special effects.
+
+Two lanes must remain separate:
+
+1. **Witness-locked:** an actual canonical digest produces the frozen `witness-sigil/v0.1` projection. Toaster may derive creative topology downstream, but the original witness projection remains recoverable and immutable.
+2. **Free-sigil:** P0–PF and the morphology operators can be used as a creative alphabet without claiming the resulting form represents any receipt or identity.
+
+This also sharpens existing Toaster verbs:
+
+* MUTATE can behave like inflection;
+* CROSS can compose two named topology expressions;
+* STOMP can seek maximum grammatical distance under bounded constraints;
+* Ghost Topology can supply temporal syntax through apparition, overlap, scar, and succession;
+* a six-up can eventually become six alternate **utterances** descended from the selected candidate.
+
+No current alpha.9 behavior is changed by this note. Before any executable coupling, Haunted Toaster should independently reproduce the frozen National Treasure Witness Sigil golden vectors and then define its own versioned topology-expression contract. Shared machinery or shared authority is not implied.
+
+See the Primitive Incubator child page **Sigil Language — Geometry Becomes Speech** for the broader language hypothesis.
+
 ## Delivery stack
 
 1. **Mutation Lattice Contract** — raster-4/v3 opt-in, full Toast Feel categorical affinity, bounded six-up selection, replay and v2 bypass.
