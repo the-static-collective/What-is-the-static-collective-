@@ -88,6 +88,13 @@
   * [Collision Specimen 001 — Witnessed Residue Loop](frontier/primitive-incubator/collision-specimen-001-witnessed-residue-loop.md)
   * [Iron Lung v0.1 — Own-Birth Braided Circulation](frontier/primitive-incubator/iron-lung-v0.1-own-birth-braided-circulation.md)
   * [Perceptual Reflex Layer + Compost Translation](frontier/primitive-incubator/perceptual-reflex-layer-+-compost-translation.md)
+  * [Palimpsest Continuity — Shape Language & Witness Sigils](frontier/primitive-incubator/palimpsest-continuity-shape-language-and-witness-sigils.md)
+  * [Continuity Through Division — Genesis as Structural Analogy](frontier/primitive-incubator/continuity-through-division-genesis-as-structural-analogy/README.md)
+    * [John — Continuity that Survives Rupture](frontier/primitive-incubator/continuity-through-division-genesis-as-structural-analogy/john-continuity-that-survives-rupture.md)
+  * [Time Before Anomaly — National Treasure Paired Specimens](frontier/primitive-incubator/time-before-anomaly-national-treasure-paired-specimens.md)
+  * [The Daughter Found the Back Door — Descent as Return Address](frontier/primitive-incubator/the-daughter-found-the-back-door-descent-as-return-address.md)
+  * [Awareness Organ v0.1 — The Eye Has No Hands](frontier/primitive-incubator/awareness-organ-v0.1-the-eye-has-no-hands/README.md)
+    * [Work as Observatory — Whole-World Integration](frontier/primitive-incubator/awareness-organ-v0.1-the-eye-has-no-hands/work-as-observatory-whole-world-integration.md)
 * [Haunted Toaster — Mutation Lattice, Shape Pack & Ghost Topology](frontier/haunted-toaster-mutation-lattice-shape-pack-and-ghost-topology.md)
 
 ## Evidence
@@ -98,6 +105,9 @@
 * [Stigmergic Field v0.1](specimens/stigmergic-field-v0.1.md)
 * [Receipts](receipts/README.md)
 * [Cicada Adversarial Witness — Landed Checkpoint](evidence/cicada-adversarial-witness-landed-checkpoint.md)
+* [World Cut 001 — Constituted World Atlas, August 2026](evidence/world-cut-001-constituted-world-atlas-august-2026.md)
+* [World Cut 002 — Awareness v0.1](evidence/world-cut-002-awareness-v0.1.md)
+* [ACIM / Biblical Texts — Semantic Overlap, Metaphysical Divergence](evidence/acim-biblical-texts-semantic-overlap-metaphysical-divergence.md)
 
 ## Witness
 
