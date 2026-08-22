@@ -16,6 +16,7 @@
 * [Projection Freshness Witness](patterns/projection-freshness-witness.md)
 * [The Room Can Vanish; the World Remains](patterns/world-reentry-memory.md)
 * [Stigmergic Field](patterns/stigmergic-field.md)
+* [Ghost / Residual Presence — History Without Authority](patterns/ghost-residual-presence-history-without-authority.md)
 
 ## Scrapbook
 

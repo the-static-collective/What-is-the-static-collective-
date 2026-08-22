@@ -14,7 +14,7 @@ Problems and questions worth remembering because the answer is not settled yet.
 **Revisit when:** What new evidence would justify another look
 ```
 
----
+***
 
 ## 2026-08-10 — Retrieval is deliberate, not automatic
 
@@ -30,12 +30,36 @@ Problems and questions worth remembering because the answer is not settled yet.
 
 ## 2026-08-10 — Promotion threshold
 
-**Status:** Unresolved
+**Status:** Partly illuminated; still non-mechanical.
 
-**Known:** A witness breadcrumb should stop being merely a witness note when it becomes stable project truth, shared vocabulary, a proven cross-project law, or a meaningful specimen.
+**Known:** A witness breadcrumb should stop being merely a witness note when it becomes stable project truth, shared vocabulary, a proven cross-project law, or a meaningful specimen. Frequency alone is still insufficient: repeated mention can be one idea echoing inside one vocabulary.
 
-**Unknown:** There is no mechanical threshold for that promotion. Frequency alone does not prove a law; one strong specimen may matter more than ten repetitions.
+The first twelve days of the GitBook produced a stronger empirical clue. The most convincing promotions have followed a shape like:
 
-**Current best move:** Promote only when the destination can state what evidence justifies the stronger status. Preserve uncertainty until then.
+```
+interesting recurrence
+    ↓
+independent local embodiments
+    ↓
+materially different domains
+    ↓
+same invariant survives
+    ↓
+local vocabulary / authority remain local
+    ↓
+refusal and counterexample remain expressible
+    ↓
+portable pattern candidate
+```
 
-**Revisit when:** A witness note begins being cited as an implementation constraint or repeatedly reused across projects.
+A useful compression is:
+
+> **Frequency is not the threshold. Survival under translation is.**
+
+This is evidence about promotion discipline, not a mechanical promotion algorithm. One unusually strong specimen may still matter more than several weak translations, and an apparent invariant may collapse when the next domain exposes a hidden assumption.
+
+**Unknown:** How much material difference between specimens is enough? When is a shared invariant genuinely portable rather than merely abstract enough to fit everything? What evidence should demote or split a pattern after promotion?
+
+**Current best move:** Require a proposed portable pattern to name the materially different local specimens that justify it, state what remained invariant, and state which local semantics did **not** travel. Preserve counterexamples and refusal conditions. Promote project truth back into the owning project rather than into GitBook doctrine.
+
+**Revisit when:** A promoted pattern fails under a new domain, two apparently different patterns collapse into one smaller invariant, or repeated lifecycle reviews reveal a more reliable promotion/demotion rule.
