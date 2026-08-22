@@ -151,3 +151,4 @@
 * [Haunted Toaster — alpha.9 Field Slice: Semantic Attractors](haunted-toaster-alpha.9-field-slice-semantic-attractors.md)
 * [Haunted Toaster — alpha.9 Range Calibration](haunted-toaster-alpha.9-range-calibration.md)
 * [Boot the House — Federated World Encounter Loop v0.1](boot-the-house-federated-world-encounter-loop-v0.1.md)
+* [Haunted Toaster GRAB — Topology Event v0.1 Execution Slice](haunted-toaster-grab-topology-event-v0.1-execution-slice.md)
