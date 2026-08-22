@@ -81,6 +81,8 @@
   * [Resonant Membrane — Execution by Relation](frontier/primitive-incubator/resonant-membrane-execution-by-relation.md)
   * [Scripture-Addressed World — Camp MMO Convergence](frontier/primitive-incubator/scripture-addressed-world-camp-mmo-convergence.md)
   * [Causal Accounting / Linear Authority](frontier/primitive-incubator/causal-accounting-linear-authority.md)
+  * [Human Witness Relay — Evidence That Compounds](frontier/primitive-incubator/human-witness-relay-evidence-that-compounds.md)
+  * [Haunted Polaroid — Living Camera Organism](frontier/primitive-incubator/haunted-polaroid-living-camera-organism.md)
 * [Haunted Toaster — Mutation Lattice, Shape Pack & Ghost Topology](frontier/haunted-toaster-mutation-lattice-shape-pack-and-ghost-topology.md)
 
 ## Evidence
@@ -132,3 +134,5 @@
 * [Upper Room — First Scripture Heartbeat](upper-room-first-scripture-heartbeat.md)
 * [Haunted Toaster #192 — Landed Field Package](haunted-toaster-192-landed-field-package.md)
 * [Haunted Toaster — alpha.9 Field Slice: Semantic Attractors](haunted-toaster-alpha.9-field-slice-semantic-attractors.md)
+* [Haunted Toaster — alpha.9 Range Calibration](haunted-toaster-alpha.9-range-calibration.md)
+* [Boot the House — Federated World Encounter Loop v0.1](boot-the-house-federated-world-encounter-loop-v0.1.md)
