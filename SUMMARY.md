@@ -104,6 +104,7 @@
   * [The Daughter Found the Back Door — Descent as Return Address](frontier/primitive-incubator/the-daughter-found-the-back-door-descent-as-return-address.md)
   * [Awareness Organ v0.1 — The Eye Has No Hands](frontier/primitive-incubator/awareness-organ-v0.1-the-eye-has-no-hands/README.md)
     * [Work as Observatory — Whole-World Integration](frontier/primitive-incubator/awareness-organ-v0.1-the-eye-has-no-hands/work-as-observatory-whole-world-integration.md)
+  * [Iron Lung — Verbal/Mathal Combinatrix & Sigil Algebra Bridge](frontier/primitive-incubator/iron-lung-verbal-mathal-combinatrix-and-sigil-algebra-bridge.md)
 * [Haunted Toaster — Mutation Lattice, Shape Pack & Ghost Topology](frontier/haunted-toaster-mutation-lattice-shape-pack-and-ghost-topology.md)
 
 ## Evidence
