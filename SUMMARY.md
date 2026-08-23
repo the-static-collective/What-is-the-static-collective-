@@ -108,6 +108,7 @@
     * [Work as Observatory — Whole-World Integration](frontier/primitive-incubator/awareness-organ-v0.1-the-eye-has-no-hands/work-as-observatory-whole-world-integration.md)
   * [Iron Lung — Verbal/Mathal Combinatrix & Sigil Algebra Bridge](frontier/primitive-incubator/iron-lung-verbal-mathal-combinatrix-and-sigil-algebra-bridge.md)
   * [Pocket Web Hypermath — Mathals as Typed Links](frontier/primitive-incubator/pocket-web-hypermath-mathals-as-typed-links.md)
+  * [Hero Spiral — The World Comes Back Different](frontier/primitive-incubator/hero-spiral-the-world-comes-back-different.md)
 * [Haunted Toaster — Mutation Lattice, Shape Pack & Ghost Topology](frontier/haunted-toaster-mutation-lattice-shape-pack-and-ghost-topology.md)
 
 ## Evidence
