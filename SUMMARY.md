@@ -112,6 +112,7 @@
   * [Narrative Solver — Write the Movie With the Graph](frontier/primitive-incubator/narrative-solver-write-the-movie-with-the-graph.md)
   * [HUMOR IS FUEL — Compression, Frame Shift & Cognitive Thrust](frontier/primitive-incubator/humor-is-fuel-compression-frame-shift-and-cognitive-thrust.md)
   * [Johnny Appleseed 001 — Free Graph Seed Scatter](frontier/primitive-incubator/johnny-appleseed-001-free-graph-seed-scatter.md)
+  * [From Perturbation to Constitution — Biological & Chemical Memory](frontier/primitive-incubator/from-perturbation-to-constitution-biological-and-chemical-memory.md)
 * [Haunted Toaster — Mutation Lattice, Shape Pack & Ghost Topology](frontier/haunted-toaster-mutation-lattice-shape-pack-and-ghost-topology.md)
 
 ## Evidence
