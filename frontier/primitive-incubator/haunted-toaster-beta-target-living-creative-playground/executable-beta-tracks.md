@@ -8,7 +8,15 @@ description: >-
 
 Parent target: [Haunted Toaster #148](https://github.com/the-static-collective/the-haunted-toaster/issues/148)
 
-This page is a navigation projection only. Each GitHub issue owns its implementation contract.
+This page is a navigation projection only. Each GitHub issue and the project-owned repository state outrank this page.
+
+## Current reconciliation checkpoint — 2026-08-23
+
+Haunted Toaster PR #216 landed on `main` as `10f65ca1f6d721178355c5c67b933e0183753c45`, adding the repository-owned `CURRENT_SPINE.md` reconciliation ledger through #221.
+
+The ledger is status/provenance authority for Toaster lineage classification, not new runtime authority. It keeps the #212/#214 field-witness line, #215/#219 Sigil Language study line, #217/#218 receipt-memory rescue, and #222 foreign-material crossing explicitly separate from `main` adoption. Human field gates on #214 and #222 remain intact.
+
+GitHub / Haunted Toaster remains canonical for this checkpoint. This section is only a bounded projection of the landed reconciliation state.
 
 ## Current field gate
 
