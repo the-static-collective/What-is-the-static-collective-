@@ -110,6 +110,7 @@
   * [Pocket Web Hypermath — Mathals as Typed Links](frontier/primitive-incubator/pocket-web-hypermath-mathals-as-typed-links.md)
   * [Hero Spiral — The World Comes Back Different](frontier/primitive-incubator/hero-spiral-the-world-comes-back-different.md)
   * [Narrative Solver — Write the Movie With the Graph](frontier/primitive-incubator/narrative-solver-write-the-movie-with-the-graph.md)
+  * [HUMOR IS FUEL — Compression, Frame Shift & Cognitive Thrust](frontier/primitive-incubator/humor-is-fuel-compression-frame-shift-and-cognitive-thrust.md)
 * [Haunted Toaster — Mutation Lattice, Shape Pack & Ghost Topology](frontier/haunted-toaster-mutation-lattice-shape-pack-and-ghost-topology.md)
 
 ## Evidence
