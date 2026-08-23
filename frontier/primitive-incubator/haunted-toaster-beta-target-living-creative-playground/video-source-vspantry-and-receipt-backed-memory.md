@@ -7,7 +7,7 @@ description: >-
 
 # Video Source, VSPantry & Receipt-Backed Memory
 
-Status: **project-backed beta architecture; Video/VSPantry Slice A is landed, and live bulk-import observability is proven for the current BETA field package**
+Status: **project-backed beta architecture; Video/VSPantry Slice A is landed, bulk-import observability is proven, and Slice D has a machine-green executable draft under PR #222 with the real foreign-material field witness still pending**
 
 Canonical project design: `docs/superpowers/specs/2026-08-17-video-source-pantry-toastpacks-memory-design.md`
 
@@ -236,7 +236,27 @@ The analysis family may include the analysis-only **Specimen Pulse v1** from Hau
 
 ### Slice D — foreign-material-v1
 
-Only after the renderer trust line settles: shared preview/production media-input planning plus one deterministic assimilation primitive. Imported video remains foreign visual DNA metabolized by Haunted Toaster rather than stock footage placed on a timeline.
+PR #222 is now the first executable renderer-facing crossing for this slice. One admitted Video binding is converted upstream into a deterministic `foreign-material-v1` plan and then consumed by the same shared preview/production graph through one `clip-luma-texture-v1` assimilation operator.
+
+The authority law remains unchanged:
+
+```
+admitted Video specimen
+  ↓ content identity + Frame Reservoir evidence
+foreign-material-v1 plan
+  ↓ bounded by accepted ResolvedTimeline
+clip-luma-texture-v1
+  ↓ same shared preview / production graph
+Haunted Toaster pixels + receipt evidence
+```
+
+The plan is content-identity-bound: admitted SHA-256 + byte length, probe evidence, clip-analysis identity, placement/sampling policy, and assimilation policy participate in the stable recorded plan. Local filename and filesystem path are transport context only and do not alter plan identity. Raw Video does not become a second timeline or renderer decision authority.
+
+The no-video path remains an exact no-op at this seam. Receipt evidence records the source specimen/hash, clip-analysis hash, assimilation policy, placement/sampling evidence, and the compiled operator evidence.
+
+Machine proof is green on PR #222 head `f4a575db65d1bdb9cc5e7b462c30226660d4b804`. GitHub Actions run `32615247440` passed the consolidated application proof, runtime dependency audit, render/candidate smoke proof, production renderer witness build, canonical witness-state comparison, and renderer witness proof.
+
+This is **not yet field-proven**. Keep PR #222 draft until one real 5–10 second admitted specimen against a longer song proves preview/final parity, lawful contribution beyond the source clip duration, receipt/replay identity, recognizably Haunted Toaster assimilation rather than stock-video cutaway behavior, and exact restoration of the established no-video path when Video is removed.
 
 A compatible follow-on may admit #183's **Ghosted Topology Coupling v1** through this execution boundary, reusing existing Ghost Topology/resonant-overlap semantics. Specimen Pulse availability alone is not permission to execute it.
 
