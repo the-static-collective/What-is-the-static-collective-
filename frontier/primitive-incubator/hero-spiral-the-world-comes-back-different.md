@@ -216,3 +216,7 @@ without requiring Derek-specific machinery.
 > **The hero comes back changed. The world does too.**
 >
 > **The coordinate repeats. The worldline does not.**
+
+## Related incubator slice
+
+[D\&D\&D — The Player Is the Continuity Witness](/broken/pages/ddd-d-and-d-and-d-the-player-is-the-continuity-witness) adds a third moving body to the Derek pressure-test: the interpreter can change too. Multiple bounded Dungeon Masters may disagree about the same world while Derek's attributable receipts preserve continuity without granting him omniscience.

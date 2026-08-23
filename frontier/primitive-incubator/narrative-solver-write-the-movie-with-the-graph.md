@@ -227,3 +227,7 @@ A second materially different constraint dialect should then generate a meaningf
 > **Do not write the movie into the graph.**
 >
 > **Let the graph contain a world rich enough that several movies can be found inside it.**
+
+## Related incubator slice
+
+[D\&D\&D — The Player Is the Continuity Witness](/broken/pages/ddd-d-and-d-and-d-the-player-is-the-continuity-witness) turns the declared-dialect idea into a playable Derek pressure-test: different bounded Dungeon Masters can traverse and interpret the same consequence-bearing world graph while a single player's receipts preserve path continuity and contested evidence.
