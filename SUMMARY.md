@@ -83,6 +83,7 @@
   * [Inhabitable Code — Room Contract v0](frontier/primitive-incubator/inhabitable-code-room-contract-v0.md)
   * [The Thirteenth May Be the Rim — Relational Vessel Topology](frontier/primitive-incubator/the-thirteenth-may-be-the-rim-relational-vessel-topology.md)
   * [Crossing Discipline — No Unaccounted Consequence](frontier/primitive-incubator/crossing-discipline-no-unaccounted-consequence.md)
+    * [Git World Membrane — Expression Seeds to World Consequence](frontier/primitive-incubator/crossing-discipline-no-unaccounted-consequence/git-world-membrane-expression-seeds-to-world-consequence.md)
     * [Consequence Is Broader Than Authority — Admission, Difference & Reachability](frontier/primitive-incubator/crossing-discipline-no-unaccounted-consequence/consequence-broader-than-authority-admission-difference-reachability/README.md)
       * [Participant, Not Sender — Directional Acts & Feedback-Driven Reachability](frontier/primitive-incubator/crossing-discipline-no-unaccounted-consequence/consequence-broader-than-authority-admission-difference-reachability/participant-not-sender-directional-acts-and-feedback-driven-reachability.md)
     * [eCODE Is Teething — Future Coordinates & Receipt Worldlines](frontier/primitive-incubator/ecode-is-teething-future-coordinates-and-receipt-worldlines.md)
