@@ -4,7 +4,7 @@
 
 The most visible thing we make is music. The deeper project is **reliable infrastructure for human creativity in the age of AI**.
 
-> [**Enter the Front Room**](./) — a stable starting place for orienting a conversation before traversing deeper Collective context.
+> **Enter the Front Room** — a stable starting place for orienting a conversation before traversing deeper Collective context.
 
 The songs are test cases.
 
@@ -69,16 +69,16 @@ Reusable laws, architectures, methods, and maxims that can travel between projec
 
 Start with:
 
-* [`creative-field-laws.md`](patterns/creative-field-laws.md) — portable constraints for expanding creative systems without weakening trust.
-* [`creative-handoff.md`](patterns/creative-handoff.md) — a repeatable path from weird observation to lawful primitive to proof specimen.
-* [`field-traversal-and-illumination.md`](patterns/field-traversal-and-illumination.md) — addressable fields of awareness, receipt-bearing traversal, and explicit epistemic fog.
-* [`world-reentry-memory.md`](patterns/world-reentry-memory.md) — narrative as a durable world-continuity layer that can reconstruct enough relational space for meaningful re-entry.
+* `creative-field-laws.md` — portable constraints for expanding creative systems without weakening trust.
+* `creative-handoff.md` — a repeatable path from weird observation to lawful primitive to proof specimen.
+* `field-traversal-and-illumination.md` — addressable fields of awareness, receipt-bearing traversal, and explicit epistemic fog.
+* `world-reentry-memory.md` — narrative as a durable world-continuity layer that can reconstruct enough relational space for meaningful re-entry.
 
-#### [`scrapbook/`](scrapbook/)
+#### `scrapbook/`
 
 Non-authoritative arrangements of ideas that may illuminate one another before the relationship deserves promotion into a pattern or project.
 
-Its governing rule is: **a scrapbook preserves adjacency without claiming equivalence.** Start with [`constellations/`](scrapbook/constellations/), where ingredients from different shelves or systems can be placed together to expose resonances, tensions, possible traversals, illumination, and residual fog.
+Its governing rule is: **a scrapbook preserves adjacency without claiming equivalence.** Start with `constellations/`, where ingredients from different shelves or systems can be placed together to expose resonances, tensions, possible traversals, illumination, and residual fog.
 
 #### [`fragments/`](fragments/)
 
@@ -90,9 +90,9 @@ This is our practical replacement for the missing Gist-shaped layer: ordinary fi
 
 Concrete examples and human field-test records that taught us something.
 
-Start with [`specimen-notes.md`](specimens/specimen-notes.md), which preserves phenomenological evidence alongside machine receipts: what surprised us, what felt alive, what felt fake, what required manual intervention, and what emerged that we did not design.
+Start with `specimen-notes.md`, which preserves phenomenological evidence alongside machine receipts: what surprised us, what felt alive, what felt fake, what required manual intervention, and what emerged that we did not design.
 
-#### [`receipts/`](receipts/)
+#### `receipts/`
 
 Evidence worth preserving when no project-specific receipt store is more appropriate.
 
@@ -102,9 +102,9 @@ Receipts support claims about what happened. They do not replace the event, arti
 
 Shared language whose meaning should remain coherent across projects.
 
-Start with [`static-collective-vocabulary.md`](glossary/static-collective-vocabulary.md): `anchor`, `ancestor`, `atmosphere`, `authority`, `compost`, `field`, `field snapshot`, `frontier`, `garment`, `ghost`, `illumination`, `possession`, `proposal`, `receipt`, `resolved timeline`, `traversal`, `visibility`, and `witness`.
+Start with `static-collective-vocabulary.md`: `anchor`, `ancestor`, `atmosphere`, `authority`, `compost`, `field`, `field snapshot`, `frontier`, `garment`, `ghost`, `illumination`, `possession`, `proposal`, `receipt`, `resolved timeline`, `traversal`, `visibility`, and `witness`.
 
-#### [`witness/`](witness/)
+#### `witness/`
 
 A public, non-authoritative **Memento notebook** for durable breadcrumbs future assistant sessions may retrieve when continuity matters.
 
@@ -139,6 +139,44 @@ Sometimes **smoke** is really an atmosphere primitive. Sometimes **bee communica
 The notebook exists so those observations can remain alive long enough for the underlying structure to become visible.
 
 The scrapbook adds a horizontal move to that vertical progression: several durable points may be arranged together without forcing them to graduate. The arrangement itself becomes a specimen of what is visible from a particular route through the notebook.
+
+### Current field-test method
+
+**Status: current working method — provisional operational default, not doctrine.**
+
+When a change crosses from code into an artifact that a human must actually encounter, the current method is:
+
+```
+machine proof
+    ↓
+exact artifact
+    ↓
+human witness harness
+    ↓
+recorded anomalies
+    ↓
+disposition
+```
+
+The gates stay distinct.
+
+**Machine proof** establishes the strongest claims automation can establish: tests, deterministic witnesses, runtime audits, reproducibility checks, and exact-head CI. Green source-level proof is necessary, but it does not prove what a human actually received.
+
+**Exact artifact** binds the field specimen to concrete provenance: source head or tree, workflow run, artifact identifier, byte length, digest, and the package or other output actually handed to the operator. A source branch and a packaged binary are related claims, not interchangeable ones.
+
+**Human witness harness** turns the perceptual or environment-specific remainder into explicit checks. The operator should not have to remember what to inspect or reduce the result to “seems good.” Each checkbox names a behavior that genuinely requires human observation: perceptual distinction, device behavior, interaction feel, native packaging boundaries, or another claim automation does not characterize strongly enough.
+
+**Recorded anomalies** are successful evidence. A failed checkbox does not invalidate upstream machine proof and does not make the test itself a failure. It identifies the exact boundary where reality diverged from the intended claim. The anomaly should survive with the specimen rather than being normalized away.
+
+**Disposition** happens only after the evidence is visible. Merge, hold, repair, refuse, release, or run another specimen are separate decisions. No prior green gate silently promotes the next one.
+
+A compact form is:
+
+> **machine GREEN → exact artifact → human witness → recorded anomalies → disposition**
+
+This method is deliberately anti-ritual. Human witness is required only where human perception, device state, packaging, environment, or interaction is part of the claim. If automation can establish a stronger claim, use automation instead.
+
+The first deliberately instrumented Toaster use of this form was the TEST 6 field package: machine verification and canonical UI witness first, exact Windows artifact and digest second, then an operator-facing checklist that treated every unchecked or failed item as bounded evidence. That specimen strengthens the existing [Artifact Witness Gate](frontier/primitive-incubator/#incubating-artifact-witness-gate); it does not, by itself, graduate that incubating primitive into doctrine.
 
 ## The wager
 
