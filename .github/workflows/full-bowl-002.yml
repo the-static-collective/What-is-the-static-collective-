@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "tools/full-bowl-002/**"
+      - "receipts/full-bowl-002/**"
       - ".github/workflows/full-bowl-002.yml"
 
 permissions:
