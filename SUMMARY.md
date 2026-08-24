@@ -15,7 +15,8 @@
 * [Field Traversal & Illumination](patterns/field-traversal-and-illumination.md)
 * [Creative Handoff](patterns/creative-handoff.md)
 * [Projection Freshness Witness](patterns/projection-freshness-witness.md)
-* [The Room Can Vanish; the World Remains](patterns/world-reentry-memory.md)
+* [The Room Can Vanish; the World Remains](patterns/world-reentry-memory/README.md)
+  * [Acoustic Loci — Navigable Continuity Before eCODE](patterns/world-reentry-memory/acoustic-loci-navigable-continuity-before-ecode.md)
 * [Stigmergic Field](patterns/stigmergic-field.md)
 * [Ghost / Residual Presence — History Without Authority](patterns/ghost-residual-presence-history-without-authority.md)
 

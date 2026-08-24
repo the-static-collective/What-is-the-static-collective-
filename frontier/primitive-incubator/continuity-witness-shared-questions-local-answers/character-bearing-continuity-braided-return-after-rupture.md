@@ -35,7 +35,7 @@ The second points forward.
 That distinction matters because the existing Collective already has strong neighboring laws:
 
 * Attributable Transformation — continuity may survive change when the road through change remains attributable;
-* [World Re-entry](../../../patterns/world-reentry-memory.md) — meaningful participation may resume without restoring the old room;
+* [World Re-entry](../../../patterns/world-reentry-memory/) — meaningful participation may resume without restoring the old room;
 * [Artifact Resurrection / Exact Return](../artifact-resurrection-exact-return.md) — preserved causes may reconstruct an artifact under explicit exact/lawful/partial return classes;
 * Project0 Typed Continuity Braid — root closure, typed continuity, loss, breakage, plurality, and reconstitution;
 * Project0 #27 Resonance Seeds — recognition can record preserved, transformed, absent, unresolved, and emergent marks without claiming exact-original identity.

@@ -46,7 +46,7 @@ Taken literally as one feature list, this is scope catastrophe. Taken as a **fut
 ## Existing analogues
 
 * **Upper Room v0** already supplies Scripture coordinates, sovereign participant presence, selections, branches, durable events, and AIHYPER doors. Its current non-goals explicitly include gamification; that boundary should remain intact.
-* [**World / Re-entry**](../../patterns/world-reentry-memory.md) already treats Full Measure as a playable world/narrative-continuity layer and TranchNode as durable address, lineage, and relation.
+* [**World / Re-entry**](../../patterns/world-reentry-memory/) already treats Full Measure as a playable world/narrative-continuity layer and TranchNode as durable address, lineage, and relation.
 * **Groove Rooms** demonstrates shared rooms where participants remain sovereign rather than forcibly synchronized.
 * **Full Measure** suggests that a world can remember consequential encounters without claiming that narrative projection manufactured the underlying truth.
 

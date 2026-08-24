@@ -43,7 +43,7 @@ A useful eCODE state is therefore possible:
 
 `authority(x) = 0`
 
-This is the seam already exposed by [Ghost / Residual Presence — History Without Authority](../../../patterns/ghost-residual-presence-history-without-authority.md), [The Room Can Vanish; the World Remains](../../../patterns/world-reentry-memory.md), [Continuity Witness — Shared Questions, Local Answers](../continuity-witness-shared-questions-local-answers/), and [Crossing Discipline — No Unaccounted Consequence](../crossing-discipline-no-unaccounted-consequence.md).
+This is the seam already exposed by [Ghost / Residual Presence — History Without Authority](../../../patterns/ghost-residual-presence-history-without-authority.md), [The Room Can Vanish; the World Remains](../../../patterns/world-reentry-memory/), [Continuity Witness — Shared Questions, Local Answers](../continuity-witness-shared-questions-local-answers/), and [Crossing Discipline — No Unaccounted Consequence](../crossing-discipline-no-unaccounted-consequence.md).
 
 ## Independent analogue field
 
