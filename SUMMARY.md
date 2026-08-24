@@ -17,7 +17,8 @@
 * [Projection Freshness Witness](patterns/projection-freshness-witness.md)
 * [The Room Can Vanish; the World Remains](patterns/world-reentry-memory/README.md)
   * [Acoustic Loci — Navigable Continuity Before eCODE](patterns/world-reentry-memory/acoustic-loci-navigable-continuity-before-ecode/README.md)
-    * [STORYSHIP 001 — THE DOOR](patterns/world-reentry-memory/acoustic-loci-navigable-continuity-before-ecode/storyship-001-the-door.md)
+    * [STORYSHIP 001 — THE DOOR](patterns/world-reentry-memory/acoustic-loci-navigable-continuity-before-ecode/storyship-001-the-door/README.md)
+      * [Groove Rooms — STORYSHIP Embarkation Port](patterns/world-reentry-memory/acoustic-loci-navigable-continuity-before-ecode/storyship-001-the-door/groove-rooms-storyship-embarkation-port.md)
 * [Stigmergic Field](patterns/stigmergic-field.md)
 * [Ghost / Residual Presence — History Without Authority](patterns/ghost-residual-presence-history-without-authority.md)
 
@@ -126,6 +127,7 @@
   * [Death Is Local — Extinction Requires a World Claim](frontier/primitive-incubator/death-is-local-extinction-requires-a-world-claim/README.md)
     * [Quantum No-Hiding — Forced Carrier, Local Twist, X](frontier/primitive-incubator/death-is-local-extinction-requires-a-world-claim/quantum-no-hiding-forced-carrier-local-twist-x.md)
     * [AGAIN — Renewal Without Reset](frontier/primitive-incubator/death-is-local-extinction-requires-a-world-claim/again-renewal-without-reset.md)
+  * [Counterexample Origin & Typed Carrier — Failure Before Speciation](frontier/primitive-incubator/counterexample-origin-and-typed-carrier-failure-before-speciation.md)
 * [Haunted Toaster — Mutation Lattice, Shape Pack & Ghost Topology](frontier/haunted-toaster-mutation-lattice-shape-pack-and-ghost-topology.md)
 
 ## Evidence
