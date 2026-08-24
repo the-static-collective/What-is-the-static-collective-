@@ -6,7 +6,8 @@
 
 ## Project State
 
-* [Current Executable Project State](project-state.md)
+* [Current Executable Project State](project-state/project-state/README.md)
+  * [National Treasure — SSW-MATH-001 checkpoint](project-state/project-state/national-treasure-ssw-math-001-checkpoint.md)
 
 ## Patterns
 
