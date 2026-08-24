@@ -16,7 +16,8 @@
 * [Creative Handoff](patterns/creative-handoff.md)
 * [Projection Freshness Witness](patterns/projection-freshness-witness.md)
 * [The Room Can Vanish; the World Remains](patterns/world-reentry-memory/README.md)
-  * [Acoustic Loci — Navigable Continuity Before eCODE](patterns/world-reentry-memory/acoustic-loci-navigable-continuity-before-ecode.md)
+  * [Acoustic Loci — Navigable Continuity Before eCODE](patterns/world-reentry-memory/acoustic-loci-navigable-continuity-before-ecode/README.md)
+    * [STORYSHIP 001 — THE DOOR](patterns/world-reentry-memory/acoustic-loci-navigable-continuity-before-ecode/storyship-001-the-door.md)
 * [Stigmergic Field](patterns/stigmergic-field.md)
 * [Ghost / Residual Presence — History Without Authority](patterns/ghost-residual-presence-history-without-authority.md)
 
