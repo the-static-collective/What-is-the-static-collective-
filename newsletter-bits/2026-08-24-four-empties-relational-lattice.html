@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>The Four Empties — Relational Lattice</title>
+<style>
+:root{color-scheme:light dark;--bg:#f6f7f8;--panel:#fff;--card:#fbfbfc;--text:#15171a;--muted:#5f6670;--border:#d9dde3;--accent:#e8eefc;--shadow:0 10px 28px rgba(0,0,0,.08)}
+@media(prefers-color-scheme:dark){:root{--bg:#101214;--panel:#171a1f;--card:#1c2026;--text:#f1f3f5;--muted:#a6adb8;--border:#343a43;--accent:#253454;--shadow:0 10px 30px rgba(0,0,0,.35)}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.wrap{max-width:1100px;margin:0 auto;padding:28px 18px 44px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;font-weight:700;color:var(--muted)}h1{font-size:clamp(1.8rem,4vw,3.2rem);line-height:1.05;margin:.4rem 0 .8rem}.lede{max-width:780px;color:var(--muted)}.toolbar{display:flex;gap:.55rem;flex-wrap:wrap;margin:1.4rem 0}.toolbar button,.cell,.collapse{appearance:none;border:1px solid var(--border);background:var(--card);color:var(--text);border-radius:12px;cursor:pointer}.toolbar button{padding:.65rem .9rem;font-weight:700}.toolbar button.active{background:var(--accent)}.layout{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:16px;align-items:start}.panel,.detail,.note{background:var(--panel);border:1px solid var(--border);border-radius:16px;box-shadow:var(--shadow)}.panel{padding:16px;overflow:auto}.grid{min-width:650px;display:grid;grid-template-columns:110px repeat(3,minmax(150px,1fr));gap:8px}.head,.side{font-size:.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}.head{text-align:center;padding:8px}.side{display:flex;align-items:center;justify-content:flex-end;padding-right:10px}.cell,.collapse{padding:16px;text-align:left;min-height:126px}.cell strong,.collapse strong{display:block;margin-bottom:8px}.cell span,.collapse span{font-size:.82rem;color:var(--muted)}.collapse{grid-column:span 3}.detail{padding:18px}.detail .kicker{font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}.detail h2{font-size:1.05rem;margin:.4rem 0}.detail p{color:var(--muted);font-size:.92rem}.math{margin-top:16px;padding-top:14px;border-top:1px solid var(--border);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.82rem;color:var(--muted)}.note{margin-top:16px;padding:16px;color:var(--muted)}.note strong{color:var(--text)}.footer{margin-top:18px;font-size:.8rem;color:var(--muted)}.hidden{display:none!important}@media(max-width:820px){.layout{grid-template-columns:1fr}.detail{order:-1}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="eyebrow">Working clue · explicitly non-canonical · 2026-08-24</div>
+  <h1>The Four Empties — Relational Lattice</h1>
+  <p class="lede">Six internal relations may collapse into four observer-visible kinds of “empty.” The three address postures cross with observer-relative visibility; hidden distinctions must not become an unauthorized oracle.</p>
+
+  <div class="toolbar" role="group" aria-label="Lattice view">
+    <button id="internal" class="active">Internal lattice</button>
+    <button id="observer">Observer view</button>
+  </div>
+
+  <section class="layout">
+    <div class="panel">
+      <div class="grid">
+        <div></div>
+        <div class="head">Open berth</div>
+        <div class="head">Unresolved</div>
+        <div class="head">Protected silence</div>
+
+        <div class="side">Exposed</div>
+        <button class="cell" data-key="eo"><strong>OPEN_BERTH</strong><span>Known address. A proposal may be entertained, still subject to the local gate.</span></button>
+        <button class="cell" data-key="eu"><strong>UNRESOLVED</strong><span>Known gap. Missing evidence remains missing; incompleteness is not invitation.</span></button>
+        <button class="cell" data-key="ep"><strong>PROTECTED_SILENCE</strong><span>Known address whose emptiness is itself locally protected.</span></button>
+
+        <div id="hiddenLabel" class="side">Hidden</div>
+        <button class="cell hiddenCell" data-key="ho"><strong>hidden / open</strong><span>Internally open, but this observer is not entitled to learn that.</span></button>
+        <button class="cell hiddenCell" data-key="hu"><strong>hidden / unresolved</strong><span>Internally unresolved, but its existence or posture remains undisclosed.</span></button>
+        <button class="cell hiddenCell" data-key="hp"><strong>hidden / protected</strong><span>Internally protected, without revealing that protection to this observer.</span></button>
+
+        <div id="collapsedLabel" class="side hidden">Hidden</div>
+        <button id="collapsed" class="collapse hidden"><strong>NOT_EXPOSED</strong><span>Observer-facing equivalence class. Hidden/open, hidden/unresolved, and hidden/protected may differ internally while remaining intentionally indistinguishable here.</span></button>
+      </div>
+    </div>
+
+    <aside class="detail" aria-live="polite">
+      <div class="kicker">Selected relation</div>
+      <h2 id="detailTitle">EXPOSED × OPEN_BERTH</h2>
+      <p id="detailCopy">A proposal can become visible and reach the owning admission gate. Openness does not itself grant authority.</p>
+      <div class="math">internal cells: 6<br>observer-visible classes: 4<br><br>HIDDEN × * → NOT_EXPOSED</div>
+    </aside>
+  </section>
+
+  <div class="note"><strong>The # intuition:</strong> crossed dimensions making relational cells is a useful visual mnemonic. Formal <code>#</code> is already reserved in the current event-structure sketch for constitutional conflict, so the resemblance remains a clue rather than a new operator.</div>
+
+  <div class="footer">Source roads: Daily Slice Journal #67 · WORLD GRAMMAR 001 #66 · portable visual postcard, not project authority.</div>
+</main>
+<script>
+const info={
+ eo:['EXPOSED × OPEN_BERTH','A proposal can become visible and reach the owning admission gate. Openness does not itself grant authority.'],
+ eu:['EXPOSED × UNRESOLVED','The gap is visible, but unresolved remains unresolved until attributable evidence changes it.'],
+ ep:['EXPOSED × PROTECTED_SILENCE','The address is visible while non-entry is locally constitutive. Recognition cannot silently convert silence into an open berth.'],
+ ho:['HIDDEN × OPEN_BERTH','The owner may internally know the address is open. This observer must not learn that merely by probing it.'],
+ hu:['HIDDEN × UNRESOLVED','The owner may internally preserve an unresolved edge. Existence and posture remain outside this observer’s view.'],
+ hp:['HIDDEN × PROTECTED_SILENCE','The owner may internally enforce protection. A differing refusal message must not become an oracle revealing that hidden constitution.']
+};
+const internal=document.getElementById('internal'),observer=document.getElementById('observer'),hiddenCells=[...document.querySelectorAll('.hiddenCell')],hiddenLabel=document.getElementById('hiddenLabel'),collapsed=document.getElementById('collapsed'),collapsedLabel=document.getElementById('collapsedLabel'),title=document.getElementById('detailTitle'),copy=document.getElementById('detailCopy');
+function mode(which){internal.classList.toggle('active',which==='internal');observer.classList.toggle('active',which==='observer')}
+function showInternal(){hiddenCells.forEach(x=>x.classList.remove('hidden'));hiddenLabel.classList.remove('hidden');collapsed.classList.add('hidden');collapsedLabel.classList.add('hidden');mode('internal')}
+function showObserver(){hiddenCells.forEach(x=>x.classList.add('hidden'));hiddenLabel.classList.add('hidden');collapsed.classList.remove('hidden');collapsedLabel.classList.remove('hidden');title.textContent='NOT_EXPOSED = hidden observational class';copy.textContent='Three internally distinct postures collapse to one externally visible class. If an unauthorized observer can distinguish them by response behavior, the hidden address has become a probing oracle.';mode('observer')}
+document.querySelectorAll('.cell').forEach(cell=>cell.addEventListener('click',()=>{const d=info[cell.dataset.key];title.textContent=d[0];copy.textContent=d[1]}));
+internal.addEventListener('click',showInternal);observer.addEventListener('click',showObserver);collapsed.addEventListener('click',showObserver);
+</script>
+</body>
+</html>
