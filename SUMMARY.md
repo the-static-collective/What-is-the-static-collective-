@@ -124,6 +124,7 @@
 * [Specimen Notes](specimens/specimen-notes.md)
 * [Front Room Threshold Scan v0.1](specimens/front-room-threshold-scan-v0.1.md)
 * [Lawful Navigation Specimen 001](specimens/lawful-navigation-specimen-001.md)
+* [Full Bowl 001 × MADDCL0WN](specimens/full-bowl-001-maddclown.md)
 * [Stigmergic Field v0.1](specimens/stigmergic-field-v0.1.md)
 * [Receipts](receipts/README.md)
 * [Cicada Adversarial Witness — Landed Checkpoint](evidence/cicada-adversarial-witness-landed-checkpoint.md)
