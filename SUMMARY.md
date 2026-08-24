@@ -90,6 +90,7 @@
     * [Embodied Relief — Smallest Missing Consequence](frontier/primitive-incubator/crossing-discipline-no-unaccounted-consequence/embodied-relief-smallest-missing-consequence.md)
     * [Mathematics Before Number — eCODE μ0 Constitutive Kernel](frontier/primitive-incubator/crossing-discipline-no-unaccounted-consequence/mathematics-before-number-ecode-m0-constitutive-kernel.md)
     * [Attributable Becoming — Identity, Participation & History](frontier/primitive-incubator/crossing-discipline-no-unaccounted-consequence/attributable-becoming-identity-participation-and-history.md)
+    * [Freeport v0 — Foreign Material Without Admission](frontier/primitive-incubator/crossing-discipline-no-unaccounted-consequence/freeport-v0-foreign-material-without-admission.md)
   * [Resonant Membrane — Execution by Relation](frontier/primitive-incubator/resonant-membrane-execution-by-relation.md)
   * [Scripture-Addressed World — Camp MMO Convergence](frontier/primitive-incubator/scripture-addressed-world-camp-mmo-convergence.md)
   * [Causal Accounting / Linear Authority](frontier/primitive-incubator/causal-accounting-linear-authority.md)
