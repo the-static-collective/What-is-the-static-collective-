@@ -441,3 +441,138 @@ The useful invariants are smaller:
 Current crystal:
 
 > **eCODE is a hereditary executable medium: compression carries possibility, the body unfolds it into expression, and a CRISPR-shaped editor can alter what descendants inherit without erasing what came before.**
+
+---
+
+## Daily slice — 2026-08-24 — Celestial Delay Witness / Light in Flight
+
+**Status:** worth preserving; physically adjacent to known optical-ranging systems; **not promoted to law, not an implementation mandate, and not a claim that celestial bodies are memory devices.**
+
+A Tranchnose thought sharpened into a bounded research question:
+
+```text
+Tranchnose
+    ↓
+temporally encoded coherent light
+    ↓
+external orbital / celestial path
+    ↓
+cooperative reflector or otherwise viable return path
+    ↓
+real propagation delay
+    ↓
+return photons
+    ↓
+receipt
+    ↓
+past emission encounters a changed present
+```
+
+The useful primitive is not simply “satellite communication.” It is a **physically enacted delayed relation**.
+
+Candidate compressions:
+
+> **Some state is stored not in a place, but in the time required for it to return.**
+
+> **LIGHT IN FLIGHT = RELATION NOT YET RESOLVED.**
+
+> **Some memory is stored in time; some meaning is stored in rhythm.**
+
+The words “state” and “memory” remain hypotheses here. Laser ranging already proves that a pulse can leave, traverse a real Earth–satellite or Earth–Moon path, and return after a measurable time of flight. It does not prove that such a path constitutes non-substitutable machine memory.
+
+### Three clocks
+
+The idea contains three independently useful timing layers:
+
+1. **symbol clock** — Morse dot/dash/gap, PPM slots, coded pulse intervals;
+2. **echo clock** — the physical round-trip interval `τ = t_rx - t_tx`;
+3. **celestial clock** — range, visibility, pointing, orbital phase, atmosphere, and target suitability changing with time.
+
+Representative first-order round trips are approximately:
+
+```text
+400 km LEO      → 2.67 ms
+20,200 km MEO   → 134.76 ms
+35,786 km GEO   → 238.74 ms
+Moon mean range → 2.564 s
+```
+
+So the “celestial clock” is not decorative. It changes the actual available delay relation.
+
+### Morse survives, but as the readable floor
+
+Morse is not the efficient machine code to crown over modern optical communication. Pulse-position modulation, synchronization sequences, and error correction are stronger machine layers.
+
+But Morse has a useful architectural property:
+
+> **the deepest fallback can remain readable as rhythm.**
+
+A possible stack is therefore:
+
+```text
+photon timing
+    ↓
+Morse-like witness / sync token
+    ↓
+machine timing code / payload
+    ↓
+path identity + delay + receipt
+```
+
+### Fresnel survives, but differently
+
+The Fresnel-lens intuition also survives after hardening.
+
+Solar-concentrator literature treats the Sun as a finite-width extended source. Fresnel optics can gather and concentrate sunlight, but they do not turn incoherent extended-source sunlight into an arbitrarily narrow laser-like astronomical ranging beam.
+
+So the defensible split is:
+
+```text
+Fresnel / large aperture
+    → collection / concentration / beam handling / receiver possibility
+
+coherent pulsed laser
+    → ranging / encoded optical transmission primitive
+```
+
+### The actual Tranchnose test
+
+The idea earns promotion only if the physical path does something a local timer or recorded replay cannot substitute.
+
+Fast kill-tests:
+
+```text
+same delay, local timer      → same behavior?
+recorded return, local replay → same behavior?
+two physical paths, matched delay → same behavior?
+forged receipt               → improperly accepted?
+no return / corrupted return → distinguishable state?
+```
+
+If local substitution reproduces everything, the celestial path is an elaborate clock.
+
+If measured path relation changes a pre-registered consequence in a way local state cannot reconstruct, then the idea begins to touch TranchNOSE's stronger relational-memory question.
+
+### Reachability correction
+
+The target-selection rule should not be “bounce off the nearest thing.”
+
+It should be closer to:
+
+> **use the best currently reachable echo-path.**
+
+Distance competes with reflector type, visibility, return SNR, atmosphere, pointing, desired delay, uncertainty, and target geometry.
+
+Natural asteroids/planets/moons remain especially link-budget gated; cooperative retroreflectors are the credible first physical class.
+
+### Durable thread
+
+The full research slice, controls, evidence ledger, experiment ladder, safety boundary, and deferred multi-lane mutation live in TranchNOSE:
+
+https://github.com/the-static-collective/tranchNOSE/blob/main/RESEARCH_NOTE_CELESTIAL_DELAY_WITNESS.md
+
+Research grounding includes lunar/satellite laser ranging, deep-space optical communication, pulse-position/timing codes, laboratory Morse-like optical pulse encoding, and finite-angular-width solar/Fresnel concentration literature.
+
+Current verdict:
+
+> **Keep it alive. Do not promote it yet. The physically real thing is the delayed optical relation; whether that relation can become non-substitutable machine state is the falsifiable frontier.**
