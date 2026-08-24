@@ -1,0 +1,75 @@
+name: full-bowl-002
+
+on:
+  pull_request:
+    paths:
+      - "tools/full-bowl-002/**"
+      - "receipts/full-bowl-002/**"
+      - ".github/workflows/full-bowl-002.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  repaired-world:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout integration head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+          path: integration
+
+      - name: Checkout pinned Project0
+        uses: actions/checkout@v4
+        with:
+          repository: the-static-collective/project0
+          ref: 061b9a6e1c9314f7fb43dbb0026059211ed19f0d
+          path: project0
+
+      - name: Checkout repaired Corpus OS
+        uses: actions/checkout@v4
+        with:
+          repository: the-static-collective/corpus-os
+          ref: 289c6fa04d04a2bde6dffbe7265903db5bec56c0
+          path: corpus-os
+
+      - name: Checkout pinned TranchNode
+        uses: actions/checkout@v4
+        with:
+          repository: the-static-collective/tranchnode
+          ref: 91f7f96805d4e868e35b8d0c75dc5f0671cb494a
+          path: tranchnode
+
+      - name: Set up Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install pinned donor dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          (cd project0 && npm ci)
+          (cd corpus-os && npm ci)
+          (cd tranchnode && npm ci)
+
+      - name: Run Full Bowl 002 repaired-world witness
+        shell: bash
+        working-directory: integration
+        run: |
+          set -euo pipefail
+          node tools/full-bowl-002/rerun.mjs \
+            --project0 "$GITHUB_WORKSPACE/project0" \
+            --corpus-os "$GITHUB_WORKSPACE/corpus-os" \
+            --tranchnode "$GITHUB_WORKSPACE/tranchnode" \
+            | tee full-bowl-002-report.json
+
+      - name: Upload Full Bowl 002 witness
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-bowl-002-witness
+          path: integration/full-bowl-002-report.json
+          if-no-files-found: warn
