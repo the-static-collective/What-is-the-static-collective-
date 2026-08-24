@@ -246,7 +246,7 @@ node tools/full-bowl-001/cli.cjs
 node --test tests/*.test.cjs
 ```
 
-For the live cross-repository probe, place exact-head sibling checkouts at `../project0`, `../corpus-os`, and `../tranchnode`, install their locked dependencies, and build Project0 and the Corpus kernel. Then run:
+For the live cross-repository probe, place clean exact-head sibling checkouts at `../project0`, `../corpus-os`, and `../tranchnode` and install their locked dependencies. The probe refuses dirty donor worktrees and rebuilds Project0 and the Corpus kernel before executing their adapters. Then run:
 
 ```bash
 node tools/full-bowl-001/live-probe.mjs \
@@ -255,11 +255,11 @@ node tools/full-bowl-001/live-probe.mjs \
   --tranchnode ../tranchnode
 ```
 
-The probe verifies donor heads, executes the two stdio surfaces, imports only the named owner modules for bounded synthetic projections, emits the full machine receipt to stdout, and exits nonzero if a lawful-path check fails. Exposed ledger entries do not make the witness disappear.
+The probe verifies donor heads, addresses its own runner bytes, executes the two stdio surfaces, imports only the named owner modules for bounded synthetic projections, emits the full machine receipt to stdout, and exits nonzero if a lawful-path check fails. Exposed ledger entries do not make the witness disappear.
 
 The compact pinned receipt is [`receipts/full-bowl-001/live-witness.json`](../receipts/full-bowl-001/live-witness.json).
 
-The validated Free Graph re-entry packet is [`receipts/full-bowl-001/free-graph.packet.json`](../receipts/full-bowl-001/free-graph.packet.json), addressed as `fgp:sha256:ef6603db1d1d116160995a74fe5affb469a7517f7824b12e43669411b65366c8`. It records one supported operational claim, two refused overclaims, one unresolved reachability question, and no owner-local adoption.
+The validated Free Graph re-entry packet is [`receipts/full-bowl-001/free-graph.packet.json`](../receipts/full-bowl-001/free-graph.packet.json), addressed as `fgp:sha256:6d7da3fe317e3d4973138815f5ebc552d0c2866b5ba01a21085767bde7f02514`. It records one supported operational claim, two refused overclaims, one unresolved reachability question, and no owner-local adoption.
 
 ## renDDDer
 

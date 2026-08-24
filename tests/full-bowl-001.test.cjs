@@ -125,6 +125,13 @@ test("the pinned live summary preserves evidence mode and leak boundaries", () =
   assert.equal(receipt.leakLedger.automaticRepair, false);
   assert.equal(receipt.repairIssueCandidates.length, 2);
   assert.ok(receipt.repairIssueCandidates.length <= value.leakPolicy.maxRepairIssues);
+  assert.match(receipt.liveClaimDigest, /^sha256:[0-9a-f]{64}$/);
+  assert.equal(receipt.integrationRunner.headRelation, "descendant-of-pinned-base");
+  assert.match(receipt.integrationRunner.runnerDigest, /^sha256:[0-9a-f]{64}$/);
+  const project0Validation = receipt.ownerValidation.find(
+    (entry) => entry.owner === "Project0",
+  );
+  assert.match(project0Validation.command, /--outDir \.build/);
   assert.equal(receipt.receipts.corpusAdmission.refused.authorityTransfer, "none");
   assert.equal(receipt.receipts.tranchNodeContinuity.authority, "none");
   assert.equal(receipt.receipts.purposeRelativeRecognition.original.status, "conforming");
@@ -135,7 +142,7 @@ test("the pinned live summary preserves evidence mode and leak boundaries", () =
 test("the Free Graph projection preserves proof, refusal, fog, and no adoption", () => {
   const packet = JSON.parse(fs.readFileSync(graphPacketPath, "utf8"));
   assert.equal(packet.schema, "free-graph.packet/v0");
-  assert.equal(packet.packet_id, "fgp:sha256:ef6603db1d1d116160995a74fe5affb469a7517f7824b12e43669411b65366c8");
+  assert.equal(packet.packet_id, "fgp:sha256:6d7da3fe317e3d4973138815f5ebc552d0c2866b5ba01a21085767bde7f02514");
   assert.deepEqual(packet.modes, ["re-enter", "metabolize", "prove"]);
   assert.equal(packet.task_world_cut.status, "sufficient");
   assert.equal(packet.links.some((link) => link.verb === "constitutes"), false);

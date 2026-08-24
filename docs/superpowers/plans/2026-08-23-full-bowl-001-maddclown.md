@@ -37,7 +37,7 @@
 | Project0 | 260 | pass |
 | Corpus OS targeted boundary suite | 41 | pass |
 | TranchNode | 120 | pass |
-| Integration repo after Full Bowl changes | 50 | pass |
+| Integration repo after Full Bowl changes | 51 | pass |
 
 The exact commands and heads are preserved in `receipts/full-bowl-001/live-witness.json`.
 

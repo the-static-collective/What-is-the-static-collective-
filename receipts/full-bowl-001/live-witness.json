@@ -1,20 +1,25 @@
 {
   "schema": "static-collective/full-bowl-001-live-witness-summary/v0",
   "fixtureId": "full-bowl-001-maddclown",
-  "capturedAt": "2026-08-23T19:18:27-05:00",
+  "capturedAt": "2026-08-24T03:11:18-05:00",
   "fixtureDigest": "sha256:710e94849326dcf19b2539c7832b1a8b29d7a26b91461de47d76022fa1abc488",
-  "fullLiveReportDigest": "sha256:c8b8391c8f0bb99af7961f2a0e40ebc7ecc7a6c771b8ea28ffd60657de0aa429",
+  "liveClaimDigest": "sha256:5ff4cc12cc99ddc74163356230fb5e15f37f69b0283b47aa94c96c18327eff9a",
   "status": "survives-with-exposed-leaks",
-  "ownerHeadsObserved": {
+  "taskWorldCutOwnerHeads": {
     "the-static-collective/What-is-the-static-collective-": "3d35990f2c084ae5b402e3e348d2da7ee33b4a3c",
     "the-static-collective/project0": "061b9a6e1c9314f7fb43dbb0026059211ed19f0d",
     "the-static-collective/corpus-os": "1f3344b5f3f46d28ff6dda901d9c14620641b6ca",
     "the-static-collective/tranchnode": "91f7f96805d4e868e35b8d0c75dc5f0671cb494a"
   },
+  "integrationRunner": {
+    "baseHead": "3d35990f2c084ae5b402e3e348d2da7ee33b4a3c",
+    "headRelation": "descendant-of-pinned-base",
+    "runnerDigest": "sha256:88f2b63db2ca9f7a76007a0879498d7d162431930c1681d5f1d813ae5e0051a7"
+  },
   "ownerValidation": [
     {
       "owner": "Project0",
-      "command": "./node_modules/.bin/tsc -p tsconfig.json && node --test .build/tests/*.test.js",
+      "command": "./node_modules/.bin/tsc --outDir .build && node --test .build/tests/*.test.js",
       "tests": 260,
       "passed": 260,
       "failed": 0

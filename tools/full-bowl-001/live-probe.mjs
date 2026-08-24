@@ -46,6 +46,16 @@ function gitHead(repoDir) {
   return run.stdout.trim();
 }
 
+function gitStatus(repoDir) {
+  const run = command(
+    "git",
+    ["status", "--porcelain=v1", "--untracked-files=all"],
+    { cwd: repoDir },
+  );
+  if (run.status !== 0) throw new Error(`FB_GIT_STATUS_FAILED:${repoDir}`);
+  return run.stdout.trim();
+}
+
 function isAncestor(repoDir, ancestor, descendant) {
   return command("git", ["merge-base", "--is-ancestor", ancestor, descendant], {
     cwd: repoDir,
@@ -54,6 +64,19 @@ function isAncestor(repoDir, ancestor, descendant) {
 
 function assertFile(path, code) {
   if (!existsSync(path)) throw new Error(`${code}:${path}`);
+}
+
+function assertCleanOwnerCheckout(repoDir, repo) {
+  if (gitStatus(repoDir) !== "") throw new Error(`FB_OWNER_WORKTREE_DIRTY:${repo}`);
+}
+
+function buildTypescript(repoDir, args, code) {
+  const compiler = resolve(repoDir, "node_modules/typescript/bin/tsc");
+  assertFile(compiler, `${code}_COMPILER_MISSING`);
+  const run = command(process.execPath, [compiler, ...args], { cwd: repoDir });
+  if (run.status !== 0) {
+    throw new Error(`${code}:${run.stderr.trim() || run.stdout.trim()}`);
+  }
 }
 
 function runJsonAdapter(script, cwd, payload) {
@@ -90,17 +113,28 @@ function exposedLeak(id, crossingId, title, observation, evidence, repairIssue) 
 const fixture = validateFixture(JSON.parse(readFileSync(fixturePath, "utf8")));
 const fixtureReceipt = createFixtureReceipt(fixture);
 const pins = fixture.taskWorldCut.ownerHeads;
-const observedHeads = {
-  "the-static-collective/What-is-the-static-collective-": gitHead(repositoryDir),
+const integrationHead = gitHead(repositoryDir);
+const donorHeadsObserved = {
   "the-static-collective/project0": gitHead(project0Dir),
   "the-static-collective/corpus-os": gitHead(corpusOsDir),
   "the-static-collective/tranchnode": gitHead(tranchNodeDir),
 };
 
+const runnerFiles = [
+  "tools/full-bowl-001/core.cjs",
+  "tools/full-bowl-001/fixtures/full-bowl-001.json",
+  "tools/full-bowl-001/live-probe.mjs",
+  "tools/full-bowl-001/tranchnode-probe.mts",
+];
+const runnerDigest = digest(runnerFiles.map((path) => ({
+  path,
+  content: readFileSync(resolve(repositoryDir, path), "utf8"),
+})));
+
 if (!isAncestor(
   repositoryDir,
   pins["the-static-collective/What-is-the-static-collective-"],
-  observedHeads["the-static-collective/What-is-the-static-collective-"],
+  integrationHead,
 )) {
   throw new Error("FB_INTEGRATION_HEAD_NOT_DESCENDED_FROM_WORLD_CUT");
 }
@@ -109,8 +143,19 @@ for (const repo of [
   "the-static-collective/corpus-os",
   "the-static-collective/tranchnode",
 ]) {
-  if (observedHeads[repo] !== pins[repo]) throw new Error(`FB_OWNER_HEAD_DRIFT:${repo}`);
+  if (donorHeadsObserved[repo] !== pins[repo]) throw new Error(`FB_OWNER_HEAD_DRIFT:${repo}`);
 }
+
+assertCleanOwnerCheckout(project0Dir, "the-static-collective/project0");
+assertCleanOwnerCheckout(corpusOsDir, "the-static-collective/corpus-os");
+assertCleanOwnerCheckout(tranchNodeDir, "the-static-collective/tranchnode");
+
+buildTypescript(project0Dir, ["--outDir", ".build"], "FB_PROJECT0_BUILD_FAILED");
+buildTypescript(
+  corpusOsDir,
+  ["-p", "tsconfig.kernel.json"],
+  "FB_CORPUS_BUILD_FAILED",
+);
 
 const project0Adapter = resolve(project0Dir, ".build/scripts/world-encounter-stdio.js");
 const corpusAdapter = resolve(corpusOsDir, ".kernel-dist/scripts/world-encounter-stdio.js");
@@ -375,7 +420,12 @@ const reportWithoutDigest = {
   taskWorldCut: {
     status: "sufficient",
     pinnedHeads: pins,
-    observedHeads,
+    donorHeadsObserved,
+    integrationRunner: {
+      baseHead: pins["the-static-collective/What-is-the-static-collective-"],
+      headRelation: "descendant-of-pinned-base",
+      runnerDigest,
+    },
   },
   status: failedChecks.length > 0
     ? "failed"
