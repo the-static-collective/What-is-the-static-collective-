@@ -199,6 +199,50 @@ Storyship residue
 
 Each seam must be proven locally.
 
+## Held key — LOVE / LIVING
+
+**Source occurrence:** *Not The Name (Remastered)*, in the Autodiscography material encountered during STORYSHIP formation.
+
+**Working phrase:** **Love the living.**
+
+This is intentionally preserved before definition.
+
+Keep three things distinct:
+
+```text
+LOVE
+LIVING
+LOVE -> THE LIVING
+```
+
+`LOVE` and `LIVING` are not synonyms, and the phrase must not be flattened into a slogan or prematurely translated into system vocabulary.
+
+At this stage, STORYSHIP only claims that the distinction and the relation are important enough to carry forward.
+
+Do **not** silently reduce them to any single later interpretation such as:
+
+- kindness;
+- biological life;
+- persistence;
+- vitality;
+- preservation;
+- optimization target;
+- constitutional authority.
+
+Those may later bear on the terms, but none currently exhausts them.
+
+The surrounding song applies useful pressure without constituting proof: the mirror, memory, ledger, key, system, symbol, story, name, and tool are all denied finality; what survives the collapse of record is living relation and consequential human choice.
+
+For now the correct architectural action is therefore **retention without closure**.
+
+```text
+status: HELD
+promotion: NONE
+terms: LOVE, LIVING
+relation: LOVE -> THE LIVING
+instruction: preserve distinction; revisit when later architecture supplies evidence
+```
+
 ## Success shape
 
 The strongest result is not a perfect copy of old Suno behavior.
