@@ -178,6 +178,44 @@ This method is deliberately anti-ritual. Human witness is required only where hu
 
 The first deliberately instrumented Toaster use of this form was the TEST 6 field package: machine verification and canonical UI witness first, exact Windows artifact and digest second, then an operator-facing checklist that treated every unchecked or failed item as bounded evidence. That specimen strengthens the existing [Artifact Witness Gate](frontier/primitive-incubator/#incubating-artifact-witness-gate); it does not, by itself, graduate that incubating primitive into doctrine.
 
+## The origin folded back through itself
+
+Autodiscography predates eCODE, the Static Collective's GitHub practice, and the architecture later built around provenance, continuity, authority, re-entry, witness, and receipted transformation.
+
+Part of that earlier creative experiment used familiar sound cues, narrative space, time, relationship, symbolic/code-like fragments, and change as a way of exploring whether a world could remain recognizable and navigable while its expression changed.
+
+The later infrastructure grew partly from trying to understand, preserve, and generalize patterns that were already appearing there.
+
+Now the direction has reversed.
+
+```text
+Autodiscography
+    ↓
+sound / memory / narrative / relationship / change experiments
+    ↓
+eCODE / Static Collective architecture
+    ↓
+receipts · continuity · authority · re-entry · Haunted Phonography
+    ↓
+STORYSHIP
+    ↓
+the later architecture becomes real narrative context inside Autodiscography
+    ↓
+Autodiscography metabolizes its own descendants
+    ↓
+whatever remains consequential can attempt the crossing into Haunted Phonography
+```
+
+This does **not** make Autodiscography the authority for the systems that grew from it. Project-owned gates remain local. A narrative can carry a representation of Haunted Phonography without being allowed to certify what Haunted Phonography admits.
+
+What changed is the shape of the experiment: one of the Collective's earliest creative systems can now contain representations of architecture that arose partly to understand it, respond to that architecture in its own medium, and return new material to the systems that descended from the encounter.
+
+> **The Collective is no longer only building infrastructure around creative artifacts. One of its earliest creative systems has begun to ingest the infrastructure back as part of its own attributable history.**
+
+The loop is therefore not a reset. The later systems do not disappear back into their origin, and the origin does not become their owner. The interesting case is reciprocal containment without collapse: each side can change what becomes possible for the other while their histories and authorities remain distinguishable.
+
+***
+
 ## The wager
 
 Engineers do not learn to build reliable aircraft by designing one wing and declaring victory. They fly specimens, preserve failures, compare traces, and let repeated encounters reveal the laws.
