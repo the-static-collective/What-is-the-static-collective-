@@ -11,7 +11,7 @@ description: >-
 
 **The unchanged hostile specimen survives the repaired world. Both exposed witness-surface leaks are closed at their owning seams without merging authority, erasing Full Bowl 001, or promoting MADDCL0WN.**
 
-This page is a later witness, not a correction to [Full Bowl 001](./). Bowl 001 remains the historical record that exposed two thin places. Bowl 002 records what happened after those places were repaired independently and the same hostile specimen was sent through again.
+This page is a later witness, not a correction to Full Bowl 001. Bowl 001 remains the historical record that exposed two thin places. Bowl 002 records what happened after those places were repaired independently and the same hostile specimen was sent through again.
 
 The integration rerun landed in [PR #60](https://github.com/the-static-collective/What-is-the-static-collective-/pull/60) at merge commit `5f6e0b9460859a26868bc2f58f6693d6734e1940`.
 
