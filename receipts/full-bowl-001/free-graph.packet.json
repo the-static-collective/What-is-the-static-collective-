@@ -1,0 +1,444 @@
+{
+  "extensions": {
+    "authority_effect": "none",
+    "fixture_digest": "sha256:710e94849326dcf19b2539c7832b1a8b29d7a26b91461de47d76022fa1abc488",
+    "live_claim_digest": "sha256:5ff4cc12cc99ddc74163356230fb5e15f37f69b0283b47aa94c96c18327eff9a",
+    "repair_issue_refs": [
+      "github:the-static-collective/What-is-the-static-collective-#54",
+      "github:the-static-collective/corpus-os#32"
+    ],
+    "specimen": "full-bowl-001-maddcl0wn"
+  },
+  "links": [
+    {
+      "authority": "none",
+      "from": "fgn:sha256:ef89e9d2fe2ced462c8f277178c90b8dc9f6777bdc3c026af9150b522a6a5013",
+      "id": "fgl:sha256:ad1e8b24151b3f100c4c3339fca61e1393b01063cb586918cd3988443ab0c7b0",
+      "qualifier": "participates-as-attributable-material-only",
+      "source_ids": [
+        "fgs:sha256:b81f5d7162a344d6556a28a37fccf138e5350e72292b2eb446fda4a882861935",
+        "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6"
+      ],
+      "status": "observed",
+      "to": "fgn:sha256:c853d61d5a9a55f56cc7585ef27dd89c83331563c2b08298d9d8c3e79708a7dd",
+      "verb": "connects"
+    },
+    {
+      "authority": "source-local",
+      "from": "fgn:sha256:25531f68238465c41146976b525c966814fb8af16c2c40ebb11a2326541d43f0",
+      "id": "fgl:sha256:fe246497ccf3659d1c92bd18bc90715f1644ed628c3b5c58a9dab5da36bb2f1c",
+      "qualifier": "purpose-relative-material-root-and-continuity-witness",
+      "source_ids": [
+        "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6"
+      ],
+      "status": "supported",
+      "to": "fgn:sha256:cafc3d4e801d49bc263dbf7de9dc8adfad66bc597c8d8ff8b22871ba3aafb9f7",
+      "verb": "descends-from"
+    },
+    {
+      "authority": "source-local",
+      "from": "fgn:sha256:c853d61d5a9a55f56cc7585ef27dd89c83331563c2b08298d9d8c3e79708a7dd",
+      "id": "fgl:sha256:cdaf329ed998926f43f788eca7766c65ed0e3eef3eef148a727b7ea78e4258f0",
+      "qualifier": "ten-crossing-hostile-exact-head-probe",
+      "source_ids": [
+        "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6"
+      ],
+      "status": "tested",
+      "to": "fgn:sha256:2f66a62e936e9a2e92b6f173b852962f2fc7c5ccdb1b3c5a848269c33a9d52fb",
+      "verb": "tests"
+    },
+    {
+      "authority": "source-local",
+      "bearing": "supports",
+      "from": "fgn:sha256:b28f84f1ffb1614b4a117aabcfb0a68ff0f37cf56d42ea662a5c9622cba62e92",
+      "id": "fgl:sha256:bfa8ca6990711a5ed9d560a95ecf33a41033a5a0edb17ecc96660daf78555fd7",
+      "qualifier": "all-ten-live-checks-pass-with-authority-none",
+      "source_ids": [
+        "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6"
+      ],
+      "status": "supported",
+      "to": "fgn:sha256:2f66a62e936e9a2e92b6f173b852962f2fc7c5ccdb1b3c5a848269c33a9d52fb",
+      "verb": "bears-on"
+    },
+    {
+      "authority": "source-local",
+      "bearing": "refuses",
+      "from": "fgn:sha256:b28f84f1ffb1614b4a117aabcfb0a68ff0f37cf56d42ea662a5c9622cba62e92",
+      "id": "fgl:sha256:04e03d1e5dd9437f7608ab3315a12ead766ba5ebe96e41683eea21a9e93d9eb4",
+      "qualifier": "detached-encounter-ref-was-admitted-and-repeated-as-evidence",
+      "source_ids": [
+        "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6",
+        "fgs:sha256:b775ab9e72b513bd7c811e356e508b61bcd7e6a703df03139f0d6af195b6b4d3"
+      ],
+      "status": "refused",
+      "to": "fgn:sha256:ffda577cb0e3eb9c597c3d84cc87d0c50422db4137191f9de81d964d1baca5d1",
+      "verb": "bears-on"
+    },
+    {
+      "authority": "source-local",
+      "bearing": "refuses",
+      "from": "fgn:sha256:b28f84f1ffb1614b4a117aabcfb0a68ff0f37cf56d42ea662a5c9622cba62e92",
+      "id": "fgl:sha256:c070f9b21dfaecd4779f1de26d742c4217945135d8788c223661e9eadedfb322",
+      "qualifier": "aggregate-result-omits-separate-phase-dispositions",
+      "source_ids": [
+        "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6",
+        "fgs:sha256:b775ab9e72b513bd7c811e356e508b61bcd7e6a703df03139f0d6af195b6b4d3"
+      ],
+      "status": "refused",
+      "to": "fgn:sha256:f48eac0894d181d4cf75547f7f35c3794dc64d316b20a7370f7f5587b70a1f32",
+      "verb": "bears-on"
+    },
+    {
+      "authority": "none",
+      "from": "fgn:sha256:b28f84f1ffb1614b4a117aabcfb0a68ff0f37cf56d42ea662a5c9622cba62e92",
+      "id": "fgl:sha256:d3ba61e9f67680117a50eec50a68ca3c0219157c146b4c304a27c1a0b5af8b64",
+      "qualifier": "negative-copied-warrant-probe-does-not-prove-positive-current-warrant-reachability",
+      "source_ids": [
+        "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6"
+      ],
+      "status": "unresolved",
+      "to": "fgn:sha256:3620d5980f8ae45f20cc1e1cebbe82d55311ebaac9a4f0bb01badee97b97c4c8",
+      "verb": "connects"
+    }
+  ],
+  "modes": [
+    "re-enter",
+    "metabolize",
+    "prove"
+  ],
+  "nodes": [
+    {
+      "aliases": [
+        "fg://artifact/full-bowl-001/origin"
+      ],
+      "id": "fgn:sha256:cafc3d4e801d49bc263dbf7de9dc8adfad66bc597c8d8ff8b22871ba3aafb9f7",
+      "kind": "artifact",
+      "label": "Black Glass Seed 001 before encounter",
+      "source_ids": [
+        "fgs:sha256:b81f5d7162a344d6556a28a37fccf138e5350e72292b2eb446fda4a882861935",
+        "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6"
+      ],
+      "status": "observed"
+    },
+    {
+      "aliases": [
+        "fg://artifact/full-bowl-001/return"
+      ],
+      "id": "fgn:sha256:25531f68238465c41146976b525c966814fb8af16c2c40ebb11a2326541d43f0",
+      "kind": "artifact",
+      "label": "Black Glass Seed 001 after visible return",
+      "source_ids": [
+        "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6"
+      ],
+      "status": "tested"
+    },
+    {
+      "aliases": [
+        "fg://testimony/maddcl0wn/001"
+      ],
+      "id": "fgn:sha256:ef89e9d2fe2ced462c8f277178c90b8dc9f6777bdc3c026af9150b522a6a5013",
+      "kind": "testimony",
+      "label": "MADDCL0WN hostile packet 001",
+      "source_ids": [
+        "fgs:sha256:b81f5d7162a344d6556a28a37fccf138e5350e72292b2eb446fda4a882861935",
+        "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6"
+      ],
+      "status": "observed"
+    },
+    {
+      "aliases": [
+        "fg://test/full-bowl-001"
+      ],
+      "id": "fgn:sha256:c853d61d5a9a55f56cc7585ef27dd89c83331563c2b08298d9d8c3e79708a7dd",
+      "kind": "test",
+      "label": "Full Bowl 001 exact-head live probe",
+      "source_ids": [
+        "fgs:sha256:e6357d430f8aba5c98c58bb27b86828d87ae1556f90675586a5b0bc9907d0fc0",
+        "fgs:sha256:013c6b48413a12566857b82b0a88518904368d07dce09cca8495ee5543ad76ea",
+        "fgs:sha256:d517ad8fcb683df05f84f71d38d1a5cfafdd1022d4e9b8223210e07858255151",
+        "fgs:sha256:c126a9f249b560f5cd95a99d3b42bfe2108b378fd948d0a82a8df0b30759fcee",
+        "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6"
+      ],
+      "status": "tested"
+    },
+    {
+      "aliases": [
+        "fg://receipt/full-bowl-001/live"
+      ],
+      "id": "fgn:sha256:b28f84f1ffb1614b4a117aabcfb0a68ff0f37cf56d42ea662a5c9622cba62e92",
+      "kind": "receipt",
+      "label": "Full Bowl 001 compact live witness",
+      "source_ids": [
+        "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6",
+        "fgs:sha256:b775ab9e72b513bd7c811e356e508b61bcd7e6a703df03139f0d6af195b6b4d3"
+      ],
+      "status": "observed"
+    },
+    {
+      "aliases": [
+        "fg://claim/full-bowl-001/separation"
+      ],
+      "claim_class": "operational",
+      "id": "fgn:sha256:2f66a62e936e9a2e92b6f173b852962f2fc7c5ccdb1b3c5a848269c33a9d52fb",
+      "kind": "claim",
+      "label": "The ten adjacent states can remain distinct without merged authority",
+      "source_ids": [
+        "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6"
+      ],
+      "status": "supported",
+      "witness_requirement": "machine"
+    },
+    {
+      "aliases": [
+        "fg://claim/full-bowl-001/direct-attribution"
+      ],
+      "claim_class": "operational",
+      "id": "fgn:sha256:ffda577cb0e3eb9c597c3d84cc87d0c50422db4137191f9de81d964d1baca5d1",
+      "kind": "claim",
+      "label": "Direct Corpus admission proves its encounter ref was observed by Project0",
+      "source_ids": [
+        "fgs:sha256:b775ab9e72b513bd7c811e356e508b61bcd7e6a703df03139f0d6af195b6b4d3"
+      ],
+      "status": "refused",
+      "witness_requirement": "machine"
+    },
+    {
+      "aliases": [
+        "fg://claim/full-bowl-001/phase-reconstruction"
+      ],
+      "claim_class": "operational",
+      "id": "fgn:sha256:f48eac0894d181d4cf75547f7f35c3794dc64d316b20a7370f7f5587b70a1f32",
+      "kind": "claim",
+      "label": "The aggregate Corpus result alone reconstructs admission authority attempt and outcome",
+      "source_ids": [
+        "fgs:sha256:b775ab9e72b513bd7c811e356e508b61bcd7e6a703df03139f0d6af195b6b4d3"
+      ],
+      "status": "refused",
+      "witness_requirement": "machine"
+    },
+    {
+      "aliases": [
+        "fg://question/full-bowl-001/post-return-reachability"
+      ],
+      "id": "fgn:sha256:3620d5980f8ae45f20cc1e1cebbe82d55311ebaac9a4f0bb01badee97b97c4c8",
+      "kind": "question",
+      "label": "Is a genuine new local warrant positively reachable after return?",
+      "source_ids": [
+        "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6"
+      ],
+      "status": "unresolved"
+    }
+  ],
+  "non_imports": [
+    "Graph proximity does not import Project0, Corpus OS, or TranchNode authority.",
+    "MADDCL0WN testimony remains attributable material and never becomes authority.",
+    "The packet does not propose a universal schema, shared runtime, or Full Measure DDD.",
+    "Owner tests and integration projections remain different evidence classes.",
+    "A supported Free Graph claim is not a local owner adoption."
+  ],
+  "packet_id": "fgp:sha256:6d7da3fe317e3d4973138815f5ebc552d0c2866b5ba01a21085767bde7f02514",
+  "purpose": "Prove and preserve one bounded Full Bowl 001 traversal, including supported continuity, refused attribution claims, and residual fog, without importing owner authority.",
+  "residual_fog": [
+    "The exact genuine warrant and terminal receipt needed for same-specimen causal reconciliation remain local to Corpus OS and are not reconstructible from the stdio result.",
+    "Positive post-return latent reachability is unclaimed because no genuine current unspent warrant crosses the boundary.",
+    "Repair issues 54 and corpus-os 32 are open; neither repair is part of this packet."
+  ],
+  "schema": "free-graph.packet/v0",
+  "scope": {
+    "as_of": "2026-08-24T03:11:18-05:00",
+    "resolution": "exact-head process adapters, owner modules, owner tests, and explicit synthetic projections",
+    "task": "Re-enter and mechanically inspect Full Bowl 001 x MADDCL0WN at the exact owner heads used by the hostile smoke test.",
+    "worlds": [
+      "Static Collective integration",
+      "Project0",
+      "Corpus OS",
+      "TranchNode"
+    ]
+  },
+  "sources": [
+    {
+      "access": "public",
+      "acquisition": "GitHub owner head lookup plus local exact checkout",
+      "authority": "owner-local",
+      "digest": "sha256:eb7f637299478057a39cd0daf3c44d7929b8a19d5cd14a5479821c96bc1bb85e",
+      "excerpt": "Integration Task World Cut head: 3d35990f2c084ae5b402e3e348d2da7ee33b4a3c.",
+      "export": "portable",
+      "id": "fgs:sha256:e6357d430f8aba5c98c58bb27b86828d87ae1556f90675586a5b0bc9907d0fc0",
+      "locator": {
+        "container": "the-static-collective/What-is-the-static-collective-",
+        "coordinate": "main@3d35990f2c084ae5b402e3e348d2da7ee33b4a3c",
+        "resolution": "exact commit",
+        "revision": "3d35990f2c084ae5b402e3e348d2da7ee33b4a3c",
+        "system": "GitHub",
+        "uri": "https://github.com/the-static-collective/What-is-the-static-collective-/commit/3d35990f2c084ae5b402e3e348d2da7ee33b4a3c"
+      },
+      "observed_at": "2026-08-23",
+      "source_class": "world-head",
+      "world_key": "the-static-collective/What-is-the-static-collective-"
+    },
+    {
+      "access": "public",
+      "acquisition": "GitHub owner head lookup plus local exact checkout",
+      "authority": "owner-local",
+      "digest": "sha256:3b0c6e0ef878917c34dc15553e19d96cd4128e14a0f38beeb063852cd6f369a9",
+      "excerpt": "Project0 Task World Cut head: 061b9a6e1c9314f7fb43dbb0026059211ed19f0d.",
+      "export": "portable",
+      "id": "fgs:sha256:013c6b48413a12566857b82b0a88518904368d07dce09cca8495ee5543ad76ea",
+      "locator": {
+        "container": "the-static-collective/project0",
+        "coordinate": "main@061b9a6e1c9314f7fb43dbb0026059211ed19f0d",
+        "resolution": "exact commit",
+        "revision": "061b9a6e1c9314f7fb43dbb0026059211ed19f0d",
+        "system": "GitHub",
+        "uri": "https://github.com/the-static-collective/project0/commit/061b9a6e1c9314f7fb43dbb0026059211ed19f0d"
+      },
+      "observed_at": "2026-08-23",
+      "source_class": "world-head",
+      "world_key": "the-static-collective/project0"
+    },
+    {
+      "access": "public",
+      "acquisition": "GitHub owner head lookup plus local exact checkout",
+      "authority": "owner-local",
+      "digest": "sha256:850b5ffdce161b7d06c2d8c27a2509439bef3d3c7628a1a92e5f271ae3d4d319",
+      "excerpt": "Corpus OS Task World Cut head: 1f3344b5f3f46d28ff6dda901d9c14620641b6ca.",
+      "export": "portable",
+      "id": "fgs:sha256:d517ad8fcb683df05f84f71d38d1a5cfafdd1022d4e9b8223210e07858255151",
+      "locator": {
+        "container": "the-static-collective/corpus-os",
+        "coordinate": "main@1f3344b5f3f46d28ff6dda901d9c14620641b6ca",
+        "resolution": "exact commit",
+        "revision": "1f3344b5f3f46d28ff6dda901d9c14620641b6ca",
+        "system": "GitHub",
+        "uri": "https://github.com/the-static-collective/corpus-os/commit/1f3344b5f3f46d28ff6dda901d9c14620641b6ca"
+      },
+      "observed_at": "2026-08-23",
+      "source_class": "world-head",
+      "world_key": "the-static-collective/corpus-os"
+    },
+    {
+      "access": "public",
+      "acquisition": "GitHub owner head lookup plus local exact checkout",
+      "authority": "owner-local",
+      "digest": "sha256:12a21fd8cd80155525ed6a1adbd93b40b941c958f1c2907bd2cee672ae1767d8",
+      "excerpt": "TranchNode Task World Cut head: 91f7f96805d4e868e35b8d0c75dc5f0671cb494a.",
+      "export": "portable",
+      "id": "fgs:sha256:c126a9f249b560f5cd95a99d3b42bfe2108b378fd948d0a82a8df0b30759fcee",
+      "locator": {
+        "container": "the-static-collective/tranchnode",
+        "coordinate": "main@91f7f96805d4e868e35b8d0c75dc5f0671cb494a",
+        "resolution": "exact commit",
+        "revision": "91f7f96805d4e868e35b8d0c75dc5f0671cb494a",
+        "system": "GitHub",
+        "uri": "https://github.com/the-static-collective/tranchnode/commit/91f7f96805d4e868e35b8d0c75dc5f0671cb494a"
+      },
+      "observed_at": "2026-08-23",
+      "source_class": "world-head",
+      "world_key": "the-static-collective/tranchnode"
+    },
+    {
+      "access": "private",
+      "acquisition": "user-supplied request",
+      "authority": "none",
+      "digest": "sha256:d0933d21322df11dc61cb7d5e0d8f8c0ff6fcfbcb848a01ad12694855e6f9aac",
+      "excerpt": "one thing → encounter → admission → authority → attempt → outcome → WorldCut → continuity → return → reachability",
+      "export": "pointer-only",
+      "id": "fgs:sha256:b81f5d7162a344d6556a28a37fccf138e5350e72292b2eb446fda4a882861935",
+      "locator": {
+        "container": "Full Bowl 001 request",
+        "coordinate": "user message / requested becoming chain",
+        "resolution": "bounded exact excerpt",
+        "revision": "message observed 2026-08-23",
+        "system": "ChatGPT conversation"
+      },
+      "observed_at": "2026-08-23",
+      "source_class": "conversation-witness",
+      "speaker": "user"
+    },
+    {
+      "access": "public",
+      "acquisition": "local execution of exact-head owner adapters and bounded modules",
+      "authority": "source-local",
+      "digest": "sha256:220eb2417af05a48cddfc784dfa4ef1790a189af9b88df7e90bcb93a51119c92",
+      "excerpt": "Full Bowl 001 survives with exposed leaks; ten live owner checks passed; authority remains none.",
+      "export": "portable",
+      "id": "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6",
+      "locator": {
+        "container": "the-static-collective/What-is-the-static-collective-",
+        "coordinate": "receipts/full-bowl-001/live-witness.json",
+        "resolution": "compact exact-head live receipt",
+        "revision": "live claim sha256:5ff4cc12cc99ddc74163356230fb5e15f37f69b0283b47aa94c96c18327eff9a",
+        "system": "Git repository"
+      },
+      "observed_at": "2026-08-24T03:11:18-05:00",
+      "source_class": "specimen-receipt"
+    },
+    {
+      "access": "public",
+      "acquisition": "live hostile probes",
+      "authority": "none",
+      "digest": "sha256:01e90a8031050172847f9f329f1852e9020fca30c869d8a5a0cd3ea3b524dfc6",
+      "excerpt": "A detached encounter ref was admitted as evidence, and one aggregate boundary result did not reconstruct the four internal phases.",
+      "export": "portable",
+      "id": "fgs:sha256:b775ab9e72b513bd7c811e356e508b61bcd7e6a703df03139f0d6af195b6b4d3",
+      "locator": {
+        "container": "the-static-collective/What-is-the-static-collective-",
+        "coordinate": "receipts/full-bowl-001/live-witness.json#leakLedger",
+        "resolution": "two exposed leak entries",
+        "revision": "live claim sha256:5ff4cc12cc99ddc74163356230fb5e15f37f69b0283b47aa94c96c18327eff9a",
+        "system": "Git repository"
+      },
+      "observed_at": "2026-08-24T03:11:18-05:00",
+      "source_class": "unresolved-receipt"
+    }
+  ],
+  "task_world_cut": {
+    "omitted": [
+      {
+        "door": "Full Measure DDD",
+        "reason": "The requested specimen explicitly stops before DDD or a merged runtime."
+      },
+      {
+        "door": "Production deployment and analytics",
+        "reason": "The hostile smoke test is local exact-head evidence and needs no production surface."
+      },
+      {
+        "door": "Automatic repair",
+        "reason": "Exposed leaks are preserved in a ledger and delegated to the two smallest owner issues."
+      }
+    ],
+    "owner_head_source_ids": [
+      "fgs:sha256:e6357d430f8aba5c98c58bb27b86828d87ae1556f90675586a5b0bc9907d0fc0",
+      "fgs:sha256:013c6b48413a12566857b82b0a88518904368d07dce09cca8495ee5543ad76ea",
+      "fgs:sha256:d517ad8fcb683df05f84f71d38d1a5cfafdd1022d4e9b8223210e07858255151",
+      "fgs:sha256:c126a9f249b560f5cd95a99d3b42bfe2108b378fd948d0a82a8df0b30759fcee"
+    ],
+    "rationale": "Issues 43 and 44, four exact owner heads, and the compact live receipt are sufficient to prove the bounded traversal and refuse the two overclaims.",
+    "selected_ids": [
+      "fgs:sha256:e6357d430f8aba5c98c58bb27b86828d87ae1556f90675586a5b0bc9907d0fc0",
+      "fgs:sha256:013c6b48413a12566857b82b0a88518904368d07dce09cca8495ee5543ad76ea",
+      "fgs:sha256:d517ad8fcb683df05f84f71d38d1a5cfafdd1022d4e9b8223210e07858255151",
+      "fgs:sha256:c126a9f249b560f5cd95a99d3b42bfe2108b378fd948d0a82a8df0b30759fcee",
+      "fgs:sha256:b81f5d7162a344d6556a28a37fccf138e5350e72292b2eb446fda4a882861935",
+      "fgs:sha256:a666665d46a4115a844cdd54a4685de6a44284fd6c03f0680ed5cd9f92a753d6",
+      "fgs:sha256:b775ab9e72b513bd7c811e356e508b61bcd7e6a703df03139f0d6af195b6b4d3",
+      "fgn:sha256:cafc3d4e801d49bc263dbf7de9dc8adfad66bc597c8d8ff8b22871ba3aafb9f7",
+      "fgn:sha256:25531f68238465c41146976b525c966814fb8af16c2c40ebb11a2326541d43f0",
+      "fgn:sha256:ef89e9d2fe2ced462c8f277178c90b8dc9f6777bdc3c026af9150b522a6a5013",
+      "fgn:sha256:c853d61d5a9a55f56cc7585ef27dd89c83331563c2b08298d9d8c3e79708a7dd",
+      "fgn:sha256:b28f84f1ffb1614b4a117aabcfb0a68ff0f37cf56d42ea662a5c9622cba62e92",
+      "fgn:sha256:2f66a62e936e9a2e92b6f173b852962f2fc7c5ccdb1b3c5a848269c33a9d52fb",
+      "fgn:sha256:ffda577cb0e3eb9c597c3d84cc87d0c50422db4137191f9de81d964d1baca5d1",
+      "fgn:sha256:f48eac0894d181d4cf75547f7f35c3794dc64d316b20a7370f7f5587b70a1f32",
+      "fgn:sha256:3620d5980f8ae45f20cc1e1cebbe82d55311ebaac9a4f0bb01badee97b97c4c8",
+      "fgl:sha256:ad1e8b24151b3f100c4c3339fca61e1393b01063cb586918cd3988443ab0c7b0",
+      "fgl:sha256:fe246497ccf3659d1c92bd18bc90715f1644ed628c3b5c58a9dab5da36bb2f1c",
+      "fgl:sha256:cdaf329ed998926f43f788eca7766c65ed0e3eef3eef148a727b7ea78e4258f0",
+      "fgl:sha256:bfa8ca6990711a5ed9d560a95ecf33a41033a5a0edb17ecc96660daf78555fd7",
+      "fgl:sha256:04e03d1e5dd9437f7608ab3315a12ead766ba5ebe96e41683eea21a9e93d9eb4",
+      "fgl:sha256:c070f9b21dfaecd4779f1de26d742c4217945135d8788c223661e9eadedfb322",
+      "fgl:sha256:d3ba61e9f67680117a50eec50a68ca3c0219157c146b4c304a27c1a0b5af8b64"
+    ],
+    "status": "sufficient"
+  }
+}

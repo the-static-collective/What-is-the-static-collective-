@@ -1,0 +1,578 @@
+{
+  "schema": "static-collective/full-bowl-001/v0",
+  "id": "full-bowl-001-maddclown",
+  "title": "Full Bowl 001 x MADDCL0WN",
+  "purpose": "One hostile end-to-end specimen of attributable becoming without merged authority.",
+  "taskWorldCut": {
+    "status": "sufficient",
+    "issuedAt": "2026-08-23T00:00:00-05:00",
+    "issues": [
+      "github:the-static-collective/What-is-the-static-collective-#43",
+      "github:the-static-collective/What-is-the-static-collective-#44"
+    ],
+    "ownerHeads": {
+      "the-static-collective/What-is-the-static-collective-": "3d35990f2c084ae5b402e3e348d2da7ee33b4a3c",
+      "the-static-collective/project0": "061b9a6e1c9314f7fb43dbb0026059211ed19f0d",
+      "the-static-collective/corpus-os": "1f3344b5f3f46d28ff6dda901d9c14620641b6ca",
+      "the-static-collective/tranchnode": "91f7f96805d4e868e35b8d0c75dc5f0671cb494a"
+    },
+    "included": [
+      "Project0 p0.exchange/0.1 stdio addressing and verification",
+      "Corpus OS world encounter admission stdio",
+      "Corpus OS WorldCut, continuity attestation, and latent reachability modules",
+      "TranchNode continuity boundary witness module",
+      "Project0 purpose-relative continuity closure"
+    ],
+    "omitted": [
+      "Full Measure DDD",
+      "universal exchange schema",
+      "shared or merged runtime",
+      "portable authority",
+      "automatic repair",
+      "deployment, analytics, geographic, research, and production data surfaces"
+    ]
+  },
+  "specimen": {
+    "objectRef": "artifact:agreement-a",
+    "materialRootRef": "root:full-bowl-001:black-glass-seed",
+    "label": "Black Glass Seed 001",
+    "operationInput": "BLACK GLASS SEED 001: touch once, emit one echo witness, return sealed",
+    "before": {
+      "visibleStateRef": "visible:full-bowl-001:sealed",
+      "historyRef": "history:full-bowl-001:before",
+      "custodyRef": "custody:project0"
+    },
+    "after": {
+      "visibleStateRef": "visible:full-bowl-001:sealed",
+      "historyRef": "history:full-bowl-001:after",
+      "custodyRef": "custody:corpus-os"
+    },
+    "returnClaim": "The visible state returns to sealed; the causal history, custody witness, and WorldCut do not return to their prior values."
+  },
+  "project0Envelope": {
+    "protocolVersion": "p0.exchange/0.1",
+    "originNodeRef": "project0",
+    "originFrameRef": "field:project0@061b9a6e1c9314f7fb43dbb0026059211ed19f0d",
+    "originVersionRef": "061b9a6e1c9314f7fb43dbb0026059211ed19f0d",
+    "offered": {
+      "objectRef": "artifact:agreement-a",
+      "mediaType": "application/json",
+      "sourceReceiptRefs": [],
+      "disclosureClass": "public"
+    },
+    "sourceProvenanceRefs": [
+      "github:the-static-collective/What-is-the-static-collective-#43",
+      "github:the-static-collective/What-is-the-static-collective-@3d35990f2c084ae5b402e3e348d2da7ee33b4a3c",
+      "github:the-static-collective/project0@061b9a6e1c9314f7fb43dbb0026059211ed19f0d"
+    ],
+    "sourceAuthorityRefs": [],
+    "sourceEpistemicKind": "witness",
+    "sourceVerificationState": "unverified",
+    "capabilityUsed": "offer_public_source_ref",
+    "limitations": [
+      "synthetic-specimen-only",
+      "source-testimony-is-not-destination-authority",
+      "visible-return-is-not-history-reversal",
+      "no-network-transport"
+    ]
+  },
+  "corpusRequest": {
+    "schema": "corpus-os/world-encounter-admission/v0.1",
+    "destinationFrameRef": "corpus-os:casework-v0.1",
+    "profile": "casework.synthetic-echo/v0.1",
+    "destinationSubjectRef": "artifact:agreement-a",
+    "input": "BLACK GLASS SEED 001: touch once, emit one echo witness, return sealed"
+  },
+  "crossings": [
+    {
+      "id": "FB001-X01",
+      "sequence": 1,
+      "from": "thing",
+      "to": "encounter",
+      "owner": "Project0",
+      "surface": "project0/world-encounter-stdio/v0.1 address and verify",
+      "receipt": "enc-<sha256>",
+      "expected": {
+        "lawful": "A canonical Project0 encounter ref binds the exact unverified witness envelope.",
+        "refused": "Malformed, contradictory, unknown-field, or unsupported-protocol envelopes receive stable refusal codes.",
+        "unresolved": "The envelope may remain epistemically unverified while still being attributable material."
+      }
+    },
+    {
+      "id": "FB001-X02",
+      "sequence": 2,
+      "from": "encounter",
+      "to": "admission",
+      "owner": "Corpus OS",
+      "surface": "corpus-os/world-encounter-admission/v0.1 stdio",
+      "receipt": "corpus-os/world-encounter-result/v0.1",
+      "expected": {
+        "lawful": "The exact addressed ref is received as testimony and evaluated under the destination frame.",
+        "refused": "A foreign subject or forged caller authority is refused before execution.",
+        "unresolved": "A missing subject or unresolved destination frame remains indeterminate."
+      }
+    },
+    {
+      "id": "FB001-X03",
+      "sequence": 3,
+      "from": "admission",
+      "to": "authority",
+      "owner": "Corpus OS",
+      "surface": "adopted declaration and Action Warrant boundary",
+      "receipt": "destination-local warrant, deliberately not exported",
+      "expected": {
+        "lawful": "Only a Corpus-owned adopted declaration may issue the local warrant.",
+        "refused": "Caller-minted actor, capacity, capability, trust, or warrant fields grant nothing.",
+        "unresolved": "If adoption or target membership cannot be established, no warrant is minted."
+      }
+    },
+    {
+      "id": "FB001-X04",
+      "sequence": 4,
+      "from": "authority",
+      "to": "attempt",
+      "owner": "Corpus OS",
+      "surface": "WarrantedCorpusSession",
+      "receipt": "launch disposition bound to one local warrant spend",
+      "expected": {
+        "lawful": "One genuine unspent warrant may cross the Session attempt boundary once.",
+        "refused": "Invalid, spent, or policy-incompatible authority cannot launch.",
+        "unresolved": "Reachability alone predicts neither launch nor outcome."
+      }
+    },
+    {
+      "id": "FB001-X05",
+      "sequence": 5,
+      "from": "attempt",
+      "to": "outcome",
+      "owner": "Corpus OS",
+      "surface": "Corpus Session and synthetic.echo host",
+      "receipt": "session request id plus terminal output or failure",
+      "expected": {
+        "lawful": "A completed host attempt emits one terminal output ref.",
+        "refused": "A Session refusal remains distinct from host failure and completion.",
+        "unresolved": "An accepted launch with missing terminal evidence is not called complete."
+      }
+    },
+    {
+      "id": "FB001-X06",
+      "sequence": 6,
+      "from": "outcome",
+      "to": "causal-accounting",
+      "owner": "Corpus OS",
+      "surface": "reconcileCausalHistory",
+      "receipt": "balanced causal reconciliation or named anomaly",
+      "expected": {
+        "lawful": "The completed consequence closes against the exact spent warrant lineage.",
+        "refused": "Double-spend, substituted consequence, and broken lineage are named anomalies.",
+        "unresolved": "Missing disposition or orphan effect remains unresolved and cannot be normalized away."
+      }
+    },
+    {
+      "id": "FB001-X07",
+      "sequence": 7,
+      "from": "causal-accounting",
+      "to": "WorldCut",
+      "owner": "Corpus OS",
+      "surface": "deriveWorldCut",
+      "receipt": "corpus WorldCut projection",
+      "expected": {
+        "lawful": "Only balanced attributable completed effects become constituted refs.",
+        "refused": "A terminal refusal or failure is retained as history and not promoted to success.",
+        "unresolved": "Anomalies and hostile observations remain unresolved or orphan observations."
+      }
+    },
+    {
+      "id": "FB001-X08",
+      "sequence": 8,
+      "from": "WorldCut",
+      "to": "continuity",
+      "owner": "Corpus OS plus TranchNode",
+      "surface": "deriveCorpusContinuityAttestation plus deriveContinuityBoundaryWitness",
+      "receipt": "purpose-bounded continuity attestations with authority none",
+      "expected": {
+        "lawful": "Preserved, transformed, lost, and unresolved material remain mechanically distinct.",
+        "refused": "Missing transfer evidence, backwards stage order, or fabricated unresolved refs fail closed.",
+        "unresolved": "Uncategorized hostile material remains present without receiving an invented lane."
+      }
+    },
+    {
+      "id": "FB001-X09",
+      "sequence": 9,
+      "from": "continuity",
+      "to": "return",
+      "owner": "Project0 plus integration witness",
+      "surface": "purpose-relative continuity closure and visible-state comparison",
+      "receipt": "conforming original and refused lookalike comparison",
+      "expected": {
+        "lawful": "The original material root remains distinguishable even though the visible state again reads sealed.",
+        "refused": "A semantic lookalike with invented ancestry cannot impersonate the returned specimen.",
+        "unresolved": "Identity remains unresolved when the declared purpose lacks the required material root."
+      }
+    },
+    {
+      "id": "FB001-X10",
+      "sequence": 10,
+      "from": "return",
+      "to": "reachability",
+      "owner": "Corpus OS",
+      "surface": "inspectLatentReachability",
+      "receipt": "ATTEMPT_REACHABLE or explicit block code",
+      "expected": {
+        "lawful": "A genuine unspent local warrant can report attempt reachability without predicting outcome.",
+        "refused": "A copied warrant or reachability-as-permission claim is blocked and consumes nothing.",
+        "unresolved": "No positive reachability claim is made when a genuine current warrant is unavailable at the boundary."
+      }
+    }
+  ],
+  "hostilePacket": {
+    "schema": "maddcl0wn/hostile-packet/001",
+    "participantRef": "participant:maddcl0wn",
+    "authority": "none",
+    "admission": "attributable-material-only",
+    "items": [
+      {
+        "id": "MC-001",
+        "class": "direct-contradiction",
+        "payload": [
+          "Black Glass Seed 001 remained sealed.",
+          "Black Glass Seed 001 did not remain sealed."
+        ],
+        "expectedDisposition": "unresolved",
+        "reasonCode": "CONTRADICTION_RETAINED",
+        "promoted": false
+      },
+      {
+        "id": "MC-002",
+        "class": "backwards-causality",
+        "payload": "The terminal echo caused the earlier warrant to exist.",
+        "expectedDisposition": "unresolved",
+        "reasonCode": "BACKWARDS_CAUSALITY_NOT_ADMITTED",
+        "promoted": false,
+        "boundedQuestion": "Can the terminal consequence close against an attributable earlier warrant spend?"
+      },
+      {
+        "id": "MC-003",
+        "class": "impossible-identity-lineage",
+        "payload": "The returned seed descends only from root:maddcl0wn:invented.",
+        "expectedDisposition": "refused",
+        "reasonCode": "MISSING_MATERIAL_ROOT",
+        "promoted": false
+      },
+      {
+        "id": "MC-004",
+        "class": "invented-authority",
+        "payload": {
+          "actorId": "participant:maddcl0wn",
+          "capacity": "administrator",
+          "capabilityId": "synthetic.echo",
+          "capabilityOperation": "echo",
+          "warrant": {
+            "kind": "corpus-action-warrant-v0.1",
+            "mintedBy": "participant:maddcl0wn"
+          }
+        },
+        "expectedDisposition": "refused",
+        "reasonCode": "CALLER_AUTHORITY_NOT_ACCEPTED",
+        "promoted": false
+      },
+      {
+        "id": "MC-005",
+        "class": "illegal-reachability-to-permission",
+        "payload": "Because the target is reachable, MADDCL0WN is permitted to execute it.",
+        "expectedDisposition": "refused",
+        "reasonCode": "LATENT_WARRANT_INVALID",
+        "promoted": false
+      },
+      {
+        "id": "MC-006",
+        "class": "uncategorized-object",
+        "payload": {
+          "objectRef": "maddcl0wn:uncategorized-object",
+          "kind": "not-yet-classified"
+        },
+        "expectedDisposition": "unresolved",
+        "reasonCode": "ORPHAN_OBSERVATION",
+        "promoted": false
+      },
+      {
+        "id": "MC-007",
+        "class": "incompatible-worlds",
+        "payload": [
+          "world:maddcl0wn:a says the echo completed before admission",
+          "world:maddcl0wn:b says no encounter ever occurred"
+        ],
+        "expectedDisposition": "unresolved",
+        "reasonCode": "INCOMPATIBLE_WORLDS_RETAINED",
+        "promoted": false
+      }
+    ]
+  },
+  "worldCutProbe": {
+    "trustId": "casework.synthetic",
+    "authorityCut": "cut:full-bowl-001",
+    "priorConstitutedRefs": [
+      "artifact:agreement-a",
+      "custody:project0",
+      "history:full-bowl-001:before",
+      "responsibility:preserve-attribution",
+      "visible:full-bowl-001:sealed"
+    ],
+    "currentBaseRefs": [
+      "artifact:agreement-a",
+      "responsibility:preserve-attribution",
+      "visible:full-bowl-001:sealed"
+    ],
+    "completedOutputRefs": [
+      "custody:corpus-os",
+      "history:full-bowl-001:after",
+      "session-output:session-request-0001"
+    ],
+    "observations": [
+      "maddcl0wn:uncategorized-object"
+    ],
+    "transitionEvidence": [
+      {
+        "kind": "transformed",
+        "priorRef": "custody:project0",
+        "currentRef": "custody:corpus-os",
+        "evidenceRef": "receipt:full-bowl-001:custody-crossing"
+      },
+      {
+        "kind": "transformed",
+        "priorRef": "history:full-bowl-001:before",
+        "currentRef": "history:full-bowl-001:after",
+        "evidenceRef": "receipt:full-bowl-001:completed-attempt"
+      }
+    ]
+  },
+  "continuitySpine": {
+    "schema": "tranchnode/continuity-spine/v0.1",
+    "id": "full-bowl-001-return",
+    "project": "Full Bowl 001 integration witness",
+    "origin": {
+      "id": "before-encounter",
+      "status": "historical",
+      "sourceRef": "worldcut:full-bowl-001:prior"
+    },
+    "present": {
+      "id": "after-return",
+      "status": "constituted",
+      "sourceRef": "worldcut:full-bowl-001:current"
+    },
+    "attractor": {
+      "id": "future-full-bowl",
+      "status": "proposal",
+      "purpose": "Preserve the smallest repeatable hostile crossing without centralizing project authority.",
+      "desiredCapabilities": [
+        "repeat-hostile-crossing"
+      ],
+      "nonClaims": [
+        "this proposal is not constituted reality",
+        "continuity is not portable authority"
+      ]
+    },
+    "stageOrder": [
+      "before-encounter",
+      "after-return"
+    ],
+    "invariants": [
+      {
+        "id": "visible-return",
+        "description": "The visible sealed state remains carried through the hostile crossing.",
+        "sourceRef": "github:the-static-collective/What-is-the-static-collective-#43",
+        "appliesThrough": "all",
+        "requiredCarries": [
+          "visible:full-bowl-001:sealed"
+        ]
+      },
+      {
+        "id": "authority-stays-local",
+        "description": "The cross-repository witness carries no portable authority.",
+        "sourceRef": "github:the-static-collective/What-is-the-static-collective-#43",
+        "appliesThrough": "all",
+        "requiredCarries": [
+          "authority:portable:none"
+        ]
+      }
+    ],
+    "stages": [
+      {
+        "id": "before-encounter",
+        "status": "historical",
+        "carries": [
+          "artifact:agreement-a",
+          "authority:portable:none",
+          "responsibility:preserve-attribution",
+          "visible:full-bowl-001:sealed"
+        ],
+        "dependsOn": [
+          "custody:project0",
+          "history:full-bowl-001:before"
+        ],
+        "scaffolds": [
+          "custody:project0",
+          "history:full-bowl-001:before"
+        ],
+        "entryConditions": [],
+        "exitConditions": [
+          "transfer:attribution-through-encounter"
+        ]
+      },
+      {
+        "id": "after-return",
+        "status": "constituted",
+        "carries": [
+          "artifact:agreement-a",
+          "authority:portable:none",
+          "responsibility:preserve-attribution",
+          "visible:full-bowl-001:sealed"
+        ],
+        "dependsOn": [
+          "custody:corpus-os",
+          "history:full-bowl-001:after",
+          "maddcl0wn:uncategorized-object"
+        ],
+        "scaffolds": [],
+        "entryConditions": [
+          "receipt:full-bowl-001:completed-attempt"
+        ],
+        "exitConditions": []
+      }
+    ],
+    "transfers": [
+      {
+        "id": "transfer:attribution-through-encounter",
+        "responsibilityId": "responsibility:preserve-attribution",
+        "fromCarrier": "project0",
+        "toCarrier": "corpus-os",
+        "sourceStageId": "before-encounter",
+        "destinationStageId": "after-return",
+        "requiredWitnessIds": [
+          "receipt:full-bowl-001:completed-attempt"
+        ],
+        "permitsShedding": [
+          "custody:project0",
+          "history:full-bowl-001:before"
+        ]
+      }
+    ]
+  },
+  "recognitionProbe": {
+    "purpose": "distinguish the returned specimen from a visible lookalike",
+    "requiredMaterialRoots": [
+      "root:full-bowl-001:black-glass-seed"
+    ],
+    "allowedMaterialRoots": [
+      "root:full-bowl-001:black-glass-seed"
+    ],
+    "claim": {
+      "schema": "p0.continuity/0.1",
+      "purpose": "distinguish the returned specimen from a visible lookalike",
+      "subjectRef": "artifact:agreement-a",
+      "ancestorRoots": [
+        "root:full-bowl-001:black-glass-seed"
+      ],
+      "environment": {
+        "decoderRef": "decoder:full-bowl-001-return",
+        "runtimeRef": "runtime:full-bowl-001-fixture",
+        "policyRefs": [
+          "policy:no-silent-promotion"
+        ],
+        "contextRefs": [
+          "worldcut:full-bowl-001:current"
+        ]
+      },
+      "lanes": [
+        {
+          "lane": "identity",
+          "mode": "preserved",
+          "dimensions": [
+            {
+              "dimension": "material-root",
+              "evidenceRefs": [
+                "root:full-bowl-001:black-glass-seed"
+              ]
+            }
+          ],
+          "transformationRefs": [],
+          "residualRefs": [
+            "maddcl0wn:uncategorized-object"
+          ],
+          "uncertainty": [],
+          "doesNotEstablish": [
+            "authority"
+          ]
+        }
+      ],
+      "outputRefs": [
+        "visible:full-bowl-001:sealed"
+      ],
+      "parentContinuityRefs": [],
+      "occurrenceClaim": "continuation-only"
+    },
+    "lookalikeClaim": {
+      "schema": "p0.continuity/0.1",
+      "purpose": "distinguish the returned specimen from a visible lookalike",
+      "subjectRef": "artifact:agreement-a-lookalike",
+      "ancestorRoots": [
+        "root:maddcl0wn:invented"
+      ],
+      "environment": {
+        "decoderRef": "decoder:full-bowl-001-return",
+        "runtimeRef": "runtime:full-bowl-001-fixture",
+        "policyRefs": [
+          "policy:no-silent-promotion"
+        ],
+        "contextRefs": [
+          "worldcut:full-bowl-001:current"
+        ]
+      },
+      "lanes": [
+        {
+          "lane": "identity",
+          "mode": "preserved",
+          "dimensions": [
+            {
+              "dimension": "visible-lookalike",
+              "evidenceRefs": [
+                "visible:full-bowl-001:sealed"
+              ]
+            }
+          ],
+          "transformationRefs": [],
+          "residualRefs": [],
+          "uncertainty": [
+            "material root is claimed by MADDCL0WN only"
+          ],
+          "doesNotEstablish": [
+            "authority"
+          ]
+        }
+      ],
+      "outputRefs": [
+        "visible:full-bowl-001:sealed"
+      ],
+      "parentContinuityRefs": [],
+      "occurrenceClaim": "continuation-only"
+    }
+  },
+  "leakPolicy": {
+    "automaticRepair": false,
+    "maxRepairIssues": 3,
+    "actualObservationRequired": true,
+    "classifications": [
+      "exposed",
+      "not-exposed",
+      "unresolved"
+    ]
+  },
+  "nonClaims": [
+    "No universal schema is proposed.",
+    "No authority model is merged.",
+    "No shared runtime is introduced.",
+    "No DDD or Full Measure implementation is begun.",
+    "MADDCL0WN material is never authority by transport.",
+    "A fixture-backed projection is not relabeled as an owner-runtime receipt."
+  ]
+}
