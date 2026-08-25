@@ -129,6 +129,7 @@
     * [Quantum No-Hiding — Forced Carrier, Local Twist, X](frontier/primitive-incubator/death-is-local-extinction-requires-a-world-claim/quantum-no-hiding-forced-carrier-local-twist-x.md)
     * [AGAIN — Renewal Without Reset](frontier/primitive-incubator/death-is-local-extinction-requires-a-world-claim/again-renewal-without-reset.md)
   * [Counterexample Origin & Typed Carrier — Failure Before Speciation](frontier/primitive-incubator/counterexample-origin-and-typed-carrier-failure-before-speciation.md)
+  * [Crossing Frontier — What Survives, What Must Be Constituted Anew](frontier/primitive-incubator/crossing-frontier-what-survives-what-must-be-constituted-anew.md)
 * [Haunted Toaster — Mutation Lattice, Shape Pack & Ghost Topology](frontier/haunted-toaster-mutation-lattice-shape-pack-and-ghost-topology.md)
 
 ## Evidence
