@@ -40,6 +40,7 @@
 ## Frontier
 
 * [Primitive Incubator](frontier/primitive-incubator/README.md)
+  * [THE SEEDBANK — ELF-OFF-A-SHELF](frontier/primitive-incubator/the-seedbank-elf-off-a-shelf.md)
   * [Collective Dreamstate — Shared Dream, Separate Bodies](frontier/primitive-incubator/collective-dreamstate-shared-dream-local-consequence.md)
   * [Bitcraft — Mine the Blocks, Pull the Megazord](frontier/primitive-incubator/bitcraft-mine-blocks-pull-megazord.md)
   * [Mouth, Eye, Hand, Hair — Constitutional Anatomy & Haunted Topology](frontier/primitive-incubator/mouth-eye-hand-hair-constitutional-anatomy-and-haunted-topology.md)

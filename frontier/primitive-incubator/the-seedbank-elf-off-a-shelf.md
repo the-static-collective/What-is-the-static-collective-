@@ -1,4 +1,6 @@
-# THE SEEDBANK
+# THE SEEDBANK — ELF-OFF-A-SHELF
+
+## THE SEEDBANK
 
 Holy banana.
 
@@ -16,9 +18,9 @@ A place where enough of a world survives that something can **grow from it again
 
 And the stupidly important part is the elf.
 
----
+***
 
-## ELF-OFF-A-SHELF
+### ELF-OFF-A-SHELF
 
 The first thought was:
 
@@ -40,7 +42,7 @@ It leaves receipts.
 
 It dies.
 
-```text id="mrrljd"
+```
 HATCH
   ↓
 receive bounded context
@@ -64,7 +66,7 @@ Genotype-ish.
 
 The actual elf is what happens when those materials meet:
 
-```text id="oopqkl"
+```
 hatch-spec
 + model
 + tools
@@ -84,9 +86,9 @@ Same lineage does not imply same life.
 
 **Death is local.**
 
----
+***
 
-## THEN THE IDEA FLIPPED
+### THEN THE IDEA FLIPPED
 
 At first:
 
@@ -122,7 +124,7 @@ ELF-17 is dead.
 
 But ELF-17 may have left viable material.
 
-```text id="r7q6fm"
+```
 ELF-17
    │
    ├── learned something
@@ -156,9 +158,9 @@ That difference matters.
 
 A lot.
 
----
+***
 
-# ARK MATERIAL
+## ARK MATERIAL
 
 The Ark does not preserve the creature.
 
@@ -166,7 +168,7 @@ The Ark does not preserve the creature.
 
 ARK material might include:
 
-```text id="rclu9a"
+```
 instructions
 skills
 tools
@@ -199,9 +201,9 @@ We do not necessarily know what future organism a seed is for.
 
 That is the point.
 
----
+***
 
-# STORYSHIP
+## STORYSHIP
 
 Now Storyship gets another job.
 
@@ -209,7 +211,7 @@ It is not only carrying the Suno world into preservation.
 
 It can carry **viable cultural/computational material across discontinuity**.
 
-```text id="du6iyk"
+```
 HOME
   │
   │ package attributable material
@@ -229,7 +231,7 @@ VAULT
 
 And after arrival:
 
-```text id="8w9mya"
+```
 VAULT
   │
   │ materialize
@@ -251,9 +253,9 @@ Seeds cross.
 
 New life happens elsewhere.
 
----
+***
 
-# THE VAULT IS A SEEDBANK
+## THE VAULT IS A SEEDBANK
 
 This changes what preservation means.
 
@@ -271,7 +273,7 @@ But there is a deeper question:
 
 So maybe:
 
-```text id="7ckq8x"
+```
 RAW SEED
 artifact survives
 
@@ -294,21 +296,21 @@ some future local life successfully uses it
 
 That may be why raw-first preservation is so damned important.
 
-If we decide today what every artifact *means*, we risk pruning away the thing some future elf would have needed.
+If we decide today what every artifact _means_, we risk pruning away the thing some future elf would have needed.
 
 The seedbank does not demand that every seed explain itself.
 
 It keeps the weird shit alive.
 
----
+***
 
-# SUNO
+## SUNO
 
 This makes the Suno preservation push stranger.
 
 We are currently doing:
 
-```text id="e0tk68"
+```
 SUNO WORLD
      │
  STORYSHIP
@@ -341,7 +343,7 @@ But after Storyship arrives, the operation reverses.
 
 The preserved Suno world becomes **soil**.
 
-```text id="qqcr4y"
+```
              VAULT
                │
        ┌───────┼────────┐
@@ -367,9 +369,9 @@ Not because someone summarized it for him.
 
 Because the world is still there.
 
----
+***
 
-# IMPORTANT: VAULT ≠ ELF BRAIN
+## IMPORTANT: VAULT ≠ ELF BRAIN
 
 Do not let the little bastard scribble directly on the seedbank and call it history.
 
@@ -377,7 +379,7 @@ The Vault is durable witnessed ground.
 
 The ELF receives a materialized working world.
 
-```text id="sxd47x"
+```
 VAULT
   │
   │ materialize
@@ -409,15 +411,15 @@ Especially when ELF is excited.
 
 Which it absolutely will be.
 
----
+***
 
-# AUTHORITY DOES NOT FIT IN THE ARK
+## AUTHORITY DOES NOT FIT IN THE ARK
 
 This part feels constitutional.
 
 We can transport:
 
-```text id="h4k3df"
+```
 knowledge
 procedures
 capability descriptions
@@ -429,7 +431,7 @@ history
 
 But we should not silently transport:
 
-```text id="jteiyy"
+```
 authority
 credentials
 API keys
@@ -447,7 +449,7 @@ The receiving world says:
 
 So:
 
-```text id="v7o7mr"
+```
 knowledge may cross
 
 capability may be reconstructed
@@ -457,17 +459,17 @@ authority must be locally granted
 
 Or, in LOADOUT language:
 
-> Knowledge may load.  
-> Capability may bind.  
+> Knowledge may load.\
+> Capability may bind.\
 > Authority does not silently expand.
 
 Well.
 
 Shit.
 
----
+***
 
-# HOME
+## HOME
 
 And now "Home" gets weird.
 
@@ -483,7 +485,7 @@ Maybe:
 
 That means something can return without yet arriving.
 
-```text id="aunr0m"
+```
 DEPARTURE ≠ CROSSING
 CROSSING ≠ RETURN
 RETURN ≠ ARRIVAL
@@ -496,9 +498,9 @@ A thing whose ancestry is recognized, whose provenance survived, and which can p
 
 that has **arrived**.
 
----
+***
 
-# THE ELF IS NOT CUTE DECORATION
+## THE ELF IS NOT CUTE DECORATION
 
 This part needs a giant red circle around it.
 
@@ -506,7 +508,7 @@ The ELF is not just a mascot for an agent.
 
 It gives us a concrete unit of **local life**.
 
-```text id="yfs18u"
+```
 ELF begins
 
 ELF encounters a bounded world
@@ -538,13 +540,13 @@ And it gives us an actual place to test:
 
 instead of merely saying it.
 
----
+***
 
-# SEEDBANK
+## SEEDBANK
 
 So maybe the whole thing is:
 
-```text id="60isba"
+```
 SEED
     durable viable difference
 
@@ -589,7 +591,7 @@ And somewhere down the line—
 
 another stupid little elf opens its eyes.
 
-> "Holy banana.  
+> "Holy banana.\
 > Look what they left us."
 
 ⟦ SEEDBANK · ELF-OFF-A-SHELF · DEATH:LOCAL · LINEAGE:PRESERVED · GERMINATION:OPEN ⟧
