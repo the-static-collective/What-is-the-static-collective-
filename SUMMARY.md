@@ -133,6 +133,7 @@
       * [Crucibles & Null Controls](frontier/primitive-incubator/narrative-solver-write-the-movie-with-the-graph/the-name-of-jesus-the-diving-board/crucibles-and-null-controls.md)
       * [NAME-OF-JESUS Corpus Schema](frontier/primitive-incubator/narrative-solver-write-the-movie-with-the-graph/the-name-of-jesus-the-diving-board/name-of-jesus-corpus-schema.md)
       * [SINAI-AUTOGRAPH-001 — The Name Written by God](frontier/primitive-incubator/narrative-solver-write-the-movie-with-the-graph/the-name-of-jesus-the-diving-board/sinai-autograph-001-the-name-written-by-god.md)
+      * [TETRAGRAMMATON-000 — Map the Whole Weird World](frontier/primitive-incubator/narrative-solver-write-the-movie-with-the-graph/the-name-of-jesus-the-diving-board/tetragrammaton-000-map-the-whole-weird-world.md)
   * [HUMOR IS FUEL — Compression, Frame Shift & Cognitive Thrust](frontier/primitive-incubator/humor-is-fuel-compression-frame-shift-and-cognitive-thrust.md)
   * [Johnny Appleseed 001 — Free Graph Seed Scatter](frontier/primitive-incubator/johnny-appleseed-001-free-graph-seed-scatter/README.md)
     * [Free Graph v0 — Repository Graduation](frontier/primitive-incubator/johnny-appleseed-001-free-graph-seed-scatter/free-graph-v0-repository-graduation.md)
