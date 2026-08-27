@@ -27,7 +27,7 @@ The current repository heads checked during this reconciliation are:
 
 A nearby non-mesh project was also checked because this page describes its current executable surface:
 
-* **Haunted Toaster `main`:** `cf56d71883ff3e61bd54239e16c330df1ac734dd` — packaged BETA field closure / VSPantry UI fix (#193), with renderer and Listener trust gates witnessed in the package lineage.
+* **Haunted Toaster `main`:** `b4ceaabc4a4d9334177180812acbf1e0e01ff69f` — docs-only Sigil Language Witness v0 (#215). This freshness movement does not by itself reclassify the executable phase recorded below.
 
 The presence of a newer head does not by itself change a project's executable phase. That distinction is the reason this page records **freshness** separately from **capability**.
 
@@ -142,7 +142,7 @@ The executable proof remains commit `10af7368445e765d75862dbf172206dc9e1667f0`. 
 
 These projects have not been silently enrolled into the five-snapshot machine-status mesh. Their landed repository state still matters for re-entry:
 
-* **The Haunted Toaster** has the BETA spine, Candidate Ecology + exact two-parent CROSS, BETA Home Bench, persistent Video/VSPantry, receipt-backed Toaster Memory, the contextual move deck, and packaged BETA field closure on current main `cf56d71883ff3e61bd54239e16c330df1ac734dd`. Proposal dealing remains a deterministic renderer-local projection; choosing a move delegates to existing candidate operations, and `Use selected timeline` remains the production-binding step. Listener vNext remains a separate frontier.
+* **The Haunted Toaster** has the BETA spine, Candidate Ecology + exact two-parent CROSS, BETA Home Bench, persistent Video/VSPantry, receipt-backed Toaster Memory, the contextual move deck, and packaged BETA field closure. Current `main` is `b4ceaabc4a4d9334177180812acbf1e0e01ff69f`; its head is the docs-only Sigil Language Witness v0 design (#215), so this freshness movement is not by itself evidence of a new executable phase. Proposal dealing remains a deterministic renderer-local projection; choosing a move delegates to existing candidate operations, and `Use selected timeline` remains the production-binding step. Listener vNext remains a separate frontier.
 * **jublEchat** includes **Residual Lineage v0**, a deterministic read-only historical residue projection that remains `authority: none` and fails closed on contradictory residue.
 * **Iron Lung** has executed its **v0.1 first breath**: a deterministic own-birth braided-circulation specimen with capability-based repair routing, proposal-only Spine escalation, explicit present selection, immutable descendant repair, and an isolated interpretation layer.
 * **National Treasure** has executable Cicada pressure tests: **Witness Sigil v0.1 + Cicada Overfit Corpus**, followed by a matched mixed-descent-versus-independent-recurrence fixture pair. Recognition and mystery remain evidence pressure, not verification or authority.
