@@ -149,6 +149,7 @@
   * [Crossing Frontier — What Survives, What Must Be Constituted Anew](frontier/primitive-incubator/crossing-frontier-what-survives-what-must-be-constituted-anew.md)
   * [Human Witness — Encounter Evidence Membrane](frontier/primitive-incubator/human-witness-encounter-evidence-membrane.md)
   * [Slicing Ahead — Sealed Next-Step Prediction](frontier/primitive-incubator/slicing-ahead-sealed-next-step-prediction.md)
+  * [Flower / Megatron — Nodemap, Edgemap & Edge Birthdays](frontier/primitive-incubator/flower-megatron-nodemap-edgemap-and-edge-birthdays.md)
 * [Haunted Toaster — Mutation Lattice, Shape Pack & Ghost Topology](frontier/haunted-toaster-mutation-lattice-shape-pack-and-ghost-topology.md)
 
 ## Evidence
