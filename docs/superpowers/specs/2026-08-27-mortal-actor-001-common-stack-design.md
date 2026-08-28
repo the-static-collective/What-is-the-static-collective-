@@ -129,13 +129,15 @@ ALEX evaluation E0
   - does not convert projection into truth or authority
 ```
 
-If the 3rdi result materially changes the context required to continue, LOADOUT does not mutate `C0`. It creates a child compile `C1` with attributable ancestry.
+If the 3rdi result materially changes the context required to continue, LOADOUT does not mutate `C0`. It creates an immutable child compile `C1` with attributable ancestry:
 
 ```text
 C0 -> P0 -> recompile_required -> C1 -> ALEX
 ```
 
-This uses an existing LOADOUT law rather than inventing a hidden mid-run context mutation.
+The projection remains attributable to `C0`; ALEX evaluation is attributable to `C1`. If no recompile is required, `C1 == C0` by reference rather than by silent mutation.
+
+This uses an existing LOADOUT law instead of inventing a hidden mid-run context mutation.
 
 ## 4. The new non-collapse: global support != local supportability
 
@@ -178,7 +180,8 @@ mortal_actor.run/v0
 run_id
 actor_id
 world_cut_ref
-loadout_compile_ref
+entry_compile_ref
+evaluation_compile_ref
 projection_ref
 claim_requests[]
 consumer_intent?
@@ -187,15 +190,19 @@ residual_fog[]
 
 The envelope binds references to receipts already owned by the participating organs. It must not duplicate their internal state.
 
+`entry_compile_ref` identifies the compile under which the 3rdi projection was formed. `evaluation_compile_ref` identifies the compile under which ALEX evaluated claims. They may be the same reference. If they differ, the latter must be an attributable LOADOUT descendant of the former.
+
 ### Required invariants
 
-1. `loadout_compile_ref` identifies the exact immutable compile under which the run occurred.
+1. `entry_compile_ref` identifies the exact immutable compile under which the projection step occurred.
 2. `projection_ref` identifies one exact observer-local 3rdi projection and its cut/decoder ancestry.
-3. Every ALEX claim request declares an explicit basis or allows ALEX to return unresolved for insufficient basis.
-4. ALEX must be able to distinguish evidence globally known to the harness from evidence visible within the actor's lawful projection.
-5. No `pass`, `accept`, `support`, or successful compile field can imply external admission or side effect.
-6. Changing observer, cut, decoder, compile, evidence basis, or effect fence creates a descendant occurrence rather than overwriting the prior run.
-7. Same visible room or same claim payload does not imply same worldline or same epistemic basis.
+3. `evaluation_compile_ref` identifies the exact immutable compile under which ALEX evaluation occurred.
+4. If `evaluation_compile_ref != entry_compile_ref`, compile ancestry must peel through an attributable recompile transition; no ambient context union is allowed.
+5. Every ALEX claim request declares an explicit basis or permits an unresolved result for insufficient basis.
+6. ALEX must distinguish evidence globally known to the harness from evidence visible within the actor's lawful projection.
+7. No `pass`, `accept`, `support`, successful compile, or green profile verdict can imply external admission or side effect.
+8. Changing observer, cut, decoder, compile, evidence basis, or effect fence creates a descendant occurrence rather than overwriting the prior run.
+9. Same visible room or same claim payload does not imply same worldline or same epistemic basis.
 
 ## 6. ALEX profile: LOCAL-SUPPORT-001
 
@@ -205,7 +212,7 @@ Do not add a new universal predicate merely to make the stack fit together.
 
 Question:
 
-> Given a 3rdi projection receipt, an exact LOADOUT compile, and candidate claim `q`, can the declared support path for `q` be constructed entirely from attributable evidence lawfully available within that actor's bounded world?
+> Given a 3rdi projection receipt, an exact LOADOUT evaluation compile, and candidate claim `q`, can the declared support path for `q` be constructed entirely from attributable evidence lawfully available within that actor's bounded world?
 
 Conceptually:
 
@@ -217,18 +224,18 @@ LOCAL_SUPPORT(q, actor, cut)
 
 This does not mean the claim is universally true. It means the support claim is valid relative to the declared observer-local evidence surface.
 
-Expected dispositions include at least:
+The profile may emit evaluator dispositions such as:
 
 ```text
-locally_supported
-locally_counterpressured
-locally_unresolved
+local_basis_accept
+local_basis_counterpressured
+local_basis_unresolved
 basis_outside_projection
 compile_mismatch
 projection_mismatch
 ```
 
-These are profile outcomes, not authority or canon states.
+These are evaluator/profile outcomes, not new semantic predicates, canon states, or authority states. Existing ALEX relation-minting rules remain separate.
 
 ## 7. MORTAL-ACTOR-001 hostile specimen
 
@@ -275,7 +282,7 @@ Submit the same candidate claims to ALEX for all four actors.
 The claim set must include:
 
 1. one globally true and globally supported claim that is `basis_outside_projection` for at least one actor;
-2. one locally supported claim that later proves factually false after new evidence arrives;
+2. one locally supportable claim that later proves factually false after new evidence arrives;
 3. one claim that remains unresolved despite being narratively attractive;
 4. one causal claim invalid because concurrency was flattened into display order;
 5. one claim that becomes locally supportable only at `A1`, without rewriting `A0`.
@@ -355,8 +362,9 @@ A downstream actor proposal may be represented schematically as:
 
 ```text
 W0
- -> LOADOUT compile
+ -> LOADOUT entry compile
  -> 3rdi projection
+ -> optional LOADOUT child compile
  -> ALEX local evaluation
  -> consumer proposal
  -> owning-world Heart / gate
@@ -387,28 +395,34 @@ The owner of consequence remains outside LOADOUT, 3rdi, and ALEX.
 A compact view is:
 
 ```text
-L_t(T) -> C_t
-P_(o,c,d)(C_t, W_t) -> V_o
-A_r(V_o, q) -> E_o(q)
+L_0(T) -> C_0
+P_(o,c,d)(C_0, W_t) -> V_o
+L_1(C_0, V_o) -> C_1        # only when recompile is required
+A_r(C_1, V_o, q) -> E_o(q)
 K_g(E_o, V_o) -> a_o?
 H_w(a_o, W_t) -> (W_t+1, disposition)
 ```
 
 where:
 
-- `L` is LOADOUT compilation;
+- `L_0` is LOADOUT entry compilation;
 - `P` is 3rdi observer/cut/decoder projection;
+- `L_1` is an optional attributable LOADOUT child compile;
 - `A` is ALEX evaluation;
 - `K` is any downstream consumer, Novelist being one example;
 - `H` is the separately owned constitutional crossing.
 
+If no recompile is required, `C_1` is the same compile reference as `C_0`.
+
 The critical condition for an actor proposal is:
 
 ```text
-basis(a_o) subset_of lawfully_reachable(o, c)
+epistemic_basis(a_o) subset_of lawfully_reachable(o, c)
 ```
 
-This does not require the actor to be correct. It requires the actor's formation to remain attributable to the world they actually inhabited.
+Goals, desires, values, and pressures are not being reduced to evidence. The condition applies to the knowledge/inference basis of the act.
+
+This does not require the actor to be correct. It requires the actor's epistemic formation to remain attributable to the world they actually inhabited.
 
 ## 12. Common-stack identity
 
@@ -452,6 +466,7 @@ Reject or redesign the contract if any implementation does any of the following:
 - makes 3rdi decide semantic support or truth;
 - lets LOADOUT-selected context count as evidence merely because it was selected;
 - mutates an existing compile after a projection changes the required context;
+- loses ancestry between entry and evaluation compiles;
 - treats absence of attention as `ignored`;
 - treats rejection as falsehood;
 - treats a later revelation as knowledge at an earlier cut;
@@ -476,7 +491,7 @@ Freeze the tiny `FOUR WITNESSES / ONE ROOM` world, roles, claims, expected non-c
 Implement only the smallest required changes in each owning project:
 
 ```text
-LOADOUT: compile/ref binding and recompile ancestry as needed
+LOADOUT: entry/evaluation compile binding and child ancestry as needed
 3rdi:    projection handoff sufficient for the fixture
 ALEX:    LOCAL-SUPPORT-001 bounded profile
 ```
@@ -485,7 +500,7 @@ No Novelist or MEMENTO dependency yet.
 
 ### Gate D — blind cross-stack proof
 
-Run the same hostile world through the three organs with CASE/ORACLE separation. The evaluator must know global truth while each actor-side execution sees only its lawful case surface.
+Run the same hostile world through the three organs with CASE/ORACLE separation. The evaluator may know global truth while each actor-side execution sees only its lawful case surface.
 
 ### Gate E — second consumer
 
