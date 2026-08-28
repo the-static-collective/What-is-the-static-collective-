@@ -14,6 +14,7 @@
 ## Patterns
 
 * [Creative Field Laws](patterns/creative-field-laws.md)
+* [What's in a Name? — Distinction-Preserving Becoming](patterns/whats-in-a-name.md)
 * [Field Traversal & Illumination](patterns/field-traversal-and-illumination.md)
 * [Creative Handoff](patterns/creative-handoff.md)
 * [Projection Freshness Witness](patterns/projection-freshness-witness.md)
