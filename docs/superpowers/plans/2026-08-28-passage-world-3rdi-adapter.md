@@ -2,22 +2,32 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Produce two independently valid observer-local projection receipts for the same source/destination experiment such that ROAD-A and ROAD-B differ materially in lawful epistemic formation while 3rdi remains a pure projection organ.
+**Goal:** Produce two independently valid observer-local projection receipts over one synthetic carrier world such that ROAD-A and ROAD-B differ materially in lawful epistemic formation while 3rdi remains pure projection.
 
-**Architecture:** Build after 3rdi PR #3 and the MORTAL-ACTOR 3rdi adapter. Reuse `compile_cut()` and `mortal_actor.3rdi-handoff/v0`; do not create a PASSAGE ontology inside 3rdi. The PASSAGE-specific specimen holds the source field stable while ROAD-A uses direct evidence availability/contact and ROAD-B reaches the same eventual token through a later carrier contact plus decoder/stance descendant history.
+**Architecture:** Build after 3rdi PR #3 and the MORTAL-ACTOR 3rdi adapter. Reuse `compile_cut()` plus `mortal_actor.3rdi-handoff/v0`; do not create a PASSAGE ontology inside 3rdi. ROAD-A uses direct evidence availability/contact; ROAD-B reaches its later formation through a carrier contact followed by decoder/stance descendant history.
 
 **Tech Stack:** Python 3 standard library, existing 3rdi reference kernel, `unittest`, JSON specimens.
 
 **Spec:** `docs/superpowers/specs/2026-08-28-passage-world-001-design.md`
 
-## Prerequisites
+## Global Constraints
 
-- 3rdi PR #3 or equivalent owner-approved epistemic trace support: `contacts`, `attention_events`, `decoder_applications`, `stances`, and observer-local compilation.
-- MORTAL-ACTOR 3rdi handoff plan, so the owner can export a compact projection identity without semantic support verdicts.
+- Prerequisite: 3rdi PR #3 or equivalent owner-approved support for `contacts`, `attention_events`, `decoder_applications`, `stances`, and observer-local compilation.
+- Prerequisite: MORTAL-ACTOR 3rdi handoff plan, producing `mortal_actor.3rdi-handoff/v0`.
+- `occurrence != availability != attention != relevance`.
+- `available != encountered`; exposure alone never synthesizes contact.
+- Decoder/stance changes create descendant projection history; they do not rewrite the earlier cut.
+- `projection != source != evidence != authority`.
+- 3rdi does not evaluate SUPPORTS, truth, routing, admission, or passage equivalence.
+- Projection digest remains owned by `compile_cut()`.
+- Projection difference alone does not prove passage difference.
+- No hidden state outside the lawful projection may leak into ROAD-A or ROAD-B output.
+
+---
 
 ## Target Repository and File Map
 
-**Repo:** `the-static-collective/3rdi`, based on the prerequisite branches/merges above.
+**Repo:** `the-static-collective/3rdi`, based on the prerequisites above.
 
 - Create: `specimens/passage-world-001.json`
 - Create: `tests/test_passage_world_projection.py`
@@ -25,22 +35,26 @@
 - Create: `skills/3rdi/references/passage-world.md`
 - Modify: `skills/3rdi/references/receipt-contract.md`
 
-No new production projection algorithm is planned.
+No new production projection algorithm is scheduled.
 
 ---
 
-### Task 1: Freeze the two lawful apertures in RED
+### Task 1: Freeze the two lawful apertures
 
 **Files:**
 - Create: `specimens/passage-world-001.json`
 - Create: `tests/test_passage_world_projection.py`
 
-- [ ] **Step 1: Create one field with two cuts over one carrier world**
+**Interfaces:**
+- Consumes: `compile_cut(field: dict, cut_id: str) -> dict`.
+- Produces: projection receipts for `ROAD-A`, `ROAD-B0`, `ROAD-B1`.
 
-Use stable IDs:
+- [ ] **Step 1: Create one field with stable occurrence identity**
+
+Use:
 
 ```text
-field_id: passage-world-001
+field_id = passage-world-001
 occurrences:
   source-room-r0
   evidence-e1
@@ -53,15 +67,13 @@ cuts:
   ROAD-B1
 ```
 
-ROAD-A must lawfully expose `evidence-e1` and include an attributable contact before the token-formation point.
+ROAD-A lawfully exposes `evidence-e1` and includes an attributable contact before `token-formation-point`.
 
-ROAD-B0 must withhold `evidence-e1` and expose `carrier-e2`. It has a contact with `carrier-e2` but not the later decoder result.
+ROAD-B0 withholds `evidence-e1`, exposes `carrier-e2`, and contains attributable contact with E2 but no later decoder result.
 
-ROAD-B1 is a descendant knowledge cut that preserves the ROAD-B0 contact and adds an attributable decoder application plus stance over `carrier-e2`.
+ROAD-B1 is a descendant knowledge cut preserving ROAD-B0 contact and adding an attributable decoder application plus stance over E2.
 
-The underlying occurrence identities stay fixed across cuts.
-
-- [ ] **Step 2: Write RED projection assertions**
+- [ ] **Step 2: Write projection tests**
 
 ```python
 road_a = compile_cut(field, "ROAD-A")
@@ -69,25 +81,30 @@ road_b0 = compile_cut(field, "ROAD-B0")
 road_b1 = compile_cut(field, "ROAD-B1")
 
 self.assertNotEqual(road_a["projection_digest"], road_b1["projection_digest"])
-self.assertNotIn("evidence-e1", ids(road_b0["observer_view"]["occurrences"]))
-self.assertIn("evidence-e1", ids(road_a["observer_view"]["occurrences"]))
+self.assertIn("evidence-e1", visible_ids(road_a))
+self.assertNotIn("evidence-e1", visible_ids(road_b0))
+self.assertIn("carrier-e2", visible_ids(road_b0))
 ```
 
-Require ROAD-B0's epistemic trace to contain the E2 contact but no decoder application; ROAD-B1 must preserve that contact and add the decoder/stance descendants.
+ROAD-B0 epistemic trace contains E2 contact but no decoder application. ROAD-B1 preserves that contact and adds decoder/stance descendants.
 
-- [ ] **Step 3: Assert no hindsight rewrite**
+- [ ] **Step 3: Write no-hindsight-rewrite test**
 
-Serialize ROAD-B0 observer output and assert no ROAD-B1 decoder projection ref appears anywhere in it.
+```python
+road_b0_json = json.dumps(road_b0, sort_keys=True)
+self.assertNotIn("decoder-road-b1", road_b0_json)
+self.assertNotIn("stance-road-b1", road_b0_json)
+```
 
-- [ ] **Step 4: Run RED**
+- [ ] **Step 4: Run RED/compatibility gate**
 
 ```bash
 python3 -m unittest tests.test_passage_world_projection -v
 ```
 
-Expected before prerequisite compilation support exists: FAIL at the missing epistemic-trace output. Do not weaken the specimen to avoid that dependency.
+Expected before epistemic-trace prerequisite exists: FAIL at the missing trace support. Expected after prerequisite: PASS if existing compilation is sufficient.
 
-- [ ] **Step 5: Commit the specimen/test first**
+- [ ] **Step 5: Commit**
 
 ```bash
 git add specimens/passage-world-001.json tests/test_passage_world_projection.py
@@ -96,46 +113,48 @@ git commit -m "test: freeze PASSAGE-WORLD 3rdi roads"
 
 ---
 
-### Task 2: Export ROAD-A and ROAD-B through the existing MORTAL handoff
+### Task 2: Export both roads through the existing MORTAL handoff
 
 **Files:**
 - Modify: `tests/test_passage_world_projection.py`
 
-- [ ] **Step 1: Use real compiled receipts**
+**Interfaces:**
+- Consumes: `mortal_actor_handoff(receipt: dict) -> dict`.
+- Produces: two `mortal_actor.3rdi-handoff/v0` receipts.
+
+- [ ] **Step 1: Generate handoffs from real compiled receipts**
 
 ```python
 handoff_a = mortal_actor_handoff(compile_cut(field, "ROAD-A"))
 handoff_b = mortal_actor_handoff(compile_cut(field, "ROAD-B1"))
+
+self.assertEqual(handoff_a["schema"], "mortal_actor.3rdi-handoff/v0")
+self.assertEqual(handoff_b["schema"], "mortal_actor.3rdi-handoff/v0")
+self.assertEqual(handoff_a["field_id"], handoff_b["field_id"])
+self.assertNotEqual(handoff_a["projection_digest"], handoff_b["projection_digest"])
 ```
 
-Require:
+- [ ] **Step 2: Prove substantive epistemic ancestry differs**
 
-```text
-handoff_a.schema == mortal_actor.3rdi-handoff/v0
-handoff_b.schema == mortal_actor.3rdi-handoff/v0
-projection_digest A != B
-field_id A == B
-observer/cut identities preserved
-```
-
-- [ ] **Step 2: Prove substantive ancestry differs, not just IDs**
-
-Require ROAD-A handoff to carry contact ancestry for E1 and ROAD-B handoff to carry contact + decoder + stance ancestry for E2.
-
-Assert the sets are materially different after removing harness-only IDs:
+In the test only, define:
 
 ```python
-self.assertNotEqual(
-    normalized_epistemic_signature(handoff_a),
-    normalized_epistemic_signature(handoff_b),
-)
+def epistemic_signature(handoff):
+    return {
+        "contacts": tuple(sorted(handoff["contact_ids"])),
+        "attention": tuple(sorted(handoff["attention_event_ids"])),
+        "decoders": tuple(sorted(handoff["decoder_application_ids"])),
+        "stances": tuple(sorted(handoff["stance_ids"])),
+    }
 ```
 
-`normalized_epistemic_signature()` belongs in the test only; do not add a universal equivalence helper to 3rdi.
+Require `epistemic_signature(handoff_a) != epistemic_signature(handoff_b)`.
 
-- [ ] **Step 3: Prove availability alone does not become contact**
+ROAD-A must include E1 contact ancestry. ROAD-B must include E2 contact plus decoder/stance ancestry.
 
-Add a visible distractor occurrence to both cuts without contact. It may appear in `visible_occurrence_ids`; it must not appear in `contact_ids`.
+- [ ] **Step 3: Prove visibility does not synthesize contact**
+
+Add one visible distractor to both cuts with no contact event. Require it in `visible_occurrence_ids` and absent from any contact ancestry mapping/ID.
 
 - [ ] **Step 4: Verify**
 
@@ -156,31 +175,46 @@ git commit -m "test: expose distinct lawful passage apertures"
 
 ---
 
-### Task 3: Add a deterministic PASSAGE-WORLD lab without payload semantics
+### Task 3: Add a deterministic 3rdi lab
 
 **Files:**
 - Modify: `skills/3rdi/scripts/run_labs.py`
 
-- [ ] **Step 1: Add `run_passage_world_lab()`**
+**Interfaces:**
+- Produces: `run_passage_world_lab() -> dict` with projection-only diagnostics.
 
-The lab returns only:
+- [ ] **Step 1: Write lab test/registration first**
 
-```json
+Require the registered lab result to contain only:
+
+```python
 {
-  "id": "PASSAGE-WORLD-3RDI-001",
-  "status": "pass",
-  "road_a_projection_digest": "sha256:...",
-  "road_b_projection_digest": "sha256:...",
-  "same_field": true,
-  "road_a_direct_contact": true,
-  "road_b_decoder_descendant": true,
-  "road_b0_not_rewritten": true
+    "id": "PASSAGE-WORLD-3RDI-001",
+    "status": "pass",
+    "road_a_projection_digest": road_a["projection_digest"],
+    "road_b_projection_digest": road_b["projection_digest"],
+    "same_field": True,
+    "road_a_direct_contact": True,
+    "road_b_decoder_descendant": True,
+    "road_b0_not_rewritten": True,
 }
 ```
 
-Do not include the final token payload, route destination, ALEX support, or PASSAGE verdict.
+It must not expose final token payload, route destination, ALEX support, or passage verdict.
 
-- [ ] **Step 2: Register the lab and verify**
+- [ ] **Step 2: Run RED**
+
+```bash
+python3 skills/3rdi/scripts/run_labs.py --check
+```
+
+Expected: FAIL because the lab is not registered.
+
+- [ ] **Step 3: Implement `run_passage_world_lab()` using the specimen/compiler only**
+
+No ALEX or LOADIN import is allowed.
+
+- [ ] **Step 4: Run GREEN**
 
 ```bash
 python3 skills/3rdi/scripts/run_labs.py --check
@@ -189,7 +223,7 @@ python3 -m unittest discover -s tests -v
 
 Expected: PASS.
 
-- [ ] **Step 3: Commit**
+- [ ] **Step 5: Commit**
 
 ```bash
 git add skills/3rdi/scripts/run_labs.py
@@ -198,13 +232,16 @@ git commit -m "test: add PASSAGE-WORLD 3rdi lab"
 
 ---
 
-### Task 4: Document the 3rdi ownership boundary
+### Task 4: Document the owner boundary
 
 **Files:**
 - Create: `skills/3rdi/references/passage-world.md`
 - Modify: `skills/3rdi/references/receipt-contract.md`
 
-- [ ] **Step 1: Add the reference**
+**Interfaces:**
+- Produces documentation only.
+
+- [ ] **Step 1: Write the reference**
 
 Use:
 
@@ -213,7 +250,7 @@ Use:
 It does not decide whether the resulting crossings are identical.
 ```
 
-Preserve:
+Document:
 
 ```text
 availability != contact
@@ -223,11 +260,11 @@ projection difference != passage difference by itself
 projection != evidence != authority
 ```
 
-- [ ] **Step 2: Record the consumer contract**
+- [ ] **Step 2: State the consumer contract**
 
-State that PASSAGE-WORLD may compare exact `projection_digest` plus the handoff's attributable epistemic identity lists. It may not infer hidden observer state from absent events.
+PASSAGE-WORLD may consume exact `projection_digest` and the handoff's attributable epistemic identity lists. It may not infer hidden observer state from absent events.
 
-- [ ] **Step 3: Full verification and commit**
+- [ ] **Step 3: Verify and commit**
 
 ```bash
 python3 -m unittest discover -s tests -v
