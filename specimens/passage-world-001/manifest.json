@@ -1,0 +1,48 @@
+{
+  "schema": "passage_world.vector-manifest/v0",
+  "vector_id": "TWO-ROADS-ONE-DOOR-001",
+  "world_ref": "case/world.json",
+  "policy_ref": "case/comparison-policy.json",
+  "door_registry_ref": "case/door-registry.json",
+  "oracle_ref": "oracle/private-oracle.json",
+  "roads": [
+    {
+      "road_id": "ROAD-A",
+      "source_surface": "R0",
+      "destination_surface": "R1",
+      "payload_ref": "payload:022100",
+      "receipt_slot_ids": [
+        "loadout:A",
+        "3rdi:A",
+        "alex:A",
+        "loadinstead:A",
+        "gate:A"
+      ]
+    },
+    {
+      "road_id": "ROAD-B",
+      "source_surface": "R0",
+      "destination_surface": "R1",
+      "payload_ref": "payload:022100",
+      "receipt_slot_ids": [
+        "loadout:B",
+        "3rdi:B",
+        "alex:B",
+        "loadinstead:B",
+        "gate:B"
+      ]
+    }
+  ],
+  "receipt_slots": [
+    {"slot_id": "loadout:A", "owner": "LOADOUT"},
+    {"slot_id": "3rdi:A", "owner": "3rdi"},
+    {"slot_id": "alex:A", "owner": "ALEX"},
+    {"slot_id": "loadinstead:A", "owner": "LOADIN.STEAD"},
+    {"slot_id": "gate:A", "owner": "synthetic:R1"},
+    {"slot_id": "loadout:B", "owner": "LOADOUT"},
+    {"slot_id": "3rdi:B", "owner": "3rdi"},
+    {"slot_id": "alex:B", "owner": "ALEX"},
+    {"slot_id": "loadinstead:B", "owner": "LOADIN.STEAD"},
+    {"slot_id": "gate:B", "owner": "synthetic:R1"}
+  ]
+}

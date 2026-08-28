@@ -1,0 +1,17 @@
+{
+  "schema": "passage_world.synthetic-world/v0",
+  "world_id": "two-roads-one-door",
+  "source_surface": "R0",
+  "destination_surface": "R1",
+  "payloads": [
+    {
+      "id": "payload:022100",
+      "kind": "token",
+      "value": "022100"
+    }
+  ],
+  "destination_projection": {
+    "surface_id": "R1",
+    "render": "ROOM-R1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "passage_world.comparison-policy/v0",
+  "policy_id": "PW-POLICY-001",
+  "ignored_fields": [
+    "harness_nonce",
+    "test_case_id",
+    "transport_wrapper_id",
+    "json_member_order"
+  ],
+  "exact_fields": [
+    "source_surface",
+    "destination_surface",
+    "payload_ref"
+  ],
+  "conservative_on_unknown": true
+}

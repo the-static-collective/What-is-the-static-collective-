@@ -1,0 +1,17 @@
+{
+  "schema": "passage_world.door-registry/v0",
+  "doors": [
+    {
+      "schema": "loadinstead.door/v0",
+      "door_id": "door:R1",
+      "owner_world": "synthetic:R1",
+      "role": "destination",
+      "accepts_classes": [
+        "passage-token"
+      ],
+      "protocol": "fixture-only",
+      "capability_ref": "capability:synthetic-r1",
+      "status": "available"
+    }
+  ]
+}
