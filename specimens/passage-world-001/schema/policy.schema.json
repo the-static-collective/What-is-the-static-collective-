@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://the-static-collective.invalid/schema/passage-world-comparison-policy-v0.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "policy_id", "ignored_fields", "exact_fields", "conservative_on_unknown"],
+  "properties": {
+    "schema": {"const": "passage_world.comparison-policy/v0"},
+    "policy_id": {"const": "PW-POLICY-001"},
+    "ignored_fields": {
+      "const": ["harness_nonce", "test_case_id", "transport_wrapper_id", "json_member_order"]
+    },
+    "exact_fields": {
+      "const": ["source_surface", "destination_surface", "payload_ref"]
+    },
+    "conservative_on_unknown": {"const": true}
+  }
+}

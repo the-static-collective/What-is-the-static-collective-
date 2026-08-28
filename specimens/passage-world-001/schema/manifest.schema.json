@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://the-static-collective.invalid/schema/passage-world-vector-manifest-v0.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "vector_id",
+    "world_ref",
+    "policy_ref",
+    "door_registry_ref",
+    "oracle_ref",
+    "roads",
+    "receipt_slots"
+  ],
+  "properties": {
+    "schema": {"const": "passage_world.vector-manifest/v0"},
+    "vector_id": {"const": "TWO-ROADS-ONE-DOOR-001"},
+    "world_ref": {"const": "case/world.json"},
+    "policy_ref": {"const": "case/comparison-policy.json"},
+    "door_registry_ref": {"const": "case/door-registry.json"},
+    "oracle_ref": {"const": "oracle/private-oracle.json"},
+    "roads": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {"$ref": "#/$defs/road"},
+      "allOf": [
+        {"contains": {"type": "object", "properties": {"road_id": {"const": "ROAD-A"}}, "required": ["road_id"]}, "minContains": 1, "maxContains": 1},
+        {"contains": {"type": "object", "properties": {"road_id": {"const": "ROAD-B"}}, "required": ["road_id"]}, "minContains": 1, "maxContains": 1}
+      ]
+    },
+    "receipt_slots": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {"$ref": "#/$defs/slot"}
+    }
+  },
+  "$defs": {
+    "road": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["road_id", "source_surface", "destination_surface", "payload_ref", "receipt_slot_ids"],
+      "properties": {
+        "road_id": {"enum": ["ROAD-A", "ROAD-B"]},
+        "source_surface": {"const": "R0"},
+        "destination_surface": {"const": "R1"},
+        "payload_ref": {"const": "payload:022100"},
+        "receipt_slot_ids": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 5,
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        }
+      }
+    },
+    "slot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["slot_id", "owner"],
+      "properties": {
+        "slot_id": {"type": "string", "minLength": 1},
+        "owner": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}
