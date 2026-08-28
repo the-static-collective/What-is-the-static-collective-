@@ -14,6 +14,7 @@
 ## Patterns
 
 * [Creative Field Laws](patterns/creative-field-laws.md)
+* [Gestalt Recursion — Simplicity on the Far Side of Complexity](patterns/gestalt-recursion-simplicity-on-the-far-side-of-complexity.md)
 * [Field Traversal & Illumination](patterns/field-traversal-and-illumination.md)
 * [Creative Handoff](patterns/creative-handoff.md)
 * [Projection Freshness Witness](patterns/projection-freshness-witness.md)
