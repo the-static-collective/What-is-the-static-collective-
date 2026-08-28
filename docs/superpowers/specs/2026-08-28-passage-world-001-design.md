@@ -216,7 +216,7 @@ destination_surface(A) == destination_surface(B)
 passage_identity(A) != passage_identity(B)
 ```
 
-No subsystem is required to use the term `passage_identity`; the coordinator may derive a test-only digest from the exact owner refs.
+No subsystem is required to use the term `passage_identity`. The coordinator may derive a test-only comparison digest from the normalized substantive formation view while preserving exact owner refs separately.
 
 ## 6. Control family
 
@@ -508,7 +508,7 @@ when endpoint and payload coincidence would otherwise hide it
 
 ## 12. Optional MEMENTO / UNDERSTORY extension
 
-MEMENTO is deliberately not required for Gate 1.
+MEMENTO is deliberately not required for the core proof through Gates A-G.
 
 A later extension may preserve:
 
@@ -550,7 +550,7 @@ Reject or redesign `PASSAGE-WORLD-001` if any implementation:
 - converts route success into destination admission;
 - rewrites a refused crossing out of history;
 - treats all difference as meaningful without an explicit comparison policy;
-- requires MEMENTO for the first proof;
+- requires MEMENTO for the core proof;
 - gives the neutral coordinator any external side-effect authority.
 
 ## 14. Implementation decomposition
