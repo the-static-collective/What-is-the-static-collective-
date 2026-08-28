@@ -4,7 +4,7 @@
 
 **Goal:** Prove `MORTAL-ACTOR-001` end to end by combining independently produced LOADOUT, 3rdi, and ALEX receipts for `FOUR WITNESSES / ONE ROOM` and comparing them to a private oracle only after actor-side execution is complete.
 
-**Architecture:** The neutral Static Collective repository owns the blind harness, not a fourth reasoning runtime. Each constituent adapter runs independently against the CASE and writes a result artifact in its own handoff dialect. The harness validates cross-receipt identity, assembles a reference-only `mortal_actor.result-bundle/v0`, then reads the private oracle for the first time and compares expected local dispositions. CASE execution cannot import or read the oracle path. The harness never recomputes projection, compile, or semantic support.
+**Architecture:** The neutral Static Collective repository owns the blind harness, not a fourth reasoning runtime. The CASE already contains the frozen LOADOUT entry/evaluation compile records, so the harness first validates those records, then 3rdi compiles the observer-local projection, then LOADOUT binds the exact entry/evaluation compiles to that projection, then ALEX evaluates the declared claims. Each organ writes a result artifact in its own handoff dialect. The harness validates cross-receipt identity, assembles a reference-only `mortal_actor.result-bundle/v0`, then reads the private oracle for the first time and compares expected local dispositions. CASE execution cannot import or read the oracle path. The harness never recomputes projection, compile, or semantic support.
 
 **Tech Stack:** Python 3 standard library, JSON, `unittest`, subprocess for invoking pinned constituent CLIs/scripts only after their adapter plans are green.
 
@@ -13,6 +13,7 @@
 ## Global Constraints
 
 - Dependencies: hostile-vector plan, LOADOUT-adapter plan, 3rdi-adapter plan, and ALEX `LOCAL-SUPPORT-001` plan are all green first.
+- Constitutional formation remains `LOADOUT C0 -> 3rdi P0 -> LOADOUT C1 when required -> ALEX`; the post-projection LOADOUT binding receipt must not be mistaken for initial compile creation.
 - CASE execution must complete before the oracle is opened.
 - The harness may validate identity and compare outcomes; it may not implement LOADOUT compilation, 3rdi projection, ALEX derivation, or narrative reasoning.
 - `same world != same projection`.
@@ -89,6 +90,7 @@ claim_id
 local_disposition
 profile
 rule_id
+cut_id
 projection_digest
 compile_id
 ```
@@ -181,6 +183,7 @@ The binding's evaluation compile ID must equal the manifest's `evaluation_compil
 For every claim result:
 
 ```python
+claim_result["cut_id"] == handoff["cut_id"]
 claim_result["projection_digest"] == handoff["projection_digest"]
 claim_result["compile_id"] == binding["evaluation_compile_id"]
 ```
@@ -197,10 +200,9 @@ canon
 admitted
 publication
 execute
-side_effect_executed
 ```
 
-Exception: the LOADOUT binding's explicit `side_effect_executed` key is permitted only when its value is exactly `false`; normalize no other authority-like field into the bundle.
+The LOADOUT binding's explicit `side_effect_executed` key is permitted only when its value is exactly `false`. No other authority-like state may be normalized into the bundle.
 
 - [ ] **Step 5: Run GREEN identity tests**
 
@@ -386,40 +388,53 @@ python3 tools/run_mortal_actor_blind_proof.py \
 
 The exact adapter script names are those produced by the constituent plans; resolve them once during implementation and encode them explicitly in this file, not by PATH discovery.
 
-- [ ] **Step 1: Run each organ in a separate subprocess**
+- [ ] **Step 1: Validate the frozen LOADOUT compile records before projection**
+
+Before invoking any projection, call the LOADOUT-owned compile-identity helper against the manifest-declared entry/evaluation records. This is compile testimony only: it does not emit the mortal binding yet because the binding requires the eventual projection digest.
+
+If compile identity is invalid, stop before 3rdi and before oracle access.
+
+- [ ] **Step 2: Run each organ in formation order using separate subprocesses**
 
 Use `subprocess.run(..., check=False, capture_output=True, text=True)` with explicit `cwd`. Do not construct a shell command string and do not use `shell=True`.
 
-Order:
+For each manifest run:
 
 ```text
-LOADOUT compile binding for each run
-3rdi projection/handoff for each run
-ALEX LOCAL-SUPPORT for each run/claim
+1. 3rdi projection/handoff from the already-frozen C0 world cut
+2. LOADOUT mortal binding using that exact projection digest and C0/C1 records
+3. ALEX LOCAL-SUPPORT for every declared claim under the binding's evaluation compile
 ```
 
-This is invocation order only; it does not allow downstream code to reach backward into upstream internals.
+The constitutional history remains:
 
-- [ ] **Step 2: Fail closed on constituent errors**
+```text
+C0 existed first -> P0 -> C1 if the frozen vector says recompile was required -> ALEX
+```
+
+The fact that the compact LOADOUT binding receipt is emitted after `P0` is not a claim that LOADOUT entered after 3rdi; it is the receipt that binds prior compile testimony to the observed projection.
+
+- [ ] **Step 3: Fail closed on constituent errors**
 
 If any subprocess exits non-zero or its output JSON fails expected handoff schema/identity checks, stop before oracle loading. Emit a CASE-phase failure receipt with stdout/stderr digests and exact failed stage, but no oracle fields.
 
-- [ ] **Step 3: Preserve failed artifacts**
+- [ ] **Step 4: Preserve failed artifacts**
 
 Every run writes into a unique directory named with a caller-supplied or generated run ID. Never overwrite an existing run directory. A repaired rerun gets a new directory and may reference the prior failure receipt digest.
 
-- [ ] **Step 4: Add fake-runner integration tests**
+- [ ] **Step 5: Add fake-runner integration tests**
 
 Use temporary directories and tiny Python fake executables/scripts to prove:
 
 ```text
-nonzero LOADOUT stops before 3rdi/ALEX/oracle
-nonzero 3rdi stops before ALEX/oracle
+invalid LOADOUT compile stops before 3rdi/ALEX/oracle
+nonzero 3rdi stops before LOADOUT binding/ALEX/oracle
+nonzero LOADOUT binding stops before ALEX/oracle
 nonzero ALEX stops before oracle
 all-green CASE opens oracle only after bundle validation
 ```
 
-- [ ] **Step 5: Run tests and commit**
+- [ ] **Step 6: Run tests and commit**
 
 ```bash
 python3 -m unittest tests.test_mortal_actor_blind_proof -v
