@@ -9,6 +9,7 @@
 * [Current Executable Project State](project-state/project-state/README.md)
   * [National Treasure — SSW-MATH-001 checkpoint](project-state/project-state/national-treasure-ssw-math-001-checkpoint.md)
   * [3rdi — Phase-0 Projection Checkpoint](project-state/project-state/3rdi-phase-0-projection-checkpoint.md)
+  * [ALEX PROJECTION-INVARIANCE-001 — Executable Landing Checkpoint](project-state/project-state/alex-projection-invariance-001-executable-landing-checkpoint.md)
 
 ## Patterns
 
