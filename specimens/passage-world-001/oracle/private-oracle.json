@@ -1,0 +1,30 @@
+{
+  "schema": "passage_world.private-oracle/v0",
+  "vector_id": "TWO-ROADS-ONE-DOOR-001",
+  "cases": [
+    {"case_id": "PW-DIRECT-A-B", "expected_verdict": "PASSAGE_DISTINCT"},
+    {"case_id": "PW-SERIALIZATION-NOISE", "expected_verdict": "PASSAGE_EQUIVALENT"},
+    {
+      "case_id": "PW-ID-NOISE",
+      "expected_verdict": "PASSAGE_EQUIVALENT",
+      "varies": ["bit_id", "route_id", "harness_nonce", "transport_wrapper_id"],
+      "owner_normalized_receipt_graph": "equivalent"
+    },
+    {"case_id": "PW-COUNTERFEIT-FORMATION", "expected_verdict": "REFUSE_UNATTRIBUTED_FORMATION"},
+    {"case_id": "PW-ROUTE-COINCIDENCE", "expected_verdict": "PASSAGE_DISTINCT"},
+    {"case_id": "PW-ENDPOINT-COINCIDENCE", "expected_verdict": "PASSAGE_DISTINCT"},
+    {"case_id": "PW-PAYLOAD-MUTATION", "expected_verdict": "CONTENT_DIFFERENCE"},
+    {
+      "case_id": "PW-DESTINATION-REFUSED",
+      "expected_verdict": "PASSAGE_DISTINCT",
+      "consequence_occurred": false,
+      "passage_receipts_survive": true
+    },
+    {
+      "case_id": "PW-DESTINATION-HELD",
+      "expected_verdict": "PASSAGE_DISTINCT",
+      "consequence_occurred": false,
+      "passage_receipts_survive": true
+    }
+  ]
+}
