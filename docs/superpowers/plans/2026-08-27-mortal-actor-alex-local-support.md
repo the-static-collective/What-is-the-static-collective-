@@ -4,7 +4,7 @@
 
 **Goal:** Add a bounded ALEX evaluation profile that determines whether an existing attributable SUPPORTS derivation is locally supportable from one exact 3rdi projection under one exact LOADOUT evaluation compile, while preserving global truth, authority, admission, and consequence as separate questions.
 
-**Architecture:** `LOCAL-SUPPORT-001` is a wrapper/profile over the existing relation-derivation kernel, not a new semantic predicate. It validates compile identity, projection identity, and local evidence availability first. If the required attributable evidence basis crosses outside the projection, it returns `basis_outside_projection` without evaluating that unavailable basis as though the actor possessed it. If the basis is locally available, it delegates semantic derivation to the unchanged `evaluate_relation_case()` kernel and records the underlying ALEX disposition. The private oracle is never an input.
+**Architecture:** `LOCAL-SUPPORT-001` is a wrapper/profile over the existing relation-derivation kernel, not a new semantic predicate. It validates compile identity, projection identity, and local evidence availability first. If the required attributable evidence basis crosses outside the projection, it returns `basis_outside_projection` without evaluating that unavailable basis as though the actor possessed it. If the basis is locally available, it delegates semantic derivation to the unchanged `evaluate_relation_case()` kernel and records the underlying ALEX disposition. Every result preserves exact claim/run binding fields needed by the neutral blind harness. The private oracle is never an input.
 
 **Tech Stack:** Python 3 standard library, existing `alex_runtime.derivation`, existing `alex_runtime.handshake`, `unittest`, JSON fixtures.
 
@@ -21,6 +21,7 @@
 - A locally supportable claim may later prove globally false.
 - Relevance edges do not silently mint semantic support.
 - Display order does not silently mint causal precedence.
+- Every result preserves `claim_id`, `cut_id`, `projection_digest`, and evaluation `compile_id` as top-level identity fields.
 - `ACCEPT` remains evaluator disposition only; it is not authority, canon, admission, publication, or side effect.
 
 ---
@@ -131,7 +132,20 @@ projection_handoff
 evaluation_compile
 ```
 
-`attempt` contains the normal ALEX relation proposal/evaluation fields used by `evaluate_relation_case()`.
+`attempt` contains:
+
+```text
+claim_id
+expected_projection_digest
+expected_evaluation_compile_id
+expected_evaluation_compile_digest
+relation_proposal
+evaluation_id
+execution_step_id
+conclusion_assertion_id
+```
+
+The normal ALEX relation-proposal fields inside `relation_proposal` remain exactly those consumed by `evaluate_relation_case()`.
 
 - [ ] **Step 1: Create fixture cases**
 
@@ -150,16 +164,26 @@ router-selection-not-evidence
 relevance-not-support
 ```
 
-The fixture contains no oracle/global truth field.
+Each case's `attempt.claim_id` is one of the neutral vector IDs `Q1`–`Q5`. The fixture contains no oracle/global truth field.
 
 - [ ] **Step 2: Write RED outcome tests**
 
-Expected local result object:
+Expected local result object exposes exact neutral-harness identity:
 
 ```python
 result = evaluate_local_support_case(case)
 self.assertEqual(result["profile"], "alex.runtime/local-support-m0")
 self.assertEqual(result["rule_id"], "LOCAL-SUPPORT-001")
+self.assertEqual(result["claim_id"], case["attempt"]["claim_id"])
+self.assertEqual(result["cut_id"], case["given"]["projection_handoff"]["cut_id"])
+self.assertEqual(
+    result["projection_digest"],
+    case["given"]["projection_handoff"]["projection_digest"],
+)
+self.assertEqual(
+    result["compile_id"],
+    case["given"]["evaluation_compile"]["compile_id"],
+)
 self.assertIn(result["local_disposition"], {
     "local_basis_accept",
     "local_basis_counterpressured",
@@ -180,7 +204,11 @@ self.assertIsNone(result["derivation"])
 
 For `local-red-note-r0-accept`, require underlying derivation disposition `ACCEPT` and a normal `SUPPORTS` conclusion assertion.
 
-- [ ] **Step 3: Write no-authority tests**
+- [ ] **Step 3: Reject ambiguous/missing claim identity**
+
+Blank or missing `attempt.claim_id` must return an `INSUFFICIENT_TO_TEST`-equivalent profile result with `local_disposition == "local_basis_unresolved"` and reason code `CLAIM_ID_REQUIRED`; do not infer a neutral claim ID from the ALEX object ID.
+
+- [ ] **Step 4: Write no-authority tests**
 
 Recursively assert result keys do not include:
 
@@ -195,9 +223,9 @@ truth
 global_truth
 ```
 
-The result may carry `compile_id`, `projection_digest`, local basis IDs, and derivation receipt only.
+The result may carry `compile_id`, `projection_digest`, `cut_id`, local basis IDs, and derivation receipt only.
 
-- [ ] **Step 4: Run RED and commit**
+- [ ] **Step 5: Run RED and commit**
 
 ```bash
 python3 -m unittest tests.test_local_support_profile -v
@@ -212,7 +240,7 @@ git commit -m "test: freeze LOCAL-SUPPORT-001 profile"
 
 ---
 
-### Task 3: Implement compile/projection identity gates
+### Task 3: Implement compile/projection/claim identity gates
 
 **Files:**
 - Create: `alex_runtime/local_support.py`
@@ -246,42 +274,67 @@ visible_occurrence_ids[]
 
 Require evaluation compile to pass existing `validate_compile_record()`.
 
-- [ ] **Step 2: Define expected binding fields in the attempt**
+- [ ] **Step 2: Gate neutral claim identity explicitly**
 
-The local-support attempt must carry:
+Read `attempt.claim_id` as an opaque cross-stack request ID. It is not the same thing as the ALEX claim-record `object_id`. If absent/blank, return `local_basis_unresolved` with reason `CLAIM_ID_REQUIRED`, no derivation, and whatever projection/compile identities are validly available. Never derive it from list order or object text.
 
-```text
-expected_projection_digest
-expected_evaluation_compile_id
-expected_evaluation_compile_digest
+- [ ] **Step 3: Validate expected binding fields**
+
+If projection digest differs from `attempt.expected_projection_digest`, return `projection_mismatch` with no semantic derivation.
+
+If compile ID/digest differs from `attempt.expected_evaluation_compile_id` / `expected_evaluation_compile_digest`, or compile validation fails, return `compile_mismatch` with no semantic derivation.
+
+- [ ] **Step 4: Freeze the common result identity fields for every disposition**
+
+Use one result constructor so all outcomes preserve:
+
+```python
+{
+    "profile": LOCAL_SUPPORT_PROFILE,
+    "rule_id": LOCAL_SUPPORT_RULE_ID,
+    "rule_version": LOCAL_SUPPORT_RULE_VERSION,
+    "claim_id": attempt.get("claim_id"),
+    "cut_id": projection.get("cut_id"),
+    "observer": projection.get("observer"),
+    "projection_digest": projection.get("projection_digest"),
+    "compile_id": evaluation_compile.get("compile_id"),
+    "compile_digest": evaluation_compile.get("compile_digest"),
+    "local_disposition": ...,
+    "reason_code": ...,
+    "required_local_basis_ids": [...],
+    "missing_local_basis_ids": [...],
+    "derivation": ...,
+    "receipt_survivors": [...],
+}
 ```
 
-If projection digest differs, return `projection_mismatch` with no semantic derivation. If compile ID/digest differs or compile validation fails, return `compile_mismatch` with no semantic derivation.
+Do not omit identity fields merely because a mismatch/refusal occurs; where a supplied value is invalid, preserve the supplied reference while the disposition explains the mismatch.
 
-- [ ] **Step 3: Preserve receipt survivors**
+- [ ] **Step 5: Preserve receipt survivors**
 
-Every profile result carries:
+When IDs exist, include:
 
 ```python
 "receipt_survivors": [
     f"projection:{projection_digest}",
     f"compile:{compile_id}",
     f"compile_digest:{compile_digest}",
+    f"claim_request:{claim_id}",
     f"relation_proposal:{proposal_id}",
 ]
 ```
 
-when those IDs exist. Do not copy hidden 3rdi occurrences into the result.
+Do not copy hidden 3rdi occurrences into the result.
 
-- [ ] **Step 4: Run identity tests**
+- [ ] **Step 6: Run identity tests**
 
 ```bash
 python3 -m unittest tests.test_local_support_profile -v
 ```
 
-Expected: mismatch cases pass; semantic cases may still fail until Task 4.
+Expected: mismatch/identity cases pass; semantic cases may still fail until Task 4.
 
-- [ ] **Step 5: Commit**
+- [ ] **Step 7: Commit**
 
 ```bash
 git add alex_runtime/local_support.py alex_runtime/__init__.py tests/test_local_support_profile.py
@@ -390,7 +443,7 @@ git commit -m "feat: add observer-local support gate"
 
 - [ ] **Step 1: Add paired A0/A1 cases**
 
-Both use subject `red-note-placed` and object `claim-a-can-now-identify-note`.
+Both use neutral `attempt.claim_id == "Q5"`, subject `red-note-placed`, and object `claim-a-can-now-identify-note`.
 
 A0 projection handoff excludes `red-note-placed`; expect `basis_outside_projection`.
 
@@ -402,7 +455,7 @@ Evaluate A0, deep-copy result, evaluate A1, then assert the original A0 result i
 
 - [ ] **Step 3: Add same-room/different-worldline assertions**
 
-The profile result must preserve `projection_digest` and `cut_id`; assert they differ between A0 and A1 even though the neutral fixture documents the same room locus.
+The profile result must preserve `projection_digest`, `cut_id`, and `compile_id`; assert A0/A1 projection digests and cut IDs differ, and A1 uses `C1`, even though the neutral fixture documents the same room locus.
 
 - [ ] **Step 4: Run tests and commit**
 
@@ -445,7 +498,7 @@ ACCEPT != admission
 
 State that the profile only gates an existing attributable `SUPPORTS` derivation by exact observer-local basis availability.
 
-- [ ] **Step 2: Document reason/outcome mapping**
+- [ ] **Step 2: Document reason/outcome mapping and identity contract**
 
 List v0 profile outcomes:
 
@@ -458,7 +511,7 @@ compile_mismatch
 projection_mismatch
 ```
 
-State they are profile dispositions, not semantic predicates.
+State they are profile dispositions, not semantic predicates. Document that `claim_id`, `cut_id`, `projection_digest`, `compile_id`, and `compile_digest` are cross-stack receipt identity only; none is evidence by itself.
 
 - [ ] **Step 3: Run full suite**
 
@@ -479,6 +532,6 @@ git commit -m "docs: define LOCAL-SUPPORT-001"
 
 ## Acceptance Gate
 
-This plan is complete when the same global claim can produce different local-support outcomes under different lawful projections, a locally accepted derivation can remain globally false, A0 remains unchanged after A1 becomes knowledgeable, and no result field implies authority or consequence.
+This plan is complete when the same global claim can produce different local-support outcomes under different lawful projections, every result binds exact claim/cut/projection/compile identity, a locally accepted derivation can remain globally false, A0 remains unchanged after A1 becomes knowledgeable, and no result field implies authority or consequence.
 
 The final cross-stack proof is then performed by feeding LOADOUT binding + 3rdi handoff + ALEX local-support results into the neutral verifier and comparing only at that final harness to the private oracle.
