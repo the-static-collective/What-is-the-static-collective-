@@ -8,6 +8,7 @@
 
 * [Current Executable Project State](project-state/project-state/README.md)
   * [National Treasure — SSW-MATH-001 checkpoint](project-state/project-state/national-treasure-ssw-math-001-checkpoint.md)
+  * [3rdi — Phase-0 Projection Checkpoint](project-state/project-state/3rdi-phase-0-projection-checkpoint.md)
 
 ## Patterns
 
