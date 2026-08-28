@@ -4,9 +4,9 @@
 
 **Goal:** Give LOADOUT the smallest executable handoff needed to bind immutable entry/evaluation compiles into a mortal-actor run without mutating context, laundering selection into evidence, or expanding authority during a projection-triggered recompile.
 
-**Architecture:** Implement the adapter inside the portable `skills/loadout/` package after the LOADOUT front-door package from ALEX PR #9 is available. The adapter consumes existing `loadout.compile/v0` records and opaque projection identity; it does not inspect 3rdi semantics or ALEX claims. It emits a small `mortal_actor.loadout-binding/v0` receipt that preserves compile ancestry and effect-fence equality. Existing ALEX handshake validation remains the authority on compile shape/digest; the adapter imports/reuses that validation while remaining semantically LOADOUT-owned.
+**Architecture:** Implement the adapter inside the portable `skills/loadout/` package after the LOADOUT front-door package from ALEX PR #9 is available. The adapter consumes `loadout.compile/v0` records and opaque projection identity; it does not inspect 3rdi semantics or ALEX claims. It emits a small `mortal_actor.loadout-binding/v0` receipt that preserves compile ancestry and effect-fence equality. Crucially, the portable package validates only the compile fields it owns and never imports `alex_runtime`; ALEX separately cross-checks the same compile records through its handshake validator in repository tests.
 
-**Tech Stack:** Python 3 standard library, `unittest`, existing ALEX `alex_runtime.handshake` validation, Markdown skill references.
+**Tech Stack:** Python 3 standard library, `unittest`, Markdown skill references; ALEX handshake validation is test-only cross-checking, never a LOADOUT runtime dependency.
 
 **Spec:** `docs/superpowers/specs/2026-08-27-mortal-actor-001-common-stack-design.md`
 
@@ -21,6 +21,7 @@
 - For `MORTAL-ACTOR-001` v0, a projection-triggered recompile may change context/world cut but must not expand effect authority.
 - The adapter treats 3rdi projection identity as opaque testimony.
 - The adapter must not evaluate SUPPORTS, truth, relevance, causation, belief, or narrative action.
+- The portable `skills/loadout/` package must not import `alex_runtime`.
 - Green binding does not execute side effects.
 
 ---
@@ -30,6 +31,7 @@
 **Repo:** `the-static-collective/ALEX.2`, based on LOADOUT PR #9 or its merged successor.
 
 - Create: `skills/loadout/scripts/__init__.py`
+- Create: `skills/loadout/scripts/compile_identity.py`
 - Create: `skills/loadout/scripts/mortal_actor.py`
 - Create: `skills/loadout/references/mortal-actor.md`
 - Modify: `skills/loadout/SKILL.md` only if a one-line reference link fits the existing word ceiling; otherwise leave it unchanged and link from `plugin-layer-map.md`.
@@ -44,12 +46,24 @@
 - Create: `tests/test_mortal_actor_loadout_adapter.py`
 
 **Interfaces:**
-- Consumes: valid `loadout.compile/v0` records.
+- Consumes: `loadout.compile/v0` records.
 - Produces later: `bind_mortal_actor_compiles(...) -> dict`.
 
-- [ ] **Step 1: Reuse the existing compile fixture pattern**
+- [ ] **Step 1: Build local compile fixtures without importing ALEX into LOADOUT code**
 
-Copy the compile-construction pattern from `tests/test_loadout_handshake.py` into a local `make_compile()` helper so this test remains readable and isolated. Use exact compile IDs `C0` and `C1`; compute digests with `compile_payload_digest()`.
+The test may import ALEX's existing digest helper to cross-check parity, but the eventual package code may not. Create a local `make_compile()` helper using exact compile IDs `C0` and `C1`. Compute fixture digests with the package helper planned for Task 2:
+
+```python
+from skills.loadout.scripts.compile_identity import compile_payload_digest
+```
+
+For cross-checking only, tests may also import:
+
+```python
+from alex_runtime.handshake import compile_payload_digest as alex_compile_payload_digest
+```
+
+and assert both functions return the same digest for the same record.
 
 Create `C1` from `C0` with:
 
@@ -117,15 +131,26 @@ Hostile mutations:
 5. blank projection ref;
 6. corrupt either compile digest.
 
-- [ ] **Step 5: Run RED**
+- [ ] **Step 5: Write import-isolation test**
+
+Read both new package modules as text and assert neither contains `alex_runtime`:
+
+```python
+for path in (COMPILE_IDENTITY, MORTAL_ACTOR):
+    self.assertNotIn("alex_runtime", path.read_text(encoding="utf-8"))
+```
+
+This prevents future refactors from silently making ALEX a LOADOUT runtime dependency.
+
+- [ ] **Step 6: Run RED**
 
 ```bash
 python3 -m unittest tests.test_mortal_actor_loadout_adapter -v
 ```
 
-Expected: FAIL because `skills/loadout/scripts/mortal_actor.py` does not exist.
+Expected: FAIL because `skills/loadout/scripts/compile_identity.py` and `mortal_actor.py` do not exist.
 
-- [ ] **Step 6: Commit RED**
+- [ ] **Step 7: Commit RED**
 
 ```bash
 git add tests/test_mortal_actor_loadout_adapter.py
@@ -134,10 +159,113 @@ git commit -m "test: freeze mortal LOADOUT binding"
 
 ---
 
-### Task 2: Implement the minimal immutable compile binder
+### Task 2: Add portable compile identity validation
 
 **Files:**
 - Create: `skills/loadout/scripts/__init__.py`
+- Create: `skills/loadout/scripts/compile_identity.py`
+- Test: `tests/test_mortal_actor_loadout_adapter.py`
+
+**Interfaces:**
+
+```python
+def compile_payload_digest(compile_record: dict) -> str:
+    ...
+
+def validate_compile_identity(compile_record: dict) -> list[str]:
+    ...
+```
+
+- [ ] **Step 1: Implement canonical digest parity with existing `loadout.compile/v0` testimony**
+
+Use stdlib only:
+
+```python
+import copy
+import hashlib
+import json
+
+
+def compile_payload_digest(compile_record: dict) -> str:
+    payload = copy.deepcopy(compile_record)
+    payload.pop("compile_digest", None)
+    encoded = json.dumps(
+        payload,
+        ensure_ascii=False,
+        allow_nan=False,
+        separators=(",", ":"),
+        sort_keys=True,
+    ).encode("utf-8")
+    return "sha256:" + hashlib.sha256(encoded).hexdigest()
+```
+
+- [ ] **Step 2: Validate only the compile identity fields the adapter actually depends on**
+
+`validate_compile_identity()` returns stable error codes and requires:
+
+```text
+schema == loadout.compile/v0
+compile_id non-empty
+parent_compile_id null or non-empty string
+world_cut_ref non-empty
+context_pack_ref non-empty
+compile_trace.id non-empty
+effect_fence_ref non-empty
+effective_effects is a list
+egress_policy_ref non-empty
+compile_digest equals compile_payload_digest(record)
+```
+
+Use codes:
+
+```text
+COMPILE_NOT_OBJECT
+COMPILE_SCHEMA_INVALID
+COMPILE_ID_REQUIRED
+COMPILE_PARENT_ID_INVALID
+COMPILE_WORLD_CUT_REQUIRED
+COMPILE_CONTEXT_PACK_REQUIRED
+COMPILE_TRACE_REQUIRED
+COMPILE_EFFECT_FENCE_REQUIRED
+COMPILE_EFFECTS_INVALID
+COMPILE_EGRESS_POLICY_REQUIRED
+COMPILE_DIGEST_MISMATCH
+```
+
+Do not validate ALEX run envelopes, owner-evidence drift, or semantic meaning here; those remain outside this portable helper.
+
+- [ ] **Step 3: Cross-check parity against ALEX in repository tests**
+
+For one valid compile:
+
+```python
+self.assertEqual(compile_payload_digest(c0), alex_compile_payload_digest(c0))
+self.assertEqual(validate_compile_identity(c0), [])
+self.assertEqual(validate_compile_record(c0), [])
+```
+
+For a corrupted digest, require both validators to reject. This is compatibility testimony, not a runtime import.
+
+- [ ] **Step 4: Run GREEN for identity helper**
+
+```bash
+python3 -m unittest tests.test_mortal_actor_loadout_adapter -v
+```
+
+Expected: binder tests still fail because `mortal_actor.py` does not exist; digest/identity tests pass.
+
+- [ ] **Step 5: Commit**
+
+```bash
+git add skills/loadout/scripts/__init__.py skills/loadout/scripts/compile_identity.py tests/test_mortal_actor_loadout_adapter.py
+git commit -m "feat: add portable LOADOUT compile identity"
+```
+
+---
+
+### Task 3: Implement the minimal immutable compile binder
+
+**Files:**
 - Create: `skills/loadout/scripts/mortal_actor.py`
 - Test: `tests/test_mortal_actor_loadout_adapter.py`
 
@@ -168,18 +296,18 @@ def _required_string(value: object, name: str) -> str:
 
 Apply it to `run_id`, `actor_id`, `world_cut_ref`, and `projection_ref`.
 
-- [ ] **Step 2: Reuse existing compile validation**
+- [ ] **Step 2: Validate compile identity through LOADOUT-owned code**
 
-Import:
+Import only:
 
 ```python
-from alex_runtime.handshake import validate_compile_record
+from .compile_identity import validate_compile_identity
 ```
 
-If `validate_compile_record(entry_compile)` returns any errors, raise:
+If entry errors exist:
 
 ```python
-ValueError(f"invalid entry compile: {','.join(errors)}")
+raise ValueError(f"invalid entry compile: {','.join(errors)}")
 ```
 
 Do the same for evaluation compile.
@@ -249,21 +377,20 @@ Expected: all pass.
 - [ ] **Step 7: Commit**
 
 ```bash
-git add skills/loadout/scripts tests/test_mortal_actor_loadout_adapter.py
+git add skills/loadout/scripts/mortal_actor.py tests/test_mortal_actor_loadout_adapter.py
 git commit -m "feat: bind mortal LOADOUT compiles"
 ```
 
 ---
 
-### Task 3: Prove router selection cannot impersonate evidence
+### Task 4: Prove router selection cannot impersonate evidence
 
 **Files:**
 - Modify: `tests/test_mortal_actor_loadout_adapter.py`
-- Modify: `skills/loadout/references/mortal-actor.md` (created in Task 4; RED can precede docs)
 
 **Interfaces:**
 - Receipt contains compile identity and capability/effect fence testimony only.
-- Receipt contains no field named `evidence`, `supports`, `truth`, `claim_basis`, or `authority` other than the explicit Boolean `authority_expanded: false`.
+- Receipt contains no field named `evidence`, `supports`, `truth`, `claim_basis`, or semantic conclusion.
 
 - [ ] **Step 1: Add negative key test**
 
@@ -299,7 +426,7 @@ git commit -m "test: prevent LOADOUT evidence laundering"
 
 ---
 
-### Task 4: Document the mortal compile handoff without bloating the front door
+### Task 5: Document the mortal compile handoff without bloating the front door
 
 **Files:**
 - Create: `skills/loadout/references/mortal-actor.md`
@@ -333,6 +460,8 @@ capability != authority
 binding receipt != side effect
 ```
 
+Also state that LOADOUT-owned compile identity validation is intentionally narrower than ALEX's handshake/audit validation; both may validate the same record for different reasons without one package depending on the other.
+
 - [ ] **Step 2: Link from the detailed routing reference**
 
 Add one short entry under reasoning-organ composition pointing to `mortal-actor.md`. Do not turn MORTAL-ACTOR into a mandatory route.
@@ -351,8 +480,10 @@ Expected: all tests pass.
 
 - [ ] **Step 5: Commit**
 
+Stage only files that exist and changed. If `SKILL.md` was untouched, do not stage it:
+
 ```bash
-git add skills/loadout/references skills/loadout/SKILL.md
+git add skills/loadout/references skills/loadout/scripts tests/test_mortal_actor_loadout_adapter.py
 git commit -m "docs: define mortal LOADOUT handoff"
 ```
 
@@ -360,6 +491,6 @@ git commit -m "docs: define mortal LOADOUT handoff"
 
 ## Acceptance Gate
 
-The LOADOUT adapter is complete when the same compile may pass by reference, a projection-triggered context change requires an immutable direct child compile, authority/egress cannot expand through that child in v0, and the resulting receipt contains no semantic evidence judgment.
+The LOADOUT adapter is complete when the same compile may pass by reference, a projection-triggered context change requires an immutable direct child compile, authority/egress cannot expand through that child in v0, the portable package imports no ALEX runtime, and the resulting receipt contains no semantic evidence judgment.
 
 After this plan is green, its output is one input to the neutral `FOUR WITNESSES / ONE ROOM` verifier; it does not itself prove local supportability.
