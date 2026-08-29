@@ -22,6 +22,7 @@
   * [Acoustic Loci — Navigable Continuity Before eCODE](patterns/world-reentry-memory/acoustic-loci-navigable-continuity-before-ecode/README.md)
     * [STORYSHIP 001 — THE DOOR](patterns/world-reentry-memory/acoustic-loci-navigable-continuity-before-ecode/storyship-001-the-door/README.md)
       * [Groove Rooms — STORYSHIP Embarkation Port](patterns/world-reentry-memory/acoustic-loci-navigable-continuity-before-ecode/storyship-001-the-door/groove-rooms-storyship-embarkation-port.md)
+      * [STORYSHIP Launch Dashboard](patterns/world-reentry-memory/acoustic-loci-navigable-continuity-before-ecode/storyship-001-the-door/storyship-launch-dashboard.md)
 * [Stigmergic Field](patterns/stigmergic-field.md)
 * [Ghost / Residual Presence — History Without Authority](patterns/ghost-residual-presence-history-without-authority.md)
 
