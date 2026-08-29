@@ -4,7 +4,7 @@
 
 **Goal:** Build Gate E as a neutral Novelist-facing application profile that rejects counterfeit character knowledge, preserves lawful error and dramatic irony, and proves the behavior against the existing `FOUR WITNESSES / ONE ROOM` mortal stack.
 
-**Architecture:** Keep `LOADOUT → 3rdi → ALEX` unchanged. Add a pure neutral adapter under `adapters/novelist/` that consumes already-formed receipts and emits only narrative application dispositions; add a hostile narrative specimen and a blind proof runner that composes the pinned Gate-D constituent commits without creating a shared production runtime. The implementation branch must be stacked on the Gate-D blind-proof branch so the existing actor vector and blind runner are reused rather than copied.
+**Architecture:** Keep `LOADOUT → 3rdi → ALEX` unchanged. Add a pure neutral adapter under `adapters/novelist/` that consumes already-formed receipts and emits only narrative application dispositions. Add a hostile narrative specimen and blind proof runner that reuse Gate D and compose the exact pinned constituent commits without creating a shared production runtime.
 
 **Tech Stack:** Python 3.12 standard library, `unittest`, JSON fixtures, GitHub Actions.
 
@@ -12,56 +12,77 @@
 
 ## Global Constraints
 
-- Execution starts from the current Gate-D proof head `709590bfb4ad14ea3ba806d8d63fc37f2fe6eae6` (`feat/mortal-actor-001-blind-proof`, PR #77). If that head moves before execution, inspect the new diff and re-establish compatibility before creating the implementation worktree.
-- Keep the constituent proof commits pinned unless a separate reviewed change deliberately updates them:
+- The implementation worktree starts from Gate-D proof head `709590bfb4ad14ea3ba806d8d63fc37f2fe6eae6` (`feat/mortal-actor-001-blind-proof`, PR #77). If that head moves before execution, inspect the change and re-establish compatibility before editing.
+- Bring the approved design and this plan into the implementation branch as documentation only; do not merge PR #78 merely to make the files visible.
+- Keep these constituent proof commits pinned unless a separate reviewed change deliberately updates them:
   - 3rdi: `04781217996622cf3e8d151d845c64772189b17d`
   - LOADOUT: `08048efba661242d07b489240d237a6d1544e747`
   - ALEX LOCAL-SUPPORT-001: `61acaee2d6f56c66431c00fb1720590f6c5c4e21`
-- Do not create a shared runtime. The neutral adapter consumes receipt dictionaries only and must not import `three_rdi`, `skills.loadout`, or `alex_runtime`.
+- Do not create a shared runtime. `adapters/novelist/` consumes receipt dictionaries only and must not import `three_rdi`, `skills.loadout`, or `alex_runtime`.
 - Do not modify LOADOUT, 3rdi, ALEX, MEMENTO, or eCODE semantics in Gate E.
 - MEMENTO durability is optional and out of scope. eCODE admission through `H` is out of scope.
-- The adapter never opens either private oracle. Oracle access exists only in the scoring phase after the CASE receipt is complete.
-- `reader knowledge != narrator knowledge != character knowledge`; reader/narrator-only material cannot validate a character formation.
+- Neither neutral adapter nor CASE runner opens an oracle. Oracle access exists only in `score_case` after the completed CASE receipt exists.
+- `reader knowledge != narrator knowledge != character knowledge`; reader/narrator-only material cannot validate a character formation or drive a character action.
 - `local_basis_accept != global truth`; a locally attributable false belief must remain narratively admissible.
-- `narrative_admissible`, `reroute_required`, and `narrative_unresolved` are the only creative dispositions. None means canon, admission, publication, side-effect permission, or truth.
+- `narrative_admissible`, `reroute_required`, and `narrative_unresolved` are the only creative dispositions. None means truth, canon, admission, publication, side-effect permission, or authority.
 - Malformed schema or exact identity mismatch is an input error, not a creative reroute.
 - A reroute creates a new beat with `parent_beat_id`; the failed candidate remains immutable and attributable.
 - Formation validation proves local provenance and exact claim/mode binding as declared. It does not infer semantic truth from a 3rdi stance ID and does not turn a formation receipt into evidence.
 - The render guard is structured and deterministic in v0. Do not add NLP/prose parsing.
 - No implementation PR is merged as part of executing this plan.
 
+## Execution Bootstrap
+
+At execution time, after reading the `using-git-worktrees` skill, create an isolated implementation worktree from Gate D:
+
+```bash
+git worktree add ../mortal-narrative-001 -b feat/mortal-narrative-001 709590bfb4ad14ea3ba806d8d63fc37f2fe6eae6
+cd ../mortal-narrative-001
+```
+
+Then copy the approved spec and plan commits onto that branch without changing Gate-D runtime code. The current documentation commit chain is:
+
+```text
+babd9c0349fc6dc117976766542e1e27e150bcfd  initial Gate-E spec
+556d55a1f4fc1d7a32dc0706dae8f5c659d58c10  identity/formation refinement
+9a07fda643ac3d8072d5147f1439d310105317c0  final approved spec refinement
+d0c14a1ac349a8b1319d4766a32ba3f28e2d7431  initial implementation plan
+```
+
+After this self-review commit, include the plan branch tip as well. Cherry-pick only documentation commits; if any cherry-pick touches runtime files, abort and investigate.
+
 ## File Structure
 
 ### Neutral application adapter
 
-- Create `adapters/novelist/__init__.py` — public exports for the neutral Gate-E adapter.
+- Create `adapters/novelist/__init__.py` — public exports for Gate E.
 - Create `adapters/novelist/formation.py` — validate claim-specific `BELIEVE`/`SUSPECT` formation receipts against exact 3rdi and LOADOUT identities.
-- Create `adapters/novelist/evaluator.py` — evaluate `KNOW`, `BELIEVE`, `SUSPECT`, and `GUESS` from existing receipts and emit one of the three creative dispositions.
-- Create `adapters/novelist/render_guard.py` — structured guard against rendering a weaker declared character state as stronger knowledge or using reader/narrator exposition as character-action basis.
+- Create `adapters/novelist/evaluator.py` — evaluate `KNOW`, `BELIEVE`, `SUSPECT`, and `GUESS` using existing receipts only.
+- Create `adapters/novelist/render_guard.py` — deterministic guard against character-mode escalation and reader/narrator leakage.
 
 ### Hostile specimen
 
-- Create `specimens/mortal-narrative-001/README.md` — specimen purpose, boundaries, and candidate matrix.
-- Create `specimens/mortal-narrative-001/manifest.json` — references to candidate templates, formation templates, render receipts, actor vector, and sealed narrative oracle.
-- Create `specimens/mortal-narrative-001/case/beat-templates.json` — stable candidate templates; exact projection/compile identities are materialized from the Gate-D case receipt at runtime.
-- Create `specimens/mortal-narrative-001/case/formation-templates.json` — stable claim/mode/local-ref templates; exact identities are materialized at runtime.
-- Create `specimens/mortal-narrative-001/case/render-receipts.json` — structured render assertions for mode-escalation and reader/narrator leakage controls.
-- Create `specimens/mortal-narrative-001/oracle/private-oracle.json` — expected Gate-E dispositions and render-check outcomes only; do not duplicate Gate-D global truth.
+- Create `specimens/mortal-narrative-001/README.md` — purpose, boundaries, candidate matrix, and proof commands.
+- Create `specimens/mortal-narrative-001/manifest.json` — vector references.
+- Create `specimens/mortal-narrative-001/case/beat-templates.json` — stable candidate templates; exact digests are materialized from Gate D at runtime.
+- Create `specimens/mortal-narrative-001/case/formation-templates.json` — claim/mode/local-ref templates.
+- Create `specimens/mortal-narrative-001/case/render-receipts.json` — structured render controls.
+- Create `specimens/mortal-narrative-001/oracle/private-oracle.json` — expected Gate-E dispositions only; do not duplicate Gate-D global truth.
 
 ### Verification and execution
 
-- Create `tools/verify_mortal_narrative_vector.py` — structural verifier for fixture invariants and hostile mutations.
-- Create `tools/run_mortal_narrative_blind_proof.py` — run Gate D, materialize exact Gate-E inputs, evaluate them without either oracle, then score only after both oracles are restored.
-- Create `tests/test_mortal_narrative_vector.py` — structural fixture tests.
-- Create `tests/test_mortal_narrative_formation.py` — formation validation tests.
-- Create `tests/test_mortal_narrative_evaluator.py` — epistemic-mode and identity-gate tests.
-- Create `tests/test_mortal_narrative_render_guard.py` — render-state tests.
-- Create `tests/test_mortal_narrative_blind.py` — integration-level receipt and scorer tests using the real fixture shapes.
-- Create `.github/workflows/mortal-narrative-001.yml` — blind Gate-E CI with both oracles physically absent during CASE.
+- Create `tools/verify_mortal_narrative_vector.py` — structural verifier.
+- Create `tools/run_mortal_narrative_blind_proof.py` — CASE + post-CASE scorer.
+- Create `tests/test_mortal_narrative_vector.py`
+- Create `tests/test_mortal_narrative_formation.py`
+- Create `tests/test_mortal_narrative_evaluator.py`
+- Create `tests/test_mortal_narrative_render_guard.py`
+- Create `tests/test_mortal_narrative_blind.py`
+- Create `.github/workflows/mortal-narrative-001.yml`
 
 ---
 
-### Task 1: Freeze `THE PERFECT SCENE THAT CHEATS` as a hostile narrative vector
+### Task 1: Freeze `THE PERFECT SCENE THAT CHEATS` as a hostile vector
 
 **Files:**
 - Create: `specimens/mortal-narrative-001/README.md`
@@ -74,12 +95,12 @@
 - Create: `tests/test_mortal_narrative_vector.py`
 
 **Interfaces:**
-- Consumes: existing `specimens/mortal-actor-001/manifest.json`, Gate-D run IDs `MA-A-A0`, `MA-R-R0`, `MA-N-N0`, `MA-A-A1`, and claim IDs `Q1`–`Q5`.
-- Produces: `mortal_narrative.vector/v0` fixture templates that later tasks materialize into exact `mortal_narrative.beat-proposal/v0` and `mortal_narrative.formation/v0` receipts.
+- Consumes: existing Gate-D vector, run IDs `MA-A-A0`, `MA-R-R0`, `MA-N-N0`, `MA-A-A1`, and Q1–Q5.
+- Produces: stable templates that the blind runner materializes into exact `mortal_narrative.beat-proposal/v0` and `mortal_narrative.formation/v0` receipts.
 
 - [ ] **Step 1: Write the failing structural tests**
 
-Create `tests/test_mortal_narrative_vector.py` with direct JSON assertions plus mutation tests. The core candidate matrix must be exact:
+Use this exact matrix:
 
 ```python
 EXPECTED = {
@@ -88,59 +109,48 @@ EXPECTED = {
     "E3": "narrative_admissible", # A1 uses Q5 as KNOW
     "E4": "reroute_required",      # reader-visible Q1 must not leak to A0
     "E5": "narrative_admissible", # N0 BELIEVE Q2 from local formation
-    "E6": "narrative_unresolved", # Q3 SUSPECT without formation receipt
-    "E7": "narrative_unresolved", # Q4 KNOW with unresolved causal support
-    "E8": "narrative_admissible", # Q5 GUESS under explicit wager/pressure
+    "E6": "narrative_unresolved", # Q3 SUSPECT without formation
+    "E7": "narrative_unresolved", # Q4 KNOW with unresolved causality
+    "E8": "narrative_admissible", # Q5 GUESS under explicit wager
 }
 
 EXPECTED_RENDER = {
     "R1": "fail", # E8 GUESS rendered as character KNOW
-    "R2": "pass", # reader KNOW as exposition only
-    "R3": "fail", # reader KNOW used as character-action basis
+    "R2": "pass", # reader Q1 knowledge remains exposition during lawful E2
+    "R3": "fail", # reader Q1 knowledge used as E2 character-action basis
+    "R4": "fail", # narrator Q1 knowledge used as E2 character-action basis
 }
 ```
 
-Tests must assert:
+Assert E1/E2 share `proposed_action == "open-north-door"`, E2 has `parent_beat_id == "E1"`, E2 has no epistemic uses and has non-epistemic drivers, E3 uses `MA-A-A1`, and E5 references `BELIEF-N-Q2`.
 
-```python
-self.assertEqual(beats["E1"]["run_id"], "MA-A-A0")
-self.assertEqual(beats["E1"]["epistemic_uses"], [{"claim_id": "Q5", "requested_mode": "KNOW", "formation_receipt_id": None}])
-self.assertEqual(beats["E2"]["parent_beat_id"], "E1")
-self.assertEqual(beats["E2"]["proposed_action"], beats["E1"]["proposed_action"])
-self.assertEqual(beats["E2"]["epistemic_uses"], [])
-self.assertTrue(beats["E2"]["non_epistemic_drivers"])
-self.assertEqual(beats["E3"]["run_id"], "MA-A-A1")
-self.assertEqual(beats["E5"]["run_id"], "MA-N-N0")
-self.assertEqual(beats["E5"]["epistemic_uses"][0]["formation_receipt_id"], "BELIEF-N-Q2")
-```
-
-Add hostile mutations that must fail verification when:
+Mutation tests must reject:
 
 ```text
-E2 loses parent_beat_id
-E2 changes proposed_action away from E1
-E2 loses all non_epistemic_drivers
-a duplicate beat_id appears
-BELIEF-N-Q2 changes claim_id away from Q2
-BELIEF-N-Q2 loses decode-lamp-N or stance-lamp-N
-R1 stops escalating GUESS to KNOW
-oracle_ref moves under case/
-actor_vector_ref stops pointing to ../mortal-actor-001
+E2 without parent_beat_id
+E2 with a different proposed_action
+E2 without non_epistemic_drivers
+duplicate beat_id
+BELIEF-N-Q2 with claim_id != Q2
+BELIEF-N-Q2 without decoder:decode-lamp-N
+BELIEF-N-Q2 without stance:stance-lamp-N
+R1 that no longer escalates GUESS to KNOW
+R3/R4 whose causal_role stops being character-action-basis
+oracle_ref under case/
+actor_vector_ref other than ../mortal-actor-001
 ```
 
-- [ ] **Step 2: Run the new tests and verify they fail because the fixture/verifier does not exist**
-
-Run:
+- [ ] **Step 2: Run the tests and verify failure**
 
 ```bash
 python3 -m unittest tests.test_mortal_narrative_vector -v
 ```
 
-Expected: FAIL from missing `specimens/mortal-narrative-001` and/or `tools.verify_mortal_narrative_vector`.
+Expected: FAIL because the vector/verifier does not exist.
 
-- [ ] **Step 3: Create the fixture files with stable templates, not derived digests**
+- [ ] **Step 3: Create the manifest and beat templates**
 
-Use this manifest shape:
+`manifest.json`:
 
 ```json
 {
@@ -154,100 +164,27 @@ Use this manifest shape:
 }
 ```
 
-`case/beat-templates.json` stores narrative intent plus `run_id`, never copied projection/compile digests. At runtime the runner must bind exact identities from the named Gate-D run. Required entries:
+`beat-templates.json` must define these exact candidates:
 
 ```json
 {
   "schema": "mortal_narrative.beat-templates/v0",
   "beats": [
-    {
-      "beat_id": "E1",
-      "parent_beat_id": null,
-      "run_id": "MA-A-A0",
-      "dramatic_destination": "open the north door",
-      "epistemic_uses": [{"claim_id": "Q5", "requested_mode": "KNOW", "formation_receipt_id": null}],
-      "non_epistemic_drivers": [],
-      "proposed_action": "open-north-door",
-      "proposed_consequence": "north-door-opens"
-    },
-    {
-      "beat_id": "E2",
-      "parent_beat_id": "E1",
-      "run_id": "MA-A-A0",
-      "dramatic_destination": "open the north door",
-      "epistemic_uses": [],
-      "non_epistemic_drivers": [
-        {"kind": "pressure", "ref": "clock-running"},
-        {"kind": "wager", "ref": "deliberate-gamble"}
-      ],
-      "proposed_action": "open-north-door",
-      "proposed_consequence": "north-door-opens"
-    },
-    {
-      "beat_id": "E3",
-      "parent_beat_id": null,
-      "run_id": "MA-A-A1",
-      "dramatic_destination": "identify the note and act on it",
-      "epistemic_uses": [{"claim_id": "Q5", "requested_mode": "KNOW", "formation_receipt_id": null}],
-      "non_epistemic_drivers": [],
-      "proposed_action": "identify-red-note",
-      "proposed_consequence": "note-identity-recognized"
-    },
-    {
-      "beat_id": "E4",
-      "parent_beat_id": null,
-      "run_id": "MA-A-A0",
-      "dramatic_destination": "act on the reader-visible note fact",
-      "epistemic_uses": [{"claim_id": "Q1", "requested_mode": "KNOW", "formation_receipt_id": null}],
-      "non_epistemic_drivers": [],
-      "proposed_action": "act-as-if-note-was-known",
-      "proposed_consequence": null
-    },
-    {
-      "beat_id": "E5",
-      "parent_beat_id": null,
-      "run_id": "MA-N-N0",
-      "dramatic_destination": "act on the lamp interpretation",
-      "epistemic_uses": [{"claim_id": "Q2", "requested_mode": "BELIEVE", "formation_receipt_id": "BELIEF-N-Q2"}],
-      "non_epistemic_drivers": [],
-      "proposed_action": "treat-door-as-unlocked",
-      "proposed_consequence": null
-    },
-    {
-      "beat_id": "E6",
-      "parent_beat_id": null,
-      "run_id": "MA-R-R0",
-      "dramatic_destination": "suspect the red-note author",
-      "epistemic_uses": [{"claim_id": "Q3", "requested_mode": "SUSPECT", "formation_receipt_id": null}],
-      "non_epistemic_drivers": [],
-      "proposed_action": "voice-author-suspicion",
-      "proposed_consequence": null
-    },
-    {
-      "beat_id": "E7",
-      "parent_beat_id": null,
-      "run_id": "MA-R-R0",
-      "dramatic_destination": "claim one chime caused the other",
-      "epistemic_uses": [{"claim_id": "Q4", "requested_mode": "KNOW", "formation_receipt_id": null}],
-      "non_epistemic_drivers": [],
-      "proposed_action": "assert-chime-causality",
-      "proposed_consequence": null
-    },
-    {
-      "beat_id": "E8",
-      "parent_beat_id": null,
-      "run_id": "MA-A-A0",
-      "dramatic_destination": "choose north without knowing",
-      "epistemic_uses": [{"claim_id": "Q5", "requested_mode": "GUESS", "formation_receipt_id": null}],
-      "non_epistemic_drivers": [{"kind": "wager", "ref": "choose-under-uncertainty"}],
-      "proposed_action": "open-north-door",
-      "proposed_consequence": "north-door-opens"
-    }
+    {"beat_id":"E1","parent_beat_id":null,"run_id":"MA-A-A0","dramatic_destination":"open the north door","epistemic_uses":[{"claim_id":"Q5","requested_mode":"KNOW","formation_receipt_id":null}],"non_epistemic_drivers":[],"proposed_action":"open-north-door","proposed_consequence":"north-door-opens"},
+    {"beat_id":"E2","parent_beat_id":"E1","run_id":"MA-A-A0","dramatic_destination":"open the north door","epistemic_uses":[],"non_epistemic_drivers":[{"kind":"pressure","ref":"clock-running"},{"kind":"wager","ref":"deliberate-gamble"}],"proposed_action":"open-north-door","proposed_consequence":"north-door-opens"},
+    {"beat_id":"E3","parent_beat_id":null,"run_id":"MA-A-A1","dramatic_destination":"identify the note and act on it","epistemic_uses":[{"claim_id":"Q5","requested_mode":"KNOW","formation_receipt_id":null}],"non_epistemic_drivers":[],"proposed_action":"identify-red-note","proposed_consequence":"note-identity-recognized"},
+    {"beat_id":"E4","parent_beat_id":null,"run_id":"MA-A-A0","dramatic_destination":"act on the reader-visible note fact","epistemic_uses":[{"claim_id":"Q1","requested_mode":"KNOW","formation_receipt_id":null}],"non_epistemic_drivers":[],"proposed_action":"act-as-if-note-was-known","proposed_consequence":null},
+    {"beat_id":"E5","parent_beat_id":null,"run_id":"MA-N-N0","dramatic_destination":"act on the lamp interpretation","epistemic_uses":[{"claim_id":"Q2","requested_mode":"BELIEVE","formation_receipt_id":"BELIEF-N-Q2"}],"non_epistemic_drivers":[],"proposed_action":"treat-door-as-unlocked","proposed_consequence":null},
+    {"beat_id":"E6","parent_beat_id":null,"run_id":"MA-R-R0","dramatic_destination":"suspect the red-note author","epistemic_uses":[{"claim_id":"Q3","requested_mode":"SUSPECT","formation_receipt_id":null}],"non_epistemic_drivers":[],"proposed_action":"voice-author-suspicion","proposed_consequence":null},
+    {"beat_id":"E7","parent_beat_id":null,"run_id":"MA-R-R0","dramatic_destination":"claim one chime caused the other","epistemic_uses":[{"claim_id":"Q4","requested_mode":"KNOW","formation_receipt_id":null}],"non_epistemic_drivers":[],"proposed_action":"assert-chime-causality","proposed_consequence":null},
+    {"beat_id":"E8","parent_beat_id":null,"run_id":"MA-A-A0","dramatic_destination":"choose north without knowing","epistemic_uses":[{"claim_id":"Q5","requested_mode":"GUESS","formation_receipt_id":null}],"non_epistemic_drivers":[{"kind":"wager","ref":"choose-under-uncertainty"}],"proposed_action":"open-north-door","proposed_consequence":"north-door-opens"}
   ]
 }
 ```
 
-`case/formation-templates.json` must include the exact N0 local formation refs already present in Gate B:
+- [ ] **Step 4: Create the exact formation and render templates**
+
+`formation-templates.json`:
 
 ```json
 {
@@ -258,74 +195,62 @@ Use this manifest shape:
       "run_id": "MA-N-N0",
       "claim_id": "Q2",
       "mode": "BELIEVE",
-      "formation_refs": [
-        "decoder:decode-lamp-N",
-        "stance:stance-lamp-N"
-      ]
+      "formation_refs": ["decoder:decode-lamp-N", "stance:stance-lamp-N"]
     }
   ]
 }
 ```
 
-`case/render-receipts.json` must contain:
+`render-receipts.json` targets only admissible beats so the render guard never needs to bless a rejected beat:
 
 ```json
 {
   "schema": "mortal_narrative.render-receipts/v0",
   "renders": [
-    {
-      "render_id": "R1",
-      "beat_id": "E8",
-      "assertions": [{"scope": "character", "claim_id": "Q5", "rendered_mode": "KNOW", "causal_role": "character-action-basis"}]
-    },
-    {
-      "render_id": "R2",
-      "beat_id": "E4",
-      "assertions": [{"scope": "reader", "claim_id": "Q1", "rendered_mode": "KNOW", "causal_role": "exposition"}]
-    },
-    {
-      "render_id": "R3",
-      "beat_id": "E4",
-      "assertions": [{"scope": "reader", "claim_id": "Q1", "rendered_mode": "KNOW", "causal_role": "character-action-basis"}]
-    }
+    {"render_id":"R1","beat_id":"E8","assertions":[{"scope":"character","claim_id":"Q5","rendered_mode":"KNOW","causal_role":"character-action-basis"}]},
+    {"render_id":"R2","beat_id":"E2","assertions":[{"scope":"reader","claim_id":"Q1","rendered_mode":"KNOW","causal_role":"exposition"}]},
+    {"render_id":"R3","beat_id":"E2","assertions":[{"scope":"reader","claim_id":"Q1","rendered_mode":"KNOW","causal_role":"character-action-basis"}]},
+    {"render_id":"R4","beat_id":"E2","assertions":[{"scope":"narrator","claim_id":"Q1","rendered_mode":"KNOW","causal_role":"character-action-basis"}]}
   ]
 }
 ```
 
-The narrative oracle contains only the expected candidate/render matrix shown in Step 1.
+The narrative oracle stores only `EXPECTED` and `EXPECTED_RENDER`. Gate-D global truth remains in the Gate-D oracle.
 
-- [ ] **Step 4: Implement the structural verifier**
+- [ ] **Step 5: Implement `verify_vector(root: Path) -> list[str]`**
 
-`tools/verify_mortal_narrative_vector.py` must expose:
+Check schemas, unique IDs, Gate-D run/claim references, parent ancestry, E1/E2 same-action invariant, E5 formation ownership, exact N0 formation refs, render target IDs, and physical oracle separation. Return stable string error codes and print exactly:
 
-```python
-def verify_vector(root: Path) -> list[str]:
-    ...
+```text
+MORTAL-NARRATIVE-001 vector: OK
 ```
 
-It must check exact schema names, unique IDs, valid `run_id` membership against the actor manifest, valid Q1–Q5 claim references, parent ancestry, E1/E2 same-action control, formation-template claim/mode shape, required N0 refs, render target IDs, and physical oracle separation. It must return stable string error codes and print `MORTAL-NARRATIVE-001 vector: OK` only when the list is empty.
+when clean.
 
-- [ ] **Step 5: Run structural tests and verifier**
+`README.md` must state these laws verbatim:
 
-Run:
+```text
+same external action != same causal basis
+reader knows != character knows
+narrator knows != character knows
+locally attributable != globally true
+narrative admissible != canon
+```
+
+- [ ] **Step 6: Verify and commit**
 
 ```bash
 python3 -m unittest tests.test_mortal_narrative_vector -v
 python3 tools/verify_mortal_narrative_vector.py specimens/mortal-narrative-001
-```
-
-Expected: all tests PASS and verifier prints exactly `MORTAL-NARRATIVE-001 vector: OK`.
-
-- [ ] **Step 6: Commit the frozen hostile vector**
-
-```bash
 git add specimens/mortal-narrative-001 tools/verify_mortal_narrative_vector.py tests/test_mortal_narrative_vector.py
 git commit -m "test: freeze MORTAL-NARRATIVE-001 hostile vector"
 ```
 
+Expected: tests PASS and verifier prints the exact OK line.
+
 ---
 
-### Task 2: Implement claim-specific narrative formation validation
+### Task 2: Implement claim-specific formation validation
 
 **Files:**
 - Create: `adapters/novelist/__init__.py`
@@ -333,18 +258,12 @@ git commit -m "test: freeze MORTAL-NARRATIVE-001 hostile vector"
 - Create: `tests/test_mortal_narrative_formation.py`
 
 **Interfaces:**
-- Consumes: `mortal_actor.3rdi-handoff/v0`, `mortal_actor.loadout-binding/v0`, and a fully materialized `mortal_narrative.formation/v0` receipt.
-- Produces: `validate_formation_receipt(receipt, *, projection_handoff, loadout_binding) -> list[str]`.
+- Consumes: `mortal_actor.3rdi-handoff/v0`, `mortal_actor.loadout-binding/v0`, and `mortal_narrative.formation/v0`.
+- Produces: `projection_formation_refs(projection_handoff) -> set[str]` and `validate_formation_receipt(...) -> list[str]`.
 
 - [ ] **Step 1: Write failing formation tests**
 
-Tests must cover these exact cases:
-
-```python
-self.assertEqual(validate_formation_receipt(valid_n_q2, projection_handoff=n0_projection, loadout_binding=n0_binding), [])
-```
-
-Mutations must produce stable errors:
+Required stable errors:
 
 ```text
 FORMATION_SCHEMA_INVALID
@@ -360,11 +279,15 @@ FORMATION_REF_NAMESPACE_INVALID
 FORMATION_REF_OUTSIDE_PROJECTION
 ```
 
-Use a projection fixture whose visible trace contains:
+The valid N0 projection fixture includes:
 
 ```python
 {
-    "visible_occurrence_ids": ["lamp-flicker"],
+    "schema": "mortal_actor.3rdi-handoff/v0",
+    "observer": "N",
+    "cut_id": "N0",
+    "projection_digest": "sha256:n0",
+    "visible_occurrence_ids": ["red-note-placed", "lamp-flicker", "north-door-click", "clock-chime-left", "clock-chime-right", "narrator-ledger-open"],
     "visible_causal_edge_ids": [],
     "visible_relevance_edge_ids": ["relevance-mirror-red-note"],
     "contact_ids": ["contact-lamp-N"],
@@ -374,30 +297,21 @@ Use a projection fixture whose visible trace contains:
 }
 ```
 
-Explicitly test that these fail for N0:
+Assert `decoder:decode-lamp-N` and `stance:stance-lamp-N` validate, while `occurrence:reader-margin-note`, `occurrence:merge-read`, and `stance:stance-red-note-A1` fail outside projection.
 
-```text
-occurrence:reader-margin-note
-occurrence:merge-read
-stance:stance-red-note-A1
-```
-
-- [ ] **Step 2: Run the formation tests and verify failure**
+- [ ] **Step 2: Run and confirm failure**
 
 ```bash
 python3 -m unittest tests.test_mortal_narrative_formation -v
 ```
 
-Expected: FAIL because `adapters.novelist.formation` does not exist.
+Expected: FAIL because the module does not exist.
 
-- [ ] **Step 3: Implement the projection-local namespace index**
-
-In `adapters/novelist/formation.py` define exactly:
+- [ ] **Step 3: Implement the namespace index**
 
 ```python
 FORMATION_SCHEMA = "mortal_narrative.formation/v0"
 FORMATION_MODES = {"BELIEVE", "SUSPECT"}
-
 PREFIX_TO_FIELD = {
     "occurrence": "visible_occurrence_ids",
     "contact": "contact_ids",
@@ -418,11 +332,9 @@ def projection_formation_refs(projection_handoff: dict) -> set[str]:
     return refs
 ```
 
-This function must never accept hidden IDs from a separate withheld list because the 3rdi handoff intentionally does not expose such identities.
+Never add withheld-ID support; absence from the visible handoff is the security boundary.
 
-- [ ] **Step 4: Implement `validate_formation_receipt`**
-
-Use this exact signature:
+- [ ] **Step 4: Implement formation validation**
 
 ```python
 def validate_formation_receipt(
@@ -434,27 +346,27 @@ def validate_formation_receipt(
     ...
 ```
 
-Validation rules:
+Validate:
 
 ```text
-receipt schema == mortal_narrative.formation/v0
+schema == mortal_narrative.formation/v0
 mode in {BELIEVE, SUSPECT}
 actor_id == projection.observer == binding.actor_id
 cut_id == projection.cut_id
 projection_digest == projection.projection_digest == binding.projection_ref
 evaluation_compile_id == binding.evaluation_compile_id
 evaluation_compile_digest == binding.evaluation_compile_digest
-claim_id is non-empty
-formation_refs is a non-empty list
-all prefixes exist in PREFIX_TO_FIELD
-all refs are present in projection_formation_refs(projection)
+claim_id non-empty
+formation_refs non-empty
+all prefixes known
+all refs present in projection_formation_refs(projection)
 ```
 
-Return unique errors in deterministic insertion order. Do not evaluate truth, SUPPORTS, or semantic correctness of the claim.
+Return unique errors in deterministic insertion order. Do not inspect truth, ALEX support, or claim semantics.
 
-- [ ] **Step 5: Export the formation API and run tests**
+- [ ] **Step 5: Export, verify, commit**
 
-`adapters/novelist/__init__.py` initially exports:
+`adapters/novelist/__init__.py`:
 
 ```python
 from .formation import projection_formation_refs, validate_formation_receipt
@@ -462,24 +374,19 @@ from .formation import projection_formation_refs, validate_formation_receipt
 __all__ = ["projection_formation_refs", "validate_formation_receipt"]
 ```
 
-Run:
+Run and commit:
 
 ```bash
 python3 -m unittest tests.test_mortal_narrative_formation -v
-```
-
-Expected: PASS.
-
-- [ ] **Step 6: Commit formation validation**
-
-```bash
 git add adapters/novelist tests/test_mortal_narrative_formation.py
 git commit -m "feat: validate mortal narrative formations"
 ```
 
+Expected: PASS.
+
 ---
 
-### Task 3: Implement the neutral beat evaluator and the four narrative modes
+### Task 3: Implement the four-mode beat evaluator
 
 **Files:**
 - Create: `adapters/novelist/evaluator.py`
@@ -487,12 +394,12 @@ git commit -m "feat: validate mortal narrative formations"
 - Create: `tests/test_mortal_narrative_evaluator.py`
 
 **Interfaces:**
-- Consumes: a full `mortal_narrative.beat-proposal/v0`, one exact 3rdi handoff, one exact LOADOUT binding, `dict[str, dict]` of ALEX local-support results keyed by Q-id, and `dict[str, dict]` of materialized formation receipts keyed by formation ID.
-- Produces: `evaluate_beat_proposal(...) -> mortal_narrative.evaluation/v0` or raises `NarrativeInputError` for malformed/identity-invalid inputs.
+- Consumes: full beat proposal, exact 3rdi handoff, exact LOADOUT binding, ALEX results keyed by claim ID, formation receipts keyed by formation ID.
+- Produces: `mortal_narrative.evaluation/v0` or raises `NarrativeInputError` for malformed/identity-invalid inputs.
 
-- [ ] **Step 1: Write failing evaluator tests for exact identity gating**
+- [ ] **Step 1: Write failing identity-gate tests**
 
-Define a synthetic coherent bundle and assert that each mutation raises `NarrativeInputError`:
+Each mutation must raise `NarrativeInputError`, never return `reroute_required`:
 
 ```text
 proposal actor != projection observer
@@ -502,62 +409,39 @@ proposal projection digest != 3rdi digest
 proposal projection digest != LOADOUT projection_ref
 proposal compile ID != LOADOUT evaluation compile ID
 proposal compile digest != LOADOUT evaluation compile digest
-ALEX result claim_id != requested claim
-ALEX result cut/projection/compile identity != proposal identity
+ALEX claim_id != requested claim
+ALEX observer != proposal actor
+ALEX cut/projection/compile ID or digest != proposal
 unsupported requested_mode
 malformed proposal schema
 ```
 
-These failures must not return `reroute_required`.
+- [ ] **Step 2: Write failing mode tests**
 
-- [ ] **Step 2: Write failing evaluator tests for mode behavior**
-
-Required assertions:
+Required behavior:
 
 ```python
-# KNOW
-a0_q5 = evaluate_beat_proposal(... alex_results={"Q5": {"local_disposition": "basis_outside_projection", ...}})
-self.assertEqual(a0_q5["disposition"], "reroute_required")
-self.assertEqual(a0_q5["offending_uses"][0]["reason_code"], "COUNTERFEIT_CHARACTER_KNOWLEDGE")
-
-a1_q5 = evaluate_beat_proposal(... alex_results={"Q5": {"local_disposition": "local_basis_accept", ...}})
-self.assertEqual(a1_q5["disposition"], "narrative_admissible")
-
-# unresolved KNOW
-q4 = evaluate_beat_proposal(... alex_results={"Q4": {"local_disposition": "local_basis_unresolved", ...}})
-self.assertEqual(q4["disposition"], "narrative_unresolved")
-
-# BELIEVE
-false_belief = evaluate_beat_proposal(... formation_receipts={"BELIEF-N-Q2": valid_formation})
-self.assertEqual(false_belief["disposition"], "narrative_admissible")
-
-# BELIEVE/SUSPECT require their exact formation receipt
-missing_formation = evaluate_beat_proposal(... formation_receipts={})
-self.assertEqual(missing_formation["disposition"], "narrative_unresolved")
-
-# A Q2 formation cannot be reused for Q3
-with self.assertRaises(NarrativeInputError):
-    evaluate_beat_proposal(q3_suspect_pointing_to_q2_receipt, ...)
-
-# GUESS
-self.assertEqual(evaluate_beat_proposal(guess_with_driver, ...)["disposition"], "narrative_admissible")
-self.assertEqual(evaluate_beat_proposal(guess_without_driver, ...)["disposition"], "narrative_unresolved")
-
-# no epistemic uses; lawful non-epistemic action
-self.assertEqual(evaluate_beat_proposal(wager_only_beat, ...)["disposition"], "narrative_admissible")
+self.assertEqual(eval_a0_q5_basis_outside["disposition"], "reroute_required")
+self.assertEqual(eval_a1_q5_accept["disposition"], "narrative_admissible")
+self.assertEqual(eval_q4_unresolved["disposition"], "narrative_unresolved")
+self.assertEqual(eval_n_q2_belief_with_valid_formation["disposition"], "narrative_admissible")
+self.assertEqual(eval_missing_formation["disposition"], "narrative_unresolved")
+self.assertEqual(eval_guess_with_driver["disposition"], "narrative_admissible")
+self.assertEqual(eval_guess_without_driver["disposition"], "narrative_unresolved")
+self.assertEqual(eval_wager_only_no_epistemic_uses["disposition"], "narrative_admissible")
 ```
 
-- [ ] **Step 3: Run evaluator tests and verify failure**
+A Q2 formation referenced by a Q3 use must raise `NarrativeInputError("FORMATION_BINDING_MISMATCH")`.
+
+- [ ] **Step 3: Run and confirm failure**
 
 ```bash
 python3 -m unittest tests.test_mortal_narrative_evaluator -v
 ```
 
-Expected: FAIL because the evaluator does not exist.
+Expected: FAIL because `evaluator.py` does not exist.
 
-- [ ] **Step 4: Implement `NarrativeInputError` and exact bundle validation**
-
-In `adapters/novelist/evaluator.py` define:
+- [ ] **Step 4: Implement exact bundle validation**
 
 ```python
 class NarrativeInputError(ValueError):
@@ -575,48 +459,45 @@ def evaluate_beat_proposal(
     ...
 ```
 
-Before mode evaluation, validate:
+Require schemas:
 
 ```text
-proposal.schema == mortal_narrative.beat-proposal/v0
-projection.schema == mortal_actor.3rdi-handoff/v0
-binding.schema == mortal_actor.loadout-binding/v0
-actor/cut/projection/compile ID+digest exact equality
-beat_id, dramatic_destination, proposed_action non-empty
-epistemic_uses and non_epistemic_drivers are lists
-parent_beat_id is null or non-empty string
+mortal_narrative.beat-proposal/v0
+mortal_actor.3rdi-handoff/v0
+mortal_actor.loadout-binding/v0
 ```
 
-- [ ] **Step 5: Implement the mode evaluator without re-running ALEX**
+Cross-check actor, cut, projection digest, evaluation compile ID, and evaluation compile digest before modes. When a `KNOW` use consumes an ALEX result, also require `claim_id`, `observer`, `cut_id`, `projection_digest`, `compile_id`, and `compile_digest` to match the proposal.
 
-Use these exact rules:
+- [ ] **Step 5: Implement mode rules without re-running ALEX**
 
 ```python
 if requested_mode == "KNOW":
     result = alex_results.get(claim_id)
     if result is None:
-        unresolved(..., "LOCAL_SUPPORT_RESULT_MISSING")
+        unresolved("LOCAL_SUPPORT_RESULT_MISSING")
+    elif result["local_disposition"] == "local_basis_accept":
+        pass
+    elif result["local_disposition"] in {"basis_outside_projection", "local_basis_counterpressured"}:
+        offending("COUNTERFEIT_CHARACTER_KNOWLEDGE")
+    elif result["local_disposition"] == "local_basis_unresolved":
+        unresolved("LOCAL_SUPPORT_UNRESOLVED")
+    elif result["local_disposition"] in {"projection_mismatch", "compile_mismatch"}:
+        raise NarrativeInputError("ALEX_IDENTITY_MISMATCH")
     else:
-        validate_alex_identity_or_raise(result)
-        disposition = result.get("local_disposition")
-        if disposition == "local_basis_accept":
-            pass
-        elif disposition in {"basis_outside_projection", "local_basis_counterpressured"}:
-            offending(..., "COUNTERFEIT_CHARACTER_KNOWLEDGE", local_support_disposition=disposition)
-        elif disposition == "local_basis_unresolved":
-            unresolved(..., "LOCAL_SUPPORT_UNRESOLVED")
-        elif disposition in {"projection_mismatch", "compile_mismatch"}:
-            raise NarrativeInputError("ALEX_IDENTITY_MISMATCH")
-        else:
-            unresolved(..., "LOCAL_SUPPORT_DISPOSITION_UNKNOWN")
+        unresolved("LOCAL_SUPPORT_DISPOSITION_UNKNOWN")
 
 elif requested_mode in {"BELIEVE", "SUSPECT"}:
     formation_id = use.get("formation_receipt_id")
     if not formation_id or formation_id not in formation_receipts:
-        unresolved(..., "FORMATION_RECEIPT_MISSING")
+        unresolved("FORMATION_RECEIPT_MISSING")
     else:
         formation = formation_receipts[formation_id]
-        errors = validate_formation_receipt(...)
+        errors = validate_formation_receipt(
+            formation,
+            projection_handoff=projection_handoff,
+            loadout_binding=loadout_binding,
+        )
         if errors:
             raise NarrativeInputError("FORMATION_INVALID:" + ",".join(errors))
         if formation["claim_id"] != claim_id or formation["mode"] != requested_mode:
@@ -624,21 +505,19 @@ elif requested_mode in {"BELIEVE", "SUSPECT"}:
 
 elif requested_mode == "GUESS":
     if not proposal["non_epistemic_drivers"]:
-        unresolved(..., "GUESS_DRIVER_REQUIRED")
+        unresolved("GUESS_DRIVER_REQUIRED")
 ```
 
-Top-level precedence:
+Precedence:
 
 ```text
-any hard identity/schema problem -> raise NarrativeInputError
+hard identity/schema error -> raise
 else any offending use -> reroute_required
 else any unresolved use -> narrative_unresolved
 else -> narrative_admissible
 ```
 
-- [ ] **Step 6: Emit only the neutral evaluation receipt**
-
-The result must have this shape:
+- [ ] **Step 6: Emit the bounded evaluation receipt**
 
 ```python
 {
@@ -657,43 +536,33 @@ The result must have this shape:
 }
 ```
 
-Add a recursive forbidden-key test asserting the result contains none of:
+Recursively assert no result key is any of:
 
 ```text
-truth
-canon
-admitted
-authorized
-publication
-side_effect
-world_write
+truth canon admitted authorized publication side_effect world_write
 ```
 
-- [ ] **Step 7: Export evaluator API and run all adapter tests**
+Also add `test_neutral_adapter_import_isolation`: read every `adapters/novelist/*.py` file and assert it contains none of:
 
-Update `adapters/novelist/__init__.py` to export:
-
-```python
-NarrativeInputError
-evaluate_beat_proposal
-projection_formation_refs
-validate_formation_receipt
+```text
+three_rdi
+alex_runtime
+skills.loadout
+MEMENTO
+eCODE
 ```
 
-Run:
+- [ ] **Step 7: Export, verify, commit**
+
+Export `NarrativeInputError` and `evaluate_beat_proposal` from `adapters/novelist/__init__.py`.
 
 ```bash
 python3 -m unittest tests.test_mortal_narrative_formation tests.test_mortal_narrative_evaluator -v
-```
-
-Expected: PASS.
-
-- [ ] **Step 8: Commit the evaluator**
-
-```bash
 git add adapters/novelist tests/test_mortal_narrative_evaluator.py
 git commit -m "feat: evaluate mortal narrative agency"
 ```
+
+Expected: PASS.
 
 ---
 
@@ -705,26 +574,26 @@ git commit -m "feat: evaluate mortal narrative agency"
 - Create: `tests/test_mortal_narrative_render_guard.py`
 
 **Interfaces:**
-- Consumes: one beat proposal, its `narrative_admissible` evaluation, and a structured render receipt.
-- Produces: `check_render_receipt(proposal, evaluation, render_receipt) -> mortal_narrative.render-check/v0`.
+- Consumes: one beat proposal, its admissible evaluation, and one structured render receipt.
+- Produces: `mortal_narrative.render-check/v0`.
 
-- [ ] **Step 1: Write failing render-guard tests**
+- [ ] **Step 1: Write failing render tests**
 
 Required controls:
 
 ```python
-self.assertEqual(check_render_receipt(e8_guess, e8_eval, r1_guess_as_know)["status"], "fail")
-self.assertIn("CHARACTER_MODE_ESCALATION", check_render_receipt(e8_guess, e8_eval, r1_guess_as_know)["violations"])
-
-self.assertEqual(check_render_receipt(e4, admissible_for_render_fixture, r2_reader_exposition)["status"], "pass")
-
-self.assertEqual(check_render_receipt(e4, admissible_for_render_fixture, r3_reader_as_action_basis)["status"], "fail")
-self.assertIn("NONCHARACTER_KNOWLEDGE_USED_AS_CHARACTER_BASIS", check_render_receipt(...)["violations"])
+self.assertEqual(check_render_receipt(e8, e8_admissible, r1)["status"], "fail")
+self.assertIn("CHARACTER_MODE_ESCALATION", check_render_receipt(e8, e8_admissible, r1)["violations"])
+self.assertEqual(check_render_receipt(e2, e2_admissible, r2)["status"], "pass")
+self.assertEqual(check_render_receipt(e2, e2_admissible, r3)["status"], "fail")
+self.assertEqual(check_render_receipt(e2, e2_admissible, r4)["status"], "fail")
 ```
 
-Also test exact beat/actor/cut identity mismatch raises `NarrativeInputError` rather than returning `fail`.
+R3 and R4 must contain `NONCHARACTER_KNOWLEDGE_USED_AS_CHARACTER_BASIS`.
 
-- [ ] **Step 2: Run render tests and verify failure**
+Beat/actor/cut identity mismatch must raise `NarrativeInputError`.
+
+- [ ] **Step 2: Run and confirm failure**
 
 ```bash
 python3 -m unittest tests.test_mortal_narrative_render_guard -v
@@ -732,9 +601,7 @@ python3 -m unittest tests.test_mortal_narrative_render_guard -v
 
 Expected: FAIL because `render_guard.py` does not exist.
 
-- [ ] **Step 3: Implement structured mode weakening rules**
-
-Define:
+- [ ] **Step 3: Implement deterministic weakening rules**
 
 ```python
 ALLOWED_RENDER_MODES = {
@@ -745,20 +612,9 @@ ALLOWED_RENDER_MODES = {
 }
 ```
 
-The guard checks only assertions with `scope == "character"` against the beat's declared epistemic use. A character assertion stronger than the declared mode yields `CHARACTER_MODE_ESCALATION`.
+Character assertions may not render stronger than declared. Reader/narrator assertions with `causal_role == "exposition"` are allowed; either with `causal_role == "character-action-basis"` fails. Unknown scope/mode/causal role is an input error.
 
-For `scope in {"reader", "narrator"}`:
-
-```text
-causal_role == exposition -> allowed
-causal_role == character-action-basis -> NONCHARACTER_KNOWLEDGE_USED_AS_CHARACTER_BASIS
-```
-
-Unknown scope/mode/causal role is an input error.
-
-- [ ] **Step 4: Implement and export `check_render_receipt`**
-
-Use this exact signature:
+- [ ] **Step 4: Implement the guard**
 
 ```python
 def check_render_receipt(
@@ -783,40 +639,29 @@ Return:
 }
 ```
 
-- [ ] **Step 5: Run render and evaluator tests**
+- [ ] **Step 5: Export, verify, commit**
 
 ```bash
-python3 -m unittest \
-  tests.test_mortal_narrative_evaluator \
-  tests.test_mortal_narrative_render_guard -v
-```
-
-Expected: PASS.
-
-- [ ] **Step 6: Commit the render guard**
-
-```bash
+python3 -m unittest tests.test_mortal_narrative_evaluator tests.test_mortal_narrative_render_guard -v
 git add adapters/novelist tests/test_mortal_narrative_render_guard.py
 git commit -m "feat: guard narrative render modes"
 ```
 
+Expected: PASS.
+
 ---
 
-### Task 5: Build the blind cross-stack Gate-E proof runner
+### Task 5: Build the blind cross-stack Gate-E runner
 
 **Files:**
 - Create: `tools/run_mortal_narrative_blind_proof.py`
 - Create: `tests/test_mortal_narrative_blind.py`
 
 **Interfaces:**
-- Consumes: the Gate-E narrative vector, the existing Gate-D actor vector, and the exact three dependency roots already used by `run_mortal_actor_blind_proof.py`.
-- Produces: CASE receipt `mortal_narrative.blind-case-receipt/v0` and score `mortal_narrative.blind-score/v0`.
+- Consumes: Gate-E narrative vector, Gate-D actor vector, and exact dependency roots.
+- Produces: `mortal_narrative.blind-case-receipt/v0` and `mortal_narrative.blind-score/v0`.
 
-- [ ] **Step 1: Write failing integration tests for materialization**
-
-Import the existing Gate-D runner from `tools/run_mortal_actor_blind_proof.py` and test pure helpers in the new runner.
-
-A beat template must materialize exact identities from its `run_id`:
+- [ ] **Step 1: Write failing materialization tests**
 
 ```python
 proposal = materialize_beat(template_e1, actor_case["runs"]["MA-A-A0"])
@@ -828,43 +673,29 @@ self.assertEqual(proposal["evaluation_compile_id"], actor_case["runs"]["MA-A-A0"
 self.assertEqual(proposal["evaluation_compile_digest"], actor_case["runs"]["MA-A-A0"]["loadout_binding"]["evaluation_compile_digest"])
 ```
 
-Formation materialization must do the same for `BELIEF-N-Q2`.
+Test the same identity materialization for `BELIEF-N-Q2`.
 
-- [ ] **Step 2: Write failing CASE tests for the eight candidate outcomes**
+- [ ] **Step 2: Write failing CASE/scorer tests**
 
-Run the new `run_case(...)` with synthetic dependency roots or dependency-injected Gate-D case receipt and assert:
+CASE must produce the eight exact dispositions in `EXPECTED` and four render outcomes in `EXPECTED_RENDER`.
 
-```python
-actual = {beat_id: item["evaluation"]["disposition"] for beat_id, item in receipt["beats"].items()}
-self.assertEqual(actual, EXPECTED)
-```
-
-Also assert:
-
-```python
-self.assertEqual(receipt["beats"]["E2"]["proposal"]["parent_beat_id"], "E1")
-self.assertEqual(receipt["beats"]["E2"]["proposal"]["proposed_action"], receipt["beats"]["E1"]["proposal"]["proposed_action"])
-self.assertEqual(receipt["formations"]["BELIEF-N-Q2"]["formation_refs"], ["decoder:decode-lamp-N", "stance:stance-lamp-N"])
-```
-
-- [ ] **Step 3: Write failing scorer tests for the killer controls**
-
-The scorer must prove all of these independently:
+Scorer controls:
 
 ```text
 E1 reroute_required
-E2 narrative_admissible with same action and parent E1
+E2 narrative_admissible, parent E1, same proposed_action as E1
 E3 narrative_admissible while E1 remains reroute_required
-E5 narrative_admissible while Gate-D private oracle says Q2 == false
-R1 fail: GUESS rendered as KNOW
-R2 pass: reader exposition remains reader-only
-R3 fail: reader knowledge used as character-action basis
+E5 narrative_admissible while Gate-D oracle global_truth.Q2 == false
+R1 fail
+R2 pass
+R3 fail
+R4 fail
 all inherited LOADOUT bindings authority_expanded == false
 all inherited LOADOUT bindings side_effect_executed == false
-zero candidate disposition mismatches
+zero mismatches
 ```
 
-- [ ] **Step 4: Run blind-runner tests and verify failure**
+- [ ] **Step 3: Run and confirm failure**
 
 ```bash
 python3 -m unittest tests.test_mortal_narrative_blind -v
@@ -872,9 +703,7 @@ python3 -m unittest tests.test_mortal_narrative_blind -v
 
 Expected: FAIL because the runner does not exist.
 
-- [ ] **Step 5: Implement template materialization**
-
-In `tools/run_mortal_narrative_blind_proof.py` define:
+- [ ] **Step 4: Implement materialization helpers**
 
 ```python
 def materialize_beat(template: dict, actor_run: dict) -> dict:
@@ -897,11 +726,9 @@ def materialize_beat(template: dict, actor_run: dict) -> dict:
     }
 ```
 
-Define `materialize_formation(template, actor_run)` analogously, filling actor/cut/projection/compile identity and preserving claim/mode/formation refs.
+`materialize_formation(template, actor_run)` fills the same actor/cut/projection/compile identity and preserves `formation_id`, `claim_id`, `mode`, and `formation_refs`.
 
-- [ ] **Step 6: Implement blind `run_case` without oracle access**
-
-Use this exact signature:
+- [ ] **Step 5: Implement blind CASE execution**
 
 ```python
 def run_case(
@@ -918,23 +745,20 @@ def run_case(
 Flow:
 
 ```text
-1. call Gate-D run_case(actor_vector_root, three_rdi_root, loadout_root, alex_root)
-2. load narrative manifest + CASE templates only
-3. materialize formation receipts from exact actor runs
-4. validate each formation against exact projection + LOADOUT binding
-5. materialize each beat proposal
-6. pass only that beat's requested ALEX results from actor_run["alex_results"]
-7. evaluate beat
-8. run structured render checks only for an admissible render target; for R2/R3 use a dedicated render-only admissible wrapper fixture rather than changing E4's rejected character beat
-9. write all materialized inputs and results into the CASE receipt
-10. compute deterministic SHA256 JSON digest
+1. call existing Gate-D run_case(...)
+2. load only narrative manifest + case templates
+3. materialize and validate formation receipts
+4. materialize each beat
+5. pass only the named run's existing alex_results to evaluate_beat_proposal
+6. evaluate all eight beats
+7. run R1 against E8 and R2/R3/R4 against admissible E2
+8. emit materialized proposals, formations, evaluations, render checks, and inherited Gate-D case digest
+9. compute deterministic SHA256 JSON case_receipt_digest
 ```
 
-The function must not contain the string `private-oracle.json` and must not read `manifest["oracle_ref"]` from either vector.
+`run_case` must not contain `private-oracle.json` and must never read either manifest's `oracle_ref`.
 
-- [ ] **Step 7: Implement post-CASE scoring**
-
-Use:
+- [ ] **Step 6: Implement post-CASE scoring**
 
 ```python
 def score_case(
@@ -946,14 +770,7 @@ def score_case(
     ...
 ```
 
-Only this function opens:
-
-```text
-narrative_vector_root / narrative_manifest["oracle_ref"]
-actor_vector_root / actor_manifest["oracle_ref"]
-```
-
-Return:
+Only this function opens both oracles. Return:
 
 ```python
 {
@@ -961,22 +778,21 @@ Return:
     "vector_id": "THE-PERFECT-SCENE-THAT-CHEATS-001",
     "case_receipt_digest": case_receipt["case_receipt_digest"],
     "status": "pass" or "fail",
-    "mismatches": [...],
+    "mismatches": [],
     "same_action_different_basis_control": bool,
     "later_cut_without_rewrite_control": bool,
     "local_false_belief_control": bool,
     "reader_irony_control": bool,
+    "narrator_boundary_control": bool,
     "render_mode_control": bool,
     "no_authority_expansion": bool,
     "no_side_effects": bool,
     "beat_evaluation_count": 8,
-    "render_check_count": 3,
+    "render_check_count": 4,
 }
 ```
 
-- [ ] **Step 8: Implement CLI parity with Gate D**
-
-Commands:
+- [ ] **Step 7: Implement CLI**
 
 ```bash
 python3 tools/run_mortal_narrative_blind_proof.py case \
@@ -992,7 +808,7 @@ python3 tools/run_mortal_narrative_blind_proof.py score \
   --case-receipt /tmp/mortal-narrative-case.json
 ```
 
-- [ ] **Step 9: Run the integration test suite**
+- [ ] **Step 8: Verify and commit**
 
 ```bash
 python3 -m unittest \
@@ -1001,32 +817,25 @@ python3 -m unittest \
   tests.test_mortal_narrative_evaluator \
   tests.test_mortal_narrative_render_guard \
   tests.test_mortal_narrative_blind -v
-```
-
-Expected: PASS.
-
-- [ ] **Step 10: Commit the blind runner**
-
-```bash
 git add tools/run_mortal_narrative_blind_proof.py tests/test_mortal_narrative_blind.py
 git commit -m "test: prove MORTAL-NARRATIVE-001 blind composition"
 ```
 
+Expected: PASS.
+
 ---
 
-### Task 6: Wire terminal CI and prove both oracles are absent during CASE
+### Task 6: Wire terminal CI with both oracles physically absent
 
 **Files:**
 - Create: `.github/workflows/mortal-narrative-001.yml`
-- Modify: `specimens/mortal-narrative-001/README.md` only if the final verified command surface differs from Task 1 documentation.
+- Modify: `specimens/mortal-narrative-001/README.md` only if final commands differ from the Task-1 text.
 
 **Interfaces:**
-- Consumes: the completed neutral adapter/vector/runner and exact pinned constituent commits.
-- Produces: a terminal GitHub Actions proof receipt for Gate E.
+- Consumes: completed Gate-E adapter/vector/runner plus pinned dependencies.
+- Produces: terminal GitHub Actions proof receipt.
 
-- [ ] **Step 1: Add the workflow with exact pinned dependency checkouts**
-
-Use:
+- [ ] **Step 1: Add the workflow and exact dependency checkouts**
 
 ```yaml
 name: mortal-narrative-001
@@ -1070,9 +879,7 @@ jobs:
           python-version: "3.12"
 ```
 
-- [ ] **Step 2: Run all local structural/unit checks before the blind phase**
-
-Workflow command:
+- [ ] **Step 2: Run all structural/unit checks**
 
 ```bash
 python3 tools/verify_mortal_actor_vector.py specimens/mortal-actor-001
@@ -1086,11 +893,9 @@ python3 -m unittest \
   tests.test_mortal_narrative_blind -v
 ```
 
-Expected: all PASS.
+Expected: PASS.
 
-- [ ] **Step 3: Physically remove both oracles and run CASE**
-
-Workflow command:
+- [ ] **Step 3: Remove both oracles and run CASE**
 
 ```bash
 mv specimens/mortal-actor-001/oracle/private-oracle.json /tmp/mortal-actor-private-oracle.json
@@ -1108,7 +913,7 @@ test ! -e specimens/mortal-actor-001/oracle/private-oracle.json
 test ! -e specimens/mortal-narrative-001/oracle/private-oracle.json
 ```
 
-- [ ] **Step 4: Restore both oracles only after CASE receipt formation and score**
+- [ ] **Step 4: Restore only after CASE and score**
 
 ```bash
 mv /tmp/mortal-actor-private-oracle.json specimens/mortal-actor-001/oracle/private-oracle.json
@@ -1121,7 +926,7 @@ python3 tools/run_mortal_narrative_blind_proof.py score \
   | tee /tmp/mortal-narrative-score.json
 ```
 
-- [ ] **Step 5: Assert every terminal control in CI**
+- [ ] **Step 5: Assert terminal controls**
 
 ```python
 import json
@@ -1134,25 +939,25 @@ assert score["same_action_different_basis_control"] is True, score
 assert score["later_cut_without_rewrite_control"] is True, score
 assert score["local_false_belief_control"] is True, score
 assert score["reader_irony_control"] is True, score
+assert score["narrator_boundary_control"] is True, score
 assert score["render_mode_control"] is True, score
 assert score["no_authority_expansion"] is True, score
 assert score["no_side_effects"] is True, score
 assert score["beat_evaluation_count"] == 8, score
-assert score["render_check_count"] == 3, score
+assert score["render_check_count"] == 4, score
 ```
 
-- [ ] **Step 6: Run the same terminal verification locally before claiming completion**
+- [ ] **Step 6: Run the terminal sequence locally before claiming completion**
 
-Run the complete Task-6 command sequence in the implementation worktree. Record the exact score JSON and current implementation commit SHA in the PR body or a PR comment.
-
-Expected terminal proof:
+Record the exact score JSON and implementation commit SHA in the implementation PR. The proof must show:
 
 ```text
 E1 cheats and reroutes
 E2 reaches the same external action lawfully
 E3 knows later without rewriting E1
-E5 may be locally attributable and globally false
-reader/narrator exposure does not become character causality
+E5 remains admissible while Q2 is globally false
+reader exposition remains reader-only
+narrator knowledge remains narrator-only
 GUESS cannot render as KNOW
 no authority expands
 no side effect executes
@@ -1167,4 +972,9 @@ git commit -m "ci: verify MORTAL-NARRATIVE-001 blind proof"
 
 - [ ] **Step 8: Open the implementation PR without merging it**
 
-The implementation PR must state that it is stacked on Gate-D PR #77, list the exact pinned constituent commits, include the terminal score receipt, and explicitly say that green CI is proof of this hostile specimen only—not canon, owning-world admission, or merge authority.
+The PR body must state that it is stacked on Gate-D PR #77, list the exact three pinned constituent commits, include the terminal score receipt, and state:
+
+```text
+Green proves this hostile specimen only.
+It does not imply canon, owning-world admission, publication authority, side-effect permission, or merge authority.
+```
