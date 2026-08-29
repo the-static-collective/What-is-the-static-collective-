@@ -2,7 +2,7 @@
 
 Status: **incubating symbolic/topological clue — not shared law**
 
-This page preserves a bounded design-language spike that emerged while traversing the [Embodied Personhood Overlay](embodied-personhood-overlay-bible-neuroscience-chakras-and-biofield/), [Attributable Transformation](continuity-witness-shared-questions-local-answers/attributable-transformation-difference-as-continuity-evidence.md), and the eCODEsystem's existing field work.
+This page preserves a bounded design-language spike that emerged while traversing the [Embodied Personhood Overlay](embodied-personhood-overlay-bible-neuroscience-chakras-and-biofield/), [Attributable Transformation](../research-packet-b-continuity-carrier-re-entry-and-reconstruction/continuity-witness-shared-questions-local-answers/attributable-transformation-difference-as-continuity-evidence.md), and the eCODEsystem's existing field work.
 
 {% hint style="warning" %}
 **Evidence boundary:** `13th cup`, `rim`, and `13th circle` are used here as symbolic/topological prompts. This is not a historical, numerological, occult, biological, or spiritual ancestry claim. Resemblance does not establish transmission.
@@ -213,7 +213,7 @@ Many participants encounter shared conditions.
 L₁ → shared trace → L₂
 ```
 
-One participant changes an environment; another later encounters the trace. See [Stigmergic Field](../../patterns/stigmergic-field.md).
+One participant changes an environment; another later encounters the trace. See [Stigmergic Field](../../../patterns/stigmergic-field.md).
 
 #### Coupling field
 

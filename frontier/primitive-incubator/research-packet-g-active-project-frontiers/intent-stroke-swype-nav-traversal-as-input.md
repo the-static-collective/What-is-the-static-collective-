@@ -22,9 +22,9 @@ later human / lawful admission outside the decoder
 
 The originating analogue is gesture typing: a continuous imperfect path can be interpreted from its shape, order, endpoints, and a finite vocabulary of plausible destinations without treating every crossed symbol as selected.
 
-This is closely adjacent to [Field Traversal & Illumination](../../patterns/field-traversal-and-illumination.md), but adds a distinct possibility: the traversal need not only be recorded after navigation. Its **shape may itself be a navigational proposal**.
+This is closely adjacent to [Field Traversal & Illumination](../../../patterns/field-traversal-and-illumination.md), but adds a distinct possibility: the traversal need not only be recorded after navigation. Its **shape may itself be a navigational proposal**.
 
-[Metaphor as Portal](../../scrapbook/constellations/metaphor-as-portal.md) is a useful sibling: metaphor can act as semantic compression for reconstructing a conceptual neighborhood; Intent Stroke asks whether a characteristic path can act as topological compression.
+[Metaphor as Portal](../../../scrapbook/constellations/metaphor-as-portal.md) is a useful sibling: metaphor can act as semantic compression for reconstructing a conceptual neighborhood; Intent Stroke asks whether a characteristic path can act as topological compression.
 
 ## What must stay invariant
 

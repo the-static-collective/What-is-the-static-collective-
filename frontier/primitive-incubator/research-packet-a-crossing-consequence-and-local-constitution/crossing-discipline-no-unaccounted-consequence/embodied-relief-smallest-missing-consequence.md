@@ -12,7 +12,7 @@ The working compression is:
 > **Supply the smallest missing consequence.**\
 > **Witness only enough to know the consequence became real.**
 
-This is a physical-world branch of [Crossing Discipline — No Unaccounted Consequence](../): a resource may exist, travel, be pledged, or be delivered without yet producing the relief that motivated the action. The consequential transition must remain attributable.
+This is a physical-world branch of [Crossing Discipline — No Unaccounted Consequence](../../): a resource may exist, travel, be pledged, or be delivered without yet producing the relief that motivated the action. The consequential transition must remain attributable.
 
 ***
 
@@ -109,7 +109,7 @@ Possible food-route bottlenecks include:
 
 The strongest intervention may therefore contribute very little new _stuff_ while producing a very real new consequence.
 
-This composes with [Potential Energy Routing](../../../scrapbook/constellations/potential-energy-routing.md):
+This composes with [Potential Energy Routing](../../../../scrapbook/constellations/potential-energy-routing.md):
 
 ```
 stored abundance / capacity
@@ -319,8 +319,8 @@ The whole primitive fails if the system becomes better at proving aid than at en
 
 ## Relation to nearby work
 
-* [Crossing Discipline — No Unaccounted Consequence](../) supplies the causal law: every consequential difference requires an attributable local transition.
-* [Potential Energy Routing](../../../scrapbook/constellations/potential-energy-routing.md) supplies the circuit intuition: existing charge can remain stalled because one conductive path is missing.
+* [Crossing Discipline — No Unaccounted Consequence](../../) supplies the causal law: every consequential difference requires an attributable local transition.
+* [Potential Energy Routing](../../../../scrapbook/constellations/potential-energy-routing.md) supplies the circuit intuition: existing charge can remain stalled because one conductive path is missing.
 * **Gramfork / circle** supply a promising lifecycle grammar: need → pledge → accept → report → independent confirmation.
 * **Corpus OS** supplies the refusal discipline: completion and refusal must produce distinguishable terminal receipts.
 * **Lattice Table 001** is the first intended physical specimen and must remain evidence, not doctrine.

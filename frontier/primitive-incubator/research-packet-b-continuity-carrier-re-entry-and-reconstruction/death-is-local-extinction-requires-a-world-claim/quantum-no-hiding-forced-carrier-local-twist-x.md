@@ -103,7 +103,7 @@ A cautious family-level phrase is **permanence of quantum information under the 
 
 ## eCODE extraction
 
-The quantum theorem should enter the larger [Death Is Local — Extinction Requires a World Claim](../) primitive only as a **bounded structural witness**.
+The quantum theorem should enter the larger [Death Is Local — Extinction Requires a World Claim](../../) primitive only as a **bounded structural witness**.
 
 Candidate obligation:
 

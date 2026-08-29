@@ -92,7 +92,7 @@ That gives a stronger compression:
 
 > **History may change the cavity, and the changed cavity may change what readily rings next — without deciding what must ring next.**
 
-This composes directly with [The Thirteenth May Be the Rim — Relational Vessel Topology](the-thirteenth-may-be-the-rim-relational-vessel-topology.md): the rim may bound a relational field while the cavity describes how that bounded geometry can participate dynamically. Neither relation nor resonance becomes a sovereign participant.
+This composes directly with [The Thirteenth May Be the Rim — Relational Vessel Topology](../research-packet-f-narrative-embodied-and-symbolic-worlds/the-thirteenth-may-be-the-rim-relational-vessel-topology.md): the rim may bound a relational field while the cavity describes how that bounded geometry can participate dynamically. Neither relation nor resonance becomes a sovereign participant.
 
 **Evidence boundary:** beetle flight mechanics, resonant cavities, and levitation remain design metaphors here. This section does not claim that the landed Project0 fixture models continuous physics, acoustic levitation, insect physiology, or a newly proved universal eCODEsystem law.
 

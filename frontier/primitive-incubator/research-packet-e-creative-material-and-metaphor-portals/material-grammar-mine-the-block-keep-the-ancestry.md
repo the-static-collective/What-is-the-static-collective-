@@ -8,7 +8,7 @@ A material grammar in which a thing's substrate constrains what can be lawfully 
 
 The immediate portal is Minecraft, but the candidate primitive is smaller:
 
-```text
+```
 material
   + lawful operation
   + preserved ancestry
@@ -18,7 +18,7 @@ material
 
 The block metaphor is useful only if it leaves behind distinctions that still make sense after Minecraft is removed.
 
-This extends [Metaphor as Portal](../../scrapbook/constellations/metaphor-as-portal.md): **enter through the metaphor; exit with explicit invariants.**
+This extends [Metaphor as Portal](../../../scrapbook/constellations/metaphor-as-portal.md): **enter through the metaphor; exit with explicit invariants.**
 
 ## Felt possibility
 
@@ -36,37 +36,37 @@ The question is whether the recurring material images expose a reusable architec
 
 Several lyric specimens are especially sharp:
 
-- **stone / groove / instrument** — repeated working deepens a groove until the stone can hold the song;
-- **clay / firing** — mutable form can slump, crack, be reshaped, then cross a heat boundary into a more durable artifact;
-- **copper / wire / orchard** — conductive material carries relation through roots, branches, ground, coils, and current;
-- **glass / screen / boundary** — seeing through a surface is not the same as crossing it;
-- **coal / fire / third thing** — relation between material and encounter produces a consequence not identical to either input;
-- **fiber / knot** — relation can hold without collapsing distinct things into one thing;
-- **shard / corpus / recovery** — fragments can preserve enough history to relocate a lost coordinate.
+* **stone / groove / instrument** — repeated working deepens a groove until the stone can hold the song;
+* **clay / firing** — mutable form can slump, crack, be reshaped, then cross a heat boundary into a more durable artifact;
+* **copper / wire / orchard** — conductive material carries relation through roots, branches, ground, coils, and current;
+* **glass / screen / boundary** — seeing through a surface is not the same as crossing it;
+* **coal / fire / third thing** — relation between material and encounter produces a consequence not identical to either input;
+* **fiber / knot** — relation can hold without collapsing distinct things into one thing;
+* **shard / corpus / recovery** — fragments can preserve enough history to relocate a lost coordinate.
 
 These are evidence that the Collective already reaches for material language when describing transformation, relation, and continuity.
 
 ## Working material grammar
 
-| Material portal | Candidate eCODE meaning | Distinction preserved |
-| --- | --- | --- |
-| Dirt / mud | substrate / inhabitable ground | low-level does not mean low-value |
-| Stone | latent capability | extraction is not creation ex nihilo |
-| Clay | revisable form | draft state remains reshapeable |
-| Brick / fired clay | constituted artifact | stabilization changes what edits remain lawful |
-| Wood | transformation ancestry | derived forms remain descended from source material |
-| String / fiber | durable relation | connection need not imply merger |
-| Glass | observable boundary | visibility is not authority or entry |
-| Copper | history-bearing conductor | state can change through encounter without identity collapse |
-| Coal | stored potential | potential is not yet consequence |
-| Redstone-like signal | explicit consequence routing | signal is neither source material nor final effect |
-| Sculk-like listener | bounded witness / event sensing | observation does not own the event |
-| Amethyst-like resonance | re-emission / propagation | transmission can preserve a witnessed relation across distance |
-| Echo Shard | continuity fragment | a partial trace can help recover a lost coordinate without recreating the lost world |
+| Material portal         | Candidate eCODE meaning         | Distinction preserved                                                                |
+| ----------------------- | ------------------------------- | ------------------------------------------------------------------------------------ |
+| Dirt / mud              | substrate / inhabitable ground  | low-level does not mean low-value                                                    |
+| Stone                   | latent capability               | extraction is not creation ex nihilo                                                 |
+| Clay                    | revisable form                  | draft state remains reshapeable                                                      |
+| Brick / fired clay      | constituted artifact            | stabilization changes what edits remain lawful                                       |
+| Wood                    | transformation ancestry         | derived forms remain descended from source material                                  |
+| String / fiber          | durable relation                | connection need not imply merger                                                     |
+| Glass                   | observable boundary             | visibility is not authority or entry                                                 |
+| Copper                  | history-bearing conductor       | state can change through encounter without identity collapse                         |
+| Coal                    | stored potential                | potential is not yet consequence                                                     |
+| Redstone-like signal    | explicit consequence routing    | signal is neither source material nor final effect                                   |
+| Sculk-like listener     | bounded witness / event sensing | observation does not own the event                                                   |
+| Amethyst-like resonance | re-emission / propagation       | transmission can preserve a witnessed relation across distance                       |
+| Echo Shard              | continuity fragment             | a partial trace can help recover a lost coordinate without recreating the lost world |
 
 The sequence is suggestive rather than canonical:
 
-```text
+```
 substrate
   -> latent possibility
   -> mutable form
@@ -93,15 +93,15 @@ The transferable distinction is not the game recipe. It is this:
 
 That is close to several existing Collective structures:
 
-- Project0 continuity and re-entry;
-- residual / refusal topology;
-- `corpus_shards` and fragment-preserving memory;
-- witness receipts that preserve where a process failed or changed;
-- recovery of a reachable world without impersonating the original occurrence.
+* Project0 continuity and re-entry;
+* residual / refusal topology;
+* `corpus_shards` and fragment-preserving memory;
+* witness receipts that preserve where a process failed or changed;
+* recovery of a reachable world without impersonating the original occurrence.
 
 A candidate neutral shape might eventually look like:
 
-```text
+```
 fragment[]
   + reference frame
   + recovery rule
@@ -116,12 +116,12 @@ Minecraft sculk sensors detect vibrations and convert them into signals; calibra
 
 Official references:
 
-- https://feedback.minecraft.net/hc/en-us/articles/360053198311-Minecraft-Java-Edition-Snapshot-20w49a
-- https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales
+* https://feedback.minecraft.net/hc/en-us/articles/360053198311-Minecraft-Java-Edition-Snapshot-20w49a
+* https://feedback.minecraft.net/hc/en-us/articles/16499677456781-Minecraft-Java-Edition-1-20-Trails-Tales
 
 The transferable candidate is:
 
-```text
+```
 event
   -> bounded listener
   -> typed witness signal
@@ -143,7 +143,7 @@ Official reference: https://www.minecraft.net/en-us/article/caves---cliffs--part
 
 That makes copper a useful portal for **history that becomes materially legible**:
 
-```text
+```
 same artifact
 + encounter through time
 -> changed visible state
@@ -159,7 +159,7 @@ The Autodiscography already treats clay as a shape that can be leaned, cracked, 
 
 This suggests a clean state distinction:
 
-```text
+```
 mutable form
   --constitution / firing-->
 stabilized artifact
@@ -169,10 +169,10 @@ The firing boundary should not be interpreted as universal immutability. It mean
 
 This may be useful when distinguishing:
 
-- proposal from adopted artifact;
-- draft world from constituted world;
-- editable score from rendered receipt;
-- mutable local state from addressed durable history.
+* proposal from adopted artifact;
+* draft world from constituted world;
+* editable score from rendered receipt;
+* mutable local state from addressed durable history.
 
 ## Supporting specimen: glass
 
@@ -180,7 +180,7 @@ Glass is a particularly useful anti-confusion material.
 
 A transparent boundary can permit observation while still remaining a boundary.
 
-```text
+```
 visible through
     !=
 entered
@@ -214,11 +214,11 @@ Represent five material classes and five operations. Require the system to rejec
 
 Example operations:
 
-- mine / extract;
-- reshape;
-- constitute;
-- connect;
-- witness.
+* mine / extract;
+* reshape;
+* constitute;
+* connect;
+* witness.
 
 Pass condition: affordance constraints improve reasoning without becoming aesthetic type cosplay.
 
@@ -234,22 +234,22 @@ This should graduate only if the material grammar survives removal of the Minecr
 
 Minimum evidence:
 
-- at least two executable domains;
-- at least three materially different operations;
-- one rejected invalid material/operation pairing;
-- one recovery specimen where fragments locate rupture without pretending to restore it;
-- explicit ancestry and authority boundaries;
-- a neutral vocabulary that remains useful after replacing `stone`, `copper`, `sculk`, and `echo shard` with domain-native terms.
+* at least two executable domains;
+* at least three materially different operations;
+* one rejected invalid material/operation pairing;
+* one recovery specimen where fragments locate rupture without pretending to restore it;
+* explicit ancestry and authority boundaries;
+* a neutral vocabulary that remains useful after replacing `stone`, `copper`, `sculk`, and `echo shard` with domain-native terms.
 
 Until then, **Material Grammar remains an incubated portal, with Echo Shard as the strongest current lead.**
 
 ## Residual fog
 
-- Is "material" actually a type, a capability set, an affordance contract, or a relation among all three?
-- Does mining consume the source, derive from it, or merely reveal a view?
-- When does a derived block deserve an independent address?
-- Can a recovery bearing be useful across repositories without becoming a universal locator?
-- Does constitution resemble firing, sealing, committing, hashing, witnessing, or some composition of these?
-- Is resonance a transport primitive, an interpretation primitive, or only a witnessed consequence of relation?
+* Is "material" actually a type, a capability set, an affordance contract, or a relation among all three?
+* Does mining consume the source, derive from it, or merely reveal a view?
+* When does a derived block deserve an independent address?
+* Can a recovery bearing be useful across repositories without becoming a universal locator?
+* Does constitution resemble firing, sealing, committing, hashing, witnessing, or some composition of these?
+* Is resonance a transport primitive, an interpretation primitive, or only a witnessed consequence of relation?
 
 Do not answer these by extending the metaphor. Build specimens and let the metaphor earn whatever survives.

@@ -343,8 +343,8 @@ Project-owned executable truth remains canonical.
 * [National Treasure — post-Full-Bowl unsliced routing](https://github.com/the-static-collective/national-treasure/pull/42)
 * [Full Bowl 001 × MADDCL0WN](https://github.com/the-static-collective/What-is-the-static-collective-/pull/55)
 * [Full Bowl 002 repaired-world rerun](https://github.com/the-static-collective/What-is-the-static-collective-/pull/60)
-* [Continuity Witness — Shared Questions, Local Answers](continuity-witness-shared-questions-local-answers/)
-* [Death Is Local — Extinction Requires a World Claim](death-is-local-extinction-requires-a-world-claim/)
-* [STORYSHIP 001 — THE DOOR](../../patterns/world-reentry-memory/acoustic-loci-navigable-continuity-before-ecode/storyship-001-the-door/)
+* [Continuity Witness — Shared Questions, Local Answers](../research-packet-b-continuity-carrier-re-entry-and-reconstruction/continuity-witness-shared-questions-local-answers/)
+* [Death Is Local — Extinction Requires a World Claim](../research-packet-b-continuity-carrier-re-entry-and-reconstruction/death-is-local-extinction-requires-a-world-claim/)
+* [STORYSHIP 001 — THE DOOR](../../../patterns/world-reentry-memory/acoustic-loci-navigable-continuity-before-ecode/storyship-001-the-door/)
 
 **Authority effect:** none. This page records an incubating classification and its smallest falsifiable specimens.

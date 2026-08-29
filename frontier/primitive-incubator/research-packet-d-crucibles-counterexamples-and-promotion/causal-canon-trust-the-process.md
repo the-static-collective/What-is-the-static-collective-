@@ -1,5 +1,7 @@
 ---
-description: "Candidate continuity pattern: a shared causal score sung at staggered phases, with receipts returning as later conditions."
+description: >-
+  Candidate continuity pattern: a shared causal score sung at staggered phases,
+  with receipts returning as later conditions.
 ---
 
 # Causal Canon — Trust the Process
@@ -14,7 +16,7 @@ Canonical slice: [Trust the process — the causal canon](https://github.com/the
 
 Start with the causal progression:
 
-```text
+```
 receive
   ↓
 interpret
@@ -36,7 +38,7 @@ Now stop reading it as one pipeline.
 
 Sing it as a round.
 
-```text
+```
 VOICE A    receive → interpret → propose → test → admit/refuse → receipt → carry → receive
 VOICE B              receive → interpret → propose → test → admit/refuse → receipt → carry → receive
 VOICE C                        receive → interpret → propose → test → admit/refuse → receipt → carry → receive
@@ -51,12 +53,12 @@ That gives a candidate form of **asynchronous coherence**: the system does not n
 
 A useful diagram has two primary directions:
 
-- horizontal motion = **local causality**;
-- staggered entry = **successive embodiment of the shared form**.
+* horizontal motion = **local causality**;
+* staggered entry = **successive embodiment of the shared form**.
 
 Then add crossing lines for receipts that return as later conditions:
 
-```text
+```
 α:  RECEIVE → INTERPRET → PROPOSE → TEST → ADMIT → RECEIPT ─────────────┐
                                                    │                    │
 β:      RECEIVE → INTERPRET → PROPOSE → TEST → REFUSE → RECEIPT        │
@@ -71,7 +73,7 @@ The repeated score supplies continuity. Different performances supply developmen
 
 The picture should not contain one privileged conductor node. The shared structure is visible because the voices remain mutually legible.
 
-```text
+```
 same score ≠ same singer
 same singer ≠ same state
 same state ≠ same consequence
@@ -107,7 +109,7 @@ Both branches get cadences.
 
 Refusal must not become silence, because silence would erase the event. A refusal says: **this path did not enter, and that fact entered history.**
 
-```text
+```
                   ┌─ ADMIT ──┐
 TEST ─────────────┤           ├─ RECEIPT
                   └─ REFUSE ─┘
@@ -131,7 +133,7 @@ Same invitation. Changed world.
 
 Enter each new voice when the previous voice reaches **propose**:
 
-```text
+```
 1          2          3          4          5          6          7          8
 
 A  RECEIVE  INTERPRET  PROPOSE    TEST       ADMIT      RECEIPT    CARRY      RECEIVE
@@ -146,13 +148,13 @@ One vertical slice through the piece reveals several causal ages at once.
 
 Then stop making it a strict round. Let earlier receipts alter later voices.
 
-```text
+```
 FORM + HISTORY + LOCAL ENCOUNTER → PERFORMANCE
 ```
 
 Therefore:
 
-```text
+```
 same causal melody + different history → different lawful performance
 ```
 
@@ -162,67 +164,47 @@ The score does not contain the future performance. It carries enough structure f
 
 Let one causal cycle contain ordered states
 
-\[
-C=(R,I,P,T,D,W,F)
-\]
+\[ C=(R,I,P,T,D,W,F) ]
 
 with receive, interpret, propose, test, decision, witness, and carry-forward respectively, and
 
-\[
-D\in\{\text{admit},\text{refuse}\}.
-\]
+\[ D\in{\text{admit},\text{refuse\}}. ]
 
 A local traversal can be written
 
-\[
-x_{n,k+1}=f_k(x_{n,k},H_t)
-\]
+\[ x\_{n,k+1}=f\_k(x\_{n,k},H\_t) ]
 
-where \(n\) identifies a voice or lineage, \(k\) its current phase, and \(H_t\) the available history.
+where (n) identifies a voice or lineage, (k) its current phase, and (H\_t) the available history.
 
-With phase offset \(\tau\),
+With phase offset (\tau),
 
-\[
-k_n(t)=(t-n\tau)\bmod |C|.
-\]
+\[ k\_n(t)=(t-n\tau)\bmod |C|. ]
 
-The whole field at time \(t\) is therefore a collection of locally ordered voices occupying different phases:
+The whole field at time (t) is therefore a collection of locally ordered voices occupying different phases:
 
-\[
-S(t)=\{x_{n,k_n(t)}\}_{n=1}^{N}.
-\]
+\[ S(t)={x\_{n,k\_n(t)\}}\_{n=1}^{N}. ]
 
 History enters when earlier witness becomes part of later conditions:
 
-\[
-H_{t+1}=H_t\cup W_t
-\]
+\[ H\_{t+1}=H\_t\cup W\_t ]
 
 and
 
-\[
-R_{n+1}=g(E_{n+1},H_t),
-\]
+\[ R\_{n+1}=g(E\_{n+1},H\_t), ]
 
-where \(E\) is the new encounter.
+where (E) is the new encounter.
 
 The candidate invariant is not identical output. It is lawful transformation plus attributable consequence:
 
-\[
-R\prec I\prec P\prec T\prec D\prec W\prec F
-\]
+\[ R\prec I\prec P\prec T\prec D\prec W\prec F ]
 
 with
 
-\[
-D\Rightarrow W
-\]
+\[ D\Rightarrow W ]
 
 and
 
-\[
-W_t\subseteq H_{t+1}.
-\]
+\[ W\_t\subseteq H\_{t+1}. ]
 
 Admission and refusal both leave witness. Witness remains eligible to become later history.
 
@@ -244,10 +226,10 @@ Smaller:
 
 The principle itself is not established science. The analogy has a real floor beneath it.
 
-- Bigand reports above-chance implicit learning of unfamiliar canon structure by musicians and nonmusicians. [DOI 10.1196/annals.1284.041](https://doi.org/10.1196/annals.1284.041)
-- Ravignani and colleagues show rhythmic material becoming more structured across experimental transmission generations. [DOI 10.1111/nyas.13610](https://doi.org/10.1111/nyas.13610)
-- Wood and colleagues report a professional quartet converging toward greater coordination similarity with less measured interpersonal information flow while learning unfamiliar music. [DOI 10.1111/nyas.14858](https://doi.org/10.1111/nyas.14858)
-- Buehler's MusicSwarm study reports coherent long-form composition emerging from decentralized agents using shared traces, local memory, peer interaction, and consensus. [DOI 10.1002/aisy.202501253](https://doi.org/10.1002/aisy.202501253)
+* Bigand reports above-chance implicit learning of unfamiliar canon structure by musicians and nonmusicians. [DOI 10.1196/annals.1284.041](https://doi.org/10.1196/annals.1284.041)
+* Ravignani and colleagues show rhythmic material becoming more structured across experimental transmission generations. [DOI 10.1111/nyas.13610](https://doi.org/10.1111/nyas.13610)
+* Wood and colleagues report a professional quartet converging toward greater coordination similarity with less measured interpersonal information flow while learning unfamiliar music. [DOI 10.1111/nyas.14858](https://doi.org/10.1111/nyas.14858)
+* Buehler's MusicSwarm study reports coherent long-form composition emerging from decentralized agents using shared traces, local memory, peer interaction, and consensus. [DOI 10.1002/aisy.202501253](https://doi.org/10.1002/aisy.202501253)
 
 These sources support pieces beneath the analogy. They do not establish the Causal Canon Principle as a law.
 
@@ -255,13 +237,13 @@ These sources support pieces beneath the analogy. They do not establish the Caus
 
 This candidate bears directly on:
 
-- [Causal Accounting / Linear Authority](causal-accounting-linear-authority.md)
-- [Continuity Witness — Shared Questions, Local Answers](continuity-witness-shared-questions-local-answers/README.md)
-- [The Room Can Vanish; the World Remains](../../patterns/world-reentry-memory/README.md)
-- STORYSHIP, where continuity may depend on reproducible re-entry rather than frozen identity;
-- Groove Rooms, where time-addressed contributions already behave like staggered voices in one shared temporal object;
-- Autodisco, where successive generations may hear attributable residue from earlier generations;
-- Haunted Toaster, whose proposal → test → human admission → receipt → mutation loop already resembles one local verse.
+* [Causal Accounting / Linear Authority](../../../evidence/causal-accounting-linear-authority.md)
+* [Continuity Witness — Shared Questions, Local Answers](../research-packet-b-continuity-carrier-re-entry-and-reconstruction/continuity-witness-shared-questions-local-answers/)
+* [The Room Can Vanish; the World Remains](../../../patterns/world-reentry-memory/)
+* STORYSHIP, where continuity may depend on reproducible re-entry rather than frozen identity;
+* Groove Rooms, where time-addressed contributions already behave like staggered voices in one shared temporal object;
+* Autodisco, where successive generations may hear attributable residue from earlier generations;
+* Haunted Toaster, whose proposal → test → human admission → receipt → mutation loop already resembles one local verse.
 
 ## LSD hatch
 

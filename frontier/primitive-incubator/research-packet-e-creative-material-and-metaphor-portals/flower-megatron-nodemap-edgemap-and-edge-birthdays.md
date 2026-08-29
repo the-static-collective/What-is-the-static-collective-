@@ -253,11 +253,11 @@ If the model only works while the evocative symbols remain visible, it remains a
 ## Source roads
 
 * Daily Slice — [FLOWER / MEGATRON — NODEMAP, EDGEMAP, AND EDGE BIRTHDAYS](https://github.com/the-static-collective/the-daily-slice/blob/main/slices/2026/08/2026-08-27/flower-megatron-edge-birthdays.md)
-* [Hero Spiral — The World Comes Back Different](hero-spiral-the-world-comes-back-different/)
+* [Hero Spiral — The World Comes Back Different](../research-packet-b-continuity-carrier-re-entry-and-reconstruction/hero-spiral-the-world-comes-back-different/)
 * [Pocket Web Hypermath — Mathals as Typed Links](pocket-web-hypermath-mathals-as-typed-links.md)
-* [Refusal Topology — Influence Without Authority / Multiverse NAV](refusal-topology-influence-without-authority-multiverse-nav.md)
-* [Palimpsest Continuity — Shape Language & Witness Sigils](palimpsest-continuity-shape-language-and-witness-sigils/)
-* [Slicing Ahead — Sealed Next-Step Prediction](slicing-ahead-sealed-next-step-prediction.md)
+* [Refusal Topology — Influence Without Authority / Multiverse NAV](../research-packet-a-crossing-consequence-and-local-constitution/refusal-topology-influence-without-authority-multiverse-nav.md)
+* [Palimpsest Continuity — Shape Language & Witness Sigils](../research-packet-b-continuity-carrier-re-entry-and-reconstruction/palimpsest-continuity-shape-language-and-witness-sigils/)
+* [Slicing Ahead — Sealed Next-Step Prediction](../research-packet-d-crucibles-counterexamples-and-promotion/slicing-ahead-sealed-next-step-prediction.md)
 
 ## Authority boundary
 

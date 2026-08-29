@@ -43,7 +43,7 @@ A useful eCODE state is therefore possible:
 
 `authority(x) = 0`
 
-This is the seam already exposed by [Ghost / Residual Presence — History Without Authority](../../../patterns/ghost-residual-presence-history-without-authority.md), [The Room Can Vanish; the World Remains](../../../patterns/world-reentry-memory/), [Continuity Witness — Shared Questions, Local Answers](../continuity-witness-shared-questions-local-answers/), and [Crossing Discipline — No Unaccounted Consequence](../crossing-discipline-no-unaccounted-consequence.md).
+This is the seam already exposed by [Ghost / Residual Presence — History Without Authority](../../../../patterns/ghost-residual-presence-history-without-authority.md), [The Room Can Vanish; the World Remains](../../../../patterns/world-reentry-memory/), [Continuity Witness — Shared Questions, Local Answers](../continuity-witness-shared-questions-local-answers/), and [Crossing Discipline — No Unaccounted Consequence](../../research-packet-a-crossing-consequence-and-local-constitution/crossing-discipline-no-unaccounted-consequence/).
 
 ## Independent analogue field
 
@@ -119,9 +119,9 @@ Answers may include a descendant, replica, causal record, transformed state, rec
 
 This primitive should remain distinct from:
 
-* [Continuity Through Division — Genesis as Structural Analogy](../continuity-through-division-genesis-as-structural-analogy/): theological/structural analogy, not scientific witness.
+* [Continuity Through Division — Genesis as Structural Analogy](../../research-packet-f-narrative-embodied-and-symbolic-worlds/continuity-through-division-genesis-as-structural-analogy/): theological/structural analogy, not scientific witness.
 * [Character-Bearing Continuity — Braided Return After Rupture](../continuity-witness-shared-questions-local-answers/character-bearing-continuity-braided-return-after-rupture.md): narrative/identity continuity.
-* [Consequence Is Broader Than Authority — Admission, Difference & Reachability](../crossing-discipline-no-unaccounted-consequence/consequence-broader-than-authority-admission-difference-reachability/): consequences after encounter.
-* [Lawful Reachability / Constituted Reality](../lawful-reachability-constituted-reality.md): reachability is not constitution.
+* [Consequence Is Broader Than Authority — Admission, Difference & Reachability](../../research-packet-a-crossing-consequence-and-local-constitution/crossing-discipline-no-unaccounted-consequence/consequence-broader-than-authority-admission-difference-reachability/): consequences after encounter.
+* [Lawful Reachability / Constituted Reality](../../../../evidence/lawful-reachability-constituted-reality.md): reachability is not constitution.
 
 The candidate law is useful only if these distinct authority models remain distinct.

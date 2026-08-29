@@ -1,226 +1,141 @@
+---
+description: >-
+  A bounded greenhouse for unproven primitives, organized by research question
+  rather than exposed as one flat database index.
+---
+
 # Primitive Incubator
 
-A place for strange ideas to germinate before they become roadmap obligations.
+A bounded greenhouse for strange ideas **before** they become roadmap obligations, project authority, durable Evidence, or portable Patterns.
 
-Recording an idea here does **not** mean we have decided to build it. The purpose is to preserve the observation long enough to discover whether there is a reusable primitive underneath it.
+Recording an idea here does **not** mean we have decided to build it.
 
-## Template
+> **The Incubator should be a greenhouse, not a warehouse.**
+
+The previous flat cortex was packetized on 2026-08-28/29 after it began mixing raw seeds, project-backed specimens, portable-law candidates, and large research programs at one navigation level.
+
+Nothing was discarded. The previous front-page seed record is frozen in Incubator Origin Ledger — Early Seeds & Graduations.
+
+The promotion analysis is preserved in [Research Packet 001 — Primitive Incubator Promotion Audit](../../evidence/research-packet-001-primitive-incubator-promotion-audit.md).
+
+## Enter by question
+
+### [THE SEEDBANK — ELF-OFF-A-SHELF](the-seedbank-elf-off-a-shelf/)
+
+Live high-potential seed work that is still intentionally pre-promotion.
+
+### [Research Packet A — Crossing, Consequence & Local Constitution](research-packet-a-crossing-consequence-and-local-constitution/)
+
+What may cross a boundary? What becomes consequence? What remains refused, merely routed, or locally unconstituted?
+
+### [Research Packet B — Continuity, Carrier, Re-entry & Reconstruction](research-packet-b-continuity-carrier-re-entry-and-reconstruction/)
+
+What survives transformation, rupture, local death, reconstruction, transmission, or return—and what must be constituted anew?
+
+### [Research Packet C — Witness, Knowability & Observer-Local Epistemics](research-packet-c-witness-knowability-and-observer-local-epistemics/)
+
+What could this observer lawfully encounter, know, derive, witness, or relay without omniscience or authority laundering?
+
+### [Research Packet D — Crucibles, Counterexamples & Promotion](research-packet-d-crucibles-counterexamples-and-promotion/)
+
+How do we tell whether a candidate law survived pressure, failed concretely, needs to split, or was only mistranslated?
+
+### [Research Packet E — Creative, Material & Metaphor Portals](research-packet-e-creative-material-and-metaphor-portals/)
+
+High-yield strange portals that must leave metaphor with explicit invariants before promotion.
+
+### [Research Packet F — Narrative, Embodied & Symbolic Worlds](research-packet-f-narrative-embodied-and-symbolic-worlds/)
+
+Narrative, theological, embodied, symbolic, historical, and world-building research with evidence classes kept explicit.
+
+### [Research Packet G — Active Project Frontiers](research-packet-g-active-project-frontiers/)
+
+Project-backed frontier work whose canonical design, implementation, tests, or issue state already lives in an owning repository.
+
+## Research-state ladder
+
+```
+SEED
+  ↓
+ACTIVE RESEARCH
+  ↓
+PROJECT-BACKED
+  ↓
+CROSS-PROJECT
+  ↓
+PROMOTE
+```
+
+At any stage the lawful disposition may instead be:
+
+```
+HOLD | SPLIT | RETIRE
+```
+
+The two questions are separate:
+
+1. **How much has this survived?**
+2. **What kind of home has it earned?**
+
+A landed implementation generally earns a project-backed Evidence witness. It does **not** automatically earn a portable Pattern.
+
+## Primitive template
 
 ```
 Primitive:
-
 Felt possibility:
-
 Existing analogue:
-
 What must stay invariant:
-
 Smallest experiment:
-
 What would make this graduate:
 ```
 
-Optional questions:
+Useful pressure questions:
 
-* Is this actually a new primitive, or a composition of things we already have?
-* What part of the idea is phenomenon, and what part is aesthetic costume?
+* Is this new, or a composition of primitives we already have?
+* What is phenomenon and what is aesthetic costume?
 * Does it need authority, or only the ability to propose?
-* What evidence would tell us the experiment failed?
-* Where would the canonical implementation belong if it succeeds?
+* What evidence would show failure?
+* Has a canonical project owner already emerged?
+* Is this one landed specimen, or a portable invariant reproduced in materially different domains?
 
-***
+## Promotion receipt
 
-## Incubating: bee communication field
-
-**Primitive:**\
-Bee quorum / waggle / scent field
-
-**Felt possibility:**\
-Distributed creative coordination in which no single participant has to own the whole plan. Direction, confidence, local state, and collective readiness emerge from several weak signals becoming mutually legible.
-
-**Existing analogue:**\
-TranchNode-style event/evidence fields; proposal and recognition systems; multi-participant creative frontiers.
-
-**What must stay invariant:**\
-No hidden authority. Signals may influence attention or convergence without silently becoming commands. The system must preserve who emitted which evidence and distinguish local observation from collective resolution.
-
-**Smallest experiment:**\
-Represent three independent signal channels for one candidate direction: vector/direction, confidence/intensity, and local corroboration. Let several participants emit signals and derive a visible quorum state without permitting the quorum calculation itself to mutate source events.
-
-**What would make this graduate:**\
-A specimen where distributed signals produce a useful coordination decision that is inspectable, replayable, and meaningfully different from a central chooser.
-
-### Graduated: Stigmergic Field v0.1 — 2026-08-10
-
-Status: **graduated to a portable pattern and linked executable specimen**.
-
-The experiment changed the original quorum-shaped framing in a useful way. The first proved primitive is not “quorum decides.” It is **environmental field state can become replayably legible without the field gaining authority**.
-
-* TranchNode owns the deterministic field projection and compatibility contract.
-* Band Runtime owns the coordinatorless encounter proof.
-* This notebook owns only the portable pattern, origin memory, and specimen record.
-* The original quorum experiment above remains historical evidence; it is not retroactively canonical.
-
-Notebook records:
-
-* Stigmergic Field pattern
-* Stigmergic Field v0.1 specimen
-
-Canonical implementation PRs:
-
-* TranchNode: https://github.com/the-static-collective/tranchnode/pull/38
-* Band Runtime: https://github.com/the-static-collective/band-runtime/pull/16
-
-***
-
-## Incubating: atmosphere field
-
-**Primitive:**\
-Smoke / rain / dust / firefly as one atmosphere family
-
-**Felt possibility:**\
-A reusable field layer describing what moves through a creative world rather than what the world is made of.
-
-**Existing analogue:**\
-Particle systems, vector fields, sparse autonomous agents, renderer overlays, and Haunted Toaster's orthogonal creative axes.
-
-**What must stay invariant:**\
-Atmosphere remains independent from garment/material identity. A material choice must not secretly determine an atmosphere, and an atmosphere must remain composable with multiple garments, topologies, motions, cameras, and typography systems.
-
-**Smallest experiment:**\
-Define one common atmosphere interface with density, direction or drift, persistence, depth behavior, and event responsiveness; implement two deliberately different families against it, such as rain and firefly.
-
-**What would make this graduate:**\
-One renderer specimen showing the same garment with two atmospheres and the same atmosphere with two garments, without special-case architecture.
-
-***
-
-## Graduated: ghost → Ghost / Residual Presence — 2026-08-22
-
-The original incubator primitive was:
-
-> **Residual presence after a source, participant, state, or event is no longer directly present.**
-
-Its invariant was already sharp:
-
-> **A ghost cannot acquire the authority of the thing that produced it. Residue may witness prior presence; it must not counterfeit current presence.**
-
-The proposed smallest experiment was one marked, provenance-bearing residual trace after a state transition that would normally erase visible presence.
-
-That idea has now survived materially different local embodiments: Full Measure's refused/indeterminate encounter residue, jublEchat Residual Lineage, HAUNT v0.1 influence-only cross-appliance memory, and Haunted Toaster's repeated expressive use of aftermath and ghost topology.
-
-The shared invariant survived while the projects kept different schemas, triggers, storage, vocabulary, and authority rules. That is enough to move the idea out of incubation.
-
-See [Ghost / Residual Presence — History Without Authority](../../patterns/ghost-residual-presence-history-without-authority.md).
-
-The historical incubator question remains useful: when a trace improves understanding or expression, can it remain impossible to confuse with current authoritative state? The promoted pattern keeps that pressure rather than declaring every residue implementation conforming.
-
-***
-
-## Incubating: artifact witness gate
-
-**Primitive:**\
-A staged completion witness from accepted change to human-observed artifact behavior
-
-**Felt possibility:**\
-Artifact-producing systems need a stronger meaning of “done” than source merge. A change can be accepted in review yet miss the intended main lineage, miss the built artifact, fail to execute inside that artifact, or execute without presenting the intended behavior to the human.
-
-A useful provisional chain is:
+When an idea leaves the Incubator, preserve a small receipt:
 
 ```
-accepted change
-  -> intended-main ancestry
-  -> artifact inclusion
-  -> artifact execution
-  -> witnessed behavior
+origin:
+what survived:
+what failed or was discarded:
+materially different specimens:
+new home:
+canonical authority:
+residual fog:
 ```
 
-Each arrow is evidence-bearing. None is implied by the previous one.
+Promotion is **extraction, not erasure**.
 
-**Existing analogue:**\
-Haunted Toaster exposed several distinct specimens in one product family: a Listener change merged into a stacked branch rather than `main`; source-level UX present on `main` but not initially witnessed in the packaged appliance; later package-entrypoint and sandbox regressions that required artifact/runtime-specific proof. The broader analogue includes APKs, native binaries, rendered media, bootable images, and generated MIDI where source correctness alone cannot establish what the recipient actually receives.
-
-**What must stay invariant:**\
-Generic PR completion should not pretend to know every artifact's runtime semantics. Each producing repository may add its own witness gates. “Merged,” “included,” “executed,” and “human-witnessed” remain distinct claims. Human witness is required only where the behavior is inherently perceptual, device-specific, environment-specific, or otherwise not mechanically characterized; it must not become ritual evidence where automation is stronger.
-
-**Smallest experiment:**\
-In one artifact-producing repository, make the completion chain explicit and intentionally break each seam once: wrong target ancestry, omitted packaged asset, packaged runtime failure, and behavior that executes but is not actually presented. Require a legible failed gate for each specimen without changing generic PR-completion semantics.
-
-**What would make this graduate:**\
-Two or more materially different artifact-producing repositories can use the same gate vocabulary while keeping their repository-specific proof adapters separate, and the stronger completion law catches a real false-positive “done” state that ordinary merge/CI status would have accepted.
-
-***
-
-## Incubating: declared-freedom descendant
-
-**Primitive:**\
-Deterministic descendant generation that preserves ancestry and declares exactly which freedom was spent
-
-**Felt possibility:**\
-Several creative and substrate systems now produce lawful neighboring descendants from a preserved ancestor under deterministic pressure. The common structure may be smaller than either product's trigger semantics:
+## Routing rule
 
 ```
-preserved parent
-+ declared resolver / generation policy
-+ allowed dimensions
-+ optional deterministic seed
-  -> independently addressed descendant proposal(s)
-  -> explicit changed-dimension evidence
+raw possibility       -> Seed / research packet
+coherent hypothesis   -> Active Research
+landed owner specimen -> Evidence / project-owned docs
+portable repeated law -> Pattern review
+stable shared term    -> Vocabulary review
+current executable    -> Project State projection
 ```
 
-**Existing analogue:**\
-TranchNode #29 defines a `BloomReceipt` after a refused proposal: the refusal remains true, protected state remains unchanged, and a neighboring proposal may be generated under a declared resolver. Haunted Toaster STOMP generates materially different lawful descendants from a selected ancestor under a deterministic “surprise me harder” pressure and records parent, seeds, locks, semantic breaks, distances, and threshold relaxation.
+Repository-owned current evidence outranks this navigation.
 
-These are family resemblances, not synonyms. **Lawful bloom is refusal-conditioned; STOMP is boredom/user-pressure conditioned.** Treating STOMP as a bloom would erase a meaningful trigger and authority distinction.
+If a page says “first specimen landed,” “project-backed,” or names a dedicated canonical repository, Primitive Incubator is probably no longer its active home.
 
-**What must stay invariant:**\
-The parent remains immutable and independently addressable. Descendants begin as descendants/proposals rather than retroactive edits. Policy, seed where relevant, constraints, and changed dimensions remain inspectable. Ordinary admission still applies. The reason generation was invoked belongs to the calling layer and must not be fabricated by the generic descendant contract.
+## Boundary
 
-**Smallest experiment:**\
-Do not share code yet. Characterize the smallest neutral receipt shape against a synthetic parent and bounded allowed-dimension set, then map one existing STOMP specimen and one future lawful-bloom specimen onto it. The mapping fails if it must lie about refusal, boredom, authority, or admission to make the shapes match.
+Packetization does not make a master ontology.
 
-**What would make this graduate:**\
-Executable specimens in at least two domains show that the same ancestry + deterministic-pressure + changed-dimension contract can be reused without erasing their distinct trigger/authority semantics. Only then consider a shared receipt/helper boundary.
+Shared language does not create shared authority.
 
-***
+Moving a page changes its **navigation home**, not its historical formation.
 
-## Incubating: witness session
-
-**Primitive:**\
-A shared, time-indexed evidence session spanning Listener, human correction, score intent, render execution, and final Witness Window observation
-
-**Felt possibility:**\
-The Toaster currently has several distinct truths that can accidentally look like one truth:
-
-```
-heard -> inferred -> admitted -> rendered -> witnessed
-```
-
-A Witness Session would preserve the seams rather than collapse them. At a given timestamp the Listener can say what it heard, the score can say what it intended, the renderer can say what it executed, and the Witness Window can say what actually escaped into the observable artifact.
-
-The session's job is not to choose which witness is “right.” Its job is to remember the difference.
-
-> **The Listener remembers what was heard.**\
-> **The score remembers what was intended.**\
-> **The Witness Window remembers what actually escaped.**\
-> **The session remembers the difference.**
-
-**Existing analogue:**\
-Haunted Toaster already has Listener session evidence such as prior placements, human anchors, and re-listen deltas. The Witness Window already closes the render graph through a single final observable video aperture. The Artifact Witness Gate separately distinguishes accepted source, artifact inclusion, execution, and human-witnessed behavior. Witness Session may be the runtime/evidence analogue joining these ideas without giving any one subsystem hidden authority.
-
-The immediate field specimen is lyric timing: a run may report complete lyric coverage while the opening sequence still has implausible temporal geometry. A proof-listen that shares session evidence could challenge the opening without loosening the matcher globally.
-
-**What must stay invariant:**\
-The Listener must not own the Witness Window, and the Witness Window must not become a semantic Listener. Each subsystem contributes testimony under its own authority boundary. Human corrections remain explicit anchors. Later evidence may corroborate or contradict earlier evidence without silently rewriting history. The Witness Window remains a simple final aperture; the session is the bridge.
-
-**Smallest experiment:**\
-For one Haunted Toaster render, produce a compact time-indexed session record containing: first-pass Listener placements/confidence, human anchors, proof-listen disposition, admitted lyric timing, score-triggered visual events, and final Witness Window evidence. Demonstrate one timestamp where these layers agree and one suspicious region where the proof-listen requests re-examination. No automatic rejection or self-watching is required yet.
-
-**What would make this graduate:**\
-The shared session localizes a real discrepancy that a flat “matched/rendered/accepted” receipt would have hidden, while preserving independent testimony and authority boundaries. A second domain can then reuse the same evidence-session shape without importing Toaster-specific semantics.
-
-**Current project slice:**\
-Haunted Toaster issue #120 — https://github.com/the-static-collective/the-haunted-toaster/issues/120
-
-**Possible later depth:**\
-A closed-loop observer could proof-listen or proof-watch the finished artifact and reject output when witnessed behavior contradicts admitted intent. That is deliberately beyond the incubator experiment.
+The Incubator's job is to keep enough weirdness alive to discover what survives—then let surviving things leave.

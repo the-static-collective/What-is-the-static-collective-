@@ -303,8 +303,8 @@ That is a materially richer boarding process.
 * [Groove Rooms repository](https://github.com/the-static-collective/groove-rooms)
 * [Band Runtime repository](https://github.com/the-static-collective/band-runtime)
 * [STORYSHIP 001 owner spec](https://github.com/the-static-collective/the-haunted-phonography/blob/main/docs/superpowers/specs/2026-08-24-storyship-001-the-door-design.md)
-* [Declared Witness Channels](../../../../frontier/primitive-incubator/declared-witness-channels.md)
-* [Crossing Discipline](../../../../frontier/primitive-incubator/crossing-discipline-no-unaccounted-consequence.md)
-* [Continuity Witness](../../../../frontier/primitive-incubator/continuity-witness-shared-questions-local-answers/)
+* [Declared Witness Channels](../../../../frontier/primitive-incubator/research-packet-c-witness-knowability-and-observer-local-epistemics/declared-witness-channels.md)
+* [Crossing Discipline](../../../../frontier/primitive-incubator/research-packet-a-crossing-consequence-and-local-constitution/crossing-discipline-no-unaccounted-consequence/)
+* [Continuity Witness](../../../../frontier/primitive-incubator/research-packet-b-continuity-carrier-re-entry-and-reconstruction/continuity-witness-shared-questions-local-answers/)
 
 **Authority effect:** none. This page defines a candidate direct seam and a bounded falsification specimen.

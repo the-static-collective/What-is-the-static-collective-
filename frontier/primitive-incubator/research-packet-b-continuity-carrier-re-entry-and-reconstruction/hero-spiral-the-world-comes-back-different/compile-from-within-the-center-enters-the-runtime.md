@@ -258,8 +258,8 @@ The world remains free to refuse an invalid or premature construction.
 * Romans 5.
 * 1 Corinthians 15.
 * Hebrews 2.
-* [Hero Spiral — The World Comes Back Different](../).
-* [D\&D\&D — The Player Is the Continuity Witness](../../../d-and-d-and-d-the-player-is-the-continuity-witness.md).
+* [Hero Spiral — The World Comes Back Different](../../).
+* [D\&D\&D — The Player Is the Continuity Witness](../../../../d-and-d-and-d-the-player-is-the-continuity-witness.md).
 * Daily Slice: https://github.com/the-static-collective/the-daily-slice/blob/main/slices/2026/08/2026-08-25/the-center-enters-the-runtime.md
 * DDD canonical project: https://github.com/the-static-collective/DerekDerrikDark
 

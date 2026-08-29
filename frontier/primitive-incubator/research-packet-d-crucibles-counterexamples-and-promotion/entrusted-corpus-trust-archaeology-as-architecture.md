@@ -38,7 +38,7 @@ This is a hypothesis. It has not graduated into a Pattern.
 
 ## Why this door is relevant now
 
-Corpus OS already contains a materially real executable specimen rather than only a metaphor. [Warranted Execution — Corpus OS Specimen](executable-membrane-javascript-encounter-surface/warranted-execution-corpus-os-specimen.md) records the landed composition:
+Corpus OS already contains a materially real executable specimen rather than only a metaphor. [Warranted Execution — Corpus OS Specimen](../research-packet-g-active-project-frontiers/executable-membrane-javascript-encounter-surface/warranted-execution-corpus-os-specimen.md) records the landed composition:
 
 ```
 proposal
@@ -51,7 +51,7 @@ proposal
 
 That specimen already separates the authority question from the capability/execution question, makes the warrant one-shot, and explicitly keeps `legalValidity: unclaimed`.
 
-Meanwhile [Lawful Reachability / Constituted Reality](lawful-reachability-constituted-reality.md) asks what present world is actually constituted rather than treating existing bytes as sufficient reality. The two lines now touch a much older institutional pressure: possession of the corpus, authority over it, benefit from it, purpose governing it, and continuity through successor stewards do not have to collapse into one identity.
+Meanwhile [Lawful Reachability / Constituted Reality](../../../evidence/lawful-reachability-constituted-reality.md) asks what present world is actually constituted rather than treating existing bytes as sufficient reality. The two lines now touch a much older institutional pressure: possession of the corpus, authority over it, benefit from it, purpose governing it, and continuity through successor stewards do not have to collapse into one identity.
 
 The historical resemblance is useful. It is **not yet a genealogy claim**.
 
