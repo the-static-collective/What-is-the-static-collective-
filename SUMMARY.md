@@ -180,6 +180,7 @@
 * [Continuity Spine v0.1 — Staged Transformation Through Time](evidence/continuity-spine-v0.1-staged-transformation-through-time.md)
 * [Human Witness — Encounter Evidence Membrane](evidence/human-witness-encounter-evidence-membrane.md)
 * [Research Packet 001 — Primitive Incubator Promotion Audit](evidence/research-packet-001-primitive-incubator-promotion-audit.md)
+* [National Treasure — SYZYGY-001 Landed Clue Checkpoint](evidence/national-treasure-syzygy-001-landed-clue-checkpoint.md)
 
 ## Witness
 
