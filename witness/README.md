@@ -32,6 +32,7 @@ If a strange dream appears here, it must be clearly labeled as fiction, metaphor
 * [`unresolved.md`](unresolved.md) — problems or questions worth preserving specifically because they remain unresolved.
 * [`jokes.md`](/broken/pages/gnoaGF2uWazAFzqB9LXm) — jokes, accidental phrases, and bits of language worth not killing through documentation.
 * [`field-notes.md`](field-notes.md) — compact operational breadcrumbs to future sessions.
+* [`2026-08-29 — Git Fossil Record Architecture Dig`](2026-08-29-git-fossil-record-architecture-dig.md) — a dated reconstruction of the architecture as it appeared after reading the early Git history as conversation residue; keeps Git evidence, human testimony, inference, and speculation separate.
 
 ## Entry law
 
