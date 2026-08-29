@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import importlib.util
 import json
+import subprocess
+import sys
 import unittest
 from pathlib import Path
 
@@ -59,6 +61,17 @@ class BlindProofTests(unittest.TestCase):
     def setUp(self) -> None:
         self.assertTrue(MODULE.exists(), "blind Gate-E runner must exist")
         self.module = load_module()
+
+    def test_direct_script_invocation_can_import_neutral_adapter(self):
+        completed = subprocess.run(
+            [sys.executable, str(MODULE), "--help"],
+            cwd=ROOT,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        self.assertEqual(completed.returncode, 0, completed.stderr)
+        self.assertIn("MORTAL-NARRATIVE-001", completed.stdout)
 
     def test_materialization_copies_exact_mortal_identity(self):
         manifest = load_json(NARRATIVE / "manifest.json")
