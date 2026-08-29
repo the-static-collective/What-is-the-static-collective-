@@ -1,0 +1,104 @@
+name: mortal-narrative-001
+
+on:
+  pull_request:
+    paths:
+      - "adapters/novelist/**"
+      - "specimens/mortal-narrative-001/**"
+      - "tools/verify_mortal_narrative_vector.py"
+      - "tools/run_mortal_narrative_blind_proof.py"
+      - "tests/test_mortal_narrative_*.py"
+      - ".github/workflows/mortal-narrative-001.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  blind-proof:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out Gate E
+        uses: actions/checkout@v4
+
+      - name: Check out pinned 3rdi handoff
+        uses: actions/checkout@v4
+        with:
+          repository: the-static-collective/3rdi
+          ref: 04781217996622cf3e8d151d845c64772189b17d
+          path: deps/3rdi
+
+      - name: Check out pinned LOADOUT binding
+        uses: actions/checkout@v4
+        with:
+          repository: the-static-collective/ALEX.2
+          ref: 08048efba661242d07b489240d237a6d1544e747
+          path: deps/loadout
+
+      - name: Check out pinned ALEX local support
+        uses: actions/checkout@v4
+        with:
+          repository: the-static-collective/ALEX.2
+          ref: 61acaee2d6f56c66431c00fb1720590f6c5c4e21
+          path: deps/alex
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify structural and unit contracts
+        run: |
+          python3 tools/verify_mortal_actor_vector.py specimens/mortal-actor-001
+          python3 tools/verify_mortal_narrative_vector.py specimens/mortal-narrative-001
+          python3 -m unittest \
+            tests.test_mortal_actor_vector \
+            tests.test_mortal_narrative_vector \
+            tests.test_mortal_narrative_formation \
+            tests.test_mortal_narrative_evaluator \
+            tests.test_mortal_narrative_render_guard \
+            tests.test_mortal_narrative_blind -v
+
+      - name: Run CASE with both oracles physically absent
+        run: |
+          mv specimens/mortal-actor-001/oracle/private-oracle.json /tmp/mortal-actor-private-oracle.json
+          mv specimens/mortal-narrative-001/oracle/private-oracle.json /tmp/mortal-narrative-private-oracle.json
+          python3 tools/run_mortal_narrative_blind_proof.py case \
+            --narrative-vector specimens/mortal-narrative-001 \
+            --actor-vector specimens/mortal-actor-001 \
+            --three-rdi-root deps/3rdi \
+            --loadout-root deps/loadout \
+            --alex-root deps/alex \
+            > /tmp/mortal-narrative-case.json
+          test ! -e specimens/mortal-actor-001/oracle/private-oracle.json
+          test ! -e specimens/mortal-narrative-001/oracle/private-oracle.json
+
+      - name: Restore oracles only after CASE and score
+        run: |
+          mv /tmp/mortal-actor-private-oracle.json specimens/mortal-actor-001/oracle/private-oracle.json
+          mv /tmp/mortal-narrative-private-oracle.json specimens/mortal-narrative-001/oracle/private-oracle.json
+          python3 tools/run_mortal_narrative_blind_proof.py score \
+            --narrative-vector specimens/mortal-narrative-001 \
+            --actor-vector specimens/mortal-actor-001 \
+            --case-receipt /tmp/mortal-narrative-case.json \
+            | tee /tmp/mortal-narrative-score.json
+
+      - name: Assert terminal Gate E controls
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          score = json.loads(Path('/tmp/mortal-narrative-score.json').read_text())
+          assert score['status'] == 'pass', score
+          assert score['mismatches'] == [], score
+          assert score['same_action_different_basis_control'] is True, score
+          assert score['later_cut_without_rewrite_control'] is True, score
+          assert score['local_false_belief_control'] is True, score
+          assert score['reader_irony_control'] is True, score
+          assert score['narrator_boundary_control'] is True, score
+          assert score['render_mode_control'] is True, score
+          assert score['no_authority_expansion'] is True, score
+          assert score['no_side_effects'] is True, score
+          assert score['beat_evaluation_count'] == 8, score
+          assert score['render_check_count'] == 4, score
+          PY
