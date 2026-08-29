@@ -1,0 +1,10 @@
+{
+  "schema": "mortal_actor.claim-set/v0",
+  "claims": [
+    {"id":"Q1","subject_id":"red-note-placed","object_id":"claim-red-note-was-present","predicate":"SUPPORTS","scope":"candidate_claim:claim-red-note-was-present","declared_basis_ids":["red-note-placed"]},
+    {"id":"Q2","subject_id":"lamp-flicker","object_id":"claim-door-is-unlocked","predicate":"SUPPORTS","scope":"candidate_claim:claim-door-is-unlocked","declared_basis_ids":["lamp-flicker"]},
+    {"id":"Q3","subject_id":"mirror-scratch","object_id":"claim-red-note-author","predicate":"SUPPORTS","scope":"candidate_claim:claim-red-note-author","declared_basis_ids":["mirror-scratch"]},
+    {"id":"Q4","subject_id":"clock-chime-left","object_id":"claim-left-chime-caused-right","predicate":"SUPPORTS","scope":"candidate_claim:claim-left-chime-caused-right","declared_basis_ids":["clock-chime-left"]},
+    {"id":"Q5","subject_id":"red-note-placed","object_id":"claim-a-can-now-identify-note","predicate":"SUPPORTS","scope":"candidate_claim:claim-a-can-now-identify-note","declared_basis_ids":["red-note-placed"]}
+  ]
+}
