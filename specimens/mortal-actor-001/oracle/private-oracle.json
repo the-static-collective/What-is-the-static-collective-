@@ -3,10 +3,10 @@
   "vector_id": "FOUR-WITNESSES-ONE-ROOM-001",
   "global_truth": {"Q1":true,"Q2":false,"Q3":null,"Q4":false,"Q5":"true-at-A1"},
   "expected_local_outcomes": {
-    "MA-A-A0":{"Q1":"basis_outside_projection","Q2":"basis_outside_projection","Q3":"local_basis_unresolved","Q4":"basis_outside_projection","Q5":"basis_outside_projection"},
-    "MA-B-B0":{"Q1":"basis_outside_projection","Q2":"basis_outside_projection","Q3":"basis_outside_projection","Q4":"basis_outside_projection","Q5":"basis_outside_projection"},
-    "MA-R-R0":{"Q1":"local_basis_accept","Q2":"basis_outside_projection","Q3":"local_basis_unresolved","Q4":"local_basis_unresolved","Q5":"local_basis_accept"},
-    "MA-N-N0":{"Q1":"local_basis_accept","Q2":"local_basis_accept","Q3":"basis_outside_projection","Q4":"local_basis_unresolved","Q5":"local_basis_accept"},
-    "MA-A-A1":{"Q1":"local_basis_accept","Q2":"basis_outside_projection","Q3":"local_basis_unresolved","Q4":"basis_outside_projection","Q5":"local_basis_accept"}
+    "MA-A-A0":{"Q1":"basis_outside_projection","Q2":"basis_outside_projection","Q3":"local_basis_unresolved","Q4":"local_basis_unresolved","Q5":"basis_outside_projection"},
+    "MA-B-B0":{"Q1":"basis_outside_projection","Q2":"basis_outside_projection","Q3":"local_basis_unresolved","Q4":"local_basis_unresolved","Q5":"basis_outside_projection"},
+    "MA-R-R0":{"Q1":"local_basis_accept","Q2":"basis_outside_projection","Q3":"local_basis_unresolved","Q4":"local_basis_unresolved","Q5":"basis_outside_projection"},
+    "MA-N-N0":{"Q1":"local_basis_accept","Q2":"local_basis_accept","Q3":"local_basis_unresolved","Q4":"local_basis_unresolved","Q5":"basis_outside_projection"},
+    "MA-A-A1":{"Q1":"local_basis_accept","Q2":"basis_outside_projection","Q3":"local_basis_unresolved","Q4":"local_basis_unresolved","Q5":"local_basis_accept"}
   }
 }
