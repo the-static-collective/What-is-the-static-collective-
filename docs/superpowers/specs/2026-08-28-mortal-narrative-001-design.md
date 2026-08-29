@@ -3,7 +3,7 @@
 **Status:** design for review  
 **Date:** 2026-08-28  
 **Owner surface:** neutral Static Collective design/proof surface  
-**Depends on:** MORTAL-ACTOR-001 contract and exact receipt interfaces; Novelist workflow semantics  
+**Depends on:** MORTAL-ACTOR-001 exact receipt interfaces; Novelist workflow semantics  
 **Does not depend on:** MEMENTO durability, eCODE admission, a shared runtime, or a standalone Novelist repository
 
 > **The story may know more than the character. The character may not act as though they do.**
@@ -12,19 +12,17 @@
 
 MORTAL-ACTOR-001 proved that an actor can reason lawfully from a partial world and still be wrong. MORTAL-NARRATIVE-001 carries that result into narrative composition.
 
-The profile exists to prevent one specific class of narrative cheat:
+It prevents one specific cheat:
 
-> A proposed character beat uses knowledge, certainty, inference, or interpretation that the character could not lawfully possess at the declared cut.
+> A proposed character beat uses knowledge, belief, suspicion, certainty, inference, or interpretation that the character could not lawfully possess at the declared cut.
 
-The profile does **not** choose the story, write prose, decide canon, or force a single correction. It determines whether the epistemic basis declared by a proposed beat belongs to the character's mortal world. When it does not, Novelist retains creative ownership of the reroute.
+The profile does **not** choose the story, write prose, decide canon, or force a single correction. It checks whether the epistemic basis declared by a proposed beat belongs to the character's mortal world. When it does not, Novelist retains creative ownership of the reroute.
 
-The intended result is not omniscient correctness. Characters may guess, gamble, misunderstand, believe false things, follow desire, obey loyalty, act from fear, or make terrible decisions. What they may not do is silently borrow author knowledge.
+Characters may guess, gamble, misunderstand, hold false beliefs, follow desire, obey loyalty, act from fear, or make terrible decisions. They may not silently borrow author knowledge.
 
-## 2. Working Seal
+## 2. Seals
 
 > **A lawful story is not one where everyone knows the truth. It is one where every choice belongs to the world that could actually produce it.**
-
-Operational shorthand:
 
 > **CHARACTERS MAY BE WRONG. THEY MAY NOT BE OMNISCIENT BY ACCIDENT.**
 
@@ -33,11 +31,7 @@ Operational shorthand:
 The common epistemic spine remains:
 
 ```text
-LOADOUT
-   ↓
-3rdi
-   ↓
-ALEX
+LOADOUT → 3rdi → ALEX
 ```
 
 MORTAL-NARRATIVE-001 is a downstream application profile:
@@ -45,19 +39,19 @@ MORTAL-NARRATIVE-001 is a downstream application profile:
 ```text
 LOADOUT → 3rdi → ALEX
                  │
-                 │ proven mortal receipts
+                 │ exact mortal receipts
                  ▼
               Novelist
                  │
-                 │ proposed beat + declared epistemic uses
+                 │ proposed beat
                  ▼
        MORTAL-NARRATIVE-001
-          ┌──────┴──────┐
-          │             │
-      admissible     reroute
+          ┌──────┼──────┐
+          ▼      ▼      ▼
+     admissible reroute unresolved
 ```
 
-Novelist remains the narrative composer. The neutral profile owns only the interoperability question: did this proposed beat rely on a knowledge state that the named actor could lawfully inhabit at the named cut?
+Novelist remains the narrative composer. The neutral profile owns only the interoperability question: **does this beat's declared epistemic state belong to this actor at this cut?**
 
 No component silently inherits another component's authority.
 
@@ -65,10 +59,10 @@ No component silently inherits another component's authority.
 
 ### LOADOUT owns
 
-- entry/evaluation compile identity and digest;
+- entry/evaluation compile ID and digest;
 - capability/effect fencing;
 - compile ancestry;
-- the rule that selection is not evidence;
+- `selection != evidence`;
 - proof that a binding did not execute a side effect.
 
 LOADOUT does not decide character knowledge or narrative admissibility.
@@ -77,7 +71,7 @@ LOADOUT does not decide character knowledge or narrative admissibility.
 
 - observer-local availability;
 - cut identity;
-- lawful visible occurrence and edge identities;
+- visible occurrence and edge identities;
 - contact, attention, decoder, and stance receipts;
 - projection identity.
 
@@ -86,11 +80,11 @@ LOADOUT does not decide character knowledge or narrative admissibility.
 ### ALEX owns
 
 - bounded support evaluation;
-- `LOCAL-SUPPORT-001` results;
+- `LOCAL-SUPPORT-001`;
 - attributable evidence-path pressure;
-- preservation of exact claim/cut/projection/compile identity.
+- exact claim/cut/projection/compile identity.
 
-ALEX does not decide what a character wants, what a scene should do, or whether a story beat is aesthetically good.
+ALEX does not decide what a character wants or what a scene should do.
 
 ### Novelist owns
 
@@ -99,31 +93,30 @@ ALEX does not decide what a character wants, what a scene should do, or whether 
 - reader-model progression;
 - proposed beats;
 - narrative causality and consequence;
-- choosing a lawful reroute when a beat cheats;
-- deciding whether a character knows, suspects, guesses, wagers, asks, tests, delays, changes POV, or refuses.
+- lawful reroute choice;
+- whether a character knows, believes, suspects, guesses, wagers, asks, tests, delays, changes POV, or refuses.
 
-Novelist may know more than a character because author-side planning is not character-side knowledge. It must not silently transfer that extra knowledge into the character.
+Author-side context is not character-side knowledge.
+
+### Neutral Gate E owns
+
+- proposal schemas;
+- validated narrative formation receipts;
+- the three creative dispositions;
+- proof that reader/narrator/author knowledge did not leak into character causality;
+- cross-stack hostile testing.
+
+It does not become a production master runtime.
 
 ### MEMENTO may later own
 
-- durable storage of selected narrative/world receipts;
-- UNDERSTORY residue;
-- historical-imagination persistence;
-- later resurfacing.
-
-MEMENTO is **not required** for Gate E. Memory persistence must not become a prerequisite for lawful cognition.
+Durable storage, UNDERSTORY residue, historical-imagination persistence, and resurfacing. MEMENTO is **not required** for Gate E cognition.
 
 ### eCODE may later own
 
-- constitutive admission of consequence;
-- the Heart / `H` crossing;
-- owning-world consequence after a beat is selected.
+Constitutive admission of consequence through `H`. MORTAL-NARRATIVE admissibility is not eCODE admission.
 
-MORTAL-NARRATIVE admissibility is not eCODE admission.
-
-## 5. Core Non-Collapse Ladder
-
-The profile preserves these distinctions:
+## 5. Non-Collapse Ladder
 
 ```text
 world truth
@@ -156,37 +149,36 @@ reroute required != action forbidden
 same external action != same causal basis
 ```
 
-## 6. The Central Invariant
+## 6. Central Invariant
 
-For any proposed character beat `b` by actor `o` at cut `c`:
+For a proposed beat `b` by actor `o` at cut `c`:
 
 ```text
 epistemic_basis(b) ⊆ lawfully_reachable(o, c)
 ```
 
-This condition applies only to the beat's declared **epistemic** basis.
+This applies only to the beat's declared epistemic basis.
 
-The following are not automatically evidence and must not be forced through ALEX as if they were claims:
+The following are not automatically evidence and must not be forced through ALEX as claims:
 
-- desire;
-- fear;
-- loyalty;
-- value;
-- obligation;
-- curiosity;
-- desperation;
-- aesthetic preference;
-- habit;
-- impulse;
-- faith;
-- wager;
-- bluff;
-- random choice;
-- strategy chosen under acknowledged uncertainty.
+```text
+desire
+fear
+loyalty
+value
+obligation
+curiosity
+desperation
+habit
+impulse
+faith
+wager
+bluff
+random choice
+strategy under acknowledged uncertainty
+```
 
-A character therefore may take the same physical action for different lawful reasons.
-
-Example:
+Therefore the same physical action may be lawful under one causal basis and cheating under another.
 
 ```text
 external action: OPEN NORTH DOOR
@@ -195,21 +187,19 @@ external action: OPEN NORTH DOOR
 Illegal A0 basis:
 
 ```text
-A opens the north door because A KNOWS the red note points north.
+A opens it because A KNOWS the red note points north.
 ```
 
-Lawful A0 reroute:
+Lawful A0 basis:
 
 ```text
-A opens the north door because the clock is running,
+A opens it because the clock is running,
 nothing else has worked, and A decides to gamble.
 ```
 
 The profile rejects counterfeit knowledge, not dramatic action.
 
 ## 7. Beat Proposal Contract
-
-The neutral profile receives a structured proposal. v0 should be small enough to inspect by eye.
 
 ```json
 {
@@ -226,41 +216,58 @@ The neutral profile receives a structured proposal. v0 should be small enough to
     {
       "claim_id": "Q5",
       "requested_mode": "KNOW",
-      "formation_refs": []
+      "formation_receipt_id": null
     }
   ],
   "non_epistemic_drivers": [
-    {
-      "kind": "pressure",
-      "ref": "clock-running"
-    }
+    {"kind": "pressure", "ref": "clock-running"}
   ],
   "proposed_action": "open-north-door",
   "proposed_consequence": "north-door-opens"
 }
 ```
 
-The proposal carries references, not hidden world content.
+Required identity fields:
 
-### Required identity fields
+```text
+beat_id
+actor_id
+cut_id
+projection_digest
+evaluation_compile_id
+evaluation_compile_digest
+dramatic_destination
+epistemic_uses
+proposed_action
+```
 
-- `beat_id`
-- `actor_id`
-- `cut_id`
-- `projection_digest`
-- `evaluation_compile_id`
-- `evaluation_compile_digest`
-- `dramatic_destination`
-- `epistemic_uses`
-- `proposed_action`
+`parent_beat_id` is null for an original proposal. A reroute creates a new `beat_id` and points back to the failed candidate. Failed proposals are not overwritten.
 
-`parent_beat_id` is null for an original proposal. A reroute must either set `parent_beat_id` to the rejected proposal or preserve equivalent explicit candidate ancestry; it may not overwrite the failed proposal.
+`proposed_consequence` may be null because a planner may pressure a beat before consequence is selected.
 
-`proposed_consequence` may be null because a narrative planner may pressure a beat before consequence is selected.
+## 8. Narrative Formation Receipt
 
-### Formation references
+A bare 3rdi stance, cue, or contact cannot justify an arbitrary semantic claim. Gate E therefore uses a small typed receipt to bind a character-local formation to a specific claim.
 
-`formation_refs` are explicit references to character-local formation receipts. v0 uses namespaced IDs so the evaluator never guesses what an untyped string means:
+```json
+{
+  "schema": "mortal_narrative.formation/v0",
+  "formation_id": "BELIEF-N-Q2",
+  "actor_id": "N",
+  "cut_id": "N0",
+  "projection_digest": "sha256:...",
+  "evaluation_compile_id": "C0",
+  "evaluation_compile_digest": "sha256:...",
+  "claim_id": "Q2",
+  "mode": "BELIEVE",
+  "formation_refs": [
+    "stance:stance-lamp-N",
+    "decoder:decode-lamp-N"
+  ]
+}
+```
+
+`formation_refs` use explicit namespaces:
 
 ```text
 occurrence:<id>
@@ -270,15 +277,25 @@ decoder:<id>
 stance:<id>
 relevance:<edge-id>
 causal:<edge-id>
-belief:<prior-narrative-receipt-id>
-suspicion:<prior-narrative-receipt-id>
 ```
 
-The evaluator may only accept a formation reference if the referenced identity is present in the exact character-local receipt set supplied to the Gate-E run. Reader-only, narrator-only, author-only, or globally known IDs are not valid substitutes.
+A formation receipt is valid only when:
 
-## 8. Epistemic Use Modes
+1. actor, cut, projection digest, compile ID, and compile digest match the exact mortal run;
+2. every formation reference resolves inside the exact character-local 3rdi handoff;
+3. its `claim_id` matches the epistemic use it is meant to support;
+4. its mode is `BELIEVE` or `SUSPECT`;
+5. it was validated before being reused by a later beat.
 
-v0 supports a deliberately small vocabulary:
+Reader-only, narrator-only, author-only, hidden, or globally known IDs cannot validate a character formation receipt.
+
+The formation receipt does **not** claim the proposition is true. It claims only that this character formed this belief/suspicion from these attributable local materials.
+
+MEMENTO may persist such a receipt later, but MEMENTO does not create its validity.
+
+## 9. Epistemic Use Modes
+
+v0 supports four narrative declarations:
 
 ```text
 KNOW
@@ -287,66 +304,69 @@ SUSPECT
 GUESS
 ```
 
-These modes are narrative declarations, not new ALEX predicates or universal philosophical definitions.
+These are application modes, not universal philosophical definitions or new ALEX predicates.
 
 ### `KNOW`
 
-Requires the exact `LOCAL-SUPPORT-001` result for the declared `claim_id`, cut, projection digest, compile ID, and compile digest to be `local_basis_accept`.
+Requires the exact `LOCAL-SUPPORT-001` result for the declared claim/cut/projection/compile identity to be:
 
-`formation_refs` may accompany the proposal for narrative provenance but cannot substitute for a missing local-support acceptance.
+```text
+local_basis_accept
+```
 
-If local support is `basis_outside_projection`, `local_basis_unresolved`, `projection_mismatch`, or `compile_mismatch`, `KNOW` cannot pass.
+A formation receipt cannot substitute for missing local support.
+
+If support is outside projection, unresolved, or identity-mismatched, `KNOW` cannot pass.
 
 ### `BELIEVE`
 
-Requires an attributable character-local formation state. In v0, at least one `formation_ref` must resolve to either:
+Requires a valid `mortal_narrative.formation/v0` receipt with:
 
-- `stance:<id>` visible in the 3rdi handoff; or
-- `belief:<prior-narrative-receipt-id>` supplied by the neutral narrative context.
+```text
+mode = BELIEVE
+claim_id = requested claim
+```
 
-A `local_basis_accept` result alone does **not** prove belief. Supportability is not mental state.
+ALEX `local_basis_accept` alone does **not** prove belief. Supportability is not mental state.
 
-A belief may be narratively admissible even when the sealed global oracle later says the proposition is false.
+A belief may be admissible while globally false.
 
 ### `SUSPECT`
 
-Requires at least one attributable character-local formation reference from:
+Requires a valid formation receipt with:
 
-- visible occurrence;
-- contact;
-- attention event;
-- decoder application;
-- stance;
-- visible relevance edge;
-- visible causal edge;
-- prior suspicion receipt.
+```text
+mode = SUSPECT
+claim_id = requested claim
+```
 
-A globally attractive theory with no character-local formation route is not a lawful suspicion merely because the author likes it.
+The underlying formation refs may be weaker than a SUPPORTS path: visible cue, contact, decoder application, relevance edge, stance, or other local formation material.
 
-A suspicion need not satisfy `LOCAL-SUPPORT-001`; its weaker status must remain explicit in the proposal and any rendered prose.
+A globally attractive theory with no validated character-local suspicion receipt is not automatically a lawful suspicion.
+
+If Novelist wants to downgrade `KNOW → SUSPECT`, it may insert or propose the formation step that earns the suspicion rather than simply relabeling certainty.
 
 ### `GUESS`
 
-May be lawful without evidence for the guessed proposition. `formation_refs` may be empty.
+May be lawful without evidence or a formation receipt.
 
-When a `GUESS` is actually used to cause an action, the beat must carry at least one non-epistemic driver that the character can inhabit, such as pressure, wager, random choice, curiosity, desire, or strategy under acknowledged uncertainty.
+When a guess causes an action, the beat must carry at least one non-epistemic driver the character can actually inhabit: pressure, wager, curiosity, desire, random choice, or acknowledged-uncertainty strategy.
 
-`GUESS` is not a loophole for prose that narrates certainty while metadata says uncertainty. The Novelist-facing integration proof must preserve the declared mode in the rendered beat.
+`GUESS` is not a metadata loophole. The later render check must refuse prose/structured rendering that states certainty while the proposal declares a guess.
 
-## 9. Evaluator Inputs
+## 10. Evaluator Inputs and Identity Gate
 
-The neutral evaluator receives four separately attributable inputs:
+The neutral evaluator receives separately attributable inputs:
 
 ```text
 1. beat proposal
 2. exact LOADOUT mortal binding
 3. exact 3rdi mortal handoff
 4. exact ALEX LOCAL-SUPPORT results needed by the proposal
+5. zero or more validated narrative formation receipts
 ```
 
-It may additionally receive a bounded neutral narrative-state ledger containing prior `belief:` or `suspicion:` receipts. Such prior states are narrative receipts, not MEMENTO requirements.
-
-The evaluator must cross-check:
+It cross-checks, where applicable:
 
 ```text
 actor_id
@@ -357,13 +377,13 @@ evaluation_compile_digest
 claim_id
 ```
 
-across the relevant receipts before evaluating the requested mode.
+before evaluating a requested mode.
 
-An identity mismatch is invalid input. It is not a creative `reroute_required` result.
+Identity mismatch or malformed schema is an input error. It must **not** become a creative reroute.
 
-## 10. Evaluator Dispositions
+## 11. Creative Dispositions
 
-The profile has only three valid top-level creative dispositions:
+Only three creative dispositions exist in v0:
 
 ```text
 narrative_admissible
@@ -371,42 +391,25 @@ reroute_required
 narrative_unresolved
 ```
 
-These are application-profile dispositions only.
-
-They are **not**:
-
-- truth values;
-- canon states;
-- eCODE admission;
-- world mutation;
-- publication approval;
-- side-effect permission;
-- aesthetic scores.
+They are not truth, canon, admission, publication approval, world mutation, aesthetic scores, or side-effect permission.
 
 ### `narrative_admissible`
 
-Every declared epistemic use is lawful at the named actor/cut under its declared mode, and all identity checks are coherent.
+Every declared epistemic use is lawful under its declared mode and exact identities match.
 
 ### `reroute_required`
 
-At least one declared epistemic use counterfeits a stronger state than the actor's world supports.
+At least one epistemic use counterfeits a stronger state than the actor's world supports.
 
-The result identifies the offending use but does not prescribe the rewrite.
+The result identifies the offending use but does not prescribe a rewrite.
 
 ### `narrative_unresolved`
 
-The system lacks enough attributable information to decide the requested epistemic mode without inventing state, or a supported ambiguity should remain fog rather than become refusal.
+The profile has insufficient attributable information to decide a declared epistemic state without inventing it, or supported ambiguity should remain fog.
 
-Examples:
+## 12. Reroute Receipt and Creative Authority
 
-- `SUSPECT` names only an unresolved formation reference whose status is not yet established;
-- `BELIEVE` depends on a prior narrative belief receipt that is referenced but unavailable to this bounded run.
-
-Malformed schema or identity mismatch is an evaluation error outside these three dispositions.
-
-## 11. Reroute Receipt
-
-A reroute result should be compact and creative-authority preserving:
+Example:
 
 ```json
 {
@@ -430,46 +433,38 @@ A reroute result should be compact and creative-authority preserving:
 }
 ```
 
-The receipt does not say:
+The evaluator does not command:
 
 ```text
 make A guess
 make A ask B
-move scene to A1
-change POV to R
+move to A1
+change POV
 ```
 
-Those are possible Novelist choices, not gate outputs.
-
-## 12. Lawful Reroute Space
-
-When a beat receives `reroute_required`, Novelist may preserve the dramatic destination through any lawful composition, including:
+Novelist may choose any lawful reroute, including:
 
 ```text
-KNOW → SUSPECT
+KNOW → earned SUSPECT
 KNOW → GUESS
-SUSPECT → GUESS
-acquire a missing clue
+acquire a clue
 ask another actor
 receive testimony
 perform an experiment
 delay until a later cut
 change viewpoint
-change narrator distance
-let the character bluff
-let the character choose without knowing
-let the character fail
+bluff
+choose without knowing
+fail
 change the dramatic destination
-refuse the beat entirely
+refuse the beat
 ```
 
-The reroute must generate a **new proposal** with its own `beat_id` and `parent_beat_id` pointing to the failed candidate. The original illegal proposal remains an attributable failed candidate; it is not silently overwritten.
+A reroute is a new proposal with explicit ancestry.
 
-## 13. Reader-Model Boundary
+## 13. Reader and Narrator Boundary
 
-Novelist already distinguishes author-side context from reader-visible evidence. MORTAL-NARRATIVE extends the same discipline to character-local state.
-
-A scene may lawfully use dramatic irony:
+Dramatic irony is lawful:
 
 ```text
 reader knows X
@@ -478,58 +473,44 @@ character does not know X
 
 The narration may expose X to the reader while the character acts under partial information.
 
-The profile must reject this collapse:
+This collapse is forbidden:
 
 ```text
 reader knows X
 therefore character behaves as though X is known
 ```
 
-unless a separate character-local route exists.
+Reader exposure is not a 3rdi exposure for the character. Narrator knowledge is also not character knowledge unless narrator and character are explicitly the same observer for that beat.
 
-Reader exposure is not a 3rdi exposure for the character. A `formation_ref` that exists only in reader- or narrator-side planning must fail character-local resolution.
+A reader-only or narrator-only ID cannot validate a character formation receipt.
 
-Narrator knowledge is also not character knowledge unless the narrative contract explicitly identifies narrator and character as the same observer for that beat.
+## 14. Attributable Error Is Required
 
-## 14. Attributable Error Is a Required Feature
-
-The profile must preserve the Gate-D killer control:
+Gate E must preserve the Gate-D killer control:
 
 ```text
-character has an attributable local formation for Q2
+N has attributable local formation for Q2
 sealed global oracle says Q2 is false
 ```
 
-A beat that uses Q2 as `BELIEVE` may be `narrative_admissible` when its stance or prior-belief formation is character-local.
+A validated `BELIEVE` receipt for Q2 may therefore make a beat `narrative_admissible`.
 
-The system must not "correct" the character from global truth.
+The system must not correct the character from global truth.
 
-This is mandatory because the purpose is lawful agency, not omniscient truth enforcement.
-
-The resulting narrative possibilities include:
-
-- unreliable narrators with attributable causes;
-- tragic misunderstandings;
-- reasonable but false deductions;
-- prophecy interpreted incorrectly;
-- fair-play mystery error;
-- retrospective revelation without rewriting earlier knowability;
-- time-travel stories without hindsight leakage.
+This is required for attributable unreliable narration, tragic misunderstanding, reasonable false deduction, prophecy misinterpretation, fair-play mystery error, and retrospective revelation without hindsight rewrite.
 
 ## 15. Hostile Specimen — THE PERFECT SCENE THAT CHEATS
 
-Gate E should extend the `FOUR WITNESSES / ONE ROOM` world rather than invent a new ontology.
+Gate E extends `FOUR WITNESSES / ONE ROOM` rather than inventing a new ontology.
 
-The hostile fixture contains three required candidates around the same dramatic destination.
-
-### Candidate E1 — beautiful but illegal
+### E1 — beautiful but illegal
 
 ```text
 actor: A
 cut: A0
 destination: open north door
 action: open north door
-epistemic use: Q5 as KNOW
+Q5 requested as KNOW
 ```
 
 Expected:
@@ -538,9 +519,7 @@ Expected:
 reroute_required
 ```
 
-Reason: Q5's required basis is not lawfully present at A0.
-
-### Candidate E2 — same destination, lawful wager
+### E2 — same destination, lawful wager
 
 ```text
 actor: A
@@ -549,6 +528,7 @@ destination: open north door
 action: open north door
 epistemic uses: []
 non-epistemic driver: escalating clock pressure + deliberate gamble
+parent_beat_id: E1
 ```
 
 Expected:
@@ -557,15 +537,19 @@ Expected:
 narrative_admissible
 ```
 
-This proves `same external action != same causal basis`.
+This proves:
 
-### Candidate E3 — later knowledge is lawful
+```text
+same external action != same causal basis
+```
+
+### E3 — later knowledge is lawful
 
 ```text
 actor: A
 cut: A1
 destination: identify the note and act on it
-epistemic use: Q5 as KNOW
+Q5 requested as KNOW
 ```
 
 Expected:
@@ -574,112 +558,129 @@ Expected:
 narrative_admissible
 ```
 
-This proves later formation may change actionability without rewriting A0.
+This proves later formation changes what can lawfully drive action without rewriting A0.
 
 ## 16. Additional Hostile Controls
 
-### Reader-knowledge leak
+### Reader leak
 
-Give the reader Q1 while withholding its basis from the viewpoint character. A beat may exploit tension or irony but must not give the character Q1 as `KNOW` or use a reader-only identity as a valid `formation_ref`.
+Reader receives Q1; character does not. Dramatic irony is allowed. Q1 as character `KNOW` is refused unless a separate character-local route exists.
 
-### Narrator/character collapse
+### Narrator leak
 
-A narrator-local fact must not silently become viewpoint-character knowledge. A narrator-only formation reference is invalid for the character.
+Narrator-local knowledge cannot validate character knowledge or formation.
 
 ### False local belief
 
-Use Q2 at N0 with its attributable stance formation. The global oracle remains false. A character beat using Q2 as `BELIEVE` must remain admissible.
+At N0, create a validated `BELIEVE` formation receipt for Q2 from the attributable N-local stance/decoder history. Global Q2 remains false. The beat must remain admissible.
 
 ### Unsupported attractive theory
 
-Q3 remains narratively attractive but lacks an attributable support path. `KNOW` must not pass. `SUSPECT` may pass only if the fixture supplies a separate character-local formation reference; otherwise the result remains unresolved or requires reroute according to the declared use.
+Q3 has no attributable SUPPORTS path. `KNOW` fails. `SUSPECT` passes only with a validated Q3 suspicion formation receipt; otherwise it does not materialize from author preference.
 
 ### Fake causal serialization
 
-Q4 cannot gain causal legitimacy from display order. Novelist may describe simultaneous chimes in sequence for prose readability, but textual order must not mint the character's causal knowledge.
+Q4 cannot gain causal legitimacy from prose/display order. Textual sequence may render concurrency but may not mint character causal knowledge.
 
-### Metadata/prose mode mismatch
+### Mode/render mismatch
 
-A proposal marked `GUESS` must fail the integration proof if its rendered beat states certainty as knowledge without a later lawful transition. This check belongs to the Novelist-facing integration proof, not ALEX.
+A `GUESS` proposal whose structured rendered beat states `KNOW` must fail the integration proof.
 
 ### Reroute ancestry
 
-E2, when generated specifically as a response to E1, must preserve E1 as `parent_beat_id`. The failed candidate may not disappear from the trace.
+E2 must preserve E1 as parent. The illegal candidate may not vanish from the trace.
 
-## 17. Proposed Gate-E Proof Flow
+### Digest mismatch
+
+Matching compile ID with a different compile digest is a hard input failure.
+
+## 17. Blind Proof Rules
+
+Gate E inherits Gate D's blindness discipline.
+
+Narrative evaluation runs with the sealed global oracle physically absent. The oracle may be restored only after all proposals, formation receipts, and Gate-E evaluations are complete.
+
+The oracle may score:
+
+- E1 reroutes;
+- E2 passes;
+- E3 passes;
+- false local belief remains narratively lawful;
+- reader/narrator knowledge did not leak;
+- reroute ancestry survives;
+- mode/render assertions agree;
+- no side effect, canon mutation, or eCODE admission occurred.
+
+The oracle may not tell Novelist how to reroute E1.
+
+## 18. Host Surface and Implementation Shape
+
+There is no standalone Static Collective Novelist runtime repository in the current layout. v0 therefore **does not invent one**.
+
+The first executable Gate-E adapter lives in the same neutral proof repository as MORTAL-ACTOR under a focused neutral module such as:
 
 ```text
-frozen MORTAL-ACTOR CASE
-        │
-        ├── exact LOADOUT binding receipt
-        ├── exact 3rdi projection handoff
-        └── exact ALEX local-support result
-                    │
-                    ▼
-          Novelist beat proposal
-                    │
-                    ▼
-        MORTAL-NARRATIVE evaluator
-                    │
-        ┌───────────┼────────────┐
-        ▼           ▼            ▼
-   admissible     reroute      unresolved
-        │           │            │
-        └──── receipts only ─────┘
+tools/mortal_narrative/
 ```
 
-The proof harness should compose pinned constituent commits exactly as Gate D did. It must not create a shared production runtime merely to run the specimen.
+Its Novelist-facing adapter translates structured Novelist control data into `mortal_narrative.beat-proposal/v0` and validates returned Gate-E evaluations. It does not draft prose and does not become a new authoring engine.
 
-## 18. Blindness and Oracle Rules
+The implementation plan should use these independently reviewable gates:
 
-Gate E must inherit Gate D's blindness discipline.
+### Gate E0 — neutral narrative fixture
 
-Character-side and Novelist-side evaluation occurs without reading sealed global truth.
+Add E1/E2/E3, formation receipts, reader/narrator controls, and sealed oracle expectations.
 
-The oracle may score afterward:
+### Gate E1 — neutral evaluator
 
-- whether E1 rerouted;
-- whether E2 passed;
-- whether E3 passed;
-- whether a locally formed false belief was preserved as narratively lawful;
-- whether reader knowledge leaked into character knowledge;
-- whether reroute ancestry survived;
-- whether no side effect or eCODE admission occurred.
+Implement exact identity checks, formation-receipt validation, epistemic-mode rules, and the three creative dispositions.
 
-The oracle must not tell Novelist how to reroute E1.
+### Gate E2 — neutral Novelist adapter
 
-## 19. Failure Modes
+Implement the tiny structured translation layer under `tools/mortal_narrative/`. No MEMENTO dependency and no imports that make ALEX/3rdi internal schemas into Novelist semantics.
 
-The Gate E implementation is invalid if any of these occur:
+### Gate E3 — mode-preserving render check
 
-1. Novelist directly reads sealed global truth to decide character state.
-2. Reader knowledge silently becomes character knowledge.
-3. Narrator knowledge silently becomes character knowledge.
-4. An unknown or reader-only `formation_ref` is treated as character-local.
-5. LOADOUT selection is treated as narrative evidence.
-6. 3rdi relevance is treated as semantic support.
-7. ALEX `local_basis_accept` is treated as belief.
-8. ALEX `local_basis_accept` is treated as global truth.
-9. ALEX `local_basis_accept` is treated as authority or canon.
-10. `reroute_required` forbids the external action rather than the counterfeit basis.
-11. The gate prescribes a single rewrite and steals creative authority from Novelist.
-12. A lawful false belief is "corrected" using the private oracle.
-13. A later A1 state rewrites what A could know at A0.
-14. Textual serialization of concurrent events creates causal knowledge.
-15. A proposal claims `GUESS` while rendered prose states certainty without a lawful transition.
-16. A reroute overwrites the failed candidate instead of preserving ancestry.
-17. MEMENTO durability becomes required for Gate E cognition.
-18. eCODE admission or world mutation is performed by the narrative gate.
-19. The integration harness becomes a new master runtime or ontology.
-20. Compile ID matches while compile digest differs and the gate proceeds anyway.
+Use explicit structured rendering assertions in the hostile fixture. Do not attempt unconstrained natural-language mind reading in v0.
 
-## 20. Non-Goals for v0
+### Gate E4 — blind hostile proof
 
-MORTAL-NARRATIVE-001 v0 does not attempt to:
+Compose exact pinned Gate-D constituents plus Gate-E evaluator/adapter with the oracle absent during evaluation.
+
+### Gate E5 — optional MEMENTO durability
+
+Only after E0–E4 pass, define optional persistence. It cannot change prior dispositions.
+
+## 19. Failure Conditions
+
+Gate E is invalid if any of these occur:
+
+1. Novelist reads sealed global truth to decide character state.
+2. Reader or narrator knowledge silently becomes character knowledge.
+3. A bare 3rdi stance/cue is treated as belief in an arbitrary claim.
+4. An invalid formation receipt is reused.
+5. LOADOUT selection becomes evidence.
+6. 3rdi relevance becomes semantic support.
+7. ALEX `local_basis_accept` becomes belief, global truth, authority, or canon.
+8. `reroute_required` forbids the external action rather than the counterfeit basis.
+9. The evaluator prescribes a single rewrite.
+10. A lawful false belief is corrected from the private oracle.
+11. A1 rewrites A0 knowability.
+12. Textual serialization mints causal knowledge.
+13. `GUESS` metadata renders as certainty without a lawful transition.
+14. Reroute ancestry is erased.
+15. MEMENTO becomes required for cognition.
+16. Gate E performs eCODE admission or world mutation.
+17. The proof harness becomes a master runtime or ontology.
+18. Compile ID matches but compile digest differs and evaluation proceeds.
+
+## 20. Non-Goals
+
+v0 does not:
 
 - solve every theory of knowledge;
-- define universal semantics for `KNOW`, `BELIEVE`, `SUSPECT`, or `GUESS`;
-- infer emotions from evidence;
+- define universal semantics for KNOW/BELIEVE/SUSPECT/GUESS;
+- infer emotion from evidence;
 - decide whether a scene is good;
 - automatically write replacement prose;
 - create canon;
@@ -687,46 +688,16 @@ MORTAL-NARRATIVE-001 v0 does not attempt to:
 - persist memory;
 - replace Novelist continuity checking;
 - merge Novelist and 3rdi ontologies;
-- model group minds or distributed collective belief;
-- handle deception between multiple agents beyond what the fixture needs;
+- model group minds;
+- build a general deception engine;
 - support arbitrary nested narrator frames;
-- turn every non-epistemic motive into a typed ontology.
+- type every human motive.
 
-YAGNI rule: if the hostile fixture does not require a richer distinction, v0 does not mint one.
+YAGNI: if the hostile fixture does not require a richer distinction, v0 does not mint one.
 
-## 21. Implementation Shape After Spec Approval
+## 21. Success Criteria
 
-The implementation plan should be decomposed into independently reviewable gates:
-
-### Gate E0 — neutral narrative fixture
-
-Extend the neutral specimen with beat proposals E1/E2/E3 plus reader/narrator/false-belief controls. Keep CASE and oracle physically separate.
-
-### Gate E1 — neutral evaluator
-
-Implement the tiny reference-only `MORTAL-NARRATIVE-001` evaluator. It consumes exact mortal receipts and a beat proposal. It owns only the three dispositions, input errors, and offending-use receipts.
-
-### Gate E2 — Novelist application adapter
-
-Create the smallest adapter/interface needed for Novelist to emit a structured beat proposal and receive an evaluation without importing ALEX/3rdi internals as narrative semantics.
-
-Because there is no standalone Novelist runtime repository in the current Static Collective layout, the implementation plan must choose a host surface deliberately rather than inventing one during coding. The neutral proof must remain capable of testing the contract without MEMENTO.
-
-### Gate E3 — mode-preserving render check
-
-Add the smallest deterministic check needed to prove that `GUESS`, `SUSPECT`, `BELIEVE`, and `KNOW` metadata are not contradicted by a fixture's rendered beat. This is an integration contract, not a universal prose-understanding engine. The initial fixture should use explicit structured rendering assertions rather than unconstrained natural-language classification.
-
-### Gate E4 — blind hostile proof
-
-Run E1/E2/E3 plus controls against pinned Gate-D constituents with the global oracle physically absent during narrative evaluation. Restore the oracle only for scoring.
-
-### Gate E5 — optional durability profile
-
-Only after the neutral proof passes, define how a selected proposal/evaluation may be persisted in MEMENTO. This gate is optional and must not affect E0–E4.
-
-## 22. Success Criteria
-
-Gate E is successful only when the hostile proof demonstrates all of the following:
+Gate E succeeds only if the blind hostile proof demonstrates:
 
 ```text
 beautiful scene + counterfeit KNOW at A0
@@ -735,20 +706,21 @@ beautiful scene + counterfeit KNOW at A0
 same dramatic destination + lawful wager at A0
     → narrative_admissible
 
-Q5 as KNOW at A1 after merge formation
+Q5 as KNOW at A1
     → narrative_admissible
 
 reader knows X + character does not
-    → dramatic irony allowed, knowledge transfer forbidden
+    → dramatic irony allowed, transfer forbidden
 
-locally formed false belief + stance formation
+locally formed false Q2 belief
     → BELIEVE narrative_admissible
 
 global oracle absent during evaluation
     → all dispositions still produced
 
 reroute preserves parent candidate
-mode metadata survives rendered-beat check
+formation receipts bind claim + actor + cut + local refs
+mode metadata survives structured render check
 exact compile digest survives
 
 no world admission
@@ -757,28 +729,19 @@ no side effect
 no master runtime
 ```
 
-The strongest success condition is:
+Strongest condition:
 
 > **The system preserves dramatic possibility while refusing counterfeit causality.**
 
-## 23. Future Frontier Opened by This Gate
+## 22. Frontier Opened
 
-If Gate E passes, the common stack gains a new downstream property: **mortal agency can generate narrative consequence without omniscient leakage.**
+If Gate E passes, the stack gains a downstream property: **mortal agency can generate narrative consequence without omniscient leakage.**
 
-That unlocks later work on:
-
-- fair-play mystery generation;
-- attributable unreliable narration;
-- time-loop and time-travel character state;
-- prophecy / interpretation / fulfillment separation;
-- multi-POV dramatic irony;
-- games where player knowledge differs from character reachability;
-- historical simulations at bounded corpus/time cuts;
-- emergent story solvers that search for lawful causal routes rather than merely coherent plot sequences.
+That later enables fair-play mystery generation, attributable unreliable narration, time-loop character state, prophecy/interpretation/fulfillment separation, multi-POV dramatic irony, games where player knowledge differs from character reachability, historical simulation at bounded cuts, and story solvers that search for lawful causal routes rather than merely coherent plot sequences.
 
 These are future applications, not v0 scope.
 
-## 24. Final Seal
+## 23. Final Seal
 
 ```text
 LOADOUT gives the actor a mortal world.
