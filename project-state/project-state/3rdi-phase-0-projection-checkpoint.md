@@ -28,4 +28,23 @@ A nearby GitBook frontier, _Knowability Cone — Truth Without Omniscience_, may
 **Canonical project landing:** `the-static-collective/3rdi#1`\
 **Merge commit:** `191cf9986adb24b54400a2d14fe103142edf87ea`
 
+## 2026-08-29 — SYZYGY-CUT-001 research/projection checkpoint
+
+`the-static-collective/3rdi` PR #9 landed from exact head `09dad36f730ba0d198ace1857762b452c899d290` as merge commit `e0910e7a1f049b49a71c76813541ea3f0d7000ee` after repository `validate` completed successfully and no unresolved review thread remained.
+
+The landed artifact is a **projection-method candidate**, not a new runtime authority surface. It records that an apparent relation must remain typed by its source surface, ambient algebra/world, decoder/parser, observer/location/known-at cut, visible relation, and residual. Its core non-collapse remains:
+
+```
+SAME SURFACE != SAME RELATION SPACE
+DATE RELATION != OCCURRENCE INVARIANT
+INDISTINGUISHABLE HERE != IDENTICAL EVERYWHERE
+VISIBLE RELATION != SOURCE INVARIANT
+REIFIED RELATION != AUTHORITY
+```
+
+Dogram remains the calculation owner for exact relation/residual arithmetic. ALEX remains the pressure owner. This checkpoint does not promote `RELATION-EXPOSURE` into a shared ontology, truth service, support relation, authorization layer, or semantic authority.
+
+**Canonical project landing:** `the-static-collective/3rdi#9`\
+**Merge commit:** `e0910e7a1f049b49a71c76813541ea3f0d7000ee`
+
 This page is only a bounded projection checkpoint. If it diverges from project-owned repository evidence, the repository wins.
