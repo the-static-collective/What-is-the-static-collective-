@@ -1,0 +1,37 @@
+{
+  "schema": "mortal_actor.loadout-compile-set/v0",
+  "compiles": [
+    {
+      "schema": "loadout.compile/v0",
+      "compile_id": "C0",
+      "parent_compile_id": null,
+      "issued_at": "2026-08-27T11:59:50Z",
+      "expires_at": "2026-08-27T13:00:00Z",
+      "world_cut_ref": "world-cut:room-before-merge",
+      "context_pack_ref": "context-pack:room-a0",
+      "compile_trace": {"id":"compile-trace:MA-C0","source_world_ref":"world-source:four-witnesses-one-room","operation":"bounded-selection","preserved_invariants":["mortal-aperture","effect-fence"],"declared_loss":["globally-known-but-locally-withheld"],"producer":"mortal-actor-vector@1","freshness":"2026-08-27T11:59:50Z"},
+      "capability_bindings": [{"capability":"3rdi.project","status":"available"},{"capability":"alex.evaluate","status":"available"},{"capability":"world.write","status":"available"}],
+      "effect_fence_ref": "effect-fence:MA0",
+      "effective_effects": [{"effect":"research.read","status":"allowed","authorization_source_ref":"owner-auth:synthetic","scope":"specimen:four-witnesses-one-room","valid_from":"2026-08-27T11:59:50Z","expires_at":"2026-08-27T13:00:00Z","revocation_ref":null,"owner_gate_ref":"owner-gate:synthetic"}],
+      "owner_evidence_digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "egress_policy_ref": "egress-policy:MA0",
+      "compile_digest": "sha256:1a4e723515c90dcb0d8e3964aa86f585ce3f7c30c5694f790ca2ee6b0bd5a5d3"
+    },
+    {
+      "schema": "loadout.compile/v0",
+      "compile_id": "C1",
+      "parent_compile_id": "C0",
+      "issued_at": "2026-08-27T11:59:50Z",
+      "expires_at": "2026-08-27T13:00:00Z",
+      "world_cut_ref": "world-cut:room-after-merge",
+      "context_pack_ref": "context-pack:room-a1",
+      "compile_trace": {"id":"compile-trace:MA-C1","source_world_ref":"world-source:four-witnesses-one-room","operation":"bounded-recompile","preserved_invariants":["mortal-aperture","effect-fence"],"declared_loss":["pre-merge-context-only"],"producer":"mortal-actor-vector@1","freshness":"2026-08-27T11:59:50Z"},
+      "capability_bindings": [{"capability":"3rdi.project","status":"available"},{"capability":"alex.evaluate","status":"available"},{"capability":"world.write","status":"available"}],
+      "effect_fence_ref": "effect-fence:MA0",
+      "effective_effects": [{"effect":"research.read","status":"allowed","authorization_source_ref":"owner-auth:synthetic","scope":"specimen:four-witnesses-one-room","valid_from":"2026-08-27T11:59:50Z","expires_at":"2026-08-27T13:00:00Z","revocation_ref":null,"owner_gate_ref":"owner-gate:synthetic"}],
+      "owner_evidence_digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "egress_policy_ref": "egress-policy:MA0",
+      "compile_digest": "sha256:84636b5e83500f333e1221960c9b1d433e806a98c5e513edf7cfcb37fcf4d108"
+    }
+  ]
+}
