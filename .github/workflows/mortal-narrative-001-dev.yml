@@ -1,0 +1,26 @@
+name: mortal-narrative-001-dev
+
+on:
+  pull_request:
+    paths:
+      - "adapters/novelist/**"
+      - "specimens/mortal-narrative-001/**"
+      - "tools/verify_mortal_narrative_vector.py"
+      - "tools/run_mortal_narrative_blind_proof.py"
+      - "tests/test_mortal_narrative_*.py"
+      - ".github/workflows/mortal-narrative-001-dev.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  tdd:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run Gate-E tests present on branch
+        run: python3 -m unittest discover -s tests -p 'test_mortal_narrative_*.py' -v
