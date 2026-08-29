@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "vector_id", "field_ref", "compile_ref", "claim_ref", "oracle_ref", "actors", "runs"],
+  "properties": {
+    "schema": {"const": "mortal_actor.vector-manifest/v0"},
+    "vector_id": {"type": "string", "minLength": 1},
+    "field_ref": {"type": "string"},
+    "compile_ref": {"type": "string"},
+    "claim_ref": {"type": "string"},
+    "oracle_ref": {"type": "string"},
+    "actors": {"type": "array", "items": {"enum": ["A", "B", "R", "N"]}, "minItems": 4, "maxItems": 4, "uniqueItems": true},
+    "runs": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["run_id", "actor_id", "cut_id", "entry_compile_id", "evaluation_compile_id", "claim_ids"],
+        "properties": {
+          "run_id": {"type": "string"},
+          "actor_id": {"enum": ["A", "B", "R", "N"]},
+          "cut_id": {"type": "string"},
+          "entry_compile_id": {"type": "string"},
+          "evaluation_compile_id": {"type": "string"},
+          "claim_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true}
+        }
+      }
+    }
+  }
+}
