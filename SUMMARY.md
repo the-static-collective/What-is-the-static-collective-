@@ -169,6 +169,7 @@
 * [Cicada Adversarial Witness — Landed Checkpoint](evidence/cicada-adversarial-witness-landed-checkpoint.md)
 * [World Cut 001 — Constituted World Atlas, August 2026](evidence/world-cut-001-constituted-world-atlas-august-2026.md)
 * [World Cut 002 — Awareness v0.1](evidence/world-cut-002-awareness-v0.1.md)
+* [World Cut 003 — Organ & Membrane Topology, August 28/29 2026](evidence/world-cut-003-organ-and-membrane-topology-august-28-29-2026.md)
 * [ACIM / Biblical Texts — Semantic Overlap, Metaphysical Divergence](evidence/acim-biblical-texts-semantic-overlap-metaphysical-divergence.md)
 
 ## Witness
