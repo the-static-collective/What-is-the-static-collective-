@@ -228,3 +228,4 @@
 * [Haunted Toaster GRAB — Topology Event v0.1 Execution Slice](haunted-toaster-grab-topology-event-v0.1-execution-slice.md)
 * [D\&D\&D — The Player Is the Continuity Witness](d-and-d-and-d-the-player-is-the-continuity-witness.md)
 * [STORYSHIP Third-Arm Variant — Canonical Amendment Checkpoint](storyship-third-arm-variant-canonical-amendment-checkpoint.md)
+* [LOADOUT — PHASELIFT / RECONSTITUTE-001 Landing Checkpoint](loadout-phaselift-reconstitute-001-landing-checkpoint.md)
