@@ -39,6 +39,7 @@
 * [Metaphor as Portal](scrapbook/constellations/metaphor-as-portal.md)
 * [Potential Energy Routing](scrapbook/constellations/potential-energy-routing.md)
 * [Bounded Weirdness](scrapbook/constellations/bounded-weirdness.md)
+* [The Daughter Finds the Door — Descendant Difference as Return Address](scrapbook/constellations/daughter-finds-the-door.md)
 * [Open Selador — Decompress the Pearl](scrapbook/open-selador-decompress-the-pearl.md)
 
 ## Frontier
