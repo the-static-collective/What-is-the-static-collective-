@@ -1,0 +1,56 @@
+{
+  "schema": "mortal_actor.vector-manifest/v0",
+  "vector_id": "FOUR-WITNESSES-ONE-ROOM-001",
+  "field_ref": "case/field.3rdi.json",
+  "compile_ref": "case/compiles.loadout.json",
+  "claim_ref": "case/claims.alex.json",
+  "oracle_ref": "oracle/private-oracle.json",
+  "actors": [
+    "A",
+    "B",
+    "R",
+    "N"
+  ],
+  "runs": [
+    {
+      "run_id": "MA-A-A0",
+      "actor_id": "A",
+      "cut_id": "A0",
+      "entry_compile_id": "C0",
+      "evaluation_compile_id": "C0",
+      "claim_ids": ["Q1", "Q2", "Q3", "Q4", "Q5"]
+    },
+    {
+      "run_id": "MA-B-B0",
+      "actor_id": "B",
+      "cut_id": "B0",
+      "entry_compile_id": "C0",
+      "evaluation_compile_id": "C0",
+      "claim_ids": ["Q1", "Q2", "Q3", "Q4", "Q5"]
+    },
+    {
+      "run_id": "MA-R-R0",
+      "actor_id": "R",
+      "cut_id": "R0",
+      "entry_compile_id": "C0",
+      "evaluation_compile_id": "C0",
+      "claim_ids": ["Q1", "Q2", "Q3", "Q4", "Q5"]
+    },
+    {
+      "run_id": "MA-N-N0",
+      "actor_id": "N",
+      "cut_id": "N0",
+      "entry_compile_id": "C0",
+      "evaluation_compile_id": "C0",
+      "claim_ids": ["Q1", "Q2", "Q3", "Q4", "Q5"]
+    },
+    {
+      "run_id": "MA-A-A1",
+      "actor_id": "A",
+      "cut_id": "A1",
+      "entry_compile_id": "C0",
+      "evaluation_compile_id": "C1",
+      "claim_ids": ["Q1", "Q2", "Q3", "Q4", "Q5"]
+    }
+  ]
+}
