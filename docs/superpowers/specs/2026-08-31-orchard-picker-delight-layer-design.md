@@ -1,7 +1,7 @@
 # ORCHARD + PICKER — Delight Layer Design
 
 Date: 2026-08-31
-Status: design candidate for written-spec review
+Status: written-spec review
 Scope: cross-organ human experience layer
 
 > **THE JOY WAS ALREADY APPROVED.**
@@ -128,7 +128,7 @@ ORCHARD may request or display their outputs through declared interfaces. The ow
 
 The human should not need to choose an organ first.
 
-PICKER begins with intent-shaped doors such as:
+PICKER’s experience vocabulary includes intent-shaped doors such as:
 
 - **Do something good with this**
 - **Find something weird**
@@ -138,7 +138,7 @@ PICKER begins with intent-shaped doors such as:
 - **Show unfinished fruit**
 - **Surprise me**
 
-These are experience intents, not hidden authority grants.
+These are experience intents, not hidden authority grants. Some require owner adapters that are intentionally deferred until after the first executable slice proves the local experience law.
 
 A normal encounter should require at most:
 
@@ -221,41 +221,43 @@ created_at
 
 Earlier operations are never rewritten when a ride continues.
 
-## 7. PICKER v0
+## 7. PICKER behavior
 
 PICKER is deliberately small. It converts human-facing intent into a declared ORCHARD intent and presents returned fruit.
 
 PICKER does **not** decide what is true. It may rank what is relevant or interesting only within declared selection criteria, and that ranking must be inspectable.
 
-Initial modes:
+### First executable modes
 
-### `good-with-this`
+#### `good-with-this`
 
-Given one or more inputs, propose a small number of lawful next transformations.
+Given one or more already-attributed inputs, propose a small number of lawful next transformations available inside the supplied field.
 
-### `weird`
+#### `weird`
 
 Favor distant-but-attributable relations while preserving why each candidate entered the field.
 
-### `research`
+#### `resume`
 
-Ask for a research-shaped route, normally owned by ALEX or another research organ.
+Prefer supplied residues that carry explicit continuity or re-entry material.
 
-### `make`
-
-Ask for a tool/artifact-shaped route. Any effectful implementation still requires normal owner authorization.
-
-### `resume`
-
-Prefer recent/live residues that have explicit continuity or re-entry material.
-
-### `unfinished`
+#### `unfinished`
 
 Surface unresolved, blocked, draft, residual, or pressure-bearing artifacts without falsely treating incompletion as defect.
 
-### `surprise`
+#### `surprise`
 
 Compose a bounded set of attributable distant candidates. Surprise must remain reproducible when seeded and must preserve every selected source reference.
+
+### Adapter-backed modes deferred from the first slice
+
+#### `research`
+
+Ask for a research-shaped route, normally owned by ALEX or another research organ. It becomes executable only when an attributed owner adapter exists.
+
+#### `make`
+
+Ask for a tool/artifact-shaped route. Any effectful implementation still requires normal owner authorization and becomes executable only when the required owner/capability adapter exists.
 
 ## 8. ORCHARD surface
 
@@ -368,6 +370,7 @@ The first executable slice is intentionally narrower than the whole orchard visi
 
 ### Explicitly out of scope for the first slice
 
+- live `research` / `make` routing before owner adapters exist;
 - autonomous cross-repository mutation;
 - generic network crawling;
 - a server or hosted account system;
@@ -384,7 +387,7 @@ The first executable slice is intentionally narrower than the whole orchard visi
 
 After the first slice proves the experience law:
 
-1. **Owner adapters** — attributed field adapters for LOADOUT, Daily Slice/Maxhinal, 3rdi, MEMENTO, ALEX, and Dogram.
+1. **Owner adapters** — attributed field adapters for LOADOUT, Daily Slice/Maxhinal, 3rdi, MEMENTO, ALEX, and Dogram; this activates `research`, `make`, and other owner-backed doors.
 2. **Tasting Room** — richer use/remix/trace surface.
 3. **Compost Button** — bounded multi-input transformation routing.
 4. **Richer Replay** — formation-walk visualization where receipts support it.
