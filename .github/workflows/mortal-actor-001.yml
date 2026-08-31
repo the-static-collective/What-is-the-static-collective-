@@ -1,0 +1,22 @@
+name: mortal-actor-001
+
+on:
+  pull_request:
+    paths:
+      - "specimens/mortal-actor-001/**"
+      - "tools/verify_mortal_actor_vector.py"
+      - "tests/test_mortal_actor_vector.py"
+      - ".github/workflows/mortal-actor-001.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  vector:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify hostile vector
+        run: |
+          python3 -m unittest tests.test_mortal_actor_vector -v
+          python3 tools/verify_mortal_actor_vector.py specimens/mortal-actor-001

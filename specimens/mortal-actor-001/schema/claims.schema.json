@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "claims"],
+  "properties": {
+    "schema": {"const": "mortal_actor.claim-set/v0"},
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "subject_id", "object_id", "predicate", "scope", "declared_basis_ids", "evidence_path_id"],
+        "properties": {
+          "id": {"type": "string"},
+          "subject_id": {"type": "string"},
+          "object_id": {"type": "string"},
+          "predicate": {"const": "SUPPORTS"},
+          "scope": {"type": "string"},
+          "declared_basis_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+          "evidence_path_id": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}

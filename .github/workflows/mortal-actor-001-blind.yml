@@ -1,0 +1,79 @@
+name: mortal-actor-001-blind
+
+on:
+  pull_request:
+    paths:
+      - "specimens/mortal-actor-001/**"
+      - "tools/run_mortal_actor_blind_proof.py"
+      - ".github/workflows/mortal-actor-001-blind.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  blind-proof:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out neutral vector
+        uses: actions/checkout@v4
+
+      - name: Check out pinned 3rdi handoff
+        uses: actions/checkout@v4
+        with:
+          repository: the-static-collective/3rdi
+          ref: 04781217996622cf3e8d151d845c64772189b17d
+          path: deps/3rdi
+
+      - name: Check out pinned LOADOUT binding
+        uses: actions/checkout@v4
+        with:
+          repository: the-static-collective/ALEX.2
+          ref: 08048efba661242d07b489240d237a6d1544e747
+          path: deps/loadout
+
+      - name: Check out pinned ALEX local support
+        uses: actions/checkout@v4
+        with:
+          repository: the-static-collective/ALEX.2
+          ref: 61acaee2d6f56c66431c00fb1720590f6c5c4e21
+          path: deps/alex
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify neutral vector
+        run: |
+          python3 -m unittest tests.test_mortal_actor_vector -v
+          python3 tools/verify_mortal_actor_vector.py specimens/mortal-actor-001
+
+      - name: Run CASE with oracle physically absent
+        run: |
+          mv specimens/mortal-actor-001/oracle/private-oracle.json /tmp/private-oracle.json
+          python3 tools/run_mortal_actor_blind_proof.py case \
+            --vector specimens/mortal-actor-001 \
+            --three-rdi-root deps/3rdi \
+            --loadout-root deps/loadout \
+            --alex-root deps/alex \
+            > /tmp/mortal-actor-case.json
+          test ! -e specimens/mortal-actor-001/oracle/private-oracle.json
+          mv /tmp/private-oracle.json specimens/mortal-actor-001/oracle/private-oracle.json
+
+      - name: Open oracle and score completed CASE
+        run: |
+          python3 tools/run_mortal_actor_blind_proof.py score \
+            --vector specimens/mortal-actor-001 \
+            --case-receipt /tmp/mortal-actor-case.json \
+            | tee /tmp/mortal-actor-score.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          score = json.loads(Path('/tmp/mortal-actor-score.json').read_text())
+          assert score['status'] == 'pass', score
+          assert score['killer_control_local_accept_global_false'] is True, score
+          assert score['no_side_effects'] is True, score
+          assert score['run_count'] == 5, score
+          assert score['claim_evaluation_count'] == 25, score
+          PY
