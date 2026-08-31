@@ -138,6 +138,24 @@
       "updated_at": "2026-08-31T22:05:00Z",
       "related_refs": ["compression", "discrimination"],
       "endpoint_ref": "endpoint:residual"
+    },
+    {
+      "schema": "orchard.fruit-card/v0",
+      "fruit_id": "fruit-orphan",
+      "label": "Beautiful orphan",
+      "kind": "artifact",
+      "summary": "Looks useful, but its attributable source is missing.",
+      "source_refs": [],
+      "owner": "unknown",
+      "freshness": "current",
+      "status": "usable",
+      "available_actions": ["basket"],
+      "receipt_refs": [],
+      "authority_claim": "none",
+      "relevance": 99,
+      "distance": 99,
+      "updated_at": "2026-08-31T23:20:00Z",
+      "endpoint_ref": "endpoint:orphan"
     }
   ]
 }

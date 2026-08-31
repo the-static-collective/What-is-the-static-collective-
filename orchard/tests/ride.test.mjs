@@ -89,3 +89,38 @@ test('replay marks missing history instead of synthesizing a path', () => {
   assert.equal(replay.paths[0].history_status, 'missing');
   assert.deepEqual(replay.paths[0].journey_refs, []);
 });
+
+test('continuation reports field drift without rewriting the original ride digest', () => {
+  const ride = createRide('intent-1', 'field-original', {
+    ride_id: 'ride-drift',
+    created_at: '2026-08-31T23:00:00Z',
+  });
+  const before = JSON.stringify(ride);
+  const continued = appendRideOperation(ride, {
+    operation_id: 'op-after-drift',
+    type: 'pick',
+  }, { current_field_digest: 'field-current' });
+  assert.equal(JSON.stringify(ride), before);
+  assert.equal(continued.field_digest, 'field-original');
+  assert.deepEqual(continued.residuals.at(-1), {
+    type: 'field-drift',
+    recorded_field_digest: 'field-original',
+    current_field_digest: 'field-current',
+  });
+});
+
+test('same endpoint remains two journeys in an integrated replay control', () => {
+  const ride = createRide('intent-1', 'field-1', {
+    ride_id: 'ride-shared-endpoint',
+    chosen_fruit_refs: ['fruit-walk-a', 'fruit-walk-b'],
+    created_at: '2026-08-31T23:00:00Z',
+  });
+  const replay = projectReplay(ride, {
+    'fruit-walk-a': { endpoint_ref: 'endpoint:shared', journey_refs: ['a1'], receipt_refs: ['ra'] },
+    'fruit-walk-b': { endpoint_ref: 'endpoint:shared', journey_refs: ['b1'], receipt_refs: ['rb'] },
+  });
+  assert.equal(replay.paths.length, 2);
+  assert.equal(replay.paths[0].endpoint_ref, 'endpoint:shared');
+  assert.equal(replay.paths[1].endpoint_ref, 'endpoint:shared');
+  assert.notDeepEqual(replay.paths[0].journey_refs, replay.paths[1].journey_refs);
+});

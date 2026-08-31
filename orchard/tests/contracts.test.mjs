@@ -69,3 +69,22 @@ test('ride exposes append-only operation list', () => {
   });
   assert.equal(result.ok, true);
 });
+
+test('a pretty artifact with missing provenance cannot become fruit', () => {
+  const result = validateFruitCard({
+    schema: 'orchard.fruit-card/v0',
+    fruit_id: 'fruit-orphan',
+    label: 'Beautiful orphan',
+    kind: 'artifact',
+    summary: 'Looks useful.',
+    source_refs: [],
+    owner: 'unknown',
+    freshness: 'current',
+    status: 'usable',
+    available_actions: ['basket'],
+    receipt_refs: [],
+    authority_claim: 'none',
+  });
+  assert.equal(result.ok, false);
+  assert.match(result.errors.join('\n'), /source_refs/);
+});

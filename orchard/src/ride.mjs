@@ -50,7 +50,7 @@ export function createRide(intent, fieldDigest, options = {}) {
   return clone(assertValidRecord('ride', record));
 }
 
-export function appendRideOperation(ride, operation) {
+export function appendRideOperation(ride, operation, options = {}) {
   assertValidRecord('ride', ride);
   if (!operation || typeof operation !== 'object' || Array.isArray(operation)) {
     throw new TypeError('operation must be an object');
@@ -63,9 +63,18 @@ export function appendRideOperation(ride, operation) {
       operation: nextOperation,
     });
   }
+  const residuals = clone(ride.residuals);
+  if (options.current_field_digest && options.current_field_digest !== ride.field_digest) {
+    residuals.push({
+      type: 'field-drift',
+      recorded_field_digest: ride.field_digest,
+      current_field_digest: options.current_field_digest,
+    });
+  }
   const next = {
     ...clone(ride),
     operations: [...clone(ride.operations), nextOperation],
+    residuals,
   };
   return clone(assertValidRecord('ride', next));
 }

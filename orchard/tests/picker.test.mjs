@@ -52,3 +52,24 @@ test('refusal is preserved and never silently selected', () => {
   assert.ok(result.refusals.some(x => x.fruit_id === 'fruit-blocked'));
   assert.ok(!result.selected.some(x => x.fruit_id === 'fruit-blocked'));
 });
+
+test('missing provenance stays residual even when its ranking metadata is maximal', () => {
+  const result = pick('weird', field, { limit: 7 });
+  assert.ok(!result.selected.some(x => x.fruit_id === 'fruit-orphan'));
+  const orphan = result.residuals.find(x => x.fruit_id === 'fruit-orphan');
+  assert.equal(orphan?.status, 'invalid-provenance');
+});
+
+test('ranking receipt never promotes selection into support evidence authority or canon', () => {
+  const result = pick('surprise', field, { seed: 'banana-elves', limit: 3 });
+  const serialized = JSON.stringify(result.ranking_receipt);
+  assert.doesNotMatch(serialized, /"(?:support|evidence|authority|canon)"\s*:/);
+  assert.equal(result.authority_claim, 'none');
+});
+
+test('seeded surprise reproduces exactly against an unchanged field digest', () => {
+  const a = pick('surprise', structuredClone(field), { seed: 'banana-elves', limit: 5 });
+  const b = pick('surprise', structuredClone(field), { seed: 'banana-elves', limit: 5 });
+  assert.equal(a.field_digest, b.field_digest);
+  assert.deepEqual(a, b);
+});
