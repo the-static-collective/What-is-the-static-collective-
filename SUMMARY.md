@@ -14,6 +14,7 @@
 ## Patterns
 
 * [Creative Field Laws](patterns/creative-field-laws.md)
+* [Green Grammar — Relation Birth, Lawful Play, and BAND](patterns/green-grammar-relation-birth-and-band.md)
 * [Gestalt Recursion — Simplicity on the Far Side of Complexity](patterns/gestalt-recursion-simplicity-on-the-far-side-of-complexity.md)
 * [Field Traversal & Illumination](patterns/field-traversal-and-illumination.md)
 * [Creative Handoff](patterns/creative-handoff.md)
@@ -133,8 +134,8 @@
       * [Lane 6 — Psychotechnology: Ritual, Symbol, Suggestion & State](frontier/primitive-incubator/research-packet-f-narrative-embodied-and-symbolic-worlds/from-perturbation-to-constitution-biological-and-chemical-memory/lane-6-psychotechnology-ritual-symbol-suggestion-and-state.md)
       * [Lane 7 — Spirit Molecule: DMT, 5-MeO-DMT & Cross-Kingdom State Change](frontier/primitive-incubator/research-packet-f-narrative-embodied-and-symbolic-worlds/from-perturbation-to-constitution-biological-and-chemical-memory/lane-7-spirit-molecule-dmt-5-meo-dmt-and-cross-kingdom-state-change.md)
   * [Research Packet G — Active Project Frontiers](frontier/primitive-incubator/research-packet-g-active-project-frontiers/README.md)
-    * [Executable Membrane — JavaScript as Encounter Surface](frontier/primitive-incubator/research-packet-g-active-project-frontiers/executable-membrane-javascript-encounter-surface/README.md)
-      * [Warranted Execution — Corpus OS Specimen](frontier/primitive-incubator/research-packet-g-active-project-frontiers/executable-membrane-javascript-encounter-surface/warranted-execution-corpus-os-specimen.md)
+    * [Executable Membrane — JavaScript as Encounter Surface](frontier/primitive-incubator/research-packet-g-active-project-frontiers/executable-membrane-javascript-as-encounter-surface/README.md)
+      * [Warranted Execution — Corpus OS Specimen](frontier/primitive-incubator/research-packet-g-active-project-frontiers/executable-membrane-javascript-as-encounter-surface/warranted-execution-corpus-os-specimen.md)
     * [Intent Stroke / Swype NAV — Traversal as Input](frontier/primitive-incubator/research-packet-g-active-project-frontiers/intent-stroke-swype-nav-traversal-as-input.md)
     * [Physics of Meeting — Constitutional Worlds Without Capture](frontier/primitive-incubator/research-packet-g-active-project-frontiers/physics-of-meeting-constitutional-worlds-without-capture/README.md)
       * [Boot the House — Composed Proof v0.1](frontier/primitive-incubator/research-packet-g-active-project-frontiers/physics-of-meeting-constitutional-worlds-without-capture/boot-the-house-composed-proof-v0.1.md)
