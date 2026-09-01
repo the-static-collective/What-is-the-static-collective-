@@ -54,6 +54,12 @@ When a conversation begins here:
 The Vault may be a seedbank; ARK carries viable attributable material; Eve is a germination chamber; and the ELF is one mortal local life. This is intentionally kept visible here because the elf distinction is currently stupidly important.
 {% endhint %}
 
+{% hint style="success" %}
+**Durable Pattern: [GREEN GRAMMAR — Relation Birth, Lawful Play, and BAND](patterns/green-grammar-relation-birth-and-band.md)**
+
+A compact tool belt for Green Language, GreenLens, Green History, lawful player entry, relation birthdays, orientation pressure, positive ancestry, and the BAND test. It keeps the new higher-order math and current agentic architecture visible without turning this room into their authority.
+{% endhint %}
+
 {% hint style="info" %}
 **Dated witness dig — 2026-08-29: [THE CONVERSATION LEFT A BODY — Git Fossil Record Architecture Dig](https://github.com/the-static-collective/What-is-the-static-collective-/blob/main/witness/2026-08-29-git-fossil-record-architecture-dig.md)**
 
