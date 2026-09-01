@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>ORCHARD — PICKER v0</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <p class="kicker">THE STATIC COLLECTIVE · ORCHARD v0</p>
+      <h1>Pick the fruit.<br><span>Keep the receipt under the peel.</span></h1>
+      <p class="lede">Give ORCHARD an already-attributed field. Ask for the kind of thing you want. The anatomy stays nearby, not in your way.</p>
+      <p class="joy-law">THE JOY WAS ALREADY APPROVED.</p>
+    </header>
+
+    <section class="landing" aria-labelledby="field-heading">
+      <div class="field-loader">
+        <div>
+          <p class="eyebrow">1 · Bring a field</p>
+          <h2 id="field-heading">Drop in something that already knows where it came from.</h2>
+          <p>Local JSON only. Nothing leaves this page.</p>
+        </div>
+        <label class="drop-zone" for="field-input">
+          <span class="drop-icon" aria-hidden="true">⌄</span>
+          <strong>Choose attributed field JSON</strong>
+          <span>or drag it onto this bench</span>
+        </label>
+        <input id="field-input" class="visually-hidden" type="file" accept="application/json,.json">
+        <p id="status-line" class="status-line" aria-live="polite">No field loaded yet.</p>
+      </div>
+
+      <div class="picker-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">2 · Ask for fruit</p>
+            <h2>What would be useful now?</h2>
+          </div>
+          <label class="seed-control">Surprise seed
+            <input id="seed-input" value="banana-elves" autocomplete="off" spellcheck="false">
+          </label>
+        </div>
+
+        <div id="intent-doors" class="intent-doors" aria-label="PICKER intents">
+          <button type="button" class="intent-door" data-mode="good-with-this"><strong>Do something good with this</strong><span>Relevant, bounded next fruit.</span></button>
+          <button type="button" class="intent-door" data-mode="weird"><strong>Find something weird</strong><span>Distant, attributable relations first.</span></button>
+          <button type="button" class="intent-door" data-mode="resume"><strong>Resume what was alive</strong><span>Prefer explicit continuity and re-entry.</span></button>
+          <button type="button" class="intent-door" data-mode="unfinished"><strong>Show unfinished fruit</strong><span>Pressure, drafts, residuals, unresolved edges.</span></button>
+          <button type="button" class="intent-door surprise" data-mode="surprise"><strong>Surprise me</strong><span>Seeded serendipity you can replay.</span></button>
+          <button type="button" class="intent-door future" data-mode="research" aria-disabled="true" title="Waiting for a lawful owner adapter"><strong>Turn this into research</strong><span>Future door · owner adapter required.</span></button>
+          <button type="button" class="intent-door future" data-mode="make" aria-disabled="true" title="Waiting for a lawful owner adapter"><strong>Make me a tool</strong><span>Future door · effect gate required.</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="results" aria-labelledby="fruit-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">3 · Taste</p>
+          <h2 id="fruit-heading">Fruit on the table</h2>
+        </div>
+        <p id="field-digest" class="digest">field digest appears here</p>
+      </div>
+      <div id="fruit-grid" class="fruit-grid" aria-live="polite">
+        <article class="empty-fruit">
+          <span aria-hidden="true">◌</span>
+          <p>Load a field, then choose an intent. ORCHARD will keep the first serving small.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="lower-deck">
+      <section class="basket-panel" aria-labelledby="basket-heading">
+        <p class="eyebrow">Fruit basket</p>
+        <h2 id="basket-heading">Your temporary little universe</h2>
+        <div id="basket" class="basket"><p>Nothing picked yet.</p></div>
+        <p class="boundary-note">Basket ≠ canon. Picking something grants it no new authority.</p>
+      </section>
+
+      <section class="ride-panel" aria-labelledby="ride-heading">
+        <p class="eyebrow">Ride strip</p>
+        <h2 id="ride-heading">What happened, in order</h2>
+        <ol id="ride-strip" class="ride-strip"><li>No ride yet.</li></ol>
+        <p class="boundary-note">Append-only. Earlier operations do not change when the ride continues.</p>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="provenance-drawer" class="provenance-drawer" aria-labelledby="provenance-title">
+    <form method="dialog" class="drawer-top">
+      <div>
+        <p class="eyebrow">Under the peel</p>
+        <h2 id="provenance-title">How did this get here?</h2>
+      </div>
+      <button class="close-button" value="close" aria-label="Close provenance">×</button>
+    </form>
+    <div id="provenance-content" class="provenance-content"></div>
+  </dialog>
+
+  <script type="module" src="./app.mjs"></script>
+</body>
+</html>
