@@ -49,9 +49,19 @@ When a conversation begins here:
 6. **Leave when irrelevant.** If the conversation has nothing to do with the Collective, do not force it through this house.
 
 {% hint style="success" %}
-**Live frontier: [THE SEEDBANK — ELF-OFF-A-SHELF](frontier/primitive-incubator/the-seedbank-elf-off-a-shelf.md)**
+**Current public edge — RECEIVE → HOLD → POUR**
 
-The Vault may be a seedbank; ARK carries viable attributable material; Eve is a germination chamber; and the ELF is one mortal local life. This is intentionally kept visible here because the elf distinction is currently stupidly important.
+The Collective's strongest live seam is now a whole-return path for real human participation: a need can be formed, carried as a bounded Help Slip, held for review, selectively poured into a Campfire, reported and confirmed without collapsing those states, and optionally handed to Book of Acts for human-reviewed historical preservation.
+
+The nearby public organs are [NanaSpork / Garden](https://github.com/the-static-collective/BananaSpork), [Band Runtime](https://github.com/the-static-collective/band-runtime), [Jubilee Engine VM / Book of Acts](https://github.com/the-static-collective/Jubilee-Engine-VM), [Static Live](https://github.com/the-static-collective/static-live), and [Full Measure](https://github.com/the-static-collective/full-measure-world-layer).
+
+This is a current working edge, not a claim that the whole network is deployed or field-proven.
+{% endhint %}
+
+{% hint style="info" %}
+**Incubator landmark: [THE SEEDBANK — ELF-OFF-A-SHELF](frontier/primitive-incubator/the-seedbank-elf-off-a-shelf.md)**
+
+The seedbank / ARK / Eve / ELF distinction remains a useful incubating pattern, but it is no longer presented as the single live frontier.
 {% endhint %}
 
 {% hint style="success" %}
