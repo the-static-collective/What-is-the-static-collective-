@@ -31,6 +31,7 @@
 
 * [How the Scrapbook Works](scrapbook/README.md)
 * [Constellations](scrapbook/constellations/README.md)
+  * [Quantum Yarn / WiggleH — Carry, Aperture, and Lawful Futures](scrapbook/constellations/quantum-yarn-wiggleh-carry-aperture-and-lawful-futures.md)
 * [Projection Is Witness](scrapbook/constellations/projection-is-witness.md)
 * [Memory Is Terrain](scrapbook/constellations/memory-is-terrain.md)
 * [Space → Sequence → Story](scrapbook/constellations/space-sequence-story.md)
