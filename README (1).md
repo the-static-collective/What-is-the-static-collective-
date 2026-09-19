@@ -2,7 +2,7 @@
 
 ## What is the Static Collective?
 
-The most visible thing we make is music. The deeper project is **reliable infrastructure for human creativity in the age of AI**.
+The most visible thing we make is music. The broader project is **provenance-preserving infrastructure for humans and AI to create, research, coordinate, help one another, and build shared tools without silently transferring authority**.
 
 > **Enter the Front Room** — a stable starting place for orienting a conversation before traversing deeper Collective context.
 
@@ -22,6 +22,37 @@ We care about questions like:
 * Can several humans and models work in the same field without hidden authority?
 
 The music is the laboratory. The infrastructure is the longer experiment.
+
+## What we are building now — September 2026
+
+This is a dated public snapshot, not a universal roadmap.
+
+The current work has converged around a few connected, independently owned edges:
+
+* **Human help that can make a whole return.** Nourish can form a bounded Help Slip; Garden / NanaSpork can hold and selectively publish needs into a Campfire; Band Runtime can preserve a receiver-side case and its partial history; confirmed occurrences can be offered to Book of Acts for human review without turning help into a token, score, or automatic historical claim.
+* **Act-first durable memory.** Jubilee Engine's Book of Acts / nuThang work preserves attributable particulars, constraints, evidence classes, disposition, and unresolved remainder before any later economic, reputational, organizational, or AI projection.
+* **Live native-language media.** Static Live already compiles truthful stage projections and controls a local OBS broadcast surface. Its current candidate target is a provenance-preserving live media organism: preserve the occurrence first, let different organs transform it in their own native languages, require admission before consequence, and keep livestream, podcast, radio, and archive as different projections of the same attributable source.
+* **A body of bounded organs rather than one master system.** ALEX, 3rdi, Dogram, LOADOUT, Free Graph, Full Measure, and neighboring projects keep their own contracts while exposing increasingly explicit interfaces for lawful composition. Compatibility is not authority, and transport does not erase local meaning.
+
+A useful compression of the present goal is:
+
+```text
+human occurrence
+    ↓
+preserve what actually happened
+    ↓
+hold uncertainty and local authority
+    ↓
+compose only the organs needed
+    ↓
+human / owner admission
+    ↓
+useful consequence
+    ↓
+receipt + remaining fog
+```
+
+The public experiment is no longer only whether AI-assisted creativity can stay trustworthy. It is whether the same discipline can carry **music, research, community help, live media, and participatory worlds** without collapsing people into scores or representations into truth.
 
 ***
 
