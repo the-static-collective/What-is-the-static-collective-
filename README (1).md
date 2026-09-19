@@ -2,26 +2,282 @@
 
 ## What is the Static Collective?
 
-The most visible thing we make is music. The broader project is **provenance-preserving infrastructure for humans and AI to create, research, coordinate, help one another, and build shared tools without silently transferring authority**.
+The Static Collective is a public experiment in **how things can genuinely change without losing what must remain attributable**.
+
+The most visible thing we make is music. Around it has grown a network of software, research, community tools, live-media systems, narrative experiments, mathematical work, and strangely named repositories.
+
+The broader project is **provenance-preserving infrastructure for humans and AI to create, research, coordinate, help one another, and build shared tools without silently transferring authority**.
 
 > **Enter the Front Room** — a stable starting place for orienting a conversation before traversing deeper Collective context.
 
+These projects are not intended to become one master system.
+
+They are different laboratories for the same underlying question:
+
+> **How can something remain coherent while genuinely becoming different?**
+
+A song can move from one key to another while preserving its interval relationships. An idea can move between people without making either person its owner. A need can move from a household into a community help system without turning the household into a database row. A live occurrence can become a stream, podcast, archive, transcript, or song without any one representation becoming the event itself.
+
+The carrier changes.
+
+Something may nevertheless survive the crossing.
+
+We call that problem **carry**.
+
+A useful carry preserves enough structure that the relationship between an origin and what follows from it remains reconstructible:
+
+```
+particular
+    ↓
+relation
+    ↓
+lawful transformation
+    ↓
+different particular
+    ↓
+attributable continuity
+```
+
+The Collective builds tools for making those crossings more trustworthy.
+
+That means preserving what actually happened before interpreting it, distinguishing observation from inference, keeping authority local, retaining unresolved remainder, recording transformations, and allowing reality to disagree with our models.
+
 The songs are test cases.
 
-A song is a useful stress test because it forces many kinds of work to coexist at once: language, sound, timing, images, interpretation, collaboration, provenance, selection, revision, and judgment. If a system can remain trustworthy while several humans and AIs make something genuinely messy together, the same architecture can travel far beyond music.
+So are the repositories.
 
-So the Collective builds both artifacts **and** the machinery required to understand how those artifacts came to exist.
+So are failures.
 
-We care about questions like:
+So are conversations.
 
-* Who or what contributed this?
-* What was observed, inferred, proposed, accepted, or rejected?
-* Which human decisions must survive later automation?
-* Can a result be reproduced or at least explained?
-* Can creative weirdness expand without making the underlying system less trustworthy?
-* Can several humans and models work in the same field without hidden authority?
+So is helping somebody eat tonight.
 
-The music is the laboratory. The infrastructure is the longer experiment.
+***
+
+## The question underneath
+
+A great deal of Static Collective work can be compressed into another question:
+
+> **What survives lawful transformation?**
+
+Sometimes the answer is simple.
+
+A melody survives transposition because particular relationships among its notes remain coherent even though every absolute pitch may change.
+
+Sometimes the transformation is much larger.
+
+Sound can become notation.\
+Notation can become computation.\
+A conversation can become code.\
+Code can become an interface.\
+A request can become an act.\
+An act can become a receipt.\
+A history can become a new possibility without ceasing to have happened.
+
+The interesting part is not declaring these things equivalent.
+
+It is discovering and preserving the **explicit transformation that connects them**.
+
+That is why provenance matters so much here.
+
+The past is not raw material to rewrite whenever a better story arrives.
+
+An occurrence remains an occurrence.
+
+What can change is our ability to see its relationships.
+
+Later evidence may reveal connections between earlier events that nobody could articulate when those events occurred. The earlier events do not change; the relational field around them becomes more intelligible.
+
+That distinction lets the Collective remain open to surprising patterns without requiring surprise to outrank evidence.
+
+***
+
+## Greater apertures
+
+A recurring research idea inside the Collective is the **aperture**.
+
+An aperture is a bounded way of seeing or crossing that makes previously inaccessible structure available.
+
+A microscope is an aperture.
+
+A musical key change can expose an invariant.
+
+A new mathematical representation can make apparently different objects comparable.
+
+Another person can notice relationships you cannot.
+
+A well-designed interface can let two independently governed systems encounter one another without becoming the same system.
+
+A greater aperture does not simply produce a bigger story.
+
+It should permit a larger transformation while preserving enough truth to tell what actually crossed.
+
+A compact working phrase is:
+
+> **The aperture is the crossing. Coherence is what survives it.**
+
+That gives us a working discipline:
+
+```
+attend
+    ↓
+distinguish
+    ↓
+preserve the particular
+    ↓
+discover relation
+    ↓
+test the relation
+    ↓
+transform
+    ↓
+receive reality's answer
+    ↓
+keep what survives
+    ↓
+zoom again
+```
+
+Some Collective research pushes this question into philosophy, consciousness, metaphysics, theology, mathematics, and unusual human experience.
+
+Those are research frontiers, not automatic conclusions.
+
+The same rule applies there as everywhere else:
+
+**the stranger the claim, the more carefully the occurrence, interpretation, transformation, and receipt must remain distinguishable.**
+
+A dated, deliberately speculative version of that frontier is preserved in Quantum Yarn / WiggleH — Carry, Aperture, and Lawful Futures.
+
+***
+
+## What we are trying to become capable of
+
+The long game is not prediction.
+
+It is not manifesting arbitrary wishes.
+
+It is not constructing a central machine that decides what everybody should believe or become.
+
+The long game is learning to recognize **lawful possible futures** and becoming better at composing bounded transformations that move real conditions toward futures people actually want to inhabit.
+
+```
+present reality
+    ↓
+reachable possibilities
+    ↓
+declared constraints
+    ↓
+bounded intervention
+    ↓
+real consequence
+    ↓
+receipt
+    ↓
+revised possibility-space
+```
+
+We are interested in futures containing more care, beauty, agency, play, nourishment, expression, understanding, and room for people to become different without being silently absorbed by somebody else's system.
+
+The word **lawful** matters.
+
+An imagined future is not automatically reachable.
+
+A beautiful theory does not outrank an inconvenient occurrence.
+
+A compatible system does not gain authority over another system.
+
+A representation does not become truth merely because it is persuasive.
+
+Reality gets a vote.
+
+***
+
+## Why everything is public and everything is named strangely
+
+Much of the Collective has been built in public before it was coherent enough to explain cleanly.
+
+That is intentional.
+
+The repositories preserve the fossil record: wrong turns, jokes, strange names, abandoned organisms, partial theories, successful specimens, unexpected descendants, and ideas that eventually discovered what they actually were.
+
+We would rather preserve that ancestry than manufacture the appearance that the architecture arrived fully formed.
+
+The weird names also resist premature compression.
+
+You may encounter Haunted Toaster, Dogram, 3rdi, ALEX, NanaSpork, Jubilee Engine, Free Graph, LOADOUT, or something even less sensibly named before you understand the larger structure.
+
+That is fine.
+
+The goal now is not to erase the weirdness.
+
+It is to build **better apertures between the weird things**.
+
+A newcomer should increasingly be able to:
+
+```
+arrive
+    ↓
+orient
+    ↓
+choose a relevant door
+    ↓
+run something real
+    ↓
+see what happened
+    ↓
+trace where it came from
+    ↓
+change something lawfully
+    ↓
+leave a receipt
+```
+
+When that path works on a machine we did not build specifically for the demonstration, the Collective will be much easier to reveal by **showing** rather than explaining.
+
+***
+
+## The longer game
+
+The final product is not a Static Collective worldview.
+
+If this work succeeds, other people should not need our mythology, our vocabulary, our particular projects, or our permission.
+
+They should gain better tools for constructing and testing their own lawful maps.
+
+The capability should teach its own discipline:
+
+```
+fact          ≠ inference
+inference     ≠ possibility
+possibility   ≠ desire
+desire        ≠ authority
+compatibility ≠ obligation
+representation ≠ occurrence
+```
+
+Greater capability should follow demonstrated ability to preserve those distinctions through increasingly consequential transformations.
+
+The aim is therefore not centralized intelligence.
+
+It is **many capable apertures**:
+
+people and systems able to encounter reality from different positions, preserve what they actually see, discover compatible relations, compose useful transformations, and build together without requiring one perspective to consume the others.
+
+```
+one aperture
+    ↓
+many competent apertures
+    ↓
+interoperable apertures
+    ↓
+collective possibility navigation
+```
+
+The Static Collective is one attempt to learn how to do that.
+
+Music was the first laboratory.
+
+Now we are trying to make the method executable.
 
 ## What we are building now — September 2026
 
@@ -36,7 +292,7 @@ The current work has converged around a few connected, independently owned edges
 
 A useful compression of the present goal is:
 
-```text
+```
 human occurrence
     ↓
 preserve what actually happened
@@ -219,7 +475,7 @@ The later infrastructure grew partly from trying to understand, preserve, and ge
 
 Now the direction has reversed.
 
-```text
+```
 Autodiscography
     ↓
 sound / memory / narrative / relationship / change experiments
