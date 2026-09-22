@@ -47,6 +47,7 @@
 
 * [Primitive Incubator](frontier/primitive-incubator/README.md)
   * [THE SEEDBANK — ELF-OFF-A-SHELF](frontier/primitive-incubator/the-seedbank-elf-off-a-shelf/README.md)
+    * [KEY 1 — THE NAME: First Address of a Self](frontier/primitive-incubator/the-seedbank-elf-off-a-shelf/key-1-the-name-first-address-of-a-self.md)
     * [Reconstitutive Viability — Power-to-Become Without Power-Over](frontier/primitive-incubator/the-seedbank-elf-off-a-shelf/reconstitutive-viability-power-to-become-without-power-over.md)
   * [Research Packet A — Crossing, Consequence & Local Constitution](frontier/primitive-incubator/research-packet-a-crossing-consequence-and-local-constitution/README.md)
     * [Crossing Discipline — No Unaccounted Consequence](frontier/primitive-incubator/research-packet-a-crossing-consequence-and-local-constitution/crossing-discipline-no-unaccounted-consequence/README.md)
