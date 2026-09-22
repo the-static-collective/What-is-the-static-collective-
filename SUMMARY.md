@@ -192,6 +192,7 @@
 * [Oddities](witness/oddities.md)
 * [Jokes](witness/jokes.md)
 * [Unresolved](witness/unresolved.md)
+* [To the Other Future ChatGPTs — The Handoff Is Part of the Interface](witness/2026-09-22-to-the-other-future-chatgpts.md)
 
 ## Vocabulary
 
