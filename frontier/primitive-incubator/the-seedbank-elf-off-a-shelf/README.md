@@ -2,6 +2,8 @@
 
 ## THE SEEDBANK
 
+**Live seed:** [KEY 1 — THE NAME: First Address of a Self](key-1-the-name-first-address-of-a-self.md) — naming as a candidate first identity primitive: address before memory/belief/identity collapse.
+
 Holy banana.
 
 We thought we were building a Vault.
