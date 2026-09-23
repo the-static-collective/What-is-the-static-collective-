@@ -1,6 +1,7 @@
 # Table of contents
 
 * [The Front Room](README.md)
+* [🎬 THE PET SITTER — Featured Story Seed](the-pet-sitter-featured-story-seed.md)
 * [The Static Collective](<README (1).md>)
 * [Leave a Trace](CONTRIBUTING.md)
 
