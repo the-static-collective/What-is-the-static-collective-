@@ -1,7 +1,8 @@
 # Table of contents
 
 * [The Front Room](README.md)
-* [🎬 THE PET SITTER — Featured Story Seed](the-pet-sitter-featured-story-seed.md)
+* [🎬 THE PET SITTER — Featured Story Seed](the-pet-sitter-featured-story-seed/README.md)
+  * [THE ROOM INSIDE THE ROOM — Multimedia Project Seed](the-pet-sitter-featured-story-seed/the-room-inside-the-room-multimedia-project-seed.md)
 * [The Static Collective](<README (1).md>)
 * [Leave a Trace](CONTRIBUTING.md)
 
