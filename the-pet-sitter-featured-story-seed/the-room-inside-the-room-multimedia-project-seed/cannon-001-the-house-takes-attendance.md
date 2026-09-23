@@ -77,6 +77,8 @@ The scene's immediate outcome is ordinary human hospitality, not the resolution 
 
 ## First bounded production experiment — THE FIRST DOOR
 
+**Proposed companion:** [THE FIRST DOOR — A Room Remembers Differently](the-first-door-novelist-memento-scene-seed.md), a bounded Novelist × MEMENTO-inspired scene seed that follows this charter without changing CANON 001 or admitting new story-world history.
+
 Compose **one fictional occurrence and three independent presentations**, not a master lore dump:
 
 1. **Occurrence:** a small, local need after the Collection Event, such as an animal needing a safe route or a person needing an ordinary meal. Name participants, what each could perceive, their choices, and one actual consequence.
