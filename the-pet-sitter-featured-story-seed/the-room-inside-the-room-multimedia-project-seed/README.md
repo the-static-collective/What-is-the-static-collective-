@@ -11,7 +11,7 @@ description: >-
 
 **Status:** Incubating original multimedia project seed · 2026-09-23. This is a working project charter, not a finished game, printed book, screenplay, or claim that the fictional architecture exists physically.
 
-**Parent:** [The Pet Sitter — Featured Story Seed](./). Keep the parent film independently watchable and its original comic/emotional center intact.
+**Parent:** [The Pet Sitter — Featured Story Seed](../). Keep the parent film independently watchable and its original comic/emotional center intact.
 
 **Working names, not locked:** Renji Kuroda, Deuce Burbank, H.A.B.I.T.A.T., Substitute Reality, The Room Inside the Room.
 

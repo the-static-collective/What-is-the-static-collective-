@@ -2,7 +2,8 @@
 
 * [The Front Room](README.md)
 * [🎬 THE PET SITTER — Featured Story Seed](the-pet-sitter-featured-story-seed/README.md)
-  * [THE ROOM INSIDE THE ROOM — Multimedia Project Seed](the-pet-sitter-featured-story-seed/the-room-inside-the-room-multimedia-project-seed.md)
+  * [THE ROOM INSIDE THE ROOM — Multimedia Project Seed](the-pet-sitter-featured-story-seed/the-room-inside-the-room-multimedia-project-seed/README.md)
+    * [CANON 001 — The Collection Event](the-pet-sitter-featured-story-seed/the-room-inside-the-room-multimedia-project-seed/canon-001-the-collection-event.md)
 * [The Static Collective](<README (1).md>)
 * [Leave a Trace](CONTRIBUTING.md)
 
