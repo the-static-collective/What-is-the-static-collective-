@@ -440,7 +440,8 @@ def render_index(groups, snapshot):
         f"Captured: **{snapshot['captured_at']}** · **{len(repos)} public repositories** · "
         f"**{total_branches} branch refs** (including defaults) · **{total_prs} open PRs**.",
         "",
-        f"[Living map]({MAP_URL}) · [Machine-readable snapshot](public-index.json) · "
+        f"[Living map]({MAP_URL}) · [DELTA](delta.md) · [RELATIONS](relations.md) · "
+        f"[Machine-readable snapshot](public-index.json) · "
         f"[GitHub owner]({GITHUB}/{snapshot['owner']})", "",
         "Only repositories confirmed public at capture time are present. The account also has",
         "private work; this inventory does not expose its names, branches, or links.", "",
