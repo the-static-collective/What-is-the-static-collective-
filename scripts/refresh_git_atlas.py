@@ -441,6 +441,7 @@ def render_index(groups, snapshot):
         f"**{total_branches} branch refs** (including defaults) · **{total_prs} open PRs**.",
         "",
         f"[Living map]({MAP_URL}) · [DELTA](delta.md) · [RELATIONS](relations.md) · "
+        f"[VISIBILITY](../visibility-aperture.md) · "
         f"[Machine-readable snapshot](public-index.json) · "
         f"[GitHub owner]({GITHUB}/{snapshot['owner']})", "",
         "Only repositories confirmed public at capture time are present. The account also has",
