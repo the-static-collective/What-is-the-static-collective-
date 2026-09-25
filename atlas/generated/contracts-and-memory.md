@@ -6,7 +6,7 @@ description: "Public Git branches and open pull requests for Contracts and memor
 
 Project-owned contracts for meaning, evidence, projection, calculation, and bounded action.
 
-[Back to the living map](../README.md) · [Full inventory](README.md)
+[Back to the living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [Full inventory](README.md)
 
 > This is a GitHub observation. Branch existence does not prove current work,
 > human acceptance, a successful deployment, or canonical status.

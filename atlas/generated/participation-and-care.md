@@ -6,7 +6,7 @@ description: "Public Git branches and open pull requests for Participation and c
 
 Food, households, accountable acts, return loops, and inhabitability.
 
-[Back to the living map](../README.md) · [Full inventory](README.md)
+[Back to the living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [Full inventory](README.md)
 
 > This is a GitHub observation. Branch existence does not prove current work,
 > human acceptance, a successful deployment, or canonical status.
