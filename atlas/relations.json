@@ -1,0 +1,53 @@
+{
+  "schema": "static-git-atlas/relations-v1",
+  "relations": [
+    {
+      "id": "project0-band-runtime-upstream",
+      "from_repo": "project0",
+      "to_repo": "band-runtime",
+      "relation": "upstream contract",
+      "direction": "directed",
+      "status": "declared",
+      "authority_owner": "band-runtime",
+      "source_url": "https://github.com/the-static-collective/band-runtime#readme",
+      "note": "Band Runtime names Project0 as an upstream contract while retaining local encounter authority.",
+      "residual_fog": "This records declared architectural lineage, not proof that every Project0 surface is consumed by the current runtime."
+    },
+    {
+      "id": "tranchnode-band-runtime-upstream",
+      "from_repo": "tranchnode",
+      "to_repo": "band-runtime",
+      "relation": "upstream contract",
+      "direction": "directed",
+      "status": "declared",
+      "authority_owner": "band-runtime",
+      "source_url": "https://github.com/the-static-collective/band-runtime#readme",
+      "note": "Band Runtime names TranchNode as an upstream contract while retaining local encounter authority.",
+      "residual_fog": "The relation does not make TranchNode authoritative over Band Runtime's local encounter decisions."
+    },
+    {
+      "id": "band-runtime-static-live-stage-projection",
+      "from_repo": "band-runtime",
+      "to_repo": "static-live",
+      "relation": "stage projection",
+      "direction": "directed",
+      "status": "declared",
+      "authority_owner": "static-live",
+      "source_url": "https://github.com/the-static-collective/static-live#readme",
+      "note": "Static Live describes its stage projection as downstream from Band Runtime encounter receipts.",
+      "residual_fog": "Declared projection lineage is not evidence that every runtime receipt is currently projected live."
+    },
+    {
+      "id": "toaster-phonography-siblings",
+      "from_repo": "the-haunted-toaster",
+      "to_repo": "the-haunted-phonography",
+      "relation": "sibling appliance",
+      "direction": "symmetric",
+      "status": "declared",
+      "authority_owner": "the-haunted-phonography",
+      "source_url": "https://github.com/the-static-collective/the-haunted-phonography#readme",
+      "note": "The two projects are described as sibling appliances carrying source song toward different witnessed media.",
+      "residual_fog": "Sibling status does not imply identical contracts, shared state, or bidirectional runtime integration."
+    }
+  ]
+}

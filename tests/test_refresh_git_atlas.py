@@ -1,5 +1,6 @@
 """Check that public projection and branch/PR identity boundaries survive."""
 
+import copy
 import importlib.util
 import unittest
 from pathlib import Path
@@ -58,6 +59,68 @@ class AtlasBoundaries(unittest.TestCase):
                                       "repositories": ["PreviouslyPublic"]}]}
         with self.assertRaises(ValueError):
             atlas.category_sets(catalog, snapshot)
+
+
+    def test_delta_keeps_observation_separate_from_disposition(self):
+        before = atlas.normalize(fixture(), "the-static-collective")
+        before["captured_at"] = "2026-09-25T00:00:00+00:00"
+        after = copy.deepcopy(before)
+        after["captured_at"] = "2026-09-26T00:00:00+00:00"
+        repo = after["repositories"][0]
+        next(branch for branch in repo["branches"] if branch["name"] == "side")["sha"] = "c" * 40
+        repo["branches"].append({"name": "new-door", "sha": "d" * 40})
+        repo["open_prs"] = [{
+            "number": 4, "title": "Next experiment", "head_branch": "new-door",
+            "head_sha": "d" * 40, "head_repo": "the-static-collective/Example",
+            "base_branch": "main", "updated_at": "2026-09-26T00:00:00Z",
+            "url": "https://github.com/the-static-collective/Example/pull/4",
+        }]
+
+        delta = atlas.topology_delta(before, after)
+        self.assertEqual(delta["added_branches"][0]["branch"], "new-door")
+        self.assertEqual(delta["moved_branch_heads"][0]["branch"], "side")
+        self.assertEqual(delta["opened_prs"][0]["number"], 4)
+        self.assertEqual(delta["left_open_prs"][0]["number"], 3)
+        self.assertNotIn("merged", atlas.render_delta(delta).lower().split(
+            "a pr leaving the open set does not by itself prove", 1)[1].split(
+            "whether it", 1)[0])
+
+    def test_relation_catalog_requires_visible_endpoints(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        valid = {
+            "schema": "static-git-atlas/relations-v1",
+            "relations": [{
+                "id": "example-self-witness",
+                "from_repo": "Example", "to_repo": "Example",
+                "relation": "test witness", "direction": "directed",
+                "status": "observed", "authority_owner": "Example",
+                "source_url": "https://github.com/the-static-collective/Example",
+                "note": "Fixture only.", "residual_fog": "None asserted.",
+            }],
+        }
+        self.assertEqual(
+            atlas.validate_relations(valid, snapshot)[0]["id"],
+            "example-self-witness")
+        invalid = copy.deepcopy(valid)
+        invalid["relations"][0]["to_repo"] = "PrivateOrMissing"
+        with self.assertRaises(ValueError):
+            atlas.validate_relations(invalid, snapshot)
+
+    def test_relation_catalog_does_not_accept_unknown_status(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/relations-v1",
+            "relations": [{
+                "id": "bad-status",
+                "from_repo": "Example", "to_repo": "Example",
+                "relation": "test", "direction": "directed",
+                "status": "canon-because-machine-said-so",
+                "authority_owner": "Example",
+                "source_url": "https://github.com/the-static-collective/Example",
+            }],
+        }
+        with self.assertRaises(ValueError):
+            atlas.validate_relations(raw, snapshot)
 
 
 if __name__ == "__main__":

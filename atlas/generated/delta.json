@@ -1,0 +1,12 @@
+{
+  "schema": "static-git-atlas/delta-v1",
+  "from_captured_at": "2026-09-25T21:30:39.983Z",
+  "to_captured_at": "2026-09-25T21:30:39.983Z",
+  "added_repositories": [],
+  "removed_repositories": [],
+  "added_branches": [],
+  "removed_branches": [],
+  "moved_branch_heads": [],
+  "opened_prs": [],
+  "left_open_prs": []
+}
