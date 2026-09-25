@@ -1,0 +1,33 @@
+{
+  "schema": "static-git-atlas/visibility-policy-v1",
+  "default_visibility": "public",
+  "visibility_states": [
+    "public",
+    "restricted"
+  ],
+  "restriction_reasons": [
+    "technical",
+    "ethical",
+    "practical",
+    "security",
+    "personal",
+    "legal",
+    "licensing",
+    "external-constraint",
+    "other"
+  ],
+  "restricted_default_projection": "omit",
+  "restricted_projection_modes": [
+    "omit",
+    "presence"
+  ],
+  "laws": [
+    "visibility is independent of status, authority, evidence, and maturity",
+    "public is the default when reality permits it",
+    "restriction requires an explicit reason",
+    "restricted identity never enters a public projection implicitly",
+    "a visibility crossing does not promote, validate, canonize, or finish an artifact",
+    "redacted presence requires an explicit public-safe label",
+    "relations touching restricted entities are omitted unless separately admitted for public projection"
+  ]
+}
