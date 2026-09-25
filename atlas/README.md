@@ -28,7 +28,7 @@ The shelves are addresses for navigation, not a hierarchy of importance. A repo 
 
 ## Two extra lenses
 
-* [**DELTA — What moved?**](generated/delta.md) is machine-observed change between the previous persisted public snapshot and the newest changed snapshot. It records repository membership, branch birth/disappearance, branch-head movement, and PRs entering or leaving the open set without assigning motive or disposition.
+* [**DELTA — What moved?**](generated/delta.md) is machine-observed change between the previous persisted public snapshot and the newest changed snapshot. It records repository membership, branch birth/disappearance, branch-head movement, and PRs entering or leaving the open set without assigning motive or disposition. No-change refreshes leave the last meaningful delta intact rather than replacing it with an empty report.
 * [**RELATIONS — Connective tissue**](generated/relations.md) is human-curated and source-linked. Automation validates and renders admitted edges, but it cannot invent a relationship or promote one into project authority.
 
 Together they keep **movement** separate from **meaning**.
