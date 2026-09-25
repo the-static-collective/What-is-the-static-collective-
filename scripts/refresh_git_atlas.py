@@ -19,6 +19,7 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "atlas" / "constellations.json"
+RELATIONS = ROOT / "atlas" / "relations.json"
 OUTPUT = ROOT / "atlas" / "generated"
 GITHUB = "https://github.com"
 API = "https://api.github.com"
@@ -156,6 +157,202 @@ def category_sets(catalog, snapshot):
     return groups
 
 
+
+def topology_delta(previous, current):
+    """Describe public Git topology changes without interpreting their meaning."""
+    previous = previous or {"repositories": []}
+    old_repos = {repo["name"]: repo for repo in previous.get("repositories", [])}
+    new_repos = {repo["name"]: repo for repo in current.get("repositories", [])}
+    delta = {
+        "schema": "static-git-atlas/delta-v1",
+        "from_captured_at": previous.get("captured_at"),
+        "to_captured_at": current.get("captured_at"),
+        "added_repositories": sorted(set(new_repos) - set(old_repos), key=str.casefold),
+        "removed_repositories": sorted(set(old_repos) - set(new_repos), key=str.casefold),
+        "added_branches": [],
+        "removed_branches": [],
+        "moved_branch_heads": [],
+        "opened_prs": [],
+        "left_open_prs": [],
+    }
+
+    for name in sorted(set(old_repos) | set(new_repos), key=str.casefold):
+        old_repo = old_repos.get(name, {"branches": [], "open_prs": []})
+        new_repo = new_repos.get(name, {"branches": [], "open_prs": []})
+        old_branches = {branch["name"]: branch["sha"] for branch in old_repo.get("branches", [])}
+        new_branches = {branch["name"]: branch["sha"] for branch in new_repo.get("branches", [])}
+        for branch in sorted(set(new_branches) - set(old_branches), key=str.casefold):
+            delta["added_branches"].append(
+                {"repository": name, "branch": branch, "sha": new_branches[branch]})
+        for branch in sorted(set(old_branches) - set(new_branches), key=str.casefold):
+            delta["removed_branches"].append(
+                {"repository": name, "branch": branch, "sha": old_branches[branch]})
+        for branch in sorted(set(old_branches) & set(new_branches), key=str.casefold):
+            if old_branches[branch] != new_branches[branch]:
+                delta["moved_branch_heads"].append({
+                    "repository": name, "branch": branch,
+                    "from_sha": old_branches[branch], "to_sha": new_branches[branch],
+                })
+
+        old_prs = {pr["number"]: pr for pr in old_repo.get("open_prs", [])}
+        new_prs = {pr["number"]: pr for pr in new_repo.get("open_prs", [])}
+        for number in sorted(set(new_prs) - set(old_prs)):
+            pr = new_prs[number]
+            delta["opened_prs"].append({
+                "repository": name, "number": number, "title": pr["title"],
+                "url": pr["url"], "head_branch": pr["head_branch"],
+                "base_branch": pr["base_branch"],
+            })
+        for number in sorted(set(old_prs) - set(new_prs)):
+            pr = old_prs[number]
+            delta["left_open_prs"].append({
+                "repository": name, "number": number, "title": pr["title"],
+                "url": pr["url"], "head_branch": pr["head_branch"],
+                "base_branch": pr["base_branch"],
+            })
+    return delta
+
+
+def validate_relations(raw, snapshot):
+    """Validate editorial edges against the currently public repository set."""
+    if raw.get("schema") != "static-git-atlas/relations-v1":
+        raise ValueError("Unsupported relation catalog schema")
+    known = {repo["name"] for repo in snapshot["repositories"]}
+    seen = set()
+    allowed_status = {"declared", "observed", "inferred"}
+    allowed_direction = {"directed", "symmetric"}
+    relations = []
+    for relation in raw.get("relations", []):
+        relation_id = relation.get("id", "")
+        if not relation_id or relation_id in seen:
+            raise ValueError("Relation id must be nonempty and unique")
+        seen.add(relation_id)
+        for endpoint in ("from_repo", "to_repo"):
+            if relation.get(endpoint) not in known:
+                raise ValueError(
+                    f"Relation {relation_id} references nonpublic or missing repo: "
+                    f"{relation.get(endpoint)}")
+        if relation.get("status") not in allowed_status:
+            raise ValueError("Invalid relation status for " + relation_id)
+        if relation.get("direction") not in allowed_direction:
+            raise ValueError("Invalid relation direction for " + relation_id)
+        if not str(relation.get("source_url", "")).startswith("https://"):
+            raise ValueError("Relation source must be an HTTPS URL for " + relation_id)
+        if not relation.get("authority_owner"):
+            raise ValueError("Relation authority_owner is required for " + relation_id)
+        relations.append({key: relation.get(key) for key in (
+            "id", "from_repo", "to_repo", "relation", "direction", "status",
+            "authority_owner", "source_url", "note", "residual_fog")})
+    return relations
+
+
+def render_delta(delta):
+    counts = [
+        ("Repositories added", len(delta["added_repositories"])),
+        ("Repositories removed", len(delta["removed_repositories"])),
+        ("Branches added", len(delta["added_branches"])),
+        ("Branches removed", len(delta["removed_branches"])),
+        ("Branch heads moved", len(delta["moved_branch_heads"])),
+        ("PRs entering open set", len(delta["opened_prs"])),
+        ("PRs leaving open set", len(delta["left_open_prs"])),
+    ]
+    lines = [
+        "---",
+        'description: "Machine-observed topology changes between two public Git atlas captures."',
+        "---", "", "# DELTA — What moved?", "",
+        "This lens reports set and pointer changes between the previous persisted public",
+        "snapshot and the newest changed snapshot. It does **not** interpret why a branch",
+        "moved or disappeared, and a PR leaving the open set does not by itself prove",
+        "whether it merged, closed, or became unavailable.", "",
+        f"From: **{md(delta.get('from_captured_at') or 'baseline')}**  ",
+        f"To: **{md(delta.get('to_captured_at') or 'unknown')}**", "",
+        "| Observed event | Count |", "| --- | ---: |",
+    ]
+    lines += [f"| {label} | {count} |" for label, count in counts]
+
+    def heading(title):
+        lines.extend(["", "## " + title, ""])
+
+    heading("Repository set")
+    if not delta["added_repositories"] and not delta["removed_repositories"]:
+        lines.append("No repository membership changes in this delta.")
+    for name in delta["added_repositories"]:
+        lines.append(f"* **+ repo** [{md(name)}]({repository_url('the-static-collective', name)})")
+    for name in delta["removed_repositories"]:
+        lines.append(f"* **− repo** {md(name)}")
+
+    heading("Branch set and pointer movement")
+    branch_events = (delta["added_branches"] + delta["removed_branches"]
+                     + delta["moved_branch_heads"])
+    if not branch_events:
+        lines.append("No branch additions, removals, or head movements in this delta.")
+    for item in delta["added_branches"]:
+        lines.append(
+            f"* **+ branch** {md(item['repository'])} / "
+            f"[{md(item['branch'])}]({branch_url('the-static-collective', item['repository'], item['branch'])}) "
+            f"→ {TICK}{item['sha'][:10]}{TICK}")
+    for item in delta["removed_branches"]:
+        lines.append(
+            f"* **− branch** {md(item['repository'])} / {md(item['branch'])} "
+            f"(last observed {TICK}{item['sha'][:10]}{TICK})")
+    for item in delta["moved_branch_heads"]:
+        url = repository_url("the-static-collective", item["repository"])
+        lines.append(
+            f"* **↪ head** {md(item['repository'])} / {md(item['branch'])}: "
+            f"[{item['from_sha'][:10]}]({url}/commit/{item['from_sha']}) → "
+            f"[{item['to_sha'][:10]}]({url}/commit/{item['to_sha']})")
+
+    heading("Open pull-request set")
+    if not delta["opened_prs"] and not delta["left_open_prs"]:
+        lines.append("No pull requests entered or left the open set in this delta.")
+    for item in delta["opened_prs"]:
+        lines.append(
+            f"* **+ open PR** [{md(item['repository'])} #{item['number']} — "
+            f"{md(item['title'])}]({item['url']})")
+    for item in delta["left_open_prs"]:
+        lines.append(
+            f"* **− open-set PR** [{md(item['repository'])} #{item['number']} — "
+            f"{md(item['title'])}]({item['url']})")
+
+    lines += ["", "The machine-readable companion is [delta.json](delta.json).",
+              "For current status, follow the project source; DELTA is a witness of movement,",
+              "not a verdict about disposition or authority.", ""]
+    return "\n".join(lines)
+
+
+def render_relations(relations, snapshot):
+    owner = snapshot["owner"]
+    lines = [
+        "---",
+        'description: "Human-curated, source-linked relations between public Static Collective repositories."',
+        "---", "", "# RELATIONS — Connective tissue", "",
+        "The Git inventory can observe that bodies exist and move. This lens records a",
+        "small set of relationships that a human has deliberately admitted with a source.",
+        "Automation may validate and render these edges; it may not invent or promote them.", "",
+        "| Relation | Status | Authority owner | Source | Residual fog |",
+        "| --- | --- | --- | --- | --- |",
+    ]
+    for relation in relations:
+        left = f"[{md(relation['from_repo'])}]({repository_url(owner, relation['from_repo'])})"
+        right = f"[{md(relation['to_repo'])}]({repository_url(owner, relation['to_repo'])})"
+        arrow = "↔" if relation["direction"] == "symmetric" else "→"
+        name = md(relation["relation"])
+        source = f"[source]({relation['source_url']})"
+        lines.append(
+            f"| {left} {arrow} {right} — **{name}** | "
+            f"{md(relation['status'])} | {md(relation['authority_owner'])} | "
+            f"{source} | {md(relation.get('residual_fog') or '')} |")
+        if relation.get("note"):
+            lines.append(f"| ↳ {md(relation['note'])} |  |  |  |  |")
+    lines += ["", "## Status vocabulary", "",
+              "* **declared** — a cited project-owned source explicitly states the relation.",
+              "* **observed** — a bounded mechanism or artifact directly evidences the crossing.",
+              "* **inferred** — an editorial hypothesis admitted as such; never project authority.",
+              "",
+              "A relation can be real without being an integration. A source can establish",
+              "lineage without transferring authority. Residual fog is preserved on purpose.", ""]
+    return "\n".join(lines)
+
 def md(value):
     return (str(value or "").replace("&", "&amp;").replace("<", "&lt;")
             .replace(">", "&gt;").replace("|", "\\|")
@@ -284,12 +481,18 @@ def render_index(groups, snapshot):
     return "\n".join(lines)
 
 
-def output_files(snapshot, catalog):
+def output_files(snapshot, catalog, relations, delta=None):
     groups = category_sets(catalog, snapshot)
-    files = {"README.md": render_index(groups, snapshot)}
+    files = {
+        "README.md": render_index(groups, snapshot),
+        "relations.md": render_relations(relations, snapshot),
+    }
     for group, members in groups:
         files[group["slug"] + ".md"] = render_group(group, members, snapshot)
     files["public-index.json"] = json.dumps(snapshot, indent=2, ensure_ascii=False) + "\n"
+    if delta is not None:
+        files["delta.md"] = render_delta(delta)
+        files["delta.json"] = json.dumps(delta, indent=2, ensure_ascii=False) + "\n"
     return files
 
 
@@ -299,20 +502,27 @@ def main(argv=None):
     parser.add_argument("--check", action="store_true", help="Verify generated files without writing")
     args = parser.parse_args(argv)
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
+    relation_source = json.loads(RELATIONS.read_text(encoding="utf-8"))
     if args.input:
         raw = json.loads(args.input.read_text(encoding="utf-8"))
     else:
         raw = fetch_public(catalog["owner"], os.environ.get("GITHUB_TOKEN"))
     snapshot = normalize(raw, catalog["owner"])
     previous = OUTPUT / "public-index.json"
+    old = None
+    topology_changed = True
     if previous.exists():
         old = json.loads(previous.read_text(encoding="utf-8"))
         old_without_time = {key: value for key, value in old.items() if key != "captured_at"}
-        if old_without_time == snapshot:
+        topology_changed = old_without_time != snapshot
+        if not topology_changed:
             snapshot["captured_at"] = old["captured_at"]
     snapshot.setdefault("captured_at", raw.get("observed_at") or datetime.now(
         timezone.utc).isoformat(timespec="seconds"))
-    files = output_files(snapshot, catalog)
+    relations = validate_relations(relation_source, snapshot)
+    delta_missing = not (OUTPUT / "delta.md").exists() or not (OUTPUT / "delta.json").exists()
+    delta = topology_delta(old, snapshot) if topology_changed or delta_missing else None
+    files = output_files(snapshot, catalog, relations, delta)
     stale = [name for name, content in files.items()
              if not (OUTPUT / name).exists() or
              (OUTPUT / name).read_text(encoding="utf-8") != content]
