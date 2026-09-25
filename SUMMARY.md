@@ -85,6 +85,8 @@
     * [TRAEX / Tracks — Crossing Grammar](frontier/primitive-incubator/research-packet-a-crossing-consequence-and-local-constitution/traex-tracks-crossing-grammar.md)
     * [Crossing Frontier — What Survives, What Must Be Constituted Anew](frontier/primitive-incubator/research-packet-a-crossing-consequence-and-local-constitution/crossing-frontier-what-survives-what-must-be-constituted-anew.md)
   * [Research Packet B — Continuity, Carrier, Re-entry & Reconstruction](frontier/primitive-incubator/research-packet-b-continuity-carrier-re-entry-and-reconstruction/README.md)
+    * [DEVELOPMENT-EVENT-001 — Identity can survive changing shape](frontier/primitive-incubator/research-packet-b-continuity-carrier-re-entry-and-reconstruction/development-event-001/README.md)
+      * [🦇 BAT FEED](frontier/primitive-incubator/research-packet-b-continuity-carrier-re-entry-and-reconstruction/development-event-001/BAT-FEED.md)
     * [Artifact Resurrection — Exact Return](frontier/primitive-incubator/research-packet-b-continuity-carrier-re-entry-and-reconstruction/artifact-resurrection-exact-return.md)
     * [Continuity Witness — Shared Questions, Local Answers](frontier/primitive-incubator/research-packet-b-continuity-carrier-re-entry-and-reconstruction/continuity-witness-shared-questions-local-answers/README.md)
       * [Forkability — Continuity Without Convergence](frontier/primitive-incubator/research-packet-b-continuity-carrier-re-entry-and-reconstruction/continuity-witness-shared-questions-local-answers/forkability-continuity-without-convergence.md)
