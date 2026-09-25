@@ -1,0 +1,37 @@
+name: Guard development-event contracts
+
+on:
+  pull_request:
+    paths:
+      - "scripts/development_event.py"
+      - "tests/test_development_event.py"
+      - "frontier/primitive-incubator/research-packet-b-continuity-carrier-re-entry-and-reconstruction/development-event-001/**"
+      - ".github/workflows/development-event-contracts.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  development-event-contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile validator
+        run: python3 -m py_compile scripts/development_event.py
+      - name: Run development-event boundary tests
+        run: python3 -m unittest tests/test_development_event.py
+      - name: Parse machine-readable schema
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path("frontier/primitive-incubator/research-packet-b-continuity-carrier-re-entry-and-reconstruction/development-event-001/development-event.schema.json")
+          raw = json.loads(path.read_text())
+          assert raw["$id"] == "static-development-event/v0"
+          print("development-event schema parses")
+          PY
