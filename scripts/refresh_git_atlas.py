@@ -22,6 +22,7 @@ CATALOG = ROOT / "atlas" / "constellations.json"
 OUTPUT = ROOT / "atlas" / "generated"
 GITHUB = "https://github.com"
 API = "https://api.github.com"
+MAP_URL = "https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas"
 TICK = chr(96)
 
 
@@ -187,7 +188,7 @@ def render_group(group, members, snapshot):
         "---", f"description: {json.dumps('Public Git branches and open pull requests for ' + group['name'] + '.')}",
         "---", "", "# " + group["name"], "",
         group["description"], "",
-        "[Back to the living map](../README.md) · [Full inventory](README.md)", "",
+        f"[Back to the living map]({MAP_URL}) · [Full inventory](README.md)", "",
         "> This is a GitHub observation. Branch existence does not prove current work,",
         "> human acceptance, a successful deployment, or canonical status.", "",
     ]
@@ -242,7 +243,7 @@ def render_index(groups, snapshot):
         f"Captured: **{snapshot['captured_at']}** · **{len(repos)} public repositories** · "
         f"**{total_branches} branch refs** (including defaults) · **{total_prs} open PRs**.",
         "",
-        "[Living map](../README.md) · [Machine-readable snapshot](public-index.json) · "
+        f"[Living map]({MAP_URL}) · [Machine-readable snapshot](public-index.json) · "
         f"[GitHub owner]({GITHUB}/{snapshot['owner']})", "",
         "Only repositories confirmed public at capture time are present. The account also has",
         "private work; this inventory does not expose its names, branches, or links.", "",
