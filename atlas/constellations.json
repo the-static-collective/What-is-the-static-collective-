@@ -1,0 +1,47 @@
+{
+  "owner": "the-static-collective",
+  "constellations": [
+    {
+      "slug": "origins-and-witnesses",
+      "name": "Origins and witnesses",
+      "description": "Early experiments, historical carriers, the public front room, and memory of what changed.",
+      "repositories": ["tranchNode-v1", "the-autodisco", "BananaDash", "The-AutodiscoV.20.-question-marks-", "reCURV", "reCURVrePAIR", "reMIX-reCURVrePAIR", "LampPost", "mundaneWORMHOLE", "What-is-the-static-collective-", "the-daily-slice", "Human-Witness", "GOATnote", "founder-node", "autodiscography-vault"]
+    },
+    {
+      "slug": "contracts-and-memory",
+      "name": "Contracts and memory",
+      "description": "Project-owned contracts for meaning, evidence, projection, calculation, and bounded action.",
+      "repositories": ["tranchnode", "project0", "convergent-codec", "unfolding-ledger", "corpus-os", "jubilee-authority-kit", "free-graph", "LOADOUT", "3rdi", "Dogram", "ALEX.2"]
+    },
+    {
+      "slug": "participation-and-care",
+      "name": "Participation and care",
+      "description": "Food, households, accountable acts, return loops, and inhabitability.",
+      "repositories": ["Jubilee-Engine-VM", "Jubilee-Campfire", "BnanaGram", "BananaGram-Gram-to-Fork", "BananaSpork", "Nourish-Kids", "full-measure-world-layer", "seedforge", "seedforge-v0", "seedFORK", "100pies", "pies", "revival"]
+    },
+    {
+      "slug": "songs-and-stages",
+      "name": "Songs and stages",
+      "description": "Musical encounters, creative crossings, performance, and their receipts.",
+      "repositories": ["band-runtime", "static-live", "jublEchat", "the-haunted-phonography", "STORYSHIP"]
+    },
+    {
+      "slug": "images-and-appliances",
+      "name": "Images and appliances",
+      "description": "Visual and audio-video instruments, pantry experiments, and older appliance branches.",
+      "repositories": ["the-haunted-toaster", "the-haunted-blender", "the-haunted-pol-ish-roids", "toaster-lab", "toaster-lab2", "toaster-oracle", "appliance-prophet-king", "SEAMforge", "tranchNOSE", "iron-lung"]
+    },
+    {
+      "slug": "worlds-and-inquiry",
+      "name": "Worlds and inquiry",
+      "description": "Author-owned worlds, shared rooms, play, scripture, and provenance-bearing investigations.",
+      "repositories": ["WORLDSEED", "Upper-room", "national-treasure", "static-field", "ROroomOM", "ChronoQuest"]
+    },
+    {
+      "slug": "operating-surfaces",
+      "name": "Operating surfaces",
+      "description": "Desks, machines, release surfaces, return paths, and small new probes.",
+      "repositories": ["static-workbench", "static-os", "cloudflare-control", "fogGlass", "reCOreturn"]
+    }
+  ]
+}
