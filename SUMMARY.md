@@ -7,6 +7,19 @@
 * [The Static Collective](<README (1).md>)
 * [Leave a Trace](CONTRIBUTING.md)
 
+## Living Git Map
+
+* [The Living Git Map](atlas/README.md)
+  * [Public Git inventory](atlas/generated/README.md)
+  * [Origins and witnesses](atlas/generated/origins-and-witnesses.md)
+  * [Contracts and memory](atlas/generated/contracts-and-memory.md)
+  * [Participation and care](atlas/generated/participation-and-care.md)
+  * [Songs and stages](atlas/generated/songs-and-stages.md)
+  * [Images and appliances](atlas/generated/images-and-appliances.md)
+  * [Worlds and inquiry](atlas/generated/worlds-and-inquiry.md)
+  * [Operating surfaces](atlas/generated/operating-surfaces.md)
+  * [Unplaced public repositories](atlas/generated/unplaced.md)
+
 ## Project State
 
 * [Current Executable Project State](project-state/project-state/README.md)

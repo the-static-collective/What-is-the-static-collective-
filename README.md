@@ -17,6 +17,7 @@ You do not need to understand the architecture, vocabulary, history, or reposito
 
 * **“What is this place?”** Read [The Static Collective](<README (1).md>) for the plain-language overview.
 * **“I just want to wander.”** Open any door below. You are not expected to traverse the whole house.
+* **“Which repo or branch was that?”** Enter [The Living Git Map](atlas/README.md) for the public terrain and its surviving side doors.
 * **“I noticed something.”** [Leave a Trace](CONTRIBUTING.md). Questions, failed tests, edge cases, wording repairs, and honest confusion all count.
 
 There is no test at the door. A trustworthy observation is enough to begin.
