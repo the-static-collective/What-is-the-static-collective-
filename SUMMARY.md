@@ -13,6 +13,7 @@
   * [Public Git inventory](atlas/generated/README.md)
   * [DELTA — What moved?](atlas/generated/delta.md)
   * [RELATIONS — Connective tissue](atlas/generated/relations.md)
+  * [VISIBILITY-APERTURE-001 — Work in the light](atlas/visibility-aperture.md)
   * [Origins and witnesses](atlas/generated/origins-and-witnesses.md)
   * [Contracts and memory](atlas/generated/contracts-and-memory.md)
   * [Participation and care](atlas/generated/participation-and-care.md)
