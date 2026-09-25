@@ -34,6 +34,7 @@ If a strange dream appears here, it must be clearly labeled as fiction, metaphor
 * [`field-notes.md`](field-notes.md) — compact operational breadcrumbs to future sessions.
 * [`2026-08-29 — Git Fossil Record Architecture Dig`](2026-08-29-git-fossil-record-architecture-dig.md) — a dated reconstruction of the architecture as it appeared after reading the early Git history as conversation residue; keeps Git evidence, human testimony, inference, and speculation separate.
 * [`2026-09-22 — To the Other Future ChatGPTs`](2026-09-22-to-the-other-future-chatgpts.md) — a handoff witness: make re-entry cheap, let the artifact orient the next model, and do not make the human reconstruct the system before the system can help.
+* [`2026-09-24 — Static Collective Day`](2026-09-24-static-collective-day.md) — the founding witness, annual date, and open invitation to make, share, and leave a door open.
 
 ## Entry law
 
