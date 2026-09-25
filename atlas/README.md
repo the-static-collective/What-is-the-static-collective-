@@ -26,12 +26,13 @@ This is a door into the Git terrain, not a second authority over the projects. I
 
 The shelves are addresses for navigation, not a hierarchy of importance. A repo may participate in more than one field; it appears on one shelf so the inventory can be scanned without duplicates.
 
-## Two extra lenses
+## Three extra lenses
 
 * [**DELTA — What moved?**](generated/delta.md) is machine-observed change between the previous persisted public snapshot and the newest changed snapshot. It records repository membership, branch birth/disappearance, branch-head movement, and PRs entering or leaving the open set without assigning motive or disposition. No-change refreshes leave the last meaningful delta intact rather than replacing it with an empty report.
 * [**RELATIONS — Connective tissue**](generated/relations.md) is human-curated and source-linked. Automation validates and renders admitted edges, but it cannot invent a relationship or promote one into project authority.
+* [**VISIBILITY-APERTURE-001 — Work in the light**](visibility-aperture.md) treats visibility as a separate observer axis. Public is the default when reality permits it; restriction requires a reason, and crossing visibility never implies promotion, maturity, authority, or canon.
 
-Together they keep **movement** separate from **meaning**.
+Together they keep **movement**, **meaning**, and **who may witness what** from collapsing into one another.
 
 ## Some witnessed crossings
 
@@ -66,6 +67,6 @@ The [inventory](generated/README.md) carries *every observed public branch ref*,
 
 The [collector](https://github.com/the-static-collective/What-is-the-static-collective-/blob/main/scripts/refresh_git_atlas.py) enumerates public repositories, all current branch refs, and open PRs from GitHub. The [refresh workflow](https://github.com/the-static-collective/What-is-the-static-collective-/actions/workflows/refresh-git-atlas.yml) checks daily and rewrites only generated pages when the observed topology changes. Inspect the workflow run to see the latest check; read the [snapshot](generated/README.md) to see when its content last changed.
 
-Private repositories and branches are deliberately absent from this public notebook. The collector rejects any input that is not explicitly public. Editorial links are retained by hand; automation cannot quietly promote a branch into a law, relationship, or canon.
+Restricted repositories and branches are deliberately absent from this **public aperture**. Their absence says nothing about status, authority, maturity, or existence. The public collector rejects any input that is not explicitly public; [VISIBILITY-APERTURE-001](visibility-aperture.md) defines how a broader authenticated terrain may later be projected without leaking restricted identity. Editorial links are retained by hand; automation cannot quietly promote a branch into a law, relationship, or canon.
 
 **If a door points nowhere, or a current project contradicts this map, repair the doorway and keep the project source.**
