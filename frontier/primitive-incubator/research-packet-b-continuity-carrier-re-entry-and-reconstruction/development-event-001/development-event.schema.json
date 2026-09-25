@@ -1,0 +1,402 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "static-development-event/v0",
+  "title": "Static Development Event v0",
+  "type": "object",
+  "required": [
+    "schema",
+    "id",
+    "event_type",
+    "subject",
+    "before",
+    "after",
+    "conditions",
+    "invariants_carried",
+    "changed",
+    "sources",
+    "non_claims",
+    "causation"
+  ],
+  "properties": {
+    "schema": {
+      "const": "static-development-event/v0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_type": {
+      "enum": [
+        "molt",
+        "guidance",
+        "differentiation",
+        "aperture",
+        "other"
+      ]
+    },
+    "subject": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "identity_claim": {
+          "enum": [
+            "continued",
+            "not-claimed",
+            "disputed"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "before": {
+      "type": "object"
+    },
+    "after": {
+      "type": "object"
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "statement"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "pressure",
+              "constraint",
+              "contact",
+              "load",
+              "other"
+            ]
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_url": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "invariants_carried": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "claim",
+          "evidence"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "changed": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "residue": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "evidence_class"
+        ],
+        "properties": {
+          "url": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "evidence_class": {
+            "enum": [
+              "declared",
+              "observed",
+              "inferred"
+            ]
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "non_claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "causation": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "not-claimed",
+            "explicitly-witnessed"
+          ]
+        },
+        "basis": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "guidance": {
+      "type": "object",
+      "required": [
+        "observer",
+        "observed_at",
+        "available",
+        "shown",
+        "recommended",
+        "chosen",
+        "used"
+      ],
+      "properties": {
+        "observer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observed_at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "available": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "shown": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recommended": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "chosen": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "used": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "molt": {
+      "type": "object",
+      "required": [
+        "old_address",
+        "new_address",
+        "ancestry_receipts"
+      ],
+      "properties": {
+        "old_address": {
+          "type": "string",
+          "minLength": 1
+        },
+        "new_address": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ancestry_receipts": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "exclusions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "differentiation": {
+      "type": "object",
+      "required": [
+        "relation_id",
+        "endpoints",
+        "old_form",
+        "new_form",
+        "load_receipts"
+      ],
+      "properties": {
+        "relation_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "endpoints": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "old_form": {
+          "type": "string",
+          "minLength": 1
+        },
+        "new_form": {
+          "type": "string",
+          "minLength": 1
+        },
+        "load_receipts": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "aperture": {
+      "type": "object",
+      "required": [
+        "before_visibility",
+        "after_visibility"
+      ],
+      "properties": {
+        "before_visibility": {
+          "type": "string",
+          "minLength": 1
+        },
+        "after_visibility": {
+          "type": "string",
+          "minLength": 1
+        },
+        "restriction_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "event_type": {
+            "const": "guidance"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "event_type": {
+            "const": "molt"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "molt"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "event_type": {
+            "const": "differentiation"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "differentiation"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "event_type": {
+            "const": "aperture"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "aperture"
+        ]
+      }
+    }
+  ],
+  "additionalProperties": true
+}
