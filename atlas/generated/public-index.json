@@ -1250,6 +1250,19 @@
       ]
     },
     {
+      "name": "cUps",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "ef798028ba1ed4aef0811974dd46cb047b758911"
+        }
+      ],
+      "open_prs": []
+    },
+    {
       "name": "Dogram",
       "visibility": "public",
       "default_branch": "main",
@@ -1438,6 +1451,10 @@
         {
           "name": "research/anti-collapse-reachability-001",
           "sha": "4d5175f2381ec8abdaf3bf1e081251166103ca19"
+        },
+        {
+          "name": "research/APERTURE-PARTITION-LATTICE-001",
+          "sha": "9e5ad1efe4a6e14f349be6fc0e9f6468f63af813"
         },
         {
           "name": "research/banach-section-obstruction-001",
@@ -7903,8 +7920,20 @@
           "sha": "07270b1c803523f674e45a76f99e4e6820bc5372"
         },
         {
+          "name": "feat/development-event-001",
+          "sha": "121d14ac3fa7928a8d47b73269d34f2d6fea7a5a"
+        },
+        {
           "name": "feat/full-bowl-001-maddclown",
           "sha": "95f61c5d065561b73f7d2748bc05fcefc41a6c3a"
+        },
+        {
+          "name": "feat/living-git-map-20260925",
+          "sha": "313606c8a637b28da2ebcbb5336a54c354959b5f"
+        },
+        {
+          "name": "feat/living-map-delta-relations-001",
+          "sha": "a984e905d1e3806e386f5fddf0c0446d8080d14e"
         },
         {
           "name": "feat/mortal-actor-001-blind-proof",
@@ -7923,12 +7952,20 @@
           "sha": "210ac3518c31679705e530eb67f05fb67027552e"
         },
         {
+          "name": "feat/visibility-aperture-001",
+          "sha": "283586415e393646f9220cd69b680c0cf2aafc37"
+        },
+        {
           "name": "feature/orchard-picker-v0",
           "sha": "3b73445a126c3a9496c4befe7e3316aaeb597c8b"
         },
         {
           "name": "fix/full-bowl-encounter-binding",
           "sha": "0b869260610ca354bea9114208619cebcd920e03"
+        },
+        {
+          "name": "fix/git-atlas-return-links-20260925",
+          "sha": "5c9650df71d05f5ad12e72b540b8e1f74375e568"
         },
         {
           "name": "frontier/attention-resolution-field",
@@ -7964,7 +8001,7 @@
         },
         {
           "name": "main",
-          "sha": "517beb29854aecf8bf45ae55b70ff6a2bd820dca"
+          "sha": "a45bdabece4176a8a9a9ed5be8152cff60e3e6fc"
         },
         {
           "name": "pattern/gestalt-recursion",
@@ -8181,6 +8218,34 @@
       ]
     },
     {
+      "name": "WITNESS",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "genesis/community-audio-bible-001",
+          "sha": "7634e15aa41eb5e833189631e3502a0f01492a9c"
+        },
+        {
+          "name": "main",
+          "sha": "81a343802ff13199bbe0cdda324e1dd95800ac10"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 1,
+          "title": "GENESIS-001: community audio Bible witness layer",
+          "head_branch": "genesis/community-audio-bible-001",
+          "head_sha": "7634e15aa41eb5e833189631e3502a0f01492a9c",
+          "head_repo": "the-static-collective/WITNESS",
+          "base_branch": "main",
+          "updated_at": "2026-09-26T04:17:46Z",
+          "url": "https://github.com/the-static-collective/WITNESS/pull/1"
+        }
+      ]
+    },
+    {
       "name": "WORLDSEED",
       "visibility": "public",
       "default_branch": "main",
@@ -8301,5 +8366,5 @@
       ]
     }
   ],
-  "captured_at": "2026-09-25T21:30:39.983Z"
+  "captured_at": "2026-09-26T12:13:26+00:00"
 }

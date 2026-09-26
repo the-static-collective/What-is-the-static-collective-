@@ -326,7 +326,7 @@ Default: `main` · other refs: 25 · open PRs: 7
 
 [Repository](https://github.com/the-static-collective/Dogram) · [Branches](https://github.com/the-static-collective/Dogram/branches) · [Pull requests](https://github.com/the-static-collective/Dogram/pulls)
 
-Default: `main` · other refs: 182 · open PRs: 56
+Default: `main` · other refs: 183 · open PRs: 56
 
 ### Open pull requests
 
@@ -438,6 +438,7 @@ Default: `main` · other refs: 182 · open PRs: 56
 | [research/adaptive-probe-cost-prior-001](https://github.com/the-static-collective/Dogram/tree/research/adaptive-probe-cost-prior-001) | [17290a3d21](https://github.com/the-static-collective/Dogram/commit/17290a3d21d49f6341f578f16bc1a55639edba59) | Retained ref; disposition unverified |
 | [research/ambiguity-profile-001](https://github.com/the-static-collective/Dogram/tree/research/ambiguity-profile-001) | [3f99796d5c](https://github.com/the-static-collective/Dogram/commit/3f99796d5c779e9c20c980fc2fb51bafb0f70d5c) | [open PR #176](https://github.com/the-static-collective/Dogram/pull/176) |
 | [research/anti-collapse-reachability-001](https://github.com/the-static-collective/Dogram/tree/research/anti-collapse-reachability-001) | [4d5175f238](https://github.com/the-static-collective/Dogram/commit/4d5175f2381ec8abdaf3bf1e081251166103ca19) | Retained ref; disposition unverified |
+| [research/APERTURE-PARTITION-LATTICE-001](https://github.com/the-static-collective/Dogram/tree/research/APERTURE-PARTITION-LATTICE-001) | [9e5ad1efe4](https://github.com/the-static-collective/Dogram/commit/9e5ad1efe4a6e14f349be6fc0e9f6468f63af813) | Retained ref; disposition unverified |
 | [research/banach-section-obstruction-001](https://github.com/the-static-collective/Dogram/tree/research/banach-section-obstruction-001) | [098921c1cf](https://github.com/the-static-collective/Dogram/commit/098921c1cfeaad09056e90016d088628489cade3) | Retained ref; disposition unverified |
 | [research/biregular-incidence-collision-001](https://github.com/the-static-collective/Dogram/tree/research/biregular-incidence-collision-001) | [e9bba964fd](https://github.com/the-static-collective/Dogram/commit/e9bba964fdacd8555af4a8dc93f25bcd75243770) | [open PR #137](https://github.com/the-static-collective/Dogram/pull/137) |
 | [research/blocker-summary-collision-001](https://github.com/the-static-collective/Dogram/tree/research/blocker-summary-collision-001) | [65e1160c56](https://github.com/the-static-collective/Dogram/commit/65e1160c564b4cfdbf5a6bc77821d6987eea6403) | [open PR #124](https://github.com/the-static-collective/Dogram/pull/124) |

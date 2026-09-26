@@ -4,7 +4,7 @@ description: "Dated, source-linked public Git inventory for the Static Collectiv
 
 # Public Git inventory
 
-Captured: **2026-09-25T21:30:39.983Z** · **65 public repositories** · **1166 branch refs** (including defaults) · **302 open PRs**.
+Captured: **2026-09-26T12:13:26+00:00** · **67 public repositories** · **1175 branch refs** (including defaults) · **303 open PRs**.
 
 [Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
 
@@ -18,14 +18,14 @@ the current branch tip exactly. Otherwise its status is kept separate.
 
 | Editorial shelf | Public repos | Branch refs | Open PRs |
 | --- | ---: | ---: | ---: |
-| [Origins and witnesses](origins-and-witnesses.md) | 15 | 175 | 35 |
-| [Contracts and memory](contracts-and-memory.md) | 11 | 440 | 110 |
+| [Origins and witnesses](origins-and-witnesses.md) | 15 | 180 | 35 |
+| [Contracts and memory](contracts-and-memory.md) | 11 | 441 | 110 |
 | [Participation and care](participation-and-care.md) | 13 | 57 | 15 |
 | [Songs and stages](songs-and-stages.md) | 5 | 64 | 7 |
 | [Images and appliances](images-and-appliances.md) | 10 | 243 | 56 |
 | [Worlds and inquiry](worlds-and-inquiry.md) | 6 | 115 | 33 |
 | [Operating surfaces](operating-surfaces.md) | 5 | 72 | 46 |
-| [Unplaced public repositories](unplaced.md) | 0 | 0 | 0 |
+| [Unplaced public repositories](unplaced.md) | 2 | 3 | 1 |
 
 ## All public repositories
 
@@ -45,7 +45,8 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [cloudflare-control](https://github.com/the-static-collective/cloudflare-control) | [Operating surfaces](operating-surfaces.md) | 0 | 0 |
 | [convergent-codec](https://github.com/the-static-collective/convergent-codec) | [Contracts and memory](contracts-and-memory.md) | 1 | 0 |
 | [corpus-os](https://github.com/the-static-collective/corpus-os) | [Contracts and memory](contracts-and-memory.md) | 22 | 1 |
-| [Dogram](https://github.com/the-static-collective/Dogram) | [Contracts and memory](contracts-and-memory.md) | 182 | 56 |
+| [cUps](https://github.com/the-static-collective/cUps) | [Unplaced public repositories](unplaced.md) | 0 | 0 |
+| [Dogram](https://github.com/the-static-collective/Dogram) | [Contracts and memory](contracts-and-memory.md) | 183 | 56 |
 | [fogGlass](https://github.com/the-static-collective/fogGlass) | [Operating surfaces](operating-surfaces.md) | 0 | 0 |
 | [founder-node](https://github.com/the-static-collective/founder-node) | [Origins and witnesses](origins-and-witnesses.md) | 4 | 1 |
 | [free-graph](https://github.com/the-static-collective/free-graph) | [Contracts and memory](contracts-and-memory.md) | 5 | 0 |
@@ -94,7 +95,8 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [tranchNOSE](https://github.com/the-static-collective/tranchNOSE) | [Images and appliances](images-and-appliances.md) | 3 | 1 |
 | [unfolding-ledger](https://github.com/the-static-collective/unfolding-ledger) | [Contracts and memory](contracts-and-memory.md) | 1 | 0 |
 | [Upper-room](https://github.com/the-static-collective/Upper-room) | [Worlds and inquiry](worlds-and-inquiry.md) | 7 | 2 |
-| [What-is-the-static-collective-](https://github.com/the-static-collective/What-is-the-static-collective-) | [Origins and witnesses](origins-and-witnesses.md) | 68 | 15 |
+| [What-is-the-static-collective-](https://github.com/the-static-collective/What-is-the-static-collective-) | [Origins and witnesses](origins-and-witnesses.md) | 73 | 15 |
+| [WITNESS](https://github.com/the-static-collective/WITNESS) | [Unplaced public repositories](unplaced.md) | 1 | 1 |
 | [WORLDSEED](https://github.com/the-static-collective/WORLDSEED) | [Worlds and inquiry](worlds-and-inquiry.md) | 9 | 7 |
 
 ## Refresh contract
