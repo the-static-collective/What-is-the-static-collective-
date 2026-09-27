@@ -606,6 +606,14 @@ lineage, or decide that no older meaning was lost in translation.
 | [tranchNOSE](https://github.com/the-static-collective/tranchNOSE) | 2026-09-27 | `legible reentry observed` | `OPEN` | The repository clearly states its optical-state experiment, failure boundary, machine model, first field-object question, research posture, and extraction lineage from tranchnode issue #30. |
 | [the-haunted-pol-ish-roids](https://github.com/the-static-collective/the-haunted-pol-ish-roids) | 2026-09-27 | `legible reentry observed` | `OPEN` | The front door explicitly identifies a living camera organism, its provenance/personality split, planned Phoenix Egg and Quantum Chrysalis lineage mechanics, and current design/specification phase with issue #1 as the gate. |
 | [BananaSpork](https://github.com/the-static-collective/BananaSpork) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README names the current FIELD-SPECIMEN-001 edge, separates NanaSpork/Garden/BananaGram/Campfire/Jubilee/Donkey responsibilities, states implemented authority boundaries, and lists the next live proof without confusing migration or build evidence with field proof. |
+| [fogGlass](https://github.com/the-static-collective/fogGlass) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README already preserves the instrument's narrow law: fog has an address, lamps investigate without deciding, lenses change observation rather than world-state, failed illumination leaves a receipt, and candidate-set size is not probability or truth. |
+| [convergent-codec](https://github.com/the-static-collective/convergent-codec) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README exposes the exact-codec thesis, current kernel, measured-cost law, witness-plane separation, non-goals, and next multichannel shared-mask experiment. Its current question is unusually explicit. |
+| [unfolding-ledger](https://github.com/the-static-collective/unfolding-ledger) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README clearly marks a v0.1 constitutional kernel, names six invariants, distinguishes verifier claims from non-claims, and explicitly records that its sorted-JSON serializer is not canonical for Project0 and still requires comparison against Project0's frozen addressing contract. |
+| [mundaneWORMHOLE](https://github.com/the-static-collective/mundaneWORMHOLE) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README carries both the performance and instrument identity, the rootstock/scion distinction, the bananaGraft seam, explicit non-retroactive-justification rule, human graft authority, privacy boundary, and the full Track 3 witness text. This repository is itself an anti-translation-loss instrument. |
+| [Jubilee-Campfire](https://github.com/the-static-collective/Jubilee-Campfire) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README clearly states the latent-capacity hypothesis, Offer → Join → Remember ontology, seed lifecycle, jubilee:// addressing, transparent matching, append-only event-store architecture, and future multi-circle/P2P direction. Its historical role remains readable even though later repositories use the words Jubilee and Campfire differently. |
+| [autodiscography-vault](https://github.com/the-static-collective/autodiscography-vault) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README gives a precise Phase B2C preservation gate, browser/local trust boundary, WAV witness ceremony, disabled capabilities, verification steps, and downstream Corpus OS handoff. It distinguishes implementation evidence from field proof throughout. |
+| [founder-node](https://github.com/the-static-collective/founder-node) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README explicitly narrows the current executable center from an older broader concept, documents what earlier text overstated, and defines Pollen Scout as evidence-bounded visibility rather than dispatch or authority. This is a strong example of a project repairing its own front-door translation. |
+| [Human-Witness](https://github.com/the-static-collective/Human-Witness) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README documents a bounded encounter-evidence membrane, explicit non-authorities, named architectural lineage from Upper Room / Formation Trace / Corpus OS / Jubilee Authority Kit, and an experimental SupaBardo crossing field kept outside the core contract. It preserves both inheritance and separation. |
 
 A legible front door is evidence of navigability at review time. It is not an
 automatic decision that recovery is unnecessary or complete.
@@ -644,6 +652,33 @@ What was preserved, renamed, re-expressed, or misunderstood between the declarat
 
 * [source 1](https://github.com/the-static-collective/toaster-lab/blob/main/README.md)
 * [source 2](https://github.com/the-static-collective/toaster-lab2/blob/main/README.md)
+
+### Jubilee-Campfire ↔ BananaSpork
+
+**Reviewed:** 2026-09-27
+
+**Bodies in tension:** [Jubilee-Campfire](https://github.com/the-static-collective/Jubilee-Campfire), [BananaSpork](https://github.com/the-static-collective/BananaSpork)
+
+**Observed tension**
+
+Jubilee-Campfire presents 'Jubilee Campfire' as one experimental protocol/mobile-web architecture organized around Offer → Join → Remember, durable receipts, capacities, and jubilee:// addressing. BananaSpork later separates the vocabulary into distinct responsibilities: Campfire is the household/community scope, while Jubilee is the authority, lineage, and durable-memory kernel.
+
+**Interpretation**
+
+TRANSLATION SCAR — a previously bundled name appears in a later body as decomposed responsibilities. The surviving texts show a semantic role split, but do not by themselves establish whether this was a planned refactor, a gradual clarification, a naming correction, or meaning lost and later reconstructed.
+
+**Not claimed**
+
+This record does not claim BananaSpork is a direct successor of Jubilee-Campfire, that the old ontology was abandoned, or that either text has exclusive authority over the words Jubilee or Campfire.
+
+**Re-entry question**
+
+When did Jubilee-Campfire's combined protocol identity split into 'Campfire = scope' and 'Jubilee = authority/lineage kernel', and what mechanics moved, disappeared, or changed names during that translation?
+
+**Evidence**
+
+* [source 1](https://github.com/the-static-collective/Jubilee-Campfire/blob/main/README.md)
+* [source 2](https://github.com/the-static-collective/BananaSpork/blob/main/README.md)
 
 ## Reading rule
 
