@@ -429,11 +429,13 @@ class AtlasBoundaries(unittest.TestCase):
                         {
                             "at": "2026-09-21T17:43:24Z",
                             "source_kind": "user_turn_recovered",
+                            "relation": "precursor_candidate",
                             "detail": "Printable physical-media origin."
                         },
                         {
                             "at": "2026-09-21T17:50:59Z",
                             "source_kind": "user_turn_recovered",
+                            "relation": "direct_lineage",
                             "detail": "Card system named."
                         }
                     ]
@@ -446,6 +448,7 @@ class AtlasBoundaries(unittest.TestCase):
         self.assertIn("Recovered prior-chat lineage", rendered)
         self.assertIn("print -&gt; card -&gt; game", rendered)
         self.assertIn("2026-09-21T17:43:24Z", rendered)
+        self.assertIn("precursor_candidate", rendered)
 
     def test_chat_history_recovery_rejects_out_of_order_events(self):
         snapshot = atlas.normalize(fixture(), "the-static-collective")
@@ -471,11 +474,13 @@ class AtlasBoundaries(unittest.TestCase):
                         {
                             "at": "2026-09-21T18:00:00Z",
                             "source_kind": "user_turn_recovered",
+                            "relation": "direct_lineage",
                             "detail": "later"
                         },
                         {
                             "at": "2026-09-21T17:00:00Z",
                             "source_kind": "user_turn_recovered",
+                            "relation": "direct_lineage",
                             "detail": "earlier"
                         }
                     ]
