@@ -330,7 +330,7 @@ def validate_recovery_seeds(raw, snapshot):
 def validate_recovery_reviews(raw, snapshot):
     """Validate surveyed repositories that do not need a recovery entry."""
     known = {repo["name"] for repo in snapshot["repositories"]}
-    allowed_results = {"recovery_not_needed", "declared_disposition"}
+    allowed_results = {"legible_reentry_observed", "disposition_claim_observed"}
     seen = set()
     reviews = []
     for review in raw.get("reviews", []):
@@ -347,6 +347,8 @@ def validate_recovery_reviews(raw, snapshot):
         result = review.get("result", "")
         if result not in allowed_results:
             raise ValueError("Recovery review has unsupported result: " + review_id)
+        if review.get("recovery_open") is not True:
+            raise ValueError("Recovery review may observe an aperture but cannot close recovery: " + review_id)
         if not str(review.get("note", "")).strip():
             raise ValueError("Recovery review requires note: " + review_id)
         evidence = review.get("evidence_urls") or []
@@ -357,16 +359,56 @@ def validate_recovery_reviews(raw, snapshot):
             "repository": repository,
             "reviewed_on": review["reviewed_on"],
             "result": result,
+            "recovery_open": True,
             "note": review["note"],
             "evidence_urls": list(evidence),
         })
     return reviews
 
 
-def render_recovery(entries, snapshot, seeds=None, reviews=None):
+def validate_translation_scars(raw, snapshot):
+    """Validate tensions between surviving records without resolving them into lineage."""
+    known = {repo["name"] for repo in snapshot["repositories"]}
+    seen = set()
+    scars = []
+    for scar in raw.get("translation_scars", []):
+        scar_id = scar.get("id", "")
+        if not scar_id or scar_id in seen:
+            raise ValueError("Translation scar id must be nonempty and unique")
+        seen.add(scar_id)
+        repositories = scar.get("repositories") or []
+        if len(repositories) < 2:
+            raise ValueError("Translation scar requires at least two repositories: " + scar_id)
+        for name in repositories:
+            if name not in known:
+                raise ValueError(
+                    f"Translation scar {scar_id} references nonpublic or missing repo: {name}")
+        if not re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}", str(scar.get("reviewed_on", ""))):
+            raise ValueError("Translation scar requires reviewed_on YYYY-MM-DD: " + scar_id)
+        for field in ("observed_tension", "interpretation", "not_claimed", "reentry_question"):
+            if not str(scar.get(field, "")).strip():
+                raise ValueError(f"Translation scar {scar_id} requires {field}")
+        evidence = scar.get("evidence_urls") or []
+        if len(evidence) < 2 or any(not str(url).startswith("https://") for url in evidence):
+            raise ValueError("Translation scar requires at least two HTTPS evidence URLs: " + scar_id)
+        scars.append({
+            "id": scar_id,
+            "repositories": list(repositories),
+            "reviewed_on": scar["reviewed_on"],
+            "observed_tension": scar["observed_tension"],
+            "interpretation": scar["interpretation"],
+            "not_claimed": scar["not_claimed"],
+            "reentry_question": scar["reentry_question"],
+            "evidence_urls": list(evidence),
+        })
+    return scars
+
+
+def render_recovery(entries, snapshot, seeds=None, reviews=None, translation_scars=None):
     owner = snapshot["owner"]
     seeds = seeds or []
     reviews = reviews or []
+    translation_scars = translation_scars or []
     lines = [
         "---",
         'description: "Dated, evidence-linked re-entry records for public repositories whose surviving body is easier to miss than to understand."',
@@ -423,21 +465,41 @@ def render_recovery(entries, snapshot, seeds=None, reviews=None):
             for index, url in enumerate(seed["evidence_urls"], start=1):
                 lines.append(f"* [source {index}]({url})")
     if reviews:
-        lines += ["", "## Surveyed bodies — recovery not needed", "",
-                  "These repositories were inspected in the same inch-by-inch pass and already",
-                  "carry enough project-owned orientation or disposition to re-enter without a",
-                  "recovery reconstruction. Recording them here makes survey coverage visible",
-                  "without turning every repository into a fossil.", "",
-                  "| Repository | Reviewed | Result | Why no recovery entry |",
-                  "| --- | --- | --- | --- |"]
+        lines += ["", "## Surveyed bodies — current aperture observations", "",
+                  "These repositories were inspected in the same inch-by-inch pass and currently",
+                  "carry a legible front door or an explicit disposition claim. That is only an",
+                  "observation about the present aperture. It does **not** close recovery, certify",
+                  "lineage, or decide that no older meaning was lost in translation.", "",
+                  "| Repository | Reviewed | Observed aperture | Recovery | Note |",
+                  "| --- | --- | --- | --- | --- |"]
         for review in reviews:
             repo_link = f"[{md(review['repository'])}]({repository_url(owner, review['repository'])})"
             result = review["result"].replace("_", " ")
             lines.append(
                 f"| {repo_link} | {md(review['reviewed_on'])} | {TICK}{md(result)}{TICK} | "
-                f"{md(review['note'])} |")
-        lines += ["", "A clear front door is evidence of navigability, not a claim that the project is",
-                  "finished, canonical, actively maintained, or more important than another node.", ""]
+                f"{TICK}OPEN{TICK} | {md(review['note'])} |")
+        lines += ["", "A legible front door is evidence of navigability at review time. It is not an",
+                  "automatic decision that recovery is unnecessary or complete.", ""]
+
+    if translation_scars:
+        lines += ["", "## TRANSLATION SCARS — where the story does not collapse cleanly", "",
+                  "A translation scar records a tension between surviving sources that becomes",
+                  "misleading if flattened into a neat succession story. The scar preserves the",
+                  "difference and leaves the historical question open.", ""]
+        for scar in translation_scars:
+            repo_links = ", ".join(
+                f"[{md(name)}]({repository_url(owner, name)})"
+                for name in scar["repositories"])
+            lines += ["", "### " + " ↔ ".join(scar["repositories"]), "",
+                      f"**Reviewed:** {md(scar['reviewed_on'])}", "",
+                      "**Bodies in tension:** " + repo_links, "",
+                      "**Observed tension**", "", md(scar["observed_tension"]), "",
+                      "**Interpretation**", "", md(scar["interpretation"]), "",
+                      "**Not claimed**", "", md(scar["not_claimed"]), "",
+                      "**Re-entry question**", "", md(scar["reentry_question"]), "",
+                      "**Evidence**", ""]
+            for index, url in enumerate(scar["evidence_urls"], start=1):
+                lines.append(f"* [source {index}]({url})")
 
     lines += ["", "## Reading rule", "",
               "Recovery does not resurrect authority. It restores a route back to a surviving",
@@ -447,7 +509,10 @@ def render_recovery(entries, snapshot, seeds=None, reviews=None):
               "    similar != descended",
               "    surviving code != current canon",
               "    missing explanation != permission to invent one",
-              "    UNKNOWN = preserved fog", ""]
+              "    UNKNOWN = preserved fog",
+              "    legible now != recovery complete",
+              "    declared disposition != final historical truth",
+              "    translation scars stay open", ""]
     return "\n".join(lines)
 
 
@@ -688,12 +753,12 @@ def render_index(groups, snapshot):
     return "\n".join(lines)
 
 
-def output_files(snapshot, catalog, relations, recovery, recovery_seeds, recovery_reviews, delta=None):
+def output_files(snapshot, catalog, relations, recovery, recovery_seeds, recovery_reviews, translation_scars, delta=None):
     groups = category_sets(catalog, snapshot)
     files = {
         "README.md": render_index(groups, snapshot),
         "relations.md": render_relations(relations, snapshot),
-        "recovery.md": render_recovery(recovery, snapshot, recovery_seeds, recovery_reviews),
+        "recovery.md": render_recovery(recovery, snapshot, recovery_seeds, recovery_reviews, translation_scars),
     }
     for group, members in groups:
         files[group["slug"] + ".md"] = render_group(group, members, snapshot)
@@ -732,9 +797,10 @@ def main(argv=None):
     recovery = validate_recovery(recovery_source, snapshot)
     recovery_seeds = validate_recovery_seeds(recovery_source, snapshot)
     recovery_reviews = validate_recovery_reviews(recovery_source, snapshot)
+    translation_scars = validate_translation_scars(recovery_source, snapshot)
     delta_missing = not (OUTPUT / "delta.md").exists() or not (OUTPUT / "delta.json").exists()
     delta = topology_delta(old, snapshot) if topology_changed or delta_missing else None
-    files = output_files(snapshot, catalog, relations, recovery, recovery_seeds, recovery_reviews, delta)
+    files = output_files(snapshot, catalog, relations, recovery, recovery_seeds, recovery_reviews, translation_scars, delta)
     stale = [name for name, content in files.items()
              if not (OUTPUT / name).exists() or
              (OUTPUT / name).read_text(encoding="utf-8") != content]
