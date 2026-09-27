@@ -118,7 +118,7 @@ This is a working edge, not a claim that the whole network is deployed or field-
 
 | Door | What lives there | Enter |
 | --- | --- | --- |
-| **Patterns** | Portable laws and structures that survived more than one local implementation. | [Creative Field Laws](patterns/creative-field-laws.md) |
+| **Patterns** | Portable laws and structures that survived more than one local implementation. | [☠️ Pirate Law — Hard Hull, Loose Rigging](patterns/pirate-law.md) |
 | **Witness** | Durable breadcrumbs that preserve continuity without pretending to be authority. | [Witness](witness/) |
 | **Frontier** | Questions and tensions we know remain unresolved. | [Unresolved](witness/unresolved.md) |
 | **Incubator** | Ideas worth keeping alive before they deserve a project or law. | [Primitive Incubator](frontier/primitive-incubator/) |
@@ -130,6 +130,12 @@ This is a working edge, not a claim that the whole network is deployed or field-
 ### Incubator landmark
 
 [**THE SEEDBANK — ELF-OFF-A-SHELF**](frontier/primitive-incubator/the-seedbank-elf-off-a-shelf/README.md) keeps the seedbank / ARK / Eve / ELF distinction alive as an incubating pattern without pretending it is the single live frontier.
+
+### Pirate law
+
+[**☠️ PIRATE LAW — Hard Hull, Loose Rigging**](patterns/pirate-law.md) is the Collective's operating distinction between truth-preserving invariants and conventions that remain available to creative piracy. Local law stays local; universal hardness must be earned.
+
+> **The law protects the record. The pirate protects the possibility.**
 
 ### Durable pattern
 
