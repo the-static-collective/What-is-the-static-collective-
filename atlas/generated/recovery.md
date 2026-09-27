@@ -32,6 +32,8 @@ not establish a later disposition.
 | [appliance-prophet-king](https://github.com/the-static-collective/appliance-prophet-king) | 2026-09-27 | `empty_repository`, `no_readme`, `no_implementation_body_observed`, `name_only_seed` | SHELL ONLY — this is currently evidence that a named door was created, not evidence that the project itself ever became executable. |
 | [cloudflare-control](https://github.com/the-static-collective/cloudflare-control) | 2026-09-27 | `empty_repository`, `no_readme`, `initialize_commit_only`, `name_only_seed` | SHELL ONLY — a named project aperture was created, but the public record currently does not show that it developed beyond initialization. |
 | [reCOreturn](https://github.com/the-static-collective/reCOreturn) | 2026-09-27 | `missing_readme`, `implementation_body`, `claim_ledger`, `return_loop`, `disposition_fog` | UNKNOWN — the executable body is substantial but there is no root README and this pass found no public source stating whether reCOreturn is current, paused, renamed, or absorbed into another participation/stewardship project. |
+| [static-field](https://github.com/the-static-collective/static-field) | 2026-09-27 | `missing_main_readme`, `implementation_body_on_open_prs`, `world_runtime_identity`, `multi_stage_proposal_lineage`, `front_door_not_landed` | ACTIVE PROPOSAL LINEAGE / FRONT-DOOR GAP — substantial executable and experimental bodies survive on open PRs, but the main branch does not presently carry the README that explains them. Open PRs are proposals, not proof that these bodies have landed or become current canon. |
+| [ROroomOM](https://github.com/the-static-collective/ROroomOM) | 2026-09-27 | `stale_main_readme`, `active_branch_lineage`, `capability_crossing_body`, `orphan_source_recomposition`, `translation_rich_history` | ACTIVE PROPOSAL LINEAGE / TRANSLATION-RICH FRONT DOOR — main remains intentionally small, while multiple unmerged branches preserve later rooms, crossings, and even an explicit orphan-source recomposition problem. This is not evidence that all later rooms are current or landed; it is evidence that the project's developmental history exceeds its main README. |
 
 ## SEAMforge
 
@@ -538,6 +540,69 @@ Start with src/data/ventureData.ts beside TheReturnEvent and DeepThreadDrawer. T
 * [source 3](https://github.com/the-static-collective/reCOreturn/blob/main/src/components/TheReturnEvent.tsx)
 * [source 4](https://github.com/the-static-collective/reCOreturn/blob/main/src/components/DeepThreadDrawer.tsx)
 
+## static-field
+
+**Reviewed:** 2026-09-27
+
+**Surviving body**
+
+static-field's main branch currently lacks a README, but open PR #1 contains a complete STATIC FIELD front door and executable WORLDSEED-001 Porch runtime: append-only world events, separate Surface/Resonance projections, attendance/absence, Charge, Field Depth, unresolved Bell/Knock, detected-but-unopened Crossing residue, deterministic receipts, persistence, CLI, and browser surface. Later stacked PRs extend that body through source-owned crossing, Wormhole Wars receiving-world play, graphical table work, visual cards, 3D Porch assets, and a Living Deck handoff.
+
+**Original question / purpose**
+
+OBSERVED/INFERRED: STATIC FIELD appears to test how an ordinary inhabited place can accumulate attributable events and increasingly strange relational resonance without narrative interpretation becoming historical authority, while later experiments test bounded crossings between independently authoritative fictional/game worlds.
+
+**Last witnessed development**
+
+Open PR #12 composes PostEmahh'n card/sticker fixtures into a local Fellowship Table, exports a portable proposal toward Full Measure and ROroomOM, and explicitly keeps real source proof, canonical world events, and effectful admission gated. The founding executable identity remains documented in open PR #1 rather than main.
+
+**Disposition evidence**
+
+ACTIVE PROPOSAL LINEAGE / FRONT-DOOR GAP — substantial executable and experimental bodies survive on open PRs, but the main branch does not presently carry the README that explains them. Open PRs are proposals, not proof that these bodies have landed or become current canon.
+
+**Re-entry door**
+
+Start with PR #1's README patch and FIRST-BELL contract, then read PRs #3–#12 in dependency/order context. Do not treat later stacked game experiments as landed mainline state merely because they are executable on their branches.
+
+**Evidence**
+
+* [source 1](https://github.com/the-static-collective/static-field/pull/1)
+* [source 2](https://github.com/the-static-collective/static-field/pull/3)
+* [source 3](https://github.com/the-static-collective/static-field/pull/4)
+* [source 4](https://github.com/the-static-collective/static-field/pull/12)
+
+## ROroomOM
+
+**Reviewed:** 2026-09-27
+
+**Surviving body**
+
+ROroomOM's main README still describes a small local-first Room and points forward to an 'upcoming' ROOM-005 capability crossing. The open proposal lineage now contains ROOM-005 project-owned source search with explicit approval, ROOM-006 rejoining with WORLDSEED-004, a Living Deck guest-room handoff from Static Field / Full Measure, documentation for reconciling orphan ROOM 006–008 local sources, Frankenstein 001 crossing Lemon Press receipts into a Room Score, and ADDRESSABLE-PARTICULAR-001.
+
+**Original question / purpose**
+
+OBSERVED/INFERRED: the Room has been used as a bounded laboratory for letting artifacts, sources, and experiences cross into a local creative field while repeatedly refusing the collapse of address, identity, occupancy, relation, and authority.
+
+**Last witnessed development**
+
+Open PR #6 crystallizes the accumulated seam into ADDRESSABLE-PARTICULAR-001 with explicit laws such as address ≠ occupant, ancestry ≠ equivalence, recurrence ≠ occurrence, relation ≠ authority, and availability ≠ traversal. PR #4 separately records that executable ROOM 006–008 sources existed in an originating conversation/ZIP but had not yet been transferred to GitHub.
+
+**Disposition evidence**
+
+ACTIVE PROPOSAL LINEAGE / TRANSLATION-RICH FRONT DOOR — main remains intentionally small, while multiple unmerged branches preserve later rooms, crossings, and even an explicit orphan-source recomposition problem. This is not evidence that all later rooms are current or landed; it is evidence that the project's developmental history exceeds its main README.
+
+**Re-entry door**
+
+Read main README first, then PRs #1–#6 chronologically and by stacking relation. Treat PR #4's orphan-source receipt as a first-class recovery clue: some project body existed outside Git and the Git history explicitly knows the transfer was incomplete.
+
+**Evidence**
+
+* [source 1](https://github.com/the-static-collective/ROroomOM/blob/main/README.md)
+* [source 2](https://github.com/the-static-collective/ROroomOM/pull/1)
+* [source 3](https://github.com/the-static-collective/ROroomOM/pull/4)
+* [source 4](https://github.com/the-static-collective/ROroomOM/pull/5)
+* [source 5](https://github.com/the-static-collective/ROroomOM/pull/6)
+
 ## Surveyed seeds — body not yet recovered
 
 These repositories were touched in the same recovery pass, but the public Git
@@ -614,6 +679,12 @@ lineage, or decide that no older meaning was lost in translation.
 | [autodiscography-vault](https://github.com/the-static-collective/autodiscography-vault) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README gives a precise Phase B2C preservation gate, browser/local trust boundary, WAV witness ceremony, disabled capabilities, verification steps, and downstream Corpus OS handoff. It distinguishes implementation evidence from field proof throughout. |
 | [founder-node](https://github.com/the-static-collective/founder-node) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README explicitly narrows the current executable center from an older broader concept, documents what earlier text overstated, and defines Pollen Scout as evidence-bounded visibility rather than dispatch or authority. This is a strong example of a project repairing its own front-door translation. |
 | [Human-Witness](https://github.com/the-static-collective/Human-Witness) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README documents a bounded encounter-evidence membrane, explicit non-authorities, named architectural lineage from Upper Room / Formation Trace / Corpus OS / Jubilee Authority Kit, and an experimental SupaBardo crossing field kept outside the core contract. It preserves both inheritance and separation. |
+| [STORYSHIP](https://github.com/the-static-collective/STORYSHIP) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README clearly names Storyship as a provenance-first voyage runtime, distinguishes relationship/passenger from artifact/carrier, gives Haunted Phonography customs authority, and explicitly omits decide/rank/admit commands. The human-mediated crossing is carried with the body. |
+| [iron-lung](https://github.com/the-static-collective/iron-lung) | 2026-09-27 | `legible reentry observed` | `OPEN` | Iron Lung carries its own transition law unusually well: three-strand braids preserve substance/lineage/authority, repair creates descendants, transport ≠ admission ≠ assimilation, and the README explicitly distinguishes its local Successor Lift from global time/authority and its role from TranchNode Continuity Spine. |
+| [the-haunted-phonography](https://github.com/the-static-collective/the-haunted-phonography) | 2026-09-27 | `legible reentry observed` | `OPEN` | The Haunted Phonograph README carries both founding law and executable evolution: source evidence vs proposal, deterministic mutation, Specimen 001, then HAUNT v0.1 cross-appliance memory. It explicitly says appliances share memory, not authority, and preserves uncertainty through the transition. |
+| [Upper-room](https://github.com/the-static-collective/Upper-room) | 2026-09-27 | `legible reentry observed` | `OPEN` | Upper Room's README clearly states continuity-without-captivity, names its first bounded executable Scripture/Dust slice, and lists major specified-but-unimplemented surfaces. It preserves the difference between defining edge, current proof, and horizon. |
+| [WORLDSEED](https://github.com/the-static-collective/WORLDSEED) | 2026-09-27 | `legible reentry observed` | `OPEN` | WORLDSEED main remains a coherent writer-facing local world-memory tool with six verbs and author-owned epistemic labels. Open Origin PRs separately add a synthetic then increasingly native playable Crossing/Foreign Room runtime, so the current main front door is legible but no longer tells the entire experimental history. |
+| [full-measure-world-layer](https://github.com/the-static-collective/full-measure-world-layer) | 2026-09-27 | `legible reentry observed` | `OPEN` | Full Measure explicitly narrates its own expansion from the original Garden/Jubilee participation vertical into Boot the House, Human Terminal, and STRIDE while keeping one authority boundary. This is positive evidence of a transition successfully traveling with the project. |
 
 A legible front door is evidence of navigability at review time. It is not an
 automatic decision that recovery is unnecessary or complete.
@@ -679,6 +750,35 @@ When did Jubilee-Campfire's combined protocol identity split into 'Campfire = sc
 
 * [source 1](https://github.com/the-static-collective/Jubilee-Campfire/blob/main/README.md)
 * [source 2](https://github.com/the-static-collective/BananaSpork/blob/main/README.md)
+
+### WORLDSEED ↔ static-field
+
+**Reviewed:** 2026-09-27
+
+**Bodies in tension:** [WORLDSEED](https://github.com/the-static-collective/WORLDSEED), [static-field](https://github.com/the-static-collective/static-field)
+
+**Observed tension**
+
+WORLDSEED main defines WORLDSEED as a writer-facing world-memory notebook whose graph stays underneath and whose author owns the world. WORLDSEED's open Origin branches then add a playable Crossing / Foreign Room runtime, while static-field PR #1 separately describes STATIC FIELD as an executable WORLDSEED-001 Porch runtime with Surface/Resonance projections and append-only world events.
+
+**Interpretation**
+
+TRANSLATION SCAR — the name WORLDSEED appears to carry at least two neighboring senses across surviving bodies: a general author-facing world-addressability instrument and a numbered playable-world/runtime lineage. The sources document several adapters and crossings, but the exact sentence explaining how 'WORLDSEED the notebook' relates to 'WORLDSEED-001 the Porch runtime' is not contained in one settled front door.
+
+**Not claimed**
+
+This record does not claim static-field replaced WORLDSEED, that WORLDSEED main changed product identity, or that the Origin draft branches are landed canon. It also does not assume the shared WORLDSEED label means one repository directly descends from the other.
+
+**Re-entry question**
+
+What did WORLDSEED-001 mean at the moment STATIC FIELD inherited that label, and which world-memory concepts remained in WORLDSEED while which runtime concepts crossed into static-field?
+
+**Evidence**
+
+* [source 1](https://github.com/the-static-collective/WORLDSEED/blob/main/README.md)
+* [source 2](https://github.com/the-static-collective/WORLDSEED/pull/2)
+* [source 3](https://github.com/the-static-collective/WORLDSEED/pull/4)
+* [source 4](https://github.com/the-static-collective/static-field/pull/1)
 
 ## Reading rule
 
