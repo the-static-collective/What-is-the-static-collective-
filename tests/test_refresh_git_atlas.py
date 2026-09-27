@@ -210,5 +210,43 @@ class AtlasBoundaries(unittest.TestCase):
             atlas.validate_recovery_seeds(raw, snapshot)
 
 
+    def test_recovery_review_records_clear_reentry_without_fossilizing(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/recovery-v1",
+            "entries": [],
+            "reviews": [{
+                "id": "example-review",
+                "repository": "Example",
+                "reviewed_on": "2026-09-27",
+                "result": "recovery_not_needed",
+                "note": "The project already explains its current boundary.",
+                "evidence_urls": ["https://github.com/the-static-collective/Example"],
+            }],
+        }
+        reviews = atlas.validate_recovery_reviews(raw, snapshot)
+        rendered = atlas.render_recovery([], snapshot, [], reviews)
+        self.assertEqual(reviews[0]["repository"], "Example")
+        self.assertIn("Surveyed bodies", rendered)
+        self.assertIn("recovery not needed", rendered)
+
+    def test_recovery_review_rejects_unknown_result(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/recovery-v1",
+            "entries": [],
+            "reviews": [{
+                "id": "bad-review",
+                "repository": "Example",
+                "reviewed_on": "2026-09-27",
+                "result": "dead_forever",
+                "note": "Not an allowed recovery conclusion.",
+                "evidence_urls": ["https://github.com/the-static-collective/Example"],
+            }],
+        }
+        with self.assertRaises(ValueError):
+            atlas.validate_recovery_reviews(raw, snapshot)
+
+
 if __name__ == "__main__":
     unittest.main()
