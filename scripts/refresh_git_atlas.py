@@ -287,6 +287,29 @@ def validate_recovery(raw, snapshot):
             corroborating = human_context.get("corroborating_urls") or []
             if any(not str(url).startswith("https://") for url in corroborating):
                 raise ValueError("Human recovered corroboration URLs must be HTTPS: " + entry_id)
+        chat_history = entry.get("chat_history_recovery")
+        if chat_history is not None:
+            if chat_history.get("source_type") != "prior_chat_recovery":
+                raise ValueError("Chat-history recovery must declare prior_chat_recovery: " + entry_id)
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(chat_history.get("recovered_on", ""))):
+                raise ValueError("Chat-history recovery requires recovered_on YYYY-MM-DD: " + entry_id)
+            if not str(chat_history.get("posture", "")).strip() or not str(chat_history.get("compression", "")).strip():
+                raise ValueError("Chat-history recovery requires posture and compression: " + entry_id)
+            events = chat_history.get("events") or []
+            if not events:
+                raise ValueError("Chat-history recovery requires at least one event: " + entry_id)
+            previous = None
+            for event in events:
+                at = str(event.get("at", ""))
+                if not re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z", at):
+                    raise ValueError("Chat-history event requires UTC timestamp: " + entry_id)
+                if previous is not None and at < previous:
+                    raise ValueError("Chat-history events must be chronological: " + entry_id)
+                previous = at
+                if event.get("source_kind") != "user_turn_recovered":
+                    raise ValueError("Chat-history events must remain user_turn_recovered: " + entry_id)
+                if not str(event.get("detail", "")).strip():
+                    raise ValueError("Chat-history event requires detail: " + entry_id)
         entries.append({
             "id": entry_id,
             "repositories": list(repositories),
@@ -299,6 +322,7 @@ def validate_recovery(raw, snapshot):
             "reentry_door": entry["reentry_door"],
             "evidence_urls": list(evidence),
             "human_recovered_context": human_context,
+            "chat_history_recovery": chat_history,
         })
     return entries
 
@@ -488,6 +512,17 @@ def render_recovery(entries, snapshot, seeds=None, reviews=None, translation_sca
                 for index, url in enumerate(corroborating, start=1):
                     lines.append(f"* [corroboration {index}]({url})")
                 lines.append("")
+        chat_history = entry.get("chat_history_recovery")
+        if chat_history:
+            lines += ["**Recovered prior-chat lineage**", "",
+                      f"**Recovered:** {md(chat_history['recovered_on'])} · "
+                      f"**Source type:** {TICK}{md(chat_history['source_type'])}{TICK}", "",
+                      md(chat_history["posture"]), "",
+                      f"**Compression:** {md(chat_history['compression'])}", ""]
+            for event in chat_history["events"]:
+                lines.append(
+                    f"* {TICK}{md(event['at'])}{TICK} — {md(event['detail'])}")
+            lines.append("")
         lines += ["**Evidence**", ""]
         for index, url in enumerate(entry["evidence_urls"], start=1):
             lines.append(f"* [source {index}]({url})")
