@@ -232,8 +232,8 @@ class AtlasBoundaries(unittest.TestCase):
         self.assertIn("current aperture observations", rendered)
         self.assertIn("current_aperture_only", rendered)
         self.assertIn("OPEN", rendered)
-        self.assertIn("not an", rendered)
-        self.assertIn("automatic decision", rendered)
+        self.assertIn("not historical reconstruction", rendered)
+        self.assertIn("not proof of what an older connected", rendered)
 
     def test_recovery_review_rejects_old_terminal_label(self):
         snapshot = atlas.normalize(fixture(), "the-static-collective")
