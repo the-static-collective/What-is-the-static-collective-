@@ -346,5 +346,64 @@ class AtlasBoundaries(unittest.TestCase):
             atlas.validate_translation_scars(raw, snapshot)
 
 
+    def test_human_recovered_origin_stays_distinct_from_git_evidence(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/recovery-v1",
+            "entries": [{
+                "id": "human-origin",
+                "repositories": ["Example"],
+                "reviewed_on": "2026-09-27",
+                "signals": ["human_recovered_origin"],
+                "body_claim": "A later body survives.",
+                "purpose_claim": "Later manifestation differs from recovered origin.",
+                "last_witnessed_change": "Later change.",
+                "disposition": "UNKNOWN",
+                "reentry_door": "Read body after recovered origin.",
+                "evidence_urls": ["https://github.com/the-static-collective/Example"],
+                "human_recovered_context": {
+                    "recorded_on": "2026-09-27",
+                    "witness_type": "human_origin_recovery",
+                    "claim": "The project began as a different connected thing.",
+                    "corroboration_posture": "Linked Git sources corroborate adjacent manifestations but do not independently prove the origin chronology.",
+                    "corroborating_urls": ["https://github.com/the-static-collective/Example/tree/side"]
+                }
+            }]
+        }
+        recovered = atlas.validate_recovery(raw, snapshot)
+        rendered = atlas.render_recovery(recovered, snapshot)
+        self.assertEqual(recovered[0]["human_recovered_context"]["witness_type"], "human_origin_recovery")
+        self.assertIn("Human-recovered origin context", rendered)
+        self.assertIn("do not independently prove", rendered)
+        self.assertIn("Adjacent corroborating sources", rendered)
+
+    def test_human_recovered_origin_requires_explicit_witness_type(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/recovery-v1",
+            "entries": [{
+                "id": "bad-human-origin",
+                "repositories": ["Example"],
+                "reviewed_on": "2026-09-27",
+                "signals": ["human_recovered_origin"],
+                "body_claim": "body",
+                "purpose_claim": "purpose",
+                "last_witnessed_change": "change",
+                "disposition": "UNKNOWN",
+                "reentry_door": "door",
+                "evidence_urls": ["https://github.com/the-static-collective/Example"],
+                "human_recovered_context": {
+                    "recorded_on": "2026-09-27",
+                    "witness_type": "machine_inferred_origin",
+                    "claim": "claim",
+                    "corroboration_posture": "posture",
+                    "corroborating_urls": []
+                }
+            }]
+        }
+        with self.assertRaises(ValueError):
+            atlas.validate_recovery(raw, snapshot)
+
+
 if __name__ == "__main__":
     unittest.main()
