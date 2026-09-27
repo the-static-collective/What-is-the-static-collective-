@@ -275,6 +275,18 @@ def validate_recovery(raw, snapshot):
         evidence = entry.get("evidence_urls") or []
         if not evidence or any(not str(url).startswith("https://") for url in evidence):
             raise ValueError("Recovery evidence must contain HTTPS URLs: " + entry_id)
+        human_context = entry.get("human_recovered_context")
+        if human_context is not None:
+            if human_context.get("witness_type") != "human_origin_recovery":
+                raise ValueError("Human recovered context must declare human_origin_recovery: " + entry_id)
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(human_context.get("recorded_on", ""))):
+                raise ValueError("Human recovered context requires recorded_on YYYY-MM-DD: " + entry_id)
+            for field in ("claim", "corroboration_posture"):
+                if not str(human_context.get(field, "")).strip():
+                    raise ValueError(f"Human recovered context {entry_id} requires {field}")
+            corroborating = human_context.get("corroborating_urls") or []
+            if any(not str(url).startswith("https://") for url in corroborating):
+                raise ValueError("Human recovered corroboration URLs must be HTTPS: " + entry_id)
         entries.append({
             "id": entry_id,
             "repositories": list(repositories),
@@ -286,6 +298,7 @@ def validate_recovery(raw, snapshot):
             "disposition": entry["disposition"],
             "reentry_door": entry["reentry_door"],
             "evidence_urls": list(evidence),
+            "human_recovered_context": human_context,
         })
     return entries
 
@@ -460,8 +473,22 @@ def render_recovery(entries, snapshot, seeds=None, reviews=None, translation_sca
                   "**Original question / purpose**", "", md(entry["purpose_claim"]), "",
                   "**Last witnessed development**", "", md(entry["last_witnessed_change"]), "",
                   "**Disposition evidence**", "", md(entry["disposition"]), "",
-                  "**Re-entry door**", "", md(entry["reentry_door"]), "",
-                  "**Evidence**", ""]
+                  "**Re-entry door**", "", md(entry["reentry_door"]), ""]
+        human_context = entry.get("human_recovered_context")
+        if human_context:
+            lines += ["**Human-recovered origin context**", "",
+                      f"**Recorded:** {md(human_context['recorded_on'])} · "
+                      f"**Witness type:** {TICK}{md(human_context['witness_type'])}{TICK}", "",
+                      md(human_context["claim"]), "",
+                      "**Corroboration posture**", "",
+                      md(human_context["corroboration_posture"]), ""]
+            corroborating = human_context.get("corroborating_urls") or []
+            if corroborating:
+                lines += ["**Adjacent corroborating sources**", ""]
+                for index, url in enumerate(corroborating, start=1):
+                    lines.append(f"* [corroboration {index}]({url})")
+                lines.append("")
+        lines += ["**Evidence**", ""]
         for index, url in enumerate(entry["evidence_urls"], start=1):
             lines.append(f"* [source {index}]({url})")
     if seeds:
