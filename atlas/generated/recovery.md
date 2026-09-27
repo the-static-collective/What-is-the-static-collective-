@@ -46,7 +46,7 @@ scar instead of making the cleaner story win.
 | [appliance-prophet-king](https://github.com/the-static-collective/appliance-prophet-king) | 2026-09-27 | `empty_repository`, `no_readme`, `no_implementation_body_observed`, `name_only_seed` | SHELL ONLY — this is currently evidence that a named door was created, not evidence that the project itself ever became executable. |
 | [cloudflare-control](https://github.com/the-static-collective/cloudflare-control) | 2026-09-27 | `empty_repository`, `no_readme`, `initialize_commit_only`, `name_only_seed` | SHELL ONLY — a named project aperture was created, but the public record currently does not show that it developed beyond initialization. |
 | [reCOreturn](https://github.com/the-static-collective/reCOreturn) | 2026-09-27 | `missing_readme`, `implementation_body`, `claim_ledger`, `return_loop`, `disposition_fog` | UNKNOWN — the executable body is substantial but there is no root README and this pass found no public source stating whether reCOreturn is current, paused, renamed, or absorbed into another participation/stewardship project. |
-| [static-field](https://github.com/the-static-collective/static-field) | 2026-09-27 | `missing_main_readme`, `implementation_body_on_open_prs`, `world_runtime_identity`, `multi_stage_proposal_lineage`, `front_door_not_landed` | ACTIVE PROPOSAL LINEAGE / FRONT-DOOR GAP — substantial executable and experimental bodies survive on open PRs, but the main branch does not presently carry the README that explains them. Open PRs are proposals, not proof that these bodies have landed or become current canon. |
+| [static-field](https://github.com/the-static-collective/static-field) | 2026-09-27 | `missing_main_readme`, `implementation_body_on_open_prs`, `world_runtime_identity`, `multi_stage_proposal_lineage`, `front_door_not_landed`, `human_recovered_origin`, `print_to_play_transition` | ACTIVE PROPOSAL LINEAGE / FRONT-DOOR GAP — substantial executable and experimental bodies survive on open PRs, but the main branch does not presently carry the README that explains them. Open PRs are proposals, not proof that these bodies have landed or become current canon. |
 | [ROroomOM](https://github.com/the-static-collective/ROroomOM) | 2026-09-27 | `stale_main_readme`, `active_branch_lineage`, `capability_crossing_body`, `orphan_source_recomposition`, `translation_rich_history` | ACTIVE PROPOSAL LINEAGE / TRANSLATION-RICH FRONT DOOR — main remains intentionally small, while multiple unmerged branches preserve later rooms, crossings, and even an explicit orphan-source recomposition problem. This is not evidence that all later rooms are current or landed; it is evidence that the project's developmental history exceeds its main README. |
 
 ## SEAMforge
@@ -564,7 +564,7 @@ static-field's main branch currently lacks a README, but open PR #1 contains a c
 
 **Original question / purpose**
 
-OBSERVED/INFERRED: STATIC FIELD appears to test how an ordinary inhabited place can accumulate attributable events and increasingly strange relational resonance without narrative interpretation becoming historical authority, while later experiments test bounded crossings between independently authoritative fictional/game worlds.
+LATER MANIFESTATION OBSERVED: the surviving STATIC FIELD runtime asks how attributable physical/social/world events can accumulate resonance and cross between independently authoritative worlds. HUMAN-RECOVERED ORIGIN: this was not the starting identity; the earlier project was a print-shop / translation surface for turning related Collective context into physical print media, with postcard newsletters as an early form, followed in the same developmental thread by PostEmahh'n cards and then increasingly playable card grammars, games, and cross-pollination.
 
 **Last witnessed development**
 
@@ -576,7 +576,25 @@ ACTIVE PROPOSAL LINEAGE / FRONT-DOOR GAP — substantial executable and experime
 
 **Re-entry door**
 
-Start with PR #1's README patch and FIRST-BELL contract, then read PRs #3–#12 in dependency/order context. Do not treat later stacked game experiments as landed mainline state merely because they are executable on their branches.
+Begin with the human-recovered print/output origin below, then read the Daily Slice postcard/newsletter traces, PostEmahh'n design, and only afterward the STATIC FIELD First Bell / Wormhole Wars / Living Deck branches. Treat the Porch/world runtime as a later manifestation, not the recovered origin.
+
+**Human-recovered origin context**
+
+**Recorded:** 2026-09-27 · **Witness type:** `human_origin_recovery`
+
+STATIC FIELD originally began as a print shop / translation surface creating print media for or from related project context. The original thought included newsletters printed on postcards. PostEmahh'n cards emerged in the same developmental conversation; from there the project broadened into card-related games, grammars, and cross-pollinating manifestations. A useful recovered image is a partly paper arcade in which arcade tickets/cards are non-fungible collector particulars rather than interchangeable score tokens.
+
+**Corroboration posture**
+
+The linked repository sources corroborate adjacent newsletter, portable-postcard, PostEmahh'n, and later card-game manifestations. They do not independently prove this exact origin chronology; the chronology here is preserved as human-recovered testimony and remains distinguishable from Git-derived evidence.
+
+**Adjacent corroborating sources**
+
+* [corroboration 1](https://github.com/the-static-collective/the-daily-slice/blob/main/slices/2026/08/2026-08-24/in-out-newsletter.md)
+* [corroboration 2](https://github.com/the-static-collective/the-daily-slice/blob/main/docs/superpowers/specs/2026-08-24-artifact-capture-postcard-architecture-design.md)
+* [corroboration 3](https://github.com/the-static-collective/Jubilee-Engine-VM/pull/12)
+* [corroboration 4](https://github.com/the-static-collective/static-field/pull/3)
+* [corroboration 5](https://github.com/the-static-collective/static-field/pull/12)
 
 **Evidence**
 
