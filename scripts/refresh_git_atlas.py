@@ -347,6 +347,8 @@ def validate_recovery_reviews(raw, snapshot):
         result = review.get("result", "")
         if result not in allowed_results:
             raise ValueError("Recovery review has unsupported result: " + review_id)
+        if review.get("scope") != "current_aperture_only":
+            raise ValueError("Recovery review must stay current_aperture_only: " + review_id)
         if review.get("recovery_open") is not True:
             raise ValueError("Recovery review may observe an aperture but cannot close recovery: " + review_id)
         if not str(review.get("note", "")).strip():
@@ -359,6 +361,7 @@ def validate_recovery_reviews(raw, snapshot):
             "repository": repository,
             "reviewed_on": review["reviewed_on"],
             "result": result,
+            "scope": "current_aperture_only",
             "recovery_open": True,
             "note": review["note"],
             "evidence_urls": list(evidence),
@@ -369,6 +372,7 @@ def validate_recovery_reviews(raw, snapshot):
 def validate_translation_scars(raw, snapshot):
     """Validate tensions between surviving records without resolving them into lineage."""
     known = {repo["name"] for repo in snapshot["repositories"]}
+    allowed_grades = {"aperture_tension_only", "cross_temporal_evidence"}
     seen = set()
     scars = []
     for scar in raw.get("translation_scars", []):
@@ -385,6 +389,11 @@ def validate_translation_scars(raw, snapshot):
                     f"Translation scar {scar_id} references nonpublic or missing repo: {name}")
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(scar.get("reviewed_on", ""))):
             raise ValueError("Translation scar requires reviewed_on YYYY-MM-DD: " + scar_id)
+        grade = scar.get("evidence_grade", "")
+        if grade not in allowed_grades:
+            raise ValueError("Translation scar requires a bounded evidence_grade: " + scar_id)
+        if scar.get("historical_search_open") is not True:
+            raise ValueError("Translation scar must keep historical search open: " + scar_id)
         for field in ("observed_tension", "interpretation", "not_claimed", "reentry_question"):
             if not str(scar.get(field, "")).strip():
                 raise ValueError(f"Translation scar {scar_id} requires {field}")
@@ -395,6 +404,8 @@ def validate_translation_scars(raw, snapshot):
             "id": scar_id,
             "repositories": list(repositories),
             "reviewed_on": scar["reviewed_on"],
+            "evidence_grade": grade,
+            "historical_search_open": True,
             "observed_tension": scar["observed_tension"],
             "interpretation": scar["interpretation"],
             "not_claimed": scar["not_claimed"],
@@ -420,6 +431,17 @@ def render_recovery(entries, snapshot, seeds=None, reviews=None, translation_sca
         "a bounded human recovery pass cites a surviving body. These are dated re-entry",
         "records, not live status labels. UNKNOWN is preserved when the public record does",
         "not establish a later disposition.", "",
+        "## Connected-memory protocol", "",
+        "When the question is **what was this old connected thing?**, do not recover it from",
+        "the repository name or current README alone. Reconstruct local state first from the",
+        "surviving body, dated commits, branches/PRs/issues, and inbound/outbound references",
+        "from neighboring projects. Read the current README afterward as one aperture onto",
+        "that history. If the sources disagree, preserve the disagreement as a translation",
+        "scar instead of making the cleaner story win.", "",
+        "    repo name != recovered purpose",
+        "    current README != historical handoff",
+        "    neighboring reference != proven lineage",
+        "    branch/PR body != landed mainline", "",
         "| Repository(s) | Reviewed | Observed signals | Disposition evidence |",
         "| --- | --- | --- | --- |",
     ]
@@ -470,16 +492,17 @@ def render_recovery(entries, snapshot, seeds=None, reviews=None, translation_sca
                   "carry a legible front door or an explicit disposition claim. That is only an",
                   "observation about the present aperture. It does **not** close recovery, certify",
                   "lineage, or decide that no older meaning was lost in translation.", "",
-                  "| Repository | Reviewed | Observed aperture | Recovery | Note |",
-                  "| --- | --- | --- | --- | --- |"]
+                  "| Repository | Reviewed | Scope | Observed aperture | Recovery | Note |",
+                  "| --- | --- | --- | --- | --- | --- |"]
         for review in reviews:
             repo_link = f"[{md(review['repository'])}]({repository_url(owner, review['repository'])})"
             result = review["result"].replace("_", " ")
             lines.append(
-                f"| {repo_link} | {md(review['reviewed_on'])} | {TICK}{md(result)}{TICK} | "
-                f"{TICK}OPEN{TICK} | {md(review['note'])} |")
-        lines += ["", "A legible front door is evidence of navigability at review time. It is not an",
-                  "automatic decision that recovery is unnecessary or complete.", ""]
+                f"| {repo_link} | {md(review['reviewed_on'])} | {TICK}{md(review['scope'])}{TICK} | "
+                f"{TICK}{md(result)}{TICK} | {TICK}OPEN{TICK} | {md(review['note'])} |")
+        lines += ["", "These rows are deliberately **not historical reconstruction**. A legible front door",
+                  "is evidence of navigability at review time, not proof of what an older connected",
+                  "thing meant or how it became its neighbors.", ""]
 
     if translation_scars:
         lines += ["", "## TRANSLATION SCARS — where the story does not collapse cleanly", "",
@@ -492,6 +515,8 @@ def render_recovery(entries, snapshot, seeds=None, reviews=None, translation_sca
                 for name in scar["repositories"])
             lines += ["", "### " + " ↔ ".join(scar["repositories"]), "",
                       f"**Reviewed:** {md(scar['reviewed_on'])}", "",
+                      f"**Evidence grade:** {TICK}{md(scar['evidence_grade'])}{TICK}", "",
+                      f"**Historical search:** {TICK}OPEN{TICK}", "",
                       "**Bodies in tension:** " + repo_links, "",
                       "**Observed tension**", "", md(scar["observed_tension"]), "",
                       "**Interpretation**", "", md(scar["interpretation"]), "",
@@ -512,7 +537,9 @@ def render_recovery(entries, snapshot, seeds=None, reviews=None, translation_sca
               "    UNKNOWN = preserved fog",
               "    legible now != recovery complete",
               "    declared disposition != final historical truth",
-              "    translation scars stay open", ""]
+              "    translation scars stay open",
+              "    repo name != recovered purpose",
+              "    current README != historical handoff", ""]
     return "\n".join(lines)
 
 
