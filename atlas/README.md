@@ -57,6 +57,8 @@ If those sources diverge, preserve the divergence as a translation scar and keep
 
 A human may also restore context that Git no longer carries. Record that as **human-recovered origin context**, not as machine inference or repository-proven fact. Adjacent Git sources may corroborate manifestations without independently proving the remembered chronology.
 
+Prior chat history is a separate evidence layer. Recovered user turns may reconstruct proposal chronology more faithfully than a later README, but they still do not prove that a proposal landed. Chat-history events should distinguish **precursor candidates**, **direct named lineage**, and **later revisits** rather than forcing one clean ancestry.
+
 ## Some witnessed crossings
 
 | Crossing | Source of the relationship | What the map may safely say |
