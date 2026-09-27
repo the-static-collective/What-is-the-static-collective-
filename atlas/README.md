@@ -23,16 +23,18 @@ This is a door into the Git terrain, not a second authority over the projects. I
 | Playable worlds, rooms, scripture, and strange inquiry | [Worlds and inquiry](generated/worlds-and-inquiry.md) | [WORLDSEED](https://github.com/the-static-collective/WORLDSEED), [Upper Room](https://github.com/the-static-collective/Upper-room), [National Treasure](https://github.com/the-static-collective/national-treasure) |
 | The desk, the machine, and small operating probes | [Operating surfaces](generated/operating-surfaces.md) | [Static Workbench](https://github.com/the-static-collective/static-workbench), [STATIC OS](https://github.com/the-static-collective/static-os) |
 | A repo created since the editorial pass | [Unplaced public repos](generated/unplaced.md) | Its own README and history |
+| A project that went quiet, lost its front door, or has an unexplained surviving body | [RECOVERY — Fossils with bodies](generated/recovery.md) | The cited project body; recovery records are dated witnesses, not authority |
 
 The shelves are addresses for navigation, not a hierarchy of importance. A repo may participate in more than one field; it appears on one shelf so the inventory can be scanned without duplicates.
 
-## Three extra lenses
+## Four extra lenses
 
 * [**DELTA — What moved?**](generated/delta.md) is machine-observed change between the previous persisted public snapshot and the newest changed snapshot. It records repository membership, branch birth/disappearance, branch-head movement, and PRs entering or leaving the open set without assigning motive or disposition. No-change refreshes leave the last meaningful delta intact rather than replacing it with an empty report.
 * [**RELATIONS — Connective tissue**](generated/relations.md) is human-curated and source-linked. Automation validates and renders admitted edges, but it cannot invent a relationship or promote one into project authority.
+* [**RECOVERY — Fossils with bodies**](generated/recovery.md) is a dated human-curated re-entry lens for repositories whose surviving implementation, question, or lineage is easier to miss than to understand. Quiet topology alone never qualifies a project; every entry must cite a surviving body and preserve `UNKNOWN` when later disposition is not established.
 * [**VISIBILITY-APERTURE-001 — Work in the light**](visibility-aperture.md) treats visibility as a separate observer axis. Public is the default when reality permits it; restriction requires a reason, and crossing visibility never implies promotion, maturity, authority, or canon.
 
-Together they keep **movement**, **meaning**, and **who may witness what** from collapsing into one another.
+Together they keep **movement**, **meaning**, **recoverability**, and **who may witness what** from collapsing into one another.
 
 ## Some witnessed crossings
 
