@@ -498,7 +498,8 @@
         "https://github.com/the-static-collective/reCURVrePAIR/blob/main/README.md",
         "https://github.com/the-static-collective/reCURVrePAIR/blob/main/src/types.ts"
       ],
-      "recovery_open": true
+      "recovery_open": true,
+      "scope": "current_aperture_only"
     },
     {
       "id": "toaster-oracle-review-2026-09-27",
@@ -509,7 +510,8 @@
       "evidence_urls": [
         "https://github.com/the-static-collective/toaster-oracle/blob/main/README.md"
       ],
-      "recovery_open": true
+      "recovery_open": true,
+      "scope": "current_aperture_only"
     },
     {
       "id": "toaster-lab-review-2026-09-27",
@@ -521,7 +523,8 @@
         "https://github.com/the-static-collective/toaster-lab/blob/main/README.md",
         "https://github.com/the-static-collective/toaster-lab/blob/main/product-contract.json"
       ],
-      "recovery_open": true
+      "recovery_open": true,
+      "scope": "current_aperture_only"
     },
     {
       "id": "toaster-lab2-review-2026-09-27",
@@ -532,7 +535,8 @@
       "evidence_urls": [
         "https://github.com/the-static-collective/toaster-lab2/blob/main/README.md"
       ],
-      "recovery_open": true
+      "recovery_open": true,
+      "scope": "current_aperture_only"
     },
     {
       "id": "tranchnose-review-2026-09-27",
@@ -543,7 +547,8 @@
       "evidence_urls": [
         "https://github.com/the-static-collective/tranchNOSE/blob/main/README.md"
       ],
-      "recovery_open": true
+      "recovery_open": true,
+      "scope": "current_aperture_only"
     },
     {
       "id": "haunted-pol-ish-roids-review-2026-09-27",
@@ -554,7 +559,8 @@
       "evidence_urls": [
         "https://github.com/the-static-collective/the-haunted-pol-ish-roids/blob/main/README.md"
       ],
-      "recovery_open": true
+      "recovery_open": true,
+      "scope": "current_aperture_only"
     },
     {
       "id": "bananaspork-review-2026-09-27",
@@ -565,7 +571,8 @@
       "evidence_urls": [
         "https://github.com/the-static-collective/BananaSpork/blob/main/README.md"
       ],
-      "recovery_open": true
+      "recovery_open": true,
+      "scope": "current_aperture_only"
     },
     {
       "id": "fogglass-review-2026-09-27",
@@ -576,7 +583,8 @@
       "note": "The README already preserves the instrument's narrow law: fog has an address, lamps investigate without deciding, lenses change observation rather than world-state, failed illumination leaves a receipt, and candidate-set size is not probability or truth.",
       "evidence_urls": [
         "https://github.com/the-static-collective/fogGlass/blob/main/README.md"
-      ]
+      ],
+      "scope": "current_aperture_only"
     },
     {
       "id": "convergent-codec-review-2026-09-27",
@@ -587,7 +595,8 @@
       "note": "The README exposes the exact-codec thesis, current kernel, measured-cost law, witness-plane separation, non-goals, and next multichannel shared-mask experiment. Its current question is unusually explicit.",
       "evidence_urls": [
         "https://github.com/the-static-collective/convergent-codec/blob/main/README.md"
-      ]
+      ],
+      "scope": "current_aperture_only"
     },
     {
       "id": "unfolding-ledger-review-2026-09-27",
@@ -598,7 +607,8 @@
       "note": "The README clearly marks a v0.1 constitutional kernel, names six invariants, distinguishes verifier claims from non-claims, and explicitly records that its sorted-JSON serializer is not canonical for Project0 and still requires comparison against Project0's frozen addressing contract.",
       "evidence_urls": [
         "https://github.com/the-static-collective/unfolding-ledger/blob/main/README.md"
-      ]
+      ],
+      "scope": "current_aperture_only"
     },
     {
       "id": "mundanewormhole-review-2026-09-27",
@@ -609,7 +619,8 @@
       "note": "The README carries both the performance and instrument identity, the rootstock/scion distinction, the bananaGraft seam, explicit non-retroactive-justification rule, human graft authority, privacy boundary, and the full Track 3 witness text. This repository is itself an anti-translation-loss instrument.",
       "evidence_urls": [
         "https://github.com/the-static-collective/mundaneWORMHOLE/blob/main/README.md"
-      ]
+      ],
+      "scope": "current_aperture_only"
     },
     {
       "id": "jubilee-campfire-review-2026-09-27",
@@ -620,7 +631,8 @@
       "note": "The README clearly states the latent-capacity hypothesis, Offer → Join → Remember ontology, seed lifecycle, jubilee:// addressing, transparent matching, append-only event-store architecture, and future multi-circle/P2P direction. Its historical role remains readable even though later repositories use the words Jubilee and Campfire differently.",
       "evidence_urls": [
         "https://github.com/the-static-collective/Jubilee-Campfire/blob/main/README.md"
-      ]
+      ],
+      "scope": "current_aperture_only"
     },
     {
       "id": "autodiscography-vault-review-2026-09-27",
@@ -631,7 +643,8 @@
       "note": "The README gives a precise Phase B2C preservation gate, browser/local trust boundary, WAV witness ceremony, disabled capabilities, verification steps, and downstream Corpus OS handoff. It distinguishes implementation evidence from field proof throughout.",
       "evidence_urls": [
         "https://github.com/the-static-collective/autodiscography-vault/blob/main/README.md"
-      ]
+      ],
+      "scope": "current_aperture_only"
     },
     {
       "id": "founder-node-review-2026-09-27",
@@ -642,7 +655,8 @@
       "note": "The README explicitly narrows the current executable center from an older broader concept, documents what earlier text overstated, and defines Pollen Scout as evidence-bounded visibility rather than dispatch or authority. This is a strong example of a project repairing its own front-door translation.",
       "evidence_urls": [
         "https://github.com/the-static-collective/founder-node/blob/main/README.md"
-      ]
+      ],
+      "scope": "current_aperture_only"
     },
     {
       "id": "human-witness-review-2026-09-27",
@@ -653,7 +667,8 @@
       "note": "The README documents a bounded encounter-evidence membrane, explicit non-authorities, named architectural lineage from Upper Room / Formation Trace / Corpus OS / Jubilee Authority Kit, and an experimental SupaBardo crossing field kept outside the core contract. It preserves both inheritance and separation.",
       "evidence_urls": [
         "https://github.com/the-static-collective/Human-Witness/blob/main/README.md"
-      ]
+      ],
+      "scope": "current_aperture_only"
     },
     {
       "id": "storyship-review-2026-09-27",
@@ -664,7 +679,8 @@
       "note": "The README clearly names Storyship as a provenance-first voyage runtime, distinguishes relationship/passenger from artifact/carrier, gives Haunted Phonography customs authority, and explicitly omits decide/rank/admit commands. The human-mediated crossing is carried with the body.",
       "evidence_urls": [
         "https://github.com/the-static-collective/STORYSHIP/blob/main/README.md"
-      ]
+      ],
+      "scope": "current_aperture_only"
     },
     {
       "id": "iron-lung-review-2026-09-27",
@@ -675,7 +691,8 @@
       "note": "Iron Lung carries its own transition law unusually well: three-strand braids preserve substance/lineage/authority, repair creates descendants, transport ≠ admission ≠ assimilation, and the README explicitly distinguishes its local Successor Lift from global time/authority and its role from TranchNode Continuity Spine.",
       "evidence_urls": [
         "https://github.com/the-static-collective/iron-lung/blob/main/README.md"
-      ]
+      ],
+      "scope": "current_aperture_only"
     },
     {
       "id": "haunted-phonography-review-2026-09-27",
@@ -686,7 +703,8 @@
       "note": "The Haunted Phonograph README carries both founding law and executable evolution: source evidence vs proposal, deterministic mutation, Specimen 001, then HAUNT v0.1 cross-appliance memory. It explicitly says appliances share memory, not authority, and preserves uncertainty through the transition.",
       "evidence_urls": [
         "https://github.com/the-static-collective/the-haunted-phonography/blob/main/README.md"
-      ]
+      ],
+      "scope": "current_aperture_only"
     },
     {
       "id": "upper-room-review-2026-09-27",
@@ -697,7 +715,8 @@
       "note": "Upper Room's README clearly states continuity-without-captivity, names its first bounded executable Scripture/Dust slice, and lists major specified-but-unimplemented surfaces. It preserves the difference between defining edge, current proof, and horizon.",
       "evidence_urls": [
         "https://github.com/the-static-collective/Upper-room/blob/main/README.md"
-      ]
+      ],
+      "scope": "current_aperture_only"
     },
     {
       "id": "worldseed-review-2026-09-27",
@@ -710,7 +729,8 @@
         "https://github.com/the-static-collective/WORLDSEED/blob/main/README.md",
         "https://github.com/the-static-collective/WORLDSEED/pull/2",
         "https://github.com/the-static-collective/WORLDSEED/pull/5"
-      ]
+      ],
+      "scope": "current_aperture_only"
     },
     {
       "id": "full-measure-review-2026-09-27",
@@ -721,7 +741,8 @@
       "note": "Full Measure explicitly narrates its own expansion from the original Garden/Jubilee participation vertical into Boot the House, Human Terminal, and STRIDE while keeping one authority boundary. This is positive evidence of a transition successfully traveling with the project.",
       "evidence_urls": [
         "https://github.com/the-static-collective/full-measure-world-layer/blob/main/README.md"
-      ]
+      ],
+      "scope": "current_aperture_only"
     }
   ],
   "translation_scars": [
@@ -739,7 +760,9 @@
       "evidence_urls": [
         "https://github.com/the-static-collective/toaster-lab/blob/main/README.md",
         "https://github.com/the-static-collective/toaster-lab2/blob/main/README.md"
-      ]
+      ],
+      "historical_search_open": true,
+      "evidence_grade": "aperture_tension_only"
     },
     {
       "id": "jubilee-campfire-role-split-2026-09-27",
@@ -755,7 +778,9 @@
       "evidence_urls": [
         "https://github.com/the-static-collective/Jubilee-Campfire/blob/main/README.md",
         "https://github.com/the-static-collective/BananaSpork/blob/main/README.md"
-      ]
+      ],
+      "historical_search_open": true,
+      "evidence_grade": "aperture_tension_only"
     },
     {
       "id": "worldseed-static-field-identity-crossing-2026-09-27",
@@ -773,7 +798,9 @@
         "https://github.com/the-static-collective/WORLDSEED/pull/2",
         "https://github.com/the-static-collective/WORLDSEED/pull/4",
         "https://github.com/the-static-collective/static-field/pull/1"
-      ]
+      ],
+      "historical_search_open": true,
+      "evidence_grade": "cross_temporal_evidence"
     }
   ]
 }
