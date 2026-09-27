@@ -328,7 +328,7 @@ def validate_recovery_seeds(raw, snapshot):
 
 
 def validate_recovery_reviews(raw, snapshot):
-    """Validate surveyed repositories that do not need a recovery entry."""
+    """Validate curated aperture observations without allowing them to close recovery."""
     known = {repo["name"] for repo in snapshot["repositories"]}
     allowed_results = {"legible_reentry_observed", "disposition_claim_observed"}
     seen = set()
@@ -383,7 +383,7 @@ def validate_translation_scars(raw, snapshot):
             if name not in known:
                 raise ValueError(
                     f"Translation scar {scar_id} references nonpublic or missing repo: {name}")
-        if not re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}", str(scar.get("reviewed_on", ""))):
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(scar.get("reviewed_on", ""))):
             raise ValueError("Translation scar requires reviewed_on YYYY-MM-DD: " + scar_id)
         for field in ("observed_tension", "interpretation", "not_claimed", "reentry_question"):
             if not str(scar.get(field, "")).strip():
