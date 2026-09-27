@@ -342,7 +342,7 @@ def validate_recovery_reviews(raw, snapshot):
         if repository not in known:
             raise ValueError(
                 f"Recovery review {review_id} references nonpublic or missing repo: {repository}")
-        if not re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}", str(review.get("reviewed_on", ""))):
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(review.get("reviewed_on", ""))):
             raise ValueError("Recovery review requires reviewed_on YYYY-MM-DD: " + review_id)
         result = review.get("result", "")
         if result not in allowed_results:
