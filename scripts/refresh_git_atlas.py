@@ -298,6 +298,7 @@ def validate_recovery(raw, snapshot):
             events = chat_history.get("events") or []
             if not events:
                 raise ValueError("Chat-history recovery requires at least one event: " + entry_id)
+            allowed_relations = {"precursor_candidate", "direct_lineage", "later_revisit"}
             previous = None
             for event in events:
                 at = str(event.get("at", ""))
@@ -308,6 +309,8 @@ def validate_recovery(raw, snapshot):
                 previous = at
                 if event.get("source_kind") != "user_turn_recovered":
                     raise ValueError("Chat-history events must remain user_turn_recovered: " + entry_id)
+                if event.get("relation") not in allowed_relations:
+                    raise ValueError("Chat-history event requires bounded relation: " + entry_id)
                 if not str(event.get("detail", "")).strip():
                     raise ValueError("Chat-history event requires detail: " + entry_id)
         entries.append({
@@ -521,7 +524,8 @@ def render_recovery(entries, snapshot, seeds=None, reviews=None, translation_sca
                       f"**Compression:** {md(chat_history['compression'])}", ""]
             for event in chat_history["events"]:
                 lines.append(
-                    f"* {TICK}{md(event['at'])}{TICK} — {md(event['detail'])}")
+                    f"* {TICK}{md(event['at'])}{TICK} · {TICK}{md(event['relation'])}{TICK} — "
+                    f"{md(event['detail'])}")
             lines.append("")
         lines += ["**Evidence**", ""]
         for index, url in enumerate(entry["evidence_urls"], start=1):
