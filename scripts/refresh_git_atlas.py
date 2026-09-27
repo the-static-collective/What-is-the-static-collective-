@@ -290,8 +290,46 @@ def validate_recovery(raw, snapshot):
     return entries
 
 
-def render_recovery(entries, snapshot):
+def validate_recovery_seeds(raw, snapshot):
+    """Validate surveyed repository seeds separately from recovered implementation bodies."""
+    known = {repo["name"] for repo in snapshot["repositories"]}
+    seen = set()
+    seeds = []
+    for seed in raw.get("seeds", []):
+        seed_id = seed.get("id", "")
+        if not seed_id or seed_id in seen:
+            raise ValueError("Recovery seed id must be nonempty and unique")
+        seen.add(seed_id)
+        repository = seed.get("repository", "")
+        if repository not in known:
+            raise ValueError(
+                f"Recovery seed {seed_id} references nonpublic or missing repo: {repository}")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(seed.get("reviewed_on", ""))):
+            raise ValueError("Recovery seed requires reviewed_on YYYY-MM-DD: " + seed_id)
+        if not seed.get("signals"):
+            raise ValueError("Recovery seed requires at least one observed signal: " + seed_id)
+        for field in ("observed_public_state", "residual_fog", "next_recovery_action"):
+            if not str(seed.get(field, "")).strip():
+                raise ValueError(f"Recovery seed {seed_id} requires {field}")
+        evidence = seed.get("evidence_urls") or []
+        if not evidence or any(not str(url).startswith("https://") for url in evidence):
+            raise ValueError("Recovery seed evidence must contain HTTPS URLs: " + seed_id)
+        seeds.append({
+            "id": seed_id,
+            "repository": repository,
+            "reviewed_on": seed["reviewed_on"],
+            "signals": list(seed["signals"]),
+            "observed_public_state": seed["observed_public_state"],
+            "residual_fog": seed["residual_fog"],
+            "next_recovery_action": seed["next_recovery_action"],
+            "evidence_urls": list(evidence),
+        })
+    return seeds
+
+
+def render_recovery(entries, snapshot, seeds=None):
     owner = snapshot["owner"]
+    seeds = seeds or []
     lines = [
         "---",
         'description: "Dated, evidence-linked re-entry records for public repositories whose surviving body is easier to miss than to understand."',
@@ -325,6 +363,28 @@ def render_recovery(entries, snapshot):
                   "**Evidence**", ""]
         for index, url in enumerate(entry["evidence_urls"], start=1):
             lines.append(f"* [source {index}]({url})")
+    if seeds:
+        lines += ["", "## Surveyed seeds — body not yet recovered", "",
+                  "These repositories were touched in the same recovery pass, but the public Git",
+                  "aperture does not yet carry enough project-owned body to reconstruct the",
+                  "original particular. They remain explicit search obligations, not empty labels.", "",
+                  "| Repository | Reviewed | Observed signals | Residual fog |",
+                  "| --- | --- | --- | --- |"]
+        for seed in seeds:
+            repo_link = f"[{md(seed['repository'])}]({repository_url(owner, seed['repository'])})"
+            signals = ", ".join(TICK + md(signal) + TICK for signal in seed["signals"])
+            lines.append(
+                f"| {repo_link} | {md(seed['reviewed_on'])} | {signals} | "
+                f"{md(seed['residual_fog'])} |")
+        for seed in seeds:
+            lines += ["", "### " + seed["repository"], "",
+                      f"**Reviewed:** {md(seed['reviewed_on'])}", "",
+                      "**Observed public state**", "", md(seed["observed_public_state"]), "",
+                      "**Residual fog**", "", md(seed["residual_fog"]), "",
+                      "**Next recovery action**", "", md(seed["next_recovery_action"]), "",
+                      "**Evidence**", ""]
+            for index, url in enumerate(seed["evidence_urls"], start=1):
+                lines.append(f"* [source {index}]({url})")
     lines += ["", "## Reading rule", "",
               "Recovery does not resurrect authority. It restores a route back to a surviving",
               "particular so a later human can decide whether to continue, compare, preserve,",
@@ -574,12 +634,12 @@ def render_index(groups, snapshot):
     return "\n".join(lines)
 
 
-def output_files(snapshot, catalog, relations, recovery, delta=None):
+def output_files(snapshot, catalog, relations, recovery, recovery_seeds, delta=None):
     groups = category_sets(catalog, snapshot)
     files = {
         "README.md": render_index(groups, snapshot),
         "relations.md": render_relations(relations, snapshot),
-        "recovery.md": render_recovery(recovery, snapshot),
+        "recovery.md": render_recovery(recovery, snapshot, recovery_seeds),
     }
     for group, members in groups:
         files[group["slug"] + ".md"] = render_group(group, members, snapshot)
@@ -616,9 +676,10 @@ def main(argv=None):
         timezone.utc).isoformat(timespec="seconds"))
     relations = validate_relations(relation_source, snapshot)
     recovery = validate_recovery(recovery_source, snapshot)
+    recovery_seeds = validate_recovery_seeds(recovery_source, snapshot)
     delta_missing = not (OUTPUT / "delta.md").exists() or not (OUTPUT / "delta.json").exists()
     delta = topology_delta(old, snapshot) if topology_changed or delta_missing else None
-    files = output_files(snapshot, catalog, relations, recovery, delta)
+    files = output_files(snapshot, catalog, relations, recovery, recovery_seeds, delta)
     stale = [name for name, content in files.items()
              if not (OUTPUT / name).exists() or
              (OUTPUT / name).read_text(encoding="utf-8") != content]
