@@ -409,19 +409,34 @@
         "implementation_body_on_open_prs",
         "world_runtime_identity",
         "multi_stage_proposal_lineage",
-        "front_door_not_landed"
+        "front_door_not_landed",
+        "human_recovered_origin",
+        "print_to_play_transition"
       ],
       "body_claim": "static-field's main branch currently lacks a README, but open PR #1 contains a complete STATIC FIELD front door and executable WORLDSEED-001 Porch runtime: append-only world events, separate Surface/Resonance projections, attendance/absence, Charge, Field Depth, unresolved Bell/Knock, detected-but-unopened Crossing residue, deterministic receipts, persistence, CLI, and browser surface. Later stacked PRs extend that body through source-owned crossing, Wormhole Wars receiving-world play, graphical table work, visual cards, 3D Porch assets, and a Living Deck handoff.",
-      "purpose_claim": "OBSERVED/INFERRED: STATIC FIELD appears to test how an ordinary inhabited place can accumulate attributable events and increasingly strange relational resonance without narrative interpretation becoming historical authority, while later experiments test bounded crossings between independently authoritative fictional/game worlds.",
+      "purpose_claim": "LATER MANIFESTATION OBSERVED: the surviving STATIC FIELD runtime asks how attributable physical/social/world events can accumulate resonance and cross between independently authoritative worlds. HUMAN-RECOVERED ORIGIN: this was not the starting identity; the earlier project was a print-shop / translation surface for turning related Collective context into physical print media, with postcard newsletters as an early form, followed in the same developmental thread by PostEmahh'n cards and then increasingly playable card grammars, games, and cross-pollination.",
       "last_witnessed_change": "Open PR #12 composes PostEmahh'n card/sticker fixtures into a local Fellowship Table, exports a portable proposal toward Full Measure and ROroomOM, and explicitly keeps real source proof, canonical world events, and effectful admission gated. The founding executable identity remains documented in open PR #1 rather than main.",
       "disposition": "ACTIVE PROPOSAL LINEAGE / FRONT-DOOR GAP — substantial executable and experimental bodies survive on open PRs, but the main branch does not presently carry the README that explains them. Open PRs are proposals, not proof that these bodies have landed or become current canon.",
-      "reentry_door": "Start with PR #1's README patch and FIRST-BELL contract, then read PRs #3–#12 in dependency/order context. Do not treat later stacked game experiments as landed mainline state merely because they are executable on their branches.",
+      "reentry_door": "Begin with the human-recovered print/output origin below, then read the Daily Slice postcard/newsletter traces, PostEmahh'n design, and only afterward the STATIC FIELD First Bell / Wormhole Wars / Living Deck branches. Treat the Porch/world runtime as a later manifestation, not the recovered origin.",
       "evidence_urls": [
         "https://github.com/the-static-collective/static-field/pull/1",
         "https://github.com/the-static-collective/static-field/pull/3",
         "https://github.com/the-static-collective/static-field/pull/4",
         "https://github.com/the-static-collective/static-field/pull/12"
-      ]
+      ],
+      "human_recovered_context": {
+        "recorded_on": "2026-09-27",
+        "witness_type": "human_origin_recovery",
+        "claim": "STATIC FIELD originally began as a print shop / translation surface creating print media for or from related project context. The original thought included newsletters printed on postcards. PostEmahh'n cards emerged in the same developmental conversation; from there the project broadened into card-related games, grammars, and cross-pollinating manifestations. A useful recovered image is a partly paper arcade in which arcade tickets/cards are non-fungible collector particulars rather than interchangeable score tokens.",
+        "corroboration_posture": "The linked repository sources corroborate adjacent newsletter, portable-postcard, PostEmahh'n, and later card-game manifestations. They do not independently prove this exact origin chronology; the chronology here is preserved as human-recovered testimony and remains distinguishable from Git-derived evidence.",
+        "corroborating_urls": [
+          "https://github.com/the-static-collective/the-daily-slice/blob/main/slices/2026/08/2026-08-24/in-out-newsletter.md",
+          "https://github.com/the-static-collective/the-daily-slice/blob/main/docs/superpowers/specs/2026-08-24-artifact-capture-postcard-architecture-design.md",
+          "https://github.com/the-static-collective/Jubilee-Engine-VM/pull/12",
+          "https://github.com/the-static-collective/static-field/pull/3",
+          "https://github.com/the-static-collective/static-field/pull/12"
+        ]
+      }
     },
     {
       "id": "roroomom-front-door-drift-2026-09-27",
