@@ -210,7 +210,7 @@ class AtlasBoundaries(unittest.TestCase):
             atlas.validate_recovery_seeds(raw, snapshot)
 
 
-    def test_recovery_review_records_clear_reentry_without_fossilizing(self):
+    def test_recovery_review_is_observation_and_cannot_close_recovery(self):
         snapshot = atlas.normalize(fixture(), "the-static-collective")
         raw = {
             "schema": "static-git-atlas/recovery-v1",
@@ -219,18 +219,21 @@ class AtlasBoundaries(unittest.TestCase):
                 "id": "example-review",
                 "repository": "Example",
                 "reviewed_on": "2026-09-27",
-                "result": "recovery_not_needed",
-                "note": "The project already explains its current boundary.",
+                "result": "legible_reentry_observed",
+                "recovery_open": True,
+                "note": "The current front door explains a usable re-entry path.",
                 "evidence_urls": ["https://github.com/the-static-collective/Example"],
             }],
         }
         reviews = atlas.validate_recovery_reviews(raw, snapshot)
         rendered = atlas.render_recovery([], snapshot, [], reviews)
-        self.assertEqual(reviews[0]["repository"], "Example")
-        self.assertIn("Surveyed bodies", rendered)
-        self.assertIn("recovery not needed", rendered)
+        self.assertTrue(reviews[0]["recovery_open"])
+        self.assertIn("current aperture observations", rendered)
+        self.assertIn("OPEN", rendered)
+        self.assertIn("not an", rendered)
+        self.assertIn("automatic decision", rendered)
 
-    def test_recovery_review_rejects_unknown_result(self):
+    def test_recovery_review_rejects_old_terminal_label(self):
         snapshot = atlas.normalize(fixture(), "the-static-collective")
         raw = {
             "schema": "static-git-atlas/recovery-v1",
@@ -239,13 +242,57 @@ class AtlasBoundaries(unittest.TestCase):
                 "id": "bad-review",
                 "repository": "Example",
                 "reviewed_on": "2026-09-27",
-                "result": "dead_forever",
-                "note": "Not an allowed recovery conclusion.",
+                "result": "recovery_not_needed",
+                "recovery_open": True,
+                "note": "Old terminal label must not survive.",
                 "evidence_urls": ["https://github.com/the-static-collective/Example"],
             }],
         }
         with self.assertRaises(ValueError):
             atlas.validate_recovery_reviews(raw, snapshot)
+
+    def test_recovery_review_requires_open_recovery(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/recovery-v1",
+            "entries": [],
+            "reviews": [{
+                "id": "closed-review",
+                "repository": "Example",
+                "reviewed_on": "2026-09-27",
+                "result": "legible_reentry_observed",
+                "recovery_open": False,
+                "note": "A current aperture cannot close historical recovery.",
+                "evidence_urls": ["https://github.com/the-static-collective/Example"],
+            }],
+        }
+        with self.assertRaises(ValueError):
+            atlas.validate_recovery_reviews(raw, snapshot)
+
+    def test_translation_scar_preserves_tension_without_lineage(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/recovery-v1",
+            "entries": [],
+            "translation_scars": [{
+                "id": "example-scar",
+                "repositories": ["Example", "Example"],
+                "reviewed_on": "2026-09-27",
+                "observed_tension": "One source says stop; another body later exists.",
+                "interpretation": "TRANSLATION SCAR — the history does not collapse cleanly.",
+                "not_claimed": "No successor relation is asserted.",
+                "reentry_question": "What changed in translation?",
+                "evidence_urls": [
+                    "https://github.com/the-static-collective/Example",
+                    "https://github.com/the-static-collective/Example/tree/side",
+                ],
+            }],
+        }
+        scars = atlas.validate_translation_scars(raw, snapshot)
+        rendered = atlas.render_recovery([], snapshot, [], [], scars)
+        self.assertEqual(scars[0]["id"], "example-scar")
+        self.assertIn("TRANSLATION SCARS", rendered)
+        self.assertIn("No successor relation", rendered)
 
 
 if __name__ == "__main__":
