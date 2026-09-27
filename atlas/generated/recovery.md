@@ -590,26 +590,60 @@ Recover the creator-intent witness first. Do not fabricate a project description
 
 * [source 1](https://github.com/the-static-collective/appliance-prophet-king)
 
-## Surveyed bodies — recovery not needed
+## Surveyed bodies — current aperture observations
 
-These repositories were inspected in the same inch-by-inch pass and already
-carry enough project-owned orientation or disposition to re-enter without a
-recovery reconstruction. Recording them here makes survey coverage visible
-without turning every repository into a fossil.
+These repositories were inspected in the same inch-by-inch pass and currently
+carry a legible front door or an explicit disposition claim. That is only an
+observation about the present aperture. It does **not** close recovery, certify
+lineage, or decide that no older meaning was lost in translation.
 
-| Repository | Reviewed | Result | Why no recovery entry |
-| --- | --- | --- | --- |
-| [reCURVrePAIR](https://github.com/the-static-collective/reCURVrePAIR) | 2026-09-27 | `recovery not needed` | The root README already states the repair-culture purpose, implemented reality status, non-guarantees, handoff protocol, epistemic states, and re-entry path. Its exact family relation to reMIX-reCURVrePAIR remains a separate lineage question, not a missing front door here. |
-| [toaster-oracle](https://github.com/the-static-collective/toaster-oracle) | 2026-09-27 | `recovery not needed` | The README gives a detailed Feral Composer contract: multimodal proposal generation, Lock/Burn constraints, Haunted Toaster admission/refusal pressure, executable score visualization, and realization critique. The project is re-enterable from its own front door. |
-| [toaster-lab](https://github.com/the-static-collective/toaster-lab) | 2026-09-27 | `declared disposition` | The repository explicitly declares itself superseded/read-only historical evidence and a mutation-logic quarry only. It says not to continue a second appliance here and points any salvage toward Haunted Toaster. |
-| [toaster-lab2](https://github.com/the-static-collective/toaster-lab2) | 2026-09-27 | `recovery not needed` | The README exposes a bounded Crazy Slots proposal-appliance role, deterministic transfer boundary, sovereignty split with Haunted Toaster, verification commands, and compatibility tests. Its present role is explicit. |
-| [tranchNOSE](https://github.com/the-static-collective/tranchNOSE) | 2026-09-27 | `recovery not needed` | The repository clearly states its optical-state experiment, failure boundary, machine model, first field-object question, research posture, and extraction lineage from tranchnode issue #30. |
-| [the-haunted-pol-ish-roids](https://github.com/the-static-collective/the-haunted-pol-ish-roids) | 2026-09-27 | `recovery not needed` | The front door explicitly identifies a living camera organism, its provenance/personality split, planned Phoenix Egg and Quantum Chrysalis lineage mechanics, and current design/specification phase with issue #1 as the gate. |
-| [BananaSpork](https://github.com/the-static-collective/BananaSpork) | 2026-09-27 | `recovery not needed` | The README names the current FIELD-SPECIMEN-001 edge, separates NanaSpork/Garden/BananaGram/Campfire/Jubilee/Donkey responsibilities, states implemented authority boundaries, and lists the next live proof without confusing migration or build evidence with field proof. |
+| Repository | Reviewed | Observed aperture | Recovery | Note |
+| --- | --- | --- | --- | --- |
+| [reCURVrePAIR](https://github.com/the-static-collective/reCURVrePAIR) | 2026-09-27 | `legible reentry observed` | `OPEN` | The root README already states the repair-culture purpose, implemented reality status, non-guarantees, handoff protocol, epistemic states, and re-entry path. Its exact family relation to reMIX-reCURVrePAIR remains a separate lineage question, not a missing front door here. |
+| [toaster-oracle](https://github.com/the-static-collective/toaster-oracle) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README gives a detailed Feral Composer contract: multimodal proposal generation, Lock/Burn constraints, Haunted Toaster admission/refusal pressure, executable score visualization, and realization critique. The project is re-enterable from its own front door. |
+| [toaster-lab](https://github.com/the-static-collective/toaster-lab) | 2026-09-27 | `disposition claim observed` | `OPEN` | The repository explicitly declares itself superseded/read-only historical evidence and a mutation-logic quarry only. It says not to continue a second appliance here and points any salvage toward Haunted Toaster. |
+| [toaster-lab2](https://github.com/the-static-collective/toaster-lab2) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README exposes a bounded Crazy Slots proposal-appliance role, deterministic transfer boundary, sovereignty split with Haunted Toaster, verification commands, and compatibility tests. Its present role is explicit. |
+| [tranchNOSE](https://github.com/the-static-collective/tranchNOSE) | 2026-09-27 | `legible reentry observed` | `OPEN` | The repository clearly states its optical-state experiment, failure boundary, machine model, first field-object question, research posture, and extraction lineage from tranchnode issue #30. |
+| [the-haunted-pol-ish-roids](https://github.com/the-static-collective/the-haunted-pol-ish-roids) | 2026-09-27 | `legible reentry observed` | `OPEN` | The front door explicitly identifies a living camera organism, its provenance/personality split, planned Phoenix Egg and Quantum Chrysalis lineage mechanics, and current design/specification phase with issue #1 as the gate. |
+| [BananaSpork](https://github.com/the-static-collective/BananaSpork) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README names the current FIELD-SPECIMEN-001 edge, separates NanaSpork/Garden/BananaGram/Campfire/Jubilee/Donkey responsibilities, states implemented authority boundaries, and lists the next live proof without confusing migration or build evidence with field proof. |
 
-A clear front door is evidence of navigability, not a claim that the project is
-finished, canonical, actively maintained, or more important than another node.
+A legible front door is evidence of navigability at review time. It is not an
+automatic decision that recovery is unnecessary or complete.
 
+
+## TRANSLATION SCARS — where the story does not collapse cleanly
+
+A translation scar records a tension between surviving sources that becomes
+misleading if flattened into a neat succession story. The scar preserves the
+difference and leaves the historical question open.
+
+
+### toaster-lab ↔ toaster-lab2
+
+**Reviewed:** 2026-09-27
+
+**Bodies in tension:** [toaster-lab](https://github.com/the-static-collective/toaster-lab), [toaster-lab2](https://github.com/the-static-collective/toaster-lab2)
+
+**Observed tension**
+
+toaster-lab explicitly declares itself superseded/read-only, says not to preserve or revive the application, and points salvage toward Haunted Toaster; a separate repository named toaster-lab2 nevertheless survives as a bounded Crazy Slots proposal appliance with its own executable contract.
+
+**Interpretation**
+
+TRANSLATION SCAR — the surviving records show that a declared ending or boundary can coexist with a later neighboring body whose name and function make the history look less linear than the disposition text alone suggests.
+
+**Not claimed**
+
+This record does not claim that toaster-lab2 violated toaster-lab's instruction, directly descends from it, or is the same application revived. The exact handoff, reinterpretation, or naming path remains open.
+
+**Re-entry question**
+
+What was preserved, renamed, re-expressed, or misunderstood between the declaration 'do not preserve or revive this application' and the surviving toaster-lab2 proposal appliance?
+
+**Evidence**
+
+* [source 1](https://github.com/the-static-collective/toaster-lab/blob/main/README.md)
+* [source 2](https://github.com/the-static-collective/toaster-lab2/blob/main/README.md)
 
 ## Reading rule
 
@@ -622,3 +656,6 @@ supersede, or simply understand it.
     surviving code != current canon
     missing explanation != permission to invent one
     UNKNOWN = preserved fog
+    legible now != recovery complete
+    declared disposition != final historical truth
+    translation scars stay open
