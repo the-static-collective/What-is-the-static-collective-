@@ -13,6 +13,20 @@ a bounded human recovery pass cites a surviving body. These are dated re-entry
 records, not live status labels. UNKNOWN is preserved when the public record does
 not establish a later disposition.
 
+## Connected-memory protocol
+
+When the question is **what was this old connected thing?**, do not recover it from
+the repository name or current README alone. Reconstruct local state first from the
+surviving body, dated commits, branches/PRs/issues, and inbound/outbound references
+from neighboring projects. Read the current README afterward as one aperture onto
+that history. If the sources disagree, preserve the disagreement as a translation
+scar instead of making the cleaner story win.
+
+    repo name != recovered purpose
+    current README != historical handoff
+    neighboring reference != proven lineage
+    branch/PR body != landed mainline
+
 | Repository(s) | Reviewed | Observed signals | Disposition evidence |
 | --- | --- | --- | --- |
 | [SEAMforge](https://github.com/the-static-collective/SEAMforge) | 2026-09-27 | `missing_readme`, `implementation_body`, `quiet_topology`, `disposition_fog` | UNKNOWN — no public source located in this recovery pass states that SEAMforge completed, was superseded, or became another named project. |
@@ -662,32 +676,33 @@ carry a legible front door or an explicit disposition claim. That is only an
 observation about the present aperture. It does **not** close recovery, certify
 lineage, or decide that no older meaning was lost in translation.
 
-| Repository | Reviewed | Observed aperture | Recovery | Note |
-| --- | --- | --- | --- | --- |
-| [reCURVrePAIR](https://github.com/the-static-collective/reCURVrePAIR) | 2026-09-27 | `legible reentry observed` | `OPEN` | The root README already states the repair-culture purpose, implemented reality status, non-guarantees, handoff protocol, epistemic states, and re-entry path. Its exact family relation to reMIX-reCURVrePAIR remains a separate lineage question, not a missing front door here. |
-| [toaster-oracle](https://github.com/the-static-collective/toaster-oracle) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README gives a detailed Feral Composer contract: multimodal proposal generation, Lock/Burn constraints, Haunted Toaster admission/refusal pressure, executable score visualization, and realization critique. The project is re-enterable from its own front door. |
-| [toaster-lab](https://github.com/the-static-collective/toaster-lab) | 2026-09-27 | `disposition claim observed` | `OPEN` | The repository explicitly declares itself superseded/read-only historical evidence and a mutation-logic quarry only. It says not to continue a second appliance here and points any salvage toward Haunted Toaster. |
-| [toaster-lab2](https://github.com/the-static-collective/toaster-lab2) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README exposes a bounded Crazy Slots proposal-appliance role, deterministic transfer boundary, sovereignty split with Haunted Toaster, verification commands, and compatibility tests. Its present role is explicit. |
-| [tranchNOSE](https://github.com/the-static-collective/tranchNOSE) | 2026-09-27 | `legible reentry observed` | `OPEN` | The repository clearly states its optical-state experiment, failure boundary, machine model, first field-object question, research posture, and extraction lineage from tranchnode issue #30. |
-| [the-haunted-pol-ish-roids](https://github.com/the-static-collective/the-haunted-pol-ish-roids) | 2026-09-27 | `legible reentry observed` | `OPEN` | The front door explicitly identifies a living camera organism, its provenance/personality split, planned Phoenix Egg and Quantum Chrysalis lineage mechanics, and current design/specification phase with issue #1 as the gate. |
-| [BananaSpork](https://github.com/the-static-collective/BananaSpork) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README names the current FIELD-SPECIMEN-001 edge, separates NanaSpork/Garden/BananaGram/Campfire/Jubilee/Donkey responsibilities, states implemented authority boundaries, and lists the next live proof without confusing migration or build evidence with field proof. |
-| [fogGlass](https://github.com/the-static-collective/fogGlass) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README already preserves the instrument's narrow law: fog has an address, lamps investigate without deciding, lenses change observation rather than world-state, failed illumination leaves a receipt, and candidate-set size is not probability or truth. |
-| [convergent-codec](https://github.com/the-static-collective/convergent-codec) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README exposes the exact-codec thesis, current kernel, measured-cost law, witness-plane separation, non-goals, and next multichannel shared-mask experiment. Its current question is unusually explicit. |
-| [unfolding-ledger](https://github.com/the-static-collective/unfolding-ledger) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README clearly marks a v0.1 constitutional kernel, names six invariants, distinguishes verifier claims from non-claims, and explicitly records that its sorted-JSON serializer is not canonical for Project0 and still requires comparison against Project0's frozen addressing contract. |
-| [mundaneWORMHOLE](https://github.com/the-static-collective/mundaneWORMHOLE) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README carries both the performance and instrument identity, the rootstock/scion distinction, the bananaGraft seam, explicit non-retroactive-justification rule, human graft authority, privacy boundary, and the full Track 3 witness text. This repository is itself an anti-translation-loss instrument. |
-| [Jubilee-Campfire](https://github.com/the-static-collective/Jubilee-Campfire) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README clearly states the latent-capacity hypothesis, Offer → Join → Remember ontology, seed lifecycle, jubilee:// addressing, transparent matching, append-only event-store architecture, and future multi-circle/P2P direction. Its historical role remains readable even though later repositories use the words Jubilee and Campfire differently. |
-| [autodiscography-vault](https://github.com/the-static-collective/autodiscography-vault) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README gives a precise Phase B2C preservation gate, browser/local trust boundary, WAV witness ceremony, disabled capabilities, verification steps, and downstream Corpus OS handoff. It distinguishes implementation evidence from field proof throughout. |
-| [founder-node](https://github.com/the-static-collective/founder-node) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README explicitly narrows the current executable center from an older broader concept, documents what earlier text overstated, and defines Pollen Scout as evidence-bounded visibility rather than dispatch or authority. This is a strong example of a project repairing its own front-door translation. |
-| [Human-Witness](https://github.com/the-static-collective/Human-Witness) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README documents a bounded encounter-evidence membrane, explicit non-authorities, named architectural lineage from Upper Room / Formation Trace / Corpus OS / Jubilee Authority Kit, and an experimental SupaBardo crossing field kept outside the core contract. It preserves both inheritance and separation. |
-| [STORYSHIP](https://github.com/the-static-collective/STORYSHIP) | 2026-09-27 | `legible reentry observed` | `OPEN` | The README clearly names Storyship as a provenance-first voyage runtime, distinguishes relationship/passenger from artifact/carrier, gives Haunted Phonography customs authority, and explicitly omits decide/rank/admit commands. The human-mediated crossing is carried with the body. |
-| [iron-lung](https://github.com/the-static-collective/iron-lung) | 2026-09-27 | `legible reentry observed` | `OPEN` | Iron Lung carries its own transition law unusually well: three-strand braids preserve substance/lineage/authority, repair creates descendants, transport ≠ admission ≠ assimilation, and the README explicitly distinguishes its local Successor Lift from global time/authority and its role from TranchNode Continuity Spine. |
-| [the-haunted-phonography](https://github.com/the-static-collective/the-haunted-phonography) | 2026-09-27 | `legible reentry observed` | `OPEN` | The Haunted Phonograph README carries both founding law and executable evolution: source evidence vs proposal, deterministic mutation, Specimen 001, then HAUNT v0.1 cross-appliance memory. It explicitly says appliances share memory, not authority, and preserves uncertainty through the transition. |
-| [Upper-room](https://github.com/the-static-collective/Upper-room) | 2026-09-27 | `legible reentry observed` | `OPEN` | Upper Room's README clearly states continuity-without-captivity, names its first bounded executable Scripture/Dust slice, and lists major specified-but-unimplemented surfaces. It preserves the difference between defining edge, current proof, and horizon. |
-| [WORLDSEED](https://github.com/the-static-collective/WORLDSEED) | 2026-09-27 | `legible reentry observed` | `OPEN` | WORLDSEED main remains a coherent writer-facing local world-memory tool with six verbs and author-owned epistemic labels. Open Origin PRs separately add a synthetic then increasingly native playable Crossing/Foreign Room runtime, so the current main front door is legible but no longer tells the entire experimental history. |
-| [full-measure-world-layer](https://github.com/the-static-collective/full-measure-world-layer) | 2026-09-27 | `legible reentry observed` | `OPEN` | Full Measure explicitly narrates its own expansion from the original Garden/Jubilee participation vertical into Boot the House, Human Terminal, and STRIDE while keeping one authority boundary. This is positive evidence of a transition successfully traveling with the project. |
+| Repository | Reviewed | Scope | Observed aperture | Recovery | Note |
+| --- | --- | --- | --- | --- | --- |
+| [reCURVrePAIR](https://github.com/the-static-collective/reCURVrePAIR) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The root README already states the repair-culture purpose, implemented reality status, non-guarantees, handoff protocol, epistemic states, and re-entry path. Its exact family relation to reMIX-reCURVrePAIR remains a separate lineage question, not a missing front door here. |
+| [toaster-oracle](https://github.com/the-static-collective/toaster-oracle) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The README gives a detailed Feral Composer contract: multimodal proposal generation, Lock/Burn constraints, Haunted Toaster admission/refusal pressure, executable score visualization, and realization critique. The project is re-enterable from its own front door. |
+| [toaster-lab](https://github.com/the-static-collective/toaster-lab) | 2026-09-27 | `current_aperture_only` | `disposition claim observed` | `OPEN` | The repository explicitly declares itself superseded/read-only historical evidence and a mutation-logic quarry only. It says not to continue a second appliance here and points any salvage toward Haunted Toaster. |
+| [toaster-lab2](https://github.com/the-static-collective/toaster-lab2) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The README exposes a bounded Crazy Slots proposal-appliance role, deterministic transfer boundary, sovereignty split with Haunted Toaster, verification commands, and compatibility tests. Its present role is explicit. |
+| [tranchNOSE](https://github.com/the-static-collective/tranchNOSE) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The repository clearly states its optical-state experiment, failure boundary, machine model, first field-object question, research posture, and extraction lineage from tranchnode issue #30. |
+| [the-haunted-pol-ish-roids](https://github.com/the-static-collective/the-haunted-pol-ish-roids) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The front door explicitly identifies a living camera organism, its provenance/personality split, planned Phoenix Egg and Quantum Chrysalis lineage mechanics, and current design/specification phase with issue #1 as the gate. |
+| [BananaSpork](https://github.com/the-static-collective/BananaSpork) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The README names the current FIELD-SPECIMEN-001 edge, separates NanaSpork/Garden/BananaGram/Campfire/Jubilee/Donkey responsibilities, states implemented authority boundaries, and lists the next live proof without confusing migration or build evidence with field proof. |
+| [fogGlass](https://github.com/the-static-collective/fogGlass) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The README already preserves the instrument's narrow law: fog has an address, lamps investigate without deciding, lenses change observation rather than world-state, failed illumination leaves a receipt, and candidate-set size is not probability or truth. |
+| [convergent-codec](https://github.com/the-static-collective/convergent-codec) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The README exposes the exact-codec thesis, current kernel, measured-cost law, witness-plane separation, non-goals, and next multichannel shared-mask experiment. Its current question is unusually explicit. |
+| [unfolding-ledger](https://github.com/the-static-collective/unfolding-ledger) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The README clearly marks a v0.1 constitutional kernel, names six invariants, distinguishes verifier claims from non-claims, and explicitly records that its sorted-JSON serializer is not canonical for Project0 and still requires comparison against Project0's frozen addressing contract. |
+| [mundaneWORMHOLE](https://github.com/the-static-collective/mundaneWORMHOLE) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The README carries both the performance and instrument identity, the rootstock/scion distinction, the bananaGraft seam, explicit non-retroactive-justification rule, human graft authority, privacy boundary, and the full Track 3 witness text. This repository is itself an anti-translation-loss instrument. |
+| [Jubilee-Campfire](https://github.com/the-static-collective/Jubilee-Campfire) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The README clearly states the latent-capacity hypothesis, Offer → Join → Remember ontology, seed lifecycle, jubilee:// addressing, transparent matching, append-only event-store architecture, and future multi-circle/P2P direction. Its historical role remains readable even though later repositories use the words Jubilee and Campfire differently. |
+| [autodiscography-vault](https://github.com/the-static-collective/autodiscography-vault) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The README gives a precise Phase B2C preservation gate, browser/local trust boundary, WAV witness ceremony, disabled capabilities, verification steps, and downstream Corpus OS handoff. It distinguishes implementation evidence from field proof throughout. |
+| [founder-node](https://github.com/the-static-collective/founder-node) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The README explicitly narrows the current executable center from an older broader concept, documents what earlier text overstated, and defines Pollen Scout as evidence-bounded visibility rather than dispatch or authority. This is a strong example of a project repairing its own front-door translation. |
+| [Human-Witness](https://github.com/the-static-collective/Human-Witness) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The README documents a bounded encounter-evidence membrane, explicit non-authorities, named architectural lineage from Upper Room / Formation Trace / Corpus OS / Jubilee Authority Kit, and an experimental SupaBardo crossing field kept outside the core contract. It preserves both inheritance and separation. |
+| [STORYSHIP](https://github.com/the-static-collective/STORYSHIP) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The README clearly names Storyship as a provenance-first voyage runtime, distinguishes relationship/passenger from artifact/carrier, gives Haunted Phonography customs authority, and explicitly omits decide/rank/admit commands. The human-mediated crossing is carried with the body. |
+| [iron-lung](https://github.com/the-static-collective/iron-lung) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | Iron Lung carries its own transition law unusually well: three-strand braids preserve substance/lineage/authority, repair creates descendants, transport ≠ admission ≠ assimilation, and the README explicitly distinguishes its local Successor Lift from global time/authority and its role from TranchNode Continuity Spine. |
+| [the-haunted-phonography](https://github.com/the-static-collective/the-haunted-phonography) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | The Haunted Phonograph README carries both founding law and executable evolution: source evidence vs proposal, deterministic mutation, Specimen 001, then HAUNT v0.1 cross-appliance memory. It explicitly says appliances share memory, not authority, and preserves uncertainty through the transition. |
+| [Upper-room](https://github.com/the-static-collective/Upper-room) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | Upper Room's README clearly states continuity-without-captivity, names its first bounded executable Scripture/Dust slice, and lists major specified-but-unimplemented surfaces. It preserves the difference between defining edge, current proof, and horizon. |
+| [WORLDSEED](https://github.com/the-static-collective/WORLDSEED) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | WORLDSEED main remains a coherent writer-facing local world-memory tool with six verbs and author-owned epistemic labels. Open Origin PRs separately add a synthetic then increasingly native playable Crossing/Foreign Room runtime, so the current main front door is legible but no longer tells the entire experimental history. |
+| [full-measure-world-layer](https://github.com/the-static-collective/full-measure-world-layer) | 2026-09-27 | `current_aperture_only` | `legible reentry observed` | `OPEN` | Full Measure explicitly narrates its own expansion from the original Garden/Jubilee participation vertical into Boot the House, Human Terminal, and STRIDE while keeping one authority boundary. This is positive evidence of a transition successfully traveling with the project. |
 
-A legible front door is evidence of navigability at review time. It is not an
-automatic decision that recovery is unnecessary or complete.
+These rows are deliberately **not historical reconstruction**. A legible front door
+is evidence of navigability at review time, not proof of what an older connected
+thing meant or how it became its neighbors.
 
 
 ## TRANSLATION SCARS — where the story does not collapse cleanly
@@ -700,6 +715,10 @@ difference and leaves the historical question open.
 ### toaster-lab ↔ toaster-lab2
 
 **Reviewed:** 2026-09-27
+
+**Evidence grade:** `aperture_tension_only`
+
+**Historical search:** `OPEN`
 
 **Bodies in tension:** [toaster-lab](https://github.com/the-static-collective/toaster-lab), [toaster-lab2](https://github.com/the-static-collective/toaster-lab2)
 
@@ -728,6 +747,10 @@ What was preserved, renamed, re-expressed, or misunderstood between the declarat
 
 **Reviewed:** 2026-09-27
 
+**Evidence grade:** `aperture_tension_only`
+
+**Historical search:** `OPEN`
+
 **Bodies in tension:** [Jubilee-Campfire](https://github.com/the-static-collective/Jubilee-Campfire), [BananaSpork](https://github.com/the-static-collective/BananaSpork)
 
 **Observed tension**
@@ -754,6 +777,10 @@ When did Jubilee-Campfire's combined protocol identity split into 'Campfire = sc
 ### WORLDSEED ↔ static-field
 
 **Reviewed:** 2026-09-27
+
+**Evidence grade:** `cross_temporal_evidence`
+
+**Historical search:** `OPEN`
 
 **Bodies in tension:** [WORLDSEED](https://github.com/the-static-collective/WORLDSEED), [static-field](https://github.com/the-static-collective/static-field)
 
@@ -794,3 +821,5 @@ supersede, or simply understand it.
     legible now != recovery complete
     declared disposition != final historical truth
     translation scars stay open
+    repo name != recovered purpose
+    current README != historical handoff
