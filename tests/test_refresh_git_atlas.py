@@ -123,5 +123,48 @@ class AtlasBoundaries(unittest.TestCase):
             atlas.validate_relations(raw, snapshot)
 
 
+    def test_recovery_requires_visible_body_and_preserves_unknown(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/recovery-v1",
+            "entries": [{
+                "id": "example-recovery",
+                "repositories": ["Example"],
+                "reviewed_on": "2026-09-27",
+                "signals": ["implementation_body", "disposition_fog"],
+                "body_claim": "A runnable body survives.",
+                "purpose_claim": "INFERENCE: it tested a bounded question.",
+                "last_witnessed_change": "A cited commit changed the body.",
+                "disposition": "UNKNOWN — no public disposition was found.",
+                "reentry_door": "Read the owning source first.",
+                "evidence_urls": ["https://github.com/the-static-collective/Example"],
+            }],
+        }
+        recovered = atlas.validate_recovery(raw, snapshot)
+        rendered = atlas.render_recovery(recovered, snapshot)
+        self.assertIn("UNKNOWN", rendered)
+        self.assertIn("quiet != dead", rendered)
+
+    def test_recovery_rejects_missing_repository(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/recovery-v1",
+            "entries": [{
+                "id": "missing-recovery",
+                "repositories": ["NotPublicHere"],
+                "reviewed_on": "2026-09-27",
+                "signals": ["implementation_body"],
+                "body_claim": "body",
+                "purpose_claim": "purpose",
+                "last_witnessed_change": "change",
+                "disposition": "UNKNOWN",
+                "reentry_door": "door",
+                "evidence_urls": ["https://example.com/evidence"],
+            }],
+        }
+        with self.assertRaises(ValueError):
+            atlas.validate_recovery(raw, snapshot)
+
+
 if __name__ == "__main__":
     unittest.main()
