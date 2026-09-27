@@ -345,18 +345,18 @@
         "toaster_appliance_concept"
       ],
       "body_claim": "The public repository object survives, but GitHub reports a zero-size repository and this pass found no README or implementation body on the default branch.",
-      "purpose_claim": "HUMAN-RECOVERED ORIGIN: appliance-prophet-king was intended as a toaster appliance concept. A surviving creator sketch confirms the toaster identity, but the sketch is not treated as a precise design specification and does not establish exact geometry, mechanism, compartments, or implementation.",
+      "purpose_claim": "HUMAN-RECOVERED ORIGIN: appliance-prophet-king was intended as a toaster appliance concept. A surviving creator sketch confirms the toaster identity only. The creator explicitly says the sketch is a poor drawing made to get the idea across and should not be interpreted as authoritative geometry, mechanism, perspective, topology, compartments, or implementation.",
       "last_witnessed_change": "No implementation commit or content body was located in this recovery pass.",
       "disposition": "SHELL ONLY — this is currently evidence that a named door was created, not evidence that the project itself ever became executable.",
-      "reentry_door": "Begin from the human-recovered fact that this was a toaster appliance concept, then search prior chat/artifact history for appliance-prophet-king, appliance king, toaster-appliance, and distinctive mechanism language. Do not infer engineering detail from the rough sketch alone.",
+      "reentry_door": "Begin from the human-recovered fact that this was a toaster appliance concept, then search prior chat/artifact history for appliance-prophet-king, appliance king, toaster-appliance, and distinctive mechanism language. Treat the attached sketch as a low-fidelity communication artifact, not a design specification.",
       "evidence_urls": [
         "https://github.com/the-static-collective/appliance-prophet-king"
       ],
       "human_recovered_context": {
         "recorded_on": "2026-09-27",
         "witness_type": "human_origin_recovery",
-        "claim": "The creator identifies appliance-prophet-king as a toaster concept. The attached rough sketch is preserved only as an identity/origin witness: it shows that a physical toaster form was being imagined, but it is not authoritative for exact design details.",
-        "corroboration_posture": "The public Git repository is still an empty shell. This origin is supplied by the creator's current testimony plus the attached sketch, not by repository code or README. Exact physical design remains open pending older chat or artifact recovery.",
+        "claim": "The creator identifies appliance-prophet-king as a toaster concept. The attached sketch exists only to communicate the idea at low fidelity; the creator does not like drawing and says the apparent impossible/incorrect geometry is drawing error, not intended design meaning.",
+        "corroboration_posture": "The public Git repository is still an empty shell. The toaster identity comes from creator testimony plus the sketch. The sketch must not be mined for exact geometry, topology, mechanism, perspective, compartments, or other physical design claims. Recover those only from older chat or other attributable artifacts.",
         "corroborating_urls": [
           "https://github.com/the-static-collective/appliance-prophet-king"
         ]
@@ -604,8 +604,8 @@
         "origin_needed"
       ],
       "observed_public_state": "The public repository is empty: no commits, README, branch body, or implementation artifact is available in the current public aperture.",
-      "residual_fog": "The creator has restored one important fact: this seed was a toaster appliance concept. Exact form, mechanism, intended behavior, and later disposition remain unresolved; the rough sketch is not sufficient to infer them.",
-      "next_recovery_action": "Search prior chat/artifact history using the toaster identity and project name. Preserve the sketch as an origin witness, not as an engineering blueprint.",
+      "residual_fog": "The creator has restored one important fact: this seed was a toaster appliance concept. Exact form, mechanism, intended behavior, and later disposition remain unresolved. The rough sketch is explicitly low-fidelity and its geometric inaccuracies carry no intended design meaning.",
+      "next_recovery_action": "Search prior chat/artifact history using the toaster identity and project name. Preserve the sketch only as evidence that a toaster idea was being communicated, not as geometry or engineering evidence.",
       "evidence_urls": [
         "https://github.com/the-static-collective/appliance-prophet-king"
       ]
