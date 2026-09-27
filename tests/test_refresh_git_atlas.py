@@ -166,5 +166,49 @@ class AtlasBoundaries(unittest.TestCase):
             atlas.validate_recovery(raw, snapshot)
 
 
+    def test_recovery_seed_stays_distinct_from_recovered_body(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/recovery-v1",
+            "entries": [],
+            "seeds": [{
+                "id": "example-seed",
+                "repository": "Example",
+                "reviewed_on": "2026-09-27",
+                "signals": ["repository_shell", "origin_needed"],
+                "observed_public_state": "Only a shell is publicly visible.",
+                "residual_fog": "Original particular is not established.",
+                "next_recovery_action": "Find an owner witness.",
+                "evidence_urls": ["https://github.com/the-static-collective/Example"],
+            }],
+        }
+        recovered = atlas.validate_recovery(raw, snapshot)
+        seeds = atlas.validate_recovery_seeds(raw, snapshot)
+        self.assertEqual(recovered, [])
+        self.assertEqual(seeds[0]["repository"], "Example")
+        rendered = atlas.render_recovery(recovered, snapshot, seeds)
+        self.assertIn("Surveyed seeds", rendered)
+        self.assertIn("Original particular is not established.", rendered)
+
+    def test_recovery_seed_rejects_missing_repository(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/recovery-v1",
+            "entries": [],
+            "seeds": [{
+                "id": "missing-seed",
+                "repository": "NotPublicHere",
+                "reviewed_on": "2026-09-27",
+                "signals": ["origin_needed"],
+                "observed_public_state": "shell",
+                "residual_fog": "fog",
+                "next_recovery_action": "search",
+                "evidence_urls": ["https://example.com/evidence"],
+            }],
+        }
+        with self.assertRaises(ValueError):
+            atlas.validate_recovery_seeds(raw, snapshot)
+
+
 if __name__ == "__main__":
     unittest.main()
