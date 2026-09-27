@@ -441,72 +441,97 @@
       "id": "recurvrepair-review-2026-09-27",
       "repository": "reCURVrePAIR",
       "reviewed_on": "2026-09-27",
-      "result": "recovery_not_needed",
+      "result": "legible_reentry_observed",
       "note": "The root README already states the repair-culture purpose, implemented reality status, non-guarantees, handoff protocol, epistemic states, and re-entry path. Its exact family relation to reMIX-reCURVrePAIR remains a separate lineage question, not a missing front door here.",
       "evidence_urls": [
         "https://github.com/the-static-collective/reCURVrePAIR/blob/main/README.md",
         "https://github.com/the-static-collective/reCURVrePAIR/blob/main/src/types.ts"
-      ]
+      ],
+      "recovery_open": true
     },
     {
       "id": "toaster-oracle-review-2026-09-27",
       "repository": "toaster-oracle",
       "reviewed_on": "2026-09-27",
-      "result": "recovery_not_needed",
+      "result": "legible_reentry_observed",
       "note": "The README gives a detailed Feral Composer contract: multimodal proposal generation, Lock/Burn constraints, Haunted Toaster admission/refusal pressure, executable score visualization, and realization critique. The project is re-enterable from its own front door.",
       "evidence_urls": [
         "https://github.com/the-static-collective/toaster-oracle/blob/main/README.md"
-      ]
+      ],
+      "recovery_open": true
     },
     {
       "id": "toaster-lab-review-2026-09-27",
       "repository": "toaster-lab",
       "reviewed_on": "2026-09-27",
-      "result": "declared_disposition",
+      "result": "disposition_claim_observed",
       "note": "The repository explicitly declares itself superseded/read-only historical evidence and a mutation-logic quarry only. It says not to continue a second appliance here and points any salvage toward Haunted Toaster.",
       "evidence_urls": [
         "https://github.com/the-static-collective/toaster-lab/blob/main/README.md",
         "https://github.com/the-static-collective/toaster-lab/blob/main/product-contract.json"
-      ]
+      ],
+      "recovery_open": true
     },
     {
       "id": "toaster-lab2-review-2026-09-27",
       "repository": "toaster-lab2",
       "reviewed_on": "2026-09-27",
-      "result": "recovery_not_needed",
+      "result": "legible_reentry_observed",
       "note": "The README exposes a bounded Crazy Slots proposal-appliance role, deterministic transfer boundary, sovereignty split with Haunted Toaster, verification commands, and compatibility tests. Its present role is explicit.",
       "evidence_urls": [
         "https://github.com/the-static-collective/toaster-lab2/blob/main/README.md"
-      ]
+      ],
+      "recovery_open": true
     },
     {
       "id": "tranchnose-review-2026-09-27",
       "repository": "tranchNOSE",
       "reviewed_on": "2026-09-27",
-      "result": "recovery_not_needed",
+      "result": "legible_reentry_observed",
       "note": "The repository clearly states its optical-state experiment, failure boundary, machine model, first field-object question, research posture, and extraction lineage from tranchnode issue #30.",
       "evidence_urls": [
         "https://github.com/the-static-collective/tranchNOSE/blob/main/README.md"
-      ]
+      ],
+      "recovery_open": true
     },
     {
       "id": "haunted-pol-ish-roids-review-2026-09-27",
       "repository": "the-haunted-pol-ish-roids",
       "reviewed_on": "2026-09-27",
-      "result": "recovery_not_needed",
+      "result": "legible_reentry_observed",
       "note": "The front door explicitly identifies a living camera organism, its provenance/personality split, planned Phoenix Egg and Quantum Chrysalis lineage mechanics, and current design/specification phase with issue #1 as the gate.",
       "evidence_urls": [
         "https://github.com/the-static-collective/the-haunted-pol-ish-roids/blob/main/README.md"
-      ]
+      ],
+      "recovery_open": true
     },
     {
       "id": "bananaspork-review-2026-09-27",
       "repository": "BananaSpork",
       "reviewed_on": "2026-09-27",
-      "result": "recovery_not_needed",
+      "result": "legible_reentry_observed",
       "note": "The README names the current FIELD-SPECIMEN-001 edge, separates NanaSpork/Garden/BananaGram/Campfire/Jubilee/Donkey responsibilities, states implemented authority boundaries, and lists the next live proof without confusing migration or build evidence with field proof.",
       "evidence_urls": [
         "https://github.com/the-static-collective/BananaSpork/blob/main/README.md"
+      ],
+      "recovery_open": true
+    }
+  ],
+  "translation_scars": [
+    {
+      "id": "toaster-lab-translation-scar-2026-09-27",
+      "repositories": [
+        "toaster-lab",
+        "toaster-lab2"
+      ],
+      "reviewed_on": "2026-09-27",
+      "observed_tension": "toaster-lab explicitly declares itself superseded/read-only, says not to preserve or revive the application, and points salvage toward Haunted Toaster; a separate repository named toaster-lab2 nevertheless survives as a bounded Crazy Slots proposal appliance with its own executable contract.",
+      "interpretation": "TRANSLATION SCAR — the surviving records show that a declared ending or boundary can coexist with a later neighboring body whose name and function make the history look less linear than the disposition text alone suggests.",
+      "not_claimed": "This record does not claim that toaster-lab2 violated toaster-lab's instruction, directly descends from it, or is the same application revived. The exact handoff, reinterpretation, or naming path remains open.",
+      "reentry_question": "What was preserved, renamed, re-expressed, or misunderstood between the declaration 'do not preserve or revive this application' and the surviving toaster-lab2 proposal appliance?",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/toaster-lab/blob/main/README.md",
+        "https://github.com/the-static-collective/toaster-lab2/blob/main/README.md"
       ]
     }
   ]
