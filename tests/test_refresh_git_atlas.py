@@ -220,6 +220,7 @@ class AtlasBoundaries(unittest.TestCase):
                 "repository": "Example",
                 "reviewed_on": "2026-09-27",
                 "result": "legible_reentry_observed",
+                "scope": "current_aperture_only",
                 "recovery_open": True,
                 "note": "The current front door explains a usable re-entry path.",
                 "evidence_urls": ["https://github.com/the-static-collective/Example"],
@@ -229,6 +230,7 @@ class AtlasBoundaries(unittest.TestCase):
         rendered = atlas.render_recovery([], snapshot, [], reviews)
         self.assertTrue(reviews[0]["recovery_open"])
         self.assertIn("current aperture observations", rendered)
+        self.assertIn("current_aperture_only", rendered)
         self.assertIn("OPEN", rendered)
         self.assertIn("not an", rendered)
         self.assertIn("automatic decision", rendered)
@@ -243,6 +245,7 @@ class AtlasBoundaries(unittest.TestCase):
                 "repository": "Example",
                 "reviewed_on": "2026-09-27",
                 "result": "recovery_not_needed",
+                "scope": "current_aperture_only",
                 "recovery_open": True,
                 "note": "Old terminal label must not survive.",
                 "evidence_urls": ["https://github.com/the-static-collective/Example"],
@@ -261,6 +264,7 @@ class AtlasBoundaries(unittest.TestCase):
                 "repository": "Example",
                 "reviewed_on": "2026-09-27",
                 "result": "legible_reentry_observed",
+                "scope": "current_aperture_only",
                 "recovery_open": False,
                 "note": "A current aperture cannot close historical recovery.",
                 "evidence_urls": ["https://github.com/the-static-collective/Example"],
@@ -278,6 +282,8 @@ class AtlasBoundaries(unittest.TestCase):
                 "id": "example-scar",
                 "repositories": ["Example", "Example"],
                 "reviewed_on": "2026-09-27",
+                "evidence_grade": "aperture_tension_only",
+                "historical_search_open": True,
                 "observed_tension": "One source says stop; another body later exists.",
                 "interpretation": "TRANSLATION SCAR — the history does not collapse cleanly.",
                 "not_claimed": "No successor relation is asserted.",
@@ -292,7 +298,52 @@ class AtlasBoundaries(unittest.TestCase):
         rendered = atlas.render_recovery([], snapshot, [], [], scars)
         self.assertEqual(scars[0]["id"], "example-scar")
         self.assertIn("TRANSLATION SCARS", rendered)
+        self.assertIn("aperture_tension_only", rendered)
         self.assertIn("No successor relation", rendered)
+
+
+    def test_recovery_review_rejects_historical_scope_claim(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/recovery-v1",
+            "entries": [],
+            "reviews": [{
+                "id": "overclaimed-review",
+                "repository": "Example",
+                "reviewed_on": "2026-09-27",
+                "result": "legible_reentry_observed",
+                "scope": "historical_truth",
+                "recovery_open": True,
+                "note": "A README cannot establish old connected history by itself.",
+                "evidence_urls": ["https://github.com/the-static-collective/Example/blob/main/README.md"],
+            }],
+        }
+        with self.assertRaises(ValueError):
+            atlas.validate_recovery_reviews(raw, snapshot)
+
+    def test_translation_scar_cannot_close_historical_search(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/recovery-v1",
+            "entries": [],
+            "translation_scars": [{
+                "id": "closed-scar",
+                "repositories": ["Example", "Example"],
+                "reviewed_on": "2026-09-27",
+                "evidence_grade": "aperture_tension_only",
+                "historical_search_open": False,
+                "observed_tension": "Two current apertures differ.",
+                "interpretation": "Tension only.",
+                "not_claimed": "No historical handoff claimed.",
+                "reentry_question": "What happened between them?",
+                "evidence_urls": [
+                    "https://github.com/the-static-collective/Example/blob/main/README.md",
+                    "https://github.com/the-static-collective/Example/tree/side",
+                ],
+            }],
+        }
+        with self.assertRaises(ValueError):
+            atlas.validate_translation_scars(raw, snapshot)
 
 
 if __name__ == "__main__":
