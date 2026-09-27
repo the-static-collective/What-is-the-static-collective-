@@ -129,7 +129,7 @@ This is a working edge, not a claim that the whole network is deployed or field-
 
 ### Incubator landmark
 
-[**THE SEEDBANK — ELF-OFF-A-SHELF**](frontier/primitive-incubator/the-seedbank-elf-off-a-shelf.md) keeps the seedbank / ARK / Eve / ELF distinction alive as an incubating pattern without pretending it is the single live frontier.
+[**THE SEEDBANK — ELF-OFF-A-SHELF**](frontier/primitive-incubator/the-seedbank-elf-off-a-shelf/README.md) keeps the seedbank / ARK / Eve / ELF distinction alive as an incubating pattern without pretending it is the single live frontier.
 
 ### Durable pattern
 
