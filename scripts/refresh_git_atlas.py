@@ -20,6 +20,7 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "atlas" / "constellations.json"
 RELATIONS = ROOT / "atlas" / "relations.json"
+RECOVERY = ROOT / "atlas" / "recovery.json"
 OUTPUT = ROOT / "atlas" / "generated"
 GITHUB = "https://github.com"
 API = "https://api.github.com"
@@ -246,6 +247,96 @@ def validate_relations(raw, snapshot):
     return relations
 
 
+def validate_recovery(raw, snapshot):
+    """Validate curated re-entry records without turning quiet topology into status."""
+    if raw.get("schema") != "static-git-atlas/recovery-v1":
+        raise ValueError("Unsupported recovery catalog schema")
+    known = {repo["name"] for repo in snapshot["repositories"]}
+    seen = set()
+    entries = []
+    for entry in raw.get("entries", []):
+        entry_id = entry.get("id", "")
+        if not entry_id or entry_id in seen:
+            raise ValueError("Recovery id must be nonempty and unique")
+        seen.add(entry_id)
+        repositories = entry.get("repositories") or []
+        if not repositories:
+            raise ValueError("Recovery entry must name at least one repository: " + entry_id)
+        for name in repositories:
+            if name not in known:
+                raise ValueError(f"Recovery entry {entry_id} references nonpublic or missing repo: {name}")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(entry.get("reviewed_on", ""))):
+            raise ValueError("Recovery entry requires reviewed_on YYYY-MM-DD: " + entry_id)
+        if not entry.get("signals"):
+            raise ValueError("Recovery entry requires at least one observed signal: " + entry_id)
+        for field in ("body_claim", "purpose_claim", "last_witnessed_change", "disposition", "reentry_door"):
+            if not str(entry.get(field, "")).strip():
+                raise ValueError(f"Recovery entry {entry_id} requires {field}")
+        evidence = entry.get("evidence_urls") or []
+        if not evidence or any(not str(url).startswith("https://") for url in evidence):
+            raise ValueError("Recovery evidence must contain HTTPS URLs: " + entry_id)
+        entries.append({
+            "id": entry_id,
+            "repositories": list(repositories),
+            "reviewed_on": entry["reviewed_on"],
+            "signals": list(entry["signals"]),
+            "body_claim": entry["body_claim"],
+            "purpose_claim": entry["purpose_claim"],
+            "last_witnessed_change": entry["last_witnessed_change"],
+            "disposition": entry["disposition"],
+            "reentry_door": entry["reentry_door"],
+            "evidence_urls": list(evidence),
+        })
+    return entries
+
+
+def render_recovery(entries, snapshot):
+    owner = snapshot["owner"]
+    lines = [
+        "---",
+        'description: "Dated, evidence-linked re-entry records for public repositories whose surviving body is easier to miss than to understand."',
+        "---", "", "# RECOVERY — Fossils with bodies", "",
+        "This lens exists for a specific failure mode: a repository can retain useful code,",
+        "contracts, or a distinctive question while its public doorway becomes missing,",
+        "generic, misleading, or silent about what happened next.", "",
+        "**Quiet topology is not a fossil verdict.** A repository enters this page only after",
+        "a bounded human recovery pass cites a surviving body. These are dated re-entry",
+        "records, not live status labels. UNKNOWN is preserved when the public record does",
+        "not establish a later disposition.", "",
+        "| Repository(s) | Reviewed | Observed signals | Disposition evidence |",
+        "| --- | --- | --- | --- |",
+    ]
+    for entry in entries:
+        repo_links = ", ".join(
+            f"[{md(name)}]({repository_url(owner, name)})"
+            for name in entry["repositories"])
+        signals = ", ".join(TICK + md(signal) + TICK for signal in entry["signals"])
+        lines.append(
+            f"| {repo_links} | {md(entry['reviewed_on'])} | {signals} | "
+            f"{md(entry['disposition'])} |")
+    for entry in entries:
+        lines += ["", "## " + " + ".join(entry["repositories"]), "",
+                  f"**Reviewed:** {md(entry['reviewed_on'])}", "",
+                  "**Surviving body**", "", md(entry["body_claim"]), "",
+                  "**Original question / purpose**", "", md(entry["purpose_claim"]), "",
+                  "**Last witnessed development**", "", md(entry["last_witnessed_change"]), "",
+                  "**Disposition evidence**", "", md(entry["disposition"]), "",
+                  "**Re-entry door**", "", md(entry["reentry_door"]), "",
+                  "**Evidence**", ""]
+        for index, url in enumerate(entry["evidence_urls"], start=1):
+            lines.append(f"* [source {index}]({url})")
+    lines += ["", "## Reading rule", "",
+              "Recovery does not resurrect authority. It restores a route back to a surviving",
+              "particular so a later human can decide whether to continue, compare, preserve,",
+              "supersede, or simply understand it.", "",
+              "    quiet != dead",
+              "    similar != descended",
+              "    surviving code != current canon",
+              "    missing explanation != permission to invent one",
+              "    UNKNOWN = preserved fog", ""]
+    return "\n".join(lines)
+
+
 def render_delta(delta):
     counts = [
         ("Repositories added", len(delta["added_repositories"])),
@@ -441,7 +532,7 @@ def render_index(groups, snapshot):
         f"**{total_branches} branch refs** (including defaults) · **{total_prs} open PRs**.",
         "",
         f"[Living map]({MAP_URL}) · [DELTA](delta.md) · [RELATIONS](relations.md) · "
-        f"[VISIBILITY](../visibility-aperture.md) · "
+        f"[RECOVERY](recovery.md) · [VISIBILITY](../visibility-aperture.md) · "
         f"[Machine-readable snapshot](public-index.json) · "
         f"[GitHub owner]({GITHUB}/{snapshot['owner']})", "",
         "Only repositories confirmed public at capture time are present. The account also has",
@@ -483,11 +574,12 @@ def render_index(groups, snapshot):
     return "\n".join(lines)
 
 
-def output_files(snapshot, catalog, relations, delta=None):
+def output_files(snapshot, catalog, relations, recovery, delta=None):
     groups = category_sets(catalog, snapshot)
     files = {
         "README.md": render_index(groups, snapshot),
         "relations.md": render_relations(relations, snapshot),
+        "recovery.md": render_recovery(recovery, snapshot),
     }
     for group, members in groups:
         files[group["slug"] + ".md"] = render_group(group, members, snapshot)
@@ -505,6 +597,7 @@ def main(argv=None):
     args = parser.parse_args(argv)
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
     relation_source = json.loads(RELATIONS.read_text(encoding="utf-8"))
+    recovery_source = json.loads(RECOVERY.read_text(encoding="utf-8"))
     if args.input:
         raw = json.loads(args.input.read_text(encoding="utf-8"))
     else:
@@ -522,9 +615,10 @@ def main(argv=None):
     snapshot.setdefault("captured_at", raw.get("observed_at") or datetime.now(
         timezone.utc).isoformat(timespec="seconds"))
     relations = validate_relations(relation_source, snapshot)
+    recovery = validate_recovery(recovery_source, snapshot)
     delta_missing = not (OUTPUT / "delta.md").exists() or not (OUTPUT / "delta.json").exists()
     delta = topology_delta(old, snapshot) if topology_changed or delta_missing else None
-    files = output_files(snapshot, catalog, relations, delta)
+    files = output_files(snapshot, catalog, relations, recovery, delta)
     stale = [name for name, content in files.items()
              if not (OUTPUT / name).exists() or
              (OUTPUT / name).read_text(encoding="utf-8") != content]
