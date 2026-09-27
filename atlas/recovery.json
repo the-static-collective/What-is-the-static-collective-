@@ -440,75 +440,100 @@
       "chat_history_recovery": {
         "recovered_on": "2026-09-27",
         "source_type": "prior_chat_recovery",
-        "posture": "Recovered prior-chat turns are historical witnesses of what was being proposed at those moments. They are stronger evidence for idea chronology than a later README, but they still do not turn proposals into landed repository state.",
+        "posture": "Recovered prior-chat turns are historical witnesses of what was being proposed at those moments. Events are explicitly typed as precursor_candidate, direct_lineage, or later_revisit. A precursor candidate may resemble later PostEmahh'n/STATIC FIELD forms without proving genealogy; direct lineage marks turns in the named Postémon/postEmahh'n development; later revisit marks explicit later recovery/recomposition.",
         "events": [
+          {
+            "at": "2026-08-24T17:51:27Z",
+            "source_kind": "user_turn_recovered",
+            "relation": "precursor_candidate",
+            "detail": "User observed that accumulated visual boxes could become 'amazing little newsletter bits' — an early publication/carrier impulse later adjacent to postcard/card forms."
+          },
+          {
+            "at": "2026-08-24T19:03:54Z",
+            "source_kind": "user_turn_recovered",
+            "relation": "precursor_candidate",
+            "detail": "User wanted visual postcards/artifacts given a durable home in the Daily Slice and accepted a captures/ + postcards/ + artifact-index architecture. This predates PostEmahh'n by name and is preserved only as a precursor candidate, not proven genealogy."
+          },
           {
             "at": "2026-09-21T17:43:24Z",
             "source_kind": "user_turn_recovered",
-            "detail": "Physical-media origin phase: cheap personal/pro-DPI printing with 'postcard vibes or 8×10' and home-printable physical provenance objects."
+            "detail": "Physical-media origin phase: cheap personal/pro-DPI printing with 'postcard vibes or 8×10' and home-printable physical provenance objects.",
+            "relation": "direct_lineage"
           },
           {
             "at": "2026-09-21T17:48:40Z",
             "source_kind": "user_turn_recovered",
-            "detail": "Named 'Postémon Cards': physical executable provenance/collectible cards; scanable live-object relation; fronts/backs carry identity, issue/source/ancestry/date/edition/QR; moves included PLAY, TRACE, BRANCH, COMPOSE, RECONSTITUTE."
+            "detail": "Named 'Postémon Cards': physical executable provenance/collectible cards; scanable live-object relation; fronts/backs carry identity, issue/source/ancestry/date/edition/QR; moves included PLAY, TRACE, BRANCH, COMPOSE, RECONSTITUTE.",
+            "relation": "direct_lineage"
           },
           {
             "at": "2026-09-21T17:50:59Z",
             "source_kind": "user_turn_recovered",
-            "detail": "Renamed to 'postEmahh'n Cards' to avoid Pokémon trademark friction; wanted Pokémon/Magic-like types and runs where composing cards creates compositions and composing compositions creates decks."
+            "detail": "Renamed to 'postEmahh'n Cards' to avoid Pokémon trademark friction; wanted Pokémon/Magic-like types and runs where composing cards creates compositions and composing compositions creates decks.",
+            "relation": "direct_lineage"
           },
           {
             "at": "2026-09-21T17:54:12Z",
             "source_kind": "user_turn_recovered",
-            "detail": "Requested a design skeleton drawing simultaneously from Pokémon, Magic, baseball cards, Final Fantasy XII Gambits, and Final Fantasy VII Materia."
+            "detail": "Requested a design skeleton drawing simultaneously from Pokémon, Magic, baseball cards, Final Fantasy XII Gambits, and Final Fantasy VII Materia.",
+            "relation": "direct_lineage"
           },
           {
             "at": "2026-09-21T18:12:00Z",
             "source_kind": "user_turn_recovered",
-            "detail": "Accepted three freely iterable seed decks with generation counts and increasingly rare trust-held roots: RECEIVE / HOLD / POUR; descendants preserve lineage rather than becoming interchangeable copies."
+            "detail": "Accepted three freely iterable seed decks with generation counts and increasingly rare trust-held roots: RECEIVE / HOLD / POUR; descendants preserve lineage rather than becoming interchangeable copies.",
+            "relation": "direct_lineage"
           },
           {
             "at": "2026-09-21T18:44:27Z",
             "source_kind": "user_turn_recovered",
-            "detail": "Connected the new trading-card concept to Full Measure, old habit-development ideas, prayer/self-care as actual recharge mechanics, and Upper Room."
+            "detail": "Connected the new trading-card concept to Full Measure, old habit-development ideas, prayer/self-care as actual recharge mechanics, and Upper Room.",
+            "relation": "direct_lineage"
           },
           {
             "at": "2026-09-21T18:55:35Z",
             "source_kind": "user_turn_recovered",
-            "detail": "Expanded toward 'choose your own story and party', flashbacks, personal fantasies/utopias, dreams, world/meaning building, and Bandcamp as world-seeding material."
+            "detail": "Expanded toward 'choose your own story and party', flashbacks, personal fantasies/utopias, dreams, world/meaning building, and Bandcamp as world-seeding material.",
+            "relation": "direct_lineage"
           },
           {
             "at": "2026-09-21T19:06:06Z",
             "source_kind": "user_turn_recovered",
-            "detail": "Added balance of supply/demand, discipleship, Age of Empires-like culture building, hard tangible limiting choices, and explicit opportunity cost."
+            "detail": "Added balance of supply/demand, discipleship, Age of Empires-like culture building, hard tangible limiting choices, and explicit opportunity cost.",
+            "relation": "direct_lineage"
           },
           {
             "at": "2026-09-21T20:38:05Z",
             "source_kind": "user_turn_recovered",
-            "detail": "Pushed game composition further: creating games/stories could occur within play itself, making cards carry mechanics, roles, scenario seeds, objects, achievements, and inherited histories."
+            "detail": "Pushed game composition further: creating games/stories could occur within play itself, making cards carry mechanics, roles, scenario seeds, objects, achievements, and inherited histories.",
+            "relation": "direct_lineage"
           },
           {
             "at": "2026-09-21T21:42:42Z",
             "source_kind": "user_turn_recovered",
-            "detail": "Asked for 'a lawful wormhole' using 'our weird collected binder of Rick and Morty universal receipts' in a 'south park phone destroyer homage/improvement/ module for static-field??' — the direct bridge into the later WORMHOLE WARS manifestation."
+            "detail": "Asked for 'a lawful wormhole' using 'our weird collected binder of Rick and Morty universal receipts' in a 'south park phone destroyer homage/improvement/ module for static-field??' — the direct bridge into the later WORMHOLE WARS manifestation.",
+            "relation": "direct_lineage"
           },
           {
             "at": "2026-09-25T04:39:58Z",
             "source_kind": "user_turn_recovered",
-            "detail": "Revisited postEmahh'n explicitly as an older cards concept and asked to recover it as an expansion/explosion set, remembering a connection to REALITY.2."
+            "detail": "Revisited postEmahh'n explicitly as an older cards concept and asked to recover it as an expansion/explosion set, remembering a connection to REALITY.2.",
+            "relation": "later_revisit"
           },
           {
             "at": "2026-09-25T05:14:02Z",
             "source_kind": "user_turn_recovered",
-            "detail": "Accepted an orthogonal POST entrance and solo-play direction: solitaire × choose-your-own-adventure × tarot/fractal arrangement × Myst/Cyberprophecy/Cicada, with emergent actual-code activation."
+            "detail": "Accepted an orthogonal POST entrance and solo-play direction: solitaire × choose-your-own-adventure × tarot/fractal arrangement × Myst/Cyberprophecy/Cicada, with emergent actual-code activation.",
+            "relation": "later_revisit"
           },
           {
             "at": "2026-09-25T05:35:26Z",
             "source_kind": "user_turn_recovered",
-            "detail": "Named Static Workbench, Paula's Workbench, and Haunted Toaster as distinct local receipt surfaces connected through a card-reader crossing membrane; proposed that the first printed receipt could be the player's character sheet."
+            "detail": "Named Static Workbench, Paula's Workbench, and Haunted Toaster as distinct local receipt surfaces connected through a card-reader crossing membrane; proposed that the first printed receipt could be the player's character sheet.",
+            "relation": "later_revisit"
           }
         ],
-        "compression": "printable particular → collectible executable card → composition/deck → inherited descendant → life/world mechanic → game-making inside play → cross-project wormhole/card reader → STATIC FIELD manifestations"
+        "compression": "newsletter/postcard precursor candidates → cheap printable particular → Postémon collectible executable card → postEmahh'n composition/deck → inherited descendant → life/world mechanic → game-making inside play → lawful wormhole/card reader → STATIC FIELD manifestations → later REALITY.2/recovery expansion"
       }
     },
     {
