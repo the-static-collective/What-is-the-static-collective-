@@ -31,6 +31,7 @@ not establish a later disposition.
 | [reMIX-reCURVrePAIR](https://github.com/the-static-collective/reMIX-reCURVrePAIR) | 2026-09-27 | `shared_readme_blob`, `divergent_implementation_body`, `identity_flattening`, `witness_thread_surface`, `disposition_fog` | UNKNOWN — the public record does not explain whether this is a fork, remix experiment, successor, or parallel branch of reCURVrePAIR. Exact README identity must not be mistaken for implementation identity. |
 | [appliance-prophet-king](https://github.com/the-static-collective/appliance-prophet-king) | 2026-09-27 | `empty_repository`, `no_readme`, `no_implementation_body_observed`, `name_only_seed` | SHELL ONLY — this is currently evidence that a named door was created, not evidence that the project itself ever became executable. |
 | [cloudflare-control](https://github.com/the-static-collective/cloudflare-control) | 2026-09-27 | `empty_repository`, `no_readme`, `initialize_commit_only`, `name_only_seed` | SHELL ONLY — a named project aperture was created, but the public record currently does not show that it developed beyond initialization. |
+| [reCOreturn](https://github.com/the-static-collective/reCOreturn) | 2026-09-27 | `missing_readme`, `implementation_body`, `claim_ledger`, `return_loop`, `disposition_fog` | UNKNOWN — the executable body is substantial but there is no root README and this pass found no public source stating whether reCOreturn is current, paused, renamed, or absorbed into another participation/stewardship project. |
 
 ## SEAMforge
 
@@ -506,6 +507,37 @@ Treat the initialization commit as the whole witnessed body unless another attri
 * [source 1](https://github.com/the-static-collective/cloudflare-control)
 * [source 2](https://github.com/the-static-collective/cloudflare-control/commit/e5b1e0c5d032143053e6de5396fb364e831e2ee2)
 
+## reCOreturn
+
+**Reviewed:** 2026-09-27
+
+**Surviving body**
+
+reCOreturn contains a public-facing Recognition → Return → Stewardship gallery backed by a deeper working-record layer: claim categories, source citations, proof milestones, customer-discovery logs, unit economics, transparency receipts, participation intake, and explicit unsupported-claim removal.
+
+**Original question / purpose**
+
+OBSERVED/INFERRED: the surviving body tests whether an art/fashion enterprise can make value return, stewardship, dignity constraints, commercial hypotheses, and public claims inspectable before scale rather than presenting aspiration as accomplished impact.
+
+**Last witnessed development**
+
+The surviving main-branch application implements The Return Event across garment, portrait, song, meal, film, and knowledge media, while the working-record drawer separates confirmed facts, active hypotheses, dignity rules, economics, interviews, and receipt evidence.
+
+**Disposition evidence**
+
+UNKNOWN — the executable body is substantial but there is no root README and this pass found no public source stating whether reCOreturn is current, paused, renamed, or absorbed into another participation/stewardship project.
+
+**Re-entry door**
+
+Start with src/data/ventureData.ts beside TheReturnEvent and DeepThreadDrawer. The key particular is not generic commerce; it is the explicit path from recognition to receipted return under claim and dignity constraints.
+
+**Evidence**
+
+* [source 1](https://github.com/the-static-collective/reCOreturn/blob/main/src/App.tsx)
+* [source 2](https://github.com/the-static-collective/reCOreturn/blob/main/src/data/ventureData.ts)
+* [source 3](https://github.com/the-static-collective/reCOreturn/blob/main/src/components/TheReturnEvent.tsx)
+* [source 4](https://github.com/the-static-collective/reCOreturn/blob/main/src/components/DeepThreadDrawer.tsx)
+
 ## Surveyed seeds — body not yet recovered
 
 These repositories were touched in the same recovery pass, but the public Git
@@ -557,6 +589,27 @@ Recover the creator-intent witness first. Do not fabricate a project description
 **Evidence**
 
 * [source 1](https://github.com/the-static-collective/appliance-prophet-king)
+
+## Surveyed bodies — recovery not needed
+
+These repositories were inspected in the same inch-by-inch pass and already
+carry enough project-owned orientation or disposition to re-enter without a
+recovery reconstruction. Recording them here makes survey coverage visible
+without turning every repository into a fossil.
+
+| Repository | Reviewed | Result | Why no recovery entry |
+| --- | --- | --- | --- |
+| [reCURVrePAIR](https://github.com/the-static-collective/reCURVrePAIR) | 2026-09-27 | `recovery not needed` | The root README already states the repair-culture purpose, implemented reality status, non-guarantees, handoff protocol, epistemic states, and re-entry path. Its exact family relation to reMIX-reCURVrePAIR remains a separate lineage question, not a missing front door here. |
+| [toaster-oracle](https://github.com/the-static-collective/toaster-oracle) | 2026-09-27 | `recovery not needed` | The README gives a detailed Feral Composer contract: multimodal proposal generation, Lock/Burn constraints, Haunted Toaster admission/refusal pressure, executable score visualization, and realization critique. The project is re-enterable from its own front door. |
+| [toaster-lab](https://github.com/the-static-collective/toaster-lab) | 2026-09-27 | `declared disposition` | The repository explicitly declares itself superseded/read-only historical evidence and a mutation-logic quarry only. It says not to continue a second appliance here and points any salvage toward Haunted Toaster. |
+| [toaster-lab2](https://github.com/the-static-collective/toaster-lab2) | 2026-09-27 | `recovery not needed` | The README exposes a bounded Crazy Slots proposal-appliance role, deterministic transfer boundary, sovereignty split with Haunted Toaster, verification commands, and compatibility tests. Its present role is explicit. |
+| [tranchNOSE](https://github.com/the-static-collective/tranchNOSE) | 2026-09-27 | `recovery not needed` | The repository clearly states its optical-state experiment, failure boundary, machine model, first field-object question, research posture, and extraction lineage from tranchnode issue #30. |
+| [the-haunted-pol-ish-roids](https://github.com/the-static-collective/the-haunted-pol-ish-roids) | 2026-09-27 | `recovery not needed` | The front door explicitly identifies a living camera organism, its provenance/personality split, planned Phoenix Egg and Quantum Chrysalis lineage mechanics, and current design/specification phase with issue #1 as the gate. |
+| [BananaSpork](https://github.com/the-static-collective/BananaSpork) | 2026-09-27 | `recovery not needed` | The README names the current FIELD-SPECIMEN-001 edge, separates NanaSpork/Garden/BananaGram/Campfire/Jubilee/Donkey responsibilities, states implemented authority boundaries, and lists the next live proof without confusing migration or build evidence with field proof. |
+
+A clear front door is evidence of navigability, not a claim that the project is
+finished, canonical, actively maintained, or more important than another node.
+
 
 ## Reading rule
 
