@@ -327,9 +327,46 @@ def validate_recovery_seeds(raw, snapshot):
     return seeds
 
 
-def render_recovery(entries, snapshot, seeds=None):
+def validate_recovery_reviews(raw, snapshot):
+    """Validate surveyed repositories that do not need a recovery entry."""
+    known = {repo["name"] for repo in snapshot["repositories"]}
+    allowed_results = {"recovery_not_needed", "declared_disposition"}
+    seen = set()
+    reviews = []
+    for review in raw.get("reviews", []):
+        review_id = review.get("id", "")
+        if not review_id or review_id in seen:
+            raise ValueError("Recovery review id must be nonempty and unique")
+        seen.add(review_id)
+        repository = review.get("repository", "")
+        if repository not in known:
+            raise ValueError(
+                f"Recovery review {review_id} references nonpublic or missing repo: {repository}")
+        if not re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}", str(review.get("reviewed_on", ""))):
+            raise ValueError("Recovery review requires reviewed_on YYYY-MM-DD: " + review_id)
+        result = review.get("result", "")
+        if result not in allowed_results:
+            raise ValueError("Recovery review has unsupported result: " + review_id)
+        if not str(review.get("note", "")).strip():
+            raise ValueError("Recovery review requires note: " + review_id)
+        evidence = review.get("evidence_urls") or []
+        if not evidence or any(not str(url).startswith("https://") for url in evidence):
+            raise ValueError("Recovery review evidence must contain HTTPS URLs: " + review_id)
+        reviews.append({
+            "id": review_id,
+            "repository": repository,
+            "reviewed_on": review["reviewed_on"],
+            "result": result,
+            "note": review["note"],
+            "evidence_urls": list(evidence),
+        })
+    return reviews
+
+
+def render_recovery(entries, snapshot, seeds=None, reviews=None):
     owner = snapshot["owner"]
     seeds = seeds or []
+    reviews = reviews or []
     lines = [
         "---",
         'description: "Dated, evidence-linked re-entry records for public repositories whose surviving body is easier to miss than to understand."',
@@ -385,6 +422,23 @@ def render_recovery(entries, snapshot, seeds=None):
                       "**Evidence**", ""]
             for index, url in enumerate(seed["evidence_urls"], start=1):
                 lines.append(f"* [source {index}]({url})")
+    if reviews:
+        lines += ["", "## Surveyed bodies — recovery not needed", "",
+                  "These repositories were inspected in the same inch-by-inch pass and already",
+                  "carry enough project-owned orientation or disposition to re-enter without a",
+                  "recovery reconstruction. Recording them here makes survey coverage visible",
+                  "without turning every repository into a fossil.", "",
+                  "| Repository | Reviewed | Result | Why no recovery entry |",
+                  "| --- | --- | --- | --- |"]
+        for review in reviews:
+            repo_link = f"[{md(review['repository'])}]({repository_url(owner, review['repository'])})"
+            result = review["result"].replace("_", " ")
+            lines.append(
+                f"| {repo_link} | {md(review['reviewed_on'])} | {TICK}{md(result)}{TICK} | "
+                f"{md(review['note'])} |")
+        lines += ["", "A clear front door is evidence of navigability, not a claim that the project is",
+                  "finished, canonical, actively maintained, or more important than another node.", ""]
+
     lines += ["", "## Reading rule", "",
               "Recovery does not resurrect authority. It restores a route back to a surviving",
               "particular so a later human can decide whether to continue, compare, preserve,",
@@ -634,12 +688,12 @@ def render_index(groups, snapshot):
     return "\n".join(lines)
 
 
-def output_files(snapshot, catalog, relations, recovery, recovery_seeds, delta=None):
+def output_files(snapshot, catalog, relations, recovery, recovery_seeds, recovery_reviews, delta=None):
     groups = category_sets(catalog, snapshot)
     files = {
         "README.md": render_index(groups, snapshot),
         "relations.md": render_relations(relations, snapshot),
-        "recovery.md": render_recovery(recovery, snapshot, recovery_seeds),
+        "recovery.md": render_recovery(recovery, snapshot, recovery_seeds, recovery_reviews),
     }
     for group, members in groups:
         files[group["slug"] + ".md"] = render_group(group, members, snapshot)
@@ -677,9 +731,10 @@ def main(argv=None):
     relations = validate_relations(relation_source, snapshot)
     recovery = validate_recovery(recovery_source, snapshot)
     recovery_seeds = validate_recovery_seeds(recovery_source, snapshot)
+    recovery_reviews = validate_recovery_reviews(recovery_source, snapshot)
     delta_missing = not (OUTPUT / "delta.md").exists() or not (OUTPUT / "delta.json").exists()
     delta = topology_delta(old, snapshot) if topology_changed or delta_missing else None
-    files = output_files(snapshot, catalog, relations, recovery, recovery_seeds, delta)
+    files = output_files(snapshot, catalog, relations, recovery, recovery_seeds, recovery_reviews, delta)
     stale = [name for name, content in files.items()
              if not (OUTPUT / name).exists() or
              (OUTPUT / name).read_text(encoding="utf-8") != content]
