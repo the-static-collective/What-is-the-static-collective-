@@ -8,6 +8,7 @@ When a pattern becomes implementation-specific, its canonical form belongs in th
 
 ## Current patterns
 
+- [`pirate-law.md`](pirate-law.md) — hard hull, loose rigging: distinguish truth-preserving invariants from conventions that remain available to deliberate creative piracy.
 - [`creative-field-laws.md`](creative-field-laws.md) — portable constraints for expanding creative systems without weakening trust.
 - [`creative-handoff.md`](creative-handoff.md) — a repeatable path from weird observation to lawful primitive to proof specimen.
 - [`projection-freshness-witness.md`](projection-freshness-witness.md) — make current-state projections name the canonical source scope and cut they witnessed, while keeping freshness separate from authority.
