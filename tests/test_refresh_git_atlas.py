@@ -405,5 +405,86 @@ class AtlasBoundaries(unittest.TestCase):
             atlas.validate_recovery(raw, snapshot)
 
 
+    def test_chat_history_recovery_preserves_user_turn_sequence(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/recovery-v1",
+            "entries": [{
+                "id": "chat-history",
+                "repositories": ["Example"],
+                "reviewed_on": "2026-09-27",
+                "signals": ["chat_history_recovered"],
+                "body_claim": "Later body survives.",
+                "purpose_claim": "Earlier idea was recovered from prior chat.",
+                "last_witnessed_change": "Later change.",
+                "disposition": "UNKNOWN",
+                "reentry_door": "Read the chat lineage before the later README.",
+                "evidence_urls": ["https://github.com/the-static-collective/Example"],
+                "chat_history_recovery": {
+                    "recovered_on": "2026-09-27",
+                    "source_type": "prior_chat_recovery",
+                    "posture": "Prior user turns witness proposal chronology without proving landed repository state.",
+                    "compression": "print -> card -> game",
+                    "events": [
+                        {
+                            "at": "2026-09-21T17:43:24Z",
+                            "source_kind": "user_turn_recovered",
+                            "detail": "Printable physical-media origin."
+                        },
+                        {
+                            "at": "2026-09-21T17:50:59Z",
+                            "source_kind": "user_turn_recovered",
+                            "detail": "Card system named."
+                        }
+                    ]
+                }
+            }]
+        }
+        recovered = atlas.validate_recovery(raw, snapshot)
+        rendered = atlas.render_recovery(recovered, snapshot)
+        self.assertEqual(len(recovered[0]["chat_history_recovery"]["events"]), 2)
+        self.assertIn("Recovered prior-chat lineage", rendered)
+        self.assertIn("print -&gt; card -&gt; game", rendered)
+        self.assertIn("2026-09-21T17:43:24Z", rendered)
+
+    def test_chat_history_recovery_rejects_out_of_order_events(self):
+        snapshot = atlas.normalize(fixture(), "the-static-collective")
+        raw = {
+            "schema": "static-git-atlas/recovery-v1",
+            "entries": [{
+                "id": "bad-chat-history",
+                "repositories": ["Example"],
+                "reviewed_on": "2026-09-27",
+                "signals": ["chat_history_recovered"],
+                "body_claim": "body",
+                "purpose_claim": "purpose",
+                "last_witnessed_change": "change",
+                "disposition": "UNKNOWN",
+                "reentry_door": "door",
+                "evidence_urls": ["https://github.com/the-static-collective/Example"],
+                "chat_history_recovery": {
+                    "recovered_on": "2026-09-27",
+                    "source_type": "prior_chat_recovery",
+                    "posture": "posture",
+                    "compression": "compression",
+                    "events": [
+                        {
+                            "at": "2026-09-21T18:00:00Z",
+                            "source_kind": "user_turn_recovered",
+                            "detail": "later"
+                        },
+                        {
+                            "at": "2026-09-21T17:00:00Z",
+                            "source_kind": "user_turn_recovered",
+                            "detail": "earlier"
+                        }
+                    ]
+                }
+            }]
+        }
+        with self.assertRaises(ValueError):
+            atlas.validate_recovery(raw, snapshot)
+
+
 if __name__ == "__main__":
     unittest.main()
