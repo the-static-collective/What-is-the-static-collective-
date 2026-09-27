@@ -596,6 +596,28 @@ The linked repository sources corroborate adjacent newsletter, portable-postcard
 * [corroboration 4](https://github.com/the-static-collective/static-field/pull/3)
 * [corroboration 5](https://github.com/the-static-collective/static-field/pull/12)
 
+**Recovered prior-chat lineage**
+
+**Recovered:** 2026-09-27 · **Source type:** `prior_chat_recovery`
+
+Recovered prior-chat turns are historical witnesses of what was being proposed at those moments. They are stronger evidence for idea chronology than a later README, but they still do not turn proposals into landed repository state.
+
+**Compression:** printable particular → collectible executable card → composition/deck → inherited descendant → life/world mechanic → game-making inside play → cross-project wormhole/card reader → STATIC FIELD manifestations
+
+* `2026-09-21T17:43:24Z` — Physical-media origin phase: cheap personal/pro-DPI printing with 'postcard vibes or 8×10' and home-printable physical provenance objects.
+* `2026-09-21T17:48:40Z` — Named 'Postémon Cards': physical executable provenance/collectible cards; scanable live-object relation; fronts/backs carry identity, issue/source/ancestry/date/edition/QR; moves included PLAY, TRACE, BRANCH, COMPOSE, RECONSTITUTE.
+* `2026-09-21T17:50:59Z` — Renamed to 'postEmahh'n Cards' to avoid Pokémon trademark friction; wanted Pokémon/Magic-like types and runs where composing cards creates compositions and composing compositions creates decks.
+* `2026-09-21T17:54:12Z` — Requested a design skeleton drawing simultaneously from Pokémon, Magic, baseball cards, Final Fantasy XII Gambits, and Final Fantasy VII Materia.
+* `2026-09-21T18:12:00Z` — Accepted three freely iterable seed decks with generation counts and increasingly rare trust-held roots: RECEIVE / HOLD / POUR; descendants preserve lineage rather than becoming interchangeable copies.
+* `2026-09-21T18:44:27Z` — Connected the new trading-card concept to Full Measure, old habit-development ideas, prayer/self-care as actual recharge mechanics, and Upper Room.
+* `2026-09-21T18:55:35Z` — Expanded toward 'choose your own story and party', flashbacks, personal fantasies/utopias, dreams, world/meaning building, and Bandcamp as world-seeding material.
+* `2026-09-21T19:06:06Z` — Added balance of supply/demand, discipleship, Age of Empires-like culture building, hard tangible limiting choices, and explicit opportunity cost.
+* `2026-09-21T20:38:05Z` — Pushed game composition further: creating games/stories could occur within play itself, making cards carry mechanics, roles, scenario seeds, objects, achievements, and inherited histories.
+* `2026-09-21T21:42:42Z` — Asked for 'a lawful wormhole' using 'our weird collected binder of Rick and Morty universal receipts' in a 'south park phone destroyer homage/improvement/ module for static-field??' — the direct bridge into the later WORMHOLE WARS manifestation.
+* `2026-09-25T04:39:58Z` — Revisited postEmahh'n explicitly as an older cards concept and asked to recover it as an expansion/explosion set, remembering a connection to REALITY.2.
+* `2026-09-25T05:14:02Z` — Accepted an orthogonal POST entrance and solo-play direction: solitaire × choose-your-own-adventure × tarot/fractal arrangement × Myst/Cyberprophecy/Cicada, with emergent actual-code activation.
+* `2026-09-25T05:35:26Z` — Named Static Workbench, Paula's Workbench, and Haunted Toaster as distinct local receipt surfaces connected through a card-reader crossing membrane; proposed that the first printed receipt could be the player's character sheet.
+
 **Evidence**
 
 * [source 1](https://github.com/the-static-collective/static-field/pull/1)
