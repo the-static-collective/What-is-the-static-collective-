@@ -33,6 +33,7 @@
 
 ## Patterns
 
+* [☠️ PIRATE LAW — Hard Hull, Loose Rigging](patterns/pirate-law.md)
 * [Creative Field Laws](patterns/creative-field-laws.md)
 * [Green Grammar — Relation Birth, Lawful Play, and BAND](patterns/green-grammar-relation-birth-and-band.md)
 * [Gestalt Recursion — Simplicity on the Far Side of Complexity](patterns/gestalt-recursion-simplicity-on-the-far-side-of-complexity.md)
