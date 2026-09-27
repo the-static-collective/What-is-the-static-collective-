@@ -581,7 +581,7 @@ Default: `main` · other refs: 183 · open PRs: 56
 
 [Repository](https://github.com/the-static-collective/ALEX.2) · [Branches](https://github.com/the-static-collective/ALEX.2/branches) · [Pull requests](https://github.com/the-static-collective/ALEX.2/pulls)
 
-Default: `main` · other refs: 85 · open PRs: 29
+Default: `main` · other refs: 86 · open PRs: 29
 
 ### Open pull requests
 
@@ -673,6 +673,7 @@ Default: `main` · other refs: 85 · open PRs: 29
 | [impl/projection-break-001](https://github.com/the-static-collective/ALEX.2/tree/impl/projection-break-001) | [923540d382](https://github.com/the-static-collective/ALEX.2/commit/923540d38288dd917335ec11d6714b3757bc19f2) | Retained ref; disposition unverified |
 | [impl/projection-invariance-001](https://github.com/the-static-collective/ALEX.2/tree/impl/projection-invariance-001) | [d096000a87](https://github.com/the-static-collective/ALEX.2/commit/d096000a873acb128d6ebc45e5a959784cd88d6f) | Retained ref; disposition unverified |
 | [lighthouse/jubilee-engine-port](https://github.com/the-static-collective/ALEX.2/tree/lighthouse/jubilee-engine-port) | [c4c8c36874](https://github.com/the-static-collective/ALEX.2/commit/c4c8c36874f6b9b6a7f6e70bae5b7f9f246eb517) | Retained ref; disposition unverified |
+| [navigation-aperture-2026-09-27](https://github.com/the-static-collective/ALEX.2/tree/navigation-aperture-2026-09-27) | [7fe35a7375](https://github.com/the-static-collective/ALEX.2/commit/7fe35a7375d365ad814d99ddf564d040d50dbfab) | Retained ref; disposition unverified |
 | [noop-temp-check](https://github.com/the-static-collective/ALEX.2/tree/noop-temp-check) | [8657054a60](https://github.com/the-static-collective/ALEX.2/commit/8657054a6055f4f3fc7bed170de1364ac6e1072d) | Retained ref; disposition unverified |
 | [plan/binocular-recursion-001](https://github.com/the-static-collective/ALEX.2/tree/plan/binocular-recursion-001) | [9e343aad87](https://github.com/the-static-collective/ALEX.2/commit/9e343aad870aae31fb510dd3d54b51f16f6edea3) | Retained ref; disposition unverified |
 | [plan/bookroom-001-gate4](https://github.com/the-static-collective/ALEX.2/tree/plan/bookroom-001-gate4) | [ffb0c5d9f3](https://github.com/the-static-collective/ALEX.2/commit/ffb0c5d9f30a19999dac90bbcdb4de247be75fdb) | Retained ref; disposition unverified |

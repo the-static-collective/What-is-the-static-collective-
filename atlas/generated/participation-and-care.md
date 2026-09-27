@@ -105,7 +105,7 @@ Default: `main` · other refs: 4 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/full-measure-world-layer) · [Branches](https://github.com/the-static-collective/full-measure-world-layer/branches) · [Pull requests](https://github.com/the-static-collective/full-measure-world-layer/pulls)
 
-Default: `main` · other refs: 25 · open PRs: 11
+Default: `main` · other refs: 26 · open PRs: 11
 
 ### Open pull requests
 
@@ -152,6 +152,7 @@ Default: `main` · other refs: 25 · open PRs: 11
 | [feat/grace-room-stage-004](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/grace-room-stage-004) | [039f6d04a1](https://github.com/the-static-collective/full-measure-world-layer/commit/039f6d04a180e48d30c01f21d73877c8715c472d) | [open PR #37](https://github.com/the-static-collective/full-measure-world-layer/pull/37) |
 | [feat/grace-walkable-room-005](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/grace-walkable-room-005) | [a8b1689f40](https://github.com/the-static-collective/full-measure-world-layer/commit/a8b1689f40818776cafa924245acf6869838cbc1) | [open PR #38](https://github.com/the-static-collective/full-measure-world-layer/pull/38) |
 | [feature/grace-001-worldseed](https://github.com/the-static-collective/full-measure-world-layer/tree/feature/grace-001-worldseed) | [b1eb6b7337](https://github.com/the-static-collective/full-measure-world-layer/commit/b1eb6b7337b535709031df50ead728f8b2e382d4) | [open PR #33](https://github.com/the-static-collective/full-measure-world-layer/pull/33) |
+| [navigation-aperture-2026-09-27](https://github.com/the-static-collective/full-measure-world-layer/tree/navigation-aperture-2026-09-27) | [8abbad653a](https://github.com/the-static-collective/full-measure-world-layer/commit/8abbad653a7c9655490783c723aa11d81eeaa343) | Retained ref; disposition unverified |
 
 ## seedforge
 
@@ -187,4 +188,11 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/revival) · [Branches](https://github.com/the-static-collective/revival/branches) · [Pull requests](https://github.com/the-static-collective/revival/pulls)
 
-Default: `main` · other refs: 0 · open PRs: 0 · empty repository
+Default: `main` · other refs: 2 · open PRs: 0
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [genesis-001-executable-kernel](https://github.com/the-static-collective/revival/tree/genesis-001-executable-kernel) | [ec5b7c64b1](https://github.com/the-static-collective/revival/commit/ec5b7c64b1472e77a178f34d619cf383e98b9e37) | Retained ref; disposition unverified |
+| [revival-002-curiosity-compiler](https://github.com/the-static-collective/revival/tree/revival-002-curiosity-compiler) | [5f45217a5e](https://github.com/the-static-collective/revival/commit/5f45217a5e643a0af2b2471d5a7347df7d627dcb) | Retained ref; disposition unverified |

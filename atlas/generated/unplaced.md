@@ -17,11 +17,17 @@ New or unclassified public repositories. Placement requires editorial review.
 
 Default: `main` · other refs: 0 · open PRs: 0
 
+## the-static-collective
+
+[Repository](https://github.com/the-static-collective/the-static-collective) · [Branches](https://github.com/the-static-collective/the-static-collective/branches) · [Pull requests](https://github.com/the-static-collective/the-static-collective/pulls)
+
+Default: `main` · other refs: 0 · open PRs: 0
+
 ## WITNESS
 
 [Repository](https://github.com/the-static-collective/WITNESS) · [Branches](https://github.com/the-static-collective/WITNESS/branches) · [Pull requests](https://github.com/the-static-collective/WITNESS/pulls)
 
-Default: `main` · other refs: 1 · open PRs: 1
+Default: `main` · other refs: 2 · open PRs: 1
 
 ### Open pull requests
 
@@ -33,4 +39,5 @@ Default: `main` · other refs: 1 · open PRs: 1
 
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
-| [genesis/community-audio-bible-001](https://github.com/the-static-collective/WITNESS/tree/genesis/community-audio-bible-001) | [7634e15aa4](https://github.com/the-static-collective/WITNESS/commit/7634e15aa41eb5e833189631e3502a0f01492a9c) | [open PR #1](https://github.com/the-static-collective/WITNESS/pull/1) |
+| [genesis/community-audio-bible-001](https://github.com/the-static-collective/WITNESS/tree/genesis/community-audio-bible-001) | [9644f24628](https://github.com/the-static-collective/WITNESS/commit/9644f24628b705bc405a03bbd80cc26e8b5e01f0) | [open PR #1](https://github.com/the-static-collective/WITNESS/pull/1) |
+| [navigation-aperture-2026-09-27](https://github.com/the-static-collective/WITNESS/tree/navigation-aperture-2026-09-27) | [2d0911bccd](https://github.com/the-static-collective/WITNESS/commit/2d0911bccdb7fb88b2f80d073484e870a78ca3d7) | Retained ref; disposition unverified |

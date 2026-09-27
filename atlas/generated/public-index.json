@@ -415,7 +415,11 @@
         },
         {
           "name": "main",
-          "sha": "1335464102b304df6516c092d9c88c83ddf1ac65"
+          "sha": "7d116b716df82ee2379b399d90936d2fc01b7b16"
+        },
+        {
+          "name": "navigation-aperture-2026-09-27",
+          "sha": "7fe35a7375d365ad814d99ddf564d040d50dbfab"
         },
         {
           "name": "noop-temp-check",
@@ -2762,7 +2766,11 @@
         },
         {
           "name": "main",
-          "sha": "412081481d763b4adcc02f3a8b8eef02070fb000"
+          "sha": "9e6662b47cb7bd2b3df0041fc33fffa1f1973d39"
+        },
+        {
+          "name": "navigation-aperture-2026-09-27",
+          "sha": "8abbad653a7c9655490783c723aa11d81eeaa343"
         }
       ],
       "open_prs": [
@@ -4136,7 +4144,20 @@
       "visibility": "public",
       "default_branch": "main",
       "archived": false,
-      "branches": [],
+      "branches": [
+        {
+          "name": "genesis-001-executable-kernel",
+          "sha": "ec5b7c64b1472e77a178f34d619cf383e98b9e37"
+        },
+        {
+          "name": "main",
+          "sha": "496152b6753f9694b2cb002b8f9b78a201955f8f"
+        },
+        {
+          "name": "revival-002-curiosity-compiler",
+          "sha": "5f45217a5e643a0af2b2471d5a7347df7d627dcb"
+        }
+      ],
       "open_prs": []
     },
     {
@@ -4887,7 +4908,11 @@
         },
         {
           "name": "main",
-          "sha": "38d8840c053d3675818ac3b8b74ab56731434bd7"
+          "sha": "49e2ef06cfc016250851c2e3dce27889b007b88f"
+        },
+        {
+          "name": "navigation-aperture-2026-09-27",
+          "sha": "0b45fccab1e0ea2ab835e31411073cc0db49c23d"
         },
         {
           "name": "PK/adoption-bridge-workbench-001",
@@ -6973,6 +6998,10 @@
           "sha": "d7745594905cc8a042c207dddba43115160f7c2b"
         },
         {
+          "name": "navigation-aperture-2026-09-27",
+          "sha": "eb445936b87c9b876c1ab283067650112fddc344"
+        },
+        {
           "name": "ops/package-exact-6ff36ffa",
           "sha": "4d14aaf71967f9c6a3a1912800ed84e07fabff6b"
         },
@@ -7090,6 +7119,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 300,
+          "title": "Add Static Collective navigation aperture",
+          "head_branch": "navigation-aperture-2026-09-27",
+          "head_sha": "eb445936b87c9b876c1ab283067650112fddc344",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "main",
+          "updated_at": "2026-09-27T12:08:50Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/300"
+        },
         {
           "number": 297,
           "title": "HYPERKITCHEN-001: Blender clip × FRAME-EAT-FRAME → PULSE → local HTML projection → Pantry",
@@ -7351,6 +7390,19 @@
           "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/212"
         }
       ]
+    },
+    {
+      "name": "the-static-collective",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "69891357779d5487264bba36636030434c5bd91a"
+        }
+      ],
+      "open_prs": []
     },
     {
       "name": "toaster-lab",
@@ -7936,6 +7988,10 @@
           "sha": "a984e905d1e3806e386f5fddf0c0446d8080d14e"
         },
         {
+          "name": "feat/living-map-recovery-fossil-001",
+          "sha": "1ee977b138adbc30a83dc4c2d632d021f622ed6c"
+        },
+        {
           "name": "feat/mortal-actor-001-blind-proof",
           "sha": "709590bfb4ad14ea3ba806d8d63fc37f2fe6eae6"
         },
@@ -8001,7 +8057,7 @@
         },
         {
           "name": "main",
-          "sha": "a45bdabece4176a8a9a9ed5be8152cff60e3e6fc"
+          "sha": "89cf8986a53f095c384a66312d5f092fb632ea3e"
         },
         {
           "name": "pattern/gestalt-recursion",
@@ -8018,6 +8074,10 @@
         {
           "name": "plan/passage-world-001",
           "sha": "940caa2a60e74db64b1d50ac94f471313c38dd5d"
+        },
+        {
+          "name": "public-front-door-2026-09-27",
+          "sha": "9852c6f1f40696dceda9de28f834d8d1f745614f"
         },
         {
           "name": "reconcile/mortal-narrative-stack-current-main",
@@ -8065,6 +8125,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 94,
+          "title": "RECOVERY-001: add fossil re-entry lens to Living Git Map",
+          "head_branch": "feat/living-map-recovery-fossil-001",
+          "head_sha": "1ee977b138adbc30a83dc4c2d632d021f622ed6c",
+          "head_repo": "the-static-collective/What-is-the-static-collective-",
+          "base_branch": "main",
+          "updated_at": "2026-09-27T12:52:58Z",
+          "url": "https://github.com/the-static-collective/What-is-the-static-collective-/pull/94"
+        },
         {
           "number": 87,
           "title": "Harvest: MADDPASTE RECOMPOSITION 001 — roads not taken",
@@ -8225,11 +8295,15 @@
       "branches": [
         {
           "name": "genesis/community-audio-bible-001",
-          "sha": "7634e15aa41eb5e833189631e3502a0f01492a9c"
+          "sha": "9644f24628b705bc405a03bbd80cc26e8b5e01f0"
         },
         {
           "name": "main",
-          "sha": "81a343802ff13199bbe0cdda324e1dd95800ac10"
+          "sha": "be17a5a51f03e1a75cd836829284838171418638"
+        },
+        {
+          "name": "navigation-aperture-2026-09-27",
+          "sha": "2d0911bccdb7fb88b2f80d073484e870a78ca3d7"
         }
       ],
       "open_prs": [
@@ -8237,10 +8311,10 @@
           "number": 1,
           "title": "GENESIS-001: community audio Bible witness layer",
           "head_branch": "genesis/community-audio-bible-001",
-          "head_sha": "7634e15aa41eb5e833189631e3502a0f01492a9c",
+          "head_sha": "9644f24628b705bc405a03bbd80cc26e8b5e01f0",
           "head_repo": "the-static-collective/WITNESS",
           "base_branch": "main",
-          "updated_at": "2026-09-26T04:17:46Z",
+          "updated_at": "2026-09-26T21:29:20Z",
           "url": "https://github.com/the-static-collective/WITNESS/pull/1"
         }
       ]
@@ -8366,5 +8440,5 @@
       ]
     }
   ],
-  "captured_at": "2026-09-26T12:13:26+00:00"
+  "captured_at": "2026-09-27T13:00:32+00:00"
 }

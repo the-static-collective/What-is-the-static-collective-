@@ -15,12 +15,13 @@ Visual and audio-video instruments, pantry experiments, and older appliance bran
 
 [Repository](https://github.com/the-static-collective/the-haunted-toaster) · [Branches](https://github.com/the-static-collective/the-haunted-toaster/branches) · [Pull requests](https://github.com/the-static-collective/the-haunted-toaster/pulls)
 
-Default: `main` · other refs: 182 · open PRs: 26
+Default: `main` · other refs: 183 · open PRs: 27
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#300](https://github.com/the-static-collective/the-haunted-toaster/pull/300) | Add Static Collective navigation aperture | `navigation-aperture-2026-09-27` → `main` | 2026-09-27 |
 | [#297](https://github.com/the-static-collective/the-haunted-toaster/pull/297) | HYPERKITCHEN-001: Blender clip × FRAME-EAT-FRAME → PULSE → local HTML projection → Pantry | `experimental/hyperkitchen-001-hyperframes-projection` → `design/video-phrase-grammar-v1` | 2026-09-22 |
 | [#296](https://github.com/the-static-collective/the-haunted-toaster/pull/296) | NUKLEAR PANTRY EXCHANGE-001: admit Blender alchemy as recursive Toaster food | `feat/nuklear-pantry-exchange-001` → `feat/toaster-pantry-recursive-composition-v1` | 2026-09-22 |
 | [#294](https://github.com/the-static-collective/the-haunted-toaster/pull/294) | TOASTER-PANTRY-001: immutable recursive composition recipes on existing VSPantry | `feat/toaster-pantry-recursive-composition-v1` → `main` | 2026-09-22 |
@@ -205,6 +206,7 @@ Default: `main` · other refs: 182 · open PRs: 26
 | [lumi/internal-response-lift](https://github.com/the-static-collective/the-haunted-toaster/tree/lumi/internal-response-lift) | [9ae8e070c5](https://github.com/the-static-collective/the-haunted-toaster/commit/9ae8e070c5ffe21355ed7650aa3b6d9b16e3848c) | Retained ref; disposition unverified |
 | [mutant/archaeology-281](https://github.com/the-static-collective/the-haunted-toaster/tree/mutant/archaeology-281) | [3b1b08e368](https://github.com/the-static-collective/the-haunted-toaster/commit/3b1b08e368f189fd3d05a143cb2e55a383f63ba1) | Retained ref; disposition unverified |
 | [mutant/video-phrase-archaeology-carrier](https://github.com/the-static-collective/the-haunted-toaster/tree/mutant/video-phrase-archaeology-carrier) | [d774559490](https://github.com/the-static-collective/the-haunted-toaster/commit/d7745594905cc8a042c207dddba43115160f7c2b) | Retained ref; disposition unverified |
+| [navigation-aperture-2026-09-27](https://github.com/the-static-collective/the-haunted-toaster/tree/navigation-aperture-2026-09-27) | [eb445936b8](https://github.com/the-static-collective/the-haunted-toaster/commit/eb445936b87c9b876c1ab283067650112fddc344) | [open PR #300](https://github.com/the-static-collective/the-haunted-toaster/pull/300) |
 | [ops/package-exact-6ff36ffa](https://github.com/the-static-collective/the-haunted-toaster/tree/ops/package-exact-6ff36ffa) | [4d14aaf719](https://github.com/the-static-collective/the-haunted-toaster/commit/4d14aaf71967f9c6a3a1912800ed84e07fabff6b) | Retained ref; disposition unverified |
 | [plan/hyperfood-slice-a](https://github.com/the-static-collective/the-haunted-toaster/tree/plan/hyperfood-slice-a) | [a6cb4593d4](https://github.com/the-static-collective/the-haunted-toaster/commit/a6cb4593d434eeaa9de3501c07cc852dad0bbd03) | Retained ref; disposition unverified |
 | [plan/receipt-memory-witness-loop](https://github.com/the-static-collective/the-haunted-toaster/tree/plan/receipt-memory-witness-loop) | [bff08f9863](https://github.com/the-static-collective/the-haunted-toaster/commit/bff08f9863f5395d9d54c98529042c7dace6989f) | Retained ref; disposition unverified |

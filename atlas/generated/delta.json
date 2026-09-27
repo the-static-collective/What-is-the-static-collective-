@@ -1,75 +1,122 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-09-25T21:30:39.983Z",
-  "to_captured_at": "2026-09-26T12:13:26+00:00",
+  "from_captured_at": "2026-09-26T12:13:26+00:00",
+  "to_captured_at": "2026-09-27T13:00:32+00:00",
   "added_repositories": [
-    "cUps",
-    "WITNESS"
+    "the-static-collective"
   ],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "cUps",
+      "repository": "ALEX.2",
+      "branch": "navigation-aperture-2026-09-27",
+      "sha": "7fe35a7375d365ad814d99ddf564d040d50dbfab"
+    },
+    {
+      "repository": "full-measure-world-layer",
+      "branch": "navigation-aperture-2026-09-27",
+      "sha": "8abbad653a7c9655490783c723aa11d81eeaa343"
+    },
+    {
+      "repository": "revival",
+      "branch": "genesis-001-executable-kernel",
+      "sha": "ec5b7c64b1472e77a178f34d619cf383e98b9e37"
+    },
+    {
+      "repository": "revival",
       "branch": "main",
-      "sha": "ef798028ba1ed4aef0811974dd46cb047b758911"
+      "sha": "496152b6753f9694b2cb002b8f9b78a201955f8f"
     },
     {
-      "repository": "Dogram",
-      "branch": "research/APERTURE-PARTITION-LATTICE-001",
-      "sha": "9e5ad1efe4a6e14f349be6fc0e9f6468f63af813"
+      "repository": "revival",
+      "branch": "revival-002-curiosity-compiler",
+      "sha": "5f45217a5e643a0af2b2471d5a7347df7d627dcb"
     },
     {
-      "repository": "What-is-the-static-collective-",
-      "branch": "feat/development-event-001",
-      "sha": "121d14ac3fa7928a8d47b73269d34f2d6fea7a5a"
+      "repository": "static-workbench",
+      "branch": "navigation-aperture-2026-09-27",
+      "sha": "0b45fccab1e0ea2ab835e31411073cc0db49c23d"
     },
     {
-      "repository": "What-is-the-static-collective-",
-      "branch": "feat/living-git-map-20260925",
-      "sha": "313606c8a637b28da2ebcbb5336a54c354959b5f"
+      "repository": "the-haunted-toaster",
+      "branch": "navigation-aperture-2026-09-27",
+      "sha": "eb445936b87c9b876c1ab283067650112fddc344"
     },
     {
-      "repository": "What-is-the-static-collective-",
-      "branch": "feat/living-map-delta-relations-001",
-      "sha": "a984e905d1e3806e386f5fddf0c0446d8080d14e"
-    },
-    {
-      "repository": "What-is-the-static-collective-",
-      "branch": "feat/visibility-aperture-001",
-      "sha": "283586415e393646f9220cd69b680c0cf2aafc37"
+      "repository": "the-static-collective",
+      "branch": "main",
+      "sha": "69891357779d5487264bba36636030434c5bd91a"
     },
     {
       "repository": "What-is-the-static-collective-",
-      "branch": "fix/git-atlas-return-links-20260925",
-      "sha": "5c9650df71d05f5ad12e72b540b8e1f74375e568"
+      "branch": "feat/living-map-recovery-fossil-001",
+      "sha": "1ee977b138adbc30a83dc4c2d632d021f622ed6c"
+    },
+    {
+      "repository": "What-is-the-static-collective-",
+      "branch": "public-front-door-2026-09-27",
+      "sha": "9852c6f1f40696dceda9de28f834d8d1f745614f"
     },
     {
       "repository": "WITNESS",
-      "branch": "genesis/community-audio-bible-001",
-      "sha": "7634e15aa41eb5e833189631e3502a0f01492a9c"
-    },
-    {
-      "repository": "WITNESS",
-      "branch": "main",
-      "sha": "81a343802ff13199bbe0cdda324e1dd95800ac10"
+      "branch": "navigation-aperture-2026-09-27",
+      "sha": "2d0911bccdb7fb88b2f80d073484e870a78ca3d7"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
+      "repository": "ALEX.2",
+      "branch": "main",
+      "from_sha": "1335464102b304df6516c092d9c88c83ddf1ac65",
+      "to_sha": "7d116b716df82ee2379b399d90936d2fc01b7b16"
+    },
+    {
+      "repository": "full-measure-world-layer",
+      "branch": "main",
+      "from_sha": "412081481d763b4adcc02f3a8b8eef02070fb000",
+      "to_sha": "9e6662b47cb7bd2b3df0041fc33fffa1f1973d39"
+    },
+    {
+      "repository": "static-workbench",
+      "branch": "main",
+      "from_sha": "38d8840c053d3675818ac3b8b74ab56731434bd7",
+      "to_sha": "49e2ef06cfc016250851c2e3dce27889b007b88f"
+    },
+    {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "517beb29854aecf8bf45ae55b70ff6a2bd820dca",
-      "to_sha": "a45bdabece4176a8a9a9ed5be8152cff60e3e6fc"
+      "from_sha": "a45bdabece4176a8a9a9ed5be8152cff60e3e6fc",
+      "to_sha": "89cf8986a53f095c384a66312d5f092fb632ea3e"
+    },
+    {
+      "repository": "WITNESS",
+      "branch": "genesis/community-audio-bible-001",
+      "from_sha": "7634e15aa41eb5e833189631e3502a0f01492a9c",
+      "to_sha": "9644f24628b705bc405a03bbd80cc26e8b5e01f0"
+    },
+    {
+      "repository": "WITNESS",
+      "branch": "main",
+      "from_sha": "81a343802ff13199bbe0cdda324e1dd95800ac10",
+      "to_sha": "be17a5a51f03e1a75cd836829284838171418638"
     }
   ],
   "opened_prs": [
     {
-      "repository": "WITNESS",
-      "number": 1,
-      "title": "GENESIS-001: community audio Bible witness layer",
-      "url": "https://github.com/the-static-collective/WITNESS/pull/1",
-      "head_branch": "genesis/community-audio-bible-001",
+      "repository": "the-haunted-toaster",
+      "number": 300,
+      "title": "Add Static Collective navigation aperture",
+      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/300",
+      "head_branch": "navigation-aperture-2026-09-27",
+      "base_branch": "main"
+    },
+    {
+      "repository": "What-is-the-static-collective-",
+      "number": 94,
+      "title": "RECOVERY-001: add fossil re-entry lens to Living Git Map",
+      "url": "https://github.com/the-static-collective/What-is-the-static-collective-/pull/94",
+      "head_branch": "feat/living-map-recovery-fossil-001",
       "base_branch": "main"
     }
   ],

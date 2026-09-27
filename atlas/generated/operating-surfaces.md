@@ -15,7 +15,7 @@ Desks, machines, release surfaces, return paths, and small new probes.
 
 [Repository](https://github.com/the-static-collective/static-workbench) · [Branches](https://github.com/the-static-collective/static-workbench/branches) · [Pull requests](https://github.com/the-static-collective/static-workbench/pulls)
 
-Default: `main` · other refs: 58 · open PRs: 38
+Default: `main` · other refs: 59 · open PRs: 38
 
 ### Open pull requests
 
@@ -119,6 +119,7 @@ Default: `main` · other refs: 58 · open PRs: 38
 | [flight/001-reviewed-maxhinal-plan](https://github.com/the-static-collective/static-workbench/tree/flight/001-reviewed-maxhinal-plan) | [dd00866feb](https://github.com/the-static-collective/static-workbench/commit/dd00866febedd8d591d0f10a86290b0210a25e1c) | [open PR #61](https://github.com/the-static-collective/static-workbench/pull/61) |
 | [integration/first-use-whole-house-20260920](https://github.com/the-static-collective/static-workbench/tree/integration/first-use-whole-house-20260920) | [f3829fa876](https://github.com/the-static-collective/static-workbench/commit/f3829fa8767961f8993fda241715f49b06d7b29d) | [open PR #65](https://github.com/the-static-collective/static-workbench/pull/65) |
 | [integration/rectified-main-carrier-20260920](https://github.com/the-static-collective/static-workbench/tree/integration/rectified-main-carrier-20260920) | [7d90126a87](https://github.com/the-static-collective/static-workbench/commit/7d90126a87f79ffa370a3302863d92b9ee1d907a) | [open PR #48](https://github.com/the-static-collective/static-workbench/pull/48) |
+| [navigation-aperture-2026-09-27](https://github.com/the-static-collective/static-workbench/tree/navigation-aperture-2026-09-27) | [0b45fccab1](https://github.com/the-static-collective/static-workbench/commit/0b45fccab1e0ea2ab835e31411073cc0db49c23d) | Retained ref; disposition unverified |
 | [PK/adoption-bridge-workbench-001](https://github.com/the-static-collective/static-workbench/tree/PK/adoption-bridge-workbench-001) | [b013ebbef3](https://github.com/the-static-collective/static-workbench/commit/b013ebbef321012f6af1e695a14ee1282d596e89) | [open PR #82](https://github.com/the-static-collective/static-workbench/pull/82) |
 | [PK/holographic-kernel-001-bat](https://github.com/the-static-collective/static-workbench/tree/PK/holographic-kernel-001-bat) | [c52c8be255](https://github.com/the-static-collective/static-workbench/commit/c52c8be255fd81ba6c0176fbcb70a09c6dcce452) | [open PR #85](https://github.com/the-static-collective/static-workbench/pull/85) |
 | [PK/paula-orchard-seed-003-tonight](https://github.com/the-static-collective/static-workbench/tree/PK/paula-orchard-seed-003-tonight) | [5e41997d4e](https://github.com/the-static-collective/static-workbench/commit/5e41997d4eebc5960134d40ae0249ce06317cb0d) | [open PR #81](https://github.com/the-static-collective/static-workbench/pull/81) |
