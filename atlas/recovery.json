@@ -372,6 +372,31 @@
         "https://github.com/the-static-collective/cloudflare-control",
         "https://github.com/the-static-collective/cloudflare-control/commit/e5b1e0c5d032143053e6de5396fb364e831e2ee2"
       ]
+    },
+    {
+      "id": "recoreturn-2026-09-27",
+      "repositories": [
+        "reCOreturn"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "missing_readme",
+        "implementation_body",
+        "claim_ledger",
+        "return_loop",
+        "disposition_fog"
+      ],
+      "body_claim": "reCOreturn contains a public-facing Recognition → Return → Stewardship gallery backed by a deeper working-record layer: claim categories, source citations, proof milestones, customer-discovery logs, unit economics, transparency receipts, participation intake, and explicit unsupported-claim removal.",
+      "purpose_claim": "OBSERVED/INFERRED: the surviving body tests whether an art/fashion enterprise can make value return, stewardship, dignity constraints, commercial hypotheses, and public claims inspectable before scale rather than presenting aspiration as accomplished impact.",
+      "last_witnessed_change": "The surviving main-branch application implements The Return Event across garment, portrait, song, meal, film, and knowledge media, while the working-record drawer separates confirmed facts, active hypotheses, dignity rules, economics, interviews, and receipt evidence.",
+      "disposition": "UNKNOWN — the executable body is substantial but there is no root README and this pass found no public source stating whether reCOreturn is current, paused, renamed, or absorbed into another participation/stewardship project.",
+      "reentry_door": "Start with src/data/ventureData.ts beside TheReturnEvent and DeepThreadDrawer. The key particular is not generic commerce; it is the explicit path from recognition to receipted return under claim and dignity constraints.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/reCOreturn/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/reCOreturn/blob/main/src/data/ventureData.ts",
+        "https://github.com/the-static-collective/reCOreturn/blob/main/src/components/TheReturnEvent.tsx",
+        "https://github.com/the-static-collective/reCOreturn/blob/main/src/components/DeepThreadDrawer.tsx"
+      ]
     }
   ],
   "seeds": [
@@ -408,6 +433,80 @@
       "next_recovery_action": "Recover the creator-intent witness first. Do not fabricate a project description merely to fill the empty repository.",
       "evidence_urls": [
         "https://github.com/the-static-collective/appliance-prophet-king"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "recurvrepair-review-2026-09-27",
+      "repository": "reCURVrePAIR",
+      "reviewed_on": "2026-09-27",
+      "result": "recovery_not_needed",
+      "note": "The root README already states the repair-culture purpose, implemented reality status, non-guarantees, handoff protocol, epistemic states, and re-entry path. Its exact family relation to reMIX-reCURVrePAIR remains a separate lineage question, not a missing front door here.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/reCURVrePAIR/blob/main/README.md",
+        "https://github.com/the-static-collective/reCURVrePAIR/blob/main/src/types.ts"
+      ]
+    },
+    {
+      "id": "toaster-oracle-review-2026-09-27",
+      "repository": "toaster-oracle",
+      "reviewed_on": "2026-09-27",
+      "result": "recovery_not_needed",
+      "note": "The README gives a detailed Feral Composer contract: multimodal proposal generation, Lock/Burn constraints, Haunted Toaster admission/refusal pressure, executable score visualization, and realization critique. The project is re-enterable from its own front door.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/toaster-oracle/blob/main/README.md"
+      ]
+    },
+    {
+      "id": "toaster-lab-review-2026-09-27",
+      "repository": "toaster-lab",
+      "reviewed_on": "2026-09-27",
+      "result": "declared_disposition",
+      "note": "The repository explicitly declares itself superseded/read-only historical evidence and a mutation-logic quarry only. It says not to continue a second appliance here and points any salvage toward Haunted Toaster.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/toaster-lab/blob/main/README.md",
+        "https://github.com/the-static-collective/toaster-lab/blob/main/product-contract.json"
+      ]
+    },
+    {
+      "id": "toaster-lab2-review-2026-09-27",
+      "repository": "toaster-lab2",
+      "reviewed_on": "2026-09-27",
+      "result": "recovery_not_needed",
+      "note": "The README exposes a bounded Crazy Slots proposal-appliance role, deterministic transfer boundary, sovereignty split with Haunted Toaster, verification commands, and compatibility tests. Its present role is explicit.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/toaster-lab2/blob/main/README.md"
+      ]
+    },
+    {
+      "id": "tranchnose-review-2026-09-27",
+      "repository": "tranchNOSE",
+      "reviewed_on": "2026-09-27",
+      "result": "recovery_not_needed",
+      "note": "The repository clearly states its optical-state experiment, failure boundary, machine model, first field-object question, research posture, and extraction lineage from tranchnode issue #30.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/tranchNOSE/blob/main/README.md"
+      ]
+    },
+    {
+      "id": "haunted-pol-ish-roids-review-2026-09-27",
+      "repository": "the-haunted-pol-ish-roids",
+      "reviewed_on": "2026-09-27",
+      "result": "recovery_not_needed",
+      "note": "The front door explicitly identifies a living camera organism, its provenance/personality split, planned Phoenix Egg and Quantum Chrysalis lineage mechanics, and current design/specification phase with issue #1 as the gate.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/the-haunted-pol-ish-roids/blob/main/README.md"
+      ]
+    },
+    {
+      "id": "bananaspork-review-2026-09-27",
+      "repository": "BananaSpork",
+      "reviewed_on": "2026-09-27",
+      "result": "recovery_not_needed",
+      "note": "The README names the current FIELD-SPECIMEN-001 edge, separates NanaSpork/Garden/BananaGram/Campfire/Jubilee/Donkey responsibilities, states implemented authority boundaries, and lists the next live proof without confusing migration or build evidence with field proof.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/BananaSpork/blob/main/README.md"
       ]
     }
   ]
