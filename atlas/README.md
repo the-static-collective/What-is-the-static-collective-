@@ -55,6 +55,8 @@ A repository name is an address. A README is a front door at some point in time.
 
 If those sources diverge, preserve the divergence as a translation scar and keep the historical search open.
 
+A human may also restore context that Git no longer carries. Record that as **human-recovered origin context**, not as machine inference or repository-proven fact. Adjacent Git sources may corroborate manifestations without independently proving the remembered chronology.
+
 ## Some witnessed crossings
 
 | Crossing | Source of the relationship | What the map may safely say |
