@@ -187,6 +187,191 @@
         "https://github.com/the-static-collective/jublEchat/commit/076a26b8e6250a44818c58f0c9ca0c7c67de6bca",
         "https://github.com/the-static-collective/jublEchat/blob/main/src/lib/residual-lineage.ts"
       ]
+    },
+    {
+      "id": "chronoquest-2026-09-27",
+      "repositories": [
+        "ChronoQuest"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "missing_readme",
+        "implementation_body",
+        "quiet_topology",
+        "disposition_fog",
+        "real_world_to_story_bridge"
+      ],
+      "body_claim": "ChronoQuest contains a playable AI-assisted RPG surface with persistent character state, inventory and quests, generated story turns and scene images, real-world habits that can be translated into narrative actions, a community-help tavern surface, and Markdown adventure-journal export.",
+      "purpose_claim": "INFERENCE: it appears to ask whether ordinary real-world habits and mutual-aid actions can become consequential RPG actions inside an evolving generated story rather than living in a separate productivity layer.",
+      "last_witnessed_change": "The surviving main-branch application and type system implement the game loop, real-world habit mapping, community-help requests, and story/journal persistence surface; no README currently explains that body.",
+      "disposition": "UNKNOWN — this recovery pass found no public source stating that ChronoQuest completed, moved into another world project, or was intentionally retired.",
+      "reentry_door": "Start with src/App.tsx and src/types.ts; the real-world-habit → narrative-action seam is the most distinctive surviving mechanism.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/ChronoQuest/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/ChronoQuest/blob/main/src/types.ts"
+      ]
+    },
+    {
+      "id": "bnanagram-2026-09-27",
+      "repositories": [
+        "BnanaGram"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "upstream_readme",
+        "large_upstream_body",
+        "local_identity_not_exposed",
+        "adjacent_fork_exists",
+        "disposition_fog"
+      ],
+      "body_claim": "BnanaGram preserves a full Telegram Web K codebase, but its root README and package metadata remain upstream Telegram material; this pass did not locate a project-owned front door explaining what the Static Collective changed or intended to change in that carrier.",
+      "purpose_claim": "UNKNOWN / WEAK INFERENCE: the repository name and the separately documented BananaGram-Gram-to-Fork make a Telegram-based participation experiment plausible, but that adjacency is not enough to establish BnanaGram's intended role or a successor relation.",
+      "last_witnessed_change": "The visible root still presents Telegram Web K development/build instructions rather than a Static Collective contract. A neighboring repository, BananaGram-Gram-to-Fork, explicitly describes a parent-focused Telegram/Jubilee participation fork.",
+      "disposition": "UNKNOWN — no public source located in this pass proves whether BnanaGram is an untouched upstream carrier, an abandoned fork attempt, or an ancestor/sibling of BananaGram-Gram-to-Fork.",
+      "reentry_door": "Treat the upstream Telegram body as carrier evidence only. Compare it with BananaGram-Gram-to-Fork, but do not promote that comparison into lineage without a source.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/BnanaGram/blob/master/README.md",
+        "https://github.com/the-static-collective/BananaGram-Gram-to-Fork/blob/main/README.md"
+      ]
+    },
+    {
+      "id": "seedforge-v0-2026-09-27",
+      "repositories": [
+        "seedforge-v0"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "repository_name_identity_mismatch",
+        "implementation_body",
+        "jubilee_vm_contract",
+        "seedforge_workbench_present",
+        "disposition_fog"
+      ],
+      "body_claim": "Despite the repository name seedforge-v0, its README declares Jubilee Engine VM v3.2.4-reproducibility: a deterministic non-erasure multi-graph compiler with execution/ontology projections, compiler identity, standalone verification receipts, projection-stability certificates, and explicit verifier non-claims. The app simultaneously exposes a SeedForge Workbench, VM playground, cluster explorer, corpus timeline, and reference-code browser.",
+      "purpose_claim": "OBSERVED/INFERENCE: the body is a bridge experiment between SeedForge cultivation surfaces and a stricter Jubilee VM reproducibility substrate, testing how creative-memory work can sit above deterministic, independently checkable receipt machinery.",
+      "last_witnessed_change": "Commit 43b135c78c4308f628001854edb695906f0c70c3 initialized the Jubilee Engine VM playground with the SeedForge workspace and node exploration surfaces.",
+      "disposition": "UNKNOWN — this pass found no public declaration explaining the naming transition from seedforge-v0 to Jubilee Engine VM or its exact relation to seedforge and Jubilee-Engine-VM.",
+      "reentry_door": "Open README.md and src/App.tsx together; preserve the hybrid identity rather than choosing one name as the whole truth.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/seedforge-v0/blob/main/README.md",
+        "https://github.com/the-static-collective/seedforge-v0/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/seedforge-v0/commit/43b135c78c4308f628001854edb695906f0c70c3"
+      ]
+    },
+    {
+      "id": "seedfork-2026-09-27",
+      "repositories": [
+        "seedFORK"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "coherent_readme",
+        "implementation_body",
+        "composition_experiment",
+        "multiple_project_organs",
+        "disposition_fog"
+      ],
+      "body_claim": "seedFORK is a coherent Jubilee Unified Studio that composes SeedForge proposal cultivation, reCURV-style repair/refactoring, personalized learning paths, Autodiscography source material, and an append-only SHA-256 witness ledger behind a human Harvest Gate.",
+      "purpose_claim": "OBSERVED: it tests whether several previously separate creative-memory organs can be composed into one workstation while keeping model output proposal-only and human harvest distinct from generation.",
+      "last_witnessed_change": "The surviving app wires an Autodiscography-backed Nearby Growth workbench, ledger state, human harvest, album-source attachment, and Jubilee receipt viewing into one interface.",
+      "disposition": "UNKNOWN — the project explains what it is but does not publicly state whether this composition was a completed specimen, a precursor to another workstation, or a paused integration experiment.",
+      "reentry_door": "Start with README.md, then src/App.tsx and the UnifiedWorkbench; this is a composition specimen, not merely a naming variant of seedforge.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/seedFORK/blob/main/README.md",
+        "https://github.com/the-static-collective/seedFORK/blob/main/src/App.tsx"
+      ]
+    },
+    {
+      "id": "tranchnode-v1-2026-09-27",
+      "repositories": [
+        "tranchNode-v1"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "coherent_readme",
+        "historical_identity",
+        "song_witness_node",
+        "cross_node_seed_contract",
+        "later_name_collision"
+      ],
+      "body_claim": "tranchNode-v1 is an Autodiscography Node: an offline-first, human-authorized song witness space with song/annotation imports, append-only ledger receipts, incoming foreign SeedPackets over a shared witness channel, bounded TAO epistemic modes, explicit human observe/attach/dismiss actions, and an owner auth gate.",
+      "purpose_claim": "OBSERVED: it preserves songs and creative traces while allowing cross-node inspiration to arrive as attributable, non-canonical foreign seed rather than silently rewriting local material.",
+      "last_witnessed_change": "Commit c1ab651e55f85d9f13551c89c1de39097d6b16a4 integrated Supabase and Autodiscography schemas for songs, annotations, and witness events.",
+      "disposition": "UNKNOWN — a later active repository named tranchnode now describes a broader model-independent continuity substrate, but this pass found no project-owned source proving that tranchNode-v1 was formally transformed into that repository.",
+      "reentry_door": "Enter through the song-ledger / foreign-seed / TAO contract in README.md. Compare later tranchnode only as a possible lineage question until a source binds them.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/tranchNode-v1/blob/main/README.md",
+        "https://github.com/the-static-collective/tranchNode-v1/commit/c1ab651e55f85d9f13551c89c1de39097d6b16a4",
+        "https://github.com/the-static-collective/tranchnode/blob/main/README.md"
+      ]
+    },
+    {
+      "id": "remix-recurvrepair-2026-09-27",
+      "repositories": [
+        "reMIX-reCURVrePAIR"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "shared_readme_blob",
+        "divergent_implementation_body",
+        "identity_flattening",
+        "witness_thread_surface",
+        "disposition_fog"
+      ],
+      "body_claim": "reMIX-reCURVrePAIR shares the exact README blob with reCURVrePAIR, but its application body diverges: it adds threaded witness material, turn receipts, human/model provenance states, custom attestations, on-ledger seed creation, context packets, role/capability state, export, and integrity scanning.",
+      "purpose_claim": "INFERENCE: the remix appears to push the repair-continuity runtime toward a multi-participant witness-thread environment where generated or imported turns can be attributed, attested, composted, exported, and inspected under explicit authority/provenance state.",
+      "last_witnessed_change": "Commit b7a15f087f051b63f00194cc32dfd89da9fe0256 initialized the reCURV repair-culture scaffold; the current src/App.tsx now materially differs from reCURVrePAIR even though both repositories expose the same README blob.",
+      "disposition": "UNKNOWN — the public record does not explain whether this is a fork, remix experiment, successor, or parallel branch of reCURVrePAIR. Exact README identity must not be mistaken for implementation identity.",
+      "reentry_door": "Compare src/App.tsx between reMIX-reCURVrePAIR and reCURVrePAIR. The delta itself is the useful artifact.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/reMIX-reCURVrePAIR/blob/main/README.md",
+        "https://github.com/the-static-collective/reMIX-reCURVrePAIR/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/reCURVrePAIR/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/reMIX-reCURVrePAIR/commit/b7a15f087f051b63f00194cc32dfd89da9fe0256"
+      ]
+    },
+    {
+      "id": "appliance-prophet-king-2026-09-27",
+      "repositories": [
+        "appliance-prophet-king"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "empty_repository",
+        "no_readme",
+        "no_implementation_body_observed",
+        "name_only_seed"
+      ],
+      "body_claim": "The public repository object survives, but GitHub reports a zero-size repository and this pass found no README or implementation body on the default branch.",
+      "purpose_claim": "UNKNOWN — the name is a surviving seed, not enough evidence to reconstruct a project contract.",
+      "last_witnessed_change": "No implementation commit or content body was located in this recovery pass.",
+      "disposition": "SHELL ONLY — this is currently evidence that a named door was created, not evidence that the project itself ever became executable.",
+      "reentry_door": "Preserve the repository name and creation as a seed. Re-enter only when another source, branch, conversation, or artifact can supply attributable meaning.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/appliance-prophet-king"
+      ]
+    },
+    {
+      "id": "cloudflare-control-2026-09-27",
+      "repositories": [
+        "cloudflare-control"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "empty_repository",
+        "no_readme",
+        "initialize_commit_only",
+        "name_only_seed"
+      ],
+      "body_claim": "The public repository object survives with zero reported size, no README, and no implementation body located in this pass.",
+      "purpose_claim": "UNKNOWN — the repository name suggests a Cloudflare-facing control surface, but the public body does not support a more specific reconstruction.",
+      "last_witnessed_change": "Commit e5b1e0c5d032143053e6de5396fb364e831e2ee2 is titled 'Initialize repository'; no later implementation evidence was located.",
+      "disposition": "SHELL ONLY — a named project aperture was created, but the public record currently does not show that it developed beyond initialization.",
+      "reentry_door": "Treat the initialization commit as the whole witnessed body unless another attributable source supplies the missing purpose.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/cloudflare-control",
+        "https://github.com/the-static-collective/cloudflare-control/commit/e5b1e0c5d032143053e6de5396fb364e831e2ee2"
+      ]
     }
   ]
 }
