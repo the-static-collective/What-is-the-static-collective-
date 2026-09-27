@@ -506,6 +506,58 @@ Treat the initialization commit as the whole witnessed body unless another attri
 * [source 1](https://github.com/the-static-collective/cloudflare-control)
 * [source 2](https://github.com/the-static-collective/cloudflare-control/commit/e5b1e0c5d032143053e6de5396fb364e831e2ee2)
 
+## Surveyed seeds — body not yet recovered
+
+These repositories were touched in the same recovery pass, but the public Git
+aperture does not yet carry enough project-owned body to reconstruct the
+original particular. They remain explicit search obligations, not empty labels.
+
+| Repository | Reviewed | Observed signals | Residual fog |
+| --- | --- | --- | --- |
+| [cloudflare-control](https://github.com/the-static-collective/cloudflare-control) | 2026-09-27 | `repository_shell`, `initialization_commit_only`, `missing_readme`, `origin_needed` | The public Git body does not establish the intended control-plane contract, why the repository was created, or whether implementation moved elsewhere. |
+| [appliance-prophet-king](https://github.com/the-static-collective/appliance-prophet-king) | 2026-09-27 | `empty_repository`, `no_commits`, `missing_readme`, `origin_needed` | The repository name survives, but the public Git record presently provides no inspectable evidence of the appliance concept, intended mechanism, or disposition. |
+
+### cloudflare-control
+
+**Reviewed:** 2026-09-27
+
+**Observed public state**
+
+Public repository size is zero. The only observed commit is e5b1e0c5d032143053e6de5396fb364e831e2ee2, titled Initialize repository. No README or implementation body is present.
+
+**Residual fog**
+
+The public Git body does not establish the intended control-plane contract, why the repository was created, or whether implementation moved elsewhere.
+
+**Next recovery action**
+
+Locate a creator/conversation witness or project-owned design note, then add a recovered-body entry only if that intent can be preserved with inspectable provenance.
+
+**Evidence**
+
+* [source 1](https://github.com/the-static-collective/cloudflare-control)
+* [source 2](https://github.com/the-static-collective/cloudflare-control/commit/e5b1e0c5d032143053e6de5396fb364e831e2ee2)
+
+### appliance-prophet-king
+
+**Reviewed:** 2026-09-27
+
+**Observed public state**
+
+The public repository is empty: no commits, README, branch body, or implementation artifact is available in the current public aperture.
+
+**Residual fog**
+
+The repository name survives, but the public Git record presently provides no inspectable evidence of the appliance concept, intended mechanism, or disposition.
+
+**Next recovery action**
+
+Recover the creator-intent witness first. Do not fabricate a project description merely to fill the empty repository.
+
+**Evidence**
+
+* [source 1](https://github.com/the-static-collective/appliance-prophet-king)
+
 ## Reading rule
 
 Recovery does not resurrect authority. It restores a route back to a surviving
