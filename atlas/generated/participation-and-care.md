@@ -188,7 +188,7 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/revival) · [Branches](https://github.com/the-static-collective/revival/branches) · [Pull requests](https://github.com/the-static-collective/revival/pulls)
 
-Default: `main` · other refs: 2 · open PRs: 0
+Default: `main` · other refs: 12 · open PRs: 0
 
 ### Retained nondefault branches
 
@@ -196,3 +196,13 @@ Default: `main` · other refs: 2 · open PRs: 0
 | --- | --- | --- |
 | [genesis-001-executable-kernel](https://github.com/the-static-collective/revival/tree/genesis-001-executable-kernel) | [ec5b7c64b1](https://github.com/the-static-collective/revival/commit/ec5b7c64b1472e77a178f34d619cf383e98b9e37) | Retained ref; disposition unverified |
 | [revival-002-curiosity-compiler](https://github.com/the-static-collective/revival/tree/revival-002-curiosity-compiler) | [5f45217a5e](https://github.com/the-static-collective/revival/commit/5f45217a5e643a0af2b2471d5a7347df7d627dcb) | Retained ref; disposition unverified |
+| [revival-003-choice-surface](https://github.com/the-static-collective/revival/tree/revival-003-choice-surface) | [c0e2fe8a87](https://github.com/the-static-collective/revival/commit/c0e2fe8a872fe40d033046f5d81fc6eaa0cea06b) | Retained ref; disposition unverified |
+| [revival-004-curiosity-room](https://github.com/the-static-collective/revival/tree/revival-004-curiosity-room) | [cbef94c8b5](https://github.com/the-static-collective/revival/commit/cbef94c8b5cd24a091e600768d8f2ae098d0c3a2) | Retained ref; disposition unverified |
+| [revival-005-curiosity-atlas](https://github.com/the-static-collective/revival/tree/revival-005-curiosity-atlas) | [f62b792969](https://github.com/the-static-collective/revival/commit/f62b792969aa6de511581288ec68cd43a1fd5943) | Retained ref; disposition unverified |
+| [revival-006-real-food](https://github.com/the-static-collective/revival/tree/revival-006-real-food) | [d2c0d40c85](https://github.com/the-static-collective/revival/commit/d2c0d40c850fa679801b8ee38757931e76514b81) | Retained ref; disposition unverified |
+| [revival-007-lemma-doors](https://github.com/the-static-collective/revival/tree/revival-007-lemma-doors) | [d5e61a421a](https://github.com/the-static-collective/revival/commit/d5e61a421ac3aabf83130155f0c19c6122ba5749) | Retained ref; disposition unverified |
+| [revival-008-aleph-tav-instrument](https://github.com/the-static-collective/revival/tree/revival-008-aleph-tav-instrument) | [e5d89adcc5](https://github.com/the-static-collective/revival/commit/e5d89adcc50267af42201cc8c7486dd60b1c54dc) | Retained ref; disposition unverified |
+| [revival-009-object-relations](https://github.com/the-static-collective/revival/tree/revival-009-object-relations) | [eec712ab0d](https://github.com/the-static-collective/revival/commit/eec712ab0d55e56f032be0565ec84d444c02942d) | Retained ref; disposition unverified |
+| [revival-010-first-world](https://github.com/the-static-collective/revival/tree/revival-010-first-world) | [443a3c76ce](https://github.com/the-static-collective/revival/commit/443a3c76ce896c2f43a4f77b7e7ef32c6553d6a3) | Retained ref; disposition unverified |
+| [revival-011-world-has-places](https://github.com/the-static-collective/revival/tree/revival-011-world-has-places) | [13db5eec50](https://github.com/the-static-collective/revival/commit/13db5eec5050d1e4ec3ce109206b42b5ca5db293) | Retained ref; disposition unverified |
+| [revival-012-earned-names](https://github.com/the-static-collective/revival/tree/revival-012-earned-names) | [d0b198b9f1](https://github.com/the-static-collective/revival/commit/d0b198b9f1af857ed98aea814ba0b49e7446ef22) | Retained ref; disposition unverified |

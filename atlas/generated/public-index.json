@@ -852,7 +852,16 @@
       "visibility": "public",
       "default_branch": "main",
       "archived": false,
-      "branches": [],
+      "branches": [
+        {
+          "name": "001-nutoaster-prototype",
+          "sha": "a15388ebf2391807559d7cfb334a15c9f3f57992"
+        },
+        {
+          "name": "main",
+          "sha": "242cf850a0a09eb9f0aa6b2fc0c47ec6bba335bc"
+        }
+      ],
       "open_prs": []
     },
     {
@@ -4151,11 +4160,51 @@
         },
         {
           "name": "main",
-          "sha": "496152b6753f9694b2cb002b8f9b78a201955f8f"
+          "sha": "af1e00c24e3d7c6eb6b1ac39ef59bf894e2385fd"
         },
         {
           "name": "revival-002-curiosity-compiler",
           "sha": "5f45217a5e643a0af2b2471d5a7347df7d627dcb"
+        },
+        {
+          "name": "revival-003-choice-surface",
+          "sha": "c0e2fe8a872fe40d033046f5d81fc6eaa0cea06b"
+        },
+        {
+          "name": "revival-004-curiosity-room",
+          "sha": "cbef94c8b5cd24a091e600768d8f2ae098d0c3a2"
+        },
+        {
+          "name": "revival-005-curiosity-atlas",
+          "sha": "f62b792969aa6de511581288ec68cd43a1fd5943"
+        },
+        {
+          "name": "revival-006-real-food",
+          "sha": "d2c0d40c850fa679801b8ee38757931e76514b81"
+        },
+        {
+          "name": "revival-007-lemma-doors",
+          "sha": "d5e61a421ac3aabf83130155f0c19c6122ba5749"
+        },
+        {
+          "name": "revival-008-aleph-tav-instrument",
+          "sha": "e5d89adcc50267af42201cc8c7486dd60b1c54dc"
+        },
+        {
+          "name": "revival-009-object-relations",
+          "sha": "eec712ab0d55e56f032be0565ec84d444c02942d"
+        },
+        {
+          "name": "revival-010-first-world",
+          "sha": "443a3c76ce896c2f43a4f77b7e7ef32c6553d6a3"
+        },
+        {
+          "name": "revival-011-world-has-places",
+          "sha": "13db5eec5050d1e4ec3ce109206b42b5ca5db293"
+        },
+        {
+          "name": "revival-012-earned-names",
+          "sha": "d0b198b9f1af857ed98aea814ba0b49e7446ef22"
         }
       ],
       "open_prs": []
@@ -6360,9 +6409,23 @@
         {
           "name": "plan/haunted-polaroid-first-proof",
           "sha": "5ced71881dfbd94df843b486699654c8c8c4ef4f"
+        },
+        {
+          "name": "world-not-the-feed-001",
+          "sha": "8c44216f8f975b1f8d125b8272d7fe6f1bd259f6"
         }
       ],
       "open_prs": [
+        {
+          "number": 5,
+          "title": "World, not the feed: make photographs into doors",
+          "head_branch": "world-not-the-feed-001",
+          "head_sha": "8c44216f8f975b1f8d125b8272d7fe6f1bd259f6",
+          "head_repo": "the-static-collective/the-haunted-pol-ish-roids",
+          "base_branch": "main",
+          "updated_at": "2026-09-27T21:51:29Z",
+          "url": "https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/5"
+        },
         {
           "number": 4,
           "title": "docs: plan Haunted Polaroid first living-camera proof",
@@ -6822,6 +6885,10 @@
           "sha": "c139421de4fe0bd41d686d1e09e1dbc4b3252a06"
         },
         {
+          "name": "feat/linear-v3-test-build",
+          "sha": "c85ffad2aaed6abcdeffcb8ae7c335dfbe8cc256"
+        },
+        {
           "name": "feat/master-delivery-output-profiles",
           "sha": "7c9b163b01e9c9e09c0031af581a49b36ba910a3"
         },
@@ -6990,6 +7057,10 @@
           "sha": "e8e8fb0fa3c13c98aae8c3ca5e98cb4de9f19031"
         },
         {
+          "name": "memory/six-up-prism-001",
+          "sha": "17194c34b9b248fd1edfa975c0cd6142d97b658a"
+        },
+        {
           "name": "mutant/archaeology-281",
           "sha": "3b1b08e368f189fd3d05a143cb2e55a383f63ba1"
         },
@@ -7066,6 +7137,10 @@
           "sha": "fe769e62dd668c52e10e96cdac3a195a4e206a4e"
         },
         {
+          "name": "resurrection/video-eating-mutation-mixer-001",
+          "sha": "3997a110516ecd770cb0f0509c70d11455f7a009"
+        },
+        {
           "name": "slice-d-foreign-material-v1",
           "sha": "f4a575db65d1bdb9cc5e7b462c30226660d4b804"
         },
@@ -7098,6 +7173,10 @@
           "sha": "7fe9474b40b4c27341b50f19f9b0a429e77c95dd"
         },
         {
+          "name": "topology/v000-test-floor",
+          "sha": "de38bbec26be83660a2ff4a1f41800250def4b28"
+        },
+        {
           "name": "walk/a-foreign-material-current-spine",
           "sha": "f397d8bdb39d4e0df7a536399508257a40df1b07"
         },
@@ -7119,6 +7198,36 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 306,
+          "title": "MEMORY-001: Six-Up Memory Prism",
+          "head_branch": "memory/six-up-prism-001",
+          "head_sha": "17194c34b9b248fd1edfa975c0cd6142d97b658a",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "resurrection/video-eating-mutation-mixer-001",
+          "updated_at": "2026-09-27T18:55:14Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/306"
+        },
+        {
+          "number": 305,
+          "title": "RESURRECTION-001: Video Eating × Mutation Mixer",
+          "head_branch": "resurrection/video-eating-mutation-mixer-001",
+          "head_sha": "3997a110516ecd770cb0f0509c70d11455f7a009",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "feat/linear-v3-test-build",
+          "updated_at": "2026-09-27T18:32:42Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/305"
+        },
+        {
+          "number": 301,
+          "title": "LINEAR v3: make Linear a family, not a pose",
+          "head_branch": "feat/linear-v3-test-build",
+          "head_sha": "c85ffad2aaed6abcdeffcb8ae7c335dfbe8cc256",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "design/video-phrase-grammar-v1",
+          "updated_at": "2026-09-27T14:45:06Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/301"
+        },
         {
           "number": 300,
           "title": "Add Static Collective navigation aperture",
@@ -7989,7 +8098,7 @@
         },
         {
           "name": "feat/living-map-recovery-fossil-001",
-          "sha": "1ee977b138adbc30a83dc4c2d632d021f622ed6c"
+          "sha": "afe6e6cfa6878492c399e0d86a975a4c8663c55e"
         },
         {
           "name": "feat/mortal-actor-001-blind-proof",
@@ -8057,11 +8166,15 @@
         },
         {
           "name": "main",
-          "sha": "89cf8986a53f095c384a66312d5f092fb632ea3e"
+          "sha": "aa89a697e48634fca79b3d1ae6006687e36267cc"
         },
         {
           "name": "pattern/gestalt-recursion",
           "sha": "c7cfcc987035fb093e059489c5a478e78884ce3e"
+        },
+        {
+          "name": "pirate-law-001",
+          "sha": "2f8f384a718a4cc80544bf1bd681143714fc2182"
         },
         {
           "name": "plan/mortal-actor-001-common-stack",
@@ -8129,10 +8242,10 @@
           "number": 94,
           "title": "RECOVERY-001: add fossil re-entry lens to Living Git Map",
           "head_branch": "feat/living-map-recovery-fossil-001",
-          "head_sha": "1ee977b138adbc30a83dc4c2d632d021f622ed6c",
+          "head_sha": "afe6e6cfa6878492c399e0d86a975a4c8663c55e",
           "head_repo": "the-static-collective/What-is-the-static-collective-",
           "base_branch": "main",
-          "updated_at": "2026-09-27T12:52:58Z",
+          "updated_at": "2026-09-27T16:38:12Z",
           "url": "https://github.com/the-static-collective/What-is-the-static-collective-/pull/94"
         },
         {
@@ -8440,5 +8553,5 @@
       ]
     }
   ],
-  "captured_at": "2026-09-27T13:00:32+00:00"
+  "captured_at": "2026-09-28T15:25:30+00:00"
 }

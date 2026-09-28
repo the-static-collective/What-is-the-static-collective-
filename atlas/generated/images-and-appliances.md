@@ -15,12 +15,15 @@ Visual and audio-video instruments, pantry experiments, and older appliance bran
 
 [Repository](https://github.com/the-static-collective/the-haunted-toaster) · [Branches](https://github.com/the-static-collective/the-haunted-toaster/branches) · [Pull requests](https://github.com/the-static-collective/the-haunted-toaster/pulls)
 
-Default: `main` · other refs: 183 · open PRs: 27
+Default: `main` · other refs: 187 · open PRs: 30
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#306](https://github.com/the-static-collective/the-haunted-toaster/pull/306) | MEMORY-001: Six-Up Memory Prism | `memory/six-up-prism-001` → `resurrection/video-eating-mutation-mixer-001` | 2026-09-27 |
+| [#305](https://github.com/the-static-collective/the-haunted-toaster/pull/305) | RESURRECTION-001: Video Eating × Mutation Mixer | `resurrection/video-eating-mutation-mixer-001` → `feat/linear-v3-test-build` | 2026-09-27 |
+| [#301](https://github.com/the-static-collective/the-haunted-toaster/pull/301) | LINEAR v3: make Linear a family, not a pose | `feat/linear-v3-test-build` → `design/video-phrase-grammar-v1` | 2026-09-27 |
 | [#300](https://github.com/the-static-collective/the-haunted-toaster/pull/300) | Add Static Collective navigation aperture | `navigation-aperture-2026-09-27` → `main` | 2026-09-27 |
 | [#297](https://github.com/the-static-collective/the-haunted-toaster/pull/297) | HYPERKITCHEN-001: Blender clip × FRAME-EAT-FRAME → PULSE → local HTML projection → Pantry | `experimental/hyperkitchen-001-hyperframes-projection` → `design/video-phrase-grammar-v1` | 2026-09-22 |
 | [#296](https://github.com/the-static-collective/the-haunted-toaster/pull/296) | NUKLEAR PANTRY EXCHANGE-001: admit Blender alchemy as recursive Toaster food | `feat/nuklear-pantry-exchange-001` → `feat/toaster-pantry-recursive-composition-v1` | 2026-09-22 |
@@ -163,6 +166,7 @@ Default: `main` · other refs: 183 · open PRs: 27
 | [feat/elastic-topology-response-v1](https://github.com/the-static-collective/the-haunted-toaster/tree/feat/elastic-topology-response-v1) | [944169c7f7](https://github.com/the-static-collective/the-haunted-toaster/commit/944169c7f7bbd821f51fa8e404302cbaa8f4a342) | Retained ref; disposition unverified |
 | [feat/haunted-haiku-receipts](https://github.com/the-static-collective/the-haunted-toaster/tree/feat/haunted-haiku-receipts) | [a13aecee6d](https://github.com/the-static-collective/the-haunted-toaster/commit/a13aecee6d4d8491ce3881b26219ea0b4166ace7) | [open PR #268](https://github.com/the-static-collective/the-haunted-toaster/pull/268) |
 | [feat/lab-proposal-influence-toggle](https://github.com/the-static-collective/the-haunted-toaster/tree/feat/lab-proposal-influence-toggle) | [c139421de4](https://github.com/the-static-collective/the-haunted-toaster/commit/c139421de4fe0bd41d686d1e09e1dbc4b3252a06) | Retained ref; disposition unverified |
+| [feat/linear-v3-test-build](https://github.com/the-static-collective/the-haunted-toaster/tree/feat/linear-v3-test-build) | [c85ffad2aa](https://github.com/the-static-collective/the-haunted-toaster/commit/c85ffad2aaed6abcdeffcb8ae7c335dfbe8cc256) | [open PR #301](https://github.com/the-static-collective/the-haunted-toaster/pull/301) |
 | [feat/master-delivery-output-profiles](https://github.com/the-static-collective/the-haunted-toaster/tree/feat/master-delivery-output-profiles) | [7c9b163b01](https://github.com/the-static-collective/the-haunted-toaster/commit/7c9b163b01e9c9e09c0031af581a49b36ba910a3) | Retained ref; disposition unverified |
 | [feat/nuklear-pantry-exchange-001](https://github.com/the-static-collective/the-haunted-toaster/tree/feat/nuklear-pantry-exchange-001) | [fccce08538](https://github.com/the-static-collective/the-haunted-toaster/commit/fccce085382debb9018883a05c08df3461e5d82d) | [open PR #296](https://github.com/the-static-collective/the-haunted-toaster/pull/296) |
 | [feat/post-walk-axis-grammar](https://github.com/the-static-collective/the-haunted-toaster/tree/feat/post-walk-axis-grammar) | [9d31eab1e4](https://github.com/the-static-collective/the-haunted-toaster/commit/9d31eab1e4e695fb226031034203b0b50c72b411) | [open PR #251](https://github.com/the-static-collective/the-haunted-toaster/pull/251) |
@@ -204,6 +208,7 @@ Default: `main` · other refs: 183 · open PRs: 27
 | [lumi/color-drift-v1](https://github.com/the-static-collective/the-haunted-toaster/tree/lumi/color-drift-v1) | [163ac223d4](https://github.com/the-static-collective/the-haunted-toaster/commit/163ac223d41073b2a1e92b40f6b762a95ee9e5a8) | Retained ref; disposition unverified |
 | [lumi/fix-alpha5-build-identity-test](https://github.com/the-static-collective/the-haunted-toaster/tree/lumi/fix-alpha5-build-identity-test) | [87f7cce55c](https://github.com/the-static-collective/the-haunted-toaster/commit/87f7cce55cf25837f0deab4abae4977d73d8e154) | Retained ref; disposition unverified |
 | [lumi/internal-response-lift](https://github.com/the-static-collective/the-haunted-toaster/tree/lumi/internal-response-lift) | [9ae8e070c5](https://github.com/the-static-collective/the-haunted-toaster/commit/9ae8e070c5ffe21355ed7650aa3b6d9b16e3848c) | Retained ref; disposition unverified |
+| [memory/six-up-prism-001](https://github.com/the-static-collective/the-haunted-toaster/tree/memory/six-up-prism-001) | [17194c34b9](https://github.com/the-static-collective/the-haunted-toaster/commit/17194c34b9b248fd1edfa975c0cd6142d97b658a) | [open PR #306](https://github.com/the-static-collective/the-haunted-toaster/pull/306) |
 | [mutant/archaeology-281](https://github.com/the-static-collective/the-haunted-toaster/tree/mutant/archaeology-281) | [3b1b08e368](https://github.com/the-static-collective/the-haunted-toaster/commit/3b1b08e368f189fd3d05a143cb2e55a383f63ba1) | Retained ref; disposition unverified |
 | [mutant/video-phrase-archaeology-carrier](https://github.com/the-static-collective/the-haunted-toaster/tree/mutant/video-phrase-archaeology-carrier) | [d774559490](https://github.com/the-static-collective/the-haunted-toaster/commit/d7745594905cc8a042c207dddba43115160f7c2b) | Retained ref; disposition unverified |
 | [navigation-aperture-2026-09-27](https://github.com/the-static-collective/the-haunted-toaster/tree/navigation-aperture-2026-09-27) | [eb445936b8](https://github.com/the-static-collective/the-haunted-toaster/commit/eb445936b87c9b876c1ab283067650112fddc344) | [open PR #300](https://github.com/the-static-collective/the-haunted-toaster/pull/300) |
@@ -223,6 +228,7 @@ Default: `main` · other refs: 183 · open PRs: 27
 | [rescue/166-current-spine-implementation](https://github.com/the-static-collective/the-haunted-toaster/tree/rescue/166-current-spine-implementation) | [0f967b8f7f](https://github.com/the-static-collective/the-haunted-toaster/commit/0f967b8f7f0544bf94160611a60fa3c9232504e9) | [open PR #218](https://github.com/the-static-collective/the-haunted-toaster/pull/218) |
 | [rescue/beta-receipt-memory-loop-v2](https://github.com/the-static-collective/the-haunted-toaster/tree/rescue/beta-receipt-memory-loop-v2) | [fe769e62dd](https://github.com/the-static-collective/the-haunted-toaster/commit/fe769e62dd668c52e10e96cdac3a195a4e206a4e) | [open PR #217](https://github.com/the-static-collective/the-haunted-toaster/pull/217) |
 | [rescue/beta-receipt-memory-loop-v2-review](https://github.com/the-static-collective/the-haunted-toaster/tree/rescue/beta-receipt-memory-loop-v2-review) | [fe769e62dd](https://github.com/the-static-collective/the-haunted-toaster/commit/fe769e62dd668c52e10e96cdac3a195a4e206a4e) | Retained ref; disposition unverified |
+| [resurrection/video-eating-mutation-mixer-001](https://github.com/the-static-collective/the-haunted-toaster/tree/resurrection/video-eating-mutation-mixer-001) | [3997a11051](https://github.com/the-static-collective/the-haunted-toaster/commit/3997a110516ecd770cb0f0509c70d11455f7a009) | [open PR #305](https://github.com/the-static-collective/the-haunted-toaster/pull/305) |
 | [slice-d-foreign-material-v1](https://github.com/the-static-collective/the-haunted-toaster/tree/slice-d-foreign-material-v1) | [f4a575db65](https://github.com/the-static-collective/the-haunted-toaster/commit/f4a575db65d1bdb9cc5e7b462c30226660d4b804) | [open PR #222](https://github.com/the-static-collective/the-haunted-toaster/pull/222) |
 | [tdd/elastic-topology-response-task1-red](https://github.com/the-static-collective/the-haunted-toaster/tree/tdd/elastic-topology-response-task1-red) | [f13e80af5a](https://github.com/the-static-collective/the-haunted-toaster/commit/f13e80af5a2e09ba6a307fb5de031b8c6b0e8f26) | Retained ref; disposition unverified |
 | [tdd/elastic-topology-response-task2-red](https://github.com/the-static-collective/the-haunted-toaster/tree/tdd/elastic-topology-response-task2-red) | [e568eb9b99](https://github.com/the-static-collective/the-haunted-toaster/commit/e568eb9b994cae06d5e0de0bab9f1783cc423b8a) | Retained ref; disposition unverified |
@@ -231,6 +237,7 @@ Default: `main` · other refs: 183 · open PRs: 27
 | [tdd/elastic-topology-response-task5-red](https://github.com/the-static-collective/the-haunted-toaster/tree/tdd/elastic-topology-response-task5-red) | [cf4a209f08](https://github.com/the-static-collective/the-haunted-toaster/commit/cf4a209f082ef12a29e17e6fad9e5e342a9f6bdd) | Retained ref; disposition unverified |
 | [tdd/elastic-topology-response-task6-red](https://github.com/the-static-collective/the-haunted-toaster/tree/tdd/elastic-topology-response-task6-red) | [01ee694563](https://github.com/the-static-collective/the-haunted-toaster/commit/01ee694563e6516e40b07037d998ba01e4733070) | Retained ref; disposition unverified |
 | [test/alpha9-field-witness-receipt](https://github.com/the-static-collective/the-haunted-toaster/tree/test/alpha9-field-witness-receipt) | [7fe9474b40](https://github.com/the-static-collective/the-haunted-toaster/commit/7fe9474b40b4c27341b50f19f9b0a429e77c95dd) | Retained ref; disposition unverified |
+| [topology/v000-test-floor](https://github.com/the-static-collective/the-haunted-toaster/tree/topology/v000-test-floor) | [de38bbec26](https://github.com/the-static-collective/the-haunted-toaster/commit/de38bbec26be83660a2ff4a1f41800250def4b28) | Retained ref; disposition unverified |
 | [walk/a-foreign-material-current-spine](https://github.com/the-static-collective/the-haunted-toaster/tree/walk/a-foreign-material-current-spine) | [f397d8bdb3](https://github.com/the-static-collective/the-haunted-toaster/commit/f397d8bdb39d4e0df7a536399508257a40df1b07) | [open PR #235](https://github.com/the-static-collective/the-haunted-toaster/pull/235) |
 | [walk/b-topology-family](https://github.com/the-static-collective/the-haunted-toaster/tree/walk/b-topology-family) | [d183cf199f](https://github.com/the-static-collective/the-haunted-toaster/commit/d183cf199fe44e30132d76105d5d2deb65cc56c6) | [open PR #238](https://github.com/the-static-collective/the-haunted-toaster/pull/238) |
 | [walk/c-listener-reentry](https://github.com/the-static-collective/the-haunted-toaster/tree/walk/c-listener-reentry) | [badb30d92c](https://github.com/the-static-collective/the-haunted-toaster/commit/badb30d92cee7669bb2761fc5d39be38d49eca82) | [open PR #240](https://github.com/the-static-collective/the-haunted-toaster/pull/240) |
@@ -311,12 +318,13 @@ Default: `main` · other refs: 27 · open PRs: 27
 
 [Repository](https://github.com/the-static-collective/the-haunted-pol-ish-roids) · [Branches](https://github.com/the-static-collective/the-haunted-pol-ish-roids/branches) · [Pull requests](https://github.com/the-static-collective/the-haunted-pol-ish-roids/pulls)
 
-Default: `main` · other refs: 2 · open PRs: 1
+Default: `main` · other refs: 3 · open PRs: 2
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#5](https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/5) | World, not the feed: make photographs into doors | `world-not-the-feed-001` → `main` | 2026-09-27 |
 | [#4](https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/4) | docs: plan Haunted Polaroid first living-camera proof | `plan/haunted-polaroid-first-proof` → `main` | 2026-08-31 |
 
 ### Retained nondefault branches
@@ -325,6 +333,7 @@ Default: `main` · other refs: 2 · open PRs: 1
 | --- | --- | --- |
 | [design/haunted-polaroid-organism](https://github.com/the-static-collective/the-haunted-pol-ish-roids/tree/design/haunted-polaroid-organism) | [4889ee33eb](https://github.com/the-static-collective/the-haunted-pol-ish-roids/commit/4889ee33eba02ee097bb3554ae1a9565e9dc728a) | Retained ref; disposition unverified |
 | [plan/haunted-polaroid-first-proof](https://github.com/the-static-collective/the-haunted-pol-ish-roids/tree/plan/haunted-polaroid-first-proof) | [5ced71881d](https://github.com/the-static-collective/the-haunted-pol-ish-roids/commit/5ced71881dfbd94df843b486699654c8c8c4ef4f) | [open PR #4](https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/4) |
+| [world-not-the-feed-001](https://github.com/the-static-collective/the-haunted-pol-ish-roids/tree/world-not-the-feed-001) | [8c44216f8f](https://github.com/the-static-collective/the-haunted-pol-ish-roids/commit/8c44216f8f975b1f8d125b8272d7fe6f1bd259f6) | [open PR #5](https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/5) |
 
 ## toaster-lab
 
@@ -362,7 +371,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/appliance-prophet-king) · [Branches](https://github.com/the-static-collective/appliance-prophet-king/branches) · [Pull requests](https://github.com/the-static-collective/appliance-prophet-king/pulls)
 
-Default: `main` · other refs: 0 · open PRs: 0 · empty repository
+Default: `main` · other refs: 1 · open PRs: 0
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [001-nutoaster-prototype](https://github.com/the-static-collective/appliance-prophet-king/tree/001-nutoaster-prototype) | [a15388ebf2](https://github.com/the-static-collective/appliance-prophet-king/commit/a15388ebf2391807559d7cfb334a15c9f3f57992) | Retained ref; disposition unverified |
 
 ## SEAMforge
 
