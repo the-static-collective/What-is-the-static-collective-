@@ -23,16 +23,41 @@ This is a door into the Git terrain, not a second authority over the projects. I
 | Playable worlds, rooms, scripture, and strange inquiry | [Worlds and inquiry](generated/worlds-and-inquiry.md) | [WORLDSEED](https://github.com/the-static-collective/WORLDSEED), [Upper Room](https://github.com/the-static-collective/Upper-room), [National Treasure](https://github.com/the-static-collective/national-treasure) |
 | The desk, the machine, and small operating probes | [Operating surfaces](generated/operating-surfaces.md) | [Static Workbench](https://github.com/the-static-collective/static-workbench), [STATIC OS](https://github.com/the-static-collective/static-os) |
 | A repo created since the editorial pass | [Unplaced public repos](generated/unplaced.md) | Its own README and history |
+| A project that went quiet, lost its front door, has an unexplained surviving body, or carries a translation scar | [RECOVERY — Fossils with bodies](generated/recovery.md) | The cited project body; recovery records and aperture observations are dated witnesses, never automatic closure |
 
 The shelves are addresses for navigation, not a hierarchy of importance. A repo may participate in more than one field; it appears on one shelf so the inventory can be scanned without duplicates.
 
-## Three extra lenses
+## Four extra lenses
 
 * [**DELTA — What moved?**](generated/delta.md) is machine-observed change between the previous persisted public snapshot and the newest changed snapshot. It records repository membership, branch birth/disappearance, branch-head movement, and PRs entering or leaving the open set without assigning motive or disposition. No-change refreshes leave the last meaningful delta intact rather than replacing it with an empty report.
 * [**RELATIONS — Connective tissue**](generated/relations.md) is human-curated and source-linked. Automation validates and renders admitted edges, but it cannot invent a relationship or promote one into project authority.
+* [**RECOVERY — Fossils with bodies**](generated/recovery.md) is a dated, source-admitted re-entry lens for repositories whose surviving implementation, question, or lineage is easier to miss than to understand. Quiet topology alone never qualifies a project. A readable current front door may be recorded only as `current_aperture_only`; it cannot answer an old connected-memory question, produce `recovery not needed`, or close the historical search. **Translation scars** preserve tensions between surviving records—especially where a declared ending and a later neighboring body do not collapse into one clean lineage. `UNKNOWN` remains a valid result.
 * [**VISIBILITY-APERTURE-001 — Work in the light**](visibility-aperture.md) treats visibility as a separate observer axis. Public is the default when reality permits it; restriction requires a reason, and crossing visibility never implies promotion, maturity, authority, or canon.
 
-Together they keep **movement**, **meaning**, and **who may witness what** from collapsing into one another.
+Together they keep **movement**, **meaning**, **recoverability**, and **who may witness what** from collapsing into one another.
+
+### Connected-memory archaeology
+
+When the question is “what was that old connected thing?”, the recovery order is deliberately **body-first**, not name-first:
+
+1. inspect surviving implementation/specimens at the relevant time;
+2. inspect dated commits, branches, PRs, issues, and transfer receipts;
+3. inspect references *from neighboring projects* that remember the relation from the other side;
+4. reconstruct the local state and unresolved transitions;
+5. only then compare the current README and repository name against that recovered body.
+
+A repository name is an address. A README is a front door at some point in time. Neither is automatically the historical identity of the thing behind it.
+
+    repo name != recovered purpose
+    current README != historical handoff
+    neighboring reference != proven lineage
+    later clean description != proof that nothing was lost
+
+If those sources diverge, preserve the divergence as a translation scar and keep the historical search open.
+
+A human may also restore context that Git no longer carries. Record that as **human-recovered origin context**, not as machine inference or repository-proven fact. Adjacent Git sources may corroborate manifestations without independently proving the remembered chronology.
+
+Prior chat history is a separate evidence layer. Recovered user turns may reconstruct proposal chronology more faithfully than a later README, but they still do not prove that a proposal landed. Chat-history events should distinguish **precursor candidates**, **direct named lineage**, and **later revisits** rather than forcing one clean ancestry.
 
 ## Some witnessed crossings
 

@@ -20,6 +20,7 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "atlas" / "constellations.json"
 RELATIONS = ROOT / "atlas" / "relations.json"
+RECOVERY = ROOT / "atlas" / "recovery.json"
 OUTPUT = ROOT / "atlas" / "generated"
 GITHUB = "https://github.com"
 API = "https://api.github.com"
@@ -246,6 +247,368 @@ def validate_relations(raw, snapshot):
     return relations
 
 
+def validate_recovery(raw, snapshot):
+    """Validate curated re-entry records without turning quiet topology into status."""
+    if raw.get("schema") != "static-git-atlas/recovery-v1":
+        raise ValueError("Unsupported recovery catalog schema")
+    known = {repo["name"] for repo in snapshot["repositories"]}
+    seen = set()
+    entries = []
+    for entry in raw.get("entries", []):
+        entry_id = entry.get("id", "")
+        if not entry_id or entry_id in seen:
+            raise ValueError("Recovery id must be nonempty and unique")
+        seen.add(entry_id)
+        repositories = entry.get("repositories") or []
+        if not repositories:
+            raise ValueError("Recovery entry must name at least one repository: " + entry_id)
+        for name in repositories:
+            if name not in known:
+                raise ValueError(f"Recovery entry {entry_id} references nonpublic or missing repo: {name}")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(entry.get("reviewed_on", ""))):
+            raise ValueError("Recovery entry requires reviewed_on YYYY-MM-DD: " + entry_id)
+        if not entry.get("signals"):
+            raise ValueError("Recovery entry requires at least one observed signal: " + entry_id)
+        for field in ("body_claim", "purpose_claim", "last_witnessed_change", "disposition", "reentry_door"):
+            if not str(entry.get(field, "")).strip():
+                raise ValueError(f"Recovery entry {entry_id} requires {field}")
+        evidence = entry.get("evidence_urls") or []
+        if not evidence or any(not str(url).startswith("https://") for url in evidence):
+            raise ValueError("Recovery evidence must contain HTTPS URLs: " + entry_id)
+        human_context = entry.get("human_recovered_context")
+        if human_context is not None:
+            if human_context.get("witness_type") != "human_origin_recovery":
+                raise ValueError("Human recovered context must declare human_origin_recovery: " + entry_id)
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(human_context.get("recorded_on", ""))):
+                raise ValueError("Human recovered context requires recorded_on YYYY-MM-DD: " + entry_id)
+            for field in ("claim", "corroboration_posture"):
+                if not str(human_context.get(field, "")).strip():
+                    raise ValueError(f"Human recovered context {entry_id} requires {field}")
+            corroborating = human_context.get("corroborating_urls") or []
+            if any(not str(url).startswith("https://") for url in corroborating):
+                raise ValueError("Human recovered corroboration URLs must be HTTPS: " + entry_id)
+        chat_history = entry.get("chat_history_recovery")
+        if chat_history is not None:
+            if chat_history.get("source_type") != "prior_chat_recovery":
+                raise ValueError("Chat-history recovery must declare prior_chat_recovery: " + entry_id)
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(chat_history.get("recovered_on", ""))):
+                raise ValueError("Chat-history recovery requires recovered_on YYYY-MM-DD: " + entry_id)
+            if not str(chat_history.get("posture", "")).strip() or not str(chat_history.get("compression", "")).strip():
+                raise ValueError("Chat-history recovery requires posture and compression: " + entry_id)
+            events = chat_history.get("events") or []
+            if not events:
+                raise ValueError("Chat-history recovery requires at least one event: " + entry_id)
+            allowed_relations = {"precursor_candidate", "direct_lineage", "later_revisit"}
+            previous = None
+            for event in events:
+                at = str(event.get("at", ""))
+                if not re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z", at):
+                    raise ValueError("Chat-history event requires UTC timestamp: " + entry_id)
+                if previous is not None and at < previous:
+                    raise ValueError("Chat-history events must be chronological: " + entry_id)
+                previous = at
+                if event.get("source_kind") != "user_turn_recovered":
+                    raise ValueError("Chat-history events must remain user_turn_recovered: " + entry_id)
+                if event.get("relation") not in allowed_relations:
+                    raise ValueError("Chat-history event requires bounded relation: " + entry_id)
+                if not str(event.get("detail", "")).strip():
+                    raise ValueError("Chat-history event requires detail: " + entry_id)
+        entries.append({
+            "id": entry_id,
+            "repositories": list(repositories),
+            "reviewed_on": entry["reviewed_on"],
+            "signals": list(entry["signals"]),
+            "body_claim": entry["body_claim"],
+            "purpose_claim": entry["purpose_claim"],
+            "last_witnessed_change": entry["last_witnessed_change"],
+            "disposition": entry["disposition"],
+            "reentry_door": entry["reentry_door"],
+            "evidence_urls": list(evidence),
+            "human_recovered_context": human_context,
+            "chat_history_recovery": chat_history,
+        })
+    return entries
+
+
+def validate_recovery_seeds(raw, snapshot):
+    """Validate surveyed repository seeds separately from recovered implementation bodies."""
+    known = {repo["name"] for repo in snapshot["repositories"]}
+    seen = set()
+    seeds = []
+    for seed in raw.get("seeds", []):
+        seed_id = seed.get("id", "")
+        if not seed_id or seed_id in seen:
+            raise ValueError("Recovery seed id must be nonempty and unique")
+        seen.add(seed_id)
+        repository = seed.get("repository", "")
+        if repository not in known:
+            raise ValueError(
+                f"Recovery seed {seed_id} references nonpublic or missing repo: {repository}")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(seed.get("reviewed_on", ""))):
+            raise ValueError("Recovery seed requires reviewed_on YYYY-MM-DD: " + seed_id)
+        if not seed.get("signals"):
+            raise ValueError("Recovery seed requires at least one observed signal: " + seed_id)
+        for field in ("observed_public_state", "residual_fog", "next_recovery_action"):
+            if not str(seed.get(field, "")).strip():
+                raise ValueError(f"Recovery seed {seed_id} requires {field}")
+        evidence = seed.get("evidence_urls") or []
+        if not evidence or any(not str(url).startswith("https://") for url in evidence):
+            raise ValueError("Recovery seed evidence must contain HTTPS URLs: " + seed_id)
+        seeds.append({
+            "id": seed_id,
+            "repository": repository,
+            "reviewed_on": seed["reviewed_on"],
+            "signals": list(seed["signals"]),
+            "observed_public_state": seed["observed_public_state"],
+            "residual_fog": seed["residual_fog"],
+            "next_recovery_action": seed["next_recovery_action"],
+            "evidence_urls": list(evidence),
+        })
+    return seeds
+
+
+def validate_recovery_reviews(raw, snapshot):
+    """Validate curated aperture observations without allowing them to close recovery."""
+    known = {repo["name"] for repo in snapshot["repositories"]}
+    allowed_results = {"legible_reentry_observed", "disposition_claim_observed"}
+    seen = set()
+    reviews = []
+    for review in raw.get("reviews", []):
+        review_id = review.get("id", "")
+        if not review_id or review_id in seen:
+            raise ValueError("Recovery review id must be nonempty and unique")
+        seen.add(review_id)
+        repository = review.get("repository", "")
+        if repository not in known:
+            raise ValueError(
+                f"Recovery review {review_id} references nonpublic or missing repo: {repository}")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(review.get("reviewed_on", ""))):
+            raise ValueError("Recovery review requires reviewed_on YYYY-MM-DD: " + review_id)
+        result = review.get("result", "")
+        if result not in allowed_results:
+            raise ValueError("Recovery review has unsupported result: " + review_id)
+        if review.get("scope") != "current_aperture_only":
+            raise ValueError("Recovery review must stay current_aperture_only: " + review_id)
+        if review.get("recovery_open") is not True:
+            raise ValueError("Recovery review may observe an aperture but cannot close recovery: " + review_id)
+        if not str(review.get("note", "")).strip():
+            raise ValueError("Recovery review requires note: " + review_id)
+        evidence = review.get("evidence_urls") or []
+        if not evidence or any(not str(url).startswith("https://") for url in evidence):
+            raise ValueError("Recovery review evidence must contain HTTPS URLs: " + review_id)
+        reviews.append({
+            "id": review_id,
+            "repository": repository,
+            "reviewed_on": review["reviewed_on"],
+            "result": result,
+            "scope": "current_aperture_only",
+            "recovery_open": True,
+            "note": review["note"],
+            "evidence_urls": list(evidence),
+        })
+    return reviews
+
+
+def validate_translation_scars(raw, snapshot):
+    """Validate tensions between surviving records without resolving them into lineage."""
+    known = {repo["name"] for repo in snapshot["repositories"]}
+    allowed_grades = {"aperture_tension_only", "cross_temporal_evidence"}
+    seen = set()
+    scars = []
+    for scar in raw.get("translation_scars", []):
+        scar_id = scar.get("id", "")
+        if not scar_id or scar_id in seen:
+            raise ValueError("Translation scar id must be nonempty and unique")
+        seen.add(scar_id)
+        repositories = scar.get("repositories") or []
+        if len(repositories) < 2:
+            raise ValueError("Translation scar requires at least two repositories: " + scar_id)
+        for name in repositories:
+            if name not in known:
+                raise ValueError(
+                    f"Translation scar {scar_id} references nonpublic or missing repo: {name}")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(scar.get("reviewed_on", ""))):
+            raise ValueError("Translation scar requires reviewed_on YYYY-MM-DD: " + scar_id)
+        grade = scar.get("evidence_grade", "")
+        if grade not in allowed_grades:
+            raise ValueError("Translation scar requires a bounded evidence_grade: " + scar_id)
+        if scar.get("historical_search_open") is not True:
+            raise ValueError("Translation scar must keep historical search open: " + scar_id)
+        for field in ("observed_tension", "interpretation", "not_claimed", "reentry_question"):
+            if not str(scar.get(field, "")).strip():
+                raise ValueError(f"Translation scar {scar_id} requires {field}")
+        evidence = scar.get("evidence_urls") or []
+        if len(evidence) < 2 or any(not str(url).startswith("https://") for url in evidence):
+            raise ValueError("Translation scar requires at least two HTTPS evidence URLs: " + scar_id)
+        scars.append({
+            "id": scar_id,
+            "repositories": list(repositories),
+            "reviewed_on": scar["reviewed_on"],
+            "evidence_grade": grade,
+            "historical_search_open": True,
+            "observed_tension": scar["observed_tension"],
+            "interpretation": scar["interpretation"],
+            "not_claimed": scar["not_claimed"],
+            "reentry_question": scar["reentry_question"],
+            "evidence_urls": list(evidence),
+        })
+    return scars
+
+
+def render_recovery(entries, snapshot, seeds=None, reviews=None, translation_scars=None):
+    owner = snapshot["owner"]
+    seeds = seeds or []
+    reviews = reviews or []
+    translation_scars = translation_scars or []
+    lines = [
+        "---",
+        'description: "Dated, evidence-linked re-entry records for public repositories whose surviving body is easier to miss than to understand."',
+        "---", "", "# RECOVERY — Fossils with bodies", "",
+        "This lens exists for a specific failure mode: a repository can retain useful code,",
+        "contracts, or a distinctive question while its public doorway becomes missing,",
+        "generic, misleading, or silent about what happened next.", "",
+        "**Quiet topology is not a fossil verdict.** A repository enters this page only after",
+        "a bounded human recovery pass cites a surviving body. These are dated re-entry",
+        "records, not live status labels. UNKNOWN is preserved when the public record does",
+        "not establish a later disposition.", "",
+        "## Connected-memory protocol", "",
+        "When the question is **what was this old connected thing?**, do not recover it from",
+        "the repository name or current README alone. Reconstruct local state first from the",
+        "surviving body, dated commits, branches/PRs/issues, and inbound/outbound references",
+        "from neighboring projects. Read the current README afterward as one aperture onto",
+        "that history. If the sources disagree, preserve the disagreement as a translation",
+        "scar instead of making the cleaner story win.", "",
+        "    repo name != recovered purpose",
+        "    current README != historical handoff",
+        "    neighboring reference != proven lineage",
+        "    branch/PR body != landed mainline", "",
+        "| Repository(s) | Reviewed | Observed signals | Disposition evidence |",
+        "| --- | --- | --- | --- |",
+    ]
+    for entry in entries:
+        repo_links = ", ".join(
+            f"[{md(name)}]({repository_url(owner, name)})"
+            for name in entry["repositories"])
+        signals = ", ".join(TICK + md(signal) + TICK for signal in entry["signals"])
+        lines.append(
+            f"| {repo_links} | {md(entry['reviewed_on'])} | {signals} | "
+            f"{md(entry['disposition'])} |")
+    for entry in entries:
+        lines += ["", "## " + " + ".join(entry["repositories"]), "",
+                  f"**Reviewed:** {md(entry['reviewed_on'])}", "",
+                  "**Surviving body**", "", md(entry["body_claim"]), "",
+                  "**Original question / purpose**", "", md(entry["purpose_claim"]), "",
+                  "**Last witnessed development**", "", md(entry["last_witnessed_change"]), "",
+                  "**Disposition evidence**", "", md(entry["disposition"]), "",
+                  "**Re-entry door**", "", md(entry["reentry_door"]), ""]
+        human_context = entry.get("human_recovered_context")
+        if human_context:
+            lines += ["**Human-recovered origin context**", "",
+                      f"**Recorded:** {md(human_context['recorded_on'])} · "
+                      f"**Witness type:** {TICK}{md(human_context['witness_type'])}{TICK}", "",
+                      md(human_context["claim"]), "",
+                      "**Corroboration posture**", "",
+                      md(human_context["corroboration_posture"]), ""]
+            corroborating = human_context.get("corroborating_urls") or []
+            if corroborating:
+                lines += ["**Adjacent corroborating sources**", ""]
+                for index, url in enumerate(corroborating, start=1):
+                    lines.append(f"* [corroboration {index}]({url})")
+                lines.append("")
+        chat_history = entry.get("chat_history_recovery")
+        if chat_history:
+            lines += ["**Recovered prior-chat lineage**", "",
+                      f"**Recovered:** {md(chat_history['recovered_on'])} · "
+                      f"**Source type:** {TICK}{md(chat_history['source_type'])}{TICK}", "",
+                      md(chat_history["posture"]), "",
+                      f"**Compression:** {md(chat_history['compression'])}", ""]
+            for event in chat_history["events"]:
+                lines.append(
+                    f"* {TICK}{md(event['at'])}{TICK} · {TICK}{md(event['relation'])}{TICK} — "
+                    f"{md(event['detail'])}")
+            lines.append("")
+        lines += ["**Evidence**", ""]
+        for index, url in enumerate(entry["evidence_urls"], start=1):
+            lines.append(f"* [source {index}]({url})")
+    if seeds:
+        lines += ["", "## Surveyed seeds — body not yet recovered", "",
+                  "These repositories were touched in the same recovery pass, but the public Git",
+                  "aperture does not yet carry enough project-owned body to reconstruct the",
+                  "original particular. They remain explicit search obligations, not empty labels.", "",
+                  "| Repository | Reviewed | Observed signals | Residual fog |",
+                  "| --- | --- | --- | --- |"]
+        for seed in seeds:
+            repo_link = f"[{md(seed['repository'])}]({repository_url(owner, seed['repository'])})"
+            signals = ", ".join(TICK + md(signal) + TICK for signal in seed["signals"])
+            lines.append(
+                f"| {repo_link} | {md(seed['reviewed_on'])} | {signals} | "
+                f"{md(seed['residual_fog'])} |")
+        for seed in seeds:
+            lines += ["", "### " + seed["repository"], "",
+                      f"**Reviewed:** {md(seed['reviewed_on'])}", "",
+                      "**Observed public state**", "", md(seed["observed_public_state"]), "",
+                      "**Residual fog**", "", md(seed["residual_fog"]), "",
+                      "**Next recovery action**", "", md(seed["next_recovery_action"]), "",
+                      "**Evidence**", ""]
+            for index, url in enumerate(seed["evidence_urls"], start=1):
+                lines.append(f"* [source {index}]({url})")
+    if reviews:
+        lines += ["", "## Surveyed bodies — current aperture observations", "",
+                  "These repositories were inspected in the same inch-by-inch pass and currently",
+                  "carry a legible front door or an explicit disposition claim. That is only an",
+                  "observation about the present aperture. It does **not** close recovery, certify",
+                  "lineage, or decide that no older meaning was lost in translation.", "",
+                  "| Repository | Reviewed | Scope | Observed aperture | Recovery | Note |",
+                  "| --- | --- | --- | --- | --- | --- |"]
+        for review in reviews:
+            repo_link = f"[{md(review['repository'])}]({repository_url(owner, review['repository'])})"
+            result = review["result"].replace("_", " ")
+            lines.append(
+                f"| {repo_link} | {md(review['reviewed_on'])} | {TICK}{md(review['scope'])}{TICK} | "
+                f"{TICK}{md(result)}{TICK} | {TICK}OPEN{TICK} | {md(review['note'])} |")
+        lines += ["", "These rows are deliberately **not historical reconstruction**. A legible front door",
+                  "is evidence of navigability at review time, not proof of what an older connected",
+                  "thing meant or how it became its neighbors.", ""]
+
+    if translation_scars:
+        lines += ["", "## TRANSLATION SCARS — where the story does not collapse cleanly", "",
+                  "A translation scar records a tension between surviving sources that becomes",
+                  "misleading if flattened into a neat succession story. The scar preserves the",
+                  "difference and leaves the historical question open.", ""]
+        for scar in translation_scars:
+            repo_links = ", ".join(
+                f"[{md(name)}]({repository_url(owner, name)})"
+                for name in scar["repositories"])
+            lines += ["", "### " + " ↔ ".join(scar["repositories"]), "",
+                      f"**Reviewed:** {md(scar['reviewed_on'])}", "",
+                      f"**Evidence grade:** {TICK}{md(scar['evidence_grade'])}{TICK}", "",
+                      f"**Historical search:** {TICK}OPEN{TICK}", "",
+                      "**Bodies in tension:** " + repo_links, "",
+                      "**Observed tension**", "", md(scar["observed_tension"]), "",
+                      "**Interpretation**", "", md(scar["interpretation"]), "",
+                      "**Not claimed**", "", md(scar["not_claimed"]), "",
+                      "**Re-entry question**", "", md(scar["reentry_question"]), "",
+                      "**Evidence**", ""]
+            for index, url in enumerate(scar["evidence_urls"], start=1):
+                lines.append(f"* [source {index}]({url})")
+
+    lines += ["", "## Reading rule", "",
+              "Recovery does not resurrect authority. It restores a route back to a surviving",
+              "particular so a later human can decide whether to continue, compare, preserve,",
+              "supersede, or simply understand it.", "",
+              "    quiet != dead",
+              "    similar != descended",
+              "    surviving code != current canon",
+              "    missing explanation != permission to invent one",
+              "    UNKNOWN = preserved fog",
+              "    legible now != recovery complete",
+              "    declared disposition != final historical truth",
+              "    translation scars stay open",
+              "    repo name != recovered purpose",
+              "    current README != historical handoff", ""]
+    return "\n".join(lines)
+
+
 def render_delta(delta):
     counts = [
         ("Repositories added", len(delta["added_repositories"])),
@@ -441,7 +804,7 @@ def render_index(groups, snapshot):
         f"**{total_branches} branch refs** (including defaults) · **{total_prs} open PRs**.",
         "",
         f"[Living map]({MAP_URL}) · [DELTA](delta.md) · [RELATIONS](relations.md) · "
-        f"[VISIBILITY](../visibility-aperture.md) · "
+        f"[RECOVERY](recovery.md) · [VISIBILITY](../visibility-aperture.md) · "
         f"[Machine-readable snapshot](public-index.json) · "
         f"[GitHub owner]({GITHUB}/{snapshot['owner']})", "",
         "Only repositories confirmed public at capture time are present. The account also has",
@@ -483,11 +846,12 @@ def render_index(groups, snapshot):
     return "\n".join(lines)
 
 
-def output_files(snapshot, catalog, relations, delta=None):
+def output_files(snapshot, catalog, relations, recovery, recovery_seeds, recovery_reviews, translation_scars, delta=None):
     groups = category_sets(catalog, snapshot)
     files = {
         "README.md": render_index(groups, snapshot),
         "relations.md": render_relations(relations, snapshot),
+        "recovery.md": render_recovery(recovery, snapshot, recovery_seeds, recovery_reviews, translation_scars),
     }
     for group, members in groups:
         files[group["slug"] + ".md"] = render_group(group, members, snapshot)
@@ -505,6 +869,7 @@ def main(argv=None):
     args = parser.parse_args(argv)
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
     relation_source = json.loads(RELATIONS.read_text(encoding="utf-8"))
+    recovery_source = json.loads(RECOVERY.read_text(encoding="utf-8"))
     if args.input:
         raw = json.loads(args.input.read_text(encoding="utf-8"))
     else:
@@ -522,9 +887,13 @@ def main(argv=None):
     snapshot.setdefault("captured_at", raw.get("observed_at") or datetime.now(
         timezone.utc).isoformat(timespec="seconds"))
     relations = validate_relations(relation_source, snapshot)
+    recovery = validate_recovery(recovery_source, snapshot)
+    recovery_seeds = validate_recovery_seeds(recovery_source, snapshot)
+    recovery_reviews = validate_recovery_reviews(recovery_source, snapshot)
+    translation_scars = validate_translation_scars(recovery_source, snapshot)
     delta_missing = not (OUTPUT / "delta.md").exists() or not (OUTPUT / "delta.json").exists()
     delta = topology_delta(old, snapshot) if topology_changed or delta_missing else None
-    files = output_files(snapshot, catalog, relations, delta)
+    files = output_files(snapshot, catalog, relations, recovery, recovery_seeds, recovery_reviews, translation_scars, delta)
     stale = [name for name, content in files.items()
              if not (OUTPUT / name).exists() or
              (OUTPUT / name).read_text(encoding="utf-8") != content]
