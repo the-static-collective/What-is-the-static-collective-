@@ -1,155 +1,19 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-09-27T13:00:32+00:00",
-  "to_captured_at": "2026-09-28T15:25:30+00:00",
+  "from_captured_at": "2026-09-28T15:25:30+00:00",
+  "to_captured_at": "2026-09-29T14:03:52+00:00",
   "added_repositories": [],
   "removed_repositories": [],
-  "added_branches": [
-    {
-      "repository": "appliance-prophet-king",
-      "branch": "001-nutoaster-prototype",
-      "sha": "a15388ebf2391807559d7cfb334a15c9f3f57992"
-    },
-    {
-      "repository": "appliance-prophet-king",
-      "branch": "main",
-      "sha": "242cf850a0a09eb9f0aa6b2fc0c47ec6bba335bc"
-    },
-    {
-      "repository": "revival",
-      "branch": "revival-003-choice-surface",
-      "sha": "c0e2fe8a872fe40d033046f5d81fc6eaa0cea06b"
-    },
-    {
-      "repository": "revival",
-      "branch": "revival-004-curiosity-room",
-      "sha": "cbef94c8b5cd24a091e600768d8f2ae098d0c3a2"
-    },
-    {
-      "repository": "revival",
-      "branch": "revival-005-curiosity-atlas",
-      "sha": "f62b792969aa6de511581288ec68cd43a1fd5943"
-    },
-    {
-      "repository": "revival",
-      "branch": "revival-006-real-food",
-      "sha": "d2c0d40c850fa679801b8ee38757931e76514b81"
-    },
-    {
-      "repository": "revival",
-      "branch": "revival-007-lemma-doors",
-      "sha": "d5e61a421ac3aabf83130155f0c19c6122ba5749"
-    },
-    {
-      "repository": "revival",
-      "branch": "revival-008-aleph-tav-instrument",
-      "sha": "e5d89adcc50267af42201cc8c7486dd60b1c54dc"
-    },
-    {
-      "repository": "revival",
-      "branch": "revival-009-object-relations",
-      "sha": "eec712ab0d55e56f032be0565ec84d444c02942d"
-    },
-    {
-      "repository": "revival",
-      "branch": "revival-010-first-world",
-      "sha": "443a3c76ce896c2f43a4f77b7e7ef32c6553d6a3"
-    },
-    {
-      "repository": "revival",
-      "branch": "revival-011-world-has-places",
-      "sha": "13db5eec5050d1e4ec3ce109206b42b5ca5db293"
-    },
-    {
-      "repository": "revival",
-      "branch": "revival-012-earned-names",
-      "sha": "d0b198b9f1af857ed98aea814ba0b49e7446ef22"
-    },
-    {
-      "repository": "the-haunted-pol-ish-roids",
-      "branch": "world-not-the-feed-001",
-      "sha": "8c44216f8f975b1f8d125b8272d7fe6f1bd259f6"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "feat/linear-v3-test-build",
-      "sha": "c85ffad2aaed6abcdeffcb8ae7c335dfbe8cc256"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "memory/six-up-prism-001",
-      "sha": "17194c34b9b248fd1edfa975c0cd6142d97b658a"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "resurrection/video-eating-mutation-mixer-001",
-      "sha": "3997a110516ecd770cb0f0509c70d11455f7a009"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "topology/v000-test-floor",
-      "sha": "de38bbec26be83660a2ff4a1f41800250def4b28"
-    },
-    {
-      "repository": "What-is-the-static-collective-",
-      "branch": "pirate-law-001",
-      "sha": "2f8f384a718a4cc80544bf1bd681143714fc2182"
-    }
-  ],
+  "added_branches": [],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "revival",
-      "branch": "main",
-      "from_sha": "496152b6753f9694b2cb002b8f9b78a201955f8f",
-      "to_sha": "af1e00c24e3d7c6eb6b1ac39ef59bf894e2385fd"
-    },
-    {
-      "repository": "What-is-the-static-collective-",
-      "branch": "feat/living-map-recovery-fossil-001",
-      "from_sha": "1ee977b138adbc30a83dc4c2d632d021f622ed6c",
-      "to_sha": "afe6e6cfa6878492c399e0d86a975a4c8663c55e"
-    },
-    {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "89cf8986a53f095c384a66312d5f092fb632ea3e",
-      "to_sha": "aa89a697e48634fca79b3d1ae6006687e36267cc"
+      "from_sha": "aa89a697e48634fca79b3d1ae6006687e36267cc",
+      "to_sha": "4f147c8d99915a28fc4203e648f7d077ff56cb5b"
     }
   ],
-  "opened_prs": [
-    {
-      "repository": "the-haunted-pol-ish-roids",
-      "number": 5,
-      "title": "World, not the feed: make photographs into doors",
-      "url": "https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/5",
-      "head_branch": "world-not-the-feed-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 301,
-      "title": "LINEAR v3: make Linear a family, not a pose",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/301",
-      "head_branch": "feat/linear-v3-test-build",
-      "base_branch": "design/video-phrase-grammar-v1"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 305,
-      "title": "RESURRECTION-001: Video Eating × Mutation Mixer",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/305",
-      "head_branch": "resurrection/video-eating-mutation-mixer-001",
-      "base_branch": "feat/linear-v3-test-build"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 306,
-      "title": "MEMORY-001: Six-Up Memory Prism",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/306",
-      "head_branch": "memory/six-up-prism-001",
-      "base_branch": "resurrection/video-eating-mutation-mixer-001"
-    }
-  ],
+  "opened_prs": [],
   "left_open_prs": []
 }
