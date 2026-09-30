@@ -177,12 +177,13 @@ Default: `main` · other refs: 76 · open PRs: 16
 
 [Repository](https://github.com/the-static-collective/the-daily-slice) · [Branches](https://github.com/the-static-collective/the-daily-slice/branches) · [Pull requests](https://github.com/the-static-collective/the-daily-slice/pulls)
 
-Default: `main` · other refs: 75 · open PRs: 15
+Default: `main` · other refs: 76 · open PRs: 16
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#78](https://github.com/the-static-collective/the-daily-slice/pull/78) | OCTOPUS MADE THIS — Mutation Line 002: The Library That Returns Stories | `octopus/return-room-wrecking-crew-001` → `main` | 2026-09-30 |
 | [#77](https://github.com/the-static-collective/the-daily-slice/pull/77) | Daily Slice: 🦇 BABYBODY — The Thing That Learned What Kind of Line It Needed | `slice/2026-09-25-babybody-pressure-to-tissue` → `main` | 2026-09-25 |
 | [#75](https://github.com/the-static-collective/the-daily-slice/pull/75) | Daily Slice: Previously Unseen or Measured — Turn the Dial Before You Name the Unknown | `slice/2026-09-23-previously-unseen-or-measured` → `main` | 2026-09-23 |
 | [#74](https://github.com/the-static-collective/the-daily-slice/pull/74) | Daily Slice: The Last Is the New First — inherited-beginnings phase lift | `slice/2026-09-22-last-new-first-phase-lift` → `main` | 2026-09-22 |
@@ -217,6 +218,7 @@ Default: `main` · other refs: 75 · open PRs: 15
 | [lighthouse/3-6-7-12-megazord](https://github.com/the-static-collective/the-daily-slice/tree/lighthouse/3-6-7-12-megazord) | [66f41d6531](https://github.com/the-static-collective/the-daily-slice/commit/66f41d65317d4d7cfb2dbd53df2869a4c6419cff) | Retained ref; disposition unverified |
 | [narrative/2026-08-28-receipt-carrying-experimentalist](https://github.com/the-static-collective/the-daily-slice/tree/narrative/2026-08-28-receipt-carrying-experimentalist) | [fdf5a49eae](https://github.com/the-static-collective/the-daily-slice/commit/fdf5a49eaeadd799a01e593ba20eff71ef23debd) | [open PR #35](https://github.com/the-static-collective/the-daily-slice/pull/35) |
 | [narrative/2026-08-29-three-clock-receipt](https://github.com/the-static-collective/the-daily-slice/tree/narrative/2026-08-29-three-clock-receipt) | [70718276f0](https://github.com/the-static-collective/the-daily-slice/commit/70718276f0b2c4fad7d64674c21627d48986fbaf) | [open PR #36](https://github.com/the-static-collective/the-daily-slice/pull/36) |
+| [octopus/return-room-wrecking-crew-001](https://github.com/the-static-collective/the-daily-slice/tree/octopus/return-room-wrecking-crew-001) | [8d8bc717fc](https://github.com/the-static-collective/the-daily-slice/commit/8d8bc717fcaac7db81fd913268ea8da50d0d3e56) | [open PR #78](https://github.com/the-static-collective/the-daily-slice/pull/78) |
 | [plan/jubilee-engine-megazord](https://github.com/the-static-collective/the-daily-slice/tree/plan/jubilee-engine-megazord) | [1ff6b37211](https://github.com/the-static-collective/the-daily-slice/commit/1ff6b37211daf2637537d911831c2d343d609a5a) | Retained ref; disposition unverified |
 | [reconcile/cat-human-fiber-current-main](https://github.com/the-static-collective/the-daily-slice/tree/reconcile/cat-human-fiber-current-main) | [0981a6a0e3](https://github.com/the-static-collective/the-daily-slice/commit/0981a6a0e3b56dcc5035e6281ffb3784c51c53f0) | Retained ref; disposition unverified |
 | [reconcile/shapes-in-the-fog-current-main](https://github.com/the-static-collective/the-daily-slice/tree/reconcile/shapes-in-the-fog-current-main) | [1d80142b13](https://github.com/the-static-collective/the-daily-slice/commit/1d80142b13e3254e2208283d7f93a3e2793d2323) | Retained ref; disposition unverified |

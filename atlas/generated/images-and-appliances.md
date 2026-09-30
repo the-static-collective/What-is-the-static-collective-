@@ -389,7 +389,7 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/tranchNOSE) · [Branches](https://github.com/the-static-collective/tranchNOSE/branches) · [Pull requests](https://github.com/the-static-collective/tranchNOSE/pulls)
 
-Default: `main` · other refs: 3 · open PRs: 1
+Default: `main` · other refs: 8 · open PRs: 1
 
 ### Open pull requests
 
@@ -404,6 +404,11 @@ Default: `main` · other refs: 3 · open PRs: 1
 | [agent/001a-local-field-dynamics](https://github.com/the-static-collective/tranchNOSE/tree/agent/001a-local-field-dynamics) | [3a940d7036](https://github.com/the-static-collective/tranchNOSE/commit/3a940d70360339dbe2dde0b3a684dd667829618f) | Retained ref; disposition unverified |
 | [exp/001a-receipt-contract](https://github.com/the-static-collective/tranchNOSE/tree/exp/001a-receipt-contract) | [080d20e0e4](https://github.com/the-static-collective/tranchNOSE/commit/080d20e0e40c3dbba11f2cfc2453a3e71b85196a) | Retained ref; disposition unverified |
 | [experiment/machine-weather-001](https://github.com/the-static-collective/tranchNOSE/tree/experiment/machine-weather-001) | [e45d0644ab](https://github.com/the-static-collective/tranchNOSE/commit/e45d0644ab1903df700535edb4c0f2d60bfb4354) | [open PR #4](https://github.com/the-static-collective/tranchNOSE/pull/4) |
+| [play/channel-001-differentiated-witnesses](https://github.com/the-static-collective/tranchNOSE/tree/play/channel-001-differentiated-witnesses) | [d10ae46513](https://github.com/the-static-collective/tranchNOSE/commit/d10ae465139723fd5cd4a4771eb8aa989a687325) | Retained ref; disposition unverified |
+| [play/difference-001-relational-witness](https://github.com/the-static-collective/tranchNOSE/tree/play/difference-001-relational-witness) | [6b43d251a6](https://github.com/the-static-collective/tranchNOSE/commit/6b43d251a6ed9d19261f1ce6f3b440c779e0e067) | Retained ref; disposition unverified |
+| [robotics/r001-body-state](https://github.com/the-static-collective/tranchNOSE/tree/robotics/r001-body-state) | [b3be18c403](https://github.com/the-static-collective/tranchNOSE/commit/b3be18c40328f63d2ecfcbf7887c157241fe7d03) | Retained ref; disposition unverified |
+| [robotics/r002-address-answer](https://github.com/the-static-collective/tranchNOSE/tree/robotics/r002-address-answer) | [cca4a771af](https://github.com/the-static-collective/tranchNOSE/commit/cca4a771af764f56c36596a94c93f41951a8d824) | Retained ref; disposition unverified |
+| [robotics/r003-counterfactual-swaps](https://github.com/the-static-collective/tranchNOSE/tree/robotics/r003-counterfactual-swaps) | [4738c908d7](https://github.com/the-static-collective/tranchNOSE/commit/4738c908d764638097c0fdd9c201c5fefe89ac08) | Retained ref; disposition unverified |
 
 ## iron-lung
 

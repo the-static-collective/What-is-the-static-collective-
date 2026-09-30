@@ -4136,6 +4136,60 @@
       "open_prs": []
     },
     {
+      "name": "reLATTE",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "feat/r1-r2-canonical-identity",
+          "sha": "dccf7a670c366c740d7cd27eef8c7adb337f6e3c"
+        },
+        {
+          "name": "feat/r3-sovereign-receiver",
+          "sha": "fe837e86e992ebb2e5367a4f0b3d7ac353bcc7b0"
+        },
+        {
+          "name": "main",
+          "sha": "ba1cc5628dab4abde66f001ed31e0ef9b3038433"
+        },
+        {
+          "name": "national-coffee-day-relatte-smash",
+          "sha": "db8f3191615f8b8fc74e04bf245d6f4c6f88c3c1"
+        },
+        {
+          "name": "research/groups-administration-cloud",
+          "sha": "eaef768b0176c1f3d286ca7f3c30565cbb029595"
+        },
+        {
+          "name": "spec/r3-sovereign-receiver",
+          "sha": "fe837e86e992ebb2e5367a4f0b3d7ac353bcc7b0"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 6,
+          "title": "Research group-scoped administration without cloud sovereignty",
+          "head_branch": "research/groups-administration-cloud",
+          "head_sha": "eaef768b0176c1f3d286ca7f3c30565cbb029595",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-09-29T19:00:50Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/6"
+        },
+        {
+          "number": 1,
+          "title": "National Coffee Day: pressure-test lineage beyond transfer",
+          "head_branch": "national-coffee-day-relatte-smash",
+          "head_sha": "db8f3191615f8b8fc74e04bf245d6f4c6f88c3c1",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-09-29T16:33:03Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/1"
+        }
+      ]
+    },
+    {
       "name": "reMIX-reCURVrePAIR",
       "visibility": "public",
       "default_branch": "main",
@@ -4556,8 +4610,28 @@
           "sha": "810b1e80070174517935b4fcfc08f938473df213"
         },
         {
+          "name": "kinship-001-first-morning-pack",
+          "sha": "cda5c2e19b4e214a19940ea20e28dd9a80d8329b"
+        },
+        {
+          "name": "kinship-001-radio-community-pilot",
+          "sha": "0392a629d057524b1c9ee4e5fb2c931860ab3908"
+        },
+        {
+          "name": "kinship-002-fall-share-room",
+          "sha": "f1a2a9322ebfcc618368d3dd2efc08e6f6ef66c4"
+        },
+        {
+          "name": "kinship-002-single-file-handoff",
+          "sha": "3cd19b16bfc6c5f7de2586f4081934c70dff0190"
+        },
+        {
+          "name": "kinship-003-toaster-memory",
+          "sha": "a005ddc77bd8f6d8fa530a22ee30c01624a6d041"
+        },
+        {
           "name": "main",
-          "sha": "92dbec38840e190e302d36cafd37cdef1a02dd79"
+          "sha": "8b86a81cdb5d04b12843648583c9f19d9ea5a8bb"
         }
       ],
       "open_prs": [
@@ -5502,6 +5576,10 @@
           "sha": "70718276f0b2c4fad7d64674c21627d48986fbaf"
         },
         {
+          "name": "octopus/return-room-wrecking-crew-001",
+          "sha": "8d8bc717fcaac7db81fd913268ea8da50d0d3e56"
+        },
+        {
           "name": "plan/jubilee-engine-megazord",
           "sha": "1ff6b37211daf2637537d911831c2d343d609a5a"
         },
@@ -5747,6 +5825,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 78,
+          "title": "OCTOPUS MADE THIS — Mutation Line 002: The Library That Returns Stories",
+          "head_branch": "octopus/return-room-wrecking-crew-001",
+          "head_sha": "8d8bc717fcaac7db81fd913268ea8da50d0d3e56",
+          "head_repo": "the-static-collective/the-daily-slice",
+          "base_branch": "main",
+          "updated_at": "2026-09-30T02:54:06Z",
+          "url": "https://github.com/the-static-collective/the-daily-slice/pull/78"
+        },
         {
           "number": 77,
           "title": "Daily Slice: 🦇 BABYBODY — The Thing That Learned What Kind of Line It Needed",
@@ -7827,7 +7915,27 @@
         },
         {
           "name": "main",
-          "sha": "7cf886e2fe7f0ee09798117d980220a0009a4537"
+          "sha": "78390bec527a6c7c2bd15c7f6bb879a245df3382"
+        },
+        {
+          "name": "play/channel-001-differentiated-witnesses",
+          "sha": "d10ae465139723fd5cd4a4771eb8aa989a687325"
+        },
+        {
+          "name": "play/difference-001-relational-witness",
+          "sha": "6b43d251a6ed9d19261f1ce6f3b440c779e0e067"
+        },
+        {
+          "name": "robotics/r001-body-state",
+          "sha": "b3be18c40328f63d2ecfcbf7887c157241fe7d03"
+        },
+        {
+          "name": "robotics/r002-address-answer",
+          "sha": "cca4a771af764f56c36596a94c93f41951a8d824"
+        },
+        {
+          "name": "robotics/r003-counterfactual-swaps",
+          "sha": "4738c908d764638097c0fdd9c201c5fefe89ac08"
         }
       ],
       "open_prs": [
@@ -7842,6 +7950,23 @@
           "url": "https://github.com/the-static-collective/tranchNOSE/pull/4"
         }
       ]
+    },
+    {
+      "name": "trust",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "build/genesis-native-0.1.0",
+          "sha": "cdb71ba748a85d460e5b9c39228942a817b3fa38"
+        },
+        {
+          "name": "main",
+          "sha": "4badf5218a526b857fa72cb33f9f258ff5e13bbd"
+        }
+      ],
+      "open_prs": []
     },
     {
       "name": "unfolding-ledger",
@@ -8166,7 +8291,7 @@
         },
         {
           "name": "main",
-          "sha": "4f147c8d99915a28fc4203e648f7d077ff56cb5b"
+          "sha": "c74f6acbebba127602c45428e754557053755fb9"
         },
         {
           "name": "pattern/gestalt-recursion",
@@ -8553,5 +8678,5 @@
       ]
     }
   ],
-  "captured_at": "2026-09-29T14:03:52+00:00"
+  "captured_at": "2026-09-30T13:40:59+00:00"
 }

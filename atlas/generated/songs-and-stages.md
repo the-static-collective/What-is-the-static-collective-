@@ -49,7 +49,7 @@ Default: `main` · other refs: 17 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/static-live) · [Branches](https://github.com/the-static-collective/static-live/branches) · [Pull requests](https://github.com/the-static-collective/static-live/pulls)
 
-Default: `main` · other refs: 12 · open PRs: 4
+Default: `main` · other refs: 17 · open PRs: 4
 
 ### Open pull requests
 
@@ -76,6 +76,11 @@ Default: `main` · other refs: 12 · open PRs: 4
 | [feat/lifestream-002-moment-inbox](https://github.com/the-static-collective/static-live/tree/feat/lifestream-002-moment-inbox) | [4d901b9593](https://github.com/the-static-collective/static-live/commit/4d901b9593b3c299c1acd9c524fbc44ef3ecaa0f) | Retained ref; disposition unverified |
 | [feat/live-001-band-can-lose-a-limb](https://github.com/the-static-collective/static-live/tree/feat/live-001-band-can-lose-a-limb) | [b1b9818196](https://github.com/the-static-collective/static-live/commit/b1b981819601d920678d55d87dc1c7f534457da7) | Retained ref; disposition unverified |
 | [feat/midi-live-001-band-has-handles](https://github.com/the-static-collective/static-live/tree/feat/midi-live-001-band-has-handles) | [810b1e8007](https://github.com/the-static-collective/static-live/commit/810b1e80070174517935b4fcfc08f938473df213) | [open PR #3](https://github.com/the-static-collective/static-live/pull/3) |
+| [kinship-001-first-morning-pack](https://github.com/the-static-collective/static-live/tree/kinship-001-first-morning-pack) | [cda5c2e19b](https://github.com/the-static-collective/static-live/commit/cda5c2e19b4e214a19940ea20e28dd9a80d8329b) | Retained ref; disposition unverified |
+| [kinship-001-radio-community-pilot](https://github.com/the-static-collective/static-live/tree/kinship-001-radio-community-pilot) | [0392a629d0](https://github.com/the-static-collective/static-live/commit/0392a629d057524b1c9ee4e5fb2c931860ab3908) | Retained ref; disposition unverified |
+| [kinship-002-fall-share-room](https://github.com/the-static-collective/static-live/tree/kinship-002-fall-share-room) | [f1a2a9322e](https://github.com/the-static-collective/static-live/commit/f1a2a9322ebfcc618368d3dd2efc08e6f6ef66c4) | Retained ref; disposition unverified |
+| [kinship-002-single-file-handoff](https://github.com/the-static-collective/static-live/tree/kinship-002-single-file-handoff) | [3cd19b16bf](https://github.com/the-static-collective/static-live/commit/3cd19b16bfc6c5f7de2586f4081934c70dff0190) | Retained ref; disposition unverified |
+| [kinship-003-toaster-memory](https://github.com/the-static-collective/static-live/tree/kinship-003-toaster-memory) | [a005ddc77b](https://github.com/the-static-collective/static-live/commit/a005ddc77bd8f6d8fa530a22ee30c01624a6d041) | Retained ref; disposition unverified |
 
 ## jublEchat
 

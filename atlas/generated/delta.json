@@ -1,19 +1,155 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-09-28T15:25:30+00:00",
-  "to_captured_at": "2026-09-29T14:03:52+00:00",
-  "added_repositories": [],
+  "from_captured_at": "2026-09-29T14:03:52+00:00",
+  "to_captured_at": "2026-09-30T13:40:59+00:00",
+  "added_repositories": [
+    "reLATTE",
+    "trust"
+  ],
   "removed_repositories": [],
-  "added_branches": [],
+  "added_branches": [
+    {
+      "repository": "reLATTE",
+      "branch": "feat/r1-r2-canonical-identity",
+      "sha": "dccf7a670c366c740d7cd27eef8c7adb337f6e3c"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "feat/r3-sovereign-receiver",
+      "sha": "fe837e86e992ebb2e5367a4f0b3d7ac353bcc7b0"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "main",
+      "sha": "ba1cc5628dab4abde66f001ed31e0ef9b3038433"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "national-coffee-day-relatte-smash",
+      "sha": "db8f3191615f8b8fc74e04bf245d6f4c6f88c3c1"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "research/groups-administration-cloud",
+      "sha": "eaef768b0176c1f3d286ca7f3c30565cbb029595"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "spec/r3-sovereign-receiver",
+      "sha": "fe837e86e992ebb2e5367a4f0b3d7ac353bcc7b0"
+    },
+    {
+      "repository": "static-live",
+      "branch": "kinship-001-first-morning-pack",
+      "sha": "cda5c2e19b4e214a19940ea20e28dd9a80d8329b"
+    },
+    {
+      "repository": "static-live",
+      "branch": "kinship-001-radio-community-pilot",
+      "sha": "0392a629d057524b1c9ee4e5fb2c931860ab3908"
+    },
+    {
+      "repository": "static-live",
+      "branch": "kinship-002-fall-share-room",
+      "sha": "f1a2a9322ebfcc618368d3dd2efc08e6f6ef66c4"
+    },
+    {
+      "repository": "static-live",
+      "branch": "kinship-002-single-file-handoff",
+      "sha": "3cd19b16bfc6c5f7de2586f4081934c70dff0190"
+    },
+    {
+      "repository": "static-live",
+      "branch": "kinship-003-toaster-memory",
+      "sha": "a005ddc77bd8f6d8fa530a22ee30c01624a6d041"
+    },
+    {
+      "repository": "the-daily-slice",
+      "branch": "octopus/return-room-wrecking-crew-001",
+      "sha": "8d8bc717fcaac7db81fd913268ea8da50d0d3e56"
+    },
+    {
+      "repository": "tranchNOSE",
+      "branch": "play/channel-001-differentiated-witnesses",
+      "sha": "d10ae465139723fd5cd4a4771eb8aa989a687325"
+    },
+    {
+      "repository": "tranchNOSE",
+      "branch": "play/difference-001-relational-witness",
+      "sha": "6b43d251a6ed9d19261f1ce6f3b440c779e0e067"
+    },
+    {
+      "repository": "tranchNOSE",
+      "branch": "robotics/r001-body-state",
+      "sha": "b3be18c40328f63d2ecfcbf7887c157241fe7d03"
+    },
+    {
+      "repository": "tranchNOSE",
+      "branch": "robotics/r002-address-answer",
+      "sha": "cca4a771af764f56c36596a94c93f41951a8d824"
+    },
+    {
+      "repository": "tranchNOSE",
+      "branch": "robotics/r003-counterfactual-swaps",
+      "sha": "4738c908d764638097c0fdd9c201c5fefe89ac08"
+    },
+    {
+      "repository": "trust",
+      "branch": "build/genesis-native-0.1.0",
+      "sha": "cdb71ba748a85d460e5b9c39228942a817b3fa38"
+    },
+    {
+      "repository": "trust",
+      "branch": "main",
+      "sha": "4badf5218a526b857fa72cb33f9f258ff5e13bbd"
+    }
+  ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
+      "repository": "static-live",
+      "branch": "main",
+      "from_sha": "92dbec38840e190e302d36cafd37cdef1a02dd79",
+      "to_sha": "8b86a81cdb5d04b12843648583c9f19d9ea5a8bb"
+    },
+    {
+      "repository": "tranchNOSE",
+      "branch": "main",
+      "from_sha": "7cf886e2fe7f0ee09798117d980220a0009a4537",
+      "to_sha": "78390bec527a6c7c2bd15c7f6bb879a245df3382"
+    },
+    {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "aa89a697e48634fca79b3d1ae6006687e36267cc",
-      "to_sha": "4f147c8d99915a28fc4203e648f7d077ff56cb5b"
+      "from_sha": "4f147c8d99915a28fc4203e648f7d077ff56cb5b",
+      "to_sha": "c74f6acbebba127602c45428e754557053755fb9"
     }
   ],
-  "opened_prs": [],
+  "opened_prs": [
+    {
+      "repository": "reLATTE",
+      "number": 1,
+      "title": "National Coffee Day: pressure-test lineage beyond transfer",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/1",
+      "head_branch": "national-coffee-day-relatte-smash",
+      "base_branch": "main"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 6,
+      "title": "Research group-scoped administration without cloud sovereignty",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/6",
+      "head_branch": "research/groups-administration-cloud",
+      "base_branch": "main"
+    },
+    {
+      "repository": "the-daily-slice",
+      "number": 78,
+      "title": "OCTOPUS MADE THIS — Mutation Line 002: The Library That Returns Stories",
+      "url": "https://github.com/the-static-collective/the-daily-slice/pull/78",
+      "head_branch": "octopus/return-room-wrecking-crew-001",
+      "base_branch": "main"
+    }
+  ],
   "left_open_prs": []
 }
