@@ -133,3 +133,16 @@ test('HTML-looking text is stored inert and unchanged', () => {
   assert.equal(made.receipt.visibility, 'local');
   assert.equal(made.receipt.publication_disposition, 'held_for_review');
 });
+
+
+test('contribution count never grants selection or crossing authority', () => {
+  const boostedDoor = { ...door, contribution_count: 999999, reputation: 999999 };
+  let session = createRelaySession([boostedDoor]);
+  assert.equal(session.active, null);
+  session = selectRelayDoor(session, boostedDoor.door_id);
+  assert.equal(session.active.state, 'selected');
+  assert.throws(
+    () => completeRelayMake(session, { body: 'No shortcut', publication_disposition: 'local_only' }),
+    /cross/i,
+  );
+});
