@@ -88,6 +88,7 @@ These are the five failure classes most likely to hurt a real visitor and are pi
 
 **Files:**
 - Create: `orchard/src/relay-garden/contracts.mjs`
+- Create: `orchard/src/relay-garden/index.mjs`
 - Create: `orchard/tests/relay-garden-contracts.test.mjs`
 - Modify: `orchard/src/index.mjs`
 
@@ -157,9 +158,17 @@ publication_proposed
 
 `publication_proposed` must remain compatible only with local artifact visibility in v0.
 
-- [ ] **Step 4: Re-export Relay Garden contracts**
+- [ ] **Step 4: Add the Relay Garden module boundary**
 
-Add a namespace export from `orchard/src/index.mjs` without renaming existing PICKER exports.
+Create `orchard/src/relay-garden/index.mjs` and re-export the Task 1 contract API from it.
+
+Add exactly this namespace boundary to `orchard/src/index.mjs` without renaming existing PICKER exports:
+
+```js
+export * as relayGarden from './relay-garden/index.mjs';
+```
+
+Later tasks extend the same namespace rather than adding Relay Garden symbols directly to ORCHARD's top-level export surface.
 
 - [ ] **Step 5: Run GREEN**
 
@@ -173,7 +182,7 @@ Expected: new tests PASS and all existing ORCHARD tests remain PASS.
 - [ ] **Step 6: Commit**
 
 ```bash
-git add orchard/src/relay-garden/contracts.mjs orchard/src/index.mjs orchard/tests/relay-garden-contracts.test.mjs
+git add orchard/src/relay-garden/contracts.mjs orchard/src/relay-garden/index.mjs orchard/src/index.mjs orchard/tests/relay-garden-contracts.test.mjs
 git commit -m "feat(orchard): add relay garden contracts"
 ```
 
@@ -287,6 +296,7 @@ no generated door is selected or crossed automatically
 generated door source_refs include the parent artifact and receipt
 choosing a generated door requires a fresh select and cross cycle
 two generations preserve the first receipt byte-for-byte
+the Pet Sitter fixture yields multiple lawful projections (continue + translate + witness)
 refused publication yields a compost/repair or hold-and-name-gap door
 unknown artifact kind still yields hold-and-name-gap rather than zero doors
 ```
@@ -364,6 +374,15 @@ the-static-collective/the-haunted-toaster README.md
 ```
 
 Record `verified_at` using the execution date and preserve owner-local status wording.
+
+Exact source URLs:
+
+```text
+https://github.com/the-static-collective/What-is-the-static-collective-/blob/main/the-pet-sitter-featured-story-seed/README.md
+https://github.com/the-static-collective/What-is-the-static-collective-/blob/main/README.md
+https://github.com/the-static-collective/What-is-the-static-collective-/blob/main/CONTRIBUTING.md
+https://github.com/the-static-collective/the-haunted-toaster/blob/main/README.md
+```
 
 Current 2026-10-01 baseline:
 - Pet Sitter: featured original story seed; concept / not screenplay.
@@ -671,7 +690,8 @@ git commit -m "test(orchard): harden relay garden boundaries"
 - Create: `evidence/relay-garden-001-public-opening.md`
 
 **Interfaces:**
-- Pages artifact root: `orchard/`.
+- Pages staging directory: `pages-out/`.
+- Staging contains only `orchard/relay-garden/` and `orchard/src/` plus `.nojekyll`; tests, fixtures, CLI, and repository docs are not uploaded.
 - Target path after deployment: `/relay-garden/`.
 - Expected GitHub.com project-site URL shape: `https://the-static-collective.github.io/What-is-the-static-collective-/relay-garden/`.
 
@@ -691,8 +711,14 @@ Build job:
 - checkout;
 - Node 22;
 - `cd orchard && npm test && npm run check`;
+- recreate `pages-out/`;
+- copy `orchard/relay-garden/` to `pages-out/relay-garden/`;
+- copy `orchard/src/` to `pages-out/src/`;
+- create `pages-out/.nojekyll`;
 - configure Pages;
-- upload `orchard/`.
+- upload `pages-out/`.
+
+The deployed `relay-garden/app.mjs` keeps its `../src/index.mjs` import, which resolves inside this staged layout.
 
 Deploy job:
 - depends on build;
