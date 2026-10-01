@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Relay Garden — The Static Collective</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <p class="kicker">THE STATIC COLLECTIVE · RELAY GARDEN 001</p>
+      <h1>We made this. Now you get to make something.</h1>
+      <p class="lede">Choose one small door. Crossing is explicit. What you make stays local unless another owner later admits it.</p>
+    </header>
+
+    <section class="panel" aria-labelledby="starter-heading">
+      <p class="eyebrow">1 · Receive a door</p>
+      <h2 id="starter-heading">Everyone gets a chance to make something.</h2>
+      <div id="starter-doors" class="door-grid"></div>
+    </section>
+
+    <section class="panel crossing-panel" aria-labelledby="cross-heading">
+      <p class="eyebrow">2 · Select, then cross</p>
+      <h2 id="cross-heading">A door does not cross itself.</h2>
+      <div id="active-door" class="active-door">No door selected yet.</div>
+      <button id="cross-button" class="primary" type="button" disabled>Cross this door</button>
+    </section>
+
+    <section class="panel" aria-labelledby="make-heading">
+      <p class="eyebrow">3 · Make one thing</p>
+      <h2 id="make-heading">Move one stone.</h2>
+      <form id="make-form">
+        <fieldset id="make-fieldset" disabled>
+          <label for="make-body">Your local make</label>
+          <textarea id="make-body" rows="7" required></textarea>
+
+          <label for="publication-disposition">What should happen after the make?</label>
+          <select id="publication-disposition">
+            <option value="local_only">Keep local only</option>
+            <option value="held_for_review">Hold for review</option>
+            <option value="publication_proposed">Propose publication later</option>
+            <option value="refused">Refuse publication</option>
+          </select>
+          <p class="boundary">This choice records a disposition. It does not publish anything from this page.</p>
+          <button class="primary" type="submit">Make</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <section id="receipt-panel" class="panel receipt-panel" aria-labelledby="receipt-heading">
+      <p class="eyebrow">4 · Receipt</p>
+      <h2 id="receipt-heading">That changed the world a little.</h2>
+      <div id="receipt-content">No make yet.</div>
+    </section>
+
+    <section class="panel" aria-labelledby="chance-heading">
+      <p class="eyebrow">5 · Relay</p>
+      <h2 id="chance-heading">What can exist now</h2>
+      <div id="chance-set" class="door-grid">Make something first.</div>
+    </section>
+
+    <details id="trace-panel" class="panel trace-panel">
+      <summary>Trace this — why is this door here?</summary>
+      <div id="trace-content">Select a door to inspect its sources and owner.</div>
+    </details>
+
+    <section id="recovery-panel" class="panel recovery-panel" hidden>
+      <h2>Local garden held</h2>
+      <p>Could not reopen your local garden. The stored text has not been deleted.</p>
+      <button id="fresh-garden-button" type="button">Start a fresh local garden</button>
+    </section>
+
+    <footer class="footer">
+      <p id="status-line" aria-live="polite">Choose a door when you are ready.</p>
+      <div class="footer-actions">
+        <button id="export-button" type="button">Export local receipt bundle</button>
+        <button id="leave-button" type="button">Leave</button>
+      </div>
+      <p class="laws">MAKE ≠ PUBLISH · PUBLIC ≠ CANON · SEED ≠ SELECTION</p>
+    </footer>
+  </main>
+
+  <script type="module" src="./app.mjs"></script>
+</body>
+</html>
