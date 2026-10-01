@@ -142,3 +142,19 @@ test('unknown source kind falls back to hold-and-name-gap rather than zero doors
   assert.equal(chance.proposed_doors.length, 1);
   assert.equal(chance.proposed_doors[0].kind, 'hold-and-name-gap');
 });
+
+
+test('empty continuation template table falls back to hold-and-name-gap', () => {
+  const made = firstMake();
+  const chance = deriveChanceSet(
+    made.receipt,
+    made.artifact,
+    sourceDoor,
+    {
+      created_at: '2026-10-01T20:22:00Z',
+      templates: [],
+    },
+  );
+  assert.equal(chance.proposed_doors.length, 1);
+  assert.equal(chance.proposed_doors[0].kind, 'hold-and-name-gap');
+});
