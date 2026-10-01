@@ -120,3 +120,35 @@ test('saving a later generation preserves all earlier receipts', () => {
   assert.equal(loaded.bundle.session.receipts.length, 2);
   assert.equal(JSON.stringify(loaded.bundle.session.receipts[0]), firstReceipt);
 });
+
+
+test('restoring a stale crossed state never restores crossing authority', () => {
+  let session = createRelaySession([door]);
+  session = selectRelayDoor(session, 'door-1');
+  session = crossSelectedRelayDoor(session, { kind: 'human_selection' });
+  assert.equal(session.active.state, 'crossed');
+
+  const storage = memoryStorage();
+  saveRelayBundle(storage, createRelayBundle(session));
+  const loaded = loadRelayBundle(storage);
+
+  assert.equal(loaded.ok, true);
+  assert.equal(loaded.bundle.session.active, null);
+  assert.equal(loaded.bundle.resume_residuals[0].type, 'stale-active-crossing-held');
+});
+
+test('HTML-looking artifact text round-trips as inert string data', () => {
+  let session = createRelaySession([door]);
+  session = selectRelayDoor(session, 'door-1');
+  session = crossSelectedRelayDoor(session, { kind: 'human_selection' });
+  session = completeRelayMake(session, {
+    body: '<img src=x onerror=alert(1)>',
+    publication_disposition: 'publication_proposed',
+  }).session;
+
+  const parsed = parseRelayBundle(JSON.stringify(createRelayBundle(session)));
+  assert.equal(parsed.ok, true);
+  assert.equal(parsed.bundle.session.artifacts.at(-1).body, '<img src=x onerror=alert(1)>');
+  assert.equal(parsed.bundle.session.artifacts.at(-1).visibility, 'local');
+  assert.equal(parsed.bundle.session.receipts.at(-1).publication_disposition, 'publication_proposed');
+});
