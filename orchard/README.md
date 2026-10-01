@@ -71,3 +71,25 @@ python3 -m http.server 8765
 Then open the local `bench/` path in a browser. The bench reads attributed JSON through the browser's local file picker or drag/drop. It does not fetch remote material. `research` and `make` are intentionally visible but disabled until lawful owner adapters exist.
 
 The provenance reveal is one gesture away through **How did this get here?**; the simple surface never changes the underlying authority boundary.
+
+
+## Relay Garden 001
+
+Relay Garden is ORCHARD's public generative participation mode:
+
+```text
+door -> human select -> explicit cross -> one local make -> receipt -> 1..3 proposed next doors
+```
+
+Open `/relay-garden/` from a static server to use the browser surface. The first slice is text-only and local-first: no account, upload, network mutation, automatic publication, or automatic descendant crossing.
+
+```text
+EVERYONE GETS A DOOR.
+EVERYTHING MADE MAKES ANOTHER DOOR.
+
+DOOR != CROSSING
+MAKE != PUBLISH
+PUBLIC != CANON
+```
+
+The browser persists a portable `relay-garden.bundle/v0` in local storage and can export it as JSON. Reopening a bundle never restores an active crossing; human selection and crossing must happen again.
