@@ -1,5 +1,6 @@
 import { digestValue } from '../canonical.mjs';
 import { assertRelayRecord } from './contracts.mjs';
+import { deriveChanceSet } from './chances.mjs';
 
 function clone(value) {
   return structuredClone(value);
@@ -133,14 +134,24 @@ export function completeRelayMake(session, input, options = {}) {
     created_at: createdAt,
   });
 
+  const chanceSet = deriveChanceSet(receipt, artifact, door, {
+    created_at: options.chance_created_at ?? createdAt,
+  });
+
   const next = clone(session);
   next.artifacts = [...next.artifacts, clone(artifact)];
   next.receipts = [...next.receipts, clone(receipt)];
+  next.chance_sets = [...next.chance_sets, clone(chanceSet)];
+  next.available_doors = [
+    ...next.available_doors,
+    ...chanceSet.proposed_doors.map(clone),
+  ];
   next.active = null;
 
   return {
     session: clone(requireSession(next)),
     artifact: clone(artifact),
     receipt: clone(receipt),
+    chanceSet: clone(chanceSet),
   };
 }
