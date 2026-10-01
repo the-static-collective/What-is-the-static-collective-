@@ -1,153 +1,153 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-09-29T14:03:52+00:00",
-  "to_captured_at": "2026-09-30T13:40:59+00:00",
+  "from_captured_at": "2026-09-30T13:40:59+00:00",
+  "to_captured_at": "2026-10-01T14:27:19+00:00",
   "added_repositories": [
-    "reLATTE",
-    "trust"
+    "lemonPRESS"
   ],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "reLATTE",
-      "branch": "feat/r1-r2-canonical-identity",
-      "sha": "dccf7a670c366c740d7cd27eef8c7adb337f6e3c"
+      "repository": "BananaSpork",
+      "branch": "feat/1201-door-001",
+      "sha": "22e283460d61bbb6a46fa657899affadaaa04484"
     },
     {
-      "repository": "reLATTE",
-      "branch": "feat/r3-sovereign-receiver",
-      "sha": "fe837e86e992ebb2e5367a4f0b3d7ac353bcc7b0"
+      "repository": "BananaSpork",
+      "branch": "feat/banana-relay-001",
+      "sha": "36c3d3cc502b5d43bc9287b361d993b152837f6d"
     },
     {
-      "repository": "reLATTE",
+      "repository": "lemonPRESS",
+      "branch": "genesis/crawler-press-001",
+      "sha": "ad1117503436e1cdc01f5298bad885ff031b6141"
+    },
+    {
+      "repository": "lemonPRESS",
+      "branch": "instrument/nunumath-playground-001",
+      "sha": "d78593f70f05b24bbbd8685453e9a0e962daf4f0"
+    },
+    {
+      "repository": "lemonPRESS",
+      "branch": "library/little-free-library-001",
+      "sha": "96fac7d23d37f3f749d4156f1672b28a81eee947"
+    },
+    {
+      "repository": "lemonPRESS",
       "branch": "main",
-      "sha": "ba1cc5628dab4abde66f001ed31e0ef9b3038433"
+      "sha": "02feb4454240d482a5e0e03258f24f8b5cc0b9f5"
     },
     {
-      "repository": "reLATTE",
-      "branch": "national-coffee-day-relatte-smash",
-      "sha": "db8f3191615f8b8fc74e04bf245d6f4c6f88c3c1"
+      "repository": "lemonPRESS",
+      "branch": "press/archive",
+      "sha": "34e93c395ef9bedaacc5ab36c04b98c02545407d"
     },
     {
-      "repository": "reLATTE",
-      "branch": "research/groups-administration-cloud",
-      "sha": "eaef768b0176c1f3d286ca7f3c30565cbb029595"
+      "repository": "lemonPRESS",
+      "branch": "press/crawler",
+      "sha": "f64357768cad5006985752ac57bcc02e9b6f80bc"
     },
     {
-      "repository": "reLATTE",
-      "branch": "spec/r3-sovereign-receiver",
-      "sha": "fe837e86e992ebb2e5367a4f0b3d7ac353bcc7b0"
+      "repository": "lemonPRESS",
+      "branch": "press/digital",
+      "sha": "f6f7dc1c82001dabdb5006d3741488d80973c35b"
     },
     {
-      "repository": "static-live",
-      "branch": "kinship-001-first-morning-pack",
-      "sha": "cda5c2e19b4e214a19940ea20e28dd9a80d8329b"
+      "repository": "lemonPRESS",
+      "branch": "press/physical",
+      "sha": "89fda6c7b102279541d1ee781f051e1436493ec2"
     },
     {
-      "repository": "static-live",
-      "branch": "kinship-001-radio-community-pilot",
-      "sha": "0392a629d057524b1c9ee4e5fb2c931860ab3908"
+      "repository": "lemonPRESS",
+      "branch": "release/free-library-001-archive",
+      "sha": "c9f1c85a6fa1d5d46c939ed55261c60563784bcf"
     },
     {
-      "repository": "static-live",
-      "branch": "kinship-002-fall-share-room",
-      "sha": "f1a2a9322ebfcc618368d3dd2efc08e6f6ef66c4"
+      "repository": "lemonPRESS",
+      "branch": "release/free-library-001-crawler",
+      "sha": "ffc573e4cce2446560f3ff547957625c92e35c39"
     },
     {
-      "repository": "static-live",
-      "branch": "kinship-002-single-file-handoff",
-      "sha": "3cd19b16bfc6c5f7de2586f4081934c70dff0190"
+      "repository": "lemonPRESS",
+      "branch": "release/free-library-001-digital",
+      "sha": "f94fc50071e077008e053da2a6f06808e1818e75"
     },
     {
-      "repository": "static-live",
-      "branch": "kinship-003-toaster-memory",
-      "sha": "a005ddc77bd8f6d8fa530a22ee30c01624a6d041"
+      "repository": "lemonPRESS",
+      "branch": "release/free-library-001-main",
+      "sha": "4adb5ba467fd732bcec58880cfcebe8f4b241836"
     },
     {
-      "repository": "the-daily-slice",
-      "branch": "octopus/return-room-wrecking-crew-001",
-      "sha": "8d8bc717fcaac7db81fd913268ea8da50d0d3e56"
+      "repository": "lemonPRESS",
+      "branch": "release/free-library-001-physical",
+      "sha": "a329edf38d97e2327ab2d109395c49c2dbaf2706"
     },
     {
-      "repository": "tranchNOSE",
-      "branch": "play/channel-001-differentiated-witnesses",
-      "sha": "d10ae465139723fd5cd4a4771eb8aa989a687325"
+      "repository": "lemonPRESS",
+      "branch": "release/free-library-002-archive",
+      "sha": "2fc3b976e9beb4ff5701f4d98895532eaefb299d"
     },
     {
-      "repository": "tranchNOSE",
-      "branch": "play/difference-001-relational-witness",
-      "sha": "6b43d251a6ed9d19261f1ce6f3b440c779e0e067"
+      "repository": "lemonPRESS",
+      "branch": "release/free-library-002-crawler",
+      "sha": "56bce38f8446ff92347a2d6ab6230486be943e56"
     },
     {
-      "repository": "tranchNOSE",
-      "branch": "robotics/r001-body-state",
-      "sha": "b3be18c40328f63d2ecfcbf7887c157241fe7d03"
+      "repository": "lemonPRESS",
+      "branch": "release/free-library-002-digital",
+      "sha": "15dd44bf0b75de837714d1afd97a951b5742df98"
     },
     {
-      "repository": "tranchNOSE",
-      "branch": "robotics/r002-address-answer",
-      "sha": "cca4a771af764f56c36596a94c93f41951a8d824"
+      "repository": "lemonPRESS",
+      "branch": "release/free-library-002-main",
+      "sha": "fffffe9d5917c50bd993ae3b869972bbbe06e777"
     },
     {
-      "repository": "tranchNOSE",
-      "branch": "robotics/r003-counterfactual-swaps",
-      "sha": "4738c908d764638097c0fdd9c201c5fefe89ac08"
+      "repository": "lemonPRESS",
+      "branch": "release/free-library-002-physical",
+      "sha": "803fd8bd4eb14dea39581bf6f09795106afa1283"
     },
     {
-      "repository": "trust",
-      "branch": "build/genesis-native-0.1.0",
-      "sha": "cdb71ba748a85d460e5b9c39228942a817b3fa38"
+      "repository": "lemonPRESS",
+      "branch": "work/haunted-library-001-crawler",
+      "sha": "6d88fa77dd5edfd59dc41d34af3ef71205475125"
     },
     {
-      "repository": "trust",
-      "branch": "main",
-      "sha": "4badf5218a526b857fa72cb33f9f258ff5e13bbd"
+      "repository": "lemonPRESS",
+      "branch": "work/haunted-library-001-main",
+      "sha": "3dbc855c1a1c0abaca991429d6c7a6d916682a59"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "static-live",
+      "repository": "BananaSpork",
       "branch": "main",
-      "from_sha": "92dbec38840e190e302d36cafd37cdef1a02dd79",
-      "to_sha": "8b86a81cdb5d04b12843648583c9f19d9ea5a8bb"
-    },
-    {
-      "repository": "tranchNOSE",
-      "branch": "main",
-      "from_sha": "7cf886e2fe7f0ee09798117d980220a0009a4537",
-      "to_sha": "78390bec527a6c7c2bd15c7f6bb879a245df3382"
+      "from_sha": "4d857a99d9caa14058cceb45379e3657ca1004c9",
+      "to_sha": "6738230a8557060dd59aabc19caf21826806d16f"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "4f147c8d99915a28fc4203e648f7d077ff56cb5b",
-      "to_sha": "c74f6acbebba127602c45428e754557053755fb9"
+      "from_sha": "c74f6acbebba127602c45428e754557053755fb9",
+      "to_sha": "445bab9106d5a8cf7c1acac45b3f2808d2c61394"
     }
   ],
   "opened_prs": [
     {
-      "repository": "reLATTE",
-      "number": 1,
-      "title": "National Coffee Day: pressure-test lineage beyond transfer",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/1",
-      "head_branch": "national-coffee-day-relatte-smash",
-      "base_branch": "main"
+      "repository": "lemonPRESS",
+      "number": 13,
+      "title": "HOW TO READ A HAUNTED LIBRARY — crawler edition 001",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/13",
+      "head_branch": "work/haunted-library-001-crawler",
+      "base_branch": "press/crawler"
     },
     {
-      "repository": "reLATTE",
-      "number": 6,
-      "title": "Research group-scoped administration without cloud sovereignty",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/6",
-      "head_branch": "research/groups-administration-cloud",
-      "base_branch": "main"
-    },
-    {
-      "repository": "the-daily-slice",
-      "number": 78,
-      "title": "OCTOPUS MADE THIS — Mutation Line 002: The Library That Returns Stories",
-      "url": "https://github.com/the-static-collective/the-daily-slice/pull/78",
-      "head_branch": "octopus/return-room-wrecking-crew-001",
+      "repository": "lemonPRESS",
+      "number": 14,
+      "title": "Admit HOW TO READ A HAUNTED LIBRARY as LP-HL-001",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/14",
+      "head_branch": "work/haunted-library-001-main",
       "base_branch": "main"
     }
   ],
