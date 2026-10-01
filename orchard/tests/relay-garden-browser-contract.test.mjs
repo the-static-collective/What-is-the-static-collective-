@@ -85,3 +85,9 @@ test('accessibility hooks are present for touch keyboard and status', async () =
   assert.match(html, /<label[^>]*for=["']make-body["']/);
   assert.match(html, /<label[^>]*for=["']publication-disposition["']/);
 });
+
+
+test('browser has no contribution-volume authority shortcut', async () => {
+  const { app } = await source();
+  assert.doesNotMatch(app, /contribution_count|reputation|streak_count|authority_score/);
+});
