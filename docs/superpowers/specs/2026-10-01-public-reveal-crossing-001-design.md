@@ -289,7 +289,9 @@ Examples:
 
 At least one starter path should avoid requiring reputation, prior contribution history, or deep Collective knowledge.
 
-Where practical, at least one starter path should also avoid requiring an account before the visitor can make something locally.
+The first executable slice must include at least one starter path that does not require an account before the visitor can make something locally.
+
+That path should also be usable with ordinary keyboard/touch input and should not require a media upload.
 
 Accountless making does not imply accountless publication.
 
@@ -487,11 +489,16 @@ Examples:
 - no safe public next door can be derived;
 - downstream owner refuses admission.
 
-A refusal must preserve the attempted relation where appropriate and should yield either:
+A refusal must preserve the attempted relation where appropriate and must still yield at least one bounded next chance.
 
-1. a local-only next chance;
+Preferred forms are:
+
+1. a local-only continuation;
 2. a repair/witness chance;
-3. compost explaining why no continuation was proposed.
+3. a compost-investigation door that names the failed or unsafe continuation;
+4. a bounded `hold-and-name-the-gap` door when no stronger continuation can be justified.
+
+The final form is deliberately modest: it creates a chance to witness the unresolved gap rather than inventing a false downstream action.
 
 The system must never fabricate success merely to maintain momentum.
 
@@ -614,6 +621,8 @@ PUBLIC REVEAL CROSSING 001 is implemented only when all of the following are dem
 - A visitor can reach Relay Garden from the public Front Room without learning repository anatomy first.
 - The first surface shows no more than five starter doors.
 - At least one starter door is usable without prior contribution history or reputation.
+- At least one starter door permits a local make without requiring an account.
+- At least one starter door is usable with ordinary keyboard/touch input and no media upload.
 
 ### Crossing discipline
 
