@@ -95,7 +95,11 @@ export function deriveChanceSet(receipt, artifact, sourceDoor, options = {}) {
   assertRelayRecord('artifact', artifact);
   assertRelayRecord('door', sourceDoor);
   const createdAt = options.created_at ?? new Date().toISOString();
-  const templates = templatesFor(receipt, sourceDoor).slice(0, 3);
+  const templates = (
+    Array.isArray(options.templates)
+      ? options.templates
+      : templatesFor(receipt, sourceDoor)
+  ).slice(0, 3);
   const proposedDoors = templates.map(([kind, label], index) => (
     makeDoor(kind, label, receipt, artifact, sourceDoor, createdAt, index)
   ));
