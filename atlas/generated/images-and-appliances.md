@@ -15,12 +15,16 @@ Visual and audio-video instruments, pantry experiments, and older appliance bran
 
 [Repository](https://github.com/the-static-collective/the-haunted-toaster) · [Branches](https://github.com/the-static-collective/the-haunted-toaster/branches) · [Pull requests](https://github.com/the-static-collective/the-haunted-toaster/pulls)
 
-Default: `main` · other refs: 187 · open PRs: 30
+Default: `main` · other refs: 191 · open PRs: 34
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#311](https://github.com/the-static-collective/the-haunted-toaster/pull/311) | Listening Eye v0: concept-album art-direction crossing | `feature/listening-eye-v0` → `main` | 2026-10-02 |
+| [#310](https://github.com/the-static-collective/the-haunted-toaster/pull/310) | BATCH-UI-001: TOAST THE RECORD Batch Console | `mutant/batch-console-309` → `mutant/batch-001-folder-controller` | 2026-10-01 |
+| [#308](https://github.com/the-static-collective/the-haunted-toaster/pull/308) | BATCH-001: Folder Batch Controller | `mutant/batch-001-folder-controller` → `mutant/future-rearview-memory-prophecy-001` | 2026-10-01 |
+| [#307](https://github.com/the-static-collective/the-haunted-toaster/pull/307) | MUTANT-001: Future Rearview Memory Prophecy | `mutant/future-rearview-memory-prophecy-001` → `memory/six-up-prism-001` | 2026-10-01 |
 | [#306](https://github.com/the-static-collective/the-haunted-toaster/pull/306) | MEMORY-001: Six-Up Memory Prism | `memory/six-up-prism-001` → `resurrection/video-eating-mutation-mixer-001` | 2026-09-27 |
 | [#305](https://github.com/the-static-collective/the-haunted-toaster/pull/305) | RESURRECTION-001: Video Eating × Mutation Mixer | `resurrection/video-eating-mutation-mixer-001` → `feat/linear-v3-test-build` | 2026-09-27 |
 | [#301](https://github.com/the-static-collective/the-haunted-toaster/pull/301) | LINEAR v3: make Linear a family, not a pose | `feat/linear-v3-test-build` → `design/video-phrase-grammar-v1` | 2026-09-27 |
@@ -180,6 +184,7 @@ Default: `main` · other refs: 187 · open PRs: 30
 | [feat/visual-score-pure-core](https://github.com/the-static-collective/the-haunted-toaster/tree/feat/visual-score-pure-core) | [0f012c211b](https://github.com/the-static-collective/the-haunted-toaster/commit/0f012c211b781a47deab2b7c3599aa86abfa91bf) | Retained ref; disposition unverified |
 | [feat/visual-score-pure-core-16697301625316106120](https://github.com/the-static-collective/the-haunted-toaster/tree/feat/visual-score-pure-core-16697301625316106120) | [f01affef28](https://github.com/the-static-collective/the-haunted-toaster/commit/f01affef2811e61aa1130d22309490da4139fea9) | Retained ref; disposition unverified |
 | [feature/creative-context-table-contracts](https://github.com/the-static-collective/the-haunted-toaster/tree/feature/creative-context-table-contracts) | [a751ec7643](https://github.com/the-static-collective/the-haunted-toaster/commit/a751ec76435ec980bf49458e5a86e3089ae4647f) | Retained ref; disposition unverified |
+| [feature/listening-eye-v0](https://github.com/the-static-collective/the-haunted-toaster/tree/feature/listening-eye-v0) | [fe185abbbf](https://github.com/the-static-collective/the-haunted-toaster/commit/fe185abbbfa9d56e613f953f7c92531853a80fb3) | [open PR #311](https://github.com/the-static-collective/the-haunted-toaster/pull/311) |
 | [feature/lyric-foundry-first-five](https://github.com/the-static-collective/the-haunted-toaster/tree/feature/lyric-foundry-first-five) | [564e56f8ab](https://github.com/the-static-collective/the-haunted-toaster/commit/564e56f8ab15355abf1ae52362b98b3efa86ab9e) | Retained ref; disposition unverified |
 | [feature/resolution-field-v0-1](https://github.com/the-static-collective/the-haunted-toaster/tree/feature/resolution-field-v0-1) | [2c2b45523e](https://github.com/the-static-collective/the-haunted-toaster/commit/2c2b45523e84a69a7b4bdb8b13885f782f6f4e98) | Retained ref; disposition unverified |
 | [feature/topology-events-grab-v0.1](https://github.com/the-static-collective/the-haunted-toaster/tree/feature/topology-events-grab-v0.1) | [b66c20b72d](https://github.com/the-static-collective/the-haunted-toaster/commit/b66c20b72d5f0d44870be3a8b8d075cfcbbbe5c2) | Retained ref; disposition unverified |
@@ -210,6 +215,9 @@ Default: `main` · other refs: 187 · open PRs: 30
 | [lumi/internal-response-lift](https://github.com/the-static-collective/the-haunted-toaster/tree/lumi/internal-response-lift) | [9ae8e070c5](https://github.com/the-static-collective/the-haunted-toaster/commit/9ae8e070c5ffe21355ed7650aa3b6d9b16e3848c) | Retained ref; disposition unverified |
 | [memory/six-up-prism-001](https://github.com/the-static-collective/the-haunted-toaster/tree/memory/six-up-prism-001) | [17194c34b9](https://github.com/the-static-collective/the-haunted-toaster/commit/17194c34b9b248fd1edfa975c0cd6142d97b658a) | [open PR #306](https://github.com/the-static-collective/the-haunted-toaster/pull/306) |
 | [mutant/archaeology-281](https://github.com/the-static-collective/the-haunted-toaster/tree/mutant/archaeology-281) | [3b1b08e368](https://github.com/the-static-collective/the-haunted-toaster/commit/3b1b08e368f189fd3d05a143cb2e55a383f63ba1) | Retained ref; disposition unverified |
+| [mutant/batch-001-folder-controller](https://github.com/the-static-collective/the-haunted-toaster/tree/mutant/batch-001-folder-controller) | [2fdc646432](https://github.com/the-static-collective/the-haunted-toaster/commit/2fdc6464329897f942657105f687cd648c38f65d) | [open PR #308](https://github.com/the-static-collective/the-haunted-toaster/pull/308) |
+| [mutant/batch-console-309](https://github.com/the-static-collective/the-haunted-toaster/tree/mutant/batch-console-309) | [b3b25c5cf9](https://github.com/the-static-collective/the-haunted-toaster/commit/b3b25c5cf99faaf5c7b9fc0ef6809939ecfca7b5) | [open PR #310](https://github.com/the-static-collective/the-haunted-toaster/pull/310) |
+| [mutant/future-rearview-memory-prophecy-001](https://github.com/the-static-collective/the-haunted-toaster/tree/mutant/future-rearview-memory-prophecy-001) | [46cf795751](https://github.com/the-static-collective/the-haunted-toaster/commit/46cf79575106af9caf56a0c3bd13cf9d4c774f26) | [open PR #307](https://github.com/the-static-collective/the-haunted-toaster/pull/307) |
 | [mutant/video-phrase-archaeology-carrier](https://github.com/the-static-collective/the-haunted-toaster/tree/mutant/video-phrase-archaeology-carrier) | [d774559490](https://github.com/the-static-collective/the-haunted-toaster/commit/d7745594905cc8a042c207dddba43115160f7c2b) | Retained ref; disposition unverified |
 | [navigation-aperture-2026-09-27](https://github.com/the-static-collective/the-haunted-toaster/tree/navigation-aperture-2026-09-27) | [eb445936b8](https://github.com/the-static-collective/the-haunted-toaster/commit/eb445936b87c9b876c1ab283067650112fddc344) | [open PR #300](https://github.com/the-static-collective/the-haunted-toaster/pull/300) |
 | [ops/package-exact-6ff36ffa](https://github.com/the-static-collective/the-haunted-toaster/tree/ops/package-exact-6ff36ffa) | [4d14aaf719](https://github.com/the-static-collective/the-haunted-toaster/commit/4d14aaf71967f9c6a3a1912800ed84e07fabff6b) | Retained ref; disposition unverified |
@@ -248,12 +256,13 @@ Default: `main` · other refs: 187 · open PRs: 30
 
 [Repository](https://github.com/the-static-collective/the-haunted-blender) · [Branches](https://github.com/the-static-collective/the-haunted-blender/branches) · [Pull requests](https://github.com/the-static-collective/the-haunted-blender/pulls)
 
-Default: `main` · other refs: 27 · open PRs: 27
+Default: `main` · other refs: 28 · open PRs: 28
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#37](https://github.com/the-static-collective/the-haunted-blender/pull/37) | Expose filmmaker-accepted takes as read-only Video Window media | `experimental/relatte-video-window-001` → `experimental/accepted-take-cut-001` | 2026-10-01 |
 | [#31](https://github.com/the-static-collective/the-haunted-blender/pull/31) | PLANS-001: branch ledger and Spectral Interaction executable slice | `plans/branch-ledger-001` → `main` | 2026-09-23 |
 | [#29](https://github.com/the-static-collective/the-haunted-blender/pull/29) | ORCHARD-002: prove pinned observer × memory crossing on immutable synthetic scene | `experimental/orchard-observer-memory-002` → `experimental/orchard-chronobody-001` | 2026-09-23 |
 | [#28](https://github.com/the-static-collective/the-haunted-blender/pull/28) | Memory Competition 001: two remembered worlds, one finite image | `experimental/memory-competition-001` → `experimental/memory-strength-001` | 2026-09-23 |
@@ -307,6 +316,7 @@ Default: `main` · other refs: 27 · open PRs: 27
 | [experimental/observer-local-vision-001](https://github.com/the-static-collective/the-haunted-blender/tree/experimental/observer-local-vision-001) | [9beec9cce0](https://github.com/the-static-collective/the-haunted-blender/commit/9beec9cce02f9c595386fc39fd7fb79a890434da) | [open PR #23](https://github.com/the-static-collective/the-haunted-blender/pull/23) |
 | [experimental/orchard-chronobody-001](https://github.com/the-static-collective/the-haunted-blender/tree/experimental/orchard-chronobody-001) | [a73c003611](https://github.com/the-static-collective/the-haunted-blender/commit/a73c0036117ff0b155ae0738d00e41c19206a6a3) | [open PR #27](https://github.com/the-static-collective/the-haunted-blender/pull/27) |
 | [experimental/orchard-observer-memory-002](https://github.com/the-static-collective/the-haunted-blender/tree/experimental/orchard-observer-memory-002) | [35fc972fe7](https://github.com/the-static-collective/the-haunted-blender/commit/35fc972fe7bba994db63291de89c88871575159e) | [open PR #29](https://github.com/the-static-collective/the-haunted-blender/pull/29) |
+| [experimental/relatte-video-window-001](https://github.com/the-static-collective/the-haunted-blender/tree/experimental/relatte-video-window-001) | [8c97ff8935](https://github.com/the-static-collective/the-haunted-blender/commit/8c97ff8935dbea705edb4805dc6711afd110efbe) | [open PR #37](https://github.com/the-static-collective/the-haunted-blender/pull/37) |
 | [experimental/scene-artifact-001](https://github.com/the-static-collective/the-haunted-blender/tree/experimental/scene-artifact-001) | [8a7e6ef3a1](https://github.com/the-static-collective/the-haunted-blender/commit/8a7e6ef3a1dd6f5ff4d99f7495dbf22b0608c8bd) | [open PR #8](https://github.com/the-static-collective/the-haunted-blender/pull/8) |
 | [experimental/scene-weave-001](https://github.com/the-static-collective/the-haunted-blender/tree/experimental/scene-weave-001) | [360b8a3992](https://github.com/the-static-collective/the-haunted-blender/commit/360b8a39925567d54f2f656448e3ae2e3c757a40) | [open PR #5](https://github.com/the-static-collective/the-haunted-blender/pull/5) |
 | [experimental/time-slice-recajgger-001](https://github.com/the-static-collective/the-haunted-blender/tree/experimental/time-slice-recajgger-001) | [60c8746215](https://github.com/the-static-collective/the-haunted-blender/commit/60c8746215f23aaa3e06f730fa44ecb0df341210) | [open PR #19](https://github.com/the-static-collective/the-haunted-blender/pull/19) |

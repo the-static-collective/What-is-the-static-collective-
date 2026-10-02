@@ -903,11 +903,25 @@
           "sha": "827a3b53649952995e53557dcd9daaccbfb01f0e"
         },
         {
+          "name": "feat/readonly-media-resolver",
+          "sha": "9243e9d5402275fc23f1103832feb14af2e11514"
+        },
+        {
           "name": "main",
           "sha": "f8c2e49093c45dc4817f46ea82e34e5dd68c41e7"
         }
       ],
       "open_prs": [
+        {
+          "number": 15,
+          "title": "Add verified read-only content-address audio resolver",
+          "head_branch": "feat/readonly-media-resolver",
+          "head_sha": "9243e9d5402275fc23f1103832feb14af2e11514",
+          "head_repo": "the-static-collective/autodiscography-vault",
+          "base_branch": "main",
+          "updated_at": "2026-10-01T19:44:22Z",
+          "url": "https://github.com/the-static-collective/autodiscography-vault/pull/15"
+        },
         {
           "number": 13,
           "title": "Vault Census v1: preserve raw history before interpretation",
@@ -3225,6 +3239,10 @@
       "archived": false,
       "branches": [
         {
+          "name": "audio-composer-001",
+          "sha": "b32083a712e2f9020dea95d09c3ba24e12addb0f"
+        },
+        {
           "name": "genesis/crawler-press-001",
           "sha": "ad1117503436e1cdc01f5298bad885ff031b6141"
         },
@@ -3241,6 +3259,26 @@
           "sha": "02feb4454240d482a5e0e03258f24f8b5cc0b9f5"
         },
         {
+          "name": "physical-composer-001",
+          "sha": "a5cea28e164366f92d25c686e8b9ea4f34fb027a"
+        },
+        {
+          "name": "physical-composer-road-grammar-001",
+          "sha": "514976f9836d101d39172af0c7c117f3addc5edb"
+        },
+        {
+          "name": "press-gate-001",
+          "sha": "0b59f737d36fcaf11f74c6d1e849b411a291686f"
+        },
+        {
+          "name": "press-mouth-001-audio-parcel",
+          "sha": "2d3e731cdbaa5690c9d085eceffda5a13828a591"
+        },
+        {
+          "name": "press-run-001",
+          "sha": "363d0fd5d6a9ccdd186d97f7c5b6f60d8f1b68b6"
+        },
+        {
           "name": "press/archive",
           "sha": "34e93c395ef9bedaacc5ab36c04b98c02545407d"
         },
@@ -3254,7 +3292,11 @@
         },
         {
           "name": "press/physical",
-          "sha": "89fda6c7b102279541d1ee781f051e1436493ec2"
+          "sha": "c07c7972e937b7ef443b412869c9cef4915eebf8"
+        },
+        {
+          "name": "recipient-mailer-001",
+          "sha": "62a20ebf1e5b65ed8ff1ad3559e2b8779e4656be"
         },
         {
           "name": "release/free-library-001-archive",
@@ -3297,6 +3339,10 @@
           "sha": "803fd8bd4eb14dea39581bf6f09795106afa1283"
         },
         {
+          "name": "suno-pantry-intake-001",
+          "sha": "6f97f8c6c79397a557ce66e3a6045ee689ad66af"
+        },
+        {
           "name": "work/haunted-library-001-crawler",
           "sha": "6d88fa77dd5edfd59dc41d34af3ef71205475125"
         },
@@ -3306,6 +3352,36 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 22,
+          "title": "SUNO PANTRY INTAKE 001 — batch stems and dramatic readings",
+          "head_branch": "suno-pantry-intake-001",
+          "head_sha": "6f97f8c6c79397a557ce66e3a6045ee689ad66af",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "audio-composer-001",
+          "updated_at": "2026-10-02T03:27:36Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/22"
+        },
+        {
+          "number": 21,
+          "title": "AUDIO COMPOSER 001 — resolve before rendering",
+          "head_branch": "audio-composer-001",
+          "head_sha": "b32083a712e2f9020dea95d09c3ba24e12addb0f",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "press-mouth-001-audio-parcel",
+          "updated_at": "2026-10-02T03:21:50Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/21"
+        },
+        {
+          "number": 20,
+          "title": "PRESS MOUTH 001 — audio parcel ingestion",
+          "head_branch": "press-mouth-001-audio-parcel",
+          "head_sha": "2d3e731cdbaa5690c9d085eceffda5a13828a591",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "main",
+          "updated_at": "2026-10-02T02:56:45Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/20"
+        },
         {
           "number": 14,
           "title": "Admit HOW TO READ A HAUNTED LIBRARY as LP-HL-001",
@@ -4260,6 +4336,86 @@
       "archived": false,
       "branches": [
         {
+          "name": "com5-capsule-001",
+          "sha": "693706265d45670f4ca884e69e203bf6155afd59"
+        },
+        {
+          "name": "composition-pulse-001",
+          "sha": "490c2011f5cdd87b19d85ab1f416890d0560e0f1"
+        },
+        {
+          "name": "crossing-parcel-001-grok-return",
+          "sha": "fe77ccf73f2f040ed8a367ba327aba70c48fb1d2"
+        },
+        {
+          "name": "crossing-parcel-002-meta-return",
+          "sha": "b729bb9d8e87d3dec8739c1cd574199f10c3faaa"
+        },
+        {
+          "name": "cultural-descendant-001",
+          "sha": "442bc190f2dc8817c79f5701f1445dd43cdbe188"
+        },
+        {
+          "name": "ecology-machine-001",
+          "sha": "8446ed84dfe197690f98dee991bb206d881dfef4"
+        },
+        {
+          "name": "external-checkpoint-001",
+          "sha": "c0e59dfa361e91ef6c886ae0bd9a25752c2aa293"
+        },
+        {
+          "name": "feat/automatic-failover-001",
+          "sha": "19f394883af29122e92658413110be47f5bc7eb9"
+        },
+        {
+          "name": "feat/browse-metabolism",
+          "sha": "7d7fc2b44f00717647804675185ac9f269a788ed"
+        },
+        {
+          "name": "feat/capability-kernel-two-worlds-001",
+          "sha": "08b45ed4b5a62714c197942438ec2c9fc4d62571"
+        },
+        {
+          "name": "feat/carry-card-hostile-001",
+          "sha": "5c6f1a5a9d6d557255fa11f247287324219571d0"
+        },
+        {
+          "name": "feat/com5-metabolism",
+          "sha": "3679e0ae66477e5c4118357c1f57f73d59c02f66"
+        },
+        {
+          "name": "feat/customs-house-001",
+          "sha": "c0da0629830b92baa4962fb7c3e2f690e623e838"
+        },
+        {
+          "name": "feat/did-binding-001",
+          "sha": "84403ecfc4acce37509d58de1a40ff0e4bee5987"
+        },
+        {
+          "name": "feat/did-dht-discovery-001",
+          "sha": "6ec2f058cddf867cbbc099f6b59958e7061db3af"
+        },
+        {
+          "name": "feat/dwn-road-001",
+          "sha": "b5c84abd4794b9aa90ee9a96ca5535a96391cf6d"
+        },
+        {
+          "name": "feat/enterable-particular",
+          "sha": "a2b57126d1aa1daf64c80c1c4d10ae042bc83896"
+        },
+        {
+          "name": "feat/live-dht-gateway-001",
+          "sha": "eb956dcae5a042947a45f588805eaa248bea0ee1"
+        },
+        {
+          "name": "feat/mail-slot-static-post-001",
+          "sha": "28b67acbae929c77877647b0cb67354edbcc211c"
+        },
+        {
+          "name": "feat/mortal-road-001",
+          "sha": "b88463aa13e29fe95563471464f53f4f76e94321"
+        },
+        {
           "name": "feat/r1-r2-canonical-identity",
           "sha": "dccf7a670c366c740d7cd27eef8c7adb337f6e3c"
         },
@@ -4268,23 +4424,335 @@
           "sha": "fe837e86e992ebb2e5367a4f0b3d7ac353bcc7b0"
         },
         {
+          "name": "feat/reentry-witness",
+          "sha": "86ffb59941b45ce7e650a45f1e65091104241c11"
+        },
+        {
+          "name": "feat/remote-dwn-delivery-001",
+          "sha": "d3b402742857caf5741387d09f41c88f6dc1871b"
+        },
+        {
+          "name": "feat/road-memory-circuit-breaker-001",
+          "sha": "62822edfd1975c5ce815aa486f4e4e9bf504be64"
+        },
+        {
+          "name": "feat/room-return-request",
+          "sha": "7fb7c2a7f8ebe51e29ebe6f5dcaed801e4e23a19"
+        },
+        {
+          "name": "feat/runtime-boot-black-flag-001",
+          "sha": "83bee6db9427f36892448401e2514fd99e4bf21f"
+        },
+        {
+          "name": "feat/three-world-post-office-001",
+          "sha": "ef6a8e6c7fa55f79cad8eeff13f71391709aeebd"
+        },
+        {
+          "name": "feat/walkable-provenance",
+          "sha": "9f8a6473a4bbdede3fba476edc9b19a9bde30a6c"
+        },
+        {
+          "name": "feat/web5-five-door-room",
+          "sha": "6e4b2c9c3a3acaf82989148cf07aa0b3999563d6"
+        },
+        {
+          "name": "field-consequence-001",
+          "sha": "5a8724d0624fb32b142d0901a3a378df26a5f9a9"
+        },
+        {
+          "name": "local-receiver-001",
+          "sha": "38739f2de9ea499e2734caf2a4b3b7ab81969eb8"
+        },
+        {
           "name": "main",
-          "sha": "ba1cc5628dab4abde66f001ed31e0ef9b3038433"
+          "sha": "3128324f9d9a71574d5ee1684fe1b0da24675496"
+        },
+        {
+          "name": "mirror-store-serve-001",
+          "sha": "3908d1e052b54725245882c1825661ff4ef8bf57"
+        },
+        {
+          "name": "moment-perspective-001",
+          "sha": "37e1bf8eeedfbb1d6ae56a72d1c93caabbb80f64"
+        },
+        {
+          "name": "mortality-test-001",
+          "sha": "1979eb65a2ea86671690acbc0c79b4fb674da909"
         },
         {
           "name": "national-coffee-day-relatte-smash",
           "sha": "db8f3191615f8b8fc74e04bf245d6f4c6f88c3c1"
         },
         {
+          "name": "porch-customs-001",
+          "sha": "76d738de68b288de28f98f4f3878b54fb0cd0fc2"
+        },
+        {
+          "name": "release-rule-hostile-001",
+          "sha": "0e74b5c994d2d5ad3f71ed11330f61104f347084"
+        },
+        {
+          "name": "replaceable-transport-001",
+          "sha": "41b10240b39e0b48dc156fe5ca685641717fb80a"
+        },
+        {
           "name": "research/groups-administration-cloud",
           "sha": "eaef768b0176c1f3d286ca7f3c30565cbb029595"
         },
         {
+          "name": "sovereign-nodes-001",
+          "sha": "3701e1fdf02414c8e68cc38f7a39243081ad2ef1"
+        },
+        {
           "name": "spec/r3-sovereign-receiver",
           "sha": "fe837e86e992ebb2e5367a4f0b3d7ac353bcc7b0"
+        },
+        {
+          "name": "super-relatte-001",
+          "sha": "f39371f348a2a10b092cb46140edcac25366e0bb"
         }
       ],
       "open_prs": [
+        {
+          "number": 47,
+          "title": "Three World Post Office 001 — hold all, rank none",
+          "head_branch": "feat/three-world-post-office-001",
+          "head_sha": "ef6a8e6c7fa55f79cad8eeff13f71391709aeebd",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/mail-slot-static-post-001",
+          "updated_at": "2026-10-02T04:02:02Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/47"
+        },
+        {
+          "number": 46,
+          "title": "Mail Slot 001 + Static Post 001 — letters, not shared memory",
+          "head_branch": "feat/mail-slot-static-post-001",
+          "head_sha": "28b67acbae929c77877647b0cb67354edbcc211c",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/customs-house-001",
+          "updated_at": "2026-10-02T03:43:27Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/46"
+        },
+        {
+          "number": 45,
+          "title": "Customs House 001 — a context window should have customs",
+          "head_branch": "feat/customs-house-001",
+          "head_sha": "c0da0629830b92baa4962fb7c3e2f690e623e838",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/carry-card-hostile-001",
+          "updated_at": "2026-10-02T03:25:22Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/45"
+        },
+        {
+          "number": 44,
+          "title": "Carry Card Hostile 001 — two consent cuts, sealed withheld-context proof",
+          "head_branch": "feat/carry-card-hostile-001",
+          "head_sha": "5c6f1a5a9d6d557255fa11f247287324219571d0",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/capability-kernel-two-worlds-001",
+          "updated_at": "2026-10-02T02:27:54Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/44"
+        },
+        {
+          "number": 43,
+          "title": "Inhabitable Network 001 — capabilities, two worlds, private live peers",
+          "head_branch": "feat/capability-kernel-two-worlds-001",
+          "head_sha": "08b45ed4b5a62714c197942438ec2c9fc4d62571",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/runtime-boot-black-flag-001",
+          "updated_at": "2026-10-02T01:50:13Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/43"
+        },
+        {
+          "number": 42,
+          "title": "Runtime Boot 001 + Black Flag 001 — a world that can wake up",
+          "head_branch": "feat/runtime-boot-black-flag-001",
+          "head_sha": "83bee6db9427f36892448401e2514fd99e4bf21f",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/road-memory-circuit-breaker-001",
+          "updated_at": "2026-10-02T01:24:41Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/42"
+        },
+        {
+          "number": 41,
+          "title": "Road Memory / Circuit Breaker 001 — local memory is not global reputation",
+          "head_branch": "feat/road-memory-circuit-breaker-001",
+          "head_sha": "62822edfd1975c5ce815aa486f4e4e9bf504be64",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/automatic-failover-001",
+          "updated_at": "2026-10-02T01:00:27Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/41"
+        },
+        {
+          "number": 40,
+          "title": "Automatic Failover 001 — change the road, not the traveler",
+          "head_branch": "feat/automatic-failover-001",
+          "head_sha": "19f394883af29122e92658413110be47f5bc7eb9",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/mortal-road-001",
+          "updated_at": "2026-10-02T00:40:45Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/40"
+        },
+        {
+          "number": 39,
+          "title": "Mortal Road 001 — the road can die",
+          "head_branch": "feat/mortal-road-001",
+          "head_sha": "b88463aa13e29fe95563471464f53f4f76e94321",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/remote-dwn-delivery-001",
+          "updated_at": "2026-10-02T00:30:05Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/39"
+        },
+        {
+          "number": 38,
+          "title": "Remote DWN Delivery 001 — discover, commute, receive",
+          "head_branch": "feat/remote-dwn-delivery-001",
+          "head_sha": "d3b402742857caf5741387d09f41c88f6dc1871b",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/live-dht-gateway-001",
+          "updated_at": "2026-10-02T00:17:38Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/38"
+        },
+        {
+          "number": 37,
+          "title": "Crossing Parcel 002 — preserve Meta UX return",
+          "head_branch": "crossing-parcel-002-meta-return",
+          "head_sha": "b729bb9d8e87d3dec8739c1cd574199f10c3faaa",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-02T00:08:15Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/37"
+        },
+        {
+          "number": 35,
+          "title": "Crossing Parcel 001 — preserve Grok return as reviewable profile",
+          "head_branch": "crossing-parcel-001-grok-return",
+          "head_sha": "fe77ccf73f2f040ed8a367ba327aba70c48fb1d2",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-01T23:59:00Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/35"
+        },
+        {
+          "number": 33,
+          "title": "Live DHT Gateway 001 — the gateway carries, it does not crown",
+          "head_branch": "feat/live-dht-gateway-001",
+          "head_sha": "eb956dcae5a042947a45f588805eaa248bea0ee1",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/did-dht-discovery-001",
+          "updated_at": "2026-10-01T23:50:04Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/33"
+        },
+        {
+          "number": 32,
+          "title": "DID:DHT Discovery 001 — a map is not the road",
+          "head_branch": "feat/did-dht-discovery-001",
+          "head_sha": "6ec2f058cddf867cbbc099f6b59958e7061db3af",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/did-binding-001",
+          "updated_at": "2026-10-01T23:23:47Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/32"
+        },
+        {
+          "number": 31,
+          "title": "DID Binding 001 — relation, not identity collapse",
+          "head_branch": "feat/did-binding-001",
+          "head_sha": "84403ecfc4acce37509d58de1a40ff0e4bee5987",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/dwn-road-001",
+          "updated_at": "2026-10-01T22:55:09Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/31"
+        },
+        {
+          "number": 30,
+          "title": "DWN Road 001 — foreign road, same traveler",
+          "head_branch": "feat/dwn-road-001",
+          "head_sha": "b5c84abd4794b9aa90ee9a96ca5535a96391cf6d",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "super-relatte-001",
+          "updated_at": "2026-10-01T22:47:35Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/30"
+        },
+        {
+          "number": 29,
+          "title": "Super Relatte 001 — compose the branch family",
+          "head_branch": "super-relatte-001",
+          "head_sha": "f39371f348a2a10b092cb46140edcac25366e0bb",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-01T22:27:50Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/29"
+        },
+        {
+          "number": 15,
+          "title": "Re-verify ROroomOM return requests before re-centering",
+          "head_branch": "feat/room-return-request",
+          "head_sha": "7fb7c2a7f8ebe51e29ebe6f5dcaed801e4e23a19",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/enterable-particular",
+          "updated_at": "2026-10-01T19:15:52Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/15"
+        },
+        {
+          "number": 14,
+          "title": "Open verified particulars into COM⁵ room projections",
+          "head_branch": "feat/enterable-particular",
+          "head_sha": "a2b57126d1aa1daf64c80c1c4d10ae042bc83896",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/reentry-witness",
+          "updated_at": "2026-10-01T19:02:28Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/14"
+        },
+        {
+          "number": 12,
+          "title": "Witness re-entry without claiming world mutation",
+          "head_branch": "feat/reentry-witness",
+          "head_sha": "86ffb59941b45ce7e650a45f1e65091104241c11",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/walkable-provenance",
+          "updated_at": "2026-10-01T18:49:24Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/12"
+        },
+        {
+          "number": 11,
+          "title": "Make COM⁵ provenance walkable without teleporting",
+          "head_branch": "feat/walkable-provenance",
+          "head_sha": "9f8a6473a4bbdede3fba476edc9b19a9bde30a6c",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/browse-metabolism",
+          "updated_at": "2026-10-01T18:40:18Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/11"
+        },
+        {
+          "number": 10,
+          "title": "Browse COM⁵ from verified reLATTE history",
+          "head_branch": "feat/browse-metabolism",
+          "head_sha": "7d7fc2b44f00717647804675185ac9f269a788ed",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/web5-five-door-room",
+          "updated_at": "2026-10-01T18:25:17Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/10"
+        },
+        {
+          "number": 9,
+          "title": "Add Web 5.0 as a COM⁵ Five-Door Room",
+          "head_branch": "feat/web5-five-door-room",
+          "head_sha": "6e4b2c9c3a3acaf82989148cf07aa0b3999563d6",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/com5-metabolism",
+          "updated_at": "2026-10-01T18:07:42Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/9"
+        },
+        {
+          "number": 8,
+          "title": "Add COM⁵ as reLATTE's metabolic projection",
+          "head_branch": "feat/com5-metabolism",
+          "head_sha": "3679e0ae66477e5c4118357c1f57f73d59c02f66",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-01T17:39:52Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/8"
+        },
         {
           "number": 6,
           "title": "Research group-scoped administration without cloud sovereignty",
@@ -4404,6 +4872,42 @@
           "sha": "f7372b6b5dd18bbce8a850100742521495b0a814"
         },
         {
+          "name": "experiment/relatte-com5-room-001",
+          "sha": "8fc42b2e958725fc00e3fee25da7770a3ab5f1e4"
+        },
+        {
+          "name": "experiment/relatte-com5-room-002-organ-adapters",
+          "sha": "973a918dcc7a9ea42fae777a03f0bc8e403739e9"
+        },
+        {
+          "name": "experiment/relatte-com5-room-003-audio-resolver",
+          "sha": "16da465940d6fa21a2f502fa34680eb6ea2f20fb"
+        },
+        {
+          "name": "experiment/relatte-com5-room-004-video-window",
+          "sha": "abf2544bdaf81c13aa44ad41671b98d95b853ce9"
+        },
+        {
+          "name": "experiment/relatte-com5-room-005-room-score",
+          "sha": "e9ef2b4d03d89d8e2426bc7e96a16c343365d925"
+        },
+        {
+          "name": "experiment/relatte-com5-room-006-play-memory",
+          "sha": "1fa7fb6dffa99507a821e1ddcb15e091059f7ea1"
+        },
+        {
+          "name": "experiment/relatte-com5-room-007-human-ai-crossing",
+          "sha": "564c6db387869d071b0ff993956bae56b72b8804"
+        },
+        {
+          "name": "experiment/relatte-com5-room-008-offer-echo-cross",
+          "sha": "5cdd90461106e7cd0c51d2f8fa87198f0a319cb7"
+        },
+        {
+          "name": "experiment/relatte-com5-room-009-guest-port",
+          "sha": "5e93843ceae80a2bca94ff438f0bc24dc49a4b85"
+        },
+        {
           "name": "integration/room-006-008-orphan-recomposition-20260924",
           "sha": "2066cd2def0ab7425b6ce5663aec05046a9d7b0b"
         },
@@ -4425,6 +4929,96 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 15,
+          "title": "Add transport-neutral multi-AI Guest Port",
+          "head_branch": "experiment/relatte-com5-room-009-guest-port",
+          "head_sha": "5e93843ceae80a2bca94ff438f0bc24dc49a4b85",
+          "head_repo": "the-static-collective/ROroomOM",
+          "base_branch": "experiment/relatte-com5-room-008-offer-echo-cross",
+          "updated_at": "2026-10-01T21:32:23Z",
+          "url": "https://github.com/the-static-collective/ROroomOM/pull/15"
+        },
+        {
+          "number": 14,
+          "title": "Make Human Offer and AI Echo explicit before proposals",
+          "head_branch": "experiment/relatte-com5-room-008-offer-echo-cross",
+          "head_sha": "5cdd90461106e7cd0c51d2f8fa87198f0a319cb7",
+          "head_repo": "the-static-collective/ROroomOM",
+          "base_branch": "experiment/relatte-com5-room-007-human-ai-crossing",
+          "updated_at": "2026-10-01T21:17:37Z",
+          "url": "https://github.com/the-static-collective/ROroomOM/pull/14"
+        },
+        {
+          "number": 13,
+          "title": "Add visible human AI crossings over Room Score",
+          "head_branch": "experiment/relatte-com5-room-007-human-ai-crossing",
+          "head_sha": "564c6db387869d071b0ff993956bae56b72b8804",
+          "head_repo": "the-static-collective/ROroomOM",
+          "base_branch": "experiment/relatte-com5-room-006-play-memory",
+          "updated_at": "2026-10-01T21:04:31Z",
+          "url": "https://github.com/the-static-collective/ROroomOM/pull/13"
+        },
+        {
+          "number": 12,
+          "title": "Let performed Magic Lego leave receipt-backed Play Memory",
+          "head_branch": "experiment/relatte-com5-room-006-play-memory",
+          "head_sha": "1fa7fb6dffa99507a821e1ddcb15e091059f7ea1",
+          "head_repo": "the-static-collective/ROroomOM",
+          "base_branch": "experiment/relatte-com5-room-005-room-score",
+          "updated_at": "2026-10-01T20:54:35Z",
+          "url": "https://github.com/the-static-collective/ROroomOM/pull/12"
+        },
+        {
+          "number": 11,
+          "title": "Compose playable Magic Lego with a local Room Score conductor",
+          "head_branch": "experiment/relatte-com5-room-005-room-score",
+          "head_sha": "e9ef2b4d03d89d8e2426bc7e96a16c343365d925",
+          "head_repo": "the-static-collective/ROroomOM",
+          "base_branch": "experiment/relatte-com5-room-004-video-window",
+          "updated_at": "2026-10-01T20:31:01Z",
+          "url": "https://github.com/the-static-collective/ROroomOM/pull/11"
+        },
+        {
+          "number": 10,
+          "title": "Make Video Window resolve filmmaker-accepted Haunted Blender takes",
+          "head_branch": "experiment/relatte-com5-room-004-video-window",
+          "head_sha": "abf2544bdaf81c13aa44ad41671b98d95b853ce9",
+          "head_repo": "the-static-collective/ROroomOM",
+          "base_branch": "experiment/relatte-com5-room-003-audio-resolver",
+          "updated_at": "2026-10-01T20:05:40Z",
+          "url": "https://github.com/the-static-collective/ROroomOM/pull/10"
+        },
+        {
+          "number": 9,
+          "title": "Resolve audio Lego through verified Autodiscography Vault bytes",
+          "head_branch": "experiment/relatte-com5-room-003-audio-resolver",
+          "head_sha": "16da465940d6fa21a2f502fa34680eb6ea2f20fb",
+          "head_repo": "the-static-collective/ROroomOM",
+          "base_branch": "experiment/relatte-com5-room-002-organ-adapters",
+          "updated_at": "2026-10-01T19:49:59Z",
+          "url": "https://github.com/the-static-collective/ROroomOM/pull/9"
+        },
+        {
+          "number": 8,
+          "title": "Attach Static Workbench and close the Room-to-navigator loop",
+          "head_branch": "experiment/relatte-com5-room-002-organ-adapters",
+          "head_sha": "973a918dcc7a9ea42fae777a03f0bc8e403739e9",
+          "head_repo": "the-static-collective/ROroomOM",
+          "base_branch": "experiment/relatte-com5-room-001",
+          "updated_at": "2026-10-01T19:19:17Z",
+          "url": "https://github.com/the-static-collective/ROroomOM/pull/8"
+        },
+        {
+          "number": 7,
+          "title": "Compose reLATTE COM⁵ particulars into Magic Lego rooms",
+          "head_branch": "experiment/relatte-com5-room-001",
+          "head_sha": "8fc42b2e958725fc00e3fee25da7770a3ab5f1e4",
+          "head_repo": "the-static-collective/ROroomOM",
+          "base_branch": "experiment/addressable-particular-001",
+          "updated_at": "2026-10-01T19:06:34Z",
+          "url": "https://github.com/the-static-collective/ROroomOM/pull/7"
+        },
         {
           "number": 6,
           "title": "EXPERIMENT: ADDRESSABLE-PARTICULAR-001 — coordinates without collapse",
@@ -4748,8 +5342,16 @@
           "sha": "a005ddc77bd8f6d8fa530a22ee30c01624a6d041"
         },
         {
+          "name": "kinship-004-porch-shift-handoff",
+          "sha": "5c9e1f4cec0a8a494d9de16e2cbaf690d179d667"
+        },
+        {
+          "name": "kinship-005-campaign-track",
+          "sha": "307a9fcbc910e12159439773bff159279a324ee7"
+        },
+        {
           "name": "main",
-          "sha": "8b86a81cdb5d04b12843648583c9f19d9ea5a8bb"
+          "sha": "38e67b2930cea09c3e01a05447a6e92a67c2468f"
         }
       ],
       "open_prs": [
@@ -4802,6 +5404,14 @@
       "archived": false,
       "branches": [
         {
+          "name": "deployment/road-desk-001",
+          "sha": "4ed8db50aefc0c429e2a74fe9924adbb04993f3a"
+        },
+        {
+          "name": "deployment/roadkit-001",
+          "sha": "67c4aa681cb6afb61bbe2e8bbeb6fe5c604f139c"
+        },
+        {
           "name": "feat/genesis-001-elf-guest-gate",
           "sha": "f26f9110b6a2b83f2dfece2eefcc9f7552ba04bd"
         },
@@ -4822,6 +5432,10 @@
           "sha": "6dda8a20ad9fc086cb00f340db5bff60d513e513"
         },
         {
+          "name": "integration/living-codex-endpoint-001",
+          "sha": "fa72a854867ecde431d59896dc0725f957faa0af"
+        },
+        {
           "name": "integration/whole-house-desktop-candidate-20260920",
           "sha": "850c42b7526e912f943eebed0262d96465a09a8e"
         },
@@ -4839,6 +5453,36 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 11,
+          "title": "Pin ROADKIT Road Desk into the whole-house STATIC OS line",
+          "head_branch": "deployment/road-desk-001",
+          "head_sha": "4ed8db50aefc0c429e2a74fe9924adbb04993f3a",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "deployment/roadkit-001",
+          "updated_at": "2026-10-01T23:00:42Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/11"
+        },
+        {
+          "number": 10,
+          "title": "Deploy ROADKIT-001 removable and LAN roads",
+          "head_branch": "deployment/roadkit-001",
+          "head_sha": "67c4aa681cb6afb61bbe2e8bbeb6fe5c604f139c",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "integration/living-codex-endpoint-001",
+          "updated_at": "2026-10-01T22:47:40Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/10"
+        },
+        {
+          "number": 9,
+          "title": "Compose LIVING-CODEX-ENDPOINT-001 across two sovereign houses",
+          "head_branch": "integration/living-codex-endpoint-001",
+          "head_sha": "fa72a854867ecde431d59896dc0725f957faa0af",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "integration/whole-house-desktop-candidate-20260920",
+          "updated_at": "2026-10-01T22:20:05Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/9"
+        },
         {
           "number": 8,
           "title": "DRAFT FIRST-HOUSE-DOWNLOAD-001: package merged ARG as a guided desktop entry",
@@ -5088,6 +5732,14 @@
           "sha": "bd0371740583a8da2ab2874b03dc909d4df89179"
         },
         {
+          "name": "feat/road-desk-001",
+          "sha": "d7ec75ed7ab6fe8a92805875091fe20754821960"
+        },
+        {
+          "name": "feat/road-desk-001-mainline",
+          "sha": "0d4d35c502aee258897dade05f849f79e02e6c29"
+        },
+        {
           "name": "feat/static-arg-first-door-001",
           "sha": "dac6f297d87b47df13601cf4d5ba7255f33f276b"
         },
@@ -5169,6 +5821,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 88,
+          "title": "Add ROADKIT Road Desk to the whole-house integration line",
+          "head_branch": "feat/road-desk-001",
+          "head_sha": "d7ec75ed7ab6fe8a92805875091fe20754821960",
+          "head_repo": "the-static-collective/static-workbench",
+          "base_branch": "integration/first-use-whole-house-20260920",
+          "updated_at": "2026-10-01T22:56:55Z",
+          "url": "https://github.com/the-static-collective/static-workbench/pull/88"
+        },
+        {
+          "number": 87,
+          "title": "Add read-only ROADKIT Road Desk",
+          "head_branch": "feat/road-desk-001-mainline",
+          "head_sha": "0d4d35c502aee258897dade05f849f79e02e6c29",
+          "head_repo": "the-static-collective/static-workbench",
+          "base_branch": "main",
+          "updated_at": "2026-10-01T22:53:42Z",
+          "url": "https://github.com/the-static-collective/static-workbench/pull/87"
+        },
         {
           "number": 85,
           "title": "HOLOGRAPHIC-KERNEL-001: projection law + BAT specimen",
@@ -5608,11 +6280,124 @@
       "archived": false,
       "branches": [
         {
+          "name": "feat/broadcast-gate-001",
+          "sha": "87e6c95d7240053d9e5032f4806538a361aa7467"
+        },
+        {
+          "name": "feat/broadcast-receipt-001",
+          "sha": "d96a7890b9a164570267e1bc5c7814589f858d94"
+        },
+        {
+          "name": "feat/exchange-001",
+          "sha": "463e7ac286b3329087d185319bccbe26c6bfa2b6"
+        },
+        {
+          "name": "feat/listener-return-001",
+          "sha": "a8c9e4d041cf233266ac7ff97bbb37c6a34cfb41"
+        },
+        {
+          "name": "feat/pair-listen-001",
+          "sha": "22683626e4c73ee9e84ab0cdef904171cf57fccc"
+        },
+        {
+          "name": "feat/release-gate-001",
+          "sha": "dc00e6dd6862fbc37333fdaaaccb66e3f4ae445e"
+        },
+        {
+          "name": "feat/voice-provider-001",
+          "sha": "0c8444f28deb2025ca4c3d510349a43b909a91ce"
+        },
+        {
+          "name": "feat/voice-render-001",
+          "sha": "6df332a5672f8c140b9ba916d40d107e96cbc378"
+        },
+        {
           "name": "main",
           "sha": "83f032b438e7264d3dfdfd2f0b3eb2b3f05484d0"
         }
       ],
-      "open_prs": []
+      "open_prs": [
+        {
+          "number": 16,
+          "title": "LISTENER RETURN 001 — carry post-broadcast response home",
+          "head_branch": "feat/listener-return-001",
+          "head_sha": "a8c9e4d041cf233266ac7ff97bbb37c6a34cfb41",
+          "head_repo": "the-static-collective/the-autodisco",
+          "base_branch": "feat/broadcast-receipt-001",
+          "updated_at": "2026-10-01T21:24:01Z",
+          "url": "https://github.com/the-static-collective/the-autodisco/pull/16"
+        },
+        {
+          "number": 14,
+          "title": "BROADCAST RECEIPT 001 — record actual station airings",
+          "head_branch": "feat/broadcast-receipt-001",
+          "head_sha": "d96a7890b9a164570267e1bc5c7814589f858d94",
+          "head_repo": "the-static-collective/the-autodisco",
+          "base_branch": "feat/voice-provider-001",
+          "updated_at": "2026-10-01T21:14:16Z",
+          "url": "https://github.com/the-static-collective/the-autodisco/pull/14"
+        },
+        {
+          "number": 12,
+          "title": "VOICE PROVIDER 001 — permission-preserving audio render",
+          "head_branch": "feat/voice-provider-001",
+          "head_sha": "0c8444f28deb2025ca4c3d510349a43b909a91ce",
+          "head_repo": "the-static-collective/the-autodisco",
+          "base_branch": "feat/voice-render-001",
+          "updated_at": "2026-10-01T21:01:41Z",
+          "url": "https://github.com/the-static-collective/the-autodisco/pull/12"
+        },
+        {
+          "number": 10,
+          "title": "VOICE RENDER 001 — consent-gated render requests",
+          "head_branch": "feat/voice-render-001",
+          "head_sha": "6df332a5672f8c140b9ba916d40d107e96cbc378",
+          "head_repo": "the-static-collective/the-autodisco",
+          "base_branch": "feat/exchange-001",
+          "updated_at": "2026-10-01T20:47:25Z",
+          "url": "https://github.com/the-static-collective/the-autodisco/pull/10"
+        },
+        {
+          "number": 8,
+          "title": "EXCHANGE 001 — bounded dialogue after first listen",
+          "head_branch": "feat/exchange-001",
+          "head_sha": "463e7ac286b3329087d185319bccbe26c6bfa2b6",
+          "head_repo": "the-static-collective/the-autodisco",
+          "base_branch": "feat/pair-listen-001",
+          "updated_at": "2026-10-01T20:23:07Z",
+          "url": "https://github.com/the-static-collective/the-autodisco/pull/8"
+        },
+        {
+          "number": 6,
+          "title": "PAIR LISTEN 001 — seal independent first responses",
+          "head_branch": "feat/pair-listen-001",
+          "head_sha": "22683626e4c73ee9e84ab0cdef904171cf57fccc",
+          "head_repo": "the-static-collective/the-autodisco",
+          "base_branch": "feat/broadcast-gate-001",
+          "updated_at": "2026-10-01T20:00:47Z",
+          "url": "https://github.com/the-static-collective/the-autodisco/pull/6"
+        },
+        {
+          "number": 4,
+          "title": "BROADCAST GATE 001 — bounded station packet assembly",
+          "head_branch": "feat/broadcast-gate-001",
+          "head_sha": "87e6c95d7240053d9e5032f4806538a361aa7467",
+          "head_repo": "the-static-collective/the-autodisco",
+          "base_branch": "feat/release-gate-001",
+          "updated_at": "2026-10-01T19:48:31Z",
+          "url": "https://github.com/the-static-collective/the-autodisco/pull/4"
+        },
+        {
+          "number": 2,
+          "title": "RELEASE GATE 001 — RETURN ADDRESS admission boundary",
+          "head_branch": "feat/release-gate-001",
+          "head_sha": "dc00e6dd6862fbc37333fdaaaccb66e3f4ae445e",
+          "head_repo": "the-static-collective/the-autodisco",
+          "base_branch": "main",
+          "updated_at": "2026-10-01T19:22:11Z",
+          "url": "https://github.com/the-static-collective/the-autodisco/pull/2"
+        }
+      ]
     },
     {
       "name": "The-AutodiscoV.20.-question-marks-",
@@ -6196,6 +6981,10 @@
           "sha": "35fc972fe7bba994db63291de89c88871575159e"
         },
         {
+          "name": "experimental/relatte-video-window-001",
+          "sha": "8c97ff8935dbea705edb4805dc6711afd110efbe"
+        },
+        {
           "name": "experimental/scene-artifact-001",
           "sha": "8a7e6ef3a1dd6f5ff4d99f7495dbf22b0608c8bd"
         },
@@ -6225,6 +7014,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 37,
+          "title": "Expose filmmaker-accepted takes as read-only Video Window media",
+          "head_branch": "experimental/relatte-video-window-001",
+          "head_sha": "8c97ff8935dbea705edb4805dc6711afd110efbe",
+          "head_repo": "the-static-collective/the-haunted-blender",
+          "base_branch": "experimental/accepted-take-cut-001",
+          "updated_at": "2026-10-01T20:05:06Z",
+          "url": "https://github.com/the-static-collective/the-haunted-blender/pull/37"
+        },
         {
           "number": 31,
           "title": "PLANS-001: branch ledger and Spectral Interaction executable slice",
@@ -7147,6 +7946,10 @@
           "sha": "a751ec76435ec980bf49458e5a86e3089ae4647f"
         },
         {
+          "name": "feature/listening-eye-v0",
+          "sha": "fe185abbbfa9d56e613f953f7c92531853a80fb3"
+        },
+        {
           "name": "feature/lyric-foundry-first-five",
           "sha": "564e56f8ab15355abf1ae52362b98b3efa86ab9e"
         },
@@ -7269,6 +8072,18 @@
         {
           "name": "mutant/archaeology-281",
           "sha": "3b1b08e368f189fd3d05a143cb2e55a383f63ba1"
+        },
+        {
+          "name": "mutant/batch-001-folder-controller",
+          "sha": "2fdc6464329897f942657105f687cd648c38f65d"
+        },
+        {
+          "name": "mutant/batch-console-309",
+          "sha": "b3b25c5cf99faaf5c7b9fc0ef6809939ecfca7b5"
+        },
+        {
+          "name": "mutant/future-rearview-memory-prophecy-001",
+          "sha": "46cf79575106af9caf56a0c3bd13cf9d4c774f26"
         },
         {
           "name": "mutant/video-phrase-archaeology-carrier",
@@ -7404,6 +8219,46 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 311,
+          "title": "Listening Eye v0: concept-album art-direction crossing",
+          "head_branch": "feature/listening-eye-v0",
+          "head_sha": "fe185abbbfa9d56e613f953f7c92531853a80fb3",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "main",
+          "updated_at": "2026-10-02T01:21:46Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/311"
+        },
+        {
+          "number": 310,
+          "title": "BATCH-UI-001: TOAST THE RECORD Batch Console",
+          "head_branch": "mutant/batch-console-309",
+          "head_sha": "b3b25c5cf99faaf5c7b9fc0ef6809939ecfca7b5",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "mutant/batch-001-folder-controller",
+          "updated_at": "2026-10-01T18:47:57Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/310"
+        },
+        {
+          "number": 308,
+          "title": "BATCH-001: Folder Batch Controller",
+          "head_branch": "mutant/batch-001-folder-controller",
+          "head_sha": "2fdc6464329897f942657105f687cd648c38f65d",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "mutant/future-rearview-memory-prophecy-001",
+          "updated_at": "2026-10-01T18:19:02Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/308"
+        },
+        {
+          "number": 307,
+          "title": "MUTANT-001: Future Rearview Memory Prophecy",
+          "head_branch": "mutant/future-rearview-memory-prophecy-001",
+          "head_sha": "46cf79575106af9caf56a0c3bd13cf9d4c774f26",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "memory/six-up-prism-001",
+          "updated_at": "2026-10-01T17:22:40Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/307"
+        },
         {
           "number": 306,
           "title": "MEMORY-001: Six-Up Memory Prism",
@@ -8260,6 +9115,10 @@
           "sha": "e2db57f8f4cb5d0e32739872b2f356e066df738b"
         },
         {
+          "name": "design/public-reveal-crossing-001",
+          "sha": "be0385a665a15f8a65d98c56f1ac0006aa363aee"
+        },
+        {
           "name": "docs/attributable-transformation-projection",
           "sha": "dd2f2473b0c88bd0f714a3e5c645549d89ca4c74"
         },
@@ -8368,6 +9227,10 @@
           "sha": "3b73445a126c3a9496c4befe7e3316aaeb597c8b"
         },
         {
+          "name": "feature/relay-garden-001",
+          "sha": "6c1bfcf5f39765b762f901ee9e954e7855a06eba"
+        },
+        {
           "name": "fix/full-bowl-encounter-binding",
           "sha": "0b869260610ca354bea9114208619cebcd920e03"
         },
@@ -8409,7 +9272,7 @@
         },
         {
           "name": "main",
-          "sha": "445bab9106d5a8cf7c1acac45b3f2808d2c61394"
+          "sha": "456e0df94dc0109aa02367f46c40a36137e87105"
         },
         {
           "name": "pattern/gestalt-recursion",
@@ -8430,6 +9293,10 @@
         {
           "name": "plan/passage-world-001",
           "sha": "940caa2a60e74db64b1d50ac94f471313c38dd5d"
+        },
+        {
+          "name": "plan/public-reveal-crossing-001",
+          "sha": "f43f2ae460be1f708ec6cc9504798d5c544fa587"
         },
         {
           "name": "public-front-door-2026-09-27",
@@ -8481,6 +9348,36 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 98,
+          "title": "feat: PUBLIC REVEAL CROSSING 001 — Relay Garden",
+          "head_branch": "feature/relay-garden-001",
+          "head_sha": "6c1bfcf5f39765b762f901ee9e954e7855a06eba",
+          "head_repo": "the-static-collective/What-is-the-static-collective-",
+          "base_branch": "plan/public-reveal-crossing-001",
+          "updated_at": "2026-10-01T19:56:48Z",
+          "url": "https://github.com/the-static-collective/What-is-the-static-collective-/pull/98"
+        },
+        {
+          "number": 97,
+          "title": "docs: plan PUBLIC REVEAL CROSSING 001",
+          "head_branch": "plan/public-reveal-crossing-001",
+          "head_sha": "f43f2ae460be1f708ec6cc9504798d5c544fa587",
+          "head_repo": "the-static-collective/What-is-the-static-collective-",
+          "base_branch": "design/public-reveal-crossing-001",
+          "updated_at": "2026-10-01T19:28:35Z",
+          "url": "https://github.com/the-static-collective/What-is-the-static-collective-/pull/97"
+        },
+        {
+          "number": 96,
+          "title": "docs: design PUBLIC REVEAL CROSSING 001",
+          "head_branch": "design/public-reveal-crossing-001",
+          "head_sha": "be0385a665a15f8a65d98c56f1ac0006aa363aee",
+          "head_repo": "the-static-collective/What-is-the-static-collective-",
+          "base_branch": "main",
+          "updated_at": "2026-10-01T19:16:28Z",
+          "url": "https://github.com/the-static-collective/What-is-the-static-collective-/pull/96"
+        },
         {
           "number": 94,
           "title": "RECOVERY-001: add fossil re-entry lens to Living Git Map",
@@ -8796,5 +9693,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-01T14:27:19+00:00"
+  "captured_at": "2026-10-02T13:51:04+00:00"
 }

@@ -15,12 +15,14 @@ Desks, machines, release surfaces, return paths, and small new probes.
 
 [Repository](https://github.com/the-static-collective/static-workbench) · [Branches](https://github.com/the-static-collective/static-workbench/branches) · [Pull requests](https://github.com/the-static-collective/static-workbench/pulls)
 
-Default: `main` · other refs: 59 · open PRs: 38
+Default: `main` · other refs: 61 · open PRs: 40
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#88](https://github.com/the-static-collective/static-workbench/pull/88) | Add ROADKIT Road Desk to the whole-house integration line | `feat/road-desk-001` → `integration/first-use-whole-house-20260920` | 2026-10-01 |
+| [#87](https://github.com/the-static-collective/static-workbench/pull/87) | Add read-only ROADKIT Road Desk | `feat/road-desk-001-mainline` → `main` | 2026-10-01 |
 | [#85](https://github.com/the-static-collective/static-workbench/pull/85) | HOLOGRAPHIC-KERNEL-001: projection law + BAT specimen | `PK/holographic-kernel-001-bat` → `main` | 2026-09-24 |
 | [#82](https://github.com/the-static-collective/static-workbench/pull/82) | PK: Orchard Bridge — public capability atlas + synthetic referral workbench | `PK/adoption-bridge-workbench-001` → `main` | 2026-09-24 |
 | [#81](https://github.com/the-static-collective/static-workbench/pull/81) | PK: Paula Orchard Seed 003 — tonight scaffold and ethical Worldbody specimen | `PK/paula-orchard-seed-003-tonight` → `main` | 2026-09-24 |
@@ -104,6 +106,8 @@ Default: `main` · other refs: 59 · open PRs: 38
 | [feat/living-main-relation-chamber-v01](https://github.com/the-static-collective/static-workbench/tree/feat/living-main-relation-chamber-v01) | [b9cd13f74c](https://github.com/the-static-collective/static-workbench/commit/b9cd13f74c8337faf895a939c49bbb341743ad6f) | [open PR #20](https://github.com/the-static-collective/static-workbench/pull/20) |
 | [feat/maddloop-001-abstract-loop-pedal](https://github.com/the-static-collective/static-workbench/tree/feat/maddloop-001-abstract-loop-pedal) | [87ed518787](https://github.com/the-static-collective/static-workbench/commit/87ed518787c4475f58e16355cb69b6a37f79eaee) | Retained ref; disposition unverified |
 | [feat/mirror-001-visual-demo](https://github.com/the-static-collective/static-workbench/tree/feat/mirror-001-visual-demo) | [bd03717405](https://github.com/the-static-collective/static-workbench/commit/bd0371740583a8da2ab2874b03dc909d4df89179) | [open PR #31](https://github.com/the-static-collective/static-workbench/pull/31) |
+| [feat/road-desk-001](https://github.com/the-static-collective/static-workbench/tree/feat/road-desk-001) | [d7ec75ed7a](https://github.com/the-static-collective/static-workbench/commit/d7ec75ed7ab6fe8a92805875091fe20754821960) | [open PR #88](https://github.com/the-static-collective/static-workbench/pull/88) |
+| [feat/road-desk-001-mainline](https://github.com/the-static-collective/static-workbench/tree/feat/road-desk-001-mainline) | [0d4d35c502](https://github.com/the-static-collective/static-workbench/commit/0d4d35c502aee258897dade05f849f79e02e6c29) | [open PR #87](https://github.com/the-static-collective/static-workbench/pull/87) |
 | [feat/static-arg-first-door-001](https://github.com/the-static-collective/static-workbench/tree/feat/static-arg-first-door-001) | [dac6f297d8](https://github.com/the-static-collective/static-workbench/commit/dac6f297d87b47df13601cf4d5ba7255f33f276b) | Retained ref; disposition unverified |
 | [feat/static-genesis-elf-001](https://github.com/the-static-collective/static-workbench/tree/feat/static-genesis-elf-001) | [38c6b13747](https://github.com/the-static-collective/static-workbench/commit/38c6b13747f62b70961b93a0124a06ebd2932f20) | [open PR #60](https://github.com/the-static-collective/static-workbench/pull/60) |
 | [feat/v0.2-house](https://github.com/the-static-collective/static-workbench/tree/feat/v0.2-house) | [3a42bdd57f](https://github.com/the-static-collective/static-workbench/commit/3a42bdd57ff9d3c85fb42065f6e4ff8bc4a7d3cb) | Retained ref; disposition unverified |
@@ -128,12 +132,15 @@ Default: `main` · other refs: 59 · open PRs: 38
 
 [Repository](https://github.com/the-static-collective/static-os) · [Branches](https://github.com/the-static-collective/static-os/branches) · [Pull requests](https://github.com/the-static-collective/static-os/pulls)
 
-Default: `main` · other refs: 8 · open PRs: 8
+Default: `main` · other refs: 11 · open PRs: 11
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#11](https://github.com/the-static-collective/static-os/pull/11) | Pin ROADKIT Road Desk into the whole-house STATIC OS line | `deployment/road-desk-001` → `deployment/roadkit-001` | 2026-10-01 |
+| [#10](https://github.com/the-static-collective/static-os/pull/10) | Deploy ROADKIT-001 removable and LAN roads | `deployment/roadkit-001` → `integration/living-codex-endpoint-001` | 2026-10-01 |
+| [#9](https://github.com/the-static-collective/static-os/pull/9) | Compose LIVING-CODEX-ENDPOINT-001 across two sovereign houses | `integration/living-codex-endpoint-001` → `integration/whole-house-desktop-candidate-20260920` | 2026-10-01 |
 | [#8](https://github.com/the-static-collective/static-os/pull/8) | DRAFT FIRST-HOUSE-DOWNLOAD-001: package merged ARG as a guided desktop entry | `release/first-house-download-candidate-20260921` → `feat/launchpad-002-desktop-installer` | 2026-09-22 |
 | [#7](https://github.com/the-static-collective/static-os/pull/7) | DRAFT: package pinned whole-house Workbench first-use candidate | `integration/whole-house-desktop-candidate-20260920` → `feat/launchpad-002-desktop-installer` | 2026-09-21 |
 | [#6](https://github.com/the-static-collective/static-os/pull/6) | LAUNCHPAD-002: bundled Workbench desktop installer preview | `feat/launchpad-002-desktop-installer` → `feat/launchpad-001-user-bootstrap` | 2026-09-20 |
@@ -147,11 +154,14 @@ Default: `main` · other refs: 8 · open PRs: 8
 
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
+| [deployment/road-desk-001](https://github.com/the-static-collective/static-os/tree/deployment/road-desk-001) | [4ed8db50ae](https://github.com/the-static-collective/static-os/commit/4ed8db50aefc0c429e2a74fe9924adbb04993f3a) | [open PR #11](https://github.com/the-static-collective/static-os/pull/11) |
+| [deployment/roadkit-001](https://github.com/the-static-collective/static-os/tree/deployment/roadkit-001) | [67c4aa681c](https://github.com/the-static-collective/static-os/commit/67c4aa681cb6afb61bbe2e8bbeb6fe5c604f139c) | [open PR #10](https://github.com/the-static-collective/static-os/pull/10) |
 | [feat/genesis-001-elf-guest-gate](https://github.com/the-static-collective/static-os/tree/feat/genesis-001-elf-guest-gate) | [f26f9110b6](https://github.com/the-static-collective/static-os/commit/f26f9110b6a2b83f2dfece2eefcc9f7552ba04bd) | [open PR #2](https://github.com/the-static-collective/static-os/pull/2) |
 | [feat/launchpad-001-user-bootstrap](https://github.com/the-static-collective/static-os/tree/feat/launchpad-001-user-bootstrap) | [841d087584](https://github.com/the-static-collective/static-os/commit/841d087584d26bdb6fb38c48e6723c10ff4983bc) | [open PR #5](https://github.com/the-static-collective/static-os/pull/5) |
 | [feat/launchpad-002-desktop-installer](https://github.com/the-static-collective/static-os/tree/feat/launchpad-002-desktop-installer) | [7a1706aa8e](https://github.com/the-static-collective/static-os/commit/7a1706aa8e0298265a792cc3770ea204fb4750e6) | [open PR #6](https://github.com/the-static-collective/static-os/pull/6) |
 | [flight/003-elf-triad-candidate](https://github.com/the-static-collective/static-os/tree/flight/003-elf-triad-candidate) | [cc73440e6b](https://github.com/the-static-collective/static-os/commit/cc73440e6bf17e873613cd2d2e1d67e1fde11618) | [open PR #4](https://github.com/the-static-collective/static-os/pull/4) |
 | [genesis-001-live-iso](https://github.com/the-static-collective/static-os/tree/genesis-001-live-iso) | [6dda8a20ad](https://github.com/the-static-collective/static-os/commit/6dda8a20ad9fc086cb00f340db5bff60d513e513) | [open PR #1](https://github.com/the-static-collective/static-os/pull/1) |
+| [integration/living-codex-endpoint-001](https://github.com/the-static-collective/static-os/tree/integration/living-codex-endpoint-001) | [fa72a85486](https://github.com/the-static-collective/static-os/commit/fa72a854867ecde431d59896dc0725f957faa0af) | [open PR #9](https://github.com/the-static-collective/static-os/pull/9) |
 | [integration/whole-house-desktop-candidate-20260920](https://github.com/the-static-collective/static-os/tree/integration/whole-house-desktop-candidate-20260920) | [850c42b752](https://github.com/the-static-collective/static-os/commit/850c42b7526e912f943eebed0262d96465a09a8e) | [open PR #7](https://github.com/the-static-collective/static-os/pull/7) |
 | [release/first-house-download-candidate-20260921](https://github.com/the-static-collective/static-os/tree/release/first-house-download-candidate-20260921) | [877b64319e](https://github.com/the-static-collective/static-os/commit/877b64319e83b7c1cb134de92981ccdb1330de47) | [open PR #8](https://github.com/the-static-collective/static-os/pull/8) |
 | [triad-001-contract-candidate](https://github.com/the-static-collective/static-os/tree/triad-001-contract-candidate) | [d499597b06](https://github.com/the-static-collective/static-os/commit/d499597b063b53e555aefebffc97f04b948278c1) | [open PR #3](https://github.com/the-static-collective/static-os/pull/3) |

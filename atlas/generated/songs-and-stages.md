@@ -49,7 +49,7 @@ Default: `main` · other refs: 17 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/static-live) · [Branches](https://github.com/the-static-collective/static-live/branches) · [Pull requests](https://github.com/the-static-collective/static-live/pulls)
 
-Default: `main` · other refs: 17 · open PRs: 4
+Default: `main` · other refs: 19 · open PRs: 4
 
 ### Open pull requests
 
@@ -81,6 +81,8 @@ Default: `main` · other refs: 17 · open PRs: 4
 | [kinship-002-fall-share-room](https://github.com/the-static-collective/static-live/tree/kinship-002-fall-share-room) | [f1a2a9322e](https://github.com/the-static-collective/static-live/commit/f1a2a9322ebfcc618368d3dd2efc08e6f6ef66c4) | Retained ref; disposition unverified |
 | [kinship-002-single-file-handoff](https://github.com/the-static-collective/static-live/tree/kinship-002-single-file-handoff) | [3cd19b16bf](https://github.com/the-static-collective/static-live/commit/3cd19b16bfc6c5f7de2586f4081934c70dff0190) | Retained ref; disposition unverified |
 | [kinship-003-toaster-memory](https://github.com/the-static-collective/static-live/tree/kinship-003-toaster-memory) | [a005ddc77b](https://github.com/the-static-collective/static-live/commit/a005ddc77bd8f6d8fa530a22ee30c01624a6d041) | Retained ref; disposition unverified |
+| [kinship-004-porch-shift-handoff](https://github.com/the-static-collective/static-live/tree/kinship-004-porch-shift-handoff) | [5c9e1f4cec](https://github.com/the-static-collective/static-live/commit/5c9e1f4cec0a8a494d9de16e2cbaf690d179d667) | Retained ref; disposition unverified |
+| [kinship-005-campaign-track](https://github.com/the-static-collective/static-live/tree/kinship-005-campaign-track) | [307a9fcbc9](https://github.com/the-static-collective/static-live/commit/307a9fcbc910e12159439773bff159279a324ee7) | Retained ref; disposition unverified |
 
 ## jublEchat
 

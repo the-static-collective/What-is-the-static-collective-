@@ -21,7 +21,33 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/the-autodisco) · [Branches](https://github.com/the-static-collective/the-autodisco/branches) · [Pull requests](https://github.com/the-static-collective/the-autodisco/pulls)
 
-Default: `main` · other refs: 0 · open PRs: 0
+Default: `main` · other refs: 8 · open PRs: 8
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#16](https://github.com/the-static-collective/the-autodisco/pull/16) | LISTENER RETURN 001 — carry post-broadcast response home | `feat/listener-return-001` → `feat/broadcast-receipt-001` | 2026-10-01 |
+| [#14](https://github.com/the-static-collective/the-autodisco/pull/14) | BROADCAST RECEIPT 001 — record actual station airings | `feat/broadcast-receipt-001` → `feat/voice-provider-001` | 2026-10-01 |
+| [#12](https://github.com/the-static-collective/the-autodisco/pull/12) | VOICE PROVIDER 001 — permission-preserving audio render | `feat/voice-provider-001` → `feat/voice-render-001` | 2026-10-01 |
+| [#10](https://github.com/the-static-collective/the-autodisco/pull/10) | VOICE RENDER 001 — consent-gated render requests | `feat/voice-render-001` → `feat/exchange-001` | 2026-10-01 |
+| [#8](https://github.com/the-static-collective/the-autodisco/pull/8) | EXCHANGE 001 — bounded dialogue after first listen | `feat/exchange-001` → `feat/pair-listen-001` | 2026-10-01 |
+| [#6](https://github.com/the-static-collective/the-autodisco/pull/6) | PAIR LISTEN 001 — seal independent first responses | `feat/pair-listen-001` → `feat/broadcast-gate-001` | 2026-10-01 |
+| [#4](https://github.com/the-static-collective/the-autodisco/pull/4) | BROADCAST GATE 001 — bounded station packet assembly | `feat/broadcast-gate-001` → `feat/release-gate-001` | 2026-10-01 |
+| [#2](https://github.com/the-static-collective/the-autodisco/pull/2) | RELEASE GATE 001 — RETURN ADDRESS admission boundary | `feat/release-gate-001` → `main` | 2026-10-01 |
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [feat/broadcast-gate-001](https://github.com/the-static-collective/the-autodisco/tree/feat/broadcast-gate-001) | [87e6c95d72](https://github.com/the-static-collective/the-autodisco/commit/87e6c95d7240053d9e5032f4806538a361aa7467) | [open PR #4](https://github.com/the-static-collective/the-autodisco/pull/4) |
+| [feat/broadcast-receipt-001](https://github.com/the-static-collective/the-autodisco/tree/feat/broadcast-receipt-001) | [d96a7890b9](https://github.com/the-static-collective/the-autodisco/commit/d96a7890b9a164570267e1bc5c7814589f858d94) | [open PR #14](https://github.com/the-static-collective/the-autodisco/pull/14) |
+| [feat/exchange-001](https://github.com/the-static-collective/the-autodisco/tree/feat/exchange-001) | [463e7ac286](https://github.com/the-static-collective/the-autodisco/commit/463e7ac286b3329087d185319bccbe26c6bfa2b6) | [open PR #8](https://github.com/the-static-collective/the-autodisco/pull/8) |
+| [feat/listener-return-001](https://github.com/the-static-collective/the-autodisco/tree/feat/listener-return-001) | [a8c9e4d041](https://github.com/the-static-collective/the-autodisco/commit/a8c9e4d041cf233266ac7ff97bbb37c6a34cfb41) | [open PR #16](https://github.com/the-static-collective/the-autodisco/pull/16) |
+| [feat/pair-listen-001](https://github.com/the-static-collective/the-autodisco/tree/feat/pair-listen-001) | [22683626e4](https://github.com/the-static-collective/the-autodisco/commit/22683626e4c73ee9e84ab0cdef904171cf57fccc) | [open PR #6](https://github.com/the-static-collective/the-autodisco/pull/6) |
+| [feat/release-gate-001](https://github.com/the-static-collective/the-autodisco/tree/feat/release-gate-001) | [dc00e6dd68](https://github.com/the-static-collective/the-autodisco/commit/dc00e6dd6862fbc37333fdaaaccb66e3f4ae445e) | [open PR #2](https://github.com/the-static-collective/the-autodisco/pull/2) |
+| [feat/voice-provider-001](https://github.com/the-static-collective/the-autodisco/tree/feat/voice-provider-001) | [0c8444f28d](https://github.com/the-static-collective/the-autodisco/commit/0c8444f28deb2025ca4c3d510349a43b909a91ce) | [open PR #12](https://github.com/the-static-collective/the-autodisco/pull/12) |
+| [feat/voice-render-001](https://github.com/the-static-collective/the-autodisco/tree/feat/voice-render-001) | [6df332a567](https://github.com/the-static-collective/the-autodisco/commit/6df332a5672f8c140b9ba916d40d107e96cbc378) | [open PR #10](https://github.com/the-static-collective/the-autodisco/pull/10) |
 
 ## BananaDash
 
@@ -69,12 +95,15 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/What-is-the-static-collective-) · [Branches](https://github.com/the-static-collective/What-is-the-static-collective-/branches) · [Pull requests](https://github.com/the-static-collective/What-is-the-static-collective-/pulls)
 
-Default: `main` · other refs: 76 · open PRs: 16
+Default: `main` · other refs: 79 · open PRs: 19
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#98](https://github.com/the-static-collective/What-is-the-static-collective-/pull/98) | feat: PUBLIC REVEAL CROSSING 001 — Relay Garden | `feature/relay-garden-001` → `plan/public-reveal-crossing-001` | 2026-10-01 |
+| [#97](https://github.com/the-static-collective/What-is-the-static-collective-/pull/97) | docs: plan PUBLIC REVEAL CROSSING 001 | `plan/public-reveal-crossing-001` → `design/public-reveal-crossing-001` | 2026-10-01 |
+| [#96](https://github.com/the-static-collective/What-is-the-static-collective-/pull/96) | docs: design PUBLIC REVEAL CROSSING 001 | `design/public-reveal-crossing-001` → `main` | 2026-10-01 |
 | [#94](https://github.com/the-static-collective/What-is-the-static-collective-/pull/94) | RECOVERY-001: add fossil re-entry lens to Living Git Map | `feat/living-map-recovery-fossil-001` → `main` | 2026-09-27 |
 | [#87](https://github.com/the-static-collective/What-is-the-static-collective-/pull/87) | Harvest: MADDPASTE RECOMPOSITION 001 — roads not taken | `harvest/maddpaste-recomposition-2026-09-25` → `main` | 2026-09-25 |
 | [#85](https://github.com/the-static-collective/What-is-the-static-collective-/pull/85) | CANNON 001 — The House Takes Attendance (creative-universe seed beside CANON 001) | `story/cannon-001-house-takes-attendance-20260923` → `main` | 2026-09-23 |
@@ -118,6 +147,7 @@ Default: `main` · other refs: 76 · open PRs: 16
 | [design/mortal-narrative-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/design/mortal-narrative-001) | [9a07fda643](https://github.com/the-static-collective/What-is-the-static-collective-/commit/9a07fda643ac3d8072d5147f1439d310105317c0) | [open PR #78](https://github.com/the-static-collective/What-is-the-static-collective-/pull/78) |
 | [design/orchard-picker-delight-layer](https://github.com/the-static-collective/What-is-the-static-collective-/tree/design/orchard-picker-delight-layer) | [8956865682](https://github.com/the-static-collective/What-is-the-static-collective-/commit/8956865682b494882432e4c9950c1bda224e66ea) | Retained ref; disposition unverified |
 | [design/passage-world-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/design/passage-world-001) | [e2db57f8f4](https://github.com/the-static-collective/What-is-the-static-collective-/commit/e2db57f8f4cb5d0e32739872b2f356e066df738b) | [open PR #72](https://github.com/the-static-collective/What-is-the-static-collective-/pull/72) |
+| [design/public-reveal-crossing-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/design/public-reveal-crossing-001) | [be0385a665](https://github.com/the-static-collective/What-is-the-static-collective-/commit/be0385a665a15f8a65d98c56f1ac0006aa363aee) | [open PR #96](https://github.com/the-static-collective/What-is-the-static-collective-/pull/96) |
 | [docs/attributable-transformation-projection](https://github.com/the-static-collective/What-is-the-static-collective-/tree/docs/attributable-transformation-projection) | [dd2f2473b0](https://github.com/the-static-collective/What-is-the-static-collective-/commit/dd2f2473b0c88bd0f714a3e5c645549d89ca4c74) | Retained ref; disposition unverified |
 | [docs/autodisco-origin-foldback-2026-08-24](https://github.com/the-static-collective/What-is-the-static-collective-/tree/docs/autodisco-origin-foldback-2026-08-24) | [12ff9d36fd](https://github.com/the-static-collective/What-is-the-static-collective-/commit/12ff9d36fd9c5e0150115ad0637c2086f002b832) | Retained ref; disposition unverified |
 | [docs/awareness-world-cut-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/docs/awareness-world-cut-001) | [24510a03b2](https://github.com/the-static-collective/What-is-the-static-collective-/commit/24510a03b22e092c7ce3d537b75b437d2fa6f2af) | [open PR #26](https://github.com/the-static-collective/What-is-the-static-collective-/pull/26) |
@@ -145,6 +175,7 @@ Default: `main` · other refs: 76 · open PRs: 16
 | [feat/passage-world-hostile-vector](https://github.com/the-static-collective/What-is-the-static-collective-/tree/feat/passage-world-hostile-vector) | [210ac3518c](https://github.com/the-static-collective/What-is-the-static-collective-/commit/210ac3518c31679705e530eb67f05fb67027552e) | Retained ref; disposition unverified |
 | [feat/visibility-aperture-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/feat/visibility-aperture-001) | [283586415e](https://github.com/the-static-collective/What-is-the-static-collective-/commit/283586415e393646f9220cd69b680c0cf2aafc37) | Retained ref; disposition unverified |
 | [feature/orchard-picker-v0](https://github.com/the-static-collective/What-is-the-static-collective-/tree/feature/orchard-picker-v0) | [3b73445a12](https://github.com/the-static-collective/What-is-the-static-collective-/commit/3b73445a126c3a9496c4befe7e3316aaeb597c8b) | Retained ref; disposition unverified |
+| [feature/relay-garden-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/feature/relay-garden-001) | [6c1bfcf5f3](https://github.com/the-static-collective/What-is-the-static-collective-/commit/6c1bfcf5f39765b762f901ee9e954e7855a06eba) | [open PR #98](https://github.com/the-static-collective/What-is-the-static-collective-/pull/98) |
 | [fix/full-bowl-encounter-binding](https://github.com/the-static-collective/What-is-the-static-collective-/tree/fix/full-bowl-encounter-binding) | [0b86926061](https://github.com/the-static-collective/What-is-the-static-collective-/commit/0b869260610ca354bea9114208619cebcd920e03) | Retained ref; disposition unverified |
 | [fix/git-atlas-return-links-20260925](https://github.com/the-static-collective/What-is-the-static-collective-/tree/fix/git-atlas-return-links-20260925) | [5c9650df71](https://github.com/the-static-collective/What-is-the-static-collective-/commit/5c9650df71d05f5ad12e72b540b8e1f74375e568) | Retained ref; disposition unverified |
 | [frontier/attention-resolution-field](https://github.com/the-static-collective/What-is-the-static-collective-/tree/frontier/attention-resolution-field) | [42a9f4c209](https://github.com/the-static-collective/What-is-the-static-collective-/commit/42a9f4c209ce8e9e67d5bb783dcca728d63af817) | Retained ref; disposition unverified |
@@ -160,6 +191,7 @@ Default: `main` · other refs: 76 · open PRs: 16
 | [plan/mortal-actor-001-common-stack](https://github.com/the-static-collective/What-is-the-static-collective-/tree/plan/mortal-actor-001-common-stack) | [8871909358](https://github.com/the-static-collective/What-is-the-static-collective-/commit/8871909358d39fa570b35ebc78cbcd8f95042590) | [open PR #71](https://github.com/the-static-collective/What-is-the-static-collective-/pull/71) |
 | [plan/mortal-narrative-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/plan/mortal-narrative-001) | [fdc7d58fcd](https://github.com/the-static-collective/What-is-the-static-collective-/commit/fdc7d58fcd78b081b027d993af56f7529675c707) | [open PR #79](https://github.com/the-static-collective/What-is-the-static-collective-/pull/79) |
 | [plan/passage-world-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/plan/passage-world-001) | [940caa2a60](https://github.com/the-static-collective/What-is-the-static-collective-/commit/940caa2a60e74db64b1d50ac94f471313c38dd5d) | [open PR #73](https://github.com/the-static-collective/What-is-the-static-collective-/pull/73) |
+| [plan/public-reveal-crossing-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/plan/public-reveal-crossing-001) | [f43f2ae460](https://github.com/the-static-collective/What-is-the-static-collective-/commit/f43f2ae460be1f708ec6cc9504798d5c544fa587) | [open PR #97](https://github.com/the-static-collective/What-is-the-static-collective-/pull/97) |
 | [public-front-door-2026-09-27](https://github.com/the-static-collective/What-is-the-static-collective-/tree/public-front-door-2026-09-27) | [9852c6f1f4](https://github.com/the-static-collective/What-is-the-static-collective-/commit/9852c6f1f40696dceda9de28f834d8d1f745614f) | Retained ref; disposition unverified |
 | [reconcile/mortal-narrative-stack-current-main](https://github.com/the-static-collective/What-is-the-static-collective-/tree/reconcile/mortal-narrative-stack-current-main) | [07b9a6a5a0](https://github.com/the-static-collective/What-is-the-static-collective-/commit/07b9a6a5a0429a48300bd244d19586da2170bc9b) | Retained ref; disposition unverified |
 | [slice/autodisco-full-hologram](https://github.com/the-static-collective/What-is-the-static-collective-/tree/slice/autodisco-full-hologram) | [bf76894254](https://github.com/the-static-collective/What-is-the-static-collective-/commit/bf76894254d5f6bd28edaea2f3e90c84a66db9ee) | Retained ref; disposition unverified |
@@ -341,12 +373,13 @@ Default: `main` · other refs: 4 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/autodiscography-vault) · [Branches](https://github.com/the-static-collective/autodiscography-vault/branches) · [Pull requests](https://github.com/the-static-collective/autodiscography-vault/pulls)
 
-Default: `main` · other refs: 8 · open PRs: 1
+Default: `main` · other refs: 9 · open PRs: 2
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#15](https://github.com/the-static-collective/autodiscography-vault/pull/15) | Add verified read-only content-address audio resolver | `feat/readonly-media-resolver` → `main` | 2026-10-01 |
 | [#13](https://github.com/the-static-collective/autodiscography-vault/pull/13) | Vault Census v1: preserve raw history before interpretation | `agent/autodiscography-preservation-sprint` → `main` | 2026-08-25 |
 
 ### Retained nondefault branches
@@ -361,3 +394,4 @@ Default: `main` · other refs: 8 · open PRs: 1
 | [agent/phase-b2c-wav-preservation-design](https://github.com/the-static-collective/autodiscography-vault/tree/agent/phase-b2c-wav-preservation-design) | [62913dbebe](https://github.com/the-static-collective/autodiscography-vault/commit/62913dbebeccc356da591d45ef9bdcba07cbda36) | Retained ref; disposition unverified |
 | [agent/side-panel-opener](https://github.com/the-static-collective/autodiscography-vault/tree/agent/side-panel-opener) | [fa69f74b2c](https://github.com/the-static-collective/autodiscography-vault/commit/fa69f74b2cc0670f384601b182a789daffa4b438) | Retained ref; disposition unverified |
 | [agent/skyslicey72](https://github.com/the-static-collective/autodiscography-vault/tree/agent/skyslicey72) | [827a3b5364](https://github.com/the-static-collective/autodiscography-vault/commit/827a3b53649952995e53557dcd9daaccbfb01f0e) | Retained ref; disposition unverified |
+| [feat/readonly-media-resolver](https://github.com/the-static-collective/autodiscography-vault/tree/feat/readonly-media-resolver) | [9243e9d540](https://github.com/the-static-collective/autodiscography-vault/commit/9243e9d5402275fc23f1103832feb14af2e11514) | [open PR #15](https://github.com/the-static-collective/autodiscography-vault/pull/15) |
