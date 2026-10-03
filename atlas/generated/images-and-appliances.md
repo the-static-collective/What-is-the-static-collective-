@@ -15,7 +15,7 @@ Visual and audio-video instruments, pantry experiments, and older appliance bran
 
 [Repository](https://github.com/the-static-collective/the-haunted-toaster) · [Branches](https://github.com/the-static-collective/the-haunted-toaster/branches) · [Pull requests](https://github.com/the-static-collective/the-haunted-toaster/pulls)
 
-Default: `main` · other refs: 191 · open PRs: 34
+Default: `main` · other refs: 192 · open PRs: 34
 
 ### Open pull requests
 
@@ -206,6 +206,7 @@ Default: `main` · other refs: 191 · open PRs: 34
 | [hyperfood/slice-b-living-receipt](https://github.com/the-static-collective/the-haunted-toaster/tree/hyperfood/slice-b-living-receipt) | [7a43effd52](https://github.com/the-static-collective/the-haunted-toaster/commit/7a43effd52c5a7a1b91d283c52d0f29893783141) | Retained ref; disposition unverified |
 | [hyperfood/slice-b-living-receipt-plan](https://github.com/the-static-collective/the-haunted-toaster/tree/hyperfood/slice-b-living-receipt-plan) | [e8e8fb0fa3](https://github.com/the-static-collective/the-haunted-toaster/commit/e8e8fb0fa3c13c98aae8c3ca5e98cb4de9f19031) | Retained ref; disposition unverified |
 | [impl/hyperfood-slice-a](https://github.com/the-static-collective/the-haunted-toaster/tree/impl/hyperfood-slice-a) | [3b504f1233](https://github.com/the-static-collective/the-haunted-toaster/commit/3b504f1233ec9a9cd10cb39b302832285e250b1c) | [open PR #270](https://github.com/the-static-collective/the-haunted-toaster/pull/270) |
+| [integration/ghot-witness-sigil-001](https://github.com/the-static-collective/the-haunted-toaster/tree/integration/ghot-witness-sigil-001) | [3485cfd738](https://github.com/the-static-collective/the-haunted-toaster/commit/3485cfd7384d540a0a45ad42585b02ca3ce1586d) | Retained ref; disposition unverified |
 | [lab/ordered-envelope-v0](https://github.com/the-static-collective/the-haunted-toaster/tree/lab/ordered-envelope-v0) | [d89f9169fd](https://github.com/the-static-collective/the-haunted-toaster/commit/d89f9169fda0d3a74cb32d9ef0489882868cb609) | Retained ref; disposition unverified |
 | [lab/stage-a-ordered-envelope-witness](https://github.com/the-static-collective/the-haunted-toaster/tree/lab/stage-a-ordered-envelope-witness) | [9f758119c9](https://github.com/the-static-collective/the-haunted-toaster/commit/9f758119c913fdc8c7d1d9b318128fa25c4da96f) | [open PR #252](https://github.com/the-static-collective/the-haunted-toaster/pull/252) |
 | [lumi/28-deterministic-subtitle-sidecars](https://github.com/the-static-collective/the-haunted-toaster/tree/lumi/28-deterministic-subtitle-sidecars) | [9dcab821e8](https://github.com/the-static-collective/the-haunted-toaster/commit/9dcab821e8a0c534cc792c416dbd776e29a6442c) | Retained ref; disposition unverified |

@@ -59,7 +59,18 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-) · [Branches](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/branches) · [Pull requests](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/pulls)
 
-Default: `main` · other refs: 0 · open PRs: 0
+Default: `main` · other refs: 6 · open PRs: 0
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [audio-window-001](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/tree/audio-window-001) | [fcf2ba327a](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/commit/fcf2ba327a2bd150383ad6824116ffcfb6639bfe) | Retained ref; disposition unverified |
+| [audio-window-sample-exact-002](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/tree/audio-window-sample-exact-002) | [1d5ccc73bf](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/commit/1d5ccc73bf75354149c9988ae879b1fb2d5fbba6) | Retained ref; disposition unverified |
+| [broadcast-assembly-001](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/tree/broadcast-assembly-001) | [1e06cee070](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/commit/1e06cee07061116eb31afbcdc60b34971ee5b130) | Retained ref; disposition unverified |
+| [first-encounter-001](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/tree/first-encounter-001) | [ea03e2b07d](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/commit/ea03e2b07d99d7fa30d816ead9b708ee8d69b54e) | Retained ref; disposition unverified |
+| [first-encounter-native-env-002](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/tree/first-encounter-native-env-002) | [4e007383eb](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/commit/4e007383ebea586d448f6147bb60821773c49f5e) | Retained ref; disposition unverified |
+| [look-twice-002](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/tree/look-twice-002) | [2d258a1b1a](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/commit/2d258a1b1a326c9e13e4694a9c81f0e828abc669) | Retained ref; disposition unverified |
 
 ## reCURV
 
@@ -209,7 +220,7 @@ Default: `main` · other refs: 79 · open PRs: 19
 
 [Repository](https://github.com/the-static-collective/the-daily-slice) · [Branches](https://github.com/the-static-collective/the-daily-slice/branches) · [Pull requests](https://github.com/the-static-collective/the-daily-slice/pulls)
 
-Default: `main` · other refs: 76 · open PRs: 16
+Default: `main` · other refs: 77 · open PRs: 16
 
 ### Open pull requests
 
@@ -282,6 +293,7 @@ Default: `main` · other refs: 76 · open PRs: 16
 | [slice/2026-09-23-previously-unseen-or-measured](https://github.com/the-static-collective/the-daily-slice/tree/slice/2026-09-23-previously-unseen-or-measured) | [04c230138f](https://github.com/the-static-collective/the-daily-slice/commit/04c230138f0457450e34a99ef2c8b2dcb70988c3) | [open PR #75](https://github.com/the-static-collective/the-daily-slice/pull/75) |
 | [slice/2026-09-25-babybody-pressure-to-tissue](https://github.com/the-static-collective/the-daily-slice/tree/slice/2026-09-25-babybody-pressure-to-tissue) | [73ce9b3ae5](https://github.com/the-static-collective/the-daily-slice/commit/73ce9b3ae564a6010c41cf33801e8f728497be46) | [open PR #77](https://github.com/the-static-collective/the-daily-slice/pull/77) |
 | [slice/2026-09-25-hjj044-two-engine-train](https://github.com/the-static-collective/the-daily-slice/tree/slice/2026-09-25-hjj044-two-engine-train) | [2453e729e6](https://github.com/the-static-collective/the-daily-slice/commit/2453e729e6c65d754713a448a54259ed0f70d8ce) | Retained ref; disposition unverified |
+| [slice/2026-10-03-newsie-first-continuity](https://github.com/the-static-collective/the-daily-slice/tree/slice/2026-10-03-newsie-first-continuity) | [fdec0f043a](https://github.com/the-static-collective/the-daily-slice/commit/fdec0f043a98dbe7a7443a20a6d1f0ddd1ac2894) | Retained ref; disposition unverified |
 | [slice/adapter-garden-native-organs-v02](https://github.com/the-static-collective/the-daily-slice/tree/slice/adapter-garden-native-organs-v02) | [2a8455875f](https://github.com/the-static-collective/the-daily-slice/commit/2a8455875ffbc3165191f465e2477618ad83c738) | Retained ref; disposition unverified |
 | [slice/artifact-receipt-moving-home](https://github.com/the-static-collective/the-daily-slice/tree/slice/artifact-receipt-moving-home) | [dfd2c398bf](https://github.com/the-static-collective/the-daily-slice/commit/dfd2c398bf5e78c0dd63ab356e22aa9cd24c3b2d) | Retained ref; disposition unverified |
 | [slice/body-surface-not-occurrence](https://github.com/the-static-collective/the-daily-slice/tree/slice/body-surface-not-occurrence) | [933cf979d7](https://github.com/the-static-collective/the-daily-slice/commit/933cf979d7dd28f130bc252bf9b74707ae1dee26) | [open PR #72](https://github.com/the-static-collective/the-daily-slice/pull/72) |

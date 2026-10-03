@@ -190,7 +190,7 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/revival) · [Branches](https://github.com/the-static-collective/revival/branches) · [Pull requests](https://github.com/the-static-collective/revival/pulls)
 
-Default: `main` · other refs: 12 · open PRs: 0
+Default: `main` · other refs: 13 · open PRs: 0
 
 ### Retained nondefault branches
 
@@ -208,3 +208,4 @@ Default: `main` · other refs: 12 · open PRs: 0
 | [revival-010-first-world](https://github.com/the-static-collective/revival/tree/revival-010-first-world) | [443a3c76ce](https://github.com/the-static-collective/revival/commit/443a3c76ce896c2f43a4f77b7e7ef32c6553d6a3) | Retained ref; disposition unverified |
 | [revival-011-world-has-places](https://github.com/the-static-collective/revival/tree/revival-011-world-has-places) | [13db5eec50](https://github.com/the-static-collective/revival/commit/13db5eec5050d1e4ec3ce109206b42b5ca5db293) | Retained ref; disposition unverified |
 | [revival-012-earned-names](https://github.com/the-static-collective/revival/tree/revival-012-earned-names) | [d0b198b9f1](https://github.com/the-static-collective/revival/commit/d0b198b9f1af857ed98aea814ba0b49e7446ef22) | Retained ref; disposition unverified |
+| [revival-013-pilgrim-door](https://github.com/the-static-collective/revival/tree/revival-013-pilgrim-door) | [490d880d25](https://github.com/the-static-collective/revival/commit/490d880d2575b38ccbd9f41e234e1db95ecb9f44) | Retained ref; disposition unverified |

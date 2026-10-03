@@ -17,11 +17,51 @@ New or unclassified public repositories. Placement requires editorial review.
 
 Default: `main` · other refs: 0 · open PRs: 0
 
+## GHoT
+
+[Repository](https://github.com/the-static-collective/GHoT) · [Branches](https://github.com/the-static-collective/GHoT/branches) · [Pull requests](https://github.com/the-static-collective/GHoT/pulls)
+
+Default: `main` · other refs: 14 · open PRs: 10
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#14](https://github.com/the-static-collective/GHoT/pull/14) | 025: Read-only Curious Doors surface for composition wants | `curious-doors-025` → `composition-wants-024` | 2026-10-03 |
+| [#13](https://github.com/the-static-collective/GHoT/pull/13) | 024: Concrete composition gaps and explicit wants | `composition-wants-024` → `grammar-exchange-023` | 2026-10-03 |
+| [#12](https://github.com/the-static-collective/GHoT/pull/12) | 023: Signed grammar exchange table with explicit request-offer boundary | `grammar-exchange-023` → `portable-merge-plugins-022` | 2026-10-03 |
+| [#11](https://github.com/the-static-collective/GHoT/pull/11) | 022: Portable merge-plugin packages with HOLD-first install boundary | `portable-merge-plugins-022` → `merge-contract-plugins-021` | 2026-10-03 |
+| [#10](https://github.com/the-static-collective/GHoT/pull/10) | 021: Declarative installable merge-contract plugins | `merge-contract-plugins-021` → `merge-contract-pantry-020` | 2026-10-03 |
+| [#9](https://github.com/the-static-collective/GHoT/pull/9) | 020: Discoverable merge-contract pantry | `merge-contract-pantry-020` → `state-merge-019` | 2026-10-03 |
+| [#8](https://github.com/the-static-collective/GHoT/pull/8) | 019: Owner-local state merge receipts | `state-merge-019` → `state-parcels-018` | 2026-10-03 |
+| [#7](https://github.com/the-static-collective/GHoT/pull/7) | 018: Portable state parcels with owner-local admission | `state-parcels-018` → `main` | 2026-10-03 |
+| [#3](https://github.com/the-static-collective/GHoT/pull/3) | Epistemic Capability 001 — schedule what an organ may know | `epistemic-capability-001` → `rsc-composer-001` | 2026-10-03 |
+| [#2](https://github.com/the-static-collective/GHoT/pull/2) | RSC Composer 001 — executable recursive reseeding | `rsc-composer-001` → `many-bodied-machine-001` | 2026-10-03 |
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [body-choice-001](https://github.com/the-static-collective/GHoT/tree/body-choice-001) | [6d7b3cf660](https://github.com/the-static-collective/GHoT/commit/6d7b3cf660ad03916a85b732c269d6052d0d3dd5) | Retained ref; disposition unverified |
+| [body-choice-replay-002](https://github.com/the-static-collective/GHoT/tree/body-choice-replay-002) | [5f0414912e](https://github.com/the-static-collective/GHoT/commit/5f0414912ed46db2287c5f211a36c9702d743427) | Retained ref; disposition unverified |
+| [composition-wants-024](https://github.com/the-static-collective/GHoT/tree/composition-wants-024) | [1913513c70](https://github.com/the-static-collective/GHoT/commit/1913513c70237bbb92d5d8e4b6b6f894dd5a1b32) | [open PR #13](https://github.com/the-static-collective/GHoT/pull/13) |
+| [curious-doors-025](https://github.com/the-static-collective/GHoT/tree/curious-doors-025) | [d02b231e13](https://github.com/the-static-collective/GHoT/commit/d02b231e13e66130175b9b3887b51cc941539671) | [open PR #14](https://github.com/the-static-collective/GHoT/pull/14) |
+| [epistemic-capability-001](https://github.com/the-static-collective/GHoT/tree/epistemic-capability-001) | [56f6c67c6e](https://github.com/the-static-collective/GHoT/commit/56f6c67c6e3f056e82dd319ed3f50dde0cecea72) | [open PR #3](https://github.com/the-static-collective/GHoT/pull/3) |
+| [external-adapter-manifest-001](https://github.com/the-static-collective/GHoT/tree/external-adapter-manifest-001) | [e12ce3e624](https://github.com/the-static-collective/GHoT/commit/e12ce3e62486feb1e5cd2324d1ae5a6a2be8b19b) | Retained ref; disposition unverified |
+| [grammar-exchange-023](https://github.com/the-static-collective/GHoT/tree/grammar-exchange-023) | [7729d53086](https://github.com/the-static-collective/GHoT/commit/7729d5308679137c8038785fc7d0ad01906d1649) | [open PR #12](https://github.com/the-static-collective/GHoT/pull/12) |
+| [many-bodied-machine-001](https://github.com/the-static-collective/GHoT/tree/many-bodied-machine-001) | [15ca259dbc](https://github.com/the-static-collective/GHoT/commit/15ca259dbcdaf1ec5b1d3dbcc7b92e71ae7158ef) | Retained ref; disposition unverified |
+| [merge-contract-pantry-020](https://github.com/the-static-collective/GHoT/tree/merge-contract-pantry-020) | [b2f953e011](https://github.com/the-static-collective/GHoT/commit/b2f953e01142398243c83868bd622de41dfec305) | [open PR #9](https://github.com/the-static-collective/GHoT/pull/9) |
+| [merge-contract-plugins-021](https://github.com/the-static-collective/GHoT/tree/merge-contract-plugins-021) | [57bb6196bf](https://github.com/the-static-collective/GHoT/commit/57bb6196bfea8aef0e8ae0f2feda8ed2d02fb9d4) | [open PR #10](https://github.com/the-static-collective/GHoT/pull/10) |
+| [portable-merge-plugins-022](https://github.com/the-static-collective/GHoT/tree/portable-merge-plugins-022) | [cdef056a57](https://github.com/the-static-collective/GHoT/commit/cdef056a5791b0976b29b10ce54a9390cacbf0b2) | [open PR #11](https://github.com/the-static-collective/GHoT/pull/11) |
+| [rsc-composer-001](https://github.com/the-static-collective/GHoT/tree/rsc-composer-001) | [0107364cac](https://github.com/the-static-collective/GHoT/commit/0107364cac6d574b27e462c723b525b9e96b67e7) | [open PR #2](https://github.com/the-static-collective/GHoT/pull/2) |
+| [state-merge-019](https://github.com/the-static-collective/GHoT/tree/state-merge-019) | [6f5737cfe3](https://github.com/the-static-collective/GHoT/commit/6f5737cfe3a38119abb5b0f21ede4a5ab7613320) | [open PR #8](https://github.com/the-static-collective/GHoT/pull/8) |
+| [state-parcels-018](https://github.com/the-static-collective/GHoT/tree/state-parcels-018) | [fa58ff7b9e](https://github.com/the-static-collective/GHoT/commit/fa58ff7b9e7a545fd2f7bbecf58da7647e82afde) | [open PR #7](https://github.com/the-static-collective/GHoT/pull/7) |
+
 ## lemonPRESS
 
 [Repository](https://github.com/the-static-collective/lemonPRESS) · [Branches](https://github.com/the-static-collective/lemonPRESS/branches) · [Pull requests](https://github.com/the-static-collective/lemonPRESS/pulls)
 
-Default: `main` · other refs: 27 · open PRs: 5
+Default: `main` · other refs: 29 · open PRs: 5
 
 ### Open pull requests
 
@@ -38,6 +78,8 @@ Default: `main` · other refs: 27 · open PRs: 5
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
 | [audio-composer-001](https://github.com/the-static-collective/lemonPRESS/tree/audio-composer-001) | [b32083a712](https://github.com/the-static-collective/lemonPRESS/commit/b32083a712e2f9020dea95d09c3ba24e12addb0f) | [open PR #21](https://github.com/the-static-collective/lemonPRESS/pull/21) |
+| [forage/letters-not-shared-memory-001](https://github.com/the-static-collective/lemonPRESS/tree/forage/letters-not-shared-memory-001) | [7eee545f43](https://github.com/the-static-collective/lemonPRESS/commit/7eee545f43879f1f5d636cce4d9c402d6f58c3fc) | Retained ref; disposition unverified |
+| [forage/the-book-is-a-route-001](https://github.com/the-static-collective/lemonPRESS/tree/forage/the-book-is-a-route-001) | [05c0df3dc2](https://github.com/the-static-collective/lemonPRESS/commit/05c0df3dc2ddabb8fbcc1e74d192bf742a44003c) | Retained ref; disposition unverified |
 | [genesis/crawler-press-001](https://github.com/the-static-collective/lemonPRESS/tree/genesis/crawler-press-001) | [ad11175034](https://github.com/the-static-collective/lemonPRESS/commit/ad1117503436e1cdc01f5298bad885ff031b6141) | Retained ref; disposition unverified |
 | [instrument/nunumath-playground-001](https://github.com/the-static-collective/lemonPRESS/tree/instrument/nunumath-playground-001) | [d78593f70f](https://github.com/the-static-collective/lemonPRESS/commit/d78593f70f05b24bbbd8685453e9a0e962daf4f0) | Retained ref; disposition unverified |
 | [library/little-free-library-001](https://github.com/the-static-collective/lemonPRESS/tree/library/little-free-library-001) | [96fac7d23d](https://github.com/the-static-collective/lemonPRESS/commit/96fac7d23d37f3f749d4156f1672b28a81eee947) | Retained ref; disposition unverified |
@@ -65,11 +107,23 @@ Default: `main` · other refs: 27 · open PRs: 5
 | [work/haunted-library-001-crawler](https://github.com/the-static-collective/lemonPRESS/tree/work/haunted-library-001-crawler) | [6d88fa77dd](https://github.com/the-static-collective/lemonPRESS/commit/6d88fa77dd5edfd59dc41d34af3ef71205475125) | [open PR #13](https://github.com/the-static-collective/lemonPRESS/pull/13) |
 | [work/haunted-library-001-main](https://github.com/the-static-collective/lemonPRESS/tree/work/haunted-library-001-main) | [3dbc855c1a](https://github.com/the-static-collective/lemonPRESS/commit/3dbc855c1a1c0abaca991429d6c7a6d916682a59) | [open PR #14](https://github.com/the-static-collective/lemonPRESS/pull/14) |
 
+## love
+
+[Repository](https://github.com/the-static-collective/love) · [Branches](https://github.com/the-static-collective/love/branches) · [Pull requests](https://github.com/the-static-collective/love/pulls)
+
+Default: `main` · other refs: 0 · open PRs: 0
+
+## playdeck
+
+[Repository](https://github.com/the-static-collective/playdeck) · [Branches](https://github.com/the-static-collective/playdeck/branches) · [Pull requests](https://github.com/the-static-collective/playdeck/pulls)
+
+Default: `main` · other refs: 0 · open PRs: 0
+
 ## reLATTE
 
 [Repository](https://github.com/the-static-collective/reLATTE) · [Branches](https://github.com/the-static-collective/reLATTE/branches) · [Pull requests](https://github.com/the-static-collective/reLATTE/pulls)
 
-Default: `main` · other refs: 43 · open PRs: 26
+Default: `main` · other refs: 46 · open PRs: 26
 
 ### Open pull requests
 
@@ -112,6 +166,8 @@ Default: `main` · other refs: 43 · open PRs: 26
 | [crossing-parcel-002-meta-return](https://github.com/the-static-collective/reLATTE/tree/crossing-parcel-002-meta-return) | [b729bb9d8e](https://github.com/the-static-collective/reLATTE/commit/b729bb9d8e87d3dec8739c1cd574199f10c3faaa) | [open PR #37](https://github.com/the-static-collective/reLATTE/pull/37) |
 | [cultural-descendant-001](https://github.com/the-static-collective/reLATTE/tree/cultural-descendant-001) | [442bc190f2](https://github.com/the-static-collective/reLATTE/commit/442bc190f2dc8817c79f5701f1445dd43cdbe188) | Retained ref; disposition unverified |
 | [ecology-machine-001](https://github.com/the-static-collective/reLATTE/tree/ecology-machine-001) | [8446ed84df](https://github.com/the-static-collective/reLATTE/commit/8446ed84dfe197690f98dee991bb206d881dfef4) | Retained ref; disposition unverified |
+| [experiment/physical-custody-power-split-001](https://github.com/the-static-collective/reLATTE/tree/experiment/physical-custody-power-split-001) | [85a55dce41](https://github.com/the-static-collective/reLATTE/commit/85a55dce41f440cedd3d84ef39371e8ebe02d248) | Retained ref; disposition unverified |
+| [experiment/physical-custody-roundtrip-002](https://github.com/the-static-collective/reLATTE/tree/experiment/physical-custody-roundtrip-002) | [87006f3265](https://github.com/the-static-collective/reLATTE/commit/87006f3265103a8abe387d81597c58aeb39b0beb) | Retained ref; disposition unverified |
 | [external-checkpoint-001](https://github.com/the-static-collective/reLATTE/tree/external-checkpoint-001) | [c0e59dfa36](https://github.com/the-static-collective/reLATTE/commit/c0e59dfa361e91ef6c886ae0bd9a25752c2aa293) | Retained ref; disposition unverified |
 | [feat/automatic-failover-001](https://github.com/the-static-collective/reLATTE/tree/feat/automatic-failover-001) | [19f394883a](https://github.com/the-static-collective/reLATTE/commit/19f394883af29122e92658413110be47f5bc7eb9) | [open PR #40](https://github.com/the-static-collective/reLATTE/pull/40) |
 | [feat/browse-metabolism](https://github.com/the-static-collective/reLATTE/tree/feat/browse-metabolism) | [7d7fc2b44f](https://github.com/the-static-collective/reLATTE/commit/7d7fc2b44f00717647804675185ac9f269a788ed) | [open PR #10](https://github.com/the-static-collective/reLATTE/pull/10) |
@@ -126,6 +182,7 @@ Default: `main` · other refs: 43 · open PRs: 26
 | [feat/live-dht-gateway-001](https://github.com/the-static-collective/reLATTE/tree/feat/live-dht-gateway-001) | [eb956dcae5](https://github.com/the-static-collective/reLATTE/commit/eb956dcae5a042947a45f588805eaa248bea0ee1) | [open PR #33](https://github.com/the-static-collective/reLATTE/pull/33) |
 | [feat/mail-slot-static-post-001](https://github.com/the-static-collective/reLATTE/tree/feat/mail-slot-static-post-001) | [28b67acbae](https://github.com/the-static-collective/reLATTE/commit/28b67acbae929c77877647b0cb67354edbcc211c) | [open PR #46](https://github.com/the-static-collective/reLATTE/pull/46) |
 | [feat/mortal-road-001](https://github.com/the-static-collective/reLATTE/tree/feat/mortal-road-001) | [b88463aa13](https://github.com/the-static-collective/reLATTE/commit/b88463aa13e29fe95563471464f53f4f76e94321) | [open PR #39](https://github.com/the-static-collective/reLATTE/pull/39) |
+| [feat/opaque-roundtrip-001](https://github.com/the-static-collective/reLATTE/tree/feat/opaque-roundtrip-001) | [c0829671ed](https://github.com/the-static-collective/reLATTE/commit/c0829671edf02c1e29e87fd1514410f04038682a) | Retained ref; disposition unverified |
 | [feat/r1-r2-canonical-identity](https://github.com/the-static-collective/reLATTE/tree/feat/r1-r2-canonical-identity) | [dccf7a670c](https://github.com/the-static-collective/reLATTE/commit/dccf7a670c366c740d7cd27eef8c7adb337f6e3c) | Retained ref; disposition unverified |
 | [feat/r3-sovereign-receiver](https://github.com/the-static-collective/reLATTE/tree/feat/r3-sovereign-receiver) | [fe837e86e9](https://github.com/the-static-collective/reLATTE/commit/fe837e86e992ebb2e5367a4f0b3d7ac353bcc7b0) | Retained ref; disposition unverified |
 | [feat/reentry-witness](https://github.com/the-static-collective/reLATTE/tree/feat/reentry-witness) | [86ffb59941](https://github.com/the-static-collective/reLATTE/commit/86ffb59941b45ce7e650a45f1e65091104241c11) | [open PR #12](https://github.com/the-static-collective/reLATTE/pull/12) |

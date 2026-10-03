@@ -2918,6 +2918,176 @@
       ]
     },
     {
+      "name": "GHoT",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "body-choice-001",
+          "sha": "6d7b3cf660ad03916a85b732c269d6052d0d3dd5"
+        },
+        {
+          "name": "body-choice-replay-002",
+          "sha": "5f0414912ed46db2287c5f211a36c9702d743427"
+        },
+        {
+          "name": "composition-wants-024",
+          "sha": "1913513c70237bbb92d5d8e4b6b6f894dd5a1b32"
+        },
+        {
+          "name": "curious-doors-025",
+          "sha": "d02b231e13e66130175b9b3887b51cc941539671"
+        },
+        {
+          "name": "epistemic-capability-001",
+          "sha": "56f6c67c6e3f056e82dd319ed3f50dde0cecea72"
+        },
+        {
+          "name": "external-adapter-manifest-001",
+          "sha": "e12ce3e62486feb1e5cd2324d1ae5a6a2be8b19b"
+        },
+        {
+          "name": "grammar-exchange-023",
+          "sha": "7729d5308679137c8038785fc7d0ad01906d1649"
+        },
+        {
+          "name": "main",
+          "sha": "684c585ae620bf9037105ded6fbc5fe1e8a503b0"
+        },
+        {
+          "name": "many-bodied-machine-001",
+          "sha": "15ca259dbcdaf1ec5b1d3dbcc7b92e71ae7158ef"
+        },
+        {
+          "name": "merge-contract-pantry-020",
+          "sha": "b2f953e01142398243c83868bd622de41dfec305"
+        },
+        {
+          "name": "merge-contract-plugins-021",
+          "sha": "57bb6196bfea8aef0e8ae0f2feda8ed2d02fb9d4"
+        },
+        {
+          "name": "portable-merge-plugins-022",
+          "sha": "cdef056a5791b0976b29b10ce54a9390cacbf0b2"
+        },
+        {
+          "name": "rsc-composer-001",
+          "sha": "0107364cac6d574b27e462c723b525b9e96b67e7"
+        },
+        {
+          "name": "state-merge-019",
+          "sha": "6f5737cfe3a38119abb5b0f21ede4a5ab7613320"
+        },
+        {
+          "name": "state-parcels-018",
+          "sha": "fa58ff7b9e7a545fd2f7bbecf58da7647e82afde"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 14,
+          "title": "025: Read-only Curious Doors surface for composition wants",
+          "head_branch": "curious-doors-025",
+          "head_sha": "d02b231e13e66130175b9b3887b51cc941539671",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "composition-wants-024",
+          "updated_at": "2026-10-03T08:09:19Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/14"
+        },
+        {
+          "number": 13,
+          "title": "024: Concrete composition gaps and explicit wants",
+          "head_branch": "composition-wants-024",
+          "head_sha": "1913513c70237bbb92d5d8e4b6b6f894dd5a1b32",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "grammar-exchange-023",
+          "updated_at": "2026-10-03T06:55:39Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/13"
+        },
+        {
+          "number": 12,
+          "title": "023: Signed grammar exchange table with explicit request-offer boundary",
+          "head_branch": "grammar-exchange-023",
+          "head_sha": "7729d5308679137c8038785fc7d0ad01906d1649",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "portable-merge-plugins-022",
+          "updated_at": "2026-10-03T06:39:07Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/12"
+        },
+        {
+          "number": 11,
+          "title": "022: Portable merge-plugin packages with HOLD-first install boundary",
+          "head_branch": "portable-merge-plugins-022",
+          "head_sha": "cdef056a5791b0976b29b10ce54a9390cacbf0b2",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "merge-contract-plugins-021",
+          "updated_at": "2026-10-03T06:08:41Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/11"
+        },
+        {
+          "number": 10,
+          "title": "021: Declarative installable merge-contract plugins",
+          "head_branch": "merge-contract-plugins-021",
+          "head_sha": "57bb6196bfea8aef0e8ae0f2feda8ed2d02fb9d4",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "merge-contract-pantry-020",
+          "updated_at": "2026-10-03T05:43:25Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/10"
+        },
+        {
+          "number": 9,
+          "title": "020: Discoverable merge-contract pantry",
+          "head_branch": "merge-contract-pantry-020",
+          "head_sha": "b2f953e01142398243c83868bd622de41dfec305",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "state-merge-019",
+          "updated_at": "2026-10-03T03:49:37Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/9"
+        },
+        {
+          "number": 8,
+          "title": "019: Owner-local state merge receipts",
+          "head_branch": "state-merge-019",
+          "head_sha": "6f5737cfe3a38119abb5b0f21ede4a5ab7613320",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "state-parcels-018",
+          "updated_at": "2026-10-03T03:37:32Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/8"
+        },
+        {
+          "number": 7,
+          "title": "018: Portable state parcels with owner-local admission",
+          "head_branch": "state-parcels-018",
+          "head_sha": "fa58ff7b9e7a545fd2f7bbecf58da7647e82afde",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "main",
+          "updated_at": "2026-10-03T03:25:08Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/7"
+        },
+        {
+          "number": 3,
+          "title": "Epistemic Capability 001 — schedule what an organ may know",
+          "head_branch": "epistemic-capability-001",
+          "head_sha": "56f6c67c6e3f056e82dd319ed3f50dde0cecea72",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "rsc-composer-001",
+          "updated_at": "2026-10-03T00:42:39Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "RSC Composer 001 — executable recursive reseeding",
+          "head_branch": "rsc-composer-001",
+          "head_sha": "0107364cac6d574b27e462c723b525b9e96b67e7",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "many-bodied-machine-001",
+          "updated_at": "2026-10-03T00:35:14Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/2"
+        }
+      ]
+    },
+    {
       "name": "GOATnote",
       "visibility": "public",
       "default_branch": "main",
@@ -3241,6 +3411,14 @@
         {
           "name": "audio-composer-001",
           "sha": "b32083a712e2f9020dea95d09c3ba24e12addb0f"
+        },
+        {
+          "name": "forage/letters-not-shared-memory-001",
+          "sha": "7eee545f43879f1f5d636cce4d9c402d6f58c3fc"
+        },
+        {
+          "name": "forage/the-book-is-a-route-001",
+          "sha": "05c0df3dc2ddabb8fbcc1e74d192bf742a44003c"
         },
         {
           "name": "genesis/crawler-press-001",
@@ -3623,6 +3801,19 @@
           "url": "https://github.com/the-static-collective/LOADOUT/pull/4"
         }
       ]
+    },
+    {
+      "name": "love",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "60c26510d02e667edae83ced64bd9976c3eac6f7"
+        }
+      ],
+      "open_prs": []
     },
     {
       "name": "mundaneWORMHOLE",
@@ -4105,6 +4296,19 @@
       "open_prs": []
     },
     {
+      "name": "playdeck",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "a7cf718421e767fd382a01894063c3eeba3d2930"
+        }
+      ],
+      "open_prs": []
+    },
+    {
       "name": "project0",
       "visibility": "public",
       "default_branch": "main",
@@ -4360,6 +4564,14 @@
           "sha": "8446ed84dfe197690f98dee991bb206d881dfef4"
         },
         {
+          "name": "experiment/physical-custody-power-split-001",
+          "sha": "85a55dce41f440cedd3d84ef39371e8ebe02d248"
+        },
+        {
+          "name": "experiment/physical-custody-roundtrip-002",
+          "sha": "87006f3265103a8abe387d81597c58aeb39b0beb"
+        },
+        {
           "name": "external-checkpoint-001",
           "sha": "c0e59dfa361e91ef6c886ae0bd9a25752c2aa293"
         },
@@ -4416,6 +4628,10 @@
           "sha": "b88463aa13e29fe95563471464f53f4f76e94321"
         },
         {
+          "name": "feat/opaque-roundtrip-001",
+          "sha": "c0829671edf02c1e29e87fd1514410f04038682a"
+        },
+        {
           "name": "feat/r1-r2-canonical-identity",
           "sha": "dccf7a670c366c740d7cd27eef8c7adb337f6e3c"
         },
@@ -4465,7 +4681,7 @@
         },
         {
           "name": "main",
-          "sha": "3128324f9d9a71574d5ee1684fe1b0da24675496"
+          "sha": "87006f3265103a8abe387d81597c58aeb39b0beb"
         },
         {
           "name": "mirror-store-serve-001",
@@ -4845,6 +5061,10 @@
         {
           "name": "revival-012-earned-names",
           "sha": "d0b198b9f1af857ed98aea814ba0b49e7446ef22"
+        },
+        {
+          "name": "revival-013-pilgrim-door",
+          "sha": "490d880d2575b38ccbd9f41e234e1db95ecb9f44"
         }
       ],
       "open_prs": []
@@ -4908,6 +5128,10 @@
           "sha": "5e93843ceae80a2bca94ff438f0bc24dc49a4b85"
         },
         {
+          "name": "experiment/rsc-epistemic-instrument-001",
+          "sha": "14eba4f40d255cdbf410b39e6464e6d0ee8a7c6b"
+        },
+        {
           "name": "integration/room-006-008-orphan-recomposition-20260924",
           "sha": "2066cd2def0ab7425b6ce5663aec05046a9d7b0b"
         },
@@ -4929,6 +5153,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 16,
+          "title": "RSC Epistemic Instrument 001 — human-visible knowledge crossing",
+          "head_branch": "experiment/rsc-epistemic-instrument-001",
+          "head_sha": "14eba4f40d255cdbf410b39e6464e6d0ee8a7c6b",
+          "head_repo": "the-static-collective/ROroomOM",
+          "base_branch": "experiment/relatte-com5-room-009-guest-port",
+          "updated_at": "2026-10-03T00:49:33Z",
+          "url": "https://github.com/the-static-collective/ROroomOM/pull/16"
+        },
         {
           "number": 15,
           "title": "Add transport-neutral multi-AI Guest Port",
@@ -5432,6 +5666,10 @@
           "sha": "6dda8a20ad9fc086cb00f340db5bff60d513e513"
         },
         {
+          "name": "integration/ghot-idle-operator-001",
+          "sha": "a4f10f5881e05784617e5eec13c5e69fe17c7dad"
+        },
+        {
           "name": "integration/living-codex-endpoint-001",
           "sha": "fa72a854867ecde431d59896dc0725f957faa0af"
         },
@@ -5453,6 +5691,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 12,
+          "title": "GHOT-IDLE-OPERATOR-001: pin the game-shaped control shell",
+          "head_branch": "integration/ghot-idle-operator-001",
+          "head_sha": "a4f10f5881e05784617e5eec13c5e69fe17c7dad",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "deployment/road-desk-001",
+          "updated_at": "2026-10-02T18:07:50Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/12"
+        },
         {
           "number": 11,
           "title": "Pin ROADKIT Road Desk into the whole-house STATIC OS line",
@@ -5620,6 +5868,10 @@
           "sha": "804b172021f4fb599e99a84dfa0d32c772fb3e90"
         },
         {
+          "name": "feat/audio-window-radio-006",
+          "sha": "082c011519bf641e6eed0bbc39ca877b8d726f98"
+        },
+        {
           "name": "feat/book-gap-workshop-001",
           "sha": "94839b1bcf4016bafe9257df41d5be585be12ab7"
         },
@@ -5648,6 +5900,10 @@
           "sha": "5f4402b84872716c572996681b84d1cc06ca08fb"
         },
         {
+          "name": "feat/broadcast-assembly-007",
+          "sha": "d788221be5ad6178cb1fb5db1e40e999074f872e"
+        },
+        {
           "name": "feat/chronobody-living-main-preview-v01",
           "sha": "663b8334236d26aac8ad28812a4d3bd182dc3dac"
         },
@@ -5666,6 +5922,22 @@
         {
           "name": "feat/dogram-impact-desk-001",
           "sha": "3216213c811502516fdd27f93229bc4f4f6edd6b"
+        },
+        {
+          "name": "feat/doorhouse-ghot-body-choice-003",
+          "sha": "3ffb53b26960a5252911324ff00fc6b0068f2fe8"
+        },
+        {
+          "name": "feat/doorhouse-toaster-004",
+          "sha": "4595c124a4a34790d3a007c643ea179564e8781c"
+        },
+        {
+          "name": "feat/field-station-001",
+          "sha": "166457b28705defcc010ad8197184a0b0ec41761"
+        },
+        {
+          "name": "feat/ghot-idle-shell-001",
+          "sha": "78be3286daf8687be1b35a31c9b76edab5963253"
         },
         {
           "name": "feat/graft-candidate-draft-experiments-003",
@@ -5696,6 +5968,10 @@
           "sha": "73883e8165916f3d42d9546cd5504fa706908f34"
         },
         {
+          "name": "feat/house-remembers-doors-001",
+          "sha": "daa124ed6c65d180ebd9ecd2fdfafd15479969f2"
+        },
+        {
           "name": "feat/house-return-desk-v01",
           "sha": "ab862c96e5276d02345101ed585f72ad1b068814"
         },
@@ -5724,12 +6000,20 @@
           "sha": "b9cd13f74c8337faf895a939c49bbb341743ad6f"
         },
         {
+          "name": "feat/look-twice-005",
+          "sha": "6e915ab27aad8bfd780b6669d58be617fa7a0c1b"
+        },
+        {
           "name": "feat/maddloop-001-abstract-loop-pedal",
           "sha": "87ed518787c4475f58e16355cb69b6a37f79eaee"
         },
         {
           "name": "feat/mirror-001-visual-demo",
           "sha": "bd0371740583a8da2ab2874b03dc909d4df89179"
+        },
+        {
+          "name": "feat/phono-field-door-001",
+          "sha": "ca7ef08cdd7ee21f1c3deb169990c0afd0faed46"
         },
         {
           "name": "feat/road-desk-001",
@@ -5801,7 +6085,7 @@
         },
         {
           "name": "main",
-          "sha": "49e2ef06cfc016250851c2e3dce27889b007b88f"
+          "sha": "947577fd0338261f78f1bc26254a54c3a738e841"
         },
         {
           "name": "navigation-aperture-2026-09-27",
@@ -5821,6 +6105,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 89,
+          "title": "GHoT-001: make the idle RPG the real Workbench control shell",
+          "head_branch": "feat/ghot-idle-shell-001",
+          "head_sha": "78be3286daf8687be1b35a31c9b76edab5963253",
+          "head_repo": "the-static-collective/static-workbench",
+          "base_branch": "feat/road-desk-001",
+          "updated_at": "2026-10-02T18:06:08Z",
+          "url": "https://github.com/the-static-collective/static-workbench/pull/89"
+        },
         {
           "number": 88,
           "title": "Add ROADKIT Road Desk to the whole-house integration line",
@@ -6406,8 +6700,32 @@
       "archived": false,
       "branches": [
         {
+          "name": "audio-window-001",
+          "sha": "fcf2ba327a2bd150383ad6824116ffcfb6639bfe"
+        },
+        {
+          "name": "audio-window-sample-exact-002",
+          "sha": "1d5ccc73bf75354149c9988ae879b1fb2d5fbba6"
+        },
+        {
+          "name": "broadcast-assembly-001",
+          "sha": "1e06cee07061116eb31afbcdc60b34971ee5b130"
+        },
+        {
+          "name": "first-encounter-001",
+          "sha": "ea03e2b07d99d7fa30d816ead9b708ee8d69b54e"
+        },
+        {
+          "name": "first-encounter-native-env-002",
+          "sha": "4e007383ebea586d448f6147bb60821773c49f5e"
+        },
+        {
+          "name": "look-twice-002",
+          "sha": "2d258a1b1a326c9e13e4694a9c81f0e828abc669"
+        },
+        {
           "name": "main",
-          "sha": "b6c3ee08ca147406d880fc744a6e4b980d19801b"
+          "sha": "7ad77a46debc7e8c05fc7434c9091f3e36870651"
         }
       ],
       "open_prs": []
@@ -6605,6 +6923,10 @@
         {
           "name": "slice/2026-09-25-hjj044-two-engine-train",
           "sha": "2453e729e6c65d754713a448a54259ed0f70d8ce"
+        },
+        {
+          "name": "slice/2026-10-03-newsie-first-continuity",
+          "sha": "fdec0f043a98dbe7a7443a20a6d1f0ddd1ac2894"
         },
         {
           "name": "slice/adapter-garden-native-organs-v02",
@@ -7371,6 +7693,10 @@
           "sha": "4fbc8f8216bdc56797cedd0170728ffd9c02a134"
         },
         {
+          "name": "feat/field-answer-001",
+          "sha": "59cb0e24117088de3de18271ed90c5a721873085"
+        },
+        {
           "name": "feat/provenance-contract-v1",
           "sha": "7f100aaf176c0a02e9f75ae053130a96cb16b069"
         },
@@ -7388,7 +7714,7 @@
         },
         {
           "name": "main",
-          "sha": "5b14848079f523c44b2b823d5dcb618bdda00788"
+          "sha": "038b7101ecff781ee2ae17a22a1323ca28740d06"
         },
         {
           "name": "tmp-invalid",
@@ -8034,6 +8360,10 @@
           "sha": "3b504f1233ec9a9cd10cb39b302832285e250b1c"
         },
         {
+          "name": "integration/ghot-witness-sigil-001",
+          "sha": "3485cfd7384d540a0a45ad42585b02ca3ce1586d"
+        },
+        {
           "name": "lab/ordered-envelope-v0",
           "sha": "d89f9169fda0d3a74cb32d9ef0489882868cb609"
         },
@@ -8063,7 +8393,7 @@
         },
         {
           "name": "main",
-          "sha": "e8e8fb0fa3c13c98aae8c3ca5e98cb4de9f19031"
+          "sha": "3652c2a96b6b287cda316d1c92daadf7c7417eaf"
         },
         {
           "name": "memory/six-up-prism-001",
@@ -9272,7 +9602,7 @@
         },
         {
           "name": "main",
-          "sha": "456e0df94dc0109aa02367f46c40a36137e87105"
+          "sha": "e4aa1f9d7630faad7566292f3077254f31fd59d0"
         },
         {
           "name": "pattern/gestalt-recursion",
@@ -9693,5 +10023,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-02T13:51:04+00:00"
+  "captured_at": "2026-10-03T12:31:45+00:00"
 }

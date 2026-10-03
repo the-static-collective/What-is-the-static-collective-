@@ -207,12 +207,13 @@ Default: `main` · other refs: 10 · open PRs: 8
 
 [Repository](https://github.com/the-static-collective/ROroomOM) · [Branches](https://github.com/the-static-collective/ROroomOM/branches) · [Pull requests](https://github.com/the-static-collective/ROroomOM/pulls)
 
-Default: `main` · other refs: 17 · open PRs: 15
+Default: `main` · other refs: 18 · open PRs: 16
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#16](https://github.com/the-static-collective/ROroomOM/pull/16) | RSC Epistemic Instrument 001 — human-visible knowledge crossing | `experiment/rsc-epistemic-instrument-001` → `experiment/relatte-com5-room-009-guest-port` | 2026-10-03 |
 | [#15](https://github.com/the-static-collective/ROroomOM/pull/15) | Add transport-neutral multi-AI Guest Port | `experiment/relatte-com5-room-009-guest-port` → `experiment/relatte-com5-room-008-offer-echo-cross` | 2026-10-01 |
 | [#14](https://github.com/the-static-collective/ROroomOM/pull/14) | Make Human Offer and AI Echo explicit before proposals | `experiment/relatte-com5-room-008-offer-echo-cross` → `experiment/relatte-com5-room-007-human-ai-crossing` | 2026-10-01 |
 | [#13](https://github.com/the-static-collective/ROroomOM/pull/13) | Add visible human AI crossings over Room Score | `experiment/relatte-com5-room-007-human-ai-crossing` → `experiment/relatte-com5-room-006-play-memory` | 2026-10-01 |
@@ -246,6 +247,7 @@ Default: `main` · other refs: 17 · open PRs: 15
 | [experiment/relatte-com5-room-007-human-ai-crossing](https://github.com/the-static-collective/ROroomOM/tree/experiment/relatte-com5-room-007-human-ai-crossing) | [564c6db387](https://github.com/the-static-collective/ROroomOM/commit/564c6db387869d071b0ff993956bae56b72b8804) | [open PR #13](https://github.com/the-static-collective/ROroomOM/pull/13) |
 | [experiment/relatte-com5-room-008-offer-echo-cross](https://github.com/the-static-collective/ROroomOM/tree/experiment/relatte-com5-room-008-offer-echo-cross) | [5cdd904611](https://github.com/the-static-collective/ROroomOM/commit/5cdd90461106e7cd0c51d2f8fa87198f0a319cb7) | [open PR #14](https://github.com/the-static-collective/ROroomOM/pull/14) |
 | [experiment/relatte-com5-room-009-guest-port](https://github.com/the-static-collective/ROroomOM/tree/experiment/relatte-com5-room-009-guest-port) | [5e93843cea](https://github.com/the-static-collective/ROroomOM/commit/5e93843ceae80a2bca94ff438f0bc24dc49a4b85) | [open PR #15](https://github.com/the-static-collective/ROroomOM/pull/15) |
+| [experiment/rsc-epistemic-instrument-001](https://github.com/the-static-collective/ROroomOM/tree/experiment/rsc-epistemic-instrument-001) | [14eba4f40d](https://github.com/the-static-collective/ROroomOM/commit/14eba4f40d255cdbf410b39e6464e6d0ee8a7c6b) | [open PR #16](https://github.com/the-static-collective/ROroomOM/pull/16) |
 | [integration/room-006-008-orphan-recomposition-20260924](https://github.com/the-static-collective/ROroomOM/tree/integration/room-006-008-orphan-recomposition-20260924) | [2066cd2def](https://github.com/the-static-collective/ROroomOM/commit/2066cd2def0ab7425b6ce5663aec05046a9d7b0b) | [open PR #4](https://github.com/the-static-collective/ROroomOM/pull/4) |
 | [room-005-capability-crossing](https://github.com/the-static-collective/ROroomOM/tree/room-005-capability-crossing) | [be6494044b](https://github.com/the-static-collective/ROroomOM/commit/be6494044b70d78de51b90560dc90fe91c580ad7) | [open PR #1](https://github.com/the-static-collective/ROroomOM/pull/1) |
 | [room-006-effectful-rejoin-bat](https://github.com/the-static-collective/ROroomOM/tree/room-006-effectful-rejoin-bat) | [cc461b582e](https://github.com/the-static-collective/ROroomOM/commit/cc461b582e9acadbe598be6185be01a6d16b80b3) | [open PR #2](https://github.com/the-static-collective/ROroomOM/pull/2) |
