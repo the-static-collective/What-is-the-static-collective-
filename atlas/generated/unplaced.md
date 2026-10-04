@@ -17,16 +17,51 @@ New or unclassified public repositories. Placement requires editorial review.
 
 Default: `main` · other refs: 0 · open PRs: 0
 
-## GHoT
+## DVOTE
 
-[Repository](https://github.com/the-static-collective/GHoT) · [Branches](https://github.com/the-static-collective/GHoT/branches) · [Pull requests](https://github.com/the-static-collective/GHoT/pulls)
+[Repository](https://github.com/the-static-collective/DVOTE) · [Branches](https://github.com/the-static-collective/DVOTE/branches) · [Pull requests](https://github.com/the-static-collective/DVOTE/pulls)
 
-Default: `main` · other refs: 14 · open PRs: 10
+Default: `main` · other refs: 7 · open PRs: 5
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#7](https://github.com/the-static-collective/DVOTE/pull/7) | Composer 001 — recurrence proposes, reader selects | `experiment/composer-001` → `experiment/memento-export-001` | 2026-10-03 |
+| [#6](https://github.com/the-static-collective/DVOTE/pull/6) | MEMENTO 001 — bind receipts into portable books | `experiment/memento-export-001` → `experiment/threshold-shelf-receipts-001` | 2026-10-03 |
+| [#5](https://github.com/the-static-collective/DVOTE/pull/5) | Artifact Layer 001 — threshold, shelf, and field receipts | `experiment/threshold-shelf-receipts-001` → `campaign/paula-42-001` | 2026-10-03 |
+| [#4](https://github.com/the-static-collective/DVOTE/pull/4) | MAKE GROUND LOOP 001 — book encounter → portable human witness | `experiment/make-ground-loop-001` → `main` | 2026-10-03 |
+| [#3](https://github.com/the-static-collective/DVOTE/pull/3) | Paula 42 — hope and restoration becomes playable | `campaign/paula-42-001` → `main` | 2026-10-03 |
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [campaign/paula-42-001](https://github.com/the-static-collective/DVOTE/tree/campaign/paula-42-001) | [9c3c3d2d0f](https://github.com/the-static-collective/DVOTE/commit/9c3c3d2d0ffa34d49011fa2ddca1e7c229686a1a) | [open PR #3](https://github.com/the-static-collective/DVOTE/pull/3) |
+| [experiment/campaign-format-001](https://github.com/the-static-collective/DVOTE/tree/experiment/campaign-format-001) | [589293fa80](https://github.com/the-static-collective/DVOTE/commit/589293fa80af9be01c3bed1fb4db08b3b2e4123d) | Retained ref; disposition unverified |
+| [experiment/composer-001](https://github.com/the-static-collective/DVOTE/tree/experiment/composer-001) | [28d3483aee](https://github.com/the-static-collective/DVOTE/commit/28d3483aeebc33d8be4a56b927cdae6eec907901) | [open PR #7](https://github.com/the-static-collective/DVOTE/pull/7) |
+| [experiment/lifegame-001](https://github.com/the-static-collective/DVOTE/tree/experiment/lifegame-001) | [f2742e190b](https://github.com/the-static-collective/DVOTE/commit/f2742e190b16d3a975e44416d183d31745b9f820) | Retained ref; disposition unverified |
+| [experiment/make-ground-loop-001](https://github.com/the-static-collective/DVOTE/tree/experiment/make-ground-loop-001) | [50bd81bfef](https://github.com/the-static-collective/DVOTE/commit/50bd81bfef7785f2c4c8935bcd45b06371e4c197) | [open PR #4](https://github.com/the-static-collective/DVOTE/pull/4) |
+| [experiment/memento-export-001](https://github.com/the-static-collective/DVOTE/tree/experiment/memento-export-001) | [34020e8e90](https://github.com/the-static-collective/DVOTE/commit/34020e8e908a48114e1211da60af8ac39bc0dd47) | [open PR #6](https://github.com/the-static-collective/DVOTE/pull/6) |
+| [experiment/threshold-shelf-receipts-001](https://github.com/the-static-collective/DVOTE/tree/experiment/threshold-shelf-receipts-001) | [9a2a45db41](https://github.com/the-static-collective/DVOTE/commit/9a2a45db41039dfc952bcf8d2d849aa487ed0da0) | [open PR #5](https://github.com/the-static-collective/DVOTE/pull/5) |
+
+## GHoT
+
+[Repository](https://github.com/the-static-collective/GHoT) · [Branches](https://github.com/the-static-collective/GHoT/branches) · [Pull requests](https://github.com/the-static-collective/GHoT/pulls)
+
+Default: `main` · other refs: 24 · open PRs: 17
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#24](https://github.com/the-static-collective/GHoT/pull/24) | LIGHTWALKER-ECONOMY-032: Workmark → Realm-local economic projections | `lightwalker-economy-032` → `ice-cube-031` | 2026-10-04 |
+| [#23](https://github.com/the-static-collective/GHoT/pull/23) | Experiment 031: background Ice Cube mining as a native organ | `ice-cube-031` → `ice-cube-030` | 2026-10-04 |
+| [#22](https://github.com/the-static-collective/GHoT/pull/22) | Experiment 030: mine verified mathematical Ice Cubes | `ice-cube-030` → `activation-broker-029` | 2026-10-04 |
+| [#20](https://github.com/the-static-collective/GHoT/pull/20) | 029: Static-OS activation broker with explicit ACT ceremony | `activation-broker-029` → `activation-tickets-028` | 2026-10-03 |
+| [#18](https://github.com/the-static-collective/GHoT/pull/18) | 028: One-operation activation tickets with execution receipts | `activation-tickets-028` → `typed-launch-descriptors-027` | 2026-10-03 |
+| [#16](https://github.com/the-static-collective/GHoT/pull/16) | 027: Typed launch descriptors with destination revalidation | `typed-launch-descriptors-027` → `curious-door-navigation-026` | 2026-10-03 |
+| [#15](https://github.com/the-static-collective/GHoT/pull/15) | 026: Navigable Curious Doors without action authority | `curious-door-navigation-026` → `curious-doors-025` | 2026-10-03 |
 | [#14](https://github.com/the-static-collective/GHoT/pull/14) | 025: Read-only Curious Doors surface for composition wants | `curious-doors-025` → `composition-wants-024` | 2026-10-03 |
 | [#13](https://github.com/the-static-collective/GHoT/pull/13) | 024: Concrete composition gaps and explicit wants | `composition-wants-024` → `grammar-exchange-023` | 2026-10-03 |
 | [#12](https://github.com/the-static-collective/GHoT/pull/12) | 023: Signed grammar exchange table with explicit request-offer boundary | `grammar-exchange-023` → `portable-merge-plugins-022` | 2026-10-03 |
@@ -42,13 +77,22 @@ Default: `main` · other refs: 14 · open PRs: 10
 
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
+| [activation-broker-029](https://github.com/the-static-collective/GHoT/tree/activation-broker-029) | [727009bf4a](https://github.com/the-static-collective/GHoT/commit/727009bf4a7d5bd60db4da627f7ef98860d40bb2) | [open PR #20](https://github.com/the-static-collective/GHoT/pull/20) |
+| [activation-tickets-028](https://github.com/the-static-collective/GHoT/tree/activation-tickets-028) | [fe0991ad1d](https://github.com/the-static-collective/GHoT/commit/fe0991ad1db3d4ee9e093ad69503461a79233145) | [open PR #18](https://github.com/the-static-collective/GHoT/pull/18) |
 | [body-choice-001](https://github.com/the-static-collective/GHoT/tree/body-choice-001) | [6d7b3cf660](https://github.com/the-static-collective/GHoT/commit/6d7b3cf660ad03916a85b732c269d6052d0d3dd5) | Retained ref; disposition unverified |
 | [body-choice-replay-002](https://github.com/the-static-collective/GHoT/tree/body-choice-replay-002) | [5f0414912e](https://github.com/the-static-collective/GHoT/commit/5f0414912ed46db2287c5f211a36c9702d743427) | Retained ref; disposition unverified |
+| [carried-intent-assignment-001](https://github.com/the-static-collective/GHoT/tree/carried-intent-assignment-001) | [040094b2d1](https://github.com/the-static-collective/GHoT/commit/040094b2d1d36afa546347b254aba243905889de) | Retained ref; disposition unverified |
+| [carried-intent-dispatch-001](https://github.com/the-static-collective/GHoT/tree/carried-intent-dispatch-001) | [6d544c8fd1](https://github.com/the-static-collective/GHoT/commit/6d544c8fd11f69de9f43378896fc4c347a94cc36) | Retained ref; disposition unverified |
 | [composition-wants-024](https://github.com/the-static-collective/GHoT/tree/composition-wants-024) | [1913513c70](https://github.com/the-static-collective/GHoT/commit/1913513c70237bbb92d5d8e4b6b6f894dd5a1b32) | [open PR #13](https://github.com/the-static-collective/GHoT/pull/13) |
+| [curious-door-navigation-026](https://github.com/the-static-collective/GHoT/tree/curious-door-navigation-026) | [294802d61e](https://github.com/the-static-collective/GHoT/commit/294802d61ec93b078cf3ed607af165388709e9f2) | [open PR #15](https://github.com/the-static-collective/GHoT/pull/15) |
 | [curious-doors-025](https://github.com/the-static-collective/GHoT/tree/curious-doors-025) | [d02b231e13](https://github.com/the-static-collective/GHoT/commit/d02b231e13e66130175b9b3887b51cc941539671) | [open PR #14](https://github.com/the-static-collective/GHoT/pull/14) |
 | [epistemic-capability-001](https://github.com/the-static-collective/GHoT/tree/epistemic-capability-001) | [56f6c67c6e](https://github.com/the-static-collective/GHoT/commit/56f6c67c6e3f056e82dd319ed3f50dde0cecea72) | [open PR #3](https://github.com/the-static-collective/GHoT/pull/3) |
 | [external-adapter-manifest-001](https://github.com/the-static-collective/GHoT/tree/external-adapter-manifest-001) | [e12ce3e624](https://github.com/the-static-collective/GHoT/commit/e12ce3e62486feb1e5cd2324d1ae5a6a2be8b19b) | Retained ref; disposition unverified |
+| [field-reseed-receiver-001](https://github.com/the-static-collective/GHoT/tree/field-reseed-receiver-001) | [391f0edd5d](https://github.com/the-static-collective/GHoT/commit/391f0edd5da5eae5d3f19d61f01d80de386837c5) | Retained ref; disposition unverified |
 | [grammar-exchange-023](https://github.com/the-static-collective/GHoT/tree/grammar-exchange-023) | [7729d53086](https://github.com/the-static-collective/GHoT/commit/7729d5308679137c8038785fc7d0ad01906d1649) | [open PR #12](https://github.com/the-static-collective/GHoT/pull/12) |
+| [ice-cube-030](https://github.com/the-static-collective/GHoT/tree/ice-cube-030) | [30434a26fe](https://github.com/the-static-collective/GHoT/commit/30434a26fee82c0fc4e3bfa7dcb8a1425f19d5d8) | [open PR #22](https://github.com/the-static-collective/GHoT/pull/22) |
+| [ice-cube-031](https://github.com/the-static-collective/GHoT/tree/ice-cube-031) | [79884a50ec](https://github.com/the-static-collective/GHoT/commit/79884a50ecd25c3e8afe2f583e8be7f30629c713) | [open PR #23](https://github.com/the-static-collective/GHoT/pull/23) |
+| [lightwalker-economy-032](https://github.com/the-static-collective/GHoT/tree/lightwalker-economy-032) | [a41da98d6e](https://github.com/the-static-collective/GHoT/commit/a41da98d6eb482d3e2a1ec857f045d85ecae00b6) | [open PR #24](https://github.com/the-static-collective/GHoT/pull/24) |
 | [many-bodied-machine-001](https://github.com/the-static-collective/GHoT/tree/many-bodied-machine-001) | [15ca259dbc](https://github.com/the-static-collective/GHoT/commit/15ca259dbcdaf1ec5b1d3dbcc7b92e71ae7158ef) | Retained ref; disposition unverified |
 | [merge-contract-pantry-020](https://github.com/the-static-collective/GHoT/tree/merge-contract-pantry-020) | [b2f953e011](https://github.com/the-static-collective/GHoT/commit/b2f953e01142398243c83868bd622de41dfec305) | [open PR #9](https://github.com/the-static-collective/GHoT/pull/9) |
 | [merge-contract-plugins-021](https://github.com/the-static-collective/GHoT/tree/merge-contract-plugins-021) | [57bb6196bf](https://github.com/the-static-collective/GHoT/commit/57bb6196bfea8aef0e8ae0f2feda8ed2d02fb9d4) | [open PR #10](https://github.com/the-static-collective/GHoT/pull/10) |
@@ -56,6 +100,7 @@ Default: `main` · other refs: 14 · open PRs: 10
 | [rsc-composer-001](https://github.com/the-static-collective/GHoT/tree/rsc-composer-001) | [0107364cac](https://github.com/the-static-collective/GHoT/commit/0107364cac6d574b27e462c723b525b9e96b67e7) | [open PR #2](https://github.com/the-static-collective/GHoT/pull/2) |
 | [state-merge-019](https://github.com/the-static-collective/GHoT/tree/state-merge-019) | [6f5737cfe3](https://github.com/the-static-collective/GHoT/commit/6f5737cfe3a38119abb5b0f21ede4a5ab7613320) | [open PR #8](https://github.com/the-static-collective/GHoT/pull/8) |
 | [state-parcels-018](https://github.com/the-static-collective/GHoT/tree/state-parcels-018) | [fa58ff7b9e](https://github.com/the-static-collective/GHoT/commit/fa58ff7b9e7a545fd2f7bbecf58da7647e82afde) | [open PR #7](https://github.com/the-static-collective/GHoT/pull/7) |
+| [typed-launch-descriptors-027](https://github.com/the-static-collective/GHoT/tree/typed-launch-descriptors-027) | [864c7aceca](https://github.com/the-static-collective/GHoT/commit/864c7aceca27619a68d2f4c35c21744f6f99559c) | [open PR #16](https://github.com/the-static-collective/GHoT/pull/16) |
 
 ## lemonPRESS
 
@@ -117,7 +162,19 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/playdeck) · [Branches](https://github.com/the-static-collective/playdeck/branches) · [Pull requests](https://github.com/the-static-collective/playdeck/pulls)
 
-Default: `main` · other refs: 0 · open PRs: 0
+Default: `main` · other refs: 1 · open PRs: 1
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#1](https://github.com/the-static-collective/playdeck/pull/1) | FRANKEN SMASH 001: deterministic cross-organ composition runtime | `experiment/franken-smash-001` → `main` | 2026-10-04 |
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [experiment/franken-smash-001](https://github.com/the-static-collective/playdeck/tree/experiment/franken-smash-001) | [02b5cb3412](https://github.com/the-static-collective/playdeck/commit/02b5cb34129d793d17b33494c80c4abb06075990) | [open PR #1](https://github.com/the-static-collective/playdeck/pull/1) |
 
 ## reLATTE
 

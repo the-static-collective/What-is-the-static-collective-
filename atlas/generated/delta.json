@@ -1,373 +1,658 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-02T13:51:04+00:00",
-  "to_captured_at": "2026-10-03T12:31:45+00:00",
+  "from_captured_at": "2026-10-03T12:31:45+00:00",
+  "to_captured_at": "2026-10-04T13:11:39+00:00",
   "added_repositories": [
-    "GHoT",
-    "love",
-    "playdeck"
+    "DVOTE"
   ],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "GHoT",
-      "branch": "body-choice-001",
-      "sha": "6d7b3cf660ad03916a85b732c269d6052d0d3dd5"
+      "repository": "Dogram",
+      "branch": "feat/generation-delta-001",
+      "sha": "643958c6d9080d5089fbc6137106c303c458609b"
     },
     {
-      "repository": "GHoT",
-      "branch": "body-choice-replay-002",
-      "sha": "5f0414912ed46db2287c5f211a36c9702d743427"
+      "repository": "Dogram",
+      "branch": "feat/listener-delta-001",
+      "sha": "23ab03095b08e2d0445ba2fd09e2c684e1599a80"
     },
     {
-      "repository": "GHoT",
-      "branch": "composition-wants-024",
-      "sha": "1913513c70237bbb92d5d8e4b6b6f894dd5a1b32"
+      "repository": "Dogram",
+      "branch": "impl/ice-cube-001",
+      "sha": "9ec97eab633ef25f7b1cba209aee27f5067b095e"
     },
     {
-      "repository": "GHoT",
-      "branch": "curious-doors-025",
-      "sha": "d02b231e13e66130175b9b3887b51cc941539671"
+      "repository": "DVOTE",
+      "branch": "campaign/paula-42-001",
+      "sha": "9c3c3d2d0ffa34d49011fa2ddca1e7c229686a1a"
     },
     {
-      "repository": "GHoT",
-      "branch": "epistemic-capability-001",
-      "sha": "56f6c67c6e3f056e82dd319ed3f50dde0cecea72"
+      "repository": "DVOTE",
+      "branch": "experiment/campaign-format-001",
+      "sha": "589293fa80af9be01c3bed1fb4db08b3b2e4123d"
     },
     {
-      "repository": "GHoT",
-      "branch": "external-adapter-manifest-001",
-      "sha": "e12ce3e62486feb1e5cd2324d1ae5a6a2be8b19b"
+      "repository": "DVOTE",
+      "branch": "experiment/composer-001",
+      "sha": "28d3483aeebc33d8be4a56b927cdae6eec907901"
     },
     {
-      "repository": "GHoT",
-      "branch": "grammar-exchange-023",
-      "sha": "7729d5308679137c8038785fc7d0ad01906d1649"
+      "repository": "DVOTE",
+      "branch": "experiment/lifegame-001",
+      "sha": "f2742e190b16d3a975e44416d183d31745b9f820"
     },
     {
-      "repository": "GHoT",
+      "repository": "DVOTE",
+      "branch": "experiment/make-ground-loop-001",
+      "sha": "50bd81bfef7785f2c4c8935bcd45b06371e4c197"
+    },
+    {
+      "repository": "DVOTE",
+      "branch": "experiment/memento-export-001",
+      "sha": "34020e8e908a48114e1211da60af8ac39bc0dd47"
+    },
+    {
+      "repository": "DVOTE",
+      "branch": "experiment/threshold-shelf-receipts-001",
+      "sha": "9a2a45db41039dfc952bcf8d2d849aa487ed0da0"
+    },
+    {
+      "repository": "DVOTE",
       "branch": "main",
-      "sha": "684c585ae620bf9037105ded6fbc5fe1e8a503b0"
+      "sha": "2f33ab0901ee0140991dd5d263aebfdfd69b3848"
     },
     {
       "repository": "GHoT",
-      "branch": "many-bodied-machine-001",
-      "sha": "15ca259dbcdaf1ec5b1d3dbcc7b92e71ae7158ef"
+      "branch": "activation-broker-029",
+      "sha": "727009bf4a7d5bd60db4da627f7ef98860d40bb2"
     },
     {
       "repository": "GHoT",
-      "branch": "merge-contract-pantry-020",
-      "sha": "b2f953e01142398243c83868bd622de41dfec305"
+      "branch": "activation-tickets-028",
+      "sha": "fe0991ad1db3d4ee9e093ad69503461a79233145"
     },
     {
       "repository": "GHoT",
-      "branch": "merge-contract-plugins-021",
-      "sha": "57bb6196bfea8aef0e8ae0f2feda8ed2d02fb9d4"
+      "branch": "carried-intent-assignment-001",
+      "sha": "040094b2d1d36afa546347b254aba243905889de"
     },
     {
       "repository": "GHoT",
-      "branch": "portable-merge-plugins-022",
-      "sha": "cdef056a5791b0976b29b10ce54a9390cacbf0b2"
+      "branch": "carried-intent-dispatch-001",
+      "sha": "6d544c8fd11f69de9f43378896fc4c347a94cc36"
     },
     {
       "repository": "GHoT",
-      "branch": "rsc-composer-001",
-      "sha": "0107364cac6d574b27e462c723b525b9e96b67e7"
+      "branch": "curious-door-navigation-026",
+      "sha": "294802d61ec93b078cf3ed607af165388709e9f2"
     },
     {
       "repository": "GHoT",
-      "branch": "state-merge-019",
-      "sha": "6f5737cfe3a38119abb5b0f21ede4a5ab7613320"
+      "branch": "field-reseed-receiver-001",
+      "sha": "391f0edd5da5eae5d3f19d61f01d80de386837c5"
     },
     {
       "repository": "GHoT",
-      "branch": "state-parcels-018",
-      "sha": "fa58ff7b9e7a545fd2f7bbecf58da7647e82afde"
+      "branch": "ice-cube-030",
+      "sha": "30434a26fee82c0fc4e3bfa7dcb8a1425f19d5d8"
     },
     {
-      "repository": "lemonPRESS",
-      "branch": "forage/letters-not-shared-memory-001",
-      "sha": "7eee545f43879f1f5d636cce4d9c402d6f58c3fc"
+      "repository": "GHoT",
+      "branch": "ice-cube-031",
+      "sha": "79884a50ecd25c3e8afe2f583e8be7f30629c713"
     },
     {
-      "repository": "lemonPRESS",
-      "branch": "forage/the-book-is-a-route-001",
-      "sha": "05c0df3dc2ddabb8fbcc1e74d192bf742a44003c"
+      "repository": "GHoT",
+      "branch": "lightwalker-economy-032",
+      "sha": "a41da98d6eb482d3e2a1ec857f045d85ecae00b6"
     },
     {
-      "repository": "love",
-      "branch": "main",
-      "sha": "60c26510d02e667edae83ced64bd9976c3eac6f7"
+      "repository": "GHoT",
+      "branch": "typed-launch-descriptors-027",
+      "sha": "864c7aceca27619a68d2f4c35c21744f6f99559c"
+    },
+    {
+      "repository": "GOATnote",
+      "branch": "experiment/goatrooms-001",
+      "sha": "306ef0d2195daf60cdfab428b4c48c836be3804d"
+    },
+    {
+      "repository": "GOATnote",
+      "branch": "experiment/goatwalk-001",
+      "sha": "56344c946050dbb51e8296e313a3b04daee6b9bf"
     },
     {
       "repository": "playdeck",
-      "branch": "main",
-      "sha": "a7cf718421e767fd382a01894063c3eeba3d2930"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "experiment/physical-custody-power-split-001",
-      "sha": "85a55dce41f440cedd3d84ef39371e8ebe02d248"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "experiment/physical-custody-roundtrip-002",
-      "sha": "87006f3265103a8abe387d81597c58aeb39b0beb"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feat/opaque-roundtrip-001",
-      "sha": "c0829671edf02c1e29e87fd1514410f04038682a"
-    },
-    {
-      "repository": "revival",
-      "branch": "revival-013-pilgrim-door",
-      "sha": "490d880d2575b38ccbd9f41e234e1db95ecb9f44"
-    },
-    {
-      "repository": "ROroomOM",
-      "branch": "experiment/rsc-epistemic-instrument-001",
-      "sha": "14eba4f40d255cdbf410b39e6464e6d0ee8a7c6b"
+      "branch": "experiment/franken-smash-001",
+      "sha": "02b5cb34129d793d17b33494c80c4abb06075990"
     },
     {
       "repository": "static-os",
-      "branch": "integration/ghot-idle-operator-001",
-      "sha": "a4f10f5881e05784617e5eec13c5e69fe17c7dad"
+      "branch": "experiment/composed-nav-contact-to-witness-001",
+      "sha": "42a99796b2959b49917d087e21d8a7f192bc736e"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/composed-witness-to-world-001",
+      "sha": "8d0606d15261185ff77cbada8edd4dbe21ffde4d"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/dvote-make-ground-loop-001",
+      "sha": "bc55dc21010da1f3bf7ff1ec82666abe4d6153f2"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/external-witness-field-001",
+      "sha": "8966a1de98e30d26f9314b66b96059bd00e34ae6"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/external-witness-gate-001",
+      "sha": "1431e7b7e5d7d2840ba4c7e3d212f034d2843642"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/make-ground-to-witness-reentry-001",
+      "sha": "2181f7437f59b34c103a7283a7a4d02e45464af9"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/measurement-path-audit-001",
+      "sha": "d706bfaa82bc2d2949a1aaca5c14eedddf357d91"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/nav-bridge-executable-001",
+      "sha": "97fa00930e794ee3dd4257c54b58d8277e51f52b"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/nav-to-witness-crossing-001",
+      "sha": "90432a327887e34756b42e2f99f790e933a3e5b9"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/navigation-braid-001",
+      "sha": "61e79210b9b5e098cc6ea9ebe8dd14343537f0a6"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/navigation-weave-001",
+      "sha": "e19e1f32149dec300ff83f6f676f107d5a1f1717"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/residual-witness-discriminator-001",
+      "sha": "3d97808e34a0815a3f130f4ae5bbdceacb235a86"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/two-cycle-navigation-history-001",
+      "sha": "1952472a03f1b5dc15218fe75caef7b8dacd286a"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/weave-generation-to-nav-cycle-001",
+      "sha": "a4cf4397755ede2b555c4f11f835a9de289b8d27"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/weave-to-nav-admission-001",
+      "sha": "4f1ce6a5f7a0aee26f484222560a35af38aba7c8"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/witness-field-discrimination-cycle-001",
+      "sha": "74b9a80b409ac9819766aa9ad41003fc34de1f74"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/witness-field-to-nav-001",
+      "sha": "6dbd78eebf545ec8e3ff427716064817ee8679e6"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/witness-reentry-to-world-001",
+      "sha": "b7a10094514adeba723f40a95efbd1faa84cd6ef"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/witness-to-world-crossing-001",
+      "sha": "c1f3024e267ecf033e03f7707bcb07e784e1f095"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/world-dogram-nav-reorientation-001",
+      "sha": "4972f56345357677bfb4613348ba61cd1c2d9475"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/world-to-make-ground-crossing-001",
+      "sha": "8b7224ec7fb07e3fa5c474b7bdbddb9c27739cb6"
     },
     {
       "repository": "static-workbench",
-      "branch": "feat/audio-window-radio-006",
-      "sha": "082c011519bf641e6eed0bbc39ca877b8d726f98"
+      "branch": "banana-elf-co-delight-001",
+      "sha": "120a1b51381a06b14d6f7cfdfae78cd3aeedc5eb"
     },
     {
       "repository": "static-workbench",
-      "branch": "feat/broadcast-assembly-007",
-      "sha": "d788221be5ad6178cb1fb5db1e40e999074f872e"
+      "branch": "banana-elf-fork-001",
+      "sha": "b69e9d46417ab2b1f6811072f23b3597254583f3"
     },
     {
       "repository": "static-workbench",
-      "branch": "feat/doorhouse-ghot-body-choice-003",
-      "sha": "3ffb53b26960a5252911324ff00fc6b0068f2fe8"
+      "branch": "carried-intent-assignment-001",
+      "sha": "a74080c3fa3fa8ce0b0cc1fb52de5afc109fb68d"
     },
     {
       "repository": "static-workbench",
-      "branch": "feat/doorhouse-toaster-004",
-      "sha": "4595c124a4a34790d3a007c643ea179564e8781c"
+      "branch": "carried-intent-dispatch-001",
+      "sha": "fa1f554a6956871891ee6e79273ecbf6d2e67d2a"
     },
     {
       "repository": "static-workbench",
-      "branch": "feat/field-station-001",
-      "sha": "166457b28705defcc010ad8197184a0b0ec41761"
+      "branch": "feat/dogram-generation-field-001",
+      "sha": "cb587126b5f21b755424ddd92f0b53d60d7a858f"
     },
     {
       "repository": "static-workbench",
-      "branch": "feat/ghot-idle-shell-001",
-      "sha": "78be3286daf8687be1b35a31c9b76edab5963253"
+      "branch": "feat/listener-delta-field-001",
+      "sha": "9efea9514d42e6af57949207964d0ca185a42646"
     },
     {
       "repository": "static-workbench",
-      "branch": "feat/house-remembers-doors-001",
-      "sha": "daa124ed6c65d180ebd9ecd2fdfafd15479969f2"
+      "branch": "feat/phono-reentry-001",
+      "sha": "bdb4e4cdff620b8c7768e465fe881ab4854c953a"
     },
     {
       "repository": "static-workbench",
-      "branch": "feat/look-twice-005",
-      "sha": "6e915ab27aad8bfd780b6669d58be617fa7a0c1b"
+      "branch": "field-reseed-crossing-001",
+      "sha": "0182348ce1beb8813fa390144c4c5f2ce3de9125"
     },
     {
       "repository": "static-workbench",
-      "branch": "feat/phono-field-door-001",
-      "sha": "ca7ef08cdd7ee21f1c3deb169990c0afd0faed46"
+      "branch": "field-return-001",
+      "sha": "527cb497ef0f1a8a26260d8a7e250442c9ebc972"
     },
     {
-      "repository": "The-AutodiscoV.20.-question-marks-",
-      "branch": "audio-window-001",
-      "sha": "fcf2ba327a2bd150383ad6824116ffcfb6639bfe"
+      "repository": "the-haunted-blender",
+      "branch": "integration/franken-blender-001",
+      "sha": "cbfd600144bfb78d1dfc2cafe9b7f6e9146b10fa"
     },
     {
-      "repository": "The-AutodiscoV.20.-question-marks-",
-      "branch": "audio-window-sample-exact-002",
-      "sha": "1d5ccc73bf75354149c9988ae879b1fb2d5fbba6"
-    },
-    {
-      "repository": "The-AutodiscoV.20.-question-marks-",
-      "branch": "broadcast-assembly-001",
-      "sha": "1e06cee07061116eb31afbcdc60b34971ee5b130"
-    },
-    {
-      "repository": "The-AutodiscoV.20.-question-marks-",
-      "branch": "first-encounter-001",
-      "sha": "ea03e2b07d99d7fa30d816ead9b708ee8d69b54e"
-    },
-    {
-      "repository": "The-AutodiscoV.20.-question-marks-",
-      "branch": "first-encounter-native-env-002",
-      "sha": "4e007383ebea586d448f6147bb60821773c49f5e"
-    },
-    {
-      "repository": "The-AutodiscoV.20.-question-marks-",
-      "branch": "look-twice-002",
-      "sha": "2d258a1b1a326c9e13e4694a9c81f0e828abc669"
-    },
-    {
-      "repository": "the-daily-slice",
-      "branch": "slice/2026-10-03-newsie-first-continuity",
-      "sha": "fdec0f043a98dbe7a7443a20a6d1f0ddd1ac2894"
-    },
-    {
-      "repository": "the-haunted-phonography",
-      "branch": "feat/field-answer-001",
-      "sha": "59cb0e24117088de3de18271ed90c5a721873085"
+      "repository": "the-haunted-blender",
+      "branch": "integration/franken-blender-002-cutout-machine",
+      "sha": "7cfdee2b7c823baa9219683f1a9cbfc68b21191b"
     },
     {
       "repository": "the-haunted-toaster",
-      "branch": "integration/ghot-witness-sigil-001",
-      "sha": "3485cfd7384d540a0a45ad42585b02ca3ce1586d"
+      "branch": "design/franken-composer-001",
+      "sha": "ad7a74d2dbd4705616437272577fc3cd2c02c777"
+    },
+    {
+      "repository": "the-haunted-toaster",
+      "branch": "experimental/franken-composer-001",
+      "sha": "5e8b176cc5d46ba62cb069c3b0e59286d1c1c398"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "reLATTE",
+      "repository": "Dogram",
       "branch": "main",
-      "from_sha": "3128324f9d9a71574d5ee1684fe1b0da24675496",
-      "to_sha": "87006f3265103a8abe387d81597c58aeb39b0beb"
+      "from_sha": "0d2d848ef9a3c5243492bd28fa5c9a71423b2508",
+      "to_sha": "551b5f9df18f17ec69b452ddcdff01718e0ff771"
+    },
+    {
+      "repository": "GHoT",
+      "branch": "main",
+      "from_sha": "684c585ae620bf9037105ded6fbc5fe1e8a503b0",
+      "to_sha": "e35dd470384d864b7b0b629a68dad570875a7df0"
     },
     {
       "repository": "static-workbench",
       "branch": "main",
-      "from_sha": "49e2ef06cfc016250851c2e3dce27889b007b88f",
-      "to_sha": "947577fd0338261f78f1bc26254a54c3a738e841"
-    },
-    {
-      "repository": "The-AutodiscoV.20.-question-marks-",
-      "branch": "main",
-      "from_sha": "b6c3ee08ca147406d880fc744a6e4b980d19801b",
-      "to_sha": "7ad77a46debc7e8c05fc7434c9091f3e36870651"
-    },
-    {
-      "repository": "the-haunted-phonography",
-      "branch": "main",
-      "from_sha": "5b14848079f523c44b2b823d5dcb618bdda00788",
-      "to_sha": "038b7101ecff781ee2ae17a22a1323ca28740d06"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "main",
-      "from_sha": "e8e8fb0fa3c13c98aae8c3ca5e98cb4de9f19031",
-      "to_sha": "3652c2a96b6b287cda316d1c92daadf7c7417eaf"
+      "from_sha": "947577fd0338261f78f1bc26254a54c3a738e841",
+      "to_sha": "43cfb81311ee0c802959d663edfe4547684955d2"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "456e0df94dc0109aa02367f46c40a36137e87105",
-      "to_sha": "e4aa1f9d7630faad7566292f3077254f31fd59d0"
+      "from_sha": "e4aa1f9d7630faad7566292f3077254f31fd59d0",
+      "to_sha": "52642d9db28d37d0d6ddf92f59ea4a2738a5469f"
     }
   ],
   "opened_prs": [
     {
-      "repository": "GHoT",
-      "number": 2,
-      "title": "RSC Composer 001 — executable recursive reseeding",
-      "url": "https://github.com/the-static-collective/GHoT/pull/2",
-      "head_branch": "rsc-composer-001",
-      "base_branch": "many-bodied-machine-001"
+      "repository": "Dogram",
+      "number": 180,
+      "title": "Ice Cube 001: bounded Lucas/Halley/mapping-torus receipts",
+      "url": "https://github.com/the-static-collective/Dogram/pull/180",
+      "head_branch": "impl/ice-cube-001",
+      "base_branch": "impl/mapping-torus-receipt-v0"
     },
     {
-      "repository": "GHoT",
+      "repository": "DVOTE",
       "number": 3,
-      "title": "Epistemic Capability 001 — schedule what an organ may know",
-      "url": "https://github.com/the-static-collective/GHoT/pull/3",
-      "head_branch": "epistemic-capability-001",
-      "base_branch": "rsc-composer-001"
-    },
-    {
-      "repository": "GHoT",
-      "number": 7,
-      "title": "018: Portable state parcels with owner-local admission",
-      "url": "https://github.com/the-static-collective/GHoT/pull/7",
-      "head_branch": "state-parcels-018",
+      "title": "Paula 42 — hope and restoration becomes playable",
+      "url": "https://github.com/the-static-collective/DVOTE/pull/3",
+      "head_branch": "campaign/paula-42-001",
       "base_branch": "main"
     },
     {
-      "repository": "GHoT",
-      "number": 8,
-      "title": "019: Owner-local state merge receipts",
-      "url": "https://github.com/the-static-collective/GHoT/pull/8",
-      "head_branch": "state-merge-019",
-      "base_branch": "state-parcels-018"
+      "repository": "DVOTE",
+      "number": 4,
+      "title": "MAKE GROUND LOOP 001 — book encounter → portable human witness",
+      "url": "https://github.com/the-static-collective/DVOTE/pull/4",
+      "head_branch": "experiment/make-ground-loop-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "DVOTE",
+      "number": 5,
+      "title": "Artifact Layer 001 — threshold, shelf, and field receipts",
+      "url": "https://github.com/the-static-collective/DVOTE/pull/5",
+      "head_branch": "experiment/threshold-shelf-receipts-001",
+      "base_branch": "campaign/paula-42-001"
+    },
+    {
+      "repository": "DVOTE",
+      "number": 6,
+      "title": "MEMENTO 001 — bind receipts into portable books",
+      "url": "https://github.com/the-static-collective/DVOTE/pull/6",
+      "head_branch": "experiment/memento-export-001",
+      "base_branch": "experiment/threshold-shelf-receipts-001"
+    },
+    {
+      "repository": "DVOTE",
+      "number": 7,
+      "title": "Composer 001 — recurrence proposes, reader selects",
+      "url": "https://github.com/the-static-collective/DVOTE/pull/7",
+      "head_branch": "experiment/composer-001",
+      "base_branch": "experiment/memento-export-001"
     },
     {
       "repository": "GHoT",
-      "number": 9,
-      "title": "020: Discoverable merge-contract pantry",
-      "url": "https://github.com/the-static-collective/GHoT/pull/9",
-      "head_branch": "merge-contract-pantry-020",
-      "base_branch": "state-merge-019"
+      "number": 15,
+      "title": "026: Navigable Curious Doors without action authority",
+      "url": "https://github.com/the-static-collective/GHoT/pull/15",
+      "head_branch": "curious-door-navigation-026",
+      "base_branch": "curious-doors-025"
     },
     {
       "repository": "GHoT",
-      "number": 10,
-      "title": "021: Declarative installable merge-contract plugins",
-      "url": "https://github.com/the-static-collective/GHoT/pull/10",
-      "head_branch": "merge-contract-plugins-021",
-      "base_branch": "merge-contract-pantry-020"
-    },
-    {
-      "repository": "GHoT",
-      "number": 11,
-      "title": "022: Portable merge-plugin packages with HOLD-first install boundary",
-      "url": "https://github.com/the-static-collective/GHoT/pull/11",
-      "head_branch": "portable-merge-plugins-022",
-      "base_branch": "merge-contract-plugins-021"
-    },
-    {
-      "repository": "GHoT",
-      "number": 12,
-      "title": "023: Signed grammar exchange table with explicit request-offer boundary",
-      "url": "https://github.com/the-static-collective/GHoT/pull/12",
-      "head_branch": "grammar-exchange-023",
-      "base_branch": "portable-merge-plugins-022"
-    },
-    {
-      "repository": "GHoT",
-      "number": 13,
-      "title": "024: Concrete composition gaps and explicit wants",
-      "url": "https://github.com/the-static-collective/GHoT/pull/13",
-      "head_branch": "composition-wants-024",
-      "base_branch": "grammar-exchange-023"
-    },
-    {
-      "repository": "GHoT",
-      "number": 14,
-      "title": "025: Read-only Curious Doors surface for composition wants",
-      "url": "https://github.com/the-static-collective/GHoT/pull/14",
-      "head_branch": "curious-doors-025",
-      "base_branch": "composition-wants-024"
-    },
-    {
-      "repository": "ROroomOM",
       "number": 16,
-      "title": "RSC Epistemic Instrument 001 — human-visible knowledge crossing",
-      "url": "https://github.com/the-static-collective/ROroomOM/pull/16",
-      "head_branch": "experiment/rsc-epistemic-instrument-001",
-      "base_branch": "experiment/relatte-com5-room-009-guest-port"
+      "title": "027: Typed launch descriptors with destination revalidation",
+      "url": "https://github.com/the-static-collective/GHoT/pull/16",
+      "head_branch": "typed-launch-descriptors-027",
+      "base_branch": "curious-door-navigation-026"
+    },
+    {
+      "repository": "GHoT",
+      "number": 18,
+      "title": "028: One-operation activation tickets with execution receipts",
+      "url": "https://github.com/the-static-collective/GHoT/pull/18",
+      "head_branch": "activation-tickets-028",
+      "base_branch": "typed-launch-descriptors-027"
+    },
+    {
+      "repository": "GHoT",
+      "number": 20,
+      "title": "029: Static-OS activation broker with explicit ACT ceremony",
+      "url": "https://github.com/the-static-collective/GHoT/pull/20",
+      "head_branch": "activation-broker-029",
+      "base_branch": "activation-tickets-028"
+    },
+    {
+      "repository": "GHoT",
+      "number": 22,
+      "title": "Experiment 030: mine verified mathematical Ice Cubes",
+      "url": "https://github.com/the-static-collective/GHoT/pull/22",
+      "head_branch": "ice-cube-030",
+      "base_branch": "activation-broker-029"
+    },
+    {
+      "repository": "GHoT",
+      "number": 23,
+      "title": "Experiment 031: background Ice Cube mining as a native organ",
+      "url": "https://github.com/the-static-collective/GHoT/pull/23",
+      "head_branch": "ice-cube-031",
+      "base_branch": "ice-cube-030"
+    },
+    {
+      "repository": "GHoT",
+      "number": 24,
+      "title": "LIGHTWALKER-ECONOMY-032: Workmark → Realm-local economic projections",
+      "url": "https://github.com/the-static-collective/GHoT/pull/24",
+      "head_branch": "lightwalker-economy-032",
+      "base_branch": "ice-cube-031"
+    },
+    {
+      "repository": "GOATnote",
+      "number": 9,
+      "title": "GOATwalk 001 — many routes through stable notes",
+      "url": "https://github.com/the-static-collective/GOATnote/pull/9",
+      "head_branch": "experiment/goatwalk-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "GOATnote",
+      "number": 10,
+      "title": "GOATrooms 001 — places, doors, and nested Walks",
+      "url": "https://github.com/the-static-collective/GOATnote/pull/10",
+      "head_branch": "experiment/goatrooms-001",
+      "base_branch": "experiment/goatwalk-001"
+    },
+    {
+      "repository": "playdeck",
+      "number": 1,
+      "title": "FRANKEN SMASH 001: deterministic cross-organ composition runtime",
+      "url": "https://github.com/the-static-collective/playdeck/pull/1",
+      "head_branch": "experiment/franken-smash-001",
+      "base_branch": "main"
     },
     {
       "repository": "static-os",
-      "number": 12,
-      "title": "GHOT-IDLE-OPERATOR-001: pin the game-shaped control shell",
-      "url": "https://github.com/the-static-collective/static-os/pull/12",
-      "head_branch": "integration/ghot-idle-operator-001",
-      "base_branch": "deployment/road-desk-001"
+      "number": 13,
+      "title": "NAV Bridge Packet 001 — executable end-to-end proof",
+      "url": "https://github.com/the-static-collective/static-os/pull/13",
+      "head_branch": "experiment/nav-bridge-executable-001",
+      "base_branch": "genesis-001-live-iso"
     },
     {
-      "repository": "static-workbench",
-      "number": 89,
-      "title": "GHoT-001: make the idle RPG the real Workbench control shell",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/89",
-      "head_branch": "feat/ghot-idle-shell-001",
-      "base_branch": "feat/road-desk-001"
+      "repository": "static-os",
+      "number": 14,
+      "title": "NAV → WITNESS Crossing 001 — preserve claim class across packets",
+      "url": "https://github.com/the-static-collective/static-os/pull/14",
+      "head_branch": "experiment/nav-to-witness-crossing-001",
+      "base_branch": "experiment/nav-bridge-executable-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 15,
+      "title": "WITNESS → WORLD Crossing 001 — separate lineage from claim relation",
+      "url": "https://github.com/the-static-collective/static-os/pull/15",
+      "head_branch": "experiment/witness-to-world-crossing-001",
+      "base_branch": "experiment/nav-to-witness-crossing-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 16,
+      "title": "WORLD → MAKE GROUND Crossing 001 — turn disagreement into evidence fertility",
+      "url": "https://github.com/the-static-collective/static-os/pull/16",
+      "head_branch": "experiment/world-to-make-ground-crossing-001",
+      "base_branch": "experiment/witness-to-world-crossing-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 17,
+      "title": "MAKE GROUND → WITNESS Re-entry 001 — close the first executable Bridge loop",
+      "url": "https://github.com/the-static-collective/static-os/pull/17",
+      "head_branch": "experiment/make-ground-to-witness-reentry-001",
+      "base_branch": "experiment/world-to-make-ground-crossing-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 18,
+      "title": "WITNESS re-entry → WORLD 001 — new evidence without fake independence",
+      "url": "https://github.com/the-static-collective/static-os/pull/18",
+      "head_branch": "experiment/witness-reentry-to-world-001",
+      "base_branch": "experiment/make-ground-to-witness-reentry-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 19,
+      "title": "WORLD → Dogram → NAV 001 — preserve path through reorientation",
+      "url": "https://github.com/the-static-collective/static-os/pull/19",
+      "head_branch": "experiment/world-dogram-nav-reorientation-001",
+      "base_branch": "experiment/witness-reentry-to-world-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 20,
+      "title": "Two-cycle navigation history 001 — bounded lineage across repeated reorientation",
+      "url": "https://github.com/the-static-collective/static-os/pull/20",
+      "head_branch": "experiment/two-cycle-navigation-history-001",
+      "base_branch": "experiment/world-dogram-nav-reorientation-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 21,
+      "title": "Navigation braid 001 — plural lawful descent without branch collapse",
+      "url": "https://github.com/the-static-collective/static-os/pull/21",
+      "head_branch": "experiment/navigation-braid-001",
+      "base_branch": "experiment/two-cycle-navigation-history-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 22,
+      "title": "Navigation weave 001 — typed composition without relation erasure",
+      "url": "https://github.com/the-static-collective/static-os/pull/22",
+      "head_branch": "experiment/navigation-weave-001",
+      "base_branch": "experiment/navigation-braid-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 23,
+      "title": "DVOTE → MAKE GROUND LOOP 001 — witness to edition-return specimen",
+      "url": "https://github.com/the-static-collective/static-os/pull/23",
+      "head_branch": "experiment/dvote-make-ground-loop-001",
+      "base_branch": "experiment/world-dogram-nav-reorientation-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 24,
+      "title": "Weave → NAV admission 001 — admit composition without flattening typed provenance",
+      "url": "https://github.com/the-static-collective/static-os/pull/24",
+      "head_branch": "experiment/weave-to-nav-admission-001",
+      "base_branch": "experiment/navigation-weave-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 25,
+      "title": "Weave generation → NAV cycle 001 — composed history as new ground",
+      "url": "https://github.com/the-static-collective/static-os/pull/25",
+      "head_branch": "experiment/weave-generation-to-nav-cycle-001",
+      "base_branch": "experiment/weave-to-nav-admission-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 26,
+      "title": "Composed NAV contact → WITNESS 001 — preserve source content and composed origin separately",
+      "url": "https://github.com/the-static-collective/static-os/pull/26",
+      "head_branch": "experiment/composed-nav-contact-to-witness-001",
+      "base_branch": "experiment/weave-generation-to-nav-cycle-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 27,
+      "title": "Composed WITNESS → WORLD 001 — fresh contact without fake independence",
+      "url": "https://github.com/the-static-collective/static-os/pull/27",
+      "head_branch": "experiment/composed-witness-to-world-001",
+      "base_branch": "experiment/composed-nav-contact-to-witness-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 28,
+      "title": "Measurement path audit 001 — independent answer channel without independent question origin",
+      "url": "https://github.com/the-static-collective/static-os/pull/28",
+      "head_branch": "experiment/measurement-path-audit-001",
+      "base_branch": "experiment/composed-witness-to-world-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 29,
+      "title": "External witness gate 001 — provenance earns witness status, not agreement",
+      "url": "https://github.com/the-static-collective/static-os/pull/29",
+      "head_branch": "experiment/external-witness-gate-001",
+      "base_branch": "experiment/measurement-path-audit-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 30,
+      "title": "External witness field 001 — preserve disagreement without majority-vote collapse",
+      "url": "https://github.com/the-static-collective/static-os/pull/30",
+      "head_branch": "experiment/external-witness-field-001",
+      "base_branch": "experiment/external-witness-gate-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 31,
+      "title": "Witness field → Dogram → NAV 001 — navigate disagreement without choosing a side",
+      "url": "https://github.com/the-static-collective/static-os/pull/31",
+      "head_branch": "experiment/witness-field-to-nav-001",
+      "base_branch": "experiment/external-witness-field-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 32,
+      "title": "Witness field discrimination cycle 001 — reduce ambiguity without erasing witnesses",
+      "url": "https://github.com/the-static-collective/static-os/pull/32",
+      "head_branch": "experiment/witness-field-discrimination-cycle-001",
+      "base_branch": "experiment/witness-field-to-nav-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 33,
+      "title": "Residual witness discriminator 001 — preserve sequential contact history without witness erasure",
+      "url": "https://github.com/the-static-collective/static-os/pull/33",
+      "head_branch": "experiment/residual-witness-discriminator-001",
+      "base_branch": "experiment/witness-field-discrimination-cycle-001"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "number": 38,
+      "title": "FRANKEN BLENDER 001: compose witnessed branch organs into one executable carrier",
+      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/38",
+      "head_branch": "integration/franken-blender-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "number": 39,
+      "title": "FRANKEN BLENDER 002: Flow Pantry + PlayDeck/Toaster bridges + deterministic cutout stage",
+      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/39",
+      "head_branch": "integration/franken-blender-002-cutout-machine",
+      "base_branch": "integration/franken-blender-001"
+    },
+    {
+      "repository": "the-haunted-toaster",
+      "number": 314,
+      "title": "design: FRANKEN-COMPOSER-001 deterministic cross-renderer bench",
+      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/314",
+      "head_branch": "design/franken-composer-001",
+      "base_branch": "experimental/hyperkitchen-001-hyperframes-projection"
+    },
+    {
+      "repository": "the-haunted-toaster",
+      "number": 315,
+      "title": "FRANKEN-COMPOSER-001: deterministic three-body composition bench",
+      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/315",
+      "head_branch": "experimental/franken-composer-001",
+      "base_branch": "experimental/hyperkitchen-001-hyperframes-projection"
     }
   ],
   "left_open_prs": []

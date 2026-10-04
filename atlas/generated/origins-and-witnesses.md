@@ -341,12 +341,14 @@ Default: `main` · other refs: 1 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/GOATnote) · [Branches](https://github.com/the-static-collective/GOATnote/branches) · [Pull requests](https://github.com/the-static-collective/GOATnote/pulls)
 
-Default: `main` · other refs: 4 · open PRs: 3
+Default: `main` · other refs: 6 · open PRs: 5
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#10](https://github.com/the-static-collective/GOATnote/pull/10) | GOATrooms 001 — places, doors, and nested Walks | `experiment/goatrooms-001` → `experiment/goatwalk-001` | 2026-10-04 |
+| [#9](https://github.com/the-static-collective/GOATnote/pull/9) | GOATwalk 001 — many routes through stable notes | `experiment/goatwalk-001` → `main` | 2026-10-04 |
 | [#7](https://github.com/the-static-collective/GOATnote/pull/7) | PATH-ALL-HOME-GOATNOTE-001: explicit note/passage attention handoff | `feat/attention-crossing-goatnote-return-002` → `feat/attention-crossing-goatnote-001` | 2026-09-20 |
 | [#6](https://github.com/the-static-collective/GOATnote/pull/6) | ATTENTION-CROSSING-GOATNOTE-001: native note and passage value marks | `feat/attention-crossing-goatnote-001` → `main` | 2026-09-20 |
 | [#4](https://github.com/the-static-collective/GOATnote/pull/4) | GOATNOTE-RETURN-001: explicit historical Return Margin with immutable source carry | `experiment/composable-occurrence-return-001` → `main` | 2026-09-20 |
@@ -356,6 +358,8 @@ Default: `main` · other refs: 4 · open PRs: 3
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
 | [experiment/composable-occurrence-return-001](https://github.com/the-static-collective/GOATnote/tree/experiment/composable-occurrence-return-001) | [06b65bf01a](https://github.com/the-static-collective/GOATnote/commit/06b65bf01ab45d90dbe731fc9065233da3a83c23) | [open PR #4](https://github.com/the-static-collective/GOATnote/pull/4) |
+| [experiment/goatrooms-001](https://github.com/the-static-collective/GOATnote/tree/experiment/goatrooms-001) | [306ef0d219](https://github.com/the-static-collective/GOATnote/commit/306ef0d2195daf60cdfab428b4c48c836be3804d) | [open PR #10](https://github.com/the-static-collective/GOATnote/pull/10) |
+| [experiment/goatwalk-001](https://github.com/the-static-collective/GOATnote/tree/experiment/goatwalk-001) | [56344c9460](https://github.com/the-static-collective/GOATnote/commit/56344c946050dbb51e8296e313a3b04daee6b9bf) | [open PR #9](https://github.com/the-static-collective/GOATnote/pull/9) |
 | [feat/attention-crossing-goatnote-001](https://github.com/the-static-collective/GOATnote/tree/feat/attention-crossing-goatnote-001) | [4c76360215](https://github.com/the-static-collective/GOATnote/commit/4c763602157cacad206ed578617824359bf6ef99) | [open PR #6](https://github.com/the-static-collective/GOATnote/pull/6) |
 | [feat/attention-crossing-goatnote-return-002](https://github.com/the-static-collective/GOATnote/tree/feat/attention-crossing-goatnote-return-002) | [734047026e](https://github.com/the-static-collective/GOATnote/commit/734047026ef2543a94e568d7c597f8549625e5f9) | [open PR #7](https://github.com/the-static-collective/GOATnote/pull/7) |
 | [feature/return-thread-001-20260920](https://github.com/the-static-collective/GOATnote/tree/feature/return-thread-001-20260920) | [85c0f09a3f](https://github.com/the-static-collective/GOATnote/commit/85c0f09a3f2e6fe8a7db34ec8e2ce5ee27adadab) | Retained ref; disposition unverified |

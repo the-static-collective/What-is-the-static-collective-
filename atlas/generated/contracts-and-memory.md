@@ -326,12 +326,13 @@ Default: `main` · other refs: 25 · open PRs: 7
 
 [Repository](https://github.com/the-static-collective/Dogram) · [Branches](https://github.com/the-static-collective/Dogram/branches) · [Pull requests](https://github.com/the-static-collective/Dogram/pulls)
 
-Default: `main` · other refs: 183 · open PRs: 56
+Default: `main` · other refs: 186 · open PRs: 57
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#180](https://github.com/the-static-collective/Dogram/pull/180) | Ice Cube 001: bounded Lucas/Halley/mapping-torus receipts | `impl/ice-cube-001` → `impl/mapping-torus-receipt-v0` | 2026-10-04 |
 | [#177](https://github.com/the-static-collective/Dogram/pull/177) | Research: OUTER-DISTRIBUTION-001 pointwise geometry beyond ambiguity histogram | `research/OUTER-DISTRIBUTION-001` → `main` | 2026-09-24 |
 | [#176](https://github.com/the-static-collective/Dogram/pull/176) | Research: AMBIGUITY-PROFILE-001 local list geometry beyond worst case | `research/ambiguity-profile-001` → `main` | 2026-09-24 |
 | [#175](https://github.com/the-static-collective/Dogram/pull/175) | Research: LIST-DECODING-AMBIGUITY-001 bounded candidate sets | `research/list-decoding-ambiguity-001` → `main` | 2026-09-24 |
@@ -406,13 +407,16 @@ Default: `main` · other refs: 183 · open PRs: 56
 | [design/productive-desync-transverse-generators-001](https://github.com/the-static-collective/Dogram/tree/design/productive-desync-transverse-generators-001) | [7a5d4e9649](https://github.com/the-static-collective/Dogram/commit/7a5d4e9649e71fd468b807aaaea5a38323908605) | Retained ref; disposition unverified |
 | [experiment/temporal-return-001-clockwork-crossing](https://github.com/the-static-collective/Dogram/tree/experiment/temporal-return-001-clockwork-crossing) | [4b09cca5a8](https://github.com/the-static-collective/Dogram/commit/4b09cca5a81b2b9ad5c6df34ac76dae9fa895159) | [open PR #153](https://github.com/the-static-collective/Dogram/pull/153) |
 | [feat/automatic-impact-check](https://github.com/the-static-collective/Dogram/tree/feat/automatic-impact-check) | [7ddf87dbe3](https://github.com/the-static-collective/Dogram/commit/7ddf87dbe30677315d6cdc985c24611003c40f43) | Retained ref; disposition unverified |
+| [feat/generation-delta-001](https://github.com/the-static-collective/Dogram/tree/feat/generation-delta-001) | [643958c6d9](https://github.com/the-static-collective/Dogram/commit/643958c6d9080d5089fbc6137106c303c458609b) | Retained ref; disposition unverified |
 | [feat/impact-receipt](https://github.com/the-static-collective/Dogram/tree/feat/impact-receipt) | [5d5c64ddb0](https://github.com/the-static-collective/Dogram/commit/5d5c64ddb06a21d99acebe7234486721781b5784) | Retained ref; disposition unverified |
+| [feat/listener-delta-001](https://github.com/the-static-collective/Dogram/tree/feat/listener-delta-001) | [23ab03095b](https://github.com/the-static-collective/Dogram/commit/23ab03095b08e2d0445ba2fd09e2c684e1599a80) | Retained ref; disposition unverified |
 | [feat/toaster-paired-render-experiment](https://github.com/the-static-collective/Dogram/tree/feat/toaster-paired-render-experiment) | [a50df93f20](https://github.com/the-static-collective/Dogram/commit/a50df93f201ff186f8f3fb73c5c1d2e679415754) | [open PR #121](https://github.com/the-static-collective/Dogram/pull/121) |
 | [feature/grace-game-mechanics-stdio](https://github.com/the-static-collective/Dogram/tree/feature/grace-game-mechanics-stdio) | [0e1d304314](https://github.com/the-static-collective/Dogram/commit/0e1d30431421419073948a65834efdfca1a38bb3) | [open PR #165](https://github.com/the-static-collective/Dogram/pull/165) |
 | [fix/declared-failure-family-cardinality-receipt](https://github.com/the-static-collective/Dogram/tree/fix/declared-failure-family-cardinality-receipt) | [83b7b04ddd](https://github.com/the-static-collective/Dogram/commit/83b7b04ddd66b304c2a7935cf800896faabf69ea) | Retained ref; disposition unverified |
 | [gap-trough-funnel-vortex-fatdog](https://github.com/the-static-collective/Dogram/tree/gap-trough-funnel-vortex-fatdog) | [58a3012747](https://github.com/the-static-collective/Dogram/commit/58a3012747f6e06600a51602edf54a61d3b48a8f) | Retained ref; disposition unverified |
 | [impl/dogram-v0](https://github.com/the-static-collective/Dogram/tree/impl/dogram-v0) | [043aedc84d](https://github.com/the-static-collective/Dogram/commit/043aedc84dd7b92223ec66cd733edb14c9965a96) | [open PR #1](https://github.com/the-static-collective/Dogram/pull/1) |
 | [impl/execution-cut-omega-quotient-001](https://github.com/the-static-collective/Dogram/tree/impl/execution-cut-omega-quotient-001) | [765acecb2e](https://github.com/the-static-collective/Dogram/commit/765acecb2ef0404c3ed3c385c624cd5cd1f25733) | Retained ref; disposition unverified |
+| [impl/ice-cube-001](https://github.com/the-static-collective/Dogram/tree/impl/ice-cube-001) | [9ec97eab63](https://github.com/the-static-collective/Dogram/commit/9ec97eab633ef25f7b1cba209aee27f5067b095e) | [open PR #180](https://github.com/the-static-collective/Dogram/pull/180) |
 | [impl/mapping-torus-receipt-v0](https://github.com/the-static-collective/Dogram/tree/impl/mapping-torus-receipt-v0) | [b5eaf88031](https://github.com/the-static-collective/Dogram/commit/b5eaf88031d502cd48c17bc23693c936c541aab0) | Retained ref; disposition unverified |
 | [impl/mathal-vm-delta-bootstrap](https://github.com/the-static-collective/Dogram/tree/impl/mathal-vm-delta-bootstrap) | [7725f0b646](https://github.com/the-static-collective/Dogram/commit/7725f0b6466d936d6cde2fc7258237556b106406) | Retained ref; disposition unverified |
 | [impl/omega-cycle-001](https://github.com/the-static-collective/Dogram/tree/impl/omega-cycle-001) | [a8862aedd3](https://github.com/the-static-collective/Dogram/commit/a8862aedd3e2118a50f8dd8e33245d81d8a1a7fe) | Retained ref; disposition unverified |
