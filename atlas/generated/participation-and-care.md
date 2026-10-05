@@ -107,12 +107,14 @@ Default: `main` · other refs: 4 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/full-measure-world-layer) · [Branches](https://github.com/the-static-collective/full-measure-world-layer/branches) · [Pull requests](https://github.com/the-static-collective/full-measure-world-layer/pulls)
 
-Default: `main` · other refs: 26 · open PRs: 11
+Default: `main` · other refs: 28 · open PRs: 13
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#51](https://github.com/the-static-collective/full-measure-world-layer/pull/51) | TENET-ARPG-001: make the Warm Thread playable | `experiment/tenet-arpg-001` → `experiment/warm-thread-world-001` | 2026-10-04 |
+| [#50](https://github.com/the-static-collective/full-measure-world-layer/pull/50) | WARM-THREAD-WORLD-001: inhabit GHoT's pocket-sized promise | `experiment/warm-thread-world-001` → `main` | 2026-10-04 |
 | [#48](https://github.com/the-static-collective/full-measure-world-layer/pull/48) | EXPERIMENT: Living Deck composition → local Full Measure quest → ROroomOM handoff | `experiment/living-deck-quest-001` → `main` | 2026-09-24 |
 | [#45](https://github.com/the-static-collective/full-measure-world-layer/pull/45) | Experiment: leave the Haunted Telescope where it lands | `experimental/alchematrix-001-haunted-telescope` → `main` | 2026-09-23 |
 | [#42](https://github.com/the-static-collective/full-measure-world-layer/pull/42) | Grace: turn Tuesday into a living-room world | `design/grace-living-room-007` → `feat/grace-room-polish-006` | 2026-09-22 |
@@ -146,6 +148,8 @@ Default: `main` · other refs: 26 · open PRs: 11
 | [docs/reconcile-status-2026-08-19](https://github.com/the-static-collective/full-measure-world-layer/tree/docs/reconcile-status-2026-08-19) | [f41cec0b69](https://github.com/the-static-collective/full-measure-world-layer/commit/f41cec0b695aa0e52acf92ae5e0f7f8ff9ebc4e1) | Retained ref; disposition unverified |
 | [experiment/clockwork-map-001](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/clockwork-map-001) | [306764bd89](https://github.com/the-static-collective/full-measure-world-layer/commit/306764bd8930593facfea5ae198a23e945101bff) | [open PR #32](https://github.com/the-static-collective/full-measure-world-layer/pull/32) |
 | [experiment/living-deck-quest-001](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/living-deck-quest-001) | [60cf0fc697](https://github.com/the-static-collective/full-measure-world-layer/commit/60cf0fc697b8b83d89e364d7dbbfe6001f560f6d) | [open PR #48](https://github.com/the-static-collective/full-measure-world-layer/pull/48) |
+| [experiment/tenet-arpg-001](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/tenet-arpg-001) | [ab01c74552](https://github.com/the-static-collective/full-measure-world-layer/commit/ab01c74552641b16ee1fd297a33c8ac2222cd676) | [open PR #51](https://github.com/the-static-collective/full-measure-world-layer/pull/51) |
+| [experiment/warm-thread-world-001](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/warm-thread-world-001) | [553e97401a](https://github.com/the-static-collective/full-measure-world-layer/commit/553e97401a8483a0ee3c369fed9d3fb8f1c9058d) | [open PR #50](https://github.com/the-static-collective/full-measure-world-layer/pull/50) |
 | [experimental/alchematrix-001-haunted-telescope](https://github.com/the-static-collective/full-measure-world-layer/tree/experimental/alchematrix-001-haunted-telescope) | [587af5a8f1](https://github.com/the-static-collective/full-measure-world-layer/commit/587af5a8f1cb73781d1943343234d75aabd0f9c4) | [open PR #45](https://github.com/the-static-collective/full-measure-world-layer/pull/45) |
 | [feat/grace-foreign-room-offer-003](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/grace-foreign-room-offer-003) | [c7d856b23d](https://github.com/the-static-collective/full-measure-world-layer/commit/c7d856b23d6a16dccbebe29c7976af24dfee26dc) | [open PR #36](https://github.com/the-static-collective/full-measure-world-layer/pull/36) |
 | [feat/grace-mercy-broken-promise-001](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/grace-mercy-broken-promise-001) | [8e551d4fa8](https://github.com/the-static-collective/full-measure-world-layer/commit/8e551d4fa8b2e6a6139350d6a372df1d441a24e5) | Retained ref; disposition unverified |

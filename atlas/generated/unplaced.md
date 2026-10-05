@@ -49,12 +49,52 @@ Default: `main` · other refs: 7 · open PRs: 5
 
 [Repository](https://github.com/the-static-collective/GHoT) · [Branches](https://github.com/the-static-collective/GHoT/branches) · [Pull requests](https://github.com/the-static-collective/GHoT/pulls)
 
-Default: `main` · other refs: 24 · open PRs: 17
+Default: `main` · other refs: 64 · open PRs: 57
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#64](https://github.com/the-static-collective/GHoT/pull/64) | LIGHTWALKER-067: exact sparse region assignment | `exp067` → `exp066` | 2026-10-05 |
+| [#63](https://github.com/the-static-collective/GHoT/pull/63) | LIGHTWALKER-066: exact work-region salvage | `exp066` → `exp065` | 2026-10-05 |
+| [#62](https://github.com/the-static-collective/GHoT/pull/62) | LIGHTWALKER-065: recursive branch salvage | `exp065` → `exp064` | 2026-10-05 |
+| [#61](https://github.com/the-static-collective/GHoT/pull/61) | LIGHTWALKER-064: recursive branch fork reconciliation | `exp064` → `exp063` | 2026-10-05 |
+| [#60](https://github.com/the-static-collective/GHoT/pull/60) | LIGHTWALKER-063: recursive continuation kernel | `exp063` → `exp062` | 2026-10-05 |
+| [#59](https://github.com/the-static-collective/GHoT/pull/59) | LIGHTWALKER-062: continuation DAG multi-hop resume lineage | `exp062` → `exp061` | 2026-10-05 |
+| [#58](https://github.com/the-static-collective/GHoT/pull/58) | LIGHTWALKER-061: resume claim fork prevention | `exp061` → `exp060` | 2026-10-05 |
+| [#57](https://github.com/the-static-collective/GHoT/pull/57) | LIGHTWALKER-060: resume migration of paused execution | `exp060` → `exp059` | 2026-10-05 |
+| [#56](https://github.com/the-static-collective/GHoT/pull/56) | LIGHTWALKER-059: long-running execution checkpoint revalidation | `exp059` → `exp058` | 2026-10-05 |
+| [#55](https://github.com/the-static-collective/GHoT/pull/55) | LIGHTWALKER-058: transition-aware execution gate | `exp058` → `exp057` | 2026-10-05 |
+| [#54](https://github.com/the-static-collective/GHoT/pull/54) | LIGHTWALKER-057: multi-policy temporal transition composition | `exp057` → `exp056` | 2026-10-05 |
+| [#53](https://github.com/the-static-collective/GHoT/pull/53) | LIGHTWALKER-056: explicit policy transition modes | `exp056` → `exp055` | 2026-10-05 |
+| [#52](https://github.com/the-static-collective/GHoT/pull/52) | LIGHTWALKER-055: policy versioning and mid-flight revalidation | `exp055` → `exp054` | 2026-10-05 |
+| [#51](https://github.com/the-static-collective/GHoT/pull/51) | LIGHTWALKER-054: policy composition and constraint intersection | `exp054` → `exp053` | 2026-10-05 |
+| [#50](https://github.com/the-static-collective/GHoT/pull/50) | LIGHTWALKER-053: constraint-first routing and Pareto frontier | `exp053` → `exp052` | 2026-10-04 |
+| [#49](https://github.com/the-static-collective/GHoT/pull/49) | LIGHTWALKER-052: local multi-factor route scoring | `exp052` → `exp051` | 2026-10-04 |
+| [#48](https://github.com/the-static-collective/GHoT/pull/48) | LIGHTWALKER-051: bounded route selection and failover policy | `exp051` → `exp050` | 2026-10-04 |
+| [#47](https://github.com/the-static-collective/GHoT/pull/47) | LIGHTWALKER-050: federated reroute and substitution | `exp050` → `exp049` | 2026-10-04 |
+| [#46](https://github.com/the-static-collective/GHoT/pull/46) | LIGHTWALKER-049: multi-source federated service | `exp049` → `exp048` | 2026-10-04 |
+| [#45](https://github.com/the-static-collective/GHoT/pull/45) | LIGHTWALKER-048: federated service promise | `exp048` → `exp047` | 2026-10-04 |
+| [#44](https://github.com/the-static-collective/GHoT/pull/44) | LIGHTWALKER-047: capacity-backed future service | `exp047` → `exp046` | 2026-10-04 |
+| [#43](https://github.com/the-static-collective/GHoT/pull/43) | LIGHTWALKER-046: metabolic exchange bridge | `exp046` → `exp045` | 2026-10-04 |
+| [#42](https://github.com/the-static-collective/GHoT/pull/42) | LIGHTWALKER-045: authority metabolism conservation audit | `exp045` → `exp044` | 2026-10-04 |
+| [#41](https://github.com/the-static-collective/GHoT/pull/41) | LIGHTWALKER-044: expiry reclamation and authority compost | `exp044` → `exp043` | 2026-10-04 |
+| [#40](https://github.com/the-static-collective/GHoT/pull/40) | LIGHTWALKER-043: lease lineage and current authority DAG | `exp043` → `exp042` | 2026-10-04 |
+| [#39](https://github.com/the-static-collective/GHoT/pull/39) | LIGHTWALKER-042: lease repartition handoff and renewal | `exp042` → `exp041` | 2026-10-04 |
+| [#38](https://github.com/the-static-collective/GHoT/pull/38) | FIELD COMMONS 001: heterogeneous economics funds Ice Field work | `field-commons-001` → `ice-field-033` | 2026-10-04 |
+| [#37](https://github.com/the-static-collective/GHoT/pull/37) | LIGHTWALKER-041: capacity leases and partitioned authority | `exp041` → `exp040` | 2026-10-04 |
+| [#36](https://github.com/the-static-collective/GHoT/pull/36) | LIGHTWALKER-040: distributed reservation without history rewrite | `exp040` → `exp039` | 2026-10-04 |
+| [#35](https://github.com/the-static-collective/GHoT/pull/35) | TENETGRAM-040: consequence seeds future possibility | `tenetgram-040` → `warm-thread-039` | 2026-10-04 |
+| [#34](https://github.com/the-static-collective/GHoT/pull/34) | LIGHTWALKER-039: reservation and concurrency safety | `exp039` → `experiment-038` | 2026-10-04 |
+| [#33](https://github.com/the-static-collective/GHoT/pull/33) | WARM-THREAD-039: compose stranded usefulness toward present need | `warm-thread-039` → `experiment-038` | 2026-10-04 |
+| [#32](https://github.com/the-static-collective/GHoT/pull/32) | LIGHTWALKER-038: Guild proposal and treasury authorization | `experiment-038` → `experiment-037` | 2026-10-04 |
+| [#31](https://github.com/the-static-collective/GHoT/pull/31) | LIGHTWALKER-037: Guild Treasury without universal balance | `experiment-037` → `experiment-036` | 2026-10-04 |
+| [#30](https://github.com/the-static-collective/GHoT/pull/30) | LIGHTWALKER-036: bounded Labor Writs | `experiment-036` → `lightwalker-heterogeneous-exchange-035` | 2026-10-04 |
+| [#29](https://github.com/the-static-collective/GHoT/pull/29) | LIGHTWALKER-HETERO-035: exchange before currency | `lightwalker-heterogeneous-exchange-035` → `lightwalker-market-034` | 2026-10-04 |
+| [#28](https://github.com/the-static-collective/GHoT/pull/28) | LIGHTWALKER-MARKET-034: the market without the coin | `lightwalker-market-034` → `lightwalker-time-assay-033` | 2026-10-04 |
+| [#27](https://github.com/the-static-collective/GHoT/pull/27) | Experiment 033: grow a power-aware Ice Field | `ice-field-033` → `ice-cube-032` | 2026-10-04 |
+| [#26](https://github.com/the-static-collective/GHoT/pull/26) | Experiment 032: return verified Ice Cubes home | `ice-cube-032` → `ice-cube-031` | 2026-10-04 |
+| [#25](https://github.com/the-static-collective/GHoT/pull/25) | LIGHTWALKER-TIME-ASSAY-033: later consequence without historical rewrite | `lightwalker-time-assay-033` → `lightwalker-economy-032` | 2026-10-04 |
 | [#24](https://github.com/the-static-collective/GHoT/pull/24) | LIGHTWALKER-ECONOMY-032: Workmark → Realm-local economic projections | `lightwalker-economy-032` → `ice-cube-031` | 2026-10-04 |
 | [#23](https://github.com/the-static-collective/GHoT/pull/23) | Experiment 031: background Ice Cube mining as a native organ | `ice-cube-031` → `ice-cube-030` | 2026-10-04 |
 | [#22](https://github.com/the-static-collective/GHoT/pull/22) | Experiment 030: mine verified mathematical Ice Cubes | `ice-cube-030` → `activation-broker-029` | 2026-10-04 |
@@ -87,12 +127,50 @@ Default: `main` · other refs: 24 · open PRs: 17
 | [curious-door-navigation-026](https://github.com/the-static-collective/GHoT/tree/curious-door-navigation-026) | [294802d61e](https://github.com/the-static-collective/GHoT/commit/294802d61ec93b078cf3ed607af165388709e9f2) | [open PR #15](https://github.com/the-static-collective/GHoT/pull/15) |
 | [curious-doors-025](https://github.com/the-static-collective/GHoT/tree/curious-doors-025) | [d02b231e13](https://github.com/the-static-collective/GHoT/commit/d02b231e13e66130175b9b3887b51cc941539671) | [open PR #14](https://github.com/the-static-collective/GHoT/pull/14) |
 | [epistemic-capability-001](https://github.com/the-static-collective/GHoT/tree/epistemic-capability-001) | [56f6c67c6e](https://github.com/the-static-collective/GHoT/commit/56f6c67c6e3f056e82dd319ed3f50dde0cecea72) | [open PR #3](https://github.com/the-static-collective/GHoT/pull/3) |
+| [exp039](https://github.com/the-static-collective/GHoT/tree/exp039) | [f85a99d188](https://github.com/the-static-collective/GHoT/commit/f85a99d1883443b177b9dbb38ed719d74edf628b) | [open PR #34](https://github.com/the-static-collective/GHoT/pull/34) |
+| [exp040](https://github.com/the-static-collective/GHoT/tree/exp040) | [0f722d1452](https://github.com/the-static-collective/GHoT/commit/0f722d1452aec1fae55454dae503ce7c628abd26) | [open PR #36](https://github.com/the-static-collective/GHoT/pull/36) |
+| [exp041](https://github.com/the-static-collective/GHoT/tree/exp041) | [858edbe479](https://github.com/the-static-collective/GHoT/commit/858edbe479ce90e07bdf1b2f65a5f47dae70264e) | [open PR #37](https://github.com/the-static-collective/GHoT/pull/37) |
+| [exp042](https://github.com/the-static-collective/GHoT/tree/exp042) | [bb7e7d4261](https://github.com/the-static-collective/GHoT/commit/bb7e7d4261e4da14647948e9933831c9701ab5fc) | [open PR #39](https://github.com/the-static-collective/GHoT/pull/39) |
+| [exp043](https://github.com/the-static-collective/GHoT/tree/exp043) | [677eefeab9](https://github.com/the-static-collective/GHoT/commit/677eefeab96d47495145d74767390b1f14000de8) | [open PR #40](https://github.com/the-static-collective/GHoT/pull/40) |
+| [exp044](https://github.com/the-static-collective/GHoT/tree/exp044) | [48d3cace59](https://github.com/the-static-collective/GHoT/commit/48d3cace59a6adff17aef4303f4c8425976d7fa2) | [open PR #41](https://github.com/the-static-collective/GHoT/pull/41) |
+| [exp045](https://github.com/the-static-collective/GHoT/tree/exp045) | [c00ec4c02a](https://github.com/the-static-collective/GHoT/commit/c00ec4c02a9d88ec33eb393fff2e4dd32ebde037) | [open PR #42](https://github.com/the-static-collective/GHoT/pull/42) |
+| [exp046](https://github.com/the-static-collective/GHoT/tree/exp046) | [9b45d8110e](https://github.com/the-static-collective/GHoT/commit/9b45d8110ec45999d9ac2b6a4e62edff1d617ba1) | [open PR #43](https://github.com/the-static-collective/GHoT/pull/43) |
+| [exp047](https://github.com/the-static-collective/GHoT/tree/exp047) | [bf20533471](https://github.com/the-static-collective/GHoT/commit/bf20533471c5d602c7c68b0fda5a23b4f1dc420b) | [open PR #44](https://github.com/the-static-collective/GHoT/pull/44) |
+| [exp048](https://github.com/the-static-collective/GHoT/tree/exp048) | [d29fa79fde](https://github.com/the-static-collective/GHoT/commit/d29fa79fde05de725d6d2a12e96fd05d11cf1a42) | [open PR #45](https://github.com/the-static-collective/GHoT/pull/45) |
+| [exp049](https://github.com/the-static-collective/GHoT/tree/exp049) | [b5a761a74c](https://github.com/the-static-collective/GHoT/commit/b5a761a74ce9f099d3d4c5450fb01f6b21bb0546) | [open PR #46](https://github.com/the-static-collective/GHoT/pull/46) |
+| [exp050](https://github.com/the-static-collective/GHoT/tree/exp050) | [e75d6fa538](https://github.com/the-static-collective/GHoT/commit/e75d6fa538d7e2134c4c84cfcff444eecb192033) | [open PR #47](https://github.com/the-static-collective/GHoT/pull/47) |
+| [exp051](https://github.com/the-static-collective/GHoT/tree/exp051) | [cb3e3ff623](https://github.com/the-static-collective/GHoT/commit/cb3e3ff62329b6483bdf47fe9d5f66d2a890a488) | [open PR #48](https://github.com/the-static-collective/GHoT/pull/48) |
+| [exp052](https://github.com/the-static-collective/GHoT/tree/exp052) | [cabb1d477a](https://github.com/the-static-collective/GHoT/commit/cabb1d477a5fc26abc49548db54627ac13b88f54) | [open PR #49](https://github.com/the-static-collective/GHoT/pull/49) |
+| [exp053](https://github.com/the-static-collective/GHoT/tree/exp053) | [b40fdc30b7](https://github.com/the-static-collective/GHoT/commit/b40fdc30b7f098d93d669c50d45c6886fd4443e5) | [open PR #50](https://github.com/the-static-collective/GHoT/pull/50) |
+| [exp054](https://github.com/the-static-collective/GHoT/tree/exp054) | [176b5d28da](https://github.com/the-static-collective/GHoT/commit/176b5d28da19c2f77bf7757448eec4b3bd0ca1c8) | [open PR #51](https://github.com/the-static-collective/GHoT/pull/51) |
+| [exp055](https://github.com/the-static-collective/GHoT/tree/exp055) | [a37b12b91f](https://github.com/the-static-collective/GHoT/commit/a37b12b91f595b40ad149200423fa61a320ff467) | [open PR #52](https://github.com/the-static-collective/GHoT/pull/52) |
+| [exp056](https://github.com/the-static-collective/GHoT/tree/exp056) | [9f5f0cbcd7](https://github.com/the-static-collective/GHoT/commit/9f5f0cbcd79a33006ed7b7a47720c861a5a9c4f3) | [open PR #53](https://github.com/the-static-collective/GHoT/pull/53) |
+| [exp057](https://github.com/the-static-collective/GHoT/tree/exp057) | [eb39b569ed](https://github.com/the-static-collective/GHoT/commit/eb39b569ed3a26452da62850ef8a1399402cc60e) | [open PR #54](https://github.com/the-static-collective/GHoT/pull/54) |
+| [exp058](https://github.com/the-static-collective/GHoT/tree/exp058) | [e4769cbe29](https://github.com/the-static-collective/GHoT/commit/e4769cbe299ac686230134ac0b2e500718296cda) | [open PR #55](https://github.com/the-static-collective/GHoT/pull/55) |
+| [exp059](https://github.com/the-static-collective/GHoT/tree/exp059) | [2b4fcef006](https://github.com/the-static-collective/GHoT/commit/2b4fcef0069cbac46eefb095c2d3645ddf588bfd) | [open PR #56](https://github.com/the-static-collective/GHoT/pull/56) |
+| [exp060](https://github.com/the-static-collective/GHoT/tree/exp060) | [89259e0ae4](https://github.com/the-static-collective/GHoT/commit/89259e0ae4eb131b1b2fd5e761ee9a81c7df6a49) | [open PR #57](https://github.com/the-static-collective/GHoT/pull/57) |
+| [exp061](https://github.com/the-static-collective/GHoT/tree/exp061) | [49e2b5d949](https://github.com/the-static-collective/GHoT/commit/49e2b5d94916c03981a42f7c8912491f99547601) | [open PR #58](https://github.com/the-static-collective/GHoT/pull/58) |
+| [exp062](https://github.com/the-static-collective/GHoT/tree/exp062) | [b5e1ef475f](https://github.com/the-static-collective/GHoT/commit/b5e1ef475f0037595e9354075e6f0a8d42339be1) | [open PR #59](https://github.com/the-static-collective/GHoT/pull/59) |
+| [exp063](https://github.com/the-static-collective/GHoT/tree/exp063) | [777d87a171](https://github.com/the-static-collective/GHoT/commit/777d87a1711977b1d56abb9ebe714aa9516471c1) | [open PR #60](https://github.com/the-static-collective/GHoT/pull/60) |
+| [exp064](https://github.com/the-static-collective/GHoT/tree/exp064) | [36e42606f3](https://github.com/the-static-collective/GHoT/commit/36e42606f317094144a787d407ffa7e0d3de8ff6) | [open PR #61](https://github.com/the-static-collective/GHoT/pull/61) |
+| [exp065](https://github.com/the-static-collective/GHoT/tree/exp065) | [117c3244bb](https://github.com/the-static-collective/GHoT/commit/117c3244bb38cbc8e3c72286da68d22f3bc0e619) | [open PR #62](https://github.com/the-static-collective/GHoT/pull/62) |
+| [exp066](https://github.com/the-static-collective/GHoT/tree/exp066) | [89401243b7](https://github.com/the-static-collective/GHoT/commit/89401243b7b14b7818aa0ab2c0a1b358c7cf9bec) | [open PR #63](https://github.com/the-static-collective/GHoT/pull/63) |
+| [exp067](https://github.com/the-static-collective/GHoT/tree/exp067) | [6456828ca6](https://github.com/the-static-collective/GHoT/commit/6456828ca6d2ee2cd10db2017cbd9278c1e3c664) | [open PR #64](https://github.com/the-static-collective/GHoT/pull/64) |
+| [experiment-036](https://github.com/the-static-collective/GHoT/tree/experiment-036) | [b61476f17c](https://github.com/the-static-collective/GHoT/commit/b61476f17c5d4b6e063255bf429bbb3dd49ad2e3) | [open PR #30](https://github.com/the-static-collective/GHoT/pull/30) |
+| [experiment-037](https://github.com/the-static-collective/GHoT/tree/experiment-037) | [c907d919f6](https://github.com/the-static-collective/GHoT/commit/c907d919f67c16448af88a8c3a4a332034e3970b) | [open PR #31](https://github.com/the-static-collective/GHoT/pull/31) |
+| [experiment-038](https://github.com/the-static-collective/GHoT/tree/experiment-038) | [27a627f8f7](https://github.com/the-static-collective/GHoT/commit/27a627f8f7f0a8717245b3609db15a45227ec4ab) | [open PR #32](https://github.com/the-static-collective/GHoT/pull/32) |
 | [external-adapter-manifest-001](https://github.com/the-static-collective/GHoT/tree/external-adapter-manifest-001) | [e12ce3e624](https://github.com/the-static-collective/GHoT/commit/e12ce3e62486feb1e5cd2324d1ae5a6a2be8b19b) | Retained ref; disposition unverified |
+| [field-commons-001](https://github.com/the-static-collective/GHoT/tree/field-commons-001) | [6a734c834e](https://github.com/the-static-collective/GHoT/commit/6a734c834e0b4880f3de1e39465f73800f338a9d) | [open PR #38](https://github.com/the-static-collective/GHoT/pull/38) |
 | [field-reseed-receiver-001](https://github.com/the-static-collective/GHoT/tree/field-reseed-receiver-001) | [391f0edd5d](https://github.com/the-static-collective/GHoT/commit/391f0edd5da5eae5d3f19d61f01d80de386837c5) | Retained ref; disposition unverified |
 | [grammar-exchange-023](https://github.com/the-static-collective/GHoT/tree/grammar-exchange-023) | [7729d53086](https://github.com/the-static-collective/GHoT/commit/7729d5308679137c8038785fc7d0ad01906d1649) | [open PR #12](https://github.com/the-static-collective/GHoT/pull/12) |
 | [ice-cube-030](https://github.com/the-static-collective/GHoT/tree/ice-cube-030) | [30434a26fe](https://github.com/the-static-collective/GHoT/commit/30434a26fee82c0fc4e3bfa7dcb8a1425f19d5d8) | [open PR #22](https://github.com/the-static-collective/GHoT/pull/22) |
 | [ice-cube-031](https://github.com/the-static-collective/GHoT/tree/ice-cube-031) | [79884a50ec](https://github.com/the-static-collective/GHoT/commit/79884a50ecd25c3e8afe2f583e8be7f30629c713) | [open PR #23](https://github.com/the-static-collective/GHoT/pull/23) |
+| [ice-cube-032](https://github.com/the-static-collective/GHoT/tree/ice-cube-032) | [f57bdd4aff](https://github.com/the-static-collective/GHoT/commit/f57bdd4aff2583d59e8aa742ee68d755bc709689) | [open PR #26](https://github.com/the-static-collective/GHoT/pull/26) |
+| [ice-field-033](https://github.com/the-static-collective/GHoT/tree/ice-field-033) | [43a83c3b6a](https://github.com/the-static-collective/GHoT/commit/43a83c3b6a63fc02d36c31f02df941a47844d8ca) | [open PR #27](https://github.com/the-static-collective/GHoT/pull/27) |
 | [lightwalker-economy-032](https://github.com/the-static-collective/GHoT/tree/lightwalker-economy-032) | [a41da98d6e](https://github.com/the-static-collective/GHoT/commit/a41da98d6eb482d3e2a1ec857f045d85ecae00b6) | [open PR #24](https://github.com/the-static-collective/GHoT/pull/24) |
+| [lightwalker-heterogeneous-exchange-035](https://github.com/the-static-collective/GHoT/tree/lightwalker-heterogeneous-exchange-035) | [c43e2718b7](https://github.com/the-static-collective/GHoT/commit/c43e2718b7f9bbe75844978feaf50e7481f423f5) | [open PR #29](https://github.com/the-static-collective/GHoT/pull/29) |
+| [lightwalker-market-034](https://github.com/the-static-collective/GHoT/tree/lightwalker-market-034) | [77bd25c4f3](https://github.com/the-static-collective/GHoT/commit/77bd25c4f3c710ccfd6a8397ffe64c5038bbad88) | [open PR #28](https://github.com/the-static-collective/GHoT/pull/28) |
+| [lightwalker-time-assay-033](https://github.com/the-static-collective/GHoT/tree/lightwalker-time-assay-033) | [0620d760e5](https://github.com/the-static-collective/GHoT/commit/0620d760e5f249cd539857af06e594abc95b2ea5) | [open PR #25](https://github.com/the-static-collective/GHoT/pull/25) |
 | [many-bodied-machine-001](https://github.com/the-static-collective/GHoT/tree/many-bodied-machine-001) | [15ca259dbc](https://github.com/the-static-collective/GHoT/commit/15ca259dbcdaf1ec5b1d3dbcc7b92e71ae7158ef) | Retained ref; disposition unverified |
 | [merge-contract-pantry-020](https://github.com/the-static-collective/GHoT/tree/merge-contract-pantry-020) | [b2f953e011](https://github.com/the-static-collective/GHoT/commit/b2f953e01142398243c83868bd622de41dfec305) | [open PR #9](https://github.com/the-static-collective/GHoT/pull/9) |
 | [merge-contract-plugins-021](https://github.com/the-static-collective/GHoT/tree/merge-contract-plugins-021) | [57bb6196bf](https://github.com/the-static-collective/GHoT/commit/57bb6196bfea8aef0e8ae0f2feda8ed2d02fb9d4) | [open PR #10](https://github.com/the-static-collective/GHoT/pull/10) |
@@ -100,7 +178,40 @@ Default: `main` · other refs: 24 · open PRs: 17
 | [rsc-composer-001](https://github.com/the-static-collective/GHoT/tree/rsc-composer-001) | [0107364cac](https://github.com/the-static-collective/GHoT/commit/0107364cac6d574b27e462c723b525b9e96b67e7) | [open PR #2](https://github.com/the-static-collective/GHoT/pull/2) |
 | [state-merge-019](https://github.com/the-static-collective/GHoT/tree/state-merge-019) | [6f5737cfe3](https://github.com/the-static-collective/GHoT/commit/6f5737cfe3a38119abb5b0f21ede4a5ab7613320) | [open PR #8](https://github.com/the-static-collective/GHoT/pull/8) |
 | [state-parcels-018](https://github.com/the-static-collective/GHoT/tree/state-parcels-018) | [fa58ff7b9e](https://github.com/the-static-collective/GHoT/commit/fa58ff7b9e7a545fd2f7bbecf58da7647e82afde) | [open PR #7](https://github.com/the-static-collective/GHoT/pull/7) |
+| [tenetgram-040](https://github.com/the-static-collective/GHoT/tree/tenetgram-040) | [1fd92d783c](https://github.com/the-static-collective/GHoT/commit/1fd92d783c6d007eb60a28f2dd6eaf57ca91fd8a) | [open PR #35](https://github.com/the-static-collective/GHoT/pull/35) |
 | [typed-launch-descriptors-027](https://github.com/the-static-collective/GHoT/tree/typed-launch-descriptors-027) | [864c7aceca](https://github.com/the-static-collective/GHoT/commit/864c7aceca27619a68d2f4c35c21744f6f99559c) | [open PR #16](https://github.com/the-static-collective/GHoT/pull/16) |
+| [warm-thread-039](https://github.com/the-static-collective/GHoT/tree/warm-thread-039) | [3c8be40cba](https://github.com/the-static-collective/GHoT/commit/3c8be40cbaef2f9c786e5424abf15d4b138d2966) | [open PR #33](https://github.com/the-static-collective/GHoT/pull/33) |
+
+## GrO
+
+[Repository](https://github.com/the-static-collective/GrO) · [Branches](https://github.com/the-static-collective/GrO/branches) · [Pull requests](https://github.com/the-static-collective/GrO/pulls)
+
+Default: `main` · other refs: 14 · open PRs: 1
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#14](https://github.com/the-static-collective/GrO/pull/14) | TENET 012 — Recombinant Checkpoint / Graph Frontier | `tenet/recombinant-graph-frontier-012` → `main` | 2026-10-05 |
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [genesis/possibility-field-001](https://github.com/the-static-collective/GrO/tree/genesis/possibility-field-001) | [6abfc4ff80](https://github.com/the-static-collective/GrO/commit/6abfc4ff80948d3ed2b619ae36e2262ad0e42e4d) | Retained ref; disposition unverified |
+| [tenet/addressed-seed-003](https://github.com/the-static-collective/GrO/tree/tenet/addressed-seed-003) | [5b8ce060f0](https://github.com/the-static-collective/GrO/commit/5b8ce060f06cc8b7992ab0c0ec7bda10f5febab6) | Retained ref; disposition unverified |
+| [tenet/checkpoint-succession-009](https://github.com/the-static-collective/GrO/tree/tenet/checkpoint-succession-009) | [fff0b9e641](https://github.com/the-static-collective/GrO/commit/fff0b9e641caa0be416619397fb4994ffb2ff1d5) | Retained ref; disposition unverified |
+| [tenet/cross-locality-002](https://github.com/the-static-collective/GrO/tree/tenet/cross-locality-002) | [57b932eed4](https://github.com/the-static-collective/GrO/commit/57b932eed4497fbd29a35b4a73a6b6f6d82b1415) | Retained ref; disposition unverified |
+| [tenet/descendant-without-broadcast-007](https://github.com/the-static-collective/GrO/tree/tenet/descendant-without-broadcast-007) | [01093c47b3](https://github.com/the-static-collective/GrO/commit/01093c47b3a6f5db70d24a473d485f909b2c8f28) | Retained ref; disposition unverified |
+| [tenet/discovery-not-provider-005](https://github.com/the-static-collective/GrO/tree/tenet/discovery-not-provider-005) | [455d330be0](https://github.com/the-static-collective/GrO/commit/455d330be018770c6219f700d5962db6fff0b157) | Retained ref; disposition unverified |
+| [tenet/fork-not-conflict-010](https://github.com/the-static-collective/GrO/tree/tenet/fork-not-conflict-010) | [5adacb8f16](https://github.com/the-static-collective/GrO/commit/5adacb8f16690840caf6d62bb0c20fad4d6ad47b) | Retained ref; disposition unverified |
+| [tenet/generations-pruning-008](https://github.com/the-static-collective/GrO/tree/tenet/generations-pruning-008) | [01093c47b3](https://github.com/the-static-collective/GrO/commit/01093c47b3a6f5db70d24a473d485f909b2c8f28) | Retained ref; disposition unverified |
+| [tenet/generations-pruning-008-clean](https://github.com/the-static-collective/GrO/tree/tenet/generations-pruning-008-clean) | [802189c773](https://github.com/the-static-collective/GrO/commit/802189c773bdb253c0e0dbc86c31b8cb15ec7ea6) | Retained ref; disposition unverified |
+| [tenet/leave-possibility-001](https://github.com/the-static-collective/GrO/tree/tenet/leave-possibility-001) | [7cf2a8953b](https://github.com/the-static-collective/GrO/commit/7cf2a8953bccbe59a4a082711af653b2b2d749be) | Retained ref; disposition unverified |
+| [tenet/many-maps-one-seed-006](https://github.com/the-static-collective/GrO/tree/tenet/many-maps-one-seed-006) | [81414a76ac](https://github.com/the-static-collective/GrO/commit/81414a76acc72decec2c4a2b54d42202e1d999f0) | Retained ref; disposition unverified |
+| [tenet/recombinant-graph-frontier-012](https://github.com/the-static-collective/GrO/tree/tenet/recombinant-graph-frontier-012) | [8b3a6ee8fe](https://github.com/the-static-collective/GrO/commit/8b3a6ee8fe47ad95d1028ff366f832db90775551) | [open PR #14](https://github.com/the-static-collective/GrO/pull/14) |
+| [tenet/recombination-without-collapse-011](https://github.com/the-static-collective/GrO/tree/tenet/recombination-without-collapse-011) | [baaa66d400](https://github.com/the-static-collective/GrO/commit/baaa66d400d9b30e01ba5e2f6da50984ec2205a3) | Retained ref; disposition unverified |
+| [tenet/replaceable-roads-004](https://github.com/the-static-collective/GrO/tree/tenet/replaceable-roads-004) | [d363405b21](https://github.com/the-static-collective/GrO/commit/d363405b211b1c711f24706991385887d68e11f3) | Retained ref; disposition unverified |
 
 ## lemonPRESS
 
@@ -174,13 +285,13 @@ Default: `main` · other refs: 1 · open PRs: 1
 
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
-| [experiment/franken-smash-001](https://github.com/the-static-collective/playdeck/tree/experiment/franken-smash-001) | [02b5cb3412](https://github.com/the-static-collective/playdeck/commit/02b5cb34129d793d17b33494c80c4abb06075990) | [open PR #1](https://github.com/the-static-collective/playdeck/pull/1) |
+| [experiment/franken-smash-001](https://github.com/the-static-collective/playdeck/tree/experiment/franken-smash-001) | [012186fd67](https://github.com/the-static-collective/playdeck/commit/012186fd67f4c4ef1c6591fc5e29cb559b5a80d0) | [open PR #1](https://github.com/the-static-collective/playdeck/pull/1) |
 
 ## reLATTE
 
 [Repository](https://github.com/the-static-collective/reLATTE) · [Branches](https://github.com/the-static-collective/reLATTE/branches) · [Pull requests](https://github.com/the-static-collective/reLATTE/pulls)
 
-Default: `main` · other refs: 46 · open PRs: 26
+Default: `main` · other refs: 53 · open PRs: 26
 
 ### Open pull requests
 
@@ -248,6 +359,13 @@ Default: `main` · other refs: 46 · open PRs: 26
 | [feat/room-return-request](https://github.com/the-static-collective/reLATTE/tree/feat/room-return-request) | [7fb7c2a7f8](https://github.com/the-static-collective/reLATTE/commit/7fb7c2a7f8ebe51e29ebe6f5dcaed801e4e23a19) | [open PR #15](https://github.com/the-static-collective/reLATTE/pull/15) |
 | [feat/runtime-boot-black-flag-001](https://github.com/the-static-collective/reLATTE/tree/feat/runtime-boot-black-flag-001) | [83bee6db94](https://github.com/the-static-collective/reLATTE/commit/83bee6db9427f36892448401e2514fd99e4bf21f) | [open PR #42](https://github.com/the-static-collective/reLATTE/pull/42) |
 | [feat/three-world-post-office-001](https://github.com/the-static-collective/reLATTE/tree/feat/three-world-post-office-001) | [ef6a8e6c7f](https://github.com/the-static-collective/reLATTE/commit/ef6a8e6c7fa55f79cad8eeff13f71391709aeebd) | [open PR #47](https://github.com/the-static-collective/reLATTE/pull/47) |
+| [feat/useful-work-kernel-001](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-001) | [f8151a36e6](https://github.com/the-static-collective/reLATTE/commit/f8151a36e6aab8f6fb85bc5b68bffeeefbe2827d) | Retained ref; disposition unverified |
+| [feat/useful-work-kernel-002](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-002) | [ecf0773bb9](https://github.com/the-static-collective/reLATTE/commit/ecf0773bb9d0e04cdd4e7f49216a66159cc645b8) | Retained ref; disposition unverified |
+| [feat/useful-work-kernel-003](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-003) | [b1e9f77477](https://github.com/the-static-collective/reLATTE/commit/b1e9f77477b99ba450c6e906a2b7975ae1441b5b) | Retained ref; disposition unverified |
+| [feat/useful-work-kernel-004](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-004) | [702442f526](https://github.com/the-static-collective/reLATTE/commit/702442f5264482d81daba377d113bb38d280e00d) | Retained ref; disposition unverified |
+| [feat/useful-work-kernel-005](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-005) | [8bd5d357f5](https://github.com/the-static-collective/reLATTE/commit/8bd5d357f5b7b675b26b13c6f1713ed79c5c550b) | Retained ref; disposition unverified |
+| [feat/useful-work-kernel-006](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-006) | [7f785bf0e8](https://github.com/the-static-collective/reLATTE/commit/7f785bf0e88bc25edcd9c4f9aecae257db414f69) | Retained ref; disposition unverified |
+| [feat/useful-work-kernel-007](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-007) | [23a7c692d5](https://github.com/the-static-collective/reLATTE/commit/23a7c692d571636fdcf02ac08a11da8051c33916) | Retained ref; disposition unverified |
 | [feat/walkable-provenance](https://github.com/the-static-collective/reLATTE/tree/feat/walkable-provenance) | [9f8a6473a4](https://github.com/the-static-collective/reLATTE/commit/9f8a6473a4bbdede3fba476edc9b19a9bde30a6c) | [open PR #11](https://github.com/the-static-collective/reLATTE/pull/11) |
 | [feat/web5-five-door-room](https://github.com/the-static-collective/reLATTE/tree/feat/web5-five-door-room) | [6e4b2c9c3a](https://github.com/the-static-collective/reLATTE/commit/6e4b2c9c3a3acaf82989148cf07aa0b3999563d6) | [open PR #9](https://github.com/the-static-collective/reLATTE/pull/9) |
 | [field-consequence-001](https://github.com/the-static-collective/reLATTE/tree/field-consequence-001) | [5a8724d062](https://github.com/the-static-collective/reLATTE/commit/5a8724d0624fb32b142d0901a3a378df26a5f9a9) | Retained ref; disposition unverified |

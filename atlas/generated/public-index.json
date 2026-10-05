@@ -2878,6 +2878,14 @@
           "sha": "60cf0fc697b8b83d89e364d7dbbfe6001f560f6d"
         },
         {
+          "name": "experiment/tenet-arpg-001",
+          "sha": "ab01c74552641b16ee1fd297a33c8ac2222cd676"
+        },
+        {
+          "name": "experiment/warm-thread-world-001",
+          "sha": "553e97401a8483a0ee3c369fed9d3fb8f1c9058d"
+        },
+        {
           "name": "experimental/alchematrix-001-haunted-telescope",
           "sha": "587af5a8f1cb73781d1943343234d75aabd0f9c4"
         },
@@ -2919,6 +2927,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 51,
+          "title": "TENET-ARPG-001: make the Warm Thread playable",
+          "head_branch": "experiment/tenet-arpg-001",
+          "head_sha": "ab01c74552641b16ee1fd297a33c8ac2222cd676",
+          "head_repo": "the-static-collective/full-measure-world-layer",
+          "base_branch": "experiment/warm-thread-world-001",
+          "updated_at": "2026-10-04T17:30:35Z",
+          "url": "https://github.com/the-static-collective/full-measure-world-layer/pull/51"
+        },
+        {
+          "number": 50,
+          "title": "WARM-THREAD-WORLD-001: inhabit GHoT's pocket-sized promise",
+          "head_branch": "experiment/warm-thread-world-001",
+          "head_sha": "553e97401a8483a0ee3c369fed9d3fb8f1c9058d",
+          "head_repo": "the-static-collective/full-measure-world-layer",
+          "base_branch": "main",
+          "updated_at": "2026-10-04T16:17:47Z",
+          "url": "https://github.com/the-static-collective/full-measure-world-layer/pull/50"
+        },
         {
           "number": 48,
           "title": "EXPERIMENT: Living Deck composition → local Full Measure quest → ROroomOM handoff",
@@ -3078,8 +3106,140 @@
           "sha": "56f6c67c6e3f056e82dd319ed3f50dde0cecea72"
         },
         {
+          "name": "exp039",
+          "sha": "f85a99d1883443b177b9dbb38ed719d74edf628b"
+        },
+        {
+          "name": "exp040",
+          "sha": "0f722d1452aec1fae55454dae503ce7c628abd26"
+        },
+        {
+          "name": "exp041",
+          "sha": "858edbe479ce90e07bdf1b2f65a5f47dae70264e"
+        },
+        {
+          "name": "exp042",
+          "sha": "bb7e7d4261e4da14647948e9933831c9701ab5fc"
+        },
+        {
+          "name": "exp043",
+          "sha": "677eefeab96d47495145d74767390b1f14000de8"
+        },
+        {
+          "name": "exp044",
+          "sha": "48d3cace59a6adff17aef4303f4c8425976d7fa2"
+        },
+        {
+          "name": "exp045",
+          "sha": "c00ec4c02a9d88ec33eb393fff2e4dd32ebde037"
+        },
+        {
+          "name": "exp046",
+          "sha": "9b45d8110ec45999d9ac2b6a4e62edff1d617ba1"
+        },
+        {
+          "name": "exp047",
+          "sha": "bf20533471c5d602c7c68b0fda5a23b4f1dc420b"
+        },
+        {
+          "name": "exp048",
+          "sha": "d29fa79fde05de725d6d2a12e96fd05d11cf1a42"
+        },
+        {
+          "name": "exp049",
+          "sha": "b5a761a74ce9f099d3d4c5450fb01f6b21bb0546"
+        },
+        {
+          "name": "exp050",
+          "sha": "e75d6fa538d7e2134c4c84cfcff444eecb192033"
+        },
+        {
+          "name": "exp051",
+          "sha": "cb3e3ff62329b6483bdf47fe9d5f66d2a890a488"
+        },
+        {
+          "name": "exp052",
+          "sha": "cabb1d477a5fc26abc49548db54627ac13b88f54"
+        },
+        {
+          "name": "exp053",
+          "sha": "b40fdc30b7f098d93d669c50d45c6886fd4443e5"
+        },
+        {
+          "name": "exp054",
+          "sha": "176b5d28da19c2f77bf7757448eec4b3bd0ca1c8"
+        },
+        {
+          "name": "exp055",
+          "sha": "a37b12b91f595b40ad149200423fa61a320ff467"
+        },
+        {
+          "name": "exp056",
+          "sha": "9f5f0cbcd79a33006ed7b7a47720c861a5a9c4f3"
+        },
+        {
+          "name": "exp057",
+          "sha": "eb39b569ed3a26452da62850ef8a1399402cc60e"
+        },
+        {
+          "name": "exp058",
+          "sha": "e4769cbe299ac686230134ac0b2e500718296cda"
+        },
+        {
+          "name": "exp059",
+          "sha": "2b4fcef0069cbac46eefb095c2d3645ddf588bfd"
+        },
+        {
+          "name": "exp060",
+          "sha": "89259e0ae4eb131b1b2fd5e761ee9a81c7df6a49"
+        },
+        {
+          "name": "exp061",
+          "sha": "49e2b5d94916c03981a42f7c8912491f99547601"
+        },
+        {
+          "name": "exp062",
+          "sha": "b5e1ef475f0037595e9354075e6f0a8d42339be1"
+        },
+        {
+          "name": "exp063",
+          "sha": "777d87a1711977b1d56abb9ebe714aa9516471c1"
+        },
+        {
+          "name": "exp064",
+          "sha": "36e42606f317094144a787d407ffa7e0d3de8ff6"
+        },
+        {
+          "name": "exp065",
+          "sha": "117c3244bb38cbc8e3c72286da68d22f3bc0e619"
+        },
+        {
+          "name": "exp066",
+          "sha": "89401243b7b14b7818aa0ab2c0a1b358c7cf9bec"
+        },
+        {
+          "name": "exp067",
+          "sha": "6456828ca6d2ee2cd10db2017cbd9278c1e3c664"
+        },
+        {
+          "name": "experiment-036",
+          "sha": "b61476f17c5d4b6e063255bf429bbb3dd49ad2e3"
+        },
+        {
+          "name": "experiment-037",
+          "sha": "c907d919f67c16448af88a8c3a4a332034e3970b"
+        },
+        {
+          "name": "experiment-038",
+          "sha": "27a627f8f7f0a8717245b3609db15a45227ec4ab"
+        },
+        {
           "name": "external-adapter-manifest-001",
           "sha": "e12ce3e62486feb1e5cd2324d1ae5a6a2be8b19b"
+        },
+        {
+          "name": "field-commons-001",
+          "sha": "6a734c834e0b4880f3de1e39465f73800f338a9d"
         },
         {
           "name": "field-reseed-receiver-001",
@@ -3098,8 +3258,28 @@
           "sha": "79884a50ecd25c3e8afe2f583e8be7f30629c713"
         },
         {
+          "name": "ice-cube-032",
+          "sha": "f57bdd4aff2583d59e8aa742ee68d755bc709689"
+        },
+        {
+          "name": "ice-field-033",
+          "sha": "43a83c3b6a63fc02d36c31f02df941a47844d8ca"
+        },
+        {
           "name": "lightwalker-economy-032",
           "sha": "a41da98d6eb482d3e2a1ec857f045d85ecae00b6"
+        },
+        {
+          "name": "lightwalker-heterogeneous-exchange-035",
+          "sha": "c43e2718b7f9bbe75844978feaf50e7481f423f5"
+        },
+        {
+          "name": "lightwalker-market-034",
+          "sha": "77bd25c4f3c710ccfd6a8397ffe64c5038bbad88"
+        },
+        {
+          "name": "lightwalker-time-assay-033",
+          "sha": "0620d760e5f249cd539857af06e594abc95b2ea5"
         },
         {
           "name": "main",
@@ -3134,11 +3314,419 @@
           "sha": "fa58ff7b9e7a545fd2f7bbecf58da7647e82afde"
         },
         {
+          "name": "tenetgram-040",
+          "sha": "1fd92d783c6d007eb60a28f2dd6eaf57ca91fd8a"
+        },
+        {
           "name": "typed-launch-descriptors-027",
           "sha": "864c7aceca27619a68d2f4c35c21744f6f99559c"
+        },
+        {
+          "name": "warm-thread-039",
+          "sha": "3c8be40cbaef2f9c786e5424abf15d4b138d2966"
         }
       ],
       "open_prs": [
+        {
+          "number": 64,
+          "title": "LIGHTWALKER-067: exact sparse region assignment",
+          "head_branch": "exp067",
+          "head_sha": "6456828ca6d2ee2cd10db2017cbd9278c1e3c664",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp066",
+          "updated_at": "2026-10-05T15:34:12Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/64"
+        },
+        {
+          "number": 63,
+          "title": "LIGHTWALKER-066: exact work-region salvage",
+          "head_branch": "exp066",
+          "head_sha": "89401243b7b14b7818aa0ab2c0a1b358c7cf9bec",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp065",
+          "updated_at": "2026-10-05T11:03:01Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/63"
+        },
+        {
+          "number": 62,
+          "title": "LIGHTWALKER-065: recursive branch salvage",
+          "head_branch": "exp065",
+          "head_sha": "117c3244bb38cbc8e3c72286da68d22f3bc0e619",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp064",
+          "updated_at": "2026-10-05T09:57:34Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/62"
+        },
+        {
+          "number": 61,
+          "title": "LIGHTWALKER-064: recursive branch fork reconciliation",
+          "head_branch": "exp064",
+          "head_sha": "36e42606f317094144a787d407ffa7e0d3de8ff6",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp063",
+          "updated_at": "2026-10-05T04:43:45Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/61"
+        },
+        {
+          "number": 60,
+          "title": "LIGHTWALKER-063: recursive continuation kernel",
+          "head_branch": "exp063",
+          "head_sha": "777d87a1711977b1d56abb9ebe714aa9516471c1",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp062",
+          "updated_at": "2026-10-05T04:08:41Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/60"
+        },
+        {
+          "number": 59,
+          "title": "LIGHTWALKER-062: continuation DAG multi-hop resume lineage",
+          "head_branch": "exp062",
+          "head_sha": "b5e1ef475f0037595e9354075e6f0a8d42339be1",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp061",
+          "updated_at": "2026-10-05T03:39:36Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/59"
+        },
+        {
+          "number": 58,
+          "title": "LIGHTWALKER-061: resume claim fork prevention",
+          "head_branch": "exp061",
+          "head_sha": "49e2b5d94916c03981a42f7c8912491f99547601",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp060",
+          "updated_at": "2026-10-05T03:16:37Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/58"
+        },
+        {
+          "number": 57,
+          "title": "LIGHTWALKER-060: resume migration of paused execution",
+          "head_branch": "exp060",
+          "head_sha": "89259e0ae4eb131b1b2fd5e761ee9a81c7df6a49",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp059",
+          "updated_at": "2026-10-05T03:01:23Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/57"
+        },
+        {
+          "number": 56,
+          "title": "LIGHTWALKER-059: long-running execution checkpoint revalidation",
+          "head_branch": "exp059",
+          "head_sha": "2b4fcef0069cbac46eefb095c2d3645ddf588bfd",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp058",
+          "updated_at": "2026-10-05T02:30:57Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/56"
+        },
+        {
+          "number": 55,
+          "title": "LIGHTWALKER-058: transition-aware execution gate",
+          "head_branch": "exp058",
+          "head_sha": "e4769cbe299ac686230134ac0b2e500718296cda",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp057",
+          "updated_at": "2026-10-05T02:07:55Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/55"
+        },
+        {
+          "number": 54,
+          "title": "LIGHTWALKER-057: multi-policy temporal transition composition",
+          "head_branch": "exp057",
+          "head_sha": "eb39b569ed3a26452da62850ef8a1399402cc60e",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp056",
+          "updated_at": "2026-10-05T01:54:48Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/54"
+        },
+        {
+          "number": 53,
+          "title": "LIGHTWALKER-056: explicit policy transition modes",
+          "head_branch": "exp056",
+          "head_sha": "9f5f0cbcd79a33006ed7b7a47720c861a5a9c4f3",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp055",
+          "updated_at": "2026-10-05T01:41:39Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/53"
+        },
+        {
+          "number": 52,
+          "title": "LIGHTWALKER-055: policy versioning and mid-flight revalidation",
+          "head_branch": "exp055",
+          "head_sha": "a37b12b91f595b40ad149200423fa61a320ff467",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp054",
+          "updated_at": "2026-10-05T01:32:02Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/52"
+        },
+        {
+          "number": 51,
+          "title": "LIGHTWALKER-054: policy composition and constraint intersection",
+          "head_branch": "exp054",
+          "head_sha": "176b5d28da19c2f77bf7757448eec4b3bd0ca1c8",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp053",
+          "updated_at": "2026-10-05T01:11:13Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/51"
+        },
+        {
+          "number": 50,
+          "title": "LIGHTWALKER-053: constraint-first routing and Pareto frontier",
+          "head_branch": "exp053",
+          "head_sha": "b40fdc30b7f098d93d669c50d45c6886fd4443e5",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp052",
+          "updated_at": "2026-10-04T23:45:34Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/50"
+        },
+        {
+          "number": 49,
+          "title": "LIGHTWALKER-052: local multi-factor route scoring",
+          "head_branch": "exp052",
+          "head_sha": "cabb1d477a5fc26abc49548db54627ac13b88f54",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp051",
+          "updated_at": "2026-10-04T23:31:17Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/49"
+        },
+        {
+          "number": 48,
+          "title": "LIGHTWALKER-051: bounded route selection and failover policy",
+          "head_branch": "exp051",
+          "head_sha": "cb3e3ff62329b6483bdf47fe9d5f66d2a890a488",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp050",
+          "updated_at": "2026-10-04T20:13:37Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/48"
+        },
+        {
+          "number": 47,
+          "title": "LIGHTWALKER-050: federated reroute and substitution",
+          "head_branch": "exp050",
+          "head_sha": "e75d6fa538d7e2134c4c84cfcff444eecb192033",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp049",
+          "updated_at": "2026-10-04T20:05:19Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/47"
+        },
+        {
+          "number": 46,
+          "title": "LIGHTWALKER-049: multi-source federated service",
+          "head_branch": "exp049",
+          "head_sha": "b5a761a74ce9f099d3d4c5450fb01f6b21bb0546",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp048",
+          "updated_at": "2026-10-04T19:50:54Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/46"
+        },
+        {
+          "number": 45,
+          "title": "LIGHTWALKER-048: federated service promise",
+          "head_branch": "exp048",
+          "head_sha": "d29fa79fde05de725d6d2a12e96fd05d11cf1a42",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp047",
+          "updated_at": "2026-10-04T19:09:25Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/45"
+        },
+        {
+          "number": 44,
+          "title": "LIGHTWALKER-047: capacity-backed future service",
+          "head_branch": "exp047",
+          "head_sha": "bf20533471c5d602c7c68b0fda5a23b4f1dc420b",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp046",
+          "updated_at": "2026-10-04T18:51:54Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/44"
+        },
+        {
+          "number": 43,
+          "title": "LIGHTWALKER-046: metabolic exchange bridge",
+          "head_branch": "exp046",
+          "head_sha": "9b45d8110ec45999d9ac2b6a4e62edff1d617ba1",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp045",
+          "updated_at": "2026-10-04T18:25:05Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/43"
+        },
+        {
+          "number": 42,
+          "title": "LIGHTWALKER-045: authority metabolism conservation audit",
+          "head_branch": "exp045",
+          "head_sha": "c00ec4c02a9d88ec33eb393fff2e4dd32ebde037",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp044",
+          "updated_at": "2026-10-04T18:14:17Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/42"
+        },
+        {
+          "number": 41,
+          "title": "LIGHTWALKER-044: expiry reclamation and authority compost",
+          "head_branch": "exp044",
+          "head_sha": "48d3cace59a6adff17aef4303f4c8425976d7fa2",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp043",
+          "updated_at": "2026-10-04T18:02:09Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/41"
+        },
+        {
+          "number": 40,
+          "title": "LIGHTWALKER-043: lease lineage and current authority DAG",
+          "head_branch": "exp043",
+          "head_sha": "677eefeab96d47495145d74767390b1f14000de8",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp042",
+          "updated_at": "2026-10-04T17:40:46Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/40"
+        },
+        {
+          "number": 39,
+          "title": "LIGHTWALKER-042: lease repartition handoff and renewal",
+          "head_branch": "exp042",
+          "head_sha": "bb7e7d4261e4da14647948e9933831c9701ab5fc",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp041",
+          "updated_at": "2026-10-04T17:30:02Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/39"
+        },
+        {
+          "number": 38,
+          "title": "FIELD COMMONS 001: heterogeneous economics funds Ice Field work",
+          "head_branch": "field-commons-001",
+          "head_sha": "6a734c834e0b4880f3de1e39465f73800f338a9d",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "ice-field-033",
+          "updated_at": "2026-10-04T17:22:45Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/38"
+        },
+        {
+          "number": 37,
+          "title": "LIGHTWALKER-041: capacity leases and partitioned authority",
+          "head_branch": "exp041",
+          "head_sha": "858edbe479ce90e07bdf1b2f65a5f47dae70264e",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp040",
+          "updated_at": "2026-10-04T17:13:34Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/37"
+        },
+        {
+          "number": 36,
+          "title": "LIGHTWALKER-040: distributed reservation without history rewrite",
+          "head_branch": "exp040",
+          "head_sha": "0f722d1452aec1fae55454dae503ce7c628abd26",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "exp039",
+          "updated_at": "2026-10-04T16:57:36Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/36"
+        },
+        {
+          "number": 35,
+          "title": "TENETGRAM-040: consequence seeds future possibility",
+          "head_branch": "tenetgram-040",
+          "head_sha": "1fd92d783c6d007eb60a28f2dd6eaf57ca91fd8a",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "warm-thread-039",
+          "updated_at": "2026-10-04T16:52:12Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/35"
+        },
+        {
+          "number": 34,
+          "title": "LIGHTWALKER-039: reservation and concurrency safety",
+          "head_branch": "exp039",
+          "head_sha": "f85a99d1883443b177b9dbb38ed719d74edf628b",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment-038",
+          "updated_at": "2026-10-04T16:25:59Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/34"
+        },
+        {
+          "number": 33,
+          "title": "WARM-THREAD-039: compose stranded usefulness toward present need",
+          "head_branch": "warm-thread-039",
+          "head_sha": "3c8be40cbaef2f9c786e5424abf15d4b138d2966",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment-038",
+          "updated_at": "2026-10-04T16:17:45Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/33"
+        },
+        {
+          "number": 32,
+          "title": "LIGHTWALKER-038: Guild proposal and treasury authorization",
+          "head_branch": "experiment-038",
+          "head_sha": "27a627f8f7f0a8717245b3609db15a45227ec4ab",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment-037",
+          "updated_at": "2026-10-04T14:56:39Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/32"
+        },
+        {
+          "number": 31,
+          "title": "LIGHTWALKER-037: Guild Treasury without universal balance",
+          "head_branch": "experiment-037",
+          "head_sha": "c907d919f67c16448af88a8c3a4a332034e3970b",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment-036",
+          "updated_at": "2026-10-04T14:50:17Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/31"
+        },
+        {
+          "number": 30,
+          "title": "LIGHTWALKER-036: bounded Labor Writs",
+          "head_branch": "experiment-036",
+          "head_sha": "b61476f17c5d4b6e063255bf429bbb3dd49ad2e3",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "lightwalker-heterogeneous-exchange-035",
+          "updated_at": "2026-10-04T14:26:29Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/30"
+        },
+        {
+          "number": 29,
+          "title": "LIGHTWALKER-HETERO-035: exchange before currency",
+          "head_branch": "lightwalker-heterogeneous-exchange-035",
+          "head_sha": "c43e2718b7f9bbe75844978feaf50e7481f423f5",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "lightwalker-market-034",
+          "updated_at": "2026-10-04T14:11:39Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/29"
+        },
+        {
+          "number": 28,
+          "title": "LIGHTWALKER-MARKET-034: the market without the coin",
+          "head_branch": "lightwalker-market-034",
+          "head_sha": "77bd25c4f3c710ccfd6a8397ffe64c5038bbad88",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "lightwalker-time-assay-033",
+          "updated_at": "2026-10-04T13:58:17Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/28"
+        },
+        {
+          "number": 27,
+          "title": "Experiment 033: grow a power-aware Ice Field",
+          "head_branch": "ice-field-033",
+          "head_sha": "43a83c3b6a63fc02d36c31f02df941a47844d8ca",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "ice-cube-032",
+          "updated_at": "2026-10-04T13:54:38Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/27"
+        },
+        {
+          "number": 26,
+          "title": "Experiment 032: return verified Ice Cubes home",
+          "head_branch": "ice-cube-032",
+          "head_sha": "f57bdd4aff2583d59e8aa742ee68d755bc709689",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "ice-cube-031",
+          "updated_at": "2026-10-04T13:32:26Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/26"
+        },
+        {
+          "number": 25,
+          "title": "LIGHTWALKER-TIME-ASSAY-033: later consequence without historical rewrite",
+          "head_branch": "lightwalker-time-assay-033",
+          "head_sha": "0620d760e5f249cd539857af06e594abc95b2ea5",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "lightwalker-economy-032",
+          "updated_at": "2026-10-04T13:28:14Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/25"
+        },
         {
           "number": 24,
           "title": "LIGHTWALKER-ECONOMY-032: Workmark → Realm-local economic projections",
@@ -3396,6 +3984,86 @@
           "base_branch": "main",
           "updated_at": "2026-09-20T15:33:57Z",
           "url": "https://github.com/the-static-collective/GOATnote/pull/4"
+        }
+      ]
+    },
+    {
+      "name": "GrO",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "genesis/possibility-field-001",
+          "sha": "6abfc4ff80948d3ed2b619ae36e2262ad0e42e4d"
+        },
+        {
+          "name": "main",
+          "sha": "41321646412a5330eca83ddc90194f2ea782ed09"
+        },
+        {
+          "name": "tenet/addressed-seed-003",
+          "sha": "5b8ce060f06cc8b7992ab0c0ec7bda10f5febab6"
+        },
+        {
+          "name": "tenet/checkpoint-succession-009",
+          "sha": "fff0b9e641caa0be416619397fb4994ffb2ff1d5"
+        },
+        {
+          "name": "tenet/cross-locality-002",
+          "sha": "57b932eed4497fbd29a35b4a73a6b6f6d82b1415"
+        },
+        {
+          "name": "tenet/descendant-without-broadcast-007",
+          "sha": "01093c47b3a6f5db70d24a473d485f909b2c8f28"
+        },
+        {
+          "name": "tenet/discovery-not-provider-005",
+          "sha": "455d330be018770c6219f700d5962db6fff0b157"
+        },
+        {
+          "name": "tenet/fork-not-conflict-010",
+          "sha": "5adacb8f16690840caf6d62bb0c20fad4d6ad47b"
+        },
+        {
+          "name": "tenet/generations-pruning-008",
+          "sha": "01093c47b3a6f5db70d24a473d485f909b2c8f28"
+        },
+        {
+          "name": "tenet/generations-pruning-008-clean",
+          "sha": "802189c773bdb253c0e0dbc86c31b8cb15ec7ea6"
+        },
+        {
+          "name": "tenet/leave-possibility-001",
+          "sha": "7cf2a8953bccbe59a4a082711af653b2b2d749be"
+        },
+        {
+          "name": "tenet/many-maps-one-seed-006",
+          "sha": "81414a76acc72decec2c4a2b54d42202e1d999f0"
+        },
+        {
+          "name": "tenet/recombinant-graph-frontier-012",
+          "sha": "8b3a6ee8fe47ad95d1028ff366f832db90775551"
+        },
+        {
+          "name": "tenet/recombination-without-collapse-011",
+          "sha": "baaa66d400d9b30e01ba5e2f6da50984ec2205a3"
+        },
+        {
+          "name": "tenet/replaceable-roads-004",
+          "sha": "d363405b211b1c711f24706991385887d68e11f3"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 14,
+          "title": "TENET 012 — Recombinant Checkpoint / Graph Frontier",
+          "head_branch": "tenet/recombinant-graph-frontier-012",
+          "head_sha": "8b3a6ee8fe47ad95d1028ff366f832db90775551",
+          "head_repo": "the-static-collective/GrO",
+          "base_branch": "main",
+          "updated_at": "2026-10-05T09:48:27Z",
+          "url": "https://github.com/the-static-collective/GrO/pull/14"
         }
       ]
     },
@@ -4555,7 +5223,7 @@
       "branches": [
         {
           "name": "experiment/franken-smash-001",
-          "sha": "02b5cb34129d793d17b33494c80c4abb06075990"
+          "sha": "012186fd67f4c4ef1c6591fc5e29cb559b5a80d0"
         },
         {
           "name": "main",
@@ -4567,10 +5235,10 @@
           "number": 1,
           "title": "FRANKEN SMASH 001: deterministic cross-organ composition runtime",
           "head_branch": "experiment/franken-smash-001",
-          "head_sha": "02b5cb34129d793d17b33494c80c4abb06075990",
+          "head_sha": "012186fd67f4c4ef1c6591fc5e29cb559b5a80d0",
           "head_repo": "the-static-collective/playdeck",
           "base_branch": "main",
-          "updated_at": "2026-10-04T02:06:02Z",
+          "updated_at": "2026-10-04T13:56:28Z",
           "url": "https://github.com/the-static-collective/playdeck/pull/1"
         }
       ]
@@ -4929,6 +5597,34 @@
         {
           "name": "feat/three-world-post-office-001",
           "sha": "ef6a8e6c7fa55f79cad8eeff13f71391709aeebd"
+        },
+        {
+          "name": "feat/useful-work-kernel-001",
+          "sha": "f8151a36e6aab8f6fb85bc5b68bffeeefbe2827d"
+        },
+        {
+          "name": "feat/useful-work-kernel-002",
+          "sha": "ecf0773bb9d0e04cdd4e7f49216a66159cc645b8"
+        },
+        {
+          "name": "feat/useful-work-kernel-003",
+          "sha": "b1e9f77477b99ba450c6e906a2b7975ae1441b5b"
+        },
+        {
+          "name": "feat/useful-work-kernel-004",
+          "sha": "702442f5264482d81daba377d113bb38d280e00d"
+        },
+        {
+          "name": "feat/useful-work-kernel-005",
+          "sha": "8bd5d357f5b7b675b26b13c6f1713ed79c5c550b"
+        },
+        {
+          "name": "feat/useful-work-kernel-006",
+          "sha": "7f785bf0e88bc25edcd9c4f9aecae257db414f69"
+        },
+        {
+          "name": "feat/useful-work-kernel-007",
+          "sha": "23a7c692d571636fdcf02ac08a11da8051c33916"
         },
         {
           "name": "feat/walkable-provenance",
@@ -8817,12 +9513,68 @@
           "sha": "bec4a87702876866f87d46bcf3bc6e77ebc4aa36"
         },
         {
+          "name": "experiment/franken-tester-001",
+          "sha": "c52f1c26ca80c8676449449abb5133cbcd1f5445"
+        },
+        {
+          "name": "experiment/listener-look-twice-001",
+          "sha": "2b28002614b119841ca7e639b9be72b0da22987c"
+        },
+        {
+          "name": "experiment/nextgen-toaster-001",
+          "sha": "50116f1ce4ed5771fe431a63b6a3f983fa4d56fe"
+        },
+        {
+          "name": "experiment/nextgen-toaster-002-lab",
+          "sha": "97b31c4e1d3e200ea6354fe72f4c95c666ef5b4b"
+        },
+        {
+          "name": "experiment/nextgen-toaster-003-live-crossings",
+          "sha": "d23e74cce51fce3588f09d983ab91eabbdaef43f"
+        },
+        {
+          "name": "experiment/nextgen-toaster-004-material-placement",
+          "sha": "b2cbf28a294663c99ef12d063b21d6f9ffcbc03c"
+        },
+        {
+          "name": "experiment/nextgen-toaster-005-editor-power",
+          "sha": "28dce2ef3aeb31063a7b215850a6beee75e56d41"
+        },
+        {
+          "name": "experiment/nextgen-toaster-006-time-editor",
+          "sha": "f99151384bc5d30232594be57c826ad16900770f"
+        },
+        {
+          "name": "experiment/nextgen-toaster-007-live-preview-transport",
+          "sha": "d2646e50e29beff6c0d8dfe685ba814323b520b5"
+        },
+        {
+          "name": "experiment/nextgen-toaster-007-one-pass",
+          "sha": "a01d6b00e6253647783c61729e47b9aa2f244001"
+        },
+        {
+          "name": "experiment/nextgen-toaster-008-watch-play-trace",
+          "sha": "7e6881e752b693ad4a52e062e1754479524b102f"
+        },
+        {
+          "name": "experiment/nextgen-toaster-009-performed-topology",
+          "sha": "85eeb98205ff383fc0612e394a89fb85341f53ab"
+        },
+        {
+          "name": "experiment/nextgen-toaster-010-residue-memory",
+          "sha": "0c66c0f6681c2e778374b1d26dbe8e7e89241e74"
+        },
+        {
+          "name": "experiment/nextgen-toaster-011-full-song-form",
+          "sha": "1c8e736031ce5943ed5d6d0775c2de59d3721878"
+        },
+        {
           "name": "experiment/polyclock-001-recurrence",
           "sha": "66fe65523ad21824aea88519de736c791f81e967"
         },
         {
           "name": "experimental/franken-composer-001",
-          "sha": "5e8b176cc5d46ba62cb069c3b0e59286d1c1c398"
+          "sha": "0916e1d1dd60d2834682e4bd182f26f15b2d8447"
         },
         {
           "name": "experimental/hyperkitchen-001-hyperframes-projection",
@@ -8953,6 +9705,10 @@
           "sha": "094792af76860b476b1016477bdda00389181ce1"
         },
         {
+          "name": "fix/listening-eye-family-evidence-001",
+          "sha": "8d83d678221e28e7f81bb619fd9834fe28147f97"
+        },
+        {
           "name": "fix/magnetic-crop-invariant",
           "sha": "eef20b3c681908565a87d23d7fe1ad590f1d2815"
         },
@@ -8979,6 +9735,10 @@
         {
           "name": "fix/track0-durable-listener-draft",
           "sha": "2a063454e8eb46fdf62d1ee435a8ad84be50e633"
+        },
+        {
+          "name": "fix/video-digestion-vout-contract-001",
+          "sha": "fce507efbe2381fcae4189a0f6b3689e0bf5c880"
         },
         {
           "name": "hyperfood/slice-b-living-receipt",
@@ -9161,6 +9921,10 @@
           "sha": "de38bbec26be83660a2ff4a1f41800250def4b28"
         },
         {
+          "name": "video/digestion-six-001-current",
+          "sha": "a93cb6cb8653a0fce81e552028c2813b9c24bd23"
+        },
+        {
           "name": "walk/a-foreign-material-current-spine",
           "sha": "f397d8bdb39d4e0df7a536399508257a40df1b07"
         },
@@ -9183,13 +9947,173 @@
       ],
       "open_prs": [
         {
+          "number": 333,
+          "title": "NEXTGEN-TOASTER-010: residue memory",
+          "head_branch": "experiment/nextgen-toaster-010-residue-memory",
+          "head_sha": "0c66c0f6681c2e778374b1d26dbe8e7e89241e74",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experiment/nextgen-toaster-009-performed-topology",
+          "updated_at": "2026-10-05T15:36:55Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/333"
+        },
+        {
+          "number": 332,
+          "title": "NEXTGEN-TOASTER-009: performed topology",
+          "head_branch": "experiment/nextgen-toaster-009-performed-topology",
+          "head_sha": "85eeb98205ff383fc0612e394a89fb85341f53ab",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experiment/nextgen-toaster-008-watch-play-trace",
+          "updated_at": "2026-10-05T03:56:44Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/332"
+        },
+        {
+          "number": 331,
+          "title": "NEXTGEN-TOASTER-008: WATCH × PLAY × TRACE",
+          "head_branch": "experiment/nextgen-toaster-008-watch-play-trace",
+          "head_sha": "7e6881e752b693ad4a52e062e1754479524b102f",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experiment/nextgen-toaster-006-time-editor",
+          "updated_at": "2026-10-05T03:45:23Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/331"
+        },
+        {
+          "number": 329,
+          "title": "NEXTGEN-TOASTER-007: ONE PASS real-time edit performance",
+          "head_branch": "experiment/nextgen-toaster-007-one-pass",
+          "head_sha": "a01d6b00e6253647783c61729e47b9aa2f244001",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experiment/nextgen-toaster-006-time-editor",
+          "updated_at": "2026-10-05T03:27:39Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/329"
+        },
+        {
+          "number": 328,
+          "title": "NEXTGEN-TOASTER-007: live proposal media + synchronized transport",
+          "head_branch": "experiment/nextgen-toaster-007-live-preview-transport",
+          "head_sha": "d2646e50e29beff6c0d8dfe685ba814323b520b5",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experiment/nextgen-toaster-006-time-editor",
+          "updated_at": "2026-10-05T02:31:57Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/328"
+        },
+        {
+          "number": 327,
+          "title": "NEXTGEN-TOASTER-006: direct timeline, musical snap, scrub + keyframes",
+          "head_branch": "experiment/nextgen-toaster-006-time-editor",
+          "head_sha": "f99151384bc5d30232594be57c826ad16900770f",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experiment/nextgen-toaster-005-editor-power",
+          "updated_at": "2026-10-05T02:07:51Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/327"
+        },
+        {
+          "number": 326,
+          "title": "NEXTGEN-TOASTER-005: repeatable trim/crop/stack editor power",
+          "head_branch": "experiment/nextgen-toaster-005-editor-power",
+          "head_sha": "28dce2ef3aeb31063a7b215850a6beee75e56d41",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experiment/nextgen-toaster-004-material-placement",
+          "updated_at": "2026-10-05T01:38:55Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/326"
+        },
+        {
+          "number": 325,
+          "title": "NEXTGEN-TOASTER-004: human digestion material placement",
+          "head_branch": "experiment/nextgen-toaster-004-material-placement",
+          "head_sha": "b2cbf28a294663c99ef12d063b21d6f9ffcbc03c",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experiment/nextgen-toaster-003-live-crossings",
+          "updated_at": "2026-10-05T01:19:57Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/325"
+        },
+        {
+          "number": 324,
+          "title": "NEXTGEN-TOASTER-003: live Listening Eye pressure + video reservoir",
+          "head_branch": "experiment/nextgen-toaster-003-live-crossings",
+          "head_sha": "d23e74cce51fce3588f09d983ab91eabbdaef43f",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experiment/nextgen-toaster-002-lab",
+          "updated_at": "2026-10-04T23:40:40Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/324"
+        },
+        {
+          "number": 323,
+          "title": "NEXTGEN-TOASTER-002: human-visible composed lab rail",
+          "head_branch": "experiment/nextgen-toaster-002-lab",
+          "head_sha": "97b31c4e1d3e200ea6354fe72f4c95c666ef5b4b",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experiment/nextgen-toaster-001",
+          "updated_at": "2026-10-04T20:25:28Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/323"
+        },
+        {
+          "number": 322,
+          "title": "test: fix Video Digestion vout graph assertion",
+          "head_branch": "fix/video-digestion-vout-contract-001",
+          "head_sha": "fce507efbe2381fcae4189a0f6b3689e0bf5c880",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "video/digestion-six-001-current",
+          "updated_at": "2026-10-04T20:12:52Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/322"
+        },
+        {
+          "number": 321,
+          "title": "fix: preserve Listening Eye changedAxes in family evidence",
+          "head_branch": "fix/listening-eye-family-evidence-001",
+          "head_sha": "8d83d678221e28e7f81bb619fd9834fe28147f97",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "feature/listening-eye-v0",
+          "updated_at": "2026-10-04T20:11:07Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/321"
+        },
+        {
+          "number": 320,
+          "title": "NEXTGEN-TOASTER-001: exact-SHA composed organ carrier",
+          "head_branch": "experiment/nextgen-toaster-001",
+          "head_sha": "50116f1ce4ed5771fe431a63b6a3f983fa4d56fe",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experiment/franken-tester-001",
+          "updated_at": "2026-10-04T20:15:35Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/320"
+        },
+        {
+          "number": 319,
+          "title": "FRANKEN-TESTER-001: branch ecology census + cross-system organ matrix",
+          "head_branch": "experiment/franken-tester-001",
+          "head_sha": "c52f1c26ca80c8676449449abb5133cbcd1f5445",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experimental/franken-composer-001",
+          "updated_at": "2026-10-04T20:01:10Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/319"
+        },
+        {
+          "number": 318,
+          "title": "VIDEO-DIGESTION-001: current-main phrasing re-port + same-source six-up",
+          "head_branch": "video/digestion-six-001-current",
+          "head_sha": "a93cb6cb8653a0fce81e552028c2813b9c24bd23",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "main",
+          "updated_at": "2026-10-04T19:45:57Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/318"
+        },
+        {
+          "number": 317,
+          "title": "LISTENER × LOOK-TWICE-001: uncontaminated hearing diagnostic",
+          "head_branch": "experiment/listener-look-twice-001",
+          "head_sha": "2b28002614b119841ca7e639b9be72b0da22987c",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "main",
+          "updated_at": "2026-10-04T18:46:49Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/317"
+        },
+        {
           "number": 315,
           "title": "FRANKEN-COMPOSER-001: deterministic three-body composition bench",
           "head_branch": "experimental/franken-composer-001",
-          "head_sha": "5e8b176cc5d46ba62cb069c3b0e59286d1c1c398",
+          "head_sha": "0916e1d1dd60d2834682e4bd182f26f15b2d8447",
           "head_repo": "the-static-collective/the-haunted-toaster",
           "base_branch": "experimental/hyperkitchen-001-hyperframes-projection",
-          "updated_at": "2026-10-04T02:08:39Z",
+          "updated_at": "2026-10-04T15:11:49Z",
           "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/315"
         },
         {
@@ -10255,7 +11179,7 @@
         },
         {
           "name": "main",
-          "sha": "52642d9db28d37d0d6ddf92f59ea4a2738a5469f"
+          "sha": "a9b2e13875ba653761b1f8e9422f202945f235cd"
         },
         {
           "name": "pattern/gestalt-recursion",
@@ -10676,5 +11600,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-04T13:11:39+00:00"
+  "captured_at": "2026-10-05T15:59:23+00:00"
 }
