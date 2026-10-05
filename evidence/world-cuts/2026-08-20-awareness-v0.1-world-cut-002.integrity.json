@@ -1,0 +1,8 @@
+{
+  "schema": "static-collective/world-cut-integrity/v0",
+  "worldCutId": "wcv0_456c4b94dcd4c8d24cf7bfb639b32f8ab7ec4460f4fb13135f34c96fe7e438c1",
+  "bodySha256": "456c4b94dcd4c8d24cf7bfb639b32f8ab7ec4460f4fb13135f34c96fe7e438c1",
+  "jsonSha256": "7879c02a6c9cbe7476fa4e317180bbb8e74097cb666907feb7af29e963052ca9",
+  "markdownSha256": "29ca706cd1471b70953b1a179399dfde792d4908c21f9616e8a36bd6807800a1",
+  "receiptSha256": "84cd26d0253196dff96b191d93bc60dee8f991357ca1c3811147925090be1425"
+}

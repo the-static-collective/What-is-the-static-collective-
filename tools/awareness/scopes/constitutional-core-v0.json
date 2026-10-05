@@ -1,0 +1,11 @@
+{
+  "schema": "static-collective/awareness-scope/v0",
+  "id": "constitutional-core-v0",
+  "projections": [
+    {"id":"project0-project-status","kind":"project-status-v1","repository":"the-static-collective/project0","sourceScope":"main","statusPath":"PROJECT_STATUS.json"},
+    {"id":"tranchnode-project-status","kind":"project-status-v1","repository":"the-static-collective/tranchnode","sourceScope":"main","statusPath":"PROJECT_STATUS.json"},
+    {"id":"corpus-os-project-status","kind":"project-status-v1","repository":"the-static-collective/corpus-os","sourceScope":"main","statusPath":"PROJECT_STATUS.json"},
+    {"id":"full-measure-project-status","kind":"project-status-v1","repository":"the-static-collective/full-measure-world-layer","sourceScope":"main","statusPath":"PROJECT_STATUS.json"},
+    {"id":"founder-node-project-status","kind":"project-status-v1","repository":"the-static-collective/founder-node","sourceScope":"main","statusPath":"PROJECT_STATUS.json"}
+  ]
+}
