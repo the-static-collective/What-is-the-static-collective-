@@ -47,12 +47,13 @@ Default: `main` · other refs: 9 · open PRs: 7
 
 [Repository](https://github.com/the-static-collective/Upper-room) · [Branches](https://github.com/the-static-collective/Upper-room/branches) · [Pull requests](https://github.com/the-static-collective/Upper-room/pulls)
 
-Default: `main` · other refs: 7 · open PRs: 2
+Default: `main` · other refs: 8 · open PRs: 3
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#11](https://github.com/the-static-collective/Upper-room/pull/11) | DOOR PACKET 001 — emit a room-safe Scripture door | `feat/door-packet-001` → `main` | 2026-10-06 |
 | [#9](https://github.com/the-static-collective/Upper-room/pull/9) | Sovereign Presence 001 — local viewport tabs and reader handoff | `feat/sovereign-presence-reducer-001` → `main` | 2026-09-21 |
 | [#8](https://github.com/the-static-collective/Upper-room/pull/8) | TEMPORAL-RETURN-001: opt-in Scripture encounter export for Dogram clock comparisons | `experiment/temporal-return-001-opt-in-export` → `main` | 2026-09-20 |
 
@@ -65,6 +66,7 @@ Default: `main` · other refs: 7 · open PRs: 2
 | [docs/dust-specimen-001-attention-weather](https://github.com/the-static-collective/Upper-room/tree/docs/dust-specimen-001-attention-weather) | [3b96fc7b96](https://github.com/the-static-collective/Upper-room/commit/3b96fc7b969f97b28e495a9b99bdf2af78a64542) | Retained ref; disposition unverified |
 | [docs/for-now-next-steps-map](https://github.com/the-static-collective/Upper-room/tree/docs/for-now-next-steps-map) | [1a33c3e693](https://github.com/the-static-collective/Upper-room/commit/1a33c3e69345e07ef237a8dc71920c0517282f88) | Retained ref; disposition unverified |
 | [experiment/temporal-return-001-opt-in-export](https://github.com/the-static-collective/Upper-room/tree/experiment/temporal-return-001-opt-in-export) | [08030ea4fa](https://github.com/the-static-collective/Upper-room/commit/08030ea4fa823eb77aba13145964e868d5240408) | [open PR #8](https://github.com/the-static-collective/Upper-room/pull/8) |
+| [feat/door-packet-001](https://github.com/the-static-collective/Upper-room/tree/feat/door-packet-001) | [922b253c00](https://github.com/the-static-collective/Upper-room/commit/922b253c003d9ab5be1027b7f853ae916b912124) | [open PR #11](https://github.com/the-static-collective/Upper-room/pull/11) |
 | [feat/sovereign-presence-reducer-001](https://github.com/the-static-collective/Upper-room/tree/feat/sovereign-presence-reducer-001) | [24e64abeb2](https://github.com/the-static-collective/Upper-room/commit/24e64abeb2100b2bebfe4b9405808a42217f747a) | [open PR #9](https://github.com/the-static-collective/Upper-room/pull/9) |
 | [feat/v0-scripture-heartbeat](https://github.com/the-static-collective/Upper-room/tree/feat/v0-scripture-heartbeat) | [1bde7144cb](https://github.com/the-static-collective/Upper-room/commit/1bde7144cbf5e453f8e8303fb165f2f1fba7e832) | Retained ref; disposition unverified |
 
@@ -72,12 +74,13 @@ Default: `main` · other refs: 7 · open PRs: 2
 
 [Repository](https://github.com/the-static-collective/national-treasure) · [Branches](https://github.com/the-static-collective/national-treasure/branches) · [Pull requests](https://github.com/the-static-collective/national-treasure/pulls)
 
-Default: `main` · other refs: 75 · open PRs: 10
+Default: `main` · other refs: 76 · open PRs: 11
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#84](https://github.com/the-static-collective/national-treasure/pull/84) | Clue: Jubilee Quarter 001 — the Bell was Jubilee before it was Liberty | `clue/jubilee-quarter-001` → `main` | 2026-10-05 |
 | [#83](https://github.com/the-static-collective/national-treasure/pull/83) | BODY-BRIDGE-001: durable contact + lawful deformation reference | `thread/body-bridge-contact-lens` → `main` | 2026-09-25 |
 | [#82](https://github.com/the-static-collective/national-treasure/pull/82) | Thread: REALITY.2 × postEmahh'n crossing membrane | `threads/reality2-postemahhn-crossing-membrane` → `main` | 2026-09-25 |
 | [#80](https://github.com/the-static-collective/national-treasure/pull/80) | National Treasure: research case on social construction of authority | `research/social-construction-of-authority-2026-09-23` → `main` | 2026-09-23 |
@@ -107,6 +110,7 @@ Default: `main` · other refs: 75 · open PRs: 10
 | [alchemathology-ninefold](https://github.com/the-static-collective/national-treasure/tree/alchemathology-ninefold) | [7cdce5ef99](https://github.com/the-static-collective/national-treasure/commit/7cdce5ef99c33c2c18aa73ef263e9bce2607f08a) | Retained ref; disposition unverified |
 | [case/primal-overlap-and-english-origins](https://github.com/the-static-collective/national-treasure/tree/case/primal-overlap-and-english-origins) | [5c7faee161](https://github.com/the-static-collective/national-treasure/commit/5c7faee1616939a2e0bec29d7ce6f56353751816) | Retained ref; disposition unverified |
 | [case/quantum-code-glyph-circuit](https://github.com/the-static-collective/national-treasure/tree/case/quantum-code-glyph-circuit) | [6448f0b265](https://github.com/the-static-collective/national-treasure/commit/6448f0b265a1cdd789bbbefdaf6e79f6904b4719) | Retained ref; disposition unverified |
+| [clue/jubilee-quarter-001](https://github.com/the-static-collective/national-treasure/tree/clue/jubilee-quarter-001) | [d4331e962e](https://github.com/the-static-collective/national-treasure/commit/d4331e962e53991410151ed68ddca8d5f24aabc5) | [open PR #84](https://github.com/the-static-collective/national-treasure/pull/84) |
 | [codex/tarot-continuity-v0-1](https://github.com/the-static-collective/national-treasure/tree/codex/tarot-continuity-v0-1) | [3e359f9d32](https://github.com/the-static-collective/national-treasure/commit/3e359f9d32c35769dee03413fbfd19d0b00e75ee) | [open PR #44](https://github.com/the-static-collective/national-treasure/pull/44) |
 | [design/radio-propagation-relational-boundaries](https://github.com/the-static-collective/national-treasure/tree/design/radio-propagation-relational-boundaries) | [2a1f865891](https://github.com/the-static-collective/national-treasure/commit/2a1f865891a18e77c3adf74d9bf6f1f826bce412) | Retained ref; disposition unverified |
 | [design/sigil-algebra-v0](https://github.com/the-static-collective/national-treasure/tree/design/sigil-algebra-v0) | [874821a7fc](https://github.com/the-static-collective/national-treasure/commit/874821a7fc2eee86b7129b1b6eaa6e399b857d0d) | Retained ref; disposition unverified |

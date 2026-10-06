@@ -107,12 +107,13 @@ Default: `main` · other refs: 4 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/full-measure-world-layer) · [Branches](https://github.com/the-static-collective/full-measure-world-layer/branches) · [Pull requests](https://github.com/the-static-collective/full-measure-world-layer/pulls)
 
-Default: `main` · other refs: 28 · open PRs: 13
+Default: `main` · other refs: 29 · open PRs: 14
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#52](https://github.com/the-static-collective/full-measure-world-layer/pull/52) | TENET-ARPG-002: make consequential history a walkable frontier | `experiment/tenet-arpg-frontier-002` → `experiment/tenet-arpg-001` | 2026-10-05 |
 | [#51](https://github.com/the-static-collective/full-measure-world-layer/pull/51) | TENET-ARPG-001: make the Warm Thread playable | `experiment/tenet-arpg-001` → `experiment/warm-thread-world-001` | 2026-10-04 |
 | [#50](https://github.com/the-static-collective/full-measure-world-layer/pull/50) | WARM-THREAD-WORLD-001: inhabit GHoT's pocket-sized promise | `experiment/warm-thread-world-001` → `main` | 2026-10-04 |
 | [#48](https://github.com/the-static-collective/full-measure-world-layer/pull/48) | EXPERIMENT: Living Deck composition → local Full Measure quest → ROroomOM handoff | `experiment/living-deck-quest-001` → `main` | 2026-09-24 |
@@ -149,6 +150,7 @@ Default: `main` · other refs: 28 · open PRs: 13
 | [experiment/clockwork-map-001](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/clockwork-map-001) | [306764bd89](https://github.com/the-static-collective/full-measure-world-layer/commit/306764bd8930593facfea5ae198a23e945101bff) | [open PR #32](https://github.com/the-static-collective/full-measure-world-layer/pull/32) |
 | [experiment/living-deck-quest-001](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/living-deck-quest-001) | [60cf0fc697](https://github.com/the-static-collective/full-measure-world-layer/commit/60cf0fc697b8b83d89e364d7dbbfe6001f560f6d) | [open PR #48](https://github.com/the-static-collective/full-measure-world-layer/pull/48) |
 | [experiment/tenet-arpg-001](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/tenet-arpg-001) | [ab01c74552](https://github.com/the-static-collective/full-measure-world-layer/commit/ab01c74552641b16ee1fd297a33c8ac2222cd676) | [open PR #51](https://github.com/the-static-collective/full-measure-world-layer/pull/51) |
+| [experiment/tenet-arpg-frontier-002](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/tenet-arpg-frontier-002) | [199df20706](https://github.com/the-static-collective/full-measure-world-layer/commit/199df2070681e68126bd83f3f74fbd21d92ade27) | [open PR #52](https://github.com/the-static-collective/full-measure-world-layer/pull/52) |
 | [experiment/warm-thread-world-001](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/warm-thread-world-001) | [553e97401a](https://github.com/the-static-collective/full-measure-world-layer/commit/553e97401a8483a0ee3c369fed9d3fb8f1c9058d) | [open PR #50](https://github.com/the-static-collective/full-measure-world-layer/pull/50) |
 | [experimental/alchematrix-001-haunted-telescope](https://github.com/the-static-collective/full-measure-world-layer/tree/experimental/alchematrix-001-haunted-telescope) | [587af5a8f1](https://github.com/the-static-collective/full-measure-world-layer/commit/587af5a8f1cb73781d1943343234d75aabd0f9c4) | [open PR #45](https://github.com/the-static-collective/full-measure-world-layer/pull/45) |
 | [feat/grace-foreign-room-offer-003](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/grace-foreign-room-offer-003) | [c7d856b23d](https://github.com/the-static-collective/full-measure-world-layer/commit/c7d856b23d6a16dccbebe29c7976af24dfee26dc) | [open PR #36](https://github.com/the-static-collective/full-measure-world-layer/pull/36) |
@@ -194,12 +196,19 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/revival) · [Branches](https://github.com/the-static-collective/revival/branches) · [Pull requests](https://github.com/the-static-collective/revival/pulls)
 
-Default: `main` · other refs: 13 · open PRs: 0
+Default: `main` · other refs: 14 · open PRs: 1
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#13](https://github.com/the-static-collective/revival/pull/13) | DOOR PACKET 001 — hold external Scripture doors without source promotion | `feat/door-packet-001` → `main` | 2026-10-06 |
 
 ### Retained nondefault branches
 
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
+| [feat/door-packet-001](https://github.com/the-static-collective/revival/tree/feat/door-packet-001) | [47a6ee01c7](https://github.com/the-static-collective/revival/commit/47a6ee01c721ad4eca7f8260e9cb8875bbe37e28) | [open PR #13](https://github.com/the-static-collective/revival/pull/13) |
 | [genesis-001-executable-kernel](https://github.com/the-static-collective/revival/tree/genesis-001-executable-kernel) | [ec5b7c64b1](https://github.com/the-static-collective/revival/commit/ec5b7c64b1472e77a178f34d619cf383e98b9e37) | Retained ref; disposition unverified |
 | [revival-002-curiosity-compiler](https://github.com/the-static-collective/revival/tree/revival-002-curiosity-compiler) | [5f45217a5e](https://github.com/the-static-collective/revival/commit/5f45217a5e643a0af2b2471d5a7347df7d627dcb) | Retained ref; disposition unverified |
 | [revival-003-choice-surface](https://github.com/the-static-collective/revival/tree/revival-003-choice-surface) | [c0e2fe8a87](https://github.com/the-static-collective/revival/commit/c0e2fe8a872fe40d033046f5d81fc6eaa0cea06b) | Retained ref; disposition unverified |

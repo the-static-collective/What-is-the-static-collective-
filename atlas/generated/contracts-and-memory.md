@@ -326,12 +326,13 @@ Default: `main` · other refs: 25 · open PRs: 7
 
 [Repository](https://github.com/the-static-collective/Dogram) · [Branches](https://github.com/the-static-collective/Dogram/branches) · [Pull requests](https://github.com/the-static-collective/Dogram/pulls)
 
-Default: `main` · other refs: 186 · open PRs: 57
+Default: `main` · other refs: 187 · open PRs: 58
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#181](https://github.com/the-static-collective/Dogram/pull/181) | Sparse Ice Probe 001: adaptive exact-region receipts | `impl/sparse-ice-probe-001` → `impl/ice-cube-001` | 2026-10-05 |
 | [#180](https://github.com/the-static-collective/Dogram/pull/180) | Ice Cube 001: bounded Lucas/Halley/mapping-torus receipts | `impl/ice-cube-001` → `impl/mapping-torus-receipt-v0` | 2026-10-04 |
 | [#177](https://github.com/the-static-collective/Dogram/pull/177) | Research: OUTER-DISTRIBUTION-001 pointwise geometry beyond ambiguity histogram | `research/OUTER-DISTRIBUTION-001` → `main` | 2026-09-24 |
 | [#176](https://github.com/the-static-collective/Dogram/pull/176) | Research: AMBIGUITY-PROFILE-001 local list geometry beyond worst case | `research/ambiguity-profile-001` → `main` | 2026-09-24 |
@@ -422,6 +423,7 @@ Default: `main` · other refs: 186 · open PRs: 57
 | [impl/omega-cycle-001](https://github.com/the-static-collective/Dogram/tree/impl/omega-cycle-001) | [a8862aedd3](https://github.com/the-static-collective/Dogram/commit/a8862aedd3e2118a50f8dd8e33245d81d8a1a7fe) | Retained ref; disposition unverified |
 | [impl/productive-desync-transverse-generators-001](https://github.com/the-static-collective/Dogram/tree/impl/productive-desync-transverse-generators-001) | [b0667f19f4](https://github.com/the-static-collective/Dogram/commit/b0667f19f4b675446c86a95a8110c4df8bf10387) | Retained ref; disposition unverified |
 | [impl/quotient-return-honing](https://github.com/the-static-collective/Dogram/tree/impl/quotient-return-honing) | [994f8e44cb](https://github.com/the-static-collective/Dogram/commit/994f8e44cb55f6ffde9a88afb041249591582177) | Retained ref; disposition unverified |
+| [impl/sparse-ice-probe-001](https://github.com/the-static-collective/Dogram/tree/impl/sparse-ice-probe-001) | [767dd68762](https://github.com/the-static-collective/Dogram/commit/767dd6876225d863ce20ae07cee6017e5a80f7cb) | [open PR #181](https://github.com/the-static-collective/Dogram/pull/181) |
 | [lighthouse/jubilee-engine-port](https://github.com/the-static-collective/Dogram/tree/lighthouse/jubilee-engine-port) | [550b618a41](https://github.com/the-static-collective/Dogram/commit/550b618a4156425516e8fe5f1dbb9d9a4406ad69) | Retained ref; disposition unverified |
 | [lumi/phaselift-flow-gap-mathal-ledger](https://github.com/the-static-collective/Dogram/tree/lumi/phaselift-flow-gap-mathal-ledger) | [463234469b](https://github.com/the-static-collective/Dogram/commit/463234469b651907881f992b1997250e29bc1276) | Retained ref; disposition unverified |
 | [noop](https://github.com/the-static-collective/Dogram/tree/noop) | [159672207f](https://github.com/the-static-collective/Dogram/commit/159672207f5fdfc6ff030ab5cb325bebebab00b9) | Retained ref; disposition unverified |

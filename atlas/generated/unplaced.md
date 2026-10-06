@@ -21,12 +21,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/DVOTE) · [Branches](https://github.com/the-static-collective/DVOTE/branches) · [Pull requests](https://github.com/the-static-collective/DVOTE/pulls)
 
-Default: `main` · other refs: 7 · open PRs: 5
+Default: `main` · other refs: 8 · open PRs: 6
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#8](https://github.com/the-static-collective/DVOTE/pull/8) | DOOR PACKET 001 — import is not crossing | `feat/door-packet-001` → `main` | 2026-10-06 |
 | [#7](https://github.com/the-static-collective/DVOTE/pull/7) | Composer 001 — recurrence proposes, reader selects | `experiment/composer-001` → `experiment/memento-export-001` | 2026-10-03 |
 | [#6](https://github.com/the-static-collective/DVOTE/pull/6) | MEMENTO 001 — bind receipts into portable books | `experiment/memento-export-001` → `experiment/threshold-shelf-receipts-001` | 2026-10-03 |
 | [#5](https://github.com/the-static-collective/DVOTE/pull/5) | Artifact Layer 001 — threshold, shelf, and field receipts | `experiment/threshold-shelf-receipts-001` → `campaign/paula-42-001` | 2026-10-03 |
@@ -44,17 +45,23 @@ Default: `main` · other refs: 7 · open PRs: 5
 | [experiment/make-ground-loop-001](https://github.com/the-static-collective/DVOTE/tree/experiment/make-ground-loop-001) | [50bd81bfef](https://github.com/the-static-collective/DVOTE/commit/50bd81bfef7785f2c4c8935bcd45b06371e4c197) | [open PR #4](https://github.com/the-static-collective/DVOTE/pull/4) |
 | [experiment/memento-export-001](https://github.com/the-static-collective/DVOTE/tree/experiment/memento-export-001) | [34020e8e90](https://github.com/the-static-collective/DVOTE/commit/34020e8e908a48114e1211da60af8ac39bc0dd47) | [open PR #6](https://github.com/the-static-collective/DVOTE/pull/6) |
 | [experiment/threshold-shelf-receipts-001](https://github.com/the-static-collective/DVOTE/tree/experiment/threshold-shelf-receipts-001) | [9a2a45db41](https://github.com/the-static-collective/DVOTE/commit/9a2a45db41039dfc952bcf8d2d849aa487ed0da0) | [open PR #5](https://github.com/the-static-collective/DVOTE/pull/5) |
+| [feat/door-packet-001](https://github.com/the-static-collective/DVOTE/tree/feat/door-packet-001) | [dae5441582](https://github.com/the-static-collective/DVOTE/commit/dae5441582a4d475b5426991c3882853bc17dadd) | [open PR #8](https://github.com/the-static-collective/DVOTE/pull/8) |
 
 ## GHoT
 
 [Repository](https://github.com/the-static-collective/GHoT) · [Branches](https://github.com/the-static-collective/GHoT/branches) · [Pull requests](https://github.com/the-static-collective/GHoT/pulls)
 
-Default: `main` · other refs: 64 · open PRs: 57
+Default: `main` · other refs: 70 · open PRs: 62
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#70](https://github.com/the-static-collective/GHoT/pull/70) | COMPOST-BREEDER-001: history → six futures → KEEP → seed → generation 2 | `feat/compost-breeder-001` → `feat/instrument-rack-001` | 2026-10-05 |
+| [#69](https://github.com/the-static-collective/GHoT/pull/69) | INSTRUMENT-RACK-001: capability cards and portable seed packets | `feat/instrument-rack-001` → `main` | 2026-10-05 |
+| [#67](https://github.com/the-static-collective/GHoT/pull/67) | GrO Mineral bridge: exact native verification and bounded export | `gro-mineral-bridge-001` → `mineral-field-001` | 2026-10-05 |
+| [#66](https://github.com/the-static-collective/GHoT/pull/66) | MINERAL FIELD 001: generalize useful-work mining beyond Ice Cubes | `mineral-field-001` → `sparse-ice-field-001` | 2026-10-05 |
+| [#65](https://github.com/the-static-collective/GHoT/pull/65) | SPARSE ICE FIELD 001: exact-region distributed Ice Cube work | `sparse-ice-field-001` → `field-commons-001` | 2026-10-05 |
 | [#64](https://github.com/the-static-collective/GHoT/pull/64) | LIGHTWALKER-067: exact sparse region assignment | `exp067` → `exp066` | 2026-10-05 |
 | [#63](https://github.com/the-static-collective/GHoT/pull/63) | LIGHTWALKER-066: exact work-region salvage | `exp066` → `exp065` | 2026-10-05 |
 | [#62](https://github.com/the-static-collective/GHoT/pull/62) | LIGHTWALKER-065: recursive branch salvage | `exp065` → `exp064` | 2026-10-05 |
@@ -160,9 +167,13 @@ Default: `main` · other refs: 64 · open PRs: 57
 | [experiment-037](https://github.com/the-static-collective/GHoT/tree/experiment-037) | [c907d919f6](https://github.com/the-static-collective/GHoT/commit/c907d919f67c16448af88a8c3a4a332034e3970b) | [open PR #31](https://github.com/the-static-collective/GHoT/pull/31) |
 | [experiment-038](https://github.com/the-static-collective/GHoT/tree/experiment-038) | [27a627f8f7](https://github.com/the-static-collective/GHoT/commit/27a627f8f7f0a8717245b3609db15a45227ec4ab) | [open PR #32](https://github.com/the-static-collective/GHoT/pull/32) |
 | [external-adapter-manifest-001](https://github.com/the-static-collective/GHoT/tree/external-adapter-manifest-001) | [e12ce3e624](https://github.com/the-static-collective/GHoT/commit/e12ce3e62486feb1e5cd2324d1ae5a6a2be8b19b) | Retained ref; disposition unverified |
+| [feat/compost-breeder-001](https://github.com/the-static-collective/GHoT/tree/feat/compost-breeder-001) | [d898cc6a25](https://github.com/the-static-collective/GHoT/commit/d898cc6a25d0c3569d5126ecab2754c9f82cfd02) | [open PR #70](https://github.com/the-static-collective/GHoT/pull/70) |
+| [feat/compost-breeder-002-live-blender](https://github.com/the-static-collective/GHoT/tree/feat/compost-breeder-002-live-blender) | [f1b19e26b8](https://github.com/the-static-collective/GHoT/commit/f1b19e26b8051e6708b16bddefd537ff7472f79c) | Retained ref; disposition unverified |
+| [feat/instrument-rack-001](https://github.com/the-static-collective/GHoT/tree/feat/instrument-rack-001) | [3d64e5d486](https://github.com/the-static-collective/GHoT/commit/3d64e5d486d9324ec6086da69889a81ab2e48cd8) | [open PR #69](https://github.com/the-static-collective/GHoT/pull/69) |
 | [field-commons-001](https://github.com/the-static-collective/GHoT/tree/field-commons-001) | [6a734c834e](https://github.com/the-static-collective/GHoT/commit/6a734c834e0b4880f3de1e39465f73800f338a9d) | [open PR #38](https://github.com/the-static-collective/GHoT/pull/38) |
 | [field-reseed-receiver-001](https://github.com/the-static-collective/GHoT/tree/field-reseed-receiver-001) | [391f0edd5d](https://github.com/the-static-collective/GHoT/commit/391f0edd5da5eae5d3f19d61f01d80de386837c5) | Retained ref; disposition unverified |
 | [grammar-exchange-023](https://github.com/the-static-collective/GHoT/tree/grammar-exchange-023) | [7729d53086](https://github.com/the-static-collective/GHoT/commit/7729d5308679137c8038785fc7d0ad01906d1649) | [open PR #12](https://github.com/the-static-collective/GHoT/pull/12) |
+| [gro-mineral-bridge-001](https://github.com/the-static-collective/GHoT/tree/gro-mineral-bridge-001) | [8868024cf8](https://github.com/the-static-collective/GHoT/commit/8868024cf8fee8599007cb82b76491776771255c) | [open PR #67](https://github.com/the-static-collective/GHoT/pull/67) |
 | [ice-cube-030](https://github.com/the-static-collective/GHoT/tree/ice-cube-030) | [30434a26fe](https://github.com/the-static-collective/GHoT/commit/30434a26fee82c0fc4e3bfa7dcb8a1425f19d5d8) | [open PR #22](https://github.com/the-static-collective/GHoT/pull/22) |
 | [ice-cube-031](https://github.com/the-static-collective/GHoT/tree/ice-cube-031) | [79884a50ec](https://github.com/the-static-collective/GHoT/commit/79884a50ecd25c3e8afe2f583e8be7f30629c713) | [open PR #23](https://github.com/the-static-collective/GHoT/pull/23) |
 | [ice-cube-032](https://github.com/the-static-collective/GHoT/tree/ice-cube-032) | [f57bdd4aff](https://github.com/the-static-collective/GHoT/commit/f57bdd4aff2583d59e8aa742ee68d755bc709689) | [open PR #26](https://github.com/the-static-collective/GHoT/pull/26) |
@@ -174,8 +185,10 @@ Default: `main` · other refs: 64 · open PRs: 57
 | [many-bodied-machine-001](https://github.com/the-static-collective/GHoT/tree/many-bodied-machine-001) | [15ca259dbc](https://github.com/the-static-collective/GHoT/commit/15ca259dbcdaf1ec5b1d3dbcc7b92e71ae7158ef) | Retained ref; disposition unverified |
 | [merge-contract-pantry-020](https://github.com/the-static-collective/GHoT/tree/merge-contract-pantry-020) | [b2f953e011](https://github.com/the-static-collective/GHoT/commit/b2f953e01142398243c83868bd622de41dfec305) | [open PR #9](https://github.com/the-static-collective/GHoT/pull/9) |
 | [merge-contract-plugins-021](https://github.com/the-static-collective/GHoT/tree/merge-contract-plugins-021) | [57bb6196bf](https://github.com/the-static-collective/GHoT/commit/57bb6196bfea8aef0e8ae0f2feda8ed2d02fb9d4) | [open PR #10](https://github.com/the-static-collective/GHoT/pull/10) |
+| [mineral-field-001](https://github.com/the-static-collective/GHoT/tree/mineral-field-001) | [59cdf9040a](https://github.com/the-static-collective/GHoT/commit/59cdf9040ac4d2636cd24e6cda9f36f6e500addc) | [open PR #66](https://github.com/the-static-collective/GHoT/pull/66) |
 | [portable-merge-plugins-022](https://github.com/the-static-collective/GHoT/tree/portable-merge-plugins-022) | [cdef056a57](https://github.com/the-static-collective/GHoT/commit/cdef056a5791b0976b29b10ce54a9390cacbf0b2) | [open PR #11](https://github.com/the-static-collective/GHoT/pull/11) |
 | [rsc-composer-001](https://github.com/the-static-collective/GHoT/tree/rsc-composer-001) | [0107364cac](https://github.com/the-static-collective/GHoT/commit/0107364cac6d574b27e462c723b525b9e96b67e7) | [open PR #2](https://github.com/the-static-collective/GHoT/pull/2) |
+| [sparse-ice-field-001](https://github.com/the-static-collective/GHoT/tree/sparse-ice-field-001) | [69be18bfc9](https://github.com/the-static-collective/GHoT/commit/69be18bfc94223ac0ee7caf29c330c1732da5e6a) | [open PR #65](https://github.com/the-static-collective/GHoT/pull/65) |
 | [state-merge-019](https://github.com/the-static-collective/GHoT/tree/state-merge-019) | [6f5737cfe3](https://github.com/the-static-collective/GHoT/commit/6f5737cfe3a38119abb5b0f21ede4a5ab7613320) | [open PR #8](https://github.com/the-static-collective/GHoT/pull/8) |
 | [state-parcels-018](https://github.com/the-static-collective/GHoT/tree/state-parcels-018) | [fa58ff7b9e](https://github.com/the-static-collective/GHoT/commit/fa58ff7b9e7a545fd2f7bbecf58da7647e82afde) | [open PR #7](https://github.com/the-static-collective/GHoT/pull/7) |
 | [tenetgram-040](https://github.com/the-static-collective/GHoT/tree/tenetgram-040) | [1fd92d783c](https://github.com/the-static-collective/GHoT/commit/1fd92d783c6d007eb60a28f2dd6eaf57ca91fd8a) | [open PR #35](https://github.com/the-static-collective/GHoT/pull/35) |
@@ -186,19 +199,25 @@ Default: `main` · other refs: 64 · open PRs: 57
 
 [Repository](https://github.com/the-static-collective/GrO) · [Branches](https://github.com/the-static-collective/GrO/branches) · [Pull requests](https://github.com/the-static-collective/GrO/pulls)
 
-Default: `main` · other refs: 14 · open PRs: 1
+Default: `main` · other refs: 17 · open PRs: 4
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#17](https://github.com/the-static-collective/GrO/pull/17) | DOOR PACKET 001 — sovereign local admission of portable Scripture doors | `feat/door-packet-001` → `main` | 2026-10-06 |
+| [#16](https://github.com/the-static-collective/GrO/pull/16) | FORK GARDEN 001: three Mineral branches, selective recombination | `fork-garden-001` → `mineral/world-seed-001` | 2026-10-05 |
+| [#15](https://github.com/the-static-collective/GrO/pull/15) | MINERAL WORLD-SEED 001: close play → compute → artifact → play | `mineral/world-seed-001` → `tenet/recombinant-graph-frontier-012` | 2026-10-05 |
 | [#14](https://github.com/the-static-collective/GrO/pull/14) | TENET 012 — Recombinant Checkpoint / Graph Frontier | `tenet/recombinant-graph-frontier-012` → `main` | 2026-10-05 |
 
 ### Retained nondefault branches
 
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
+| [feat/door-packet-001](https://github.com/the-static-collective/GrO/tree/feat/door-packet-001) | [2e62fb3be2](https://github.com/the-static-collective/GrO/commit/2e62fb3be2ee46f474d612f1918b6a3c955948aa) | [open PR #17](https://github.com/the-static-collective/GrO/pull/17) |
+| [fork-garden-001](https://github.com/the-static-collective/GrO/tree/fork-garden-001) | [3f977c8f7a](https://github.com/the-static-collective/GrO/commit/3f977c8f7afc18d88655398943530e75485b6656) | [open PR #16](https://github.com/the-static-collective/GrO/pull/16) |
 | [genesis/possibility-field-001](https://github.com/the-static-collective/GrO/tree/genesis/possibility-field-001) | [6abfc4ff80](https://github.com/the-static-collective/GrO/commit/6abfc4ff80948d3ed2b619ae36e2262ad0e42e4d) | Retained ref; disposition unverified |
+| [mineral/world-seed-001](https://github.com/the-static-collective/GrO/tree/mineral/world-seed-001) | [543eb4c4d9](https://github.com/the-static-collective/GrO/commit/543eb4c4d98016df426c319732f87f9eec76cddc) | [open PR #15](https://github.com/the-static-collective/GrO/pull/15) |
 | [tenet/addressed-seed-003](https://github.com/the-static-collective/GrO/tree/tenet/addressed-seed-003) | [5b8ce060f0](https://github.com/the-static-collective/GrO/commit/5b8ce060f06cc8b7992ab0c0ec7bda10f5febab6) | Retained ref; disposition unverified |
 | [tenet/checkpoint-succession-009](https://github.com/the-static-collective/GrO/tree/tenet/checkpoint-succession-009) | [fff0b9e641](https://github.com/the-static-collective/GrO/commit/fff0b9e641caa0be416619397fb4994ffb2ff1d5) | Retained ref; disposition unverified |
 | [tenet/cross-locality-002](https://github.com/the-static-collective/GrO/tree/tenet/cross-locality-002) | [57b932eed4](https://github.com/the-static-collective/GrO/commit/57b932eed4497fbd29a35b4a73a6b6f6d82b1415) | Retained ref; disposition unverified |
@@ -269,6 +288,32 @@ Default: `main` · other refs: 29 · open PRs: 5
 
 Default: `main` · other refs: 0 · open PRs: 0
 
+## planZ
+
+[Repository](https://github.com/the-static-collective/planZ) · [Branches](https://github.com/the-static-collective/planZ/branches) · [Pull requests](https://github.com/the-static-collective/planZ/pulls)
+
+Default: `main` · other refs: 5 · open PRs: 5
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#9](https://github.com/the-static-collective/planZ/pull/9) | HEART-001: refuse Fatherhand, admit Heart-Lung | `experiment/heart-001-fatherhand-combinatrix` → `feat/transition-receipts-003-1` | 2026-10-06 |
+| [#8](https://github.com/the-static-collective/planZ/pull/8) | ARROW-001: make transitions first-class | `feat/transition-receipts-003-1` → `feat/remains-instruments-003` | 2026-10-06 |
+| [#6](https://github.com/the-static-collective/planZ/pull/6) | PLANZ-003: REMAINS → INSTRUMENTS | `feat/remains-instruments-003` → `feat/census-senses-mutation-002` | 2026-10-06 |
+| [#4](https://github.com/the-static-collective/planZ/pull/4) | PLANZ-002: CENSUS → SENSES mutation engine | `feat/census-senses-mutation-002` → `feat/global-plan-census-001` | 2026-10-05 |
+| [#2](https://github.com/the-static-collective/planZ/pull/2) | PLANZ-001: define the Global Plan Census | `feat/global-plan-census-001` → `main` | 2026-10-05 |
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [experiment/heart-001-fatherhand-combinatrix](https://github.com/the-static-collective/planZ/tree/experiment/heart-001-fatherhand-combinatrix) | [267dafc3a8](https://github.com/the-static-collective/planZ/commit/267dafc3a841e0699d750af9c366fac704522ad5) | [open PR #9](https://github.com/the-static-collective/planZ/pull/9) |
+| [feat/census-senses-mutation-002](https://github.com/the-static-collective/planZ/tree/feat/census-senses-mutation-002) | [557577c6ae](https://github.com/the-static-collective/planZ/commit/557577c6ae4cd30a45b07cf23709283c8b4bf548) | [open PR #4](https://github.com/the-static-collective/planZ/pull/4) |
+| [feat/global-plan-census-001](https://github.com/the-static-collective/planZ/tree/feat/global-plan-census-001) | [c93ccbfa6a](https://github.com/the-static-collective/planZ/commit/c93ccbfa6a501cdfd5e4ff8a3957300ecc0ae9c5) | [open PR #2](https://github.com/the-static-collective/planZ/pull/2) |
+| [feat/remains-instruments-003](https://github.com/the-static-collective/planZ/tree/feat/remains-instruments-003) | [535d34b5d7](https://github.com/the-static-collective/planZ/commit/535d34b5d7680ab98fb50e717b4cd00b972a232b) | [open PR #6](https://github.com/the-static-collective/planZ/pull/6) |
+| [feat/transition-receipts-003-1](https://github.com/the-static-collective/planZ/tree/feat/transition-receipts-003-1) | [8621c46f8e](https://github.com/the-static-collective/planZ/commit/8621c46f8e4e70d7e2c09fe57a2936dcb949f6f6) | [open PR #8](https://github.com/the-static-collective/planZ/pull/8) |
+
 ## playdeck
 
 [Repository](https://github.com/the-static-collective/playdeck) · [Branches](https://github.com/the-static-collective/playdeck/branches) · [Pull requests](https://github.com/the-static-collective/playdeck/pulls)
@@ -291,12 +336,19 @@ Default: `main` · other refs: 1 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/reLATTE) · [Branches](https://github.com/the-static-collective/reLATTE/branches) · [Pull requests](https://github.com/the-static-collective/reLATTE/pulls)
 
-Default: `main` · other refs: 53 · open PRs: 26
+Default: `main` · other refs: 60 · open PRs: 33
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#55](https://github.com/the-static-collective/reLATTE/pull/55) | Field Test 003: Discover doors and cross by explicit local choice | `feat/useful-work-field-test-003` → `feat/useful-work-field-test-002` | 2026-10-06 |
+| [#54](https://github.com/the-static-collective/reLATTE/pull/54) | Useful Work Field Test 002: Crossing the Wire | `feat/useful-work-field-test-002` → `feat/useful-work-field-test-001` | 2026-10-06 |
+| [#53](https://github.com/the-static-collective/reLATTE/pull/53) | Useful Work Field Test 001: Two Worlds Trade | `feat/useful-work-field-test-001` → `feat/useful-work-kernel-010` | 2026-10-06 |
+| [#52](https://github.com/the-static-collective/reLATTE/pull/52) | DOOR POST 001 — one Scripture door, three sovereign worlds, no merger | `feat/door-post-001` → `feat/three-world-post-office-001` | 2026-10-06 |
+| [#51](https://github.com/the-static-collective/reLATTE/pull/51) | Kernel 010: Offer / Acceptance / Settlement Receipt | `feat/useful-work-kernel-010` → `feat/useful-work-kernel-009` | 2026-10-06 |
+| [#50](https://github.com/the-static-collective/reLATTE/pull/50) | Useful Work Kernel 009 — measured resource adapters without causation or value | `feat/useful-work-kernel-009` → `feat/useful-work-kernel-008` | 2026-10-06 |
+| [#49](https://github.com/the-static-collective/reLATTE/pull/49) | Useful Work Kernel 008 — scoped availability / serving evidence | `feat/useful-work-kernel-008` → `feat/useful-work-kernel-007` | 2026-10-06 |
 | [#47](https://github.com/the-static-collective/reLATTE/pull/47) | Three World Post Office 001 — hold all, rank none | `feat/three-world-post-office-001` → `feat/mail-slot-static-post-001` | 2026-10-02 |
 | [#46](https://github.com/the-static-collective/reLATTE/pull/46) | Mail Slot 001 + Static Post 001 — letters, not shared memory | `feat/mail-slot-static-post-001` → `feat/customs-house-001` | 2026-10-02 |
 | [#45](https://github.com/the-static-collective/reLATTE/pull/45) | Customs House 001 — a context window should have customs | `feat/customs-house-001` → `feat/carry-card-hostile-001` | 2026-10-02 |
@@ -345,6 +397,7 @@ Default: `main` · other refs: 53 · open PRs: 26
 | [feat/customs-house-001](https://github.com/the-static-collective/reLATTE/tree/feat/customs-house-001) | [c0da062983](https://github.com/the-static-collective/reLATTE/commit/c0da0629830b92baa4962fb7c3e2f690e623e838) | [open PR #45](https://github.com/the-static-collective/reLATTE/pull/45) |
 | [feat/did-binding-001](https://github.com/the-static-collective/reLATTE/tree/feat/did-binding-001) | [84403ecfc4](https://github.com/the-static-collective/reLATTE/commit/84403ecfc4acce37509d58de1a40ff0e4bee5987) | [open PR #31](https://github.com/the-static-collective/reLATTE/pull/31) |
 | [feat/did-dht-discovery-001](https://github.com/the-static-collective/reLATTE/tree/feat/did-dht-discovery-001) | [6ec2f058cd](https://github.com/the-static-collective/reLATTE/commit/6ec2f058cddf867cbbc099f6b59958e7061db3af) | [open PR #32](https://github.com/the-static-collective/reLATTE/pull/32) |
+| [feat/door-post-001](https://github.com/the-static-collective/reLATTE/tree/feat/door-post-001) | [f3eabed4df](https://github.com/the-static-collective/reLATTE/commit/f3eabed4df84bfda10753fa38e75cc3ae7826d63) | [open PR #52](https://github.com/the-static-collective/reLATTE/pull/52) |
 | [feat/dwn-road-001](https://github.com/the-static-collective/reLATTE/tree/feat/dwn-road-001) | [b5c84abd47](https://github.com/the-static-collective/reLATTE/commit/b5c84abd4794b9aa90ee9a96ca5535a96391cf6d) | [open PR #30](https://github.com/the-static-collective/reLATTE/pull/30) |
 | [feat/enterable-particular](https://github.com/the-static-collective/reLATTE/tree/feat/enterable-particular) | [a2b57126d1](https://github.com/the-static-collective/reLATTE/commit/a2b57126d1aa1daf64c80c1c4d10ae042bc83896) | [open PR #14](https://github.com/the-static-collective/reLATTE/pull/14) |
 | [feat/live-dht-gateway-001](https://github.com/the-static-collective/reLATTE/tree/feat/live-dht-gateway-001) | [eb956dcae5](https://github.com/the-static-collective/reLATTE/commit/eb956dcae5a042947a45f588805eaa248bea0ee1) | [open PR #33](https://github.com/the-static-collective/reLATTE/pull/33) |
@@ -359,6 +412,9 @@ Default: `main` · other refs: 53 · open PRs: 26
 | [feat/room-return-request](https://github.com/the-static-collective/reLATTE/tree/feat/room-return-request) | [7fb7c2a7f8](https://github.com/the-static-collective/reLATTE/commit/7fb7c2a7f8ebe51e29ebe6f5dcaed801e4e23a19) | [open PR #15](https://github.com/the-static-collective/reLATTE/pull/15) |
 | [feat/runtime-boot-black-flag-001](https://github.com/the-static-collective/reLATTE/tree/feat/runtime-boot-black-flag-001) | [83bee6db94](https://github.com/the-static-collective/reLATTE/commit/83bee6db9427f36892448401e2514fd99e4bf21f) | [open PR #42](https://github.com/the-static-collective/reLATTE/pull/42) |
 | [feat/three-world-post-office-001](https://github.com/the-static-collective/reLATTE/tree/feat/three-world-post-office-001) | [ef6a8e6c7f](https://github.com/the-static-collective/reLATTE/commit/ef6a8e6c7fa55f79cad8eeff13f71391709aeebd) | [open PR #47](https://github.com/the-static-collective/reLATTE/pull/47) |
+| [feat/useful-work-field-test-001](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-field-test-001) | [e58d199b39](https://github.com/the-static-collective/reLATTE/commit/e58d199b39b844d79e29699c620babeba6a33bad) | [open PR #53](https://github.com/the-static-collective/reLATTE/pull/53) |
+| [feat/useful-work-field-test-002](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-field-test-002) | [8d761b8fcf](https://github.com/the-static-collective/reLATTE/commit/8d761b8fcf5d4ddac8451ceabe8589bcb521bc9c) | [open PR #54](https://github.com/the-static-collective/reLATTE/pull/54) |
+| [feat/useful-work-field-test-003](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-field-test-003) | [ad4804fa56](https://github.com/the-static-collective/reLATTE/commit/ad4804fa5690f692a704b5f5274e178c887d086a) | [open PR #55](https://github.com/the-static-collective/reLATTE/pull/55) |
 | [feat/useful-work-kernel-001](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-001) | [f8151a36e6](https://github.com/the-static-collective/reLATTE/commit/f8151a36e6aab8f6fb85bc5b68bffeeefbe2827d) | Retained ref; disposition unverified |
 | [feat/useful-work-kernel-002](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-002) | [ecf0773bb9](https://github.com/the-static-collective/reLATTE/commit/ecf0773bb9d0e04cdd4e7f49216a66159cc645b8) | Retained ref; disposition unverified |
 | [feat/useful-work-kernel-003](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-003) | [b1e9f77477](https://github.com/the-static-collective/reLATTE/commit/b1e9f77477b99ba450c6e906a2b7975ae1441b5b) | Retained ref; disposition unverified |
@@ -366,6 +422,9 @@ Default: `main` · other refs: 53 · open PRs: 26
 | [feat/useful-work-kernel-005](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-005) | [8bd5d357f5](https://github.com/the-static-collective/reLATTE/commit/8bd5d357f5b7b675b26b13c6f1713ed79c5c550b) | Retained ref; disposition unverified |
 | [feat/useful-work-kernel-006](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-006) | [7f785bf0e8](https://github.com/the-static-collective/reLATTE/commit/7f785bf0e88bc25edcd9c4f9aecae257db414f69) | Retained ref; disposition unverified |
 | [feat/useful-work-kernel-007](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-007) | [23a7c692d5](https://github.com/the-static-collective/reLATTE/commit/23a7c692d571636fdcf02ac08a11da8051c33916) | Retained ref; disposition unverified |
+| [feat/useful-work-kernel-008](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-008) | [486da8bee8](https://github.com/the-static-collective/reLATTE/commit/486da8bee84aed30658bdd5d1f58f69638c2c1f5) | [open PR #49](https://github.com/the-static-collective/reLATTE/pull/49) |
+| [feat/useful-work-kernel-009](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-009) | [d4bdb6193a](https://github.com/the-static-collective/reLATTE/commit/d4bdb6193a4aa01c5d2072a4e2c778f8679993a8) | [open PR #50](https://github.com/the-static-collective/reLATTE/pull/50) |
+| [feat/useful-work-kernel-010](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-010) | [5273993509](https://github.com/the-static-collective/reLATTE/commit/5273993509e23b312025dd4b7ef71a3640842c1f) | [open PR #51](https://github.com/the-static-collective/reLATTE/pull/51) |
 | [feat/walkable-provenance](https://github.com/the-static-collective/reLATTE/tree/feat/walkable-provenance) | [9f8a6473a4](https://github.com/the-static-collective/reLATTE/commit/9f8a6473a4bbdede3fba476edc9b19a9bde30a6c) | [open PR #11](https://github.com/the-static-collective/reLATTE/pull/11) |
 | [feat/web5-five-door-room](https://github.com/the-static-collective/reLATTE/tree/feat/web5-five-door-room) | [6e4b2c9c3a](https://github.com/the-static-collective/reLATTE/commit/6e4b2c9c3a3acaf82989148cf07aa0b3999563d6) | [open PR #9](https://github.com/the-static-collective/reLATTE/pull/9) |
 | [field-consequence-001](https://github.com/the-static-collective/reLATTE/tree/field-consequence-001) | [5a8724d062](https://github.com/the-static-collective/reLATTE/commit/5a8724d0624fb32b142d0901a3a378df26a5f9a9) | Retained ref; disposition unverified |

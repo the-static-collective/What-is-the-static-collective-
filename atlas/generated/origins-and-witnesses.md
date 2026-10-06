@@ -106,12 +106,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/What-is-the-static-collective-) · [Branches](https://github.com/the-static-collective/What-is-the-static-collective-/branches) · [Pull requests](https://github.com/the-static-collective/What-is-the-static-collective-/pulls)
 
-Default: `main` · other refs: 79 · open PRs: 19
+Default: `main` · other refs: 80 · open PRs: 20
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#99](https://github.com/the-static-collective/What-is-the-static-collective-/pull/99) | CONSEQUENCE SEQUENCE — residue, re-entry, and future possibility | `pattern/consequence-sequence-001` → `main` | 2026-10-05 |
 | [#98](https://github.com/the-static-collective/What-is-the-static-collective-/pull/98) | feat: PUBLIC REVEAL CROSSING 001 — Relay Garden | `feature/relay-garden-001` → `plan/public-reveal-crossing-001` | 2026-10-01 |
 | [#97](https://github.com/the-static-collective/What-is-the-static-collective-/pull/97) | docs: plan PUBLIC REVEAL CROSSING 001 | `plan/public-reveal-crossing-001` → `design/public-reveal-crossing-001` | 2026-10-01 |
 | [#96](https://github.com/the-static-collective/What-is-the-static-collective-/pull/96) | docs: design PUBLIC REVEAL CROSSING 001 | `design/public-reveal-crossing-001` → `main` | 2026-10-01 |
@@ -197,6 +198,7 @@ Default: `main` · other refs: 79 · open PRs: 19
 | [harvest/maddpaste-recomposition-2026-09-25](https://github.com/the-static-collective/What-is-the-static-collective-/tree/harvest/maddpaste-recomposition-2026-09-25) | [a759d496cc](https://github.com/the-static-collective/What-is-the-static-collective-/commit/a759d496cc25d497c4aa6e98a143d4a051805600) | [open PR #87](https://github.com/the-static-collective/What-is-the-static-collective-/pull/87) |
 | [lumi/stigmergic-field-v0.1](https://github.com/the-static-collective/What-is-the-static-collective-/tree/lumi/stigmergic-field-v0.1) | [40917429de](https://github.com/the-static-collective/What-is-the-static-collective-/commit/40917429de1c9fb1fdbf064dd269c1806c5a017a) | Retained ref; disposition unverified |
 | [lumi/stigmergic-field-v0.1-graduation](https://github.com/the-static-collective/What-is-the-static-collective-/tree/lumi/stigmergic-field-v0.1-graduation) | [f87360151a](https://github.com/the-static-collective/What-is-the-static-collective-/commit/f87360151ad4f340b813d40068b2e56c3e960ee0) | Retained ref; disposition unverified |
+| [pattern/consequence-sequence-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/pattern/consequence-sequence-001) | [28ad45b04a](https://github.com/the-static-collective/What-is-the-static-collective-/commit/28ad45b04a8d7fa6771fc1981d5fdbdb68db2911) | [open PR #99](https://github.com/the-static-collective/What-is-the-static-collective-/pull/99) |
 | [pattern/gestalt-recursion](https://github.com/the-static-collective/What-is-the-static-collective-/tree/pattern/gestalt-recursion) | [c7cfcc9870](https://github.com/the-static-collective/What-is-the-static-collective-/commit/c7cfcc987035fb093e059489c5a478e78884ce3e) | Retained ref; disposition unverified |
 | [pirate-law-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/pirate-law-001) | [2f8f384a71](https://github.com/the-static-collective/What-is-the-static-collective-/commit/2f8f384a718a4cc80544bf1bd681143714fc2182) | Retained ref; disposition unverified |
 | [plan/mortal-actor-001-common-stack](https://github.com/the-static-collective/What-is-the-static-collective-/tree/plan/mortal-actor-001-common-stack) | [8871909358](https://github.com/the-static-collective/What-is-the-static-collective-/commit/8871909358d39fa570b35ebc78cbcd8f95042590) | [open PR #71](https://github.com/the-static-collective/What-is-the-static-collective-/pull/71) |
@@ -220,12 +222,13 @@ Default: `main` · other refs: 79 · open PRs: 19
 
 [Repository](https://github.com/the-static-collective/the-daily-slice) · [Branches](https://github.com/the-static-collective/the-daily-slice/branches) · [Pull requests](https://github.com/the-static-collective/the-daily-slice/pulls)
 
-Default: `main` · other refs: 77 · open PRs: 16
+Default: `main` · other refs: 78 · open PRs: 17
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#79](https://github.com/the-static-collective/the-daily-slice/pull/79) | Daily Slice: The Charter Under the Bell — 1701 all the way down | `slice/2026-10-05-charter-under-the-bell` → `main` | 2026-10-05 |
 | [#78](https://github.com/the-static-collective/the-daily-slice/pull/78) | OCTOPUS MADE THIS — Mutation Line 002: The Library That Returns Stories | `octopus/return-room-wrecking-crew-001` → `main` | 2026-09-30 |
 | [#77](https://github.com/the-static-collective/the-daily-slice/pull/77) | Daily Slice: 🦇 BABYBODY — The Thing That Learned What Kind of Line It Needed | `slice/2026-09-25-babybody-pressure-to-tissue` → `main` | 2026-09-25 |
 | [#75](https://github.com/the-static-collective/the-daily-slice/pull/75) | Daily Slice: Previously Unseen or Measured — Turn the Dial Before You Name the Unknown | `slice/2026-09-23-previously-unseen-or-measured` → `main` | 2026-09-23 |
@@ -294,6 +297,7 @@ Default: `main` · other refs: 77 · open PRs: 16
 | [slice/2026-09-25-babybody-pressure-to-tissue](https://github.com/the-static-collective/the-daily-slice/tree/slice/2026-09-25-babybody-pressure-to-tissue) | [73ce9b3ae5](https://github.com/the-static-collective/the-daily-slice/commit/73ce9b3ae564a6010c41cf33801e8f728497be46) | [open PR #77](https://github.com/the-static-collective/the-daily-slice/pull/77) |
 | [slice/2026-09-25-hjj044-two-engine-train](https://github.com/the-static-collective/the-daily-slice/tree/slice/2026-09-25-hjj044-two-engine-train) | [2453e729e6](https://github.com/the-static-collective/the-daily-slice/commit/2453e729e6c65d754713a448a54259ed0f70d8ce) | Retained ref; disposition unverified |
 | [slice/2026-10-03-newsie-first-continuity](https://github.com/the-static-collective/the-daily-slice/tree/slice/2026-10-03-newsie-first-continuity) | [fdec0f043a](https://github.com/the-static-collective/the-daily-slice/commit/fdec0f043a98dbe7a7443a20a6d1f0ddd1ac2894) | Retained ref; disposition unverified |
+| [slice/2026-10-05-charter-under-the-bell](https://github.com/the-static-collective/the-daily-slice/tree/slice/2026-10-05-charter-under-the-bell) | [a4f161291a](https://github.com/the-static-collective/the-daily-slice/commit/a4f161291af2bc07005e4e3cf547c0a1823aaaea) | [open PR #79](https://github.com/the-static-collective/the-daily-slice/pull/79) |
 | [slice/adapter-garden-native-organs-v02](https://github.com/the-static-collective/the-daily-slice/tree/slice/adapter-garden-native-organs-v02) | [2a8455875f](https://github.com/the-static-collective/the-daily-slice/commit/2a8455875ffbc3165191f465e2477618ad83c738) | Retained ref; disposition unverified |
 | [slice/artifact-receipt-moving-home](https://github.com/the-static-collective/the-daily-slice/tree/slice/artifact-receipt-moving-home) | [dfd2c398bf](https://github.com/the-static-collective/the-daily-slice/commit/dfd2c398bf5e78c0dd63ab356e22aa9cd24c3b2d) | Retained ref; disposition unverified |
 | [slice/body-surface-not-occurrence](https://github.com/the-static-collective/the-daily-slice/tree/slice/body-surface-not-occurrence) | [933cf979d7](https://github.com/the-static-collective/the-daily-slice/commit/933cf979d7dd28f130bc252bf9b74707ae1dee26) | [open PR #72](https://github.com/the-static-collective/the-daily-slice/pull/72) |
@@ -341,12 +345,14 @@ Default: `main` · other refs: 1 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/GOATnote) · [Branches](https://github.com/the-static-collective/GOATnote/branches) · [Pull requests](https://github.com/the-static-collective/GOATnote/pulls)
 
-Default: `main` · other refs: 6 · open PRs: 5
+Default: `main` · other refs: 8 · open PRs: 7
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#12](https://github.com/the-static-collective/GOATnote/pull/12) | TIME-CUT 001 — same Room, different staircases | `experiment/timecut-001` → `experiment/goatedges-001` | 2026-10-05 |
+| [#11](https://github.com/the-static-collective/GOATnote/pull/11) | STAIRCASE 001 / GOATedges — relations have birthdays | `experiment/goatedges-001` → `experiment/goatrooms-001` | 2026-10-05 |
 | [#10](https://github.com/the-static-collective/GOATnote/pull/10) | GOATrooms 001 — places, doors, and nested Walks | `experiment/goatrooms-001` → `experiment/goatwalk-001` | 2026-10-04 |
 | [#9](https://github.com/the-static-collective/GOATnote/pull/9) | GOATwalk 001 — many routes through stable notes | `experiment/goatwalk-001` → `main` | 2026-10-04 |
 | [#7](https://github.com/the-static-collective/GOATnote/pull/7) | PATH-ALL-HOME-GOATNOTE-001: explicit note/passage attention handoff | `feat/attention-crossing-goatnote-return-002` → `feat/attention-crossing-goatnote-001` | 2026-09-20 |
@@ -358,8 +364,10 @@ Default: `main` · other refs: 6 · open PRs: 5
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
 | [experiment/composable-occurrence-return-001](https://github.com/the-static-collective/GOATnote/tree/experiment/composable-occurrence-return-001) | [06b65bf01a](https://github.com/the-static-collective/GOATnote/commit/06b65bf01ab45d90dbe731fc9065233da3a83c23) | [open PR #4](https://github.com/the-static-collective/GOATnote/pull/4) |
+| [experiment/goatedges-001](https://github.com/the-static-collective/GOATnote/tree/experiment/goatedges-001) | [ba5e146957](https://github.com/the-static-collective/GOATnote/commit/ba5e1469575f19aae8c8e9c6bc9d9e757441a392) | [open PR #11](https://github.com/the-static-collective/GOATnote/pull/11) |
 | [experiment/goatrooms-001](https://github.com/the-static-collective/GOATnote/tree/experiment/goatrooms-001) | [306ef0d219](https://github.com/the-static-collective/GOATnote/commit/306ef0d2195daf60cdfab428b4c48c836be3804d) | [open PR #10](https://github.com/the-static-collective/GOATnote/pull/10) |
 | [experiment/goatwalk-001](https://github.com/the-static-collective/GOATnote/tree/experiment/goatwalk-001) | [56344c9460](https://github.com/the-static-collective/GOATnote/commit/56344c946050dbb51e8296e313a3b04daee6b9bf) | [open PR #9](https://github.com/the-static-collective/GOATnote/pull/9) |
+| [experiment/timecut-001](https://github.com/the-static-collective/GOATnote/tree/experiment/timecut-001) | [a014063db7](https://github.com/the-static-collective/GOATnote/commit/a014063db74486d8549c90e4551e7e234e963c99) | [open PR #12](https://github.com/the-static-collective/GOATnote/pull/12) |
 | [feat/attention-crossing-goatnote-001](https://github.com/the-static-collective/GOATnote/tree/feat/attention-crossing-goatnote-001) | [4c76360215](https://github.com/the-static-collective/GOATnote/commit/4c763602157cacad206ed578617824359bf6ef99) | [open PR #6](https://github.com/the-static-collective/GOATnote/pull/6) |
 | [feat/attention-crossing-goatnote-return-002](https://github.com/the-static-collective/GOATnote/tree/feat/attention-crossing-goatnote-return-002) | [734047026e](https://github.com/the-static-collective/GOATnote/commit/734047026ef2543a94e568d7c597f8549625e5f9) | [open PR #7](https://github.com/the-static-collective/GOATnote/pull/7) |
 | [feature/return-thread-001-20260920](https://github.com/the-static-collective/GOATnote/tree/feature/return-thread-001-20260920) | [85c0f09a3f](https://github.com/the-static-collective/GOATnote/commit/85c0f09a3f2e6fe8a7db34ec8e2ce5ee27adadab) | Retained ref; disposition unverified |
