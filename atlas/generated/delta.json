@@ -1,994 +1,556 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-05T15:59:23+00:00",
-  "to_captured_at": "2026-10-06T14:10:59+00:00",
+  "from_captured_at": "2026-10-06T14:10:59+00:00",
+  "to_captured_at": "2026-10-07T14:29:14+00:00",
   "added_repositories": [
-    "planZ"
+    "webZ"
   ],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "Dogram",
-      "branch": "impl/sparse-ice-probe-001",
-      "sha": "767dd6876225d863ce20ae07cee6017e5a80f7cb"
+      "repository": "Human-Witness",
+      "branch": "design/maxhinal-13-constellation-001",
+      "sha": "0665e29739e5cd5c597eb7f9d5b83aa7e713a962"
     },
     {
-      "repository": "DVOTE",
-      "branch": "feat/door-packet-001",
-      "sha": "dae5441582a4d475b5426991c3882853bc17dadd"
+      "repository": "Human-Witness",
+      "branch": "implementation/maxhinal-13-001",
+      "sha": "e7ce02526f900b6f1aca42e0d7e0124f0e6ca53c"
     },
     {
-      "repository": "full-measure-world-layer",
-      "branch": "experiment/tenet-arpg-frontier-002",
-      "sha": "199df2070681e68126bd83f3f74fbd21d92ade27"
+      "repository": "Human-Witness",
+      "branch": "implementation/maxhinal-13-issue-4",
+      "sha": "4f0143fcaf44dfe249ea7f2c769e7b39fed4dbfd"
     },
     {
-      "repository": "GHoT",
-      "branch": "feat/compost-breeder-001",
-      "sha": "d898cc6a25d0c3569d5126ecab2754c9f82cfd02"
+      "repository": "lemonPRESS",
+      "branch": "experiment/manga-parcel-001",
+      "sha": "8ef9b4f3adcb85504937f962a1c6f2dd2e5f6296"
     },
     {
-      "repository": "GHoT",
-      "branch": "feat/compost-breeder-002-live-blender",
-      "sha": "f1b19e26b8051e6708b16bddefd537ff7472f79c"
-    },
-    {
-      "repository": "GHoT",
-      "branch": "feat/instrument-rack-001",
-      "sha": "3d64e5d486d9324ec6086da69889a81ab2e48cd8"
-    },
-    {
-      "repository": "GHoT",
-      "branch": "gro-mineral-bridge-001",
-      "sha": "8868024cf8fee8599007cb82b76491776771255c"
-    },
-    {
-      "repository": "GHoT",
-      "branch": "mineral-field-001",
-      "sha": "59cdf9040ac4d2636cd24e6cda9f36f6e500addc"
-    },
-    {
-      "repository": "GHoT",
-      "branch": "sparse-ice-field-001",
-      "sha": "69be18bfc94223ac0ee7caf29c330c1732da5e6a"
-    },
-    {
-      "repository": "GOATnote",
-      "branch": "experiment/goatedges-001",
-      "sha": "ba5e1469575f19aae8c8e9c6bc9d9e757441a392"
-    },
-    {
-      "repository": "GOATnote",
-      "branch": "experiment/timecut-001",
-      "sha": "a014063db74486d8549c90e4551e7e234e963c99"
-    },
-    {
-      "repository": "GrO",
-      "branch": "feat/door-packet-001",
-      "sha": "2e62fb3be2ee46f474d612f1918b6a3c955948aa"
-    },
-    {
-      "repository": "GrO",
-      "branch": "fork-garden-001",
-      "sha": "3f977c8f7afc18d88655398943530e75485b6656"
-    },
-    {
-      "repository": "GrO",
-      "branch": "mineral/world-seed-001",
-      "sha": "543eb4c4d98016df426c319732f87f9eec76cddc"
-    },
-    {
-      "repository": "iron-lung",
-      "branch": "experiment/heart-lung-combinatrix-heart-001",
-      "sha": "8e0c7a3f6f94a2a40562d59522ee1390d3b0dfb1"
-    },
-    {
-      "repository": "national-treasure",
-      "branch": "clue/jubilee-quarter-001",
-      "sha": "d4331e962e53991410151ed68ddca8d5f24aabc5"
+      "repository": "lemonPRESS",
+      "branch": "manga-press-001",
+      "sha": "88978ff88f9b07a72040976b426b04afc2abd835"
     },
     {
       "repository": "planZ",
-      "branch": "experiment/heart-001-fatherhand-combinatrix",
-      "sha": "267dafc3a841e0699d750af9c366fac704522ad5"
+      "branch": "experiment/fatherhand-grant-chain-residue-001",
+      "sha": "e8111fdb64c5587b33aece0fed639ed3d03375ac"
     },
     {
-      "repository": "planZ",
-      "branch": "feat/census-senses-mutation-002",
-      "sha": "557577c6ae4cd30a45b07cf23709283c8b4bf548"
+      "repository": "reLATTE",
+      "branch": "docs/webz-005-fatherhand-foundernode",
+      "sha": "b2b0bd1937ec93230b43dc36c3c0ca846f4820b3"
     },
     {
-      "repository": "planZ",
-      "branch": "feat/global-plan-census-001",
-      "sha": "c93ccbfa6a501cdfd5e4ff8a3957300ecc0ae9c5"
+      "repository": "reLATTE",
+      "branch": "experiment/first-contact-001",
+      "sha": "ae3fd0f56860683245dfd27ff32edf64311046bf"
     },
     {
-      "repository": "planZ",
-      "branch": "feat/remains-instruments-003",
-      "sha": "535d34b5d7680ab98fb50e717b4cd00b972a232b"
+      "repository": "reLATTE",
+      "branch": "experiment/manga-parcel-001",
+      "sha": "d208d98bd88194cbd42c90379816b1167248595f"
     },
     {
-      "repository": "planZ",
-      "branch": "feat/transition-receipts-003-1",
-      "sha": "8621c46f8e4e70d7e2c09fe57a2936dcb949f6f6"
+      "repository": "reLATTE",
+      "branch": "experiment/paperchain-seed-vault-001",
+      "sha": "51372e57b6c1f5647621ea805f6f983b5ac28597"
     },
     {
-      "repository": "planZ",
+      "repository": "reLATTE",
+      "branch": "experiment/supabardo-independent-verifier-001",
+      "sha": "65294f135260ee48b38829f698598dfe3478b0e7"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/supabardo-sb001-001",
+      "sha": "2b243e69230f9bccbf947fc827c664203e240550"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/supabardo-sb002-001",
+      "sha": "5044bea9d30c9ee1c6c318c4a2c9113d2d2eb780"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/supabardo-sb003-ark-outlived-world-001",
+      "sha": "e5b351ef0391fea53d7d3ff22ceadd47d5114b26"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "feat/two-host-webz-004-artifact-relay",
+      "sha": "aad3662edf04953e7c63cd66dccf40fd602e86fc"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "feat/webz-003-receiver-material-custody",
+      "sha": "743e5705c1e397c40aff82960e361d0b36eb11a5"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/bardo-boot-witness-001",
+      "sha": "17e209cebb8d45b05dd9c564e99b5f5519b2d4a0"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/first-physical-boot-001",
+      "sha": "a4530eaf0bf52161e8117906d06806a449c47593"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/five-door-boot-witness-001",
+      "sha": "0a446e90d46c261aba0a5755fd49994a6c60525b"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/life-authoring-open-page-001",
+      "sha": "76ba2d4cdd1d238df1b7fa1fd50ab4a87ea68d79"
+    },
+    {
+      "repository": "static-os",
+      "branch": "integration/bardo-bridge-001",
+      "sha": "7f39c43efb90ce1c4a4014ecd66acde2c2a2a89a"
+    },
+    {
+      "repository": "static-os",
+      "branch": "integration/bardo-generality-002",
+      "sha": "5f178af63b3da661e45fbc797e60201f0e605966"
+    },
+    {
+      "repository": "static-os",
+      "branch": "integration/git-bridge-001",
+      "sha": "2f9756a464ee2022c7b0abdcc6636b4cb9123f53"
+    },
+    {
+      "repository": "static-os",
+      "branch": "integration/persistent-root-001",
+      "sha": "2d019d5e1a22f7914cd412fc2da7fe3d7438ea1b"
+    },
+    {
+      "repository": "static-os",
+      "branch": "integration/whole-body-001",
+      "sha": "34f55292792fa40cb8ec838119cd3b5383560fcd"
+    },
+    {
+      "repository": "static-workbench",
+      "branch": "docs/webz-native-001-workbench",
+      "sha": "f2b514d1acbf0f55d8934b215bf4ee5ce7fc2fc8"
+    },
+    {
+      "repository": "static-workbench",
+      "branch": "feat/webz-003-independent-byte-custody",
+      "sha": "cb3b0243ef54640208fc99fa9f2848827906108e"
+    },
+    {
+      "repository": "static-workbench",
+      "branch": "feat/webz-relatte-002-first-sovereign-parcel",
+      "sha": "6e5eda2fb5be8a0948b2f9abf002e936a2bebb92"
+    },
+    {
+      "repository": "STORYSHIP",
+      "branch": "proposal/life-ship-narrative-navigation-001",
+      "sha": "7f13a438d8fe4dd93c911991c603cef1b6f1cdb4"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "branch": "integration/franken-blender-008n-particular-to-performance",
+      "sha": "e46a381f9b4490ed38f4ce3bfdec5bcdd39dde22"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "branch": "integration/franken-blender-008o-page-five-manga-film",
+      "sha": "0961569c920a8c53330227305a2f9143071c382c"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "branch": "integration/franken-blender-008p-owned-pixel-manga-film",
+      "sha": "4e3f098d328a9659d9074852ef7861b7d3078fee"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "branch": "integration/mangalize-001-first-class-verb",
+      "sha": "268d31f4a5283ce96209e3f7957edcfa2df30a7b"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "branch": "integration/mangalize-002-quarantine-release",
+      "sha": "8b4f7da114e55150dfb564fea171c827bcf8759a"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "branch": "integration/mangalize-003-performed-use",
+      "sha": "736dc0eba07b591a7aa25abf3fb92e5ddbaa7a23"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "branch": "integration/mangalize-004-pixel-execution",
+      "sha": "49e9400d3753a6a308317eef8bd5b1fb93cc5322"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "branch": "integration/mangalize-005-presentation-ground",
+      "sha": "cf0256a49ac8aa879cf2a044847d248177fcfad9"
+    },
+    {
+      "repository": "the-haunted-toaster",
+      "branch": "experiment/nextgen-toaster-024-mutation-distance",
+      "sha": "bf9e31444f4bb032f068bfc682d9fd94296753f5"
+    },
+    {
+      "repository": "the-haunted-toaster",
+      "branch": "experiment/supabardo-sb002-proposal-001",
+      "sha": "2c86d684138f3008344b18202b81193db0c947c7"
+    },
+    {
+      "repository": "tranchnode",
+      "branch": "experiment/fatherhand-grant-chain-001",
+      "sha": "534e3dc5be763b7b11eb84bfab22f3efb25c254b"
+    },
+    {
+      "repository": "tranchNOSE",
+      "branch": "experiment/field-lab-001",
+      "sha": "670ca60012929b51e66b8bac7d0c9b85a4f95d7b"
+    },
+    {
+      "repository": "webZ",
+      "branch": "design/webz-maxhinal-porch-001",
+      "sha": "b487aab92a8a2a572001cd91424a81b3a14abce9"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/first-encounter-002",
+      "sha": "8153c60393e4e206160b284082f7eb3161d3f379"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/offline-sovereign-porch",
+      "sha": "659166135f1c3898d07829f6eb5a1d074ec082f5"
+    },
+    {
+      "repository": "webZ",
       "branch": "main",
-      "sha": "dad6593c3718c65fa4bb7a3650af8fc80d060ce6"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feat/door-post-001",
-      "sha": "f3eabed4df84bfda10753fa38e75cc3ae7826d63"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feat/useful-work-field-test-001",
-      "sha": "e58d199b39b844d79e29699c620babeba6a33bad"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feat/useful-work-field-test-002",
-      "sha": "8d761b8fcf5d4ddac8451ceabe8589bcb521bc9c"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feat/useful-work-field-test-003",
-      "sha": "ad4804fa5690f692a704b5f5274e178c887d086a"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feat/useful-work-kernel-008",
-      "sha": "486da8bee84aed30658bdd5d1f58f69638c2c1f5"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feat/useful-work-kernel-009",
-      "sha": "d4bdb6193a4aa01c5d2072a4e2c778f8679993a8"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feat/useful-work-kernel-010",
-      "sha": "5273993509e23b312025dd4b7ef71a3640842c1f"
-    },
-    {
-      "repository": "revival",
-      "branch": "feat/door-packet-001",
-      "sha": "47a6ee01c721ad4eca7f8260e9cb8875bbe37e28"
-    },
-    {
-      "repository": "static-os",
-      "branch": "experiment/condition-field-world-fork-001",
-      "sha": "5344b5750b36588c2c49c73a9009d2550c0c5b84"
-    },
-    {
-      "repository": "static-os",
-      "branch": "experiment/static-2012-reference-machine-001",
-      "sha": "d431eee9dae1a448434ce2df52b3db9fb240e169"
-    },
-    {
-      "repository": "the-daily-slice",
-      "branch": "slice/2026-10-05-charter-under-the-bell",
-      "sha": "a4f161291af2bc07005e4e3cf547c0a1823aaaea"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-003-dreambreeder",
-      "sha": "5227ffe7b59240bb3daa5527eb4881969091f073"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-004-cutout-compiler",
-      "sha": "2b17439c12d87493455596d0dfa2b11bbbb1bfa0"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-005-ghot-compost-adapter",
-      "sha": "b7af4553172a786edebf63c43468e176c2ffa184"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-005-keep-scene-awaken",
-      "sha": "78be68dbe788c0744684433205b276c56a580c00"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-006-motion-organ-router",
-      "sha": "425c53971ab44cf7d53e914a22af6f1d5caae5d4"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-007-atlas-executor",
-      "sha": "a343a54b2fe098616214adc02b88f43d105d7597"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-007b-atlas-black-box",
-      "sha": "25ff44ea2c2f7d8444d1b09380ed5078893fc484"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-008-cockpit",
-      "sha": "207cb1b042cb1f8dd111893c7b9ffac652c6acce"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-008a-visual-cockpit",
-      "sha": "1233fffb5011a35a16d7997e3f13213d3d4f9e25"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-008b-auto-crossings",
-      "sha": "bee873c9878e03fff3ffd5d0164605798a77a36b"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-008c-provider-driver",
-      "sha": "712f77aebc149dcfcca77422bc1f66969faa6e7e"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-008d-plugin-orchard",
-      "sha": "8451e09e977600a66ff68362153ea26e2bd2633a"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-008e-zero-dollar-film-mill",
-      "sha": "2861515164987354208170a6ea4f707883923387"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-008f-weakest-window-doctor",
-      "sha": "363e1ddcb22570b82e3df5b07008c0a2a79f1c1c"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-008g-cutout-puppet-factory",
-      "sha": "7817009fcf0f618b18fa5ca89a0e9b9f9fa4435f"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-008h-parts-harvester",
-      "sha": "9bdd378b98001770af1191c01ae93e7938265bf3"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-008i-moving-insert-stage",
-      "sha": "55a4dbdc6affe6f869f9f2ed467aae0a8940899a"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-008j-paper-director",
-      "sha": "070d8034e11052f7e84588e19e36f452c862a772"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-008k-ensemble-stage",
-      "sha": "c99d948b496b22b3b3ea82bc15b90d50597f58b6"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-008l-material-surface-grammar",
-      "sha": "a39d6c3be8197b38b06c2f45fb323e4ef8b4f279"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "branch": "integration/franken-blender-008m-manga-anime-grammar-atlas",
-      "sha": "223f0e943430bace62238e45a63c511984986444"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "design/nextgen-toaster-012-listening-field",
-      "sha": "d926e70188b2db6a707963112056da01e485f922"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/listener-onepass-001a",
-      "sha": "b0291b1eb8d42b0d76e28a231f2c972400eb60cb"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/listener-onepass-001b-play-surface",
-      "sha": "4e7a546ef932dc3a0afe9be4fdbec7a329f30f76"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-011-performance-program",
-      "sha": "eb419c3a27e8c0b3b77ba6a3eb7bfa9e2e26bfa9"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-012-real-pixel-resume",
-      "sha": "a42c82c58d2f481b79750868b29b0a6e5abda0f2"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-012b-wordpark-001",
-      "sha": "be3c7930d3368fa959f3e7ab67bf08821ca07bfe"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-013-bound-media-sparse-transport",
-      "sha": "22fa5381fce6cb07d1e2b038ff7f0de4b88bbe33"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-013-history-compost",
-      "sha": "923b536d068c8daf85e9d960469405e17c4d56f7"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-013w-weirdness-compiler",
-      "sha": "0c5a85b5ab2f084b4f17a99a9e21e0bc26c3f9ac"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-014-law-fossils",
-      "sha": "a88b7eb56f838e621bb849f9e1411f7139e9c4d4"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-015-transition-energy",
-      "sha": "e6e998f1aea258b9206894d01c41df55f288bfd9"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-016-creative-weather",
-      "sha": "bdbab39ef414c446630cac1bb4619cb3dc83685b"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-017-recurrence-weather",
-      "sha": "becea046829b5f4e784570b3237694a4b05284bd"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-018-possibility-map",
-      "sha": "2be8d565316a7c59a37225d8a48bf2d3c12b5a88"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-019-playable-terrain",
-      "sha": "64f088eb640d70471bfb8cd606d3e7bde77c8736"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-020-execution-custody",
-      "sha": "091391794d4a603820afff62484fb04f3743a68e"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-021-artifact-adoption",
-      "sha": "88abe1157c43c34eda029814eab61d40005199b3"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-022-adopted-artifact-promotion",
-      "sha": "366b716714f097018b6afe39b8db055b387dd4c6"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-023-generational-ecology",
-      "sha": "8e82bd046158109696fc0ee62f59876b8ee57e0a"
-    },
-    {
-      "repository": "Upper-room",
-      "branch": "feat/door-packet-001",
-      "sha": "922b253c003d9ab5be1027b7f853ae916b912124"
-    },
-    {
-      "repository": "What-is-the-static-collective-",
-      "branch": "pattern/consequence-sequence-001",
-      "sha": "28ad45b04a8d7fa6771fc1981d5fdbdb68db2911"
+      "sha": "b6b9897bfd6e548a3ce3dbea21e633803dcbd13b"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/nextgen-toaster-011-full-song-form",
-      "from_sha": "1c8e736031ce5943ed5d6d0775c2de59d3721878",
-      "to_sha": "c22f4848334bbcd096537b290f0e6de1e0f9d9cd"
+      "repository": "planZ",
+      "branch": "experiment/heart-001-fatherhand-combinatrix",
+      "from_sha": "267dafc3a841e0699d750af9c366fac704522ad5",
+      "to_sha": "bc0ae32e0abb22cda53cc197acd6d14429fee6fa"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "main",
+      "from_sha": "87006f3265103a8abe387d81597c58aeb39b0beb",
+      "to_sha": "dcc8cdca84c440aa4294134f020fb7095bf87f24"
+    },
+    {
+      "repository": "static-workbench",
+      "branch": "main",
+      "from_sha": "43cfb81311ee0c802959d663edfe4547684955d2",
+      "to_sha": "53db559bbc510ad1003a0f8330d1673dcd04d7a0"
+    },
+    {
+      "repository": "STORYSHIP",
+      "branch": "main",
+      "from_sha": "65ddacde838f66909955007103efc365f35caf08",
+      "to_sha": "daa2f4c551ed612727660407105465645f95a9d7"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "branch": "integration/franken-blender-008m-manga-anime-grammar-atlas",
+      "from_sha": "223f0e943430bace62238e45a63c511984986444",
+      "to_sha": "367e8c0f6cc7c68c453ff1e5081180976af51858"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "a9b2e13875ba653761b1f8e9422f202945f235cd",
-      "to_sha": "5e0801e4168fcea63a662b15f83629c9639f10ac"
+      "from_sha": "5e0801e4168fcea63a662b15f83629c9639f10ac",
+      "to_sha": "e17d0a3ae2c6e04c4a627011f666abb75ff8da4c"
     }
   ],
   "opened_prs": [
     {
-      "repository": "Dogram",
-      "number": 181,
-      "title": "Sparse Ice Probe 001: adaptive exact-region receipts",
-      "url": "https://github.com/the-static-collective/Dogram/pull/181",
-      "head_branch": "impl/sparse-ice-probe-001",
-      "base_branch": "impl/ice-cube-001"
-    },
-    {
-      "repository": "DVOTE",
-      "number": 8,
-      "title": "DOOR PACKET 001 — import is not crossing",
-      "url": "https://github.com/the-static-collective/DVOTE/pull/8",
-      "head_branch": "feat/door-packet-001",
+      "repository": "Human-Witness",
+      "number": 3,
+      "title": "MAXHINAL-13: design the misfit sovereign Supabase constellation",
+      "url": "https://github.com/the-static-collective/Human-Witness/pull/3",
+      "head_branch": "design/maxhinal-13-constellation-001",
       "base_branch": "main"
     },
     {
-      "repository": "full-measure-world-layer",
-      "number": 52,
-      "title": "TENET-ARPG-002: make consequential history a walkable frontier",
-      "url": "https://github.com/the-static-collective/full-measure-world-layer/pull/52",
-      "head_branch": "experiment/tenet-arpg-frontier-002",
-      "base_branch": "experiment/tenet-arpg-001"
+      "repository": "Human-Witness",
+      "number": 5,
+      "title": "MAXHINAL-13: secure operator, durable transport replay and SINEW/PNEUMA",
+      "url": "https://github.com/the-static-collective/Human-Witness/pull/5",
+      "head_branch": "implementation/maxhinal-13-issue-4",
+      "base_branch": "implementation/maxhinal-13-001"
     },
     {
-      "repository": "GHoT",
-      "number": 65,
-      "title": "SPARSE ICE FIELD 001: exact-region distributed Ice Cube work",
-      "url": "https://github.com/the-static-collective/GHoT/pull/65",
-      "head_branch": "sparse-ice-field-001",
-      "base_branch": "field-commons-001"
+      "repository": "lemonPRESS",
+      "number": 23,
+      "title": "MANGA PRESS 001 — page, issue, print, and performance handoff",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/23",
+      "head_branch": "manga-press-001",
+      "base_branch": "press/physical"
     },
     {
-      "repository": "GHoT",
-      "number": 66,
-      "title": "MINERAL FIELD 001: generalize useful-work mining beyond Ice Cubes",
-      "url": "https://github.com/the-static-collective/GHoT/pull/66",
-      "head_branch": "mineral-field-001",
-      "base_branch": "sparse-ice-field-001"
-    },
-    {
-      "repository": "GHoT",
-      "number": 67,
-      "title": "GrO Mineral bridge: exact native verification and bounded export",
-      "url": "https://github.com/the-static-collective/GHoT/pull/67",
-      "head_branch": "gro-mineral-bridge-001",
-      "base_branch": "mineral-field-001"
-    },
-    {
-      "repository": "GHoT",
-      "number": 69,
-      "title": "INSTRUMENT-RACK-001: capability cards and portable seed packets",
-      "url": "https://github.com/the-static-collective/GHoT/pull/69",
-      "head_branch": "feat/instrument-rack-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "GHoT",
-      "number": 70,
-      "title": "COMPOST-BREEDER-001: history → six futures → KEEP → seed → generation 2",
-      "url": "https://github.com/the-static-collective/GHoT/pull/70",
-      "head_branch": "feat/compost-breeder-001",
-      "base_branch": "feat/instrument-rack-001"
-    },
-    {
-      "repository": "GOATnote",
-      "number": 11,
-      "title": "STAIRCASE 001 / GOATedges — relations have birthdays",
-      "url": "https://github.com/the-static-collective/GOATnote/pull/11",
-      "head_branch": "experiment/goatedges-001",
-      "base_branch": "experiment/goatrooms-001"
-    },
-    {
-      "repository": "GOATnote",
-      "number": 12,
-      "title": "TIME-CUT 001 — same Room, different staircases",
-      "url": "https://github.com/the-static-collective/GOATnote/pull/12",
-      "head_branch": "experiment/timecut-001",
-      "base_branch": "experiment/goatedges-001"
-    },
-    {
-      "repository": "GrO",
-      "number": 15,
-      "title": "MINERAL WORLD-SEED 001: close play → compute → artifact → play",
-      "url": "https://github.com/the-static-collective/GrO/pull/15",
-      "head_branch": "mineral/world-seed-001",
-      "base_branch": "tenet/recombinant-graph-frontier-012"
-    },
-    {
-      "repository": "GrO",
-      "number": 16,
-      "title": "FORK GARDEN 001: three Mineral branches, selective recombination",
-      "url": "https://github.com/the-static-collective/GrO/pull/16",
-      "head_branch": "fork-garden-001",
-      "base_branch": "mineral/world-seed-001"
-    },
-    {
-      "repository": "GrO",
-      "number": 17,
-      "title": "DOOR PACKET 001 — sovereign local admission of portable Scripture doors",
-      "url": "https://github.com/the-static-collective/GrO/pull/17",
-      "head_branch": "feat/door-packet-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "iron-lung",
-      "number": 7,
-      "title": "HEART-001: deterministic combinatrix consequence specimen",
-      "url": "https://github.com/the-static-collective/iron-lung/pull/7",
-      "head_branch": "experiment/heart-lung-combinatrix-heart-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "national-treasure",
-      "number": 84,
-      "title": "Clue: Jubilee Quarter 001 — the Bell was Jubilee before it was Liberty",
-      "url": "https://github.com/the-static-collective/national-treasure/pull/84",
-      "head_branch": "clue/jubilee-quarter-001",
+      "repository": "lemonPRESS",
+      "number": 24,
+      "title": "Manga Parcel 001 — National Treasure Seed Zero",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/24",
+      "head_branch": "experiment/manga-parcel-001",
       "base_branch": "main"
     },
     {
       "repository": "planZ",
-      "number": 2,
-      "title": "PLANZ-001: define the Global Plan Census",
-      "url": "https://github.com/the-static-collective/planZ/pull/2",
-      "head_branch": "feat/global-plan-census-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "planZ",
-      "number": 4,
-      "title": "PLANZ-002: CENSUS → SENSES mutation engine",
-      "url": "https://github.com/the-static-collective/planZ/pull/4",
-      "head_branch": "feat/census-senses-mutation-002",
-      "base_branch": "feat/global-plan-census-001"
-    },
-    {
-      "repository": "planZ",
-      "number": 6,
-      "title": "PLANZ-003: REMAINS → INSTRUMENTS",
-      "url": "https://github.com/the-static-collective/planZ/pull/6",
-      "head_branch": "feat/remains-instruments-003",
-      "base_branch": "feat/census-senses-mutation-002"
-    },
-    {
-      "repository": "planZ",
-      "number": 8,
-      "title": "ARROW-001: make transitions first-class",
-      "url": "https://github.com/the-static-collective/planZ/pull/8",
-      "head_branch": "feat/transition-receipts-003-1",
-      "base_branch": "feat/remains-instruments-003"
-    },
-    {
-      "repository": "planZ",
-      "number": 9,
-      "title": "HEART-001: refuse Fatherhand, admit Heart-Lung",
-      "url": "https://github.com/the-static-collective/planZ/pull/9",
-      "head_branch": "experiment/heart-001-fatherhand-combinatrix",
-      "base_branch": "feat/transition-receipts-003-1"
+      "number": 10,
+      "title": "FATHERHAND-RESIDUE-001: activate grant-chain validator residue",
+      "url": "https://github.com/the-static-collective/planZ/pull/10",
+      "head_branch": "experiment/fatherhand-grant-chain-residue-001",
+      "base_branch": "experiment/heart-001-fatherhand-combinatrix"
     },
     {
       "repository": "reLATTE",
-      "number": 49,
-      "title": "Useful Work Kernel 008 — scoped availability / serving evidence",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/49",
-      "head_branch": "feat/useful-work-kernel-008",
-      "base_branch": "feat/useful-work-kernel-007"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 50,
-      "title": "Useful Work Kernel 009 — measured resource adapters without causation or value",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/50",
-      "head_branch": "feat/useful-work-kernel-009",
-      "base_branch": "feat/useful-work-kernel-008"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 51,
-      "title": "Kernel 010: Offer / Acceptance / Settlement Receipt",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/51",
-      "head_branch": "feat/useful-work-kernel-010",
-      "base_branch": "feat/useful-work-kernel-009"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 52,
-      "title": "DOOR POST 001 — one Scripture door, three sovereign worlds, no merger",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/52",
-      "head_branch": "feat/door-post-001",
-      "base_branch": "feat/three-world-post-office-001"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 53,
-      "title": "Useful Work Field Test 001: Two Worlds Trade",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/53",
-      "head_branch": "feat/useful-work-field-test-001",
-      "base_branch": "feat/useful-work-kernel-010"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 54,
-      "title": "Useful Work Field Test 002: Crossing the Wire",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/54",
-      "head_branch": "feat/useful-work-field-test-002",
-      "base_branch": "feat/useful-work-field-test-001"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 55,
-      "title": "Field Test 003: Discover doors and cross by explicit local choice",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/55",
-      "head_branch": "feat/useful-work-field-test-003",
-      "base_branch": "feat/useful-work-field-test-002"
-    },
-    {
-      "repository": "revival",
-      "number": 13,
-      "title": "DOOR PACKET 001 — hold external Scripture doors without source promotion",
-      "url": "https://github.com/the-static-collective/revival/pull/13",
-      "head_branch": "feat/door-packet-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "static-os",
-      "number": 34,
-      "title": "Condition field / world fork 001 — fork experiments, hold all, recombine without causality",
-      "url": "https://github.com/the-static-collective/static-os/pull/34",
-      "head_branch": "experiment/condition-field-world-fork-001",
-      "base_branch": "experiment/residual-witness-discriminator-001"
-    },
-    {
-      "repository": "static-os",
-      "number": 35,
-      "title": "STATIC-2012-001: make old hardware a sovereign field station",
-      "url": "https://github.com/the-static-collective/static-os/pull/35",
-      "head_branch": "experiment/static-2012-reference-machine-001",
-      "base_branch": "release/first-house-download-candidate-20260921"
-    },
-    {
-      "repository": "the-daily-slice",
-      "number": 79,
-      "title": "Daily Slice: The Charter Under the Bell — 1701 all the way down",
-      "url": "https://github.com/the-static-collective/the-daily-slice/pull/79",
-      "head_branch": "slice/2026-10-05-charter-under-the-bell",
-      "base_branch": "main"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 40,
-      "title": "FRANKEN BLENDER 003: DREAMBREEDER possibility ecology + ghosts + recombination",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/40",
-      "head_branch": "integration/franken-blender-003-dreambreeder",
-      "base_branch": "integration/franken-blender-002-cutout-machine"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 41,
-      "title": "FRANKEN BLENDER 004: compile six unborn films into deterministic cutout previews",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/41",
-      "head_branch": "integration/franken-blender-004-cutout-compiler",
-      "base_branch": "integration/franken-blender-003-dreambreeder"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 42,
-      "title": "FRANKEN BLENDER 005: live GHoT Compost Breeder six-up adapter",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/42",
-      "head_branch": "integration/franken-blender-005-ghot-compost-adapter",
-      "base_branch": "integration/franken-blender-004-cutout-compiler"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 43,
-      "title": "FRANKEN BLENDER 005: KEEP → timed scene → rare accepted awakening",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/43",
-      "head_branch": "integration/franken-blender-005-keep-scene-awaken",
-      "base_branch": "integration/franken-blender-004-cutout-compiler"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 44,
-      "title": "FRANKEN BLENDER 006: provider-agnostic Motion Organ Router",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/44",
-      "head_branch": "integration/franken-blender-006-motion-organ-router",
-      "base_branch": "integration/franken-blender-005-keep-scene-awaken"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 45,
-      "title": "FRANKEN BLENDER 007: Motion Atlas execution journal + safe failover",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/45",
-      "head_branch": "integration/franken-blender-007-atlas-executor",
-      "base_branch": "integration/franken-blender-006-motion-organ-router"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 46,
-      "title": "FRANKEN BLENDER 007b: Motion Atlas Black Box telemetry",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/46",
-      "head_branch": "integration/franken-blender-007b-atlas-black-box",
-      "base_branch": "integration/franken-blender-007-atlas-executor"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 47,
-      "title": "FRANKEN BLENDER 008: Cockpit usability layer",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/47",
-      "head_branch": "integration/franken-blender-008-cockpit",
-      "base_branch": "integration/franken-blender-007b-atlas-black-box"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 48,
-      "title": "FRANKEN BLENDER 008a: local Visual Cockpit",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/48",
-      "head_branch": "integration/franken-blender-008a-visual-cockpit",
-      "base_branch": "integration/franken-blender-008-cockpit"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 49,
-      "title": "FRANKEN BLENDER 008b: automatic GROW KEEP AWAKEN PLAY crossings",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/49",
-      "head_branch": "integration/franken-blender-008b-auto-crossings",
-      "base_branch": "integration/franken-blender-008a-visual-cockpit"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 50,
-      "title": "FRANKEN BLENDER 008c: provider driver, exact quote, submit-once, human KEEP",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/50",
-      "head_branch": "integration/franken-blender-008c-provider-driver",
-      "base_branch": "integration/franken-blender-008b-auto-crossings"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 51,
-      "title": "FRANKEN BLENDER 008d: plugin orchard, live routing, and connector bridge",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/51",
-      "head_branch": "integration/franken-blender-008d-plugin-orchard",
-      "base_branch": "integration/franken-blender-008c-provider-driver"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 52,
-      "title": "FRANKEN BLENDER 008e: zero-dollar full-song film mill",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/52",
-      "head_branch": "integration/franken-blender-008e-zero-dollar-film-mill",
-      "base_branch": "integration/franken-blender-008d-plugin-orchard"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 53,
-      "title": "FRANKEN BLENDER 008f: weakest-window doctor and zero-dollar treatment loop",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/53",
-      "head_branch": "integration/franken-blender-008f-weakest-window-doctor",
-      "base_branch": "integration/franken-blender-008e-zero-dollar-film-mill"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 54,
-      "title": "FRANKEN BLENDER 008g: cutout puppet factory, lyric geography, and cutaway machine",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/54",
-      "head_branch": "integration/franken-blender-008g-cutout-puppet-factory",
-      "base_branch": "integration/franken-blender-008f-weakest-window-doctor"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 55,
-      "title": "FRANKEN BLENDER 008h: parts harvester, junk drawer, and behavior transplant",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/55",
-      "head_branch": "integration/franken-blender-008h-parts-harvester",
-      "base_branch": "integration/franken-blender-008g-cutout-puppet-factory"
-    },
-    {
-      "repository": "the-haunted-blender",
       "number": 56,
-      "title": "FRANKEN BLENDER 008i: moving harvested video surfaces inside the puppet world",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/56",
-      "head_branch": "integration/franken-blender-008i-moving-insert-stage",
-      "base_branch": "integration/franken-blender-008h-parts-harvester"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 57,
-      "title": "FRANKEN BLENDER 008j: Paper Director and zero-dollar shot grammar",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/57",
-      "head_branch": "integration/franken-blender-008j-paper-director",
-      "base_branch": "integration/franken-blender-008i-moving-insert-stage"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 58,
-      "title": "FRANKEN BLENDER 008k: ensemble stage, dialogue turns, and character-aware direction",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/58",
-      "head_branch": "integration/franken-blender-008k-ensemble-stage",
-      "base_branch": "integration/franken-blender-008j-paper-director"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 59,
-      "title": "FRANKEN BLENDER 008l: material surface grammar for tactile paper worlds",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/59",
-      "head_branch": "integration/franken-blender-008l-material-surface-grammar",
-      "base_branch": "integration/franken-blender-008k-ensemble-stage"
-    },
-    {
-      "repository": "the-haunted-blender",
-      "number": 60,
-      "title": "FRANKEN BLENDER 008m: manga/anime grammar atlas and rights-aware page harvest",
-      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/60",
-      "head_branch": "integration/franken-blender-008m-manga-anime-grammar-atlas",
-      "base_branch": "integration/franken-blender-008l-material-surface-grammar"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 334,
-      "title": "NEXTGEN-TOASTER-011: full-song ONE PASS + section-snapped macroform",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/334",
-      "head_branch": "experiment/nextgen-toaster-011-full-song-form",
-      "base_branch": "experiment/nextgen-toaster-010-residue-memory"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 336,
-      "title": "NEXTGEN-TOASTER-012A: make the full-song editor hear",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/336",
-      "head_branch": "design/nextgen-toaster-012-listening-field",
-      "base_branch": "experiment/nextgen-toaster-011-full-song-form"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 337,
-      "title": "NEXTGEN-TOASTER-013: history compost — rendered fossils survive re-entry",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/337",
-      "head_branch": "experiment/nextgen-toaster-013-history-compost",
-      "base_branch": "design/nextgen-toaster-012-listening-field"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 338,
-      "title": "NEXTGEN-TOASTER-012B: WORDPARK 001 text-as-geometry performance core",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/338",
-      "head_branch": "experiment/nextgen-toaster-012b-wordpark-001",
-      "base_branch": "design/nextgen-toaster-012-listening-field"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 340,
-      "title": "LISTENER-ONEPASS-001A: painless lyric placement",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/340",
-      "head_branch": "experiment/listener-onepass-001a",
-      "base_branch": "experiment/nextgen-toaster-012b-wordpark-001"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 341,
-      "title": "LISTENER-ONEPASS-001B: playable WORDPARK surface",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/341",
-      "head_branch": "experiment/listener-onepass-001b-play-surface",
-      "base_branch": "experiment/listener-onepass-001a"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 342,
-      "title": "NEXTGEN-TOASTER-011: performance becomes program",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/342",
-      "head_branch": "experiment/nextgen-toaster-011-performance-program",
-      "base_branch": "experiment/nextgen-toaster-010-residue-memory"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 343,
-      "title": "NEXTGEN-TOASTER-012: real pixel resume",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/343",
-      "head_branch": "experiment/nextgen-toaster-012-real-pixel-resume",
-      "base_branch": "experiment/nextgen-toaster-011-performance-program"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 344,
-      "title": "NEXTGEN-TOASTER-013W: Weirdness Compiler",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/344",
-      "head_branch": "experiment/nextgen-toaster-013w-weirdness-compiler",
-      "base_branch": "experiment/nextgen-toaster-012-real-pixel-resume"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 345,
-      "title": "NEXTGEN-TOASTER-013: bound media × sparse transport",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/345",
-      "head_branch": "experiment/nextgen-toaster-013-bound-media-sparse-transport",
-      "base_branch": "experiment/nextgen-toaster-012-real-pixel-resume"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 346,
-      "title": "NEXTGEN-TOASTER-014: law fossils",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/346",
-      "head_branch": "experiment/nextgen-toaster-014-law-fossils",
-      "base_branch": "experiment/nextgen-toaster-013w-weirdness-compiler"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 347,
-      "title": "NEXTGEN-TOASTER-015: transition energy",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/347",
-      "head_branch": "experiment/nextgen-toaster-015-transition-energy",
-      "base_branch": "experiment/nextgen-toaster-014-law-fossils"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 348,
-      "title": "NEXTGEN-TOASTER-016: creative weather",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/348",
-      "head_branch": "experiment/nextgen-toaster-016-creative-weather",
-      "base_branch": "experiment/nextgen-toaster-015-transition-energy"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 349,
-      "title": "NEXTGEN-TOASTER-017: recurrence weather",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/349",
-      "head_branch": "experiment/nextgen-toaster-017-recurrence-weather",
-      "base_branch": "experiment/nextgen-toaster-016-creative-weather"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 350,
-      "title": "NEXTGEN-TOASTER-018: possibility map",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/350",
-      "head_branch": "experiment/nextgen-toaster-018-possibility-map",
-      "base_branch": "experiment/nextgen-toaster-017-recurrence-weather"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 351,
-      "title": "NEXTGEN-TOASTER-019: playable terrain",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/351",
-      "head_branch": "experiment/nextgen-toaster-019-playable-terrain",
-      "base_branch": "experiment/nextgen-toaster-018-possibility-map"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 352,
-      "title": "NEXTGEN-TOASTER-020: execution custody",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/352",
-      "head_branch": "experiment/nextgen-toaster-020-execution-custody",
-      "base_branch": "experiment/nextgen-toaster-019-playable-terrain"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 353,
-      "title": "NEXTGEN-TOASTER-021: artifact adoption",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/353",
-      "head_branch": "experiment/nextgen-toaster-021-artifact-adoption",
-      "base_branch": "experiment/nextgen-toaster-020-execution-custody"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 354,
-      "title": "NEXTGEN-TOASTER-022: adopted artifact promotion",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/354",
-      "head_branch": "experiment/nextgen-toaster-022-adopted-artifact-promotion",
-      "base_branch": "experiment/nextgen-toaster-021-artifact-adoption"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 355,
-      "title": "NEXTGEN-TOASTER-023: generational ecology",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/355",
-      "head_branch": "experiment/nextgen-toaster-023-generational-ecology",
-      "base_branch": "experiment/nextgen-toaster-022-adopted-artifact-promotion"
-    },
-    {
-      "repository": "Upper-room",
-      "number": 11,
-      "title": "DOOR PACKET 001 — emit a room-safe Scripture door",
-      "url": "https://github.com/the-static-collective/Upper-room/pull/11",
-      "head_branch": "feat/door-packet-001",
+      "title": "Manga Parcel 001 — generic crossing witness",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/56",
+      "head_branch": "experiment/manga-parcel-001",
       "base_branch": "main"
     },
     {
-      "repository": "What-is-the-static-collective-",
-      "number": 99,
-      "title": "CONSEQUENCE SEQUENCE — residue, re-entry, and future possibility",
-      "url": "https://github.com/the-static-collective/What-is-the-static-collective-/pull/99",
-      "head_branch": "pattern/consequence-sequence-001",
+      "repository": "reLATTE",
+      "number": 57,
+      "title": "SB-001: prove the destructible unresolved crossing",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/57",
+      "head_branch": "experiment/supabardo-sb001-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 58,
+      "title": "SB-002: prove a creative proposal can cross without becoming KEEP",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/58",
+      "head_branch": "experiment/supabardo-sb002-001",
+      "base_branch": "experiment/supabardo-sb001-001"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 59,
+      "title": "SB-003: prove continuity without identity inheritance",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/59",
+      "head_branch": "experiment/supabardo-sb003-ark-outlived-world-001",
+      "base_branch": "experiment/supabardo-sb001-001"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 60,
+      "title": "SupaBardo: independently verify SB-001 through SB-003 in Python",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/60",
+      "head_branch": "experiment/supabardo-independent-verifier-001",
+      "base_branch": "experiment/supabardo-sb002-001"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 62,
+      "title": "FIRST-CONTACT-001 — loopback network crossing with signed sovereign return",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/62",
+      "head_branch": "experiment/first-contact-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 65,
+      "title": "PAPERCHAIN: held seed + Fatherhand capacity + explicit PLANT → child custody",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/65",
+      "head_branch": "experiment/paperchain-seed-vault-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 66,
+      "title": "WEBZ-005: executable FatherHand seed kernel and FounderNode trust root",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/66",
+      "head_branch": "docs/webz-005-fatherhand-foundernode",
+      "base_branch": "main"
+    },
+    {
+      "repository": "static-os",
+      "number": 36,
+      "title": "FIRST-PHYSICAL-BOOT-001: earn the cold USB boot claim",
+      "url": "https://github.com/the-static-collective/static-os/pull/36",
+      "head_branch": "experiment/first-physical-boot-001",
+      "base_branch": "integration/ghot-idle-operator-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 37,
+      "title": "GIT-BRIDGE-001: explicit project ingress and egress",
+      "url": "https://github.com/the-static-collective/static-os/pull/37",
+      "head_branch": "integration/git-bridge-001",
+      "base_branch": "experiment/first-physical-boot-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 38,
+      "title": "WHOLE-BODY-001: boot STATIC OS around the unresolved crossing seam",
+      "url": "https://github.com/the-static-collective/static-os/pull/38",
+      "head_branch": "integration/whole-body-001",
+      "base_branch": "integration/git-bridge-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 39,
+      "title": "PERSISTENT-ROOT-001: survive cold death without inventing continuity",
+      "url": "https://github.com/the-static-collective/static-os/pull/39",
+      "head_branch": "integration/persistent-root-001",
+      "base_branch": "integration/whole-body-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 40,
+      "title": "BARDO-BRIDGE-001: pin the destructible SB-001 seam",
+      "url": "https://github.com/the-static-collective/static-os/pull/40",
+      "head_branch": "integration/bardo-bridge-001",
+      "base_branch": "integration/persistent-root-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 41,
+      "title": "BARDO-GENERALITY-002: pin the second-family SupaBardo proof",
+      "url": "https://github.com/the-static-collective/static-os/pull/41",
+      "head_branch": "integration/bardo-generality-002",
+      "base_branch": "integration/bardo-bridge-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 42,
+      "title": "BARDO-BOOT-WITNESS-001: carry INVITATION through mandatory HOLD",
+      "url": "https://github.com/the-static-collective/static-os/pull/42",
+      "head_branch": "experiment/bardo-boot-witness-001",
+      "base_branch": "integration/bardo-bridge-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 44,
+      "title": "LIFE-AUTHORING-OS-001: Open Page 001 → 002 roundtrip",
+      "url": "https://github.com/the-static-collective/static-os/pull/44",
+      "head_branch": "experiment/life-authoring-open-page-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "static-os",
+      "number": 45,
+      "title": "FIVE-DOOR-BOOT-WITNESS-001: preserve one unresolved LIFE constellation",
+      "url": "https://github.com/the-static-collective/static-os/pull/45",
+      "head_branch": "experiment/five-door-boot-witness-001",
+      "base_branch": "experiment/bardo-boot-witness-001"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "number": 61,
+      "title": "FRANKEN BLENDER 008n: particular-to-performance narrative custody",
+      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/61",
+      "head_branch": "integration/franken-blender-008n-particular-to-performance",
+      "base_branch": "integration/franken-blender-008m-manga-anime-grammar-atlas"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "number": 62,
+      "title": "FRANKEN BLENDER 008o: render Page Five as an audible manga film",
+      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/62",
+      "head_branch": "integration/franken-blender-008o-page-five-manga-film",
+      "base_branch": "integration/franken-blender-008n-particular-to-performance"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "number": 63,
+      "title": "FRANKEN BLENDER 008p: owned pixels enter the Page Five manga film",
+      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/63",
+      "head_branch": "integration/franken-blender-008p-owned-pixel-manga-film",
+      "base_branch": "integration/franken-blender-008o-page-five-manga-film"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "number": 64,
+      "title": "MANGALIZE-001: first-class verb event with origin-preserving harvest-only quarry",
+      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/64",
+      "head_branch": "integration/mangalize-001-first-class-verb",
+      "base_branch": "integration/franken-blender-008p-owned-pixel-manga-film"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "number": 65,
+      "title": "MANGALIZE-002: quarantine release through exact later reuse/derivative authority",
+      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/65",
+      "head_branch": "integration/mangalize-002-quarantine-release",
+      "base_branch": "integration/mangalize-001-first-class-verb"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "number": 66,
+      "title": "MANGALIZE-003: separately admitted performed use with complete ancestry",
+      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/66",
+      "head_branch": "integration/mangalize-003-performed-use",
+      "base_branch": "integration/mangalize-002-quarantine-release"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "number": 67,
+      "title": "MANGALIZE-004: separately admitted deterministic static pixel execution",
+      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/67",
+      "head_branch": "integration/mangalize-004-pixel-execution",
+      "base_branch": "integration/mangalize-003-performed-use"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "number": 68,
+      "title": "MANGALIZE-005: separately authored black presentation ground with preserved page ancestry",
+      "url": "https://github.com/the-static-collective/the-haunted-blender/pull/68",
+      "head_branch": "integration/mangalize-005-presentation-ground",
+      "base_branch": "integration/mangalize-004-pixel-execution"
+    },
+    {
+      "repository": "the-haunted-toaster",
+      "number": 356,
+      "title": "NEXTGEN-TOASTER-024: mutation distance",
+      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/356",
+      "head_branch": "experiment/nextgen-toaster-024-mutation-distance",
+      "base_branch": "experiment/nextgen-toaster-023-generational-ecology"
+    },
+    {
+      "repository": "the-haunted-toaster",
+      "number": 357,
+      "title": "SB-002 source: cross one creative proposal without KEEP",
+      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/357",
+      "head_branch": "experiment/supabardo-sb002-proposal-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "tranchnode",
+      "number": 79,
+      "title": "FATHERHAND-001: grant-chain validator + Paperchain PLANT capacity witness",
+      "url": "https://github.com/the-static-collective/tranchnode/pull/79",
+      "head_branch": "experiment/fatherhand-grant-chain-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "tranchNOSE",
+      "number": 10,
+      "title": "FIELD-LAB-001: bounded relational perturbation instrument",
+      "url": "https://github.com/the-static-collective/tranchNOSE/pull/10",
+      "head_branch": "experiment/field-lab-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 4,
+      "title": "feat: begin FIRST-ENCOUNTER-002 invitation and signed-return preflight",
+      "url": "https://github.com/the-static-collective/webZ/pull/4",
+      "head_branch": "feat/first-encounter-002",
       "base_branch": "main"
     }
   ],

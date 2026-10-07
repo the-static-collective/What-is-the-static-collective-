@@ -15,12 +15,14 @@ Visual and audio-video instruments, pantry experiments, and older appliance bran
 
 [Repository](https://github.com/the-static-collective/the-haunted-toaster) · [Branches](https://github.com/the-static-collective/the-haunted-toaster/branches) · [Pull requests](https://github.com/the-static-collective/the-haunted-toaster/pulls)
 
-Default: `main` · other refs: 230 · open PRs: 72
+Default: `main` · other refs: 232 · open PRs: 74
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#357](https://github.com/the-static-collective/the-haunted-toaster/pull/357) | SB-002 source: cross one creative proposal without KEEP | `experiment/supabardo-sb002-proposal-001` → `main` | 2026-10-07 |
+| [#356](https://github.com/the-static-collective/the-haunted-toaster/pull/356) | NEXTGEN-TOASTER-024: mutation distance | `experiment/nextgen-toaster-024-mutation-distance` → `experiment/nextgen-toaster-023-generational-ecology` | 2026-10-06 |
 | [#355](https://github.com/the-static-collective/the-haunted-toaster/pull/355) | NEXTGEN-TOASTER-023: generational ecology | `experiment/nextgen-toaster-023-generational-ecology` → `experiment/nextgen-toaster-022-adopted-artifact-promotion` | 2026-10-06 |
 | [#354](https://github.com/the-static-collective/the-haunted-toaster/pull/354) | NEXTGEN-TOASTER-022: adopted artifact promotion | `experiment/nextgen-toaster-022-adopted-artifact-promotion` → `experiment/nextgen-toaster-021-artifact-adoption` | 2026-10-06 |
 | [#353](https://github.com/the-static-collective/the-haunted-toaster/pull/353) | NEXTGEN-TOASTER-021: artifact adoption | `experiment/nextgen-toaster-021-artifact-adoption` → `experiment/nextgen-toaster-020-execution-custody` | 2026-10-06 |
@@ -235,7 +237,9 @@ Default: `main` · other refs: 230 · open PRs: 72
 | [experiment/nextgen-toaster-021-artifact-adoption](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-021-artifact-adoption) | [88abe1157c](https://github.com/the-static-collective/the-haunted-toaster/commit/88abe1157c43c34eda029814eab61d40005199b3) | [open PR #353](https://github.com/the-static-collective/the-haunted-toaster/pull/353) |
 | [experiment/nextgen-toaster-022-adopted-artifact-promotion](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-022-adopted-artifact-promotion) | [366b716714](https://github.com/the-static-collective/the-haunted-toaster/commit/366b716714f097018b6afe39b8db055b387dd4c6) | [open PR #354](https://github.com/the-static-collective/the-haunted-toaster/pull/354) |
 | [experiment/nextgen-toaster-023-generational-ecology](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-023-generational-ecology) | [8e82bd0461](https://github.com/the-static-collective/the-haunted-toaster/commit/8e82bd046158109696fc0ee62f59876b8ee57e0a) | [open PR #355](https://github.com/the-static-collective/the-haunted-toaster/pull/355) |
+| [experiment/nextgen-toaster-024-mutation-distance](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-024-mutation-distance) | [bf9e31444f](https://github.com/the-static-collective/the-haunted-toaster/commit/bf9e31444f4bb032f068bfc682d9fd94296753f5) | [open PR #356](https://github.com/the-static-collective/the-haunted-toaster/pull/356) |
 | [experiment/polyclock-001-recurrence](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/polyclock-001-recurrence) | [66fe65523a](https://github.com/the-static-collective/the-haunted-toaster/commit/66fe65523ad21824aea88519de736c791f81e967) | [open PR #293](https://github.com/the-static-collective/the-haunted-toaster/pull/293) |
+| [experiment/supabardo-sb002-proposal-001](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/supabardo-sb002-proposal-001) | [2c86d68413](https://github.com/the-static-collective/the-haunted-toaster/commit/2c86d684138f3008344b18202b81193db0c947c7) | [open PR #357](https://github.com/the-static-collective/the-haunted-toaster/pull/357) |
 | [experimental/franken-composer-001](https://github.com/the-static-collective/the-haunted-toaster/tree/experimental/franken-composer-001) | [0916e1d1dd](https://github.com/the-static-collective/the-haunted-toaster/commit/0916e1d1dd60d2834682e4bd182f26f15b2d8447) | [open PR #315](https://github.com/the-static-collective/the-haunted-toaster/pull/315) |
 | [experimental/hyperkitchen-001-hyperframes-projection](https://github.com/the-static-collective/the-haunted-toaster/tree/experimental/hyperkitchen-001-hyperframes-projection) | [2c9df38445](https://github.com/the-static-collective/the-haunted-toaster/commit/2c9df3844594635f353231f6ecbe60b6290cdbdb) | [open PR #297](https://github.com/the-static-collective/the-haunted-toaster/pull/297) |
 | [feat/automatic-dogram-sidecar](https://github.com/the-static-collective/the-haunted-toaster/tree/feat/automatic-dogram-sidecar) | [a41ecb7d12](https://github.com/the-static-collective/the-haunted-toaster/commit/a41ecb7d1253b3a3b45381fcc1995692d634f582) | Retained ref; disposition unverified |
@@ -333,12 +337,20 @@ Default: `main` · other refs: 230 · open PRs: 72
 
 [Repository](https://github.com/the-static-collective/the-haunted-blender) · [Branches](https://github.com/the-static-collective/the-haunted-blender/branches) · [Pull requests](https://github.com/the-static-collective/the-haunted-blender/pulls)
 
-Default: `main` · other refs: 51 · open PRs: 51
+Default: `main` · other refs: 59 · open PRs: 59
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#68](https://github.com/the-static-collective/the-haunted-blender/pull/68) | MANGALIZE-005: separately authored black presentation ground with preserved page ancestry | `integration/mangalize-005-presentation-ground` → `integration/mangalize-004-pixel-execution` | 2026-10-06 |
+| [#67](https://github.com/the-static-collective/the-haunted-blender/pull/67) | MANGALIZE-004: separately admitted deterministic static pixel execution | `integration/mangalize-004-pixel-execution` → `integration/mangalize-003-performed-use` | 2026-10-06 |
+| [#66](https://github.com/the-static-collective/the-haunted-blender/pull/66) | MANGALIZE-003: separately admitted performed use with complete ancestry | `integration/mangalize-003-performed-use` → `integration/mangalize-002-quarantine-release` | 2026-10-06 |
+| [#65](https://github.com/the-static-collective/the-haunted-blender/pull/65) | MANGALIZE-002: quarantine release through exact later reuse/derivative authority | `integration/mangalize-002-quarantine-release` → `integration/mangalize-001-first-class-verb` | 2026-10-06 |
+| [#64](https://github.com/the-static-collective/the-haunted-blender/pull/64) | MANGALIZE-001: first-class verb event with origin-preserving harvest-only quarry | `integration/mangalize-001-first-class-verb` → `integration/franken-blender-008p-owned-pixel-manga-film` | 2026-10-06 |
+| [#63](https://github.com/the-static-collective/the-haunted-blender/pull/63) | FRANKEN BLENDER 008p: owned pixels enter the Page Five manga film | `integration/franken-blender-008p-owned-pixel-manga-film` → `integration/franken-blender-008o-page-five-manga-film` | 2026-10-06 |
+| [#62](https://github.com/the-static-collective/the-haunted-blender/pull/62) | FRANKEN BLENDER 008o: render Page Five as an audible manga film | `integration/franken-blender-008o-page-five-manga-film` → `integration/franken-blender-008n-particular-to-performance` | 2026-10-06 |
+| [#61](https://github.com/the-static-collective/the-haunted-blender/pull/61) | FRANKEN BLENDER 008n: particular-to-performance narrative custody | `integration/franken-blender-008n-particular-to-performance` → `integration/franken-blender-008m-manga-anime-grammar-atlas` | 2026-10-06 |
 | [#60](https://github.com/the-static-collective/the-haunted-blender/pull/60) | FRANKEN BLENDER 008m: manga/anime grammar atlas and rights-aware page harvest | `integration/franken-blender-008m-manga-anime-grammar-atlas` → `integration/franken-blender-008l-material-surface-grammar` | 2026-10-06 |
 | [#59](https://github.com/the-static-collective/the-haunted-blender/pull/59) | FRANKEN BLENDER 008l: material surface grammar for tactile paper worlds | `integration/franken-blender-008l-material-surface-grammar` → `integration/franken-blender-008k-ensemble-stage` | 2026-10-06 |
 | [#58](https://github.com/the-static-collective/the-haunted-blender/pull/58) | FRANKEN BLENDER 008k: ensemble stage, dialogue turns, and character-aware direction | `integration/franken-blender-008k-ensemble-stage` → `integration/franken-blender-008j-paper-director` | 2026-10-06 |
@@ -444,7 +456,15 @@ Default: `main` · other refs: 51 · open PRs: 51
 | [integration/franken-blender-008j-paper-director](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008j-paper-director) | [070d8034e1](https://github.com/the-static-collective/the-haunted-blender/commit/070d8034e11052f7e84588e19e36f452c862a772) | [open PR #57](https://github.com/the-static-collective/the-haunted-blender/pull/57) |
 | [integration/franken-blender-008k-ensemble-stage](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008k-ensemble-stage) | [c99d948b49](https://github.com/the-static-collective/the-haunted-blender/commit/c99d948b496b22b3b3ea82bc15b90d50597f58b6) | [open PR #58](https://github.com/the-static-collective/the-haunted-blender/pull/58) |
 | [integration/franken-blender-008l-material-surface-grammar](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008l-material-surface-grammar) | [a39d6c3be8](https://github.com/the-static-collective/the-haunted-blender/commit/a39d6c3be8197b38b06c2f45fb323e4ef8b4f279) | [open PR #59](https://github.com/the-static-collective/the-haunted-blender/pull/59) |
-| [integration/franken-blender-008m-manga-anime-grammar-atlas](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008m-manga-anime-grammar-atlas) | [223f0e9434](https://github.com/the-static-collective/the-haunted-blender/commit/223f0e943430bace62238e45a63c511984986444) | [open PR #60](https://github.com/the-static-collective/the-haunted-blender/pull/60) |
+| [integration/franken-blender-008m-manga-anime-grammar-atlas](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008m-manga-anime-grammar-atlas) | [367e8c0f6c](https://github.com/the-static-collective/the-haunted-blender/commit/367e8c0f6cc7c68c453ff1e5081180976af51858) | [open PR #60](https://github.com/the-static-collective/the-haunted-blender/pull/60) |
+| [integration/franken-blender-008n-particular-to-performance](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008n-particular-to-performance) | [e46a381f9b](https://github.com/the-static-collective/the-haunted-blender/commit/e46a381f9b4490ed38f4ce3bfdec5bcdd39dde22) | [open PR #61](https://github.com/the-static-collective/the-haunted-blender/pull/61) |
+| [integration/franken-blender-008o-page-five-manga-film](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008o-page-five-manga-film) | [0961569c92](https://github.com/the-static-collective/the-haunted-blender/commit/0961569c920a8c53330227305a2f9143071c382c) | [open PR #62](https://github.com/the-static-collective/the-haunted-blender/pull/62) |
+| [integration/franken-blender-008p-owned-pixel-manga-film](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008p-owned-pixel-manga-film) | [4e3f098d32](https://github.com/the-static-collective/the-haunted-blender/commit/4e3f098d328a9659d9074852ef7861b7d3078fee) | [open PR #63](https://github.com/the-static-collective/the-haunted-blender/pull/63) |
+| [integration/mangalize-001-first-class-verb](https://github.com/the-static-collective/the-haunted-blender/tree/integration/mangalize-001-first-class-verb) | [268d31f4a5](https://github.com/the-static-collective/the-haunted-blender/commit/268d31f4a5283ce96209e3f7957edcfa2df30a7b) | [open PR #64](https://github.com/the-static-collective/the-haunted-blender/pull/64) |
+| [integration/mangalize-002-quarantine-release](https://github.com/the-static-collective/the-haunted-blender/tree/integration/mangalize-002-quarantine-release) | [8b4f7da114](https://github.com/the-static-collective/the-haunted-blender/commit/8b4f7da114e55150dfb564fea171c827bcf8759a) | [open PR #65](https://github.com/the-static-collective/the-haunted-blender/pull/65) |
+| [integration/mangalize-003-performed-use](https://github.com/the-static-collective/the-haunted-blender/tree/integration/mangalize-003-performed-use) | [736dc0eba0](https://github.com/the-static-collective/the-haunted-blender/commit/736dc0eba07b591a7aa25abf3fb92e5ddbaa7a23) | [open PR #66](https://github.com/the-static-collective/the-haunted-blender/pull/66) |
+| [integration/mangalize-004-pixel-execution](https://github.com/the-static-collective/the-haunted-blender/tree/integration/mangalize-004-pixel-execution) | [49e9400d37](https://github.com/the-static-collective/the-haunted-blender/commit/49e9400d3753a6a308317eef8bd5b1fb93cc5322) | [open PR #67](https://github.com/the-static-collective/the-haunted-blender/pull/67) |
+| [integration/mangalize-005-presentation-ground](https://github.com/the-static-collective/the-haunted-blender/tree/integration/mangalize-005-presentation-ground) | [cf0256a49a](https://github.com/the-static-collective/the-haunted-blender/commit/cf0256a49ac8aa879cf2a044847d248177fcfad9) | [open PR #68](https://github.com/the-static-collective/the-haunted-blender/pull/68) |
 | [plans/branch-ledger-001](https://github.com/the-static-collective/the-haunted-blender/tree/plans/branch-ledger-001) | [234059d60a](https://github.com/the-static-collective/the-haunted-blender/commit/234059d60a7d8341877186d2479e6f54c53b944b) | [open PR #31](https://github.com/the-static-collective/the-haunted-blender/pull/31) |
 
 ## the-haunted-pol-ish-roids
@@ -522,12 +542,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/tranchNOSE) · [Branches](https://github.com/the-static-collective/tranchNOSE/branches) · [Pull requests](https://github.com/the-static-collective/tranchNOSE/pulls)
 
-Default: `main` · other refs: 8 · open PRs: 1
+Default: `main` · other refs: 9 · open PRs: 2
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#10](https://github.com/the-static-collective/tranchNOSE/pull/10) | FIELD-LAB-001: bounded relational perturbation instrument | `experiment/field-lab-001` → `main` | 2026-10-07 |
 | [#4](https://github.com/the-static-collective/tranchNOSE/pull/4) | MACHINE-WEATHER-001: typed sensor-window comparison without control authority | `experiment/machine-weather-001` → `main` | 2026-09-20 |
 
 ### Retained nondefault branches
@@ -536,6 +557,7 @@ Default: `main` · other refs: 8 · open PRs: 1
 | --- | --- | --- |
 | [agent/001a-local-field-dynamics](https://github.com/the-static-collective/tranchNOSE/tree/agent/001a-local-field-dynamics) | [3a940d7036](https://github.com/the-static-collective/tranchNOSE/commit/3a940d70360339dbe2dde0b3a684dd667829618f) | Retained ref; disposition unverified |
 | [exp/001a-receipt-contract](https://github.com/the-static-collective/tranchNOSE/tree/exp/001a-receipt-contract) | [080d20e0e4](https://github.com/the-static-collective/tranchNOSE/commit/080d20e0e40c3dbba11f2cfc2453a3e71b85196a) | Retained ref; disposition unverified |
+| [experiment/field-lab-001](https://github.com/the-static-collective/tranchNOSE/tree/experiment/field-lab-001) | [670ca60012](https://github.com/the-static-collective/tranchNOSE/commit/670ca60012929b51e66b8bac7d0c9b85a4f95d7b) | [open PR #10](https://github.com/the-static-collective/tranchNOSE/pull/10) |
 | [experiment/machine-weather-001](https://github.com/the-static-collective/tranchNOSE/tree/experiment/machine-weather-001) | [e45d0644ab](https://github.com/the-static-collective/tranchNOSE/commit/e45d0644ab1903df700535edb4c0f2d60bfb4354) | [open PR #4](https://github.com/the-static-collective/tranchNOSE/pull/4) |
 | [play/channel-001-differentiated-witnesses](https://github.com/the-static-collective/tranchNOSE/tree/play/channel-001-differentiated-witnesses) | [d10ae46513](https://github.com/the-static-collective/tranchNOSE/commit/d10ae465139723fd5cd4a4771eb8aa989a687325) | Retained ref; disposition unverified |
 | [play/difference-001-relational-witness](https://github.com/the-static-collective/tranchNOSE/tree/play/difference-001-relational-witness) | [6b43d251a6](https://github.com/the-static-collective/tranchNOSE/commit/6b43d251a6ed9d19261f1ce6f3b440c779e0e067) | Retained ref; disposition unverified |

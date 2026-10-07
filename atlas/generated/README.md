@@ -4,7 +4,7 @@ description: "Dated, source-linked public Git inventory for the Static Collectiv
 
 # Public Git inventory
 
-Captured: **2026-10-06T14:10:59+00:00** · **77 public repositories** · **1581 branch refs** (including defaults) · **559 open PRs**.
+Captured: **2026-10-07T14:29:14+00:00** · **78 public repositories** · **1626 branch refs** (including defaults) · **594 open PRs**.
 
 [Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
 
@@ -18,14 +18,14 @@ the current branch tip exactly. Otherwise its status is kept separate.
 
 | Editorial shelf | Public repos | Branch refs | Open PRs |
 | --- | ---: | ---: | ---: |
-| [Origins and witnesses](origins-and-witnesses.md) | 15 | 209 | 55 |
-| [Contracts and memory](contracts-and-memory.md) | 11 | 446 | 112 |
+| [Origins and witnesses](origins-and-witnesses.md) | 15 | 212 | 57 |
+| [Contracts and memory](contracts-and-memory.md) | 11 | 447 | 113 |
 | [Participation and care](participation-and-care.md) | 13 | 78 | 19 |
-| [Songs and stages](songs-and-stages.md) | 5 | 72 | 7 |
-| [Images and appliances](images-and-appliances.md) | 10 | 324 | 128 |
+| [Songs and stages](songs-and-stages.md) | 5 | 73 | 7 |
+| [Images and appliances](images-and-appliances.md) | 10 | 335 | 139 |
 | [Worlds and inquiry](worlds-and-inquiry.md) | 6 | 127 | 45 |
-| [Operating surfaces](operating-surfaces.md) | 5 | 120 | 76 |
-| [Unplaced public repositories](unplaced.md) | 12 | 205 | 117 |
+| [Operating surfaces](operating-surfaces.md) | 5 | 132 | 85 |
+| [Unplaced public repositories](unplaced.md) | 13 | 222 | 129 |
 
 ## All public repositories
 
@@ -55,27 +55,27 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [GHoT](https://github.com/the-static-collective/GHoT) | [Unplaced public repositories](unplaced.md) | 70 | 62 |
 | [GOATnote](https://github.com/the-static-collective/GOATnote) | [Origins and witnesses](origins-and-witnesses.md) | 8 | 7 |
 | [GrO](https://github.com/the-static-collective/GrO) | [Unplaced public repositories](unplaced.md) | 17 | 4 |
-| [Human-Witness](https://github.com/the-static-collective/Human-Witness) | [Origins and witnesses](origins-and-witnesses.md) | 1 | 0 |
+| [Human-Witness](https://github.com/the-static-collective/Human-Witness) | [Origins and witnesses](origins-and-witnesses.md) | 4 | 2 |
 | [iron-lung](https://github.com/the-static-collective/iron-lung) | [Images and appliances](images-and-appliances.md) | 17 | 2 |
 | [jubilee-authority-kit](https://github.com/the-static-collective/jubilee-authority-kit) | [Contracts and memory](contracts-and-memory.md) | 4 | 0 |
 | [Jubilee-Campfire](https://github.com/the-static-collective/Jubilee-Campfire) | [Participation and care](participation-and-care.md) | 0 | 0 |
 | [Jubilee-Engine-VM](https://github.com/the-static-collective/Jubilee-Engine-VM) | [Participation and care](participation-and-care.md) | 8 | 2 |
 | [jublEchat](https://github.com/the-static-collective/jublEchat) | [Songs and stages](songs-and-stages.md) | 4 | 0 |
 | [LampPost](https://github.com/the-static-collective/LampPost) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
-| [lemonPRESS](https://github.com/the-static-collective/lemonPRESS) | [Unplaced public repositories](unplaced.md) | 29 | 5 |
+| [lemonPRESS](https://github.com/the-static-collective/lemonPRESS) | [Unplaced public repositories](unplaced.md) | 31 | 7 |
 | [LOADOUT](https://github.com/the-static-collective/LOADOUT) | [Contracts and memory](contracts-and-memory.md) | 24 | 11 |
 | [love](https://github.com/the-static-collective/love) | [Unplaced public repositories](unplaced.md) | 0 | 0 |
 | [mundaneWORMHOLE](https://github.com/the-static-collective/mundaneWORMHOLE) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [national-treasure](https://github.com/the-static-collective/national-treasure) | [Worlds and inquiry](worlds-and-inquiry.md) | 76 | 11 |
 | [Nourish-Kids](https://github.com/the-static-collective/Nourish-Kids) | [Participation and care](participation-and-care.md) | 4 | 1 |
 | [pies](https://github.com/the-static-collective/pies) | [Participation and care](participation-and-care.md) | 0 | 0 |
-| [planZ](https://github.com/the-static-collective/planZ) | [Unplaced public repositories](unplaced.md) | 5 | 5 |
+| [planZ](https://github.com/the-static-collective/planZ) | [Unplaced public repositories](unplaced.md) | 6 | 6 |
 | [playdeck](https://github.com/the-static-collective/playdeck) | [Unplaced public repositories](unplaced.md) | 1 | 1 |
 | [project0](https://github.com/the-static-collective/project0) | [Contracts and memory](contracts-and-memory.md) | 37 | 2 |
 | [reCOreturn](https://github.com/the-static-collective/reCOreturn) | [Operating surfaces](operating-surfaces.md) | 1 | 0 |
 | [reCURV](https://github.com/the-static-collective/reCURV) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [reCURVrePAIR](https://github.com/the-static-collective/reCURVrePAIR) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
-| [reLATTE](https://github.com/the-static-collective/reLATTE) | [Unplaced public repositories](unplaced.md) | 60 | 33 |
+| [reLATTE](https://github.com/the-static-collective/reLATTE) | [Unplaced public repositories](unplaced.md) | 70 | 41 |
 | [reMIX-reCURVrePAIR](https://github.com/the-static-collective/reMIX-reCURVrePAIR) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [revival](https://github.com/the-static-collective/revival) | [Participation and care](participation-and-care.md) | 14 | 1 |
 | [ROroomOM](https://github.com/the-static-collective/ROroomOM) | [Worlds and inquiry](worlds-and-inquiry.md) | 18 | 16 |
@@ -85,26 +85,27 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [seedFORK](https://github.com/the-static-collective/seedFORK) | [Participation and care](participation-and-care.md) | 0 | 0 |
 | [static-field](https://github.com/the-static-collective/static-field) | [Worlds and inquiry](worlds-and-inquiry.md) | 10 | 8 |
 | [static-live](https://github.com/the-static-collective/static-live) | [Songs and stages](songs-and-stages.md) | 19 | 4 |
-| [static-os](https://github.com/the-static-collective/static-os) | [Operating surfaces](operating-surfaces.md) | 35 | 35 |
-| [static-workbench](https://github.com/the-static-collective/static-workbench) | [Operating surfaces](operating-surfaces.md) | 79 | 41 |
-| [STORYSHIP](https://github.com/the-static-collective/STORYSHIP) | [Songs and stages](songs-and-stages.md) | 4 | 2 |
+| [static-os](https://github.com/the-static-collective/static-os) | [Operating surfaces](operating-surfaces.md) | 44 | 44 |
+| [static-workbench](https://github.com/the-static-collective/static-workbench) | [Operating surfaces](operating-surfaces.md) | 82 | 41 |
+| [STORYSHIP](https://github.com/the-static-collective/STORYSHIP) | [Songs and stages](songs-and-stages.md) | 5 | 2 |
 | [the-autodisco](https://github.com/the-static-collective/the-autodisco) | [Origins and witnesses](origins-and-witnesses.md) | 8 | 8 |
 | [The-AutodiscoV.20.-question-marks-](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-) | [Origins and witnesses](origins-and-witnesses.md) | 6 | 0 |
 | [the-daily-slice](https://github.com/the-static-collective/the-daily-slice) | [Origins and witnesses](origins-and-witnesses.md) | 78 | 17 |
-| [the-haunted-blender](https://github.com/the-static-collective/the-haunted-blender) | [Images and appliances](images-and-appliances.md) | 51 | 51 |
+| [the-haunted-blender](https://github.com/the-static-collective/the-haunted-blender) | [Images and appliances](images-and-appliances.md) | 59 | 59 |
 | [the-haunted-phonography](https://github.com/the-static-collective/the-haunted-phonography) | [Songs and stages](songs-and-stages.md) | 23 | 0 |
 | [the-haunted-pol-ish-roids](https://github.com/the-static-collective/the-haunted-pol-ish-roids) | [Images and appliances](images-and-appliances.md) | 3 | 2 |
-| [the-haunted-toaster](https://github.com/the-static-collective/the-haunted-toaster) | [Images and appliances](images-and-appliances.md) | 230 | 72 |
+| [the-haunted-toaster](https://github.com/the-static-collective/the-haunted-toaster) | [Images and appliances](images-and-appliances.md) | 232 | 74 |
 | [the-static-collective](https://github.com/the-static-collective/the-static-collective) | [Unplaced public repositories](unplaced.md) | 0 | 0 |
 | [toaster-lab](https://github.com/the-static-collective/toaster-lab) | [Images and appliances](images-and-appliances.md) | 3 | 0 |
 | [toaster-lab2](https://github.com/the-static-collective/toaster-lab2) | [Images and appliances](images-and-appliances.md) | 1 | 0 |
 | [toaster-oracle](https://github.com/the-static-collective/toaster-oracle) | [Images and appliances](images-and-appliances.md) | 0 | 0 |
-| [tranchnode](https://github.com/the-static-collective/tranchnode) | [Contracts and memory](contracts-and-memory.md) | 43 | 4 |
+| [tranchnode](https://github.com/the-static-collective/tranchnode) | [Contracts and memory](contracts-and-memory.md) | 44 | 5 |
 | [tranchNode-v1](https://github.com/the-static-collective/tranchNode-v1) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
-| [tranchNOSE](https://github.com/the-static-collective/tranchNOSE) | [Images and appliances](images-and-appliances.md) | 8 | 1 |
+| [tranchNOSE](https://github.com/the-static-collective/tranchNOSE) | [Images and appliances](images-and-appliances.md) | 9 | 2 |
 | [trust](https://github.com/the-static-collective/trust) | [Unplaced public repositories](unplaced.md) | 1 | 0 |
 | [unfolding-ledger](https://github.com/the-static-collective/unfolding-ledger) | [Contracts and memory](contracts-and-memory.md) | 1 | 0 |
 | [Upper-room](https://github.com/the-static-collective/Upper-room) | [Worlds and inquiry](worlds-and-inquiry.md) | 8 | 3 |
+| [webZ](https://github.com/the-static-collective/webZ) | [Unplaced public repositories](unplaced.md) | 3 | 1 |
 | [What-is-the-static-collective-](https://github.com/the-static-collective/What-is-the-static-collective-) | [Origins and witnesses](origins-and-witnesses.md) | 80 | 20 |
 | [WITNESS](https://github.com/the-static-collective/WITNESS) | [Unplaced public repositories](unplaced.md) | 2 | 1 |
 | [WORLDSEED](https://github.com/the-static-collective/WORLDSEED) | [Worlds and inquiry](worlds-and-inquiry.md) | 9 | 7 |

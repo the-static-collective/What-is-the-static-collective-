@@ -137,7 +137,7 @@ Default: `main` · other refs: 23 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/STORYSHIP) · [Branches](https://github.com/the-static-collective/STORYSHIP/branches) · [Pull requests](https://github.com/the-static-collective/STORYSHIP/pulls)
 
-Default: `main` · other refs: 4 · open PRs: 2
+Default: `main` · other refs: 5 · open PRs: 2
 
 ### Open pull requests
 
@@ -154,3 +154,4 @@ Default: `main` · other refs: 4 · open PRs: 2
 | [feat/storyship-elf-ark-001](https://github.com/the-static-collective/STORYSHIP/tree/feat/storyship-elf-ark-001) | [775792081d](https://github.com/the-static-collective/STORYSHIP/commit/775792081db519337b02576e79b180ade98864a0) | [open PR #4](https://github.com/the-static-collective/STORYSHIP/pull/4) |
 | [feat/storyship-launch-v0](https://github.com/the-static-collective/STORYSHIP/tree/feat/storyship-launch-v0) | [65ddacde83](https://github.com/the-static-collective/STORYSHIP/commit/65ddacde838f66909955007103efc365f35caf08) | Retained ref; disposition unverified |
 | [flight/002-ark-continuity-proof](https://github.com/the-static-collective/STORYSHIP/tree/flight/002-ark-continuity-proof) | [4c5de72915](https://github.com/the-static-collective/STORYSHIP/commit/4c5de72915a24be0ee0188a0953f8850c9456799) | [open PR #5](https://github.com/the-static-collective/STORYSHIP/pull/5) |
+| [proposal/life-ship-narrative-navigation-001](https://github.com/the-static-collective/STORYSHIP/tree/proposal/life-ship-narrative-navigation-001) | [7f13a438d8](https://github.com/the-static-collective/STORYSHIP/commit/7f13a438d8fe4dd93c911991c603cef1b6f1cdb4) | Retained ref; disposition unverified |

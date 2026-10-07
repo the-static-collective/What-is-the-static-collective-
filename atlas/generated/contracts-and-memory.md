@@ -15,12 +15,13 @@ Project-owned contracts for meaning, evidence, projection, calculation, and boun
 
 [Repository](https://github.com/the-static-collective/tranchnode) · [Branches](https://github.com/the-static-collective/tranchnode/branches) · [Pull requests](https://github.com/the-static-collective/tranchnode/pulls)
 
-Default: `main` · other refs: 43 · open PRs: 4
+Default: `main` · other refs: 44 · open PRs: 5
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#79](https://github.com/the-static-collective/tranchnode/pull/79) | FATHERHAND-001: grant-chain validator + Paperchain PLANT capacity witness | `experiment/fatherhand-grant-chain-001` → `main` | 2026-10-07 |
 | [#78](https://github.com/the-static-collective/tranchnode/pull/78) | FLIGHT-002B: Storyship Ark evidence → addressed TranchNode proposal | `flight/002-storyship-continuity-boundary` → `main` | 2026-09-20 |
 | [#77](https://github.com/the-static-collective/tranchnode/pull/77) | TranchNode: adopt body surface v0 | `agent/body-surface-standard-v0` → `main` | 2026-09-18 |
 | [#73](https://github.com/the-static-collective/tranchnode/pull/73) | Experiment: STATIC-NODE-001 parent → child → Workmark → HOLD | `design/static-node-001` → `main` | 2026-09-18 |
@@ -58,6 +59,7 @@ Default: `main` · other refs: 43 · open PRs: 4
 | [docs/reconcile-status-2026-08-19](https://github.com/the-static-collective/tranchnode/tree/docs/reconcile-status-2026-08-19) | [39ff11b74d](https://github.com/the-static-collective/tranchnode/commit/39ff11b74d565e46ed79b88af4a072420385c8c4) | Retained ref; disposition unverified |
 | [docs/tranchish-decompression-lab](https://github.com/the-static-collective/tranchnode/tree/docs/tranchish-decompression-lab) | [3aeea72b1e](https://github.com/the-static-collective/tranchnode/commit/3aeea72b1ec4c5623016a69b2d2bf58cb047aaf6) | Retained ref; disposition unverified |
 | [docs/tranchish-v0-spike](https://github.com/the-static-collective/tranchnode/tree/docs/tranchish-v0-spike) | [4c772ad2b6](https://github.com/the-static-collective/tranchnode/commit/4c772ad2b69a4eaa93ee85f086587482f84af1a5) | Retained ref; disposition unverified |
+| [experiment/fatherhand-grant-chain-001](https://github.com/the-static-collective/tranchnode/tree/experiment/fatherhand-grant-chain-001) | [534e3dc5be](https://github.com/the-static-collective/tranchnode/commit/534e3dc5be763b7b11eb84bfab22f3efb25c254b) | [open PR #79](https://github.com/the-static-collective/tranchnode/pull/79) |
 | [feat/immutable-artifact-store-issue-6](https://github.com/the-static-collective/tranchnode/tree/feat/immutable-artifact-store-issue-6) | [7fbb0c868b](https://github.com/the-static-collective/tranchnode/commit/7fbb0c868befd5f6a7478bdd0447477a0e8e075e) | Retained ref; disposition unverified |
 | [feat/projection-root-closure-issue-7](https://github.com/the-static-collective/tranchnode/tree/feat/projection-root-closure-issue-7) | [aa7a15b6af](https://github.com/the-static-collective/tranchnode/commit/aa7a15b6af46efc0e8d672a5669cfb209899444c) | Retained ref; disposition unverified |
 | [feature/continuity-spine-v0.1](https://github.com/the-static-collective/tranchnode/tree/feature/continuity-spine-v0.1) | [7a1b28aa7f](https://github.com/the-static-collective/tranchnode/commit/7a1b28aa7f2c7492d14653f65d729ec9fedd1a4b) | Retained ref; disposition unverified |

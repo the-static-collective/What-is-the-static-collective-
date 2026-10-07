@@ -9,179 +9,114 @@ snapshot and the newest changed snapshot. It does **not** interpret why a branch
 moved or disappeared, and a PR leaving the open set does not by itself prove
 whether it merged, closed, or became unavailable.
 
-From: **2026-10-05T15:59:23+00:00**  
-To: **2026-10-06T14:10:59+00:00**
+From: **2026-10-06T14:10:59+00:00**  
+To: **2026-10-07T14:29:14+00:00**
 
 | Observed event | Count |
 | --- | ---: |
 | Repositories added | 1 |
 | Repositories removed | 0 |
-| Branches added | 75 |
+| Branches added | 45 |
 | Branches removed | 0 |
-| Branch heads moved | 2 |
-| PRs entering open set | 74 |
+| Branch heads moved | 6 |
+| PRs entering open set | 35 |
 | PRs leaving open set | 0 |
 
 ## Repository set
 
-* **+ repo** [planZ](https://github.com/the-static-collective/planZ)
+* **+ repo** [webZ](https://github.com/the-static-collective/webZ)
 
 ## Branch set and pointer movement
 
-* **+ branch** Dogram / [impl/sparse-ice-probe-001](https://github.com/the-static-collective/Dogram/tree/impl/sparse-ice-probe-001) → `767dd68762`
-* **+ branch** DVOTE / [feat/door-packet-001](https://github.com/the-static-collective/DVOTE/tree/feat/door-packet-001) → `dae5441582`
-* **+ branch** full-measure-world-layer / [experiment/tenet-arpg-frontier-002](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/tenet-arpg-frontier-002) → `199df20706`
-* **+ branch** GHoT / [feat/compost-breeder-001](https://github.com/the-static-collective/GHoT/tree/feat/compost-breeder-001) → `d898cc6a25`
-* **+ branch** GHoT / [feat/compost-breeder-002-live-blender](https://github.com/the-static-collective/GHoT/tree/feat/compost-breeder-002-live-blender) → `f1b19e26b8`
-* **+ branch** GHoT / [feat/instrument-rack-001](https://github.com/the-static-collective/GHoT/tree/feat/instrument-rack-001) → `3d64e5d486`
-* **+ branch** GHoT / [gro-mineral-bridge-001](https://github.com/the-static-collective/GHoT/tree/gro-mineral-bridge-001) → `8868024cf8`
-* **+ branch** GHoT / [mineral-field-001](https://github.com/the-static-collective/GHoT/tree/mineral-field-001) → `59cdf9040a`
-* **+ branch** GHoT / [sparse-ice-field-001](https://github.com/the-static-collective/GHoT/tree/sparse-ice-field-001) → `69be18bfc9`
-* **+ branch** GOATnote / [experiment/goatedges-001](https://github.com/the-static-collective/GOATnote/tree/experiment/goatedges-001) → `ba5e146957`
-* **+ branch** GOATnote / [experiment/timecut-001](https://github.com/the-static-collective/GOATnote/tree/experiment/timecut-001) → `a014063db7`
-* **+ branch** GrO / [feat/door-packet-001](https://github.com/the-static-collective/GrO/tree/feat/door-packet-001) → `2e62fb3be2`
-* **+ branch** GrO / [fork-garden-001](https://github.com/the-static-collective/GrO/tree/fork-garden-001) → `3f977c8f7a`
-* **+ branch** GrO / [mineral/world-seed-001](https://github.com/the-static-collective/GrO/tree/mineral/world-seed-001) → `543eb4c4d9`
-* **+ branch** iron-lung / [experiment/heart-lung-combinatrix-heart-001](https://github.com/the-static-collective/iron-lung/tree/experiment/heart-lung-combinatrix-heart-001) → `8e0c7a3f6f`
-* **+ branch** national-treasure / [clue/jubilee-quarter-001](https://github.com/the-static-collective/national-treasure/tree/clue/jubilee-quarter-001) → `d4331e962e`
-* **+ branch** planZ / [experiment/heart-001-fatherhand-combinatrix](https://github.com/the-static-collective/planZ/tree/experiment/heart-001-fatherhand-combinatrix) → `267dafc3a8`
-* **+ branch** planZ / [feat/census-senses-mutation-002](https://github.com/the-static-collective/planZ/tree/feat/census-senses-mutation-002) → `557577c6ae`
-* **+ branch** planZ / [feat/global-plan-census-001](https://github.com/the-static-collective/planZ/tree/feat/global-plan-census-001) → `c93ccbfa6a`
-* **+ branch** planZ / [feat/remains-instruments-003](https://github.com/the-static-collective/planZ/tree/feat/remains-instruments-003) → `535d34b5d7`
-* **+ branch** planZ / [feat/transition-receipts-003-1](https://github.com/the-static-collective/planZ/tree/feat/transition-receipts-003-1) → `8621c46f8e`
-* **+ branch** planZ / [main](https://github.com/the-static-collective/planZ/tree/main) → `dad6593c37`
-* **+ branch** reLATTE / [feat/door-post-001](https://github.com/the-static-collective/reLATTE/tree/feat/door-post-001) → `f3eabed4df`
-* **+ branch** reLATTE / [feat/useful-work-field-test-001](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-field-test-001) → `e58d199b39`
-* **+ branch** reLATTE / [feat/useful-work-field-test-002](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-field-test-002) → `8d761b8fcf`
-* **+ branch** reLATTE / [feat/useful-work-field-test-003](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-field-test-003) → `ad4804fa56`
-* **+ branch** reLATTE / [feat/useful-work-kernel-008](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-008) → `486da8bee8`
-* **+ branch** reLATTE / [feat/useful-work-kernel-009](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-009) → `d4bdb6193a`
-* **+ branch** reLATTE / [feat/useful-work-kernel-010](https://github.com/the-static-collective/reLATTE/tree/feat/useful-work-kernel-010) → `5273993509`
-* **+ branch** revival / [feat/door-packet-001](https://github.com/the-static-collective/revival/tree/feat/door-packet-001) → `47a6ee01c7`
-* **+ branch** static-os / [experiment/condition-field-world-fork-001](https://github.com/the-static-collective/static-os/tree/experiment/condition-field-world-fork-001) → `5344b5750b`
-* **+ branch** static-os / [experiment/static-2012-reference-machine-001](https://github.com/the-static-collective/static-os/tree/experiment/static-2012-reference-machine-001) → `d431eee9da`
-* **+ branch** the-daily-slice / [slice/2026-10-05-charter-under-the-bell](https://github.com/the-static-collective/the-daily-slice/tree/slice/2026-10-05-charter-under-the-bell) → `a4f161291a`
-* **+ branch** the-haunted-blender / [integration/franken-blender-003-dreambreeder](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-003-dreambreeder) → `5227ffe7b5`
-* **+ branch** the-haunted-blender / [integration/franken-blender-004-cutout-compiler](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-004-cutout-compiler) → `2b17439c12`
-* **+ branch** the-haunted-blender / [integration/franken-blender-005-ghot-compost-adapter](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-005-ghot-compost-adapter) → `b7af455317`
-* **+ branch** the-haunted-blender / [integration/franken-blender-005-keep-scene-awaken](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-005-keep-scene-awaken) → `78be68dbe7`
-* **+ branch** the-haunted-blender / [integration/franken-blender-006-motion-organ-router](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-006-motion-organ-router) → `425c53971a`
-* **+ branch** the-haunted-blender / [integration/franken-blender-007-atlas-executor](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-007-atlas-executor) → `a343a54b2f`
-* **+ branch** the-haunted-blender / [integration/franken-blender-007b-atlas-black-box](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-007b-atlas-black-box) → `25ff44ea2c`
-* **+ branch** the-haunted-blender / [integration/franken-blender-008-cockpit](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008-cockpit) → `207cb1b042`
-* **+ branch** the-haunted-blender / [integration/franken-blender-008a-visual-cockpit](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008a-visual-cockpit) → `1233fffb50`
-* **+ branch** the-haunted-blender / [integration/franken-blender-008b-auto-crossings](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008b-auto-crossings) → `bee873c987`
-* **+ branch** the-haunted-blender / [integration/franken-blender-008c-provider-driver](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008c-provider-driver) → `712f77aebc`
-* **+ branch** the-haunted-blender / [integration/franken-blender-008d-plugin-orchard](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008d-plugin-orchard) → `8451e09e97`
-* **+ branch** the-haunted-blender / [integration/franken-blender-008e-zero-dollar-film-mill](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008e-zero-dollar-film-mill) → `2861515164`
-* **+ branch** the-haunted-blender / [integration/franken-blender-008f-weakest-window-doctor](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008f-weakest-window-doctor) → `363e1ddcb2`
-* **+ branch** the-haunted-blender / [integration/franken-blender-008g-cutout-puppet-factory](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008g-cutout-puppet-factory) → `7817009fcf`
-* **+ branch** the-haunted-blender / [integration/franken-blender-008h-parts-harvester](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008h-parts-harvester) → `9bdd378b98`
-* **+ branch** the-haunted-blender / [integration/franken-blender-008i-moving-insert-stage](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008i-moving-insert-stage) → `55a4dbdc6a`
-* **+ branch** the-haunted-blender / [integration/franken-blender-008j-paper-director](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008j-paper-director) → `070d8034e1`
-* **+ branch** the-haunted-blender / [integration/franken-blender-008k-ensemble-stage](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008k-ensemble-stage) → `c99d948b49`
-* **+ branch** the-haunted-blender / [integration/franken-blender-008l-material-surface-grammar](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008l-material-surface-grammar) → `a39d6c3be8`
-* **+ branch** the-haunted-blender / [integration/franken-blender-008m-manga-anime-grammar-atlas](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008m-manga-anime-grammar-atlas) → `223f0e9434`
-* **+ branch** the-haunted-toaster / [design/nextgen-toaster-012-listening-field](https://github.com/the-static-collective/the-haunted-toaster/tree/design/nextgen-toaster-012-listening-field) → `d926e70188`
-* **+ branch** the-haunted-toaster / [experiment/listener-onepass-001a](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/listener-onepass-001a) → `b0291b1eb8`
-* **+ branch** the-haunted-toaster / [experiment/listener-onepass-001b-play-surface](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/listener-onepass-001b-play-surface) → `4e7a546ef9`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-011-performance-program](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-011-performance-program) → `eb419c3a27`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-012-real-pixel-resume](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-012-real-pixel-resume) → `a42c82c58d`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-012b-wordpark-001](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-012b-wordpark-001) → `be3c7930d3`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-013-bound-media-sparse-transport](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-013-bound-media-sparse-transport) → `22fa5381fc`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-013-history-compost](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-013-history-compost) → `923b536d06`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-013w-weirdness-compiler](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-013w-weirdness-compiler) → `0c5a85b5ab`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-014-law-fossils](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-014-law-fossils) → `a88b7eb56f`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-015-transition-energy](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-015-transition-energy) → `e6e998f1ae`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-016-creative-weather](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-016-creative-weather) → `bdbab39ef4`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-017-recurrence-weather](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-017-recurrence-weather) → `becea04682`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-018-possibility-map](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-018-possibility-map) → `2be8d56531`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-019-playable-terrain](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-019-playable-terrain) → `64f088eb64`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-020-execution-custody](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-020-execution-custody) → `091391794d`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-021-artifact-adoption](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-021-artifact-adoption) → `88abe1157c`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-022-adopted-artifact-promotion](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-022-adopted-artifact-promotion) → `366b716714`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-023-generational-ecology](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-023-generational-ecology) → `8e82bd0461`
-* **+ branch** Upper-room / [feat/door-packet-001](https://github.com/the-static-collective/Upper-room/tree/feat/door-packet-001) → `922b253c00`
-* **+ branch** What-is-the-static-collective- / [pattern/consequence-sequence-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/pattern/consequence-sequence-001) → `28ad45b04a`
-* **↪ head** the-haunted-toaster / experiment/nextgen-toaster-011-full-song-form: [1c8e736031](https://github.com/the-static-collective/the-haunted-toaster/commit/1c8e736031ce5943ed5d6d0775c2de59d3721878) → [c22f484833](https://github.com/the-static-collective/the-haunted-toaster/commit/c22f4848334bbcd096537b290f0e6de1e0f9d9cd)
-* **↪ head** What-is-the-static-collective- / main: [a9b2e13875](https://github.com/the-static-collective/What-is-the-static-collective-/commit/a9b2e13875ba653761b1f8e9422f202945f235cd) → [5e0801e416](https://github.com/the-static-collective/What-is-the-static-collective-/commit/5e0801e4168fcea63a662b15f83629c9639f10ac)
+* **+ branch** Human-Witness / [design/maxhinal-13-constellation-001](https://github.com/the-static-collective/Human-Witness/tree/design/maxhinal-13-constellation-001) → `0665e29739`
+* **+ branch** Human-Witness / [implementation/maxhinal-13-001](https://github.com/the-static-collective/Human-Witness/tree/implementation/maxhinal-13-001) → `e7ce02526f`
+* **+ branch** Human-Witness / [implementation/maxhinal-13-issue-4](https://github.com/the-static-collective/Human-Witness/tree/implementation/maxhinal-13-issue-4) → `4f0143fcaf`
+* **+ branch** lemonPRESS / [experiment/manga-parcel-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/manga-parcel-001) → `8ef9b4f3ad`
+* **+ branch** lemonPRESS / [manga-press-001](https://github.com/the-static-collective/lemonPRESS/tree/manga-press-001) → `88978ff88f`
+* **+ branch** planZ / [experiment/fatherhand-grant-chain-residue-001](https://github.com/the-static-collective/planZ/tree/experiment/fatherhand-grant-chain-residue-001) → `e8111fdb64`
+* **+ branch** reLATTE / [docs/webz-005-fatherhand-foundernode](https://github.com/the-static-collective/reLATTE/tree/docs/webz-005-fatherhand-foundernode) → `b2b0bd1937`
+* **+ branch** reLATTE / [experiment/first-contact-001](https://github.com/the-static-collective/reLATTE/tree/experiment/first-contact-001) → `ae3fd0f568`
+* **+ branch** reLATTE / [experiment/manga-parcel-001](https://github.com/the-static-collective/reLATTE/tree/experiment/manga-parcel-001) → `d208d98bd8`
+* **+ branch** reLATTE / [experiment/paperchain-seed-vault-001](https://github.com/the-static-collective/reLATTE/tree/experiment/paperchain-seed-vault-001) → `51372e57b6`
+* **+ branch** reLATTE / [experiment/supabardo-independent-verifier-001](https://github.com/the-static-collective/reLATTE/tree/experiment/supabardo-independent-verifier-001) → `65294f1352`
+* **+ branch** reLATTE / [experiment/supabardo-sb001-001](https://github.com/the-static-collective/reLATTE/tree/experiment/supabardo-sb001-001) → `2b243e6923`
+* **+ branch** reLATTE / [experiment/supabardo-sb002-001](https://github.com/the-static-collective/reLATTE/tree/experiment/supabardo-sb002-001) → `5044bea9d3`
+* **+ branch** reLATTE / [experiment/supabardo-sb003-ark-outlived-world-001](https://github.com/the-static-collective/reLATTE/tree/experiment/supabardo-sb003-ark-outlived-world-001) → `e5b351ef03`
+* **+ branch** reLATTE / [feat/two-host-webz-004-artifact-relay](https://github.com/the-static-collective/reLATTE/tree/feat/two-host-webz-004-artifact-relay) → `aad3662edf`
+* **+ branch** reLATTE / [feat/webz-003-receiver-material-custody](https://github.com/the-static-collective/reLATTE/tree/feat/webz-003-receiver-material-custody) → `743e5705c1`
+* **+ branch** static-os / [experiment/bardo-boot-witness-001](https://github.com/the-static-collective/static-os/tree/experiment/bardo-boot-witness-001) → `17e209cebb`
+* **+ branch** static-os / [experiment/first-physical-boot-001](https://github.com/the-static-collective/static-os/tree/experiment/first-physical-boot-001) → `a4530eaf0b`
+* **+ branch** static-os / [experiment/five-door-boot-witness-001](https://github.com/the-static-collective/static-os/tree/experiment/five-door-boot-witness-001) → `0a446e90d4`
+* **+ branch** static-os / [experiment/life-authoring-open-page-001](https://github.com/the-static-collective/static-os/tree/experiment/life-authoring-open-page-001) → `76ba2d4cdd`
+* **+ branch** static-os / [integration/bardo-bridge-001](https://github.com/the-static-collective/static-os/tree/integration/bardo-bridge-001) → `7f39c43efb`
+* **+ branch** static-os / [integration/bardo-generality-002](https://github.com/the-static-collective/static-os/tree/integration/bardo-generality-002) → `5f178af63b`
+* **+ branch** static-os / [integration/git-bridge-001](https://github.com/the-static-collective/static-os/tree/integration/git-bridge-001) → `2f9756a464`
+* **+ branch** static-os / [integration/persistent-root-001](https://github.com/the-static-collective/static-os/tree/integration/persistent-root-001) → `2d019d5e1a`
+* **+ branch** static-os / [integration/whole-body-001](https://github.com/the-static-collective/static-os/tree/integration/whole-body-001) → `34f5529279`
+* **+ branch** static-workbench / [docs/webz-native-001-workbench](https://github.com/the-static-collective/static-workbench/tree/docs/webz-native-001-workbench) → `f2b514d1ac`
+* **+ branch** static-workbench / [feat/webz-003-independent-byte-custody](https://github.com/the-static-collective/static-workbench/tree/feat/webz-003-independent-byte-custody) → `cb3b0243ef`
+* **+ branch** static-workbench / [feat/webz-relatte-002-first-sovereign-parcel](https://github.com/the-static-collective/static-workbench/tree/feat/webz-relatte-002-first-sovereign-parcel) → `6e5eda2fb5`
+* **+ branch** STORYSHIP / [proposal/life-ship-narrative-navigation-001](https://github.com/the-static-collective/STORYSHIP/tree/proposal/life-ship-narrative-navigation-001) → `7f13a438d8`
+* **+ branch** the-haunted-blender / [integration/franken-blender-008n-particular-to-performance](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008n-particular-to-performance) → `e46a381f9b`
+* **+ branch** the-haunted-blender / [integration/franken-blender-008o-page-five-manga-film](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008o-page-five-manga-film) → `0961569c92`
+* **+ branch** the-haunted-blender / [integration/franken-blender-008p-owned-pixel-manga-film](https://github.com/the-static-collective/the-haunted-blender/tree/integration/franken-blender-008p-owned-pixel-manga-film) → `4e3f098d32`
+* **+ branch** the-haunted-blender / [integration/mangalize-001-first-class-verb](https://github.com/the-static-collective/the-haunted-blender/tree/integration/mangalize-001-first-class-verb) → `268d31f4a5`
+* **+ branch** the-haunted-blender / [integration/mangalize-002-quarantine-release](https://github.com/the-static-collective/the-haunted-blender/tree/integration/mangalize-002-quarantine-release) → `8b4f7da114`
+* **+ branch** the-haunted-blender / [integration/mangalize-003-performed-use](https://github.com/the-static-collective/the-haunted-blender/tree/integration/mangalize-003-performed-use) → `736dc0eba0`
+* **+ branch** the-haunted-blender / [integration/mangalize-004-pixel-execution](https://github.com/the-static-collective/the-haunted-blender/tree/integration/mangalize-004-pixel-execution) → `49e9400d37`
+* **+ branch** the-haunted-blender / [integration/mangalize-005-presentation-ground](https://github.com/the-static-collective/the-haunted-blender/tree/integration/mangalize-005-presentation-ground) → `cf0256a49a`
+* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-024-mutation-distance](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-024-mutation-distance) → `bf9e31444f`
+* **+ branch** the-haunted-toaster / [experiment/supabardo-sb002-proposal-001](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/supabardo-sb002-proposal-001) → `2c86d68413`
+* **+ branch** tranchnode / [experiment/fatherhand-grant-chain-001](https://github.com/the-static-collective/tranchnode/tree/experiment/fatherhand-grant-chain-001) → `534e3dc5be`
+* **+ branch** tranchNOSE / [experiment/field-lab-001](https://github.com/the-static-collective/tranchNOSE/tree/experiment/field-lab-001) → `670ca60012`
+* **+ branch** webZ / [design/webz-maxhinal-porch-001](https://github.com/the-static-collective/webZ/tree/design/webz-maxhinal-porch-001) → `b487aab92a`
+* **+ branch** webZ / [feat/first-encounter-002](https://github.com/the-static-collective/webZ/tree/feat/first-encounter-002) → `8153c60393`
+* **+ branch** webZ / [feat/offline-sovereign-porch](https://github.com/the-static-collective/webZ/tree/feat/offline-sovereign-porch) → `659166135f`
+* **+ branch** webZ / [main](https://github.com/the-static-collective/webZ/tree/main) → `b6b9897bfd`
+* **↪ head** planZ / experiment/heart-001-fatherhand-combinatrix: [267dafc3a8](https://github.com/the-static-collective/planZ/commit/267dafc3a841e0699d750af9c366fac704522ad5) → [bc0ae32e0a](https://github.com/the-static-collective/planZ/commit/bc0ae32e0abb22cda53cc197acd6d14429fee6fa)
+* **↪ head** reLATTE / main: [87006f3265](https://github.com/the-static-collective/reLATTE/commit/87006f3265103a8abe387d81597c58aeb39b0beb) → [dcc8cdca84](https://github.com/the-static-collective/reLATTE/commit/dcc8cdca84c440aa4294134f020fb7095bf87f24)
+* **↪ head** static-workbench / main: [43cfb81311](https://github.com/the-static-collective/static-workbench/commit/43cfb81311ee0c802959d663edfe4547684955d2) → [53db559bbc](https://github.com/the-static-collective/static-workbench/commit/53db559bbc510ad1003a0f8330d1673dcd04d7a0)
+* **↪ head** STORYSHIP / main: [65ddacde83](https://github.com/the-static-collective/STORYSHIP/commit/65ddacde838f66909955007103efc365f35caf08) → [daa2f4c551](https://github.com/the-static-collective/STORYSHIP/commit/daa2f4c551ed612727660407105465645f95a9d7)
+* **↪ head** the-haunted-blender / integration/franken-blender-008m-manga-anime-grammar-atlas: [223f0e9434](https://github.com/the-static-collective/the-haunted-blender/commit/223f0e943430bace62238e45a63c511984986444) → [367e8c0f6c](https://github.com/the-static-collective/the-haunted-blender/commit/367e8c0f6cc7c68c453ff1e5081180976af51858)
+* **↪ head** What-is-the-static-collective- / main: [5e0801e416](https://github.com/the-static-collective/What-is-the-static-collective-/commit/5e0801e4168fcea63a662b15f83629c9639f10ac) → [e17d0a3ae2](https://github.com/the-static-collective/What-is-the-static-collective-/commit/e17d0a3ae2c6e04c4a627011f666abb75ff8da4c)
 
 ## Open pull-request set
 
-* **+ open PR** [Dogram #181 — Sparse Ice Probe 001: adaptive exact-region receipts](https://github.com/the-static-collective/Dogram/pull/181)
-* **+ open PR** [DVOTE #8 — DOOR PACKET 001 — import is not crossing](https://github.com/the-static-collective/DVOTE/pull/8)
-* **+ open PR** [full-measure-world-layer #52 — TENET-ARPG-002: make consequential history a walkable frontier](https://github.com/the-static-collective/full-measure-world-layer/pull/52)
-* **+ open PR** [GHoT #65 — SPARSE ICE FIELD 001: exact-region distributed Ice Cube work](https://github.com/the-static-collective/GHoT/pull/65)
-* **+ open PR** [GHoT #66 — MINERAL FIELD 001: generalize useful-work mining beyond Ice Cubes](https://github.com/the-static-collective/GHoT/pull/66)
-* **+ open PR** [GHoT #67 — GrO Mineral bridge: exact native verification and bounded export](https://github.com/the-static-collective/GHoT/pull/67)
-* **+ open PR** [GHoT #69 — INSTRUMENT-RACK-001: capability cards and portable seed packets](https://github.com/the-static-collective/GHoT/pull/69)
-* **+ open PR** [GHoT #70 — COMPOST-BREEDER-001: history → six futures → KEEP → seed → generation 2](https://github.com/the-static-collective/GHoT/pull/70)
-* **+ open PR** [GOATnote #11 — STAIRCASE 001 / GOATedges — relations have birthdays](https://github.com/the-static-collective/GOATnote/pull/11)
-* **+ open PR** [GOATnote #12 — TIME-CUT 001 — same Room, different staircases](https://github.com/the-static-collective/GOATnote/pull/12)
-* **+ open PR** [GrO #15 — MINERAL WORLD-SEED 001: close play → compute → artifact → play](https://github.com/the-static-collective/GrO/pull/15)
-* **+ open PR** [GrO #16 — FORK GARDEN 001: three Mineral branches, selective recombination](https://github.com/the-static-collective/GrO/pull/16)
-* **+ open PR** [GrO #17 — DOOR PACKET 001 — sovereign local admission of portable Scripture doors](https://github.com/the-static-collective/GrO/pull/17)
-* **+ open PR** [iron-lung #7 — HEART-001: deterministic combinatrix consequence specimen](https://github.com/the-static-collective/iron-lung/pull/7)
-* **+ open PR** [national-treasure #84 — Clue: Jubilee Quarter 001 — the Bell was Jubilee before it was Liberty](https://github.com/the-static-collective/national-treasure/pull/84)
-* **+ open PR** [planZ #2 — PLANZ-001: define the Global Plan Census](https://github.com/the-static-collective/planZ/pull/2)
-* **+ open PR** [planZ #4 — PLANZ-002: CENSUS → SENSES mutation engine](https://github.com/the-static-collective/planZ/pull/4)
-* **+ open PR** [planZ #6 — PLANZ-003: REMAINS → INSTRUMENTS](https://github.com/the-static-collective/planZ/pull/6)
-* **+ open PR** [planZ #8 — ARROW-001: make transitions first-class](https://github.com/the-static-collective/planZ/pull/8)
-* **+ open PR** [planZ #9 — HEART-001: refuse Fatherhand, admit Heart-Lung](https://github.com/the-static-collective/planZ/pull/9)
-* **+ open PR** [reLATTE #49 — Useful Work Kernel 008 — scoped availability / serving evidence](https://github.com/the-static-collective/reLATTE/pull/49)
-* **+ open PR** [reLATTE #50 — Useful Work Kernel 009 — measured resource adapters without causation or value](https://github.com/the-static-collective/reLATTE/pull/50)
-* **+ open PR** [reLATTE #51 — Kernel 010: Offer / Acceptance / Settlement Receipt](https://github.com/the-static-collective/reLATTE/pull/51)
-* **+ open PR** [reLATTE #52 — DOOR POST 001 — one Scripture door, three sovereign worlds, no merger](https://github.com/the-static-collective/reLATTE/pull/52)
-* **+ open PR** [reLATTE #53 — Useful Work Field Test 001: Two Worlds Trade](https://github.com/the-static-collective/reLATTE/pull/53)
-* **+ open PR** [reLATTE #54 — Useful Work Field Test 002: Crossing the Wire](https://github.com/the-static-collective/reLATTE/pull/54)
-* **+ open PR** [reLATTE #55 — Field Test 003: Discover doors and cross by explicit local choice](https://github.com/the-static-collective/reLATTE/pull/55)
-* **+ open PR** [revival #13 — DOOR PACKET 001 — hold external Scripture doors without source promotion](https://github.com/the-static-collective/revival/pull/13)
-* **+ open PR** [static-os #34 — Condition field / world fork 001 — fork experiments, hold all, recombine without causality](https://github.com/the-static-collective/static-os/pull/34)
-* **+ open PR** [static-os #35 — STATIC-2012-001: make old hardware a sovereign field station](https://github.com/the-static-collective/static-os/pull/35)
-* **+ open PR** [the-daily-slice #79 — Daily Slice: The Charter Under the Bell — 1701 all the way down](https://github.com/the-static-collective/the-daily-slice/pull/79)
-* **+ open PR** [the-haunted-blender #40 — FRANKEN BLENDER 003: DREAMBREEDER possibility ecology + ghosts + recombination](https://github.com/the-static-collective/the-haunted-blender/pull/40)
-* **+ open PR** [the-haunted-blender #41 — FRANKEN BLENDER 004: compile six unborn films into deterministic cutout previews](https://github.com/the-static-collective/the-haunted-blender/pull/41)
-* **+ open PR** [the-haunted-blender #42 — FRANKEN BLENDER 005: live GHoT Compost Breeder six-up adapter](https://github.com/the-static-collective/the-haunted-blender/pull/42)
-* **+ open PR** [the-haunted-blender #43 — FRANKEN BLENDER 005: KEEP → timed scene → rare accepted awakening](https://github.com/the-static-collective/the-haunted-blender/pull/43)
-* **+ open PR** [the-haunted-blender #44 — FRANKEN BLENDER 006: provider-agnostic Motion Organ Router](https://github.com/the-static-collective/the-haunted-blender/pull/44)
-* **+ open PR** [the-haunted-blender #45 — FRANKEN BLENDER 007: Motion Atlas execution journal + safe failover](https://github.com/the-static-collective/the-haunted-blender/pull/45)
-* **+ open PR** [the-haunted-blender #46 — FRANKEN BLENDER 007b: Motion Atlas Black Box telemetry](https://github.com/the-static-collective/the-haunted-blender/pull/46)
-* **+ open PR** [the-haunted-blender #47 — FRANKEN BLENDER 008: Cockpit usability layer](https://github.com/the-static-collective/the-haunted-blender/pull/47)
-* **+ open PR** [the-haunted-blender #48 — FRANKEN BLENDER 008a: local Visual Cockpit](https://github.com/the-static-collective/the-haunted-blender/pull/48)
-* **+ open PR** [the-haunted-blender #49 — FRANKEN BLENDER 008b: automatic GROW KEEP AWAKEN PLAY crossings](https://github.com/the-static-collective/the-haunted-blender/pull/49)
-* **+ open PR** [the-haunted-blender #50 — FRANKEN BLENDER 008c: provider driver, exact quote, submit-once, human KEEP](https://github.com/the-static-collective/the-haunted-blender/pull/50)
-* **+ open PR** [the-haunted-blender #51 — FRANKEN BLENDER 008d: plugin orchard, live routing, and connector bridge](https://github.com/the-static-collective/the-haunted-blender/pull/51)
-* **+ open PR** [the-haunted-blender #52 — FRANKEN BLENDER 008e: zero-dollar full-song film mill](https://github.com/the-static-collective/the-haunted-blender/pull/52)
-* **+ open PR** [the-haunted-blender #53 — FRANKEN BLENDER 008f: weakest-window doctor and zero-dollar treatment loop](https://github.com/the-static-collective/the-haunted-blender/pull/53)
-* **+ open PR** [the-haunted-blender #54 — FRANKEN BLENDER 008g: cutout puppet factory, lyric geography, and cutaway machine](https://github.com/the-static-collective/the-haunted-blender/pull/54)
-* **+ open PR** [the-haunted-blender #55 — FRANKEN BLENDER 008h: parts harvester, junk drawer, and behavior transplant](https://github.com/the-static-collective/the-haunted-blender/pull/55)
-* **+ open PR** [the-haunted-blender #56 — FRANKEN BLENDER 008i: moving harvested video surfaces inside the puppet world](https://github.com/the-static-collective/the-haunted-blender/pull/56)
-* **+ open PR** [the-haunted-blender #57 — FRANKEN BLENDER 008j: Paper Director and zero-dollar shot grammar](https://github.com/the-static-collective/the-haunted-blender/pull/57)
-* **+ open PR** [the-haunted-blender #58 — FRANKEN BLENDER 008k: ensemble stage, dialogue turns, and character-aware direction](https://github.com/the-static-collective/the-haunted-blender/pull/58)
-* **+ open PR** [the-haunted-blender #59 — FRANKEN BLENDER 008l: material surface grammar for tactile paper worlds](https://github.com/the-static-collective/the-haunted-blender/pull/59)
-* **+ open PR** [the-haunted-blender #60 — FRANKEN BLENDER 008m: manga/anime grammar atlas and rights-aware page harvest](https://github.com/the-static-collective/the-haunted-blender/pull/60)
-* **+ open PR** [the-haunted-toaster #334 — NEXTGEN-TOASTER-011: full-song ONE PASS + section-snapped macroform](https://github.com/the-static-collective/the-haunted-toaster/pull/334)
-* **+ open PR** [the-haunted-toaster #336 — NEXTGEN-TOASTER-012A: make the full-song editor hear](https://github.com/the-static-collective/the-haunted-toaster/pull/336)
-* **+ open PR** [the-haunted-toaster #337 — NEXTGEN-TOASTER-013: history compost — rendered fossils survive re-entry](https://github.com/the-static-collective/the-haunted-toaster/pull/337)
-* **+ open PR** [the-haunted-toaster #338 — NEXTGEN-TOASTER-012B: WORDPARK 001 text-as-geometry performance core](https://github.com/the-static-collective/the-haunted-toaster/pull/338)
-* **+ open PR** [the-haunted-toaster #340 — LISTENER-ONEPASS-001A: painless lyric placement](https://github.com/the-static-collective/the-haunted-toaster/pull/340)
-* **+ open PR** [the-haunted-toaster #341 — LISTENER-ONEPASS-001B: playable WORDPARK surface](https://github.com/the-static-collective/the-haunted-toaster/pull/341)
-* **+ open PR** [the-haunted-toaster #342 — NEXTGEN-TOASTER-011: performance becomes program](https://github.com/the-static-collective/the-haunted-toaster/pull/342)
-* **+ open PR** [the-haunted-toaster #343 — NEXTGEN-TOASTER-012: real pixel resume](https://github.com/the-static-collective/the-haunted-toaster/pull/343)
-* **+ open PR** [the-haunted-toaster #344 — NEXTGEN-TOASTER-013W: Weirdness Compiler](https://github.com/the-static-collective/the-haunted-toaster/pull/344)
-* **+ open PR** [the-haunted-toaster #345 — NEXTGEN-TOASTER-013: bound media × sparse transport](https://github.com/the-static-collective/the-haunted-toaster/pull/345)
-* **+ open PR** [the-haunted-toaster #346 — NEXTGEN-TOASTER-014: law fossils](https://github.com/the-static-collective/the-haunted-toaster/pull/346)
-* **+ open PR** [the-haunted-toaster #347 — NEXTGEN-TOASTER-015: transition energy](https://github.com/the-static-collective/the-haunted-toaster/pull/347)
-* **+ open PR** [the-haunted-toaster #348 — NEXTGEN-TOASTER-016: creative weather](https://github.com/the-static-collective/the-haunted-toaster/pull/348)
-* **+ open PR** [the-haunted-toaster #349 — NEXTGEN-TOASTER-017: recurrence weather](https://github.com/the-static-collective/the-haunted-toaster/pull/349)
-* **+ open PR** [the-haunted-toaster #350 — NEXTGEN-TOASTER-018: possibility map](https://github.com/the-static-collective/the-haunted-toaster/pull/350)
-* **+ open PR** [the-haunted-toaster #351 — NEXTGEN-TOASTER-019: playable terrain](https://github.com/the-static-collective/the-haunted-toaster/pull/351)
-* **+ open PR** [the-haunted-toaster #352 — NEXTGEN-TOASTER-020: execution custody](https://github.com/the-static-collective/the-haunted-toaster/pull/352)
-* **+ open PR** [the-haunted-toaster #353 — NEXTGEN-TOASTER-021: artifact adoption](https://github.com/the-static-collective/the-haunted-toaster/pull/353)
-* **+ open PR** [the-haunted-toaster #354 — NEXTGEN-TOASTER-022: adopted artifact promotion](https://github.com/the-static-collective/the-haunted-toaster/pull/354)
-* **+ open PR** [the-haunted-toaster #355 — NEXTGEN-TOASTER-023: generational ecology](https://github.com/the-static-collective/the-haunted-toaster/pull/355)
-* **+ open PR** [Upper-room #11 — DOOR PACKET 001 — emit a room-safe Scripture door](https://github.com/the-static-collective/Upper-room/pull/11)
-* **+ open PR** [What-is-the-static-collective- #99 — CONSEQUENCE SEQUENCE — residue, re-entry, and future possibility](https://github.com/the-static-collective/What-is-the-static-collective-/pull/99)
+* **+ open PR** [Human-Witness #3 — MAXHINAL-13: design the misfit sovereign Supabase constellation](https://github.com/the-static-collective/Human-Witness/pull/3)
+* **+ open PR** [Human-Witness #5 — MAXHINAL-13: secure operator, durable transport replay and SINEW/PNEUMA](https://github.com/the-static-collective/Human-Witness/pull/5)
+* **+ open PR** [lemonPRESS #23 — MANGA PRESS 001 — page, issue, print, and performance handoff](https://github.com/the-static-collective/lemonPRESS/pull/23)
+* **+ open PR** [lemonPRESS #24 — Manga Parcel 001 — National Treasure Seed Zero](https://github.com/the-static-collective/lemonPRESS/pull/24)
+* **+ open PR** [planZ #10 — FATHERHAND-RESIDUE-001: activate grant-chain validator residue](https://github.com/the-static-collective/planZ/pull/10)
+* **+ open PR** [reLATTE #56 — Manga Parcel 001 — generic crossing witness](https://github.com/the-static-collective/reLATTE/pull/56)
+* **+ open PR** [reLATTE #57 — SB-001: prove the destructible unresolved crossing](https://github.com/the-static-collective/reLATTE/pull/57)
+* **+ open PR** [reLATTE #58 — SB-002: prove a creative proposal can cross without becoming KEEP](https://github.com/the-static-collective/reLATTE/pull/58)
+* **+ open PR** [reLATTE #59 — SB-003: prove continuity without identity inheritance](https://github.com/the-static-collective/reLATTE/pull/59)
+* **+ open PR** [reLATTE #60 — SupaBardo: independently verify SB-001 through SB-003 in Python](https://github.com/the-static-collective/reLATTE/pull/60)
+* **+ open PR** [reLATTE #62 — FIRST-CONTACT-001 — loopback network crossing with signed sovereign return](https://github.com/the-static-collective/reLATTE/pull/62)
+* **+ open PR** [reLATTE #65 — PAPERCHAIN: held seed + Fatherhand capacity + explicit PLANT → child custody](https://github.com/the-static-collective/reLATTE/pull/65)
+* **+ open PR** [reLATTE #66 — WEBZ-005: executable FatherHand seed kernel and FounderNode trust root](https://github.com/the-static-collective/reLATTE/pull/66)
+* **+ open PR** [static-os #36 — FIRST-PHYSICAL-BOOT-001: earn the cold USB boot claim](https://github.com/the-static-collective/static-os/pull/36)
+* **+ open PR** [static-os #37 — GIT-BRIDGE-001: explicit project ingress and egress](https://github.com/the-static-collective/static-os/pull/37)
+* **+ open PR** [static-os #38 — WHOLE-BODY-001: boot STATIC OS around the unresolved crossing seam](https://github.com/the-static-collective/static-os/pull/38)
+* **+ open PR** [static-os #39 — PERSISTENT-ROOT-001: survive cold death without inventing continuity](https://github.com/the-static-collective/static-os/pull/39)
+* **+ open PR** [static-os #40 — BARDO-BRIDGE-001: pin the destructible SB-001 seam](https://github.com/the-static-collective/static-os/pull/40)
+* **+ open PR** [static-os #41 — BARDO-GENERALITY-002: pin the second-family SupaBardo proof](https://github.com/the-static-collective/static-os/pull/41)
+* **+ open PR** [static-os #42 — BARDO-BOOT-WITNESS-001: carry INVITATION through mandatory HOLD](https://github.com/the-static-collective/static-os/pull/42)
+* **+ open PR** [static-os #44 — LIFE-AUTHORING-OS-001: Open Page 001 → 002 roundtrip](https://github.com/the-static-collective/static-os/pull/44)
+* **+ open PR** [static-os #45 — FIVE-DOOR-BOOT-WITNESS-001: preserve one unresolved LIFE constellation](https://github.com/the-static-collective/static-os/pull/45)
+* **+ open PR** [the-haunted-blender #61 — FRANKEN BLENDER 008n: particular-to-performance narrative custody](https://github.com/the-static-collective/the-haunted-blender/pull/61)
+* **+ open PR** [the-haunted-blender #62 — FRANKEN BLENDER 008o: render Page Five as an audible manga film](https://github.com/the-static-collective/the-haunted-blender/pull/62)
+* **+ open PR** [the-haunted-blender #63 — FRANKEN BLENDER 008p: owned pixels enter the Page Five manga film](https://github.com/the-static-collective/the-haunted-blender/pull/63)
+* **+ open PR** [the-haunted-blender #64 — MANGALIZE-001: first-class verb event with origin-preserving harvest-only quarry](https://github.com/the-static-collective/the-haunted-blender/pull/64)
+* **+ open PR** [the-haunted-blender #65 — MANGALIZE-002: quarantine release through exact later reuse/derivative authority](https://github.com/the-static-collective/the-haunted-blender/pull/65)
+* **+ open PR** [the-haunted-blender #66 — MANGALIZE-003: separately admitted performed use with complete ancestry](https://github.com/the-static-collective/the-haunted-blender/pull/66)
+* **+ open PR** [the-haunted-blender #67 — MANGALIZE-004: separately admitted deterministic static pixel execution](https://github.com/the-static-collective/the-haunted-blender/pull/67)
+* **+ open PR** [the-haunted-blender #68 — MANGALIZE-005: separately authored black presentation ground with preserved page ancestry](https://github.com/the-static-collective/the-haunted-blender/pull/68)
+* **+ open PR** [the-haunted-toaster #356 — NEXTGEN-TOASTER-024: mutation distance](https://github.com/the-static-collective/the-haunted-toaster/pull/356)
+* **+ open PR** [the-haunted-toaster #357 — SB-002 source: cross one creative proposal without KEEP](https://github.com/the-static-collective/the-haunted-toaster/pull/357)
+* **+ open PR** [tranchnode #79 — FATHERHAND-001: grant-chain validator + Paperchain PLANT capacity witness](https://github.com/the-static-collective/tranchnode/pull/79)
+* **+ open PR** [tranchNOSE #10 — FIELD-LAB-001: bounded relational perturbation instrument](https://github.com/the-static-collective/tranchNOSE/pull/10)
+* **+ open PR** [webZ #4 — feat: begin FIRST-ENCOUNTER-002 invitation and signed-return preflight](https://github.com/the-static-collective/webZ/pull/4)
 
 The machine-readable companion is [delta.json](delta.json).
 For current status, follow the project source; DELTA is a witness of movement,

@@ -333,12 +333,22 @@ Default: `main` · other refs: 78 · open PRs: 17
 
 [Repository](https://github.com/the-static-collective/Human-Witness) · [Branches](https://github.com/the-static-collective/Human-Witness/branches) · [Pull requests](https://github.com/the-static-collective/Human-Witness/pulls)
 
-Default: `main` · other refs: 1 · open PRs: 0
+Default: `main` · other refs: 4 · open PRs: 2
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#5](https://github.com/the-static-collective/Human-Witness/pull/5) | MAXHINAL-13: secure operator, durable transport replay and SINEW/PNEUMA | `implementation/maxhinal-13-issue-4` → `implementation/maxhinal-13-001` | 2026-10-07 |
+| [#3](https://github.com/the-static-collective/Human-Witness/pull/3) | MAXHINAL-13: design the misfit sovereign Supabase constellation | `design/maxhinal-13-constellation-001` → `main` | 2026-10-07 |
 
 ### Retained nondefault branches
 
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
+| [design/maxhinal-13-constellation-001](https://github.com/the-static-collective/Human-Witness/tree/design/maxhinal-13-constellation-001) | [0665e29739](https://github.com/the-static-collective/Human-Witness/commit/0665e29739e5cd5c597eb7f9d5b83aa7e713a962) | [open PR #3](https://github.com/the-static-collective/Human-Witness/pull/3) |
+| [implementation/maxhinal-13-001](https://github.com/the-static-collective/Human-Witness/tree/implementation/maxhinal-13-001) | [e7ce02526f](https://github.com/the-static-collective/Human-Witness/commit/e7ce02526f900b6f1aca42e0d7e0124f0e6ca53c) | Retained ref; disposition unverified |
+| [implementation/maxhinal-13-issue-4](https://github.com/the-static-collective/Human-Witness/tree/implementation/maxhinal-13-issue-4) | [4f0143fcaf](https://github.com/the-static-collective/Human-Witness/commit/4f0143fcaf44dfe249ea7f2c769e7b39fed4dbfd) | [open PR #5](https://github.com/the-static-collective/Human-Witness/pull/5) |
 | [seed/human-witness-v0.1](https://github.com/the-static-collective/Human-Witness/tree/seed/human-witness-v0.1) | [117b29c366](https://github.com/the-static-collective/Human-Witness/commit/117b29c36610e331c0585795bd8bafeef9be5650) | Retained ref; disposition unverified |
 
 ## GOATnote

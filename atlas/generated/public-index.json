@@ -3410,7 +3410,7 @@
           "head_sha": "3d64e5d486d9324ec6086da69889a81ab2e48cd8",
           "head_repo": "the-static-collective/GHoT",
           "base_branch": "main",
-          "updated_at": "2026-10-05T21:34:25Z",
+          "updated_at": "2026-10-07T01:29:19Z",
           "url": "https://github.com/the-static-collective/GHoT/pull/69"
         },
         {
@@ -4260,6 +4260,18 @@
       "archived": false,
       "branches": [
         {
+          "name": "design/maxhinal-13-constellation-001",
+          "sha": "0665e29739e5cd5c597eb7f9d5b83aa7e713a962"
+        },
+        {
+          "name": "implementation/maxhinal-13-001",
+          "sha": "e7ce02526f900b6f1aca42e0d7e0124f0e6ca53c"
+        },
+        {
+          "name": "implementation/maxhinal-13-issue-4",
+          "sha": "4f0143fcaf44dfe249ea7f2c769e7b39fed4dbfd"
+        },
+        {
           "name": "main",
           "sha": "6c30bae1896db52bdb387d25b9ee577e0542e055"
         },
@@ -4268,7 +4280,28 @@
           "sha": "117b29c36610e331c0585795bd8bafeef9be5650"
         }
       ],
-      "open_prs": []
+      "open_prs": [
+        {
+          "number": 5,
+          "title": "MAXHINAL-13: secure operator, durable transport replay and SINEW/PNEUMA",
+          "head_branch": "implementation/maxhinal-13-issue-4",
+          "head_sha": "4f0143fcaf44dfe249ea7f2c769e7b39fed4dbfd",
+          "head_repo": "the-static-collective/Human-Witness",
+          "base_branch": "implementation/maxhinal-13-001",
+          "updated_at": "2026-10-07T03:57:54Z",
+          "url": "https://github.com/the-static-collective/Human-Witness/pull/5"
+        },
+        {
+          "number": 3,
+          "title": "MAXHINAL-13: design the misfit sovereign Supabase constellation",
+          "head_branch": "design/maxhinal-13-constellation-001",
+          "head_sha": "0665e29739e5cd5c597eb7f9d5b83aa7e713a962",
+          "head_repo": "the-static-collective/Human-Witness",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T01:26:21Z",
+          "url": "https://github.com/the-static-collective/Human-Witness/pull/3"
+        }
+      ]
     },
     {
       "name": "iron-lung",
@@ -4533,6 +4566,10 @@
           "sha": "b32083a712e2f9020dea95d09c3ba24e12addb0f"
         },
         {
+          "name": "experiment/manga-parcel-001",
+          "sha": "8ef9b4f3adcb85504937f962a1c6f2dd2e5f6296"
+        },
+        {
           "name": "forage/letters-not-shared-memory-001",
           "sha": "7eee545f43879f1f5d636cce4d9c402d6f58c3fc"
         },
@@ -4555,6 +4592,10 @@
         {
           "name": "main",
           "sha": "02feb4454240d482a5e0e03258f24f8b5cc0b9f5"
+        },
+        {
+          "name": "manga-press-001",
+          "sha": "88978ff88f9b07a72040976b426b04afc2abd835"
         },
         {
           "name": "physical-composer-001",
@@ -4650,6 +4691,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 24,
+          "title": "Manga Parcel 001 — National Treasure Seed Zero",
+          "head_branch": "experiment/manga-parcel-001",
+          "head_sha": "8ef9b4f3adcb85504937f962a1c6f2dd2e5f6296",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T00:22:36Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/24"
+        },
+        {
+          "number": 23,
+          "title": "MANGA PRESS 001 — page, issue, print, and performance handoff",
+          "head_branch": "manga-press-001",
+          "head_sha": "88978ff88f9b07a72040976b426b04afc2abd835",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "press/physical",
+          "updated_at": "2026-10-06T17:30:48Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/23"
+        },
         {
           "number": 22,
           "title": "SUNO PANTRY INTAKE 001 — batch stems and dramatic readings",
@@ -5436,8 +5497,12 @@
       "archived": false,
       "branches": [
         {
+          "name": "experiment/fatherhand-grant-chain-residue-001",
+          "sha": "e8111fdb64c5587b33aece0fed639ed3d03375ac"
+        },
+        {
           "name": "experiment/heart-001-fatherhand-combinatrix",
-          "sha": "267dafc3a841e0699d750af9c366fac704522ad5"
+          "sha": "bc0ae32e0abb22cda53cc197acd6d14429fee6fa"
         },
         {
           "name": "feat/census-senses-mutation-002",
@@ -5462,13 +5527,23 @@
       ],
       "open_prs": [
         {
+          "number": 10,
+          "title": "FATHERHAND-RESIDUE-001: activate grant-chain validator residue",
+          "head_branch": "experiment/fatherhand-grant-chain-residue-001",
+          "head_sha": "e8111fdb64c5587b33aece0fed639ed3d03375ac",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "experiment/heart-001-fatherhand-combinatrix",
+          "updated_at": "2026-10-06T14:28:47Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/10"
+        },
+        {
           "number": 9,
           "title": "HEART-001: refuse Fatherhand, admit Heart-Lung",
           "head_branch": "experiment/heart-001-fatherhand-combinatrix",
-          "head_sha": "267dafc3a841e0699d750af9c366fac704522ad5",
+          "head_sha": "bc0ae32e0abb22cda53cc197acd6d14429fee6fa",
           "head_repo": "the-static-collective/planZ",
           "base_branch": "feat/transition-receipts-003-1",
-          "updated_at": "2026-10-06T14:09:36Z",
+          "updated_at": "2026-10-06T14:10:44Z",
           "url": "https://github.com/the-static-collective/planZ/pull/9"
         },
         {
@@ -5793,8 +5868,24 @@
           "sha": "442bc190f2dc8817c79f5701f1445dd43cdbe188"
         },
         {
+          "name": "docs/webz-005-fatherhand-foundernode",
+          "sha": "b2b0bd1937ec93230b43dc36c3c0ca846f4820b3"
+        },
+        {
           "name": "ecology-machine-001",
           "sha": "8446ed84dfe197690f98dee991bb206d881dfef4"
+        },
+        {
+          "name": "experiment/first-contact-001",
+          "sha": "ae3fd0f56860683245dfd27ff32edf64311046bf"
+        },
+        {
+          "name": "experiment/manga-parcel-001",
+          "sha": "d208d98bd88194cbd42c90379816b1167248595f"
+        },
+        {
+          "name": "experiment/paperchain-seed-vault-001",
+          "sha": "51372e57b6c1f5647621ea805f6f983b5ac28597"
         },
         {
           "name": "experiment/physical-custody-power-split-001",
@@ -5803,6 +5894,22 @@
         {
           "name": "experiment/physical-custody-roundtrip-002",
           "sha": "87006f3265103a8abe387d81597c58aeb39b0beb"
+        },
+        {
+          "name": "experiment/supabardo-independent-verifier-001",
+          "sha": "65294f135260ee48b38829f698598dfe3478b0e7"
+        },
+        {
+          "name": "experiment/supabardo-sb001-001",
+          "sha": "2b243e69230f9bccbf947fc827c664203e240550"
+        },
+        {
+          "name": "experiment/supabardo-sb002-001",
+          "sha": "5044bea9d30c9ee1c6c318c4a2c9113d2d2eb780"
+        },
+        {
+          "name": "experiment/supabardo-sb003-ark-outlived-world-001",
+          "sha": "e5b351ef0391fea53d7d3ff22ceadd47d5114b26"
         },
         {
           "name": "external-checkpoint-001",
@@ -5901,6 +6008,10 @@
           "sha": "ef6a8e6c7fa55f79cad8eeff13f71391709aeebd"
         },
         {
+          "name": "feat/two-host-webz-004-artifact-relay",
+          "sha": "aad3662edf04953e7c63cd66dccf40fd602e86fc"
+        },
+        {
           "name": "feat/useful-work-field-test-001",
           "sha": "e58d199b39b844d79e29699c620babeba6a33bad"
         },
@@ -5961,6 +6072,10 @@
           "sha": "6e4b2c9c3a3acaf82989148cf07aa0b3999563d6"
         },
         {
+          "name": "feat/webz-003-receiver-material-custody",
+          "sha": "743e5705c1e397c40aff82960e361d0b36eb11a5"
+        },
+        {
           "name": "field-consequence-001",
           "sha": "5a8724d0624fb32b142d0901a3a378df26a5f9a9"
         },
@@ -5970,7 +6085,7 @@
         },
         {
           "name": "main",
-          "sha": "87006f3265103a8abe387d81597c58aeb39b0beb"
+          "sha": "dcc8cdca84c440aa4294134f020fb7095bf87f24"
         },
         {
           "name": "mirror-store-serve-001",
@@ -6018,6 +6133,86 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 66,
+          "title": "WEBZ-005: executable FatherHand seed kernel and FounderNode trust root",
+          "head_branch": "docs/webz-005-fatherhand-foundernode",
+          "head_sha": "b2b0bd1937ec93230b43dc36c3c0ca846f4820b3",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T10:35:02Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/66"
+        },
+        {
+          "number": 65,
+          "title": "PAPERCHAIN: held seed + Fatherhand capacity + explicit PLANT → child custody",
+          "head_branch": "experiment/paperchain-seed-vault-001",
+          "head_sha": "51372e57b6c1f5647621ea805f6f983b5ac28597",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T07:26:00Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/65"
+        },
+        {
+          "number": 62,
+          "title": "FIRST-CONTACT-001 — loopback network crossing with signed sovereign return",
+          "head_branch": "experiment/first-contact-001",
+          "head_sha": "ae3fd0f56860683245dfd27ff32edf64311046bf",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T03:22:19Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/62"
+        },
+        {
+          "number": 60,
+          "title": "SupaBardo: independently verify SB-001 through SB-003 in Python",
+          "head_branch": "experiment/supabardo-independent-verifier-001",
+          "head_sha": "65294f135260ee48b38829f698598dfe3478b0e7",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/supabardo-sb002-001",
+          "updated_at": "2026-10-07T00:49:19Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/60"
+        },
+        {
+          "number": 59,
+          "title": "SB-003: prove continuity without identity inheritance",
+          "head_branch": "experiment/supabardo-sb003-ark-outlived-world-001",
+          "head_sha": "e5b351ef0391fea53d7d3ff22ceadd47d5114b26",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/supabardo-sb001-001",
+          "updated_at": "2026-10-07T00:26:27Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/59"
+        },
+        {
+          "number": 58,
+          "title": "SB-002: prove a creative proposal can cross without becoming KEEP",
+          "head_branch": "experiment/supabardo-sb002-001",
+          "head_sha": "5044bea9d30c9ee1c6c318c4a2c9113d2d2eb780",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/supabardo-sb001-001",
+          "updated_at": "2026-10-07T00:26:39Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/58"
+        },
+        {
+          "number": 57,
+          "title": "SB-001: prove the destructible unresolved crossing",
+          "head_branch": "experiment/supabardo-sb001-001",
+          "head_sha": "2b243e69230f9bccbf947fc827c664203e240550",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T00:15:07Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/57"
+        },
+        {
+          "number": 56,
+          "title": "Manga Parcel 001 — generic crossing witness",
+          "head_branch": "experiment/manga-parcel-001",
+          "head_sha": "d208d98bd88194cbd42c90379816b1167248595f",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-06T22:24:34Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/56"
+        },
         {
           "number": 55,
           "title": "Field Test 003: Discover doors and cross by explicit local choice",
@@ -7020,6 +7215,10 @@
           "sha": "67c4aa681cb6afb61bbe2e8bbeb6fe5c604f139c"
         },
         {
+          "name": "experiment/bardo-boot-witness-001",
+          "sha": "17e209cebb8d45b05dd9c564e99b5f5519b2d4a0"
+        },
+        {
           "name": "experiment/composed-nav-contact-to-witness-001",
           "sha": "42a99796b2959b49917d087e21d8a7f192bc736e"
         },
@@ -7042,6 +7241,18 @@
         {
           "name": "experiment/external-witness-gate-001",
           "sha": "1431e7b7e5d7d2840ba4c7e3d212f034d2843642"
+        },
+        {
+          "name": "experiment/first-physical-boot-001",
+          "sha": "a4530eaf0bf52161e8117906d06806a449c47593"
+        },
+        {
+          "name": "experiment/five-door-boot-witness-001",
+          "sha": "0a446e90d46c261aba0a5755fd49994a6c60525b"
+        },
+        {
+          "name": "experiment/life-authoring-open-page-001",
+          "sha": "76ba2d4cdd1d238df1b7fa1fd50ab4a87ea68d79"
         },
         {
           "name": "experiment/make-ground-to-witness-reentry-001",
@@ -7132,12 +7343,32 @@
           "sha": "6dda8a20ad9fc086cb00f340db5bff60d513e513"
         },
         {
+          "name": "integration/bardo-bridge-001",
+          "sha": "7f39c43efb90ce1c4a4014ecd66acde2c2a2a89a"
+        },
+        {
+          "name": "integration/bardo-generality-002",
+          "sha": "5f178af63b3da661e45fbc797e60201f0e605966"
+        },
+        {
           "name": "integration/ghot-idle-operator-001",
           "sha": "a4f10f5881e05784617e5eec13c5e69fe17c7dad"
         },
         {
+          "name": "integration/git-bridge-001",
+          "sha": "2f9756a464ee2022c7b0abdcc6636b4cb9123f53"
+        },
+        {
           "name": "integration/living-codex-endpoint-001",
           "sha": "fa72a854867ecde431d59896dc0725f957faa0af"
+        },
+        {
+          "name": "integration/persistent-root-001",
+          "sha": "2d019d5e1a22f7914cd412fc2da7fe3d7438ea1b"
+        },
+        {
+          "name": "integration/whole-body-001",
+          "sha": "34f55292792fa40cb8ec838119cd3b5383560fcd"
         },
         {
           "name": "integration/whole-house-desktop-candidate-20260920",
@@ -7157,6 +7388,96 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 45,
+          "title": "FIVE-DOOR-BOOT-WITNESS-001: preserve one unresolved LIFE constellation",
+          "head_branch": "experiment/five-door-boot-witness-001",
+          "head_sha": "0a446e90d46c261aba0a5755fd49994a6c60525b",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/bardo-boot-witness-001",
+          "updated_at": "2026-10-07T01:41:31Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/45"
+        },
+        {
+          "number": 44,
+          "title": "LIFE-AUTHORING-OS-001: Open Page 001 → 002 roundtrip",
+          "head_branch": "experiment/life-authoring-open-page-001",
+          "head_sha": "76ba2d4cdd1d238df1b7fa1fd50ab4a87ea68d79",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T01:45:16Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/44"
+        },
+        {
+          "number": 42,
+          "title": "BARDO-BOOT-WITNESS-001: carry INVITATION through mandatory HOLD",
+          "head_branch": "experiment/bardo-boot-witness-001",
+          "head_sha": "17e209cebb8d45b05dd9c564e99b5f5519b2d4a0",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "integration/bardo-bridge-001",
+          "updated_at": "2026-10-07T00:41:45Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/42"
+        },
+        {
+          "number": 41,
+          "title": "BARDO-GENERALITY-002: pin the second-family SupaBardo proof",
+          "head_branch": "integration/bardo-generality-002",
+          "head_sha": "5f178af63b3da661e45fbc797e60201f0e605966",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "integration/bardo-bridge-001",
+          "updated_at": "2026-10-07T00:31:03Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/41"
+        },
+        {
+          "number": 40,
+          "title": "BARDO-BRIDGE-001: pin the destructible SB-001 seam",
+          "head_branch": "integration/bardo-bridge-001",
+          "head_sha": "7f39c43efb90ce1c4a4014ecd66acde2c2a2a89a",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "integration/persistent-root-001",
+          "updated_at": "2026-10-07T00:08:33Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/40"
+        },
+        {
+          "number": 39,
+          "title": "PERSISTENT-ROOT-001: survive cold death without inventing continuity",
+          "head_branch": "integration/persistent-root-001",
+          "head_sha": "2d019d5e1a22f7914cd412fc2da7fe3d7438ea1b",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "integration/whole-body-001",
+          "updated_at": "2026-10-06T23:54:19Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/39"
+        },
+        {
+          "number": 38,
+          "title": "WHOLE-BODY-001: boot STATIC OS around the unresolved crossing seam",
+          "head_branch": "integration/whole-body-001",
+          "head_sha": "34f55292792fa40cb8ec838119cd3b5383560fcd",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "integration/git-bridge-001",
+          "updated_at": "2026-10-06T23:54:17Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/38"
+        },
+        {
+          "number": 37,
+          "title": "GIT-BRIDGE-001: explicit project ingress and egress",
+          "head_branch": "integration/git-bridge-001",
+          "head_sha": "2f9756a464ee2022c7b0abdcc6636b4cb9123f53",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/first-physical-boot-001",
+          "updated_at": "2026-10-06T23:54:14Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/37"
+        },
+        {
+          "number": 36,
+          "title": "FIRST-PHYSICAL-BOOT-001: earn the cold USB boot claim",
+          "head_branch": "experiment/first-physical-boot-001",
+          "head_sha": "a4530eaf0bf52161e8117906d06806a449c47593",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "integration/ghot-idle-operator-001",
+          "updated_at": "2026-10-06T23:53:33Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/36"
+        },
         {
           "number": 35,
           "title": "STATIC-2012-001: make old hardware a sovereign field station",
@@ -7540,6 +7861,10 @@
           "sha": "e2c97e6674b81f16492be11187f6d8bc57896e42"
         },
         {
+          "name": "docs/webz-native-001-workbench",
+          "sha": "f2b514d1acbf0f55d8934b215bf4ee5ce7fc2fc8"
+        },
+        {
           "name": "experiment/clockwork-001-multicalendar",
           "sha": "ac1aff2faa817692b15864f435f43ba9f2a20b3d"
         },
@@ -7760,6 +8085,14 @@
           "sha": "3a42bdd57ff9d3c85fb42065f6e4ff8bc4a7d3cb"
         },
         {
+          "name": "feat/webz-003-independent-byte-custody",
+          "sha": "cb3b0243ef54640208fc99fa9f2848827906108e"
+        },
+        {
+          "name": "feat/webz-relatte-002-first-sovereign-parcel",
+          "sha": "6e5eda2fb5be8a0948b2f9abf002e936a2bebb92"
+        },
+        {
           "name": "feature/ark-arrival-reentry-001",
           "sha": "9ba0e0cc0a2feeec92f29dc064c3f34722ebbbf4"
         },
@@ -7817,7 +8150,7 @@
         },
         {
           "name": "main",
-          "sha": "43cfb81311ee0c802959d663edfe4547684955d2"
+          "sha": "53db559bbc510ad1003a0f8330d1673dcd04d7a0"
         },
         {
           "name": "navigation-aperture-2026-09-27",
@@ -8273,7 +8606,11 @@
         },
         {
           "name": "main",
-          "sha": "65ddacde838f66909955007103efc365f35caf08"
+          "sha": "daa2f4c551ed612727660407105465645f95a9d7"
+        },
+        {
+          "name": "proposal/life-ship-narrative-navigation-001",
+          "sha": "7f13a438d8fe4dd93c911991c603cef1b6f1cdb4"
         }
       ],
       "open_prs": [
@@ -9162,7 +9499,39 @@
         },
         {
           "name": "integration/franken-blender-008m-manga-anime-grammar-atlas",
-          "sha": "223f0e943430bace62238e45a63c511984986444"
+          "sha": "367e8c0f6cc7c68c453ff1e5081180976af51858"
+        },
+        {
+          "name": "integration/franken-blender-008n-particular-to-performance",
+          "sha": "e46a381f9b4490ed38f4ce3bfdec5bcdd39dde22"
+        },
+        {
+          "name": "integration/franken-blender-008o-page-five-manga-film",
+          "sha": "0961569c920a8c53330227305a2f9143071c382c"
+        },
+        {
+          "name": "integration/franken-blender-008p-owned-pixel-manga-film",
+          "sha": "4e3f098d328a9659d9074852ef7861b7d3078fee"
+        },
+        {
+          "name": "integration/mangalize-001-first-class-verb",
+          "sha": "268d31f4a5283ce96209e3f7957edcfa2df30a7b"
+        },
+        {
+          "name": "integration/mangalize-002-quarantine-release",
+          "sha": "8b4f7da114e55150dfb564fea171c827bcf8759a"
+        },
+        {
+          "name": "integration/mangalize-003-performed-use",
+          "sha": "736dc0eba07b591a7aa25abf3fb92e5ddbaa7a23"
+        },
+        {
+          "name": "integration/mangalize-004-pixel-execution",
+          "sha": "49e9400d3753a6a308317eef8bd5b1fb93cc5322"
+        },
+        {
+          "name": "integration/mangalize-005-presentation-ground",
+          "sha": "cf0256a49ac8aa879cf2a044847d248177fcfad9"
         },
         {
           "name": "main",
@@ -9175,13 +9544,93 @@
       ],
       "open_prs": [
         {
+          "number": 68,
+          "title": "MANGALIZE-005: separately authored black presentation ground with preserved page ancestry",
+          "head_branch": "integration/mangalize-005-presentation-ground",
+          "head_sha": "cf0256a49ac8aa879cf2a044847d248177fcfad9",
+          "head_repo": "the-static-collective/the-haunted-blender",
+          "base_branch": "integration/mangalize-004-pixel-execution",
+          "updated_at": "2026-10-06T22:18:57Z",
+          "url": "https://github.com/the-static-collective/the-haunted-blender/pull/68"
+        },
+        {
+          "number": 67,
+          "title": "MANGALIZE-004: separately admitted deterministic static pixel execution",
+          "head_branch": "integration/mangalize-004-pixel-execution",
+          "head_sha": "49e9400d3753a6a308317eef8bd5b1fb93cc5322",
+          "head_repo": "the-static-collective/the-haunted-blender",
+          "base_branch": "integration/mangalize-003-performed-use",
+          "updated_at": "2026-10-06T21:18:00Z",
+          "url": "https://github.com/the-static-collective/the-haunted-blender/pull/67"
+        },
+        {
+          "number": 66,
+          "title": "MANGALIZE-003: separately admitted performed use with complete ancestry",
+          "head_branch": "integration/mangalize-003-performed-use",
+          "head_sha": "736dc0eba07b591a7aa25abf3fb92e5ddbaa7a23",
+          "head_repo": "the-static-collective/the-haunted-blender",
+          "base_branch": "integration/mangalize-002-quarantine-release",
+          "updated_at": "2026-10-06T20:36:01Z",
+          "url": "https://github.com/the-static-collective/the-haunted-blender/pull/66"
+        },
+        {
+          "number": 65,
+          "title": "MANGALIZE-002: quarantine release through exact later reuse/derivative authority",
+          "head_branch": "integration/mangalize-002-quarantine-release",
+          "head_sha": "8b4f7da114e55150dfb564fea171c827bcf8759a",
+          "head_repo": "the-static-collective/the-haunted-blender",
+          "base_branch": "integration/mangalize-001-first-class-verb",
+          "updated_at": "2026-10-06T19:52:24Z",
+          "url": "https://github.com/the-static-collective/the-haunted-blender/pull/65"
+        },
+        {
+          "number": 64,
+          "title": "MANGALIZE-001: first-class verb event with origin-preserving harvest-only quarry",
+          "head_branch": "integration/mangalize-001-first-class-verb",
+          "head_sha": "268d31f4a5283ce96209e3f7957edcfa2df30a7b",
+          "head_repo": "the-static-collective/the-haunted-blender",
+          "base_branch": "integration/franken-blender-008p-owned-pixel-manga-film",
+          "updated_at": "2026-10-06T19:05:41Z",
+          "url": "https://github.com/the-static-collective/the-haunted-blender/pull/64"
+        },
+        {
+          "number": 63,
+          "title": "FRANKEN BLENDER 008p: owned pixels enter the Page Five manga film",
+          "head_branch": "integration/franken-blender-008p-owned-pixel-manga-film",
+          "head_sha": "4e3f098d328a9659d9074852ef7861b7d3078fee",
+          "head_repo": "the-static-collective/the-haunted-blender",
+          "base_branch": "integration/franken-blender-008o-page-five-manga-film",
+          "updated_at": "2026-10-06T17:04:51Z",
+          "url": "https://github.com/the-static-collective/the-haunted-blender/pull/63"
+        },
+        {
+          "number": 62,
+          "title": "FRANKEN BLENDER 008o: render Page Five as an audible manga film",
+          "head_branch": "integration/franken-blender-008o-page-five-manga-film",
+          "head_sha": "0961569c920a8c53330227305a2f9143071c382c",
+          "head_repo": "the-static-collective/the-haunted-blender",
+          "base_branch": "integration/franken-blender-008n-particular-to-performance",
+          "updated_at": "2026-10-06T16:30:09Z",
+          "url": "https://github.com/the-static-collective/the-haunted-blender/pull/62"
+        },
+        {
+          "number": 61,
+          "title": "FRANKEN BLENDER 008n: particular-to-performance narrative custody",
+          "head_branch": "integration/franken-blender-008n-particular-to-performance",
+          "head_sha": "e46a381f9b4490ed38f4ce3bfdec5bcdd39dde22",
+          "head_repo": "the-static-collective/the-haunted-blender",
+          "base_branch": "integration/franken-blender-008m-manga-anime-grammar-atlas",
+          "updated_at": "2026-10-06T16:15:56Z",
+          "url": "https://github.com/the-static-collective/the-haunted-blender/pull/61"
+        },
+        {
           "number": 60,
           "title": "FRANKEN BLENDER 008m: manga/anime grammar atlas and rights-aware page harvest",
           "head_branch": "integration/franken-blender-008m-manga-anime-grammar-atlas",
-          "head_sha": "223f0e943430bace62238e45a63c511984986444",
+          "head_sha": "367e8c0f6cc7c68c453ff1e5081180976af51858",
           "head_repo": "the-static-collective/the-haunted-blender",
           "base_branch": "integration/franken-blender-008l-material-surface-grammar",
-          "updated_at": "2026-10-06T14:07:55Z",
+          "updated_at": "2026-10-06T15:39:19Z",
           "url": "https://github.com/the-static-collective/the-haunted-blender/pull/60"
         },
         {
@@ -10392,8 +10841,16 @@
           "sha": "8e82bd046158109696fc0ee62f59876b8ee57e0a"
         },
         {
+          "name": "experiment/nextgen-toaster-024-mutation-distance",
+          "sha": "bf9e31444f4bb032f068bfc682d9fd94296753f5"
+        },
+        {
           "name": "experiment/polyclock-001-recurrence",
           "sha": "66fe65523ad21824aea88519de736c791f81e967"
+        },
+        {
+          "name": "experiment/supabardo-sb002-proposal-001",
+          "sha": "2c86d684138f3008344b18202b81193db0c947c7"
         },
         {
           "name": "experimental/franken-composer-001",
@@ -10769,6 +11226,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 357,
+          "title": "SB-002 source: cross one creative proposal without KEEP",
+          "head_branch": "experiment/supabardo-sb002-proposal-001",
+          "head_sha": "2c86d684138f3008344b18202b81193db0c947c7",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T00:18:22Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/357"
+        },
+        {
+          "number": 356,
+          "title": "NEXTGEN-TOASTER-024: mutation distance",
+          "head_branch": "experiment/nextgen-toaster-024-mutation-distance",
+          "head_sha": "bf9e31444f4bb032f068bfc682d9fd94296753f5",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experiment/nextgen-toaster-023-generational-ecology",
+          "updated_at": "2026-10-06T16:56:08Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/356"
+        },
         {
           "number": 355,
           "title": "NEXTGEN-TOASTER-023: generational ecology",
@@ -11678,6 +12155,10 @@
           "sha": "4c772ad2b69a4eaa93ee85f086587482f84af1a5"
         },
         {
+          "name": "experiment/fatherhand-grant-chain-001",
+          "sha": "534e3dc5be763b7b11eb84bfab22f3efb25c254b"
+        },
+        {
           "name": "feat/immutable-artifact-store-issue-6",
           "sha": "7fbb0c868befd5f6a7478bdd0447477a0e8e075e"
         },
@@ -11743,6 +12224,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 79,
+          "title": "FATHERHAND-001: grant-chain validator + Paperchain PLANT capacity witness",
+          "head_branch": "experiment/fatherhand-grant-chain-001",
+          "head_sha": "534e3dc5be763b7b11eb84bfab22f3efb25c254b",
+          "head_repo": "the-static-collective/tranchnode",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T07:25:40Z",
+          "url": "https://github.com/the-static-collective/tranchnode/pull/79"
+        },
         {
           "number": 78,
           "title": "FLIGHT-002B: Storyship Ark evidence → addressed TranchNode proposal",
@@ -11813,6 +12304,10 @@
           "sha": "080d20e0e40c3dbba11f2cfc2453a3e71b85196a"
         },
         {
+          "name": "experiment/field-lab-001",
+          "sha": "670ca60012929b51e66b8bac7d0c9b85a4f95d7b"
+        },
+        {
           "name": "experiment/machine-weather-001",
           "sha": "e45d0644ab1903df700535edb4c0f2d60bfb4354"
         },
@@ -11842,6 +12337,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 10,
+          "title": "FIELD-LAB-001: bounded relational perturbation instrument",
+          "head_branch": "experiment/field-lab-001",
+          "head_sha": "670ca60012929b51e66b8bac7d0c9b85a4f95d7b",
+          "head_repo": "the-static-collective/tranchNOSE",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T01:28:58Z",
+          "url": "https://github.com/the-static-collective/tranchNOSE/pull/10"
+        },
         {
           "number": 4,
           "title": "MACHINE-WEATHER-001: typed sensor-window comparison without control authority",
@@ -11961,6 +12466,42 @@
           "base_branch": "main",
           "updated_at": "2026-09-20T15:17:52Z",
           "url": "https://github.com/the-static-collective/Upper-room/pull/8"
+        }
+      ]
+    },
+    {
+      "name": "webZ",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "design/webz-maxhinal-porch-001",
+          "sha": "b487aab92a8a2a572001cd91424a81b3a14abce9"
+        },
+        {
+          "name": "feat/first-encounter-002",
+          "sha": "8153c60393e4e206160b284082f7eb3161d3f379"
+        },
+        {
+          "name": "feat/offline-sovereign-porch",
+          "sha": "659166135f1c3898d07829f6eb5a1d074ec082f5"
+        },
+        {
+          "name": "main",
+          "sha": "b6b9897bfd6e548a3ce3dbea21e633803dcbd13b"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 4,
+          "title": "feat: begin FIRST-ENCOUNTER-002 invitation and signed-return preflight",
+          "head_branch": "feat/first-encounter-002",
+          "head_sha": "8153c60393e4e206160b284082f7eb3161d3f379",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T05:18:53Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/4"
         }
       ]
     },
@@ -12216,7 +12757,7 @@
         },
         {
           "name": "main",
-          "sha": "5e0801e4168fcea63a662b15f83629c9639f10ac"
+          "sha": "e17d0a3ae2c6e04c4a627011f666abb75ff8da4c"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -12651,5 +13192,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-06T14:10:59+00:00"
+  "captured_at": "2026-10-07T14:29:14+00:00"
 }
