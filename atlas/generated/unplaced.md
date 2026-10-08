@@ -236,12 +236,32 @@ Default: `main` · other refs: 17 · open PRs: 4
 
 [Repository](https://github.com/the-static-collective/lemonPRESS) · [Branches](https://github.com/the-static-collective/lemonPRESS/branches) · [Pull requests](https://github.com/the-static-collective/lemonPRESS/pulls)
 
-Default: `main` · other refs: 31 · open PRs: 7
+Default: `main` · other refs: 51 · open PRs: 27
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#46](https://github.com/the-static-collective/lemonPRESS/pull/46) | MANGA ROOT FORK 001 — cross receipts without collapsing sibling histories | `feat/manga-root-fork-001` → `main` | 2026-10-08 |
+| [#45](https://github.com/the-static-collective/lemonPRESS/pull/45) | MANGA STYLE PROFILE 001 — resolve reusable behavior without authority | `feat/manga-style-profile-001` → `main` | 2026-10-08 |
+| [#44](https://github.com/the-static-collective/lemonPRESS/pull/44) | RENJI RELAY 001 — an arrived page proves TRANSFORM != SEVER | `feat/renji-relay-001` → `feat/manga-style-profile-001` | 2026-10-08 |
+| [#42](https://github.com/the-static-collective/lemonPRESS/pull/42) | SKYPAPER 001 — computer-native literature under partial retrieval | `feat/skypaper-001` → `witness/dissemination-002-foreign-reader` | 2026-10-08 |
+| [#41](https://github.com/the-static-collective/lemonPRESS/pull/41) | DISSEMINATION WITNESS 002 — foreign reader over public HTTPS | `witness/dissemination-002-foreign-reader` → `feat/dissemination-001` | 2026-10-07 |
+| [#40](https://github.com/the-static-collective/lemonPRESS/pull/40) | RELETTER BATCH 001 + MASK LETTERING 001 — complete the returned-English visual candidate | `experiment/reletter-batch-mask-001` → `experiment/box-binding-001` | 2026-10-07 |
+| [#39](https://github.com/the-static-collective/lemonPRESS/pull/39) | DISSEMINATION WITNESS 001 — bounded blind traversal | `witness/dissemination-001-blind-traversal` → `feat/dissemination-001` | 2026-10-07 |
+| [#38](https://github.com/the-static-collective/lemonPRESS/pull/38) | BOX BINDING 001 — bind all 68 relay particulars to exact page regions | `experiment/box-binding-001` → `experiment/page-intake-001` | 2026-10-07 |
+| [#36](https://github.com/the-static-collective/lemonPRESS/pull/36) | PAGE INTAKE 001 — exact PDF pages become bounded Manga Press carriers | `experiment/page-intake-001` → `experiment/reletter-001` | 2026-10-07 |
+| [#35](https://github.com/the-static-collective/lemonPRESS/pull/35) | RELETTER 001 — returned language becomes a visible manga page candidate | `experiment/reletter-001` → `experiment/translation-relay-001` | 2026-10-07 |
+| [#34](https://github.com/the-static-collective/lemonPRESS/pull/34) | TRANSLATION RELAY 001 — Japanese round-trip as native manga text remix | `experiment/translation-relay-001` → `experiment/remix-sequence-001` | 2026-10-07 |
+| [#33](https://github.com/the-static-collective/lemonPRESS/pull/33) | DISSEMINATION 001 — throw one computer book into the sea | `feat/dissemination-001` → `feat/computer-book-002-severance` | 2026-10-07 |
+| [#32](https://github.com/the-static-collective/lemonPRESS/pull/32) | 2DAY CRAWLER 001 — recover 39 public track particulars and emit Playdeck loop | `feat/2day-crawler-001` → `press/crawler` | 2026-10-07 |
+| [#31](https://github.com/the-static-collective/lemonPRESS/pull/31) | COMPUTER BOOK 002 — severance without invented reconstruction | `feat/computer-book-002-severance` → `feat/computer-book-001` | 2026-10-07 |
+| [#30](https://github.com/the-static-collective/lemonPRESS/pull/30) | COMPUTER BOOK 001 — native literature for partial retrieval | `feat/computer-book-001` → `press/crawler` | 2026-10-07 |
+| [#29](https://github.com/the-static-collective/lemonPRESS/pull/29) | 2DAY CYCLE 001 — preserve the four-playlist one-day clock | `feat/2day-cycle-001` → `main` | 2026-10-07 |
+| [#28](https://github.com/the-static-collective/lemonPRESS/pull/28) | THE HOUSE TAKES ATTENDANCE — Digital Reader 001 + physical brief | `experiment/house-takes-attendance-press-001` → `experiment/manga-index-001` | 2026-10-07 |
+| [#27](https://github.com/the-static-collective/lemonPRESS/pull/27) | REMIX SEQUENCE 001 — declared reading-order remix for LemonPRESS | `experiment/remix-sequence-001` → `experiment/manga-remix-001` | 2026-10-07 |
+| [#26](https://github.com/the-static-collective/lemonPRESS/pull/26) | MANGA INDEX 001 — canonical 19-issue corpus + 100-page anthology candidate | `experiment/manga-index-001` → `experiment/manga-remix-001` | 2026-10-07 |
+| [#25](https://github.com/the-static-collective/lemonPRESS/pull/25) | MANGA REMIX 001 — attributable multi-parent candidate compositor | `experiment/manga-remix-001` → `manga-press-001` | 2026-10-07 |
 | [#24](https://github.com/the-static-collective/lemonPRESS/pull/24) | Manga Parcel 001 — National Treasure Seed Zero | `experiment/manga-parcel-001` → `main` | 2026-10-07 |
 | [#23](https://github.com/the-static-collective/lemonPRESS/pull/23) | MANGA PRESS 001 — page, issue, print, and performance handoff | `manga-press-001` → `press/physical` | 2026-10-06 |
 | [#22](https://github.com/the-static-collective/lemonPRESS/pull/22) | SUNO PANTRY INTAKE 001 — batch stems and dramatic readings | `suno-pantry-intake-001` → `audio-composer-001` | 2026-10-02 |
@@ -255,7 +275,25 @@ Default: `main` · other refs: 31 · open PRs: 7
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
 | [audio-composer-001](https://github.com/the-static-collective/lemonPRESS/tree/audio-composer-001) | [b32083a712](https://github.com/the-static-collective/lemonPRESS/commit/b32083a712e2f9020dea95d09c3ba24e12addb0f) | [open PR #21](https://github.com/the-static-collective/lemonPRESS/pull/21) |
+| [experiment/box-binding-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/box-binding-001) | [6e3e55762a](https://github.com/the-static-collective/lemonPRESS/commit/6e3e55762af43904057123c7159fcacc9da86c58) | [open PR #38](https://github.com/the-static-collective/lemonPRESS/pull/38) |
+| [experiment/house-takes-attendance-press-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/house-takes-attendance-press-001) | [8d86d12d91](https://github.com/the-static-collective/lemonPRESS/commit/8d86d12d91f54b16038a03c8e8668d87e2a165c6) | [open PR #28](https://github.com/the-static-collective/lemonPRESS/pull/28) |
+| [experiment/manga-index-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/manga-index-001) | [66105ac227](https://github.com/the-static-collective/lemonPRESS/commit/66105ac2276414a5ebdb9baae048147880f50d52) | [open PR #26](https://github.com/the-static-collective/lemonPRESS/pull/26) |
 | [experiment/manga-parcel-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/manga-parcel-001) | [8ef9b4f3ad](https://github.com/the-static-collective/lemonPRESS/commit/8ef9b4f3adcb85504937f962a1c6f2dd2e5f6296) | [open PR #24](https://github.com/the-static-collective/lemonPRESS/pull/24) |
+| [experiment/manga-remix-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/manga-remix-001) | [8b0655a263](https://github.com/the-static-collective/lemonPRESS/commit/8b0655a26399f9ca7a8e6671dc9cf02132d3c7b1) | [open PR #25](https://github.com/the-static-collective/lemonPRESS/pull/25) |
+| [experiment/page-intake-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/page-intake-001) | [81dc84dfe9](https://github.com/the-static-collective/lemonPRESS/commit/81dc84dfe9e6ebebb54c751e5c8c213ff9516d82) | [open PR #36](https://github.com/the-static-collective/lemonPRESS/pull/36) |
+| [experiment/reletter-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/reletter-001) | [2b9ef5c703](https://github.com/the-static-collective/lemonPRESS/commit/2b9ef5c7039816d20a51a7411e276999874f78d3) | [open PR #35](https://github.com/the-static-collective/lemonPRESS/pull/35) |
+| [experiment/reletter-batch-mask-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/reletter-batch-mask-001) | [6fe2bfd13f](https://github.com/the-static-collective/lemonPRESS/commit/6fe2bfd13fba08bcc096e31109a038a56a63f7df) | [open PR #40](https://github.com/the-static-collective/lemonPRESS/pull/40) |
+| [experiment/remix-sequence-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/remix-sequence-001) | [6387170a1d](https://github.com/the-static-collective/lemonPRESS/commit/6387170a1d623c4e819db572e70d7a0df1ce1b70) | [open PR #27](https://github.com/the-static-collective/lemonPRESS/pull/27) |
+| [experiment/translation-relay-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/translation-relay-001) | [7c175dd081](https://github.com/the-static-collective/lemonPRESS/commit/7c175dd08130dc519c325ac0bd70ea1b82a3366e) | [open PR #34](https://github.com/the-static-collective/lemonPRESS/pull/34) |
+| [feat/2day-crawler-001](https://github.com/the-static-collective/lemonPRESS/tree/feat/2day-crawler-001) | [f084eb35d7](https://github.com/the-static-collective/lemonPRESS/commit/f084eb35d76a10f46a9c50b9aed3667ed01e3451) | [open PR #32](https://github.com/the-static-collective/lemonPRESS/pull/32) |
+| [feat/2day-cycle-001](https://github.com/the-static-collective/lemonPRESS/tree/feat/2day-cycle-001) | [04f561e19e](https://github.com/the-static-collective/lemonPRESS/commit/04f561e19e0955d5ae04af55ab3cea917ad46c76) | [open PR #29](https://github.com/the-static-collective/lemonPRESS/pull/29) |
+| [feat/computer-book-001](https://github.com/the-static-collective/lemonPRESS/tree/feat/computer-book-001) | [0195be74ca](https://github.com/the-static-collective/lemonPRESS/commit/0195be74caf8e396a2e574c61d00c4f7fb9df57e) | [open PR #30](https://github.com/the-static-collective/lemonPRESS/pull/30) |
+| [feat/computer-book-002-severance](https://github.com/the-static-collective/lemonPRESS/tree/feat/computer-book-002-severance) | [b6ad673dd5](https://github.com/the-static-collective/lemonPRESS/commit/b6ad673dd580b349d139af81b731f4dbfe8e4781) | [open PR #31](https://github.com/the-static-collective/lemonPRESS/pull/31) |
+| [feat/dissemination-001](https://github.com/the-static-collective/lemonPRESS/tree/feat/dissemination-001) | [c2735093d5](https://github.com/the-static-collective/lemonPRESS/commit/c2735093d5fd9ecb8464b3e9a5e82bfc7d494692) | [open PR #33](https://github.com/the-static-collective/lemonPRESS/pull/33) |
+| [feat/manga-root-fork-001](https://github.com/the-static-collective/lemonPRESS/tree/feat/manga-root-fork-001) | [a06904d43a](https://github.com/the-static-collective/lemonPRESS/commit/a06904d43a88dd558e0ab371ed1e4cbb0a74b4fc) | [open PR #46](https://github.com/the-static-collective/lemonPRESS/pull/46) |
+| [feat/manga-style-profile-001](https://github.com/the-static-collective/lemonPRESS/tree/feat/manga-style-profile-001) | [eba5b6f0b0](https://github.com/the-static-collective/lemonPRESS/commit/eba5b6f0b056330b63e82b95020b2656befc264a) | [open PR #45](https://github.com/the-static-collective/lemonPRESS/pull/45) |
+| [feat/renji-relay-001](https://github.com/the-static-collective/lemonPRESS/tree/feat/renji-relay-001) | [70e8558f69](https://github.com/the-static-collective/lemonPRESS/commit/70e8558f69f579261e73045787205d6af56509c6) | [open PR #44](https://github.com/the-static-collective/lemonPRESS/pull/44) |
+| [feat/skypaper-001](https://github.com/the-static-collective/lemonPRESS/tree/feat/skypaper-001) | [b93c5f65c9](https://github.com/the-static-collective/lemonPRESS/commit/b93c5f65c94abd18271f672139e442eb7a857375) | [open PR #42](https://github.com/the-static-collective/lemonPRESS/pull/42) |
 | [forage/letters-not-shared-memory-001](https://github.com/the-static-collective/lemonPRESS/tree/forage/letters-not-shared-memory-001) | [7eee545f43](https://github.com/the-static-collective/lemonPRESS/commit/7eee545f43879f1f5d636cce4d9c402d6f58c3fc) | Retained ref; disposition unverified |
 | [forage/the-book-is-a-route-001](https://github.com/the-static-collective/lemonPRESS/tree/forage/the-book-is-a-route-001) | [05c0df3dc2](https://github.com/the-static-collective/lemonPRESS/commit/05c0df3dc2ddabb8fbcc1e74d192bf742a44003c) | Retained ref; disposition unverified |
 | [genesis/crawler-press-001](https://github.com/the-static-collective/lemonPRESS/tree/genesis/crawler-press-001) | [ad11175034](https://github.com/the-static-collective/lemonPRESS/commit/ad1117503436e1cdc01f5298bad885ff031b6141) | Retained ref; disposition unverified |
@@ -283,6 +321,8 @@ Default: `main` · other refs: 31 · open PRs: 7
 | [release/free-library-002-main](https://github.com/the-static-collective/lemonPRESS/tree/release/free-library-002-main) | [fffffe9d59](https://github.com/the-static-collective/lemonPRESS/commit/fffffe9d5917c50bd993ae3b869972bbbe06e777) | Retained ref; disposition unverified |
 | [release/free-library-002-physical](https://github.com/the-static-collective/lemonPRESS/tree/release/free-library-002-physical) | [803fd8bd4e](https://github.com/the-static-collective/lemonPRESS/commit/803fd8bd4eb14dea39581bf6f09795106afa1283) | Retained ref; disposition unverified |
 | [suno-pantry-intake-001](https://github.com/the-static-collective/lemonPRESS/tree/suno-pantry-intake-001) | [6f97f8c6c7](https://github.com/the-static-collective/lemonPRESS/commit/6f97f8c6c79397a557ce66e3a6045ee689ad66af) | [open PR #22](https://github.com/the-static-collective/lemonPRESS/pull/22) |
+| [witness/dissemination-001-blind-traversal](https://github.com/the-static-collective/lemonPRESS/tree/witness/dissemination-001-blind-traversal) | [237cf4f420](https://github.com/the-static-collective/lemonPRESS/commit/237cf4f420f3e883933c5b1498741e23cd2a1c69) | [open PR #39](https://github.com/the-static-collective/lemonPRESS/pull/39) |
+| [witness/dissemination-002-foreign-reader](https://github.com/the-static-collective/lemonPRESS/tree/witness/dissemination-002-foreign-reader) | [335ec24fed](https://github.com/the-static-collective/lemonPRESS/commit/335ec24fed7544805f7da10ae952dfc9c077e583) | [open PR #41](https://github.com/the-static-collective/lemonPRESS/pull/41) |
 | [work/haunted-library-001-crawler](https://github.com/the-static-collective/lemonPRESS/tree/work/haunted-library-001-crawler) | [6d88fa77dd](https://github.com/the-static-collective/lemonPRESS/commit/6d88fa77dd5edfd59dc41d34af3ef71205475125) | [open PR #13](https://github.com/the-static-collective/lemonPRESS/pull/13) |
 | [work/haunted-library-001-main](https://github.com/the-static-collective/lemonPRESS/tree/work/haunted-library-001-main) | [3dbc855c1a](https://github.com/the-static-collective/lemonPRESS/commit/3dbc855c1a1c0abaca991429d6c7a6d916682a59) | [open PR #14](https://github.com/the-static-collective/lemonPRESS/pull/14) |
 
@@ -324,12 +364,14 @@ Default: `main` · other refs: 6 · open PRs: 6
 
 [Repository](https://github.com/the-static-collective/playdeck) · [Branches](https://github.com/the-static-collective/playdeck/branches) · [Pull requests](https://github.com/the-static-collective/playdeck/pulls)
 
-Default: `main` · other refs: 1 · open PRs: 1
+Default: `main` · other refs: 3 · open PRs: 3
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#3](https://github.com/the-static-collective/playdeck/pull/3) | LEMONPRESS SEQUENCE HANDOFF 001 — verified reading order into Playdeck | `experiment/lemonpress-sequence-handoff-001` → `experiment/page-playlist-press-001` | 2026-10-07 |
+| [#2](https://github.com/the-static-collective/playdeck/pull/2) | PAGE PLAYLIST PRESS 001 — originals + remixes into Playdeck | `experiment/page-playlist-press-001` → `main` | 2026-10-07 |
 | [#1](https://github.com/the-static-collective/playdeck/pull/1) | FRANKEN SMASH 001: deterministic cross-organ composition runtime | `experiment/franken-smash-001` → `main` | 2026-10-04 |
 
 ### Retained nondefault branches
@@ -337,17 +379,34 @@ Default: `main` · other refs: 1 · open PRs: 1
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
 | [experiment/franken-smash-001](https://github.com/the-static-collective/playdeck/tree/experiment/franken-smash-001) | [012186fd67](https://github.com/the-static-collective/playdeck/commit/012186fd67f4c4ef1c6591fc5e29cb559b5a80d0) | [open PR #1](https://github.com/the-static-collective/playdeck/pull/1) |
+| [experiment/lemonpress-sequence-handoff-001](https://github.com/the-static-collective/playdeck/tree/experiment/lemonpress-sequence-handoff-001) | [e64f11f728](https://github.com/the-static-collective/playdeck/commit/e64f11f728137e8908e4f5bdbde9aab39e2d9bbd) | [open PR #3](https://github.com/the-static-collective/playdeck/pull/3) |
+| [experiment/page-playlist-press-001](https://github.com/the-static-collective/playdeck/tree/experiment/page-playlist-press-001) | [7f0fefaa6d](https://github.com/the-static-collective/playdeck/commit/7f0fefaa6d69f8cd5c682dc92a641b7799e7dedc) | [open PR #2](https://github.com/the-static-collective/playdeck/pull/2) |
 
 ## reLATTE
 
 [Repository](https://github.com/the-static-collective/reLATTE) · [Branches](https://github.com/the-static-collective/reLATTE/branches) · [Pull requests](https://github.com/the-static-collective/reLATTE/pulls)
 
-Default: `main` · other refs: 70 · open PRs: 41
+Default: `main` · other refs: 86 · open PRs: 56
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#84](https://github.com/the-static-collective/reLATTE/pull/84) | experiment: preserve authenticated-pressure authority boundary | `experiment/authenticated-pressure-authority-boundary-001` → `main` | 2026-10-08 |
+| [#83](https://github.com/the-static-collective/reLATTE/pull/83) | PERCEIVED-AFFORDANCE-FIELD-001 — observer-relative possibility without owner authority | `experiment/perceived-affordance-field-001` → `experiment/composition-instance-002` | 2026-10-08 |
+| [#79](https://github.com/the-static-collective/reLATTE/pull/79) | COMPOSITION-INSTANCE-002: runtime-caused field participation, terminal death and fresh reconstitution | `experiment/composition-instance-002` → `experiment/composition-instance-002-parents` | 2026-10-08 |
+| [#78](https://github.com/the-static-collective/reLATTE/pull/78) | DYNAMIC-INTERFACE-FIELD-001: history-bearing doors and bounded composition | `experiment/dynamic-interface-field-001` → `experiment/interface-superspace-001` | 2026-10-08 |
+| [#77](https://github.com/the-static-collective/reLATTE/pull/77) | COMPOSITION-INSTANCE-001 — run composition inside bounded reLATTE worlds | `experiment/composition-instance-001` → `experiment/vanilla-worldbuilder-006` | 2026-10-08 |
+| [#76](https://github.com/the-static-collective/reLATTE/pull/76) | INTERFACE-SUPERSPACE-001: synthesize lawful routes through existing doors | `experiment/interface-superspace-001` → `experiment/vanilla-worldbuilder-006` | 2026-10-08 |
+| [#75](https://github.com/the-static-collective/reLATTE/pull/75) | TRANSLATE.THROUGH 001 — first-class signed route attachments | `experiment/translate-through-001` → `main` | 2026-10-08 |
+| [#74](https://github.com/the-static-collective/reLATTE/pull/74) | VANILLA-WORLDBUILDER-006 — tell official Minecraft to build a world | `experiment/vanilla-worldbuilder-006` → `experiment/alien-minecraft-vanilla-005` | 2026-10-08 |
+| [#73](https://github.com/the-static-collective/reLATTE/pull/73) | ALIEN-MINECRAFT-VANILLA-005 — official vanilla server playthrough | `experiment/alien-minecraft-vanilla-005` → `experiment/alien-minecraft-004` | 2026-10-07 |
+| [#72](https://github.com/the-static-collective/reLATTE/pull/72) | ALIEN-MINECRAFT-004 — lawful playthrough carrier against frozen core | `experiment/alien-minecraft-004` → `experiment/alien-langton-003` | 2026-10-07 |
+| [#71](https://github.com/the-static-collective/reLATTE/pull/71) | ALIEN-LANGTON-003 — reversible evolving-world carrier against frozen core | `experiment/alien-langton-003` → `experiment/alien-midi-002` | 2026-10-07 |
+| [#70](https://github.com/the-static-collective/reLATTE/pull/70) | ALIEN-MIDI-002 — musical event ontology against frozen core | `experiment/alien-midi-002` → `experiment/alien-adapter-001` | 2026-10-07 |
+| [#69](https://github.com/the-static-collective/reLATTE/pull/69) | ALIEN-ADAPTER-001 — ephemeral UDP swarm against frozen core | `experiment/alien-adapter-001` → `experiment/polyglot-crossing-001` | 2026-10-07 |
+| [#68](https://github.com/the-static-collective/reLATTE/pull/68) | POLYGLOT-CROSSING-001 — six alien substrates, frozen reLATTE core | `experiment/polyglot-crossing-001` → `experiment/particularity-crucible-001` | 2026-10-07 |
+| [#67](https://github.com/the-static-collective/reLATTE/pull/67) | PARTICULARITY-CRUCIBLE-001: false split / false collapse identity witness | `experiment/particularity-crucible-001` → `main` | 2026-10-07 |
 | [#66](https://github.com/the-static-collective/reLATTE/pull/66) | WEBZ-005: executable FatherHand seed kernel and FounderNode trust root | `docs/webz-005-fatherhand-foundernode` → `main` | 2026-10-07 |
 | [#65](https://github.com/the-static-collective/reLATTE/pull/65) | PAPERCHAIN: held seed + Fatherhand capacity + explicit PLANT → child custody | `experiment/paperchain-seed-vault-001` → `main` | 2026-10-07 |
 | [#62](https://github.com/the-static-collective/reLATTE/pull/62) | FIRST-CONTACT-001 — loopback network crossing with signed sovereign return | `experiment/first-contact-001` → `main` | 2026-10-07 |
@@ -401,15 +460,31 @@ Default: `main` · other refs: 70 · open PRs: 41
 | [cultural-descendant-001](https://github.com/the-static-collective/reLATTE/tree/cultural-descendant-001) | [442bc190f2](https://github.com/the-static-collective/reLATTE/commit/442bc190f2dc8817c79f5701f1445dd43cdbe188) | Retained ref; disposition unverified |
 | [docs/webz-005-fatherhand-foundernode](https://github.com/the-static-collective/reLATTE/tree/docs/webz-005-fatherhand-foundernode) | [b2b0bd1937](https://github.com/the-static-collective/reLATTE/commit/b2b0bd1937ec93230b43dc36c3c0ca846f4820b3) | [open PR #66](https://github.com/the-static-collective/reLATTE/pull/66) |
 | [ecology-machine-001](https://github.com/the-static-collective/reLATTE/tree/ecology-machine-001) | [8446ed84df](https://github.com/the-static-collective/reLATTE/commit/8446ed84dfe197690f98dee991bb206d881dfef4) | Retained ref; disposition unverified |
+| [experiment/alien-adapter-001](https://github.com/the-static-collective/reLATTE/tree/experiment/alien-adapter-001) | [0ac02ec4bb](https://github.com/the-static-collective/reLATTE/commit/0ac02ec4bb3f7cb1b77a38e1bde8879d18d794ce) | [open PR #69](https://github.com/the-static-collective/reLATTE/pull/69) |
+| [experiment/alien-langton-003](https://github.com/the-static-collective/reLATTE/tree/experiment/alien-langton-003) | [3f61265db4](https://github.com/the-static-collective/reLATTE/commit/3f61265db4f8d61bc32333a1c27a1d962ba831cc) | [open PR #71](https://github.com/the-static-collective/reLATTE/pull/71) |
+| [experiment/alien-midi-002](https://github.com/the-static-collective/reLATTE/tree/experiment/alien-midi-002) | [a17e030fda](https://github.com/the-static-collective/reLATTE/commit/a17e030fda5af59265ce5d76b0f1861c9999ae8e) | [open PR #70](https://github.com/the-static-collective/reLATTE/pull/70) |
+| [experiment/alien-minecraft-004](https://github.com/the-static-collective/reLATTE/tree/experiment/alien-minecraft-004) | [03ef0a4844](https://github.com/the-static-collective/reLATTE/commit/03ef0a4844a99dbddf94645654728652a60f4772) | [open PR #72](https://github.com/the-static-collective/reLATTE/pull/72) |
+| [experiment/alien-minecraft-vanilla-005](https://github.com/the-static-collective/reLATTE/tree/experiment/alien-minecraft-vanilla-005) | [686daa00ac](https://github.com/the-static-collective/reLATTE/commit/686daa00acbb5a8feab879364596ce1a9c797120) | [open PR #73](https://github.com/the-static-collective/reLATTE/pull/73) |
+| [experiment/authenticated-pressure-authority-boundary-001](https://github.com/the-static-collective/reLATTE/tree/experiment/authenticated-pressure-authority-boundary-001) | [87e9eeb91f](https://github.com/the-static-collective/reLATTE/commit/87e9eeb91f067aadda3d7440ec486dc4d7c7ae80) | [open PR #84](https://github.com/the-static-collective/reLATTE/pull/84) |
+| [experiment/composition-instance-001](https://github.com/the-static-collective/reLATTE/tree/experiment/composition-instance-001) | [f34772194e](https://github.com/the-static-collective/reLATTE/commit/f34772194e761585ee6d05a48be33f614f6d4c03) | [open PR #77](https://github.com/the-static-collective/reLATTE/pull/77) |
+| [experiment/composition-instance-002](https://github.com/the-static-collective/reLATTE/tree/experiment/composition-instance-002) | [21e7d7a741](https://github.com/the-static-collective/reLATTE/commit/21e7d7a7413507b3b9301354f51f7f98d89d2eee) | [open PR #79](https://github.com/the-static-collective/reLATTE/pull/79) |
+| [experiment/composition-instance-002-parents](https://github.com/the-static-collective/reLATTE/tree/experiment/composition-instance-002-parents) | [3da2740173](https://github.com/the-static-collective/reLATTE/commit/3da2740173cb82c6eefc1dea31471a1f1b498577) | Retained ref; disposition unverified |
+| [experiment/dynamic-interface-field-001](https://github.com/the-static-collective/reLATTE/tree/experiment/dynamic-interface-field-001) | [1bdb060130](https://github.com/the-static-collective/reLATTE/commit/1bdb060130842df2f634831a80f4dc5bb57f630c) | [open PR #78](https://github.com/the-static-collective/reLATTE/pull/78) |
 | [experiment/first-contact-001](https://github.com/the-static-collective/reLATTE/tree/experiment/first-contact-001) | [ae3fd0f568](https://github.com/the-static-collective/reLATTE/commit/ae3fd0f56860683245dfd27ff32edf64311046bf) | [open PR #62](https://github.com/the-static-collective/reLATTE/pull/62) |
+| [experiment/interface-superspace-001](https://github.com/the-static-collective/reLATTE/tree/experiment/interface-superspace-001) | [4affa111c3](https://github.com/the-static-collective/reLATTE/commit/4affa111c367e50dc3dfcce45e5334931f9b9ca6) | [open PR #76](https://github.com/the-static-collective/reLATTE/pull/76) |
 | [experiment/manga-parcel-001](https://github.com/the-static-collective/reLATTE/tree/experiment/manga-parcel-001) | [d208d98bd8](https://github.com/the-static-collective/reLATTE/commit/d208d98bd88194cbd42c90379816b1167248595f) | [open PR #56](https://github.com/the-static-collective/reLATTE/pull/56) |
 | [experiment/paperchain-seed-vault-001](https://github.com/the-static-collective/reLATTE/tree/experiment/paperchain-seed-vault-001) | [51372e57b6](https://github.com/the-static-collective/reLATTE/commit/51372e57b6c1f5647621ea805f6f983b5ac28597) | [open PR #65](https://github.com/the-static-collective/reLATTE/pull/65) |
+| [experiment/particularity-crucible-001](https://github.com/the-static-collective/reLATTE/tree/experiment/particularity-crucible-001) | [f5cb7488be](https://github.com/the-static-collective/reLATTE/commit/f5cb7488bebc1a6e27fd458ad40af9b9b6f9e858) | [open PR #67](https://github.com/the-static-collective/reLATTE/pull/67) |
+| [experiment/perceived-affordance-field-001](https://github.com/the-static-collective/reLATTE/tree/experiment/perceived-affordance-field-001) | [488466f0fb](https://github.com/the-static-collective/reLATTE/commit/488466f0fb6607114a086683dc91c1c5eff42dc0) | [open PR #83](https://github.com/the-static-collective/reLATTE/pull/83) |
 | [experiment/physical-custody-power-split-001](https://github.com/the-static-collective/reLATTE/tree/experiment/physical-custody-power-split-001) | [85a55dce41](https://github.com/the-static-collective/reLATTE/commit/85a55dce41f440cedd3d84ef39371e8ebe02d248) | Retained ref; disposition unverified |
 | [experiment/physical-custody-roundtrip-002](https://github.com/the-static-collective/reLATTE/tree/experiment/physical-custody-roundtrip-002) | [87006f3265](https://github.com/the-static-collective/reLATTE/commit/87006f3265103a8abe387d81597c58aeb39b0beb) | Retained ref; disposition unverified |
+| [experiment/polyglot-crossing-001](https://github.com/the-static-collective/reLATTE/tree/experiment/polyglot-crossing-001) | [b0d20852a4](https://github.com/the-static-collective/reLATTE/commit/b0d20852a44e5a80b124bc9690e1af547942221b) | [open PR #68](https://github.com/the-static-collective/reLATTE/pull/68) |
 | [experiment/supabardo-independent-verifier-001](https://github.com/the-static-collective/reLATTE/tree/experiment/supabardo-independent-verifier-001) | [65294f1352](https://github.com/the-static-collective/reLATTE/commit/65294f135260ee48b38829f698598dfe3478b0e7) | [open PR #60](https://github.com/the-static-collective/reLATTE/pull/60) |
 | [experiment/supabardo-sb001-001](https://github.com/the-static-collective/reLATTE/tree/experiment/supabardo-sb001-001) | [2b243e6923](https://github.com/the-static-collective/reLATTE/commit/2b243e69230f9bccbf947fc827c664203e240550) | [open PR #57](https://github.com/the-static-collective/reLATTE/pull/57) |
 | [experiment/supabardo-sb002-001](https://github.com/the-static-collective/reLATTE/tree/experiment/supabardo-sb002-001) | [5044bea9d3](https://github.com/the-static-collective/reLATTE/commit/5044bea9d30c9ee1c6c318c4a2c9113d2d2eb780) | [open PR #58](https://github.com/the-static-collective/reLATTE/pull/58) |
 | [experiment/supabardo-sb003-ark-outlived-world-001](https://github.com/the-static-collective/reLATTE/tree/experiment/supabardo-sb003-ark-outlived-world-001) | [e5b351ef03](https://github.com/the-static-collective/reLATTE/commit/e5b351ef0391fea53d7d3ff22ceadd47d5114b26) | [open PR #59](https://github.com/the-static-collective/reLATTE/pull/59) |
+| [experiment/translate-through-001](https://github.com/the-static-collective/reLATTE/tree/experiment/translate-through-001) | [49041d9062](https://github.com/the-static-collective/reLATTE/commit/49041d906274308e1e6aba46807642a6e658fdfa) | [open PR #75](https://github.com/the-static-collective/reLATTE/pull/75) |
+| [experiment/vanilla-worldbuilder-006](https://github.com/the-static-collective/reLATTE/tree/experiment/vanilla-worldbuilder-006) | [7af28e974c](https://github.com/the-static-collective/reLATTE/commit/7af28e974cd82fe6bd1f6cfacf656c8c0d7b1cf1) | [open PR #74](https://github.com/the-static-collective/reLATTE/pull/74) |
 | [external-checkpoint-001](https://github.com/the-static-collective/reLATTE/tree/external-checkpoint-001) | [c0e59dfa36](https://github.com/the-static-collective/reLATTE/commit/c0e59dfa361e91ef6c886ae0bd9a25752c2aa293) | Retained ref; disposition unverified |
 | [feat/automatic-failover-001](https://github.com/the-static-collective/reLATTE/tree/feat/automatic-failover-001) | [19f394883a](https://github.com/the-static-collective/reLATTE/commit/19f394883af29122e92658413110be47f5bc7eb9) | [open PR #40](https://github.com/the-static-collective/reLATTE/pull/40) |
 | [feat/browse-metabolism](https://github.com/the-static-collective/reLATTE/tree/feat/browse-metabolism) | [7d7fc2b44f](https://github.com/the-static-collective/reLATTE/commit/7d7fc2b44f00717647804675185ac9f269a788ed) | [open PR #10](https://github.com/the-static-collective/reLATTE/pull/10) |
@@ -487,12 +562,13 @@ Default: `main` · other refs: 1 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/webZ) · [Branches](https://github.com/the-static-collective/webZ/branches) · [Pull requests](https://github.com/the-static-collective/webZ/pulls)
 
-Default: `main` · other refs: 3 · open PRs: 1
+Default: `main` · other refs: 4 · open PRs: 2
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#5](https://github.com/the-static-collective/webZ/pull/5) | STATIC-PRESSING-001 — native bring-one-thing webZ door | `feat/static-pressing-001` → `main` | 2026-10-07 |
 | [#4](https://github.com/the-static-collective/webZ/pull/4) | feat: begin FIRST-ENCOUNTER-002 invitation and signed-return preflight | `feat/first-encounter-002` → `main` | 2026-10-07 |
 
 ### Retained nondefault branches
@@ -502,6 +578,7 @@ Default: `main` · other refs: 3 · open PRs: 1
 | [design/webz-maxhinal-porch-001](https://github.com/the-static-collective/webZ/tree/design/webz-maxhinal-porch-001) | [b487aab92a](https://github.com/the-static-collective/webZ/commit/b487aab92a8a2a572001cd91424a81b3a14abce9) | Retained ref; disposition unverified |
 | [feat/first-encounter-002](https://github.com/the-static-collective/webZ/tree/feat/first-encounter-002) | [8153c60393](https://github.com/the-static-collective/webZ/commit/8153c60393e4e206160b284082f7eb3161d3f379) | [open PR #4](https://github.com/the-static-collective/webZ/pull/4) |
 | [feat/offline-sovereign-porch](https://github.com/the-static-collective/webZ/tree/feat/offline-sovereign-porch) | [659166135f](https://github.com/the-static-collective/webZ/commit/659166135f1c3898d07829f6eb5a1d074ec082f5) | Retained ref; disposition unverified |
+| [feat/static-pressing-001](https://github.com/the-static-collective/webZ/tree/feat/static-pressing-001) | [1ad3bfd5d2](https://github.com/the-static-collective/webZ/commit/1ad3bfd5d2429ec36f843818ac6f5bbde401e177) | [open PR #5](https://github.com/the-static-collective/webZ/pull/5) |
 
 ## WITNESS
 

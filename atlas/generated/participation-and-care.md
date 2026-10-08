@@ -107,12 +107,13 @@ Default: `main` · other refs: 4 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/full-measure-world-layer) · [Branches](https://github.com/the-static-collective/full-measure-world-layer/branches) · [Pull requests](https://github.com/the-static-collective/full-measure-world-layer/pulls)
 
-Default: `main` · other refs: 29 · open PRs: 14
+Default: `main` · other refs: 31 · open PRs: 15
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#53](https://github.com/the-static-collective/full-measure-world-layer/pull/53) | PLENTY-001 — scarcity inverter proof specimen | `feat/plenty-001-scarcity-inverter` → `main` | 2026-10-07 |
 | [#52](https://github.com/the-static-collective/full-measure-world-layer/pull/52) | TENET-ARPG-002: make consequential history a walkable frontier | `experiment/tenet-arpg-frontier-002` → `experiment/tenet-arpg-001` | 2026-10-05 |
 | [#51](https://github.com/the-static-collective/full-measure-world-layer/pull/51) | TENET-ARPG-001: make the Warm Thread playable | `experiment/tenet-arpg-001` → `experiment/warm-thread-world-001` | 2026-10-04 |
 | [#50](https://github.com/the-static-collective/full-measure-world-layer/pull/50) | WARM-THREAD-WORLD-001: inhabit GHoT's pocket-sized promise | `experiment/warm-thread-world-001` → `main` | 2026-10-04 |
@@ -159,8 +160,10 @@ Default: `main` · other refs: 29 · open PRs: 14
 | [feat/grace-room-polish-006](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/grace-room-polish-006) | [7b0e78fbe7](https://github.com/the-static-collective/full-measure-world-layer/commit/7b0e78fbe7ee2a84de0df4ce28faf68ac261405a) | [open PR #41](https://github.com/the-static-collective/full-measure-world-layer/pull/41) |
 | [feat/grace-room-stage-004](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/grace-room-stage-004) | [039f6d04a1](https://github.com/the-static-collective/full-measure-world-layer/commit/039f6d04a180e48d30c01f21d73877c8715c472d) | [open PR #37](https://github.com/the-static-collective/full-measure-world-layer/pull/37) |
 | [feat/grace-walkable-room-005](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/grace-walkable-room-005) | [a8b1689f40](https://github.com/the-static-collective/full-measure-world-layer/commit/a8b1689f40818776cafa924245acf6869838cbc1) | [open PR #38](https://github.com/the-static-collective/full-measure-world-layer/pull/38) |
+| [feat/plenty-001-scarcity-inverter](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/plenty-001-scarcity-inverter) | [fa44f99ea8](https://github.com/the-static-collective/full-measure-world-layer/commit/fa44f99ea82137808c248fe0747e599142d5429f) | [open PR #53](https://github.com/the-static-collective/full-measure-world-layer/pull/53) |
 | [feature/grace-001-worldseed](https://github.com/the-static-collective/full-measure-world-layer/tree/feature/grace-001-worldseed) | [b1eb6b7337](https://github.com/the-static-collective/full-measure-world-layer/commit/b1eb6b7337b535709031df50ead728f8b2e382d4) | [open PR #33](https://github.com/the-static-collective/full-measure-world-layer/pull/33) |
 | [navigation-aperture-2026-09-27](https://github.com/the-static-collective/full-measure-world-layer/tree/navigation-aperture-2026-09-27) | [8abbad653a](https://github.com/the-static-collective/full-measure-world-layer/commit/8abbad653a7c9655490783c723aa11d81eeaa343) | Retained ref; disposition unverified |
+| [spec/plenty-001-scarcity-inverter](https://github.com/the-static-collective/full-measure-world-layer/tree/spec/plenty-001-scarcity-inverter) | [7ef777cf0f](https://github.com/the-static-collective/full-measure-world-layer/commit/7ef777cf0fa31bd8f4da673f83f89d29d9ade45b) | Retained ref; disposition unverified |
 
 ## seedforge
 

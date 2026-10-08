@@ -2946,6 +2946,10 @@
           "sha": "a8b1689f40818776cafa924245acf6869838cbc1"
         },
         {
+          "name": "feat/plenty-001-scarcity-inverter",
+          "sha": "fa44f99ea82137808c248fe0747e599142d5429f"
+        },
+        {
           "name": "feature/grace-001-worldseed",
           "sha": "b1eb6b7337b535709031df50ead728f8b2e382d4"
         },
@@ -2956,9 +2960,23 @@
         {
           "name": "navigation-aperture-2026-09-27",
           "sha": "8abbad653a7c9655490783c723aa11d81eeaa343"
+        },
+        {
+          "name": "spec/plenty-001-scarcity-inverter",
+          "sha": "7ef777cf0fa31bd8f4da673f83f89d29d9ade45b"
         }
       ],
       "open_prs": [
+        {
+          "number": 53,
+          "title": "PLENTY-001 — scarcity inverter proof specimen",
+          "head_branch": "feat/plenty-001-scarcity-inverter",
+          "head_sha": "fa44f99ea82137808c248fe0747e599142d5429f",
+          "head_repo": "the-static-collective/full-measure-world-layer",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T20:22:04Z",
+          "url": "https://github.com/the-static-collective/full-measure-world-layer/pull/53"
+        },
         {
           "number": 52,
           "title": "TENET-ARPG-002: make consequential history a walkable frontier",
@@ -4566,8 +4584,80 @@
           "sha": "b32083a712e2f9020dea95d09c3ba24e12addb0f"
         },
         {
+          "name": "experiment/box-binding-001",
+          "sha": "6e3e55762af43904057123c7159fcacc9da86c58"
+        },
+        {
+          "name": "experiment/house-takes-attendance-press-001",
+          "sha": "8d86d12d91f54b16038a03c8e8668d87e2a165c6"
+        },
+        {
+          "name": "experiment/manga-index-001",
+          "sha": "66105ac2276414a5ebdb9baae048147880f50d52"
+        },
+        {
           "name": "experiment/manga-parcel-001",
           "sha": "8ef9b4f3adcb85504937f962a1c6f2dd2e5f6296"
+        },
+        {
+          "name": "experiment/manga-remix-001",
+          "sha": "8b0655a26399f9ca7a8e6671dc9cf02132d3c7b1"
+        },
+        {
+          "name": "experiment/page-intake-001",
+          "sha": "81dc84dfe9e6ebebb54c751e5c8c213ff9516d82"
+        },
+        {
+          "name": "experiment/reletter-001",
+          "sha": "2b9ef5c7039816d20a51a7411e276999874f78d3"
+        },
+        {
+          "name": "experiment/reletter-batch-mask-001",
+          "sha": "6fe2bfd13fba08bcc096e31109a038a56a63f7df"
+        },
+        {
+          "name": "experiment/remix-sequence-001",
+          "sha": "6387170a1d623c4e819db572e70d7a0df1ce1b70"
+        },
+        {
+          "name": "experiment/translation-relay-001",
+          "sha": "7c175dd08130dc519c325ac0bd70ea1b82a3366e"
+        },
+        {
+          "name": "feat/2day-crawler-001",
+          "sha": "f084eb35d76a10f46a9c50b9aed3667ed01e3451"
+        },
+        {
+          "name": "feat/2day-cycle-001",
+          "sha": "04f561e19e0955d5ae04af55ab3cea917ad46c76"
+        },
+        {
+          "name": "feat/computer-book-001",
+          "sha": "0195be74caf8e396a2e574c61d00c4f7fb9df57e"
+        },
+        {
+          "name": "feat/computer-book-002-severance",
+          "sha": "b6ad673dd580b349d139af81b731f4dbfe8e4781"
+        },
+        {
+          "name": "feat/dissemination-001",
+          "sha": "c2735093d5fd9ecb8464b3e9a5e82bfc7d494692"
+        },
+        {
+          "name": "feat/manga-root-fork-001",
+          "sha": "a06904d43a88dd558e0ab371ed1e4cbb0a74b4fc"
+        },
+        {
+          "name": "feat/manga-style-profile-001",
+          "sha": "eba5b6f0b056330b63e82b95020b2656befc264a"
+        },
+        {
+          "name": "feat/renji-relay-001",
+          "sha": "70e8558f69f579261e73045787205d6af56509c6"
+        },
+        {
+          "name": "feat/skypaper-001",
+          "sha": "b93c5f65c94abd18271f672139e442eb7a857375"
         },
         {
           "name": "forage/letters-not-shared-memory-001",
@@ -4682,6 +4772,14 @@
           "sha": "6f97f8c6c79397a557ce66e3a6045ee689ad66af"
         },
         {
+          "name": "witness/dissemination-001-blind-traversal",
+          "sha": "237cf4f420f3e883933c5b1498741e23cd2a1c69"
+        },
+        {
+          "name": "witness/dissemination-002-foreign-reader",
+          "sha": "335ec24fed7544805f7da10ae952dfc9c077e583"
+        },
+        {
           "name": "work/haunted-library-001-crawler",
           "sha": "6d88fa77dd5edfd59dc41d34af3ef71205475125"
         },
@@ -4691,6 +4789,206 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 46,
+          "title": "MANGA ROOT FORK 001 — cross receipts without collapsing sibling histories",
+          "head_branch": "feat/manga-root-fork-001",
+          "head_sha": "a06904d43a88dd558e0ab371ed1e4cbb0a74b4fc",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "main",
+          "updated_at": "2026-10-08T08:12:36Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/46"
+        },
+        {
+          "number": 45,
+          "title": "MANGA STYLE PROFILE 001 — resolve reusable behavior without authority",
+          "head_branch": "feat/manga-style-profile-001",
+          "head_sha": "eba5b6f0b056330b63e82b95020b2656befc264a",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "main",
+          "updated_at": "2026-10-08T08:05:48Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/45"
+        },
+        {
+          "number": 44,
+          "title": "RENJI RELAY 001 — an arrived page proves TRANSFORM != SEVER",
+          "head_branch": "feat/renji-relay-001",
+          "head_sha": "70e8558f69f579261e73045787205d6af56509c6",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "feat/manga-style-profile-001",
+          "updated_at": "2026-10-08T08:35:04Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/44"
+        },
+        {
+          "number": 42,
+          "title": "SKYPAPER 001 — computer-native literature under partial retrieval",
+          "head_branch": "feat/skypaper-001",
+          "head_sha": "b93c5f65c94abd18271f672139e442eb7a857375",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "witness/dissemination-002-foreign-reader",
+          "updated_at": "2026-10-08T00:08:22Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/42"
+        },
+        {
+          "number": 41,
+          "title": "DISSEMINATION WITNESS 002 — foreign reader over public HTTPS",
+          "head_branch": "witness/dissemination-002-foreign-reader",
+          "head_sha": "335ec24fed7544805f7da10ae952dfc9c077e583",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "feat/dissemination-001",
+          "updated_at": "2026-10-07T23:54:27Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/41"
+        },
+        {
+          "number": 40,
+          "title": "RELETTER BATCH 001 + MASK LETTERING 001 — complete the returned-English visual candidate",
+          "head_branch": "experiment/reletter-batch-mask-001",
+          "head_sha": "6fe2bfd13fba08bcc096e31109a038a56a63f7df",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "experiment/box-binding-001",
+          "updated_at": "2026-10-07T23:55:21Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/40"
+        },
+        {
+          "number": 39,
+          "title": "DISSEMINATION WITNESS 001 — bounded blind traversal",
+          "head_branch": "witness/dissemination-001-blind-traversal",
+          "head_sha": "237cf4f420f3e883933c5b1498741e23cd2a1c69",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "feat/dissemination-001",
+          "updated_at": "2026-10-07T23:33:29Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/39"
+        },
+        {
+          "number": 38,
+          "title": "BOX BINDING 001 — bind all 68 relay particulars to exact page regions",
+          "head_branch": "experiment/box-binding-001",
+          "head_sha": "6e3e55762af43904057123c7159fcacc9da86c58",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "experiment/page-intake-001",
+          "updated_at": "2026-10-07T23:18:09Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/38"
+        },
+        {
+          "number": 36,
+          "title": "PAGE INTAKE 001 — exact PDF pages become bounded Manga Press carriers",
+          "head_branch": "experiment/page-intake-001",
+          "head_sha": "81dc84dfe9e6ebebb54c751e5c8c213ff9516d82",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "experiment/reletter-001",
+          "updated_at": "2026-10-07T22:23:42Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/36"
+        },
+        {
+          "number": 35,
+          "title": "RELETTER 001 — returned language becomes a visible manga page candidate",
+          "head_branch": "experiment/reletter-001",
+          "head_sha": "2b9ef5c7039816d20a51a7411e276999874f78d3",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "experiment/translation-relay-001",
+          "updated_at": "2026-10-07T22:09:10Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/35"
+        },
+        {
+          "number": 34,
+          "title": "TRANSLATION RELAY 001 — Japanese round-trip as native manga text remix",
+          "head_branch": "experiment/translation-relay-001",
+          "head_sha": "7c175dd08130dc519c325ac0bd70ea1b82a3366e",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "experiment/remix-sequence-001",
+          "updated_at": "2026-10-07T21:49:39Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/34"
+        },
+        {
+          "number": 33,
+          "title": "DISSEMINATION 001 — throw one computer book into the sea",
+          "head_branch": "feat/dissemination-001",
+          "head_sha": "c2735093d5fd9ecb8464b3e9a5e82bfc7d494692",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "feat/computer-book-002-severance",
+          "updated_at": "2026-10-07T20:46:16Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/33"
+        },
+        {
+          "number": 32,
+          "title": "2DAY CRAWLER 001 — recover 39 public track particulars and emit Playdeck loop",
+          "head_branch": "feat/2day-crawler-001",
+          "head_sha": "f084eb35d76a10f46a9c50b9aed3667ed01e3451",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "press/crawler",
+          "updated_at": "2026-10-07T23:38:41Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/32"
+        },
+        {
+          "number": 31,
+          "title": "COMPUTER BOOK 002 — severance without invented reconstruction",
+          "head_branch": "feat/computer-book-002-severance",
+          "head_sha": "b6ad673dd580b349d139af81b731f4dbfe8e4781",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "feat/computer-book-001",
+          "updated_at": "2026-10-07T20:30:45Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/31"
+        },
+        {
+          "number": 30,
+          "title": "COMPUTER BOOK 001 — native literature for partial retrieval",
+          "head_branch": "feat/computer-book-001",
+          "head_sha": "0195be74caf8e396a2e574c61d00c4f7fb9df57e",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "press/crawler",
+          "updated_at": "2026-10-07T20:17:16Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/30"
+        },
+        {
+          "number": 29,
+          "title": "2DAY CYCLE 001 — preserve the four-playlist one-day clock",
+          "head_branch": "feat/2day-cycle-001",
+          "head_sha": "04f561e19e0955d5ae04af55ab3cea917ad46c76",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T20:34:09Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/29"
+        },
+        {
+          "number": 28,
+          "title": "THE HOUSE TAKES ATTENDANCE — Digital Reader 001 + physical brief",
+          "head_branch": "experiment/house-takes-attendance-press-001",
+          "head_sha": "8d86d12d91f54b16038a03c8e8668d87e2a165c6",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "experiment/manga-index-001",
+          "updated_at": "2026-10-07T19:53:38Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/28"
+        },
+        {
+          "number": 27,
+          "title": "REMIX SEQUENCE 001 — declared reading-order remix for LemonPRESS",
+          "head_branch": "experiment/remix-sequence-001",
+          "head_sha": "6387170a1d623c4e819db572e70d7a0df1ce1b70",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "experiment/manga-remix-001",
+          "updated_at": "2026-10-07T19:42:17Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/27"
+        },
+        {
+          "number": 26,
+          "title": "MANGA INDEX 001 — canonical 19-issue corpus + 100-page anthology candidate",
+          "head_branch": "experiment/manga-index-001",
+          "head_sha": "66105ac2276414a5ebdb9baae048147880f50d52",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "experiment/manga-remix-001",
+          "updated_at": "2026-10-07T19:28:55Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/26"
+        },
+        {
+          "number": 25,
+          "title": "MANGA REMIX 001 — attributable multi-parent candidate compositor",
+          "head_branch": "experiment/manga-remix-001",
+          "head_sha": "8b0655a26399f9ca7a8e6671dc9cf02132d3c7b1",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "manga-press-001",
+          "updated_at": "2026-10-07T18:42:33Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/25"
+        },
         {
           "number": 24,
           "title": "Manga Parcel 001 — National Treasure Seed Zero",
@@ -5599,11 +5897,39 @@
           "sha": "012186fd67f4c4ef1c6591fc5e29cb559b5a80d0"
         },
         {
+          "name": "experiment/lemonpress-sequence-handoff-001",
+          "sha": "e64f11f728137e8908e4f5bdbde9aab39e2d9bbd"
+        },
+        {
+          "name": "experiment/page-playlist-press-001",
+          "sha": "7f0fefaa6d69f8cd5c682dc92a641b7799e7dedc"
+        },
+        {
           "name": "main",
           "sha": "a7cf718421e767fd382a01894063c3eeba3d2930"
         }
       ],
       "open_prs": [
+        {
+          "number": 3,
+          "title": "LEMONPRESS SEQUENCE HANDOFF 001 — verified reading order into Playdeck",
+          "head_branch": "experiment/lemonpress-sequence-handoff-001",
+          "head_sha": "e64f11f728137e8908e4f5bdbde9aab39e2d9bbd",
+          "head_repo": "the-static-collective/playdeck",
+          "base_branch": "experiment/page-playlist-press-001",
+          "updated_at": "2026-10-07T20:13:38Z",
+          "url": "https://github.com/the-static-collective/playdeck/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "PAGE PLAYLIST PRESS 001 — originals + remixes into Playdeck",
+          "head_branch": "experiment/page-playlist-press-001",
+          "head_sha": "7f0fefaa6d69f8cd5c682dc92a641b7799e7dedc",
+          "head_repo": "the-static-collective/playdeck",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T19:02:56Z",
+          "url": "https://github.com/the-static-collective/playdeck/pull/2"
+        },
         {
           "number": 1,
           "title": "FRANKEN SMASH 001: deterministic cross-organ composition runtime",
@@ -5876,8 +6202,52 @@
           "sha": "8446ed84dfe197690f98dee991bb206d881dfef4"
         },
         {
+          "name": "experiment/alien-adapter-001",
+          "sha": "0ac02ec4bb3f7cb1b77a38e1bde8879d18d794ce"
+        },
+        {
+          "name": "experiment/alien-langton-003",
+          "sha": "3f61265db4f8d61bc32333a1c27a1d962ba831cc"
+        },
+        {
+          "name": "experiment/alien-midi-002",
+          "sha": "a17e030fda5af59265ce5d76b0f1861c9999ae8e"
+        },
+        {
+          "name": "experiment/alien-minecraft-004",
+          "sha": "03ef0a4844a99dbddf94645654728652a60f4772"
+        },
+        {
+          "name": "experiment/alien-minecraft-vanilla-005",
+          "sha": "686daa00acbb5a8feab879364596ce1a9c797120"
+        },
+        {
+          "name": "experiment/authenticated-pressure-authority-boundary-001",
+          "sha": "87e9eeb91f067aadda3d7440ec486dc4d7c7ae80"
+        },
+        {
+          "name": "experiment/composition-instance-001",
+          "sha": "f34772194e761585ee6d05a48be33f614f6d4c03"
+        },
+        {
+          "name": "experiment/composition-instance-002",
+          "sha": "21e7d7a7413507b3b9301354f51f7f98d89d2eee"
+        },
+        {
+          "name": "experiment/composition-instance-002-parents",
+          "sha": "3da2740173cb82c6eefc1dea31471a1f1b498577"
+        },
+        {
+          "name": "experiment/dynamic-interface-field-001",
+          "sha": "1bdb060130842df2f634831a80f4dc5bb57f630c"
+        },
+        {
           "name": "experiment/first-contact-001",
           "sha": "ae3fd0f56860683245dfd27ff32edf64311046bf"
+        },
+        {
+          "name": "experiment/interface-superspace-001",
+          "sha": "4affa111c367e50dc3dfcce45e5334931f9b9ca6"
         },
         {
           "name": "experiment/manga-parcel-001",
@@ -5888,12 +6258,24 @@
           "sha": "51372e57b6c1f5647621ea805f6f983b5ac28597"
         },
         {
+          "name": "experiment/particularity-crucible-001",
+          "sha": "f5cb7488bebc1a6e27fd458ad40af9b9b6f9e858"
+        },
+        {
+          "name": "experiment/perceived-affordance-field-001",
+          "sha": "488466f0fb6607114a086683dc91c1c5eff42dc0"
+        },
+        {
           "name": "experiment/physical-custody-power-split-001",
           "sha": "85a55dce41f440cedd3d84ef39371e8ebe02d248"
         },
         {
           "name": "experiment/physical-custody-roundtrip-002",
           "sha": "87006f3265103a8abe387d81597c58aeb39b0beb"
+        },
+        {
+          "name": "experiment/polyglot-crossing-001",
+          "sha": "b0d20852a44e5a80b124bc9690e1af547942221b"
         },
         {
           "name": "experiment/supabardo-independent-verifier-001",
@@ -5910,6 +6292,14 @@
         {
           "name": "experiment/supabardo-sb003-ark-outlived-world-001",
           "sha": "e5b351ef0391fea53d7d3ff22ceadd47d5114b26"
+        },
+        {
+          "name": "experiment/translate-through-001",
+          "sha": "49041d906274308e1e6aba46807642a6e658fdfa"
+        },
+        {
+          "name": "experiment/vanilla-worldbuilder-006",
+          "sha": "7af28e974cd82fe6bd1f6cfacf656c8c0d7b1cf1"
         },
         {
           "name": "external-checkpoint-001",
@@ -6133,6 +6523,156 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 84,
+          "title": "experiment: preserve authenticated-pressure authority boundary",
+          "head_branch": "experiment/authenticated-pressure-authority-boundary-001",
+          "head_sha": "87e9eeb91f067aadda3d7440ec486dc4d7c7ae80",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-08T11:01:27Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/84"
+        },
+        {
+          "number": 83,
+          "title": "PERCEIVED-AFFORDANCE-FIELD-001 — observer-relative possibility without owner authority",
+          "head_branch": "experiment/perceived-affordance-field-001",
+          "head_sha": "488466f0fb6607114a086683dc91c1c5eff42dc0",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/composition-instance-002",
+          "updated_at": "2026-10-08T10:58:37Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/83"
+        },
+        {
+          "number": 79,
+          "title": "COMPOSITION-INSTANCE-002: runtime-caused field participation, terminal death and fresh reconstitution",
+          "head_branch": "experiment/composition-instance-002",
+          "head_sha": "21e7d7a7413507b3b9301354f51f7f98d89d2eee",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/composition-instance-002-parents",
+          "updated_at": "2026-10-08T07:33:18Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/79"
+        },
+        {
+          "number": 78,
+          "title": "DYNAMIC-INTERFACE-FIELD-001: history-bearing doors and bounded composition",
+          "head_branch": "experiment/dynamic-interface-field-001",
+          "head_sha": "1bdb060130842df2f634831a80f4dc5bb57f630c",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/interface-superspace-001",
+          "updated_at": "2026-10-08T01:45:03Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/78"
+        },
+        {
+          "number": 77,
+          "title": "COMPOSITION-INSTANCE-001 — run composition inside bounded reLATTE worlds",
+          "head_branch": "experiment/composition-instance-001",
+          "head_sha": "f34772194e761585ee6d05a48be33f614f6d4c03",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/vanilla-worldbuilder-006",
+          "updated_at": "2026-10-08T06:47:43Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/77"
+        },
+        {
+          "number": 76,
+          "title": "INTERFACE-SUPERSPACE-001: synthesize lawful routes through existing doors",
+          "head_branch": "experiment/interface-superspace-001",
+          "head_sha": "4affa111c367e50dc3dfcce45e5334931f9b9ca6",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/vanilla-worldbuilder-006",
+          "updated_at": "2026-10-08T00:56:41Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/76"
+        },
+        {
+          "number": 75,
+          "title": "TRANSLATE.THROUGH 001 — first-class signed route attachments",
+          "head_branch": "experiment/translate-through-001",
+          "head_sha": "49041d906274308e1e6aba46807642a6e658fdfa",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-08T00:37:51Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/75"
+        },
+        {
+          "number": 74,
+          "title": "VANILLA-WORLDBUILDER-006 — tell official Minecraft to build a world",
+          "head_branch": "experiment/vanilla-worldbuilder-006",
+          "head_sha": "7af28e974cd82fe6bd1f6cfacf656c8c0d7b1cf1",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/alien-minecraft-vanilla-005",
+          "updated_at": "2026-10-08T00:20:41Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/74"
+        },
+        {
+          "number": 73,
+          "title": "ALIEN-MINECRAFT-VANILLA-005 — official vanilla server playthrough",
+          "head_branch": "experiment/alien-minecraft-vanilla-005",
+          "head_sha": "686daa00acbb5a8feab879364596ce1a9c797120",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/alien-minecraft-004",
+          "updated_at": "2026-10-07T23:44:00Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/73"
+        },
+        {
+          "number": 72,
+          "title": "ALIEN-MINECRAFT-004 — lawful playthrough carrier against frozen core",
+          "head_branch": "experiment/alien-minecraft-004",
+          "head_sha": "03ef0a4844a99dbddf94645654728652a60f4772",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/alien-langton-003",
+          "updated_at": "2026-10-07T22:56:48Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/72"
+        },
+        {
+          "number": 71,
+          "title": "ALIEN-LANGTON-003 — reversible evolving-world carrier against frozen core",
+          "head_branch": "experiment/alien-langton-003",
+          "head_sha": "3f61265db4f8d61bc32333a1c27a1d962ba831cc",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/alien-midi-002",
+          "updated_at": "2026-10-07T22:15:07Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/71"
+        },
+        {
+          "number": 70,
+          "title": "ALIEN-MIDI-002 — musical event ontology against frozen core",
+          "head_branch": "experiment/alien-midi-002",
+          "head_sha": "a17e030fda5af59265ce5d76b0f1861c9999ae8e",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/alien-adapter-001",
+          "updated_at": "2026-10-07T21:58:18Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/70"
+        },
+        {
+          "number": 69,
+          "title": "ALIEN-ADAPTER-001 — ephemeral UDP swarm against frozen core",
+          "head_branch": "experiment/alien-adapter-001",
+          "head_sha": "0ac02ec4bb3f7cb1b77a38e1bde8879d18d794ce",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/polyglot-crossing-001",
+          "updated_at": "2026-10-07T21:46:06Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/69"
+        },
+        {
+          "number": 68,
+          "title": "POLYGLOT-CROSSING-001 — six alien substrates, frozen reLATTE core",
+          "head_branch": "experiment/polyglot-crossing-001",
+          "head_sha": "b0d20852a44e5a80b124bc9690e1af547942221b",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/particularity-crucible-001",
+          "updated_at": "2026-10-07T21:32:57Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/68"
+        },
+        {
+          "number": 67,
+          "title": "PARTICULARITY-CRUCIBLE-001: false split / false collapse identity witness",
+          "head_branch": "experiment/particularity-crucible-001",
+          "head_sha": "f5cb7488bebc1a6e27fd458ad40af9b9b6f9e858",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T20:37:09Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/67"
+        },
         {
           "number": 66,
           "title": "WEBZ-005: executable FatherHand seed kernel and FounderNode trust root",
@@ -7231,6 +7771,18 @@
           "sha": "5344b5750b36588c2c49c73a9009d2550c0c5b84"
         },
         {
+          "name": "experiment/cranknode-001",
+          "sha": "bffd4ebca9e9006864095b4c0357b5fc123929a0"
+        },
+        {
+          "name": "experiment/cranknode-002-provider-crossing-candidate",
+          "sha": "6887e09c87936b53bbaa505ca633a05e7c69c9e5"
+        },
+        {
+          "name": "experiment/cranknode-003-physical-edge",
+          "sha": "7c80ccca540464e6fae8c412bbb6c365ad883366"
+        },
+        {
           "name": "experiment/dvote-make-ground-loop-001",
           "sha": "bc55dc21010da1f3bf7ff1ec82666abe4d6153f2"
         },
@@ -7289,6 +7841,10 @@
         {
           "name": "experiment/two-cycle-navigation-history-001",
           "sha": "1952472a03f1b5dc15218fe75caef7b8dacd286a"
+        },
+        {
+          "name": "experiment/v1-world-bus-vehicle-ecm",
+          "sha": "405fbbf56f96a32af1ed332e2ad9105c09f073da"
         },
         {
           "name": "experiment/weave-generation-to-nav-cycle-001",
@@ -7388,6 +7944,46 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 50,
+          "title": "V1 — world bus + vehicle ECM observation organ",
+          "head_branch": "experiment/v1-world-bus-vehicle-ecm",
+          "head_sha": "405fbbf56f96a32af1ed332e2ad9105c09f073da",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/cranknode-003-physical-edge",
+          "updated_at": "2026-10-07T23:09:35Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/50"
+        },
+        {
+          "number": 49,
+          "title": "CRANKNODE-003 — physical edge to one turn attempt",
+          "head_branch": "experiment/cranknode-003-physical-edge",
+          "head_sha": "7c80ccca540464e6fae8c412bbb6c365ad883366",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/cranknode-002-provider-crossing-candidate",
+          "updated_at": "2026-10-07T22:17:13Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/49"
+        },
+        {
+          "number": 48,
+          "title": "CRANKNODE-002 — replaceable provider to reLATTE crossing candidate",
+          "head_branch": "experiment/cranknode-002-provider-crossing-candidate",
+          "head_sha": "6887e09c87936b53bbaa505ca633a05e7c69c9e5",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/cranknode-001",
+          "updated_at": "2026-10-07T22:06:37Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/48"
+        },
+        {
+          "number": 47,
+          "title": "CRANKNODE-001 — one turn, one bounded work unit, one receipt",
+          "head_branch": "experiment/cranknode-001",
+          "head_sha": "bffd4ebca9e9006864095b4c0357b5fc123929a0",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/five-door-boot-witness-001",
+          "updated_at": "2026-10-07T21:52:06Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/47"
+        },
         {
           "number": 45,
           "title": "FIVE-DOOR-BOOT-WITNESS-001: preserve one unresolved LIFE constellation",
@@ -12488,11 +13084,25 @@
           "sha": "659166135f1c3898d07829f6eb5a1d074ec082f5"
         },
         {
+          "name": "feat/static-pressing-001",
+          "sha": "1ad3bfd5d2429ec36f843818ac6f5bbde401e177"
+        },
+        {
           "name": "main",
           "sha": "b6b9897bfd6e548a3ce3dbea21e633803dcbd13b"
         }
       ],
       "open_prs": [
+        {
+          "number": 5,
+          "title": "STATIC-PRESSING-001 — native bring-one-thing webZ door",
+          "head_branch": "feat/static-pressing-001",
+          "head_sha": "1ad3bfd5d2429ec36f843818ac6f5bbde401e177",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-07T21:42:51Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/5"
+        },
         {
           "number": 4,
           "title": "feat: begin FIRST-ENCOUNTER-002 invitation and signed-return preflight",
@@ -12757,7 +13367,7 @@
         },
         {
           "name": "main",
-          "sha": "e17d0a3ae2c6e04c4a627011f666abb75ff8da4c"
+          "sha": "41b9419d4117c9edc145671e9b1cbd5b08c9f759"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -13192,5 +13802,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-07T14:29:14+00:00"
+  "captured_at": "2026-10-08T14:34:37+00:00"
 }
