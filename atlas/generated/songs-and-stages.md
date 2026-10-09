@@ -49,12 +49,14 @@ Default: `main` · other refs: 17 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/static-live) · [Branches](https://github.com/the-static-collective/static-live/branches) · [Pull requests](https://github.com/the-static-collective/static-live/pulls)
 
-Default: `main` · other refs: 19 · open PRs: 4
+Default: `main` · other refs: 21 · open PRs: 6
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#33](https://github.com/the-static-collective/static-live/pull/33) | KINSHIP-007 — consent-scoped Living Gifts and local gallery | `experiment/kinship-living-gifts-007` → `main` | 2026-10-08 |
+| [#31](https://github.com/the-static-collective/static-live/pull/31) | KINSHIP-006 — Jubilee Treasury neighbor-help radio porch | `experiment/kinship-jubilee-neighbor-door-006` → `main` | 2026-10-08 |
 | [#21](https://github.com/the-static-collective/static-live/pull/21) | DESIGN: GHOSTCAST-001 ghost seat and temporal theater | `design/ghostcast-001-temporal-theater` → `main` | 2026-09-20 |
 | [#19](https://github.com/the-static-collective/static-live/pull/19) | PATH-ALL-HOME-LIVE-001: export private moment recognition for Workbench | `feat/attention-crossing-live-return-002` → `feat/attention-crossing-live-001` | 2026-09-20 |
 | [#18](https://github.com/the-static-collective/static-live/pull/18) | ATTENTION-CROSSING-LIVE-001: contextual value buttons on private moment marks | `feat/attention-crossing-live-001` → `main` | 2026-09-20 |
@@ -69,6 +71,8 @@ Default: `main` · other refs: 19 · open PRs: 4
 | [agent/stream-001-broadcast-console](https://github.com/the-static-collective/static-live/tree/agent/stream-001-broadcast-console) | [a343134757](https://github.com/the-static-collective/static-live/commit/a34313475741f7efd65395b83072928cd923e0bb) | Retained ref; disposition unverified |
 | [design/ghostcast-001-temporal-theater](https://github.com/the-static-collective/static-live/tree/design/ghostcast-001-temporal-theater) | [4bc45279d5](https://github.com/the-static-collective/static-live/commit/4bc45279d5f226e2a4f4759a58bd24e9787681a5) | [open PR #21](https://github.com/the-static-collective/static-live/pull/21) |
 | [design/phono-live-001](https://github.com/the-static-collective/static-live/tree/design/phono-live-001) | [afc7aeb9dc](https://github.com/the-static-collective/static-live/commit/afc7aeb9dcf6212c222293646a0074bb143b33ef) | Retained ref; disposition unverified |
+| [experiment/kinship-jubilee-neighbor-door-006](https://github.com/the-static-collective/static-live/tree/experiment/kinship-jubilee-neighbor-door-006) | [3784e39268](https://github.com/the-static-collective/static-live/commit/3784e39268e3294d87dbcf646f85b8c2b7f0c99a) | [open PR #31](https://github.com/the-static-collective/static-live/pull/31) |
+| [experiment/kinship-living-gifts-007](https://github.com/the-static-collective/static-live/tree/experiment/kinship-living-gifts-007) | [66fed5728d](https://github.com/the-static-collective/static-live/commit/66fed5728d6ba60f3ebf86abeb5c7b8c25ae1ff7) | [open PR #33](https://github.com/the-static-collective/static-live/pull/33) |
 | [feat/attention-crossing-live-001](https://github.com/the-static-collective/static-live/tree/feat/attention-crossing-live-001) | [ad1804b01f](https://github.com/the-static-collective/static-live/commit/ad1804b01f2b87f594d2105a558798a30820d4eb) | [open PR #18](https://github.com/the-static-collective/static-live/pull/18) |
 | [feat/attention-crossing-live-return-002](https://github.com/the-static-collective/static-live/tree/feat/attention-crossing-live-return-002) | [eda612c470](https://github.com/the-static-collective/static-live/commit/eda612c470685076a6e3d548288ff2fd87e2c1c7) | [open PR #19](https://github.com/the-static-collective/static-live/pull/19) |
 | [feat/house-broadcast-identity-v01](https://github.com/the-static-collective/static-live/tree/feat/house-broadcast-identity-v01) | [b0147ceda0](https://github.com/the-static-collective/static-live/commit/b0147ceda0e7a60ec4b2f824e89930a932db7b1c) | Retained ref; disposition unverified |

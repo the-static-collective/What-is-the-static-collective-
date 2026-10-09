@@ -1130,6 +1130,90 @@
       "open_prs": []
     },
     {
+      "name": "CANNON",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "experiment/adapter-forge-005",
+          "sha": "ff8efbea88a777b075c95fb34a6178a29a1ea0fc"
+        },
+        {
+          "name": "experiment/canon-crossing-002",
+          "sha": "0b7cafb066ca51a54d87df9f7198ab18f45e73d9"
+        },
+        {
+          "name": "experiment/canon-field-001",
+          "sha": "453cf70c820a114423811cecdc70b4ec06f2675b"
+        },
+        {
+          "name": "experiment/present-use-003",
+          "sha": "99a9c270397717b690615178d0e821df545fb684"
+        },
+        {
+          "name": "experiment/typed-compatibility-004",
+          "sha": "420a5ded1c56af266ac2b9a06f827fe3a22361fc"
+        },
+        {
+          "name": "main",
+          "sha": "62a557389013155c07e4d98578cbfb560f5f59c5"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 7,
+          "title": "ADAPTER FORGE 005 — preserved-loss projection with mandatory signature reissue",
+          "head_branch": "experiment/adapter-forge-005",
+          "head_sha": "ff8efbea88a777b075c95fb34a6178a29a1ea0fc",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/typed-compatibility-004",
+          "updated_at": "2026-10-09T05:01:27Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/7"
+        },
+        {
+          "number": 6,
+          "title": "TYPED COMPATIBILITY 004 — real cross-repo schema fit without canon gate",
+          "head_branch": "experiment/typed-compatibility-004",
+          "head_sha": "420a5ded1c56af266ac2b9a06f827fe3a22361fc",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/present-use-003",
+          "updated_at": "2026-10-09T04:12:28Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/6"
+        },
+        {
+          "number": 5,
+          "title": "PRESENT USE 003 — verified non-canon cross-repo source composition",
+          "head_branch": "experiment/present-use-003",
+          "head_sha": "99a9c270397717b690615178d0e821df545fb684",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/canon-crossing-002",
+          "updated_at": "2026-10-09T03:58:12Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/5"
+        },
+        {
+          "number": 4,
+          "title": "CANON CROSSING 002 — exact Git SHA through native reLATTE, receiver-owned HOLD",
+          "head_branch": "experiment/canon-crossing-002",
+          "head_sha": "0b7cafb066ca51a54d87df9f7198ab18f45e73d9",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/canon-field-001",
+          "updated_at": "2026-10-09T03:21:38Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/4"
+        },
+        {
+          "number": 2,
+          "title": "CANON FIELD 001 — owner-signed multiple canons, no merge and no main privilege",
+          "head_branch": "experiment/canon-field-001",
+          "head_sha": "453cf70c820a114423811cecdc70b4ec06f2675b",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "main",
+          "updated_at": "2026-10-09T03:11:07Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/2"
+        }
+      ]
+    },
+    {
       "name": "ChronoQuest",
       "visibility": "public",
       "default_branch": "main",
@@ -3294,6 +3378,110 @@
           "sha": "27a627f8f7f0a8717245b3609db15a45227ec4ab"
         },
         {
+          "name": "experiment/listening-heap-001",
+          "sha": "f7a14f8a433fd72050f69e400010fb731a58dac3"
+        },
+        {
+          "name": "experiment/radio-attention-003",
+          "sha": "6e4aab6aec3b28f8dd50d01c3d571ae754c653d1"
+        },
+        {
+          "name": "experiment/radio-ear-002",
+          "sha": "7bf02841de1d537b4de1203baf9f53abcb09f9d4"
+        },
+        {
+          "name": "experiment/unfinished-business-001",
+          "sha": "4adf74cf986846427ca33b543580182016a0a20c"
+        },
+        {
+          "name": "experiment/unheard-choir-001",
+          "sha": "6b4fc24158f44c8c49e669e3bbaf0d4b02bb0217"
+        },
+        {
+          "name": "experiment/unheard-choir-002",
+          "sha": "4dc6a9697724e1fca363852ba4e8b1edc5f53c68"
+        },
+        {
+          "name": "experiment/unheard-choir-003",
+          "sha": "d229dcb94aa502948c1357a3469d560dd046712b"
+        },
+        {
+          "name": "experiment/unheard-choir-004",
+          "sha": "4e4804931d502145e653ae19a402a495a5c9f2c5"
+        },
+        {
+          "name": "experiment/unheard-choir-005",
+          "sha": "5eab6118ef221490f1423560094d3055d9a560b0"
+        },
+        {
+          "name": "experiment/unheard-choir-006",
+          "sha": "335834bfe54b5b59591d9d314a5c568dfa509ff8"
+        },
+        {
+          "name": "experiment/unheard-choir-007",
+          "sha": "cde20407be7920abe98c8413907e24377857baa8"
+        },
+        {
+          "name": "experiment/unheard-choir-008",
+          "sha": "f9abab4fb674d382bb5ef995c95ff9f915a26814"
+        },
+        {
+          "name": "experiment/unheard-choir-009",
+          "sha": "3c6a65e4d1d8172ee4d03fffcbd33665ceec2974"
+        },
+        {
+          "name": "experiment/unheard-choir-010",
+          "sha": "eef2a9b5d24fe28a3e15a8fb72629981e8d03443"
+        },
+        {
+          "name": "experiment/unheard-choir-011",
+          "sha": "86780140ea579c30e4c8a44730efb2a5027a782d"
+        },
+        {
+          "name": "experiment/unheard-choir-012",
+          "sha": "6ce876bfea8ec45261c393d24c584385b7959743"
+        },
+        {
+          "name": "experiment/unheard-choir-013",
+          "sha": "4891627184d21030345380f2943c5052ba3ddc19"
+        },
+        {
+          "name": "experiment/unheard-choir-014",
+          "sha": "91ecd155b15961766ebb6e685ee212d5049fc28a"
+        },
+        {
+          "name": "experiment/unheard-choir-015",
+          "sha": "3f588495457231c24349755e355b935bc9c516ec"
+        },
+        {
+          "name": "experiment/unheard-choir-016",
+          "sha": "752c7e2ca2d5211c9f346ddea40691158fb44dde"
+        },
+        {
+          "name": "experiment/unheard-choir-017",
+          "sha": "122f4018a6bb77057cb6422b3476214e2ba5a740"
+        },
+        {
+          "name": "experiment/unheard-choir-018",
+          "sha": "9c75d7ad7e632eae967cb765c2e024073b193209"
+        },
+        {
+          "name": "experiment/unheard-choir-019",
+          "sha": "cfd93152c3f5cfbc765675edb40cc51c97ce76ce"
+        },
+        {
+          "name": "experiment/unheard-choir-020",
+          "sha": "24874213cad61d633076d24b00ce4fae4ca20ebf"
+        },
+        {
+          "name": "experiment/world-asks-back-001",
+          "sha": "fb70338c2e76a599977072f0c7b58b2d966f7005"
+        },
+        {
+          "name": "experiment/world-asks-back-002",
+          "sha": "86de6de0283881c5b11270299aa0c4d94a1ae1f5"
+        },
+        {
           "name": "external-adapter-manifest-001",
           "sha": "e12ce3e62486feb1e5cd2324d1ae5a6a2be8b19b"
         },
@@ -3411,6 +3599,266 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 96,
+          "title": "UNFINISHED BUSINESS 001 — The First Case (bounded discovery, no execution)",
+          "head_branch": "experiment/unfinished-business-001",
+          "head_sha": "4adf74cf986846427ca33b543580182016a0a20c",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "main",
+          "updated_at": "2026-10-09T13:18:42Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/96"
+        },
+        {
+          "number": 95,
+          "title": "UNHEARD CHOIR 020 — The Referee Who Died: historical signature ≠ fresh referee authority",
+          "head_branch": "experiment/unheard-choir-020",
+          "head_sha": "24874213cad61d633076d24b00ce4fae4ca20ebf",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-019",
+          "updated_at": "2026-10-09T04:01:11Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/95"
+        },
+        {
+          "number": 94,
+          "title": "WORLD-ASKS-BACK-002 — actual GHoT hash via native reLATTE admission",
+          "head_branch": "experiment/world-asks-back-002",
+          "head_sha": "86de6de0283881c5b11270299aa0c4d94a1ae1f5",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/world-asks-back-001",
+          "updated_at": "2026-10-09T03:58:58Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/94"
+        },
+        {
+          "number": 93,
+          "title": "WORLD-ASKS-BACK-001 — sovereign three-node synthetic workshop",
+          "head_branch": "experiment/world-asks-back-001",
+          "head_sha": "fb70338c2e76a599977072f0c7b58b2d966f7005",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "main",
+          "updated_at": "2026-10-09T03:46:13Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/93"
+        },
+        {
+          "number": 92,
+          "title": "UNHEARD CHOIR 019 — The Referee Who Refused to Rule: independently attested epochs and owner-local HOLD",
+          "head_branch": "experiment/unheard-choir-019",
+          "head_sha": "cfd93152c3f5cfbc765675edb40cc51c97ce76ce",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-018",
+          "updated_at": "2026-10-09T04:01:07Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/92"
+        },
+        {
+          "number": 91,
+          "title": "UNHEARD CHOIR 018 — The Negative That Forked: preserve signed source conflict without invented precedence",
+          "head_branch": "experiment/unheard-choir-018",
+          "head_sha": "9c75d7ad7e632eae967cb765c2e024073b193209",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-017",
+          "updated_at": "2026-10-09T03:16:03Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/91"
+        },
+        {
+          "number": 90,
+          "title": "UNHEARD CHOIR 017 — The Negative That Outlived the Positive: signed delayed revocation gossip",
+          "head_branch": "experiment/unheard-choir-017",
+          "head_sha": "122f4018a6bb77057cb6422b3476214e2ba5a740",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-016",
+          "updated_at": "2026-10-09T02:33:04Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/90"
+        },
+        {
+          "number": 89,
+          "title": "UNHEARD CHOIR 016 — The Witness Who Owns Nothing: silence ≠ denial, signed omissions and source revocation",
+          "head_branch": "experiment/unheard-choir-016",
+          "head_sha": "752c7e2ca2d5211c9f346ddea40691158fb44dde",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-015",
+          "updated_at": "2026-10-09T02:16:44Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/89"
+        },
+        {
+          "number": 88,
+          "title": "UNHEARD CHOIR 015 — The Rightful Third Party: old delegation ≠ live source or owner authority",
+          "head_branch": "experiment/unheard-choir-015",
+          "head_sha": "3f588495457231c24349755e355b935bc9c516ec",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-014",
+          "updated_at": "2026-10-09T01:08:10Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/88"
+        },
+        {
+          "number": 87,
+          "title": "UNHEARD CHOIR 014 — The Two Equal Successors: signed competing incarnations without invented ownership",
+          "head_branch": "experiment/unheard-choir-014",
+          "head_sha": "91ecd155b15961766ebb6e685ee212d5049fc28a",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-013",
+          "updated_at": "2026-10-09T00:59:01Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/87"
+        },
+        {
+          "number": 86,
+          "title": "UNHEARD CHOIR 013 — The Letter That Outlived Its Address: epoch-local archival, no inherited authority",
+          "head_branch": "experiment/unheard-choir-013",
+          "head_sha": "4891627184d21030345380f2943c5052ba3ddc19",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-012",
+          "updated_at": "2026-10-09T00:45:17Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/86"
+        },
+        {
+          "number": 85,
+          "title": "UNHEARD CHOIR 012 — The Dead Letter That Came Home: portable signed evidence and owner-local custody",
+          "head_branch": "experiment/unheard-choir-012",
+          "head_sha": "6ce876bfea8ec45261c393d24c584385b7959743",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-011",
+          "updated_at": "2026-10-09T00:15:19Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/85"
+        },
+        {
+          "number": 84,
+          "title": "UNHEARD CHOIR 011 — The Vanishing Witness: durable signed fork delivery and anti-entropy",
+          "head_branch": "experiment/unheard-choir-011",
+          "head_sha": "86780140ea579c30e4c8a44730efb2a5027a782d",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-010",
+          "updated_at": "2026-10-09T00:01:17Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/84"
+        },
+        {
+          "number": 83,
+          "title": "UNHEARD CHOIR 010 — the unseen fork: independently signed gossip from isolated local journals",
+          "head_branch": "experiment/unheard-choir-010",
+          "head_sha": "eef2a9b5d24fe28a3e15a8fb72629981e8d03443",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-009",
+          "updated_at": "2026-10-08T22:03:47Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/83"
+        },
+        {
+          "number": 82,
+          "title": "UNHEARD CHOIR 009 — the timestamp that lied, co-witnessed append log and fork proofs",
+          "head_branch": "experiment/unheard-choir-009",
+          "head_sha": "3c6a65e4d1d8172ee4d03fffcbd33665ceec2974",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-008",
+          "updated_at": "2026-10-08T21:51:44Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/82"
+        },
+        {
+          "number": 81,
+          "title": "UNHEARD CHOIR 008 — the missing node, externally pinned audit against signed omissions",
+          "head_branch": "experiment/unheard-choir-008",
+          "head_sha": "f9abab4fb674d382bb5ef995c95ff9f915a26814",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-007",
+          "updated_at": "2026-10-08T21:26:34Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/81"
+        },
+        {
+          "number": 80,
+          "title": "UNHEARD CHOIR 007 — the hidden common cause in signed dependency ancestry",
+          "head_branch": "experiment/unheard-choir-007",
+          "head_sha": "cde20407be7920abe98c8413907e24377857baa8",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-006",
+          "updated_at": "2026-10-08T21:20:03Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/80"
+        },
+        {
+          "number": 79,
+          "title": "UNHEARD CHOIR 006 — counterfeit instrument, dual modalities and signed custody claims",
+          "head_branch": "experiment/unheard-choir-006",
+          "head_sha": "335834bfe54b5b59591d9d314a5c568dfa509ff8",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-005",
+          "updated_at": "2026-10-08T21:11:40Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/79"
+        },
+        {
+          "number": 78,
+          "title": "UNHEARD CHOIR 005 — colluding signed observers versus independent fixture evidence",
+          "head_branch": "experiment/unheard-choir-005",
+          "head_sha": "5eab6118ef221490f1423560094d3055d9a560b0",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-004",
+          "updated_at": "2026-10-08T20:24:46Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/78"
+        },
+        {
+          "number": 77,
+          "title": "UNHEARD CHOIR 004 — valid signatures, lying witness, fresh challenge HOLD",
+          "head_branch": "experiment/unheard-choir-004",
+          "head_sha": "4e4804931d502145e653ae19a402a495a5c9f2c5",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-003",
+          "updated_at": "2026-10-08T20:17:41Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/77"
+        },
+        {
+          "number": 76,
+          "title": "UNHEARD CHOIR 003 — false apertures, owner-fixture gates, simulated novelty receipts",
+          "head_branch": "experiment/unheard-choir-003",
+          "head_sha": "d229dcb94aa502948c1357a3469d560dd046712b",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-002",
+          "updated_at": "2026-10-08T19:53:08Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/76"
+        },
+        {
+          "number": 75,
+          "title": "UNHEARD CHOIR 002 — declared blind spots and bounded instrument discovery",
+          "head_branch": "experiment/unheard-choir-002",
+          "head_sha": "4dc6a9697724e1fca363852ba4e8b1edc5f53c68",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/unheard-choir-001",
+          "updated_at": "2026-10-08T19:45:26Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/75"
+        },
+        {
+          "number": 74,
+          "title": "UNHEARD CHOIR 001 — finite attention, quiet-needs counterfactual, receipts",
+          "head_branch": "experiment/unheard-choir-001",
+          "head_sha": "6b4fc24158f44c8c49e669e3bbaf0d4b02bb0217",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "main",
+          "updated_at": "2026-10-08T19:26:37Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/74"
+        },
+        {
+          "number": 73,
+          "title": "RADIO-ATTENTION-003 — two-index survey, focus and native Autodisco comparison packets",
+          "head_branch": "experiment/radio-attention-003",
+          "head_sha": "6e4aab6aec3b28f8dd50d01c3d571ae754c653d1",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/radio-ear-002",
+          "updated_at": "2026-10-08T17:33:42Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/73"
+        },
+        {
+          "number": 72,
+          "title": "RADIO-EAR-002 — bounded receive-only RTL-SDR through GHoT and Autodisco",
+          "head_branch": "experiment/radio-ear-002",
+          "head_sha": "7bf02841de1d537b4de1203baf9f53abcb09f9d4",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/listening-heap-001",
+          "updated_at": "2026-10-08T17:20:45Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/72"
+        },
+        {
+          "number": 71,
+          "title": "LISTENING-HEAP-001 — GHoT radio attention to native Autodisco first-encounter packets",
+          "head_branch": "experiment/listening-heap-001",
+          "head_sha": "f7a14f8a433fd72050f69e400010fb731a58dac3",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "feat/instrument-rack-001",
+          "updated_at": "2026-10-08T17:08:04Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/71"
+        },
         {
           "number": 70,
           "title": "COMPOST-BREEDER-001: history → six futures → KEEP → seed → generation 2",
@@ -4040,6 +4488,10 @@
       "archived": false,
       "branches": [
         {
+          "name": "experiment/cad-journal-001",
+          "sha": "64fee0380bf10d68c9885ccfd6b5632567892704"
+        },
+        {
           "name": "experiment/composable-occurrence-return-001",
           "sha": "06b65bf01ab45d90dbe731fc9065233da3a83c23"
         },
@@ -4077,6 +4529,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 13,
+          "title": "CAD-JOURNAL-001 — GOATnote-native frozen CAD evidence, anchored margins and Return Threads",
+          "head_branch": "experiment/cad-journal-001",
+          "head_sha": "64fee0380bf10d68c9885ccfd6b5632567892704",
+          "head_repo": "the-static-collective/GOATnote",
+          "base_branch": "experiment/timecut-001",
+          "updated_at": "2026-10-08T19:47:35Z",
+          "url": "https://github.com/the-static-collective/GOATnote/pull/13"
+        },
         {
           "number": 12,
           "title": "TIME-CUT 001 — same Room, different staircases",
@@ -4532,6 +4994,244 @@
       ]
     },
     {
+      "name": "Jubilee-treasury",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "experiment/ambient-trickle-inbox-009",
+          "sha": "ecc94e38c7cb2752fd16c3f0969c51637dae4192"
+        },
+        {
+          "name": "experiment/bandcamp-source-011",
+          "sha": "4a811ea520be427a3f5a6a5cf2c9f8f32bb1007c"
+        },
+        {
+          "name": "experiment/fall-share-asset-treasury-007",
+          "sha": "a2872299eb0a294713c3d34a77f47814c3d4403b"
+        },
+        {
+          "name": "experiment/github-live-trickle-010",
+          "sha": "2043baa72042c864274e8d2abd416c05cfb4b1fd"
+        },
+        {
+          "name": "experiment/living-capacity-index-008",
+          "sha": "04eefb64541700d5ac3f31387d6c5f6d2d830c0d"
+        },
+        {
+          "name": "experiment/native-capacity-routing-002",
+          "sha": "efb6ce130bc793bbe8990a08907fa6ef9b7cd68b"
+        },
+        {
+          "name": "experiment/penny-box-that-asks-016",
+          "sha": "55fcc580db6c6acee5b49660d45f8b809dc86b9d"
+        },
+        {
+          "name": "experiment/penny-field-capture-018",
+          "sha": "3b6bbad7e17e782c8724542c18755d9d12fc5f3e"
+        },
+        {
+          "name": "experiment/penny-hardware-witness-017",
+          "sha": "3dc224f61839f5312f99ab65a546dca6a9a9254c"
+        },
+        {
+          "name": "experiment/penny-recursive-option-engine-013",
+          "sha": "6a85276b43d215184def60bdc43ac486fa78c452"
+        },
+        {
+          "name": "experiment/penny-two-node-partition-015",
+          "sha": "b1c403c5300a2244d09c0979ae50b8071b941d53"
+        },
+        {
+          "name": "experiment/penny-work-matter-crossing-014",
+          "sha": "a36777cb87bcfb6b7706b910ba18c4c4b24c73a3"
+        },
+        {
+          "name": "experiment/portable-needs-survive-host-loss-001",
+          "sha": "665550e6240b7e0f45b52ed489c55c445d3aff17"
+        },
+        {
+          "name": "experiment/regenerative-cad-handoff-010",
+          "sha": "00a3e0a1d522b4bd8021a46ecde9b2db27698441"
+        },
+        {
+          "name": "experiment/regenerative-capacity-static-os-009",
+          "sha": "e3783ed8a9a0c5ac731b9b560aea662bacd75bd9"
+        },
+        {
+          "name": "experiment/universal-door-registry-012",
+          "sha": "8c76773faa9ea7d068bc5baede7a503b4f3caa5e"
+        },
+        {
+          "name": "main",
+          "sha": "922639ef84fcf773dbf179d8d9966b0db1247424"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 21,
+          "title": "PENNY-018 — real printer status capture, challenge-bound inspection and sovereign evidence handoff",
+          "head_branch": "experiment/penny-field-capture-018",
+          "head_sha": "3b6bbad7e17e782c8724542c18755d9d12fc5f3e",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/penny-hardware-witness-017",
+          "updated_at": "2026-10-09T02:53:17Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/21"
+        },
+        {
+          "number": 20,
+          "title": "PENNY-017 — physical fabrication evidence: read-only OctoPrint, file hashing and independent witness gate",
+          "head_branch": "experiment/penny-hardware-witness-017",
+          "head_sha": "3dc224f61839f5312f99ab65a546dca6a9a9254c",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/penny-box-that-asks-016",
+          "updated_at": "2026-10-09T02:24:27Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/20"
+        },
+        {
+          "number": 19,
+          "title": "PENNY-016 — The Box That Asks: sovereign three-box composition, dials, witness and native HOLD",
+          "head_branch": "experiment/penny-box-that-asks-016",
+          "head_sha": "55fcc580db6c6acee5b49660d45f8b809dc86b9d",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/penny-two-node-partition-015",
+          "updated_at": "2026-10-09T01:37:04Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/19"
+        },
+        {
+          "number": 18,
+          "title": "PENNY-015 — sovereign two-node work × box partition, replay and shortage stress test",
+          "head_branch": "experiment/penny-two-node-partition-015",
+          "head_sha": "b1c403c5300a2244d09c0979ae50b8071b941d53",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/penny-work-matter-crossing-014",
+          "updated_at": "2026-10-09T01:08:34Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/18"
+        },
+        {
+          "number": 17,
+          "title": "PENNY-014 — work-produced held units, triple-witnessed penny custody, released backing and atomic redemption",
+          "head_branch": "experiment/penny-work-matter-crossing-014",
+          "head_sha": "a36777cb87bcfb6b7706b910ba18c4c4b24c73a3",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/penny-recursive-option-engine-013",
+          "updated_at": "2026-10-09T00:00:45Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/17"
+        },
+        {
+          "number": 16,
+          "title": "JUBILEE 010 — signed Static OS CAD evidence as reviewed noncash capacity",
+          "head_branch": "experiment/regenerative-cad-handoff-010",
+          "head_sha": "00a3e0a1d522b4bd8021a46ecde9b2db27698441",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/regenerative-capacity-static-os-009",
+          "updated_at": "2026-10-08T21:47:42Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/16"
+        },
+        {
+          "number": 15,
+          "title": "PENNY RECURSION 013 — conserved pennies, compounding possibilities, zero fabricated yield",
+          "head_branch": "experiment/penny-recursive-option-engine-013",
+          "head_sha": "6a85276b43d215184def60bdc43ac486fa78c452",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/universal-door-registry-012",
+          "updated_at": "2026-10-08T21:27:57Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/15"
+        },
+        {
+          "number": 14,
+          "title": "REGENERATIVE CAPACITY 009 — native Static OS CRANK to accountable Treasury capacity",
+          "head_branch": "experiment/regenerative-capacity-static-os-009",
+          "head_sha": "e3783ed8a9a0c5ac731b9b560aea662bacd75bd9",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/living-capacity-index-008",
+          "updated_at": "2026-10-08T21:25:41Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/14"
+        },
+        {
+          "number": 12,
+          "title": "DOOR REGISTRY 012 — Cash App, Venmo, PayPal, wallets, gold, pennies and work",
+          "head_branch": "experiment/universal-door-registry-012",
+          "head_sha": "8c76773faa9ea7d068bc5baede7a503b4f3caa5e",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/bandcamp-source-011",
+          "updated_at": "2026-10-08T21:20:37Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/12"
+        },
+        {
+          "number": 11,
+          "title": "BANDCAMP SOURCE 011 — private sales CSV & authorized API v4 to Trickle HOLD",
+          "head_branch": "experiment/bandcamp-source-011",
+          "head_sha": "4a811ea520be427a3f5a6a5cf2c9f8f32bb1007c",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/ambient-trickle-inbox-009",
+          "updated_at": "2026-10-08T20:30:49Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/11"
+        },
+        {
+          "number": 9,
+          "title": "GITHUB SOURCE 010 — real merged PR to private Trickle and native reLATTE HOLD",
+          "head_branch": "experiment/github-live-trickle-010",
+          "head_sha": "2043baa72042c864274e8d2abd416c05cfb4b1fd",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/ambient-trickle-inbox-009",
+          "updated_at": "2026-10-08T20:18:41Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/9"
+        },
+        {
+          "number": 8,
+          "title": "AMBIENT TRICKLE 009 — opt-in source receipts, private HOLD, no new checkout",
+          "head_branch": "experiment/ambient-trickle-inbox-009",
+          "head_sha": "ecc94e38c7cb2752fd16c3f0969c51637dae4192",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/living-capacity-index-008",
+          "updated_at": "2026-10-08T19:51:08Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/8"
+        },
+        {
+          "number": 7,
+          "title": "JUBILEE ECONOMICS 008 — executable living capacity index and recipe candidates",
+          "head_branch": "experiment/living-capacity-index-008",
+          "head_sha": "04eefb64541700d5ac3f31387d6c5f6d2d830c0d",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/fall-share-asset-treasury-007",
+          "updated_at": "2026-10-08T19:48:56Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/7"
+        },
+        {
+          "number": 5,
+          "title": "FALL SHARE ASSET TREASURY 007 — typed gifts to native reLATTE HOLD",
+          "head_branch": "experiment/fall-share-asset-treasury-007",
+          "head_sha": "a2872299eb0a294713c3d34a77f47814c3d4403b",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/portable-needs-survive-host-loss-001",
+          "updated_at": "2026-10-08T19:39:00Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/5"
+        },
+        {
+          "number": 4,
+          "title": "JUBILEE TREASURY 002: native need × available-capacity routing",
+          "head_branch": "experiment/native-capacity-routing-002",
+          "head_sha": "efb6ce130bc793bbe8990a08907fa6ef9b7cd68b",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/portable-needs-survive-host-loss-001",
+          "updated_at": "2026-10-08T19:28:29Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/4"
+        },
+        {
+          "number": 2,
+          "title": "JUBILEE TREASURY 001 — portable public needs survive host loss",
+          "head_branch": "experiment/portable-needs-survive-host-loss-001",
+          "head_sha": "665550e6240b7e0f45b52ed489c55c445d3aff17",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "main",
+          "updated_at": "2026-10-08T18:54:14Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/2"
+        }
+      ]
+    },
+    {
       "name": "jublEchat",
       "visibility": "public",
       "default_branch": "main",
@@ -4768,6 +5468,10 @@
           "sha": "803fd8bd4eb14dea39581bf6f09795106afa1283"
         },
         {
+          "name": "story/unfinished-business-manga-001",
+          "sha": "7465597674b0f1561ad4e354ef9817a1d0d187b4"
+        },
+        {
           "name": "suno-pantry-intake-001",
           "sha": "6f97f8c6c79397a557ce66e3a6045ee689ad66af"
         },
@@ -4789,6 +5493,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 47,
+          "title": "UNFINISHED BUSINESS manga — CASE ZERO: The End That Would Not Arrive",
+          "head_branch": "story/unfinished-business-manga-001",
+          "head_sha": "7465597674b0f1561ad4e354ef9817a1d0d187b4",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "main",
+          "updated_at": "2026-10-09T13:20:59Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/47"
+        },
         {
           "number": 46,
           "title": "MANGA ROOT FORK 001 — cross receipts without collapsing sibling histories",
@@ -6242,6 +6956,10 @@
           "sha": "1bdb060130842df2f634831a80f4dc5bb57f630c"
         },
         {
+          "name": "experiment/fabrication-crossing-013",
+          "sha": "ded308b463df4eda2003000b4202d3c7aaa2dc84"
+        },
+        {
           "name": "experiment/first-contact-001",
           "sha": "ae3fd0f56860683245dfd27ff32edf64311046bf"
         },
@@ -6263,7 +6981,7 @@
         },
         {
           "name": "experiment/perceived-affordance-field-001",
-          "sha": "488466f0fb6607114a086683dc91c1c5eff42dc0"
+          "sha": "203b836cd7a36e105d4f3798f366db744dee47db"
         },
         {
           "name": "experiment/physical-custody-power-split-001",
@@ -6276,6 +6994,10 @@
         {
           "name": "experiment/polyglot-crossing-001",
           "sha": "b0d20852a44e5a80b124bc9690e1af547942221b"
+        },
+        {
+          "name": "experiment/psi-membrane-001",
+          "sha": "c2197d0b0b77b1ac731bb6045819a613010562f7"
         },
         {
           "name": "experiment/supabardo-independent-verifier-001",
@@ -6300,6 +7022,10 @@
         {
           "name": "experiment/vanilla-worldbuilder-006",
           "sha": "7af28e974cd82fe6bd1f6cfacf656c8c0d7b1cf1"
+        },
+        {
+          "name": "experiment/wab-native-receiver-002",
+          "sha": "c107087ccb65227be78e844a422b174b84cee06e"
         },
         {
           "name": "external-checkpoint-001",
@@ -6524,6 +7250,36 @@
       ],
       "open_prs": [
         {
+          "number": 88,
+          "title": "WORLD-ASKS-BACK-002 — native R3 receiver with exact local policy and fresh owner grants",
+          "head_branch": "experiment/wab-native-receiver-002",
+          "head_sha": "c107087ccb65227be78e844a422b174b84cee06e",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-09T03:59:00Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/88"
+        },
+        {
+          "number": 87,
+          "title": "FABRICATION-CROSSING-013 — sovereign signed printer nodes and no-revival grants",
+          "head_branch": "experiment/fabrication-crossing-013",
+          "head_sha": "ded308b463df4eda2003000b4202d3c7aaa2dc84",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/dynamic-interface-field-001",
+          "updated_at": "2026-10-09T02:16:14Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/87"
+        },
+        {
+          "number": 85,
+          "title": "PSI-MEMBRANE-001: history-cut entailment without authority",
+          "head_branch": "experiment/psi-membrane-001",
+          "head_sha": "c2197d0b0b77b1ac731bb6045819a613010562f7",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/composition-instance-002",
+          "updated_at": "2026-10-08T15:35:56Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/85"
+        },
+        {
           "number": 84,
           "title": "experiment: preserve authenticated-pressure authority boundary",
           "head_branch": "experiment/authenticated-pressure-authority-boundary-001",
@@ -6537,10 +7293,10 @@
           "number": 83,
           "title": "PERCEIVED-AFFORDANCE-FIELD-001 — observer-relative possibility without owner authority",
           "head_branch": "experiment/perceived-affordance-field-001",
-          "head_sha": "488466f0fb6607114a086683dc91c1c5eff42dc0",
+          "head_sha": "203b836cd7a36e105d4f3798f366db744dee47db",
           "head_repo": "the-static-collective/reLATTE",
           "base_branch": "experiment/composition-instance-002",
-          "updated_at": "2026-10-08T10:58:37Z",
+          "updated_at": "2026-10-08T15:57:12Z",
           "url": "https://github.com/the-static-collective/reLATTE/pull/83"
         },
         {
@@ -7637,6 +8393,14 @@
           "sha": "afc7aeb9dcf6212c222293646a0074bb143b33ef"
         },
         {
+          "name": "experiment/kinship-jubilee-neighbor-door-006",
+          "sha": "3784e39268e3294d87dbcf646f85b8c2b7f0c99a"
+        },
+        {
+          "name": "experiment/kinship-living-gifts-007",
+          "sha": "66fed5728d6ba60f3ebf86abeb5c7b8c25ae1ff7"
+        },
+        {
           "name": "feat/attention-crossing-live-001",
           "sha": "ad1804b01f2b87f594d2105a558798a30820d4eb"
         },
@@ -7699,6 +8463,26 @@
       ],
       "open_prs": [
         {
+          "number": 33,
+          "title": "KINSHIP-007 — consent-scoped Living Gifts and local gallery",
+          "head_branch": "experiment/kinship-living-gifts-007",
+          "head_sha": "66fed5728d6ba60f3ebf86abeb5c7b8c25ae1ff7",
+          "head_repo": "the-static-collective/static-live",
+          "base_branch": "main",
+          "updated_at": "2026-10-08T22:06:13Z",
+          "url": "https://github.com/the-static-collective/static-live/pull/33"
+        },
+        {
+          "number": 31,
+          "title": "KINSHIP-006 — Jubilee Treasury neighbor-help radio porch",
+          "head_branch": "experiment/kinship-jubilee-neighbor-door-006",
+          "head_sha": "3784e39268e3294d87dbcf646f85b8c2b7f0c99a",
+          "head_repo": "the-static-collective/static-live",
+          "base_branch": "main",
+          "updated_at": "2026-10-08T19:39:12Z",
+          "url": "https://github.com/the-static-collective/static-live/pull/31"
+        },
+        {
           "number": 21,
           "title": "DESIGN: GHOSTCAST-001 ghost seat and temporal theater",
           "head_branch": "design/ghostcast-001-temporal-theater",
@@ -7755,6 +8539,14 @@
           "sha": "67c4aa681cb6afb61bbe2e8bbeb6fe5c604f139c"
         },
         {
+          "name": "experiment/all-printer-field-012",
+          "sha": "43428dbd2f1de72818cc3dad987042fea765dac9"
+        },
+        {
+          "name": "experiment/apparatus-compiler-002",
+          "sha": "e4cea899035d701ce0a68aaead6397aea912161f"
+        },
+        {
           "name": "experiment/bardo-boot-witness-001",
           "sha": "17e209cebb8d45b05dd9c564e99b5f5519b2d4a0"
         },
@@ -7795,6 +8587,10 @@
           "sha": "1431e7b7e5d7d2840ba4c7e3d212f034d2843642"
         },
         {
+          "name": "experiment/fabrication-crossing-013",
+          "sha": "7bc551610421bd60a8dbf624d93d7a6682ce3987"
+        },
+        {
           "name": "experiment/first-physical-boot-001",
           "sha": "a4530eaf0bf52161e8117906d06806a449c47593"
         },
@@ -7831,12 +8627,40 @@
           "sha": "e19e1f32149dec300ff83f6f676f107d5a1f1717"
         },
         {
+          "name": "experiment/physical-print-packet-011",
+          "sha": "49d06c79542ecd0994f116417fe14fceed867a24"
+        },
+        {
+          "name": "experiment/question-first-session-001",
+          "sha": "457cd6fb09f3010c2f80634fa3c4e3e7c8bcedbe"
+        },
+        {
+          "name": "experiment/regenerative-design-capacity-010",
+          "sha": "a1cf59835a03a689b371cb64585b48631a28267b"
+        },
+        {
           "name": "experiment/residual-witness-discriminator-001",
           "sha": "3d97808e34a0815a3f130f4ae5bbdceacb235a86"
         },
         {
           "name": "experiment/static-2012-reference-machine-001",
           "sha": "d431eee9dae1a448434ce2df52b3db9fb240e169"
+        },
+        {
+          "name": "experiment/static-cad-003",
+          "sha": "98ec1bc4e86f999e85a08ab80e055f596d79184a"
+        },
+        {
+          "name": "experiment/static-cad-004",
+          "sha": "bbfe07e488829ce7538111418b2d198e8b97323c"
+        },
+        {
+          "name": "experiment/static-cad-005-relatte",
+          "sha": "8f8b30b2a223e54a5955fa5d365e33680b7399b4"
+        },
+        {
+          "name": "experiment/static-cad-006-goatnote",
+          "sha": "0d460524d0db129a8cccb0661cb9f533f3e6793b"
         },
         {
           "name": "experiment/two-cycle-navigation-history-001",
@@ -7915,6 +8739,10 @@
           "sha": "2f9756a464ee2022c7b0abdcc6636b4cb9123f53"
         },
         {
+          "name": "integration/instrument-host-001",
+          "sha": "8d3de9160a1f1fdffc6741712a112d34fbadf7e3"
+        },
+        {
           "name": "integration/living-codex-endpoint-001",
           "sha": "fa72a854867ecde431d59896dc0725f957faa0af"
         },
@@ -7944,6 +8772,116 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 66,
+          "title": "FABRICATION-CROSSING-013 — real signed design to sovereign three-node reLATTE proposals",
+          "head_branch": "experiment/fabrication-crossing-013",
+          "head_sha": "7bc551610421bd60a8dbf624d93d7a6682ce3987",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/all-printer-field-012",
+          "updated_at": "2026-10-09T02:17:51Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/66"
+        },
+        {
+          "number": 64,
+          "title": "ALL-PRINTER-FIELD-012 — every print technology is addressable, hardware stays HOLD",
+          "head_branch": "experiment/all-printer-field-012",
+          "head_sha": "43428dbd2f1de72818cc3dad987042fea765dac9",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/physical-print-packet-011",
+          "updated_at": "2026-10-09T00:06:20Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/64"
+        },
+        {
+          "number": 61,
+          "title": "STATIC-PRINT-011 — real 3D slicing and held G-code print packet",
+          "head_branch": "experiment/physical-print-packet-011",
+          "head_sha": "49d06c79542ecd0994f116417fe14fceed867a24",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/regenerative-design-capacity-010",
+          "updated_at": "2026-10-08T22:05:48Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/61"
+        },
+        {
+          "number": 59,
+          "title": "STATIC-ECONOMICS 010 — source-verified CAD as inert digital capacity",
+          "head_branch": "experiment/regenerative-design-capacity-010",
+          "head_sha": "a1cf59835a03a689b371cb64585b48631a28267b",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/static-cad-006-goatnote",
+          "updated_at": "2026-10-08T21:47:29Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/59"
+        },
+        {
+          "number": 57,
+          "title": "STATIC-CAD-006 — reLATTE signed feature branches journaled natively in GOATnote",
+          "head_branch": "experiment/static-cad-006-goatnote",
+          "head_sha": "0d460524d0db129a8cccb0661cb9f533f3e6793b",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/static-cad-005-relatte",
+          "updated_at": "2026-10-08T19:50:54Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/57"
+        },
+        {
+          "number": 56,
+          "title": "STATIC-CAD-005 — real OCCT solids with reLATTE signed design-decision history",
+          "head_branch": "experiment/static-cad-005-relatte",
+          "head_sha": "8f8b30b2a223e54a5955fa5d365e33680b7399b4",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/static-cad-004",
+          "updated_at": "2026-10-08T19:25:06Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/56"
+        },
+        {
+          "number": 55,
+          "title": "STATIC-CAD-004 — constrained sketch solver, arcs/tangency, DXF and operator-run FreeCAD features",
+          "head_branch": "experiment/static-cad-004",
+          "head_sha": "bbfe07e488829ce7538111418b2d198e8b97323c",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/static-cad-003",
+          "updated_at": "2026-10-08T19:03:55Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/55"
+        },
+        {
+          "number": 54,
+          "title": "STATIC-OS INSTRUMENT HOST 001: native ELEVEN-HEAP host and bounded organ seams",
+          "head_branch": "integration/instrument-host-001",
+          "head_sha": "8d3de9160a1f1fdffc6741712a112d34fbadf7e3",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/v1-world-bus-vehicle-ecm",
+          "updated_at": "2026-10-08T18:44:39Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/54"
+        },
+        {
+          "number": 53,
+          "title": "STATIC-CAD-003 — parametric source-to-apparatus CAD workbench with DXF, SVG, BOM and FreeCAD bridge",
+          "head_branch": "experiment/static-cad-003",
+          "head_sha": "98ec1bc4e86f999e85a08ab80e055f596d79184a",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/apparatus-compiler-002",
+          "updated_at": "2026-10-08T18:40:19Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/53"
+        },
+        {
+          "number": 52,
+          "title": "APPARATUS-COMPILER-002 — compile a missing instrument into a bounded GHoT assembly",
+          "head_branch": "experiment/apparatus-compiler-002",
+          "head_sha": "e4cea899035d701ce0a68aaead6397aea912161f",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/question-first-session-001",
+          "updated_at": "2026-10-08T18:22:43Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/52"
+        },
+        {
+          "number": 51,
+          "title": "QUESTION-FIRST-SESSION-001 — ask, select a bounded GHoT apparatus, witness, ask again",
+          "head_branch": "experiment/question-first-session-001",
+          "head_sha": "457cd6fb09f3010c2f80634fa3c4e3e7c8bcedbe",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/v1-world-bus-vehicle-ecm",
+          "updated_at": "2026-10-08T18:12:19Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/51"
+        },
         {
           "number": 50,
           "title": "V1 — world bus + vehicle ECM observation organ",
@@ -13367,7 +14305,7 @@
         },
         {
           "name": "main",
-          "sha": "41b9419d4117c9edc145671e9b1cbd5b08c9f759"
+          "sha": "df87ef32d11546ccbea85e793b76fb0627c86221"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -13802,5 +14740,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-08T14:34:37+00:00"
+  "captured_at": "2026-10-09T14:22:33+00:00"
 }

@@ -355,12 +355,13 @@ Default: `main` · other refs: 4 · open PRs: 2
 
 [Repository](https://github.com/the-static-collective/GOATnote) · [Branches](https://github.com/the-static-collective/GOATnote/branches) · [Pull requests](https://github.com/the-static-collective/GOATnote/pulls)
 
-Default: `main` · other refs: 8 · open PRs: 7
+Default: `main` · other refs: 9 · open PRs: 8
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#13](https://github.com/the-static-collective/GOATnote/pull/13) | CAD-JOURNAL-001 — GOATnote-native frozen CAD evidence, anchored margins and Return Threads | `experiment/cad-journal-001` → `experiment/timecut-001` | 2026-10-08 |
 | [#12](https://github.com/the-static-collective/GOATnote/pull/12) | TIME-CUT 001 — same Room, different staircases | `experiment/timecut-001` → `experiment/goatedges-001` | 2026-10-05 |
 | [#11](https://github.com/the-static-collective/GOATnote/pull/11) | STAIRCASE 001 / GOATedges — relations have birthdays | `experiment/goatedges-001` → `experiment/goatrooms-001` | 2026-10-05 |
 | [#10](https://github.com/the-static-collective/GOATnote/pull/10) | GOATrooms 001 — places, doors, and nested Walks | `experiment/goatrooms-001` → `experiment/goatwalk-001` | 2026-10-04 |
@@ -373,6 +374,7 @@ Default: `main` · other refs: 8 · open PRs: 7
 
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
+| [experiment/cad-journal-001](https://github.com/the-static-collective/GOATnote/tree/experiment/cad-journal-001) | [64fee0380b](https://github.com/the-static-collective/GOATnote/commit/64fee0380bf10d68c9885ccfd6b5632567892704) | [open PR #13](https://github.com/the-static-collective/GOATnote/pull/13) |
 | [experiment/composable-occurrence-return-001](https://github.com/the-static-collective/GOATnote/tree/experiment/composable-occurrence-return-001) | [06b65bf01a](https://github.com/the-static-collective/GOATnote/commit/06b65bf01ab45d90dbe731fc9065233da3a83c23) | [open PR #4](https://github.com/the-static-collective/GOATnote/pull/4) |
 | [experiment/goatedges-001](https://github.com/the-static-collective/GOATnote/tree/experiment/goatedges-001) | [ba5e146957](https://github.com/the-static-collective/GOATnote/commit/ba5e1469575f19aae8c8e9c6bc9d9e757441a392) | [open PR #11](https://github.com/the-static-collective/GOATnote/pull/11) |
 | [experiment/goatrooms-001](https://github.com/the-static-collective/GOATnote/tree/experiment/goatrooms-001) | [306ef0d219](https://github.com/the-static-collective/GOATnote/commit/306ef0d2195daf60cdfab428b4c48c836be3804d) | [open PR #10](https://github.com/the-static-collective/GOATnote/pull/10) |
