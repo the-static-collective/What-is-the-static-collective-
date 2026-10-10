@@ -49,12 +49,13 @@ Default: `main` · other refs: 17 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/static-live) · [Branches](https://github.com/the-static-collective/static-live/branches) · [Pull requests](https://github.com/the-static-collective/static-live/pulls)
 
-Default: `main` · other refs: 21 · open PRs: 6
+Default: `main` · other refs: 22 · open PRs: 7
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#35](https://github.com/the-static-collective/static-live/pull/35) | RADIO WORLD 001 — two independently owned source worlds, one clicky Static Live PWA | `experiment/radio-world-001-two-doors` → `main` | 2026-10-09 |
 | [#33](https://github.com/the-static-collective/static-live/pull/33) | KINSHIP-007 — consent-scoped Living Gifts and local gallery | `experiment/kinship-living-gifts-007` → `main` | 2026-10-08 |
 | [#31](https://github.com/the-static-collective/static-live/pull/31) | KINSHIP-006 — Jubilee Treasury neighbor-help radio porch | `experiment/kinship-jubilee-neighbor-door-006` → `main` | 2026-10-08 |
 | [#21](https://github.com/the-static-collective/static-live/pull/21) | DESIGN: GHOSTCAST-001 ghost seat and temporal theater | `design/ghostcast-001-temporal-theater` → `main` | 2026-09-20 |
@@ -73,6 +74,7 @@ Default: `main` · other refs: 21 · open PRs: 6
 | [design/phono-live-001](https://github.com/the-static-collective/static-live/tree/design/phono-live-001) | [afc7aeb9dc](https://github.com/the-static-collective/static-live/commit/afc7aeb9dcf6212c222293646a0074bb143b33ef) | Retained ref; disposition unverified |
 | [experiment/kinship-jubilee-neighbor-door-006](https://github.com/the-static-collective/static-live/tree/experiment/kinship-jubilee-neighbor-door-006) | [3784e39268](https://github.com/the-static-collective/static-live/commit/3784e39268e3294d87dbcf646f85b8c2b7f0c99a) | [open PR #31](https://github.com/the-static-collective/static-live/pull/31) |
 | [experiment/kinship-living-gifts-007](https://github.com/the-static-collective/static-live/tree/experiment/kinship-living-gifts-007) | [66fed5728d](https://github.com/the-static-collective/static-live/commit/66fed5728d6ba60f3ebf86abeb5c7b8c25ae1ff7) | [open PR #33](https://github.com/the-static-collective/static-live/pull/33) |
+| [experiment/radio-world-001-two-doors](https://github.com/the-static-collective/static-live/tree/experiment/radio-world-001-two-doors) | [eb0048fe56](https://github.com/the-static-collective/static-live/commit/eb0048fe56f7125ec2a2e10ffaf00569c959c702) | [open PR #35](https://github.com/the-static-collective/static-live/pull/35) |
 | [feat/attention-crossing-live-001](https://github.com/the-static-collective/static-live/tree/feat/attention-crossing-live-001) | [ad1804b01f](https://github.com/the-static-collective/static-live/commit/ad1804b01f2b87f594d2105a558798a30820d4eb) | [open PR #18](https://github.com/the-static-collective/static-live/pull/18) |
 | [feat/attention-crossing-live-return-002](https://github.com/the-static-collective/static-live/tree/feat/attention-crossing-live-return-002) | [eda612c470](https://github.com/the-static-collective/static-live/commit/eda612c470685076a6e3d548288ff2fd87e2c1c7) | [open PR #19](https://github.com/the-static-collective/static-live/pull/19) |
 | [feat/house-broadcast-identity-v01](https://github.com/the-static-collective/static-live/tree/feat/house-broadcast-identity-v01) | [b0147ceda0](https://github.com/the-static-collective/static-live/commit/b0147ceda0e7a60ec4b2f824e89930a932db7b1c) | Retained ref; disposition unverified |

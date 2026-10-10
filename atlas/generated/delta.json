@@ -1,884 +1,1170 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-08T14:34:37+00:00",
-  "to_captured_at": "2026-10-09T14:22:33+00:00",
-  "added_repositories": [
-    "CANNON",
-    "Jubilee-treasury"
-  ],
+  "from_captured_at": "2026-10-09T14:22:33+00:00",
+  "to_captured_at": "2026-10-10T13:39:04+00:00",
+  "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
       "repository": "CANNON",
-      "branch": "experiment/adapter-forge-005",
-      "sha": "ff8efbea88a777b075c95fb34a6178a29a1ea0fc"
+      "branch": "experiment/conversation-collider-001",
+      "sha": "e04137681b4f14d723b50e291919a0f894795c43"
     },
     {
       "repository": "CANNON",
-      "branch": "experiment/canon-crossing-002",
-      "sha": "0b7cafb066ca51a54d87df9f7198ab18f45e73d9"
+      "branch": "experiment/conversation-collider-source-002",
+      "sha": "3e646484eaaaa9e326145ae7281d27b243adde1b"
     },
     {
       "repository": "CANNON",
-      "branch": "experiment/canon-field-001",
-      "sha": "453cf70c820a114423811cecdc70b4ec06f2675b"
+      "branch": "experiment/conversation-collider-work-003",
+      "sha": "aabd276e4edb2ae4229ccf94eed8a7f561b17a0a"
     },
     {
       "repository": "CANNON",
-      "branch": "experiment/present-use-003",
-      "sha": "99a9c270397717b690615178d0e821df545fb684"
+      "branch": "experiment/kinship-bridge-africa-007",
+      "sha": "8906a7b559565e844ed0a7791eced89ac5a549d4"
     },
     {
       "repository": "CANNON",
-      "branch": "experiment/typed-compatibility-004",
-      "sha": "420a5ded1c56af266ac2b9a06f827fe3a22361fc"
+      "branch": "experiment/kinship-surplus-006",
+      "sha": "9101b76f1387389300e070f3a6851df75269f39f"
     },
     {
-      "repository": "CANNON",
-      "branch": "main",
-      "sha": "62a557389013155c07e4d98578cbfb560f5f59c5"
+      "repository": "full-measure-world-layer",
+      "branch": "experiment/field-quest-engine-001",
+      "sha": "c9206d5055ad574a23acb2eceb5f8785a4ad64fe"
     },
     {
-      "repository": "GHoT",
-      "branch": "experiment/listening-heap-001",
-      "sha": "f7a14f8a433fd72050f69e400010fb731a58dac3"
-    },
-    {
-      "repository": "GHoT",
-      "branch": "experiment/radio-attention-003",
-      "sha": "6e4aab6aec3b28f8dd50d01c3d571ae754c653d1"
+      "repository": "full-measure-world-layer",
+      "branch": "experiment/postal-corps-001-quest-door",
+      "sha": "a34caaa01e1f57fe62a5dc87a0037f375d4c5186"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/radio-ear-002",
-      "sha": "7bf02841de1d537b4de1203baf9f53abcb09f9d4"
+      "branch": "experiment/ecology-router-001-heat-tree-wave",
+      "sha": "3d0ef810347fc6a8c63ee0aa407495a343c2732b"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unfinished-business-001",
-      "sha": "4adf74cf986846427ca33b543580182016a0a20c"
+      "branch": "experiment/fullmeasure-penny-print-world-005",
+      "sha": "6d30254e4b50c78768a7d8ae483fe21154db59a3"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-001",
-      "sha": "6b4fc24158f44c8c49e669e3bbaf0d4b02bb0217"
+      "branch": "experiment/fullmeasure-penny-witness-006",
+      "sha": "0b23062183f43735eda548fa3afcaebb2c7f4409"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-002",
-      "sha": "4dc6a9697724e1fca363852ba4e8b1edc5f53c68"
+      "branch": "experiment/orshot-002-physical-receipt-router",
+      "sha": "d98ea401cdc85b8ff339c0322a8a17157add2019"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-003",
-      "sha": "d229dcb94aa502948c1357a3469d560dd046712b"
+      "branch": "experiment/postal-corps-001-first-mile",
+      "sha": "b8f80f840b6054bbf37ca9c9be9f70187248d6e5"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-004",
-      "sha": "4e4804931d502145e653ae19a402a495a5c9f2c5"
+      "branch": "experiment/postal-corps-002-carriers-pocket",
+      "sha": "7cf54a1c57bfddb970320cbedf8ccad9cf43c8a5"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-005",
-      "sha": "5eab6118ef221490f1423560094d3055d9a560b0"
+      "branch": "experiment/postal-corps-003-two-phones-one-parcel",
+      "sha": "2a84276d3504bb4955b62e9ca56de110247e3eee"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-006",
-      "sha": "335834bfe54b5b59591d9d314a5c568dfa509ff8"
+      "branch": "experiment/postemahhn-001-addressed-local-print",
+      "sha": "5b3be498082d3faf9e45a9e552bc5bb58d14086d"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-007",
-      "sha": "cde20407be7920abe98c8413907e24377857baa8"
+      "branch": "experiment/postemahhn-002-traveling-post-office",
+      "sha": "4912104167748556674f5c58a08867ae7fb7bc67"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-008",
-      "sha": "f9abab4fb674d382bb5ef995c95ff9f915a26814"
+      "branch": "experiment/postemahhn-003-wallet-doors",
+      "sha": "fb96d79a072aae986159c869ebe83df9e88b00da"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-009",
-      "sha": "3c6a65e4d1d8172ee4d03fffcbd33665ceec2974"
+      "branch": "experiment/postemahhn-004-passkey-door",
+      "sha": "ff8d91568165ccb89db7231bde20f2b6bdf06362"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-010",
-      "sha": "eef2a9b5d24fe28a3e15a8fb72629981e8d03443"
+      "branch": "experiment/postemahhn-005-external-wallet-proofs",
+      "sha": "c16de87bc574e17205e86be3dde80ea6829ecb5d"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-011",
-      "sha": "86780140ea579c30e4c8a44730efb2a5027a782d"
+      "branch": "experiment/printer-organ-001",
+      "sha": "aefac61b8731de8a1f8c5cac1518a93879021b67"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-012",
-      "sha": "6ce876bfea8ec45261c393d24c584385b7959743"
+      "branch": "experiment/public-print-venues-004",
+      "sha": "f62d8f2ae9a9077430bc1ef6fc4a17ea00f2affd"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-013",
-      "sha": "4891627184d21030345380f2943c5052ba3ddc19"
+      "branch": "experiment/radio-house-001",
+      "sha": "db1c84c7a7116ca9a91d4baaca37fc0963a3dd00"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-014",
-      "sha": "91ecd155b15961766ebb6e685ee212d5049fc28a"
+      "branch": "experiment/radio-house-002-spare-compute",
+      "sha": "88be4205b65e54d568b50564bfaa0a9fd381f8ed"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-015",
-      "sha": "3f588495457231c24349755e355b935bc9c516ec"
+      "branch": "experiment/radio-house-003-signed-work",
+      "sha": "96bb7e39d8e558ab07f3bdbf39e54dd3cdcb3aec"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-016",
-      "sha": "752c7e2ca2d5211c9f346ddea40691158fb44dde"
+      "branch": "experiment/radio-house-004-clicky-lan",
+      "sha": "91efe8441a567944dff27e1206d4967876485dbd"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-017",
-      "sha": "122f4018a6bb77057cb6422b3476214e2ba5a740"
+      "branch": "experiment/riff-raft-001-distributed-commons",
+      "sha": "a7007fbf6a2661bf0a0fe5bb67fa4022f4b3898c"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-018",
-      "sha": "9c75d7ad7e632eae967cb765c2e024073b193209"
+      "branch": "experiment/riff-raft-002-rube-goldberg-terraformer",
+      "sha": "a63624f1be6a533f5ab927b1e4e8b1a629f1ba53"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-019",
-      "sha": "cfd93152c3f5cfbc765675edb40cc51c97ce76ce"
+      "branch": "experiment/riff-raft-003-minecraft-return-intake",
+      "sha": "494a6fc6ddf9c850ec2a9930af54196e2d5fd168"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/unheard-choir-020",
-      "sha": "24874213cad61d633076d24b00ce4fae4ca20ebf"
+      "branch": "experiment/riff-raft-004-dynamic-quest-offers",
+      "sha": "8e0e7efb2fc214e465652c7e5f7bdc6c2b4ff15c"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/world-asks-back-001",
-      "sha": "fb70338c2e76a599977072f0c7b58b2d966f7005"
+      "branch": "experiment/riff-raft-005-counterfactual-composer",
+      "sha": "4dc0e33484d998043e0955c016a3984d8f75e4ef"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/world-asks-back-002",
-      "sha": "86de6de0283881c5b11270299aa0c4d94a1ae1f5"
+      "branch": "experiment/riff-raft-007-peer-custody",
+      "sha": "18fdd928a126d0850e4760122227f7e06e2975fa"
     },
     {
-      "repository": "GOATnote",
-      "branch": "experiment/cad-journal-001",
-      "sha": "64fee0380bf10d68c9885ccfd6b5632567892704"
+      "repository": "GHoT",
+      "branch": "experiment/sovereign-print-shop-002",
+      "sha": "bd05633274da9165d32a0e11392d618fd5340054"
+    },
+    {
+      "repository": "GHoT",
+      "branch": "experiment/zebra-kodak-print-surfaces-003",
+      "sha": "1e5f82b154e1cd87f60f1174975a5caef2ab6ad6"
+    },
+    {
+      "repository": "GrO",
+      "branch": "experiment/field-quest-encounters-001",
+      "sha": "d32009710645380adb852a119715b771bafd3684"
+    },
+    {
+      "repository": "GrO",
+      "branch": "experiment/field-ship-003-mobile-revival",
+      "sha": "36e71e361085c10970ffaa873ce3a784026b77c5"
+    },
+    {
+      "repository": "GrO",
+      "branch": "experiment/glean-001-remnant-quest",
+      "sha": "32e21ddfaa2d29d21bf4e9f9cbdcf997d3b8883f"
+    },
+    {
+      "repository": "GrO",
+      "branch": "experiment/gro-android-crossing-002",
+      "sha": "47c9ab77c2b94223a01421e362d0222ac2efefbc"
+    },
+    {
+      "repository": "GrO",
+      "branch": "experiment/gro-forage-001-wall-e-phone",
+      "sha": "85e47caa71a7e76cbb76ce55e59da9c0521cdaf0"
+    },
+    {
+      "repository": "GrO",
+      "branch": "experiment/land-crossing-001-plot-thickens",
+      "sha": "5f229c2ef7ba49611e4f24f7b269bae74448da77"
+    },
+    {
+      "repository": "GrO",
+      "branch": "experiment/postal-pocket-001-local-encounter",
+      "sha": "fb3b2386f3b7e28e6fa8225719b5ba8be0c15046"
+    },
+    {
+      "repository": "GrO",
+      "branch": "experiment/property-002-private-site-readiness",
+      "sha": "0f29e3d3a7a0c2d965afed1870f91efc20deb02d"
     },
     {
       "repository": "Jubilee-treasury",
-      "branch": "experiment/ambient-trickle-inbox-009",
-      "sha": "ecc94e38c7cb2752fd16c3f0969c51637dae4192"
+      "branch": "experiment/haunted-jubilee-arcade-019",
+      "sha": "f2a3989209f309c077dd5c7b595e1d3ba08f61a9"
     },
     {
       "repository": "Jubilee-treasury",
-      "branch": "experiment/bandcamp-source-011",
-      "sha": "4a811ea520be427a3f5a6a5cf2c9f8f32bb1007c"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/fall-share-asset-treasury-007",
-      "sha": "a2872299eb0a294713c3d34a77f47814c3d4403b"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/github-live-trickle-010",
-      "sha": "2043baa72042c864274e8d2abd416c05cfb4b1fd"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/living-capacity-index-008",
-      "sha": "04eefb64541700d5ac3f31387d6c5f6d2d830c0d"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/native-capacity-routing-002",
-      "sha": "efb6ce130bc793bbe8990a08907fa6ef9b7cd68b"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/penny-box-that-asks-016",
-      "sha": "55fcc580db6c6acee5b49660d45f8b809dc86b9d"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/penny-field-capture-018",
-      "sha": "3b6bbad7e17e782c8724542c18755d9d12fc5f3e"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/penny-hardware-witness-017",
-      "sha": "3dc224f61839f5312f99ab65a546dca6a9a9254c"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/penny-recursive-option-engine-013",
-      "sha": "6a85276b43d215184def60bdc43ac486fa78c452"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/penny-two-node-partition-015",
-      "sha": "b1c403c5300a2244d09c0979ae50b8071b941d53"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/penny-work-matter-crossing-014",
-      "sha": "a36777cb87bcfb6b7706b910ba18c4c4b24c73a3"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/portable-needs-survive-host-loss-001",
-      "sha": "665550e6240b7e0f45b52ed489c55c445d3aff17"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/regenerative-cad-handoff-010",
-      "sha": "00a3e0a1d522b4bd8021a46ecde9b2db27698441"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/regenerative-capacity-static-os-009",
-      "sha": "e3783ed8a9a0c5ac731b9b560aea662bacd75bd9"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/universal-door-registry-012",
-      "sha": "8c76773faa9ea7d068bc5baede7a503b4f3caa5e"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "main",
-      "sha": "922639ef84fcf773dbf179d8d9966b0db1247424"
+      "branch": "experiment/haunted-jubilee-powerloss-020",
+      "sha": "33fa9c4bddc35fca77834ece45cfeee50f482afc"
     },
     {
       "repository": "lemonPRESS",
-      "branch": "story/unfinished-business-manga-001",
-      "sha": "7465597674b0f1561ad4e354ef9817a1d0d187b4"
+      "branch": "experiment/letter-cycle-001",
+      "sha": "61901de57126dd00470561de0391ba4a51c4698a"
+    },
+    {
+      "repository": "lemonPRESS",
+      "branch": "experiment/material-memory-001",
+      "sha": "3ea755da14db9ecdd3b3b6e45dcbc56f9cbc58cd"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/fabrication-crossing-013",
-      "sha": "ded308b463df4eda2003000b4202d3c7aaa2dc84"
+      "branch": "experiment/relatte-chatgpt-mcp-001",
+      "sha": "0dd287204265d1b8151806bbc675b4ffdf8332a4"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/psi-membrane-001",
-      "sha": "c2197d0b0b77b1ac731bb6045819a613010562f7"
+      "branch": "experiment/relatte-chatgpt-mcp-002",
+      "sha": "936f88605ce6034fbd00a5a18e43d32f65b5cccc"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/wab-native-receiver-002",
-      "sha": "c107087ccb65227be78e844a422b174b84cee06e"
+      "branch": "experiment/relatte-chatgpt-mcp-003",
+      "sha": "1c1eba59ff93507f05b2d863cf2210b46e5d7811"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/relatte-mcp-dependency-hardening-004",
+      "sha": "dcc8a1917028c8784c14ecef47e3df316761cf66"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/relatte-mcp-edge-door-007",
+      "sha": "1861e6a56a86344981a05561614208a867b39e53"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/relatte-mcp-oauth-trust-005",
+      "sha": "9db2a3fd54d60deedde16ebc6afd561b02514b25"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/relatte-mcp-trust-gauntlet-006",
+      "sha": "7822dcabf9ba42ee1772af32f7633fc8612a4dcb"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/relatte-vm-001-self-hosted-world",
+      "sha": "9d9638dc7cbfd9fcc33f806b7cc4316e950c96cd"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/relatte-vm-002-isolated-wasm",
+      "sha": "283bc4afe63eef1df44f39ef4d45ad899e62ed15"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/relatte-vm-003-witnessed-execution",
+      "sha": "477c68075919b09e51a5888133370dc9df0f0b9e"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/relatte-vm-004-authenticated-leases",
+      "sha": "b2cf5b917d5fa93a70764ab4eb94a246e98c2ed4"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/riff-raft-minecraft-001-terraform-crossing",
+      "sha": "0f88423b61f2467447674dacc1b2e8a6132a985f"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/riff-raft-minecraft-002-living-redstone",
+      "sha": "e5899ee9cc5299ba3027e622ab5c5c44981eb7a4"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/riff-raft-minecraft-003-two-world-return",
+      "sha": "4943f14fd28d5b0bdb1b6d11bad035a009afe8b4"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/riff-raft-minecraft-004-dynamic-quests",
+      "sha": "5275ca7a8af561e5c8f200d00f2952e1619aca13"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/riff-raft-minecraft-005-counterfactual-return",
+      "sha": "e711541bf22e5889cda284b1d852c72d65fc82e8"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/riff-raft-minecraft-006-black-star-mailbox",
+      "sha": "fa760b75c530575f2dfb25292d8826f6fb872e2e"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/riff-raft-minecraft-007-two-custodians",
+      "sha": "5bec783505c1be62e7f68224284d0bb901be1ada"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/skymirror-001-passive-optical-road",
+      "sha": "8236600cdf8d95246b65d6343bbd336bd925f5fc"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/skymirror-002-two-phone-light-link",
+      "sha": "540da48104a8a76a87f2acefd60df00ffa76237c"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/transport-composition-001-many-roads",
+      "sha": "f7b51ec13ab084aa3c4d3880758f5f0f0562c5c8"
     },
     {
       "repository": "static-live",
-      "branch": "experiment/kinship-jubilee-neighbor-door-006",
-      "sha": "3784e39268e3294d87dbcf646f85b8c2b7f0c99a"
-    },
-    {
-      "repository": "static-live",
-      "branch": "experiment/kinship-living-gifts-007",
-      "sha": "66fed5728d6ba60f3ebf86abeb5c7b8c25ae1ff7"
+      "branch": "experiment/radio-world-001-two-doors",
+      "sha": "eb0048fe56f7125ec2a2e10ffaf00569c959c702"
     },
     {
       "repository": "static-os",
-      "branch": "experiment/all-printer-field-012",
-      "sha": "43428dbd2f1de72818cc3dad987042fea765dac9"
+      "branch": "experiment/forage-001-permission-custody",
+      "sha": "03539a6c2c39be28395c0df57ecfb7234136c4e1"
     },
     {
       "repository": "static-os",
-      "branch": "experiment/apparatus-compiler-002",
-      "sha": "e4cea899035d701ce0a68aaead6397aea912161f"
+      "branch": "experiment/forage-002-walle-field-scout",
+      "sha": "7a3ede43d635205bdf465a284f0053d7c0963b3c"
     },
     {
       "repository": "static-os",
-      "branch": "experiment/fabrication-crossing-013",
-      "sha": "7bc551610421bd60a8dbf624d93d7a6682ce3987"
+      "branch": "experiment/glean-001-steward-remainder",
+      "sha": "1190446dd09e158491d79c36dad6502027c98a9d"
     },
     {
       "repository": "static-os",
-      "branch": "experiment/physical-print-packet-011",
-      "sha": "49d06c79542ecd0994f116417fe14fceed867a24"
+      "branch": "experiment/kettlenode-001-energy-gate",
+      "sha": "99d3a12faf1cd5502793091a0ac99754a75d39fc"
     },
     {
       "repository": "static-os",
-      "branch": "experiment/question-first-session-001",
-      "sha": "457cd6fb09f3010c2f80634fa3c4e3e7c8bcedbe"
+      "branch": "experiment/kettlenode-002-heat-commons",
+      "sha": "af09cddbdb8a7854890b10013cbdce40193f0fc4"
     },
     {
       "repository": "static-os",
-      "branch": "experiment/regenerative-design-capacity-010",
-      "sha": "a1cf59835a03a689b371cb64585b48631a28267b"
+      "branch": "experiment/mandelbrot-world-field-001",
+      "sha": "aa387bcd857d78c0e7d99ab2e0f861c6afe183c6"
     },
     {
       "repository": "static-os",
-      "branch": "experiment/static-cad-003",
-      "sha": "98ec1bc4e86f999e85a08ab80e055f596d79184a"
+      "branch": "experiment/robot-garden-001",
+      "sha": "a40d9ee1ee7d59c1d1dede6a0ba88ae7b99014c1"
     },
     {
       "repository": "static-os",
-      "branch": "experiment/static-cad-004",
-      "sha": "bbfe07e488829ce7538111418b2d198e8b97323c"
+      "branch": "experiment/robot-garden-002-phone-t3i",
+      "sha": "2ef49e77ce4236575c7c1c84758120e712411618"
     },
     {
       "repository": "static-os",
-      "branch": "experiment/static-cad-005-relatte",
-      "sha": "8f8b30b2a223e54a5955fa5d365e33680b7399b4"
+      "branch": "experiment/robot-garden-003-gopro-calibration",
+      "sha": "e1fd689085cc9b348495bf0b79354fde269bb09f"
     },
     {
       "repository": "static-os",
-      "branch": "experiment/static-cad-006-goatnote",
-      "sha": "0d460524d0db129a8cccb0661cb9f533f3e6793b"
+      "branch": "experiment/robot-garden-004-hero3-video",
+      "sha": "80c989112b4656800f97fc1cca1d3bc74a3011ef"
     },
     {
-      "repository": "static-os",
-      "branch": "integration/instrument-host-001",
-      "sha": "8d3de9160a1f1fdffc6741712a112d34fbadf7e3"
+      "repository": "webZ",
+      "branch": "experiment/founder-node-003-dual-custody",
+      "sha": "45ca3f586cda98fc19ee84d6bf76a3eef0f0a1e3"
+    },
+    {
+      "repository": "webZ",
+      "branch": "experiment/glean-001-invitation-porch",
+      "sha": "12c30311d9bce61f8f58ddca923d58a7ee21c959"
+    },
+    {
+      "repository": "webZ",
+      "branch": "experiment/music-field-002-federated-sources",
+      "sha": "fcdb6290090dd19f23f6502826d5760b80d90850"
+    },
+    {
+      "repository": "webZ",
+      "branch": "experiment/music-field-003-youtube-oauth",
+      "sha": "7ea6255ea16b32e6ffbadc9ee2a512035110e0ec"
+    },
+    {
+      "repository": "webZ",
+      "branch": "experiment/postal-pocket-001-webz-host",
+      "sha": "b395c8f9f7ce35fdbc33d83353aeb5f0f7313fef"
+    },
+    {
+      "repository": "webZ",
+      "branch": "experiment/skymirror-webz-optical-lab-001",
+      "sha": "a890a1ca30b2327262909a8eed58e0fc5db5fc87"
+    },
+    {
+      "repository": "webZ",
+      "branch": "experiment/suno-atlas-001-library-dials",
+      "sha": "c56b2298d992fb06ab6ed80c61c4bda579e4d1e0"
+    },
+    {
+      "repository": "webZ",
+      "branch": "experiment/wandering-lens-001-question-engine",
+      "sha": "36a18117f31b7ade59148a3b82ac1fb9167b1d01"
+    },
+    {
+      "repository": "webZ",
+      "branch": "experiment/wandering-lens-002-visitor-annex",
+      "sha": "785a075c8be867f6e8d9a6a115ff457151f53970"
+    },
+    {
+      "repository": "webZ",
+      "branch": "experiment/webz-gro-forage-001-field-porch",
+      "sha": "237da36c0503c998ccc003b47fa26d1e9102c03d"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/abundent-garden-workbench-001",
+      "sha": "4abeb8e048bec3db9e58a4b60fe03d65f0c91a63"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/abundent-launch-001",
+      "sha": "3e68c276934cbdafca0541f4ca5e2f16a813b3a7"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/abundent-threshold-001",
+      "sha": "87c55333db9f6a0c3598cb6f9a6086a4cca52465"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/static-web-001-public-field",
+      "sha": "b0ef20554df647edded47e2a9c20d8f7807598d4"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/static-web-002-moving-field",
+      "sha": "118eb60f4d8b1c244a0b40ea71f229946940669e"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "reLATTE",
-      "branch": "experiment/perceived-affordance-field-001",
-      "from_sha": "488466f0fb6607114a086683dc91c1c5eff42dc0",
-      "to_sha": "203b836cd7a36e105d4f3798f366db744dee47db"
+      "repository": "GrO",
+      "branch": "main",
+      "from_sha": "41321646412a5330eca83ddc90194f2ea782ed09",
+      "to_sha": "86798d9baed2e697af5700fc3c27b8c3444b19f0"
+    },
+    {
+      "repository": "static-os",
+      "branch": "main",
+      "from_sha": "8bdb6ec5c258c1c98a777d3a83537569f4977a54",
+      "to_sha": "2833ee03e26a4492138d2167f2102c674bf91970"
+    },
+    {
+      "repository": "webZ",
+      "branch": "main",
+      "from_sha": "b6b9897bfd6e548a3ce3dbea21e633803dcbd13b",
+      "to_sha": "e1c56b019286922b04cef59922ef071034c32790"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "41b9419d4117c9edc145671e9b1cbd5b08c9f759",
-      "to_sha": "df87ef32d11546ccbea85e793b76fb0627c86221"
+      "from_sha": "df87ef32d11546ccbea85e793b76fb0627c86221",
+      "to_sha": "09f9617b100d924fa1d2655d8a21e63522464403"
     }
   ],
   "opened_prs": [
     {
       "repository": "CANNON",
-      "number": 2,
-      "title": "CANON FIELD 001 — owner-signed multiple canons, no merge and no main privilege",
-      "url": "https://github.com/the-static-collective/CANNON/pull/2",
-      "head_branch": "experiment/canon-field-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "CANNON",
-      "number": 4,
-      "title": "CANON CROSSING 002 — exact Git SHA through native reLATTE, receiver-owned HOLD",
-      "url": "https://github.com/the-static-collective/CANNON/pull/4",
-      "head_branch": "experiment/canon-crossing-002",
-      "base_branch": "experiment/canon-field-001"
-    },
-    {
-      "repository": "CANNON",
-      "number": 5,
-      "title": "PRESENT USE 003 — verified non-canon cross-repo source composition",
-      "url": "https://github.com/the-static-collective/CANNON/pull/5",
-      "head_branch": "experiment/present-use-003",
-      "base_branch": "experiment/canon-crossing-002"
-    },
-    {
-      "repository": "CANNON",
-      "number": 6,
-      "title": "TYPED COMPATIBILITY 004 — real cross-repo schema fit without canon gate",
-      "url": "https://github.com/the-static-collective/CANNON/pull/6",
-      "head_branch": "experiment/typed-compatibility-004",
-      "base_branch": "experiment/present-use-003"
-    },
-    {
-      "repository": "CANNON",
-      "number": 7,
-      "title": "ADAPTER FORGE 005 — preserved-loss projection with mandatory signature reissue",
-      "url": "https://github.com/the-static-collective/CANNON/pull/7",
-      "head_branch": "experiment/adapter-forge-005",
-      "base_branch": "experiment/typed-compatibility-004"
-    },
-    {
-      "repository": "GHoT",
-      "number": 71,
-      "title": "LISTENING-HEAP-001 — GHoT radio attention to native Autodisco first-encounter packets",
-      "url": "https://github.com/the-static-collective/GHoT/pull/71",
-      "head_branch": "experiment/listening-heap-001",
-      "base_branch": "feat/instrument-rack-001"
-    },
-    {
-      "repository": "GHoT",
-      "number": 72,
-      "title": "RADIO-EAR-002 — bounded receive-only RTL-SDR through GHoT and Autodisco",
-      "url": "https://github.com/the-static-collective/GHoT/pull/72",
-      "head_branch": "experiment/radio-ear-002",
-      "base_branch": "experiment/listening-heap-001"
-    },
-    {
-      "repository": "GHoT",
-      "number": 73,
-      "title": "RADIO-ATTENTION-003 — two-index survey, focus and native Autodisco comparison packets",
-      "url": "https://github.com/the-static-collective/GHoT/pull/73",
-      "head_branch": "experiment/radio-attention-003",
-      "base_branch": "experiment/radio-ear-002"
-    },
-    {
-      "repository": "GHoT",
-      "number": 74,
-      "title": "UNHEARD CHOIR 001 — finite attention, quiet-needs counterfactual, receipts",
-      "url": "https://github.com/the-static-collective/GHoT/pull/74",
-      "head_branch": "experiment/unheard-choir-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "GHoT",
-      "number": 75,
-      "title": "UNHEARD CHOIR 002 — declared blind spots and bounded instrument discovery",
-      "url": "https://github.com/the-static-collective/GHoT/pull/75",
-      "head_branch": "experiment/unheard-choir-002",
-      "base_branch": "experiment/unheard-choir-001"
-    },
-    {
-      "repository": "GHoT",
-      "number": 76,
-      "title": "UNHEARD CHOIR 003 — false apertures, owner-fixture gates, simulated novelty receipts",
-      "url": "https://github.com/the-static-collective/GHoT/pull/76",
-      "head_branch": "experiment/unheard-choir-003",
-      "base_branch": "experiment/unheard-choir-002"
-    },
-    {
-      "repository": "GHoT",
-      "number": 77,
-      "title": "UNHEARD CHOIR 004 — valid signatures, lying witness, fresh challenge HOLD",
-      "url": "https://github.com/the-static-collective/GHoT/pull/77",
-      "head_branch": "experiment/unheard-choir-004",
-      "base_branch": "experiment/unheard-choir-003"
-    },
-    {
-      "repository": "GHoT",
-      "number": 78,
-      "title": "UNHEARD CHOIR 005 — colluding signed observers versus independent fixture evidence",
-      "url": "https://github.com/the-static-collective/GHoT/pull/78",
-      "head_branch": "experiment/unheard-choir-005",
-      "base_branch": "experiment/unheard-choir-004"
-    },
-    {
-      "repository": "GHoT",
-      "number": 79,
-      "title": "UNHEARD CHOIR 006 — counterfeit instrument, dual modalities and signed custody claims",
-      "url": "https://github.com/the-static-collective/GHoT/pull/79",
-      "head_branch": "experiment/unheard-choir-006",
-      "base_branch": "experiment/unheard-choir-005"
-    },
-    {
-      "repository": "GHoT",
-      "number": 80,
-      "title": "UNHEARD CHOIR 007 — the hidden common cause in signed dependency ancestry",
-      "url": "https://github.com/the-static-collective/GHoT/pull/80",
-      "head_branch": "experiment/unheard-choir-007",
-      "base_branch": "experiment/unheard-choir-006"
-    },
-    {
-      "repository": "GHoT",
-      "number": 81,
-      "title": "UNHEARD CHOIR 008 — the missing node, externally pinned audit against signed omissions",
-      "url": "https://github.com/the-static-collective/GHoT/pull/81",
-      "head_branch": "experiment/unheard-choir-008",
-      "base_branch": "experiment/unheard-choir-007"
-    },
-    {
-      "repository": "GHoT",
-      "number": 82,
-      "title": "UNHEARD CHOIR 009 — the timestamp that lied, co-witnessed append log and fork proofs",
-      "url": "https://github.com/the-static-collective/GHoT/pull/82",
-      "head_branch": "experiment/unheard-choir-009",
-      "base_branch": "experiment/unheard-choir-008"
-    },
-    {
-      "repository": "GHoT",
-      "number": 83,
-      "title": "UNHEARD CHOIR 010 — the unseen fork: independently signed gossip from isolated local journals",
-      "url": "https://github.com/the-static-collective/GHoT/pull/83",
-      "head_branch": "experiment/unheard-choir-010",
-      "base_branch": "experiment/unheard-choir-009"
-    },
-    {
-      "repository": "GHoT",
-      "number": 84,
-      "title": "UNHEARD CHOIR 011 — The Vanishing Witness: durable signed fork delivery and anti-entropy",
-      "url": "https://github.com/the-static-collective/GHoT/pull/84",
-      "head_branch": "experiment/unheard-choir-011",
-      "base_branch": "experiment/unheard-choir-010"
-    },
-    {
-      "repository": "GHoT",
-      "number": 85,
-      "title": "UNHEARD CHOIR 012 — The Dead Letter That Came Home: portable signed evidence and owner-local custody",
-      "url": "https://github.com/the-static-collective/GHoT/pull/85",
-      "head_branch": "experiment/unheard-choir-012",
-      "base_branch": "experiment/unheard-choir-011"
-    },
-    {
-      "repository": "GHoT",
-      "number": 86,
-      "title": "UNHEARD CHOIR 013 — The Letter That Outlived Its Address: epoch-local archival, no inherited authority",
-      "url": "https://github.com/the-static-collective/GHoT/pull/86",
-      "head_branch": "experiment/unheard-choir-013",
-      "base_branch": "experiment/unheard-choir-012"
-    },
-    {
-      "repository": "GHoT",
-      "number": 87,
-      "title": "UNHEARD CHOIR 014 — The Two Equal Successors: signed competing incarnations without invented ownership",
-      "url": "https://github.com/the-static-collective/GHoT/pull/87",
-      "head_branch": "experiment/unheard-choir-014",
-      "base_branch": "experiment/unheard-choir-013"
-    },
-    {
-      "repository": "GHoT",
-      "number": 88,
-      "title": "UNHEARD CHOIR 015 — The Rightful Third Party: old delegation ≠ live source or owner authority",
-      "url": "https://github.com/the-static-collective/GHoT/pull/88",
-      "head_branch": "experiment/unheard-choir-015",
-      "base_branch": "experiment/unheard-choir-014"
-    },
-    {
-      "repository": "GHoT",
-      "number": 89,
-      "title": "UNHEARD CHOIR 016 — The Witness Who Owns Nothing: silence ≠ denial, signed omissions and source revocation",
-      "url": "https://github.com/the-static-collective/GHoT/pull/89",
-      "head_branch": "experiment/unheard-choir-016",
-      "base_branch": "experiment/unheard-choir-015"
-    },
-    {
-      "repository": "GHoT",
-      "number": 90,
-      "title": "UNHEARD CHOIR 017 — The Negative That Outlived the Positive: signed delayed revocation gossip",
-      "url": "https://github.com/the-static-collective/GHoT/pull/90",
-      "head_branch": "experiment/unheard-choir-017",
-      "base_branch": "experiment/unheard-choir-016"
-    },
-    {
-      "repository": "GHoT",
-      "number": 91,
-      "title": "UNHEARD CHOIR 018 — The Negative That Forked: preserve signed source conflict without invented precedence",
-      "url": "https://github.com/the-static-collective/GHoT/pull/91",
-      "head_branch": "experiment/unheard-choir-018",
-      "base_branch": "experiment/unheard-choir-017"
-    },
-    {
-      "repository": "GHoT",
-      "number": 92,
-      "title": "UNHEARD CHOIR 019 — The Referee Who Refused to Rule: independently attested epochs and owner-local HOLD",
-      "url": "https://github.com/the-static-collective/GHoT/pull/92",
-      "head_branch": "experiment/unheard-choir-019",
-      "base_branch": "experiment/unheard-choir-018"
-    },
-    {
-      "repository": "GHoT",
-      "number": 93,
-      "title": "WORLD-ASKS-BACK-001 — sovereign three-node synthetic workshop",
-      "url": "https://github.com/the-static-collective/GHoT/pull/93",
-      "head_branch": "experiment/world-asks-back-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "GHoT",
-      "number": 94,
-      "title": "WORLD-ASKS-BACK-002 — actual GHoT hash via native reLATTE admission",
-      "url": "https://github.com/the-static-collective/GHoT/pull/94",
-      "head_branch": "experiment/world-asks-back-002",
-      "base_branch": "experiment/world-asks-back-001"
-    },
-    {
-      "repository": "GHoT",
-      "number": 95,
-      "title": "UNHEARD CHOIR 020 — The Referee Who Died: historical signature ≠ fresh referee authority",
-      "url": "https://github.com/the-static-collective/GHoT/pull/95",
-      "head_branch": "experiment/unheard-choir-020",
-      "base_branch": "experiment/unheard-choir-019"
-    },
-    {
-      "repository": "GHoT",
-      "number": 96,
-      "title": "UNFINISHED BUSINESS 001 — The First Case (bounded discovery, no execution)",
-      "url": "https://github.com/the-static-collective/GHoT/pull/96",
-      "head_branch": "experiment/unfinished-business-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "GOATnote",
-      "number": 13,
-      "title": "CAD-JOURNAL-001 — GOATnote-native frozen CAD evidence, anchored margins and Return Threads",
-      "url": "https://github.com/the-static-collective/GOATnote/pull/13",
-      "head_branch": "experiment/cad-journal-001",
-      "base_branch": "experiment/timecut-001"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "number": 2,
-      "title": "JUBILEE TREASURY 001 — portable public needs survive host loss",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/2",
-      "head_branch": "experiment/portable-needs-survive-host-loss-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "number": 4,
-      "title": "JUBILEE TREASURY 002: native need × available-capacity routing",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/4",
-      "head_branch": "experiment/native-capacity-routing-002",
-      "base_branch": "experiment/portable-needs-survive-host-loss-001"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "number": 5,
-      "title": "FALL SHARE ASSET TREASURY 007 — typed gifts to native reLATTE HOLD",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/5",
-      "head_branch": "experiment/fall-share-asset-treasury-007",
-      "base_branch": "experiment/portable-needs-survive-host-loss-001"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "number": 7,
-      "title": "JUBILEE ECONOMICS 008 — executable living capacity index and recipe candidates",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/7",
-      "head_branch": "experiment/living-capacity-index-008",
-      "base_branch": "experiment/fall-share-asset-treasury-007"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "number": 8,
-      "title": "AMBIENT TRICKLE 009 — opt-in source receipts, private HOLD, no new checkout",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/8",
-      "head_branch": "experiment/ambient-trickle-inbox-009",
-      "base_branch": "experiment/living-capacity-index-008"
-    },
-    {
-      "repository": "Jubilee-treasury",
       "number": 9,
-      "title": "GITHUB SOURCE 010 — real merged PR to private Trickle and native reLATTE HOLD",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/9",
-      "head_branch": "experiment/github-live-trickle-010",
-      "base_branch": "experiment/ambient-trickle-inbox-009"
+      "title": "KINSHIP SURPLUS 006 — exact-source simulator with three station economic worlds",
+      "url": "https://github.com/the-static-collective/CANNON/pull/9",
+      "head_branch": "experiment/kinship-surplus-006",
+      "base_branch": "experiment/adapter-forge-005"
     },
     {
-      "repository": "Jubilee-treasury",
+      "repository": "CANNON",
       "number": 11,
-      "title": "BANDCAMP SOURCE 011 — private sales CSV & authorized API v4 to Trickle HOLD",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/11",
-      "head_branch": "experiment/bandcamp-source-011",
-      "base_branch": "experiment/ambient-trickle-inbox-009"
+      "title": "KINSHIP BRIDGE 007 — station-local finance inputs and Africa listening HOLD",
+      "url": "https://github.com/the-static-collective/CANNON/pull/11",
+      "head_branch": "experiment/kinship-bridge-africa-007",
+      "base_branch": "experiment/kinship-surplus-006"
     },
     {
-      "repository": "Jubilee-treasury",
+      "repository": "CANNON",
       "number": 12,
-      "title": "DOOR REGISTRY 012 — Cash App, Venmo, PayPal, wallets, gold, pennies and work",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/12",
-      "head_branch": "experiment/universal-door-registry-012",
-      "base_branch": "experiment/bandcamp-source-011"
+      "title": "CONVERSATION COLLIDER 001 — typed invention discovery without authority",
+      "url": "https://github.com/the-static-collective/CANNON/pull/12",
+      "head_branch": "experiment/conversation-collider-001",
+      "base_branch": "experiment/kinship-bridge-africa-007"
     },
     {
-      "repository": "Jubilee-treasury",
+      "repository": "CANNON",
+      "number": 13,
+      "title": "CONVERSATION COLLIDER 002 — discover actual Git-pinned interface seams",
+      "url": "https://github.com/the-static-collective/CANNON/pull/13",
+      "head_branch": "experiment/conversation-collider-source-002",
+      "base_branch": "experiment/conversation-collider-001"
+    },
+    {
+      "repository": "CANNON",
       "number": 14,
-      "title": "REGENERATIVE CAPACITY 009 — native Static OS CRANK to accountable Treasury capacity",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/14",
-      "head_branch": "experiment/regenerative-capacity-static-os-009",
-      "base_branch": "experiment/living-capacity-index-008"
+      "title": "CONVERSATION COLLIDER 003 — GHoT × Static Live work proposals, printer HOLD",
+      "url": "https://github.com/the-static-collective/CANNON/pull/14",
+      "head_branch": "experiment/conversation-collider-work-003",
+      "base_branch": "experiment/conversation-collider-source-002"
     },
     {
-      "repository": "Jubilee-treasury",
-      "number": 15,
-      "title": "PENNY RECURSION 013 — conserved pennies, compounding possibilities, zero fabricated yield",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/15",
-      "head_branch": "experiment/penny-recursive-option-engine-013",
-      "base_branch": "experiment/universal-door-registry-012"
+      "repository": "full-measure-world-layer",
+      "number": 54,
+      "title": "FIELD QUEST ENGINE-001: physical-test inbox, opt-in Garden quest drafts",
+      "url": "https://github.com/the-static-collective/full-measure-world-layer/pull/54",
+      "head_branch": "experiment/field-quest-engine-001",
+      "base_branch": "main"
     },
     {
-      "repository": "Jubilee-treasury",
-      "number": 16,
-      "title": "JUBILEE 010 — signed Static OS CAD evidence as reviewed noncash capacity",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/16",
-      "head_branch": "experiment/regenerative-cad-handoff-010",
-      "base_branch": "experiment/regenerative-capacity-static-os-009"
+      "repository": "full-measure-world-layer",
+      "number": 55,
+      "title": "POSTAL-CORPS-001: Full Measure receives carrier route proposals without awarding Deeds",
+      "url": "https://github.com/the-static-collective/full-measure-world-layer/pull/55",
+      "head_branch": "experiment/postal-corps-001-quest-door",
+      "base_branch": "experiment/field-quest-engine-001"
     },
     {
-      "repository": "Jubilee-treasury",
-      "number": 17,
-      "title": "PENNY-014 — work-produced held units, triple-witnessed penny custody, released backing and atomic redemption",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/17",
-      "head_branch": "experiment/penny-work-matter-crossing-014",
-      "base_branch": "experiment/penny-recursive-option-engine-013"
+      "repository": "GHoT",
+      "number": 98,
+      "title": "RADIO HOUSE 001 — Nigeria↔Minnesota sovereign media node, interruption-safe review spool",
+      "url": "https://github.com/the-static-collective/GHoT/pull/98",
+      "head_branch": "experiment/radio-house-001",
+      "base_branch": "main"
     },
     {
-      "repository": "Jubilee-treasury",
+      "repository": "GHoT",
+      "number": 100,
+      "title": "RADIO HOUSE 002 — local media first, opt-in GHoT spare compute with resumable checkpoints",
+      "url": "https://github.com/the-static-collective/GHoT/pull/100",
+      "head_branch": "experiment/radio-house-002-spare-compute",
+      "base_branch": "experiment/radio-house-001"
+    },
+    {
+      "repository": "GHoT",
+      "number": 102,
+      "title": "PRINTER-ORGAN-001 — GHoT read-only 3D-printer field and held reLATTE proposals",
+      "url": "https://github.com/the-static-collective/GHoT/pull/102",
+      "head_branch": "experiment/printer-organ-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "GHoT",
+      "number": 103,
+      "title": "RADIO HOUSE 003 — reLATTE-signed public work into sovereign media-first GHoT node",
+      "url": "https://github.com/the-static-collective/GHoT/pull/103",
+      "head_branch": "experiment/radio-house-003-signed-work",
+      "base_branch": "experiment/radio-house-002-spare-compute"
+    },
+    {
+      "repository": "GHoT",
+      "number": 105,
+      "title": "SOVEREIGN-PRINT-SHOP-002 — native Static OS G-code × GHoT printer organ × signed reLATTE owners",
+      "url": "https://github.com/the-static-collective/GHoT/pull/105",
+      "head_branch": "experiment/sovereign-print-shop-002",
+      "base_branch": "experiment/printer-organ-001"
+    },
+    {
+      "repository": "GHoT",
+      "number": 106,
+      "title": "RADIO HOUSE 004 — click-controlled Linux compute node and narrow signed LAN transport",
+      "url": "https://github.com/the-static-collective/GHoT/pull/106",
+      "head_branch": "experiment/radio-house-004-clicky-lan",
+      "base_branch": "experiment/radio-house-003-signed-work"
+    },
+    {
+      "repository": "GHoT",
+      "number": 107,
+      "title": "PRINT-SURFACES-003 — Zebra ZPL × Kodak 4PASS photo × Kodak Portrait 3D",
+      "url": "https://github.com/the-static-collective/GHoT/pull/107",
+      "head_branch": "experiment/zebra-kodak-print-surfaces-003",
+      "base_branch": "experiment/sovereign-print-shop-002"
+    },
+    {
+      "repository": "GHoT",
+      "number": 108,
+      "title": "PUBLIC-PRINT-VENUES-004 — Xerox MFP × library print queues × FedEx Office",
+      "url": "https://github.com/the-static-collective/GHoT/pull/108",
+      "head_branch": "experiment/public-print-venues-004",
+      "base_branch": "experiment/zebra-kodak-print-surfaces-003"
+    },
+    {
+      "repository": "GHoT",
+      "number": 109,
+      "title": "ECOLOGY-ROUTER-001 — GHoT routes heat, wave, soil, food and salvage as distinct offers",
+      "url": "https://github.com/the-static-collective/GHoT/pull/109",
+      "head_branch": "experiment/ecology-router-001-heat-tree-wave",
+      "base_branch": "main"
+    },
+    {
+      "repository": "GHoT",
+      "number": 110,
+      "title": "ORSHOT-002: trust-pinned signed PDF staging without printing",
+      "url": "https://github.com/the-static-collective/GHoT/pull/110",
+      "head_branch": "experiment/orshot-002-physical-receipt-router",
+      "base_branch": "main"
+    },
+    {
+      "repository": "GHoT",
+      "number": 111,
+      "title": "THE RIFF-RAFT-001 — land/shore/river/floating routing commons",
+      "url": "https://github.com/the-static-collective/GHoT/pull/111",
+      "head_branch": "experiment/riff-raft-001-distributed-commons",
+      "base_branch": "experiment/ecology-router-001-heat-tree-wave"
+    },
+    {
+      "repository": "GHoT",
+      "number": 112,
+      "title": "PostEmahh'n MAIL-001: send to personal key-bound address, authorize local PDF print release",
+      "url": "https://github.com/the-static-collective/GHoT/pull/112",
+      "head_branch": "experiment/postemahhn-001-addressed-local-print",
+      "base_branch": "experiment/orshot-002-physical-receipt-router"
+    },
+    {
+      "repository": "GHoT",
+      "number": 113,
+      "title": "THE RIFF-RAFT-002 — Make Ground Rube Goldberg Terraformer",
+      "url": "https://github.com/the-static-collective/GHoT/pull/113",
+      "head_branch": "experiment/riff-raft-002-rube-goldberg-terraformer",
+      "base_branch": "experiment/riff-raft-001-distributed-commons"
+    },
+    {
+      "repository": "GHoT",
+      "number": 114,
+      "title": "MAIL-002 — Traveling Post Office: encrypted personal mail and signed print station hold",
+      "url": "https://github.com/the-static-collective/GHoT/pull/114",
+      "head_branch": "experiment/postemahhn-002-traveling-post-office",
+      "base_branch": "experiment/postemahhn-001-addressed-local-print"
+    },
+    {
+      "repository": "GHoT",
+      "number": 115,
+      "title": "MAIL-003 — Wallet Doors: typed station challenges, one-time print permits, guardian cosigning",
+      "url": "https://github.com/the-static-collective/GHoT/pull/115",
+      "head_branch": "experiment/postemahhn-003-wallet-doors",
+      "base_branch": "experiment/postemahhn-002-traveling-post-office"
+    },
+    {
+      "repository": "GHoT",
+      "number": 116,
+      "title": "MAIL-004: real WebAuthn RP-bound passkey co-authorization before HELD print",
+      "url": "https://github.com/the-static-collective/GHoT/pull/116",
+      "head_branch": "experiment/postemahhn-004-passkey-door",
+      "base_branch": "experiment/postemahhn-003-wallet-doors"
+    },
+    {
+      "repository": "GHoT",
+      "number": 117,
+      "title": "MAIL-005: independent Solana Ed25519 proof-of-control without spending permissions",
+      "url": "https://github.com/the-static-collective/GHoT/pull/117",
+      "head_branch": "experiment/postemahhn-005-external-wallet-proofs",
+      "base_branch": "experiment/postemahhn-004-passkey-door"
+    },
+    {
+      "repository": "GHoT",
+      "number": 118,
+      "title": "POSTAL-CORPS-001 — two-carrier signed handoffs × LemonPRESS × Full Measure × PENNY",
+      "url": "https://github.com/the-static-collective/GHoT/pull/118",
+      "head_branch": "experiment/postal-corps-001-first-mile",
+      "base_branch": "experiment/postemahhn-005-external-wallet-proofs"
+    },
+    {
+      "repository": "GHoT",
+      "number": 119,
+      "title": "PRINT-WORLD-005 — GHoT held public print × native Full Measure quest × PENNY zero-ledger",
+      "url": "https://github.com/the-static-collective/GHoT/pull/119",
+      "head_branch": "experiment/fullmeasure-penny-print-world-005",
+      "base_branch": "experiment/public-print-venues-004"
+    },
+    {
+      "repository": "GHoT",
+      "number": 120,
+      "title": "RIFF-RAFT-003 — independently verify reLATTE's two-world Minecraft return, HOLD",
+      "url": "https://github.com/the-static-collective/GHoT/pull/120",
+      "head_branch": "experiment/riff-raft-003-minecraft-return-intake",
+      "base_branch": "experiment/riff-raft-002-rube-goldberg-terraformer"
+    },
+    {
+      "repository": "GHoT",
+      "number": 121,
+      "title": "POSTAL-CORPS-002 — offline carrier pocket, signed QR handoffs, durable recovery",
+      "url": "https://github.com/the-static-collective/GHoT/pull/121",
+      "head_branch": "experiment/postal-corps-002-carriers-pocket",
+      "base_branch": "experiment/postal-corps-001-first-mile"
+    },
+    {
+      "repository": "GHoT",
+      "number": 122,
+      "title": "PRINT-WITNESS-006 — native Full Measure confirmed contribution to PENNY work review, zero issuance",
+      "url": "https://github.com/the-static-collective/GHoT/pull/122",
+      "head_branch": "experiment/fullmeasure-penny-witness-006",
+      "base_branch": "experiment/fullmeasure-penny-print-world-005"
+    },
+    {
+      "repository": "GHoT",
+      "number": 123,
+      "title": "RIFF-RAFT-004 — bounded dynamic quest offers and independent return HOLD",
+      "url": "https://github.com/the-static-collective/GHoT/pull/123",
+      "head_branch": "experiment/riff-raft-004-dynamic-quest-offers",
+      "base_branch": "experiment/riff-raft-003-minecraft-return-intake"
+    },
+    {
+      "repository": "GHoT",
+      "number": 124,
+      "title": "POSTAL-CORPS-003 — Two Phones, One Fictional Parcel: offline QR round trip and station reconciliation",
+      "url": "https://github.com/the-static-collective/GHoT/pull/124",
+      "head_branch": "experiment/postal-corps-003-two-phones-one-parcel",
+      "base_branch": "experiment/postal-corps-002-carriers-pocket"
+    },
+    {
+      "repository": "GHoT",
+      "number": 125,
+      "title": "RIFF-RAFT-005 — counterfactual questions from signed observed Minecraft results",
+      "url": "https://github.com/the-static-collective/GHoT/pull/125",
+      "head_branch": "experiment/riff-raft-005-counterfactual-composer",
+      "base_branch": "experiment/riff-raft-004-dynamic-quest-offers"
+    },
+    {
+      "repository": "GHoT",
+      "number": 126,
+      "title": "RIFF-RAFT-007 — Peer repository custody and symmetric partition rehearsals",
+      "url": "https://github.com/the-static-collective/GHoT/pull/126",
+      "head_branch": "experiment/riff-raft-007-peer-custody",
+      "base_branch": "experiment/riff-raft-005-counterfactual-composer"
+    },
+    {
+      "repository": "GrO",
       "number": 18,
-      "title": "PENNY-015 — sovereign two-node work × box partition, replay and shortage stress test",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/18",
-      "head_branch": "experiment/penny-two-node-partition-015",
-      "base_branch": "experiment/penny-work-matter-crossing-014"
+      "title": "PHONE-CROSSING-002: native GrO Bluetooth discovery and Wi-Fi Direct signed crossing companion",
+      "url": "https://github.com/the-static-collective/GrO/pull/18",
+      "head_branch": "experiment/gro-android-crossing-002",
+      "base_branch": "main"
     },
     {
-      "repository": "Jubilee-treasury",
-      "number": 19,
-      "title": "PENNY-016 — The Box That Asks: sovereign three-box composition, dials, witness and native HOLD",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/19",
-      "head_branch": "experiment/penny-box-that-asks-016",
-      "base_branch": "experiment/penny-two-node-partition-015"
-    },
-    {
-      "repository": "Jubilee-treasury",
+      "repository": "GrO",
       "number": 20,
-      "title": "PENNY-017 — physical fabrication evidence: read-only OctoPrint, file hashing and independent witness gate",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/20",
-      "head_branch": "experiment/penny-hardware-witness-017",
-      "base_branch": "experiment/penny-box-that-asks-016"
+      "title": "LAND-CROSSING-001 — The Plot Thickens: signed sites, local decisions, GHoT work candidates",
+      "url": "https://github.com/the-static-collective/GrO/pull/20",
+      "head_branch": "experiment/land-crossing-001-plot-thickens",
+      "base_branch": "main"
+    },
+    {
+      "repository": "GrO",
+      "number": 22,
+      "title": "FIELD QUEST ENGINE-001: source-addressed physical-test tenet encounters",
+      "url": "https://github.com/the-static-collective/GrO/pull/22",
+      "head_branch": "experiment/field-quest-encounters-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "GrO",
+      "number": 25,
+      "title": "PROPERTY-002 — Private Steward Porch: confidential candidate intake and real-world permission gates",
+      "url": "https://github.com/the-static-collective/GrO/pull/25",
+      "head_branch": "experiment/property-002-private-site-readiness",
+      "base_branch": "experiment/land-crossing-001-plot-thickens"
+    },
+    {
+      "repository": "GrO",
+      "number": 26,
+      "title": "FIELD-SHIP-003 — Static Field Ship: mobile bus revival and independent hangar",
+      "url": "https://github.com/the-static-collective/GrO/pull/26",
+      "head_branch": "experiment/field-ship-003-mobile-revival",
+      "base_branch": "experiment/property-002-private-site-readiness"
+    },
+    {
+      "repository": "GrO",
+      "number": 27,
+      "title": "POSTAL-ENCOUNTER-001 — local GrO carrier HOLD and refusal, no delivery or PENNY authority",
+      "url": "https://github.com/the-static-collective/GrO/pull/27",
+      "head_branch": "experiment/postal-pocket-001-local-encounter",
+      "base_branch": "main"
     },
     {
       "repository": "Jubilee-treasury",
-      "number": 21,
-      "title": "PENNY-018 — real printer status capture, challenge-bound inspection and sovereign evidence handoff",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/21",
-      "head_branch": "experiment/penny-field-capture-018",
-      "base_branch": "experiment/penny-hardware-witness-017"
+      "number": 22,
+      "title": "PENNY-019 — playable Haunted Jubilee Arcade: two-box crank, ghost photo, MAIL/HOLD",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/22",
+      "head_branch": "experiment/haunted-jubilee-arcade-019",
+      "base_branch": "experiment/penny-field-capture-018"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 23,
+      "title": "PENNY-020 — The Crank Remembers: durable turn and paper recovery",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/23",
+      "head_branch": "experiment/haunted-jubilee-powerloss-020",
+      "base_branch": "experiment/haunted-jubilee-arcade-019"
     },
     {
       "repository": "lemonPRESS",
-      "number": 47,
-      "title": "UNFINISHED BUSINESS manga — CASE ZERO: The End That Would Not Arrive",
-      "url": "https://github.com/the-static-collective/lemonPRESS/pull/47",
-      "head_branch": "story/unfinished-business-manga-001",
+      "number": 49,
+      "title": "MATERIAL MEMORY 001 — preserve spatial provenance before rendering",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/49",
+      "head_branch": "experiment/material-memory-001",
+      "base_branch": "feat/manga-style-profile-001"
+    },
+    {
+      "repository": "lemonPRESS",
+      "number": 50,
+      "title": "LETTER CYCLE 001 — book → physical letter → branching card → held reply",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/50",
+      "head_branch": "experiment/letter-cycle-001",
+      "base_branch": "press/physical"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 89,
+      "title": "RELATTE-VM-001: self-describing nested VM with independent admission",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/89",
+      "head_branch": "experiment/relatte-vm-001-self-hosted-world",
       "base_branch": "main"
     },
     {
       "repository": "reLATTE",
-      "number": 85,
-      "title": "PSI-MEMBRANE-001: history-cut entailment without authority",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/85",
-      "head_branch": "experiment/psi-membrane-001",
-      "base_branch": "experiment/composition-instance-002"
+      "number": 90,
+      "title": "RELATTE-VM-002: admitted WebAssembly execution in separate OS processes",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/90",
+      "head_branch": "experiment/relatte-vm-002-isolated-wasm",
+      "base_branch": "experiment/relatte-vm-001-self-hosted-world"
     },
     {
       "repository": "reLATTE",
-      "number": 87,
-      "title": "FABRICATION-CROSSING-013 — sovereign signed printer nodes and no-revival grants",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/87",
-      "head_branch": "experiment/fabrication-crossing-013",
-      "base_branch": "experiment/dynamic-interface-field-001"
+      "number": 91,
+      "title": "RELATTE-VM-003: signed execution witnesses and independent two-runner cold verification",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/91",
+      "head_branch": "experiment/relatte-vm-003-witnessed-execution",
+      "base_branch": "experiment/relatte-vm-002-isolated-wasm"
     },
     {
       "repository": "reLATTE",
-      "number": 88,
-      "title": "WORLD-ASKS-BACK-002 — native R3 receiver with exact local policy and fresh owner grants",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/88",
-      "head_branch": "experiment/wab-native-receiver-002",
+      "number": 92,
+      "title": "RELATTE-VM-004: signed peer handshake, expiring one-use leases and attributed resource reports",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/92",
+      "head_branch": "experiment/relatte-vm-004-authenticated-leases",
+      "base_branch": "experiment/relatte-vm-003-witnessed-execution"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 93,
+      "title": "TRANSPORT-COMPOSITION-001: same signed crossing over many independently witnessed roads",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/93",
+      "head_branch": "experiment/transport-composition-001-many-roads",
+      "base_branch": "experiment/relatte-vm-004-authenticated-leases"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 94,
+      "title": "SKYMIRROR-001: byte-preserving passive optical transport specimen",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/94",
+      "head_branch": "experiment/skymirror-001-passive-optical-road",
       "base_branch": "main"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 95,
+      "title": "SKYMIRROR-002: two-phone reflected-light optical packet bench",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/95",
+      "head_branch": "experiment/skymirror-002-two-phone-light-link",
+      "base_branch": "experiment/skymirror-001-passive-optical-road"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 96,
+      "title": "RIFF-RAFT-MINECRAFT-001 — GHoT Make Ground into verified vanilla world",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/96",
+      "head_branch": "experiment/riff-raft-minecraft-001-terraform-crossing",
+      "base_branch": "experiment/composition-instance-001"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 97,
+      "title": "RIFF-RAFT-MINECRAFT-002 — actual vanilla redstone causality, fault and repair",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/97",
+      "head_branch": "experiment/riff-raft-minecraft-002-living-redstone",
+      "base_branch": "experiment/riff-raft-minecraft-001-terraform-crossing"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 98,
+      "title": "RELATTE-CHATGPT-MCP-001 — read-only signed-evidence MCP aperture",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/98",
+      "head_branch": "experiment/relatte-chatgpt-mcp-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 99,
+      "title": "RELATTE-CHATGPT-MCP-002 — external MCP wire client and staging gate",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/99",
+      "head_branch": "experiment/relatte-chatgpt-mcp-002",
+      "base_branch": "experiment/relatte-chatgpt-mcp-001"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 100,
+      "title": "RELATTE-CHATGPT-MCP-003 — OAuth-scoped official SDK host with deployment HOLD",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/100",
+      "head_branch": "experiment/relatte-chatgpt-mcp-003",
+      "base_branch": "experiment/relatte-chatgpt-mcp-002"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 101,
+      "title": "RIFF-RAFT-MINECRAFT-003 — two isolated vanilla worlds, signed replay and GHoT return",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/101",
+      "head_branch": "experiment/riff-raft-minecraft-003-two-world-return",
+      "base_branch": "experiment/riff-raft-minecraft-002-living-redstone"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 102,
+      "title": "MCP dependency hardening 004 — patch OAuth client CVE and lock/audit supply chain",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/102",
+      "head_branch": "experiment/relatte-mcp-dependency-hardening-004",
+      "base_branch": "experiment/relatte-chatgpt-mcp-003"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 103,
+      "title": "RIFF-RAFT-MINECRAFT-004 — two distinct GHoT-selected causal quests",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/103",
+      "head_branch": "experiment/riff-raft-minecraft-004-dynamic-quests",
+      "base_branch": "experiment/riff-raft-minecraft-003-two-world-return"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 104,
+      "title": "MCP OAuth trust 005 — live revocation, key rotation, DPoP replay boundaries",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/104",
+      "head_branch": "experiment/relatte-mcp-oauth-trust-005",
+      "base_branch": "experiment/relatte-mcp-dependency-hardening-004"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 105,
+      "title": "RIFF-RAFT-MINECRAFT-005 — verified observations compose new bounded quests",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/105",
+      "head_branch": "experiment/riff-raft-minecraft-005-counterfactual-return",
+      "base_branch": "experiment/riff-raft-minecraft-004-dynamic-quests"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 106,
+      "title": "RELATTE-MCP-TRUST-GAUNTLET-006 — issuer-to-resource wire test and fail-closed input bounds",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/106",
+      "head_branch": "experiment/relatte-mcp-trust-gauntlet-006",
+      "base_branch": "experiment/relatte-mcp-oauth-trust-005"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 107,
+      "title": "RELATTE-MCP-EDGE-007 — HTTPS routes, OAuth discovery readiness and ChatGPT link gate",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/107",
+      "head_branch": "experiment/relatte-mcp-edge-door-007",
+      "base_branch": "experiment/relatte-mcp-trust-gauntlet-006"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 108,
+      "title": "RIFF-RAFT-MINECRAFT-006 — Black Star Mailbox: signed evidence survives CI expiry",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/108",
+      "head_branch": "experiment/riff-raft-minecraft-006-black-star-mailbox",
+      "base_branch": "experiment/riff-raft-minecraft-005-counterfactual-return"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 109,
+      "title": "RIFF-RAFT-MINECRAFT-007 — Two Git custodial copies, one-copy-offline replay",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/109",
+      "head_branch": "experiment/riff-raft-minecraft-007-two-custodians",
+      "base_branch": "experiment/riff-raft-minecraft-006-black-star-mailbox"
     },
     {
       "repository": "static-live",
+      "number": 35,
+      "title": "RADIO WORLD 001 — two independently owned source worlds, one clicky Static Live PWA",
+      "url": "https://github.com/the-static-collective/static-live/pull/35",
+      "head_branch": "experiment/radio-world-001-two-doors",
+      "base_branch": "main"
+    },
+    {
+      "repository": "static-os",
+      "number": 68,
+      "title": "ROBOT-GARDEN-001 — signed source → Jubilee-inspired synthetic inspection",
+      "url": "https://github.com/the-static-collective/static-os/pull/68",
+      "head_branch": "experiment/robot-garden-001",
+      "base_branch": "experiment/fabrication-crossing-013"
+    },
+    {
+      "repository": "static-os",
+      "number": 70,
+      "title": "ROBOT-GARDEN-002 — phones + Canon T3i real-image intake and replay",
+      "url": "https://github.com/the-static-collective/static-os/pull/70",
+      "head_branch": "experiment/robot-garden-002-phone-t3i",
+      "base_branch": "experiment/robot-garden-001"
+    },
+    {
+      "repository": "static-os",
+      "number": 72,
+      "title": "ROBOT-GARDEN-003 — GoPro third eye and printable calibration target",
+      "url": "https://github.com/the-static-collective/static-os/pull/72",
+      "head_branch": "experiment/robot-garden-003-gopro-calibration",
+      "base_branch": "experiment/robot-garden-002-phone-t3i"
+    },
+    {
+      "repository": "static-os",
+      "number": 74,
+      "title": "MANDELBROT-WORLD-FIELD-001 — 11×11 fractal world scroll, exact nested addresses and Radio World doors",
+      "url": "https://github.com/the-static-collective/static-os/pull/74",
+      "head_branch": "experiment/mandelbrot-world-field-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "static-os",
+      "number": 77,
+      "title": "ROBOT-GARDEN-004 — provisional 2012 HERO3 original-MP4 frame lineage",
+      "url": "https://github.com/the-static-collective/static-os/pull/77",
+      "head_branch": "experiment/robot-garden-004-hero3-video",
+      "base_branch": "experiment/robot-garden-003-gopro-calibration"
+    },
+    {
+      "repository": "static-os",
+      "number": 78,
+      "title": "KETTLENODE-001 — energy allowance to one bounded CrankNode turn",
+      "url": "https://github.com/the-static-collective/static-os/pull/78",
+      "head_branch": "experiment/kettlenode-001-energy-gate",
+      "base_branch": "experiment/cranknode-003-physical-edge"
+    },
+    {
+      "repository": "static-os",
+      "number": 81,
+      "title": "KETTLENODE-002 — HEAT COMMONS: isolated thermal routing and life-support gates",
+      "url": "https://github.com/the-static-collective/static-os/pull/81",
+      "head_branch": "experiment/kettlenode-002-heat-commons",
+      "base_branch": "experiment/kettlenode-001-energy-gate"
+    },
+    {
+      "repository": "webZ",
+      "number": 7,
+      "title": "STATIC-WEB-001 — public field prep: the web is a porch",
+      "url": "https://github.com/the-static-collective/webZ/pull/7",
+      "head_branch": "feat/static-web-001-public-field",
+      "base_branch": "feat/static-pressing-001"
+    },
+    {
+      "repository": "webZ",
+      "number": 9,
+      "title": "SKYMIRROR × webZ: opt-in reflected-light transport laboratory",
+      "url": "https://github.com/the-static-collective/webZ/pull/9",
+      "head_branch": "experiment/skymirror-webz-optical-lab-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 10,
+      "title": "WANDERING LENS 001 — 11×11 spatial world and Miracle Automaton question engine",
+      "url": "https://github.com/the-static-collective/webZ/pull/10",
+      "head_branch": "experiment/wandering-lens-001-question-engine",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 12,
+      "title": "WANDERING LENS 002 — visitor proposals, inspected local admission and nested world sketches",
+      "url": "https://github.com/the-static-collective/webZ/pull/12",
+      "head_branch": "experiment/wandering-lens-002-visitor-annex",
+      "base_branch": "experiment/wandering-lens-001-question-engine"
+    },
+    {
+      "repository": "webZ",
+      "number": 16,
+      "title": "FOUNDER NODE 003 — independently keyed visitor-world namespace, charter and withdrawal",
+      "url": "https://github.com/the-static-collective/webZ/pull/16",
+      "head_branch": "experiment/founder-node-003-dual-custody",
+      "base_branch": "experiment/wandering-lens-002-visitor-annex"
+    },
+    {
+      "repository": "webZ",
+      "number": 20,
+      "title": "SUNO ATLAS 001 — 11×11 local discography explorer and metadata constellation",
+      "url": "https://github.com/the-static-collective/webZ/pull/20",
+      "head_branch": "experiment/suno-atlas-001-library-dials",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 23,
+      "title": "MUSIC FIELD 002 — Suno × Bandcamp × YouTube source-neutral eleven-dial library",
+      "url": "https://github.com/the-static-collective/webZ/pull/23",
+      "head_branch": "experiment/music-field-002-federated-sources",
+      "base_branch": "experiment/suno-atlas-001-library-dials"
+    },
+    {
+      "repository": "webZ",
+      "number": 25,
+      "title": "STATIC-WEB-002 — the field moves (human admission pending)",
+      "url": "https://github.com/the-static-collective/webZ/pull/25",
+      "head_branch": "feat/static-web-002-moving-field",
+      "base_branch": "feat/static-web-001-public-field"
+    },
+    {
+      "repository": "webZ",
+      "number": 26,
+      "title": "POSTAL-PORCH-001 — host GHoT two-phone pocket through webZ, receive in GrO local HOLD",
+      "url": "https://github.com/the-static-collective/webZ/pull/26",
+      "head_branch": "experiment/postal-pocket-001-webz-host",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 28,
+      "title": "MUSIC FIELD 003 — Google OAuth read-only YouTube bridge, manual playlist admission",
+      "url": "https://github.com/the-static-collective/webZ/pull/28",
+      "head_branch": "experiment/music-field-003-youtube-oauth",
+      "base_branch": "experiment/music-field-002-federated-sources"
+    },
+    {
+      "repository": "webZ",
+      "number": 29,
+      "title": "ABUNDENT-THRESHOLD-001 — six real doors into the living territory",
+      "url": "https://github.com/the-static-collective/webZ/pull/29",
+      "head_branch": "feat/abundent-threshold-001",
+      "base_branch": "feat/static-web-001-public-field"
+    },
+    {
+      "repository": "webZ",
       "number": 31,
-      "title": "KINSHIP-006 — Jubilee Treasury neighbor-help radio porch",
-      "url": "https://github.com/the-static-collective/static-live/pull/31",
-      "head_branch": "experiment/kinship-jubilee-neighbor-door-006",
+      "title": "Publish WebZ public field and exact 11×11 catalog navigator",
+      "url": "https://github.com/the-static-collective/webZ/pull/31",
+      "head_branch": "feat/abundent-launch-001",
       "base_branch": "main"
-    },
-    {
-      "repository": "static-live",
-      "number": 33,
-      "title": "KINSHIP-007 — consent-scoped Living Gifts and local gallery",
-      "url": "https://github.com/the-static-collective/static-live/pull/33",
-      "head_branch": "experiment/kinship-living-gifts-007",
-      "base_branch": "main"
-    },
-    {
-      "repository": "static-os",
-      "number": 51,
-      "title": "QUESTION-FIRST-SESSION-001 — ask, select a bounded GHoT apparatus, witness, ask again",
-      "url": "https://github.com/the-static-collective/static-os/pull/51",
-      "head_branch": "experiment/question-first-session-001",
-      "base_branch": "experiment/v1-world-bus-vehicle-ecm"
-    },
-    {
-      "repository": "static-os",
-      "number": 52,
-      "title": "APPARATUS-COMPILER-002 — compile a missing instrument into a bounded GHoT assembly",
-      "url": "https://github.com/the-static-collective/static-os/pull/52",
-      "head_branch": "experiment/apparatus-compiler-002",
-      "base_branch": "experiment/question-first-session-001"
-    },
-    {
-      "repository": "static-os",
-      "number": 53,
-      "title": "STATIC-CAD-003 — parametric source-to-apparatus CAD workbench with DXF, SVG, BOM and FreeCAD bridge",
-      "url": "https://github.com/the-static-collective/static-os/pull/53",
-      "head_branch": "experiment/static-cad-003",
-      "base_branch": "experiment/apparatus-compiler-002"
-    },
-    {
-      "repository": "static-os",
-      "number": 54,
-      "title": "STATIC-OS INSTRUMENT HOST 001: native ELEVEN-HEAP host and bounded organ seams",
-      "url": "https://github.com/the-static-collective/static-os/pull/54",
-      "head_branch": "integration/instrument-host-001",
-      "base_branch": "experiment/v1-world-bus-vehicle-ecm"
-    },
-    {
-      "repository": "static-os",
-      "number": 55,
-      "title": "STATIC-CAD-004 — constrained sketch solver, arcs/tangency, DXF and operator-run FreeCAD features",
-      "url": "https://github.com/the-static-collective/static-os/pull/55",
-      "head_branch": "experiment/static-cad-004",
-      "base_branch": "experiment/static-cad-003"
-    },
-    {
-      "repository": "static-os",
-      "number": 56,
-      "title": "STATIC-CAD-005 — real OCCT solids with reLATTE signed design-decision history",
-      "url": "https://github.com/the-static-collective/static-os/pull/56",
-      "head_branch": "experiment/static-cad-005-relatte",
-      "base_branch": "experiment/static-cad-004"
-    },
-    {
-      "repository": "static-os",
-      "number": 57,
-      "title": "STATIC-CAD-006 — reLATTE signed feature branches journaled natively in GOATnote",
-      "url": "https://github.com/the-static-collective/static-os/pull/57",
-      "head_branch": "experiment/static-cad-006-goatnote",
-      "base_branch": "experiment/static-cad-005-relatte"
-    },
-    {
-      "repository": "static-os",
-      "number": 59,
-      "title": "STATIC-ECONOMICS 010 — source-verified CAD as inert digital capacity",
-      "url": "https://github.com/the-static-collective/static-os/pull/59",
-      "head_branch": "experiment/regenerative-design-capacity-010",
-      "base_branch": "experiment/static-cad-006-goatnote"
-    },
-    {
-      "repository": "static-os",
-      "number": 61,
-      "title": "STATIC-PRINT-011 — real 3D slicing and held G-code print packet",
-      "url": "https://github.com/the-static-collective/static-os/pull/61",
-      "head_branch": "experiment/physical-print-packet-011",
-      "base_branch": "experiment/regenerative-design-capacity-010"
-    },
-    {
-      "repository": "static-os",
-      "number": 64,
-      "title": "ALL-PRINTER-FIELD-012 — every print technology is addressable, hardware stays HOLD",
-      "url": "https://github.com/the-static-collective/static-os/pull/64",
-      "head_branch": "experiment/all-printer-field-012",
-      "base_branch": "experiment/physical-print-packet-011"
-    },
-    {
-      "repository": "static-os",
-      "number": 66,
-      "title": "FABRICATION-CROSSING-013 — real signed design to sovereign three-node reLATTE proposals",
-      "url": "https://github.com/the-static-collective/static-os/pull/66",
-      "head_branch": "experiment/fabrication-crossing-013",
-      "base_branch": "experiment/all-printer-field-012"
     }
   ],
   "left_open_prs": []

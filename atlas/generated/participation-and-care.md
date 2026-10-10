@@ -107,12 +107,14 @@ Default: `main` · other refs: 4 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/full-measure-world-layer) · [Branches](https://github.com/the-static-collective/full-measure-world-layer/branches) · [Pull requests](https://github.com/the-static-collective/full-measure-world-layer/pulls)
 
-Default: `main` · other refs: 31 · open PRs: 15
+Default: `main` · other refs: 33 · open PRs: 17
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#55](https://github.com/the-static-collective/full-measure-world-layer/pull/55) | POSTAL-CORPS-001: Full Measure receives carrier route proposals without awarding Deeds | `experiment/postal-corps-001-quest-door` → `experiment/field-quest-engine-001` | 2026-10-09 |
+| [#54](https://github.com/the-static-collective/full-measure-world-layer/pull/54) | FIELD QUEST ENGINE-001: physical-test inbox, opt-in Garden quest drafts | `experiment/field-quest-engine-001` → `main` | 2026-10-09 |
 | [#53](https://github.com/the-static-collective/full-measure-world-layer/pull/53) | PLENTY-001 — scarcity inverter proof specimen | `feat/plenty-001-scarcity-inverter` → `main` | 2026-10-07 |
 | [#52](https://github.com/the-static-collective/full-measure-world-layer/pull/52) | TENET-ARPG-002: make consequential history a walkable frontier | `experiment/tenet-arpg-frontier-002` → `experiment/tenet-arpg-001` | 2026-10-05 |
 | [#51](https://github.com/the-static-collective/full-measure-world-layer/pull/51) | TENET-ARPG-001: make the Warm Thread playable | `experiment/tenet-arpg-001` → `experiment/warm-thread-world-001` | 2026-10-04 |
@@ -149,7 +151,9 @@ Default: `main` · other refs: 31 · open PRs: 15
 | [design/grace-living-room-007](https://github.com/the-static-collective/full-measure-world-layer/tree/design/grace-living-room-007) | [e5d10a54cd](https://github.com/the-static-collective/full-measure-world-layer/commit/e5d10a54cd528fb43216d72410db41462abc9f25) | [open PR #42](https://github.com/the-static-collective/full-measure-world-layer/pull/42) |
 | [docs/reconcile-status-2026-08-19](https://github.com/the-static-collective/full-measure-world-layer/tree/docs/reconcile-status-2026-08-19) | [f41cec0b69](https://github.com/the-static-collective/full-measure-world-layer/commit/f41cec0b695aa0e52acf92ae5e0f7f8ff9ebc4e1) | Retained ref; disposition unverified |
 | [experiment/clockwork-map-001](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/clockwork-map-001) | [306764bd89](https://github.com/the-static-collective/full-measure-world-layer/commit/306764bd8930593facfea5ae198a23e945101bff) | [open PR #32](https://github.com/the-static-collective/full-measure-world-layer/pull/32) |
+| [experiment/field-quest-engine-001](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/field-quest-engine-001) | [c9206d5055](https://github.com/the-static-collective/full-measure-world-layer/commit/c9206d5055ad574a23acb2eceb5f8785a4ad64fe) | [open PR #54](https://github.com/the-static-collective/full-measure-world-layer/pull/54) |
 | [experiment/living-deck-quest-001](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/living-deck-quest-001) | [60cf0fc697](https://github.com/the-static-collective/full-measure-world-layer/commit/60cf0fc697b8b83d89e364d7dbbfe6001f560f6d) | [open PR #48](https://github.com/the-static-collective/full-measure-world-layer/pull/48) |
+| [experiment/postal-corps-001-quest-door](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/postal-corps-001-quest-door) | [a34caaa01e](https://github.com/the-static-collective/full-measure-world-layer/commit/a34caaa01e1f57fe62a5dc87a0037f375d4c5186) | [open PR #55](https://github.com/the-static-collective/full-measure-world-layer/pull/55) |
 | [experiment/tenet-arpg-001](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/tenet-arpg-001) | [ab01c74552](https://github.com/the-static-collective/full-measure-world-layer/commit/ab01c74552641b16ee1fd297a33c8ac2222cd676) | [open PR #51](https://github.com/the-static-collective/full-measure-world-layer/pull/51) |
 | [experiment/tenet-arpg-frontier-002](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/tenet-arpg-frontier-002) | [199df20706](https://github.com/the-static-collective/full-measure-world-layer/commit/199df2070681e68126bd83f3f74fbd21d92ade27) | [open PR #52](https://github.com/the-static-collective/full-measure-world-layer/pull/52) |
 | [experiment/warm-thread-world-001](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/warm-thread-world-001) | [553e97401a](https://github.com/the-static-collective/full-measure-world-layer/commit/553e97401a8483a0ee3c369fed9d3fb8f1c9058d) | [open PR #50](https://github.com/the-static-collective/full-measure-world-layer/pull/50) |
