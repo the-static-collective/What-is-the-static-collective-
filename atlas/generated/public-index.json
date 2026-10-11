@@ -903,6 +903,14 @@
           "sha": "827a3b53649952995e53557dcd9daaccbfb01f0e"
         },
         {
+          "name": "experiment/full-fidelity-suno-export-custody-001",
+          "sha": "86129f44e4bc799f619f9fa7e39776237b2706f3"
+        },
+        {
+          "name": "experiment/oldest-first-metadata-admission-001",
+          "sha": "aefd2aa6e7f0943637f6d5401aed030ca8b757fc"
+        },
+        {
           "name": "feat/readonly-media-resolver",
           "sha": "9243e9d5402275fc23f1103832feb14af2e11514"
         },
@@ -912,6 +920,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 17,
+          "title": "Full-fidelity Suno export intake: private, exact-byte custody",
+          "head_branch": "experiment/full-fidelity-suno-export-custody-001",
+          "head_sha": "86129f44e4bc799f619f9fa7e39776237b2706f3",
+          "head_repo": "the-static-collective/autodiscography-vault",
+          "base_branch": "main",
+          "updated_at": "2026-10-11T11:02:35Z",
+          "url": "https://github.com/the-static-collective/autodiscography-vault/pull/17"
+        },
+        {
+          "number": 16,
+          "title": "Oldest-first Suno metadata custody: local content-addressed admission",
+          "head_branch": "experiment/oldest-first-metadata-admission-001",
+          "head_sha": "aefd2aa6e7f0943637f6d5401aed030ca8b757fc",
+          "head_repo": "the-static-collective/autodiscography-vault",
+          "base_branch": "main",
+          "updated_at": "2026-10-11T10:58:04Z",
+          "url": "https://github.com/the-static-collective/autodiscography-vault/pull/16"
+        },
         {
           "number": 15,
           "title": "Add verified read-only content-address audio resolver",
@@ -1140,12 +1168,24 @@
           "sha": "ff8efbea88a777b075c95fb34a6178a29a1ea0fc"
         },
         {
+          "name": "experiment/branch-ghot-relatte-crossing-009",
+          "sha": "b9e114c8dc5a978d6b156bcb7ce5d34152c9dc8c"
+        },
+        {
+          "name": "experiment/branch-loadout-008",
+          "sha": "edf95984c71f9a940d1dcb312e9c84b3e0d4cdcc"
+        },
+        {
           "name": "experiment/canon-crossing-002",
           "sha": "0b7cafb066ca51a54d87df9f7198ab18f45e73d9"
         },
         {
           "name": "experiment/canon-field-001",
           "sha": "453cf70c820a114423811cecdc70b4ec06f2675b"
+        },
+        {
+          "name": "experiment/chronomid-seam-011",
+          "sha": "5714f7c16719a5c89cc7942c3f4b006a840d5d54"
         },
         {
           "name": "experiment/conversation-collider-001",
@@ -1160,6 +1200,10 @@
           "sha": "aabd276e4edb2ae4229ccf94eed8a7f561b17a0a"
         },
         {
+          "name": "experiment/founder-pollen-loadout-012",
+          "sha": "2da1f596a15fa7295baf4126db7118904cdee63f"
+        },
+        {
           "name": "experiment/kinship-bridge-africa-007",
           "sha": "8906a7b559565e844ed0a7791eced89ac5a549d4"
         },
@@ -1172,6 +1216,26 @@
           "sha": "99a9c270397717b690615178d0e821df545fb684"
         },
         {
+          "name": "experiment/project0-semantic-floor-013",
+          "sha": "51952cece26dac08df26d75d122406df72217797"
+        },
+        {
+          "name": "experiment/project0-tranchnode-encounter-014",
+          "sha": "66a49006675a45f1f3b196ba9c711016a586843c"
+        },
+        {
+          "name": "experiment/signed-ghot-receipt-crossing-010",
+          "sha": "a53b422c444834465469e38c1d80c88025f90f8e"
+        },
+        {
+          "name": "experiment/supabardo-death-custody-016",
+          "sha": "04b075dd6597fc4f4fa1e8535daaaa09b6f61a1a"
+        },
+        {
+          "name": "experiment/tranchnode-dual-lineage-015",
+          "sha": "20fcdf3dcf5d7ebbbf0520646a0fc2ed83e35f67"
+        },
+        {
           "name": "experiment/typed-compatibility-004",
           "sha": "420a5ded1c56af266ac2b9a06f827fe3a22361fc"
         },
@@ -1181,6 +1245,96 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 23,
+          "title": "SUPABARDO 016 — original SB-001/002/003 signed evidence outlives ephemeral stage through native TranchNode",
+          "head_branch": "experiment/supabardo-death-custody-016",
+          "head_sha": "04b075dd6597fc4f4fa1e8535daaaa09b6f61a1a",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/tranchnode-dual-lineage-015",
+          "updated_at": "2026-10-11T13:00:59Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/23"
+        },
+        {
+          "number": 22,
+          "title": "DUAL TRANCHNODE 015 — historical Autodiscography witness to native private immutable custody",
+          "head_branch": "experiment/tranchnode-dual-lineage-015",
+          "head_sha": "20fcdf3dcf5d7ebbbf0520646a0fc2ed83e35f67",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/project0-tranchnode-encounter-014",
+          "updated_at": "2026-10-11T12:43:09Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/22"
+        },
+        {
+          "number": 21,
+          "title": "FOUR-BRANCH SMASH 014 — Project0 encounter, L-Branch & continuity through TranchNode, GHoT and reLATTE",
+          "head_branch": "experiment/project0-tranchnode-encounter-014",
+          "head_sha": "66a49006675a45f1f3b196ba9c711016a586843c",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/project0-semantic-floor-013",
+          "updated_at": "2026-10-11T12:29:33Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/21"
+        },
+        {
+          "number": 20,
+          "title": "PROJECT0 FLOOR 013 — native semantic identity and missing-authority refusal for Founder Pollen source dossier",
+          "head_branch": "experiment/project0-semantic-floor-013",
+          "head_sha": "51952cece26dac08df26d75d122406df72217797",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/founder-pollen-loadout-012",
+          "updated_at": "2026-10-11T12:16:53Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/20"
+        },
+        {
+          "number": 19,
+          "title": "FOUNDER POLLEN 012 — native evidenced-neighbor discovery to actual tested two-branch CANNON loadout",
+          "head_branch": "experiment/founder-pollen-loadout-012",
+          "head_sha": "2da1f596a15fa7295baf4126db7118904cdee63f",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/chronomid-seam-011",
+          "updated_at": "2026-10-11T12:07:21Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/19"
+        },
+        {
+          "number": 18,
+          "title": "CHRONOMID 011 — excavate SEAMforge × Toaster Oracle at the actual repository midpoint",
+          "head_branch": "experiment/chronomid-seam-011",
+          "head_sha": "5714f7c16719a5c89cc7942c3f4b006a840d5d54",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/signed-ghot-receipt-crossing-010",
+          "updated_at": "2026-10-11T11:58:53Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/18"
+        },
+        {
+          "number": 17,
+          "title": "SIGNED GHOT CROSSING 010 — independently verify GHoT 030 ACT receipt, carry intact into reLATTE HOLD",
+          "head_branch": "experiment/signed-ghot-receipt-crossing-010",
+          "head_sha": "a53b422c444834465469e38c1d80c88025f90f8e",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/branch-ghot-relatte-crossing-009",
+          "updated_at": "2026-10-11T11:49:22Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/17"
+        },
+        {
+          "number": 16,
+          "title": "BRANCH-WORK 009 — run one verified GHoT hash and return native reLATTE HOLD",
+          "head_branch": "experiment/branch-ghot-relatte-crossing-009",
+          "head_sha": "b9e114c8dc5a978d6b156bcb7ce5d34152c9dc8c",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/branch-loadout-008",
+          "updated_at": "2026-10-11T11:07:51Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/16"
+        },
+        {
+          "number": 15,
+          "title": "BRANCH-LOADOUT 008 — verify exact branch code, without running or merging",
+          "head_branch": "experiment/branch-loadout-008",
+          "head_sha": "edf95984c71f9a940d1dcb312e9c84b3e0d4cdcc",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/conversation-collider-work-003",
+          "updated_at": "2026-10-11T08:44:44Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/15"
+        },
         {
           "number": 14,
           "title": "CONVERSATION COLLIDER 003 — GHoT × Static Live work proposals, printer HOLD",
@@ -2986,6 +3140,34 @@
       "open_prs": []
     },
     {
+      "name": "freeport",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "experiment/freeport-003-bonded-garden",
+          "sha": "d550dbafe63df7d608f17c4ba44d41df3de2aa78"
+        },
+        {
+          "name": "main",
+          "sha": "78560cb7d53d6fee108fee0d09017a720ad69fcf"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 1,
+          "title": "FREEPORT 003 — the bonded garden: inert amber custody, receipted interaction, sovereign import",
+          "head_branch": "experiment/freeport-003-bonded-garden",
+          "head_sha": "d550dbafe63df7d608f17c4ba44d41df3de2aa78",
+          "head_repo": "the-static-collective/freeport",
+          "base_branch": "main",
+          "updated_at": "2026-10-11T13:51:32Z",
+          "url": "https://github.com/the-static-collective/freeport/pull/1"
+        }
+      ]
+    },
+    {
       "name": "full-measure-world-layer",
       "visibility": "public",
       "default_branch": "main",
@@ -3476,6 +3658,10 @@
           "sha": "27a627f8f7f0a8717245b3609db15a45227ec4ab"
         },
         {
+          "name": "experiment/branch-native-owner-worker-030",
+          "sha": "b01758bee55d66d699160715ec377b45f7589707"
+        },
+        {
           "name": "experiment/ecology-router-001-heat-tree-wave",
           "sha": "3d0ef810347fc6a8c63ee0aa407495a343c2732b"
         },
@@ -3801,6 +3987,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 127,
+          "title": "GHoT 030 — branch-native owner-local worker with one-use signed ACT",
+          "head_branch": "experiment/branch-native-owner-worker-030",
+          "head_sha": "b01758bee55d66d699160715ec377b45f7589707",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "activation-broker-029",
+          "updated_at": "2026-10-11T11:38:42Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/127"
+        },
         {
           "number": 126,
           "title": "RIFF-RAFT-007 — Peer repository custody and symmetric partition rehearsals",
@@ -4970,6 +5166,10 @@
           "sha": "56344c946050dbb51e8296e313a3b04daee6b9bf"
         },
         {
+          "name": "experiment/receipt-glass-goatnote-001",
+          "sha": "4fe5f118cfff80541e4e8f5d9ff378bcd979ceed"
+        },
+        {
           "name": "experiment/timecut-001",
           "sha": "a014063db74486d8549c90e4551e7e234e963c99"
         },
@@ -4991,6 +5191,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 14,
+          "title": "GOATnote × Receipt Glass 001 — frozen evidence, anchored margins, deliberate import",
+          "head_branch": "experiment/receipt-glass-goatnote-001",
+          "head_sha": "4fe5f118cfff80541e4e8f5d9ff378bcd979ceed",
+          "head_repo": "the-static-collective/GOATnote",
+          "base_branch": "experiment/cad-journal-001",
+          "updated_at": "2026-10-11T13:42:00Z",
+          "url": "https://github.com/the-static-collective/GOATnote/pull/14"
+        },
         {
           "number": 13,
           "title": "CAD-JOURNAL-001 — GOATnote-native frozen CAD evidence, anchored margins and Return Threads",
@@ -5080,6 +5290,10 @@
       "archived": false,
       "branches": [
         {
+          "name": "experiment/abundent-relatte-intake-001",
+          "sha": "fd80f737a04034241822bb5688991600c39e91fb"
+        },
+        {
           "name": "experiment/field-quest-encounters-001",
           "sha": "d32009710645380adb852a119715b771bafd3684"
         },
@@ -5102,6 +5316,10 @@
         {
           "name": "experiment/land-crossing-001-plot-thickens",
           "sha": "5f229c2ef7ba49611e4f24f7b269bae74448da77"
+        },
+        {
+          "name": "experiment/pocket-doors-001",
+          "sha": "0febd0bdb08ca66845991321b067906840f1e8d3"
         },
         {
           "name": "experiment/postal-pocket-001-local-encounter",
@@ -5185,6 +5403,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 29,
+          "title": "GrO × Abundent 001 — independently verify signed LemonPRESS arrival and create local HOLD receipt",
+          "head_branch": "experiment/abundent-relatte-intake-001",
+          "head_sha": "fd80f737a04034241822bb5688991600c39e91fb",
+          "head_repo": "the-static-collective/GrO",
+          "base_branch": "main",
+          "updated_at": "2026-10-11T10:57:23Z",
+          "url": "https://github.com/the-static-collective/GrO/pull/29"
+        },
+        {
+          "number": 28,
+          "title": "POCKET-DOOR 001 — textable world encounters in GrO",
+          "head_branch": "experiment/pocket-doors-001",
+          "head_sha": "0febd0bdb08ca66845991321b067906840f1e8d3",
+          "head_repo": "the-static-collective/GrO",
+          "base_branch": "main",
+          "updated_at": "2026-10-10T19:53:51Z",
+          "url": "https://github.com/the-static-collective/GrO/pull/28"
+        },
         {
           "number": 27,
           "title": "POSTAL-ENCOUNTER-001 — local GrO carrier HOLD and refusal, no delivery or PENNY authority",
@@ -6240,7 +6478,7 @@
           "head_sha": "f084eb35d76a10f46a9c50b9aed3667ed01e3451",
           "head_repo": "the-static-collective/lemonPRESS",
           "base_branch": "press/crawler",
-          "updated_at": "2026-10-07T23:38:41Z",
+          "updated_at": "2026-10-11T11:34:19Z",
           "url": "https://github.com/the-static-collective/lemonPRESS/pull/32"
         },
         {
@@ -6270,7 +6508,7 @@
           "head_sha": "04f561e19e0955d5ae04af55ab3cea917ad46c76",
           "head_repo": "the-static-collective/lemonPRESS",
           "base_branch": "main",
-          "updated_at": "2026-10-07T20:34:09Z",
+          "updated_at": "2026-10-11T11:34:17Z",
           "url": "https://github.com/the-static-collective/lemonPRESS/pull/29"
         },
         {
@@ -6734,6 +6972,10 @@
           "sha": "1822c045c92c5ad67f1ff6ff622d4b66bbe42e25"
         },
         {
+          "name": "experiment/madd-question-box-intake-002",
+          "sha": "d6ff149a7a2d59dcb41c2c61606204b20b56a2fa"
+        },
+        {
           "name": "feat/self-indexing-case-registry",
           "sha": "8e7541da7dbe930d0f977a70d278177d3efd05d6"
         },
@@ -6948,6 +7190,16 @@
       ],
       "open_prs": [
         {
+          "number": 85,
+          "title": "QUESTION BOX × MEMENTO 002 — The unanswered source behind the HOLD",
+          "head_branch": "experiment/madd-question-box-intake-002",
+          "head_sha": "d6ff149a7a2d59dcb41c2c61606204b20b56a2fa",
+          "head_repo": "the-static-collective/national-treasure",
+          "base_branch": "feature/question-box-v0-1",
+          "updated_at": "2026-10-11T12:53:18Z",
+          "url": "https://github.com/the-static-collective/national-treasure/pull/85"
+        },
+        {
           "number": 84,
           "title": "Clue: Jubilee Quarter 001 — the Bell was Jubilee before it was Liberty",
           "head_branch": "clue/jubilee-quarter-001",
@@ -7119,6 +7371,10 @@
       "archived": false,
       "branches": [
         {
+          "name": "experiment/branch-capability-census-004",
+          "sha": "ec384bfddbdff471ea8d9b295b905980f702e1ad"
+        },
+        {
           "name": "experiment/fatherhand-grant-chain-residue-001",
           "sha": "e8111fdb64c5587b33aece0fed639ed3d03375ac"
         },
@@ -7148,6 +7404,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 11,
+          "title": "BRANCH-CENSUS 004 — inventory usable unmerged code without backlog classification",
+          "head_branch": "experiment/branch-capability-census-004",
+          "head_sha": "ec384bfddbdff471ea8d9b295b905980f702e1ad",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "experiment/fatherhand-grant-chain-residue-001",
+          "updated_at": "2026-10-11T08:44:41Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/11"
+        },
         {
           "number": 10,
           "title": "FATHERHAND-RESIDUE-001: activate grant-chain validator residue",
@@ -7610,6 +7876,10 @@
           "sha": "c2197d0b0b77b1ac731bb6045819a613010562f7"
         },
         {
+          "name": "experiment/relational-fission-001",
+          "sha": "d3cea11f6d4941ee134daa4f7afa36ad377e1ce4"
+        },
+        {
           "name": "experiment/relatte-chatgpt-mcp-001",
           "sha": "0dd287204265d1b8151806bbc675b4ffdf8332a4"
         },
@@ -7943,6 +8213,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 110,
+          "title": "RELATIONAL-FISSION-001 — split the pair, keep the witness",
+          "head_branch": "experiment/relational-fission-001",
+          "head_sha": "d3cea11f6d4941ee134daa4f7afa36ad377e1ce4",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-10T20:52:06Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/110"
+        },
         {
           "number": 109,
           "title": "RIFF-RAFT-MINECRAFT-007 — Two Git custodial copies, one-copy-offline replay",
@@ -9305,6 +9585,10 @@
           "sha": "66fed5728d6ba60f3ebf86abeb5c7b8c25ae1ff7"
         },
         {
+          "name": "experiment/pastor-of-funk-fragment-choir-001",
+          "sha": "e5749f061d472eb9a07dc3acb94d41844e51daa4"
+        },
+        {
           "name": "experiment/radio-world-001-two-doors",
           "sha": "eb0048fe56f7125ec2a2e10ffaf00569c959c702"
         },
@@ -9370,6 +9654,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 37,
+          "title": "FRAGMENT CHOIR 001 — Pastor of Funk live remix porch + stage score",
+          "head_branch": "experiment/pastor-of-funk-fragment-choir-001",
+          "head_sha": "e5749f061d472eb9a07dc3acb94d41844e51daa4",
+          "head_repo": "the-static-collective/static-live",
+          "base_branch": "main",
+          "updated_at": "2026-10-11T01:43:53Z",
+          "url": "https://github.com/the-static-collective/static-live/pull/37"
+        },
         {
           "number": 35,
           "title": "RADIO WORLD 001 — two independently owned source worlds, one clicky Static Live PWA",
@@ -9585,6 +9879,10 @@
           "sha": "3d97808e34a0815a3f130f4ae5bbdceacb235a86"
         },
         {
+          "name": "experiment/return-room-001-question-custody",
+          "sha": "2201d09107c31e5823ef641643b269fbd765c0d1"
+        },
+        {
           "name": "experiment/robot-garden-001",
           "sha": "a40d9ee1ee7d59c1d1dede6a0ba88ae7b99014c1"
         },
@@ -9730,6 +10028,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 86,
+          "title": "RETURN ROOM 001 — STATIC OS hosts reLATTE HOLD → UNDERSTORY → National Treasure question",
+          "head_branch": "experiment/return-room-001-question-custody",
+          "head_sha": "2201d09107c31e5823ef641643b269fbd765c0d1",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/question-first-session-001",
+          "updated_at": "2026-10-11T13:23:20Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/86"
+        },
         {
           "number": 81,
           "title": "KETTLENODE-002 — HEAT COMMONS: isolated thermal routing and life-support gates",
@@ -10443,6 +10751,10 @@
           "sha": "2d13a40822da8d82899fc181ffda1e289d052e71"
         },
         {
+          "name": "experiment/return-room-workbench-001",
+          "sha": "a7528199af3bb3e4286561e3aa4200b33cedbd94"
+        },
+        {
           "name": "feat/arg-house-visual-pass-002",
           "sha": "3e5822a263fb7898b1af38bbf998113b9de6d1d7"
         },
@@ -10732,6 +11044,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 110,
+          "title": "RETURN ROOM × STATIC WORKBENCH 001 — eleven dials for unfinished questions",
+          "head_branch": "experiment/return-room-workbench-001",
+          "head_sha": "a7528199af3bb3e4286561e3aa4200b33cedbd94",
+          "head_repo": "the-static-collective/static-workbench",
+          "base_branch": "feat/ghot-idle-shell-001",
+          "updated_at": "2026-10-11T13:33:36Z",
+          "url": "https://github.com/the-static-collective/static-workbench/pull/110"
+        },
         {
           "number": 89,
           "title": "GHoT-001: make the idle RPG the real Workbench control shell",
@@ -13407,6 +13729,14 @@
           "sha": "bf9e31444f4bb032f068bfc682d9fd94296753f5"
         },
         {
+          "name": "experiment/nextgen-toaster-025-performed-correspondence",
+          "sha": "791a941838a860d8f53f3d83aa0e509a6819e797"
+        },
+        {
+          "name": "experiment/nextgen-toaster-026-correspondence-bench",
+          "sha": "6a396536a28df824441be393df14f9fb6dc035c9"
+        },
+        {
           "name": "experiment/polyclock-001-recurrence",
           "sha": "66fe65523ad21824aea88519de736c791f81e967"
         },
@@ -13788,6 +14118,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 359,
+          "title": "NEXTGEN-TOASTER-026: playable fission / joining bench with verified ONE PASS custody",
+          "head_branch": "experiment/nextgen-toaster-026-correspondence-bench",
+          "head_sha": "6a396536a28df824441be393df14f9fb6dc035c9",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experiment/nextgen-toaster-025-performed-correspondence",
+          "updated_at": "2026-10-11T12:00:43Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/359"
+        },
+        {
+          "number": 358,
+          "title": "NEXTGEN-TOASTER-025: witnessed split / join / release correspondence",
+          "head_branch": "experiment/nextgen-toaster-025-performed-correspondence",
+          "head_sha": "791a941838a860d8f53f3d83aa0e509a6819e797",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "experiment/nextgen-toaster-024-mutation-distance",
+          "updated_at": "2026-10-11T11:42:50Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/358"
+        },
         {
           "number": 357,
           "title": "SB-002 source: cross one creative proposal without KEEP",
@@ -15032,6 +15382,118 @@
       ]
     },
     {
+      "name": "vidmage",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "experiment/band-iq-001-evidence-to-next-experiment",
+          "sha": "9aac4d577abda71db8c52ea35e7ae0a033a4b85c"
+        },
+        {
+          "name": "experiment/band-iq-002-lens-to-film-loop",
+          "sha": "b5208484da4dae75badf41c7ca5f122c5c865895"
+        },
+        {
+          "name": "experiment/band-iq-003-native-playdeck-witness",
+          "sha": "f9bba3091a7ad63ba502585cdeeae722906e5cfd"
+        },
+        {
+          "name": "experiment/band-iq-004-human-review-bench",
+          "sha": "17a6dc6c9dd7997f996675d6e65944b85e7a0b51"
+        },
+        {
+          "name": "experiment/band-iq-005-human-next-question",
+          "sha": "95be04d59ca3d805fb19ba97f12098b01ac51e08"
+        },
+        {
+          "name": "experiment/toaster-lbranch-blender-director-001",
+          "sha": "223190e7294197532cdfebb598ae8d85f8273c7e"
+        },
+        {
+          "name": "genesis/blender-first-grand-smash-001",
+          "sha": "6d9286e5a81ee6cd81f4618a6a8d6fc2903a5c7a"
+        },
+        {
+          "name": "main",
+          "sha": "209064f31b1e47e9f9708a56b09a86ad727a2499"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 9,
+          "title": "BAND-IQ 005: authored next question to one human-approved local film trial and editable revision",
+          "head_branch": "experiment/band-iq-005-human-next-question",
+          "head_sha": "95be04d59ca3d805fb19ba97f12098b01ac51e08",
+          "head_repo": "the-static-collective/vidmage",
+          "base_branch": "experiment/band-iq-004-human-review-bench",
+          "updated_at": "2026-10-11T13:48:36Z",
+          "url": "https://github.com/the-static-collective/vidmage/pull/9"
+        },
+        {
+          "number": 8,
+          "title": "BAND-IQ 004: human A/B review room, source-pinned two-film playback and immutable explicit decision",
+          "head_branch": "experiment/band-iq-004-human-review-bench",
+          "head_sha": "17a6dc6c9dd7997f996675d6e65944b85e7a0b51",
+          "head_repo": "the-static-collective/vidmage",
+          "base_branch": "experiment/band-iq-003-native-playdeck-witness",
+          "updated_at": "2026-10-11T13:23:33Z",
+          "url": "https://github.com/the-static-collective/vidmage/pull/8"
+        },
+        {
+          "number": 7,
+          "title": "BAND-IQ 003: source-pinned native Playdeck Remotion versus VidMage, two real films, one selected lens",
+          "head_branch": "experiment/band-iq-003-native-playdeck-witness",
+          "head_sha": "f9bba3091a7ad63ba502585cdeeae722906e5cfd",
+          "head_repo": "the-static-collective/vidmage",
+          "base_branch": "experiment/band-iq-002-lens-to-film-loop",
+          "updated_at": "2026-10-11T13:05:51Z",
+          "url": "https://github.com/the-static-collective/vidmage/pull/7"
+        },
+        {
+          "number": 6,
+          "title": "BAND-IQ 002: selected cinematic lens to real source-bound film, native Doctor rescore, preserved material ancestry",
+          "head_branch": "experiment/band-iq-002-lens-to-film-loop",
+          "head_sha": "b5208484da4dae75badf41c7ca5f122c5c865895",
+          "head_repo": "the-static-collective/vidmage",
+          "base_branch": "experiment/band-iq-001-evidence-to-next-experiment",
+          "updated_at": "2026-10-11T12:53:10Z",
+          "url": "https://github.com/the-static-collective/vidmage/pull/6"
+        },
+        {
+          "number": 5,
+          "title": "BAND-IQ 001: evidence-driven video experiments, pinned Blender organs, stillness-safe six-lens memory",
+          "head_branch": "experiment/band-iq-001-evidence-to-next-experiment",
+          "head_sha": "9aac4d577abda71db8c52ea35e7ae0a033a4b85c",
+          "head_repo": "the-static-collective/vidmage",
+          "base_branch": "experiment/toaster-lbranch-blender-director-001",
+          "updated_at": "2026-10-11T12:32:28Z",
+          "url": "https://github.com/the-static-collective/vidmage/pull/5"
+        },
+        {
+          "number": 3,
+          "title": "CROSS-001 — Toaster L BRANCH × Blender Paper Director",
+          "head_branch": "experiment/toaster-lbranch-blender-director-001",
+          "head_sha": "223190e7294197532cdfebb598ae8d85f8273c7e",
+          "head_repo": "the-static-collective/vidmage",
+          "base_branch": "genesis/blender-first-grand-smash-001",
+          "updated_at": "2026-10-10T23:28:00Z",
+          "url": "https://github.com/the-static-collective/vidmage/pull/3"
+        },
+        {
+          "number": 1,
+          "title": "VIDMAGE GENESIS 001 — public Blender-first Grand Smash",
+          "head_branch": "genesis/blender-first-grand-smash-001",
+          "head_sha": "6d9286e5a81ee6cd81f4618a6a8d6fc2903a5c7a",
+          "head_repo": "the-static-collective/vidmage",
+          "base_branch": "main",
+          "updated_at": "2026-10-10T20:04:31Z",
+          "url": "https://github.com/the-static-collective/vidmage/pull/1"
+        }
+      ]
+    },
+    {
       "name": "webZ",
       "visibility": "public",
       "default_branch": "main",
@@ -15042,12 +15504,60 @@
           "sha": "b487aab92a8a2a572001cd91424a81b3a14abce9"
         },
         {
+          "name": "experiment/abundent-relatte-crossing-001",
+          "sha": "d8a71d8f3b2f26c44d3716a566982dae055688b0"
+        },
+        {
+          "name": "experiment/branch-receipt-viewer-002",
+          "sha": "5cd9b50d386568ffcbf6f90cfe803aa9cba816ac"
+        },
+        {
+          "name": "experiment/branch-workshop-001",
+          "sha": "525058b09808555957199701ba966f22987a4771"
+        },
+        {
+          "name": "experiment/dual-tranchnode-lineage-009",
+          "sha": "d75a6feb9c51cf7a1f7d280cfd6267bf4f1ecab3"
+        },
+        {
           "name": "experiment/founder-node-003-dual-custody",
           "sha": "45ca3f586cda98fc19ee84d6bf76a3eef0f0a1e3"
         },
         {
+          "name": "experiment/giving-tree-002",
+          "sha": "356dce50071e37418190ce5adae3930600628ab7"
+        },
+        {
+          "name": "experiment/giving-tree-commons-003",
+          "sha": "3fa8e19cad07ab110c6d6f2793ebefeaaf6bb6de"
+        },
+        {
+          "name": "experiment/giving-tree-crossing-004",
+          "sha": "0623a0593e9ff025c787220314d4f1858820db38"
+        },
+        {
+          "name": "experiment/giving-tree-forest-005",
+          "sha": "ada6898fb00ea014f1a29186e7d63ae2ae4670ac"
+        },
+        {
           "name": "experiment/glean-001-invitation-porch",
           "sha": "12c30311d9bce61f8f58ddca923d58a7ee21c959"
+        },
+        {
+          "name": "experiment/grounds-mycelium-007",
+          "sha": "e64eae6970dafca6be829dca208341b976c9503a"
+        },
+        {
+          "name": "experiment/grounds-mycelium-circulation-008",
+          "sha": "9aef03860ee66b09dc39073f2045346e33a4059f"
+        },
+        {
+          "name": "experiment/harmony-grove-001",
+          "sha": "2a7e9f2627a04c82b5aa52a66992744b18c99024"
+        },
+        {
+          "name": "experiment/living-grounds-006",
+          "sha": "365dd07812b05566993d3ccb53932bcfdd87dcb7"
         },
         {
           "name": "experiment/music-field-002-federated-sources",
@@ -15058,8 +15568,44 @@
           "sha": "7ea6255ea16b32e6ffbadc9ee2a512035110e0ec"
         },
         {
+          "name": "experiment/music-field-004-audius-listening-orchard",
+          "sha": "18189f7aaca21ea90ab70b3749506fd8c3185dc8"
+        },
+        {
+          "name": "experiment/name-orchard-001-signed-missing-book",
+          "sha": "c1d56bc592ada0a56d5995cb37524a9ee6f9f11c"
+        },
+        {
+          "name": "experiment/name-orchard-002-sms-postcards",
+          "sha": "c754d0c33acbb14500812403fb9fd081244322fd"
+        },
+        {
+          "name": "experiment/pocket-door-crossing-006",
+          "sha": "ea88ce53828f8b8bd46995ff51910ecb5872445c"
+        },
+        {
+          "name": "experiment/post-office-courier-004",
+          "sha": "6a712ff5ff393d85cc62c1b7acec177474ffaab0"
+        },
+        {
+          "name": "experiment/post-office-peer-003",
+          "sha": "7881d95be90fd15e20c3379cbd1a965331951456"
+        },
+        {
+          "name": "experiment/post-office-seed-002",
+          "sha": "1208d02f2680c0b11af8a5d8334a1416fcc02003"
+        },
+        {
           "name": "experiment/postal-pocket-001-webz-host",
           "sha": "b395c8f9f7ce35fdbc33d83353aeb5f0f7313fef"
+        },
+        {
+          "name": "experiment/receipt-glass-goatnote-002",
+          "sha": "fb6253426cd22b312b5cee49974ab111a7656bd2"
+        },
+        {
+          "name": "experiment/rootline-encouragement-005",
+          "sha": "6a30c5f4771a583801f5e75e565ee6db91492478"
         },
         {
           "name": "experiment/skymirror-webz-optical-lab-001",
@@ -15082,12 +15628,20 @@
           "sha": "237da36c0503c998ccc003b47fa26d1e9102c03d"
         },
         {
+          "name": "experiment/webz-receipt-glass-001",
+          "sha": "5e4c9e0fa6dd808a9e6bc854f077ede7006950ce"
+        },
+        {
           "name": "feat/abundent-garden-workbench-001",
           "sha": "4abeb8e048bec3db9e58a4b60fe03d65f0c91a63"
         },
         {
           "name": "feat/abundent-launch-001",
           "sha": "3e68c276934cbdafca0541f4ca5e2f16a813b3a7"
+        },
+        {
+          "name": "feat/abundent-post-office-001",
+          "sha": "631002daa0554be2a14d51513d26bd6e3691fa60"
         },
         {
           "name": "feat/abundent-threshold-001",
@@ -15114,11 +15668,257 @@
           "sha": "118eb60f4d8b1c244a0b40ea71f229946940669e"
         },
         {
+          "name": "feature/2day-universe-albums-001",
+          "sha": "decad246632dc01ef9f280ba2e1eb1f36e0927ea"
+        },
+        {
+          "name": "feature/a-week-together-listening-room-001",
+          "sha": "cc98e92db41668bea86bf93ca14ebd12fc733ffe"
+        },
+        {
+          "name": "feature/listening-rooms-dial-zoom-001",
+          "sha": "e06ecfdf681eef1df12f19d0ac36fb23d6b17833"
+        },
+        {
           "name": "main",
-          "sha": "e1c56b019286922b04cef59922ef071034c32790"
+          "sha": "3cbc91d6b9a4dbaa941995de6006b2f290d00d51"
+        },
+        {
+          "name": "release/a-week-together-garden-001",
+          "sha": "1617369bc105ec065c2ec917298ea5381647cc43"
         }
       ],
       "open_prs": [
+        {
+          "number": 57,
+          "title": "RECEIPT GLASS 002 — living ancestry + deliberate GOATnote handoff",
+          "head_branch": "experiment/receipt-glass-goatnote-002",
+          "head_sha": "fb6253426cd22b312b5cee49974ab111a7656bd2",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/webz-receipt-glass-001",
+          "updated_at": "2026-10-11T13:43:42Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/57"
+        },
+        {
+          "number": 56,
+          "title": "WEBZ-RECEIPT-GLASS-001 — universal read-only receipt inspection, eleven lenses",
+          "head_branch": "experiment/webz-receipt-glass-001",
+          "head_sha": "5e4c9e0fa6dd808a9e6bc854f077ede7006950ce",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/abundent-relatte-crossing-001",
+          "updated_at": "2026-10-11T13:19:37Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/56"
+        },
+        {
+          "number": 55,
+          "title": "WEBZ 009 — offline dual TranchNode source-lineage gallery, no private archive access",
+          "head_branch": "experiment/dual-tranchnode-lineage-009",
+          "head_sha": "d75a6feb9c51cf7a1f7d280cfd6267bf4f1ecab3",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-11T12:46:27Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/55"
+        },
+        {
+          "number": 52,
+          "title": "ABUNDENT WORKSHOP 002 — read the first real GHoT → reLATTE held crossing",
+          "head_branch": "experiment/branch-receipt-viewer-002",
+          "head_sha": "5cd9b50d386568ffcbf6f90cfe803aa9cba816ac",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/branch-workshop-001",
+          "updated_at": "2026-10-11T11:11:51Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/52"
+        },
+        {
+          "number": 50,
+          "title": "ABUNDENT WORKSHOP 001 — browse source-pinned living branches",
+          "head_branch": "experiment/branch-workshop-001",
+          "head_sha": "525058b09808555957199701ba966f22987a4771",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feat/abundent-garden-workbench-001",
+          "updated_at": "2026-10-11T08:50:46Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/50"
+        },
+        {
+          "number": 49,
+          "title": "ABUNDENT × reLATTE 001 — LemonPRESS signed artifact → independently verified arrival → local HOLD",
+          "head_branch": "experiment/abundent-relatte-crossing-001",
+          "head_sha": "d8a71d8f3b2f26c44d3716a566982dae055688b0",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/pocket-door-crossing-006",
+          "updated_at": "2026-10-11T10:57:49Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/49"
+        },
+        {
+          "number": 48,
+          "title": "MYCELIUM-008 — circulation, plural interpretations, living observer branches",
+          "head_branch": "experiment/grounds-mycelium-circulation-008",
+          "head_sha": "9aef03860ee66b09dc39073f2045346e33a4059f",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/grounds-mycelium-007",
+          "updated_at": "2026-10-10T20:05:52Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/48"
+        },
+        {
+          "number": 47,
+          "title": "Pocket Door Crossing 006 — public webZ door → GrO encounter → ROOTLINE relay",
+          "head_branch": "experiment/pocket-door-crossing-006",
+          "head_sha": "ea88ce53828f8b8bd46995ff51910ecb5872445c",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/rootline-encouragement-005",
+          "updated_at": "2026-10-10T20:04:43Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/47"
+        },
+        {
+          "number": 46,
+          "title": "MYCELIUM-007 — Free Graph × UNDERSTORY observer-local living understory",
+          "head_branch": "experiment/grounds-mycelium-007",
+          "head_sha": "e64eae6970dafca6be829dca208341b976c9503a",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/living-grounds-006",
+          "updated_at": "2026-10-10T19:51:05Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/46"
+        },
+        {
+          "number": 45,
+          "title": "NAME ORCHARD 002 — Signed SMS Postcards, phone-to-phone HOLD",
+          "head_branch": "experiment/name-orchard-002-sms-postcards",
+          "head_sha": "c754d0c33acbb14500812403fb9fd081244322fd",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/name-orchard-001-signed-missing-book",
+          "updated_at": "2026-10-10T19:38:00Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/45"
+        },
+        {
+          "number": 44,
+          "title": "ROOTLINE 005 — a consent-first underground encouragement relay",
+          "head_branch": "experiment/rootline-encouragement-005",
+          "head_sha": "6a30c5f4771a583801f5e75e565ee6db91492478",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/post-office-courier-004",
+          "updated_at": "2026-10-10T19:31:16Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/44"
+        },
+        {
+          "number": 43,
+          "title": "GROUNDS-006 — deliberate attending grows stewarded paths",
+          "head_branch": "experiment/living-grounds-006",
+          "head_sha": "365dd07812b05566993d3ccb53932bcfdd87dcb7",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/giving-tree-forest-005",
+          "updated_at": "2026-10-10T19:28:59Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/43"
+        },
+        {
+          "number": 42,
+          "title": "NAME ORCHARD 001 — signed claims, missing song, sovereign HOLD",
+          "head_branch": "experiment/name-orchard-001-signed-missing-book",
+          "head_sha": "c1d56bc592ada0a56d5995cb37524a9ee6f9f11c",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/music-field-004-audius-listening-orchard",
+          "updated_at": "2026-10-10T18:27:18Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/42"
+        },
+        {
+          "number": 41,
+          "title": "Wandering Letter 004 — three-station custody and eight-protocol atlas",
+          "head_branch": "experiment/post-office-courier-004",
+          "head_sha": "6a712ff5ff393d85cc62c1b7acec177474ffaab0",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/post-office-peer-003",
+          "updated_at": "2026-10-10T18:15:25Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/41"
+        },
+        {
+          "number": 40,
+          "title": "GIVING-TREE-005 — Forest Walk of attributable creative descendants",
+          "head_branch": "experiment/giving-tree-forest-005",
+          "head_sha": "ada6898fb00ea014f1a29186e7d63ae2ae4670ac",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/giving-tree-crossing-004",
+          "updated_at": "2026-10-10T18:02:11Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/40"
+        },
+        {
+          "number": 39,
+          "title": "Peer 003 — manually paired WebRTC direct letter seed crossing",
+          "head_branch": "experiment/post-office-peer-003",
+          "head_sha": "7881d95be90fd15e20c3379cbd1a965331951456",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/post-office-seed-002",
+          "updated_at": "2026-10-10T17:58:39Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/39"
+        },
+        {
+          "number": 38,
+          "title": "MUSIC FIELD 004 — Audius Listening Orchard × Let It Find Us",
+          "head_branch": "experiment/music-field-004-audius-listening-orchard",
+          "head_sha": "18189f7aaca21ea90ab70b3749506fd8c3185dc8",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/music-field-003-youtube-oauth",
+          "updated_at": "2026-10-10T17:54:53Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/38"
+        },
+        {
+          "number": 37,
+          "title": "GIVING-TREE-004 — eleven-control crossing tent and attributable Manga return",
+          "head_branch": "experiment/giving-tree-crossing-004",
+          "head_sha": "0623a0593e9ff025c787220314d4f1858820db38",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/giving-tree-commons-003",
+          "updated_at": "2026-10-10T17:44:37Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/37"
+        },
+        {
+          "number": 36,
+          "title": "Seed Lab 002 — a public letter plants an offline website",
+          "head_branch": "experiment/post-office-seed-002",
+          "head_sha": "1208d02f2680c0b11af8a5d8334a1416fcc02003",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feat/abundent-post-office-001",
+          "updated_at": "2026-10-10T17:43:13Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/36"
+        },
+        {
+          "number": 35,
+          "title": "GIVING-TREE-003 — private intake, human moderation, opt-in public commons",
+          "head_branch": "experiment/giving-tree-commons-003",
+          "head_sha": "3fa8e19cad07ab110c6d6f2793ebefeaaf6bb6de",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/giving-tree-002",
+          "updated_at": "2026-10-10T17:15:37Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/35"
+        },
+        {
+          "number": 34,
+          "title": "GIVING-TREE-002 — manual creative gift, pickup and lineage-preserving return",
+          "head_branch": "experiment/giving-tree-002",
+          "head_sha": "356dce50071e37418190ce5adae3930600628ab7",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/harmony-grove-001",
+          "updated_at": "2026-10-10T16:47:04Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/34"
+        },
+        {
+          "number": 33,
+          "title": "Post Office 001 — connect Buttondown luv (production gated)",
+          "head_branch": "feat/abundent-post-office-001",
+          "head_sha": "631002daa0554be2a14d51513d26bd6e3691fa60",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feat/abundent-garden-workbench-001",
+          "updated_at": "2026-10-10T17:17:49Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/33"
+        },
+        {
+          "number": 32,
+          "title": "HARMONY-GROVE-001 — Abundent festival commons and first local manga seed crossing",
+          "head_branch": "experiment/harmony-grove-001",
+          "head_sha": "2a7e9f2627a04c82b5aa52a66992744b18c99024",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feat/abundent-launch-001",
+          "updated_at": "2026-10-10T16:30:47Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/32"
+        },
         {
           "number": 31,
           "title": "Publish WebZ public field and exact 11×11 catalog navigator",
@@ -15513,7 +16313,7 @@
         },
         {
           "name": "main",
-          "sha": "09f9617b100d924fa1d2655d8a21e63522464403"
+          "sha": "fef32afeccbd15fd47600f6fd68c3002bd59cbef"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -15948,5 +16748,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-10T13:39:04+00:00"
+  "captured_at": "2026-10-11T14:02:06+00:00"
 }

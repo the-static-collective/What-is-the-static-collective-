@@ -74,12 +74,13 @@ Default: `main` · other refs: 8 · open PRs: 3
 
 [Repository](https://github.com/the-static-collective/national-treasure) · [Branches](https://github.com/the-static-collective/national-treasure/branches) · [Pull requests](https://github.com/the-static-collective/national-treasure/pulls)
 
-Default: `main` · other refs: 76 · open PRs: 11
+Default: `main` · other refs: 77 · open PRs: 12
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#85](https://github.com/the-static-collective/national-treasure/pull/85) | QUESTION BOX × MEMENTO 002 — The unanswered source behind the HOLD | `experiment/madd-question-box-intake-002` → `feature/question-box-v0-1` | 2026-10-11 |
 | [#84](https://github.com/the-static-collective/national-treasure/pull/84) | Clue: Jubilee Quarter 001 — the Bell was Jubilee before it was Liberty | `clue/jubilee-quarter-001` → `main` | 2026-10-05 |
 | [#83](https://github.com/the-static-collective/national-treasure/pull/83) | BODY-BRIDGE-001: durable contact + lawful deformation reference | `thread/body-bridge-contact-lens` → `main` | 2026-09-25 |
 | [#82](https://github.com/the-static-collective/national-treasure/pull/82) | Thread: REALITY.2 × postEmahh'n crossing membrane | `threads/reality2-postemahhn-crossing-membrane` → `main` | 2026-09-25 |
@@ -120,6 +121,7 @@ Default: `main` · other refs: 76 · open PRs: 11
 | [docs/open-selador-origin-note](https://github.com/the-static-collective/national-treasure/tree/docs/open-selador-origin-note) | [19845ba000](https://github.com/the-static-collective/national-treasure/commit/19845ba0001bb7632e9cd1284c0a38237a45557e) | Retained ref; disposition unverified |
 | [docs/sigil-language-grammar](https://github.com/the-static-collective/national-treasure/tree/docs/sigil-language-grammar) | [24bf0463bd](https://github.com/the-static-collective/national-treasure/commit/24bf0463bd27cd9e509a7f63828c65243a988eaa) | Retained ref; disposition unverified |
 | [docs/tolkien-language-decompression](https://github.com/the-static-collective/national-treasure/tree/docs/tolkien-language-decompression) | [1822c045c9](https://github.com/the-static-collective/national-treasure/commit/1822c045c92c5ad67f1ff6ff622d4b66bbe42e25) | Retained ref; disposition unverified |
+| [experiment/madd-question-box-intake-002](https://github.com/the-static-collective/national-treasure/tree/experiment/madd-question-box-intake-002) | [d6ff149a7a](https://github.com/the-static-collective/national-treasure/commit/d6ff149a7a2d59dcb41c2c61606204b20b56a2fa) | [open PR #85](https://github.com/the-static-collective/national-treasure/pull/85) |
 | [feat/self-indexing-case-registry](https://github.com/the-static-collective/national-treasure/tree/feat/self-indexing-case-registry) | [8e7541da7d](https://github.com/the-static-collective/national-treasure/commit/8e7541da7dbe930d0f977a70d278177d3efd05d6) | Retained ref; disposition unverified |
 | [feat/ssw-math-001](https://github.com/the-static-collective/national-treasure/tree/feat/ssw-math-001) | [65e67062a3](https://github.com/the-static-collective/national-treasure/commit/65e67062a3be933332db36af8bc095fc9b2660b4) | Retained ref; disposition unverified |
 | [feature/leedskalnin-ennead-pressure](https://github.com/the-static-collective/national-treasure/tree/feature/leedskalnin-ennead-pressure) | [492d9f92a4](https://github.com/the-static-collective/national-treasure/commit/492d9f92a4c18be916f74a0723f8bf4bb97dba5f) | Retained ref; disposition unverified |

@@ -15,12 +15,14 @@ Visual and audio-video instruments, pantry experiments, and older appliance bran
 
 [Repository](https://github.com/the-static-collective/the-haunted-toaster) · [Branches](https://github.com/the-static-collective/the-haunted-toaster/branches) · [Pull requests](https://github.com/the-static-collective/the-haunted-toaster/pulls)
 
-Default: `main` · other refs: 232 · open PRs: 74
+Default: `main` · other refs: 234 · open PRs: 76
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#359](https://github.com/the-static-collective/the-haunted-toaster/pull/359) | NEXTGEN-TOASTER-026: playable fission / joining bench with verified ONE PASS custody | `experiment/nextgen-toaster-026-correspondence-bench` → `experiment/nextgen-toaster-025-performed-correspondence` | 2026-10-11 |
+| [#358](https://github.com/the-static-collective/the-haunted-toaster/pull/358) | NEXTGEN-TOASTER-025: witnessed split / join / release correspondence | `experiment/nextgen-toaster-025-performed-correspondence` → `experiment/nextgen-toaster-024-mutation-distance` | 2026-10-11 |
 | [#357](https://github.com/the-static-collective/the-haunted-toaster/pull/357) | SB-002 source: cross one creative proposal without KEEP | `experiment/supabardo-sb002-proposal-001` → `main` | 2026-10-07 |
 | [#356](https://github.com/the-static-collective/the-haunted-toaster/pull/356) | NEXTGEN-TOASTER-024: mutation distance | `experiment/nextgen-toaster-024-mutation-distance` → `experiment/nextgen-toaster-023-generational-ecology` | 2026-10-06 |
 | [#355](https://github.com/the-static-collective/the-haunted-toaster/pull/355) | NEXTGEN-TOASTER-023: generational ecology | `experiment/nextgen-toaster-023-generational-ecology` → `experiment/nextgen-toaster-022-adopted-artifact-promotion` | 2026-10-06 |
@@ -238,6 +240,8 @@ Default: `main` · other refs: 232 · open PRs: 74
 | [experiment/nextgen-toaster-022-adopted-artifact-promotion](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-022-adopted-artifact-promotion) | [366b716714](https://github.com/the-static-collective/the-haunted-toaster/commit/366b716714f097018b6afe39b8db055b387dd4c6) | [open PR #354](https://github.com/the-static-collective/the-haunted-toaster/pull/354) |
 | [experiment/nextgen-toaster-023-generational-ecology](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-023-generational-ecology) | [8e82bd0461](https://github.com/the-static-collective/the-haunted-toaster/commit/8e82bd046158109696fc0ee62f59876b8ee57e0a) | [open PR #355](https://github.com/the-static-collective/the-haunted-toaster/pull/355) |
 | [experiment/nextgen-toaster-024-mutation-distance](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-024-mutation-distance) | [bf9e31444f](https://github.com/the-static-collective/the-haunted-toaster/commit/bf9e31444f4bb032f068bfc682d9fd94296753f5) | [open PR #356](https://github.com/the-static-collective/the-haunted-toaster/pull/356) |
+| [experiment/nextgen-toaster-025-performed-correspondence](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-025-performed-correspondence) | [791a941838](https://github.com/the-static-collective/the-haunted-toaster/commit/791a941838a860d8f53f3d83aa0e509a6819e797) | [open PR #358](https://github.com/the-static-collective/the-haunted-toaster/pull/358) |
+| [experiment/nextgen-toaster-026-correspondence-bench](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-026-correspondence-bench) | [6a396536a2](https://github.com/the-static-collective/the-haunted-toaster/commit/6a396536a28df824441be393df14f9fb6dc035c9) | [open PR #359](https://github.com/the-static-collective/the-haunted-toaster/pull/359) |
 | [experiment/polyclock-001-recurrence](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/polyclock-001-recurrence) | [66fe65523a](https://github.com/the-static-collective/the-haunted-toaster/commit/66fe65523ad21824aea88519de736c791f81e967) | [open PR #293](https://github.com/the-static-collective/the-haunted-toaster/pull/293) |
 | [experiment/supabardo-sb002-proposal-001](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/supabardo-sb002-proposal-001) | [2c86d68413](https://github.com/the-static-collective/the-haunted-toaster/commit/2c86d684138f3008344b18202b81193db0c947c7) | [open PR #357](https://github.com/the-static-collective/the-haunted-toaster/pull/357) |
 | [experimental/franken-composer-001](https://github.com/the-static-collective/the-haunted-toaster/tree/experimental/franken-composer-001) | [0916e1d1dd](https://github.com/the-static-collective/the-haunted-toaster/commit/0916e1d1dd60d2834682e4bd182f26f15b2d8447) | [open PR #315](https://github.com/the-static-collective/the-haunted-toaster/pull/315) |

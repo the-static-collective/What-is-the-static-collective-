@@ -15,12 +15,13 @@ Desks, machines, release surfaces, return paths, and small new probes.
 
 [Repository](https://github.com/the-static-collective/static-workbench) · [Branches](https://github.com/the-static-collective/static-workbench/branches) · [Pull requests](https://github.com/the-static-collective/static-workbench/pulls)
 
-Default: `main` · other refs: 82 · open PRs: 41
+Default: `main` · other refs: 83 · open PRs: 42
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#110](https://github.com/the-static-collective/static-workbench/pull/110) | RETURN ROOM × STATIC WORKBENCH 001 — eleven dials for unfinished questions | `experiment/return-room-workbench-001` → `feat/ghot-idle-shell-001` | 2026-10-11 |
 | [#89](https://github.com/the-static-collective/static-workbench/pull/89) | GHoT-001: make the idle RPG the real Workbench control shell | `feat/ghot-idle-shell-001` → `feat/road-desk-001` | 2026-10-02 |
 | [#88](https://github.com/the-static-collective/static-workbench/pull/88) | Add ROADKIT Road Desk to the whole-house integration line | `feat/road-desk-001` → `integration/first-use-whole-house-20260920` | 2026-10-01 |
 | [#87](https://github.com/the-static-collective/static-workbench/pull/87) | Add read-only ROADKIT Road Desk | `feat/road-desk-001-mainline` → `main` | 2026-10-01 |
@@ -78,6 +79,7 @@ Default: `main` · other refs: 82 · open PRs: 41
 | [experiment/composable-occurrence-001](https://github.com/the-static-collective/static-workbench/tree/experiment/composable-occurrence-001) | [f2a99546c9](https://github.com/the-static-collective/static-workbench/commit/f2a99546c9bca1f90cb3305895ea50315e4f3339) | [open PR #28](https://github.com/the-static-collective/static-workbench/pull/28) |
 | [experiment/composition-ecology-001](https://github.com/the-static-collective/static-workbench/tree/experiment/composition-ecology-001) | [bf652a5f05](https://github.com/the-static-collective/static-workbench/commit/bf652a5f05d6d7b68b8b9436be5c2ff1d94d0934) | [open PR #57](https://github.com/the-static-collective/static-workbench/pull/57) |
 | [experiment/l-branch-context-mix-001](https://github.com/the-static-collective/static-workbench/tree/experiment/l-branch-context-mix-001) | [2d13a40822](https://github.com/the-static-collective/static-workbench/commit/2d13a40822da8d82899fc181ffda1e289d052e71) | [open PR #55](https://github.com/the-static-collective/static-workbench/pull/55) |
+| [experiment/return-room-workbench-001](https://github.com/the-static-collective/static-workbench/tree/experiment/return-room-workbench-001) | [a7528199af](https://github.com/the-static-collective/static-workbench/commit/a7528199af3bb3e4286561e3aa4200b33cedbd94) | [open PR #110](https://github.com/the-static-collective/static-workbench/pull/110) |
 | [feat/arg-house-visual-pass-002](https://github.com/the-static-collective/static-workbench/tree/feat/arg-house-visual-pass-002) | [3e5822a263](https://github.com/the-static-collective/static-workbench/commit/3e5822a263fb7898b1af38bbf998113b9de6d1d7) | Retained ref; disposition unverified |
 | [feat/arg-world-entry-001](https://github.com/the-static-collective/static-workbench/tree/feat/arg-world-entry-001) | [5a43fe5bf6](https://github.com/the-static-collective/static-workbench/commit/5a43fe5bf6101f4ab6334f24cd5d57429194122a) | Retained ref; disposition unverified |
 | [feat/attention-crossing-001](https://github.com/the-static-collective/static-workbench/tree/feat/attention-crossing-001) | [3e59212f94](https://github.com/the-static-collective/static-workbench/commit/3e59212f94b7a7e8594c358cbac317ac04f92b9c) | [open PR #32](https://github.com/the-static-collective/static-workbench/pull/32) |
@@ -154,12 +156,13 @@ Default: `main` · other refs: 82 · open PRs: 41
 
 [Repository](https://github.com/the-static-collective/static-os) · [Branches](https://github.com/the-static-collective/static-os/branches) · [Pull requests](https://github.com/the-static-collective/static-os/pulls)
 
-Default: `main` · other refs: 69 · open PRs: 66
+Default: `main` · other refs: 70 · open PRs: 67
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#86](https://github.com/the-static-collective/static-os/pull/86) | RETURN ROOM 001 — STATIC OS hosts reLATTE HOLD → UNDERSTORY → National Treasure question | `experiment/return-room-001-question-custody` → `experiment/question-first-session-001` | 2026-10-11 |
 | [#81](https://github.com/the-static-collective/static-os/pull/81) | KETTLENODE-002 — HEAT COMMONS: isolated thermal routing and life-support gates | `experiment/kettlenode-002-heat-commons` → `experiment/kettlenode-001-energy-gate` | 2026-10-09 |
 | [#78](https://github.com/the-static-collective/static-os/pull/78) | KETTLENODE-001 — energy allowance to one bounded CrankNode turn | `experiment/kettlenode-001-energy-gate` → `experiment/cranknode-003-physical-edge` | 2026-10-09 |
 | [#77](https://github.com/the-static-collective/static-os/pull/77) | ROBOT-GARDEN-004 — provisional 2012 HERO3 original-MP4 frame lineage | `experiment/robot-garden-004-hero3-video` → `experiment/robot-garden-003-gopro-calibration` | 2026-10-09 |
@@ -265,6 +268,7 @@ Default: `main` · other refs: 69 · open PRs: 66
 | [experiment/question-first-session-001](https://github.com/the-static-collective/static-os/tree/experiment/question-first-session-001) | [457cd6fb09](https://github.com/the-static-collective/static-os/commit/457cd6fb09f3010c2f80634fa3c4e3e7c8bcedbe) | [open PR #51](https://github.com/the-static-collective/static-os/pull/51) |
 | [experiment/regenerative-design-capacity-010](https://github.com/the-static-collective/static-os/tree/experiment/regenerative-design-capacity-010) | [a1cf59835a](https://github.com/the-static-collective/static-os/commit/a1cf59835a03a689b371cb64585b48631a28267b) | [open PR #59](https://github.com/the-static-collective/static-os/pull/59) |
 | [experiment/residual-witness-discriminator-001](https://github.com/the-static-collective/static-os/tree/experiment/residual-witness-discriminator-001) | [3d97808e34](https://github.com/the-static-collective/static-os/commit/3d97808e34a0815a3f130f4ae5bbdceacb235a86) | [open PR #33](https://github.com/the-static-collective/static-os/pull/33) |
+| [experiment/return-room-001-question-custody](https://github.com/the-static-collective/static-os/tree/experiment/return-room-001-question-custody) | [2201d09107](https://github.com/the-static-collective/static-os/commit/2201d09107c31e5823ef641643b269fbd765c0d1) | [open PR #86](https://github.com/the-static-collective/static-os/pull/86) |
 | [experiment/robot-garden-001](https://github.com/the-static-collective/static-os/tree/experiment/robot-garden-001) | [a40d9ee1ee](https://github.com/the-static-collective/static-os/commit/a40d9ee1ee7d59c1d1dede6a0ba88ae7b99014c1) | [open PR #68](https://github.com/the-static-collective/static-os/pull/68) |
 | [experiment/robot-garden-002-phone-t3i](https://github.com/the-static-collective/static-os/tree/experiment/robot-garden-002-phone-t3i) | [2ef49e77ce](https://github.com/the-static-collective/static-os/commit/2ef49e77ce4236575c7c1c84758120e712411618) | [open PR #70](https://github.com/the-static-collective/static-os/pull/70) |
 | [experiment/robot-garden-003-gopro-calibration](https://github.com/the-static-collective/static-os/tree/experiment/robot-garden-003-gopro-calibration) | [e1fd689085](https://github.com/the-static-collective/static-os/commit/e1fd689085cc9b348495bf0b79354fde269bb09f) | [open PR #72](https://github.com/the-static-collective/static-os/pull/72) |
