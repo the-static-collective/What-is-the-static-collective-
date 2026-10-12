@@ -355,12 +355,15 @@ Default: `main` · other refs: 4 · open PRs: 2
 
 [Repository](https://github.com/the-static-collective/GOATnote) · [Branches](https://github.com/the-static-collective/GOATnote/branches) · [Pull requests](https://github.com/the-static-collective/GOATnote/pulls)
 
-Default: `main` · other refs: 10 · open PRs: 9
+Default: `main` · other refs: 13 · open PRs: 12
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#17](https://github.com/the-static-collective/GOATnote/pull/17) | GOATnote × LemonPRESS 004 — explicitly selected margin, private editorial carrier | `experiment/lemonpress-marginalia-export-004` → `experiment/receipt-recovery-gate-003` | 2026-10-11 |
+| [#16](https://github.com/the-static-collective/GOATnote/pull/16) | RECOVERY-GATE-003 — witnessed full-notebook backup and safe empty-profile restore | `experiment/receipt-recovery-gate-003` → `experiment/receipt-relations-timecut-002` | 2026-10-11 |
+| [#15](https://github.com/the-static-collective/GOATnote/pull/15) | RECEIPT-RELATIONS-002 — human relation birthdays and TIME-CUT witness | `experiment/receipt-relations-timecut-002` → `experiment/receipt-glass-goatnote-001` | 2026-10-11 |
 | [#14](https://github.com/the-static-collective/GOATnote/pull/14) | GOATnote × Receipt Glass 001 — frozen evidence, anchored margins, deliberate import | `experiment/receipt-glass-goatnote-001` → `experiment/cad-journal-001` | 2026-10-11 |
 | [#13](https://github.com/the-static-collective/GOATnote/pull/13) | CAD-JOURNAL-001 — GOATnote-native frozen CAD evidence, anchored margins and Return Threads | `experiment/cad-journal-001` → `experiment/timecut-001` | 2026-10-08 |
 | [#12](https://github.com/the-static-collective/GOATnote/pull/12) | TIME-CUT 001 — same Room, different staircases | `experiment/timecut-001` → `experiment/goatedges-001` | 2026-10-05 |
@@ -380,7 +383,10 @@ Default: `main` · other refs: 10 · open PRs: 9
 | [experiment/goatedges-001](https://github.com/the-static-collective/GOATnote/tree/experiment/goatedges-001) | [ba5e146957](https://github.com/the-static-collective/GOATnote/commit/ba5e1469575f19aae8c8e9c6bc9d9e757441a392) | [open PR #11](https://github.com/the-static-collective/GOATnote/pull/11) |
 | [experiment/goatrooms-001](https://github.com/the-static-collective/GOATnote/tree/experiment/goatrooms-001) | [306ef0d219](https://github.com/the-static-collective/GOATnote/commit/306ef0d2195daf60cdfab428b4c48c836be3804d) | [open PR #10](https://github.com/the-static-collective/GOATnote/pull/10) |
 | [experiment/goatwalk-001](https://github.com/the-static-collective/GOATnote/tree/experiment/goatwalk-001) | [56344c9460](https://github.com/the-static-collective/GOATnote/commit/56344c946050dbb51e8296e313a3b04daee6b9bf) | [open PR #9](https://github.com/the-static-collective/GOATnote/pull/9) |
+| [experiment/lemonpress-marginalia-export-004](https://github.com/the-static-collective/GOATnote/tree/experiment/lemonpress-marginalia-export-004) | [95e63de4fd](https://github.com/the-static-collective/GOATnote/commit/95e63de4fdbbe1132294a5798a81b8d1a745fb18) | [open PR #17](https://github.com/the-static-collective/GOATnote/pull/17) |
 | [experiment/receipt-glass-goatnote-001](https://github.com/the-static-collective/GOATnote/tree/experiment/receipt-glass-goatnote-001) | [4fe5f118cf](https://github.com/the-static-collective/GOATnote/commit/4fe5f118cfff80541e4e8f5d9ff378bcd979ceed) | [open PR #14](https://github.com/the-static-collective/GOATnote/pull/14) |
+| [experiment/receipt-recovery-gate-003](https://github.com/the-static-collective/GOATnote/tree/experiment/receipt-recovery-gate-003) | [e8266df5df](https://github.com/the-static-collective/GOATnote/commit/e8266df5dfc1eb4ba5e93901acad826042be1240) | [open PR #16](https://github.com/the-static-collective/GOATnote/pull/16) |
+| [experiment/receipt-relations-timecut-002](https://github.com/the-static-collective/GOATnote/tree/experiment/receipt-relations-timecut-002) | [4374aed8cc](https://github.com/the-static-collective/GOATnote/commit/4374aed8cc15370a87dcd299b5d164bb15270160) | [open PR #15](https://github.com/the-static-collective/GOATnote/pull/15) |
 | [experiment/timecut-001](https://github.com/the-static-collective/GOATnote/tree/experiment/timecut-001) | [a014063db7](https://github.com/the-static-collective/GOATnote/commit/a014063db74486d8549c90e4551e7e234e963c99) | [open PR #12](https://github.com/the-static-collective/GOATnote/pull/12) |
 | [feat/attention-crossing-goatnote-001](https://github.com/the-static-collective/GOATnote/tree/feat/attention-crossing-goatnote-001) | [4c76360215](https://github.com/the-static-collective/GOATnote/commit/4c763602157cacad206ed578617824359bf6ef99) | [open PR #6](https://github.com/the-static-collective/GOATnote/pull/6) |
 | [feat/attention-crossing-goatnote-return-002](https://github.com/the-static-collective/GOATnote/tree/feat/attention-crossing-goatnote-return-002) | [734047026e](https://github.com/the-static-collective/GOATnote/commit/734047026ef2543a94e568d7c597f8549625e5f9) | [open PR #7](https://github.com/the-static-collective/GOATnote/pull/7) |
@@ -411,12 +417,13 @@ Default: `main` · other refs: 4 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/autodiscography-vault) · [Branches](https://github.com/the-static-collective/autodiscography-vault/branches) · [Pull requests](https://github.com/the-static-collective/autodiscography-vault/pulls)
 
-Default: `main` · other refs: 11 · open PRs: 4
+Default: `main` · other refs: 12 · open PRs: 5
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#18](https://github.com/the-static-collective/autodiscography-vault/pull/18) | PINCERSMASH 002 — source jaw: one verified Vault asset to path-free evidence | `experiment/pincersmash-week-crossing-002` → `main` | 2026-10-11 |
 | [#17](https://github.com/the-static-collective/autodiscography-vault/pull/17) | Full-fidelity Suno export intake: private, exact-byte custody | `experiment/full-fidelity-suno-export-custody-001` → `main` | 2026-10-11 |
 | [#16](https://github.com/the-static-collective/autodiscography-vault/pull/16) | Oldest-first Suno metadata custody: local content-addressed admission | `experiment/oldest-first-metadata-admission-001` → `main` | 2026-10-11 |
 | [#15](https://github.com/the-static-collective/autodiscography-vault/pull/15) | Add verified read-only content-address audio resolver | `feat/readonly-media-resolver` → `main` | 2026-10-01 |
@@ -436,4 +443,5 @@ Default: `main` · other refs: 11 · open PRs: 4
 | [agent/skyslicey72](https://github.com/the-static-collective/autodiscography-vault/tree/agent/skyslicey72) | [827a3b5364](https://github.com/the-static-collective/autodiscography-vault/commit/827a3b53649952995e53557dcd9daaccbfb01f0e) | Retained ref; disposition unverified |
 | [experiment/full-fidelity-suno-export-custody-001](https://github.com/the-static-collective/autodiscography-vault/tree/experiment/full-fidelity-suno-export-custody-001) | [86129f44e4](https://github.com/the-static-collective/autodiscography-vault/commit/86129f44e4bc799f619f9fa7e39776237b2706f3) | [open PR #17](https://github.com/the-static-collective/autodiscography-vault/pull/17) |
 | [experiment/oldest-first-metadata-admission-001](https://github.com/the-static-collective/autodiscography-vault/tree/experiment/oldest-first-metadata-admission-001) | [aefd2aa6e7](https://github.com/the-static-collective/autodiscography-vault/commit/aefd2aa6e7f0943637f6d5401aed030ca8b757fc) | [open PR #16](https://github.com/the-static-collective/autodiscography-vault/pull/16) |
+| [experiment/pincersmash-week-crossing-002](https://github.com/the-static-collective/autodiscography-vault/tree/experiment/pincersmash-week-crossing-002) | [808bf3a43d](https://github.com/the-static-collective/autodiscography-vault/commit/808bf3a43df730984dc843b626550dd2dd28ffb4) | [open PR #18](https://github.com/the-static-collective/autodiscography-vault/pull/18) |
 | [feat/readonly-media-resolver](https://github.com/the-static-collective/autodiscography-vault/tree/feat/readonly-media-resolver) | [9243e9d540](https://github.com/the-static-collective/autodiscography-vault/commit/9243e9d5402275fc23f1103832feb14af2e11514) | [open PR #15](https://github.com/the-static-collective/autodiscography-vault/pull/15) |

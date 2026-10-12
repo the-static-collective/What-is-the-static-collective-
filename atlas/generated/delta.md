@@ -9,145 +9,129 @@ snapshot and the newest changed snapshot. It does **not** interpret why a branch
 moved or disappeared, and a PR leaving the open set does not by itself prove
 whether it merged, closed, or became unavailable.
 
-From: **2026-10-10T13:39:04+00:00**  
-To: **2026-10-11T14:02:06+00:00**
+From: **2026-10-11T14:02:06+00:00**  
+To: **2026-10-12T16:44:04+00:00**
 
 | Observed event | Count |
 | --- | ---: |
-| Repositories added | 2 |
+| Repositories added | 0 |
 | Repositories removed | 0 |
-| Branches added | 60 |
+| Branches added | 50 |
 | Branches removed | 0 |
-| Branch heads moved | 2 |
-| PRs entering open set | 54 |
+| Branch heads moved | 1 |
+| PRs entering open set | 50 |
 | PRs leaving open set | 0 |
 
 ## Repository set
 
-* **+ repo** [freeport](https://github.com/the-static-collective/freeport)
-* **+ repo** [vidmage](https://github.com/the-static-collective/vidmage)
+No repository membership changes in this delta.
 
 ## Branch set and pointer movement
 
-* **+ branch** autodiscography-vault / [experiment/full-fidelity-suno-export-custody-001](https://github.com/the-static-collective/autodiscography-vault/tree/experiment/full-fidelity-suno-export-custody-001) → `86129f44e4`
-* **+ branch** autodiscography-vault / [experiment/oldest-first-metadata-admission-001](https://github.com/the-static-collective/autodiscography-vault/tree/experiment/oldest-first-metadata-admission-001) → `aefd2aa6e7`
-* **+ branch** CANNON / [experiment/branch-ghot-relatte-crossing-009](https://github.com/the-static-collective/CANNON/tree/experiment/branch-ghot-relatte-crossing-009) → `b9e114c8dc`
-* **+ branch** CANNON / [experiment/branch-loadout-008](https://github.com/the-static-collective/CANNON/tree/experiment/branch-loadout-008) → `edf95984c7`
-* **+ branch** CANNON / [experiment/chronomid-seam-011](https://github.com/the-static-collective/CANNON/tree/experiment/chronomid-seam-011) → `5714f7c167`
-* **+ branch** CANNON / [experiment/founder-pollen-loadout-012](https://github.com/the-static-collective/CANNON/tree/experiment/founder-pollen-loadout-012) → `2da1f596a1`
-* **+ branch** CANNON / [experiment/project0-semantic-floor-013](https://github.com/the-static-collective/CANNON/tree/experiment/project0-semantic-floor-013) → `51952cece2`
-* **+ branch** CANNON / [experiment/project0-tranchnode-encounter-014](https://github.com/the-static-collective/CANNON/tree/experiment/project0-tranchnode-encounter-014) → `66a4900667`
-* **+ branch** CANNON / [experiment/signed-ghot-receipt-crossing-010](https://github.com/the-static-collective/CANNON/tree/experiment/signed-ghot-receipt-crossing-010) → `a53b422c44`
-* **+ branch** CANNON / [experiment/supabardo-death-custody-016](https://github.com/the-static-collective/CANNON/tree/experiment/supabardo-death-custody-016) → `04b075dd65`
-* **+ branch** CANNON / [experiment/tranchnode-dual-lineage-015](https://github.com/the-static-collective/CANNON/tree/experiment/tranchnode-dual-lineage-015) → `20fcdf3dcf`
-* **+ branch** freeport / [experiment/freeport-003-bonded-garden](https://github.com/the-static-collective/freeport/tree/experiment/freeport-003-bonded-garden) → `d550dbafe6`
-* **+ branch** freeport / [main](https://github.com/the-static-collective/freeport/tree/main) → `78560cb7d5`
-* **+ branch** GHoT / [experiment/branch-native-owner-worker-030](https://github.com/the-static-collective/GHoT/tree/experiment/branch-native-owner-worker-030) → `b01758bee5`
-* **+ branch** GOATnote / [experiment/receipt-glass-goatnote-001](https://github.com/the-static-collective/GOATnote/tree/experiment/receipt-glass-goatnote-001) → `4fe5f118cf`
-* **+ branch** GrO / [experiment/abundent-relatte-intake-001](https://github.com/the-static-collective/GrO/tree/experiment/abundent-relatte-intake-001) → `fd80f737a0`
-* **+ branch** GrO / [experiment/pocket-doors-001](https://github.com/the-static-collective/GrO/tree/experiment/pocket-doors-001) → `0febd0bdb0`
-* **+ branch** national-treasure / [experiment/madd-question-box-intake-002](https://github.com/the-static-collective/national-treasure/tree/experiment/madd-question-box-intake-002) → `d6ff149a7a`
-* **+ branch** planZ / [experiment/branch-capability-census-004](https://github.com/the-static-collective/planZ/tree/experiment/branch-capability-census-004) → `ec384bfddb`
-* **+ branch** reLATTE / [experiment/relational-fission-001](https://github.com/the-static-collective/reLATTE/tree/experiment/relational-fission-001) → `d3cea11f6d`
-* **+ branch** static-live / [experiment/pastor-of-funk-fragment-choir-001](https://github.com/the-static-collective/static-live/tree/experiment/pastor-of-funk-fragment-choir-001) → `e5749f061d`
-* **+ branch** static-os / [experiment/return-room-001-question-custody](https://github.com/the-static-collective/static-os/tree/experiment/return-room-001-question-custody) → `2201d09107`
-* **+ branch** static-workbench / [experiment/return-room-workbench-001](https://github.com/the-static-collective/static-workbench/tree/experiment/return-room-workbench-001) → `a7528199af`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-025-performed-correspondence](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-025-performed-correspondence) → `791a941838`
-* **+ branch** the-haunted-toaster / [experiment/nextgen-toaster-026-correspondence-bench](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-026-correspondence-bench) → `6a396536a2`
-* **+ branch** vidmage / [experiment/band-iq-001-evidence-to-next-experiment](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-001-evidence-to-next-experiment) → `9aac4d577a`
-* **+ branch** vidmage / [experiment/band-iq-002-lens-to-film-loop](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-002-lens-to-film-loop) → `b5208484da`
-* **+ branch** vidmage / [experiment/band-iq-003-native-playdeck-witness](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-003-native-playdeck-witness) → `f9bba3091a`
-* **+ branch** vidmage / [experiment/band-iq-004-human-review-bench](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-004-human-review-bench) → `17a6dc6c9d`
-* **+ branch** vidmage / [experiment/band-iq-005-human-next-question](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-005-human-next-question) → `95be04d59c`
-* **+ branch** vidmage / [experiment/toaster-lbranch-blender-director-001](https://github.com/the-static-collective/vidmage/tree/experiment/toaster-lbranch-blender-director-001) → `223190e729`
-* **+ branch** vidmage / [genesis/blender-first-grand-smash-001](https://github.com/the-static-collective/vidmage/tree/genesis/blender-first-grand-smash-001) → `6d9286e5a8`
-* **+ branch** vidmage / [main](https://github.com/the-static-collective/vidmage/tree/main) → `209064f31b`
-* **+ branch** webZ / [experiment/abundent-relatte-crossing-001](https://github.com/the-static-collective/webZ/tree/experiment/abundent-relatte-crossing-001) → `d8a71d8f3b`
-* **+ branch** webZ / [experiment/branch-receipt-viewer-002](https://github.com/the-static-collective/webZ/tree/experiment/branch-receipt-viewer-002) → `5cd9b50d38`
-* **+ branch** webZ / [experiment/branch-workshop-001](https://github.com/the-static-collective/webZ/tree/experiment/branch-workshop-001) → `525058b098`
-* **+ branch** webZ / [experiment/dual-tranchnode-lineage-009](https://github.com/the-static-collective/webZ/tree/experiment/dual-tranchnode-lineage-009) → `d75a6feb9c`
-* **+ branch** webZ / [experiment/giving-tree-002](https://github.com/the-static-collective/webZ/tree/experiment/giving-tree-002) → `356dce5007`
-* **+ branch** webZ / [experiment/giving-tree-commons-003](https://github.com/the-static-collective/webZ/tree/experiment/giving-tree-commons-003) → `3fa8e19cad`
-* **+ branch** webZ / [experiment/giving-tree-crossing-004](https://github.com/the-static-collective/webZ/tree/experiment/giving-tree-crossing-004) → `0623a0593e`
-* **+ branch** webZ / [experiment/giving-tree-forest-005](https://github.com/the-static-collective/webZ/tree/experiment/giving-tree-forest-005) → `ada6898fb0`
-* **+ branch** webZ / [experiment/grounds-mycelium-007](https://github.com/the-static-collective/webZ/tree/experiment/grounds-mycelium-007) → `e64eae6970`
-* **+ branch** webZ / [experiment/grounds-mycelium-circulation-008](https://github.com/the-static-collective/webZ/tree/experiment/grounds-mycelium-circulation-008) → `9aef03860e`
-* **+ branch** webZ / [experiment/harmony-grove-001](https://github.com/the-static-collective/webZ/tree/experiment/harmony-grove-001) → `2a7e9f2627`
-* **+ branch** webZ / [experiment/living-grounds-006](https://github.com/the-static-collective/webZ/tree/experiment/living-grounds-006) → `365dd07812`
-* **+ branch** webZ / [experiment/music-field-004-audius-listening-orchard](https://github.com/the-static-collective/webZ/tree/experiment/music-field-004-audius-listening-orchard) → `18189f7aac`
-* **+ branch** webZ / [experiment/name-orchard-001-signed-missing-book](https://github.com/the-static-collective/webZ/tree/experiment/name-orchard-001-signed-missing-book) → `c1d56bc592`
-* **+ branch** webZ / [experiment/name-orchard-002-sms-postcards](https://github.com/the-static-collective/webZ/tree/experiment/name-orchard-002-sms-postcards) → `c754d0c33a`
-* **+ branch** webZ / [experiment/pocket-door-crossing-006](https://github.com/the-static-collective/webZ/tree/experiment/pocket-door-crossing-006) → `ea88ce5382`
-* **+ branch** webZ / [experiment/post-office-courier-004](https://github.com/the-static-collective/webZ/tree/experiment/post-office-courier-004) → `6a712ff5ff`
-* **+ branch** webZ / [experiment/post-office-peer-003](https://github.com/the-static-collective/webZ/tree/experiment/post-office-peer-003) → `7881d95be9`
-* **+ branch** webZ / [experiment/post-office-seed-002](https://github.com/the-static-collective/webZ/tree/experiment/post-office-seed-002) → `1208d02f26`
-* **+ branch** webZ / [experiment/receipt-glass-goatnote-002](https://github.com/the-static-collective/webZ/tree/experiment/receipt-glass-goatnote-002) → `fb6253426c`
-* **+ branch** webZ / [experiment/rootline-encouragement-005](https://github.com/the-static-collective/webZ/tree/experiment/rootline-encouragement-005) → `6a30c5f477`
-* **+ branch** webZ / [experiment/webz-receipt-glass-001](https://github.com/the-static-collective/webZ/tree/experiment/webz-receipt-glass-001) → `5e4c9e0fa6`
-* **+ branch** webZ / [feat/abundent-post-office-001](https://github.com/the-static-collective/webZ/tree/feat/abundent-post-office-001) → `631002daa0`
-* **+ branch** webZ / [feature/2day-universe-albums-001](https://github.com/the-static-collective/webZ/tree/feature/2day-universe-albums-001) → `decad24663`
-* **+ branch** webZ / [feature/a-week-together-listening-room-001](https://github.com/the-static-collective/webZ/tree/feature/a-week-together-listening-room-001) → `cc98e92db4`
-* **+ branch** webZ / [feature/listening-rooms-dial-zoom-001](https://github.com/the-static-collective/webZ/tree/feature/listening-rooms-dial-zoom-001) → `e06ecfdf68`
-* **+ branch** webZ / [release/a-week-together-garden-001](https://github.com/the-static-collective/webZ/tree/release/a-week-together-garden-001) → `1617369bc1`
-* **↪ head** webZ / main: [e1c56b0192](https://github.com/the-static-collective/webZ/commit/e1c56b019286922b04cef59922ef071034c32790) → [3cbc91d6b9](https://github.com/the-static-collective/webZ/commit/3cbc91d6b9a4dbaa941995de6006b2f290d00d51)
-* **↪ head** What-is-the-static-collective- / main: [09f9617b10](https://github.com/the-static-collective/What-is-the-static-collective-/commit/09f9617b100d924fa1d2655d8a21e63522464403) → [fef32afecc](https://github.com/the-static-collective/What-is-the-static-collective-/commit/fef32afeccbd15fd47600f6fd68c3002bd59cbef)
+* **+ branch** autodiscography-vault / [experiment/pincersmash-week-crossing-002](https://github.com/the-static-collective/autodiscography-vault/tree/experiment/pincersmash-week-crossing-002) → `808bf3a43d`
+* **+ branch** CANNON / [experiment/stack-squared-017](https://github.com/the-static-collective/CANNON/tree/experiment/stack-squared-017) → `3aa5b0d0e9`
+* **+ branch** CANNON / [experiment/stack-squared-018-native-floor](https://github.com/the-static-collective/CANNON/tree/experiment/stack-squared-018-native-floor) → `53a1b43916`
+* **+ branch** CANNON / [experiment/stack-squared-022-thinking-workbench](https://github.com/the-static-collective/CANNON/tree/experiment/stack-squared-022-thinking-workbench) → `4f4710a399`
+* **+ branch** CANNON / [experiment/stack-squared-023-ai-relatte-hold](https://github.com/the-static-collective/CANNON/tree/experiment/stack-squared-023-ai-relatte-hold) → `2fab6e142f`
+* **+ branch** freeport / [experiment/freeport-004-first-foreign-ship](https://github.com/the-static-collective/freeport/tree/experiment/freeport-004-first-foreign-ship) → `c4aef4b3f4`
+* **+ branch** freeport / [experiment/freeport-005-supabase-harbor-signals](https://github.com/the-static-collective/freeport/tree/experiment/freeport-005-supabase-harbor-signals) → `311775a402`
+* **+ branch** freeport / [experiment/freeport-006-first-branch-graft](https://github.com/the-static-collective/freeport/tree/experiment/freeport-006-first-branch-graft) → `b2693fb141`
+* **+ branch** GHoT / [experiment/ai-recomposition-001-thinking-workbench](https://github.com/the-static-collective/GHoT/tree/experiment/ai-recomposition-001-thinking-workbench) → `6194d91ba8`
+* **+ branch** GOATnote / [experiment/lemonpress-marginalia-export-004](https://github.com/the-static-collective/GOATnote/tree/experiment/lemonpress-marginalia-export-004) → `95e63de4fd`
+* **+ branch** GOATnote / [experiment/receipt-recovery-gate-003](https://github.com/the-static-collective/GOATnote/tree/experiment/receipt-recovery-gate-003) → `e8266df5df`
+* **+ branch** GOATnote / [experiment/receipt-relations-timecut-002](https://github.com/the-static-collective/GOATnote/tree/experiment/receipt-relations-timecut-002) → `4374aed8cc`
+* **+ branch** lemonPRESS / [experiment/goatnote-marginalia-press-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/goatnote-marginalia-press-001) → `ed6f784455`
+* **+ branch** lemonPRESS / [experiment/marginalia-printproof-review-003](https://github.com/the-static-collective/lemonPRESS/tree/experiment/marginalia-printproof-review-003) → `5635dadedf`
+* **+ branch** lemonPRESS / [experiment/marginalia-three-doors-002](https://github.com/the-static-collective/lemonPRESS/tree/experiment/marginalia-three-doors-002) → `1b1265b73c`
+* **+ branch** planZ / [build/jubilee-field-kit-002](https://github.com/the-static-collective/planZ/tree/build/jubilee-field-kit-002) → `21cdf8399f`
+* **+ branch** planZ / [build/jubilee-road-room-001](https://github.com/the-static-collective/planZ/tree/build/jubilee-road-room-001) → `9f6f1c3391`
+* **+ branch** planZ / [proposal/master-servant-field-score-001](https://github.com/the-static-collective/planZ/tree/proposal/master-servant-field-score-001) → `b819dec38b`
+* **+ branch** planZ / [proposal/revival-traveling-jubilee-topper-001](https://github.com/the-static-collective/planZ/tree/proposal/revival-traveling-jubilee-topper-001) → `686c8df2be`
+* **+ branch** revival / [build/jubilee-scripture-door-001](https://github.com/the-static-collective/revival/tree/build/jubilee-scripture-door-001) → `cc48fcf1eb`
+* **+ branch** static-os / [experiment/bandcamp-field-score-001-singing-sigil](https://github.com/the-static-collective/static-os/tree/experiment/bandcamp-field-score-001-singing-sigil) → `ac2f149c96`
+* **+ branch** static-os / [experiment/field-cell-001-scrap-bench](https://github.com/the-static-collective/static-os/tree/experiment/field-cell-001-scrap-bench) → `d52e8be055`
+* **+ branch** static-os / [experiment/field-processor-001-go-static](https://github.com/the-static-collective/static-os/tree/experiment/field-processor-001-go-static) → `7126d16091`
+* **+ branch** static-os / [experiment/singing-sigil-f1-physical-coupon](https://github.com/the-static-collective/static-os/tree/experiment/singing-sigil-f1-physical-coupon) → `1defcc738d`
+* **+ branch** static-workbench / [experiment/pincersmash-week-crossing-002](https://github.com/the-static-collective/static-workbench/tree/experiment/pincersmash-week-crossing-002) → `d52f25b7ff`
+* **+ branch** static-workbench / [experiment/stack-squared-019-lego-floor](https://github.com/the-static-collective/static-workbench/tree/experiment/stack-squared-019-lego-floor) → `22cb917f26`
+* **+ branch** static-workbench / [experiment/stack-squared-020-one-use-act](https://github.com/the-static-collective/static-workbench/tree/experiment/stack-squared-020-one-use-act) → `cbd2ce62ea`
+* **+ branch** static-workbench / [experiment/stack-squared-021-post-office-lego](https://github.com/the-static-collective/static-workbench/tree/experiment/stack-squared-021-post-office-lego) → `840e948094`
+* **+ branch** static-workbench / [experiment/stack-squared-022-hold-shelf](https://github.com/the-static-collective/static-workbench/tree/experiment/stack-squared-022-hold-shelf) → `0d9e73403e`
+* **+ branch** static-workbench / [experiment/stack-squared-023-mycelium-shelf](https://github.com/the-static-collective/static-workbench/tree/experiment/stack-squared-023-mycelium-shelf) → `9e0ced2a97`
+* **+ branch** static-workbench / [experiment/stack-squared-024-living-receipt-floor](https://github.com/the-static-collective/static-workbench/tree/experiment/stack-squared-024-living-receipt-floor) → `f1e58a6c6b`
+* **+ branch** static-workbench / [experiment/stack-squared-024-toaster-useful-delight](https://github.com/the-static-collective/static-workbench/tree/experiment/stack-squared-024-toaster-useful-delight) → `91d88926ac`
+* **+ branch** static-workbench / [experiment/stack-squared-025-native-verification-porter](https://github.com/the-static-collective/static-workbench/tree/experiment/stack-squared-025-native-verification-porter) → `7a06505107`
+* **+ branch** static-workbench / [experiment/stack-squared-025-pocket-seed-printer](https://github.com/the-static-collective/static-workbench/tree/experiment/stack-squared-025-pocket-seed-printer) → `949dc406e9`
+* **+ branch** static-workbench / [experiment/stack-squared-026-openmanus-portable-verification](https://github.com/the-static-collective/static-workbench/tree/experiment/stack-squared-026-openmanus-portable-verification) → `9a6b8ff701`
+* **+ branch** static-workbench / [experiment/stack-squared-027-elf-openmanus-hatch](https://github.com/the-static-collective/static-workbench/tree/experiment/stack-squared-027-elf-openmanus-hatch) → `4bafad14e3`
+* **+ branch** static-workbench / [experiment/stack-squared-028-elf-openmanus-local-model](https://github.com/the-static-collective/static-workbench/tree/experiment/stack-squared-028-elf-openmanus-local-model) → `c5cd254f38`
+* **+ branch** static-workbench / [experiment/stack-squared-029-live-elf-lineage](https://github.com/the-static-collective/static-workbench/tree/experiment/stack-squared-029-live-elf-lineage) → `460b3788d0`
+* **+ branch** static-workbench / [feature/branch-harbor-003-freeport-graph](https://github.com/the-static-collective/static-workbench/tree/feature/branch-harbor-003-freeport-graph) → `21a8ee5ead`
+* **+ branch** vidmage / [experiment/band-iq-006-question-laboratory](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-006-question-laboratory) → `f9bd0597b2`
+* **+ branch** vidmage / [experiment/band-iq-007-human-ac-review](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-007-human-ac-review) → `efe295097f`
+* **+ branch** vidmage / [experiment/band-iq-008-living-workbench](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-008-living-workbench) → `f2264a36ee`
+* **+ branch** vidmage / [experiment/band-iq-009-front-porch](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-009-front-porch) → `6121bee649`
+* **+ branch** vidmage / [experiment/band-iq-010-storytable](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-010-storytable) → `e574ab3c25`
+* **+ branch** vidmage / [experiment/band-iq-011-living-filmstrip](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-011-living-filmstrip) → `9a12a564e3`
+* **+ branch** vidmage / [experiment/band-iq-012-contact-sheet](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-012-contact-sheet) → `24ef1ef73e`
+* **+ branch** vidmage / [experiment/band-iq-013-candidate-tray](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-013-candidate-tray) → `820bf72f40`
+* **+ branch** vidmage / [experiment/band-iq-013-candidate-tray-cross-bits](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-013-candidate-tray-cross-bits) → `3f6f6cdde4`
+* **+ branch** webZ / [experiment/static-field-week-001](https://github.com/the-static-collective/webZ/tree/experiment/static-field-week-001) → `628973ddbf`
+* **+ branch** webZ / [feat/postcard-zero-quantum-code-001](https://github.com/the-static-collective/webZ/tree/feat/postcard-zero-quantum-code-001) → `7a460574f5`
+* **↪ head** What-is-the-static-collective- / main: [fef32afecc](https://github.com/the-static-collective/What-is-the-static-collective-/commit/fef32afeccbd15fd47600f6fd68c3002bd59cbef) → [94a8535a93](https://github.com/the-static-collective/What-is-the-static-collective-/commit/94a8535a936e90c0ab4619d10b19ff8b2dbe4a2f)
 
 ## Open pull-request set
 
-* **+ open PR** [autodiscography-vault #16 — Oldest-first Suno metadata custody: local content-addressed admission](https://github.com/the-static-collective/autodiscography-vault/pull/16)
-* **+ open PR** [autodiscography-vault #17 — Full-fidelity Suno export intake: private, exact-byte custody](https://github.com/the-static-collective/autodiscography-vault/pull/17)
-* **+ open PR** [CANNON #15 — BRANCH-LOADOUT 008 — verify exact branch code, without running or merging](https://github.com/the-static-collective/CANNON/pull/15)
-* **+ open PR** [CANNON #16 — BRANCH-WORK 009 — run one verified GHoT hash and return native reLATTE HOLD](https://github.com/the-static-collective/CANNON/pull/16)
-* **+ open PR** [CANNON #17 — SIGNED GHOT CROSSING 010 — independently verify GHoT 030 ACT receipt, carry intact into reLATTE HOLD](https://github.com/the-static-collective/CANNON/pull/17)
-* **+ open PR** [CANNON #18 — CHRONOMID 011 — excavate SEAMforge × Toaster Oracle at the actual repository midpoint](https://github.com/the-static-collective/CANNON/pull/18)
-* **+ open PR** [CANNON #19 — FOUNDER POLLEN 012 — native evidenced-neighbor discovery to actual tested two-branch CANNON loadout](https://github.com/the-static-collective/CANNON/pull/19)
-* **+ open PR** [CANNON #20 — PROJECT0 FLOOR 013 — native semantic identity and missing-authority refusal for Founder Pollen source dossier](https://github.com/the-static-collective/CANNON/pull/20)
-* **+ open PR** [CANNON #21 — FOUR-BRANCH SMASH 014 — Project0 encounter, L-Branch &amp; continuity through TranchNode, GHoT and reLATTE](https://github.com/the-static-collective/CANNON/pull/21)
-* **+ open PR** [CANNON #22 — DUAL TRANCHNODE 015 — historical Autodiscography witness to native private immutable custody](https://github.com/the-static-collective/CANNON/pull/22)
-* **+ open PR** [CANNON #23 — SUPABARDO 016 — original SB-001/002/003 signed evidence outlives ephemeral stage through native TranchNode](https://github.com/the-static-collective/CANNON/pull/23)
-* **+ open PR** [freeport #1 — FREEPORT 003 — the bonded garden: inert amber custody, receipted interaction, sovereign import](https://github.com/the-static-collective/freeport/pull/1)
-* **+ open PR** [GHoT #127 — GHoT 030 — branch-native owner-local worker with one-use signed ACT](https://github.com/the-static-collective/GHoT/pull/127)
-* **+ open PR** [GOATnote #14 — GOATnote × Receipt Glass 001 — frozen evidence, anchored margins, deliberate import](https://github.com/the-static-collective/GOATnote/pull/14)
-* **+ open PR** [GrO #28 — POCKET-DOOR 001 — textable world encounters in GrO](https://github.com/the-static-collective/GrO/pull/28)
-* **+ open PR** [GrO #29 — GrO × Abundent 001 — independently verify signed LemonPRESS arrival and create local HOLD receipt](https://github.com/the-static-collective/GrO/pull/29)
-* **+ open PR** [national-treasure #85 — QUESTION BOX × MEMENTO 002 — The unanswered source behind the HOLD](https://github.com/the-static-collective/national-treasure/pull/85)
-* **+ open PR** [planZ #11 — BRANCH-CENSUS 004 — inventory usable unmerged code without backlog classification](https://github.com/the-static-collective/planZ/pull/11)
-* **+ open PR** [reLATTE #110 — RELATIONAL-FISSION-001 — split the pair, keep the witness](https://github.com/the-static-collective/reLATTE/pull/110)
-* **+ open PR** [static-live #37 — FRAGMENT CHOIR 001 — Pastor of Funk live remix porch + stage score](https://github.com/the-static-collective/static-live/pull/37)
-* **+ open PR** [static-os #86 — RETURN ROOM 001 — STATIC OS hosts reLATTE HOLD → UNDERSTORY → National Treasure question](https://github.com/the-static-collective/static-os/pull/86)
-* **+ open PR** [static-workbench #110 — RETURN ROOM × STATIC WORKBENCH 001 — eleven dials for unfinished questions](https://github.com/the-static-collective/static-workbench/pull/110)
-* **+ open PR** [the-haunted-toaster #358 — NEXTGEN-TOASTER-025: witnessed split / join / release correspondence](https://github.com/the-static-collective/the-haunted-toaster/pull/358)
-* **+ open PR** [the-haunted-toaster #359 — NEXTGEN-TOASTER-026: playable fission / joining bench with verified ONE PASS custody](https://github.com/the-static-collective/the-haunted-toaster/pull/359)
-* **+ open PR** [vidmage #1 — VIDMAGE GENESIS 001 — public Blender-first Grand Smash](https://github.com/the-static-collective/vidmage/pull/1)
-* **+ open PR** [vidmage #3 — CROSS-001 — Toaster L BRANCH × Blender Paper Director](https://github.com/the-static-collective/vidmage/pull/3)
-* **+ open PR** [vidmage #5 — BAND-IQ 001: evidence-driven video experiments, pinned Blender organs, stillness-safe six-lens memory](https://github.com/the-static-collective/vidmage/pull/5)
-* **+ open PR** [vidmage #6 — BAND-IQ 002: selected cinematic lens to real source-bound film, native Doctor rescore, preserved material ancestry](https://github.com/the-static-collective/vidmage/pull/6)
-* **+ open PR** [vidmage #7 — BAND-IQ 003: source-pinned native Playdeck Remotion versus VidMage, two real films, one selected lens](https://github.com/the-static-collective/vidmage/pull/7)
-* **+ open PR** [vidmage #8 — BAND-IQ 004: human A/B review room, source-pinned two-film playback and immutable explicit decision](https://github.com/the-static-collective/vidmage/pull/8)
-* **+ open PR** [vidmage #9 — BAND-IQ 005: authored next question to one human-approved local film trial and editable revision](https://github.com/the-static-collective/vidmage/pull/9)
-* **+ open PR** [webZ #32 — HARMONY-GROVE-001 — Abundent festival commons and first local manga seed crossing](https://github.com/the-static-collective/webZ/pull/32)
-* **+ open PR** [webZ #33 — Post Office 001 — connect Buttondown luv (production gated)](https://github.com/the-static-collective/webZ/pull/33)
-* **+ open PR** [webZ #34 — GIVING-TREE-002 — manual creative gift, pickup and lineage-preserving return](https://github.com/the-static-collective/webZ/pull/34)
-* **+ open PR** [webZ #35 — GIVING-TREE-003 — private intake, human moderation, opt-in public commons](https://github.com/the-static-collective/webZ/pull/35)
-* **+ open PR** [webZ #36 — Seed Lab 002 — a public letter plants an offline website](https://github.com/the-static-collective/webZ/pull/36)
-* **+ open PR** [webZ #37 — GIVING-TREE-004 — eleven-control crossing tent and attributable Manga return](https://github.com/the-static-collective/webZ/pull/37)
-* **+ open PR** [webZ #38 — MUSIC FIELD 004 — Audius Listening Orchard × Let It Find Us](https://github.com/the-static-collective/webZ/pull/38)
-* **+ open PR** [webZ #39 — Peer 003 — manually paired WebRTC direct letter seed crossing](https://github.com/the-static-collective/webZ/pull/39)
-* **+ open PR** [webZ #40 — GIVING-TREE-005 — Forest Walk of attributable creative descendants](https://github.com/the-static-collective/webZ/pull/40)
-* **+ open PR** [webZ #41 — Wandering Letter 004 — three-station custody and eight-protocol atlas](https://github.com/the-static-collective/webZ/pull/41)
-* **+ open PR** [webZ #42 — NAME ORCHARD 001 — signed claims, missing song, sovereign HOLD](https://github.com/the-static-collective/webZ/pull/42)
-* **+ open PR** [webZ #43 — GROUNDS-006 — deliberate attending grows stewarded paths](https://github.com/the-static-collective/webZ/pull/43)
-* **+ open PR** [webZ #44 — ROOTLINE 005 — a consent-first underground encouragement relay](https://github.com/the-static-collective/webZ/pull/44)
-* **+ open PR** [webZ #45 — NAME ORCHARD 002 — Signed SMS Postcards, phone-to-phone HOLD](https://github.com/the-static-collective/webZ/pull/45)
-* **+ open PR** [webZ #46 — MYCELIUM-007 — Free Graph × UNDERSTORY observer-local living understory](https://github.com/the-static-collective/webZ/pull/46)
-* **+ open PR** [webZ #47 — Pocket Door Crossing 006 — public webZ door → GrO encounter → ROOTLINE relay](https://github.com/the-static-collective/webZ/pull/47)
-* **+ open PR** [webZ #48 — MYCELIUM-008 — circulation, plural interpretations, living observer branches](https://github.com/the-static-collective/webZ/pull/48)
-* **+ open PR** [webZ #49 — ABUNDENT × reLATTE 001 — LemonPRESS signed artifact → independently verified arrival → local HOLD](https://github.com/the-static-collective/webZ/pull/49)
-* **+ open PR** [webZ #50 — ABUNDENT WORKSHOP 001 — browse source-pinned living branches](https://github.com/the-static-collective/webZ/pull/50)
-* **+ open PR** [webZ #52 — ABUNDENT WORKSHOP 002 — read the first real GHoT → reLATTE held crossing](https://github.com/the-static-collective/webZ/pull/52)
-* **+ open PR** [webZ #55 — WEBZ 009 — offline dual TranchNode source-lineage gallery, no private archive access](https://github.com/the-static-collective/webZ/pull/55)
-* **+ open PR** [webZ #56 — WEBZ-RECEIPT-GLASS-001 — universal read-only receipt inspection, eleven lenses](https://github.com/the-static-collective/webZ/pull/56)
-* **+ open PR** [webZ #57 — RECEIPT GLASS 002 — living ancestry + deliberate GOATnote handoff](https://github.com/the-static-collective/webZ/pull/57)
+* **+ open PR** [autodiscography-vault #18 — PINCERSMASH 002 — source jaw: one verified Vault asset to path-free evidence](https://github.com/the-static-collective/autodiscography-vault/pull/18)
+* **+ open PR** [CANNON #24 — STACK² 017 — the Lego floor comes alive: source-pinned Stack Cards and composition receipts](https://github.com/the-static-collective/CANNON/pull/24)
+* **+ open PR** [CANNON #25 — STACK² 018 — native Lego floor: planZ SENSE → GHoT hash → signed reLATTE HOLD](https://github.com/the-static-collective/CANNON/pull/25)
+* **+ open PR** [CANNON #26 — STACK² 022 — Cannon verifies GHoT Thinking Workbench native signed evidence](https://github.com/the-static-collective/CANNON/pull/26)
+* **+ open PR** [CANNON #27 — STACK² 023 — native GHoT AI packet → sovereign reLATTE R14 signed R3_HOLD](https://github.com/the-static-collective/CANNON/pull/27)
+* **+ open PR** [freeport #2 — FREEPORT 004 — first foreign ship: native TranchNode custody × reLATTE signed transit × sovereign HOLD](https://github.com/the-static-collective/freeport/pull/2)
+* **+ open PR** [freeport #3 — FREEPORT 005 — Supabase Harbor: existing MX13 docks, bounded notices, no automatic admission](https://github.com/the-static-collective/freeport/pull/3)
+* **+ open PR** [freeport #4 — FREEPORT 006 — Branch Harbor: two pinned Git futures, native Workbench graft × GHoT probe, sovereign HOLD](https://github.com/the-static-collective/freeport/pull/4)
+* **+ open PR** [GHoT #128 — AI RECOMPOSITION 001 — Two Thinking Organs through the native Instrument Rack](https://github.com/the-static-collective/GHoT/pull/128)
+* **+ open PR** [GOATnote #15 — RECEIPT-RELATIONS-002 — human relation birthdays and TIME-CUT witness](https://github.com/the-static-collective/GOATnote/pull/15)
+* **+ open PR** [GOATnote #16 — RECOVERY-GATE-003 — witnessed full-notebook backup and safe empty-profile restore](https://github.com/the-static-collective/GOATnote/pull/16)
+* **+ open PR** [GOATnote #17 — GOATnote × LemonPRESS 004 — explicitly selected margin, private editorial carrier](https://github.com/the-static-collective/GOATnote/pull/17)
+* **+ open PR** [lemonPRESS #51 — MARGINALIA PRESS 001 — quote-bound GOATnote reading candidate, no admission](https://github.com/the-static-collective/lemonPRESS/pull/51)
+* **+ open PR** [lemonPRESS #52 — MARGINALIA THREE DOORS 002 — one selected reading, page × voice × fragment](https://github.com/the-static-collective/lemonPRESS/pull/52)
+* **+ open PR** [lemonPRESS #53 — MARGINALIA RENDER PROOF 003 — real 6×9 PDF + offline HTML, explicit human selection](https://github.com/the-static-collective/lemonPRESS/pull/53)
+* **+ open PR** [planZ #12 — MASTER-SERVANT × ROOMTONE × GO.STATIC × DUAL-BODY — reLATTE compatibility](https://github.com/the-static-collective/planZ/pull/12)
+* **+ open PR** [planZ #14 — TOPPER-001 — Revival × Traveling Jubilee: The Road Is the Room](https://github.com/the-static-collective/planZ/pull/14)
+* **+ open PR** [planZ #15 — JUBILEE-001 — executable Giving Tree and three-town caravan](https://github.com/the-static-collective/planZ/pull/15)
+* **+ open PR** [planZ #16 — JUBILEE-002 — verified Genesis door and local field notebook](https://github.com/the-static-collective/planZ/pull/16)
+* **+ open PR** [revival #15 — JUBILEE SCRIPTURE DOOR — pinned Genesis export and read-only lookup](https://github.com/the-static-collective/revival/pull/15)
+* **+ open PR** [static-os #87 — GO.STATIC — FIELD-PROCESSOR-001 native eleven-dial read-only field organ](https://github.com/the-static-collective/static-os/pull/87)
+* **+ open PR** [static-os #88 — FIELD-CELL × SCRAP-ORCHESTRA — physical field lab from existing machines](https://github.com/the-static-collective/static-os/pull/88)
+* **+ open PR** [static-os #89 — BANDCAMP × FIELD-SCORE-001 — Singing Sigil synthetic eleven-dial instrument](https://github.com/the-static-collective/static-os/pull/89)
+* **+ open PR** [static-os #90 — SINGING SIGIL F1 — real printable QR + audible DTMF transport coupon](https://github.com/the-static-collective/static-os/pull/90)
+* **+ open PR** [static-workbench #111 — STACK² 019 — The Living Lego Floor: playable Workbench cards, typed sockets and local witness trial](https://github.com/the-static-collective/static-workbench/pull/111)
+* **+ open PR** [static-workbench #112 — STACK² 020 — One Native ACT: pinned GHoT 030, two-stage consent, signed one-use receipt](https://github.com/the-static-collective/static-workbench/pull/112)
+* **+ open PR** [static-workbench #113 — BRANCH HARBOR 003 — FREEPORT 006 source shelf × Free Graph ancestry in Workbench](https://github.com/the-static-collective/static-workbench/pull/113)
+* **+ open PR** [static-workbench #114 — STACK² 021 — Post Office Lego: signed GHoT ACT → separately authorized native reLATTE HOLD](https://github.com/the-static-collective/static-workbench/pull/114)
+* **+ open PR** [static-workbench #115 — STACK² 022 — Receiver HOLD Shelf: native signed journal, particulars and provenance](https://github.com/the-static-collective/static-workbench/pull/115)
+* **+ open PR** [static-workbench #116 — STACK² 023 — Mycelium Shelf: source-evidenced connections between sovereign HELD particulars](https://github.com/the-static-collective/static-workbench/pull/116)
+* **+ open PR** [static-workbench #117 — STACK² 024 — Living Receipt Floor: GHoT → CANNON → reLATTE particulars](https://github.com/the-static-collective/static-workbench/pull/117)
+* **+ open PR** [static-workbench #118 — STACK² 025 — Source-pinned Native Verification Porter and local Receipt Floor trust instrument](https://github.com/the-static-collective/static-workbench/pull/118)
+* **+ open PR** [static-workbench #119 — STACK² 024 — Toaster Useful Delight: original six-move brain × Mycelium HOLD shelf](https://github.com/the-static-collective/static-workbench/pull/119)
+* **+ open PR** [static-workbench #120 — STACK² 026 — Portable P-256 verifier × LOADOUT OpenManus bounded observation](https://github.com/the-static-collective/static-workbench/pull/120)
+* **+ open PR** [static-workbench #121 — STACK² 025 — Pocket Seed Printer: smallest permission-bounded useful delight](https://github.com/the-static-collective/static-workbench/pull/121)
+* **+ open PR** [static-workbench #122 — STACK² 027 — GENESIS ELF two-occurrence hatch × portable P-256 certificate × OpenManus gate](https://github.com/the-static-collective/static-workbench/pull/122)
+* **+ open PR** [static-workbench #123 — STACK² 028 — Genuine pinned OpenManus ToolCallAgent × credential-free local Ollama model](https://github.com/the-static-collective/static-workbench/pull/123)
+* **+ open PR** [static-workbench #124 — STACK² 029 — original LIVE OpenManus output → two verified mortal ELF occurrences](https://github.com/the-static-collective/static-workbench/pull/124)
+* **+ open PR** [static-workbench #125 — PINCERSMASH 002 — receiving jaw: independent two-machine song HOLD](https://github.com/the-static-collective/static-workbench/pull/125)
+* **+ open PR** [vidmage #10 — BAND-IQ 006: human-question laboratory — real old/revised Doctor scans, pixel witnesses, next question proposals](https://github.com/the-static-collective/vidmage/pull/10)
+* **+ open PR** [vidmage #11 — BAND-IQ 007: independent human A/C review of actual original and revised films](https://github.com/the-static-collective/vidmage/pull/11)
+* **+ open PR** [vidmage #12 — BAND-IQ 008: living film workbench — seven human doors, three real rooms, restartable source truth](https://github.com/the-static-collective/vidmage/pull/12)
+* **+ open PR** [vidmage #13 — BAND-IQ 009: Front Porch — actual owned song/images to source-pinned two-film workbench](https://github.com/the-static-collective/vidmage/pull/13)
+* **+ open PR** [vidmage #14 — BAND-IQ 010: human Storytable — choose every image, frame and protected shot before real A/B cinema](https://github.com/the-static-collective/vidmage/pull/14)
+* **+ open PR** [vidmage #15 — BAND-IQ 011: Living Filmstrip — source-real pre-render frames from the human sealed Storytable](https://github.com/the-static-collective/vidmage/pull/15)
+* **+ open PR** [vidmage #16 — BAND-IQ 012: Contact Sheet — real side-by-side shot alternatives, reversible until the artist seals the story](https://github.com/the-static-collective/vidmage/pull/16)
+* **+ open PR** [vidmage #17 — BAND-IQ 013: candidate tray × real Grab/Cross Bits — owned fragments, multi-shot trials and source-bound native films](https://github.com/the-static-collective/vidmage/pull/17)
+* **+ open PR** [vidmage #18 — BAND-IQ 013: Candidate Tray × Grab/Cross Bits — reversible shots and source-traceable borrowed pixels in real films](https://github.com/the-static-collective/vidmage/pull/18)
+* **+ open PR** [webZ #58 — feat(webZ): Postcard Zero — Quantum Code living song door](https://github.com/the-static-collective/webZ/pull/58)
+* **+ open PR** [webZ #59 — STATIC FIELD 001 — A Week Together source-bound field station](https://github.com/the-static-collective/webZ/pull/59)
 
 The machine-readable companion is [delta.json](delta.json).
 For current status, follow the project source; DELTA is a witness of movement,
