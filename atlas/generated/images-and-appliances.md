@@ -546,12 +546,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/tranchNOSE) · [Branches](https://github.com/the-static-collective/tranchNOSE/branches) · [Pull requests](https://github.com/the-static-collective/tranchNOSE/pulls)
 
-Default: `main` · other refs: 9 · open PRs: 2
+Default: `main` · other refs: 10 · open PRs: 3
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#11](https://github.com/the-static-collective/tranchNOSE/pull/11) | Incubate hollow-copper relational-field computing experiments | `experiment/hollow-copper-relational-field-001` → `main` | 2026-10-12 |
 | [#10](https://github.com/the-static-collective/tranchNOSE/pull/10) | FIELD-LAB-001: bounded relational perturbation instrument | `experiment/field-lab-001` → `main` | 2026-10-07 |
 | [#4](https://github.com/the-static-collective/tranchNOSE/pull/4) | MACHINE-WEATHER-001: typed sensor-window comparison without control authority | `experiment/machine-weather-001` → `main` | 2026-09-20 |
 
@@ -562,6 +563,7 @@ Default: `main` · other refs: 9 · open PRs: 2
 | [agent/001a-local-field-dynamics](https://github.com/the-static-collective/tranchNOSE/tree/agent/001a-local-field-dynamics) | [3a940d7036](https://github.com/the-static-collective/tranchNOSE/commit/3a940d70360339dbe2dde0b3a684dd667829618f) | Retained ref; disposition unverified |
 | [exp/001a-receipt-contract](https://github.com/the-static-collective/tranchNOSE/tree/exp/001a-receipt-contract) | [080d20e0e4](https://github.com/the-static-collective/tranchNOSE/commit/080d20e0e40c3dbba11f2cfc2453a3e71b85196a) | Retained ref; disposition unverified |
 | [experiment/field-lab-001](https://github.com/the-static-collective/tranchNOSE/tree/experiment/field-lab-001) | [670ca60012](https://github.com/the-static-collective/tranchNOSE/commit/670ca60012929b51e66b8bac7d0c9b85a4f95d7b) | [open PR #10](https://github.com/the-static-collective/tranchNOSE/pull/10) |
+| [experiment/hollow-copper-relational-field-001](https://github.com/the-static-collective/tranchNOSE/tree/experiment/hollow-copper-relational-field-001) | [4b5e6900dd](https://github.com/the-static-collective/tranchNOSE/commit/4b5e6900dd9d625c4d5e0f2d02be22aceb04095b) | [open PR #11](https://github.com/the-static-collective/tranchNOSE/pull/11) |
 | [experiment/machine-weather-001](https://github.com/the-static-collective/tranchNOSE/tree/experiment/machine-weather-001) | [e45d0644ab](https://github.com/the-static-collective/tranchNOSE/commit/e45d0644ab1903df700535edb4c0f2d60bfb4354) | [open PR #4](https://github.com/the-static-collective/tranchNOSE/pull/4) |
 | [play/channel-001-differentiated-witnesses](https://github.com/the-static-collective/tranchNOSE/tree/play/channel-001-differentiated-witnesses) | [d10ae46513](https://github.com/the-static-collective/tranchNOSE/commit/d10ae465139723fd5cd4a4771eb8aa989a687325) | Retained ref; disposition unverified |
 | [play/difference-001-relational-witness](https://github.com/the-static-collective/tranchNOSE/tree/play/difference-001-relational-witness) | [6b43d251a6](https://github.com/the-static-collective/tranchNOSE/commit/6b43d251a6ed9d19261f1ce6f3b440c779e0e067) | Retained ref; disposition unverified |

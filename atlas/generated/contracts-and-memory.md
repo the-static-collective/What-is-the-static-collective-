@@ -280,12 +280,13 @@ Default: `main` · other refs: 24 · open PRs: 11
 
 [Repository](https://github.com/the-static-collective/3rdi) · [Branches](https://github.com/the-static-collective/3rdi/branches) · [Pull requests](https://github.com/the-static-collective/3rdi/pulls)
 
-Default: `main` · other refs: 25 · open PRs: 7
+Default: `main` · other refs: 26 · open PRs: 8
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#33](https://github.com/the-static-collective/3rdi/pull/33) | Glyph Algebra 001–002: quotient, deformation, and productive growth | `experiment/glyph-transition-quotient-deform-001` → `main` | 2026-10-13 |
 | [#32](https://github.com/the-static-collective/3rdi/pull/32) | 3rdi: adopt body surface v0 | `agent/body-surface-standard-v0` → `main` | 2026-09-18 |
 | [#29](https://github.com/the-static-collective/3rdi/pull/29) | Crater: enforce formation-walk chronology | `crater/formation-walk-chronology-001` → `main` | 2026-09-18 |
 | [#22](https://github.com/the-static-collective/3rdi/pull/22) | Implement WALK-RECEIPT-PROJECTION-001 | `impl/walk-receipt-projection-v0` → `main` | 2026-09-13 |
@@ -305,6 +306,7 @@ Default: `main` · other refs: 25 · open PRs: 7
 | [design/memento-handoff-v0](https://github.com/the-static-collective/3rdi/tree/design/memento-handoff-v0) | [52cdfeed06](https://github.com/the-static-collective/3rdi/commit/52cdfeed069248f017d463291fb2259b9efab86a) | Retained ref; disposition unverified |
 | [design/memento-understory-routing](https://github.com/the-static-collective/3rdi/tree/design/memento-understory-routing) | [e1c32d409a](https://github.com/the-static-collective/3rdi/commit/e1c32d409a237982b6c1abf8985e50b7d955b21f) | [open PR #3](https://github.com/the-static-collective/3rdi/pull/3) |
 | [design/walk-receipt-projection-v0](https://github.com/the-static-collective/3rdi/tree/design/walk-receipt-projection-v0) | [3239801cc2](https://github.com/the-static-collective/3rdi/commit/3239801cc2843569f49403d44bdf638e9690d9f5) | [open PR #20](https://github.com/the-static-collective/3rdi/pull/20) |
+| [experiment/glyph-transition-quotient-deform-001](https://github.com/the-static-collective/3rdi/tree/experiment/glyph-transition-quotient-deform-001) | [ac139a3d61](https://github.com/the-static-collective/3rdi/commit/ac139a3d61e20b71bcd14090cb8de1993a7c8270) | [open PR #33](https://github.com/the-static-collective/3rdi/pull/33) |
 | [experiment/residual-cut-001](https://github.com/the-static-collective/3rdi/tree/experiment/residual-cut-001) | [481766cab1](https://github.com/the-static-collective/3rdi/commit/481766cab1ab035e691b64ff1f440e3543baf040) | Retained ref; disposition unverified |
 | [experiment/successor-lift-001](https://github.com/the-static-collective/3rdi/tree/experiment/successor-lift-001) | [a5c60a8e23](https://github.com/the-static-collective/3rdi/commit/a5c60a8e239d33b16e3ad0f01c63d28ebac8ec73) | Retained ref; disposition unverified |
 | [feat/glyphtrace-v0](https://github.com/the-static-collective/3rdi/tree/feat/glyphtrace-v0) | [d37174b133](https://github.com/the-static-collective/3rdi/commit/d37174b1330f395c675c3e01c7cb4cdaa3b0f853) | Retained ref; disposition unverified |

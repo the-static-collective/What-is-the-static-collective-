@@ -1,259 +1,76 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-11T14:02:06+00:00",
-  "to_captured_at": "2026-10-12T16:44:04+00:00",
-  "added_repositories": [],
+  "from_captured_at": "2026-10-12T16:44:04+00:00",
+  "to_captured_at": "2026-10-13T15:02:19+00:00",
+  "added_repositories": [
+    "SIA"
+  ],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "autodiscography-vault",
-      "branch": "experiment/pincersmash-week-crossing-002",
-      "sha": "808bf3a43df730984dc843b626550dd2dd28ffb4"
-    },
-    {
-      "repository": "CANNON",
-      "branch": "experiment/stack-squared-017",
-      "sha": "3aa5b0d0e9403e90affe05ec4056825e8d166fe4"
-    },
-    {
-      "repository": "CANNON",
-      "branch": "experiment/stack-squared-018-native-floor",
-      "sha": "53a1b439161210c03168bb0bb3f6f178ee1da315"
-    },
-    {
-      "repository": "CANNON",
-      "branch": "experiment/stack-squared-022-thinking-workbench",
-      "sha": "4f4710a399e191f40dc6c812f71008b8456400d2"
-    },
-    {
-      "repository": "CANNON",
-      "branch": "experiment/stack-squared-023-ai-relatte-hold",
-      "sha": "2fab6e142f21f6213bbcf4e290030acfce756061"
-    },
-    {
-      "repository": "freeport",
-      "branch": "experiment/freeport-004-first-foreign-ship",
-      "sha": "c4aef4b3f4f0dea71013f43489fafc4eca38bf8d"
-    },
-    {
-      "repository": "freeport",
-      "branch": "experiment/freeport-005-supabase-harbor-signals",
-      "sha": "311775a4024eefd0b09c1e42d3f6bf05f7798316"
-    },
-    {
-      "repository": "freeport",
-      "branch": "experiment/freeport-006-first-branch-graft",
-      "sha": "b2693fb141cc8eebca56e74fa644dc6b1938b518"
+      "repository": "3rdi",
+      "branch": "experiment/glyph-transition-quotient-deform-001",
+      "sha": "ac139a3d61e20b71bcd14090cb8de1993a7c8270"
     },
     {
       "repository": "GHoT",
-      "branch": "experiment/ai-recomposition-001-thinking-workbench",
-      "sha": "6194d91ba83bad63606f6f6741723007227518f2"
+      "branch": "experiment/commons-machine-tranchnose-001",
+      "sha": "6f0cc9e93e2544cd2fc67a0aa43a06198825a654"
     },
     {
-      "repository": "GOATnote",
-      "branch": "experiment/lemonpress-marginalia-export-004",
-      "sha": "95e63de4fdbbe1132294a5798a81b8d1a745fb18"
+      "repository": "GHoT",
+      "branch": "experiment/relay001-loadout-media-probe",
+      "sha": "9aec1e00667994c7e0dc0e345c5d40d5012fdf8e"
     },
     {
-      "repository": "GOATnote",
-      "branch": "experiment/receipt-recovery-gate-003",
-      "sha": "e8266df5dfc1eb4ba5e93901acad826042be1240"
+      "repository": "reLATTE",
+      "branch": "experiment/briar-continuation-001-headless-door",
+      "sha": "f59f206308fab928a6e110b67b824730af4c84e1"
     },
     {
-      "repository": "GOATnote",
-      "branch": "experiment/receipt-relations-timecut-002",
-      "sha": "4374aed8cc15370a87dcd299b5d164bb15270160"
+      "repository": "reLATTE",
+      "branch": "experiment/relay001-ghot-opaque-hold",
+      "sha": "69ddd67eb84049eec7ff8e040c465de078d98def"
     },
     {
-      "repository": "lemonPRESS",
-      "branch": "experiment/goatnote-marginalia-press-001",
-      "sha": "ed6f7844551e828399b4dfcf46b921174f9c15de"
+      "repository": "reLATTE",
+      "branch": "experiment/roadworks-001-briar-transport-policy",
+      "sha": "6dd9b04f710c7c2d18318598b8a61582de4cd719"
     },
     {
-      "repository": "lemonPRESS",
-      "branch": "experiment/marginalia-printproof-review-003",
-      "sha": "5635dadedf171eb2f5b81e24ba2299933a0da85b"
+      "repository": "SIA",
+      "branch": "feature/suno-owner-export-intake-001",
+      "sha": "d8ee6f0facf41980523e4bb95a1d28d8a1223836"
     },
     {
-      "repository": "lemonPRESS",
-      "branch": "experiment/marginalia-three-doors-002",
-      "sha": "1b1265b73c51e0e7b07840609a693b5aac4ba920"
+      "repository": "SIA",
+      "branch": "main",
+      "sha": "3aa667f555a138253803a8d710b313ee27553779"
     },
     {
-      "repository": "planZ",
-      "branch": "build/jubilee-field-kit-002",
-      "sha": "21cdf8399f185b022d1356a7383509fe7f4adf93"
-    },
-    {
-      "repository": "planZ",
-      "branch": "build/jubilee-road-room-001",
-      "sha": "9f6f1c339109f73c351eff1dcf1ed77187044693"
-    },
-    {
-      "repository": "planZ",
-      "branch": "proposal/master-servant-field-score-001",
-      "sha": "b819dec38b36f49ae1d1991d4e73a752bb4a2d5d"
-    },
-    {
-      "repository": "planZ",
-      "branch": "proposal/revival-traveling-jubilee-topper-001",
-      "sha": "686c8df2bec928a83c05b3198fb4898c663e22f4"
-    },
-    {
-      "repository": "revival",
-      "branch": "build/jubilee-scripture-door-001",
-      "sha": "cc48fcf1eb469dd998c1317abce21be00a9429b4"
-    },
-    {
-      "repository": "static-os",
-      "branch": "experiment/bandcamp-field-score-001-singing-sigil",
-      "sha": "ac2f149c96671cb84687f592fe71c1fc776010af"
-    },
-    {
-      "repository": "static-os",
-      "branch": "experiment/field-cell-001-scrap-bench",
-      "sha": "d52e8be0557512f150bba914eb2c0c0d651da6b0"
-    },
-    {
-      "repository": "static-os",
-      "branch": "experiment/field-processor-001-go-static",
-      "sha": "7126d16091a156a2c075145d56dfd965bf57f7dd"
-    },
-    {
-      "repository": "static-os",
-      "branch": "experiment/singing-sigil-f1-physical-coupon",
-      "sha": "1defcc738d12bffacfd6e2fd27cbaf50c384904c"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "experiment/pincersmash-week-crossing-002",
-      "sha": "d52f25b7ffa19887a414d85b833e0562c73804f0"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "experiment/stack-squared-019-lego-floor",
-      "sha": "22cb917f26af0cb342a6f60efb2dccecc26b4802"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "experiment/stack-squared-020-one-use-act",
-      "sha": "cbd2ce62ead10051f9cfaebd2738b83296284f0d"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "experiment/stack-squared-021-post-office-lego",
-      "sha": "840e9480947f976d4cc7332b713f8cdb038d842e"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "experiment/stack-squared-022-hold-shelf",
-      "sha": "0d9e73403eda861fdbc5ff2bda98c534c5bd84ca"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "experiment/stack-squared-023-mycelium-shelf",
-      "sha": "9e0ced2a9734cdaa8db4c1964f379f9c4335035b"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "experiment/stack-squared-024-living-receipt-floor",
-      "sha": "f1e58a6c6bec58e3cd4db623d4690abb60d104cf"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "experiment/stack-squared-024-toaster-useful-delight",
-      "sha": "91d88926ac624b66240d263401615634259ff79c"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "experiment/stack-squared-025-native-verification-porter",
-      "sha": "7a06505107c7cf8ac743a649394c0e44549b9fb3"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "experiment/stack-squared-025-pocket-seed-printer",
-      "sha": "949dc406e9e927e178e6bffe7f8b2f5557db01f0"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "experiment/stack-squared-026-openmanus-portable-verification",
-      "sha": "9a6b8ff701fe58317d53f2b5a4d97cb80abb7dff"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "experiment/stack-squared-027-elf-openmanus-hatch",
-      "sha": "4bafad14e3e376eae006106fe7079e0d2b90f080"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "experiment/stack-squared-028-elf-openmanus-local-model",
-      "sha": "c5cd254f38155d839ee4db8a9ece2c15dbdd5f04"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "experiment/stack-squared-029-live-elf-lineage",
-      "sha": "460b3788d01ec068001b5708654c045d2566532a"
-    },
-    {
-      "repository": "static-workbench",
-      "branch": "feature/branch-harbor-003-freeport-graph",
-      "sha": "21a8ee5ead7fcd99fa9032520f437992bd617392"
+      "repository": "tranchNOSE",
+      "branch": "experiment/hollow-copper-relational-field-001",
+      "sha": "4b5e6900dd9d625c4d5e0f2d02be22aceb04095b"
     },
     {
       "repository": "vidmage",
-      "branch": "experiment/band-iq-006-question-laboratory",
-      "sha": "f9bd0597b22268b256bd8ff46afed6194ada1402"
-    },
-    {
-      "repository": "vidmage",
-      "branch": "experiment/band-iq-007-human-ac-review",
-      "sha": "efe295097f272a9af1d624024f9631cb50283ce7"
-    },
-    {
-      "repository": "vidmage",
-      "branch": "experiment/band-iq-008-living-workbench",
-      "sha": "f2264a36eed06d6f118c3f4a29847181bf0aef37"
-    },
-    {
-      "repository": "vidmage",
-      "branch": "experiment/band-iq-009-front-porch",
-      "sha": "6121bee649522f202b21d34ae87dd5fd8d479ed2"
-    },
-    {
-      "repository": "vidmage",
-      "branch": "experiment/band-iq-010-storytable",
-      "sha": "e574ab3c254a27f7456aeb4a4db90eda513e9d9a"
-    },
-    {
-      "repository": "vidmage",
-      "branch": "experiment/band-iq-011-living-filmstrip",
-      "sha": "9a12a564e3cd356628d694ddc66108b4bdcb074e"
-    },
-    {
-      "repository": "vidmage",
-      "branch": "experiment/band-iq-012-contact-sheet",
-      "sha": "24ef1ef73ec66745e20a37b56b148a7c731cdc5d"
-    },
-    {
-      "repository": "vidmage",
-      "branch": "experiment/band-iq-013-candidate-tray",
-      "sha": "820bf72f402ebeb5db0822494853a1425d439341"
-    },
-    {
-      "repository": "vidmage",
-      "branch": "experiment/band-iq-013-candidate-tray-cross-bits",
-      "sha": "3f6f6cdde4fc45a1c803b8e0c029b12de4c1bba9"
+      "branch": "feature/paula-pocket-014-mobile-receipts",
+      "sha": "d7f37195eac43c5530ed9e51446a986f0a30688e"
     },
     {
       "repository": "webZ",
-      "branch": "experiment/static-field-week-001",
-      "sha": "628973ddbfa8db256728d6edf9e9e0961c3069ff"
+      "branch": "archive/abundent-garden-workbench-2026-10-13",
+      "sha": "1617369bc105ec065c2ec917298ea5381647cc43"
     },
     {
       "repository": "webZ",
-      "branch": "feat/postcard-zero-quantum-code-001",
-      "sha": "7a460574f5af16422638d0164bac52c4bc9e955f"
+      "branch": "experiment/living-navigation-composer-001",
+      "sha": "b55ad68d336c43ff9d48aa3ff1c09eb518016f4a"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/abundent-door-composer-001",
+      "sha": "432070e4a8bcaf3f1d202603659da9454848dd34"
     }
   ],
   "removed_branches": [],
@@ -261,409 +78,89 @@
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "fef32afeccbd15fd47600f6fd68c3002bd59cbef",
-      "to_sha": "94a8535a936e90c0ab4619d10b19ff8b2dbe4a2f"
+      "from_sha": "94a8535a936e90c0ab4619d10b19ff8b2dbe4a2f",
+      "to_sha": "f3ceea089bdcd4b5d4642402acc4a1ee3550e113"
     }
   ],
   "opened_prs": [
     {
-      "repository": "autodiscography-vault",
-      "number": 18,
-      "title": "PINCERSMASH 002 — source jaw: one verified Vault asset to path-free evidence",
-      "url": "https://github.com/the-static-collective/autodiscography-vault/pull/18",
-      "head_branch": "experiment/pincersmash-week-crossing-002",
+      "repository": "3rdi",
+      "number": 33,
+      "title": "Glyph Algebra 001–002: quotient, deformation, and productive growth",
+      "url": "https://github.com/the-static-collective/3rdi/pull/33",
+      "head_branch": "experiment/glyph-transition-quotient-deform-001",
       "base_branch": "main"
-    },
-    {
-      "repository": "CANNON",
-      "number": 24,
-      "title": "STACK² 017 — the Lego floor comes alive: source-pinned Stack Cards and composition receipts",
-      "url": "https://github.com/the-static-collective/CANNON/pull/24",
-      "head_branch": "experiment/stack-squared-017",
-      "base_branch": "experiment/supabardo-death-custody-016"
-    },
-    {
-      "repository": "CANNON",
-      "number": 25,
-      "title": "STACK² 018 — native Lego floor: planZ SENSE → GHoT hash → signed reLATTE HOLD",
-      "url": "https://github.com/the-static-collective/CANNON/pull/25",
-      "head_branch": "experiment/stack-squared-018-native-floor",
-      "base_branch": "experiment/stack-squared-017"
-    },
-    {
-      "repository": "CANNON",
-      "number": 26,
-      "title": "STACK² 022 — Cannon verifies GHoT Thinking Workbench native signed evidence",
-      "url": "https://github.com/the-static-collective/CANNON/pull/26",
-      "head_branch": "experiment/stack-squared-022-thinking-workbench",
-      "base_branch": "experiment/stack-squared-018-native-floor"
-    },
-    {
-      "repository": "CANNON",
-      "number": 27,
-      "title": "STACK² 023 — native GHoT AI packet → sovereign reLATTE R14 signed R3_HOLD",
-      "url": "https://github.com/the-static-collective/CANNON/pull/27",
-      "head_branch": "experiment/stack-squared-023-ai-relatte-hold",
-      "base_branch": "experiment/stack-squared-022-thinking-workbench"
-    },
-    {
-      "repository": "freeport",
-      "number": 2,
-      "title": "FREEPORT 004 — first foreign ship: native TranchNode custody × reLATTE signed transit × sovereign HOLD",
-      "url": "https://github.com/the-static-collective/freeport/pull/2",
-      "head_branch": "experiment/freeport-004-first-foreign-ship",
-      "base_branch": "experiment/freeport-003-bonded-garden"
-    },
-    {
-      "repository": "freeport",
-      "number": 3,
-      "title": "FREEPORT 005 — Supabase Harbor: existing MX13 docks, bounded notices, no automatic admission",
-      "url": "https://github.com/the-static-collective/freeport/pull/3",
-      "head_branch": "experiment/freeport-005-supabase-harbor-signals",
-      "base_branch": "experiment/freeport-004-first-foreign-ship"
-    },
-    {
-      "repository": "freeport",
-      "number": 4,
-      "title": "FREEPORT 006 — Branch Harbor: two pinned Git futures, native Workbench graft × GHoT probe, sovereign HOLD",
-      "url": "https://github.com/the-static-collective/freeport/pull/4",
-      "head_branch": "experiment/freeport-006-first-branch-graft",
-      "base_branch": "experiment/freeport-005-supabase-harbor-signals"
     },
     {
       "repository": "GHoT",
-      "number": 128,
-      "title": "AI RECOMPOSITION 001 — Two Thinking Organs through the native Instrument Rack",
-      "url": "https://github.com/the-static-collective/GHoT/pull/128",
-      "head_branch": "experiment/ai-recomposition-001-thinking-workbench",
-      "base_branch": "feat/instrument-rack-001"
-    },
-    {
-      "repository": "GOATnote",
-      "number": 15,
-      "title": "RECEIPT-RELATIONS-002 — human relation birthdays and TIME-CUT witness",
-      "url": "https://github.com/the-static-collective/GOATnote/pull/15",
-      "head_branch": "experiment/receipt-relations-timecut-002",
-      "base_branch": "experiment/receipt-glass-goatnote-001"
-    },
-    {
-      "repository": "GOATnote",
-      "number": 16,
-      "title": "RECOVERY-GATE-003 — witnessed full-notebook backup and safe empty-profile restore",
-      "url": "https://github.com/the-static-collective/GOATnote/pull/16",
-      "head_branch": "experiment/receipt-recovery-gate-003",
-      "base_branch": "experiment/receipt-relations-timecut-002"
-    },
-    {
-      "repository": "GOATnote",
-      "number": 17,
-      "title": "GOATnote × LemonPRESS 004 — explicitly selected margin, private editorial carrier",
-      "url": "https://github.com/the-static-collective/GOATnote/pull/17",
-      "head_branch": "experiment/lemonpress-marginalia-export-004",
-      "base_branch": "experiment/receipt-recovery-gate-003"
-    },
-    {
-      "repository": "lemonPRESS",
-      "number": 51,
-      "title": "MARGINALIA PRESS 001 — quote-bound GOATnote reading candidate, no admission",
-      "url": "https://github.com/the-static-collective/lemonPRESS/pull/51",
-      "head_branch": "experiment/goatnote-marginalia-press-001",
+      "number": 129,
+      "title": "Commons Machine 001 — tranchNOSE physical events to GHoT proposal routes",
+      "url": "https://github.com/the-static-collective/GHoT/pull/129",
+      "head_branch": "experiment/commons-machine-tranchnose-001",
       "base_branch": "main"
     },
     {
-      "repository": "lemonPRESS",
-      "number": 52,
-      "title": "MARGINALIA THREE DOORS 002 — one selected reading, page × voice × fragment",
-      "url": "https://github.com/the-static-collective/lemonPRESS/pull/52",
-      "head_branch": "experiment/marginalia-three-doors-002",
-      "base_branch": "experiment/goatnote-marginalia-press-001"
-    },
-    {
-      "repository": "lemonPRESS",
-      "number": 53,
-      "title": "MARGINALIA RENDER PROOF 003 — real 6×9 PDF + offline HTML, explicit human selection",
-      "url": "https://github.com/the-static-collective/lemonPRESS/pull/53",
-      "head_branch": "experiment/marginalia-printproof-review-003",
-      "base_branch": "experiment/marginalia-three-doors-002"
-    },
-    {
-      "repository": "planZ",
-      "number": 12,
-      "title": "MASTER-SERVANT × ROOMTONE × GO.STATIC × DUAL-BODY — reLATTE compatibility",
-      "url": "https://github.com/the-static-collective/planZ/pull/12",
-      "head_branch": "proposal/master-servant-field-score-001",
+      "repository": "GHoT",
+      "number": 130,
+      "title": "RELAY-001: Bind native LOADOUT effect fence to GHoT media.probe",
+      "url": "https://github.com/the-static-collective/GHoT/pull/130",
+      "head_branch": "experiment/relay001-loadout-media-probe",
       "base_branch": "main"
     },
     {
-      "repository": "planZ",
-      "number": 14,
-      "title": "TOPPER-001 — Revival × Traveling Jubilee: The Road Is the Room",
-      "url": "https://github.com/the-static-collective/planZ/pull/14",
-      "head_branch": "proposal/revival-traveling-jubilee-topper-001",
-      "base_branch": "proposal/master-servant-field-score-001"
-    },
-    {
-      "repository": "planZ",
-      "number": 15,
-      "title": "JUBILEE-001 — executable Giving Tree and three-town caravan",
-      "url": "https://github.com/the-static-collective/planZ/pull/15",
-      "head_branch": "build/jubilee-road-room-001",
-      "base_branch": "proposal/revival-traveling-jubilee-topper-001"
-    },
-    {
-      "repository": "planZ",
-      "number": 16,
-      "title": "JUBILEE-002 — verified Genesis door and local field notebook",
-      "url": "https://github.com/the-static-collective/planZ/pull/16",
-      "head_branch": "build/jubilee-field-kit-002",
-      "base_branch": "build/jubilee-road-room-001"
-    },
-    {
-      "repository": "revival",
-      "number": 15,
-      "title": "JUBILEE SCRIPTURE DOOR — pinned Genesis export and read-only lookup",
-      "url": "https://github.com/the-static-collective/revival/pull/15",
-      "head_branch": "build/jubilee-scripture-door-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "static-os",
-      "number": 87,
-      "title": "GO.STATIC — FIELD-PROCESSOR-001 native eleven-dial read-only field organ",
-      "url": "https://github.com/the-static-collective/static-os/pull/87",
-      "head_branch": "experiment/field-processor-001-go-static",
-      "base_branch": "integration/instrument-host-001"
-    },
-    {
-      "repository": "static-os",
-      "number": 88,
-      "title": "FIELD-CELL × SCRAP-ORCHESTRA — physical field lab from existing machines",
-      "url": "https://github.com/the-static-collective/static-os/pull/88",
-      "head_branch": "experiment/field-cell-001-scrap-bench",
-      "base_branch": "experiment/field-processor-001-go-static"
-    },
-    {
-      "repository": "static-os",
-      "number": 89,
-      "title": "BANDCAMP × FIELD-SCORE-001 — Singing Sigil synthetic eleven-dial instrument",
-      "url": "https://github.com/the-static-collective/static-os/pull/89",
-      "head_branch": "experiment/bandcamp-field-score-001-singing-sigil",
-      "base_branch": "experiment/field-processor-001-go-static"
-    },
-    {
-      "repository": "static-os",
-      "number": 90,
-      "title": "SINGING SIGIL F1 — real printable QR + audible DTMF transport coupon",
-      "url": "https://github.com/the-static-collective/static-os/pull/90",
-      "head_branch": "experiment/singing-sigil-f1-physical-coupon",
-      "base_branch": "experiment/bandcamp-field-score-001-singing-sigil"
-    },
-    {
-      "repository": "static-workbench",
+      "repository": "reLATTE",
       "number": 111,
-      "title": "STACK² 019 — The Living Lego Floor: playable Workbench cards, typed sockets and local witness trial",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/111",
-      "head_branch": "experiment/stack-squared-019-lego-floor",
-      "base_branch": "experiment/return-room-workbench-001"
+      "title": "ROADWORKS 001 — fail-closed road policy and Briar continuity door",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/111",
+      "head_branch": "experiment/roadworks-001-briar-transport-policy",
+      "base_branch": "main"
     },
     {
-      "repository": "static-workbench",
+      "repository": "reLATTE",
       "number": 112,
-      "title": "STACK² 020 — One Native ACT: pinned GHoT 030, two-stage consent, signed one-use receipt",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/112",
-      "head_branch": "experiment/stack-squared-020-one-use-act",
-      "base_branch": "experiment/stack-squared-019-lego-floor"
+      "title": "BRIAR CONTINUATION 001 — human invitation via real Headless API",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/112",
+      "head_branch": "experiment/briar-continuation-001-headless-door",
+      "base_branch": "experiment/roadworks-001-briar-transport-policy"
     },
     {
-      "repository": "static-workbench",
-      "number": 113,
-      "title": "BRANCH HARBOR 003 — FREEPORT 006 source shelf × Free Graph ancestry in Workbench",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/113",
-      "head_branch": "feature/branch-harbor-003-freeport-graph",
-      "base_branch": "feat/branch-deck-002-github-remote"
-    },
-    {
-      "repository": "static-workbench",
-      "number": 114,
-      "title": "STACK² 021 — Post Office Lego: signed GHoT ACT → separately authorized native reLATTE HOLD",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/114",
-      "head_branch": "experiment/stack-squared-021-post-office-lego",
-      "base_branch": "experiment/stack-squared-020-one-use-act"
-    },
-    {
-      "repository": "static-workbench",
-      "number": 115,
-      "title": "STACK² 022 — Receiver HOLD Shelf: native signed journal, particulars and provenance",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/115",
-      "head_branch": "experiment/stack-squared-022-hold-shelf",
-      "base_branch": "experiment/stack-squared-021-post-office-lego"
-    },
-    {
-      "repository": "static-workbench",
-      "number": 116,
-      "title": "STACK² 023 — Mycelium Shelf: source-evidenced connections between sovereign HELD particulars",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/116",
-      "head_branch": "experiment/stack-squared-023-mycelium-shelf",
-      "base_branch": "experiment/stack-squared-022-hold-shelf"
-    },
-    {
-      "repository": "static-workbench",
-      "number": 117,
-      "title": "STACK² 024 — Living Receipt Floor: GHoT → CANNON → reLATTE particulars",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/117",
-      "head_branch": "experiment/stack-squared-024-living-receipt-floor",
-      "base_branch": "experiment/stack-squared-019-lego-floor"
-    },
-    {
-      "repository": "static-workbench",
-      "number": 118,
-      "title": "STACK² 025 — Source-pinned Native Verification Porter and local Receipt Floor trust instrument",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/118",
-      "head_branch": "experiment/stack-squared-025-native-verification-porter",
-      "base_branch": "experiment/stack-squared-024-living-receipt-floor"
-    },
-    {
-      "repository": "static-workbench",
-      "number": 119,
-      "title": "STACK² 024 — Toaster Useful Delight: original six-move brain × Mycelium HOLD shelf",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/119",
-      "head_branch": "experiment/stack-squared-024-toaster-useful-delight",
-      "base_branch": "experiment/stack-squared-023-mycelium-shelf"
-    },
-    {
-      "repository": "static-workbench",
-      "number": 120,
-      "title": "STACK² 026 — Portable P-256 verifier × LOADOUT OpenManus bounded observation",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/120",
-      "head_branch": "experiment/stack-squared-026-openmanus-portable-verification",
-      "base_branch": "experiment/stack-squared-025-native-verification-porter"
-    },
-    {
-      "repository": "static-workbench",
-      "number": 121,
-      "title": "STACK² 025 — Pocket Seed Printer: smallest permission-bounded useful delight",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/121",
-      "head_branch": "experiment/stack-squared-025-pocket-seed-printer",
-      "base_branch": "experiment/stack-squared-024-toaster-useful-delight"
-    },
-    {
-      "repository": "static-workbench",
-      "number": 122,
-      "title": "STACK² 027 — GENESIS ELF two-occurrence hatch × portable P-256 certificate × OpenManus gate",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/122",
-      "head_branch": "experiment/stack-squared-027-elf-openmanus-hatch",
-      "base_branch": "experiment/stack-squared-026-openmanus-portable-verification"
-    },
-    {
-      "repository": "static-workbench",
-      "number": 123,
-      "title": "STACK² 028 — Genuine pinned OpenManus ToolCallAgent × credential-free local Ollama model",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/123",
-      "head_branch": "experiment/stack-squared-028-elf-openmanus-local-model",
-      "base_branch": "experiment/stack-squared-027-elf-openmanus-hatch"
-    },
-    {
-      "repository": "static-workbench",
-      "number": 124,
-      "title": "STACK² 029 — original LIVE OpenManus output → two verified mortal ELF occurrences",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/124",
-      "head_branch": "experiment/stack-squared-029-live-elf-lineage",
-      "base_branch": "experiment/stack-squared-028-elf-openmanus-local-model"
-    },
-    {
-      "repository": "static-workbench",
-      "number": 125,
-      "title": "PINCERSMASH 002 — receiving jaw: independent two-machine song HOLD",
-      "url": "https://github.com/the-static-collective/static-workbench/pull/125",
-      "head_branch": "experiment/pincersmash-week-crossing-002",
+      "repository": "SIA",
+      "number": 1,
+      "title": "SIA Gate 002A — Suno owner-export intake and metadata metabolism",
+      "url": "https://github.com/the-static-collective/SIA/pull/1",
+      "head_branch": "feature/suno-owner-export-intake-001",
       "base_branch": "main"
     },
     {
-      "repository": "vidmage",
-      "number": 10,
-      "title": "BAND-IQ 006: human-question laboratory — real old/revised Doctor scans, pixel witnesses, next question proposals",
-      "url": "https://github.com/the-static-collective/vidmage/pull/10",
-      "head_branch": "experiment/band-iq-006-question-laboratory",
-      "base_branch": "experiment/band-iq-005-human-next-question"
-    },
-    {
-      "repository": "vidmage",
+      "repository": "tranchNOSE",
       "number": 11,
-      "title": "BAND-IQ 007: independent human A/C review of actual original and revised films",
-      "url": "https://github.com/the-static-collective/vidmage/pull/11",
-      "head_branch": "experiment/band-iq-007-human-ac-review",
-      "base_branch": "experiment/band-iq-006-question-laboratory"
-    },
-    {
-      "repository": "vidmage",
-      "number": 12,
-      "title": "BAND-IQ 008: living film workbench — seven human doors, three real rooms, restartable source truth",
-      "url": "https://github.com/the-static-collective/vidmage/pull/12",
-      "head_branch": "experiment/band-iq-008-living-workbench",
-      "base_branch": "experiment/band-iq-007-human-ac-review"
-    },
-    {
-      "repository": "vidmage",
-      "number": 13,
-      "title": "BAND-IQ 009: Front Porch — actual owned song/images to source-pinned two-film workbench",
-      "url": "https://github.com/the-static-collective/vidmage/pull/13",
-      "head_branch": "experiment/band-iq-009-front-porch",
-      "base_branch": "experiment/band-iq-008-living-workbench"
-    },
-    {
-      "repository": "vidmage",
-      "number": 14,
-      "title": "BAND-IQ 010: human Storytable — choose every image, frame and protected shot before real A/B cinema",
-      "url": "https://github.com/the-static-collective/vidmage/pull/14",
-      "head_branch": "experiment/band-iq-010-storytable",
-      "base_branch": "experiment/band-iq-009-front-porch"
-    },
-    {
-      "repository": "vidmage",
-      "number": 15,
-      "title": "BAND-IQ 011: Living Filmstrip — source-real pre-render frames from the human sealed Storytable",
-      "url": "https://github.com/the-static-collective/vidmage/pull/15",
-      "head_branch": "experiment/band-iq-011-living-filmstrip",
-      "base_branch": "experiment/band-iq-010-storytable"
-    },
-    {
-      "repository": "vidmage",
-      "number": 16,
-      "title": "BAND-IQ 012: Contact Sheet — real side-by-side shot alternatives, reversible until the artist seals the story",
-      "url": "https://github.com/the-static-collective/vidmage/pull/16",
-      "head_branch": "experiment/band-iq-012-contact-sheet",
-      "base_branch": "experiment/band-iq-011-living-filmstrip"
-    },
-    {
-      "repository": "vidmage",
-      "number": 17,
-      "title": "BAND-IQ 013: candidate tray × real Grab/Cross Bits — owned fragments, multi-shot trials and source-bound native films",
-      "url": "https://github.com/the-static-collective/vidmage/pull/17",
-      "head_branch": "experiment/band-iq-013-candidate-tray",
-      "base_branch": "experiment/band-iq-012-contact-sheet"
-    },
-    {
-      "repository": "vidmage",
-      "number": 18,
-      "title": "BAND-IQ 013: Candidate Tray × Grab/Cross Bits — reversible shots and source-traceable borrowed pixels in real films",
-      "url": "https://github.com/the-static-collective/vidmage/pull/18",
-      "head_branch": "experiment/band-iq-013-candidate-tray-cross-bits",
-      "base_branch": "experiment/band-iq-012-contact-sheet"
-    },
-    {
-      "repository": "webZ",
-      "number": 58,
-      "title": "feat(webZ): Postcard Zero — Quantum Code living song door",
-      "url": "https://github.com/the-static-collective/webZ/pull/58",
-      "head_branch": "feat/postcard-zero-quantum-code-001",
+      "title": "Incubate hollow-copper relational-field computing experiments",
+      "url": "https://github.com/the-static-collective/tranchNOSE/pull/11",
+      "head_branch": "experiment/hollow-copper-relational-field-001",
       "base_branch": "main"
     },
     {
+      "repository": "vidmage",
+      "number": 19,
+      "title": "Paula Pocket 014 — iPhone-first story room × portable Vidmage HOLD receipts",
+      "url": "https://github.com/the-static-collective/vidmage/pull/19",
+      "head_branch": "feature/paula-pocket-014-mobile-receipts",
+      "base_branch": "experiment/band-iq-013-candidate-tray-cross-bits"
+    },
+    {
       "repository": "webZ",
-      "number": 59,
-      "title": "STATIC FIELD 001 — A Week Together source-bound field station",
-      "url": "https://github.com/the-static-collective/webZ/pull/59",
-      "head_branch": "experiment/static-field-week-001",
+      "number": 60,
+      "title": "ABUNDENT DOOR COMPOSER 001 — relation-driven navigation across worlds and songs",
+      "url": "https://github.com/the-static-collective/webZ/pull/60",
+      "head_branch": "feat/abundent-door-composer-001",
+      "base_branch": "release/a-week-together-garden-001"
+    },
+    {
+      "repository": "webZ",
+      "number": 61,
+      "title": "Navigation Composer 001 — the field is the instrument",
+      "url": "https://github.com/the-static-collective/webZ/pull/61",
+      "head_branch": "experiment/living-navigation-composer-001",
       "base_branch": "main"
     }
   ],

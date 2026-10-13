@@ -50,6 +50,10 @@
           "sha": "3239801cc2843569f49403d44bdf638e9690d9f5"
         },
         {
+          "name": "experiment/glyph-transition-quotient-deform-001",
+          "sha": "ac139a3d61e20b71bcd14090cb8de1993a7c8270"
+        },
+        {
           "name": "experiment/residual-cut-001",
           "sha": "481766cab1ab035e691b64ff1f440e3543baf040"
         },
@@ -127,6 +131,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 33,
+          "title": "Glyph Algebra 001–002: quotient, deformation, and productive growth",
+          "head_branch": "experiment/glyph-transition-quotient-deform-001",
+          "head_sha": "ac139a3d61e20b71bcd14090cb8de1993a7c8270",
+          "head_repo": "the-static-collective/3rdi",
+          "base_branch": "main",
+          "updated_at": "2026-10-13T00:31:21Z",
+          "url": "https://github.com/the-static-collective/3rdi/pull/33"
+        },
         {
           "number": 32,
           "title": "3rdi: adopt body surface v0",
@@ -3778,6 +3792,10 @@
           "sha": "b01758bee55d66d699160715ec377b45f7589707"
         },
         {
+          "name": "experiment/commons-machine-tranchnose-001",
+          "sha": "6f0cc9e93e2544cd2fc67a0aa43a06198825a654"
+        },
+        {
           "name": "experiment/ecology-router-001-heat-tree-wave",
           "sha": "3d0ef810347fc6a8c63ee0aa407495a343c2732b"
         },
@@ -3860,6 +3878,10 @@
         {
           "name": "experiment/radio-house-004-clicky-lan",
           "sha": "91efe8441a567944dff27e1206d4967876485dbd"
+        },
+        {
+          "name": "experiment/relay001-loadout-media-probe",
+          "sha": "9aec1e00667994c7e0dc0e345c5d40d5012fdf8e"
         },
         {
           "name": "experiment/riff-raft-001-distributed-commons",
@@ -4103,6 +4125,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 130,
+          "title": "RELAY-001: Bind native LOADOUT effect fence to GHoT media.probe",
+          "head_branch": "experiment/relay001-loadout-media-probe",
+          "head_sha": "9aec1e00667994c7e0dc0e345c5d40d5012fdf8e",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "main",
+          "updated_at": "2026-10-13T14:24:42Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/130"
+        },
+        {
+          "number": 129,
+          "title": "Commons Machine 001 — tranchNOSE physical events to GHoT proposal routes",
+          "head_branch": "experiment/commons-machine-tranchnose-001",
+          "head_sha": "6f0cc9e93e2544cd2fc67a0aa43a06198825a654",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "main",
+          "updated_at": "2026-10-12T17:59:41Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/129"
+        },
         {
           "number": 128,
           "title": "AI RECOMPOSITION 001 — Two Thinking Organs through the native Instrument Rack",
@@ -8082,6 +8124,10 @@
           "sha": "87e9eeb91f067aadda3d7440ec486dc4d7c7ae80"
         },
         {
+          "name": "experiment/briar-continuation-001-headless-door",
+          "sha": "f59f206308fab928a6e110b67b824730af4c84e1"
+        },
+        {
           "name": "experiment/composition-instance-001",
           "sha": "f34772194e761585ee6d05a48be33f614f6d4c03"
         },
@@ -8190,6 +8236,10 @@
           "sha": "b2cf5b917d5fa93a70764ab4eb94a246e98c2ed4"
         },
         {
+          "name": "experiment/relay001-ghot-opaque-hold",
+          "sha": "69ddd67eb84049eec7ff8e040c465de078d98def"
+        },
+        {
           "name": "experiment/riff-raft-minecraft-001-terraform-crossing",
           "sha": "0f88423b61f2467447674dacc1b2e8a6132a985f"
         },
@@ -8216,6 +8266,10 @@
         {
           "name": "experiment/riff-raft-minecraft-007-two-custodians",
           "sha": "5bec783505c1be62e7f68224284d0bb901be1ada"
+        },
+        {
+          "name": "experiment/roadworks-001-briar-transport-policy",
+          "sha": "6dd9b04f710c7c2d18318598b8a61582de4cd719"
         },
         {
           "name": "experiment/skymirror-001-passive-optical-road",
@@ -8479,6 +8533,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 112,
+          "title": "BRIAR CONTINUATION 001 — human invitation via real Headless API",
+          "head_branch": "experiment/briar-continuation-001-headless-door",
+          "head_sha": "f59f206308fab928a6e110b67b824730af4c84e1",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/roadworks-001-briar-transport-policy",
+          "updated_at": "2026-10-13T14:56:16Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/112"
+        },
+        {
+          "number": 111,
+          "title": "ROADWORKS 001 — fail-closed road policy and Briar continuity door",
+          "head_branch": "experiment/roadworks-001-briar-transport-policy",
+          "head_sha": "6dd9b04f710c7c2d18318598b8a61582de4cd719",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-13T14:39:57Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/111"
+        },
         {
           "number": 110,
           "title": "RELATIONAL-FISSION-001 — split the pair, keep the witness",
@@ -9695,6 +9769,34 @@
         }
       ],
       "open_prs": []
+    },
+    {
+      "name": "SIA",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "feature/suno-owner-export-intake-001",
+          "sha": "d8ee6f0facf41980523e4bb95a1d28d8a1223836"
+        },
+        {
+          "name": "main",
+          "sha": "3aa667f555a138253803a8d710b313ee27553779"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 1,
+          "title": "SIA Gate 002A — Suno owner-export intake and metadata metabolism",
+          "head_branch": "feature/suno-owner-export-intake-001",
+          "head_sha": "d8ee6f0facf41980523e4bb95a1d28d8a1223836",
+          "head_repo": "the-static-collective/SIA",
+          "base_branch": "main",
+          "updated_at": "2026-10-13T13:26:27Z",
+          "url": "https://github.com/the-static-collective/SIA/pull/1"
+        }
+      ]
     },
     {
       "name": "static-field",
@@ -15766,6 +15868,10 @@
           "sha": "670ca60012929b51e66b8bac7d0c9b85a4f95d7b"
         },
         {
+          "name": "experiment/hollow-copper-relational-field-001",
+          "sha": "4b5e6900dd9d625c4d5e0f2d02be22aceb04095b"
+        },
+        {
           "name": "experiment/machine-weather-001",
           "sha": "e45d0644ab1903df700535edb4c0f2d60bfb4354"
         },
@@ -15795,6 +15901,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 11,
+          "title": "Incubate hollow-copper relational-field computing experiments",
+          "head_branch": "experiment/hollow-copper-relational-field-001",
+          "head_sha": "4b5e6900dd9d625c4d5e0f2d02be22aceb04095b",
+          "head_repo": "the-static-collective/tranchNOSE",
+          "base_branch": "main",
+          "updated_at": "2026-10-12T17:59:06Z",
+          "url": "https://github.com/the-static-collective/tranchNOSE/pull/11"
+        },
         {
           "number": 10,
           "title": "FIELD-LAB-001: bounded relational perturbation instrument",
@@ -15994,6 +16110,10 @@
           "sha": "223190e7294197532cdfebb598ae8d85f8273c7e"
         },
         {
+          "name": "feature/paula-pocket-014-mobile-receipts",
+          "sha": "d7f37195eac43c5530ed9e51446a986f0a30688e"
+        },
+        {
           "name": "genesis/blender-first-grand-smash-001",
           "sha": "6d9286e5a81ee6cd81f4618a6a8d6fc2903a5c7a"
         },
@@ -16003,6 +16123,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 19,
+          "title": "Paula Pocket 014 — iPhone-first story room × portable Vidmage HOLD receipts",
+          "head_branch": "feature/paula-pocket-014-mobile-receipts",
+          "head_sha": "d7f37195eac43c5530ed9e51446a986f0a30688e",
+          "head_repo": "the-static-collective/vidmage",
+          "base_branch": "experiment/band-iq-013-candidate-tray-cross-bits",
+          "updated_at": "2026-10-13T14:01:16Z",
+          "url": "https://github.com/the-static-collective/vidmage/pull/19"
+        },
         {
           "number": 18,
           "title": "BAND-IQ 013: Candidate Tray × Grab/Cross Bits — reversible shots and source-traceable borrowed pixels in real films",
@@ -16172,6 +16302,10 @@
       "archived": false,
       "branches": [
         {
+          "name": "archive/abundent-garden-workbench-2026-10-13",
+          "sha": "1617369bc105ec065c2ec917298ea5381647cc43"
+        },
+        {
           "name": "design/webz-maxhinal-porch-001",
           "sha": "b487aab92a8a2a572001cd91424a81b3a14abce9"
         },
@@ -16230,6 +16364,10 @@
         {
           "name": "experiment/living-grounds-006",
           "sha": "365dd07812b05566993d3ccb53932bcfdd87dcb7"
+        },
+        {
+          "name": "experiment/living-navigation-composer-001",
+          "sha": "b55ad68d336c43ff9d48aa3ff1c09eb518016f4a"
         },
         {
           "name": "experiment/music-field-002-federated-sources",
@@ -16308,6 +16446,10 @@
           "sha": "5e4c9e0fa6dd808a9e6bc854f077ede7006950ce"
         },
         {
+          "name": "feat/abundent-door-composer-001",
+          "sha": "432070e4a8bcaf3f1d202603659da9454848dd34"
+        },
+        {
           "name": "feat/abundent-garden-workbench-001",
           "sha": "4abeb8e048bec3db9e58a4b60fe03d65f0c91a63"
         },
@@ -16369,6 +16511,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 61,
+          "title": "Navigation Composer 001 — the field is the instrument",
+          "head_branch": "experiment/living-navigation-composer-001",
+          "head_sha": "b55ad68d336c43ff9d48aa3ff1c09eb518016f4a",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-13T10:47:41Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/61"
+        },
+        {
+          "number": 60,
+          "title": "ABUNDENT DOOR COMPOSER 001 — relation-driven navigation across worlds and songs",
+          "head_branch": "feat/abundent-door-composer-001",
+          "head_sha": "432070e4a8bcaf3f1d202603659da9454848dd34",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "release/a-week-together-garden-001",
+          "updated_at": "2026-10-13T10:28:35Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/60"
+        },
         {
           "number": 59,
           "title": "STATIC FIELD 001 — A Week Together source-bound field station",
@@ -17013,7 +17175,7 @@
         },
         {
           "name": "main",
-          "sha": "94a8535a936e90c0ab4619d10b19ff8b2dbe4a2f"
+          "sha": "f3ceea089bdcd4b5d4642402acc4a1ee3550e113"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -17448,5 +17610,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-12T16:44:04+00:00"
+  "captured_at": "2026-10-13T15:02:19+00:00"
 }
