@@ -44,7 +44,7 @@ leave a reconstructible trace
 | Field | Useful door | Orientation only |
 | --- | --- | --- |
 | Continuity and historical breadcrumbs | [witness notebook](witness/) · [unresolved questions](witness/unresolved.md) | The lower-case `witness/` directory is a non-authoritative continuity notebook. It is not itself a Scripture project or an oracle of what happened. |
-| WITNESS — project identity under reconciliation | [WITNESS repository](https://github.com/the-static-collective/WITNESS) | **Do not classify WITNESS as Scripture based on this room.** See the explicit correction below. |
+| Scripture: community audio recordings | [WITNESS repository](https://github.com/the-static-collective/WITNESS) | Community audio Bible: human passage recordings with local receipts and attributable assembly. Executable prototype lives on an **unmerged branch**, not `main`. |
 | Scripture: source and transformation | [Revival](https://github.com/the-static-collective/revival) | Source-backed Bible compilation, linguistic/source witnesses, and attributable projections. |
 | Scripture: shared encounter | [Upper Room](https://github.com/the-static-collective/Upper-room) | Shared Scripture attention, branches, encounter continuity, and voluntary re-entry. Distinct from Revival. |
 | Crossings, memory, and local authority | [reLATTE](https://github.com/the-static-collective/reLATTE) · [Project0](https://github.com/the-static-collective/project0) | Crossing contracts, receipts, context and authority boundaries; consult each organ for its actual remit. |
@@ -56,13 +56,19 @@ leave a reconstructible trace
 
 These links are addresses for deliberate retrieval, not instructions to preload everything. One named project may belong near several fields; placement here confers no authority.
 
-## Identity correction — WITNESS is not the Scripture label
+## Project-identity correction — inspect the owning code
 
-**Human owner correction, 2026-10-13:** WITNESS is **not** to be presented as the Collective's Scripture project. **Revival** and **Upper Room** belong to the Scripture field, with distinct scopes.
+**Source-backed reconciliation, 2026-10-13:** WITNESS **is** a community audio Bible project. The [main README](https://github.com/the-static-collective/WITNESS/blob/main/README.md) says so; its [unmerged Genesis branch](https://github.com/the-static-collective/WITNESS/tree/genesis/community-audio-bible-001) contains an actual Matthew 5 recording prototype and Supabase shared-room contracts. A prior orientation edit had incorrectly treated WITNESS as unrelated to Scripture. That classification is superseded by the inspected project sources.
 
-**Known contradiction:** the current [WITNESS README](https://github.com/the-static-collective/WITNESS/blob/main/README.md) and repository description still describe a community audio Bible. That description is in conflict with the owner's explicit correction. Preserve this as an unresolved source/documentation mismatch; do not treat the outdated description as settled project identity or invent a new WITNESS charter from its name. Reconcile at the owning repository when its intended scope has been established.
+Keep the three Scripture organs distinct:
 
-Also distinguish the capitalized `WITNESS` repository from this documentation repository's lower-case `witness/` continuity notebook. Similar spelling does not imply shared purpose or identity.
+- **[WITNESS](https://github.com/the-static-collective/WITNESS)** — human audio readings anchored to Scripture passages, local-first receipts, and optional community assembly. The current prototype assigns alternate verses for a two-voice test; [CANON-001 — FREE WITNESS](https://github.com/the-static-collective/WITNESS/blob/genesis/community-audio-bible-001/docs/CANON-001-FREE-WITNESS.md) explicitly says unrestricted voluntary reading, not verse assignment, is the intended contribution model.
+- **[Revival](https://github.com/the-static-collective/revival)** — source-backed Bible kernels, textual/linguistic witnesses, translation choices, and attributable projections.
+- **[Upper Room](https://github.com/the-static-collective/Upper-room)** — shared Scripture attention, room encounters, branching and voluntary re-entry.
+
+**Maturity boundary:** WITNESS's main branch is README-only; the recorder, schema, and shared-room code remain in an open pull request. Source code and deployment configuration do not themselves prove a successful two-phone field trial or a deployed service.
+
+The capitalized `WITNESS` project is also distinct from this documentation repository's lower-case `witness/` continuity notebook. Names resemble each other; purposes differ.
 
 ## Authority / status boundaries
 
