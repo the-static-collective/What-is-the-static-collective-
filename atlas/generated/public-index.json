@@ -3209,6 +3209,10 @@
           "sha": "fcd85804b6284c7955eb60642d31b82930cae0d7"
         },
         {
+          "name": "experiment/relay001-sia-traversal",
+          "sha": "fce3634baf2ac127695271671e3571ab54a9d92d"
+        },
+        {
           "name": "feat/free-graph-v0",
           "sha": "826c6b06e2835bc4cd84a5ae992644deb030ea70"
         },
@@ -3221,7 +3225,18 @@
           "sha": "ec0ad8743c5faac3f3675760bbafcbcb1df846c1"
         }
       ],
-      "open_prs": []
+      "open_prs": [
+        {
+          "number": 19,
+          "title": "RELAY-001 sixth organ: native SIA provenance graph and bounded traversal",
+          "head_branch": "experiment/relay001-sia-traversal",
+          "head_sha": "fce3634baf2ac127695271671e3571ab54a9d92d",
+          "head_repo": "the-static-collective/free-graph",
+          "base_branch": "main",
+          "updated_at": "2026-10-13T16:13:18Z",
+          "url": "https://github.com/the-static-collective/free-graph/pull/19"
+        }
+      ]
     },
     {
       "name": "freeport",
@@ -7643,6 +7658,10 @@
           "sha": "bc0ae32e0abb22cda53cc197acd6d14429fee6fa"
         },
         {
+          "name": "experiment/relay001-next-mission",
+          "sha": "f4b8207105cc7c7883d5533892c83089d0a7322d"
+        },
+        {
           "name": "feat/census-senses-mutation-002",
           "sha": "557577c6ae4cd30a45b07cf23709283c8b4bf548"
         },
@@ -7672,6 +7691,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 17,
+          "title": "RELAY-001: seventh-organ Free Graph → planZ bounded mission census",
+          "head_branch": "experiment/relay001-next-mission",
+          "head_sha": "f4b8207105cc7c7883d5533892c83089d0a7322d",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-13T17:04:00Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/17"
+        },
         {
           "number": 16,
           "title": "JUBILEE-002 — verified Genesis door and local field notebook",
@@ -8128,6 +8157,10 @@
           "sha": "f59f206308fab928a6e110b67b824730af4c84e1"
         },
         {
+          "name": "experiment/briar-continuation-002-source-bootstrap",
+          "sha": "a63c6be77e0de090dec0a648dee7c99a07f6c0f8"
+        },
+        {
           "name": "experiment/composition-instance-001",
           "sha": "f34772194e761585ee6d05a48be33f614f6d4c03"
         },
@@ -8533,6 +8566,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 114,
+          "title": "BRIAR CONTINUATION 002 — attributed upstream source bootstrap",
+          "head_branch": "experiment/briar-continuation-002-source-bootstrap",
+          "head_sha": "a63c6be77e0de090dec0a648dee7c99a07f6c0f8",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/briar-continuation-001-headless-door",
+          "updated_at": "2026-10-13T15:15:49Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/114"
+        },
+        {
+          "number": 113,
+          "title": "RELAY-001: Verify GHoT donor and cross into native signed reLATTE HOLD",
+          "head_branch": "experiment/relay001-ghot-opaque-hold",
+          "head_sha": "69ddd67eb84049eec7ff8e040c465de078d98def",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-13T15:02:07Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/113"
+        },
         {
           "number": 112,
           "title": "BRIAR CONTINUATION 001 — human invitation via real Headless API",
@@ -9777,15 +9830,37 @@
       "archived": false,
       "branches": [
         {
+          "name": "experiment/relay001-fifth-organ-archive",
+          "sha": "a61ef4871c2d26101a361265983f03733c25aad9"
+        },
+        {
+          "name": "feat/blue-night-morning-sia-20261013",
+          "sha": "86cc113ccb96d104ba338040086014e6dddf9948"
+        },
+        {
+          "name": "feat/suno-album-capture-2026-10-13",
+          "sha": "f4005afd6357b5ffca3ed6f19421d1b0a7ffbc1f"
+        },
+        {
           "name": "feature/suno-owner-export-intake-001",
           "sha": "d8ee6f0facf41980523e4bb95a1d28d8a1223836"
         },
         {
           "name": "main",
-          "sha": "3aa667f555a138253803a8d710b313ee27553779"
+          "sha": "669d46ce797a291260d269dd4fd53cdf3d6409d6"
         }
       ],
       "open_prs": [
+        {
+          "number": 3,
+          "title": "RELAY-001: preserve five native organ crossings as a content-addressed SIA history",
+          "head_branch": "experiment/relay001-fifth-organ-archive",
+          "head_sha": "a61ef4871c2d26101a361265983f03733c25aad9",
+          "head_repo": "the-static-collective/SIA",
+          "base_branch": "main",
+          "updated_at": "2026-10-13T15:50:13Z",
+          "url": "https://github.com/the-static-collective/SIA/pull/3"
+        },
         {
           "number": 1,
           "title": "SIA Gate 002A — Suno owner-export intake and metadata metabolism",
@@ -9795,6 +9870,144 @@
           "base_branch": "main",
           "updated_at": "2026-10-13T13:26:27Z",
           "url": "https://github.com/the-static-collective/SIA/pull/1"
+        }
+      ]
+    },
+    {
+      "name": "static-briars",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "experiment/combined-network-apk-004",
+          "sha": "94ef53729333d05730d7133d5071302be589187b"
+        },
+        {
+          "name": "experiment/moto-stylus-2022-ready-005",
+          "sha": "c1abbb1c789f292d264d8ac645ca3bfd0fd7ff00"
+        },
+        {
+          "name": "experiment/network-witness-002-android",
+          "sha": "029d89eca084c830ce7539dae1bbdec74efca7f2"
+        },
+        {
+          "name": "experiment/offline-witness-003-field-kit",
+          "sha": "72ca3ca3ea84c25fc42aa386745f0f6c8188664b"
+        },
+        {
+          "name": "experiment/road-compass-001-android",
+          "sha": "a0f6ed046331919ef3e56f141c67e1ebb2cea70f"
+        },
+        {
+          "name": "experiment/source-integrity-001",
+          "sha": "be064c2ad35a94357198427207a2d2358bdd941b"
+        },
+        {
+          "name": "experiment/staticdev-emulator-002",
+          "sha": "70df92254e740ee1a4a12ace3f998ecb91876177"
+        },
+        {
+          "name": "experiment/staticdev-packaging-001",
+          "sha": "67214a431a1dff97134d582917d7d06edfc5305e"
+        },
+        {
+          "name": "fix/android-compile-toolchain-001",
+          "sha": "a0f6ed046331919ef3e56f141c67e1ebb2cea70f"
+        },
+        {
+          "name": "main",
+          "sha": "d7e65f33ebc02e77418c3ed011af0264ee73c99f"
+        },
+        {
+          "name": "static/continuation-001",
+          "sha": "aa275f28c1c4b3795e254d6967898d0e5bf3831e"
+        },
+        {
+          "name": "upstream/release-1.5.22",
+          "sha": "d03d6fcd776349ec6c8b7d22035e9bb04aa1787c"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 9,
+          "title": "MOTO STYLUS 2022 — Android 11/12 first-flight compatibility",
+          "head_branch": "experiment/moto-stylus-2022-ready-005",
+          "head_sha": "c1abbb1c789f292d264d8ac645ca3bfd0fd7ff00",
+          "head_repo": "the-static-collective/static-briars",
+          "base_branch": "experiment/combined-network-apk-004",
+          "updated_at": "2026-10-13T17:16:01Z",
+          "url": "https://github.com/the-static-collective/static-briars/pull/9"
+        },
+        {
+          "number": 8,
+          "title": "STATIC LAB 004 — build Network Witness + distinct Android identity together",
+          "head_branch": "experiment/combined-network-apk-004",
+          "head_sha": "94ef53729333d05730d7133d5071302be589187b",
+          "head_repo": "the-static-collective/static-briars",
+          "base_branch": "experiment/staticdev-packaging-001",
+          "updated_at": "2026-10-13T16:53:28Z",
+          "url": "https://github.com/the-static-collective/static-briars/pull/8"
+        },
+        {
+          "number": 7,
+          "title": "OFFLINE WITNESS 003 — role-separated local test ledger for Briar disconnect/reconnect",
+          "head_branch": "experiment/offline-witness-003-field-kit",
+          "head_sha": "72ca3ca3ea84c25fc42aa386745f0f6c8188664b",
+          "head_repo": "the-static-collective/static-briars",
+          "base_branch": "experiment/network-witness-002-android",
+          "updated_at": "2026-10-13T16:51:27Z",
+          "url": "https://github.com/the-static-collective/static-briars/pull/7"
+        },
+        {
+          "number": 6,
+          "title": "STATICDEV 002 — offline Android emulator coexistence and launch smoke",
+          "head_branch": "experiment/staticdev-emulator-002",
+          "head_sha": "70df92254e740ee1a4a12ace3f998ecb91876177",
+          "head_repo": "the-static-collective/static-briars",
+          "base_branch": "experiment/staticdev-packaging-001",
+          "updated_at": "2026-10-13T16:56:18Z",
+          "url": "https://github.com/the-static-collective/static-briars/pull/6"
+        },
+        {
+          "number": 5,
+          "title": "STATICDEV 001 — independent Android lab identity and gated debug APK",
+          "head_branch": "experiment/staticdev-packaging-001",
+          "head_sha": "67214a431a1dff97134d582917d7d06edfc5305e",
+          "head_repo": "the-static-collective/static-briars",
+          "base_branch": "experiment/road-compass-001-android",
+          "updated_at": "2026-10-13T16:51:37Z",
+          "url": "https://github.com/the-static-collective/static-briars/pull/5"
+        },
+        {
+          "number": 4,
+          "title": "NETWORK WITNESS 002 — actual Briar transport state and offline field protocol",
+          "head_branch": "experiment/network-witness-002-android",
+          "head_sha": "029d89eca084c830ce7539dae1bbdec74efca7f2",
+          "head_repo": "the-static-collective/static-briars",
+          "base_branch": "experiment/road-compass-001-android",
+          "updated_at": "2026-10-13T16:09:32Z",
+          "url": "https://github.com/the-static-collective/static-briars/pull/4"
+        },
+        {
+          "number": 2,
+          "title": "ROAD COMPASS 001 — first native Briar Android UX: honest path states and Mailbox",
+          "head_branch": "experiment/road-compass-001-android",
+          "head_sha": "a0f6ed046331919ef3e56f141c67e1ebb2cea70f",
+          "head_repo": "the-static-collective/static-briars",
+          "base_branch": "static/continuation-001",
+          "updated_at": "2026-10-13T15:42:33Z",
+          "url": "https://github.com/the-static-collective/static-briars/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "STATIC BRIARS 001 — source lineage and license guard",
+          "head_branch": "experiment/source-integrity-001",
+          "head_sha": "be064c2ad35a94357198427207a2d2358bdd941b",
+          "head_repo": "the-static-collective/static-briars",
+          "base_branch": "static/continuation-001",
+          "updated_at": "2026-10-13T15:28:30Z",
+          "url": "https://github.com/the-static-collective/static-briars/pull/1"
         }
       ]
     },
@@ -14389,6 +14602,10 @@
           "sha": "66fe65523ad21824aea88519de736c791f81e967"
         },
         {
+          "name": "experiment/relay001-blue-night-six-up",
+          "sha": "de377643195176a2cabbaaa5f3198f8d03112ce9"
+        },
+        {
           "name": "experiment/supabardo-sb002-proposal-001",
           "sha": "2c86d684138f3008344b18202b81193db0c947c7"
         },
@@ -14766,6 +14983,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 360,
+          "title": "RELAY-001 organ 8: run source-pinned native six-up without KEEP or render",
+          "head_branch": "experiment/relay001-blue-night-six-up",
+          "head_sha": "de377643195176a2cabbaaa5f3198f8d03112ce9",
+          "head_repo": "the-static-collective/the-haunted-toaster",
+          "base_branch": "main",
+          "updated_at": "2026-10-13T17:44:31Z",
+          "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/360"
+        },
         {
           "number": 359,
           "title": "NEXTGEN-TOASTER-026: playable fission / joining bench with verified ONE PASS custody",
@@ -16110,6 +16337,14 @@
           "sha": "223190e7294197532cdfebb598ae8d85f8273c7e"
         },
         {
+          "name": "feature/paula-domain-017-ph-abundent",
+          "sha": "71917db0f9d2f9260139a990b782fcb217e40c2e"
+        },
+        {
+          "name": "feature/paula-dual-host-016",
+          "sha": "400f19c25a13b860607b25e2b40789f5f7482bde"
+        },
+        {
           "name": "feature/paula-pocket-014-mobile-receipts",
           "sha": "d7f37195eac43c5530ed9e51446a986f0a30688e"
         },
@@ -16123,6 +16358,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 21,
+          "title": "Paula 017 — ph.abundent.org iPhone front door and Home/AWS DNS plan",
+          "head_branch": "feature/paula-domain-017-ph-abundent",
+          "head_sha": "71917db0f9d2f9260139a990b782fcb217e40c2e",
+          "head_repo": "the-static-collective/vidmage",
+          "base_branch": "feature/paula-dual-host-016",
+          "updated_at": "2026-10-14T04:00:53Z",
+          "url": "https://github.com/the-static-collective/vidmage/pull/21"
+        },
+        {
+          "number": 20,
+          "title": "PAULA 016 — iPhone Vidmage + separate Home and AWS studios",
+          "head_branch": "feature/paula-dual-host-016",
+          "head_sha": "400f19c25a13b860607b25e2b40789f5f7482bde",
+          "head_repo": "the-static-collective/vidmage",
+          "base_branch": "experiment/band-iq-013-candidate-tray-cross-bits",
+          "updated_at": "2026-10-13T15:08:17Z",
+          "url": "https://github.com/the-static-collective/vidmage/pull/20"
+        },
         {
           "number": 19,
           "title": "Paula Pocket 014 — iPhone-first story room × portable Vidmage HOLD receipts",
@@ -16414,6 +16669,10 @@
           "sha": "fb6253426cd22b312b5cee49974ab111a7656bd2"
         },
         {
+          "name": "experiment/relay001-relatte-evidence-door",
+          "sha": "8007e6b947df0f56d0f15e78d453f4b31defee9c"
+        },
+        {
           "name": "experiment/rootline-encouragement-005",
           "sha": "6a30c5f4771a583801f5e75e565ee6db91492478"
         },
@@ -16511,6 +16770,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 62,
+          "title": "RELAY-001: add fourth-organ signed HOLD evidence door to webZ",
+          "head_branch": "experiment/relay001-relatte-evidence-door",
+          "head_sha": "8007e6b947df0f56d0f15e78d453f4b31defee9c",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-13T15:22:12Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/62"
+        },
         {
           "number": 61,
           "title": "Navigation Composer 001 — the field is the instrument",
@@ -17175,7 +17444,7 @@
         },
         {
           "name": "main",
-          "sha": "f3ceea089bdcd4b5d4642402acc4a1ee3550e113"
+          "sha": "7886af0ba5b4e2f9b6f5d90b2c3a995c89601a73"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -17610,5 +17879,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-13T15:02:19+00:00"
+  "captured_at": "2026-10-14T12:52:52+00:00"
 }

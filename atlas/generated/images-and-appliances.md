@@ -15,12 +15,13 @@ Visual and audio-video instruments, pantry experiments, and older appliance bran
 
 [Repository](https://github.com/the-static-collective/the-haunted-toaster) · [Branches](https://github.com/the-static-collective/the-haunted-toaster/branches) · [Pull requests](https://github.com/the-static-collective/the-haunted-toaster/pulls)
 
-Default: `main` · other refs: 234 · open PRs: 76
+Default: `main` · other refs: 235 · open PRs: 77
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#360](https://github.com/the-static-collective/the-haunted-toaster/pull/360) | RELAY-001 organ 8: run source-pinned native six-up without KEEP or render | `experiment/relay001-blue-night-six-up` → `main` | 2026-10-13 |
 | [#359](https://github.com/the-static-collective/the-haunted-toaster/pull/359) | NEXTGEN-TOASTER-026: playable fission / joining bench with verified ONE PASS custody | `experiment/nextgen-toaster-026-correspondence-bench` → `experiment/nextgen-toaster-025-performed-correspondence` | 2026-10-11 |
 | [#358](https://github.com/the-static-collective/the-haunted-toaster/pull/358) | NEXTGEN-TOASTER-025: witnessed split / join / release correspondence | `experiment/nextgen-toaster-025-performed-correspondence` → `experiment/nextgen-toaster-024-mutation-distance` | 2026-10-11 |
 | [#357](https://github.com/the-static-collective/the-haunted-toaster/pull/357) | SB-002 source: cross one creative proposal without KEEP | `experiment/supabardo-sb002-proposal-001` → `main` | 2026-10-07 |
@@ -243,6 +244,7 @@ Default: `main` · other refs: 234 · open PRs: 76
 | [experiment/nextgen-toaster-025-performed-correspondence](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-025-performed-correspondence) | [791a941838](https://github.com/the-static-collective/the-haunted-toaster/commit/791a941838a860d8f53f3d83aa0e509a6819e797) | [open PR #358](https://github.com/the-static-collective/the-haunted-toaster/pull/358) |
 | [experiment/nextgen-toaster-026-correspondence-bench](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/nextgen-toaster-026-correspondence-bench) | [6a396536a2](https://github.com/the-static-collective/the-haunted-toaster/commit/6a396536a28df824441be393df14f9fb6dc035c9) | [open PR #359](https://github.com/the-static-collective/the-haunted-toaster/pull/359) |
 | [experiment/polyclock-001-recurrence](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/polyclock-001-recurrence) | [66fe65523a](https://github.com/the-static-collective/the-haunted-toaster/commit/66fe65523ad21824aea88519de736c791f81e967) | [open PR #293](https://github.com/the-static-collective/the-haunted-toaster/pull/293) |
+| [experiment/relay001-blue-night-six-up](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/relay001-blue-night-six-up) | [de37764319](https://github.com/the-static-collective/the-haunted-toaster/commit/de377643195176a2cabbaaa5f3198f8d03112ce9) | [open PR #360](https://github.com/the-static-collective/the-haunted-toaster/pull/360) |
 | [experiment/supabardo-sb002-proposal-001](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/supabardo-sb002-proposal-001) | [2c86d68413](https://github.com/the-static-collective/the-haunted-toaster/commit/2c86d684138f3008344b18202b81193db0c947c7) | [open PR #357](https://github.com/the-static-collective/the-haunted-toaster/pull/357) |
 | [experimental/franken-composer-001](https://github.com/the-static-collective/the-haunted-toaster/tree/experimental/franken-composer-001) | [0916e1d1dd](https://github.com/the-static-collective/the-haunted-toaster/commit/0916e1d1dd60d2834682e4bd182f26f15b2d8447) | [open PR #315](https://github.com/the-static-collective/the-haunted-toaster/pull/315) |
 | [experimental/hyperkitchen-001-hyperframes-projection](https://github.com/the-static-collective/the-haunted-toaster/tree/experimental/hyperkitchen-001-hyperframes-projection) | [2c9df38445](https://github.com/the-static-collective/the-haunted-toaster/commit/2c9df3844594635f353231f6ecbe60b6290cdbdb) | [open PR #297](https://github.com/the-static-collective/the-haunted-toaster/pull/297) |

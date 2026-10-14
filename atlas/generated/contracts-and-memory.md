@@ -213,7 +213,13 @@ Default: `main` · other refs: 4 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/free-graph) · [Branches](https://github.com/the-static-collective/free-graph/branches) · [Pull requests](https://github.com/the-static-collective/free-graph/pulls)
 
-Default: `main` · other refs: 5 · open PRs: 0
+Default: `main` · other refs: 6 · open PRs: 1
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#19](https://github.com/the-static-collective/free-graph/pull/19) | RELAY-001 sixth organ: native SIA provenance graph and bounded traversal | `experiment/relay001-sia-traversal` → `main` | 2026-10-13 |
 
 ### Retained nondefault branches
 
@@ -222,6 +228,7 @@ Default: `main` · other refs: 5 · open PRs: 0
 | [agent/body-emergence-001](https://github.com/the-static-collective/free-graph/tree/agent/body-emergence-001) | [1a361cf026](https://github.com/the-static-collective/free-graph/commit/1a361cf026b6953cce7412edeb3e99dcde4e842d) | Retained ref; disposition unverified |
 | [agent/skyslicey72](https://github.com/the-static-collective/free-graph/tree/agent/skyslicey72) | [7abf873831](https://github.com/the-static-collective/free-graph/commit/7abf8738310464629bc2bc98279a077a6e0a65e5) | Retained ref; disposition unverified |
 | [docs/relational-coordinate-v0](https://github.com/the-static-collective/free-graph/tree/docs/relational-coordinate-v0) | [fcd85804b6](https://github.com/the-static-collective/free-graph/commit/fcd85804b6284c7955eb60642d31b82930cae0d7) | Retained ref; disposition unverified |
+| [experiment/relay001-sia-traversal](https://github.com/the-static-collective/free-graph/tree/experiment/relay001-sia-traversal) | [fce3634baf](https://github.com/the-static-collective/free-graph/commit/fce3634baf2ac127695271671e3571ab54a9d92d) | [open PR #19](https://github.com/the-static-collective/free-graph/pull/19) |
 | [feat/free-graph-v0](https://github.com/the-static-collective/free-graph/tree/feat/free-graph-v0) | [826c6b06e2](https://github.com/the-static-collective/free-graph/commit/826c6b06e2835bc4cd84a5ae992644deb030ea70) | Retained ref; disposition unverified |
 | [feat/promotion-crucible-v0](https://github.com/the-static-collective/free-graph/tree/feat/promotion-crucible-v0) | [23c72ba2aa](https://github.com/the-static-collective/free-graph/commit/23c72ba2aa162be17717eee0ca0970a04672121a) | Retained ref; disposition unverified |
 

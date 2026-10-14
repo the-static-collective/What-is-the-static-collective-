@@ -616,12 +616,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/planZ) · [Branches](https://github.com/the-static-collective/planZ/branches) · [Pull requests](https://github.com/the-static-collective/planZ/pulls)
 
-Default: `main` · other refs: 11 · open PRs: 11
+Default: `main` · other refs: 12 · open PRs: 12
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#17](https://github.com/the-static-collective/planZ/pull/17) | RELAY-001: seventh-organ Free Graph → planZ bounded mission census | `experiment/relay001-next-mission` → `main` | 2026-10-13 |
 | [#16](https://github.com/the-static-collective/planZ/pull/16) | JUBILEE-002 — verified Genesis door and local field notebook | `build/jubilee-field-kit-002` → `build/jubilee-road-room-001` | 2026-10-11 |
 | [#15](https://github.com/the-static-collective/planZ/pull/15) | JUBILEE-001 — executable Giving Tree and three-town caravan | `build/jubilee-road-room-001` → `proposal/revival-traveling-jubilee-topper-001` | 2026-10-11 |
 | [#14](https://github.com/the-static-collective/planZ/pull/14) | TOPPER-001 — Revival × Traveling Jubilee: The Road Is the Room | `proposal/revival-traveling-jubilee-topper-001` → `proposal/master-servant-field-score-001` | 2026-10-11 |
@@ -643,6 +644,7 @@ Default: `main` · other refs: 11 · open PRs: 11
 | [experiment/branch-capability-census-004](https://github.com/the-static-collective/planZ/tree/experiment/branch-capability-census-004) | [ec384bfddb](https://github.com/the-static-collective/planZ/commit/ec384bfddbdff471ea8d9b295b905980f702e1ad) | [open PR #11](https://github.com/the-static-collective/planZ/pull/11) |
 | [experiment/fatherhand-grant-chain-residue-001](https://github.com/the-static-collective/planZ/tree/experiment/fatherhand-grant-chain-residue-001) | [e8111fdb64](https://github.com/the-static-collective/planZ/commit/e8111fdb64c5587b33aece0fed639ed3d03375ac) | [open PR #10](https://github.com/the-static-collective/planZ/pull/10) |
 | [experiment/heart-001-fatherhand-combinatrix](https://github.com/the-static-collective/planZ/tree/experiment/heart-001-fatherhand-combinatrix) | [bc0ae32e0a](https://github.com/the-static-collective/planZ/commit/bc0ae32e0abb22cda53cc197acd6d14429fee6fa) | [open PR #9](https://github.com/the-static-collective/planZ/pull/9) |
+| [experiment/relay001-next-mission](https://github.com/the-static-collective/planZ/tree/experiment/relay001-next-mission) | [f4b8207105](https://github.com/the-static-collective/planZ/commit/f4b8207105cc7c7883d5533892c83089d0a7322d) | [open PR #17](https://github.com/the-static-collective/planZ/pull/17) |
 | [feat/census-senses-mutation-002](https://github.com/the-static-collective/planZ/tree/feat/census-senses-mutation-002) | [557577c6ae](https://github.com/the-static-collective/planZ/commit/557577c6ae4cd30a45b07cf23709283c8b4bf548) | [open PR #4](https://github.com/the-static-collective/planZ/pull/4) |
 | [feat/global-plan-census-001](https://github.com/the-static-collective/planZ/tree/feat/global-plan-census-001) | [c93ccbfa6a](https://github.com/the-static-collective/planZ/commit/c93ccbfa6a501cdfd5e4ff8a3957300ecc0ae9c5) | [open PR #2](https://github.com/the-static-collective/planZ/pull/2) |
 | [feat/remains-instruments-003](https://github.com/the-static-collective/planZ/tree/feat/remains-instruments-003) | [535d34b5d7](https://github.com/the-static-collective/planZ/commit/535d34b5d7680ab98fb50e717b4cd00b972a232b) | [open PR #6](https://github.com/the-static-collective/planZ/pull/6) |
@@ -676,12 +678,14 @@ Default: `main` · other refs: 3 · open PRs: 3
 
 [Repository](https://github.com/the-static-collective/reLATTE) · [Branches](https://github.com/the-static-collective/reLATTE/branches) · [Pull requests](https://github.com/the-static-collective/reLATTE/pulls)
 
-Default: `main` · other refs: 114 · open PRs: 83
+Default: `main` · other refs: 115 · open PRs: 85
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#114](https://github.com/the-static-collective/reLATTE/pull/114) | BRIAR CONTINUATION 002 — attributed upstream source bootstrap | `experiment/briar-continuation-002-source-bootstrap` → `experiment/briar-continuation-001-headless-door` | 2026-10-13 |
+| [#113](https://github.com/the-static-collective/reLATTE/pull/113) | RELAY-001: Verify GHoT donor and cross into native signed reLATTE HOLD | `experiment/relay001-ghot-opaque-hold` → `main` | 2026-10-13 |
 | [#112](https://github.com/the-static-collective/reLATTE/pull/112) | BRIAR CONTINUATION 001 — human invitation via real Headless API | `experiment/briar-continuation-001-headless-door` → `experiment/roadworks-001-briar-transport-policy` | 2026-10-13 |
 | [#111](https://github.com/the-static-collective/reLATTE/pull/111) | ROADWORKS 001 — fail-closed road policy and Briar continuity door | `experiment/roadworks-001-briar-transport-policy` → `main` | 2026-10-13 |
 | [#110](https://github.com/the-static-collective/reLATTE/pull/110) | RELATIONAL-FISSION-001 — split the pair, keep the witness | `experiment/relational-fission-001` → `main` | 2026-10-10 |
@@ -784,6 +788,7 @@ Default: `main` · other refs: 114 · open PRs: 83
 | [experiment/alien-minecraft-vanilla-005](https://github.com/the-static-collective/reLATTE/tree/experiment/alien-minecraft-vanilla-005) | [686daa00ac](https://github.com/the-static-collective/reLATTE/commit/686daa00acbb5a8feab879364596ce1a9c797120) | [open PR #73](https://github.com/the-static-collective/reLATTE/pull/73) |
 | [experiment/authenticated-pressure-authority-boundary-001](https://github.com/the-static-collective/reLATTE/tree/experiment/authenticated-pressure-authority-boundary-001) | [87e9eeb91f](https://github.com/the-static-collective/reLATTE/commit/87e9eeb91f067aadda3d7440ec486dc4d7c7ae80) | [open PR #84](https://github.com/the-static-collective/reLATTE/pull/84) |
 | [experiment/briar-continuation-001-headless-door](https://github.com/the-static-collective/reLATTE/tree/experiment/briar-continuation-001-headless-door) | [f59f206308](https://github.com/the-static-collective/reLATTE/commit/f59f206308fab928a6e110b67b824730af4c84e1) | [open PR #112](https://github.com/the-static-collective/reLATTE/pull/112) |
+| [experiment/briar-continuation-002-source-bootstrap](https://github.com/the-static-collective/reLATTE/tree/experiment/briar-continuation-002-source-bootstrap) | [a63c6be77e](https://github.com/the-static-collective/reLATTE/commit/a63c6be77e0de090dec0a648dee7c99a07f6c0f8) | [open PR #114](https://github.com/the-static-collective/reLATTE/pull/114) |
 | [experiment/composition-instance-001](https://github.com/the-static-collective/reLATTE/tree/experiment/composition-instance-001) | [f34772194e](https://github.com/the-static-collective/reLATTE/commit/f34772194e761585ee6d05a48be33f614f6d4c03) | [open PR #77](https://github.com/the-static-collective/reLATTE/pull/77) |
 | [experiment/composition-instance-002](https://github.com/the-static-collective/reLATTE/tree/experiment/composition-instance-002) | [21e7d7a741](https://github.com/the-static-collective/reLATTE/commit/21e7d7a7413507b3b9301354f51f7f98d89d2eee) | [open PR #79](https://github.com/the-static-collective/reLATTE/pull/79) |
 | [experiment/composition-instance-002-parents](https://github.com/the-static-collective/reLATTE/tree/experiment/composition-instance-002-parents) | [3da2740173](https://github.com/the-static-collective/reLATTE/commit/3da2740173cb82c6eefc1dea31471a1f1b498577) | Retained ref; disposition unverified |
@@ -811,7 +816,7 @@ Default: `main` · other refs: 114 · open PRs: 83
 | [experiment/relatte-vm-002-isolated-wasm](https://github.com/the-static-collective/reLATTE/tree/experiment/relatte-vm-002-isolated-wasm) | [283bc4afe6](https://github.com/the-static-collective/reLATTE/commit/283bc4afe63eef1df44f39ef4d45ad899e62ed15) | [open PR #90](https://github.com/the-static-collective/reLATTE/pull/90) |
 | [experiment/relatte-vm-003-witnessed-execution](https://github.com/the-static-collective/reLATTE/tree/experiment/relatte-vm-003-witnessed-execution) | [477c680759](https://github.com/the-static-collective/reLATTE/commit/477c68075919b09e51a5888133370dc9df0f0b9e) | [open PR #91](https://github.com/the-static-collective/reLATTE/pull/91) |
 | [experiment/relatte-vm-004-authenticated-leases](https://github.com/the-static-collective/reLATTE/tree/experiment/relatte-vm-004-authenticated-leases) | [b2cf5b917d](https://github.com/the-static-collective/reLATTE/commit/b2cf5b917d5fa93a70764ab4eb94a246e98c2ed4) | [open PR #92](https://github.com/the-static-collective/reLATTE/pull/92) |
-| [experiment/relay001-ghot-opaque-hold](https://github.com/the-static-collective/reLATTE/tree/experiment/relay001-ghot-opaque-hold) | [69ddd67eb8](https://github.com/the-static-collective/reLATTE/commit/69ddd67eb84049eec7ff8e040c465de078d98def) | Retained ref; disposition unverified |
+| [experiment/relay001-ghot-opaque-hold](https://github.com/the-static-collective/reLATTE/tree/experiment/relay001-ghot-opaque-hold) | [69ddd67eb8](https://github.com/the-static-collective/reLATTE/commit/69ddd67eb84049eec7ff8e040c465de078d98def) | [open PR #113](https://github.com/the-static-collective/reLATTE/pull/113) |
 | [experiment/riff-raft-minecraft-001-terraform-crossing](https://github.com/the-static-collective/reLATTE/tree/experiment/riff-raft-minecraft-001-terraform-crossing) | [0f88423b61](https://github.com/the-static-collective/reLATTE/commit/0f88423b61f2467447674dacc1b2e8a6132a985f) | [open PR #96](https://github.com/the-static-collective/reLATTE/pull/96) |
 | [experiment/riff-raft-minecraft-002-living-redstone](https://github.com/the-static-collective/reLATTE/tree/experiment/riff-raft-minecraft-002-living-redstone) | [e5899ee9cc](https://github.com/the-static-collective/reLATTE/commit/e5899ee9cc5299ba3027e622ab5c5c44981eb7a4) | [open PR #97](https://github.com/the-static-collective/reLATTE/pull/97) |
 | [experiment/riff-raft-minecraft-003-two-world-return](https://github.com/the-static-collective/reLATTE/tree/experiment/riff-raft-minecraft-003-two-world-return) | [4943f14fd2](https://github.com/the-static-collective/reLATTE/commit/4943f14fd28d5b0bdb1b6d11bad035a009afe8b4) | [open PR #101](https://github.com/the-static-collective/reLATTE/pull/101) |
@@ -889,19 +894,58 @@ Default: `main` · other refs: 114 · open PRs: 83
 
 [Repository](https://github.com/the-static-collective/SIA) · [Branches](https://github.com/the-static-collective/SIA/branches) · [Pull requests](https://github.com/the-static-collective/SIA/pulls)
 
-Default: `main` · other refs: 1 · open PRs: 1
+Default: `main` · other refs: 4 · open PRs: 2
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#3](https://github.com/the-static-collective/SIA/pull/3) | RELAY-001: preserve five native organ crossings as a content-addressed SIA history | `experiment/relay001-fifth-organ-archive` → `main` | 2026-10-13 |
 | [#1](https://github.com/the-static-collective/SIA/pull/1) | SIA Gate 002A — Suno owner-export intake and metadata metabolism | `feature/suno-owner-export-intake-001` → `main` | 2026-10-13 |
 
 ### Retained nondefault branches
 
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
+| [experiment/relay001-fifth-organ-archive](https://github.com/the-static-collective/SIA/tree/experiment/relay001-fifth-organ-archive) | [a61ef4871c](https://github.com/the-static-collective/SIA/commit/a61ef4871c2d26101a361265983f03733c25aad9) | [open PR #3](https://github.com/the-static-collective/SIA/pull/3) |
+| [feat/blue-night-morning-sia-20261013](https://github.com/the-static-collective/SIA/tree/feat/blue-night-morning-sia-20261013) | [86cc113ccb](https://github.com/the-static-collective/SIA/commit/86cc113ccb96d104ba338040086014e6dddf9948) | Retained ref; disposition unverified |
+| [feat/suno-album-capture-2026-10-13](https://github.com/the-static-collective/SIA/tree/feat/suno-album-capture-2026-10-13) | [f4005afd63](https://github.com/the-static-collective/SIA/commit/f4005afd6357b5ffca3ed6f19421d1b0a7ffbc1f) | Retained ref; disposition unverified |
 | [feature/suno-owner-export-intake-001](https://github.com/the-static-collective/SIA/tree/feature/suno-owner-export-intake-001) | [d8ee6f0fac](https://github.com/the-static-collective/SIA/commit/d8ee6f0facf41980523e4bb95a1d28d8a1223836) | [open PR #1](https://github.com/the-static-collective/SIA/pull/1) |
+
+## static-briars
+
+[Repository](https://github.com/the-static-collective/static-briars) · [Branches](https://github.com/the-static-collective/static-briars/branches) · [Pull requests](https://github.com/the-static-collective/static-briars/pulls)
+
+Default: `main` · other refs: 11 · open PRs: 8
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#9](https://github.com/the-static-collective/static-briars/pull/9) | MOTO STYLUS 2022 — Android 11/12 first-flight compatibility | `experiment/moto-stylus-2022-ready-005` → `experiment/combined-network-apk-004` | 2026-10-13 |
+| [#8](https://github.com/the-static-collective/static-briars/pull/8) | STATIC LAB 004 — build Network Witness + distinct Android identity together | `experiment/combined-network-apk-004` → `experiment/staticdev-packaging-001` | 2026-10-13 |
+| [#7](https://github.com/the-static-collective/static-briars/pull/7) | OFFLINE WITNESS 003 — role-separated local test ledger for Briar disconnect/reconnect | `experiment/offline-witness-003-field-kit` → `experiment/network-witness-002-android` | 2026-10-13 |
+| [#6](https://github.com/the-static-collective/static-briars/pull/6) | STATICDEV 002 — offline Android emulator coexistence and launch smoke | `experiment/staticdev-emulator-002` → `experiment/staticdev-packaging-001` | 2026-10-13 |
+| [#5](https://github.com/the-static-collective/static-briars/pull/5) | STATICDEV 001 — independent Android lab identity and gated debug APK | `experiment/staticdev-packaging-001` → `experiment/road-compass-001-android` | 2026-10-13 |
+| [#4](https://github.com/the-static-collective/static-briars/pull/4) | NETWORK WITNESS 002 — actual Briar transport state and offline field protocol | `experiment/network-witness-002-android` → `experiment/road-compass-001-android` | 2026-10-13 |
+| [#2](https://github.com/the-static-collective/static-briars/pull/2) | ROAD COMPASS 001 — first native Briar Android UX: honest path states and Mailbox | `experiment/road-compass-001-android` → `static/continuation-001` | 2026-10-13 |
+| [#1](https://github.com/the-static-collective/static-briars/pull/1) | STATIC BRIARS 001 — source lineage and license guard | `experiment/source-integrity-001` → `static/continuation-001` | 2026-10-13 |
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [experiment/combined-network-apk-004](https://github.com/the-static-collective/static-briars/tree/experiment/combined-network-apk-004) | [94ef537293](https://github.com/the-static-collective/static-briars/commit/94ef53729333d05730d7133d5071302be589187b) | [open PR #8](https://github.com/the-static-collective/static-briars/pull/8) |
+| [experiment/moto-stylus-2022-ready-005](https://github.com/the-static-collective/static-briars/tree/experiment/moto-stylus-2022-ready-005) | [c1abbb1c78](https://github.com/the-static-collective/static-briars/commit/c1abbb1c789f292d264d8ac645ca3bfd0fd7ff00) | [open PR #9](https://github.com/the-static-collective/static-briars/pull/9) |
+| [experiment/network-witness-002-android](https://github.com/the-static-collective/static-briars/tree/experiment/network-witness-002-android) | [029d89eca0](https://github.com/the-static-collective/static-briars/commit/029d89eca084c830ce7539dae1bbdec74efca7f2) | [open PR #4](https://github.com/the-static-collective/static-briars/pull/4) |
+| [experiment/offline-witness-003-field-kit](https://github.com/the-static-collective/static-briars/tree/experiment/offline-witness-003-field-kit) | [72ca3ca3ea](https://github.com/the-static-collective/static-briars/commit/72ca3ca3ea84c25fc42aa386745f0f6c8188664b) | [open PR #7](https://github.com/the-static-collective/static-briars/pull/7) |
+| [experiment/road-compass-001-android](https://github.com/the-static-collective/static-briars/tree/experiment/road-compass-001-android) | [a0f6ed0463](https://github.com/the-static-collective/static-briars/commit/a0f6ed046331919ef3e56f141c67e1ebb2cea70f) | [open PR #2](https://github.com/the-static-collective/static-briars/pull/2) |
+| [experiment/source-integrity-001](https://github.com/the-static-collective/static-briars/tree/experiment/source-integrity-001) | [be064c2ad3](https://github.com/the-static-collective/static-briars/commit/be064c2ad35a94357198427207a2d2358bdd941b) | [open PR #1](https://github.com/the-static-collective/static-briars/pull/1) |
+| [experiment/staticdev-emulator-002](https://github.com/the-static-collective/static-briars/tree/experiment/staticdev-emulator-002) | [70df92254e](https://github.com/the-static-collective/static-briars/commit/70df92254e740ee1a4a12ace3f998ecb91876177) | [open PR #6](https://github.com/the-static-collective/static-briars/pull/6) |
+| [experiment/staticdev-packaging-001](https://github.com/the-static-collective/static-briars/tree/experiment/staticdev-packaging-001) | [67214a431a](https://github.com/the-static-collective/static-briars/commit/67214a431a1dff97134d582917d7d06edfc5305e) | [open PR #5](https://github.com/the-static-collective/static-briars/pull/5) |
+| [fix/android-compile-toolchain-001](https://github.com/the-static-collective/static-briars/tree/fix/android-compile-toolchain-001) | [a0f6ed0463](https://github.com/the-static-collective/static-briars/commit/a0f6ed046331919ef3e56f141c67e1ebb2cea70f) | Retained ref; disposition unverified |
+| [static/continuation-001](https://github.com/the-static-collective/static-briars/tree/static/continuation-001) | [aa275f28c1](https://github.com/the-static-collective/static-briars/commit/aa275f28c1c4b3795e254d6967898d0e5bf3831e) | Retained ref; disposition unverified |
+| [upstream/release-1.5.22](https://github.com/the-static-collective/static-briars/tree/upstream/release-1.5.22) | [d03d6fcd77](https://github.com/the-static-collective/static-briars/commit/d03d6fcd776349ec6c8b7d22035e9bb04aa1787c) | Retained ref; disposition unverified |
 
 ## the-static-collective
 
@@ -925,12 +969,14 @@ Default: `main` · other refs: 1 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/vidmage) · [Branches](https://github.com/the-static-collective/vidmage/branches) · [Pull requests](https://github.com/the-static-collective/vidmage/pulls)
 
-Default: `main` · other refs: 17 · open PRs: 17
+Default: `main` · other refs: 19 · open PRs: 19
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#21](https://github.com/the-static-collective/vidmage/pull/21) | Paula 017 — ph.abundent.org iPhone front door and Home/AWS DNS plan | `feature/paula-domain-017-ph-abundent` → `feature/paula-dual-host-016` | 2026-10-14 |
+| [#20](https://github.com/the-static-collective/vidmage/pull/20) | PAULA 016 — iPhone Vidmage + separate Home and AWS studios | `feature/paula-dual-host-016` → `experiment/band-iq-013-candidate-tray-cross-bits` | 2026-10-13 |
 | [#19](https://github.com/the-static-collective/vidmage/pull/19) | Paula Pocket 014 — iPhone-first story room × portable Vidmage HOLD receipts | `feature/paula-pocket-014-mobile-receipts` → `experiment/band-iq-013-candidate-tray-cross-bits` | 2026-10-13 |
 | [#18](https://github.com/the-static-collective/vidmage/pull/18) | BAND-IQ 013: Candidate Tray × Grab/Cross Bits — reversible shots and source-traceable borrowed pixels in real films | `experiment/band-iq-013-candidate-tray-cross-bits` → `experiment/band-iq-012-contact-sheet` | 2026-10-11 |
 | [#17](https://github.com/the-static-collective/vidmage/pull/17) | BAND-IQ 013: candidate tray × real Grab/Cross Bits — owned fragments, multi-shot trials and source-bound native films | `experiment/band-iq-013-candidate-tray` → `experiment/band-iq-012-contact-sheet` | 2026-10-11 |
@@ -968,6 +1014,8 @@ Default: `main` · other refs: 17 · open PRs: 17
 | [experiment/band-iq-013-candidate-tray](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-013-candidate-tray) | [820bf72f40](https://github.com/the-static-collective/vidmage/commit/820bf72f402ebeb5db0822494853a1425d439341) | [open PR #17](https://github.com/the-static-collective/vidmage/pull/17) |
 | [experiment/band-iq-013-candidate-tray-cross-bits](https://github.com/the-static-collective/vidmage/tree/experiment/band-iq-013-candidate-tray-cross-bits) | [3f6f6cdde4](https://github.com/the-static-collective/vidmage/commit/3f6f6cdde4fc45a1c803b8e0c029b12de4c1bba9) | [open PR #18](https://github.com/the-static-collective/vidmage/pull/18) |
 | [experiment/toaster-lbranch-blender-director-001](https://github.com/the-static-collective/vidmage/tree/experiment/toaster-lbranch-blender-director-001) | [223190e729](https://github.com/the-static-collective/vidmage/commit/223190e7294197532cdfebb598ae8d85f8273c7e) | [open PR #3](https://github.com/the-static-collective/vidmage/pull/3) |
+| [feature/paula-domain-017-ph-abundent](https://github.com/the-static-collective/vidmage/tree/feature/paula-domain-017-ph-abundent) | [71917db0f9](https://github.com/the-static-collective/vidmage/commit/71917db0f9d2f9260139a990b782fcb217e40c2e) | [open PR #21](https://github.com/the-static-collective/vidmage/pull/21) |
+| [feature/paula-dual-host-016](https://github.com/the-static-collective/vidmage/tree/feature/paula-dual-host-016) | [400f19c25a](https://github.com/the-static-collective/vidmage/commit/400f19c25a13b860607b25e2b40789f5f7482bde) | [open PR #20](https://github.com/the-static-collective/vidmage/pull/20) |
 | [feature/paula-pocket-014-mobile-receipts](https://github.com/the-static-collective/vidmage/tree/feature/paula-pocket-014-mobile-receipts) | [d7f37195ea](https://github.com/the-static-collective/vidmage/commit/d7f37195eac43c5530ed9e51446a986f0a30688e) | [open PR #19](https://github.com/the-static-collective/vidmage/pull/19) |
 | [genesis/blender-first-grand-smash-001](https://github.com/the-static-collective/vidmage/tree/genesis/blender-first-grand-smash-001) | [6d9286e5a8](https://github.com/the-static-collective/vidmage/commit/6d9286e5a81ee6cd81f4618a6a8d6fc2903a5c7a) | [open PR #1](https://github.com/the-static-collective/vidmage/pull/1) |
 
@@ -975,12 +1023,13 @@ Default: `main` · other refs: 17 · open PRs: 17
 
 [Repository](https://github.com/the-static-collective/webZ) · [Branches](https://github.com/the-static-collective/webZ/branches) · [Pull requests](https://github.com/the-static-collective/webZ/pulls)
 
-Default: `main` · other refs: 51 · open PRs: 41
+Default: `main` · other refs: 52 · open PRs: 42
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#62](https://github.com/the-static-collective/webZ/pull/62) | RELAY-001: add fourth-organ signed HOLD evidence door to webZ | `experiment/relay001-relatte-evidence-door` → `main` | 2026-10-13 |
 | [#61](https://github.com/the-static-collective/webZ/pull/61) | Navigation Composer 001 — the field is the instrument | `experiment/living-navigation-composer-001` → `main` | 2026-10-13 |
 | [#60](https://github.com/the-static-collective/webZ/pull/60) | ABUNDENT DOOR COMPOSER 001 — relation-driven navigation across worlds and songs | `feat/abundent-door-composer-001` → `release/a-week-together-garden-001` | 2026-10-13 |
 | [#59](https://github.com/the-static-collective/webZ/pull/59) | STATIC FIELD 001 — A Week Together source-bound field station | `experiment/static-field-week-001` → `main` | 2026-10-11 |
@@ -1055,6 +1104,7 @@ Default: `main` · other refs: 51 · open PRs: 41
 | [experiment/post-office-seed-002](https://github.com/the-static-collective/webZ/tree/experiment/post-office-seed-002) | [1208d02f26](https://github.com/the-static-collective/webZ/commit/1208d02f2680c0b11af8a5d8334a1416fcc02003) | [open PR #36](https://github.com/the-static-collective/webZ/pull/36) |
 | [experiment/postal-pocket-001-webz-host](https://github.com/the-static-collective/webZ/tree/experiment/postal-pocket-001-webz-host) | [b395c8f9f7](https://github.com/the-static-collective/webZ/commit/b395c8f9f7ce35fdbc33d83353aeb5f0f7313fef) | [open PR #26](https://github.com/the-static-collective/webZ/pull/26) |
 | [experiment/receipt-glass-goatnote-002](https://github.com/the-static-collective/webZ/tree/experiment/receipt-glass-goatnote-002) | [fb6253426c](https://github.com/the-static-collective/webZ/commit/fb6253426cd22b312b5cee49974ab111a7656bd2) | [open PR #57](https://github.com/the-static-collective/webZ/pull/57) |
+| [experiment/relay001-relatte-evidence-door](https://github.com/the-static-collective/webZ/tree/experiment/relay001-relatte-evidence-door) | [8007e6b947](https://github.com/the-static-collective/webZ/commit/8007e6b947df0f56d0f15e78d453f4b31defee9c) | [open PR #62](https://github.com/the-static-collective/webZ/pull/62) |
 | [experiment/rootline-encouragement-005](https://github.com/the-static-collective/webZ/tree/experiment/rootline-encouragement-005) | [6a30c5f477](https://github.com/the-static-collective/webZ/commit/6a30c5f4771a583801f5e75e565ee6db91492478) | [open PR #44](https://github.com/the-static-collective/webZ/pull/44) |
 | [experiment/skymirror-webz-optical-lab-001](https://github.com/the-static-collective/webZ/tree/experiment/skymirror-webz-optical-lab-001) | [a890a1ca30](https://github.com/the-static-collective/webZ/commit/a890a1ca30b2327262909a8eed58e0fc5db5fc87) | [open PR #9](https://github.com/the-static-collective/webZ/pull/9) |
 | [experiment/static-field-week-001](https://github.com/the-static-collective/webZ/tree/experiment/static-field-week-001) | [628973ddbf](https://github.com/the-static-collective/webZ/commit/628973ddbfa8db256728d6edf9e9e0961c3069ff) | [open PR #59](https://github.com/the-static-collective/webZ/pull/59) |
