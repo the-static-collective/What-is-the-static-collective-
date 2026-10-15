@@ -4,7 +4,7 @@ description: "Dated, source-linked public Git inventory for the Static Collectiv
 
 # Public Git inventory
 
-Captured: **2026-10-14T12:52:52+00:00** · **84 public repositories** · **1975 branch refs** (including defaults) · **917 open PRs**.
+Captured: **2026-10-15T12:39:46+00:00** · **84 public repositories** · **1977 branch refs** (including defaults) · **919 open PRs**.
 
 [Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
 
@@ -25,7 +25,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [Images and appliances](images-and-appliances.md) | 10 | 339 | 143 |
 | [Worlds and inquiry](worlds-and-inquiry.md) | 6 | 128 | 46 |
 | [Operating surfaces](operating-surfaces.md) | 5 | 178 | 128 |
-| [Unplaced public repositories](unplaced.md) | 19 | 501 | 386 |
+| [Unplaced public repositories](unplaced.md) | 19 | 503 | 388 |
 
 ## All public repositories
 
@@ -78,7 +78,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [reCOreturn](https://github.com/the-static-collective/reCOreturn) | [Operating surfaces](operating-surfaces.md) | 1 | 0 |
 | [reCURV](https://github.com/the-static-collective/reCURV) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [reCURVrePAIR](https://github.com/the-static-collective/reCURVrePAIR) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
-| [reLATTE](https://github.com/the-static-collective/reLATTE) | [Unplaced public repositories](unplaced.md) | 115 | 85 |
+| [reLATTE](https://github.com/the-static-collective/reLATTE) | [Unplaced public repositories](unplaced.md) | 117 | 87 |
 | [reMIX-reCURVrePAIR](https://github.com/the-static-collective/reMIX-reCURVrePAIR) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [revival](https://github.com/the-static-collective/revival) | [Participation and care](participation-and-care.md) | 15 | 2 |
 | [ROroomOM](https://github.com/the-static-collective/ROroomOM) | [Worlds and inquiry](worlds-and-inquiry.md) | 18 | 16 |

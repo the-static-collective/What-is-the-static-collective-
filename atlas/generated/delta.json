@@ -1,274 +1,46 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-13T15:02:19+00:00",
-  "to_captured_at": "2026-10-14T12:52:52+00:00",
-  "added_repositories": [
-    "static-briars"
-  ],
+  "from_captured_at": "2026-10-14T12:52:52+00:00",
+  "to_captured_at": "2026-10-15T12:39:46+00:00",
+  "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "free-graph",
-      "branch": "experiment/relay001-sia-traversal",
-      "sha": "fce3634baf2ac127695271671e3571ab54a9d92d"
-    },
-    {
-      "repository": "planZ",
-      "branch": "experiment/relay001-next-mission",
-      "sha": "f4b8207105cc7c7883d5533892c83089d0a7322d"
+      "repository": "reLATTE",
+      "branch": "feat/cloudflare-sqlite-receiver-001",
+      "sha": "cc186eb7859144a0d61478a18519131cb8790e6b"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/briar-continuation-002-source-bootstrap",
-      "sha": "a63c6be77e0de090dec0a648dee7c99a07f6c0f8"
-    },
-    {
-      "repository": "SIA",
-      "branch": "experiment/relay001-fifth-organ-archive",
-      "sha": "a61ef4871c2d26101a361265983f03733c25aad9"
-    },
-    {
-      "repository": "SIA",
-      "branch": "feat/blue-night-morning-sia-20261013",
-      "sha": "86cc113ccb96d104ba338040086014e6dddf9948"
-    },
-    {
-      "repository": "SIA",
-      "branch": "feat/suno-album-capture-2026-10-13",
-      "sha": "f4005afd6357b5ffca3ed6f19421d1b0a7ffbc1f"
-    },
-    {
-      "repository": "static-briars",
-      "branch": "experiment/combined-network-apk-004",
-      "sha": "94ef53729333d05730d7133d5071302be589187b"
-    },
-    {
-      "repository": "static-briars",
-      "branch": "experiment/moto-stylus-2022-ready-005",
-      "sha": "c1abbb1c789f292d264d8ac645ca3bfd0fd7ff00"
-    },
-    {
-      "repository": "static-briars",
-      "branch": "experiment/network-witness-002-android",
-      "sha": "029d89eca084c830ce7539dae1bbdec74efca7f2"
-    },
-    {
-      "repository": "static-briars",
-      "branch": "experiment/offline-witness-003-field-kit",
-      "sha": "72ca3ca3ea84c25fc42aa386745f0f6c8188664b"
-    },
-    {
-      "repository": "static-briars",
-      "branch": "experiment/road-compass-001-android",
-      "sha": "a0f6ed046331919ef3e56f141c67e1ebb2cea70f"
-    },
-    {
-      "repository": "static-briars",
-      "branch": "experiment/source-integrity-001",
-      "sha": "be064c2ad35a94357198427207a2d2358bdd941b"
-    },
-    {
-      "repository": "static-briars",
-      "branch": "experiment/staticdev-emulator-002",
-      "sha": "70df92254e740ee1a4a12ace3f998ecb91876177"
-    },
-    {
-      "repository": "static-briars",
-      "branch": "experiment/staticdev-packaging-001",
-      "sha": "67214a431a1dff97134d582917d7d06edfc5305e"
-    },
-    {
-      "repository": "static-briars",
-      "branch": "fix/android-compile-toolchain-001",
-      "sha": "a0f6ed046331919ef3e56f141c67e1ebb2cea70f"
-    },
-    {
-      "repository": "static-briars",
-      "branch": "main",
-      "sha": "d7e65f33ebc02e77418c3ed011af0264ee73c99f"
-    },
-    {
-      "repository": "static-briars",
-      "branch": "static/continuation-001",
-      "sha": "aa275f28c1c4b3795e254d6967898d0e5bf3831e"
-    },
-    {
-      "repository": "static-briars",
-      "branch": "upstream/release-1.5.22",
-      "sha": "d03d6fcd776349ec6c8b7d22035e9bb04aa1787c"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "experiment/relay001-blue-night-six-up",
-      "sha": "de377643195176a2cabbaaa5f3198f8d03112ce9"
-    },
-    {
-      "repository": "vidmage",
-      "branch": "feature/paula-domain-017-ph-abundent",
-      "sha": "71917db0f9d2f9260139a990b782fcb217e40c2e"
-    },
-    {
-      "repository": "vidmage",
-      "branch": "feature/paula-dual-host-016",
-      "sha": "400f19c25a13b860607b25e2b40789f5f7482bde"
-    },
-    {
-      "repository": "webZ",
-      "branch": "experiment/relay001-relatte-evidence-door",
-      "sha": "8007e6b947df0f56d0f15e78d453f4b31defee9c"
+      "branch": "feat/mw-two-world-edge-002",
+      "sha": "b7a1f95c4ce38944cbbede72c5c6bc3fa2774235"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "SIA",
-      "branch": "main",
-      "from_sha": "3aa667f555a138253803a8d710b313ee27553779",
-      "to_sha": "669d46ce797a291260d269dd4fd53cdf3d6409d6"
-    },
-    {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "f3ceea089bdcd4b5d4642402acc4a1ee3550e113",
-      "to_sha": "7886af0ba5b4e2f9b6f5d90b2c3a995c89601a73"
+      "from_sha": "7886af0ba5b4e2f9b6f5d90b2c3a995c89601a73",
+      "to_sha": "91f83f3bcf24334f3e4e1191dfefac807549114b"
     }
   ],
   "opened_prs": [
     {
-      "repository": "free-graph",
-      "number": 19,
-      "title": "RELAY-001 sixth organ: native SIA provenance graph and bounded traversal",
-      "url": "https://github.com/the-static-collective/free-graph/pull/19",
-      "head_branch": "experiment/relay001-sia-traversal",
-      "base_branch": "main"
-    },
-    {
-      "repository": "planZ",
-      "number": 17,
-      "title": "RELAY-001: seventh-organ Free Graph → planZ bounded mission census",
-      "url": "https://github.com/the-static-collective/planZ/pull/17",
-      "head_branch": "experiment/relay001-next-mission",
+      "repository": "reLATTE",
+      "number": 115,
+      "title": "R3-CF-001: reLATTE signed receiver on Cloudflare SQLite Durable Objects",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/115",
+      "head_branch": "feat/cloudflare-sqlite-receiver-001",
       "base_branch": "main"
     },
     {
       "repository": "reLATTE",
-      "number": 113,
-      "title": "RELAY-001: Verify GHoT donor and cross into native signed reLATTE HOLD",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/113",
-      "head_branch": "experiment/relay001-ghot-opaque-hold",
-      "base_branch": "main"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 114,
-      "title": "BRIAR CONTINUATION 002 — attributed upstream source bootstrap",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/114",
-      "head_branch": "experiment/briar-continuation-002-source-bootstrap",
-      "base_branch": "experiment/briar-continuation-001-headless-door"
-    },
-    {
-      "repository": "SIA",
-      "number": 3,
-      "title": "RELAY-001: preserve five native organ crossings as a content-addressed SIA history",
-      "url": "https://github.com/the-static-collective/SIA/pull/3",
-      "head_branch": "experiment/relay001-fifth-organ-archive",
-      "base_branch": "main"
-    },
-    {
-      "repository": "static-briars",
-      "number": 1,
-      "title": "STATIC BRIARS 001 — source lineage and license guard",
-      "url": "https://github.com/the-static-collective/static-briars/pull/1",
-      "head_branch": "experiment/source-integrity-001",
-      "base_branch": "static/continuation-001"
-    },
-    {
-      "repository": "static-briars",
-      "number": 2,
-      "title": "ROAD COMPASS 001 — first native Briar Android UX: honest path states and Mailbox",
-      "url": "https://github.com/the-static-collective/static-briars/pull/2",
-      "head_branch": "experiment/road-compass-001-android",
-      "base_branch": "static/continuation-001"
-    },
-    {
-      "repository": "static-briars",
-      "number": 4,
-      "title": "NETWORK WITNESS 002 — actual Briar transport state and offline field protocol",
-      "url": "https://github.com/the-static-collective/static-briars/pull/4",
-      "head_branch": "experiment/network-witness-002-android",
-      "base_branch": "experiment/road-compass-001-android"
-    },
-    {
-      "repository": "static-briars",
-      "number": 5,
-      "title": "STATICDEV 001 — independent Android lab identity and gated debug APK",
-      "url": "https://github.com/the-static-collective/static-briars/pull/5",
-      "head_branch": "experiment/staticdev-packaging-001",
-      "base_branch": "experiment/road-compass-001-android"
-    },
-    {
-      "repository": "static-briars",
-      "number": 6,
-      "title": "STATICDEV 002 — offline Android emulator coexistence and launch smoke",
-      "url": "https://github.com/the-static-collective/static-briars/pull/6",
-      "head_branch": "experiment/staticdev-emulator-002",
-      "base_branch": "experiment/staticdev-packaging-001"
-    },
-    {
-      "repository": "static-briars",
-      "number": 7,
-      "title": "OFFLINE WITNESS 003 — role-separated local test ledger for Briar disconnect/reconnect",
-      "url": "https://github.com/the-static-collective/static-briars/pull/7",
-      "head_branch": "experiment/offline-witness-003-field-kit",
-      "base_branch": "experiment/network-witness-002-android"
-    },
-    {
-      "repository": "static-briars",
-      "number": 8,
-      "title": "STATIC LAB 004 — build Network Witness + distinct Android identity together",
-      "url": "https://github.com/the-static-collective/static-briars/pull/8",
-      "head_branch": "experiment/combined-network-apk-004",
-      "base_branch": "experiment/staticdev-packaging-001"
-    },
-    {
-      "repository": "static-briars",
-      "number": 9,
-      "title": "MOTO STYLUS 2022 — Android 11/12 first-flight compatibility",
-      "url": "https://github.com/the-static-collective/static-briars/pull/9",
-      "head_branch": "experiment/moto-stylus-2022-ready-005",
-      "base_branch": "experiment/combined-network-apk-004"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 360,
-      "title": "RELAY-001 organ 8: run source-pinned native six-up without KEEP or render",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/360",
-      "head_branch": "experiment/relay001-blue-night-six-up",
-      "base_branch": "main"
-    },
-    {
-      "repository": "vidmage",
-      "number": 20,
-      "title": "PAULA 016 — iPhone Vidmage + separate Home and AWS studios",
-      "url": "https://github.com/the-static-collective/vidmage/pull/20",
-      "head_branch": "feature/paula-dual-host-016",
-      "base_branch": "experiment/band-iq-013-candidate-tray-cross-bits"
-    },
-    {
-      "repository": "vidmage",
-      "number": 21,
-      "title": "Paula 017 — ph.abundent.org iPhone front door and Home/AWS DNS plan",
-      "url": "https://github.com/the-static-collective/vidmage/pull/21",
-      "head_branch": "feature/paula-domain-017-ph-abundent",
-      "base_branch": "feature/paula-dual-host-016"
-    },
-    {
-      "repository": "webZ",
-      "number": 62,
-      "title": "RELAY-001: add fourth-organ signed HOLD evidence door to webZ",
-      "url": "https://github.com/the-static-collective/webZ/pull/62",
-      "head_branch": "experiment/relay001-relatte-evidence-door",
-      "base_branch": "main"
+      "number": 116,
+      "title": "R3-CF-002: independent owner/receiver Durable Objects with signed crossing",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/116",
+      "head_branch": "feat/mw-two-world-edge-002",
+      "base_branch": "feat/cloudflare-sqlite-receiver-001"
     }
   ],
   "left_open_prs": []

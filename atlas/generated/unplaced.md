@@ -678,12 +678,14 @@ Default: `main` · other refs: 3 · open PRs: 3
 
 [Repository](https://github.com/the-static-collective/reLATTE) · [Branches](https://github.com/the-static-collective/reLATTE/branches) · [Pull requests](https://github.com/the-static-collective/reLATTE/pulls)
 
-Default: `main` · other refs: 115 · open PRs: 85
+Default: `main` · other refs: 117 · open PRs: 87
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#116](https://github.com/the-static-collective/reLATTE/pull/116) | R3-CF-002: independent owner/receiver Durable Objects with signed crossing | `feat/mw-two-world-edge-002` → `feat/cloudflare-sqlite-receiver-001` | 2026-10-14 |
+| [#115](https://github.com/the-static-collective/reLATTE/pull/115) | R3-CF-001: reLATTE signed receiver on Cloudflare SQLite Durable Objects | `feat/cloudflare-sqlite-receiver-001` → `main` | 2026-10-14 |
 | [#114](https://github.com/the-static-collective/reLATTE/pull/114) | BRIAR CONTINUATION 002 — attributed upstream source bootstrap | `experiment/briar-continuation-002-source-bootstrap` → `experiment/briar-continuation-001-headless-door` | 2026-10-13 |
 | [#113](https://github.com/the-static-collective/reLATTE/pull/113) | RELAY-001: Verify GHoT donor and cross into native signed reLATTE HOLD | `experiment/relay001-ghot-opaque-hold` → `main` | 2026-10-13 |
 | [#112](https://github.com/the-static-collective/reLATTE/pull/112) | BRIAR CONTINUATION 001 — human invitation via real Headless API | `experiment/briar-continuation-001-headless-door` → `experiment/roadworks-001-briar-transport-policy` | 2026-10-13 |
@@ -840,6 +842,7 @@ Default: `main` · other refs: 115 · open PRs: 85
 | [feat/browse-metabolism](https://github.com/the-static-collective/reLATTE/tree/feat/browse-metabolism) | [7d7fc2b44f](https://github.com/the-static-collective/reLATTE/commit/7d7fc2b44f00717647804675185ac9f269a788ed) | [open PR #10](https://github.com/the-static-collective/reLATTE/pull/10) |
 | [feat/capability-kernel-two-worlds-001](https://github.com/the-static-collective/reLATTE/tree/feat/capability-kernel-two-worlds-001) | [08b45ed4b5](https://github.com/the-static-collective/reLATTE/commit/08b45ed4b5a62714c197942438ec2c9fc4d62571) | [open PR #43](https://github.com/the-static-collective/reLATTE/pull/43) |
 | [feat/carry-card-hostile-001](https://github.com/the-static-collective/reLATTE/tree/feat/carry-card-hostile-001) | [5c6f1a5a9d](https://github.com/the-static-collective/reLATTE/commit/5c6f1a5a9d6d557255fa11f247287324219571d0) | [open PR #44](https://github.com/the-static-collective/reLATTE/pull/44) |
+| [feat/cloudflare-sqlite-receiver-001](https://github.com/the-static-collective/reLATTE/tree/feat/cloudflare-sqlite-receiver-001) | [cc186eb785](https://github.com/the-static-collective/reLATTE/commit/cc186eb7859144a0d61478a18519131cb8790e6b) | [open PR #115](https://github.com/the-static-collective/reLATTE/pull/115) |
 | [feat/com5-metabolism](https://github.com/the-static-collective/reLATTE/tree/feat/com5-metabolism) | [3679e0ae66](https://github.com/the-static-collective/reLATTE/commit/3679e0ae66477e5c4118357c1f57f73d59c02f66) | [open PR #8](https://github.com/the-static-collective/reLATTE/pull/8) |
 | [feat/customs-house-001](https://github.com/the-static-collective/reLATTE/tree/feat/customs-house-001) | [c0da062983](https://github.com/the-static-collective/reLATTE/commit/c0da0629830b92baa4962fb7c3e2f690e623e838) | [open PR #45](https://github.com/the-static-collective/reLATTE/pull/45) |
 | [feat/did-binding-001](https://github.com/the-static-collective/reLATTE/tree/feat/did-binding-001) | [84403ecfc4](https://github.com/the-static-collective/reLATTE/commit/84403ecfc4acce37509d58de1a40ff0e4bee5987) | [open PR #31](https://github.com/the-static-collective/reLATTE/pull/31) |
@@ -850,6 +853,7 @@ Default: `main` · other refs: 115 · open PRs: 85
 | [feat/live-dht-gateway-001](https://github.com/the-static-collective/reLATTE/tree/feat/live-dht-gateway-001) | [eb956dcae5](https://github.com/the-static-collective/reLATTE/commit/eb956dcae5a042947a45f588805eaa248bea0ee1) | [open PR #33](https://github.com/the-static-collective/reLATTE/pull/33) |
 | [feat/mail-slot-static-post-001](https://github.com/the-static-collective/reLATTE/tree/feat/mail-slot-static-post-001) | [28b67acbae](https://github.com/the-static-collective/reLATTE/commit/28b67acbae929c77877647b0cb67354edbcc211c) | [open PR #46](https://github.com/the-static-collective/reLATTE/pull/46) |
 | [feat/mortal-road-001](https://github.com/the-static-collective/reLATTE/tree/feat/mortal-road-001) | [b88463aa13](https://github.com/the-static-collective/reLATTE/commit/b88463aa13e29fe95563471464f53f4f76e94321) | [open PR #39](https://github.com/the-static-collective/reLATTE/pull/39) |
+| [feat/mw-two-world-edge-002](https://github.com/the-static-collective/reLATTE/tree/feat/mw-two-world-edge-002) | [b7a1f95c4c](https://github.com/the-static-collective/reLATTE/commit/b7a1f95c4ce38944cbbede72c5c6bc3fa2774235) | [open PR #116](https://github.com/the-static-collective/reLATTE/pull/116) |
 | [feat/opaque-roundtrip-001](https://github.com/the-static-collective/reLATTE/tree/feat/opaque-roundtrip-001) | [c0829671ed](https://github.com/the-static-collective/reLATTE/commit/c0829671edf02c1e29e87fd1514410f04038682a) | Retained ref; disposition unverified |
 | [feat/r1-r2-canonical-identity](https://github.com/the-static-collective/reLATTE/tree/feat/r1-r2-canonical-identity) | [dccf7a670c](https://github.com/the-static-collective/reLATTE/commit/dccf7a670c366c740d7cd27eef8c7adb337f6e3c) | Retained ref; disposition unverified |
 | [feat/r3-sovereign-receiver](https://github.com/the-static-collective/reLATTE/tree/feat/r3-sovereign-receiver) | [fe837e86e9](https://github.com/the-static-collective/reLATTE/commit/fe837e86e992ebb2e5367a4f0b3d7ac353bcc7b0) | Retained ref; disposition unverified |

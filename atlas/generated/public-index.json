@@ -8365,6 +8365,10 @@
           "sha": "5c6f1a5a9d6d557255fa11f247287324219571d0"
         },
         {
+          "name": "feat/cloudflare-sqlite-receiver-001",
+          "sha": "cc186eb7859144a0d61478a18519131cb8790e6b"
+        },
+        {
           "name": "feat/com5-metabolism",
           "sha": "3679e0ae66477e5c4118357c1f57f73d59c02f66"
         },
@@ -8403,6 +8407,10 @@
         {
           "name": "feat/mortal-road-001",
           "sha": "b88463aa13e29fe95563471464f53f4f76e94321"
+        },
+        {
+          "name": "feat/mw-two-world-edge-002",
+          "sha": "b7a1f95c4ce38944cbbede72c5c6bc3fa2774235"
         },
         {
           "name": "feat/opaque-roundtrip-001",
@@ -8566,6 +8574,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 116,
+          "title": "R3-CF-002: independent owner/receiver Durable Objects with signed crossing",
+          "head_branch": "feat/mw-two-world-edge-002",
+          "head_sha": "b7a1f95c4ce38944cbbede72c5c6bc3fa2774235",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "feat/cloudflare-sqlite-receiver-001",
+          "updated_at": "2026-10-14T22:01:37Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/116"
+        },
+        {
+          "number": 115,
+          "title": "R3-CF-001: reLATTE signed receiver on Cloudflare SQLite Durable Objects",
+          "head_branch": "feat/cloudflare-sqlite-receiver-001",
+          "head_sha": "cc186eb7859144a0d61478a18519131cb8790e6b",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-10-14T18:56:39Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/115"
+        },
         {
           "number": 114,
           "title": "BRIAR CONTINUATION 002 — attributed upstream source bootstrap",
@@ -17444,7 +17472,7 @@
         },
         {
           "name": "main",
-          "sha": "7886af0ba5b4e2f9b6f5d90b2c3a995c89601a73"
+          "sha": "91f83f3bcf24334f3e4e1191dfefac807549114b"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -17879,5 +17907,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-14T12:52:52+00:00"
+  "captured_at": "2026-10-15T12:39:46+00:00"
 }
