@@ -4,7 +4,7 @@ description: "Dated, source-linked public Git inventory for the Static Collectiv
 
 # Public Git inventory
 
-Captured: **2026-10-15T12:39:46+00:00** · **84 public repositories** · **1977 branch refs** (including defaults) · **919 open PRs**.
+Captured: **2026-10-16T12:24:39+00:00** · **85 public repositories** · **1980 branch refs** (including defaults) · **922 open PRs**.
 
 [Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
 
@@ -25,7 +25,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [Images and appliances](images-and-appliances.md) | 10 | 339 | 143 |
 | [Worlds and inquiry](worlds-and-inquiry.md) | 6 | 128 | 46 |
 | [Operating surfaces](operating-surfaces.md) | 5 | 178 | 128 |
-| [Unplaced public repositories](unplaced.md) | 19 | 503 | 388 |
+| [Unplaced public repositories](unplaced.md) | 20 | 506 | 391 |
 
 ## All public repositories
 
@@ -86,12 +86,13 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [seedforge](https://github.com/the-static-collective/seedforge) | [Participation and care](participation-and-care.md) | 0 | 0 |
 | [seedforge-v0](https://github.com/the-static-collective/seedforge-v0) | [Participation and care](participation-and-care.md) | 0 | 0 |
 | [seedFORK](https://github.com/the-static-collective/seedFORK) | [Participation and care](participation-and-care.md) | 0 | 0 |
-| [SIA](https://github.com/the-static-collective/SIA) | [Unplaced public repositories](unplaced.md) | 4 | 2 |
+| [SIA](https://github.com/the-static-collective/SIA) | [Unplaced public repositories](unplaced.md) | 5 | 3 |
 | [static-briars](https://github.com/the-static-collective/static-briars) | [Unplaced public repositories](unplaced.md) | 11 | 8 |
 | [static-field](https://github.com/the-static-collective/static-field) | [Worlds and inquiry](worlds-and-inquiry.md) | 10 | 8 |
 | [static-live](https://github.com/the-static-collective/static-live) | [Songs and stages](songs-and-stages.md) | 23 | 8 |
 | [static-os](https://github.com/the-static-collective/static-os) | [Operating surfaces](operating-surfaces.md) | 74 | 71 |
 | [static-workbench](https://github.com/the-static-collective/static-workbench) | [Operating surfaces](operating-surfaces.md) | 98 | 57 |
+| [story-dna](https://github.com/the-static-collective/story-dna) | [Unplaced public repositories](unplaced.md) | 0 | 0 |
 | [STORYSHIP](https://github.com/the-static-collective/STORYSHIP) | [Songs and stages](songs-and-stages.md) | 5 | 2 |
 | [the-autodisco](https://github.com/the-static-collective/the-autodisco) | [Origins and witnesses](origins-and-witnesses.md) | 8 | 8 |
 | [The-AutodiscoV.20.-question-marks-](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-) | [Origins and witnesses](origins-and-witnesses.md) | 6 | 0 |
@@ -111,7 +112,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [unfolding-ledger](https://github.com/the-static-collective/unfolding-ledger) | [Contracts and memory](contracts-and-memory.md) | 1 | 0 |
 | [Upper-room](https://github.com/the-static-collective/Upper-room) | [Worlds and inquiry](worlds-and-inquiry.md) | 8 | 3 |
 | [vidmage](https://github.com/the-static-collective/vidmage) | [Unplaced public repositories](unplaced.md) | 19 | 19 |
-| [webZ](https://github.com/the-static-collective/webZ) | [Unplaced public repositories](unplaced.md) | 52 | 42 |
+| [webZ](https://github.com/the-static-collective/webZ) | [Unplaced public repositories](unplaced.md) | 54 | 44 |
 | [What-is-the-static-collective-](https://github.com/the-static-collective/What-is-the-static-collective-) | [Origins and witnesses](origins-and-witnesses.md) | 80 | 20 |
 | [WITNESS](https://github.com/the-static-collective/WITNESS) | [Unplaced public repositories](unplaced.md) | 2 | 1 |
 | [WORLDSEED](https://github.com/the-static-collective/WORLDSEED) | [Worlds and inquiry](worlds-and-inquiry.md) | 9 | 7 |

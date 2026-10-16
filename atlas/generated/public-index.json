@@ -9866,6 +9866,10 @@
           "sha": "86cc113ccb96d104ba338040086014e6dddf9948"
         },
         {
+          "name": "feat/story-dna-relationship-passenger-002",
+          "sha": "e17df81515ad392eedb573f323a163eef77b53b8"
+        },
+        {
           "name": "feat/suno-album-capture-2026-10-13",
           "sha": "f4005afd6357b5ffca3ed6f19421d1b0a7ffbc1f"
         },
@@ -9879,6 +9883,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 5,
+          "title": "STORY DNA 002 — relationship passenger prototype (incubation)",
+          "head_branch": "feat/story-dna-relationship-passenger-002",
+          "head_sha": "e17df81515ad392eedb573f323a163eef77b53b8",
+          "head_repo": "the-static-collective/SIA",
+          "base_branch": "main",
+          "updated_at": "2026-10-16T12:09:57Z",
+          "url": "https://github.com/the-static-collective/SIA/pull/5"
+        },
         {
           "number": 3,
           "title": "RELAY-001: preserve five native organ crossings as a content-addressed SIA history",
@@ -12354,6 +12368,14 @@
           "url": "https://github.com/the-static-collective/static-workbench/pull/16"
         }
       ]
+    },
+    {
+      "name": "story-dna",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [],
+      "open_prs": []
     },
     {
       "name": "STORYSHIP",
@@ -16673,6 +16695,10 @@
           "sha": "c754d0c33acbb14500812403fb9fd081244322fd"
         },
         {
+          "name": "experiment/needs-001-first-crossing",
+          "sha": "b68810cd5ef7870458dd1ac40b246f4d2159ee6c"
+        },
+        {
           "name": "experiment/pocket-door-crossing-006",
           "sha": "ea88ce53828f8b8bd46995ff51910ecb5872445c"
         },
@@ -16795,9 +16821,33 @@
         {
           "name": "release/a-week-together-garden-001",
           "sha": "1617369bc105ec065c2ec917298ea5381647cc43"
+        },
+        {
+          "name": "release/needs-001-abundent-live",
+          "sha": "65539f065db609c97e5c3ca1ca0b2d0f90c7498a"
         }
       ],
       "open_prs": [
+        {
+          "number": 64,
+          "title": "Release candidate: bring NEEDS-001 to the Abundent garden",
+          "head_branch": "release/needs-001-abundent-live",
+          "head_sha": "65539f065db609c97e5c3ca1ca0b2d0f90c7498a",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feat/abundent-door-composer-001",
+          "updated_at": "2026-10-16T11:02:48Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/64"
+        },
+        {
+          "number": 63,
+          "title": "NEEDS-001: first crossing for What Can We Do Today?",
+          "head_branch": "experiment/needs-001-first-crossing",
+          "head_sha": "b68810cd5ef7870458dd1ac40b246f4d2159ee6c",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-15T18:50:16Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/63"
+        },
         {
           "number": 62,
           "title": "RELAY-001: add fourth-organ signed HOLD evidence door to webZ",
@@ -17472,7 +17522,7 @@
         },
         {
           "name": "main",
-          "sha": "91f83f3bcf24334f3e4e1191dfefac807549114b"
+          "sha": "9e8fc876bc4465033d3605ef91326a015497e216"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -17907,5 +17957,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-15T12:39:46+00:00"
+  "captured_at": "2026-10-16T12:24:39+00:00"
 }

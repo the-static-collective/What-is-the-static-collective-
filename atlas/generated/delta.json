@@ -1,19 +1,26 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-14T12:52:52+00:00",
-  "to_captured_at": "2026-10-15T12:39:46+00:00",
-  "added_repositories": [],
+  "from_captured_at": "2026-10-15T12:39:46+00:00",
+  "to_captured_at": "2026-10-16T12:24:39+00:00",
+  "added_repositories": [
+    "story-dna"
+  ],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "reLATTE",
-      "branch": "feat/cloudflare-sqlite-receiver-001",
-      "sha": "cc186eb7859144a0d61478a18519131cb8790e6b"
+      "repository": "SIA",
+      "branch": "feat/story-dna-relationship-passenger-002",
+      "sha": "e17df81515ad392eedb573f323a163eef77b53b8"
     },
     {
-      "repository": "reLATTE",
-      "branch": "feat/mw-two-world-edge-002",
-      "sha": "b7a1f95c4ce38944cbbede72c5c6bc3fa2774235"
+      "repository": "webZ",
+      "branch": "experiment/needs-001-first-crossing",
+      "sha": "b68810cd5ef7870458dd1ac40b246f4d2159ee6c"
+    },
+    {
+      "repository": "webZ",
+      "branch": "release/needs-001-abundent-live",
+      "sha": "65539f065db609c97e5c3ca1ca0b2d0f90c7498a"
     }
   ],
   "removed_branches": [],
@@ -21,26 +28,34 @@
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "7886af0ba5b4e2f9b6f5d90b2c3a995c89601a73",
-      "to_sha": "91f83f3bcf24334f3e4e1191dfefac807549114b"
+      "from_sha": "91f83f3bcf24334f3e4e1191dfefac807549114b",
+      "to_sha": "9e8fc876bc4465033d3605ef91326a015497e216"
     }
   ],
   "opened_prs": [
     {
-      "repository": "reLATTE",
-      "number": 115,
-      "title": "R3-CF-001: reLATTE signed receiver on Cloudflare SQLite Durable Objects",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/115",
-      "head_branch": "feat/cloudflare-sqlite-receiver-001",
+      "repository": "SIA",
+      "number": 5,
+      "title": "STORY DNA 002 — relationship passenger prototype (incubation)",
+      "url": "https://github.com/the-static-collective/SIA/pull/5",
+      "head_branch": "feat/story-dna-relationship-passenger-002",
       "base_branch": "main"
     },
     {
-      "repository": "reLATTE",
-      "number": 116,
-      "title": "R3-CF-002: independent owner/receiver Durable Objects with signed crossing",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/116",
-      "head_branch": "feat/mw-two-world-edge-002",
-      "base_branch": "feat/cloudflare-sqlite-receiver-001"
+      "repository": "webZ",
+      "number": 63,
+      "title": "NEEDS-001: first crossing for What Can We Do Today?",
+      "url": "https://github.com/the-static-collective/webZ/pull/63",
+      "head_branch": "experiment/needs-001-first-crossing",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 64,
+      "title": "Release candidate: bring NEEDS-001 to the Abundent garden",
+      "url": "https://github.com/the-static-collective/webZ/pull/64",
+      "head_branch": "release/needs-001-abundent-live",
+      "base_branch": "feat/abundent-door-composer-001"
     }
   ],
   "left_open_prs": []

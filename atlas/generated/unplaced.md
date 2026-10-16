@@ -898,12 +898,13 @@ Default: `main` · other refs: 117 · open PRs: 87
 
 [Repository](https://github.com/the-static-collective/SIA) · [Branches](https://github.com/the-static-collective/SIA/branches) · [Pull requests](https://github.com/the-static-collective/SIA/pulls)
 
-Default: `main` · other refs: 4 · open PRs: 2
+Default: `main` · other refs: 5 · open PRs: 3
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#5](https://github.com/the-static-collective/SIA/pull/5) | STORY DNA 002 — relationship passenger prototype (incubation) | `feat/story-dna-relationship-passenger-002` → `main` | 2026-10-16 |
 | [#3](https://github.com/the-static-collective/SIA/pull/3) | RELAY-001: preserve five native organ crossings as a content-addressed SIA history | `experiment/relay001-fifth-organ-archive` → `main` | 2026-10-13 |
 | [#1](https://github.com/the-static-collective/SIA/pull/1) | SIA Gate 002A — Suno owner-export intake and metadata metabolism | `feature/suno-owner-export-intake-001` → `main` | 2026-10-13 |
 
@@ -913,6 +914,7 @@ Default: `main` · other refs: 4 · open PRs: 2
 | --- | --- | --- |
 | [experiment/relay001-fifth-organ-archive](https://github.com/the-static-collective/SIA/tree/experiment/relay001-fifth-organ-archive) | [a61ef4871c](https://github.com/the-static-collective/SIA/commit/a61ef4871c2d26101a361265983f03733c25aad9) | [open PR #3](https://github.com/the-static-collective/SIA/pull/3) |
 | [feat/blue-night-morning-sia-20261013](https://github.com/the-static-collective/SIA/tree/feat/blue-night-morning-sia-20261013) | [86cc113ccb](https://github.com/the-static-collective/SIA/commit/86cc113ccb96d104ba338040086014e6dddf9948) | Retained ref; disposition unverified |
+| [feat/story-dna-relationship-passenger-002](https://github.com/the-static-collective/SIA/tree/feat/story-dna-relationship-passenger-002) | [e17df81515](https://github.com/the-static-collective/SIA/commit/e17df81515ad392eedb573f323a163eef77b53b8) | [open PR #5](https://github.com/the-static-collective/SIA/pull/5) |
 | [feat/suno-album-capture-2026-10-13](https://github.com/the-static-collective/SIA/tree/feat/suno-album-capture-2026-10-13) | [f4005afd63](https://github.com/the-static-collective/SIA/commit/f4005afd6357b5ffca3ed6f19421d1b0a7ffbc1f) | Retained ref; disposition unverified |
 | [feature/suno-owner-export-intake-001](https://github.com/the-static-collective/SIA/tree/feature/suno-owner-export-intake-001) | [d8ee6f0fac](https://github.com/the-static-collective/SIA/commit/d8ee6f0facf41980523e4bb95a1d28d8a1223836) | [open PR #1](https://github.com/the-static-collective/SIA/pull/1) |
 
@@ -950,6 +952,12 @@ Default: `main` · other refs: 11 · open PRs: 8
 | [fix/android-compile-toolchain-001](https://github.com/the-static-collective/static-briars/tree/fix/android-compile-toolchain-001) | [a0f6ed0463](https://github.com/the-static-collective/static-briars/commit/a0f6ed046331919ef3e56f141c67e1ebb2cea70f) | Retained ref; disposition unverified |
 | [static/continuation-001](https://github.com/the-static-collective/static-briars/tree/static/continuation-001) | [aa275f28c1](https://github.com/the-static-collective/static-briars/commit/aa275f28c1c4b3795e254d6967898d0e5bf3831e) | Retained ref; disposition unverified |
 | [upstream/release-1.5.22](https://github.com/the-static-collective/static-briars/tree/upstream/release-1.5.22) | [d03d6fcd77](https://github.com/the-static-collective/static-briars/commit/d03d6fcd776349ec6c8b7d22035e9bb04aa1787c) | Retained ref; disposition unverified |
+
+## story-dna
+
+[Repository](https://github.com/the-static-collective/story-dna) · [Branches](https://github.com/the-static-collective/story-dna/branches) · [Pull requests](https://github.com/the-static-collective/story-dna/pulls)
+
+Default: `main` · other refs: 0 · open PRs: 0 · empty repository
 
 ## the-static-collective
 
@@ -1027,12 +1035,14 @@ Default: `main` · other refs: 19 · open PRs: 19
 
 [Repository](https://github.com/the-static-collective/webZ) · [Branches](https://github.com/the-static-collective/webZ/branches) · [Pull requests](https://github.com/the-static-collective/webZ/pulls)
 
-Default: `main` · other refs: 52 · open PRs: 42
+Default: `main` · other refs: 54 · open PRs: 44
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#64](https://github.com/the-static-collective/webZ/pull/64) | Release candidate: bring NEEDS-001 to the Abundent garden | `release/needs-001-abundent-live` → `feat/abundent-door-composer-001` | 2026-10-16 |
+| [#63](https://github.com/the-static-collective/webZ/pull/63) | NEEDS-001: first crossing for What Can We Do Today? | `experiment/needs-001-first-crossing` → `main` | 2026-10-15 |
 | [#62](https://github.com/the-static-collective/webZ/pull/62) | RELAY-001: add fourth-organ signed HOLD evidence door to webZ | `experiment/relay001-relatte-evidence-door` → `main` | 2026-10-13 |
 | [#61](https://github.com/the-static-collective/webZ/pull/61) | Navigation Composer 001 — the field is the instrument | `experiment/living-navigation-composer-001` → `main` | 2026-10-13 |
 | [#60](https://github.com/the-static-collective/webZ/pull/60) | ABUNDENT DOOR COMPOSER 001 — relation-driven navigation across worlds and songs | `feat/abundent-door-composer-001` → `release/a-week-together-garden-001` | 2026-10-13 |
@@ -1102,6 +1112,7 @@ Default: `main` · other refs: 52 · open PRs: 42
 | [experiment/music-field-004-audius-listening-orchard](https://github.com/the-static-collective/webZ/tree/experiment/music-field-004-audius-listening-orchard) | [18189f7aac](https://github.com/the-static-collective/webZ/commit/18189f7aaca21ea90ab70b3749506fd8c3185dc8) | [open PR #38](https://github.com/the-static-collective/webZ/pull/38) |
 | [experiment/name-orchard-001-signed-missing-book](https://github.com/the-static-collective/webZ/tree/experiment/name-orchard-001-signed-missing-book) | [c1d56bc592](https://github.com/the-static-collective/webZ/commit/c1d56bc592ada0a56d5995cb37524a9ee6f9f11c) | [open PR #42](https://github.com/the-static-collective/webZ/pull/42) |
 | [experiment/name-orchard-002-sms-postcards](https://github.com/the-static-collective/webZ/tree/experiment/name-orchard-002-sms-postcards) | [c754d0c33a](https://github.com/the-static-collective/webZ/commit/c754d0c33acbb14500812403fb9fd081244322fd) | [open PR #45](https://github.com/the-static-collective/webZ/pull/45) |
+| [experiment/needs-001-first-crossing](https://github.com/the-static-collective/webZ/tree/experiment/needs-001-first-crossing) | [b68810cd5e](https://github.com/the-static-collective/webZ/commit/b68810cd5ef7870458dd1ac40b246f4d2159ee6c) | [open PR #63](https://github.com/the-static-collective/webZ/pull/63) |
 | [experiment/pocket-door-crossing-006](https://github.com/the-static-collective/webZ/tree/experiment/pocket-door-crossing-006) | [ea88ce5382](https://github.com/the-static-collective/webZ/commit/ea88ce53828f8b8bd46995ff51910ecb5872445c) | [open PR #47](https://github.com/the-static-collective/webZ/pull/47) |
 | [experiment/post-office-courier-004](https://github.com/the-static-collective/webZ/tree/experiment/post-office-courier-004) | [6a712ff5ff](https://github.com/the-static-collective/webZ/commit/6a712ff5ff393d85cc62c1b7acec177474ffaab0) | [open PR #41](https://github.com/the-static-collective/webZ/pull/41) |
 | [experiment/post-office-peer-003](https://github.com/the-static-collective/webZ/tree/experiment/post-office-peer-003) | [7881d95be9](https://github.com/the-static-collective/webZ/commit/7881d95be90fd15e20c3379cbd1a965331951456) | [open PR #39](https://github.com/the-static-collective/webZ/pull/39) |
@@ -1132,6 +1143,7 @@ Default: `main` · other refs: 52 · open PRs: 42
 | [feature/a-week-together-listening-room-001](https://github.com/the-static-collective/webZ/tree/feature/a-week-together-listening-room-001) | [cc98e92db4](https://github.com/the-static-collective/webZ/commit/cc98e92db41668bea86bf93ca14ebd12fc733ffe) | Retained ref; disposition unverified |
 | [feature/listening-rooms-dial-zoom-001](https://github.com/the-static-collective/webZ/tree/feature/listening-rooms-dial-zoom-001) | [e06ecfdf68](https://github.com/the-static-collective/webZ/commit/e06ecfdf681eef1df12f19d0ac36fb23d6b17833) | Retained ref; disposition unverified |
 | [release/a-week-together-garden-001](https://github.com/the-static-collective/webZ/tree/release/a-week-together-garden-001) | [1617369bc1](https://github.com/the-static-collective/webZ/commit/1617369bc105ec065c2ec917298ea5381647cc43) | Retained ref; disposition unverified |
+| [release/needs-001-abundent-live](https://github.com/the-static-collective/webZ/tree/release/needs-001-abundent-live) | [65539f065d](https://github.com/the-static-collective/webZ/commit/65539f065db609c97e5c3ca1ca0b2d0f90c7498a) | [open PR #64](https://github.com/the-static-collective/webZ/pull/64) |
 
 ## WITNESS
 
