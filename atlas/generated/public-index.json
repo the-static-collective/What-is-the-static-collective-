@@ -6341,6 +6341,10 @@
           "sha": "8d86d12d91f54b16038a03c8e8668d87e2a165c6"
         },
         {
+          "name": "experiment/keep-a-place-reader-002",
+          "sha": "a1fdc52d3e826123325d14a36cca5f46a8d53ae8"
+        },
+        {
           "name": "experiment/letter-cycle-001",
           "sha": "61901de57126dd00470561de0391ba4a51c4698a"
         },
@@ -6558,6 +6562,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 54,
+          "title": "KEEP-A-PLACE-002 — first illustrated song → held lemonPRESS panel parcel",
+          "head_branch": "experiment/keep-a-place-reader-002",
+          "head_sha": "a1fdc52d3e826123325d14a36cca5f46a8d53ae8",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "experiment/house-takes-attendance-press-001",
+          "updated_at": "2026-10-16T19:39:28Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/54"
+        },
         {
           "number": 53,
           "title": "MARGINALIA RENDER PROOF 003 — real 6×9 PDF + offline HTML, explicit human selection",
@@ -7646,6 +7660,10 @@
           "sha": "9f6f1c339109f73c351eff1dcf1ed77187044693"
         },
         {
+          "name": "experiment/banana-reactor-64-001",
+          "sha": "7481da74c98b66ef34daf04a6d36458fedae7167"
+        },
+        {
           "name": "experiment/branch-capability-census-004",
           "sha": "ec384bfddbdff471ea8d9b295b905980f702e1ad"
         },
@@ -7678,6 +7696,10 @@
           "sha": "8621c46f8e4e70d7e2c09fe57a2936dcb949f6f6"
         },
         {
+          "name": "harvest/conversation-ideas-2026-10-16-001",
+          "sha": "9fe64b9d48792499cfd972b9de88bf0d63268f11"
+        },
+        {
           "name": "main",
           "sha": "dad6593c3718c65fa4bb7a3650af8fc80d060ce6"
         },
@@ -7691,6 +7713,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 19,
+          "title": "BANANAS-001: eight-chamber reactor for all 64 conversation seeds",
+          "head_branch": "experiment/banana-reactor-64-001",
+          "head_sha": "7481da74c98b66ef34daf04a6d36458fedae7167",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "harvest/conversation-ideas-2026-10-16-001",
+          "updated_at": "2026-10-16T18:45:05Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/19"
+        },
+        {
+          "number": 18,
+          "title": "PLANZ-CHAT-001 — 64 conversation-seed candidates (public-safe, provenance quarantine)",
+          "head_branch": "harvest/conversation-ideas-2026-10-16-001",
+          "head_sha": "9fe64b9d48792499cfd972b9de88bf0d63268f11",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "feat/global-plan-census-001",
+          "updated_at": "2026-10-16T13:01:29Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/18"
+        },
         {
           "number": 17,
           "title": "RELAY-001: seventh-organ Free Graph → planZ bounded mission census",
@@ -12374,8 +12416,84 @@
       "visibility": "public",
       "default_branch": "main",
       "archived": false,
-      "branches": [],
-      "open_prs": []
+      "branches": [
+        {
+          "name": "experiment/keep-a-place-song-to-panel-001",
+          "sha": "b881a56398725f767530d1967019d7323a1212e3"
+        },
+        {
+          "name": "feat/character-registry-003",
+          "sha": "096514ce33ccf8f83629273fe83d74b78bc58fc6"
+        },
+        {
+          "name": "feat/grok-lab-rescue-005",
+          "sha": "b38905bfde3e4389f6007caf183d07e536fdeea5"
+        },
+        {
+          "name": "feat/relationship-passenger-002",
+          "sha": "beab7fd5ab6f63de2a7a9332998c22bedf6b73ea"
+        },
+        {
+          "name": "feat/visual-continuity-004",
+          "sha": "c541c4511c459bbb80668f2a655904437d8296fd"
+        },
+        {
+          "name": "main",
+          "sha": "eda04425493c1b772fab62ea338e8b8e09edb989"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 5,
+          "title": "LAB-005: portable Grok Build rescue and local Story DNA bank",
+          "head_branch": "feat/grok-lab-rescue-005",
+          "head_sha": "b38905bfde3e4389f6007caf183d07e536fdeea5",
+          "head_repo": "the-static-collective/story-dna",
+          "base_branch": "main",
+          "updated_at": "2026-10-16T19:52:32Z",
+          "url": "https://github.com/the-static-collective/story-dna/pull/5"
+        },
+        {
+          "number": 4,
+          "title": "KEEP-A-PLACE-001: real owner MP3 → held five-panel Story DNA / lemonPRESS / VidMage handoff",
+          "head_branch": "experiment/keep-a-place-song-to-panel-001",
+          "head_sha": "b881a56398725f767530d1967019d7323a1212e3",
+          "head_repo": "the-static-collective/story-dna",
+          "base_branch": "feat/visual-continuity-004",
+          "updated_at": "2026-10-16T19:11:36Z",
+          "url": "https://github.com/the-static-collective/story-dna/pull/4"
+        },
+        {
+          "number": 3,
+          "title": "Visual Continuity 004 — source-bound Character Mirror, style variation and human review",
+          "head_branch": "feat/visual-continuity-004",
+          "head_sha": "c541c4511c459bbb80668f2a655904437d8296fd",
+          "head_repo": "the-static-collective/story-dna",
+          "base_branch": "feat/character-registry-003",
+          "updated_at": "2026-10-16T13:55:44Z",
+          "url": "https://github.com/the-static-collective/story-dna/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "Character Registry 003 — stable identities, continuity variants, relationship echoes and offline atlas",
+          "head_branch": "feat/character-registry-003",
+          "head_sha": "096514ce33ccf8f83629273fe83d74b78bc58fc6",
+          "head_repo": "the-static-collective/story-dna",
+          "base_branch": "feat/relationship-passenger-002",
+          "updated_at": "2026-10-16T13:38:31Z",
+          "url": "https://github.com/the-static-collective/story-dna/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "STORY DNA 002 — independent Relationship Passenger engine + offline Story Bank",
+          "head_branch": "feat/relationship-passenger-002",
+          "head_sha": "beab7fd5ab6f63de2a7a9332998c22bedf6b73ea",
+          "head_repo": "the-static-collective/story-dna",
+          "base_branch": "main",
+          "updated_at": "2026-10-16T12:32:52Z",
+          "url": "https://github.com/the-static-collective/story-dna/pull/1"
+        }
+      ]
     },
     {
       "name": "STORYSHIP",
@@ -16615,6 +16733,10 @@
           "sha": "b487aab92a8a2a572001cd91424a81b3a14abce9"
         },
         {
+          "name": "experiment/abundent-banana-reactor-001",
+          "sha": "8993d13c826d62389d3ff75288984c764236a1d5"
+        },
+        {
           "name": "experiment/abundent-relatte-crossing-001",
           "sha": "d8a71d8f3b2f26c44d3716a566982dae055688b0"
         },
@@ -16828,6 +16950,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 65,
+          "title": "BANANAS-001 — Abundent composer becomes a 64-seed living reactor",
+          "head_branch": "experiment/abundent-banana-reactor-001",
+          "head_sha": "8993d13c826d62389d3ff75288984c764236a1d5",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "release/needs-001-abundent-live",
+          "updated_at": "2026-10-16T18:55:35Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/65"
+        },
         {
           "number": 64,
           "title": "Release candidate: bring NEEDS-001 to the Abundent garden",
@@ -17522,7 +17654,7 @@
         },
         {
           "name": "main",
-          "sha": "9e8fc876bc4465033d3605ef91326a015497e216"
+          "sha": "487a9b0bec8b02d6d7dcbb377e2fa0bf02965198"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -17957,5 +18089,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-16T12:24:39+00:00"
+  "captured_at": "2026-10-17T11:35:48+00:00"
 }

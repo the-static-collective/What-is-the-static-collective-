@@ -504,12 +504,13 @@ Default: `main` · other refs: 18 · open PRs: 18
 
 [Repository](https://github.com/the-static-collective/lemonPRESS) · [Branches](https://github.com/the-static-collective/lemonPRESS/branches) · [Pull requests](https://github.com/the-static-collective/lemonPRESS/pulls)
 
-Default: `main` · other refs: 57 · open PRs: 33
+Default: `main` · other refs: 58 · open PRs: 34
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#54](https://github.com/the-static-collective/lemonPRESS/pull/54) | KEEP-A-PLACE-002 — first illustrated song → held lemonPRESS panel parcel | `experiment/keep-a-place-reader-002` → `experiment/house-takes-attendance-press-001` | 2026-10-16 |
 | [#53](https://github.com/the-static-collective/lemonPRESS/pull/53) | MARGINALIA RENDER PROOF 003 — real 6×9 PDF + offline HTML, explicit human selection | `experiment/marginalia-printproof-review-003` → `experiment/marginalia-three-doors-002` | 2026-10-11 |
 | [#52](https://github.com/the-static-collective/lemonPRESS/pull/52) | MARGINALIA THREE DOORS 002 — one selected reading, page × voice × fragment | `experiment/marginalia-three-doors-002` → `experiment/goatnote-marginalia-press-001` | 2026-10-11 |
 | [#51](https://github.com/the-static-collective/lemonPRESS/pull/51) | MARGINALIA PRESS 001 — quote-bound GOATnote reading candidate, no admission | `experiment/goatnote-marginalia-press-001` → `main` | 2026-10-11 |
@@ -552,6 +553,7 @@ Default: `main` · other refs: 57 · open PRs: 33
 | [experiment/box-binding-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/box-binding-001) | [6e3e55762a](https://github.com/the-static-collective/lemonPRESS/commit/6e3e55762af43904057123c7159fcacc9da86c58) | [open PR #38](https://github.com/the-static-collective/lemonPRESS/pull/38) |
 | [experiment/goatnote-marginalia-press-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/goatnote-marginalia-press-001) | [ed6f784455](https://github.com/the-static-collective/lemonPRESS/commit/ed6f7844551e828399b4dfcf46b921174f9c15de) | [open PR #51](https://github.com/the-static-collective/lemonPRESS/pull/51) |
 | [experiment/house-takes-attendance-press-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/house-takes-attendance-press-001) | [8d86d12d91](https://github.com/the-static-collective/lemonPRESS/commit/8d86d12d91f54b16038a03c8e8668d87e2a165c6) | [open PR #28](https://github.com/the-static-collective/lemonPRESS/pull/28) |
+| [experiment/keep-a-place-reader-002](https://github.com/the-static-collective/lemonPRESS/tree/experiment/keep-a-place-reader-002) | [a1fdc52d3e](https://github.com/the-static-collective/lemonPRESS/commit/a1fdc52d3e826123325d14a36cca5f46a8d53ae8) | [open PR #54](https://github.com/the-static-collective/lemonPRESS/pull/54) |
 | [experiment/letter-cycle-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/letter-cycle-001) | [61901de571](https://github.com/the-static-collective/lemonPRESS/commit/61901de57126dd00470561de0391ba4a51c4698a) | [open PR #50](https://github.com/the-static-collective/lemonPRESS/pull/50) |
 | [experiment/manga-index-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/manga-index-001) | [66105ac227](https://github.com/the-static-collective/lemonPRESS/commit/66105ac2276414a5ebdb9baae048147880f50d52) | [open PR #26](https://github.com/the-static-collective/lemonPRESS/pull/26) |
 | [experiment/manga-parcel-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/manga-parcel-001) | [8ef9b4f3ad](https://github.com/the-static-collective/lemonPRESS/commit/8ef9b4f3adcb85504937f962a1c6f2dd2e5f6296) | [open PR #24](https://github.com/the-static-collective/lemonPRESS/pull/24) |
@@ -616,12 +618,14 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/planZ) · [Branches](https://github.com/the-static-collective/planZ/branches) · [Pull requests](https://github.com/the-static-collective/planZ/pulls)
 
-Default: `main` · other refs: 12 · open PRs: 12
+Default: `main` · other refs: 14 · open PRs: 14
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#19](https://github.com/the-static-collective/planZ/pull/19) | BANANAS-001: eight-chamber reactor for all 64 conversation seeds | `experiment/banana-reactor-64-001` → `harvest/conversation-ideas-2026-10-16-001` | 2026-10-16 |
+| [#18](https://github.com/the-static-collective/planZ/pull/18) | PLANZ-CHAT-001 — 64 conversation-seed candidates (public-safe, provenance quarantine) | `harvest/conversation-ideas-2026-10-16-001` → `feat/global-plan-census-001` | 2026-10-16 |
 | [#17](https://github.com/the-static-collective/planZ/pull/17) | RELAY-001: seventh-organ Free Graph → planZ bounded mission census | `experiment/relay001-next-mission` → `main` | 2026-10-13 |
 | [#16](https://github.com/the-static-collective/planZ/pull/16) | JUBILEE-002 — verified Genesis door and local field notebook | `build/jubilee-field-kit-002` → `build/jubilee-road-room-001` | 2026-10-11 |
 | [#15](https://github.com/the-static-collective/planZ/pull/15) | JUBILEE-001 — executable Giving Tree and three-town caravan | `build/jubilee-road-room-001` → `proposal/revival-traveling-jubilee-topper-001` | 2026-10-11 |
@@ -641,6 +645,7 @@ Default: `main` · other refs: 12 · open PRs: 12
 | --- | --- | --- |
 | [build/jubilee-field-kit-002](https://github.com/the-static-collective/planZ/tree/build/jubilee-field-kit-002) | [21cdf8399f](https://github.com/the-static-collective/planZ/commit/21cdf8399f185b022d1356a7383509fe7f4adf93) | [open PR #16](https://github.com/the-static-collective/planZ/pull/16) |
 | [build/jubilee-road-room-001](https://github.com/the-static-collective/planZ/tree/build/jubilee-road-room-001) | [9f6f1c3391](https://github.com/the-static-collective/planZ/commit/9f6f1c339109f73c351eff1dcf1ed77187044693) | [open PR #15](https://github.com/the-static-collective/planZ/pull/15) |
+| [experiment/banana-reactor-64-001](https://github.com/the-static-collective/planZ/tree/experiment/banana-reactor-64-001) | [7481da74c9](https://github.com/the-static-collective/planZ/commit/7481da74c98b66ef34daf04a6d36458fedae7167) | [open PR #19](https://github.com/the-static-collective/planZ/pull/19) |
 | [experiment/branch-capability-census-004](https://github.com/the-static-collective/planZ/tree/experiment/branch-capability-census-004) | [ec384bfddb](https://github.com/the-static-collective/planZ/commit/ec384bfddbdff471ea8d9b295b905980f702e1ad) | [open PR #11](https://github.com/the-static-collective/planZ/pull/11) |
 | [experiment/fatherhand-grant-chain-residue-001](https://github.com/the-static-collective/planZ/tree/experiment/fatherhand-grant-chain-residue-001) | [e8111fdb64](https://github.com/the-static-collective/planZ/commit/e8111fdb64c5587b33aece0fed639ed3d03375ac) | [open PR #10](https://github.com/the-static-collective/planZ/pull/10) |
 | [experiment/heart-001-fatherhand-combinatrix](https://github.com/the-static-collective/planZ/tree/experiment/heart-001-fatherhand-combinatrix) | [bc0ae32e0a](https://github.com/the-static-collective/planZ/commit/bc0ae32e0abb22cda53cc197acd6d14429fee6fa) | [open PR #9](https://github.com/the-static-collective/planZ/pull/9) |
@@ -649,6 +654,7 @@ Default: `main` · other refs: 12 · open PRs: 12
 | [feat/global-plan-census-001](https://github.com/the-static-collective/planZ/tree/feat/global-plan-census-001) | [c93ccbfa6a](https://github.com/the-static-collective/planZ/commit/c93ccbfa6a501cdfd5e4ff8a3957300ecc0ae9c5) | [open PR #2](https://github.com/the-static-collective/planZ/pull/2) |
 | [feat/remains-instruments-003](https://github.com/the-static-collective/planZ/tree/feat/remains-instruments-003) | [535d34b5d7](https://github.com/the-static-collective/planZ/commit/535d34b5d7680ab98fb50e717b4cd00b972a232b) | [open PR #6](https://github.com/the-static-collective/planZ/pull/6) |
 | [feat/transition-receipts-003-1](https://github.com/the-static-collective/planZ/tree/feat/transition-receipts-003-1) | [8621c46f8e](https://github.com/the-static-collective/planZ/commit/8621c46f8e4e70d7e2c09fe57a2936dcb949f6f6) | [open PR #8](https://github.com/the-static-collective/planZ/pull/8) |
+| [harvest/conversation-ideas-2026-10-16-001](https://github.com/the-static-collective/planZ/tree/harvest/conversation-ideas-2026-10-16-001) | [9fe64b9d48](https://github.com/the-static-collective/planZ/commit/9fe64b9d48792499cfd972b9de88bf0d63268f11) | [open PR #18](https://github.com/the-static-collective/planZ/pull/18) |
 | [proposal/master-servant-field-score-001](https://github.com/the-static-collective/planZ/tree/proposal/master-servant-field-score-001) | [b819dec38b](https://github.com/the-static-collective/planZ/commit/b819dec38b36f49ae1d1991d4e73a752bb4a2d5d) | [open PR #12](https://github.com/the-static-collective/planZ/pull/12) |
 | [proposal/revival-traveling-jubilee-topper-001](https://github.com/the-static-collective/planZ/tree/proposal/revival-traveling-jubilee-topper-001) | [686c8df2be](https://github.com/the-static-collective/planZ/commit/686c8df2bec928a83c05b3198fb4898c663e22f4) | [open PR #14](https://github.com/the-static-collective/planZ/pull/14) |
 
@@ -957,7 +963,27 @@ Default: `main` · other refs: 11 · open PRs: 8
 
 [Repository](https://github.com/the-static-collective/story-dna) · [Branches](https://github.com/the-static-collective/story-dna/branches) · [Pull requests](https://github.com/the-static-collective/story-dna/pulls)
 
-Default: `main` · other refs: 0 · open PRs: 0 · empty repository
+Default: `main` · other refs: 5 · open PRs: 5
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#5](https://github.com/the-static-collective/story-dna/pull/5) | LAB-005: portable Grok Build rescue and local Story DNA bank | `feat/grok-lab-rescue-005` → `main` | 2026-10-16 |
+| [#4](https://github.com/the-static-collective/story-dna/pull/4) | KEEP-A-PLACE-001: real owner MP3 → held five-panel Story DNA / lemonPRESS / VidMage handoff | `experiment/keep-a-place-song-to-panel-001` → `feat/visual-continuity-004` | 2026-10-16 |
+| [#3](https://github.com/the-static-collective/story-dna/pull/3) | Visual Continuity 004 — source-bound Character Mirror, style variation and human review | `feat/visual-continuity-004` → `feat/character-registry-003` | 2026-10-16 |
+| [#2](https://github.com/the-static-collective/story-dna/pull/2) | Character Registry 003 — stable identities, continuity variants, relationship echoes and offline atlas | `feat/character-registry-003` → `feat/relationship-passenger-002` | 2026-10-16 |
+| [#1](https://github.com/the-static-collective/story-dna/pull/1) | STORY DNA 002 — independent Relationship Passenger engine + offline Story Bank | `feat/relationship-passenger-002` → `main` | 2026-10-16 |
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [experiment/keep-a-place-song-to-panel-001](https://github.com/the-static-collective/story-dna/tree/experiment/keep-a-place-song-to-panel-001) | [b881a56398](https://github.com/the-static-collective/story-dna/commit/b881a56398725f767530d1967019d7323a1212e3) | [open PR #4](https://github.com/the-static-collective/story-dna/pull/4) |
+| [feat/character-registry-003](https://github.com/the-static-collective/story-dna/tree/feat/character-registry-003) | [096514ce33](https://github.com/the-static-collective/story-dna/commit/096514ce33ccf8f83629273fe83d74b78bc58fc6) | [open PR #2](https://github.com/the-static-collective/story-dna/pull/2) |
+| [feat/grok-lab-rescue-005](https://github.com/the-static-collective/story-dna/tree/feat/grok-lab-rescue-005) | [b38905bfde](https://github.com/the-static-collective/story-dna/commit/b38905bfde3e4389f6007caf183d07e536fdeea5) | [open PR #5](https://github.com/the-static-collective/story-dna/pull/5) |
+| [feat/relationship-passenger-002](https://github.com/the-static-collective/story-dna/tree/feat/relationship-passenger-002) | [beab7fd5ab](https://github.com/the-static-collective/story-dna/commit/beab7fd5ab6f63de2a7a9332998c22bedf6b73ea) | [open PR #1](https://github.com/the-static-collective/story-dna/pull/1) |
+| [feat/visual-continuity-004](https://github.com/the-static-collective/story-dna/tree/feat/visual-continuity-004) | [c541c4511c](https://github.com/the-static-collective/story-dna/commit/c541c4511c459bbb80668f2a655904437d8296fd) | [open PR #3](https://github.com/the-static-collective/story-dna/pull/3) |
 
 ## the-static-collective
 
@@ -1035,12 +1061,13 @@ Default: `main` · other refs: 19 · open PRs: 19
 
 [Repository](https://github.com/the-static-collective/webZ) · [Branches](https://github.com/the-static-collective/webZ/branches) · [Pull requests](https://github.com/the-static-collective/webZ/pulls)
 
-Default: `main` · other refs: 54 · open PRs: 44
+Default: `main` · other refs: 55 · open PRs: 45
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#65](https://github.com/the-static-collective/webZ/pull/65) | BANANAS-001 — Abundent composer becomes a 64-seed living reactor | `experiment/abundent-banana-reactor-001` → `release/needs-001-abundent-live` | 2026-10-16 |
 | [#64](https://github.com/the-static-collective/webZ/pull/64) | Release candidate: bring NEEDS-001 to the Abundent garden | `release/needs-001-abundent-live` → `feat/abundent-door-composer-001` | 2026-10-16 |
 | [#63](https://github.com/the-static-collective/webZ/pull/63) | NEEDS-001: first crossing for What Can We Do Today? | `experiment/needs-001-first-crossing` → `main` | 2026-10-15 |
 | [#62](https://github.com/the-static-collective/webZ/pull/62) | RELAY-001: add fourth-organ signed HOLD evidence door to webZ | `experiment/relay001-relatte-evidence-door` → `main` | 2026-10-13 |
@@ -1092,6 +1119,7 @@ Default: `main` · other refs: 54 · open PRs: 44
 | --- | --- | --- |
 | [archive/abundent-garden-workbench-2026-10-13](https://github.com/the-static-collective/webZ/tree/archive/abundent-garden-workbench-2026-10-13) | [1617369bc1](https://github.com/the-static-collective/webZ/commit/1617369bc105ec065c2ec917298ea5381647cc43) | Retained ref; disposition unverified |
 | [design/webz-maxhinal-porch-001](https://github.com/the-static-collective/webZ/tree/design/webz-maxhinal-porch-001) | [b487aab92a](https://github.com/the-static-collective/webZ/commit/b487aab92a8a2a572001cd91424a81b3a14abce9) | Retained ref; disposition unverified |
+| [experiment/abundent-banana-reactor-001](https://github.com/the-static-collective/webZ/tree/experiment/abundent-banana-reactor-001) | [8993d13c82](https://github.com/the-static-collective/webZ/commit/8993d13c826d62389d3ff75288984c764236a1d5) | [open PR #65](https://github.com/the-static-collective/webZ/pull/65) |
 | [experiment/abundent-relatte-crossing-001](https://github.com/the-static-collective/webZ/tree/experiment/abundent-relatte-crossing-001) | [d8a71d8f3b](https://github.com/the-static-collective/webZ/commit/d8a71d8f3b2f26c44d3716a566982dae055688b0) | [open PR #49](https://github.com/the-static-collective/webZ/pull/49) |
 | [experiment/branch-receipt-viewer-002](https://github.com/the-static-collective/webZ/tree/experiment/branch-receipt-viewer-002) | [5cd9b50d38](https://github.com/the-static-collective/webZ/commit/5cd9b50d386568ffcbf6f90cfe803aa9cba816ac) | [open PR #52](https://github.com/the-static-collective/webZ/pull/52) |
 | [experiment/branch-workshop-001](https://github.com/the-static-collective/webZ/tree/experiment/branch-workshop-001) | [525058b098](https://github.com/the-static-collective/webZ/commit/525058b09808555957199701ba966f22987a4771) | [open PR #50](https://github.com/the-static-collective/webZ/pull/50) |

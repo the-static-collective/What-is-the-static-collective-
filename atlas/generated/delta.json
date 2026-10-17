@@ -1,26 +1,59 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-15T12:39:46+00:00",
-  "to_captured_at": "2026-10-16T12:24:39+00:00",
-  "added_repositories": [
-    "story-dna"
-  ],
+  "from_captured_at": "2026-10-16T12:24:39+00:00",
+  "to_captured_at": "2026-10-17T11:35:48+00:00",
+  "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "SIA",
-      "branch": "feat/story-dna-relationship-passenger-002",
-      "sha": "e17df81515ad392eedb573f323a163eef77b53b8"
+      "repository": "lemonPRESS",
+      "branch": "experiment/keep-a-place-reader-002",
+      "sha": "a1fdc52d3e826123325d14a36cca5f46a8d53ae8"
+    },
+    {
+      "repository": "planZ",
+      "branch": "experiment/banana-reactor-64-001",
+      "sha": "7481da74c98b66ef34daf04a6d36458fedae7167"
+    },
+    {
+      "repository": "planZ",
+      "branch": "harvest/conversation-ideas-2026-10-16-001",
+      "sha": "9fe64b9d48792499cfd972b9de88bf0d63268f11"
+    },
+    {
+      "repository": "story-dna",
+      "branch": "experiment/keep-a-place-song-to-panel-001",
+      "sha": "b881a56398725f767530d1967019d7323a1212e3"
+    },
+    {
+      "repository": "story-dna",
+      "branch": "feat/character-registry-003",
+      "sha": "096514ce33ccf8f83629273fe83d74b78bc58fc6"
+    },
+    {
+      "repository": "story-dna",
+      "branch": "feat/grok-lab-rescue-005",
+      "sha": "b38905bfde3e4389f6007caf183d07e536fdeea5"
+    },
+    {
+      "repository": "story-dna",
+      "branch": "feat/relationship-passenger-002",
+      "sha": "beab7fd5ab6f63de2a7a9332998c22bedf6b73ea"
+    },
+    {
+      "repository": "story-dna",
+      "branch": "feat/visual-continuity-004",
+      "sha": "c541c4511c459bbb80668f2a655904437d8296fd"
+    },
+    {
+      "repository": "story-dna",
+      "branch": "main",
+      "sha": "eda04425493c1b772fab62ea338e8b8e09edb989"
     },
     {
       "repository": "webZ",
-      "branch": "experiment/needs-001-first-crossing",
-      "sha": "b68810cd5ef7870458dd1ac40b246f4d2159ee6c"
-    },
-    {
-      "repository": "webZ",
-      "branch": "release/needs-001-abundent-live",
-      "sha": "65539f065db609c97e5c3ca1ca0b2d0f90c7498a"
+      "branch": "experiment/abundent-banana-reactor-001",
+      "sha": "8993d13c826d62389d3ff75288984c764236a1d5"
     }
   ],
   "removed_branches": [],
@@ -28,34 +61,82 @@
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "91f83f3bcf24334f3e4e1191dfefac807549114b",
-      "to_sha": "9e8fc876bc4465033d3605ef91326a015497e216"
+      "from_sha": "9e8fc876bc4465033d3605ef91326a015497e216",
+      "to_sha": "487a9b0bec8b02d6d7dcbb377e2fa0bf02965198"
     }
   ],
   "opened_prs": [
     {
-      "repository": "SIA",
+      "repository": "lemonPRESS",
+      "number": 54,
+      "title": "KEEP-A-PLACE-002 — first illustrated song → held lemonPRESS panel parcel",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/54",
+      "head_branch": "experiment/keep-a-place-reader-002",
+      "base_branch": "experiment/house-takes-attendance-press-001"
+    },
+    {
+      "repository": "planZ",
+      "number": 18,
+      "title": "PLANZ-CHAT-001 — 64 conversation-seed candidates (public-safe, provenance quarantine)",
+      "url": "https://github.com/the-static-collective/planZ/pull/18",
+      "head_branch": "harvest/conversation-ideas-2026-10-16-001",
+      "base_branch": "feat/global-plan-census-001"
+    },
+    {
+      "repository": "planZ",
+      "number": 19,
+      "title": "BANANAS-001: eight-chamber reactor for all 64 conversation seeds",
+      "url": "https://github.com/the-static-collective/planZ/pull/19",
+      "head_branch": "experiment/banana-reactor-64-001",
+      "base_branch": "harvest/conversation-ideas-2026-10-16-001"
+    },
+    {
+      "repository": "story-dna",
+      "number": 1,
+      "title": "STORY DNA 002 — independent Relationship Passenger engine + offline Story Bank",
+      "url": "https://github.com/the-static-collective/story-dna/pull/1",
+      "head_branch": "feat/relationship-passenger-002",
+      "base_branch": "main"
+    },
+    {
+      "repository": "story-dna",
+      "number": 2,
+      "title": "Character Registry 003 — stable identities, continuity variants, relationship echoes and offline atlas",
+      "url": "https://github.com/the-static-collective/story-dna/pull/2",
+      "head_branch": "feat/character-registry-003",
+      "base_branch": "feat/relationship-passenger-002"
+    },
+    {
+      "repository": "story-dna",
+      "number": 3,
+      "title": "Visual Continuity 004 — source-bound Character Mirror, style variation and human review",
+      "url": "https://github.com/the-static-collective/story-dna/pull/3",
+      "head_branch": "feat/visual-continuity-004",
+      "base_branch": "feat/character-registry-003"
+    },
+    {
+      "repository": "story-dna",
+      "number": 4,
+      "title": "KEEP-A-PLACE-001: real owner MP3 → held five-panel Story DNA / lemonPRESS / VidMage handoff",
+      "url": "https://github.com/the-static-collective/story-dna/pull/4",
+      "head_branch": "experiment/keep-a-place-song-to-panel-001",
+      "base_branch": "feat/visual-continuity-004"
+    },
+    {
+      "repository": "story-dna",
       "number": 5,
-      "title": "STORY DNA 002 — relationship passenger prototype (incubation)",
-      "url": "https://github.com/the-static-collective/SIA/pull/5",
-      "head_branch": "feat/story-dna-relationship-passenger-002",
+      "title": "LAB-005: portable Grok Build rescue and local Story DNA bank",
+      "url": "https://github.com/the-static-collective/story-dna/pull/5",
+      "head_branch": "feat/grok-lab-rescue-005",
       "base_branch": "main"
     },
     {
       "repository": "webZ",
-      "number": 63,
-      "title": "NEEDS-001: first crossing for What Can We Do Today?",
-      "url": "https://github.com/the-static-collective/webZ/pull/63",
-      "head_branch": "experiment/needs-001-first-crossing",
-      "base_branch": "main"
-    },
-    {
-      "repository": "webZ",
-      "number": 64,
-      "title": "Release candidate: bring NEEDS-001 to the Abundent garden",
-      "url": "https://github.com/the-static-collective/webZ/pull/64",
-      "head_branch": "release/needs-001-abundent-live",
-      "base_branch": "feat/abundent-door-composer-001"
+      "number": 65,
+      "title": "BANANAS-001 — Abundent composer becomes a 64-seed living reactor",
+      "url": "https://github.com/the-static-collective/webZ/pull/65",
+      "head_branch": "experiment/abundent-banana-reactor-001",
+      "base_branch": "release/needs-001-abundent-live"
     }
   ],
   "left_open_prs": []
