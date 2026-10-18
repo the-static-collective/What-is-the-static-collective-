@@ -17654,7 +17654,7 @@
         },
         {
           "name": "main",
-          "sha": "487a9b0bec8b02d6d7dcbb377e2fa0bf02965198"
+          "sha": "6a2d925aa59e8dda608249ccedd6b497ec14f174"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -18089,5 +18089,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-17T11:35:48+00:00"
+  "captured_at": "2026-10-18T12:03:50+00:00"
 }
