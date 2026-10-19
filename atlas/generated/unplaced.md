@@ -137,12 +137,13 @@ Default: `main` · other refs: 4 · open PRs: 4
 
 [Repository](https://github.com/the-static-collective/GHoT) · [Branches](https://github.com/the-static-collective/GHoT/branches) · [Pull requests](https://github.com/the-static-collective/GHoT/pulls)
 
-Default: `main` · other refs: 126 · open PRs: 118
+Default: `main` · other refs: 127 · open PRs: 119
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#131](https://github.com/the-static-collective/GHoT/pull/131) | WORSHIP-STAGE-001 — GHoT capability for Static Live rehearsal checks | `experiment/worship-stage-organ-001` → `main` | 2026-10-18 |
 | [#130](https://github.com/the-static-collective/GHoT/pull/130) | RELAY-001: Bind native LOADOUT effect fence to GHoT media.probe | `experiment/relay001-loadout-media-probe` → `main` | 2026-10-13 |
 | [#129](https://github.com/the-static-collective/GHoT/pull/129) | Commons Machine 001 — tranchNOSE physical events to GHoT proposal routes | `experiment/commons-machine-tranchnose-001` → `main` | 2026-10-12 |
 | [#128](https://github.com/the-static-collective/GHoT/pull/128) | AI RECOMPOSITION 001 — Two Thinking Organs through the native Instrument Rack | `experiment/ai-recomposition-001-thinking-workbench` → `feat/instrument-rack-001` | 2026-10-11 |
@@ -363,6 +364,7 @@ Default: `main` · other refs: 126 · open PRs: 118
 | [experiment/unheard-choir-020](https://github.com/the-static-collective/GHoT/tree/experiment/unheard-choir-020) | [24874213ca](https://github.com/the-static-collective/GHoT/commit/24874213cad61d633076d24b00ce4fae4ca20ebf) | [open PR #95](https://github.com/the-static-collective/GHoT/pull/95) |
 | [experiment/world-asks-back-001](https://github.com/the-static-collective/GHoT/tree/experiment/world-asks-back-001) | [fb70338c2e](https://github.com/the-static-collective/GHoT/commit/fb70338c2e76a599977072f0c7b58b2d966f7005) | [open PR #93](https://github.com/the-static-collective/GHoT/pull/93) |
 | [experiment/world-asks-back-002](https://github.com/the-static-collective/GHoT/tree/experiment/world-asks-back-002) | [86de6de028](https://github.com/the-static-collective/GHoT/commit/86de6de0283881c5b11270299aa0c4d94a1ae1f5) | [open PR #94](https://github.com/the-static-collective/GHoT/pull/94) |
+| [experiment/worship-stage-organ-001](https://github.com/the-static-collective/GHoT/tree/experiment/worship-stage-organ-001) | [d59dc91a0a](https://github.com/the-static-collective/GHoT/commit/d59dc91a0aa5893e4b9e4e88ee55450b45a80da9) | [open PR #131](https://github.com/the-static-collective/GHoT/pull/131) |
 | [experiment/zebra-kodak-print-surfaces-003](https://github.com/the-static-collective/GHoT/tree/experiment/zebra-kodak-print-surfaces-003) | [1e5f82b154](https://github.com/the-static-collective/GHoT/commit/1e5f82b154e1cd87f60f1174975a5caef2ab6ad6) | [open PR #107](https://github.com/the-static-collective/GHoT/pull/107) |
 | [external-adapter-manifest-001](https://github.com/the-static-collective/GHoT/tree/external-adapter-manifest-001) | [e12ce3e624](https://github.com/the-static-collective/GHoT/commit/e12ce3e62486feb1e5cd2324d1ae5a6a2be8b19b) | Retained ref; disposition unverified |
 | [feat/compost-breeder-001](https://github.com/the-static-collective/GHoT/tree/feat/compost-breeder-001) | [d898cc6a25](https://github.com/the-static-collective/GHoT/commit/d898cc6a25d0c3569d5126ecab2754c9f82cfd02) | [open PR #70](https://github.com/the-static-collective/GHoT/pull/70) |
@@ -452,12 +454,14 @@ Default: `main` · other refs: 27 · open PRs: 12
 
 [Repository](https://github.com/the-static-collective/Jubilee-treasury) · [Branches](https://github.com/the-static-collective/Jubilee-treasury/branches) · [Pull requests](https://github.com/the-static-collective/Jubilee-treasury/pulls)
 
-Default: `main` · other refs: 18 · open PRs: 18
+Default: `main` · other refs: 20 · open PRs: 20
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#25](https://github.com/the-static-collective/Jubilee-treasury/pull/25) | PENNY BOX 002 — one physical-and-digital identity, QR-ready poster and mobile commons board | `experiment/penny-box-002-physical-digital-identity` → `experiment/penny-box-001-church-participation` | 2026-10-18 |
+| [#24](https://github.com/the-static-collective/Jubilee-treasury/pull/24) | PENNY BOX 001 — small things count: physical box, community need board, steward receipts | `experiment/penny-box-001-church-participation` → `main` | 2026-10-18 |
 | [#23](https://github.com/the-static-collective/Jubilee-treasury/pull/23) | PENNY-020 — The Crank Remembers: durable turn and paper recovery | `experiment/haunted-jubilee-powerloss-020` → `experiment/haunted-jubilee-arcade-019` | 2026-10-09 |
 | [#22](https://github.com/the-static-collective/Jubilee-treasury/pull/22) | PENNY-019 — playable Haunted Jubilee Arcade: two-box crank, ghost photo, MAIL/HOLD | `experiment/haunted-jubilee-arcade-019` → `experiment/penny-field-capture-018` | 2026-10-09 |
 | [#21](https://github.com/the-static-collective/Jubilee-treasury/pull/21) | PENNY-018 — real printer status capture, challenge-bound inspection and sovereign evidence handoff | `experiment/penny-field-capture-018` → `experiment/penny-hardware-witness-017` | 2026-10-09 |
@@ -489,6 +493,8 @@ Default: `main` · other refs: 18 · open PRs: 18
 | [experiment/haunted-jubilee-powerloss-020](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/haunted-jubilee-powerloss-020) | [33fa9c4bdd](https://github.com/the-static-collective/Jubilee-treasury/commit/33fa9c4bddc35fca77834ece45cfeee50f482afc) | [open PR #23](https://github.com/the-static-collective/Jubilee-treasury/pull/23) |
 | [experiment/living-capacity-index-008](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/living-capacity-index-008) | [04eefb6454](https://github.com/the-static-collective/Jubilee-treasury/commit/04eefb64541700d5ac3f31387d6c5f6d2d830c0d) | [open PR #7](https://github.com/the-static-collective/Jubilee-treasury/pull/7) |
 | [experiment/native-capacity-routing-002](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/native-capacity-routing-002) | [efb6ce130b](https://github.com/the-static-collective/Jubilee-treasury/commit/efb6ce130bc793bbe8990a08907fa6ef9b7cd68b) | [open PR #4](https://github.com/the-static-collective/Jubilee-treasury/pull/4) |
+| [experiment/penny-box-001-church-participation](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-box-001-church-participation) | [bb05d90c12](https://github.com/the-static-collective/Jubilee-treasury/commit/bb05d90c12b13f5c7c1c948d85c54cec2dbcd2ce) | [open PR #24](https://github.com/the-static-collective/Jubilee-treasury/pull/24) |
+| [experiment/penny-box-002-physical-digital-identity](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-box-002-physical-digital-identity) | [495424cea6](https://github.com/the-static-collective/Jubilee-treasury/commit/495424cea612d2f10555866218d0dda3d277f7b3) | [open PR #25](https://github.com/the-static-collective/Jubilee-treasury/pull/25) |
 | [experiment/penny-box-that-asks-016](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-box-that-asks-016) | [55fcc580db](https://github.com/the-static-collective/Jubilee-treasury/commit/55fcc580db6c6acee5b49660d45f8b809dc86b9d) | [open PR #19](https://github.com/the-static-collective/Jubilee-treasury/pull/19) |
 | [experiment/penny-field-capture-018](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-field-capture-018) | [3b6bbad7e1](https://github.com/the-static-collective/Jubilee-treasury/commit/3b6bbad7e17e782c8724542c18755d9d12fc5f3e) | [open PR #21](https://github.com/the-static-collective/Jubilee-treasury/pull/21) |
 | [experiment/penny-hardware-witness-017](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-hardware-witness-017) | [3dc224f618](https://github.com/the-static-collective/Jubilee-treasury/commit/3dc224f61839f5312f99ab65a546dca6a9a9254c) | [open PR #20](https://github.com/the-static-collective/Jubilee-treasury/pull/20) |
@@ -684,12 +690,13 @@ Default: `main` · other refs: 3 · open PRs: 3
 
 [Repository](https://github.com/the-static-collective/reLATTE) · [Branches](https://github.com/the-static-collective/reLATTE/branches) · [Pull requests](https://github.com/the-static-collective/reLATTE/pulls)
 
-Default: `main` · other refs: 117 · open PRs: 87
+Default: `main` · other refs: 120 · open PRs: 88
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#117](https://github.com/the-static-collective/reLATTE/pull/117) | Living Hymnal 002 — signed lyric crossing, independently admitted or refused | `experiment/hymnal-crossing-002` → `main` | 2026-10-18 |
 | [#116](https://github.com/the-static-collective/reLATTE/pull/116) | R3-CF-002: independent owner/receiver Durable Objects with signed crossing | `feat/mw-two-world-edge-002` → `feat/cloudflare-sqlite-receiver-001` | 2026-10-14 |
 | [#115](https://github.com/the-static-collective/reLATTE/pull/115) | R3-CF-001: reLATTE signed receiver on Cloudflare SQLite Durable Objects | `feat/cloudflare-sqlite-receiver-001` → `main` | 2026-10-14 |
 | [#114](https://github.com/the-static-collective/reLATTE/pull/114) | BRIAR CONTINUATION 002 — attributed upstream source bootstrap | `experiment/briar-continuation-002-source-bootstrap` → `experiment/briar-continuation-001-headless-door` | 2026-10-13 |
@@ -803,6 +810,9 @@ Default: `main` · other refs: 117 · open PRs: 87
 | [experiment/dynamic-interface-field-001](https://github.com/the-static-collective/reLATTE/tree/experiment/dynamic-interface-field-001) | [1bdb060130](https://github.com/the-static-collective/reLATTE/commit/1bdb060130842df2f634831a80f4dc5bb57f630c) | [open PR #78](https://github.com/the-static-collective/reLATTE/pull/78) |
 | [experiment/fabrication-crossing-013](https://github.com/the-static-collective/reLATTE/tree/experiment/fabrication-crossing-013) | [ded308b463](https://github.com/the-static-collective/reLATTE/commit/ded308b463df4eda2003000b4202d3c7aaa2dc84) | [open PR #87](https://github.com/the-static-collective/reLATTE/pull/87) |
 | [experiment/first-contact-001](https://github.com/the-static-collective/reLATTE/tree/experiment/first-contact-001) | [ae3fd0f568](https://github.com/the-static-collective/reLATTE/commit/ae3fd0f56860683245dfd27ff32edf64311046bf) | [open PR #62](https://github.com/the-static-collective/reLATTE/pull/62) |
+| [experiment/horizon-agent-commons-001](https://github.com/the-static-collective/reLATTE/tree/experiment/horizon-agent-commons-001) | [71edde9a67](https://github.com/the-static-collective/reLATTE/commit/71edde9a671fd7f5717c2dcaa58b4a152c10703b) | Retained ref; disposition unverified |
+| [experiment/horizon-mcp-readonly-002](https://github.com/the-static-collective/reLATTE/tree/experiment/horizon-mcp-readonly-002) | [ed39b59715](https://github.com/the-static-collective/reLATTE/commit/ed39b597154647f9d4905b00e3dd3f1e0fc54d05) | Retained ref; disposition unverified |
+| [experiment/hymnal-crossing-002](https://github.com/the-static-collective/reLATTE/tree/experiment/hymnal-crossing-002) | [6b1bf6b734](https://github.com/the-static-collective/reLATTE/commit/6b1bf6b7340bbe912d7e646f35a08862feeab4e5) | [open PR #117](https://github.com/the-static-collective/reLATTE/pull/117) |
 | [experiment/interface-superspace-001](https://github.com/the-static-collective/reLATTE/tree/experiment/interface-superspace-001) | [4affa111c3](https://github.com/the-static-collective/reLATTE/commit/4affa111c367e50dc3dfcce45e5334931f9b9ca6) | [open PR #76](https://github.com/the-static-collective/reLATTE/pull/76) |
 | [experiment/manga-parcel-001](https://github.com/the-static-collective/reLATTE/tree/experiment/manga-parcel-001) | [d208d98bd8](https://github.com/the-static-collective/reLATTE/commit/d208d98bd88194cbd42c90379816b1167248595f) | [open PR #56](https://github.com/the-static-collective/reLATTE/pull/56) |
 | [experiment/paperchain-seed-vault-001](https://github.com/the-static-collective/reLATTE/tree/experiment/paperchain-seed-vault-001) | [51372e57b6](https://github.com/the-static-collective/reLATTE/commit/51372e57b6c1f5647621ea805f6f983b5ac28597) | [open PR #65](https://github.com/the-static-collective/reLATTE/pull/65) |

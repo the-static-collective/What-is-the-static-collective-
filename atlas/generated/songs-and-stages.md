@@ -49,12 +49,18 @@ Default: `main` · other refs: 17 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/static-live) · [Branches](https://github.com/the-static-collective/static-live/branches) · [Pull requests](https://github.com/the-static-collective/static-live/pulls)
 
-Default: `main` · other refs: 23 · open PRs: 8
+Default: `main` · other refs: 29 · open PRs: 14
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#43](https://github.com/the-static-collective/static-live/pull/43) | CHURCH COMMONS 005 — two-laptop SSH field kit for independently hosted signed lyrics | `experiment/church-commons-005-two-laptop-field-kit` → `experiment/church-commons-004-ghot-external-adapter` | 2026-10-18 |
+| [#42](https://github.com/the-static-collective/static-live/pull/42) | CHURCH COMMONS 004 — execute leased public Hymnal status as actual GHoT capability | `experiment/church-commons-004-ghot-external-adapter` → `experiment/church-commons-003-signed-withdrawal-leases` | 2026-10-18 |
+| [#41](https://github.com/the-static-collective/static-live/pull/41) | CHURCH COMMONS 003 — church-owned withdrawal and short-lived signed publication leases | `experiment/church-commons-003-signed-withdrawal-leases` → `experiment/church-commons-002-verified-failover` | 2026-10-18 |
+| [#40](https://github.com/the-static-collective/static-live/pull/40) | CHURCH COMMONS 002 — independently verified mirror gateway and no-rollback HOLD | `experiment/church-commons-002-verified-failover` → `experiment/church-commons-001-recoverable-mirrors` | 2026-10-18 |
+| [#39](https://github.com/the-static-collective/static-live/pull/39) | CHURCH COMMONS 001 — three-process signed public mirrors and origin-loss recovery | `experiment/church-commons-001-recoverable-mirrors` → `experiment/living-hymnal-001-church-adapters` | 2026-10-18 |
+| [#38](https://github.com/the-static-collective/static-live/pull/38) | Living Hymnal 001 — church-portable song garden × reLATTE × Static Live | `experiment/living-hymnal-001-church-adapters` → `main` | 2026-10-18 |
 | [#37](https://github.com/the-static-collective/static-live/pull/37) | FRAGMENT CHOIR 001 — Pastor of Funk live remix porch + stage score | `experiment/pastor-of-funk-fragment-choir-001` → `main` | 2026-10-11 |
 | [#35](https://github.com/the-static-collective/static-live/pull/35) | RADIO WORLD 001 — two independently owned source worlds, one clicky Static Live PWA | `experiment/radio-world-001-two-doors` → `main` | 2026-10-09 |
 | [#33](https://github.com/the-static-collective/static-live/pull/33) | KINSHIP-007 — consent-scoped Living Gifts and local gallery | `experiment/kinship-living-gifts-007` → `main` | 2026-10-08 |
@@ -73,8 +79,14 @@ Default: `main` · other refs: 23 · open PRs: 8
 | [agent/stream-001-broadcast-console](https://github.com/the-static-collective/static-live/tree/agent/stream-001-broadcast-console) | [a343134757](https://github.com/the-static-collective/static-live/commit/a34313475741f7efd65395b83072928cd923e0bb) | Retained ref; disposition unverified |
 | [design/ghostcast-001-temporal-theater](https://github.com/the-static-collective/static-live/tree/design/ghostcast-001-temporal-theater) | [4bc45279d5](https://github.com/the-static-collective/static-live/commit/4bc45279d5f226e2a4f4759a58bd24e9787681a5) | [open PR #21](https://github.com/the-static-collective/static-live/pull/21) |
 | [design/phono-live-001](https://github.com/the-static-collective/static-live/tree/design/phono-live-001) | [afc7aeb9dc](https://github.com/the-static-collective/static-live/commit/afc7aeb9dcf6212c222293646a0074bb143b33ef) | Retained ref; disposition unverified |
+| [experiment/church-commons-001-recoverable-mirrors](https://github.com/the-static-collective/static-live/tree/experiment/church-commons-001-recoverable-mirrors) | [f9ddc2430d](https://github.com/the-static-collective/static-live/commit/f9ddc2430d156aafdc35552ff80abd02524ba00d) | [open PR #39](https://github.com/the-static-collective/static-live/pull/39) |
+| [experiment/church-commons-002-verified-failover](https://github.com/the-static-collective/static-live/tree/experiment/church-commons-002-verified-failover) | [7c0c95328b](https://github.com/the-static-collective/static-live/commit/7c0c95328bf9a1e4387c117968aa7a3cb3f6f3ee) | [open PR #40](https://github.com/the-static-collective/static-live/pull/40) |
+| [experiment/church-commons-003-signed-withdrawal-leases](https://github.com/the-static-collective/static-live/tree/experiment/church-commons-003-signed-withdrawal-leases) | [76b526d352](https://github.com/the-static-collective/static-live/commit/76b526d352624145a1e284109b2877de600b6d06) | [open PR #41](https://github.com/the-static-collective/static-live/pull/41) |
+| [experiment/church-commons-004-ghot-external-adapter](https://github.com/the-static-collective/static-live/tree/experiment/church-commons-004-ghot-external-adapter) | [6472ffed4f](https://github.com/the-static-collective/static-live/commit/6472ffed4f5dd30b6ac5d6c425202167828d1b89) | [open PR #42](https://github.com/the-static-collective/static-live/pull/42) |
+| [experiment/church-commons-005-two-laptop-field-kit](https://github.com/the-static-collective/static-live/tree/experiment/church-commons-005-two-laptop-field-kit) | [d9dc4d94ee](https://github.com/the-static-collective/static-live/commit/d9dc4d94ee5aac4c2262a52c51caf322069ba92a) | [open PR #43](https://github.com/the-static-collective/static-live/pull/43) |
 | [experiment/kinship-jubilee-neighbor-door-006](https://github.com/the-static-collective/static-live/tree/experiment/kinship-jubilee-neighbor-door-006) | [3784e39268](https://github.com/the-static-collective/static-live/commit/3784e39268e3294d87dbcf646f85b8c2b7f0c99a) | [open PR #31](https://github.com/the-static-collective/static-live/pull/31) |
 | [experiment/kinship-living-gifts-007](https://github.com/the-static-collective/static-live/tree/experiment/kinship-living-gifts-007) | [66fed5728d](https://github.com/the-static-collective/static-live/commit/66fed5728d6ba60f3ebf86abeb5c7b8c25ae1ff7) | [open PR #33](https://github.com/the-static-collective/static-live/pull/33) |
+| [experiment/living-hymnal-001-church-adapters](https://github.com/the-static-collective/static-live/tree/experiment/living-hymnal-001-church-adapters) | [a45e85e36e](https://github.com/the-static-collective/static-live/commit/a45e85e36e334293f43667a829eb4576750676e3) | [open PR #38](https://github.com/the-static-collective/static-live/pull/38) |
 | [experiment/pastor-of-funk-fragment-choir-001](https://github.com/the-static-collective/static-live/tree/experiment/pastor-of-funk-fragment-choir-001) | [e5749f061d](https://github.com/the-static-collective/static-live/commit/e5749f061d472eb9a07dc3acb94d41844e51daa4) | [open PR #37](https://github.com/the-static-collective/static-live/pull/37) |
 | [experiment/radio-world-001-two-doors](https://github.com/the-static-collective/static-live/tree/experiment/radio-world-001-two-doors) | [eb0048fe56](https://github.com/the-static-collective/static-live/commit/eb0048fe56f7125ec2a2e10ffaf00569c959c702) | [open PR #35](https://github.com/the-static-collective/static-live/pull/35) |
 | [feat/attention-crossing-live-001](https://github.com/the-static-collective/static-live/tree/feat/attention-crossing-live-001) | [ad1804b01f](https://github.com/the-static-collective/static-live/commit/ad1804b01f2b87f594d2105a558798a30820d4eb) | [open PR #18](https://github.com/the-static-collective/static-live/pull/18) |
@@ -111,7 +123,13 @@ Default: `main` · other refs: 4 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/the-haunted-phonography) · [Branches](https://github.com/the-static-collective/the-haunted-phonography/branches) · [Pull requests](https://github.com/the-static-collective/the-haunted-phonography/pulls)
 
-Default: `main` · other refs: 23 · open PRs: 0
+Default: `main` · other refs: 24 · open PRs: 1
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#27](https://github.com/the-static-collective/the-haunted-phonography/pull/27) | VAULT-PHONO-001 — verified Suno WAV → evidenced musical mutation → Static Live object | `experiment/vault-phonograph-hymnal-001` → `main` | 2026-10-18 |
 
 ### Retained nondefault branches
 
@@ -126,6 +144,7 @@ Default: `main` · other refs: 23 · open PRs: 0
 | [docs/storyship-continuity-spine-v0](https://github.com/the-static-collective/the-haunted-phonography/tree/docs/storyship-continuity-spine-v0) | [60e3cab4bf](https://github.com/the-static-collective/the-haunted-phonography/commit/60e3cab4bf2333cb6b8da41d01242ecb6029077e) | Retained ref; disposition unverified |
 | [docs/storyship-relationship-passenger](https://github.com/the-static-collective/the-haunted-phonography/tree/docs/storyship-relationship-passenger) | [f030a0a7a1](https://github.com/the-static-collective/the-haunted-phonography/commit/f030a0a7a1430bb9fc52ff89a015432db2dd0f36) | Retained ref; disposition unverified |
 | [docs/storyship-trivariant-third-arm](https://github.com/the-static-collective/the-haunted-phonography/tree/docs/storyship-trivariant-third-arm) | [84b28936da](https://github.com/the-static-collective/the-haunted-phonography/commit/84b28936da0b3468c1c5636de389c01a8d6ebba9) | Retained ref; disposition unverified |
+| [experiment/vault-phonograph-hymnal-001](https://github.com/the-static-collective/the-haunted-phonography/tree/experiment/vault-phonograph-hymnal-001) | [7ffec3d122](https://github.com/the-static-collective/the-haunted-phonography/commit/7ffec3d122d92e418856da6f1671000085a0f699) | [open PR #27](https://github.com/the-static-collective/the-haunted-phonography/pull/27) |
 | [feat/acoustic-loci-001](https://github.com/the-static-collective/the-haunted-phonography/tree/feat/acoustic-loci-001) | [aff73b32ca](https://github.com/the-static-collective/the-haunted-phonography/commit/aff73b32cabaef085808385be717349afb326ff9) | Retained ref; disposition unverified |
 | [feat/acoustic-loci-001-red](https://github.com/the-static-collective/the-haunted-phonography/tree/feat/acoustic-loci-001-red) | [c90ad4faa2](https://github.com/the-static-collective/the-haunted-phonography/commit/c90ad4faa2b3b4307417be6d355128e88c178e3c) | Retained ref; disposition unverified |
 | [feat/acoustic-loci-001-red2](https://github.com/the-static-collective/the-haunted-phonography/tree/feat/acoustic-loci-001-red2) | [c90ad4faa2](https://github.com/the-static-collective/the-haunted-phonography/commit/c90ad4faa2b3b4307417be6d355128e88c178e3c) | Retained ref; disposition unverified |

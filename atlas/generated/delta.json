@@ -1,19 +1,180 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-17T11:35:48+00:00",
-  "to_captured_at": "2026-10-18T12:03:50+00:00",
+  "from_captured_at": "2026-10-18T12:03:50+00:00",
+  "to_captured_at": "2026-10-19T14:40:35+00:00",
   "added_repositories": [],
   "removed_repositories": [],
-  "added_branches": [],
+  "added_branches": [
+    {
+      "repository": "GHoT",
+      "branch": "experiment/worship-stage-organ-001",
+      "sha": "d59dc91a0aa5893e4b9e4e88ee55450b45a80da9"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-box-001-church-participation",
+      "sha": "bb05d90c12b13f5c7c1c948d85c54cec2dbcd2ce"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-box-002-physical-digital-identity",
+      "sha": "495424cea612d2f10555866218d0dda3d277f7b3"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/horizon-agent-commons-001",
+      "sha": "71edde9a671fd7f5717c2dcaa58b4a152c10703b"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/horizon-mcp-readonly-002",
+      "sha": "ed39b597154647f9d4905b00e3dd3f1e0fc54d05"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/hymnal-crossing-002",
+      "sha": "6b1bf6b7340bbe912d7e646f35a08862feeab4e5"
+    },
+    {
+      "repository": "static-live",
+      "branch": "experiment/church-commons-001-recoverable-mirrors",
+      "sha": "f9ddc2430d156aafdc35552ff80abd02524ba00d"
+    },
+    {
+      "repository": "static-live",
+      "branch": "experiment/church-commons-002-verified-failover",
+      "sha": "7c0c95328bf9a1e4387c117968aa7a3cb3f6f3ee"
+    },
+    {
+      "repository": "static-live",
+      "branch": "experiment/church-commons-003-signed-withdrawal-leases",
+      "sha": "76b526d352624145a1e284109b2877de600b6d06"
+    },
+    {
+      "repository": "static-live",
+      "branch": "experiment/church-commons-004-ghot-external-adapter",
+      "sha": "6472ffed4f5dd30b6ac5d6c425202167828d1b89"
+    },
+    {
+      "repository": "static-live",
+      "branch": "experiment/church-commons-005-two-laptop-field-kit",
+      "sha": "d9dc4d94ee5aac4c2262a52c51caf322069ba92a"
+    },
+    {
+      "repository": "static-live",
+      "branch": "experiment/living-hymnal-001-church-adapters",
+      "sha": "a45e85e36e334293f43667a829eb4576750676e3"
+    },
+    {
+      "repository": "the-haunted-phonography",
+      "branch": "experiment/vault-phonograph-hymnal-001",
+      "sha": "7ffec3d122d92e418856da6f1671000085a0f699"
+    }
+  ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
+      "repository": "reLATTE",
+      "branch": "main",
+      "from_sha": "dcc8cdca84c440aa4294134f020fb7095bf87f24",
+      "to_sha": "7016dadcafc335d7ad8dccc26f4d6e0769dcf28c"
+    },
+    {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "487a9b0bec8b02d6d7dcbb377e2fa0bf02965198",
-      "to_sha": "6a2d925aa59e8dda608249ccedd6b497ec14f174"
+      "from_sha": "6a2d925aa59e8dda608249ccedd6b497ec14f174",
+      "to_sha": "749f8be0c32b0c35b495501c5eb6ff8b3a8bdca0"
     }
   ],
-  "opened_prs": [],
+  "opened_prs": [
+    {
+      "repository": "GHoT",
+      "number": 131,
+      "title": "WORSHIP-STAGE-001 — GHoT capability for Static Live rehearsal checks",
+      "url": "https://github.com/the-static-collective/GHoT/pull/131",
+      "head_branch": "experiment/worship-stage-organ-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 24,
+      "title": "PENNY BOX 001 — small things count: physical box, community need board, steward receipts",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/24",
+      "head_branch": "experiment/penny-box-001-church-participation",
+      "base_branch": "main"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 25,
+      "title": "PENNY BOX 002 — one physical-and-digital identity, QR-ready poster and mobile commons board",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/25",
+      "head_branch": "experiment/penny-box-002-physical-digital-identity",
+      "base_branch": "experiment/penny-box-001-church-participation"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 117,
+      "title": "Living Hymnal 002 — signed lyric crossing, independently admitted or refused",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/117",
+      "head_branch": "experiment/hymnal-crossing-002",
+      "base_branch": "main"
+    },
+    {
+      "repository": "static-live",
+      "number": 38,
+      "title": "Living Hymnal 001 — church-portable song garden × reLATTE × Static Live",
+      "url": "https://github.com/the-static-collective/static-live/pull/38",
+      "head_branch": "experiment/living-hymnal-001-church-adapters",
+      "base_branch": "main"
+    },
+    {
+      "repository": "static-live",
+      "number": 39,
+      "title": "CHURCH COMMONS 001 — three-process signed public mirrors and origin-loss recovery",
+      "url": "https://github.com/the-static-collective/static-live/pull/39",
+      "head_branch": "experiment/church-commons-001-recoverable-mirrors",
+      "base_branch": "experiment/living-hymnal-001-church-adapters"
+    },
+    {
+      "repository": "static-live",
+      "number": 40,
+      "title": "CHURCH COMMONS 002 — independently verified mirror gateway and no-rollback HOLD",
+      "url": "https://github.com/the-static-collective/static-live/pull/40",
+      "head_branch": "experiment/church-commons-002-verified-failover",
+      "base_branch": "experiment/church-commons-001-recoverable-mirrors"
+    },
+    {
+      "repository": "static-live",
+      "number": 41,
+      "title": "CHURCH COMMONS 003 — church-owned withdrawal and short-lived signed publication leases",
+      "url": "https://github.com/the-static-collective/static-live/pull/41",
+      "head_branch": "experiment/church-commons-003-signed-withdrawal-leases",
+      "base_branch": "experiment/church-commons-002-verified-failover"
+    },
+    {
+      "repository": "static-live",
+      "number": 42,
+      "title": "CHURCH COMMONS 004 — execute leased public Hymnal status as actual GHoT capability",
+      "url": "https://github.com/the-static-collective/static-live/pull/42",
+      "head_branch": "experiment/church-commons-004-ghot-external-adapter",
+      "base_branch": "experiment/church-commons-003-signed-withdrawal-leases"
+    },
+    {
+      "repository": "static-live",
+      "number": 43,
+      "title": "CHURCH COMMONS 005 — two-laptop SSH field kit for independently hosted signed lyrics",
+      "url": "https://github.com/the-static-collective/static-live/pull/43",
+      "head_branch": "experiment/church-commons-005-two-laptop-field-kit",
+      "base_branch": "experiment/church-commons-004-ghot-external-adapter"
+    },
+    {
+      "repository": "the-haunted-phonography",
+      "number": 27,
+      "title": "VAULT-PHONO-001 — verified Suno WAV → evidenced musical mutation → Static Live object",
+      "url": "https://github.com/the-static-collective/the-haunted-phonography/pull/27",
+      "head_branch": "experiment/vault-phonograph-hymnal-001",
+      "base_branch": "main"
+    }
+  ],
   "left_open_prs": []
 }
