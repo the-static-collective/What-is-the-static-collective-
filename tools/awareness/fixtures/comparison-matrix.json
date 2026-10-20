@@ -1,0 +1,50 @@
+{
+  "schema": "static-collective/awareness-comparison-fixtures/v0",
+  "cases": [
+    {
+      "id": "fresh",
+      "projectionId": "fixture-fresh",
+      "canonicalSource": "the-static-collective/project0",
+      "sourceScope": "main",
+      "witnessedSourceCut": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "comparedSourceCut": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "checkedAt": "2026-08-20T22:00:00Z",
+      "comparisonOk": true,
+      "evidenceRefs": []
+    },
+    {
+      "id": "stale",
+      "projectionId": "fixture-stale",
+      "canonicalSource": "the-static-collective/tranchnode",
+      "sourceScope": "main",
+      "witnessedSourceCut": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "comparedSourceCut": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "checkedAt": "2026-08-20T22:00:00Z",
+      "comparisonOk": true,
+      "evidenceRefs": []
+    },
+    {
+      "id": "unverified",
+      "projectionId": "fixture-unverified",
+      "canonicalSource": "the-static-collective/corpus-os",
+      "sourceScope": "main",
+      "witnessedSourceCut": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "comparedSourceCut": null,
+      "checkedAt": "2026-08-20T22:00:00Z",
+      "comparisonOk": false,
+      "evidenceRefs": []
+    },
+    {
+      "id": "out-of-scope-negative-control",
+      "projectionId": "fixture-out-of-scope",
+      "canonicalSource": "the-static-collective/project0",
+      "sourceScope": "main",
+      "witnessedSourceCut": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "comparedSourceCut": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "checkedAt": "2026-08-20T22:00:00Z",
+      "comparisonOk": true,
+      "evidenceRefs": [],
+      "unrelatedNewerCut": "ffffffffffffffffffffffffffffffffffffffff"
+    }
+  ]
+}

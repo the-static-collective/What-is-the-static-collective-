@@ -1,0 +1,12 @@
+{
+  "schema": "static-collective/awareness-human-gates/v0",
+  "gates": [
+    {
+      "gateId": "fixture/human-gate",
+      "subject": "fixture",
+      "disposition": "human-gated",
+      "projectDisposition": "not-attempted",
+      "evidenceRefs": ["fixture:evidence"]
+    }
+  ]
+}
