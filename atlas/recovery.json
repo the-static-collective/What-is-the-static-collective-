@@ -1,0 +1,930 @@
+{
+  "schema": "static-git-atlas/recovery-v1",
+  "entries": [
+    {
+      "id": "seamforge-2026-09-27",
+      "repositories": [
+        "SEAMforge"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "missing_readme",
+        "implementation_body",
+        "quiet_topology",
+        "disposition_fog"
+      ],
+      "body_claim": "SEAMforge contains an architectural-analysis workbench with typed project contracts, reusable primitives, seam candidates, conservation reports, failed seams, rediscovered ideas, primitive evolution, counterfactuals, and generated proof bundles.",
+      "purpose_claim": "INFERENCE: it appears to ask whether candidate crossings between projects can be inspected and pressure-tested without erasing incompatibility, authority boundaries, failed attempts, or evolutionary history.",
+      "last_witnessed_change": "Commit 2188ffef41db27307083ea9c27751facf173ea07 added Laws, Failed Seams, Rediscovered Ideas, Evolution tracking, and a Conservation Report surface.",
+      "disposition": "UNKNOWN — no public source located in this recovery pass states that SEAMforge completed, was superseded, or became another named project.",
+      "reentry_door": "Start with src/types.ts, then inspect the application views and the last architectural-analysis commit.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/SEAMforge/blob/main/src/types.ts",
+        "https://github.com/the-static-collective/SEAMforge/commit/2188ffef41db27307083ea9c27751facf173ea07"
+      ]
+    },
+    {
+      "id": "seedforge-2026-09-27",
+      "repositories": [
+        "seedforge"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "missing_readme",
+        "implementation_body",
+        "quiet_topology",
+        "disposition_fog"
+      ],
+      "body_claim": "seedforge contains a provenance-preserving cultivation workbench with Nearby Growth lanes, lineage packets, active tensions, excluded candidates, generation receipts, human harvest states, idea versions, event receipts, and Jubilee node manifests.",
+      "purpose_claim": "INFERENCE: it appears to ask whether nearby ideas can be cultivated into new proposals while preserving lineage, unresolved tension, excluded material, and a human harvest gate.",
+      "last_witnessed_change": "Commit 5142afb2a0cc7cc5813c8b0fc84e164cdd2cb0af established the SEEDFORGE application scaffold and domain model.",
+      "disposition": "UNKNOWN — no public source located in this recovery pass states what seedforge became or why development stopped.",
+      "reentry_door": "Start with src/types.ts and src/App.tsx; the useful body is substantially richer than the absent README suggests.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/seedforge/blob/main/src/types.ts",
+        "https://github.com/the-static-collective/seedforge/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/seedforge/commit/5142afb2a0cc7cc5813c8b0fc84e164cdd2cb0af"
+      ]
+    },
+    {
+      "id": "lamppost-2026-09-27",
+      "repositories": [
+        "LampPost"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "boilerplate_readme",
+        "implementation_body",
+        "quiet_topology",
+        "disposition_fog",
+        "reentry_mechanism_present"
+      ],
+      "body_claim": "LampPost contains a Traceable Idea Hive / memory-ecology implementation with immutable event and receipt graphs, redaction and capability boundaries, explicit REINTEGRATION_IMPORTED and WITNESS_REINTEGRATION actions, and verifier non-claims.",
+      "purpose_claim": "OBSERVED/INTERPRETED: the surviving fossil record describes LampPost as testing how interrupted continuity can re-enter through explicit reintegration receipts while limiting what the verifier is allowed to claim.",
+      "last_witnessed_change": "The application scaffold commit describes a memory-ecology prototype; the later fossil reconstruction identifies reintegration receipts as LampPost's distinctive contribution.",
+      "disposition": "UNKNOWN — no public source located in this recovery pass states that LampPost was completed or formally absorbed elsewhere.",
+      "reentry_door": "Read src/types.ts beside the dated Git fossil reconstruction; treat re-entry as evidence, not proof of an original occurrence.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/LampPost/blob/main/src/types.ts",
+        "https://github.com/the-static-collective/LampPost/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/the-daily-slice/blob/main/slices/2026/08/2026-08-29/the-conversation-left-a-body.md"
+      ]
+    },
+    {
+      "id": "recurv-2026-09-27",
+      "repositories": [
+        "reCURV"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "boilerplate_readme",
+        "implementation_body",
+        "quiet_topology",
+        "disposition_fog"
+      ],
+      "body_claim": "reCURV contains The Recursive Garden, a co-creative video choreography tool with a Soil Ledger, persistent motifs such as spoon/dust/table/backdoor/022100, layered storyboard synthesis, and separate Autodiscography, BananaDash, and Aippy voices.",
+      "purpose_claim": "INFERENCE: it appears to ask whether music-to-video composition can grow through a persistent motif-and-soil ecology rather than treating every generation as a disposable prompt/output pair.",
+      "last_witnessed_change": "Commit b276cb6eb03a2b745afbf8f37e494e8a5783c951 implemented the Recursive Garden core scaffold.",
+      "disposition": "UNKNOWN — similarly named reCURVrePAIR and reMIX-reCURVrePAIR survive, but this pass found no public source proving that either is the formal successor of reCURV.",
+      "reentry_door": "Start with src/App.tsx and preserve the original video-choreography / soil-ledger particular before comparing it with later reCURV-named projects.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/reCURV/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/reCURV/blob/main/src/types.ts",
+        "https://github.com/the-static-collective/reCURV/commit/b276cb6eb03a2b745afbf8f37e494e8a5783c951"
+      ]
+    },
+    {
+      "id": "pies-twin-2026-09-27",
+      "repositories": [
+        "pies",
+        "100pies"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "missing_readme",
+        "implementation_body",
+        "quiet_topology",
+        "twin_lineage_unresolved",
+        "disposition_fog"
+      ],
+      "body_claim": "pies and 100pies preserve closely matching Paula-centered encounter ledgers: spoken reflections become reviewable extraction proposals; admitted encounters retain revisions and withdrawal; needs and gifts carry permission/disclosure state; connection proposals remain human-reviewable rather than automatic fulfillment.",
+      "purpose_claim": "INFERENCE: the pair appears to ask whether repeated acts of sharing food can become a stewardship memory that notices needs and gifts and proposes accountable human connections without reducing people to a score.",
+      "last_witnessed_change": "pies added spoken-reflection analysis; 100pies later refactored the ledger toward a bounded stewardship model with proposal-based extraction and structured mutual-aid records.",
+      "disposition": "UNKNOWN — the two repositories share a strong implementation family resemblance, but this recovery pass found no public source that establishes fork direction, succession, or a formal terminal disposition.",
+      "reentry_door": "Read the two src/types.ts files side by side, then follow 100pies' stewardship refactor commit without silently treating similarity as genealogy.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/pies/blob/main/src/types.ts",
+        "https://github.com/the-static-collective/100pies/blob/main/src/types.ts",
+        "https://github.com/the-static-collective/pies/commit/62b67c04d137475b4116600403eac6236a8a0459",
+        "https://github.com/the-static-collective/100pies/commit/88c29cfefd13093708ad70f0361a6d516d87cd8c"
+      ]
+    },
+    {
+      "id": "bananadash-2026-09-27",
+      "repositories": [
+        "BananaDash"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "boilerplate_readme",
+        "implementation_body",
+        "quiet_topology",
+        "cross_node_contract_present",
+        "disposition_fog"
+      ],
+      "body_claim": "BananaDash is more than a banana-ripening joke dashboard: its types define provenance-bearing SeedPackets, trace IDs, bounded hops, TAO epistemic modes, IncomingPollen state, and a witness-node set containing Autodisco v20, TranchNode, BananaDash, and the Autodisco.",
+      "purpose_claim": "INFERENCE: it appears to test whether a playful local dashboard can also act as an early pollen/witness receiver across the Autodisco/TranchNode ecology without losing packet provenance.",
+      "last_witnessed_change": "Commit 8b350516fb9cdb69b29bccc1133a0f6846100b6d added Supabase integration for the pollen ledger and IncomingPollen support.",
+      "disposition": "UNKNOWN — no public source located in this recovery pass states whether the pollen-node experiment completed, migrated, or was intentionally left as a specimen.",
+      "reentry_door": "Start with src/types.ts and IncomingPollenView rather than the generic AI Studio README.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/BananaDash/blob/main/src/types.ts",
+        "https://github.com/the-static-collective/BananaDash/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/BananaDash/commit/8b350516fb9cdb69b29bccc1133a0f6846100b6d"
+      ]
+    },
+    {
+      "id": "autodisco-v20-2026-09-27",
+      "repositories": [
+        "The-AutodiscoV.20.-question-marks-"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "boilerplate_readme",
+        "recovery_marker_present",
+        "implementation_role_declared",
+        "quiet_topology"
+      ],
+      "body_claim": "A root-level recovery marker explicitly identifies Autodisco v20 as a likely implementation surface for Static Collective First-Listen Radio and points to the governing canon in the-autodisco.",
+      "purpose_claim": "OBSERVED: the target is a bounded broadcast in which isolated AI DJs genuinely hear playlist windows for the first time before any cross-DJ exchange, with performer-originated voices and generation provenance.",
+      "last_witnessed_change": "The root marker records the initial implementation question: where to insert a reversible radio route or mode without disturbing existing Autodisco behavior.",
+      "disposition": "PARTIALLY DECLARED — the repository's role as a likely implementation surface is explicit and canon authority is explicitly elsewhere; completion of the implementation is not asserted.",
+      "reentry_door": "Open FIRST-LISTEN-RADIO.md before trusting the generic README.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/blob/main/FIRST-LISTEN-RADIO.md",
+        "https://github.com/the-static-collective/the-autodisco/blob/main/canon/FIRST-LISTEN-RADIO.md"
+      ]
+    },
+    {
+      "id": "jublechat-2026-09-27",
+      "repositories": [
+        "jublEchat"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "thin_readme",
+        "implementation_body",
+        "landed_history",
+        "front_door_mismatch"
+      ],
+      "body_claim": "jublEchat now contains a substantial provenance-first idea workspace: ideas/artifacts/events/edges, exact ancestry/currentness checks, Nearby Growth derivation, Residual Lineage, external-artifact export, and boundary tests.",
+      "purpose_claim": "OBSERVED/INFERRED: its present body is an attributable collaborative idea ecology where currentness, nearby growth, historical residue, and synthesis remain inspectable rather than silently becoming authority.",
+      "last_witnessed_change": "Commit 076a26b8e6250a44818c58f0c9ca0c7c67de6bca added Residual Lineage v0 as a deterministic read-only historical projection that fails closed on contradictory residue.",
+      "disposition": "NO ENDING ASSERTED — executable body and landed history exist. The recovery problem here is a prehistoric README, not evidence that the project is dead.",
+      "reentry_door": "Ignore the one-line README first; enter through src/App.tsx, the ledger helpers, Nearby Growth, and Residual Lineage.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/jublEchat/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/jublEchat/commit/076a26b8e6250a44818c58f0c9ca0c7c67de6bca",
+        "https://github.com/the-static-collective/jublEchat/blob/main/src/lib/residual-lineage.ts"
+      ]
+    },
+    {
+      "id": "chronoquest-2026-09-27",
+      "repositories": [
+        "ChronoQuest"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "missing_readme",
+        "implementation_body",
+        "quiet_topology",
+        "disposition_fog",
+        "real_world_to_story_bridge"
+      ],
+      "body_claim": "ChronoQuest contains a playable AI-assisted RPG surface with persistent character state, inventory and quests, generated story turns and scene images, real-world habits that can be translated into narrative actions, a community-help tavern surface, and Markdown adventure-journal export.",
+      "purpose_claim": "INFERENCE: it appears to ask whether ordinary real-world habits and mutual-aid actions can become consequential RPG actions inside an evolving generated story rather than living in a separate productivity layer.",
+      "last_witnessed_change": "The surviving main-branch application and type system implement the game loop, real-world habit mapping, community-help requests, and story/journal persistence surface; no README currently explains that body.",
+      "disposition": "UNKNOWN — this recovery pass found no public source stating that ChronoQuest completed, moved into another world project, or was intentionally retired.",
+      "reentry_door": "Start with src/App.tsx and src/types.ts; the real-world-habit → narrative-action seam is the most distinctive surviving mechanism.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/ChronoQuest/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/ChronoQuest/blob/main/src/types.ts"
+      ]
+    },
+    {
+      "id": "bnanagram-2026-09-27",
+      "repositories": [
+        "BnanaGram"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "upstream_readme",
+        "large_upstream_body",
+        "local_identity_not_exposed",
+        "adjacent_fork_exists",
+        "disposition_fog"
+      ],
+      "body_claim": "BnanaGram preserves a full Telegram Web K codebase, but its root README and package metadata remain upstream Telegram material; this pass did not locate a project-owned front door explaining what the Static Collective changed or intended to change in that carrier.",
+      "purpose_claim": "UNKNOWN / WEAK INFERENCE: the repository name and the separately documented BananaGram-Gram-to-Fork make a Telegram-based participation experiment plausible, but that adjacency is not enough to establish BnanaGram's intended role or a successor relation.",
+      "last_witnessed_change": "The visible root still presents Telegram Web K development/build instructions rather than a Static Collective contract. A neighboring repository, BananaGram-Gram-to-Fork, explicitly describes a parent-focused Telegram/Jubilee participation fork.",
+      "disposition": "UNKNOWN — no public source located in this pass proves whether BnanaGram is an untouched upstream carrier, an abandoned fork attempt, or an ancestor/sibling of BananaGram-Gram-to-Fork.",
+      "reentry_door": "Treat the upstream Telegram body as carrier evidence only. Compare it with BananaGram-Gram-to-Fork, but do not promote that comparison into lineage without a source.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/BnanaGram/blob/master/README.md",
+        "https://github.com/the-static-collective/BananaGram-Gram-to-Fork/blob/main/README.md"
+      ]
+    },
+    {
+      "id": "seedforge-v0-2026-09-27",
+      "repositories": [
+        "seedforge-v0"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "repository_name_identity_mismatch",
+        "implementation_body",
+        "jubilee_vm_contract",
+        "seedforge_workbench_present",
+        "disposition_fog"
+      ],
+      "body_claim": "Despite the repository name seedforge-v0, its README declares Jubilee Engine VM v3.2.4-reproducibility: a deterministic non-erasure multi-graph compiler with execution/ontology projections, compiler identity, standalone verification receipts, projection-stability certificates, and explicit verifier non-claims. The app simultaneously exposes a SeedForge Workbench, VM playground, cluster explorer, corpus timeline, and reference-code browser.",
+      "purpose_claim": "OBSERVED/INFERENCE: the body is a bridge experiment between SeedForge cultivation surfaces and a stricter Jubilee VM reproducibility substrate, testing how creative-memory work can sit above deterministic, independently checkable receipt machinery.",
+      "last_witnessed_change": "Commit 43b135c78c4308f628001854edb695906f0c70c3 initialized the Jubilee Engine VM playground with the SeedForge workspace and node exploration surfaces.",
+      "disposition": "UNKNOWN — this pass found no public declaration explaining the naming transition from seedforge-v0 to Jubilee Engine VM or its exact relation to seedforge and Jubilee-Engine-VM.",
+      "reentry_door": "Open README.md and src/App.tsx together; preserve the hybrid identity rather than choosing one name as the whole truth.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/seedforge-v0/blob/main/README.md",
+        "https://github.com/the-static-collective/seedforge-v0/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/seedforge-v0/commit/43b135c78c4308f628001854edb695906f0c70c3"
+      ]
+    },
+    {
+      "id": "seedfork-2026-09-27",
+      "repositories": [
+        "seedFORK"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "coherent_readme",
+        "implementation_body",
+        "composition_experiment",
+        "multiple_project_organs",
+        "disposition_fog"
+      ],
+      "body_claim": "seedFORK is a coherent Jubilee Unified Studio that composes SeedForge proposal cultivation, reCURV-style repair/refactoring, personalized learning paths, Autodiscography source material, and an append-only SHA-256 witness ledger behind a human Harvest Gate.",
+      "purpose_claim": "OBSERVED: it tests whether several previously separate creative-memory organs can be composed into one workstation while keeping model output proposal-only and human harvest distinct from generation.",
+      "last_witnessed_change": "The surviving app wires an Autodiscography-backed Nearby Growth workbench, ledger state, human harvest, album-source attachment, and Jubilee receipt viewing into one interface.",
+      "disposition": "UNKNOWN — the project explains what it is but does not publicly state whether this composition was a completed specimen, a precursor to another workstation, or a paused integration experiment.",
+      "reentry_door": "Start with README.md, then src/App.tsx and the UnifiedWorkbench; this is a composition specimen, not merely a naming variant of seedforge.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/seedFORK/blob/main/README.md",
+        "https://github.com/the-static-collective/seedFORK/blob/main/src/App.tsx"
+      ]
+    },
+    {
+      "id": "tranchnode-v1-2026-09-27",
+      "repositories": [
+        "tranchNode-v1"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "coherent_readme",
+        "historical_identity",
+        "song_witness_node",
+        "cross_node_seed_contract",
+        "later_name_collision"
+      ],
+      "body_claim": "tranchNode-v1 is an Autodiscography Node: an offline-first, human-authorized song witness space with song/annotation imports, append-only ledger receipts, incoming foreign SeedPackets over a shared witness channel, bounded TAO epistemic modes, explicit human observe/attach/dismiss actions, and an owner auth gate.",
+      "purpose_claim": "OBSERVED: it preserves songs and creative traces while allowing cross-node inspiration to arrive as attributable, non-canonical foreign seed rather than silently rewriting local material.",
+      "last_witnessed_change": "Commit c1ab651e55f85d9f13551c89c1de39097d6b16a4 integrated Supabase and Autodiscography schemas for songs, annotations, and witness events.",
+      "disposition": "UNKNOWN — a later active repository named tranchnode now describes a broader model-independent continuity substrate, but this pass found no project-owned source proving that tranchNode-v1 was formally transformed into that repository.",
+      "reentry_door": "Enter through the song-ledger / foreign-seed / TAO contract in README.md. Compare later tranchnode only as a possible lineage question until a source binds them.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/tranchNode-v1/blob/main/README.md",
+        "https://github.com/the-static-collective/tranchNode-v1/commit/c1ab651e55f85d9f13551c89c1de39097d6b16a4",
+        "https://github.com/the-static-collective/tranchnode/blob/main/README.md"
+      ]
+    },
+    {
+      "id": "remix-recurvrepair-2026-09-27",
+      "repositories": [
+        "reMIX-reCURVrePAIR"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "shared_readme_blob",
+        "divergent_implementation_body",
+        "identity_flattening",
+        "witness_thread_surface",
+        "disposition_fog"
+      ],
+      "body_claim": "reMIX-reCURVrePAIR shares the exact README blob with reCURVrePAIR, but its application body diverges: it adds threaded witness material, turn receipts, human/model provenance states, custom attestations, on-ledger seed creation, context packets, role/capability state, export, and integrity scanning.",
+      "purpose_claim": "INFERENCE: the remix appears to push the repair-continuity runtime toward a multi-participant witness-thread environment where generated or imported turns can be attributed, attested, composted, exported, and inspected under explicit authority/provenance state.",
+      "last_witnessed_change": "Commit b7a15f087f051b63f00194cc32dfd89da9fe0256 initialized the reCURV repair-culture scaffold; the current src/App.tsx now materially differs from reCURVrePAIR even though both repositories expose the same README blob.",
+      "disposition": "UNKNOWN — the public record does not explain whether this is a fork, remix experiment, successor, or parallel branch of reCURVrePAIR. Exact README identity must not be mistaken for implementation identity.",
+      "reentry_door": "Compare src/App.tsx between reMIX-reCURVrePAIR and reCURVrePAIR. The delta itself is the useful artifact.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/reMIX-reCURVrePAIR/blob/main/README.md",
+        "https://github.com/the-static-collective/reMIX-reCURVrePAIR/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/reCURVrePAIR/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/reMIX-reCURVrePAIR/commit/b7a15f087f051b63f00194cc32dfd89da9fe0256"
+      ]
+    },
+    {
+      "id": "appliance-prophet-king-2026-09-27",
+      "repositories": [
+        "appliance-prophet-king"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "empty_repository",
+        "no_readme",
+        "no_implementation_body_observed",
+        "human_recovered_origin",
+        "sketch_identity_witness",
+        "toaster_appliance_concept"
+      ],
+      "body_claim": "The public repository object survives, but GitHub reports a zero-size repository and this pass found no README or implementation body on the default branch.",
+      "purpose_claim": "HUMAN-RECOVERED ORIGIN: appliance-prophet-king was intended as a toaster appliance concept. A surviving creator sketch confirms the toaster identity only. The creator explicitly says the sketch is a poor drawing made to get the idea across and should not be interpreted as authoritative geometry, mechanism, perspective, topology, compartments, or implementation.",
+      "last_witnessed_change": "No implementation commit or content body was located in this recovery pass.",
+      "disposition": "SHELL ONLY — this is currently evidence that a named door was created, not evidence that the project itself ever became executable.",
+      "reentry_door": "Begin from the human-recovered fact that this was a toaster appliance concept, then search prior chat/artifact history for appliance-prophet-king, appliance king, toaster-appliance, and distinctive mechanism language. Treat the attached sketch as a low-fidelity communication artifact, not a design specification.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/appliance-prophet-king"
+      ],
+      "human_recovered_context": {
+        "recorded_on": "2026-09-27",
+        "witness_type": "human_origin_recovery",
+        "claim": "The creator identifies appliance-prophet-king as a toaster concept. The attached sketch exists only to communicate the idea at low fidelity; the creator does not like drawing and says the apparent impossible/incorrect geometry is drawing error, not intended design meaning.",
+        "corroboration_posture": "The public Git repository is still an empty shell. The toaster identity comes from creator testimony plus the sketch. The sketch must not be mined for exact geometry, topology, mechanism, perspective, compartments, or other physical design claims. Recover those only from older chat or other attributable artifacts.",
+        "corroborating_urls": [
+          "https://github.com/the-static-collective/appliance-prophet-king"
+        ]
+      }
+    },
+    {
+      "id": "cloudflare-control-2026-09-27",
+      "repositories": [
+        "cloudflare-control"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "empty_repository",
+        "no_readme",
+        "initialize_commit_only",
+        "name_only_seed"
+      ],
+      "body_claim": "The public repository object survives with zero reported size, no README, and no implementation body located in this pass.",
+      "purpose_claim": "UNKNOWN — the repository name suggests a Cloudflare-facing control surface, but the public body does not support a more specific reconstruction.",
+      "last_witnessed_change": "Commit e5b1e0c5d032143053e6de5396fb364e831e2ee2 is titled 'Initialize repository'; no later implementation evidence was located.",
+      "disposition": "SHELL ONLY — a named project aperture was created, but the public record currently does not show that it developed beyond initialization.",
+      "reentry_door": "Treat the initialization commit as the whole witnessed body unless another attributable source supplies the missing purpose.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/cloudflare-control",
+        "https://github.com/the-static-collective/cloudflare-control/commit/e5b1e0c5d032143053e6de5396fb364e831e2ee2"
+      ]
+    },
+    {
+      "id": "recoreturn-2026-09-27",
+      "repositories": [
+        "reCOreturn"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "missing_readme",
+        "implementation_body",
+        "claim_ledger",
+        "return_loop",
+        "disposition_fog"
+      ],
+      "body_claim": "reCOreturn contains a public-facing Recognition → Return → Stewardship gallery backed by a deeper working-record layer: claim categories, source citations, proof milestones, customer-discovery logs, unit economics, transparency receipts, participation intake, and explicit unsupported-claim removal.",
+      "purpose_claim": "OBSERVED/INFERRED: the surviving body tests whether an art/fashion enterprise can make value return, stewardship, dignity constraints, commercial hypotheses, and public claims inspectable before scale rather than presenting aspiration as accomplished impact.",
+      "last_witnessed_change": "The surviving main-branch application implements The Return Event across garment, portrait, song, meal, film, and knowledge media, while the working-record drawer separates confirmed facts, active hypotheses, dignity rules, economics, interviews, and receipt evidence.",
+      "disposition": "UNKNOWN — the executable body is substantial but there is no root README and this pass found no public source stating whether reCOreturn is current, paused, renamed, or absorbed into another participation/stewardship project.",
+      "reentry_door": "Start with src/data/ventureData.ts beside TheReturnEvent and DeepThreadDrawer. The key particular is not generic commerce; it is the explicit path from recognition to receipted return under claim and dignity constraints.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/reCOreturn/blob/main/src/App.tsx",
+        "https://github.com/the-static-collective/reCOreturn/blob/main/src/data/ventureData.ts",
+        "https://github.com/the-static-collective/reCOreturn/blob/main/src/components/TheReturnEvent.tsx",
+        "https://github.com/the-static-collective/reCOreturn/blob/main/src/components/DeepThreadDrawer.tsx"
+      ]
+    },
+    {
+      "id": "static-field-2026-09-27",
+      "repositories": [
+        "static-field"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "missing_main_readme",
+        "implementation_body_on_open_prs",
+        "world_runtime_identity",
+        "multi_stage_proposal_lineage",
+        "front_door_not_landed",
+        "human_recovered_origin",
+        "print_to_play_transition"
+      ],
+      "body_claim": "static-field's main branch currently lacks a README, but open PR #1 contains a complete STATIC FIELD front door and executable WORLDSEED-001 Porch runtime: append-only world events, separate Surface/Resonance projections, attendance/absence, Charge, Field Depth, unresolved Bell/Knock, detected-but-unopened Crossing residue, deterministic receipts, persistence, CLI, and browser surface. Later stacked PRs extend that body through source-owned crossing, Wormhole Wars receiving-world play, graphical table work, visual cards, 3D Porch assets, and a Living Deck handoff.",
+      "purpose_claim": "LATER MANIFESTATION OBSERVED: the surviving STATIC FIELD runtime asks how attributable physical/social/world events can accumulate resonance and cross between independently authoritative worlds. HUMAN-RECOVERED ORIGIN: this was not the starting identity; the earlier project was a print-shop / translation surface for turning related Collective context into physical print media, with postcard newsletters as an early form, followed in the same developmental thread by PostEmahh'n cards and then increasingly playable card grammars, games, and cross-pollination.",
+      "last_witnessed_change": "Open PR #12 composes PostEmahh'n card/sticker fixtures into a local Fellowship Table, exports a portable proposal toward Full Measure and ROroomOM, and explicitly keeps real source proof, canonical world events, and effectful admission gated. The founding executable identity remains documented in open PR #1 rather than main.",
+      "disposition": "ACTIVE PROPOSAL LINEAGE / FRONT-DOOR GAP — substantial executable and experimental bodies survive on open PRs, but the main branch does not presently carry the README that explains them. Open PRs are proposals, not proof that these bodies have landed or become current canon.",
+      "reentry_door": "Begin with the human-recovered print/output origin below, then read the Daily Slice postcard/newsletter traces, PostEmahh'n design, and only afterward the STATIC FIELD First Bell / Wormhole Wars / Living Deck branches. Treat the Porch/world runtime as a later manifestation, not the recovered origin.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/static-field/pull/1",
+        "https://github.com/the-static-collective/static-field/pull/3",
+        "https://github.com/the-static-collective/static-field/pull/4",
+        "https://github.com/the-static-collective/static-field/pull/12"
+      ],
+      "human_recovered_context": {
+        "recorded_on": "2026-09-27",
+        "witness_type": "human_origin_recovery",
+        "claim": "STATIC FIELD originally began as a print shop / translation surface creating print media for or from related project context. The original thought included newsletters printed on postcards. PostEmahh'n cards emerged in the same developmental conversation; from there the project broadened into card-related games, grammars, and cross-pollinating manifestations. A useful recovered image is a partly paper arcade in which arcade tickets/cards are non-fungible collector particulars rather than interchangeable score tokens.",
+        "corroboration_posture": "The linked repository sources corroborate adjacent newsletter, portable-postcard, PostEmahh'n, and later card-game manifestations. They do not independently prove this exact origin chronology; the chronology here is preserved as human-recovered testimony and remains distinguishable from Git-derived evidence.",
+        "corroborating_urls": [
+          "https://github.com/the-static-collective/the-daily-slice/blob/main/slices/2026/08/2026-08-24/in-out-newsletter.md",
+          "https://github.com/the-static-collective/the-daily-slice/blob/main/docs/superpowers/specs/2026-08-24-artifact-capture-postcard-architecture-design.md",
+          "https://github.com/the-static-collective/Jubilee-Engine-VM/pull/12",
+          "https://github.com/the-static-collective/static-field/pull/3",
+          "https://github.com/the-static-collective/static-field/pull/12"
+        ]
+      },
+      "chat_history_recovery": {
+        "recovered_on": "2026-09-27",
+        "source_type": "prior_chat_recovery",
+        "posture": "Recovered prior-chat turns are historical witnesses of what was being proposed at those moments. Events are explicitly typed as precursor_candidate, direct_lineage, or later_revisit. A precursor candidate may resemble later PostEmahh'n/STATIC FIELD forms without proving genealogy; direct lineage marks turns in the named Postémon/postEmahh'n development; later revisit marks explicit later recovery/recomposition.",
+        "events": [
+          {
+            "at": "2026-08-24T17:51:27Z",
+            "source_kind": "user_turn_recovered",
+            "relation": "precursor_candidate",
+            "detail": "User observed that accumulated visual boxes could become 'amazing little newsletter bits' — an early publication/carrier impulse later adjacent to postcard/card forms."
+          },
+          {
+            "at": "2026-08-24T19:03:54Z",
+            "source_kind": "user_turn_recovered",
+            "relation": "precursor_candidate",
+            "detail": "User wanted visual postcards/artifacts given a durable home in the Daily Slice and accepted a captures/ + postcards/ + artifact-index architecture. This predates PostEmahh'n by name and is preserved only as a precursor candidate, not proven genealogy."
+          },
+          {
+            "at": "2026-09-21T17:43:24Z",
+            "source_kind": "user_turn_recovered",
+            "detail": "Physical-media origin phase: cheap personal/pro-DPI printing with 'postcard vibes or 8×10' and home-printable physical provenance objects.",
+            "relation": "direct_lineage"
+          },
+          {
+            "at": "2026-09-21T17:48:40Z",
+            "source_kind": "user_turn_recovered",
+            "detail": "Named 'Postémon Cards': physical executable provenance/collectible cards; scanable live-object relation; fronts/backs carry identity, issue/source/ancestry/date/edition/QR; moves included PLAY, TRACE, BRANCH, COMPOSE, RECONSTITUTE.",
+            "relation": "direct_lineage"
+          },
+          {
+            "at": "2026-09-21T17:50:59Z",
+            "source_kind": "user_turn_recovered",
+            "detail": "Renamed to 'postEmahh'n Cards' to avoid Pokémon trademark friction; wanted Pokémon/Magic-like types and runs where composing cards creates compositions and composing compositions creates decks.",
+            "relation": "direct_lineage"
+          },
+          {
+            "at": "2026-09-21T17:54:12Z",
+            "source_kind": "user_turn_recovered",
+            "detail": "Requested a design skeleton drawing simultaneously from Pokémon, Magic, baseball cards, Final Fantasy XII Gambits, and Final Fantasy VII Materia.",
+            "relation": "direct_lineage"
+          },
+          {
+            "at": "2026-09-21T18:12:00Z",
+            "source_kind": "user_turn_recovered",
+            "detail": "Accepted three freely iterable seed decks with generation counts and increasingly rare trust-held roots: RECEIVE / HOLD / POUR; descendants preserve lineage rather than becoming interchangeable copies.",
+            "relation": "direct_lineage"
+          },
+          {
+            "at": "2026-09-21T18:44:27Z",
+            "source_kind": "user_turn_recovered",
+            "detail": "Connected the new trading-card concept to Full Measure, old habit-development ideas, prayer/self-care as actual recharge mechanics, and Upper Room.",
+            "relation": "direct_lineage"
+          },
+          {
+            "at": "2026-09-21T18:55:35Z",
+            "source_kind": "user_turn_recovered",
+            "detail": "Expanded toward 'choose your own story and party', flashbacks, personal fantasies/utopias, dreams, world/meaning building, and Bandcamp as world-seeding material.",
+            "relation": "direct_lineage"
+          },
+          {
+            "at": "2026-09-21T19:06:06Z",
+            "source_kind": "user_turn_recovered",
+            "detail": "Added balance of supply/demand, discipleship, Age of Empires-like culture building, hard tangible limiting choices, and explicit opportunity cost.",
+            "relation": "direct_lineage"
+          },
+          {
+            "at": "2026-09-21T20:38:05Z",
+            "source_kind": "user_turn_recovered",
+            "detail": "Pushed game composition further: creating games/stories could occur within play itself, making cards carry mechanics, roles, scenario seeds, objects, achievements, and inherited histories.",
+            "relation": "direct_lineage"
+          },
+          {
+            "at": "2026-09-21T21:42:42Z",
+            "source_kind": "user_turn_recovered",
+            "detail": "Asked for 'a lawful wormhole' using 'our weird collected binder of Rick and Morty universal receipts' in a 'south park phone destroyer homage/improvement/ module for static-field??' — the direct bridge into the later WORMHOLE WARS manifestation.",
+            "relation": "direct_lineage"
+          },
+          {
+            "at": "2026-09-25T04:39:58Z",
+            "source_kind": "user_turn_recovered",
+            "detail": "Revisited postEmahh'n explicitly as an older cards concept and asked to recover it as an expansion/explosion set, remembering a connection to REALITY.2.",
+            "relation": "later_revisit"
+          },
+          {
+            "at": "2026-09-25T05:14:02Z",
+            "source_kind": "user_turn_recovered",
+            "detail": "Accepted an orthogonal POST entrance and solo-play direction: solitaire × choose-your-own-adventure × tarot/fractal arrangement × Myst/Cyberprophecy/Cicada, with emergent actual-code activation.",
+            "relation": "later_revisit"
+          },
+          {
+            "at": "2026-09-25T05:35:26Z",
+            "source_kind": "user_turn_recovered",
+            "detail": "Named Static Workbench, Paula's Workbench, and Haunted Toaster as distinct local receipt surfaces connected through a card-reader crossing membrane; proposed that the first printed receipt could be the player's character sheet.",
+            "relation": "later_revisit"
+          }
+        ],
+        "compression": "newsletter/postcard precursor candidates → cheap printable particular → Postémon collectible executable card → postEmahh'n composition/deck → inherited descendant → life/world mechanic → game-making inside play → lawful wormhole/card reader → STATIC FIELD manifestations → later REALITY.2/recovery expansion"
+      }
+    },
+    {
+      "id": "roroomom-front-door-drift-2026-09-27",
+      "repositories": [
+        "ROroomOM"
+      ],
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "stale_main_readme",
+        "active_branch_lineage",
+        "capability_crossing_body",
+        "orphan_source_recomposition",
+        "translation_rich_history"
+      ],
+      "body_claim": "ROroomOM's main README still describes a small local-first Room and points forward to an 'upcoming' ROOM-005 capability crossing. The open proposal lineage now contains ROOM-005 project-owned source search with explicit approval, ROOM-006 rejoining with WORLDSEED-004, a Living Deck guest-room handoff from Static Field / Full Measure, documentation for reconciling orphan ROOM 006–008 local sources, Frankenstein 001 crossing Lemon Press receipts into a Room Score, and ADDRESSABLE-PARTICULAR-001.",
+      "purpose_claim": "OBSERVED/INFERRED: the Room has been used as a bounded laboratory for letting artifacts, sources, and experiences cross into a local creative field while repeatedly refusing the collapse of address, identity, occupancy, relation, and authority.",
+      "last_witnessed_change": "Open PR #6 crystallizes the accumulated seam into ADDRESSABLE-PARTICULAR-001 with explicit laws such as address ≠ occupant, ancestry ≠ equivalence, recurrence ≠ occurrence, relation ≠ authority, and availability ≠ traversal. PR #4 separately records that executable ROOM 006–008 sources existed in an originating conversation/ZIP but had not yet been transferred to GitHub.",
+      "disposition": "ACTIVE PROPOSAL LINEAGE / TRANSLATION-RICH FRONT DOOR — main remains intentionally small, while multiple unmerged branches preserve later rooms, crossings, and even an explicit orphan-source recomposition problem. This is not evidence that all later rooms are current or landed; it is evidence that the project's developmental history exceeds its main README.",
+      "reentry_door": "Read main README first, then PRs #1–#6 chronologically and by stacking relation. Treat PR #4's orphan-source receipt as a first-class recovery clue: some project body existed outside Git and the Git history explicitly knows the transfer was incomplete.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/ROroomOM/blob/main/README.md",
+        "https://github.com/the-static-collective/ROroomOM/pull/1",
+        "https://github.com/the-static-collective/ROroomOM/pull/4",
+        "https://github.com/the-static-collective/ROroomOM/pull/5",
+        "https://github.com/the-static-collective/ROroomOM/pull/6"
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "id": "cloudflare-control-seed-2026-09-27",
+      "repository": "cloudflare-control",
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "repository_shell",
+        "initialization_commit_only",
+        "missing_readme",
+        "origin_needed"
+      ],
+      "observed_public_state": "Public repository size is zero. The only observed commit is e5b1e0c5d032143053e6de5396fb364e831e2ee2, titled Initialize repository. No README or implementation body is present.",
+      "residual_fog": "The public Git body does not establish the intended control-plane contract, why the repository was created, or whether implementation moved elsewhere.",
+      "next_recovery_action": "Locate a creator/conversation witness or project-owned design note, then add a recovered-body entry only if that intent can be preserved with inspectable provenance.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/cloudflare-control",
+        "https://github.com/the-static-collective/cloudflare-control/commit/e5b1e0c5d032143053e6de5396fb364e831e2ee2"
+      ]
+    },
+    {
+      "id": "appliance-prophet-king-seed-2026-09-27",
+      "repository": "appliance-prophet-king",
+      "reviewed_on": "2026-09-27",
+      "signals": [
+        "empty_repository",
+        "no_commits",
+        "missing_readme",
+        "origin_needed"
+      ],
+      "observed_public_state": "The public repository is empty: no commits, README, branch body, or implementation artifact is available in the current public aperture.",
+      "residual_fog": "The creator has restored one important fact: this seed was a toaster appliance concept. Exact form, mechanism, intended behavior, and later disposition remain unresolved. The rough sketch is explicitly low-fidelity and its geometric inaccuracies carry no intended design meaning.",
+      "next_recovery_action": "Search prior chat/artifact history using the toaster identity and project name. Preserve the sketch only as evidence that a toaster idea was being communicated, not as geometry or engineering evidence.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/appliance-prophet-king"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "recurvrepair-review-2026-09-27",
+      "repository": "reCURVrePAIR",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "note": "The root README already states the repair-culture purpose, implemented reality status, non-guarantees, handoff protocol, epistemic states, and re-entry path. Its exact family relation to reMIX-reCURVrePAIR remains a separate lineage question, not a missing front door here.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/reCURVrePAIR/blob/main/README.md",
+        "https://github.com/the-static-collective/reCURVrePAIR/blob/main/src/types.ts"
+      ],
+      "recovery_open": true,
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "toaster-oracle-review-2026-09-27",
+      "repository": "toaster-oracle",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "note": "The README gives a detailed Feral Composer contract: multimodal proposal generation, Lock/Burn constraints, Haunted Toaster admission/refusal pressure, executable score visualization, and realization critique. The project is re-enterable from its own front door.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/toaster-oracle/blob/main/README.md"
+      ],
+      "recovery_open": true,
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "toaster-lab-review-2026-09-27",
+      "repository": "toaster-lab",
+      "reviewed_on": "2026-09-27",
+      "result": "disposition_claim_observed",
+      "note": "The repository explicitly declares itself superseded/read-only historical evidence and a mutation-logic quarry only. It says not to continue a second appliance here and points any salvage toward Haunted Toaster.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/toaster-lab/blob/main/README.md",
+        "https://github.com/the-static-collective/toaster-lab/blob/main/product-contract.json"
+      ],
+      "recovery_open": true,
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "toaster-lab2-review-2026-09-27",
+      "repository": "toaster-lab2",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "note": "The README exposes a bounded Crazy Slots proposal-appliance role, deterministic transfer boundary, sovereignty split with Haunted Toaster, verification commands, and compatibility tests. Its present role is explicit.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/toaster-lab2/blob/main/README.md"
+      ],
+      "recovery_open": true,
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "tranchnose-review-2026-09-27",
+      "repository": "tranchNOSE",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "note": "The repository clearly states its optical-state experiment, failure boundary, machine model, first field-object question, research posture, and extraction lineage from tranchnode issue #30.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/tranchNOSE/blob/main/README.md"
+      ],
+      "recovery_open": true,
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "haunted-pol-ish-roids-review-2026-09-27",
+      "repository": "the-haunted-pol-ish-roids",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "note": "The front door explicitly identifies a living camera organism, its provenance/personality split, planned Phoenix Egg and Quantum Chrysalis lineage mechanics, and current design/specification phase with issue #1 as the gate.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/the-haunted-pol-ish-roids/blob/main/README.md"
+      ],
+      "recovery_open": true,
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "bananaspork-review-2026-09-27",
+      "repository": "BananaSpork",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "note": "The README names the current FIELD-SPECIMEN-001 edge, separates NanaSpork/Garden/BananaGram/Campfire/Jubilee/Donkey responsibilities, states implemented authority boundaries, and lists the next live proof without confusing migration or build evidence with field proof.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/BananaSpork/blob/main/README.md"
+      ],
+      "recovery_open": true,
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "fogglass-review-2026-09-27",
+      "repository": "fogGlass",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "recovery_open": true,
+      "note": "The README already preserves the instrument's narrow law: fog has an address, lamps investigate without deciding, lenses change observation rather than world-state, failed illumination leaves a receipt, and candidate-set size is not probability or truth.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/fogGlass/blob/main/README.md"
+      ],
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "convergent-codec-review-2026-09-27",
+      "repository": "convergent-codec",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "recovery_open": true,
+      "note": "The README exposes the exact-codec thesis, current kernel, measured-cost law, witness-plane separation, non-goals, and next multichannel shared-mask experiment. Its current question is unusually explicit.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/convergent-codec/blob/main/README.md"
+      ],
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "unfolding-ledger-review-2026-09-27",
+      "repository": "unfolding-ledger",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "recovery_open": true,
+      "note": "The README clearly marks a v0.1 constitutional kernel, names six invariants, distinguishes verifier claims from non-claims, and explicitly records that its sorted-JSON serializer is not canonical for Project0 and still requires comparison against Project0's frozen addressing contract.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/unfolding-ledger/blob/main/README.md"
+      ],
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "mundanewormhole-review-2026-09-27",
+      "repository": "mundaneWORMHOLE",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "recovery_open": true,
+      "note": "The README carries both the performance and instrument identity, the rootstock/scion distinction, the bananaGraft seam, explicit non-retroactive-justification rule, human graft authority, privacy boundary, and the full Track 3 witness text. This repository is itself an anti-translation-loss instrument.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/mundaneWORMHOLE/blob/main/README.md"
+      ],
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "jubilee-campfire-review-2026-09-27",
+      "repository": "Jubilee-Campfire",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "recovery_open": true,
+      "note": "The README clearly states the latent-capacity hypothesis, Offer → Join → Remember ontology, seed lifecycle, jubilee:// addressing, transparent matching, append-only event-store architecture, and future multi-circle/P2P direction. Its historical role remains readable even though later repositories use the words Jubilee and Campfire differently.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/Jubilee-Campfire/blob/main/README.md"
+      ],
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "autodiscography-vault-review-2026-09-27",
+      "repository": "autodiscography-vault",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "recovery_open": true,
+      "note": "The README gives a precise Phase B2C preservation gate, browser/local trust boundary, WAV witness ceremony, disabled capabilities, verification steps, and downstream Corpus OS handoff. It distinguishes implementation evidence from field proof throughout.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/autodiscography-vault/blob/main/README.md"
+      ],
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "founder-node-review-2026-09-27",
+      "repository": "founder-node",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "recovery_open": true,
+      "note": "The README explicitly narrows the current executable center from an older broader concept, documents what earlier text overstated, and defines Pollen Scout as evidence-bounded visibility rather than dispatch or authority. This is a strong example of a project repairing its own front-door translation.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/founder-node/blob/main/README.md"
+      ],
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "human-witness-review-2026-09-27",
+      "repository": "Human-Witness",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "recovery_open": true,
+      "note": "The README documents a bounded encounter-evidence membrane, explicit non-authorities, named architectural lineage from Upper Room / Formation Trace / Corpus OS / Jubilee Authority Kit, and an experimental SupaBardo crossing field kept outside the core contract. It preserves both inheritance and separation.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/Human-Witness/blob/main/README.md"
+      ],
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "storyship-review-2026-09-27",
+      "repository": "STORYSHIP",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "recovery_open": true,
+      "note": "The README clearly names Storyship as a provenance-first voyage runtime, distinguishes relationship/passenger from artifact/carrier, gives Haunted Phonography customs authority, and explicitly omits decide/rank/admit commands. The human-mediated crossing is carried with the body.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/STORYSHIP/blob/main/README.md"
+      ],
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "iron-lung-review-2026-09-27",
+      "repository": "iron-lung",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "recovery_open": true,
+      "note": "Iron Lung carries its own transition law unusually well: three-strand braids preserve substance/lineage/authority, repair creates descendants, transport ≠ admission ≠ assimilation, and the README explicitly distinguishes its local Successor Lift from global time/authority and its role from TranchNode Continuity Spine.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/iron-lung/blob/main/README.md"
+      ],
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "haunted-phonography-review-2026-09-27",
+      "repository": "the-haunted-phonography",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "recovery_open": true,
+      "note": "The Haunted Phonograph README carries both founding law and executable evolution: source evidence vs proposal, deterministic mutation, Specimen 001, then HAUNT v0.1 cross-appliance memory. It explicitly says appliances share memory, not authority, and preserves uncertainty through the transition.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/the-haunted-phonography/blob/main/README.md"
+      ],
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "upper-room-review-2026-09-27",
+      "repository": "Upper-room",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "recovery_open": true,
+      "note": "Upper Room's README clearly states continuity-without-captivity, names its first bounded executable Scripture/Dust slice, and lists major specified-but-unimplemented surfaces. It preserves the difference between defining edge, current proof, and horizon.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/Upper-room/blob/main/README.md"
+      ],
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "worldseed-review-2026-09-27",
+      "repository": "WORLDSEED",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "recovery_open": true,
+      "note": "WORLDSEED main remains a coherent writer-facing local world-memory tool with six verbs and author-owned epistemic labels. Open Origin PRs separately add a synthetic then increasingly native playable Crossing/Foreign Room runtime, so the current main front door is legible but no longer tells the entire experimental history.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/WORLDSEED/blob/main/README.md",
+        "https://github.com/the-static-collective/WORLDSEED/pull/2",
+        "https://github.com/the-static-collective/WORLDSEED/pull/5"
+      ],
+      "scope": "current_aperture_only"
+    },
+    {
+      "id": "full-measure-review-2026-09-27",
+      "repository": "full-measure-world-layer",
+      "reviewed_on": "2026-09-27",
+      "result": "legible_reentry_observed",
+      "recovery_open": true,
+      "note": "Full Measure explicitly narrates its own expansion from the original Garden/Jubilee participation vertical into Boot the House, Human Terminal, and STRIDE while keeping one authority boundary. This is positive evidence of a transition successfully traveling with the project.",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/full-measure-world-layer/blob/main/README.md"
+      ],
+      "scope": "current_aperture_only"
+    }
+  ],
+  "translation_scars": [
+    {
+      "id": "toaster-lab-translation-scar-2026-09-27",
+      "repositories": [
+        "toaster-lab",
+        "toaster-lab2"
+      ],
+      "reviewed_on": "2026-09-27",
+      "observed_tension": "toaster-lab explicitly declares itself superseded/read-only, says not to preserve or revive the application, and points salvage toward Haunted Toaster; a separate repository named toaster-lab2 nevertheless survives as a bounded Crazy Slots proposal appliance with its own executable contract.",
+      "interpretation": "TRANSLATION SCAR — the surviving records show that a declared ending or boundary can coexist with a later neighboring body whose name and function make the history look less linear than the disposition text alone suggests.",
+      "not_claimed": "This record does not claim that toaster-lab2 violated toaster-lab's instruction, directly descends from it, or is the same application revived. The exact handoff, reinterpretation, or naming path remains open.",
+      "reentry_question": "What was preserved, renamed, re-expressed, or misunderstood between the declaration 'do not preserve or revive this application' and the surviving toaster-lab2 proposal appliance?",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/toaster-lab/blob/main/README.md",
+        "https://github.com/the-static-collective/toaster-lab2/blob/main/README.md"
+      ],
+      "historical_search_open": true,
+      "evidence_grade": "aperture_tension_only"
+    },
+    {
+      "id": "jubilee-campfire-role-split-2026-09-27",
+      "repositories": [
+        "Jubilee-Campfire",
+        "BananaSpork"
+      ],
+      "reviewed_on": "2026-09-27",
+      "observed_tension": "Jubilee-Campfire presents 'Jubilee Campfire' as one experimental protocol/mobile-web architecture organized around Offer → Join → Remember, durable receipts, capacities, and jubilee:// addressing. BananaSpork later separates the vocabulary into distinct responsibilities: Campfire is the household/community scope, while Jubilee is the authority, lineage, and durable-memory kernel.",
+      "interpretation": "TRANSLATION SCAR — a previously bundled name appears in a later body as decomposed responsibilities. The surviving texts show a semantic role split, but do not by themselves establish whether this was a planned refactor, a gradual clarification, a naming correction, or meaning lost and later reconstructed.",
+      "not_claimed": "This record does not claim BananaSpork is a direct successor of Jubilee-Campfire, that the old ontology was abandoned, or that either text has exclusive authority over the words Jubilee or Campfire.",
+      "reentry_question": "When did Jubilee-Campfire's combined protocol identity split into 'Campfire = scope' and 'Jubilee = authority/lineage kernel', and what mechanics moved, disappeared, or changed names during that translation?",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/Jubilee-Campfire/blob/main/README.md",
+        "https://github.com/the-static-collective/BananaSpork/blob/main/README.md"
+      ],
+      "historical_search_open": true,
+      "evidence_grade": "aperture_tension_only"
+    },
+    {
+      "id": "worldseed-static-field-identity-crossing-2026-09-27",
+      "repositories": [
+        "WORLDSEED",
+        "static-field"
+      ],
+      "reviewed_on": "2026-09-27",
+      "observed_tension": "WORLDSEED main defines WORLDSEED as a writer-facing world-memory notebook whose graph stays underneath and whose author owns the world. WORLDSEED's open Origin branches then add a playable Crossing / Foreign Room runtime, while static-field PR #1 separately describes STATIC FIELD as an executable WORLDSEED-001 Porch runtime with Surface/Resonance projections and append-only world events.",
+      "interpretation": "TRANSLATION SCAR — the name WORLDSEED appears to carry at least two neighboring senses across surviving bodies: a general author-facing world-addressability instrument and a numbered playable-world/runtime lineage. The sources document several adapters and crossings, but the exact sentence explaining how 'WORLDSEED the notebook' relates to 'WORLDSEED-001 the Porch runtime' is not contained in one settled front door.",
+      "not_claimed": "This record does not claim static-field replaced WORLDSEED, that WORLDSEED main changed product identity, or that the Origin draft branches are landed canon. It also does not assume the shared WORLDSEED label means one repository directly descends from the other.",
+      "reentry_question": "What did WORLDSEED-001 mean at the moment STATIC FIELD inherited that label, and which world-memory concepts remained in WORLDSEED while which runtime concepts crossed into static-field?",
+      "evidence_urls": [
+        "https://github.com/the-static-collective/WORLDSEED/blob/main/README.md",
+        "https://github.com/the-static-collective/WORLDSEED/pull/2",
+        "https://github.com/the-static-collective/WORLDSEED/pull/4",
+        "https://github.com/the-static-collective/static-field/pull/1"
+      ],
+      "historical_search_open": true,
+      "evidence_grade": "cross_temporal_evidence"
+    }
+  ]
+}
