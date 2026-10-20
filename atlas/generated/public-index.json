@@ -1055,6 +1055,10 @@
           "sha": "e16407f68b5fc7e4286dcfc540a0170dc13457f6"
         },
         {
+          "name": "feat/penny-box-help-slip-bridge-001",
+          "sha": "8a21fd9f864adb2f05143d96279eeb58c8445730"
+        },
+        {
           "name": "feat/return-of-help-slip-001",
           "sha": "fa759384ceaf13fbfdec11dc2f9de025c4bf2615"
         },
@@ -1068,6 +1072,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 16,
+          "title": "PENNY BOX -> Garden: bounded candidate-to-HOLD bridge (001)",
+          "head_branch": "feat/penny-box-help-slip-bridge-001",
+          "head_sha": "8a21fd9f864adb2f05143d96279eeb58c8445730",
+          "head_repo": "the-static-collective/BananaSpork",
+          "base_branch": "main",
+          "updated_at": "2026-10-19T22:49:57Z",
+          "url": "https://github.com/the-static-collective/BananaSpork/pull/16"
+        },
         {
           "number": 5,
           "title": "Crater: shared Campfire conversation plane contract",
@@ -7730,6 +7744,10 @@
           "sha": "c93ccbfa6a501cdfd5e4ff8a3957300ecc0ae9c5"
         },
         {
+          "name": "feat/phaselift-001-living-phase-board",
+          "sha": "52183eafe0daf311582c6016b37805ae24ef4ec6"
+        },
+        {
           "name": "feat/remains-instruments-003",
           "sha": "535d34b5d7680ab98fb50e717b4cd00b972a232b"
         },
@@ -7755,6 +7773,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 22,
+          "title": "PHASELIFT-001 — integrity-first living phase board",
+          "head_branch": "feat/phaselift-001-living-phase-board",
+          "head_sha": "52183eafe0daf311582c6016b37805ae24ef4ec6",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-19T17:56:24Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/22"
+        },
         {
           "number": 19,
           "title": "BANANAS-001: eight-chamber reactor for all 64 conversation seeds",
@@ -17817,7 +17845,7 @@
         },
         {
           "name": "main",
-          "sha": "749f8be0c32b0c35b495501c5eb6ff8b3a8bdca0"
+          "sha": "653028ccfb968524221b6a9517d7a235eb55f41d"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -18252,5 +18280,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-19T14:40:35+00:00"
+  "captured_at": "2026-10-20T12:43:08+00:00"
 }

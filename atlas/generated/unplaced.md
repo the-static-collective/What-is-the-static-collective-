@@ -624,12 +624,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/planZ) · [Branches](https://github.com/the-static-collective/planZ/branches) · [Pull requests](https://github.com/the-static-collective/planZ/pulls)
 
-Default: `main` · other refs: 14 · open PRs: 14
+Default: `main` · other refs: 15 · open PRs: 15
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#22](https://github.com/the-static-collective/planZ/pull/22) | PHASELIFT-001 — integrity-first living phase board | `feat/phaselift-001-living-phase-board` → `main` | 2026-10-19 |
 | [#19](https://github.com/the-static-collective/planZ/pull/19) | BANANAS-001: eight-chamber reactor for all 64 conversation seeds | `experiment/banana-reactor-64-001` → `harvest/conversation-ideas-2026-10-16-001` | 2026-10-16 |
 | [#18](https://github.com/the-static-collective/planZ/pull/18) | PLANZ-CHAT-001 — 64 conversation-seed candidates (public-safe, provenance quarantine) | `harvest/conversation-ideas-2026-10-16-001` → `feat/global-plan-census-001` | 2026-10-16 |
 | [#17](https://github.com/the-static-collective/planZ/pull/17) | RELAY-001: seventh-organ Free Graph → planZ bounded mission census | `experiment/relay001-next-mission` → `main` | 2026-10-13 |
@@ -658,6 +659,7 @@ Default: `main` · other refs: 14 · open PRs: 14
 | [experiment/relay001-next-mission](https://github.com/the-static-collective/planZ/tree/experiment/relay001-next-mission) | [f4b8207105](https://github.com/the-static-collective/planZ/commit/f4b8207105cc7c7883d5533892c83089d0a7322d) | [open PR #17](https://github.com/the-static-collective/planZ/pull/17) |
 | [feat/census-senses-mutation-002](https://github.com/the-static-collective/planZ/tree/feat/census-senses-mutation-002) | [557577c6ae](https://github.com/the-static-collective/planZ/commit/557577c6ae4cd30a45b07cf23709283c8b4bf548) | [open PR #4](https://github.com/the-static-collective/planZ/pull/4) |
 | [feat/global-plan-census-001](https://github.com/the-static-collective/planZ/tree/feat/global-plan-census-001) | [c93ccbfa6a](https://github.com/the-static-collective/planZ/commit/c93ccbfa6a501cdfd5e4ff8a3957300ecc0ae9c5) | [open PR #2](https://github.com/the-static-collective/planZ/pull/2) |
+| [feat/phaselift-001-living-phase-board](https://github.com/the-static-collective/planZ/tree/feat/phaselift-001-living-phase-board) | [52183eafe0](https://github.com/the-static-collective/planZ/commit/52183eafe0daf311582c6016b37805ae24ef4ec6) | [open PR #22](https://github.com/the-static-collective/planZ/pull/22) |
 | [feat/remains-instruments-003](https://github.com/the-static-collective/planZ/tree/feat/remains-instruments-003) | [535d34b5d7](https://github.com/the-static-collective/planZ/commit/535d34b5d7680ab98fb50e717b4cd00b972a232b) | [open PR #6](https://github.com/the-static-collective/planZ/pull/6) |
 | [feat/transition-receipts-003-1](https://github.com/the-static-collective/planZ/tree/feat/transition-receipts-003-1) | [8621c46f8e](https://github.com/the-static-collective/planZ/commit/8621c46f8e4e70d7e2c09fe57a2936dcb949f6f6) | [open PR #8](https://github.com/the-static-collective/planZ/pull/8) |
 | [harvest/conversation-ideas-2026-10-16-001](https://github.com/the-static-collective/planZ/tree/harvest/conversation-ideas-2026-10-16-001) | [9fe64b9d48](https://github.com/the-static-collective/planZ/commit/9fe64b9d48792499cfd972b9de88bf0d63268f11) | [open PR #18](https://github.com/the-static-collective/planZ/pull/18) |
