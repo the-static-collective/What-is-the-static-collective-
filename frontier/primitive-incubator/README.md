@@ -52,6 +52,10 @@ Narrative, theological, embodied, symbolic, historical, and world-building resea
 
 Project-backed frontier work whose canonical design, implementation, tests, or issue state already lives in an owning repository.
 
+### [MADDPASTE RECOMPOSITION 001 — Roads Not Taken, Coordinates That Remain](maddpaste-recomposition-001-roads-not-taken.md)
+
+A dated cross-project routing receipt for three stranded MADDclown harvests: preserves their formation, marks already-absorbed descendants, folds duplicates into existing parents, and isolates three owner-local executable frontiers without creating a shared runtime.
+
 ## Research-state ladder
 
 ```
