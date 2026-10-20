@@ -59,5 +59,6 @@ What evidence could justify moving some part of this into `patterns/`, `glossary
 - [Metaphor as Portal](metaphor-as-portal.md)
 - [Potential Energy Routing](potential-energy-routing.md)
 - [Bounded Weirdness](bounded-weirdness.md)
+- [The Daughter Finds the Door — Descendant Difference as Return Address](daughter-finds-the-door.md)
 
-The order is deliberate. It starts with where knowledge is projected, moves into how memory may become navigable terrain, then tests spatial route and sequence before crossing into evidence, authority, metaphor, potential-energy routing, and bounded creative expansion.
+The order is deliberate. It starts with where knowledge is projected, moves into how memory may become navigable terrain, then tests spatial route and sequence before crossing into evidence, authority, metaphor, potential-energy routing, bounded creative expansion, and finally a concrete specimen where surviving descendant difference supports re-entry without impersonating the origin.
