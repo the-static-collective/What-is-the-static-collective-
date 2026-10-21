@@ -1,47 +1,19 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-19T14:40:35+00:00",
-  "to_captured_at": "2026-10-20T12:43:08+00:00",
+  "from_captured_at": "2026-10-20T12:43:08+00:00",
+  "to_captured_at": "2026-10-21T12:56:02+00:00",
   "added_repositories": [],
   "removed_repositories": [],
-  "added_branches": [
-    {
-      "repository": "BananaSpork",
-      "branch": "feat/penny-box-help-slip-bridge-001",
-      "sha": "8a21fd9f864adb2f05143d96279eeb58c8445730"
-    },
-    {
-      "repository": "planZ",
-      "branch": "feat/phaselift-001-living-phase-board",
-      "sha": "52183eafe0daf311582c6016b37805ae24ef4ec6"
-    }
-  ],
+  "added_branches": [],
   "removed_branches": [],
   "moved_branch_heads": [
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "749f8be0c32b0c35b495501c5eb6ff8b3a8bdca0",
-      "to_sha": "653028ccfb968524221b6a9517d7a235eb55f41d"
+      "from_sha": "653028ccfb968524221b6a9517d7a235eb55f41d",
+      "to_sha": "b92220d23dd935fbbc7c1c4e346e53be02a63333"
     }
   ],
-  "opened_prs": [
-    {
-      "repository": "BananaSpork",
-      "number": 16,
-      "title": "PENNY BOX -> Garden: bounded candidate-to-HOLD bridge (001)",
-      "url": "https://github.com/the-static-collective/BananaSpork/pull/16",
-      "head_branch": "feat/penny-box-help-slip-bridge-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "planZ",
-      "number": 22,
-      "title": "PHASELIFT-001 — integrity-first living phase board",
-      "url": "https://github.com/the-static-collective/planZ/pull/22",
-      "head_branch": "feat/phaselift-001-living-phase-board",
-      "base_branch": "main"
-    }
-  ],
+  "opened_prs": [],
   "left_open_prs": []
 }

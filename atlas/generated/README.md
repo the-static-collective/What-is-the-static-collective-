@@ -4,7 +4,7 @@ description: "Dated, source-linked public Git inventory for the Static Collectiv
 
 # Public Git inventory
 
-Captured: **2026-10-20T12:43:08+00:00** · **85 public repositories** · **2005 branch refs** (including defaults) · **944 open PRs**.
+Captured: **2026-10-21T12:56:02+00:00** · **85 public repositories** · **2005 branch refs** (including defaults) · **944 open PRs**.
 
 [Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
 
