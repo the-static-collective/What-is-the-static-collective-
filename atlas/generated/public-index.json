@@ -5931,6 +5931,47 @@
       ]
     },
     {
+      "name": "JAR-VIS",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "fix/005-openmanus-venv",
+          "sha": "cad2c7bb026ddae967f85d627503bd8150308e02"
+        },
+        {
+          "name": "genesis-001-voluntary-crossing",
+          "sha": "8d39453d1104cdab2571806059a4fd43d481196d"
+        },
+        {
+          "name": "genesis-002-attendant-workbench",
+          "sha": "b307a6d2027d7767bd19c5d3a41dcef6aaab0f73"
+        },
+        {
+          "name": "genesis-003-first-real-door",
+          "sha": "36976fd3d4908a8461873c90d6750f0b6ae11d9c"
+        },
+        {
+          "name": "genesis-004-house-party",
+          "sha": "b806b9c837e167441958208a894408b00acf3a41"
+        },
+        {
+          "name": "genesis-005-first-live-guests",
+          "sha": "20fa89a340251443afa7afbdb5432ed11fce88a6"
+        },
+        {
+          "name": "main",
+          "sha": "0a4f87938b9237ad439d9e58c3aecb276429a34d"
+        },
+        {
+          "name": "proof/house-party-005-first-native-run",
+          "sha": "9055f300f65ac8f3c14464440e27ec68623d1947"
+        }
+      ],
+      "open_prs": []
+    },
+    {
       "name": "jubilee-authority-kit",
       "visibility": "public",
       "default_branch": "main",
@@ -7764,15 +7805,71 @@
           "sha": "dad6593c3718c65fa4bb7a3650af8fc80d060ce6"
         },
         {
+          "name": "plan/abundent-field-grand-shard-001",
+          "sha": "1ec9a4043b150296e0d90796fae5e5cc02ba3dcc"
+        },
+        {
+          "name": "proposal/common-table-waseca-grand-plan-001",
+          "sha": "e57b227242d64d4e485540f6406ec63d21407e3c"
+        },
+        {
+          "name": "proposal/heap-cut-001-grocery-network",
+          "sha": "5735123d2b3c29e8a6ff2d39ee6f08d168a09aa0"
+        },
+        {
           "name": "proposal/master-servant-field-score-001",
           "sha": "b819dec38b36f49ae1d1991d4e73a752bb4a2d5d"
         },
         {
           "name": "proposal/revival-traveling-jubilee-topper-001",
           "sha": "686c8df2bec928a83c05b3198fb4898c663e22f4"
+        },
+        {
+          "name": "proposal/the-garden-master-shard-001",
+          "sha": "d0bcdf7d9fc40eef59deed560057c8579a69cb2a"
         }
       ],
       "open_prs": [
+        {
+          "number": 26,
+          "title": "HEAP-CUT-001 — Living Neighbor Network: cards × radio × website/app × human return",
+          "head_branch": "proposal/heap-cut-001-grocery-network",
+          "head_sha": "5735123d2b3c29e8a6ff2d39ee6f08d168a09aa0",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-22T00:22:51Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/26"
+        },
+        {
+          "number": 25,
+          "title": "THE GARDEN-001 — land commons master shard (draft)",
+          "head_branch": "proposal/the-garden-master-shard-001",
+          "head_sha": "d0bcdf7d9fc40eef59deed560057c8579a69cb2a",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-21T20:58:34Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/25"
+        },
+        {
+          "number": 24,
+          "title": "FIELD-001 — grand shard: Abundent as node of return",
+          "head_branch": "plan/abundent-field-grand-shard-001",
+          "head_sha": "1ec9a4043b150296e0d90796fae5e5cc02ba3dcc",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-21T23:38:33Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/24"
+        },
+        {
+          "number": 23,
+          "title": "COMMON TABLE WASECA-001 — Grand Plan (draft)",
+          "head_branch": "proposal/common-table-waseca-grand-plan-001",
+          "head_sha": "e57b227242d64d4e485540f6406ec63d21407e3c",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-21T20:51:29Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/23"
+        },
         {
           "number": 22,
           "title": "PHASELIFT-001 — integrity-first living phase board",
@@ -9992,12 +10089,32 @@
       "archived": false,
       "branches": [
         {
+          "name": "archive/daughtershome-auto-s01e01-20261021",
+          "sha": "2da0f5e8854768f531a855d72ca07fdecb83dac8"
+        },
+        {
+          "name": "archive/daughtershome-testimony-06-07-20261021",
+          "sha": "01677b491957b6aa095829add5682613f506f72d"
+        },
+        {
           "name": "experiment/relay001-fifth-organ-archive",
           "sha": "a61ef4871c2d26101a361265983f03733c25aad9"
         },
         {
           "name": "feat/blue-night-morning-sia-20261013",
           "sha": "86cc113ccb96d104ba338040086014e6dddf9948"
+        },
+        {
+          "name": "feat/fishbone-001-browser-witness",
+          "sha": "ea3d97b120fef53138353754f7ab7a5dfbffc687"
+        },
+        {
+          "name": "feat/fishbone-002-temporal-witness",
+          "sha": "e03c267e40ccbf4dd5edb7a3b9e3531b1ac2b881"
+        },
+        {
+          "name": "feat/fossil-orrery-001-grok-import",
+          "sha": "051e05f67769c2bde2b4741d5c760c0ccf5e3624"
         },
         {
           "name": "feat/story-dna-relationship-passenger-002",
@@ -10013,10 +10130,34 @@
         },
         {
           "name": "main",
-          "sha": "669d46ce797a291260d269dd4fd53cdf3d6409d6"
+          "sha": "41a896f895474e950deb64db67049c794f2ae1d9"
+        },
+        {
+          "name": "test/fishbone-live-browser-smoke",
+          "sha": "9097dd050f22b9c45d335e4469f8bcf25f8f30cc"
         }
       ],
       "open_prs": [
+        {
+          "number": 9,
+          "title": "Fossil Orrery 001–003 — GrokBuild, 15k strata, observed Suno field station (draft)",
+          "head_branch": "feat/fossil-orrery-001-grok-import",
+          "head_sha": "051e05f67769c2bde2b4741d5c760c0ccf5e3624",
+          "head_repo": "the-static-collective/SIA",
+          "base_branch": "main",
+          "updated_at": "2026-10-21T18:54:24Z",
+          "url": "https://github.com/the-static-collective/SIA/pull/9"
+        },
+        {
+          "number": 8,
+          "title": "FISHBONE live Chromium smoke: two captures → history → SIA",
+          "head_branch": "test/fishbone-live-browser-smoke",
+          "head_sha": "9097dd050f22b9c45d335e4469f8bcf25f8f30cc",
+          "head_repo": "the-static-collective/SIA",
+          "base_branch": "main",
+          "updated_at": "2026-10-21T17:35:08Z",
+          "url": "https://github.com/the-static-collective/SIA/pull/8"
+        },
         {
           "number": 5,
           "title": "STORY DNA 002 — relationship passenger prototype (incubation)",
@@ -16928,6 +17069,10 @@
           "sha": "8993d13c826d62389d3ff75288984c764236a1d5"
         },
         {
+          "name": "experiment/abundent-field-byte-001",
+          "sha": "f8fe57b1efcc41e5caa3426c99caf50972a2a7a8"
+        },
+        {
           "name": "experiment/abundent-relatte-crossing-001",
           "sha": "d8a71d8f3b2f26c44d3716a566982dae055688b0"
         },
@@ -17124,6 +17269,10 @@
           "sha": "cc98e92db41668bea86bf93ca14ebd12fc733ffe"
         },
         {
+          "name": "feature/field-002-observation-to-card",
+          "sha": "5c8c105baa766c172a39e987e816414dfbe759b1"
+        },
+        {
           "name": "feature/listening-rooms-dial-zoom-001",
           "sha": "e06ecfdf681eef1df12f19d0ac36fb23d6b17833"
         },
@@ -17136,11 +17285,45 @@
           "sha": "1617369bc105ec065c2ec917298ea5381647cc43"
         },
         {
+          "name": "release/field-cards-reconciled-001",
+          "sha": "31f80398c937e5da289d517f50e01cf6470c7c6a"
+        },
+        {
           "name": "release/needs-001-abundent-live",
           "sha": "65539f065db609c97e5c3ca1ca0b2d0f90c7498a"
         }
       ],
       "open_prs": [
+        {
+          "number": 68,
+          "title": "FIELD-002 — a real observation becomes a human-authored question and card",
+          "head_branch": "feature/field-002-observation-to-card",
+          "head_sha": "5c8c105baa766c172a39e987e816414dfbe759b1",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "release/field-cards-reconciled-001",
+          "updated_at": "2026-10-21T23:36:59Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/68"
+        },
+        {
+          "number": 67,
+          "title": "FIELD CARDS RECONCILIATION — graft /field/cards onto deployed Abundent",
+          "head_branch": "release/field-cards-reconciled-001",
+          "head_sha": "31f80398c937e5da289d517f50e01cf6470c7c6a",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "release/needs-001-abundent-live",
+          "updated_at": "2026-10-21T23:12:37Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/67"
+        },
+        {
+          "number": 66,
+          "title": "ABUNDENT FIELD-001 — printable POSTYMON × REALITY.2 return door",
+          "head_branch": "experiment/abundent-field-byte-001",
+          "head_sha": "f8fe57b1efcc41e5caa3426c99caf50972a2a7a8",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-21T21:08:32Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/66"
+        },
         {
           "number": 65,
           "title": "BANANAS-001 — Abundent composer becomes a 64-seed living reactor",
@@ -17845,7 +18028,7 @@
         },
         {
           "name": "main",
-          "sha": "b92220d23dd935fbbc7c1c4e346e53be02a63333"
+          "sha": "e2a221f10d3d324c577eb5377feaff068cbdce03"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -18280,5 +18463,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-21T12:56:02+00:00"
+  "captured_at": "2026-10-22T12:58:16+00:00"
 }

@@ -1,19 +1,206 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-20T12:43:08+00:00",
-  "to_captured_at": "2026-10-21T12:56:02+00:00",
-  "added_repositories": [],
+  "from_captured_at": "2026-10-21T12:56:02+00:00",
+  "to_captured_at": "2026-10-22T12:58:16+00:00",
+  "added_repositories": [
+    "JAR-VIS"
+  ],
   "removed_repositories": [],
-  "added_branches": [],
+  "added_branches": [
+    {
+      "repository": "JAR-VIS",
+      "branch": "fix/005-openmanus-venv",
+      "sha": "cad2c7bb026ddae967f85d627503bd8150308e02"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "genesis-001-voluntary-crossing",
+      "sha": "8d39453d1104cdab2571806059a4fd43d481196d"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "genesis-002-attendant-workbench",
+      "sha": "b307a6d2027d7767bd19c5d3a41dcef6aaab0f73"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "genesis-003-first-real-door",
+      "sha": "36976fd3d4908a8461873c90d6750f0b6ae11d9c"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "genesis-004-house-party",
+      "sha": "b806b9c837e167441958208a894408b00acf3a41"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "genesis-005-first-live-guests",
+      "sha": "20fa89a340251443afa7afbdb5432ed11fce88a6"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "main",
+      "sha": "0a4f87938b9237ad439d9e58c3aecb276429a34d"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "proof/house-party-005-first-native-run",
+      "sha": "9055f300f65ac8f3c14464440e27ec68623d1947"
+    },
+    {
+      "repository": "planZ",
+      "branch": "plan/abundent-field-grand-shard-001",
+      "sha": "1ec9a4043b150296e0d90796fae5e5cc02ba3dcc"
+    },
+    {
+      "repository": "planZ",
+      "branch": "proposal/common-table-waseca-grand-plan-001",
+      "sha": "e57b227242d64d4e485540f6406ec63d21407e3c"
+    },
+    {
+      "repository": "planZ",
+      "branch": "proposal/heap-cut-001-grocery-network",
+      "sha": "5735123d2b3c29e8a6ff2d39ee6f08d168a09aa0"
+    },
+    {
+      "repository": "planZ",
+      "branch": "proposal/the-garden-master-shard-001",
+      "sha": "d0bcdf7d9fc40eef59deed560057c8579a69cb2a"
+    },
+    {
+      "repository": "SIA",
+      "branch": "archive/daughtershome-auto-s01e01-20261021",
+      "sha": "2da0f5e8854768f531a855d72ca07fdecb83dac8"
+    },
+    {
+      "repository": "SIA",
+      "branch": "archive/daughtershome-testimony-06-07-20261021",
+      "sha": "01677b491957b6aa095829add5682613f506f72d"
+    },
+    {
+      "repository": "SIA",
+      "branch": "feat/fishbone-001-browser-witness",
+      "sha": "ea3d97b120fef53138353754f7ab7a5dfbffc687"
+    },
+    {
+      "repository": "SIA",
+      "branch": "feat/fishbone-002-temporal-witness",
+      "sha": "e03c267e40ccbf4dd5edb7a3b9e3531b1ac2b881"
+    },
+    {
+      "repository": "SIA",
+      "branch": "feat/fossil-orrery-001-grok-import",
+      "sha": "051e05f67769c2bde2b4741d5c760c0ccf5e3624"
+    },
+    {
+      "repository": "SIA",
+      "branch": "test/fishbone-live-browser-smoke",
+      "sha": "9097dd050f22b9c45d335e4469f8bcf25f8f30cc"
+    },
+    {
+      "repository": "webZ",
+      "branch": "experiment/abundent-field-byte-001",
+      "sha": "f8fe57b1efcc41e5caa3426c99caf50972a2a7a8"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/field-002-observation-to-card",
+      "sha": "5c8c105baa766c172a39e987e816414dfbe759b1"
+    },
+    {
+      "repository": "webZ",
+      "branch": "release/field-cards-reconciled-001",
+      "sha": "31f80398c937e5da289d517f50e01cf6470c7c6a"
+    }
+  ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
+      "repository": "SIA",
+      "branch": "main",
+      "from_sha": "669d46ce797a291260d269dd4fd53cdf3d6409d6",
+      "to_sha": "41a896f895474e950deb64db67049c794f2ae1d9"
+    },
+    {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "653028ccfb968524221b6a9517d7a235eb55f41d",
-      "to_sha": "b92220d23dd935fbbc7c1c4e346e53be02a63333"
+      "from_sha": "b92220d23dd935fbbc7c1c4e346e53be02a63333",
+      "to_sha": "e2a221f10d3d324c577eb5377feaff068cbdce03"
     }
   ],
-  "opened_prs": [],
+  "opened_prs": [
+    {
+      "repository": "planZ",
+      "number": 23,
+      "title": "COMMON TABLE WASECA-001 — Grand Plan (draft)",
+      "url": "https://github.com/the-static-collective/planZ/pull/23",
+      "head_branch": "proposal/common-table-waseca-grand-plan-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "planZ",
+      "number": 24,
+      "title": "FIELD-001 — grand shard: Abundent as node of return",
+      "url": "https://github.com/the-static-collective/planZ/pull/24",
+      "head_branch": "plan/abundent-field-grand-shard-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "planZ",
+      "number": 25,
+      "title": "THE GARDEN-001 — land commons master shard (draft)",
+      "url": "https://github.com/the-static-collective/planZ/pull/25",
+      "head_branch": "proposal/the-garden-master-shard-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "planZ",
+      "number": 26,
+      "title": "HEAP-CUT-001 — Living Neighbor Network: cards × radio × website/app × human return",
+      "url": "https://github.com/the-static-collective/planZ/pull/26",
+      "head_branch": "proposal/heap-cut-001-grocery-network",
+      "base_branch": "main"
+    },
+    {
+      "repository": "SIA",
+      "number": 8,
+      "title": "FISHBONE live Chromium smoke: two captures → history → SIA",
+      "url": "https://github.com/the-static-collective/SIA/pull/8",
+      "head_branch": "test/fishbone-live-browser-smoke",
+      "base_branch": "main"
+    },
+    {
+      "repository": "SIA",
+      "number": 9,
+      "title": "Fossil Orrery 001–003 — GrokBuild, 15k strata, observed Suno field station (draft)",
+      "url": "https://github.com/the-static-collective/SIA/pull/9",
+      "head_branch": "feat/fossil-orrery-001-grok-import",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 66,
+      "title": "ABUNDENT FIELD-001 — printable POSTYMON × REALITY.2 return door",
+      "url": "https://github.com/the-static-collective/webZ/pull/66",
+      "head_branch": "experiment/abundent-field-byte-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 67,
+      "title": "FIELD CARDS RECONCILIATION — graft /field/cards onto deployed Abundent",
+      "url": "https://github.com/the-static-collective/webZ/pull/67",
+      "head_branch": "release/field-cards-reconciled-001",
+      "base_branch": "release/needs-001-abundent-live"
+    },
+    {
+      "repository": "webZ",
+      "number": 68,
+      "title": "FIELD-002 — a real observation becomes a human-authored question and card",
+      "url": "https://github.com/the-static-collective/webZ/pull/68",
+      "head_branch": "feature/field-002-observation-to-card",
+      "base_branch": "release/field-cards-reconciled-001"
+    }
+  ],
   "left_open_prs": []
 }

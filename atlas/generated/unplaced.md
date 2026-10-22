@@ -450,6 +450,24 @@ Default: `main` · other refs: 27 · open PRs: 12
 | [tenet/recombination-without-collapse-011](https://github.com/the-static-collective/GrO/tree/tenet/recombination-without-collapse-011) | [baaa66d400](https://github.com/the-static-collective/GrO/commit/baaa66d400d9b30e01ba5e2f6da50984ec2205a3) | Retained ref; disposition unverified |
 | [tenet/replaceable-roads-004](https://github.com/the-static-collective/GrO/tree/tenet/replaceable-roads-004) | [d363405b21](https://github.com/the-static-collective/GrO/commit/d363405b211b1c711f24706991385887d68e11f3) | Retained ref; disposition unverified |
 
+## JAR-VIS
+
+[Repository](https://github.com/the-static-collective/JAR-VIS) · [Branches](https://github.com/the-static-collective/JAR-VIS/branches) · [Pull requests](https://github.com/the-static-collective/JAR-VIS/pulls)
+
+Default: `main` · other refs: 7 · open PRs: 0
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [fix/005-openmanus-venv](https://github.com/the-static-collective/JAR-VIS/tree/fix/005-openmanus-venv) | [cad2c7bb02](https://github.com/the-static-collective/JAR-VIS/commit/cad2c7bb026ddae967f85d627503bd8150308e02) | Retained ref; disposition unverified |
+| [genesis-001-voluntary-crossing](https://github.com/the-static-collective/JAR-VIS/tree/genesis-001-voluntary-crossing) | [8d39453d11](https://github.com/the-static-collective/JAR-VIS/commit/8d39453d1104cdab2571806059a4fd43d481196d) | Retained ref; disposition unverified |
+| [genesis-002-attendant-workbench](https://github.com/the-static-collective/JAR-VIS/tree/genesis-002-attendant-workbench) | [b307a6d202](https://github.com/the-static-collective/JAR-VIS/commit/b307a6d2027d7767bd19c5d3a41dcef6aaab0f73) | Retained ref; disposition unverified |
+| [genesis-003-first-real-door](https://github.com/the-static-collective/JAR-VIS/tree/genesis-003-first-real-door) | [36976fd3d4](https://github.com/the-static-collective/JAR-VIS/commit/36976fd3d4908a8461873c90d6750f0b6ae11d9c) | Retained ref; disposition unverified |
+| [genesis-004-house-party](https://github.com/the-static-collective/JAR-VIS/tree/genesis-004-house-party) | [b806b9c837](https://github.com/the-static-collective/JAR-VIS/commit/b806b9c837e167441958208a894408b00acf3a41) | Retained ref; disposition unverified |
+| [genesis-005-first-live-guests](https://github.com/the-static-collective/JAR-VIS/tree/genesis-005-first-live-guests) | [20fa89a340](https://github.com/the-static-collective/JAR-VIS/commit/20fa89a340251443afa7afbdb5432ed11fce88a6) | Retained ref; disposition unverified |
+| [proof/house-party-005-first-native-run](https://github.com/the-static-collective/JAR-VIS/tree/proof/house-party-005-first-native-run) | [9055f300f6](https://github.com/the-static-collective/JAR-VIS/commit/9055f300f65ac8f3c14464440e27ec68623d1947) | Retained ref; disposition unverified |
+
 ## Jubilee-treasury
 
 [Repository](https://github.com/the-static-collective/Jubilee-treasury) · [Branches](https://github.com/the-static-collective/Jubilee-treasury/branches) · [Pull requests](https://github.com/the-static-collective/Jubilee-treasury/pulls)
@@ -624,12 +642,16 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/planZ) · [Branches](https://github.com/the-static-collective/planZ/branches) · [Pull requests](https://github.com/the-static-collective/planZ/pulls)
 
-Default: `main` · other refs: 15 · open PRs: 15
+Default: `main` · other refs: 19 · open PRs: 19
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#26](https://github.com/the-static-collective/planZ/pull/26) | HEAP-CUT-001 — Living Neighbor Network: cards × radio × website/app × human return | `proposal/heap-cut-001-grocery-network` → `main` | 2026-10-22 |
+| [#25](https://github.com/the-static-collective/planZ/pull/25) | THE GARDEN-001 — land commons master shard (draft) | `proposal/the-garden-master-shard-001` → `main` | 2026-10-21 |
+| [#24](https://github.com/the-static-collective/planZ/pull/24) | FIELD-001 — grand shard: Abundent as node of return | `plan/abundent-field-grand-shard-001` → `main` | 2026-10-21 |
+| [#23](https://github.com/the-static-collective/planZ/pull/23) | COMMON TABLE WASECA-001 — Grand Plan (draft) | `proposal/common-table-waseca-grand-plan-001` → `main` | 2026-10-21 |
 | [#22](https://github.com/the-static-collective/planZ/pull/22) | PHASELIFT-001 — integrity-first living phase board | `feat/phaselift-001-living-phase-board` → `main` | 2026-10-19 |
 | [#19](https://github.com/the-static-collective/planZ/pull/19) | BANANAS-001: eight-chamber reactor for all 64 conversation seeds | `experiment/banana-reactor-64-001` → `harvest/conversation-ideas-2026-10-16-001` | 2026-10-16 |
 | [#18](https://github.com/the-static-collective/planZ/pull/18) | PLANZ-CHAT-001 — 64 conversation-seed candidates (public-safe, provenance quarantine) | `harvest/conversation-ideas-2026-10-16-001` → `feat/global-plan-census-001` | 2026-10-16 |
@@ -663,8 +685,12 @@ Default: `main` · other refs: 15 · open PRs: 15
 | [feat/remains-instruments-003](https://github.com/the-static-collective/planZ/tree/feat/remains-instruments-003) | [535d34b5d7](https://github.com/the-static-collective/planZ/commit/535d34b5d7680ab98fb50e717b4cd00b972a232b) | [open PR #6](https://github.com/the-static-collective/planZ/pull/6) |
 | [feat/transition-receipts-003-1](https://github.com/the-static-collective/planZ/tree/feat/transition-receipts-003-1) | [8621c46f8e](https://github.com/the-static-collective/planZ/commit/8621c46f8e4e70d7e2c09fe57a2936dcb949f6f6) | [open PR #8](https://github.com/the-static-collective/planZ/pull/8) |
 | [harvest/conversation-ideas-2026-10-16-001](https://github.com/the-static-collective/planZ/tree/harvest/conversation-ideas-2026-10-16-001) | [9fe64b9d48](https://github.com/the-static-collective/planZ/commit/9fe64b9d48792499cfd972b9de88bf0d63268f11) | [open PR #18](https://github.com/the-static-collective/planZ/pull/18) |
+| [plan/abundent-field-grand-shard-001](https://github.com/the-static-collective/planZ/tree/plan/abundent-field-grand-shard-001) | [1ec9a4043b](https://github.com/the-static-collective/planZ/commit/1ec9a4043b150296e0d90796fae5e5cc02ba3dcc) | [open PR #24](https://github.com/the-static-collective/planZ/pull/24) |
+| [proposal/common-table-waseca-grand-plan-001](https://github.com/the-static-collective/planZ/tree/proposal/common-table-waseca-grand-plan-001) | [e57b227242](https://github.com/the-static-collective/planZ/commit/e57b227242d64d4e485540f6406ec63d21407e3c) | [open PR #23](https://github.com/the-static-collective/planZ/pull/23) |
+| [proposal/heap-cut-001-grocery-network](https://github.com/the-static-collective/planZ/tree/proposal/heap-cut-001-grocery-network) | [5735123d2b](https://github.com/the-static-collective/planZ/commit/5735123d2b3c29e8a6ff2d39ee6f08d168a09aa0) | [open PR #26](https://github.com/the-static-collective/planZ/pull/26) |
 | [proposal/master-servant-field-score-001](https://github.com/the-static-collective/planZ/tree/proposal/master-servant-field-score-001) | [b819dec38b](https://github.com/the-static-collective/planZ/commit/b819dec38b36f49ae1d1991d4e73a752bb4a2d5d) | [open PR #12](https://github.com/the-static-collective/planZ/pull/12) |
 | [proposal/revival-traveling-jubilee-topper-001](https://github.com/the-static-collective/planZ/tree/proposal/revival-traveling-jubilee-topper-001) | [686c8df2be](https://github.com/the-static-collective/planZ/commit/686c8df2bec928a83c05b3198fb4898c663e22f4) | [open PR #14](https://github.com/the-static-collective/planZ/pull/14) |
+| [proposal/the-garden-master-shard-001](https://github.com/the-static-collective/planZ/tree/proposal/the-garden-master-shard-001) | [d0bcdf7d9f](https://github.com/the-static-collective/planZ/commit/d0bcdf7d9fc40eef59deed560057c8579a69cb2a) | [open PR #25](https://github.com/the-static-collective/planZ/pull/25) |
 
 ## playdeck
 
@@ -916,12 +942,14 @@ Default: `main` · other refs: 120 · open PRs: 88
 
 [Repository](https://github.com/the-static-collective/SIA) · [Branches](https://github.com/the-static-collective/SIA/branches) · [Pull requests](https://github.com/the-static-collective/SIA/pulls)
 
-Default: `main` · other refs: 5 · open PRs: 3
+Default: `main` · other refs: 11 · open PRs: 5
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#9](https://github.com/the-static-collective/SIA/pull/9) | Fossil Orrery 001–003 — GrokBuild, 15k strata, observed Suno field station (draft) | `feat/fossil-orrery-001-grok-import` → `main` | 2026-10-21 |
+| [#8](https://github.com/the-static-collective/SIA/pull/8) | FISHBONE live Chromium smoke: two captures → history → SIA | `test/fishbone-live-browser-smoke` → `main` | 2026-10-21 |
 | [#5](https://github.com/the-static-collective/SIA/pull/5) | STORY DNA 002 — relationship passenger prototype (incubation) | `feat/story-dna-relationship-passenger-002` → `main` | 2026-10-16 |
 | [#3](https://github.com/the-static-collective/SIA/pull/3) | RELAY-001: preserve five native organ crossings as a content-addressed SIA history | `experiment/relay001-fifth-organ-archive` → `main` | 2026-10-13 |
 | [#1](https://github.com/the-static-collective/SIA/pull/1) | SIA Gate 002A — Suno owner-export intake and metadata metabolism | `feature/suno-owner-export-intake-001` → `main` | 2026-10-13 |
@@ -930,11 +958,17 @@ Default: `main` · other refs: 5 · open PRs: 3
 
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
+| [archive/daughtershome-auto-s01e01-20261021](https://github.com/the-static-collective/SIA/tree/archive/daughtershome-auto-s01e01-20261021) | [2da0f5e885](https://github.com/the-static-collective/SIA/commit/2da0f5e8854768f531a855d72ca07fdecb83dac8) | Retained ref; disposition unverified |
+| [archive/daughtershome-testimony-06-07-20261021](https://github.com/the-static-collective/SIA/tree/archive/daughtershome-testimony-06-07-20261021) | [01677b4919](https://github.com/the-static-collective/SIA/commit/01677b491957b6aa095829add5682613f506f72d) | Retained ref; disposition unverified |
 | [experiment/relay001-fifth-organ-archive](https://github.com/the-static-collective/SIA/tree/experiment/relay001-fifth-organ-archive) | [a61ef4871c](https://github.com/the-static-collective/SIA/commit/a61ef4871c2d26101a361265983f03733c25aad9) | [open PR #3](https://github.com/the-static-collective/SIA/pull/3) |
 | [feat/blue-night-morning-sia-20261013](https://github.com/the-static-collective/SIA/tree/feat/blue-night-morning-sia-20261013) | [86cc113ccb](https://github.com/the-static-collective/SIA/commit/86cc113ccb96d104ba338040086014e6dddf9948) | Retained ref; disposition unverified |
+| [feat/fishbone-001-browser-witness](https://github.com/the-static-collective/SIA/tree/feat/fishbone-001-browser-witness) | [ea3d97b120](https://github.com/the-static-collective/SIA/commit/ea3d97b120fef53138353754f7ab7a5dfbffc687) | Retained ref; disposition unverified |
+| [feat/fishbone-002-temporal-witness](https://github.com/the-static-collective/SIA/tree/feat/fishbone-002-temporal-witness) | [e03c267e40](https://github.com/the-static-collective/SIA/commit/e03c267e40ccbf4dd5edb7a3b9e3531b1ac2b881) | Retained ref; disposition unverified |
+| [feat/fossil-orrery-001-grok-import](https://github.com/the-static-collective/SIA/tree/feat/fossil-orrery-001-grok-import) | [051e05f677](https://github.com/the-static-collective/SIA/commit/051e05f67769c2bde2b4741d5c760c0ccf5e3624) | [open PR #9](https://github.com/the-static-collective/SIA/pull/9) |
 | [feat/story-dna-relationship-passenger-002](https://github.com/the-static-collective/SIA/tree/feat/story-dna-relationship-passenger-002) | [e17df81515](https://github.com/the-static-collective/SIA/commit/e17df81515ad392eedb573f323a163eef77b53b8) | [open PR #5](https://github.com/the-static-collective/SIA/pull/5) |
 | [feat/suno-album-capture-2026-10-13](https://github.com/the-static-collective/SIA/tree/feat/suno-album-capture-2026-10-13) | [f4005afd63](https://github.com/the-static-collective/SIA/commit/f4005afd6357b5ffca3ed6f19421d1b0a7ffbc1f) | Retained ref; disposition unverified |
 | [feature/suno-owner-export-intake-001](https://github.com/the-static-collective/SIA/tree/feature/suno-owner-export-intake-001) | [d8ee6f0fac](https://github.com/the-static-collective/SIA/commit/d8ee6f0facf41980523e4bb95a1d28d8a1223836) | [open PR #1](https://github.com/the-static-collective/SIA/pull/1) |
+| [test/fishbone-live-browser-smoke](https://github.com/the-static-collective/SIA/tree/test/fishbone-live-browser-smoke) | [9097dd050f](https://github.com/the-static-collective/SIA/commit/9097dd050f22b9c45d335e4469f8bcf25f8f30cc) | [open PR #8](https://github.com/the-static-collective/SIA/pull/8) |
 
 ## static-briars
 
@@ -1073,12 +1107,15 @@ Default: `main` · other refs: 19 · open PRs: 19
 
 [Repository](https://github.com/the-static-collective/webZ) · [Branches](https://github.com/the-static-collective/webZ/branches) · [Pull requests](https://github.com/the-static-collective/webZ/pulls)
 
-Default: `main` · other refs: 55 · open PRs: 45
+Default: `main` · other refs: 58 · open PRs: 48
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#68](https://github.com/the-static-collective/webZ/pull/68) | FIELD-002 — a real observation becomes a human-authored question and card | `feature/field-002-observation-to-card` → `release/field-cards-reconciled-001` | 2026-10-21 |
+| [#67](https://github.com/the-static-collective/webZ/pull/67) | FIELD CARDS RECONCILIATION — graft /field/cards onto deployed Abundent | `release/field-cards-reconciled-001` → `release/needs-001-abundent-live` | 2026-10-21 |
+| [#66](https://github.com/the-static-collective/webZ/pull/66) | ABUNDENT FIELD-001 — printable POSTYMON × REALITY.2 return door | `experiment/abundent-field-byte-001` → `main` | 2026-10-21 |
 | [#65](https://github.com/the-static-collective/webZ/pull/65) | BANANAS-001 — Abundent composer becomes a 64-seed living reactor | `experiment/abundent-banana-reactor-001` → `release/needs-001-abundent-live` | 2026-10-16 |
 | [#64](https://github.com/the-static-collective/webZ/pull/64) | Release candidate: bring NEEDS-001 to the Abundent garden | `release/needs-001-abundent-live` → `feat/abundent-door-composer-001` | 2026-10-16 |
 | [#63](https://github.com/the-static-collective/webZ/pull/63) | NEEDS-001: first crossing for What Can We Do Today? | `experiment/needs-001-first-crossing` → `main` | 2026-10-15 |
@@ -1132,6 +1169,7 @@ Default: `main` · other refs: 55 · open PRs: 45
 | [archive/abundent-garden-workbench-2026-10-13](https://github.com/the-static-collective/webZ/tree/archive/abundent-garden-workbench-2026-10-13) | [1617369bc1](https://github.com/the-static-collective/webZ/commit/1617369bc105ec065c2ec917298ea5381647cc43) | Retained ref; disposition unverified |
 | [design/webz-maxhinal-porch-001](https://github.com/the-static-collective/webZ/tree/design/webz-maxhinal-porch-001) | [b487aab92a](https://github.com/the-static-collective/webZ/commit/b487aab92a8a2a572001cd91424a81b3a14abce9) | Retained ref; disposition unverified |
 | [experiment/abundent-banana-reactor-001](https://github.com/the-static-collective/webZ/tree/experiment/abundent-banana-reactor-001) | [8993d13c82](https://github.com/the-static-collective/webZ/commit/8993d13c826d62389d3ff75288984c764236a1d5) | [open PR #65](https://github.com/the-static-collective/webZ/pull/65) |
+| [experiment/abundent-field-byte-001](https://github.com/the-static-collective/webZ/tree/experiment/abundent-field-byte-001) | [f8fe57b1ef](https://github.com/the-static-collective/webZ/commit/f8fe57b1efcc41e5caa3426c99caf50972a2a7a8) | [open PR #66](https://github.com/the-static-collective/webZ/pull/66) |
 | [experiment/abundent-relatte-crossing-001](https://github.com/the-static-collective/webZ/tree/experiment/abundent-relatte-crossing-001) | [d8a71d8f3b](https://github.com/the-static-collective/webZ/commit/d8a71d8f3b2f26c44d3716a566982dae055688b0) | [open PR #49](https://github.com/the-static-collective/webZ/pull/49) |
 | [experiment/branch-receipt-viewer-002](https://github.com/the-static-collective/webZ/tree/experiment/branch-receipt-viewer-002) | [5cd9b50d38](https://github.com/the-static-collective/webZ/commit/5cd9b50d386568ffcbf6f90cfe803aa9cba816ac) | [open PR #52](https://github.com/the-static-collective/webZ/pull/52) |
 | [experiment/branch-workshop-001](https://github.com/the-static-collective/webZ/tree/experiment/branch-workshop-001) | [525058b098](https://github.com/the-static-collective/webZ/commit/525058b09808555957199701ba966f22987a4771) | [open PR #50](https://github.com/the-static-collective/webZ/pull/50) |
@@ -1181,8 +1219,10 @@ Default: `main` · other refs: 55 · open PRs: 45
 | [feat/static-web-002-moving-field](https://github.com/the-static-collective/webZ/tree/feat/static-web-002-moving-field) | [118eb60f4d](https://github.com/the-static-collective/webZ/commit/118eb60f4d8b1c244a0b40ea71f229946940669e) | [open PR #25](https://github.com/the-static-collective/webZ/pull/25) |
 | [feature/2day-universe-albums-001](https://github.com/the-static-collective/webZ/tree/feature/2day-universe-albums-001) | [decad24663](https://github.com/the-static-collective/webZ/commit/decad246632dc01ef9f280ba2e1eb1f36e0927ea) | Retained ref; disposition unverified |
 | [feature/a-week-together-listening-room-001](https://github.com/the-static-collective/webZ/tree/feature/a-week-together-listening-room-001) | [cc98e92db4](https://github.com/the-static-collective/webZ/commit/cc98e92db41668bea86bf93ca14ebd12fc733ffe) | Retained ref; disposition unverified |
+| [feature/field-002-observation-to-card](https://github.com/the-static-collective/webZ/tree/feature/field-002-observation-to-card) | [5c8c105baa](https://github.com/the-static-collective/webZ/commit/5c8c105baa766c172a39e987e816414dfbe759b1) | [open PR #68](https://github.com/the-static-collective/webZ/pull/68) |
 | [feature/listening-rooms-dial-zoom-001](https://github.com/the-static-collective/webZ/tree/feature/listening-rooms-dial-zoom-001) | [e06ecfdf68](https://github.com/the-static-collective/webZ/commit/e06ecfdf681eef1df12f19d0ac36fb23d6b17833) | Retained ref; disposition unverified |
 | [release/a-week-together-garden-001](https://github.com/the-static-collective/webZ/tree/release/a-week-together-garden-001) | [1617369bc1](https://github.com/the-static-collective/webZ/commit/1617369bc105ec065c2ec917298ea5381647cc43) | Retained ref; disposition unverified |
+| [release/field-cards-reconciled-001](https://github.com/the-static-collective/webZ/tree/release/field-cards-reconciled-001) | [31f80398c9](https://github.com/the-static-collective/webZ/commit/31f80398c937e5da289d517f50e01cf6470c7c6a) | [open PR #67](https://github.com/the-static-collective/webZ/pull/67) |
 | [release/needs-001-abundent-live](https://github.com/the-static-collective/webZ/tree/release/needs-001-abundent-live) | [65539f065d](https://github.com/the-static-collective/webZ/commit/65539f065db609c97e5c3ca1ca0b2d0f90c7498a) | [open PR #64](https://github.com/the-static-collective/webZ/pull/64) |
 
 ## WITNESS
