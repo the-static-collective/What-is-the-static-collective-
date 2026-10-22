@@ -42,3 +42,10 @@ jobs:
             --comparisons atlas/breath/compare-fixtures-v0.json \
             --output /tmp/breath-atlas-026 \
             --check
+      - name: Preserve source-linked public report for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: breath-atlas-026-public-evidence
+          path: /tmp/breath-atlas-026/
+          if-no-files-found: error
+          retention-days: 14
