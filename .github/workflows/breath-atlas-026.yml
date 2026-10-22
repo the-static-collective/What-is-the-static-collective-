@@ -1,0 +1,44 @@
+name: Breath Atlas 026 — branch evidence and public guard
+
+on:
+  pull_request:
+    paths:
+      - "scripts/breath_atlas_*.py"
+      - "tests/test_breath_atlas.py"
+      - "atlas/breath/**"
+      - ".github/workflows/breath-atlas-026.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile branch evidence modules
+        run: python3 -m py_compile scripts/breath_atlas_contract.py scripts/breath_atlas_project.py scripts/breath_atlas_render.py
+      - name: Run hostile and invariance tests
+        run: python3 -m unittest discover -s tests -p test_breath_atlas.py -v
+      - name: Reconcile public Living Git Map contract
+        run: python3 -m unittest discover -s tests -p test_refresh_git_atlas.py -v
+      - name: Produce bounded read-only public evidence
+        run: |
+          python3 scripts/breath_atlas_render.py \
+            --snapshot atlas/generated/public-index.json \
+            --focus atlas/breath/focus-v0.json \
+            --observations atlas/breath/observations-v0.json \
+            --comparisons atlas/breath/compare-fixtures-v0.json \
+            --output /tmp/breath-atlas-026
+          python3 scripts/breath_atlas_render.py \
+            --snapshot atlas/generated/public-index.json \
+            --focus atlas/breath/focus-v0.json \
+            --observations atlas/breath/observations-v0.json \
+            --comparisons atlas/breath/compare-fixtures-v0.json \
+            --output /tmp/breath-atlas-026 \
+            --check
