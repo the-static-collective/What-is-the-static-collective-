@@ -1,0 +1,613 @@
+{
+  "kind": "creator-workspace-public-repository-inventory-v1",
+  "captured_at": "2026-10-22T12:58:16+00:00",
+  "source": "https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas/generated",
+  "observed_public_repository_count": 86,
+  "observed_public_branch_ref_count": 2026,
+  "observed_open_pull_request_count": 953,
+  "scope": "public only; no restricted identities; observations do not grant authority",
+  "repositories": [
+    {
+      "name": "100pies",
+      "url": "https://github.com/the-static-collective/100pies",
+      "shelf": "Participation and care",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "3rdi",
+      "url": "https://github.com/the-static-collective/3rdi",
+      "shelf": "Contracts and memory",
+      "otherRefs": 26,
+      "openPRs": 8
+    },
+    {
+      "name": "ALEX.2",
+      "url": "https://github.com/the-static-collective/ALEX.2",
+      "shelf": "Contracts and memory",
+      "otherRefs": 86,
+      "openPRs": 29
+    },
+    {
+      "name": "appliance-prophet-king",
+      "url": "https://github.com/the-static-collective/appliance-prophet-king",
+      "shelf": "Images and appliances",
+      "otherRefs": 1,
+      "openPRs": 0
+    },
+    {
+      "name": "autodiscography-vault",
+      "url": "https://github.com/the-static-collective/autodiscography-vault",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 12,
+      "openPRs": 5
+    },
+    {
+      "name": "BananaDash",
+      "url": "https://github.com/the-static-collective/BananaDash",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "BananaGram-Gram-to-Fork",
+      "url": "https://github.com/the-static-collective/BananaGram-Gram-to-Fork",
+      "shelf": "Participation and care",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "BananaSpork",
+      "url": "https://github.com/the-static-collective/BananaSpork",
+      "shelf": "Participation and care",
+      "otherRefs": 11,
+      "openPRs": 2
+    },
+    {
+      "name": "band-runtime",
+      "url": "https://github.com/the-static-collective/band-runtime",
+      "shelf": "Songs and stages",
+      "otherRefs": 17,
+      "openPRs": 1
+    },
+    {
+      "name": "BnanaGram",
+      "url": "https://github.com/the-static-collective/BnanaGram",
+      "shelf": "Participation and care",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "CANNON",
+      "url": "https://github.com/the-static-collective/CANNON",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 23,
+      "openPRs": 23
+    },
+    {
+      "name": "ChronoQuest",
+      "url": "https://github.com/the-static-collective/ChronoQuest",
+      "shelf": "Worlds and inquiry",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "cloudflare-control",
+      "url": "https://github.com/the-static-collective/cloudflare-control",
+      "shelf": "Operating surfaces",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "convergent-codec",
+      "url": "https://github.com/the-static-collective/convergent-codec",
+      "shelf": "Contracts and memory",
+      "otherRefs": 1,
+      "openPRs": 0
+    },
+    {
+      "name": "corpus-os",
+      "url": "https://github.com/the-static-collective/corpus-os",
+      "shelf": "Contracts and memory",
+      "otherRefs": 22,
+      "openPRs": 1
+    },
+    {
+      "name": "cUps",
+      "url": "https://github.com/the-static-collective/cUps",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "Dogram",
+      "url": "https://github.com/the-static-collective/Dogram",
+      "shelf": "Contracts and memory",
+      "otherRefs": 187,
+      "openPRs": 58
+    },
+    {
+      "name": "DVOTE",
+      "url": "https://github.com/the-static-collective/DVOTE",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 8,
+      "openPRs": 6
+    },
+    {
+      "name": "fogGlass",
+      "url": "https://github.com/the-static-collective/fogGlass",
+      "shelf": "Operating surfaces",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "founder-node",
+      "url": "https://github.com/the-static-collective/founder-node",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 4,
+      "openPRs": 1
+    },
+    {
+      "name": "free-graph",
+      "url": "https://github.com/the-static-collective/free-graph",
+      "shelf": "Contracts and memory",
+      "otherRefs": 6,
+      "openPRs": 1
+    },
+    {
+      "name": "freeport",
+      "url": "https://github.com/the-static-collective/freeport",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 4,
+      "openPRs": 4
+    },
+    {
+      "name": "full-measure-world-layer",
+      "url": "https://github.com/the-static-collective/full-measure-world-layer",
+      "shelf": "Participation and care",
+      "otherRefs": 33,
+      "openPRs": 17
+    },
+    {
+      "name": "GHoT",
+      "url": "https://github.com/the-static-collective/GHoT",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 127,
+      "openPRs": 119
+    },
+    {
+      "name": "GOATnote",
+      "url": "https://github.com/the-static-collective/GOATnote",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 13,
+      "openPRs": 12
+    },
+    {
+      "name": "GrO",
+      "url": "https://github.com/the-static-collective/GrO",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 27,
+      "openPRs": 12
+    },
+    {
+      "name": "Human-Witness",
+      "url": "https://github.com/the-static-collective/Human-Witness",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 4,
+      "openPRs": 2
+    },
+    {
+      "name": "iron-lung",
+      "url": "https://github.com/the-static-collective/iron-lung",
+      "shelf": "Images and appliances",
+      "otherRefs": 17,
+      "openPRs": 2
+    },
+    {
+      "name": "JAR-VIS",
+      "url": "https://github.com/the-static-collective/JAR-VIS",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 7,
+      "openPRs": 0
+    },
+    {
+      "name": "jubilee-authority-kit",
+      "url": "https://github.com/the-static-collective/jubilee-authority-kit",
+      "shelf": "Contracts and memory",
+      "otherRefs": 4,
+      "openPRs": 0
+    },
+    {
+      "name": "Jubilee-Campfire",
+      "url": "https://github.com/the-static-collective/Jubilee-Campfire",
+      "shelf": "Participation and care",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "Jubilee-Engine-VM",
+      "url": "https://github.com/the-static-collective/Jubilee-Engine-VM",
+      "shelf": "Participation and care",
+      "otherRefs": 8,
+      "openPRs": 2
+    },
+    {
+      "name": "Jubilee-treasury",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 20,
+      "openPRs": 20
+    },
+    {
+      "name": "jublEchat",
+      "url": "https://github.com/the-static-collective/jublEchat",
+      "shelf": "Songs and stages",
+      "otherRefs": 4,
+      "openPRs": 0
+    },
+    {
+      "name": "LampPost",
+      "url": "https://github.com/the-static-collective/LampPost",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "lemonPRESS",
+      "url": "https://github.com/the-static-collective/lemonPRESS",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 58,
+      "openPRs": 34
+    },
+    {
+      "name": "LOADOUT",
+      "url": "https://github.com/the-static-collective/LOADOUT",
+      "shelf": "Contracts and memory",
+      "otherRefs": 24,
+      "openPRs": 11
+    },
+    {
+      "name": "love",
+      "url": "https://github.com/the-static-collective/love",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "mundaneWORMHOLE",
+      "url": "https://github.com/the-static-collective/mundaneWORMHOLE",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "national-treasure",
+      "url": "https://github.com/the-static-collective/national-treasure",
+      "shelf": "Worlds and inquiry",
+      "otherRefs": 77,
+      "openPRs": 12
+    },
+    {
+      "name": "Nourish-Kids",
+      "url": "https://github.com/the-static-collective/Nourish-Kids",
+      "shelf": "Participation and care",
+      "otherRefs": 4,
+      "openPRs": 1
+    },
+    {
+      "name": "pies",
+      "url": "https://github.com/the-static-collective/pies",
+      "shelf": "Participation and care",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "planZ",
+      "url": "https://github.com/the-static-collective/planZ",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 19,
+      "openPRs": 19
+    },
+    {
+      "name": "playdeck",
+      "url": "https://github.com/the-static-collective/playdeck",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 3,
+      "openPRs": 3
+    },
+    {
+      "name": "project0",
+      "url": "https://github.com/the-static-collective/project0",
+      "shelf": "Contracts and memory",
+      "otherRefs": 37,
+      "openPRs": 2
+    },
+    {
+      "name": "reCOreturn",
+      "url": "https://github.com/the-static-collective/reCOreturn",
+      "shelf": "Operating surfaces",
+      "otherRefs": 1,
+      "openPRs": 0
+    },
+    {
+      "name": "reCURV",
+      "url": "https://github.com/the-static-collective/reCURV",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "reCURVrePAIR",
+      "url": "https://github.com/the-static-collective/reCURVrePAIR",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "reLATTE",
+      "url": "https://github.com/the-static-collective/reLATTE",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 120,
+      "openPRs": 88
+    },
+    {
+      "name": "reMIX-reCURVrePAIR",
+      "url": "https://github.com/the-static-collective/reMIX-reCURVrePAIR",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "revival",
+      "url": "https://github.com/the-static-collective/revival",
+      "shelf": "Participation and care",
+      "otherRefs": 15,
+      "openPRs": 2
+    },
+    {
+      "name": "ROroomOM",
+      "url": "https://github.com/the-static-collective/ROroomOM",
+      "shelf": "Worlds and inquiry",
+      "otherRefs": 18,
+      "openPRs": 16
+    },
+    {
+      "name": "SEAMforge",
+      "url": "https://github.com/the-static-collective/SEAMforge",
+      "shelf": "Images and appliances",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "seedforge",
+      "url": "https://github.com/the-static-collective/seedforge",
+      "shelf": "Participation and care",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "seedforge-v0",
+      "url": "https://github.com/the-static-collective/seedforge-v0",
+      "shelf": "Participation and care",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "seedFORK",
+      "url": "https://github.com/the-static-collective/seedFORK",
+      "shelf": "Participation and care",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "SIA",
+      "url": "https://github.com/the-static-collective/SIA",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 11,
+      "openPRs": 5
+    },
+    {
+      "name": "static-briars",
+      "url": "https://github.com/the-static-collective/static-briars",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 11,
+      "openPRs": 8
+    },
+    {
+      "name": "static-field",
+      "url": "https://github.com/the-static-collective/static-field",
+      "shelf": "Worlds and inquiry",
+      "otherRefs": 10,
+      "openPRs": 8
+    },
+    {
+      "name": "static-live",
+      "url": "https://github.com/the-static-collective/static-live",
+      "shelf": "Songs and stages",
+      "otherRefs": 29,
+      "openPRs": 14
+    },
+    {
+      "name": "static-os",
+      "url": "https://github.com/the-static-collective/static-os",
+      "shelf": "Operating surfaces",
+      "otherRefs": 74,
+      "openPRs": 71
+    },
+    {
+      "name": "static-workbench",
+      "url": "https://github.com/the-static-collective/static-workbench",
+      "shelf": "Operating surfaces",
+      "otherRefs": 98,
+      "openPRs": 57
+    },
+    {
+      "name": "story-dna",
+      "url": "https://github.com/the-static-collective/story-dna",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 5,
+      "openPRs": 5
+    },
+    {
+      "name": "STORYSHIP",
+      "url": "https://github.com/the-static-collective/STORYSHIP",
+      "shelf": "Songs and stages",
+      "otherRefs": 5,
+      "openPRs": 2
+    },
+    {
+      "name": "the-autodisco",
+      "url": "https://github.com/the-static-collective/the-autodisco",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 8,
+      "openPRs": 8
+    },
+    {
+      "name": "The-AutodiscoV.20.-question-marks-",
+      "url": "https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 6,
+      "openPRs": 0
+    },
+    {
+      "name": "the-daily-slice",
+      "url": "https://github.com/the-static-collective/the-daily-slice",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 78,
+      "openPRs": 17
+    },
+    {
+      "name": "the-haunted-blender",
+      "url": "https://github.com/the-static-collective/the-haunted-blender",
+      "shelf": "Images and appliances",
+      "otherRefs": 59,
+      "openPRs": 59
+    },
+    {
+      "name": "the-haunted-phonography",
+      "url": "https://github.com/the-static-collective/the-haunted-phonography",
+      "shelf": "Songs and stages",
+      "otherRefs": 24,
+      "openPRs": 1
+    },
+    {
+      "name": "the-haunted-pol-ish-roids",
+      "url": "https://github.com/the-static-collective/the-haunted-pol-ish-roids",
+      "shelf": "Images and appliances",
+      "otherRefs": 3,
+      "openPRs": 2
+    },
+    {
+      "name": "the-haunted-toaster",
+      "url": "https://github.com/the-static-collective/the-haunted-toaster",
+      "shelf": "Images and appliances",
+      "otherRefs": 235,
+      "openPRs": 77
+    },
+    {
+      "name": "the-static-collective",
+      "url": "https://github.com/the-static-collective/the-static-collective",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "toaster-lab",
+      "url": "https://github.com/the-static-collective/toaster-lab",
+      "shelf": "Images and appliances",
+      "otherRefs": 3,
+      "openPRs": 0
+    },
+    {
+      "name": "toaster-lab2",
+      "url": "https://github.com/the-static-collective/toaster-lab2",
+      "shelf": "Images and appliances",
+      "otherRefs": 1,
+      "openPRs": 0
+    },
+    {
+      "name": "toaster-oracle",
+      "url": "https://github.com/the-static-collective/toaster-oracle",
+      "shelf": "Images and appliances",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "tranchnode",
+      "url": "https://github.com/the-static-collective/tranchnode",
+      "shelf": "Contracts and memory",
+      "otherRefs": 44,
+      "openPRs": 5
+    },
+    {
+      "name": "tranchNode-v1",
+      "url": "https://github.com/the-static-collective/tranchNode-v1",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 0,
+      "openPRs": 0
+    },
+    {
+      "name": "tranchNOSE",
+      "url": "https://github.com/the-static-collective/tranchNOSE",
+      "shelf": "Images and appliances",
+      "otherRefs": 10,
+      "openPRs": 3
+    },
+    {
+      "name": "trust",
+      "url": "https://github.com/the-static-collective/trust",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 1,
+      "openPRs": 0
+    },
+    {
+      "name": "unfolding-ledger",
+      "url": "https://github.com/the-static-collective/unfolding-ledger",
+      "shelf": "Contracts and memory",
+      "otherRefs": 1,
+      "openPRs": 0
+    },
+    {
+      "name": "Upper-room",
+      "url": "https://github.com/the-static-collective/Upper-room",
+      "shelf": "Worlds and inquiry",
+      "otherRefs": 8,
+      "openPRs": 3
+    },
+    {
+      "name": "vidmage",
+      "url": "https://github.com/the-static-collective/vidmage",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 19,
+      "openPRs": 19
+    },
+    {
+      "name": "webZ",
+      "url": "https://github.com/the-static-collective/webZ",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 58,
+      "openPRs": 48
+    },
+    {
+      "name": "What-is-the-static-collective-",
+      "url": "https://github.com/the-static-collective/What-is-the-static-collective-",
+      "shelf": "Origins and witnesses",
+      "otherRefs": 80,
+      "openPRs": 20
+    },
+    {
+      "name": "WITNESS",
+      "url": "https://github.com/the-static-collective/WITNESS",
+      "shelf": "Unplaced public repositories",
+      "otherRefs": 2,
+      "openPRs": 1
+    },
+    {
+      "name": "WORLDSEED",
+      "url": "https://github.com/the-static-collective/WORLDSEED",
+      "shelf": "Worlds and inquiry",
+      "otherRefs": 9,
+      "openPRs": 7
+    }
+  ]
+}
