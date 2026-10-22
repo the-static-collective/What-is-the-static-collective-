@@ -1,0 +1,57 @@
+{
+  "schema": "breath-atlas/observations-v0",
+  "observations": [
+    {
+      "id": "source-1",
+      "repository": "planZ",
+      "branch": "feat/phaselift-001-living-phase-board",
+      "head_sha": "52183eafe0daf311582c6016b37805ae24ef4ec6",
+      "path": "phaselift/engine.mjs",
+      "blob_sha": "0b0254ddbb430bd0d3269f05412182fecd0169d4",
+      "class": "CODE",
+      "method": "EXACT_SOURCE_READ",
+      "observed_at": "2026-10-22",
+      "note": "Human-choice validation/receipt engine source was read; no execution witnessed.",
+      "uncertainty": "No cold run verified."
+    },
+    {
+      "id": "source-2",
+      "repository": "planZ",
+      "branch": "feat/phaselift-001-living-phase-board",
+      "head_sha": "52183eafe0daf311582c6016b37805ae24ef4ec6",
+      "path": "phaselift/engine.test.mjs",
+      "blob_sha": "8c45da02d2209946405988a19f0200247f6fa03b",
+      "class": "TEST",
+      "method": "EXACT_SOURCE_READ",
+      "observed_at": "2026-10-22",
+      "note": "A checked-in test module exists on this exact branch.",
+      "uncertainty": "Presence does not establish a successful test run."
+    },
+    {
+      "id": "source-3",
+      "repository": "WITNESS",
+      "branch": "genesis/community-audio-bible-001",
+      "head_sha": "9644f24628b705bc405a03bbd80cc26e8b5e01f0",
+      "path": "docs/CANON-001-FREE-WITNESS.md",
+      "blob_sha": "f737474bf3f9261cfe60b8638f3b6126dfba4d5f",
+      "class": "DOC",
+      "method": "EXACT_SOURCE_READ",
+      "observed_at": "2026-10-22",
+      "note": "Free Witness consent and contribution principles are documented.",
+      "uncertainty": "Documentation is not live multi-phone field proof."
+    },
+    {
+      "id": "source-4",
+      "repository": "webZ",
+      "branch": "release/needs-001-abundent-live",
+      "head_sha": "65539f065db609c97e5c3ca1ca0b2d0f90c7498a",
+      "path": "app/dial.mjs",
+      "blob_sha": "4e05bc25d0c5e725ec444c9ecf276d73f2611645",
+      "class": "CODE",
+      "method": "EXACT_SOURCE_READ",
+      "observed_at": "2026-10-22",
+      "note": "Exact MWF1 navigation primitives are checked in at this source locus.",
+      "uncertainty": "No browser or deployment verification performed."
+    }
+  ]
+}
