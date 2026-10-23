@@ -106,12 +106,14 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/What-is-the-static-collective-) · [Branches](https://github.com/the-static-collective/What-is-the-static-collective-/branches) · [Pull requests](https://github.com/the-static-collective/What-is-the-static-collective-/pulls)
 
-Default: `main` · other refs: 80 · open PRs: 20
+Default: `main` · other refs: 82 · open PRs: 22
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#101](https://github.com/the-static-collective/What-is-the-static-collective-/pull/101) | STACK² 026 — Breath Atlas: first branch-evidence instrument (draft) | `design/breath-atlas-026` → `main` | 2026-10-22 |
+| [#100](https://github.com/the-static-collective/What-is-the-static-collective-/pull/100) | Creator Workspace Living Wiki 001 — branch-first semantic overlay for the public Git terrain | `proposal/creator-workspace-living-wiki-001` → `main` | 2026-10-22 |
 | [#99](https://github.com/the-static-collective/What-is-the-static-collective-/pull/99) | CONSEQUENCE SEQUENCE — residue, re-entry, and future possibility | `pattern/consequence-sequence-001` → `main` | 2026-10-05 |
 | [#98](https://github.com/the-static-collective/What-is-the-static-collective-/pull/98) | feat: PUBLIC REVEAL CROSSING 001 — Relay Garden | `feature/relay-garden-001` → `plan/public-reveal-crossing-001` | 2026-10-01 |
 | [#97](https://github.com/the-static-collective/What-is-the-static-collective-/pull/97) | docs: plan PUBLIC REVEAL CROSSING 001 | `plan/public-reveal-crossing-001` → `design/public-reveal-crossing-001` | 2026-10-01 |
@@ -154,6 +156,7 @@ Default: `main` · other refs: 80 · open PRs: 20
 | [agent/threshold-scan-design](https://github.com/the-static-collective/What-is-the-static-collective-/tree/agent/threshold-scan-design) | [af9d6eecf8](https://github.com/the-static-collective/What-is-the-static-collective-/commit/af9d6eecf8f132ab56dfe1f41a84e541350f628e) | Retained ref; disposition unverified |
 | [agent/traex-full-witness-design](https://github.com/the-static-collective/What-is-the-static-collective-/tree/agent/traex-full-witness-design) | [4d814e3fca](https://github.com/the-static-collective/What-is-the-static-collective-/commit/4d814e3fca9c0c11e9742a4f676fa74e319b852a) | Retained ref; disposition unverified |
 | [agent/witness-memento](https://github.com/the-static-collective/What-is-the-static-collective-/tree/agent/witness-memento) | [0c0dda47cb](https://github.com/the-static-collective/What-is-the-static-collective-/commit/0c0dda47cbe28d286b46ed6afb96c8297fabb4d4) | Retained ref; disposition unverified |
+| [design/breath-atlas-026](https://github.com/the-static-collective/What-is-the-static-collective-/tree/design/breath-atlas-026) | [2157ab7124](https://github.com/the-static-collective/What-is-the-static-collective-/commit/2157ab71248c80daf54e58dbc576bf1f1bf012d7) | [open PR #101](https://github.com/the-static-collective/What-is-the-static-collective-/pull/101) |
 | [design/human-witness-relay-v0](https://github.com/the-static-collective/What-is-the-static-collective-/tree/design/human-witness-relay-v0) | [bf8ffc9698](https://github.com/the-static-collective/What-is-the-static-collective-/commit/bf8ffc9698742a1ede68869579ab7bb1ca58e295) | Retained ref; disposition unverified |
 | [design/mortal-actor-001-common-stack](https://github.com/the-static-collective/What-is-the-static-collective-/tree/design/mortal-actor-001-common-stack) | [b1dabb5d57](https://github.com/the-static-collective/What-is-the-static-collective-/commit/b1dabb5d57d0f91a7e1c80289e462ed57a8d5254) | Retained ref; disposition unverified |
 | [design/mortal-narrative-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/design/mortal-narrative-001) | [9a07fda643](https://github.com/the-static-collective/What-is-the-static-collective-/commit/9a07fda643ac3d8072d5147f1439d310105317c0) | [open PR #78](https://github.com/the-static-collective/What-is-the-static-collective-/pull/78) |
@@ -205,6 +208,7 @@ Default: `main` · other refs: 80 · open PRs: 20
 | [plan/mortal-narrative-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/plan/mortal-narrative-001) | [fdc7d58fcd](https://github.com/the-static-collective/What-is-the-static-collective-/commit/fdc7d58fcd78b081b027d993af56f7529675c707) | [open PR #79](https://github.com/the-static-collective/What-is-the-static-collective-/pull/79) |
 | [plan/passage-world-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/plan/passage-world-001) | [940caa2a60](https://github.com/the-static-collective/What-is-the-static-collective-/commit/940caa2a60e74db64b1d50ac94f471313c38dd5d) | [open PR #73](https://github.com/the-static-collective/What-is-the-static-collective-/pull/73) |
 | [plan/public-reveal-crossing-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/plan/public-reveal-crossing-001) | [f43f2ae460](https://github.com/the-static-collective/What-is-the-static-collective-/commit/f43f2ae460be1f708ec6cc9504798d5c544fa587) | [open PR #97](https://github.com/the-static-collective/What-is-the-static-collective-/pull/97) |
+| [proposal/creator-workspace-living-wiki-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/proposal/creator-workspace-living-wiki-001) | [5d95c1d23e](https://github.com/the-static-collective/What-is-the-static-collective-/commit/5d95c1d23e1540a07368f0e9ca60e35a7508232b) | [open PR #100](https://github.com/the-static-collective/What-is-the-static-collective-/pull/100) |
 | [public-front-door-2026-09-27](https://github.com/the-static-collective/What-is-the-static-collective-/tree/public-front-door-2026-09-27) | [9852c6f1f4](https://github.com/the-static-collective/What-is-the-static-collective-/commit/9852c6f1f40696dceda9de28f834d8d1f745614f) | Retained ref; disposition unverified |
 | [reconcile/mortal-narrative-stack-current-main](https://github.com/the-static-collective/What-is-the-static-collective-/tree/reconcile/mortal-narrative-stack-current-main) | [07b9a6a5a0](https://github.com/the-static-collective/What-is-the-static-collective-/commit/07b9a6a5a0429a48300bd244d19586da2170bc9b) | Retained ref; disposition unverified |
 | [slice/autodisco-full-hologram](https://github.com/the-static-collective/What-is-the-static-collective-/tree/slice/autodisco-full-hologram) | [bf76894254](https://github.com/the-static-collective/What-is-the-static-collective-/commit/bf76894254d5f6bd28edaea2f3e90c84a66db9ee) | Retained ref; disposition unverified |
@@ -222,7 +226,7 @@ Default: `main` · other refs: 80 · open PRs: 20
 
 [Repository](https://github.com/the-static-collective/the-daily-slice) · [Branches](https://github.com/the-static-collective/the-daily-slice/branches) · [Pull requests](https://github.com/the-static-collective/the-daily-slice/pulls)
 
-Default: `main` · other refs: 78 · open PRs: 17
+Default: `main` · other refs: 79 · open PRs: 17
 
 ### Open pull requests
 
@@ -269,6 +273,7 @@ Default: `main` · other refs: 78 · open PRs: 17
 | [reconcile/cat-human-fiber-current-main](https://github.com/the-static-collective/the-daily-slice/tree/reconcile/cat-human-fiber-current-main) | [0981a6a0e3](https://github.com/the-static-collective/the-daily-slice/commit/0981a6a0e3b56dcc5035e6281ffb3784c51c53f0) | Retained ref; disposition unverified |
 | [reconcile/shapes-in-the-fog-current-main](https://github.com/the-static-collective/the-daily-slice/tree/reconcile/shapes-in-the-fog-current-main) | [1d80142b13](https://github.com/the-static-collective/the-daily-slice/commit/1d80142b13e3254e2208283d7f93a3e2793d2323) | Retained ref; disposition unverified |
 | [research/causal-uptake-living-inheritance-001](https://github.com/the-static-collective/the-daily-slice/tree/research/causal-uptake-living-inheritance-001) | [42f7f939f5](https://github.com/the-static-collective/the-daily-slice/commit/42f7f939f514a43fa6f9fcc0e83103d6e7eb19c7) | Retained ref; disposition unverified |
+| [slice-2026-10-22-the-161-cup](https://github.com/the-static-collective/the-daily-slice/tree/slice-2026-10-22-the-161-cup) | [c7f05bae68](https://github.com/the-static-collective/the-daily-slice/commit/c7f05bae6848f7aaded59e2cce0ba8e4031cbf60) | Retained ref; disposition unverified |
 | [slice/2026-08-25-recursive-compiler-groove](https://github.com/the-static-collective/the-daily-slice/tree/slice/2026-08-25-recursive-compiler-groove) | [92ab2b1eff](https://github.com/the-static-collective/the-daily-slice/commit/92ab2b1eff9f84f3fd0c8b1182884addc4547b0f) | Retained ref; disposition unverified |
 | [slice/2026-08-26-four-letters-durable](https://github.com/the-static-collective/the-daily-slice/tree/slice/2026-08-26-four-letters-durable) | [1d7b7d2a74](https://github.com/the-static-collective/the-daily-slice/commit/1d7b7d2a74b00f2a5a19f32b25a596f9d62e8900) | Retained ref; disposition unverified |
 | [slice/2026-08-26-mercy-keeps-rupture-from-terminal](https://github.com/the-static-collective/the-daily-slice/tree/slice/2026-08-26-mercy-keeps-rupture-from-terminal) | [7cf76cecc3](https://github.com/the-static-collective/the-daily-slice/commit/7cf76cecc3bccaa7a4fe912cb02d704f79b87b19) | Retained ref; disposition unverified |

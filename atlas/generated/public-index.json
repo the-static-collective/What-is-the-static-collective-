@@ -1039,6 +1039,10 @@
           "sha": "53227ec7073204ea53672ec03e0f82b72757c0a2"
         },
         {
+          "name": "experiment/circulation-002-native-garden-receiver",
+          "sha": "28e24d730571510d9dc3559ebec547401e626095"
+        },
+        {
           "name": "feat/1201-door-001",
           "sha": "22e283460d61bbb6a46fa657899affadaaa04484"
         },
@@ -1073,13 +1077,23 @@
       ],
       "open_prs": [
         {
+          "number": 18,
+          "title": "CIRCULATION-002: native Garden receiver for source-bound two-door planZ invitations",
+          "head_branch": "experiment/circulation-002-native-garden-receiver",
+          "head_sha": "28e24d730571510d9dc3559ebec547401e626095",
+          "head_repo": "the-static-collective/BananaSpork",
+          "base_branch": "feat/penny-box-help-slip-bridge-001",
+          "updated_at": "2026-10-22T18:36:01Z",
+          "url": "https://github.com/the-static-collective/BananaSpork/pull/18"
+        },
+        {
           "number": 16,
           "title": "PENNY BOX -> Garden: bounded candidate-to-HOLD bridge (001)",
           "head_branch": "feat/penny-box-help-slip-bridge-001",
           "head_sha": "8a21fd9f864adb2f05143d96279eeb58c8445730",
           "head_repo": "the-static-collective/BananaSpork",
           "base_branch": "main",
-          "updated_at": "2026-10-19T22:49:57Z",
+          "updated_at": "2026-10-22T18:38:17Z",
           "url": "https://github.com/the-static-collective/BananaSpork/pull/16"
         },
         {
@@ -1230,6 +1244,18 @@
           "sha": "5714f7c16719a5c89cc7942c3f4b006a840d5d54"
         },
         {
+          "name": "experiment/circulation-001-branch-first",
+          "sha": "0ff0cf484d5689d8c62a0ec4d8980c55c89725d8"
+        },
+        {
+          "name": "experiment/circulation-002-bananaspork-return",
+          "sha": "65398651b9a211125064b923c5cb7174bd7c9a2b"
+        },
+        {
+          "name": "experiment/circulation-003-human-field-gate",
+          "sha": "caa95fdf1b07a37824e72c1eb372f0460ad5e0ee"
+        },
+        {
           "name": "experiment/conversation-collider-001",
           "sha": "e04137681b4f14d723b50e291919a0f894795c43"
         },
@@ -1286,6 +1312,30 @@
           "sha": "2fab6e142f21f6213bbcf4e290030acfce756061"
         },
         {
+          "name": "experiment/stack-squared-024-living-commons",
+          "sha": "eff4d49431c33ddc34d20df0fb7d27ff985820be"
+        },
+        {
+          "name": "experiment/stack-squared-025-community-breath-field",
+          "sha": "3ead125100255fc70a5f42026a5eaad66938d8f3"
+        },
+        {
+          "name": "experiment/stack-squared-025-first-contact-crater",
+          "sha": "77bb23513e3a7a7255bdc7b1bd74666e4cff51bf"
+        },
+        {
+          "name": "experiment/stack-squared-026-care-plenty-return",
+          "sha": "edc921f934187ea7fbd93bdbe1e122b20ccb08a8"
+        },
+        {
+          "name": "experiment/stack-squared-027-warm-thread-returns",
+          "sha": "ee461d7be29795907384c791be88c18e030e0222"
+        },
+        {
+          "name": "experiment/stack-squared-028-first-contact-field-door",
+          "sha": "2152730d1b300933ce484f455bbdb2da4ab09dd3"
+        },
+        {
           "name": "experiment/supabardo-death-custody-016",
           "sha": "04b075dd6597fc4f4fa1e8535daaaa09b6f61a1a"
         },
@@ -1303,6 +1353,96 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 36,
+          "title": "CIRCULATION-003: human field question gate — independent validation and HOLD only",
+          "head_branch": "experiment/circulation-003-human-field-gate",
+          "head_sha": "caa95fdf1b07a37824e72c1eb372f0460ad5e0ee",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/circulation-002-bananaspork-return",
+          "updated_at": "2026-10-22T19:16:20Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/36"
+        },
+        {
+          "number": 35,
+          "title": "CIRCULATION-002: native BananaSpork CARE receiver returns to Free Graph",
+          "head_branch": "experiment/circulation-002-bananaspork-return",
+          "head_sha": "65398651b9a211125064b923c5cb7174bd7c9a2b",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/circulation-001-branch-first",
+          "updated_at": "2026-10-22T19:21:41Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/35"
+        },
+        {
+          "number": 34,
+          "title": "STACK² 028 — First Contact paper card and local field door",
+          "head_branch": "experiment/stack-squared-028-first-contact-field-door",
+          "head_sha": "2152730d1b300933ce484f455bbdb2da4ab09dd3",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/stack-squared-027-warm-thread-returns",
+          "updated_at": "2026-10-22T18:09:00Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/34"
+        },
+        {
+          "number": 33,
+          "title": "CIRCULATION-001: CANNON → native Free Graph → planZ → independent return",
+          "head_branch": "experiment/circulation-001-branch-first",
+          "head_sha": "0ff0cf484d5689d8c62a0ec4d8980c55c89725d8",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/stack-squared-025-community-breath-field",
+          "updated_at": "2026-10-22T18:38:15Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/33"
+        },
+        {
+          "number": 32,
+          "title": "STACK² 027 — WARM THREAD COMES HOME: GHoT ↔ Full Measure × Band × Garden",
+          "head_branch": "experiment/stack-squared-027-warm-thread-returns",
+          "head_sha": "ee461d7be29795907384c791be88c18e030e0222",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/stack-squared-026-care-plenty-return",
+          "updated_at": "2026-10-22T17:49:03Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/32"
+        },
+        {
+          "number": 31,
+          "title": "STACK² 026 — THE HELP SLIP COMES HOME × PLENTY: native care-return crater",
+          "head_branch": "experiment/stack-squared-026-care-plenty-return",
+          "head_sha": "edc921f934187ea7fbd93bdbe1e122b20ccb08a8",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/stack-squared-025-first-contact-crater",
+          "updated_at": "2026-10-22T17:32:33Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/31"
+        },
+        {
+          "number": 30,
+          "title": "STACK² 025 — FIRST CONTACT CRATER: native Static Field → Full Measure → ROroomOM HOLD",
+          "head_branch": "experiment/stack-squared-025-first-contact-crater",
+          "head_sha": "77bb23513e3a7a7255bdc7b1bd74666e4cff51bf",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/stack-squared-024-living-commons",
+          "updated_at": "2026-10-22T17:11:26Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/30"
+        },
+        {
+          "number": 29,
+          "title": "STACK² 025: Community Breath Field — source census, audit, and paper cards",
+          "head_branch": "experiment/stack-squared-025-community-breath-field",
+          "head_sha": "3ead125100255fc70a5f42026a5eaad66938d8f3",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/stack-squared-024-living-commons",
+          "updated_at": "2026-10-22T18:16:35Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/29"
+        },
+        {
+          "number": 28,
+          "title": "STACK² 024 — LIVING COMMONS: eight organs × two currents, synthetic source-safe proof",
+          "head_branch": "experiment/stack-squared-024-living-commons",
+          "head_sha": "eff4d49431c33ddc34d20df0fb7d27ff985820be",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/stack-squared-023-ai-relatte-hold",
+          "updated_at": "2026-10-22T16:26:03Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/28"
+        },
         {
           "number": 27,
           "title": "STACK² 023 — native GHoT AI packet → sovereign reLATTE R14 signed R3_HOLD",
@@ -5537,6 +5677,87 @@
       ]
     },
     {
+      "name": "GRAFT",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "graft/autodisco-video-receipt",
+          "sha": "86a1fad4a342cc52dc62f41b3f541d0a52fc91df"
+        },
+        {
+          "name": "graft/black-star",
+          "sha": "bd5d6cbd2919cf001f7377702be174a797d4d685"
+        },
+        {
+          "name": "graft/circle",
+          "sha": "9de927d85af8ac62a0902040197cc583e544862a"
+        },
+        {
+          "name": "graft/Corpus-OS-Local-Intake-Implementation",
+          "sha": "49e5954db6d71366ff6b88b5737fa4a10f096a4c"
+        },
+        {
+          "name": "graft/DerekDerrikDark",
+          "sha": "44151d4b066544e96943bcea183c3a8e6b88f1c8"
+        },
+        {
+          "name": "graft/fork-EXCLAIM",
+          "sha": "08e4d1ba2244ea38e4529a5a821b20f4b9827189"
+        },
+        {
+          "name": "graft/formation-trace",
+          "sha": "56c0dbbcc86b0046e4f93d93507b29b7139bd2e1"
+        },
+        {
+          "name": "graft/garden-whisperer",
+          "sha": "23661df82bdce96bbecfc46415524d629301c9c1"
+        },
+        {
+          "name": "graft/gramfork",
+          "sha": "f8a6219aa73c6edb48799d473bf46138002de6f0"
+        },
+        {
+          "name": "graft/groove-rooms",
+          "sha": "c947482521ebbaad77dd25b535567140345c5866"
+        },
+        {
+          "name": "graft/idea-grove",
+          "sha": "bd66b08bf96359d1254127ad0827d742a2fca7e2"
+        },
+        {
+          "name": "graft/jubilee-workspace",
+          "sha": "10772e07acf5b7e2cd76848789bc29a1ed5f8a18"
+        },
+        {
+          "name": "graft/JubileeV.1",
+          "sha": "ab09383aaaa7ac825fb6606790dfe5d535b55156"
+        },
+        {
+          "name": "graft/King-sCup",
+          "sha": "6a7839cdd32375e262449f885bbd91f45a6e978b"
+        },
+        {
+          "name": "graft/MEMENTO",
+          "sha": "62fe11eec0b39e8ec50c87d4af7f9ed2d162b7b6"
+        },
+        {
+          "name": "graft/RRS",
+          "sha": "3e0742a5cfd6dc7122f86572393a69a08bc8ff72"
+        },
+        {
+          "name": "graft/RRS-1-",
+          "sha": "de94c2dd9ba2f7c7c835c2b13344fd487fb9e029"
+        },
+        {
+          "name": "main",
+          "sha": "5043bbe4a2a54d5007071c75a5bd265e5864fd14"
+        }
+      ],
+      "open_prs": []
+    },
+    {
       "name": "GrO",
       "visibility": "public",
       "default_branch": "main",
@@ -7765,6 +7986,10 @@
           "sha": "ec384bfddbdff471ea8d9b295b905980f702e1ad"
         },
         {
+          "name": "experiment/circulation-001-owner-local-replies",
+          "sha": "316000e071e0da5af4762f119f80dfc3add26d7c"
+        },
+        {
           "name": "experiment/fatherhand-grant-chain-residue-001",
           "sha": "e8111fdb64c5587b33aece0fed639ed3d03375ac"
         },
@@ -7809,6 +8034,10 @@
           "sha": "1ec9a4043b150296e0d90796fae5e5cc02ba3dcc"
         },
         {
+          "name": "plan/community-breath-field-025",
+          "sha": "e9fb859f3c448d3fbc35817d1bc2ed94a1e6ba27"
+        },
+        {
           "name": "proposal/common-table-waseca-grand-plan-001",
           "sha": "e57b227242d64d4e485540f6406ec63d21407e3c"
         },
@@ -7830,6 +8059,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 28,
+          "title": "CIRCULATION-001: receive native Free Graph invitations with independent synthetic replies",
+          "head_branch": "experiment/circulation-001-owner-local-replies",
+          "head_sha": "316000e071e0da5af4762f119f80dfc3add26d7c",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-22T18:38:20Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/28"
+        },
+        {
+          "number": 27,
+          "title": "PLANZ: COMMUNITY-BREATH-025 — whole-Collective community plan shard",
+          "head_branch": "plan/community-breath-field-025",
+          "head_sha": "e9fb859f3c448d3fbc35817d1bc2ed94a1e6ba27",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-22T18:38:25Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/27"
+        },
         {
           "number": 26,
           "title": "HEAP-CUT-001 — Living Neighbor Network: cards × radio × website/app × human return",
@@ -13085,7 +13334,7 @@
         },
         {
           "name": "main",
-          "sha": "4fecebd2f5eaeb200ad3f7ebf8fd8860be4ce30b"
+          "sha": "23c3d4bf7e4febb89919a3d54b6e8aaf3a764120"
         },
         {
           "name": "narrative/2026-08-28-receipt-carrying-experimentalist",
@@ -13114,6 +13363,10 @@
         {
           "name": "research/causal-uptake-living-inheritance-001",
           "sha": "42f7f939f514a43fa6f9fcc0e83103d6e7eb19c7"
+        },
+        {
+          "name": "slice-2026-10-22-the-161-cup",
+          "sha": "c7f05bae6848f7aaded59e2cce0ba8e4031cbf60"
         },
         {
           "name": "slice/2026-08-25-recursive-compiler-groove",
@@ -17269,8 +17522,28 @@
           "sha": "cc98e92db41668bea86bf93ca14ebd12fc733ffe"
         },
         {
+          "name": "feature/ask-jarvis-1999",
+          "sha": "bde42f2a7a6833a26a7fbaaf10b1c1477994c0e9"
+        },
+        {
+          "name": "feature/circulation-001-inspection-door",
+          "sha": "07ebe108908b3aea93585cd4deb8002590f3ad7d"
+        },
+        {
+          "name": "feature/circulation-003-coalition-field-kit",
+          "sha": "d69d3ccc08ca2ffc5ce79b522e27ce5650ccb104"
+        },
+        {
+          "name": "feature/circulation-004-pando-field-lab",
+          "sha": "f70aed7daa6f4fd954183f620b690a8f1a72ae2b"
+        },
+        {
           "name": "feature/field-002-observation-to-card",
           "sha": "5c8c105baa766c172a39e987e816414dfbe759b1"
+        },
+        {
+          "name": "feature/first-contact-028-abundent-preview",
+          "sha": "e7570ef7a3bb5a23b0debaa00ae72e365b21dd54"
         },
         {
           "name": "feature/listening-rooms-dial-zoom-001",
@@ -17295,13 +17568,63 @@
       ],
       "open_prs": [
         {
+          "number": 73,
+          "title": "ASK JAR;VIS 001 — single-box 1999 question machine (Cloudflare preview/HOLD)",
+          "head_branch": "feature/ask-jarvis-1999",
+          "head_sha": "bde42f2a7a6833a26a7fbaaf10b1c1477994c0e9",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/circulation-004-pando-field-lab",
+          "updated_at": "2026-10-23T11:49:31Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/73"
+        },
+        {
+          "number": 72,
+          "title": "CIRCULATION-004: Pando Field Lab — runnable multi-door Abundent round trip (preview/HOLD)",
+          "head_branch": "feature/circulation-004-pando-field-lab",
+          "head_sha": "f70aed7daa6f4fd954183f620b690a8f1a72ae2b",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/circulation-003-coalition-field-kit",
+          "updated_at": "2026-10-23T10:35:09Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/72"
+        },
+        {
+          "number": 71,
+          "title": "CIRCULATION-003: October 24 Coalition day kit — 8-up cards + consent-scoped question press",
+          "head_branch": "feature/circulation-003-coalition-field-kit",
+          "head_sha": "d69d3ccc08ca2ffc5ce79b522e27ce5650ccb104",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/circulation-001-inspection-door",
+          "updated_at": "2026-10-22T19:14:22Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/71"
+        },
+        {
+          "number": 70,
+          "title": "FIELD 028 — First Contact: graft voluntary paper door into Abundent release ancestry",
+          "head_branch": "feature/first-contact-028-abundent-preview",
+          "head_sha": "e7570ef7a3bb5a23b0debaa00ae72e365b21dd54",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/circulation-001-inspection-door",
+          "updated_at": "2026-10-22T18:40:36Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/70"
+        },
+        {
+          "number": 69,
+          "title": "CIRCULATION-001: Abundent proof door — one question, two independent responses",
+          "head_branch": "feature/circulation-001-inspection-door",
+          "head_sha": "07ebe108908b3aea93585cd4deb8002590f3ad7d",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/field-002-observation-to-card",
+          "updated_at": "2026-10-22T18:38:22Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/69"
+        },
+        {
           "number": 68,
           "title": "FIELD-002 — a real observation becomes a human-authored question and card",
           "head_branch": "feature/field-002-observation-to-card",
           "head_sha": "5c8c105baa766c172a39e987e816414dfbe759b1",
           "head_repo": "the-static-collective/webZ",
           "base_branch": "release/field-cards-reconciled-001",
-          "updated_at": "2026-10-21T23:36:59Z",
+          "updated_at": "2026-10-22T18:16:40Z",
           "url": "https://github.com/the-static-collective/webZ/pull/68"
         },
         {
@@ -17851,6 +18174,10 @@
           "sha": "0c0dda47cbe28d286b46ed6afb96c8297fabb4d4"
         },
         {
+          "name": "design/breath-atlas-026",
+          "sha": "2157ab71248c80daf54e58dbc576bf1f1bf012d7"
+        },
+        {
           "name": "design/human-witness-relay-v0",
           "sha": "bf8ffc9698742a1ede68869579ab7bb1ca58e295"
         },
@@ -18028,7 +18355,7 @@
         },
         {
           "name": "main",
-          "sha": "e2a221f10d3d324c577eb5377feaff068cbdce03"
+          "sha": "b2a139b827a6eab1c4c3fc48aeaa1e4ddf9421bc"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -18057,6 +18384,10 @@
         {
           "name": "plan/public-reveal-crossing-001",
           "sha": "f43f2ae460be1f708ec6cc9504798d5c544fa587"
+        },
+        {
+          "name": "proposal/creator-workspace-living-wiki-001",
+          "sha": "5d95c1d23e1540a07368f0e9ca60e35a7508232b"
         },
         {
           "name": "public-front-door-2026-09-27",
@@ -18108,6 +18439,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 101,
+          "title": "STACK² 026 — Breath Atlas: first branch-evidence instrument (draft)",
+          "head_branch": "design/breath-atlas-026",
+          "head_sha": "2157ab71248c80daf54e58dbc576bf1f1bf012d7",
+          "head_repo": "the-static-collective/What-is-the-static-collective-",
+          "base_branch": "main",
+          "updated_at": "2026-10-22T17:47:43Z",
+          "url": "https://github.com/the-static-collective/What-is-the-static-collective-/pull/101"
+        },
+        {
+          "number": 100,
+          "title": "Creator Workspace Living Wiki 001 — branch-first semantic overlay for the public Git terrain",
+          "head_branch": "proposal/creator-workspace-living-wiki-001",
+          "head_sha": "5d95c1d23e1540a07368f0e9ca60e35a7508232b",
+          "head_repo": "the-static-collective/What-is-the-static-collective-",
+          "base_branch": "main",
+          "updated_at": "2026-10-22T17:11:00Z",
+          "url": "https://github.com/the-static-collective/What-is-the-static-collective-/pull/100"
+        },
         {
           "number": 99,
           "title": "CONSEQUENCE SEQUENCE — residue, re-entry, and future possibility",
@@ -18463,5 +18814,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-22T12:58:16+00:00"
+  "captured_at": "2026-10-23T12:37:33+00:00"
 }
