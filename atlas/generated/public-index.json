@@ -13116,6 +13116,76 @@
       ]
     },
     {
+      "name": "TABLElogic",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "genesis/001-five-organ-table",
+          "sha": "e1da70b4fe50c9109b1c9992864cd4382e11de5c"
+        },
+        {
+          "name": "genesis/002-listening-table",
+          "sha": "c268226d3bbee075807ccc990bc67436d7dfaca7"
+        },
+        {
+          "name": "genesis/003-question-to-invitation",
+          "sha": "b34889c515c198695d9243bd742fd869b3d98b6c"
+        },
+        {
+          "name": "genesis/004-feast-returns",
+          "sha": "78d5da120bc480d7055ba6a82e4011b5ed66bb38"
+        },
+        {
+          "name": "main",
+          "sha": "55d7772ebc17155193a610294883551fbc543434"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 4,
+          "title": "HOUSE-004 — reconcile original Codex public returns with question-bound native HOLD",
+          "head_branch": "genesis/004-feast-returns",
+          "head_sha": "78d5da120bc480d7055ba6a82e4011b5ed66bb38",
+          "head_repo": "the-static-collective/TABLElogic",
+          "base_branch": "genesis/003-question-to-invitation",
+          "updated_at": "2026-10-23T17:18:20Z",
+          "url": "https://github.com/the-static-collective/TABLElogic/pull/4"
+        },
+        {
+          "number": 3,
+          "title": "HOUSE-003 — one question, real JAR;VIS HOLD invitations, local human return",
+          "head_branch": "genesis/003-question-to-invitation",
+          "head_sha": "b34889c515c198695d9243bd742fd869b3d98b6c",
+          "head_repo": "the-static-collective/TABLElogic",
+          "base_branch": "genesis/002-listening-table",
+          "updated_at": "2026-10-23T14:49:52Z",
+          "url": "https://github.com/the-static-collective/TABLElogic/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "HOUSE-002 — the listening table: original Workbench × JAR;VIS × webZ × GRAFT",
+          "head_branch": "genesis/002-listening-table",
+          "head_sha": "c268226d3bbee075807ccc990bc67436d7dfaca7",
+          "head_repo": "the-static-collective/TABLElogic",
+          "base_branch": "genesis/001-five-organ-table",
+          "updated_at": "2026-10-23T14:31:57Z",
+          "url": "https://github.com/the-static-collective/TABLElogic/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "HOUSE-001 — five native organs at one held table: planZ × CANNON × GHoT × reLATTE × STATIC OS",
+          "head_branch": "genesis/001-five-organ-table",
+          "head_sha": "e1da70b4fe50c9109b1c9992864cd4382e11de5c",
+          "head_repo": "the-static-collective/TABLElogic",
+          "base_branch": "main",
+          "updated_at": "2026-10-23T13:56:02Z",
+          "url": "https://github.com/the-static-collective/TABLElogic/pull/1"
+        }
+      ]
+    },
+    {
       "name": "the-autodisco",
       "visibility": "public",
       "default_branch": "main",
@@ -17523,7 +17593,23 @@
         },
         {
           "name": "feature/ask-jarvis-1999",
-          "sha": "bde42f2a7a6833a26a7fbaaf10b1c1477994c0e9"
+          "sha": "b24c863903537b84bb81816fca394280743eb406"
+        },
+        {
+          "name": "feature/ask-jarvis-feast-004",
+          "sha": "fa3297161fbec026db8ee1ed7a1cfb92eabe0172"
+        },
+        {
+          "name": "feature/ask-jarvis-invitation-table-003",
+          "sha": "9c4f3fb3d235444456a3c520d5c9904743359bcc"
+        },
+        {
+          "name": "feature/ask-jarvis-listening-table-002",
+          "sha": "03b06ff5f1c0e9c3c4027c6afbeaee6363b2b963"
+        },
+        {
+          "name": "feature/ask-jarvis-public-return-002",
+          "sha": "03684938fceb8ff4d614413c95634220895fa404"
         },
         {
           "name": "feature/circulation-001-inspection-door",
@@ -17550,6 +17636,14 @@
           "sha": "e06ecfdf681eef1df12f19d0ac36fb23d6b17833"
         },
         {
+          "name": "feature/reality2-question-key-town-002",
+          "sha": "15f780d64075e5843640db757c2e580393ffbfb6"
+        },
+        {
+          "name": "feature/reality2-tomorrow-mystery-001",
+          "sha": "4cf4787263e3d18b50a7446eaaef43a564c68029"
+        },
+        {
           "name": "main",
           "sha": "3cbc91d6b9a4dbaa941995de6006b2f290d00d51"
         },
@@ -17568,13 +17662,73 @@
       ],
       "open_prs": [
         {
+          "number": 79,
+          "title": "HOUSE-004 — reconcile Codex's four public returns with optional TABLElogic inspection",
+          "head_branch": "feature/ask-jarvis-feast-004",
+          "head_sha": "fa3297161fbec026db8ee1ed7a1cfb92eabe0172",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/ask-jarvis-public-return-002",
+          "updated_at": "2026-10-23T17:17:44Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/79"
+        },
+        {
+          "number": 78,
+          "title": "Give Ask JAR;VIS four useful public returns behind the 1999 front door",
+          "head_branch": "feature/ask-jarvis-public-return-002",
+          "head_sha": "03684938fceb8ff4d614413c95634220895fa404",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/ask-jarvis-1999",
+          "updated_at": "2026-10-23T15:01:43Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/78"
+        },
+        {
+          "number": 77,
+          "title": "Ask JAR;VIS HOUSE-003 — one question, held invitations, offline return",
+          "head_branch": "feature/ask-jarvis-invitation-table-003",
+          "head_sha": "9c4f3fb3d235444456a3c520d5c9904743359bcc",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/ask-jarvis-listening-table-002",
+          "updated_at": "2026-10-23T14:49:10Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/77"
+        },
+        {
+          "number": 76,
+          "title": "Ask JAR;VIS × TABLElogic HOUSE-002 — offline listening table porch (DRAFT)",
+          "head_branch": "feature/ask-jarvis-listening-table-002",
+          "head_sha": "03b06ff5f1c0e9c3c4027c6afbeaee6363b2b963",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/ask-jarvis-1999",
+          "updated_at": "2026-10-23T14:31:07Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/76"
+        },
+        {
+          "number": 75,
+          "title": "TOMORROW 002 — LIVE Question Key × pinned Full Measure Alchematrix × living town",
+          "head_branch": "feature/reality2-question-key-town-002",
+          "head_sha": "15f780d64075e5843640db757c2e580393ffbfb6",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/reality2-tomorrow-mystery-001",
+          "updated_at": "2026-10-23T14:27:50Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/75"
+        },
+        {
+          "number": 74,
+          "title": "REALITY.2 WHO MURDERED TOMORROW? — LIVE Abundent game door / paper kit in Drive",
+          "head_branch": "feature/reality2-tomorrow-mystery-001",
+          "head_sha": "4cf4787263e3d18b50a7446eaaef43a564c68029",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/ask-jarvis-1999",
+          "updated_at": "2026-10-23T13:19:32Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/74"
+        },
+        {
           "number": 73,
-          "title": "ASK JAR;VIS 001 — single-box 1999 question machine (Cloudflare preview/HOLD)",
+          "title": "ASK JAR;VIS 001 — 1999 Abundent front page LIVE / Cloudflare runtime pending",
           "head_branch": "feature/ask-jarvis-1999",
-          "head_sha": "bde42f2a7a6833a26a7fbaaf10b1c1477994c0e9",
+          "head_sha": "b24c863903537b84bb81816fca394280743eb406",
           "head_repo": "the-static-collective/webZ",
           "base_branch": "feature/circulation-004-pando-field-lab",
-          "updated_at": "2026-10-23T11:49:31Z",
+          "updated_at": "2026-10-23T12:46:50Z",
           "url": "https://github.com/the-static-collective/webZ/pull/73"
         },
         {
@@ -18355,7 +18509,7 @@
         },
         {
           "name": "main",
-          "sha": "b2a139b827a6eab1c4c3fc48aeaa1e4ddf9421bc"
+          "sha": "2836c1735dfeb49350cd50069693be213fb2c6f5"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -18814,5 +18968,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-23T12:37:33+00:00"
+  "captured_at": "2026-10-24T11:59:57+00:00"
 }

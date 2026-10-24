@@ -4,7 +4,7 @@ description: "Dated, source-linked public Git inventory for the Static Collectiv
 
 # Public Git inventory
 
-Captured: **2026-10-23T12:37:33+00:00** · **87 public repositories** · **2064 branch refs** (including defaults) · **972 open PRs**.
+Captured: **2026-10-24T11:59:57+00:00** · **88 public repositories** · **2075 branch refs** (including defaults) · **982 open PRs**.
 
 [Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
 
@@ -25,7 +25,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [Images and appliances](images-and-appliances.md) | 10 | 339 | 143 |
 | [Worlds and inquiry](worlds-and-inquiry.md) | 6 | 128 | 46 |
 | [Operating surfaces](operating-surfaces.md) | 5 | 178 | 128 |
-| [Unplaced public repositories](unplaced.md) | 22 | 578 | 430 |
+| [Unplaced public repositories](unplaced.md) | 23 | 589 | 440 |
 
 ## All public repositories
 
@@ -96,6 +96,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [static-workbench](https://github.com/the-static-collective/static-workbench) | [Operating surfaces](operating-surfaces.md) | 98 | 57 |
 | [story-dna](https://github.com/the-static-collective/story-dna) | [Unplaced public repositories](unplaced.md) | 5 | 5 |
 | [STORYSHIP](https://github.com/the-static-collective/STORYSHIP) | [Songs and stages](songs-and-stages.md) | 5 | 2 |
+| [TABLElogic](https://github.com/the-static-collective/TABLElogic) | [Unplaced public repositories](unplaced.md) | 4 | 4 |
 | [the-autodisco](https://github.com/the-static-collective/the-autodisco) | [Origins and witnesses](origins-and-witnesses.md) | 8 | 8 |
 | [The-AutodiscoV.20.-question-marks-](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-) | [Origins and witnesses](origins-and-witnesses.md) | 6 | 0 |
 | [the-daily-slice](https://github.com/the-static-collective/the-daily-slice) | [Origins and witnesses](origins-and-witnesses.md) | 79 | 17 |
@@ -114,7 +115,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [unfolding-ledger](https://github.com/the-static-collective/unfolding-ledger) | [Contracts and memory](contracts-and-memory.md) | 1 | 0 |
 | [Upper-room](https://github.com/the-static-collective/Upper-room) | [Worlds and inquiry](worlds-and-inquiry.md) | 8 | 3 |
 | [vidmage](https://github.com/the-static-collective/vidmage) | [Unplaced public repositories](unplaced.md) | 19 | 19 |
-| [webZ](https://github.com/the-static-collective/webZ) | [Unplaced public repositories](unplaced.md) | 63 | 53 |
+| [webZ](https://github.com/the-static-collective/webZ) | [Unplaced public repositories](unplaced.md) | 69 | 59 |
 | [What-is-the-static-collective-](https://github.com/the-static-collective/What-is-the-static-collective-) | [Origins and witnesses](origins-and-witnesses.md) | 82 | 22 |
 | [WITNESS](https://github.com/the-static-collective/WITNESS) | [Unplaced public repositories](unplaced.md) | 2 | 1 |
 | [WORLDSEED](https://github.com/the-static-collective/WORLDSEED) | [Worlds and inquiry](worlds-and-inquiry.md) | 9 | 7 |

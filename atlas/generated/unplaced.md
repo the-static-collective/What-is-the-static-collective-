@@ -1081,6 +1081,30 @@ Default: `main` · other refs: 5 · open PRs: 5
 | [feat/relationship-passenger-002](https://github.com/the-static-collective/story-dna/tree/feat/relationship-passenger-002) | [beab7fd5ab](https://github.com/the-static-collective/story-dna/commit/beab7fd5ab6f63de2a7a9332998c22bedf6b73ea) | [open PR #1](https://github.com/the-static-collective/story-dna/pull/1) |
 | [feat/visual-continuity-004](https://github.com/the-static-collective/story-dna/tree/feat/visual-continuity-004) | [c541c4511c](https://github.com/the-static-collective/story-dna/commit/c541c4511c459bbb80668f2a655904437d8296fd) | [open PR #3](https://github.com/the-static-collective/story-dna/pull/3) |
 
+## TABLElogic
+
+[Repository](https://github.com/the-static-collective/TABLElogic) · [Branches](https://github.com/the-static-collective/TABLElogic/branches) · [Pull requests](https://github.com/the-static-collective/TABLElogic/pulls)
+
+Default: `main` · other refs: 4 · open PRs: 4
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#4](https://github.com/the-static-collective/TABLElogic/pull/4) | HOUSE-004 — reconcile original Codex public returns with question-bound native HOLD | `genesis/004-feast-returns` → `genesis/003-question-to-invitation` | 2026-10-23 |
+| [#3](https://github.com/the-static-collective/TABLElogic/pull/3) | HOUSE-003 — one question, real JAR;VIS HOLD invitations, local human return | `genesis/003-question-to-invitation` → `genesis/002-listening-table` | 2026-10-23 |
+| [#2](https://github.com/the-static-collective/TABLElogic/pull/2) | HOUSE-002 — the listening table: original Workbench × JAR;VIS × webZ × GRAFT | `genesis/002-listening-table` → `genesis/001-five-organ-table` | 2026-10-23 |
+| [#1](https://github.com/the-static-collective/TABLElogic/pull/1) | HOUSE-001 — five native organs at one held table: planZ × CANNON × GHoT × reLATTE × STATIC OS | `genesis/001-five-organ-table` → `main` | 2026-10-23 |
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [genesis/001-five-organ-table](https://github.com/the-static-collective/TABLElogic/tree/genesis/001-five-organ-table) | [e1da70b4fe](https://github.com/the-static-collective/TABLElogic/commit/e1da70b4fe50c9109b1c9992864cd4382e11de5c) | [open PR #1](https://github.com/the-static-collective/TABLElogic/pull/1) |
+| [genesis/002-listening-table](https://github.com/the-static-collective/TABLElogic/tree/genesis/002-listening-table) | [c268226d3b](https://github.com/the-static-collective/TABLElogic/commit/c268226d3bbee075807ccc990bc67436d7dfaca7) | [open PR #2](https://github.com/the-static-collective/TABLElogic/pull/2) |
+| [genesis/003-question-to-invitation](https://github.com/the-static-collective/TABLElogic/tree/genesis/003-question-to-invitation) | [b34889c515](https://github.com/the-static-collective/TABLElogic/commit/b34889c515c198695d9243bd742fd869b3d98b6c) | [open PR #3](https://github.com/the-static-collective/TABLElogic/pull/3) |
+| [genesis/004-feast-returns](https://github.com/the-static-collective/TABLElogic/tree/genesis/004-feast-returns) | [78d5da120b](https://github.com/the-static-collective/TABLElogic/commit/78d5da120bc480d7055ba6a82e4011b5ed66bb38) | [open PR #4](https://github.com/the-static-collective/TABLElogic/pull/4) |
+
 ## the-static-collective
 
 [Repository](https://github.com/the-static-collective/the-static-collective) · [Branches](https://github.com/the-static-collective/the-static-collective/branches) · [Pull requests](https://github.com/the-static-collective/the-static-collective/pulls)
@@ -1157,13 +1181,19 @@ Default: `main` · other refs: 19 · open PRs: 19
 
 [Repository](https://github.com/the-static-collective/webZ) · [Branches](https://github.com/the-static-collective/webZ/branches) · [Pull requests](https://github.com/the-static-collective/webZ/pulls)
 
-Default: `main` · other refs: 63 · open PRs: 53
+Default: `main` · other refs: 69 · open PRs: 59
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
-| [#73](https://github.com/the-static-collective/webZ/pull/73) | ASK JAR;VIS 001 — single-box 1999 question machine (Cloudflare preview/HOLD) | `feature/ask-jarvis-1999` → `feature/circulation-004-pando-field-lab` | 2026-10-23 |
+| [#79](https://github.com/the-static-collective/webZ/pull/79) | HOUSE-004 — reconcile Codex's four public returns with optional TABLElogic inspection | `feature/ask-jarvis-feast-004` → `feature/ask-jarvis-public-return-002` | 2026-10-23 |
+| [#78](https://github.com/the-static-collective/webZ/pull/78) | Give Ask JAR;VIS four useful public returns behind the 1999 front door | `feature/ask-jarvis-public-return-002` → `feature/ask-jarvis-1999` | 2026-10-23 |
+| [#77](https://github.com/the-static-collective/webZ/pull/77) | Ask JAR;VIS HOUSE-003 — one question, held invitations, offline return | `feature/ask-jarvis-invitation-table-003` → `feature/ask-jarvis-listening-table-002` | 2026-10-23 |
+| [#76](https://github.com/the-static-collective/webZ/pull/76) | Ask JAR;VIS × TABLElogic HOUSE-002 — offline listening table porch (DRAFT) | `feature/ask-jarvis-listening-table-002` → `feature/ask-jarvis-1999` | 2026-10-23 |
+| [#75](https://github.com/the-static-collective/webZ/pull/75) | TOMORROW 002 — LIVE Question Key × pinned Full Measure Alchematrix × living town | `feature/reality2-question-key-town-002` → `feature/reality2-tomorrow-mystery-001` | 2026-10-23 |
+| [#74](https://github.com/the-static-collective/webZ/pull/74) | REALITY.2 WHO MURDERED TOMORROW? — LIVE Abundent game door / paper kit in Drive | `feature/reality2-tomorrow-mystery-001` → `feature/ask-jarvis-1999` | 2026-10-23 |
+| [#73](https://github.com/the-static-collective/webZ/pull/73) | ASK JAR;VIS 001 — 1999 Abundent front page LIVE / Cloudflare runtime pending | `feature/ask-jarvis-1999` → `feature/circulation-004-pando-field-lab` | 2026-10-23 |
 | [#72](https://github.com/the-static-collective/webZ/pull/72) | CIRCULATION-004: Pando Field Lab — runnable multi-door Abundent round trip (preview/HOLD) | `feature/circulation-004-pando-field-lab` → `feature/circulation-003-coalition-field-kit` | 2026-10-23 |
 | [#71](https://github.com/the-static-collective/webZ/pull/71) | CIRCULATION-003: October 24 Coalition day kit — 8-up cards + consent-scoped question press | `feature/circulation-003-coalition-field-kit` → `feature/circulation-001-inspection-door` | 2026-10-22 |
 | [#70](https://github.com/the-static-collective/webZ/pull/70) | FIELD 028 — First Contact: graft voluntary paper door into Abundent release ancestry | `feature/first-contact-028-abundent-preview` → `feature/circulation-001-inspection-door` | 2026-10-22 |
@@ -1274,13 +1304,19 @@ Default: `main` · other refs: 63 · open PRs: 53
 | [feat/static-web-002-moving-field](https://github.com/the-static-collective/webZ/tree/feat/static-web-002-moving-field) | [118eb60f4d](https://github.com/the-static-collective/webZ/commit/118eb60f4d8b1c244a0b40ea71f229946940669e) | [open PR #25](https://github.com/the-static-collective/webZ/pull/25) |
 | [feature/2day-universe-albums-001](https://github.com/the-static-collective/webZ/tree/feature/2day-universe-albums-001) | [decad24663](https://github.com/the-static-collective/webZ/commit/decad246632dc01ef9f280ba2e1eb1f36e0927ea) | Retained ref; disposition unverified |
 | [feature/a-week-together-listening-room-001](https://github.com/the-static-collective/webZ/tree/feature/a-week-together-listening-room-001) | [cc98e92db4](https://github.com/the-static-collective/webZ/commit/cc98e92db41668bea86bf93ca14ebd12fc733ffe) | Retained ref; disposition unverified |
-| [feature/ask-jarvis-1999](https://github.com/the-static-collective/webZ/tree/feature/ask-jarvis-1999) | [bde42f2a7a](https://github.com/the-static-collective/webZ/commit/bde42f2a7a6833a26a7fbaaf10b1c1477994c0e9) | [open PR #73](https://github.com/the-static-collective/webZ/pull/73) |
+| [feature/ask-jarvis-1999](https://github.com/the-static-collective/webZ/tree/feature/ask-jarvis-1999) | [b24c863903](https://github.com/the-static-collective/webZ/commit/b24c863903537b84bb81816fca394280743eb406) | [open PR #73](https://github.com/the-static-collective/webZ/pull/73) |
+| [feature/ask-jarvis-feast-004](https://github.com/the-static-collective/webZ/tree/feature/ask-jarvis-feast-004) | [fa3297161f](https://github.com/the-static-collective/webZ/commit/fa3297161fbec026db8ee1ed7a1cfb92eabe0172) | [open PR #79](https://github.com/the-static-collective/webZ/pull/79) |
+| [feature/ask-jarvis-invitation-table-003](https://github.com/the-static-collective/webZ/tree/feature/ask-jarvis-invitation-table-003) | [9c4f3fb3d2](https://github.com/the-static-collective/webZ/commit/9c4f3fb3d235444456a3c520d5c9904743359bcc) | [open PR #77](https://github.com/the-static-collective/webZ/pull/77) |
+| [feature/ask-jarvis-listening-table-002](https://github.com/the-static-collective/webZ/tree/feature/ask-jarvis-listening-table-002) | [03b06ff5f1](https://github.com/the-static-collective/webZ/commit/03b06ff5f1c0e9c3c4027c6afbeaee6363b2b963) | [open PR #76](https://github.com/the-static-collective/webZ/pull/76) |
+| [feature/ask-jarvis-public-return-002](https://github.com/the-static-collective/webZ/tree/feature/ask-jarvis-public-return-002) | [03684938fc](https://github.com/the-static-collective/webZ/commit/03684938fceb8ff4d614413c95634220895fa404) | [open PR #78](https://github.com/the-static-collective/webZ/pull/78) |
 | [feature/circulation-001-inspection-door](https://github.com/the-static-collective/webZ/tree/feature/circulation-001-inspection-door) | [07ebe10890](https://github.com/the-static-collective/webZ/commit/07ebe108908b3aea93585cd4deb8002590f3ad7d) | [open PR #69](https://github.com/the-static-collective/webZ/pull/69) |
 | [feature/circulation-003-coalition-field-kit](https://github.com/the-static-collective/webZ/tree/feature/circulation-003-coalition-field-kit) | [d69d3ccc08](https://github.com/the-static-collective/webZ/commit/d69d3ccc08ca2ffc5ce79b522e27ce5650ccb104) | [open PR #71](https://github.com/the-static-collective/webZ/pull/71) |
 | [feature/circulation-004-pando-field-lab](https://github.com/the-static-collective/webZ/tree/feature/circulation-004-pando-field-lab) | [f70aed7daa](https://github.com/the-static-collective/webZ/commit/f70aed7daa6f4fd954183f620b690a8f1a72ae2b) | [open PR #72](https://github.com/the-static-collective/webZ/pull/72) |
 | [feature/field-002-observation-to-card](https://github.com/the-static-collective/webZ/tree/feature/field-002-observation-to-card) | [5c8c105baa](https://github.com/the-static-collective/webZ/commit/5c8c105baa766c172a39e987e816414dfbe759b1) | [open PR #68](https://github.com/the-static-collective/webZ/pull/68) |
 | [feature/first-contact-028-abundent-preview](https://github.com/the-static-collective/webZ/tree/feature/first-contact-028-abundent-preview) | [e7570ef7a3](https://github.com/the-static-collective/webZ/commit/e7570ef7a3bb5a23b0debaa00ae72e365b21dd54) | [open PR #70](https://github.com/the-static-collective/webZ/pull/70) |
 | [feature/listening-rooms-dial-zoom-001](https://github.com/the-static-collective/webZ/tree/feature/listening-rooms-dial-zoom-001) | [e06ecfdf68](https://github.com/the-static-collective/webZ/commit/e06ecfdf681eef1df12f19d0ac36fb23d6b17833) | Retained ref; disposition unverified |
+| [feature/reality2-question-key-town-002](https://github.com/the-static-collective/webZ/tree/feature/reality2-question-key-town-002) | [15f780d640](https://github.com/the-static-collective/webZ/commit/15f780d64075e5843640db757c2e580393ffbfb6) | [open PR #75](https://github.com/the-static-collective/webZ/pull/75) |
+| [feature/reality2-tomorrow-mystery-001](https://github.com/the-static-collective/webZ/tree/feature/reality2-tomorrow-mystery-001) | [4cf4787263](https://github.com/the-static-collective/webZ/commit/4cf4787263e3d18b50a7446eaaef43a564c68029) | [open PR #74](https://github.com/the-static-collective/webZ/pull/74) |
 | [release/a-week-together-garden-001](https://github.com/the-static-collective/webZ/tree/release/a-week-together-garden-001) | [1617369bc1](https://github.com/the-static-collective/webZ/commit/1617369bc105ec065c2ec917298ea5381647cc43) | Retained ref; disposition unverified |
 | [release/field-cards-reconciled-001](https://github.com/the-static-collective/webZ/tree/release/field-cards-reconciled-001) | [31f80398c9](https://github.com/the-static-collective/webZ/commit/31f80398c937e5da289d517f50e01cf6470c7c6a) | [open PR #67](https://github.com/the-static-collective/webZ/pull/67) |
 | [release/needs-001-abundent-live](https://github.com/the-static-collective/webZ/tree/release/needs-001-abundent-live) | [65539f065d](https://github.com/the-static-collective/webZ/commit/65539f065db609c97e5c3ca1ca0b2d0f90c7498a) | [open PR #64](https://github.com/the-static-collective/webZ/pull/64) |

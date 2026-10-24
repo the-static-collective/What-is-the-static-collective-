@@ -1,370 +1,163 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-22T12:58:16+00:00",
-  "to_captured_at": "2026-10-23T12:37:33+00:00",
+  "from_captured_at": "2026-10-23T12:37:33+00:00",
+  "to_captured_at": "2026-10-24T11:59:57+00:00",
   "added_repositories": [
-    "GRAFT"
+    "TABLElogic"
   ],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "BananaSpork",
-      "branch": "experiment/circulation-002-native-garden-receiver",
-      "sha": "28e24d730571510d9dc3559ebec547401e626095"
+      "repository": "TABLElogic",
+      "branch": "genesis/001-five-organ-table",
+      "sha": "e1da70b4fe50c9109b1c9992864cd4382e11de5c"
     },
     {
-      "repository": "CANNON",
-      "branch": "experiment/circulation-001-branch-first",
-      "sha": "0ff0cf484d5689d8c62a0ec4d8980c55c89725d8"
+      "repository": "TABLElogic",
+      "branch": "genesis/002-listening-table",
+      "sha": "c268226d3bbee075807ccc990bc67436d7dfaca7"
     },
     {
-      "repository": "CANNON",
-      "branch": "experiment/circulation-002-bananaspork-return",
-      "sha": "65398651b9a211125064b923c5cb7174bd7c9a2b"
+      "repository": "TABLElogic",
+      "branch": "genesis/003-question-to-invitation",
+      "sha": "b34889c515c198695d9243bd742fd869b3d98b6c"
     },
     {
-      "repository": "CANNON",
-      "branch": "experiment/circulation-003-human-field-gate",
-      "sha": "caa95fdf1b07a37824e72c1eb372f0460ad5e0ee"
+      "repository": "TABLElogic",
+      "branch": "genesis/004-feast-returns",
+      "sha": "78d5da120bc480d7055ba6a82e4011b5ed66bb38"
     },
     {
-      "repository": "CANNON",
-      "branch": "experiment/stack-squared-024-living-commons",
-      "sha": "eff4d49431c33ddc34d20df0fb7d27ff985820be"
-    },
-    {
-      "repository": "CANNON",
-      "branch": "experiment/stack-squared-025-community-breath-field",
-      "sha": "3ead125100255fc70a5f42026a5eaad66938d8f3"
-    },
-    {
-      "repository": "CANNON",
-      "branch": "experiment/stack-squared-025-first-contact-crater",
-      "sha": "77bb23513e3a7a7255bdc7b1bd74666e4cff51bf"
-    },
-    {
-      "repository": "CANNON",
-      "branch": "experiment/stack-squared-026-care-plenty-return",
-      "sha": "edc921f934187ea7fbd93bdbe1e122b20ccb08a8"
-    },
-    {
-      "repository": "CANNON",
-      "branch": "experiment/stack-squared-027-warm-thread-returns",
-      "sha": "ee461d7be29795907384c791be88c18e030e0222"
-    },
-    {
-      "repository": "CANNON",
-      "branch": "experiment/stack-squared-028-first-contact-field-door",
-      "sha": "2152730d1b300933ce484f455bbdb2da4ab09dd3"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/autodisco-video-receipt",
-      "sha": "86a1fad4a342cc52dc62f41b3f541d0a52fc91df"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/black-star",
-      "sha": "bd5d6cbd2919cf001f7377702be174a797d4d685"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/circle",
-      "sha": "9de927d85af8ac62a0902040197cc583e544862a"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/Corpus-OS-Local-Intake-Implementation",
-      "sha": "49e5954db6d71366ff6b88b5737fa4a10f096a4c"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/DerekDerrikDark",
-      "sha": "44151d4b066544e96943bcea183c3a8e6b88f1c8"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/fork-EXCLAIM",
-      "sha": "08e4d1ba2244ea38e4529a5a821b20f4b9827189"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/formation-trace",
-      "sha": "56c0dbbcc86b0046e4f93d93507b29b7139bd2e1"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/garden-whisperer",
-      "sha": "23661df82bdce96bbecfc46415524d629301c9c1"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/gramfork",
-      "sha": "f8a6219aa73c6edb48799d473bf46138002de6f0"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/groove-rooms",
-      "sha": "c947482521ebbaad77dd25b535567140345c5866"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/idea-grove",
-      "sha": "bd66b08bf96359d1254127ad0827d742a2fca7e2"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/jubilee-workspace",
-      "sha": "10772e07acf5b7e2cd76848789bc29a1ed5f8a18"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/JubileeV.1",
-      "sha": "ab09383aaaa7ac825fb6606790dfe5d535b55156"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/King-sCup",
-      "sha": "6a7839cdd32375e262449f885bbd91f45a6e978b"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/MEMENTO",
-      "sha": "62fe11eec0b39e8ec50c87d4af7f9ed2d162b7b6"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/RRS",
-      "sha": "3e0742a5cfd6dc7122f86572393a69a08bc8ff72"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/RRS-1-",
-      "sha": "de94c2dd9ba2f7c7c835c2b13344fd487fb9e029"
-    },
-    {
-      "repository": "GRAFT",
+      "repository": "TABLElogic",
       "branch": "main",
-      "sha": "5043bbe4a2a54d5007071c75a5bd265e5864fd14"
-    },
-    {
-      "repository": "planZ",
-      "branch": "experiment/circulation-001-owner-local-replies",
-      "sha": "316000e071e0da5af4762f119f80dfc3add26d7c"
-    },
-    {
-      "repository": "planZ",
-      "branch": "plan/community-breath-field-025",
-      "sha": "e9fb859f3c448d3fbc35817d1bc2ed94a1e6ba27"
-    },
-    {
-      "repository": "the-daily-slice",
-      "branch": "slice-2026-10-22-the-161-cup",
-      "sha": "c7f05bae6848f7aaded59e2cce0ba8e4031cbf60"
+      "sha": "55d7772ebc17155193a610294883551fbc543434"
     },
     {
       "repository": "webZ",
-      "branch": "feature/ask-jarvis-1999",
-      "sha": "bde42f2a7a6833a26a7fbaaf10b1c1477994c0e9"
+      "branch": "feature/ask-jarvis-feast-004",
+      "sha": "fa3297161fbec026db8ee1ed7a1cfb92eabe0172"
     },
     {
       "repository": "webZ",
-      "branch": "feature/circulation-001-inspection-door",
-      "sha": "07ebe108908b3aea93585cd4deb8002590f3ad7d"
+      "branch": "feature/ask-jarvis-invitation-table-003",
+      "sha": "9c4f3fb3d235444456a3c520d5c9904743359bcc"
     },
     {
       "repository": "webZ",
-      "branch": "feature/circulation-003-coalition-field-kit",
-      "sha": "d69d3ccc08ca2ffc5ce79b522e27ce5650ccb104"
+      "branch": "feature/ask-jarvis-listening-table-002",
+      "sha": "03b06ff5f1c0e9c3c4027c6afbeaee6363b2b963"
     },
     {
       "repository": "webZ",
-      "branch": "feature/circulation-004-pando-field-lab",
-      "sha": "f70aed7daa6f4fd954183f620b690a8f1a72ae2b"
+      "branch": "feature/ask-jarvis-public-return-002",
+      "sha": "03684938fceb8ff4d614413c95634220895fa404"
     },
     {
       "repository": "webZ",
-      "branch": "feature/first-contact-028-abundent-preview",
-      "sha": "e7570ef7a3bb5a23b0debaa00ae72e365b21dd54"
+      "branch": "feature/reality2-question-key-town-002",
+      "sha": "15f780d64075e5843640db757c2e580393ffbfb6"
     },
     {
-      "repository": "What-is-the-static-collective-",
-      "branch": "design/breath-atlas-026",
-      "sha": "2157ab71248c80daf54e58dbc576bf1f1bf012d7"
-    },
-    {
-      "repository": "What-is-the-static-collective-",
-      "branch": "proposal/creator-workspace-living-wiki-001",
-      "sha": "5d95c1d23e1540a07368f0e9ca60e35a7508232b"
+      "repository": "webZ",
+      "branch": "feature/reality2-tomorrow-mystery-001",
+      "sha": "4cf4787263e3d18b50a7446eaaef43a564c68029"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "the-daily-slice",
-      "branch": "main",
-      "from_sha": "4fecebd2f5eaeb200ad3f7ebf8fd8860be4ce30b",
-      "to_sha": "23c3d4bf7e4febb89919a3d54b6e8aaf3a764120"
+      "repository": "webZ",
+      "branch": "feature/ask-jarvis-1999",
+      "from_sha": "bde42f2a7a6833a26a7fbaaf10b1c1477994c0e9",
+      "to_sha": "b24c863903537b84bb81816fca394280743eb406"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "e2a221f10d3d324c577eb5377feaff068cbdce03",
-      "to_sha": "b2a139b827a6eab1c4c3fc48aeaa1e4ddf9421bc"
+      "from_sha": "b2a139b827a6eab1c4c3fc48aeaa1e4ddf9421bc",
+      "to_sha": "2836c1735dfeb49350cd50069693be213fb2c6f5"
     }
   ],
   "opened_prs": [
     {
-      "repository": "BananaSpork",
-      "number": 18,
-      "title": "CIRCULATION-002: native Garden receiver for source-bound two-door planZ invitations",
-      "url": "https://github.com/the-static-collective/BananaSpork/pull/18",
-      "head_branch": "experiment/circulation-002-native-garden-receiver",
-      "base_branch": "feat/penny-box-help-slip-bridge-001"
-    },
-    {
-      "repository": "CANNON",
-      "number": 28,
-      "title": "STACK² 024 — LIVING COMMONS: eight organs × two currents, synthetic source-safe proof",
-      "url": "https://github.com/the-static-collective/CANNON/pull/28",
-      "head_branch": "experiment/stack-squared-024-living-commons",
-      "base_branch": "experiment/stack-squared-023-ai-relatte-hold"
-    },
-    {
-      "repository": "CANNON",
-      "number": 29,
-      "title": "STACK² 025: Community Breath Field — source census, audit, and paper cards",
-      "url": "https://github.com/the-static-collective/CANNON/pull/29",
-      "head_branch": "experiment/stack-squared-025-community-breath-field",
-      "base_branch": "experiment/stack-squared-024-living-commons"
-    },
-    {
-      "repository": "CANNON",
-      "number": 30,
-      "title": "STACK² 025 — FIRST CONTACT CRATER: native Static Field → Full Measure → ROroomOM HOLD",
-      "url": "https://github.com/the-static-collective/CANNON/pull/30",
-      "head_branch": "experiment/stack-squared-025-first-contact-crater",
-      "base_branch": "experiment/stack-squared-024-living-commons"
-    },
-    {
-      "repository": "CANNON",
-      "number": 31,
-      "title": "STACK² 026 — THE HELP SLIP COMES HOME × PLENTY: native care-return crater",
-      "url": "https://github.com/the-static-collective/CANNON/pull/31",
-      "head_branch": "experiment/stack-squared-026-care-plenty-return",
-      "base_branch": "experiment/stack-squared-025-first-contact-crater"
-    },
-    {
-      "repository": "CANNON",
-      "number": 32,
-      "title": "STACK² 027 — WARM THREAD COMES HOME: GHoT ↔ Full Measure × Band × Garden",
-      "url": "https://github.com/the-static-collective/CANNON/pull/32",
-      "head_branch": "experiment/stack-squared-027-warm-thread-returns",
-      "base_branch": "experiment/stack-squared-026-care-plenty-return"
-    },
-    {
-      "repository": "CANNON",
-      "number": 33,
-      "title": "CIRCULATION-001: CANNON → native Free Graph → planZ → independent return",
-      "url": "https://github.com/the-static-collective/CANNON/pull/33",
-      "head_branch": "experiment/circulation-001-branch-first",
-      "base_branch": "experiment/stack-squared-025-community-breath-field"
-    },
-    {
-      "repository": "CANNON",
-      "number": 34,
-      "title": "STACK² 028 — First Contact paper card and local field door",
-      "url": "https://github.com/the-static-collective/CANNON/pull/34",
-      "head_branch": "experiment/stack-squared-028-first-contact-field-door",
-      "base_branch": "experiment/stack-squared-027-warm-thread-returns"
-    },
-    {
-      "repository": "CANNON",
-      "number": 35,
-      "title": "CIRCULATION-002: native BananaSpork CARE receiver returns to Free Graph",
-      "url": "https://github.com/the-static-collective/CANNON/pull/35",
-      "head_branch": "experiment/circulation-002-bananaspork-return",
-      "base_branch": "experiment/circulation-001-branch-first"
-    },
-    {
-      "repository": "CANNON",
-      "number": 36,
-      "title": "CIRCULATION-003: human field question gate — independent validation and HOLD only",
-      "url": "https://github.com/the-static-collective/CANNON/pull/36",
-      "head_branch": "experiment/circulation-003-human-field-gate",
-      "base_branch": "experiment/circulation-002-bananaspork-return"
-    },
-    {
-      "repository": "planZ",
-      "number": 27,
-      "title": "PLANZ: COMMUNITY-BREATH-025 — whole-Collective community plan shard",
-      "url": "https://github.com/the-static-collective/planZ/pull/27",
-      "head_branch": "plan/community-breath-field-025",
+      "repository": "TABLElogic",
+      "number": 1,
+      "title": "HOUSE-001 — five native organs at one held table: planZ × CANNON × GHoT × reLATTE × STATIC OS",
+      "url": "https://github.com/the-static-collective/TABLElogic/pull/1",
+      "head_branch": "genesis/001-five-organ-table",
       "base_branch": "main"
     },
     {
-      "repository": "planZ",
-      "number": 28,
-      "title": "CIRCULATION-001: receive native Free Graph invitations with independent synthetic replies",
-      "url": "https://github.com/the-static-collective/planZ/pull/28",
-      "head_branch": "experiment/circulation-001-owner-local-replies",
-      "base_branch": "main"
+      "repository": "TABLElogic",
+      "number": 2,
+      "title": "HOUSE-002 — the listening table: original Workbench × JAR;VIS × webZ × GRAFT",
+      "url": "https://github.com/the-static-collective/TABLElogic/pull/2",
+      "head_branch": "genesis/002-listening-table",
+      "base_branch": "genesis/001-five-organ-table"
+    },
+    {
+      "repository": "TABLElogic",
+      "number": 3,
+      "title": "HOUSE-003 — one question, real JAR;VIS HOLD invitations, local human return",
+      "url": "https://github.com/the-static-collective/TABLElogic/pull/3",
+      "head_branch": "genesis/003-question-to-invitation",
+      "base_branch": "genesis/002-listening-table"
+    },
+    {
+      "repository": "TABLElogic",
+      "number": 4,
+      "title": "HOUSE-004 — reconcile original Codex public returns with question-bound native HOLD",
+      "url": "https://github.com/the-static-collective/TABLElogic/pull/4",
+      "head_branch": "genesis/004-feast-returns",
+      "base_branch": "genesis/003-question-to-invitation"
     },
     {
       "repository": "webZ",
-      "number": 69,
-      "title": "CIRCULATION-001: Abundent proof door — one question, two independent responses",
-      "url": "https://github.com/the-static-collective/webZ/pull/69",
-      "head_branch": "feature/circulation-001-inspection-door",
-      "base_branch": "feature/field-002-observation-to-card"
+      "number": 74,
+      "title": "REALITY.2 WHO MURDERED TOMORROW? — LIVE Abundent game door / paper kit in Drive",
+      "url": "https://github.com/the-static-collective/webZ/pull/74",
+      "head_branch": "feature/reality2-tomorrow-mystery-001",
+      "base_branch": "feature/ask-jarvis-1999"
     },
     {
       "repository": "webZ",
-      "number": 70,
-      "title": "FIELD 028 — First Contact: graft voluntary paper door into Abundent release ancestry",
-      "url": "https://github.com/the-static-collective/webZ/pull/70",
-      "head_branch": "feature/first-contact-028-abundent-preview",
-      "base_branch": "feature/circulation-001-inspection-door"
+      "number": 75,
+      "title": "TOMORROW 002 — LIVE Question Key × pinned Full Measure Alchematrix × living town",
+      "url": "https://github.com/the-static-collective/webZ/pull/75",
+      "head_branch": "feature/reality2-question-key-town-002",
+      "base_branch": "feature/reality2-tomorrow-mystery-001"
     },
     {
       "repository": "webZ",
-      "number": 71,
-      "title": "CIRCULATION-003: October 24 Coalition day kit — 8-up cards + consent-scoped question press",
-      "url": "https://github.com/the-static-collective/webZ/pull/71",
-      "head_branch": "feature/circulation-003-coalition-field-kit",
-      "base_branch": "feature/circulation-001-inspection-door"
+      "number": 76,
+      "title": "Ask JAR;VIS × TABLElogic HOUSE-002 — offline listening table porch (DRAFT)",
+      "url": "https://github.com/the-static-collective/webZ/pull/76",
+      "head_branch": "feature/ask-jarvis-listening-table-002",
+      "base_branch": "feature/ask-jarvis-1999"
     },
     {
       "repository": "webZ",
-      "number": 72,
-      "title": "CIRCULATION-004: Pando Field Lab — runnable multi-door Abundent round trip (preview/HOLD)",
-      "url": "https://github.com/the-static-collective/webZ/pull/72",
-      "head_branch": "feature/circulation-004-pando-field-lab",
-      "base_branch": "feature/circulation-003-coalition-field-kit"
+      "number": 77,
+      "title": "Ask JAR;VIS HOUSE-003 — one question, held invitations, offline return",
+      "url": "https://github.com/the-static-collective/webZ/pull/77",
+      "head_branch": "feature/ask-jarvis-invitation-table-003",
+      "base_branch": "feature/ask-jarvis-listening-table-002"
     },
     {
       "repository": "webZ",
-      "number": 73,
-      "title": "ASK JAR;VIS 001 — single-box 1999 question machine (Cloudflare preview/HOLD)",
-      "url": "https://github.com/the-static-collective/webZ/pull/73",
-      "head_branch": "feature/ask-jarvis-1999",
-      "base_branch": "feature/circulation-004-pando-field-lab"
+      "number": 78,
+      "title": "Give Ask JAR;VIS four useful public returns behind the 1999 front door",
+      "url": "https://github.com/the-static-collective/webZ/pull/78",
+      "head_branch": "feature/ask-jarvis-public-return-002",
+      "base_branch": "feature/ask-jarvis-1999"
     },
     {
-      "repository": "What-is-the-static-collective-",
-      "number": 100,
-      "title": "Creator Workspace Living Wiki 001 — branch-first semantic overlay for the public Git terrain",
-      "url": "https://github.com/the-static-collective/What-is-the-static-collective-/pull/100",
-      "head_branch": "proposal/creator-workspace-living-wiki-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "What-is-the-static-collective-",
-      "number": 101,
-      "title": "STACK² 026 — Breath Atlas: first branch-evidence instrument (draft)",
-      "url": "https://github.com/the-static-collective/What-is-the-static-collective-/pull/101",
-      "head_branch": "design/breath-atlas-026",
-      "base_branch": "main"
+      "repository": "webZ",
+      "number": 79,
+      "title": "HOUSE-004 — reconcile Codex's four public returns with optional TABLElogic inspection",
+      "url": "https://github.com/the-static-collective/webZ/pull/79",
+      "head_branch": "feature/ask-jarvis-feast-004",
+      "base_branch": "feature/ask-jarvis-public-return-002"
     }
   ],
   "left_open_prs": []
