@@ -1,163 +1,499 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-23T12:37:33+00:00",
-  "to_captured_at": "2026-10-24T11:59:57+00:00",
+  "from_captured_at": "2026-10-24T11:59:57+00:00",
+  "to_captured_at": "2026-10-25T12:34:06+00:00",
   "added_repositories": [
-    "TABLElogic"
+    "MSyoU"
   ],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "TABLElogic",
-      "branch": "genesis/001-five-organ-table",
-      "sha": "e1da70b4fe50c9109b1c9992864cd4382e11de5c"
+      "repository": "GRAFT",
+      "branch": "graft/free-graph-reconstruction-001",
+      "sha": "87db43b9bd818696728976e9baea44c96d5816fb"
     },
     {
-      "repository": "TABLElogic",
-      "branch": "genesis/002-listening-table",
-      "sha": "c268226d3bbee075807ccc990bc67436d7dfaca7"
+      "repository": "GRAFT",
+      "branch": "graft/reconstruction-001",
+      "sha": "87db43b9bd818696728976e9baea44c96d5816fb"
     },
     {
-      "repository": "TABLElogic",
-      "branch": "genesis/003-question-to-invitation",
-      "sha": "b34889c515c198695d9243bd742fd869b3d98b6c"
+      "repository": "GrO",
+      "branch": "feat/sibley-live-relay-002",
+      "sha": "5600e534060bfc01d6005d0b9edff50e071788f0"
     },
     {
-      "repository": "TABLElogic",
-      "branch": "genesis/004-feast-returns",
-      "sha": "78d5da120bc480d7055ba6a82e4011b5ed66bb38"
+      "repository": "GrO",
+      "branch": "feat/sibley-stewardship-locality-001",
+      "sha": "1c99fa775655a0259a7251a7f4bc16df3d814335"
     },
     {
-      "repository": "TABLElogic",
+      "repository": "JAR-VIS",
+      "branch": "feature/heartbeat-001-roundtrip",
+      "sha": "f06213463f616cddc023ac942ff671ba69096531"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "proposal/penny-stewardship-reserve-001",
+      "sha": "200d4b1871fb55ee7b02e3f044fea02c3e717ee1"
+    },
+    {
+      "repository": "MSyoU",
+      "branch": "experiment/morse-cone-001-offline-discovery",
+      "sha": "773da4477f9b06e4c5bb445b00f0ff31a5ef4964"
+    },
+    {
+      "repository": "MSyoU",
+      "branch": "feature/civic-stack-field-kit-001",
+      "sha": "03bcca8c7169c18c30b234e2ccf3d7c19e5c739a"
+    },
+    {
+      "repository": "MSyoU",
+      "branch": "feature/field-crossing-003-two-body-proof",
+      "sha": "6df89fb465cbf92664f16fccc25e0413f662d8bb"
+    },
+    {
+      "repository": "MSyoU",
+      "branch": "feature/ghot-energy-commons-002",
+      "sha": "20388422731e6800efc5b2e12908f10ffebeae11"
+    },
+    {
+      "repository": "MSyoU",
       "branch": "main",
-      "sha": "55d7772ebc17155193a610294883551fbc543434"
+      "sha": "e5a0785de34ba2fce57d0d736a31e1d3edc0101c"
     },
     {
       "repository": "webZ",
-      "branch": "feature/ask-jarvis-feast-004",
-      "sha": "fa3297161fbec026db8ee1ed7a1cfb92eabe0172"
+      "branch": "experiment/earth-intake-001-data-readiness-lab",
+      "sha": "f35a45b6ae609b9cdb7217b4fcd8110b134dd41f"
     },
     {
       "repository": "webZ",
-      "branch": "feature/ask-jarvis-invitation-table-003",
-      "sha": "9c4f3fb3d235444456a3c520d5c9904743359bcc"
+      "branch": "experiment/living-watershed-001-full-measure-gro",
+      "sha": "6f41061a6d62ad1ab8622a89ad48271fd9605349"
     },
     {
       "repository": "webZ",
-      "branch": "feature/ask-jarvis-listening-table-002",
-      "sha": "03b06ff5f1c0e9c3c4027c6afbeaee6363b2b963"
+      "branch": "feature/abundent-connections-board-001",
+      "sha": "ebc58c3a69be9e0ba5f36ca5336cf7f0b4d82a3f"
     },
     {
       "repository": "webZ",
-      "branch": "feature/ask-jarvis-public-return-002",
-      "sha": "03684938fceb8ff4d614413c95634220895fa404"
+      "branch": "feature/abundent-gather-witness-pass-001",
+      "sha": "494e104c6ab0fc033d0ac864c0b27d153cf4edcd"
     },
     {
       "repository": "webZ",
-      "branch": "feature/reality2-question-key-town-002",
-      "sha": "15f780d64075e5843640db757c2e580393ffbfb6"
+      "branch": "feature/abundent-jarvis-cafe-mode-004",
+      "sha": "406421181b740a63570527a1e3778e640b2eddcc"
     },
     {
       "repository": "webZ",
-      "branch": "feature/reality2-tomorrow-mystery-001",
-      "sha": "4cf4787263e3d18b50a7446eaaef43a564c68029"
+      "branch": "feature/abundent-jarvis-useful-returns-live-003",
+      "sha": "9cdfa36b100327be339071d45e8547b3e971c2bd"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/abundent-live-weaving-garden-002",
+      "sha": "ea3227ab08bdec39514009f0324dec9d4590e62a"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/abundent-network-table-003",
+      "sha": "e0bd3c94a9517d885443bca63dd7682cc29072f4"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/abundent-network-weaving-001",
+      "sha": "c4a1506bc0bfe3931eda52815cb171e4c2792c5f"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/abundent-network-weaving-002-circulation",
+      "sha": "e8e83e0daea39270a50272e22dc3f742daeddfdc"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/abundent-question-table-bridge-001",
+      "sha": "a71844086026842bfb61ab16f250268eef96b03a"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/abundent-real-worldz-001-river-gate",
+      "sha": "302d44a4c1f2916c3840a83609f864a5efebb768"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/abundent-seventh-table-001",
+      "sha": "3c07b67a0010e85153d77a1968321bb712376bf1"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/abundent-seventh-table-live-002",
+      "sha": "5e14fe8e9a56e9847c7ff29d8599f888a63f51c9"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/abundent-switchboard-001",
+      "sha": "68503f27e08c5d2f80632f5cc80f52dcbefc67b9"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/abundent-table-live-bridge-001",
+      "sha": "853432ac1b122e16ee699a3934d98b5f1118f857"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/abundent-town-freegraph-010",
+      "sha": "63f5958a2327e3db418db15c928ddda1b84843d0"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/ask-jarvis-curiosity-005",
+      "sha": "456a8ebad707da6b5911c312c542bd9ca973210a"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/ask-jarvis-field-witness-009",
+      "sha": "5e872ff032eafccd4e27152dcd401fa6a4c48db9"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/ask-jarvis-free-compute-007",
+      "sha": "85143a908b999f9544b2436f7643c3fbcc67cd59"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/ask-jarvis-investigator-006",
+      "sha": "d26c5b8b6325db1c957bdaf654a76969e1c2f145"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/ask-jarvis-missing-ingredient-council-008",
+      "sha": "5a7ab0bfb3fa5a6794099d6d11c38190dbff0d46"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/ask-jarvis-native-009",
+      "sha": "57d19a96cc669e3e356cd3da3f94ce84a0bd543f"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/ask-jarvis-relay-007",
+      "sha": "85525c47f53dabb72f1aa670ea1027b7239e1aea"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/ask-jarvis-triad-008",
+      "sha": "c6c5e4bf1f4747aa35f0291f34063c3eec83592a"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/heartbeat-002-first-real-crossing",
+      "sha": "eb5128cab46b666febd27056d9cb893a610d7fc4"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/missing-ingredient-field-001",
+      "sha": "fcb78be842eea74667370f0351c77bf3f4dba922"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/msyou-energy-commons-abundent-001",
+      "sha": "43dc1c33dae4c536a7013af01b6e72650a30075a"
+    },
+    {
+      "repository": "webZ",
+      "branch": "field/garden-network-atlas-20261024",
+      "sha": "6921fbc9c198d9e6287e9be6c23b822cb0cda8a3"
+    },
+    {
+      "repository": "webZ",
+      "branch": "release/heartbeat-002-first-crossing",
+      "sha": "772261ace87d2217af50c7c26e2c0b2de9381a40"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "webZ",
-      "branch": "feature/ask-jarvis-1999",
-      "from_sha": "bde42f2a7a6833a26a7fbaaf10b1c1477994c0e9",
-      "to_sha": "b24c863903537b84bb81816fca394280743eb406"
+      "repository": "GRAFT",
+      "branch": "graft/black-star",
+      "from_sha": "bd5d6cbd2919cf001f7377702be174a797d4d685",
+      "to_sha": "08f42f769f9590d78b85c8d84358e1791d5bd318"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/MEMENTO",
+      "from_sha": "62fe11eec0b39e8ec50c87d4af7f9ed2d162b7b6",
+      "to_sha": "22a5714f25c7be59bac37b3ab691c28c1f036845"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "main",
+      "from_sha": "5043bbe4a2a54d5007071c75a5bd265e5864fd14",
+      "to_sha": "0afd126eb871487ad780f3f31d2224b674a4601c"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "main",
+      "from_sha": "0a4f87938b9237ad439d9e58c3aecb276429a34d",
+      "to_sha": "35b3843c13ab1994efc913724b1db08ce79bdeed"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "b2a139b827a6eab1c4c3fc48aeaa1e4ddf9421bc",
-      "to_sha": "2836c1735dfeb49350cd50069693be213fb2c6f5"
+      "from_sha": "2836c1735dfeb49350cd50069693be213fb2c6f5",
+      "to_sha": "b63050f14c5b8455407481ca7fd5ecd21e028ce3"
     }
   ],
   "opened_prs": [
     {
-      "repository": "TABLElogic",
-      "number": 1,
-      "title": "HOUSE-001 — five native organs at one held table: planZ × CANNON × GHoT × reLATTE × STATIC OS",
-      "url": "https://github.com/the-static-collective/TABLElogic/pull/1",
-      "head_branch": "genesis/001-five-organ-table",
+      "repository": "GrO",
+      "number": 30,
+      "title": "Sibley Park Stewardship 001 — whole-park GrO × Full Measure field porch",
+      "url": "https://github.com/the-static-collective/GrO/pull/30",
+      "head_branch": "feat/sibley-stewardship-locality-001",
       "base_branch": "main"
     },
     {
-      "repository": "TABLElogic",
-      "number": 2,
-      "title": "HOUSE-002 — the listening table: original Workbench × JAR;VIS × webZ × GRAFT",
-      "url": "https://github.com/the-static-collective/TABLElogic/pull/2",
-      "head_branch": "genesis/002-listening-table",
-      "base_branch": "genesis/001-five-organ-table"
+      "repository": "GrO",
+      "number": 31,
+      "title": "Sibley LIVE Relay 002 — whole-park quests, consentful sharing and witness gates",
+      "url": "https://github.com/the-static-collective/GrO/pull/31",
+      "head_branch": "feat/sibley-live-relay-002",
+      "base_branch": "feat/sibley-stewardship-locality-001"
     },
     {
-      "repository": "TABLElogic",
-      "number": 3,
-      "title": "HOUSE-003 — one question, real JAR;VIS HOLD invitations, local human return",
-      "url": "https://github.com/the-static-collective/TABLElogic/pull/3",
-      "head_branch": "genesis/003-question-to-invitation",
-      "base_branch": "genesis/002-listening-table"
-    },
-    {
-      "repository": "TABLElogic",
-      "number": 4,
-      "title": "HOUSE-004 — reconcile original Codex public returns with question-bound native HOLD",
-      "url": "https://github.com/the-static-collective/TABLElogic/pull/4",
-      "head_branch": "genesis/004-feast-returns",
-      "base_branch": "genesis/003-question-to-invitation"
+      "repository": "Jubilee-treasury",
+      "number": 26,
+      "title": "PENNY reserve 001 — stewardship proceeds without fictitious backing",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/26",
+      "head_branch": "proposal/penny-stewardship-reserve-001",
+      "base_branch": "main"
     },
     {
       "repository": "webZ",
-      "number": 74,
-      "title": "REALITY.2 WHO MURDERED TOMORROW? — LIVE Abundent game door / paper kit in Drive",
-      "url": "https://github.com/the-static-collective/webZ/pull/74",
-      "head_branch": "feature/reality2-tomorrow-mystery-001",
-      "base_branch": "feature/ask-jarvis-1999"
+      "number": 80,
+      "title": "ABUNDENT GATHER 001 — live Next Table × Garden Commons public front door",
+      "url": "https://github.com/the-static-collective/webZ/pull/80",
+      "head_branch": "feature/abundent-table-live-bridge-001",
+      "base_branch": "feature/reality2-question-key-town-002"
     },
     {
       "repository": "webZ",
-      "number": 75,
-      "title": "TOMORROW 002 — LIVE Question Key × pinned Full Measure Alchematrix × living town",
-      "url": "https://github.com/the-static-collective/webZ/pull/75",
-      "head_branch": "feature/reality2-question-key-town-002",
-      "base_branch": "feature/reality2-tomorrow-mystery-001"
+      "number": 81,
+      "title": "JAR;VIS 003 — live useful returns and Harmony Park field-plan door",
+      "url": "https://github.com/the-static-collective/webZ/pull/81",
+      "head_branch": "feature/abundent-jarvis-useful-returns-live-003",
+      "base_branch": "feature/abundent-table-live-bridge-001"
     },
     {
       "repository": "webZ",
-      "number": 76,
-      "title": "Ask JAR;VIS × TABLElogic HOUSE-002 — offline listening table porch (DRAFT)",
-      "url": "https://github.com/the-static-collective/webZ/pull/76",
-      "head_branch": "feature/ask-jarvis-listening-table-002",
-      "base_branch": "feature/ask-jarvis-1999"
+      "number": 82,
+      "title": "JAR;VIS CAFÉ 004 — pass the question, keep the consent",
+      "url": "https://github.com/the-static-collective/webZ/pull/82",
+      "head_branch": "feature/abundent-jarvis-cafe-mode-004",
+      "base_branch": "feature/abundent-jarvis-useful-returns-live-003"
     },
     {
       "repository": "webZ",
-      "number": 77,
-      "title": "Ask JAR;VIS HOUSE-003 — one question, held invitations, offline return",
-      "url": "https://github.com/the-static-collective/webZ/pull/77",
-      "head_branch": "feature/ask-jarvis-invitation-table-003",
-      "base_branch": "feature/ask-jarvis-listening-table-002"
+      "number": 83,
+      "title": "THE SEVENTH TABLE — seven-day invitation chain for Abundent",
+      "url": "https://github.com/the-static-collective/webZ/pull/83",
+      "head_branch": "feature/abundent-seventh-table-001",
+      "base_branch": "feature/abundent-jarvis-cafe-mode-004"
     },
     {
       "repository": "webZ",
-      "number": 78,
-      "title": "Give Ask JAR;VIS four useful public returns behind the 1999 front door",
-      "url": "https://github.com/the-static-collective/webZ/pull/78",
-      "head_branch": "feature/ask-jarvis-public-return-002",
-      "base_branch": "feature/ask-jarvis-1999"
+      "number": 84,
+      "title": "ABUNDENT SWITCHBOARD 001 — one porch, useful doors, printable table card",
+      "url": "https://github.com/the-static-collective/webZ/pull/84",
+      "head_branch": "feature/abundent-switchboard-001",
+      "base_branch": "feature/abundent-seventh-table-001"
     },
     {
       "repository": "webZ",
-      "number": 79,
-      "title": "HOUSE-004 — reconcile Codex's four public returns with optional TABLElogic inspection",
-      "url": "https://github.com/the-static-collective/webZ/pull/79",
-      "head_branch": "feature/ask-jarvis-feast-004",
-      "base_branch": "feature/ask-jarvis-public-return-002"
+      "number": 85,
+      "title": "ABUNDENT 085 — Question → Table: turn a JAR;VIS answer into a human-owned invitation draft",
+      "url": "https://github.com/the-static-collective/webZ/pull/85",
+      "head_branch": "feature/abundent-question-table-bridge-001",
+      "base_branch": "feature/abundent-switchboard-001"
+    },
+    {
+      "repository": "webZ",
+      "number": 86,
+      "title": "ABUNDENT 086 — Closing Circle: witness what happened, consent to the question, pass the table",
+      "url": "https://github.com/the-static-collective/webZ/pull/86",
+      "head_branch": "feature/abundent-gather-witness-pass-001",
+      "base_branch": "feature/abundent-question-table-bridge-001"
+    },
+    {
+      "repository": "webZ",
+      "number": 87,
+      "title": "CONNECT! 001 — turn gathering board into an account-free neighbor map",
+      "url": "https://github.com/the-static-collective/webZ/pull/87",
+      "head_branch": "feature/abundent-connections-board-001",
+      "base_branch": "feature/abundent-question-table-bridge-001"
+    },
+    {
+      "repository": "webZ",
+      "number": 88,
+      "title": "WEAVING GARDEN 001 — connect people, not accounts",
+      "url": "https://github.com/the-static-collective/webZ/pull/88",
+      "head_branch": "feature/abundent-network-weaving-001",
+      "base_branch": "feature/abundent-switchboard-001"
+    },
+    {
+      "repository": "webZ",
+      "number": 89,
+      "title": "THE LIVING CHAIR 002 — live account-free RSVPs and moderated conversation",
+      "url": "https://github.com/the-static-collective/webZ/pull/89",
+      "head_branch": "feature/abundent-seventh-table-live-002",
+      "base_branch": "feature/abundent-seventh-table-001"
+    },
+    {
+      "repository": "webZ",
+      "number": 90,
+      "title": "ABUNDENT 087 — optional live network tables, moderated questions, withdrawal & seven-day lineage",
+      "url": "https://github.com/the-static-collective/webZ/pull/90",
+      "head_branch": "feature/abundent-network-table-003",
+      "base_branch": "feature/abundent-gather-witness-pass-001"
+    },
+    {
+      "repository": "webZ",
+      "number": 91,
+      "title": "WEAVE-002 — one opportunity through native CANNON × Free Graph × planZ",
+      "url": "https://github.com/the-static-collective/webZ/pull/91",
+      "head_branch": "feature/abundent-network-weaving-002-circulation",
+      "base_branch": "feature/abundent-network-weaving-001"
+    },
+    {
+      "repository": "webZ",
+      "number": 92,
+      "title": "ABUNDENT LIVE WEAVE-002 — source-preserving add-on to active Network Table release",
+      "url": "https://github.com/the-static-collective/webZ/pull/92",
+      "head_branch": "feature/abundent-live-weaving-garden-002",
+      "base_branch": "feature/abundent-network-table-003"
+    },
+    {
+      "repository": "webZ",
+      "number": 93,
+      "title": "EARTH-INTAKE-001 — offline environmental data readiness lab (independent demo)",
+      "url": "https://github.com/the-static-collective/webZ/pull/93",
+      "head_branch": "experiment/earth-intake-001-data-readiness-lab",
+      "base_branch": "feature/abundent-live-weaving-garden-002"
+    },
+    {
+      "repository": "webZ",
+      "number": 94,
+      "title": "The Garden / Already Growing — Waseca network atlas and printable node cards",
+      "url": "https://github.com/the-static-collective/webZ/pull/94",
+      "head_branch": "field/garden-network-atlas-20261024",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 95,
+      "title": "WATERSHED-QUEST-001: playable Full Measure × GrO fictional conservation world",
+      "url": "https://github.com/the-static-collective/webZ/pull/95",
+      "head_branch": "experiment/living-watershed-001-full-measure-gro",
+      "base_branch": "experiment/earth-intake-001-data-readiness-lab"
+    },
+    {
+      "repository": "webZ",
+      "number": 96,
+      "title": "REAL-WORLDZ-001: source-bound Mankato River Gate, geography × GrO-style invitations",
+      "url": "https://github.com/the-static-collective/webZ/pull/96",
+      "head_branch": "feature/abundent-real-worldz-001-river-gate",
+      "base_branch": "experiment/living-watershed-001-full-measure-gro"
+    },
+    {
+      "repository": "webZ",
+      "number": 98,
+      "title": "FIELD 001 — The Missing Ingredient: a playable circular for food, neighbors, witness and radio",
+      "url": "https://github.com/the-static-collective/webZ/pull/98",
+      "head_branch": "feature/missing-ingredient-field-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 99,
+      "title": "CURIOUS-005 — Ask JAR;VIS learns to connect questions without inventing answers",
+      "url": "https://github.com/the-static-collective/webZ/pull/99",
+      "head_branch": "feature/ask-jarvis-curiosity-005",
+      "base_branch": "feature/abundent-real-worldz-001-river-gate"
+    },
+    {
+      "repository": "webZ",
+      "number": 100,
+      "title": "VIS-006 — opt-in real-model investigator beside JAR's source librarian",
+      "url": "https://github.com/the-static-collective/webZ/pull/100",
+      "head_branch": "feature/ask-jarvis-investigator-006",
+      "base_branch": "feature/ask-jarvis-curiosity-005"
+    },
+    {
+      "repository": "webZ",
+      "number": 101,
+      "title": "HEARTBEAT-002: live need × offer round trip via Seventh Table",
+      "url": "https://github.com/the-static-collective/webZ/pull/101",
+      "head_branch": "feature/heartbeat-002-first-real-crossing",
+      "base_branch": "feature/ask-jarvis-investigator-006"
+    },
+    {
+      "repository": "webZ",
+      "number": 102,
+      "title": "FREE-COMPUTE-007 — route protected VIS through real free AI providers",
+      "url": "https://github.com/the-static-collective/webZ/pull/102",
+      "head_branch": "feature/ask-jarvis-free-compute-007",
+      "base_branch": "feature/ask-jarvis-investigator-006"
+    },
+    {
+      "repository": "webZ",
+      "number": 103,
+      "title": "RELAY-007 — Distinguish a question passed from an unsigned AI investigation shared",
+      "url": "https://github.com/the-static-collective/webZ/pull/103",
+      "head_branch": "feature/ask-jarvis-relay-007",
+      "base_branch": "feature/ask-jarvis-investigator-006"
+    },
+    {
+      "repository": "webZ",
+      "number": 104,
+      "title": "TRIAD-008 — Read-only ALEX × 3rdi × LOADOUT lens for JAR;VIS / Nemotron",
+      "url": "https://github.com/the-static-collective/webZ/pull/104",
+      "head_branch": "feature/ask-jarvis-triad-008",
+      "base_branch": "feature/ask-jarvis-relay-007"
+    },
+    {
+      "repository": "webZ",
+      "number": 105,
+      "title": "COUNCIL-008: Missing Ingredient Council",
+      "url": "https://github.com/the-static-collective/webZ/pull/105",
+      "head_branch": "feature/ask-jarvis-missing-ingredient-council-008",
+      "base_branch": "feature/ask-jarvis-free-compute-007"
+    },
+    {
+      "repository": "webZ",
+      "number": 106,
+      "title": "NATIVE-009 — Execute real pinned ALEX, 3rdi & LOADOUT kernels behind preview-only JAR;VIS gate",
+      "url": "https://github.com/the-static-collective/webZ/pull/106",
+      "head_branch": "feature/ask-jarvis-native-009",
+      "base_branch": "feature/ask-jarvis-triad-008"
+    },
+    {
+      "repository": "webZ",
+      "number": 107,
+      "title": "TOWN-010 — Waseca Abundent Town Desk powered by actual Free Graph v0 and private inquiry review",
+      "url": "https://github.com/the-static-collective/webZ/pull/107",
+      "head_branch": "feature/abundent-town-freegraph-010",
+      "base_branch": "feature/ask-jarvis-native-009"
+    },
+    {
+      "repository": "webZ",
+      "number": 108,
+      "title": "FIELD-WITNESS-009: grounded ecosystem notes for Council",
+      "url": "https://github.com/the-static-collective/webZ/pull/108",
+      "head_branch": "feature/ask-jarvis-field-witness-009",
+      "base_branch": "feature/ask-jarvis-missing-ingredient-council-008"
     }
   ],
   "left_open_prs": []
