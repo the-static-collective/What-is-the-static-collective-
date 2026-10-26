@@ -1,499 +1,568 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-24T11:59:57+00:00",
-  "to_captured_at": "2026-10-25T12:34:06+00:00",
-  "added_repositories": [
-    "MSyoU"
-  ],
+  "from_captured_at": "2026-10-25T12:34:06+00:00",
+  "to_captured_at": "2026-10-26T14:15:19+00:00",
+  "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "GRAFT",
-      "branch": "graft/free-graph-reconstruction-001",
-      "sha": "87db43b9bd818696728976e9baea44c96d5816fb"
+      "repository": "BananaSpork",
+      "branch": "feat/campfire-selfhost-backend-001",
+      "sha": "b8c41390da3f35997d329354a467e807f603f0da"
+    },
+    {
+      "repository": "BananaSpork",
+      "branch": "feat/field-specimen-independent-proof-002",
+      "sha": "850bada901a50e18b9aa7331d00c0557fa94add2"
     },
     {
       "repository": "GRAFT",
-      "branch": "graft/reconstruction-001",
-      "sha": "87db43b9bd818696728976e9baea44c96d5816fb"
+      "branch": "feature/commons-approved-feed-001",
+      "sha": "9f32b0e1551fe1e853b5f82ecd8f16d0d5ee3f6a"
     },
     {
-      "repository": "GrO",
-      "branch": "feat/sibley-live-relay-002",
-      "sha": "5600e534060bfc01d6005d0b9edff50e071788f0"
+      "repository": "GRAFT",
+      "branch": "graft/hypercross-001",
+      "sha": "b4e100caa5766eae000e66b3d769ef05d1aedc1b"
     },
     {
-      "repository": "GrO",
-      "branch": "feat/sibley-stewardship-locality-001",
-      "sha": "1c99fa775655a0259a7251a7f4bc16df3d814335"
+      "repository": "GRAFT",
+      "branch": "graft/hypercross-experimental-002",
+      "sha": "9910068879ce8bde14131c58622d10ac6baa6195"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/hypercross-return-to-ask-003",
+      "sha": "faebce20bb6799c3304835d419e5f83be5792224"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/jarvis-cannon-planz-001",
+      "sha": "73944d911e8fabb600533eb4e6b848b61ca49508"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/jarvis-live-research-work-002",
+      "sha": "aa3984d2dbdf949996639b029ca0d95ab6c290e5"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/jubilee-banana-reentry-001",
+      "sha": "35e8a16bae4d294f683eecc06059144844847653"
     },
     {
       "repository": "JAR-VIS",
-      "branch": "feature/heartbeat-001-roundtrip",
-      "sha": "f06213463f616cddc023ac942ff671ba69096531"
+      "branch": "feat/campfire-first-yes-gateway-001",
+      "sha": "5150ea19d744d339f5657acded7629da10a75146"
     },
     {
-      "repository": "Jubilee-treasury",
-      "branch": "proposal/penny-stewardship-reserve-001",
-      "sha": "200d4b1871fb55ee7b02e3f044fea02c3e717ee1"
+      "repository": "JAR-VIS",
+      "branch": "feature/community-brain-open-seats-006",
+      "sha": "fe0f6f24c4250e0dc6ac476883ebc2c0dc45b743"
     },
     {
-      "repository": "MSyoU",
-      "branch": "experiment/morse-cone-001-offline-discovery",
-      "sha": "773da4477f9b06e4c5bb445b00f0ff31a5ef4964"
+      "repository": "JAR-VIS",
+      "branch": "integration/modal-return-worker-001",
+      "sha": "00ec46008d6f5d39bd415f7b85c2f482d9fdbcbc"
     },
     {
-      "repository": "MSyoU",
-      "branch": "feature/civic-stack-field-kit-001",
-      "sha": "03bcca8c7169c18c30b234e2ccf3d7c19e5c739a"
+      "repository": "lemonPRESS",
+      "branch": "experiment/community-open-calls-001",
+      "sha": "bebc328b2cb2ea44b4a34418198820aaebdf0465"
     },
     {
-      "repository": "MSyoU",
-      "branch": "feature/field-crossing-003-two-body-proof",
-      "sha": "6df89fb465cbf92664f16fccc25e0413f662d8bb"
+      "repository": "lemonPRESS",
+      "branch": "experiment/opf-press-000-rosemary-bloom",
+      "sha": "b75c878f94beed624e4698468324bf004ed5546a"
     },
     {
-      "repository": "MSyoU",
-      "branch": "feature/ghot-energy-commons-002",
-      "sha": "20388422731e6800efc5b2e12908f10ffebeae11"
-    },
-    {
-      "repository": "MSyoU",
-      "branch": "main",
-      "sha": "e5a0785de34ba2fce57d0d736a31e1d3edc0101c"
+      "repository": "lemonPRESS",
+      "branch": "experiment/waseca-lemon-issue-000",
+      "sha": "f4e4a25759c489190b2b1b040823e972b1486f08"
     },
     {
       "repository": "webZ",
-      "branch": "experiment/earth-intake-001-data-readiness-lab",
-      "sha": "f35a45b6ae609b9cdb7217b4fcd8110b134dd41f"
+      "branch": "feat/banana-pocket-seat-return-001",
+      "sha": "0469c940f5116e4cc855a023a75294d5bb45ef69"
     },
     {
       "repository": "webZ",
-      "branch": "experiment/living-watershed-001-full-measure-gro",
-      "sha": "6f41061a6d62ad1ab8622a89ad48271fd9605349"
+      "branch": "feat/garden-signal-001",
+      "sha": "6f0bb3a17668bc95a15ec3becfb5fea776fd87cb"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-connections-board-001",
-      "sha": "ebc58c3a69be9e0ba5f36ca5336cf7f0b4d82a3f"
+      "branch": "feat/seven-day-table-ambassadors-001",
+      "sha": "adbeae8f584821d4df90a6c9ff0c2c00cb5853f0"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-gather-witness-pass-001",
-      "sha": "494e104c6ab0fc033d0ac864c0b27d153cf4edcd"
+      "branch": "feat/tomorrow-milk-bridge-invite-chain-v2",
+      "sha": "0711dc029241db6445b421737dc187cf23443a6d"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-jarvis-cafe-mode-004",
-      "sha": "406421181b740a63570527a1e3778e640b2eddcc"
+      "branch": "feature/abundent-public-commons-031",
+      "sha": "83b5b954c9997c0bcd5e7c501c5ea62ae2009e52"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-jarvis-useful-returns-live-003",
-      "sha": "9cdfa36b100327be339071d45e8547b3e971c2bd"
+      "branch": "feature/abundent-public-first-yes-030",
+      "sha": "27d0828c77e6667ad6815432e6d62c307bcea20f"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-live-weaving-garden-002",
-      "sha": "ea3227ab08bdec39514009f0324dec9d4590e62a"
+      "branch": "feature/aippy-sparkfork-023",
+      "sha": "65245a7d8c057ae5e9a5a971b15c7e4e60c99b39"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-network-table-003",
-      "sha": "e0bd3c94a9517d885443bca63dd7682cc29072f4"
+      "branch": "feature/alongside-survivor-first-027",
+      "sha": "1532d234ed1671e6211f11e6254ec208bdafeb25"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-network-weaving-001",
-      "sha": "c4a1506bc0bfe3931eda52815cb171e4c2792c5f"
+      "branch": "feature/ask-jarvis-graft-bridge-011",
+      "sha": "c659a4d84b449862ca0a6c8d7207ba351e7f4cce"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-network-weaving-002-circulation",
-      "sha": "e8e83e0daea39270a50272e22dc3f742daeddfdc"
+      "branch": "feature/ask-jarvis-public-commons-010",
+      "sha": "bd4c2552fe99fe8f1822a4ef789b55fe99d34f0b"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-question-table-bridge-001",
-      "sha": "a71844086026842bfb61ab16f250268eef96b03a"
+      "branch": "feature/jarvis-adaptive-answer-016",
+      "sha": "0aaf571c7f6a48fb850a7a94ff7a61ce41b54beb"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-real-worldz-001-river-gate",
-      "sha": "302d44a4c1f2916c3840a83609f864a5efebb768"
+      "branch": "feature/jarvis-campfire-right-to-try-022",
+      "sha": "6cdd93e993063297e1d2619a304e0a4a910efa7e"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-seventh-table-001",
-      "sha": "3c07b67a0010e85153d77a1968321bb712376bf1"
+      "branch": "feature/jarvis-cloudflare-modal-canary-019",
+      "sha": "b83889b0ccd72fc9012855f362e060497d1b8c20"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-seventh-table-live-002",
-      "sha": "5e14fe8e9a56e9847c7ff29d8599f888a63f51c9"
+      "branch": "feature/jarvis-community-brain-029",
+      "sha": "f01e5c1545e8fb16ec082988fcff20b2e678303e"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-switchboard-001",
-      "sha": "68503f27e08c5d2f80632f5cc80f52dcbefc67b9"
+      "branch": "feature/jarvis-discovery-011",
+      "sha": "ca091767eeadec477c2693ac017648da7cf482de"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-table-live-bridge-001",
-      "sha": "853432ac1b122e16ee699a3934d98b5f1118f857"
+      "branch": "feature/jarvis-field-return-013",
+      "sha": "86747338276caf8f96450d125e0f9b013483ccd4"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-town-freegraph-010",
-      "sha": "63f5958a2327e3db418db15c928ddda1b84843d0"
+      "branch": "feature/jarvis-ignition-012",
+      "sha": "27a300addb5387e83da7eb8d4d1cf98fc5ebad8d"
     },
     {
       "repository": "webZ",
-      "branch": "feature/ask-jarvis-curiosity-005",
-      "sha": "456a8ebad707da6b5911c312c542bd9ca973210a"
+      "branch": "feature/jarvis-launch-guard-017",
+      "sha": "fc03ec4b71e277a28f56bc716e7fd2d520ad362c"
     },
     {
       "repository": "webZ",
-      "branch": "feature/ask-jarvis-field-witness-009",
-      "sha": "5e872ff032eafccd4e27152dcd401fa6a4c48db9"
+      "branch": "feature/jarvis-magic-lego-014",
+      "sha": "6ee3e45131d0f1d02c0a74a2661f7cbaa4347eb9"
     },
     {
       "repository": "webZ",
-      "branch": "feature/ask-jarvis-free-compute-007",
-      "sha": "85143a908b999f9544b2436f7643c3fbcc67cd59"
+      "branch": "feature/jarvis-opportunity-board-024",
+      "sha": "31b194d1b8f22fd978eeeda1a744dba63962d7fe"
     },
     {
       "repository": "webZ",
-      "branch": "feature/ask-jarvis-investigator-006",
-      "sha": "d26c5b8b6325db1c957bdaf654a76969e1c2f145"
+      "branch": "feature/jarvis-shared-supabase-quota-018",
+      "sha": "330373c58285141066d96c146c5e09d054978737"
     },
     {
       "repository": "webZ",
-      "branch": "feature/ask-jarvis-missing-ingredient-council-008",
-      "sha": "5a7ab0bfb3fa5a6794099d6d11c38190dbff0d46"
+      "branch": "feature/jarvis-steward-seeds-021",
+      "sha": "0e4c42fdb5cbbb5537ae5c32b687beeee694687a"
     },
     {
       "repository": "webZ",
-      "branch": "feature/ask-jarvis-native-009",
-      "sha": "57d19a96cc669e3e356cd3da3f94ce84a0bd543f"
+      "branch": "feature/jarvis-unified-intelligence-015",
+      "sha": "6bb25e5d293f41b27d42e6cd9c9ddded3ffff570"
     },
     {
       "repository": "webZ",
-      "branch": "feature/ask-jarvis-relay-007",
-      "sha": "85525c47f53dabb72f1aa670ea1027b7239e1aea"
+      "branch": "feature/still-here-blackstar-relay-026",
+      "sha": "368bfb572aca865422277438b62df4d85a08194d"
     },
     {
       "repository": "webZ",
-      "branch": "feature/ask-jarvis-triad-008",
-      "sha": "c6c5e4bf1f4747aa35f0291f34063c3eec83592a"
+      "branch": "feature/still-here-campfire-028",
+      "sha": "c761d3b40e77f1181dd31177672dfd6f201dff98"
     },
     {
       "repository": "webZ",
-      "branch": "feature/heartbeat-002-first-real-crossing",
-      "sha": "eb5128cab46b666febd27056d9cb893a610d7fc4"
+      "branch": "feature/still-here-first-door-025",
+      "sha": "6d9a01f460e217c20b399333f8c381a875ff377e"
     },
     {
       "repository": "webZ",
-      "branch": "feature/missing-ingredient-field-001",
-      "sha": "fcb78be842eea74667370f0351c77bf3f4dba922"
+      "branch": "feature/still-here-survivor-open-seats-028",
+      "sha": "589d2ccf2b16fe39a51d04e8de163dbb729a3c68"
     },
     {
       "repository": "webZ",
-      "branch": "feature/msyou-energy-commons-abundent-001",
-      "sha": "43dc1c33dae4c536a7013af01b6e72650a30075a"
+      "branch": "feature/workboard-actionable-memory-026",
+      "sha": "86ecee8607f1e273333e8369bde046ec1e1214d8"
     },
     {
       "repository": "webZ",
-      "branch": "field/garden-network-atlas-20261024",
-      "sha": "6921fbc9c198d9e6287e9be6c23b822cb0cda8a3"
-    },
-    {
-      "repository": "webZ",
-      "branch": "release/heartbeat-002-first-crossing",
-      "sha": "772261ace87d2217af50c7c26e2c0b2de9381a40"
+      "branch": "feature/workboard-open-seats-027",
+      "sha": "07589ecda39d50a78f71332552311e30a5a1269e"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
       "repository": "GRAFT",
-      "branch": "graft/black-star",
-      "from_sha": "bd5d6cbd2919cf001f7377702be174a797d4d685",
-      "to_sha": "08f42f769f9590d78b85c8d84358e1791d5bd318"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/MEMENTO",
-      "from_sha": "62fe11eec0b39e8ec50c87d4af7f9ed2d162b7b6",
-      "to_sha": "22a5714f25c7be59bac37b3ab691c28c1f036845"
+      "branch": "graft/free-graph-reconstruction-001",
+      "from_sha": "87db43b9bd818696728976e9baea44c96d5816fb",
+      "to_sha": "f88ab117a140788e7bd6ced8039d1d9fc5bf8206"
     },
     {
       "repository": "GRAFT",
       "branch": "main",
-      "from_sha": "5043bbe4a2a54d5007071c75a5bd265e5864fd14",
-      "to_sha": "0afd126eb871487ad780f3f31d2224b674a4601c"
+      "from_sha": "0afd126eb871487ad780f3f31d2224b674a4601c",
+      "to_sha": "265fd538266a742d033ba2f5b408a78610d0a75c"
     },
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "0a4f87938b9237ad439d9e58c3aecb276429a34d",
-      "to_sha": "35b3843c13ab1994efc913724b1db08ce79bdeed"
+      "from_sha": "35b3843c13ab1994efc913724b1db08ce79bdeed",
+      "to_sha": "57eb58d3b4d8256ccbfaf1c9b733f1ae0e154634"
+    },
+    {
+      "repository": "webZ",
+      "branch": "field/garden-network-atlas-20261024",
+      "from_sha": "6921fbc9c198d9e6287e9be6c23b822cb0cda8a3",
+      "to_sha": "3996c13fd5681bb6f48c01a3a7cdcfe9f244343e"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "2836c1735dfeb49350cd50069693be213fb2c6f5",
-      "to_sha": "b63050f14c5b8455407481ca7fd5ecd21e028ce3"
+      "from_sha": "b63050f14c5b8455407481ca7fd5ecd21e028ce3",
+      "to_sha": "31f941587a18df1040d2b251362883a0ad723e12"
     }
   ],
   "opened_prs": [
     {
-      "repository": "GrO",
-      "number": 30,
-      "title": "Sibley Park Stewardship 001 — whole-park GrO × Full Measure field porch",
-      "url": "https://github.com/the-static-collective/GrO/pull/30",
-      "head_branch": "feat/sibley-stewardship-locality-001",
+      "repository": "BananaSpork",
+      "number": 19,
+      "title": "FIELD-SPECIMEN-002: three-person Campfire trial with honest independent-witness boundaries",
+      "url": "https://github.com/the-static-collective/BananaSpork/pull/19",
+      "head_branch": "feat/field-specimen-independent-proof-002",
       "base_branch": "main"
     },
     {
-      "repository": "GrO",
-      "number": 31,
-      "title": "Sibley LIVE Relay 002 — whole-park quests, consentful sharing and witness gates",
-      "url": "https://github.com/the-static-collective/GrO/pull/31",
-      "head_branch": "feat/sibley-live-relay-002",
-      "base_branch": "feat/sibley-stewardship-locality-001"
+      "repository": "BananaSpork",
+      "number": 20,
+      "title": "CAMPFIRE BACKEND 001 — stop looking for backends: ship our own SQLite engine",
+      "url": "https://github.com/the-static-collective/BananaSpork/pull/20",
+      "head_branch": "feat/campfire-selfhost-backend-001",
+      "base_branch": "feat/field-specimen-independent-proof-002"
     },
     {
-      "repository": "Jubilee-treasury",
-      "number": 26,
-      "title": "PENNY reserve 001 — stewardship proceeds without fictitious backing",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/26",
-      "head_branch": "proposal/penny-stewardship-reserve-001",
+      "repository": "GRAFT",
+      "number": 1,
+      "title": "GRAFT-COMMONS-001 — reviewed public source feed + automatic review queue",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/1",
+      "head_branch": "feature/commons-approved-feed-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "GRAFT",
+      "number": 2,
+      "title": "Jubilee × BananaGram × Forest View — portable questions, honest returns, voluntary next tables",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/2",
+      "head_branch": "graft/jubilee-banana-reentry-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "GRAFT",
+      "number": 3,
+      "title": "HYPERCROSS-001 · one real 13-checkout native chain to signed HOLD and printable return",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/3",
+      "head_branch": "graft/hypercross-001",
+      "base_branch": "graft/jarvis-live-research-work-002"
+    },
+    {
+      "repository": "GRAFT",
+      "number": 4,
+      "title": "HYPERCROSS-002 · original experimental RELAY + Radio House, actual prior-artifact return",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/4",
+      "head_branch": "graft/hypercross-experimental-002",
+      "base_branch": "graft/hypercross-001"
+    },
+    {
+      "repository": "GRAFT",
+      "number": 5,
+      "title": "HYPERCROSS-003 · signed Radio House return → native JAR;VIS gap → held human open call",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/5",
+      "head_branch": "graft/hypercross-return-to-ask-003",
+      "base_branch": "graft/hypercross-experimental-002"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 9,
+      "title": "COMMUNITY-BRAIN-006 · Still Here × human open seats in JAR;VIS",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/9",
+      "head_branch": "feature/community-brain-open-seats-006",
+      "base_branch": "main"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 10,
+      "title": "FIRST YES 001 · JAR;VIS reads our private Firebox and produces one real, unsent work card",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/10",
+      "head_branch": "feat/campfire-first-yes-gateway-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "lemonPRESS",
+      "number": 55,
+      "title": "Experiment: Other People's Fire PRESS 000 — one song through six gears",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/55",
+      "head_branch": "experiment/opf-press-000-rosemary-bloom",
+      "base_branch": "press/digital"
+    },
+    {
+      "repository": "webZ",
+      "number": 109,
+      "title": "DISCOVERY-011 — Mission-aware JAR;VIS orientation, bounded external research and reviewed Free Graph context",
+      "url": "https://github.com/the-static-collective/webZ/pull/109",
+      "head_branch": "feature/jarvis-discovery-011",
+      "base_branch": "feature/abundent-town-freegraph-010"
+    },
+    {
+      "repository": "webZ",
+      "number": 110,
+      "title": "IGNITION-012 — JAR;VIS turns questions into printable 24-hour field kits",
+      "url": "https://github.com/the-static-collective/webZ/pull/110",
+      "head_branch": "feature/jarvis-ignition-012",
+      "base_branch": "feature/jarvis-discovery-011"
+    },
+    {
+      "repository": "webZ",
+      "number": 111,
+      "title": "COMMONS-010: always-on public knowledge for every JAR question",
+      "url": "https://github.com/the-static-collective/webZ/pull/111",
+      "head_branch": "feature/ask-jarvis-public-commons-010",
+      "base_branch": "feature/ask-jarvis-field-witness-009"
+    },
+    {
+      "repository": "webZ",
+      "number": 112,
+      "title": "FIELD-RETURN-013 — Honest returns become Free Graph candidates and next-action cards",
+      "url": "https://github.com/the-static-collective/webZ/pull/112",
+      "head_branch": "feature/jarvis-field-return-013",
+      "base_branch": "feature/jarvis-ignition-012"
+    },
+    {
+      "repository": "webZ",
+      "number": 113,
+      "title": "MAGIC LEGO 014 — Question-first JAR;VIS and contextual workshop",
+      "url": "https://github.com/the-static-collective/webZ/pull/113",
+      "head_branch": "feature/jarvis-magic-lego-014",
+      "base_branch": "feature/jarvis-field-return-013"
+    },
+    {
+      "repository": "webZ",
+      "number": 114,
+      "title": "GRAFT-BRIDGE-011 — live public-source feed into every JAR question and Council",
+      "url": "https://github.com/the-static-collective/webZ/pull/114",
+      "head_branch": "feature/ask-jarvis-graft-bridge-011",
+      "base_branch": "feature/ask-jarvis-public-commons-010"
+    },
+    {
+      "repository": "webZ",
+      "number": 115,
+      "title": "UNIFIED-015 — one question-first JAR with Commons, GRAFT and Council",
+      "url": "https://github.com/the-static-collective/webZ/pull/115",
+      "head_branch": "feature/jarvis-unified-intelligence-015",
+      "base_branch": "feature/jarvis-magic-lego-014"
+    },
+    {
+      "repository": "webZ",
+      "number": 116,
+      "title": "ADAPTIVE-016 — question-first answer reasoning and usable drafts",
+      "url": "https://github.com/the-static-collective/webZ/pull/116",
+      "head_branch": "feature/jarvis-adaptive-answer-016",
+      "base_branch": "feature/jarvis-unified-intelligence-015"
+    },
+    {
+      "repository": "webZ",
+      "number": 117,
+      "title": "LAUNCH-GUARD-017 — atomic quotas, fail-closed model paths and community answer field test",
+      "url": "https://github.com/the-static-collective/webZ/pull/117",
+      "head_branch": "feature/jarvis-launch-guard-017",
+      "base_branch": "feature/jarvis-adaptive-answer-016"
+    },
+    {
+      "repository": "webZ",
+      "number": 118,
+      "title": "QUOTA-018 — connect live Supabase quota DB; clarify Cloudflare DNS vs Vercel origin",
+      "url": "https://github.com/the-static-collective/webZ/pull/118",
+      "head_branch": "feature/jarvis-shared-supabase-quota-018",
+      "base_branch": "feature/jarvis-launch-guard-017"
+    },
+    {
+      "repository": "webZ",
+      "number": 119,
+      "title": "EDGE-019 — Cloudflare + Modal isolated compute canary, authenticated and usage-guarded",
+      "url": "https://github.com/the-static-collective/webZ/pull/119",
+      "head_branch": "feature/jarvis-cloudflare-modal-canary-019",
+      "base_branch": "feature/jarvis-shared-supabase-quota-018"
+    },
+    {
+      "repository": "webZ",
+      "number": 120,
+      "title": "Garden Signal 001 — account-free community listening pilot",
+      "url": "https://github.com/the-static-collective/webZ/pull/120",
+      "head_branch": "feat/garden-signal-001",
       "base_branch": "main"
     },
     {
       "repository": "webZ",
-      "number": 80,
-      "title": "ABUNDENT GATHER 001 — live Next Table × Garden Commons public front door",
-      "url": "https://github.com/the-static-collective/webZ/pull/80",
-      "head_branch": "feature/abundent-table-live-bridge-001",
-      "base_branch": "feature/reality2-question-key-town-002"
-    },
-    {
-      "repository": "webZ",
-      "number": 81,
-      "title": "JAR;VIS 003 — live useful returns and Harmony Park field-plan door",
-      "url": "https://github.com/the-static-collective/webZ/pull/81",
-      "head_branch": "feature/abundent-jarvis-useful-returns-live-003",
-      "base_branch": "feature/abundent-table-live-bridge-001"
-    },
-    {
-      "repository": "webZ",
-      "number": 82,
-      "title": "JAR;VIS CAFÉ 004 — pass the question, keep the consent",
-      "url": "https://github.com/the-static-collective/webZ/pull/82",
-      "head_branch": "feature/abundent-jarvis-cafe-mode-004",
-      "base_branch": "feature/abundent-jarvis-useful-returns-live-003"
-    },
-    {
-      "repository": "webZ",
-      "number": 83,
-      "title": "THE SEVENTH TABLE — seven-day invitation chain for Abundent",
-      "url": "https://github.com/the-static-collective/webZ/pull/83",
-      "head_branch": "feature/abundent-seventh-table-001",
-      "base_branch": "feature/abundent-jarvis-cafe-mode-004"
-    },
-    {
-      "repository": "webZ",
-      "number": 84,
-      "title": "ABUNDENT SWITCHBOARD 001 — one porch, useful doors, printable table card",
-      "url": "https://github.com/the-static-collective/webZ/pull/84",
-      "head_branch": "feature/abundent-switchboard-001",
-      "base_branch": "feature/abundent-seventh-table-001"
-    },
-    {
-      "repository": "webZ",
-      "number": 85,
-      "title": "ABUNDENT 085 — Question → Table: turn a JAR;VIS answer into a human-owned invitation draft",
-      "url": "https://github.com/the-static-collective/webZ/pull/85",
-      "head_branch": "feature/abundent-question-table-bridge-001",
-      "base_branch": "feature/abundent-switchboard-001"
-    },
-    {
-      "repository": "webZ",
-      "number": 86,
-      "title": "ABUNDENT 086 — Closing Circle: witness what happened, consent to the question, pass the table",
-      "url": "https://github.com/the-static-collective/webZ/pull/86",
-      "head_branch": "feature/abundent-gather-witness-pass-001",
-      "base_branch": "feature/abundent-question-table-bridge-001"
-    },
-    {
-      "repository": "webZ",
-      "number": 87,
-      "title": "CONNECT! 001 — turn gathering board into an account-free neighbor map",
-      "url": "https://github.com/the-static-collective/webZ/pull/87",
-      "head_branch": "feature/abundent-connections-board-001",
-      "base_branch": "feature/abundent-question-table-bridge-001"
-    },
-    {
-      "repository": "webZ",
-      "number": 88,
-      "title": "WEAVING GARDEN 001 — connect people, not accounts",
-      "url": "https://github.com/the-static-collective/webZ/pull/88",
-      "head_branch": "feature/abundent-network-weaving-001",
-      "base_branch": "feature/abundent-switchboard-001"
-    },
-    {
-      "repository": "webZ",
-      "number": 89,
-      "title": "THE LIVING CHAIR 002 — live account-free RSVPs and moderated conversation",
-      "url": "https://github.com/the-static-collective/webZ/pull/89",
-      "head_branch": "feature/abundent-seventh-table-live-002",
-      "base_branch": "feature/abundent-seventh-table-001"
-    },
-    {
-      "repository": "webZ",
-      "number": 90,
-      "title": "ABUNDENT 087 — optional live network tables, moderated questions, withdrawal & seven-day lineage",
-      "url": "https://github.com/the-static-collective/webZ/pull/90",
-      "head_branch": "feature/abundent-network-table-003",
-      "base_branch": "feature/abundent-gather-witness-pass-001"
-    },
-    {
-      "repository": "webZ",
-      "number": 91,
-      "title": "WEAVE-002 — one opportunity through native CANNON × Free Graph × planZ",
-      "url": "https://github.com/the-static-collective/webZ/pull/91",
-      "head_branch": "feature/abundent-network-weaving-002-circulation",
-      "base_branch": "feature/abundent-network-weaving-001"
-    },
-    {
-      "repository": "webZ",
-      "number": 92,
-      "title": "ABUNDENT LIVE WEAVE-002 — source-preserving add-on to active Network Table release",
-      "url": "https://github.com/the-static-collective/webZ/pull/92",
-      "head_branch": "feature/abundent-live-weaving-garden-002",
-      "base_branch": "feature/abundent-network-table-003"
-    },
-    {
-      "repository": "webZ",
-      "number": 93,
-      "title": "EARTH-INTAKE-001 — offline environmental data readiness lab (independent demo)",
-      "url": "https://github.com/the-static-collective/webZ/pull/93",
-      "head_branch": "experiment/earth-intake-001-data-readiness-lab",
-      "base_branch": "feature/abundent-live-weaving-garden-002"
-    },
-    {
-      "repository": "webZ",
-      "number": 94,
-      "title": "The Garden / Already Growing — Waseca network atlas and printable node cards",
-      "url": "https://github.com/the-static-collective/webZ/pull/94",
-      "head_branch": "field/garden-network-atlas-20261024",
+      "number": 121,
+      "title": "One Table, Seven Days — two invited neighbors or an ambassador",
+      "url": "https://github.com/the-static-collective/webZ/pull/121",
+      "head_branch": "feat/seven-day-table-ambassadors-001",
       "base_branch": "main"
     },
     {
       "repository": "webZ",
-      "number": 95,
-      "title": "WATERSHED-QUEST-001: playable Full Measure × GrO fictional conservation world",
-      "url": "https://github.com/the-static-collective/webZ/pull/95",
-      "head_branch": "experiment/living-watershed-001-full-measure-gro",
-      "base_branch": "experiment/earth-intake-001-data-readiness-lab"
+      "number": 122,
+      "title": "CASE 002 · Turn the Seven-Day Table invite chain into the mystery-first Milk Bridge engine",
+      "url": "https://github.com/the-static-collective/webZ/pull/122",
+      "head_branch": "feat/tomorrow-milk-bridge-invite-chain-v2",
+      "base_branch": "feat/seven-day-table-ambassadors-001"
     },
     {
       "repository": "webZ",
-      "number": 96,
-      "title": "REAL-WORLDZ-001: source-bound Mankato River Gate, geography × GrO-style invitations",
-      "url": "https://github.com/the-static-collective/webZ/pull/96",
-      "head_branch": "feature/abundent-real-worldz-001-river-gate",
-      "base_branch": "experiment/living-watershed-001-full-measure-gro"
+      "number": 123,
+      "title": "STEWARD-021 — invite interested people to create starter roles instead of waiting for incumbents",
+      "url": "https://github.com/the-static-collective/webZ/pull/123",
+      "head_branch": "feature/jarvis-steward-seeds-021",
+      "base_branch": "feature/jarvis-cloudflare-modal-canary-019"
     },
     {
       "repository": "webZ",
-      "number": 98,
-      "title": "FIELD 001 — The Missing Ingredient: a playable circular for food, neighbors, witness and radio",
-      "url": "https://github.com/the-static-collective/webZ/pull/98",
-      "head_branch": "feature/missing-ingredient-field-001",
-      "base_branch": "main"
+      "number": 124,
+      "title": "CAMPFIRE-022 — let willing neighbors choose their place, try, weave, and return",
+      "url": "https://github.com/the-static-collective/webZ/pull/124",
+      "head_branch": "feature/jarvis-campfire-right-to-try-022",
+      "base_branch": "feature/jarvis-steward-seeds-021"
     },
     {
       "repository": "webZ",
-      "number": 99,
-      "title": "CURIOUS-005 — Ask JAR;VIS learns to connect questions without inventing answers",
-      "url": "https://github.com/the-static-collective/webZ/pull/99",
-      "head_branch": "feature/ask-jarvis-curiosity-005",
-      "base_branch": "feature/abundent-real-worldz-001-river-gate"
+      "number": 125,
+      "title": "AIPPY-023 · SPARKFORK: launch-ready remixable microgame seed connected to Campfire",
+      "url": "https://github.com/the-static-collective/webZ/pull/125",
+      "head_branch": "feature/aippy-sparkfork-023",
+      "base_branch": "feature/jarvis-campfire-right-to-try-022"
     },
     {
       "repository": "webZ",
-      "number": 100,
-      "title": "VIS-006 — opt-in real-model investigator beside JAR's source librarian",
-      "url": "https://github.com/the-static-collective/webZ/pull/100",
-      "head_branch": "feature/ask-jarvis-investigator-006",
-      "base_branch": "feature/ask-jarvis-curiosity-005"
+      "number": 126,
+      "title": "WORKBOARD-025 · persistent, consent-first community conversation history",
+      "url": "https://github.com/the-static-collective/webZ/pull/126",
+      "head_branch": "feature/jarvis-opportunity-board-024",
+      "base_branch": "feature/jarvis-campfire-right-to-try-022"
     },
     {
       "repository": "webZ",
-      "number": 101,
-      "title": "HEARTBEAT-002: live need × offer round trip via Seventh Table",
-      "url": "https://github.com/the-static-collective/webZ/pull/101",
-      "head_branch": "feature/heartbeat-002-first-real-crossing",
-      "base_branch": "feature/ask-jarvis-investigator-006"
+      "number": 127,
+      "title": "BananaGram Pocket → Seven-Day Table: one reviewed question, no inherited authority",
+      "url": "https://github.com/the-static-collective/webZ/pull/127",
+      "head_branch": "feat/banana-pocket-seat-return-001",
+      "base_branch": "feat/tomorrow-milk-bridge-invite-chain-v2"
     },
     {
       "repository": "webZ",
-      "number": 102,
-      "title": "FREE-COMPUTE-007 — route protected VIS through real free AI providers",
-      "url": "https://github.com/the-static-collective/webZ/pull/102",
-      "head_branch": "feature/ask-jarvis-free-compute-007",
-      "base_branch": "feature/ask-jarvis-investigator-006"
+      "number": 128,
+      "title": "MEMORY-026 · Reviewed community conversations become source-bound next actions",
+      "url": "https://github.com/the-static-collective/webZ/pull/128",
+      "head_branch": "feature/workboard-actionable-memory-026",
+      "base_branch": "feature/jarvis-opportunity-board-024"
     },
     {
       "repository": "webZ",
-      "number": 103,
-      "title": "RELAY-007 — Distinguish a question passed from an unsigned AI investigation shared",
-      "url": "https://github.com/the-static-collective/webZ/pull/103",
-      "head_branch": "feature/ask-jarvis-relay-007",
-      "base_branch": "feature/ask-jarvis-investigator-006"
+      "number": 129,
+      "title": "OPEN-SEATS-027 · Every bottleneck becomes a voluntary recruitment doorway",
+      "url": "https://github.com/the-static-collective/webZ/pull/129",
+      "head_branch": "feature/workboard-open-seats-027",
+      "base_branch": "feature/workboard-actionable-memory-026"
     },
     {
       "repository": "webZ",
-      "number": 104,
-      "title": "TRIAD-008 — Read-only ALEX × 3rdi × LOADOUT lens for JAR;VIS / Nemotron",
-      "url": "https://github.com/the-static-collective/webZ/pull/104",
-      "head_branch": "feature/ask-jarvis-triad-008",
-      "base_branch": "feature/ask-jarvis-relay-007"
+      "number": 130,
+      "title": "STILL-HERE-025 · A private first door for isolated parents",
+      "url": "https://github.com/the-static-collective/webZ/pull/130",
+      "head_branch": "feature/still-here-first-door-025",
+      "base_branch": "feature/jarvis-opportunity-board-024"
     },
     {
       "repository": "webZ",
-      "number": 105,
-      "title": "COUNCIL-008: Missing Ingredient Council",
-      "url": "https://github.com/the-static-collective/webZ/pull/105",
-      "head_branch": "feature/ask-jarvis-missing-ingredient-council-008",
-      "base_branch": "feature/ask-jarvis-free-compute-007"
+      "number": 131,
+      "title": "STILL-HERE-026 · Original Black Star via GRAFT + voluntary help relay",
+      "url": "https://github.com/the-static-collective/webZ/pull/131",
+      "head_branch": "feature/still-here-blackstar-relay-026",
+      "base_branch": "feature/still-here-first-door-025"
     },
     {
       "repository": "webZ",
-      "number": 106,
-      "title": "NATIVE-009 — Execute real pinned ALEX, 3rdi & LOADOUT kernels behind preview-only JAR;VIS gate",
-      "url": "https://github.com/the-static-collective/webZ/pull/106",
-      "head_branch": "feature/ask-jarvis-native-009",
-      "base_branch": "feature/ask-jarvis-triad-008"
+      "number": 132,
+      "title": "STILL-HERE-027 · Survivor-first Abundent door, no crisis hotline routing",
+      "url": "https://github.com/the-static-collective/webZ/pull/132",
+      "head_branch": "feature/alongside-survivor-first-027",
+      "base_branch": "feature/still-here-blackstar-relay-026"
     },
     {
       "repository": "webZ",
-      "number": 107,
-      "title": "TOWN-010 — Waseca Abundent Town Desk powered by actual Free Graph v0 and private inquiry review",
-      "url": "https://github.com/the-static-collective/webZ/pull/107",
-      "head_branch": "feature/abundent-town-freegraph-010",
-      "base_branch": "feature/ask-jarvis-native-009"
+      "number": 133,
+      "title": "STILL-HERE-028 · Survivor-first support doors and safe open-seat recruitment",
+      "url": "https://github.com/the-static-collective/webZ/pull/133",
+      "head_branch": "feature/still-here-survivor-open-seats-028",
+      "base_branch": "feature/workboard-open-seats-027"
     },
     {
       "repository": "webZ",
-      "number": 108,
-      "title": "FIELD-WITNESS-009: grounded ecosystem notes for Council",
-      "url": "https://github.com/the-static-collective/webZ/pull/108",
-      "head_branch": "feature/ask-jarvis-field-witness-009",
-      "base_branch": "feature/ask-jarvis-missing-ingredient-council-008"
+      "number": 134,
+      "title": "STILL-HERE-028 · Survivor Stewardship Campfire: the right to try",
+      "url": "https://github.com/the-static-collective/webZ/pull/134",
+      "head_branch": "feature/still-here-campfire-028",
+      "base_branch": "feature/alongside-survivor-first-027"
+    },
+    {
+      "repository": "webZ",
+      "number": 135,
+      "title": "JAR-BRAIN-029 · Make Still Here and missing helpers retrievable in Ask JAR;VIS",
+      "url": "https://github.com/the-static-collective/webZ/pull/135",
+      "head_branch": "feature/jarvis-community-brain-029",
+      "base_branch": "feature/still-here-survivor-open-seats-028"
+    },
+    {
+      "repository": "webZ",
+      "number": 136,
+      "title": "FIRST-YES-030 · A safe, actual public Abundent doorway from question to usable work card",
+      "url": "https://github.com/the-static-collective/webZ/pull/136",
+      "head_branch": "feature/abundent-public-first-yes-030",
+      "base_branch": "feature/jarvis-community-brain-029"
     }
   ],
   "left_open_prs": []

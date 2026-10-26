@@ -59,12 +59,14 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/BananaSpork) · [Branches](https://github.com/the-static-collective/BananaSpork/branches) · [Pull requests](https://github.com/the-static-collective/BananaSpork/pulls)
 
-Default: `main` · other refs: 12 · open PRs: 3
+Default: `main` · other refs: 14 · open PRs: 5
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#20](https://github.com/the-static-collective/BananaSpork/pull/20) | CAMPFIRE BACKEND 001 — stop looking for backends: ship our own SQLite engine | `feat/campfire-selfhost-backend-001` → `feat/field-specimen-independent-proof-002` | 2026-10-26 |
+| [#19](https://github.com/the-static-collective/BananaSpork/pull/19) | FIELD-SPECIMEN-002: three-person Campfire trial with honest independent-witness boundaries | `feat/field-specimen-independent-proof-002` → `main` | 2026-10-26 |
 | [#18](https://github.com/the-static-collective/BananaSpork/pull/18) | CIRCULATION-002: native Garden receiver for source-bound two-door planZ invitations | `experiment/circulation-002-native-garden-receiver` → `feat/penny-box-help-slip-bridge-001` | 2026-10-22 |
 | [#16](https://github.com/the-static-collective/BananaSpork/pull/16) | PENNY BOX -&gt; Garden: bounded candidate-to-HOLD bridge (001) | `feat/penny-box-help-slip-bridge-001` → `main` | 2026-10-22 |
 | [#5](https://github.com/the-static-collective/BananaSpork/pull/5) | Crater: shared Campfire conversation plane contract | `crater/shared-conversation-gateway-001` → `main` | 2026-09-17 |
@@ -81,6 +83,8 @@ Default: `main` · other refs: 12 · open PRs: 3
 | [feat/1201-door-001](https://github.com/the-static-collective/BananaSpork/tree/feat/1201-door-001) | [22e283460d](https://github.com/the-static-collective/BananaSpork/commit/22e283460d61bbb6a46fa657899affadaaa04484) | Retained ref; disposition unverified |
 | [feat/banana-relay-001](https://github.com/the-static-collective/BananaSpork/tree/feat/banana-relay-001) | [36c3d3cc50](https://github.com/the-static-collective/BananaSpork/commit/36c3d3cc502b5d43bc9287b361d993b152837f6d) | Retained ref; disposition unverified |
 | [feat/campfire-conversation-field-proof-001](https://github.com/the-static-collective/BananaSpork/tree/feat/campfire-conversation-field-proof-001) | [e9c6adb3bd](https://github.com/the-static-collective/BananaSpork/commit/e9c6adb3bda9f24be71c749dc973dc5809f69111) | Retained ref; disposition unverified |
+| [feat/campfire-selfhost-backend-001](https://github.com/the-static-collective/BananaSpork/tree/feat/campfire-selfhost-backend-001) | [b8c41390da](https://github.com/the-static-collective/BananaSpork/commit/b8c41390da3f35997d329354a467e807f603f0da) | [open PR #20](https://github.com/the-static-collective/BananaSpork/pull/20) |
+| [feat/field-specimen-independent-proof-002](https://github.com/the-static-collective/BananaSpork/tree/feat/field-specimen-independent-proof-002) | [850bada901](https://github.com/the-static-collective/BananaSpork/commit/850bada901a50e18b9aa7331d00c0557fa94add2) | [open PR #19](https://github.com/the-static-collective/BananaSpork/pull/19) |
 | [feat/help-slip-garden-adapter-001](https://github.com/the-static-collective/BananaSpork/tree/feat/help-slip-garden-adapter-001) | [e16407f68b](https://github.com/the-static-collective/BananaSpork/commit/e16407f68b5fc7e4286dcfc540a0170dc13457f6) | Retained ref; disposition unverified |
 | [feat/penny-box-help-slip-bridge-001](https://github.com/the-static-collective/BananaSpork/tree/feat/penny-box-help-slip-bridge-001) | [8a21fd9f86](https://github.com/the-static-collective/BananaSpork/commit/8a21fd9f864adb2f05143d96279eeb58c8445730) | [open PR #16](https://github.com/the-static-collective/BananaSpork/pull/16) |
 | [feat/return-of-help-slip-001](https://github.com/the-static-collective/BananaSpork/tree/feat/return-of-help-slip-001) | [fa759384ce](https://github.com/the-static-collective/BananaSpork/commit/fa759384ceaf13fbfdec11dc2f9de025c4bf2615) | Retained ref; disposition unverified |
