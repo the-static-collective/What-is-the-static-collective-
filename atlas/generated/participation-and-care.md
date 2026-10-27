@@ -59,12 +59,15 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/BananaSpork) · [Branches](https://github.com/the-static-collective/BananaSpork/branches) · [Pull requests](https://github.com/the-static-collective/BananaSpork/pulls)
 
-Default: `main` · other refs: 14 · open PRs: 5
+Default: `main` · other refs: 20 · open PRs: 8
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#23](https://github.com/the-static-collective/BananaSpork/pull/23) | FIRST CHAIR 001 — Lu volunteers as first steward; independent second chair remains open | `feat/first-chair-001` → `feat/watch-the-watchmen-001` | 2026-10-26 |
+| [#22](https://github.com/the-static-collective/BananaSpork/pull/22) | WATCH-THE-WATCHMEN-001 · process concern receipts and no-self-certification gate | `feat/watch-the-watchmen-001` → `feat/inheritance-interrupt-001` | 2026-10-26 |
+| [#21](https://github.com/the-static-collective/BananaSpork/pull/21) | INHERITANCE-INTERRUPT-001 — voluntary capacity seed without beneficiary debt | `feat/inheritance-interrupt-001` → `feat/campfire-selfhost-backend-001` | 2026-10-26 |
 | [#20](https://github.com/the-static-collective/BananaSpork/pull/20) | CAMPFIRE BACKEND 001 — stop looking for backends: ship our own SQLite engine | `feat/campfire-selfhost-backend-001` → `feat/field-specimen-independent-proof-002` | 2026-10-26 |
 | [#19](https://github.com/the-static-collective/BananaSpork/pull/19) | FIELD-SPECIMEN-002: three-person Campfire trial with honest independent-witness boundaries | `feat/field-specimen-independent-proof-002` → `main` | 2026-10-26 |
 | [#18](https://github.com/the-static-collective/BananaSpork/pull/18) | CIRCULATION-002: native Garden receiver for source-bound two-door planZ invitations | `experiment/circulation-002-native-garden-receiver` → `feat/penny-box-help-slip-bridge-001` | 2026-10-22 |
@@ -85,10 +88,16 @@ Default: `main` · other refs: 14 · open PRs: 5
 | [feat/campfire-conversation-field-proof-001](https://github.com/the-static-collective/BananaSpork/tree/feat/campfire-conversation-field-proof-001) | [e9c6adb3bd](https://github.com/the-static-collective/BananaSpork/commit/e9c6adb3bda9f24be71c749dc973dc5809f69111) | Retained ref; disposition unverified |
 | [feat/campfire-selfhost-backend-001](https://github.com/the-static-collective/BananaSpork/tree/feat/campfire-selfhost-backend-001) | [b8c41390da](https://github.com/the-static-collective/BananaSpork/commit/b8c41390da3f35997d329354a467e807f603f0da) | [open PR #20](https://github.com/the-static-collective/BananaSpork/pull/20) |
 | [feat/field-specimen-independent-proof-002](https://github.com/the-static-collective/BananaSpork/tree/feat/field-specimen-independent-proof-002) | [850bada901](https://github.com/the-static-collective/BananaSpork/commit/850bada901a50e18b9aa7331d00c0557fa94add2) | [open PR #19](https://github.com/the-static-collective/BananaSpork/pull/19) |
+| [feat/first-chair-001](https://github.com/the-static-collective/BananaSpork/tree/feat/first-chair-001) | [35f618169c](https://github.com/the-static-collective/BananaSpork/commit/35f618169c4014cc60ccda7d40e5208ee2e629bf) | [open PR #23](https://github.com/the-static-collective/BananaSpork/pull/23) |
 | [feat/help-slip-garden-adapter-001](https://github.com/the-static-collective/BananaSpork/tree/feat/help-slip-garden-adapter-001) | [e16407f68b](https://github.com/the-static-collective/BananaSpork/commit/e16407f68b5fc7e4286dcfc540a0170dc13457f6) | Retained ref; disposition unverified |
+| [feat/inheritance-interrupt-001](https://github.com/the-static-collective/BananaSpork/tree/feat/inheritance-interrupt-001) | [c0b0dc5145](https://github.com/the-static-collective/BananaSpork/commit/c0b0dc514542fd2367c4bef9eaeeebe49d9a7257) | [open PR #21](https://github.com/the-static-collective/BananaSpork/pull/21) |
 | [feat/penny-box-help-slip-bridge-001](https://github.com/the-static-collective/BananaSpork/tree/feat/penny-box-help-slip-bridge-001) | [8a21fd9f86](https://github.com/the-static-collective/BananaSpork/commit/8a21fd9f864adb2f05143d96279eeb58c8445730) | [open PR #16](https://github.com/the-static-collective/BananaSpork/pull/16) |
 | [feat/return-of-help-slip-001](https://github.com/the-static-collective/BananaSpork/tree/feat/return-of-help-slip-001) | [fa759384ce](https://github.com/the-static-collective/BananaSpork/commit/fa759384ceaf13fbfdec11dc2f9de025c4bf2615) | Retained ref; disposition unverified |
+| [feat/watch-the-watchmen-001](https://github.com/the-static-collective/BananaSpork/tree/feat/watch-the-watchmen-001) | [e0d23bbb0c](https://github.com/the-static-collective/BananaSpork/commit/e0d23bbb0cce5fcf80a8337d5cfc4b0da805b575) | [open PR #22](https://github.com/the-static-collective/BananaSpork/pull/22) |
+| [fix/porchlight-deployed-content](https://github.com/the-static-collective/BananaSpork/tree/fix/porchlight-deployed-content) | [ee76017128](https://github.com/the-static-collective/BananaSpork/commit/ee76017128c9dc535567d57f4433efc5c0eba5ac) | Retained ref; disposition unverified |
+| [fix/porchlight-route-anchors](https://github.com/the-static-collective/BananaSpork/tree/fix/porchlight-route-anchors) | [bfd7b202a8](https://github.com/the-static-collective/BananaSpork/commit/bfd7b202a8c66a71783df3cd3d293daa75ccd73d) | Retained ref; disposition unverified |
 | [nourish-kids-book-packets](https://github.com/the-static-collective/BananaSpork/tree/nourish-kids-book-packets) | [963bf6402e](https://github.com/the-static-collective/BananaSpork/commit/963bf6402e25c8c1dc08da9142cf746ed817f084) | Retained ref; disposition unverified |
+| [pilot/porchlight-001-national-field](https://github.com/the-static-collective/BananaSpork/tree/pilot/porchlight-001-national-field) | [53efccddc5](https://github.com/the-static-collective/BananaSpork/commit/53efccddc5a38753267c8ab31886397890936af7) | Retained ref; disposition unverified |
 
 ## Nourish-Kids
 
@@ -115,12 +124,13 @@ Default: `main` · other refs: 4 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/full-measure-world-layer) · [Branches](https://github.com/the-static-collective/full-measure-world-layer/branches) · [Pull requests](https://github.com/the-static-collective/full-measure-world-layer/pulls)
 
-Default: `main` · other refs: 33 · open PRs: 17
+Default: `main` · other refs: 34 · open PRs: 18
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#56](https://github.com/the-static-collective/full-measure-world-layer/pull/56) | STILL HERE × Full Measure — Seven Days of Returning | `practice-room-001` → `main` | 2026-10-26 |
 | [#55](https://github.com/the-static-collective/full-measure-world-layer/pull/55) | POSTAL-CORPS-001: Full Measure receives carrier route proposals without awarding Deeds | `experiment/postal-corps-001-quest-door` → `experiment/field-quest-engine-001` | 2026-10-09 |
 | [#54](https://github.com/the-static-collective/full-measure-world-layer/pull/54) | FIELD QUEST ENGINE-001: physical-test inbox, opt-in Garden quest drafts | `experiment/field-quest-engine-001` → `main` | 2026-10-09 |
 | [#53](https://github.com/the-static-collective/full-measure-world-layer/pull/53) | PLENTY-001 — scarcity inverter proof specimen | `feat/plenty-001-scarcity-inverter` → `main` | 2026-10-07 |
@@ -175,6 +185,7 @@ Default: `main` · other refs: 33 · open PRs: 17
 | [feat/plenty-001-scarcity-inverter](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/plenty-001-scarcity-inverter) | [fa44f99ea8](https://github.com/the-static-collective/full-measure-world-layer/commit/fa44f99ea82137808c248fe0747e599142d5429f) | [open PR #53](https://github.com/the-static-collective/full-measure-world-layer/pull/53) |
 | [feature/grace-001-worldseed](https://github.com/the-static-collective/full-measure-world-layer/tree/feature/grace-001-worldseed) | [b1eb6b7337](https://github.com/the-static-collective/full-measure-world-layer/commit/b1eb6b7337b535709031df50ead728f8b2e382d4) | [open PR #33](https://github.com/the-static-collective/full-measure-world-layer/pull/33) |
 | [navigation-aperture-2026-09-27](https://github.com/the-static-collective/full-measure-world-layer/tree/navigation-aperture-2026-09-27) | [8abbad653a](https://github.com/the-static-collective/full-measure-world-layer/commit/8abbad653a7c9655490783c723aa11d81eeaa343) | Retained ref; disposition unverified |
+| [practice-room-001](https://github.com/the-static-collective/full-measure-world-layer/tree/practice-room-001) | [e88d5b55d5](https://github.com/the-static-collective/full-measure-world-layer/commit/e88d5b55d58fa4cc5c37f01192a5a4ab400680f7) | [open PR #56](https://github.com/the-static-collective/full-measure-world-layer/pull/56) |
 | [spec/plenty-001-scarcity-inverter](https://github.com/the-static-collective/full-measure-world-layer/tree/spec/plenty-001-scarcity-inverter) | [7ef777cf0f](https://github.com/the-static-collective/full-measure-world-layer/commit/7ef777cf0fa31bd8f4da673f83f89d29d9ade45b) | Retained ref; disposition unverified |
 
 ## seedforge

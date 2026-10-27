@@ -1063,8 +1063,16 @@
           "sha": "850bada901a50e18b9aa7331d00c0557fa94add2"
         },
         {
+          "name": "feat/first-chair-001",
+          "sha": "35f618169c4014cc60ccda7d40e5208ee2e629bf"
+        },
+        {
           "name": "feat/help-slip-garden-adapter-001",
           "sha": "e16407f68b5fc7e4286dcfc540a0170dc13457f6"
+        },
+        {
+          "name": "feat/inheritance-interrupt-001",
+          "sha": "c0b0dc514542fd2367c4bef9eaeeebe49d9a7257"
         },
         {
           "name": "feat/penny-box-help-slip-bridge-001",
@@ -1075,15 +1083,61 @@
           "sha": "fa759384ceaf13fbfdec11dc2f9de025c4bf2615"
         },
         {
+          "name": "feat/watch-the-watchmen-001",
+          "sha": "e0d23bbb0cce5fcf80a8337d5cfc4b0da805b575"
+        },
+        {
+          "name": "fix/porchlight-deployed-content",
+          "sha": "ee76017128c9dc535567d57f4433efc5c0eba5ac"
+        },
+        {
+          "name": "fix/porchlight-route-anchors",
+          "sha": "bfd7b202a8c66a71783df3cd3d293daa75ccd73d"
+        },
+        {
           "name": "main",
-          "sha": "6738230a8557060dd59aabc19caf21826806d16f"
+          "sha": "f4c4067b5896eb5eb20a7498f89da38f04731d73"
         },
         {
           "name": "nourish-kids-book-packets",
           "sha": "963bf6402e25c8c1dc08da9142cf746ed817f084"
+        },
+        {
+          "name": "pilot/porchlight-001-national-field",
+          "sha": "53efccddc5a38753267c8ab31886397890936af7"
         }
       ],
       "open_prs": [
+        {
+          "number": 23,
+          "title": "FIRST CHAIR 001 — Lu volunteers as first steward; independent second chair remains open",
+          "head_branch": "feat/first-chair-001",
+          "head_sha": "35f618169c4014cc60ccda7d40e5208ee2e629bf",
+          "head_repo": "the-static-collective/BananaSpork",
+          "base_branch": "feat/watch-the-watchmen-001",
+          "updated_at": "2026-10-26T19:47:40Z",
+          "url": "https://github.com/the-static-collective/BananaSpork/pull/23"
+        },
+        {
+          "number": 22,
+          "title": "WATCH-THE-WATCHMEN-001 · process concern receipts and no-self-certification gate",
+          "head_branch": "feat/watch-the-watchmen-001",
+          "head_sha": "e0d23bbb0cce5fcf80a8337d5cfc4b0da805b575",
+          "head_repo": "the-static-collective/BananaSpork",
+          "base_branch": "feat/inheritance-interrupt-001",
+          "updated_at": "2026-10-26T19:36:56Z",
+          "url": "https://github.com/the-static-collective/BananaSpork/pull/22"
+        },
+        {
+          "number": 21,
+          "title": "INHERITANCE-INTERRUPT-001 — voluntary capacity seed without beneficiary debt",
+          "head_branch": "feat/inheritance-interrupt-001",
+          "head_sha": "c0b0dc514542fd2367c4bef9eaeeebe49d9a7257",
+          "head_repo": "the-static-collective/BananaSpork",
+          "base_branch": "feat/campfire-selfhost-backend-001",
+          "updated_at": "2026-10-26T19:14:27Z",
+          "url": "https://github.com/the-static-collective/BananaSpork/pull/21"
+        },
         {
           "number": 20,
           "title": "CAMPFIRE BACKEND 001 — stop looking for backends: ship our own SQLite engine",
@@ -3629,11 +3683,25 @@
           "sha": "8abbad653a7c9655490783c723aa11d81eeaa343"
         },
         {
+          "name": "practice-room-001",
+          "sha": "e88d5b55d58fa4cc5c37f01192a5a4ab400680f7"
+        },
+        {
           "name": "spec/plenty-001-scarcity-inverter",
           "sha": "7ef777cf0fa31bd8f4da673f83f89d29d9ade45b"
         }
       ],
       "open_prs": [
+        {
+          "number": 56,
+          "title": "STILL HERE × Full Measure — Seven Days of Returning",
+          "head_branch": "practice-room-001",
+          "head_sha": "e88d5b55d58fa4cc5c37f01192a5a4ab400680f7",
+          "head_repo": "the-static-collective/full-measure-world-layer",
+          "base_branch": "main",
+          "updated_at": "2026-10-26T16:49:13Z",
+          "url": "https://github.com/the-static-collective/full-measure-world-layer/pull/56"
+        },
         {
           "number": 55,
           "title": "POSTAL-CORPS-001: Full Measure receives carrier route proposals without awarding Deeds",
@@ -5775,6 +5843,10 @@
           "sha": "bd66b08bf96359d1254127ad0827d742a2fca7e2"
         },
         {
+          "name": "graft/impact-weave-001",
+          "sha": "be6a622fdfc4c5299fd0868eb993bf5cf97440cb"
+        },
+        {
           "name": "graft/jarvis-cannon-planz-001",
           "sha": "73944d911e8fabb600533eb4e6b848b61ca49508"
         },
@@ -5815,11 +5887,35 @@
           "sha": "de94c2dd9ba2f7c7c835c2b13344fd487fb9e029"
         },
         {
+          "name": "graft/weaves-to-weves-001",
+          "sha": "8d442739216af024a20a299cf06073ca90c195ad"
+        },
+        {
           "name": "main",
           "sha": "265fd538266a742d033ba2f5b408a78610d0a75c"
         }
       ],
       "open_prs": [
+        {
+          "number": 9,
+          "title": "HOLD / DO NOT MERGE — WEAVES → WE'VES 001 executable reweaving specimen",
+          "head_branch": "graft/weaves-to-weves-001",
+          "head_sha": "8d442739216af024a20a299cf06073ca90c195ad",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "main",
+          "updated_at": "2026-10-26T19:21:37Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/9"
+        },
+        {
+          "number": 7,
+          "title": "IMPACT-WEAVE-001 · four-door Right Hands cross for optional community stewardship",
+          "head_branch": "graft/impact-weave-001",
+          "head_sha": "be6a622fdfc4c5299fd0868eb993bf5cf97440cb",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "graft/jarvis-live-research-work-002",
+          "updated_at": "2026-10-26T19:13:17Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/7"
+        },
         {
           "number": 5,
           "title": "HYPERCROSS-003 · signed Radio House return → native JAR;VIS gap → held human open call",
@@ -6301,8 +6397,36 @@
       "archived": false,
       "branches": [
         {
+          "name": "experiment/cloud-orchard-001-20261026",
+          "sha": "f41691a180650fcb31efb907d7d5fd477223a89d"
+        },
+        {
+          "name": "feat/backend-006-durable-attention-belt",
+          "sha": "86fa68388abccd164befd14d6919d0e3889faa98"
+        },
+        {
           "name": "feat/campfire-first-yes-gateway-001",
           "sha": "5150ea19d744d339f5657acded7629da10a75146"
+        },
+        {
+          "name": "feat/operator-crosspanel-003",
+          "sha": "a04781f6d5e559cb91b53a92e6766b1afa116dac"
+        },
+        {
+          "name": "feat/reviewer-weave-002",
+          "sha": "aed5d8d808c3d8d432e240bb649dd432b5a54b0a"
+        },
+        {
+          "name": "feat/work-inherits-001",
+          "sha": "a1541436f082df7ae162b9b78f7987e8afc3261b"
+        },
+        {
+          "name": "feature/backend-007-operator-panel-scoped-workers",
+          "sha": "98d80f50ffa976ed1dce69192849202a7bde7ce5"
+        },
+        {
+          "name": "feature/backend008-email-otp-gateway",
+          "sha": "415ef337064aca823bea12edae4ee57b99dd8f30"
         },
         {
           "name": "feature/community-brain-open-seats-006",
@@ -6311,6 +6435,10 @@
         {
           "name": "feature/heartbeat-001-roundtrip",
           "sha": "f06213463f616cddc023ac942ff671ba69096531"
+        },
+        {
+          "name": "feature/post-office-001-field-outreach",
+          "sha": "6d97a0a90e6455962985d5c2a50bd193641a1d91"
         },
         {
           "name": "fix/005-openmanus-venv",
@@ -6341,8 +6469,20 @@
           "sha": "00ec46008d6f5d39bd415f7b85c2f482d9fdbcbc"
         },
         {
+          "name": "integration/reality2-waseca-reviewed-field-001",
+          "sha": "c734e04e7f55abc90edf577536bdb26f3dd710a8"
+        },
+        {
           "name": "main",
-          "sha": "57eb58d3b4d8256ccbfaf1c9b733f1ae0e154634"
+          "sha": "e83ab618a9d0815fbcaeb19b4707030ad0957930"
+        },
+        {
+          "name": "ops/post-office-inbound-proof-outbound-handoff-002",
+          "sha": "d354957e58933b4650295dd1c43aefb4e44183aa"
+        },
+        {
+          "name": "ops/us-at-abundent-forwarding-20261026",
+          "sha": "c5b07f704e7e895064e6fba87f4655bd4e6f8dc1"
         },
         {
           "name": "proof/house-party-005-first-native-run",
@@ -6350,6 +6490,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 21,
+          "title": "Cloud Orchard 001: bounded creative compute nursery, offline gallery, optional Modal fanout",
+          "head_branch": "experiment/cloud-orchard-001-20261026",
+          "head_sha": "f41691a180650fcb31efb907d7d5fd477223a89d",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "main",
+          "updated_at": "2026-10-26T21:30:35Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/21"
+        },
         {
           "number": 10,
           "title": "FIRST YES 001 · JAR;VIS reads our private Firebox and produces one real, unsent work card",
@@ -7013,6 +7163,10 @@
           "sha": "f6f7dc1c82001dabdb5006d3741488d80973c35b"
         },
         {
+          "name": "press/living-rural-dispatch-001",
+          "sha": "ec2599532fa310379eec5ecbad9479512b39fe9c"
+        },
+        {
           "name": "press/physical",
           "sha": "c07c7972e937b7ef443b412869c9cef4915eebf8"
         },
@@ -7086,6 +7240,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 56,
+          "title": "PENNY PRESS 001 — Living Rural Dispatch: independent web/email/print source + local printer bid kit",
+          "head_branch": "press/living-rural-dispatch-001",
+          "head_sha": "ec2599532fa310379eec5ecbad9479512b39fe9c",
+          "head_repo": "the-static-collective/lemonPRESS",
+          "base_branch": "main",
+          "updated_at": "2026-10-26T23:29:19Z",
+          "url": "https://github.com/the-static-collective/lemonPRESS/pull/56"
+        },
         {
           "number": 55,
           "title": "Experiment: Other People's Fire PRESS 000 — one song through six gears",
@@ -9088,6 +9252,10 @@
           "sha": "3679e0ae66477e5c4118357c1f57f73d59c02f66"
         },
         {
+          "name": "feat/commuter-001-correspondence",
+          "sha": "603d138f7ffc858804a0061c8abf7e2d926fafd0"
+        },
+        {
           "name": "feat/customs-house-001",
           "sha": "c0da0629830b92baa4962fb7c3e2f690e623e838"
         },
@@ -9112,6 +9280,14 @@
           "sha": "a2b57126d1aa1daf64c80c1c4d10ae042bc83896"
         },
         {
+          "name": "feat/evidence-transit-001-night-shift",
+          "sha": "97563254e45d2dd13d8966946876b567cfe16f29"
+        },
+        {
+          "name": "feat/farm-post-office-invite-001",
+          "sha": "8a39a066b229e44b2da7f9f7ed56f6cac6772574"
+        },
+        {
           "name": "feat/live-dht-gateway-001",
           "sha": "eb956dcae5a042947a45f588805eaa248bea0ee1"
         },
@@ -9126,6 +9302,14 @@
         {
           "name": "feat/mw-two-world-edge-002",
           "sha": "b7a1f95c4ce38944cbbede72c5c6bc3fa2774235"
+        },
+        {
+          "name": "feat/night-evidence-worker-001",
+          "sha": "d74e04d070c30adda82619747261c0ddcbbb4afd"
+        },
+        {
+          "name": "feat/night-shift-evidence-source-001",
+          "sha": "d90ab773146d7519a47d29c2236e610466b66cdf"
         },
         {
           "name": "feat/opaque-roundtrip-001",
@@ -9241,7 +9425,7 @@
         },
         {
           "name": "main",
-          "sha": "7016dadcafc335d7ad8dccc26f4d6e0769dcf28c"
+          "sha": "746b0f3042d481dd49574fb215883030f6267148"
         },
         {
           "name": "mirror-store-serve-001",
@@ -9286,6 +9470,10 @@
         {
           "name": "super-relatte-001",
           "sha": "f39371f348a2a10b092cb46140edcac25366e0bb"
+        },
+        {
+          "name": "test/night-transport-hosted-signed-006",
+          "sha": "976d5ecf6f4237e091257c69f00756cc5a842198"
         }
       ],
       "open_prs": [
@@ -16831,7 +17019,7 @@
       "branches": [
         {
           "name": "main",
-          "sha": "69891357779d5487264bba36636030434c5bd91a"
+          "sha": "aa81be1e20d22b131fa6d6b2d728c6479ea886f6"
         }
       ],
       "open_prs": []
@@ -17753,6 +17941,10 @@
           "sha": "b395c8f9f7ce35fdbc33d83353aeb5f0f7313fef"
         },
         {
+          "name": "experiment/reality-2-waseca-field-001",
+          "sha": "73c700841eedfeeda7bdab18dd335afb5bd2ab1a"
+        },
+        {
           "name": "experiment/receipt-glass-goatnote-002",
           "sha": "fb6253426cd22b312b5cee49974ab111a7656bd2"
         },
@@ -17791,6 +17983,10 @@
         {
           "name": "experiment/webz-receipt-glass-001",
           "sha": "5e4c9e0fa6dd808a9e6bc854f077ede7006950ce"
+        },
+        {
+          "name": "feat/abundent-apps-switchboard-001",
+          "sha": "0c46c3da462231ff2403c98256da4e85a1819fec"
         },
         {
           "name": "feat/abundent-door-composer-001",
@@ -17853,6 +18049,10 @@
           "sha": "0711dc029241db6445b421737dc187cf23443a6d"
         },
         {
+          "name": "feat/tomorrow-work-door-002",
+          "sha": "185117581a4f42befc34c723822cbd179c20cfe6"
+        },
+        {
           "name": "feature/2day-universe-albums-001",
           "sha": "decad246632dc01ef9f280ba2e1eb1f36e0927ea"
         },
@@ -17861,8 +18061,16 @@
           "sha": "cc98e92db41668bea86bf93ca14ebd12fc733ffe"
         },
         {
+          "name": "feature/abundent-auto-crossings-033",
+          "sha": "eef785cafcbb1d28799a5b1a84be2a270080e58f"
+        },
+        {
           "name": "feature/abundent-connections-board-001",
           "sha": "ebc58c3a69be9e0ba5f36ca5336cf7f0b4d82a3f"
+        },
+        {
+          "name": "feature/abundent-crossings-032",
+          "sha": "963b047a414a5822a82681fd838dfdadeb5c8c41"
         },
         {
           "name": "feature/abundent-gather-witness-pass-001",
@@ -18021,6 +18229,10 @@
           "sha": "eb5128cab46b666febd27056d9cb893a610d7fc4"
         },
         {
+          "name": "feature/idea-atlas-explorers-035",
+          "sha": "73679b2c0c9a54eee9b0ff16fb49ff7dbe3ee2f3"
+        },
+        {
           "name": "feature/jarvis-adaptive-answer-016",
           "sha": "0aaf571c7f6a48fb850a7a94ff7a61ce41b54beb"
         },
@@ -18058,7 +18270,7 @@
         },
         {
           "name": "feature/jarvis-opportunity-board-024",
-          "sha": "31b194d1b8f22fd978eeeda1a744dba63962d7fe"
+          "sha": "43cea3f6dd0a07db1667a2b0468a4b3ede4b91da"
         },
         {
           "name": "feature/jarvis-shared-supabase-quota-018",
@@ -18073,6 +18285,10 @@
           "sha": "6bb25e5d293f41b27d42e6cd9c9ddded3ffff570"
         },
         {
+          "name": "feature/lemonpress-computer-books-034",
+          "sha": "a244c6a39e99f54c3d3f583e79eaf9ca1c563a91"
+        },
+        {
           "name": "feature/listening-rooms-dial-zoom-001",
           "sha": "e06ecfdf681eef1df12f19d0ac36fb23d6b17833"
         },
@@ -18083,6 +18299,14 @@
         {
           "name": "feature/msyou-energy-commons-abundent-001",
           "sha": "43dc1c33dae4c536a7013af01b6e72650a30075a"
+        },
+        {
+          "name": "feature/organization-seed-doors-036",
+          "sha": "4960ce7509f304d1ae3f3a75cfee8752e84db863"
+        },
+        {
+          "name": "feature/post-office-selftest-003",
+          "sha": "1a4c0906b49e7809d6621811453ccdb8bf24f93f"
         },
         {
           "name": "feature/reality2-question-key-town-002",
@@ -18101,12 +18325,20 @@
           "sha": "c761d3b40e77f1181dd31177672dfd6f201dff98"
         },
         {
+          "name": "feature/still-here-first-circle-029",
+          "sha": "af88284c0241b55e08899889b34807b59326ff57"
+        },
+        {
           "name": "feature/still-here-first-door-025",
           "sha": "6d9a01f460e217c20b399333f8c381a875ff377e"
         },
         {
           "name": "feature/still-here-survivor-open-seats-028",
           "sha": "589d2ccf2b16fe39a51d04e8de163dbb729a3c68"
+        },
+        {
+          "name": "feature/us-at-abundent-contact-door-001",
+          "sha": "dd6e881bfb4e406b0e7e488670c183e69fb25c68"
         },
         {
           "name": "feature/workboard-actionable-memory-026",
@@ -18118,11 +18350,27 @@
         },
         {
           "name": "field/garden-network-atlas-20261024",
-          "sha": "3996c13fd5681bb6f48c01a3a7cdcfe9f244343e"
+          "sha": "7a2e8f501e94240f666ac1c4361bbf2f3b97cea2"
+        },
+        {
+          "name": "fix/abundent-switchboard-verification",
+          "sha": "862e4ab9dfbe290a9ada12d70ec10d8b7fc1d54d"
+        },
+        {
+          "name": "fix/post-office-003-proof-route-verified",
+          "sha": "850b78bea41ec4cef0a826882eabcc054f776078"
         },
         {
           "name": "main",
-          "sha": "3cbc91d6b9a4dbaa941995de6006b2f290d00d51"
+          "sha": "eebf23dacb2f5fff91cf568d13f1909f401ed0b9"
+        },
+        {
+          "name": "ops/post-office-once-proof-20261026",
+          "sha": "6d7f2c91ba69c240fdc37f73751fca7be9b57af3"
+        },
+        {
+          "name": "post-office-005-useful-letters-20261026",
+          "sha": "0b703d9b54a5d3a1736963ff3d48284062534b6d"
         },
         {
           "name": "release/a-week-together-garden-001",
@@ -18142,6 +18390,86 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 153,
+          "title": "STILL HERE 029 · A door for people who know no one",
+          "head_branch": "feature/still-here-first-circle-029",
+          "head_sha": "af88284c0241b55e08899889b34807b59326ff57",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/still-here-campfire-028",
+          "updated_at": "2026-10-27T09:44:57Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/153"
+        },
+        {
+          "number": 152,
+          "title": "WEBZ-036 · Six doors into organizations that don't exist yet",
+          "head_branch": "feature/organization-seed-doors-036",
+          "head_sha": "4960ce7509f304d1ae3f3a75cfee8752e84db863",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/idea-atlas-explorers-035",
+          "updated_at": "2026-10-26T22:55:19Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/152"
+        },
+        {
+          "number": 150,
+          "title": "WEBZ-035 · The Static Collective front room, Daily Slice / National Treasure idea explorers & machine books",
+          "head_branch": "feature/idea-atlas-explorers-035",
+          "head_sha": "73679b2c0c9a54eee9b0ff16fb49ff7dbe3ee2f3",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/lemonpress-computer-books-034",
+          "updated_at": "2026-10-26T21:22:14Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/150"
+        },
+        {
+          "number": 147,
+          "title": "Post Office 005: evidence-gated, owner-only daily useful letters",
+          "head_branch": "post-office-005-useful-letters-20261026",
+          "head_sha": "0b703d9b54a5d3a1736963ff3d48284062534b6d",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-26T19:48:09Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/147"
+        },
+        {
+          "number": 145,
+          "title": "LEMONPRESS-034 · books for computers on every released Abundent public page",
+          "head_branch": "feature/lemonpress-computer-books-034",
+          "head_sha": "a244c6a39e99f54c3d3f583e79eaf9ca1c563a91",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/abundent-auto-crossings-033",
+          "updated_at": "2026-10-26T20:25:35Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/145"
+        },
+        {
+          "number": 140,
+          "title": "AUTO-CROSSINGS-033 · continue to the next room without exporting tickets",
+          "head_branch": "feature/abundent-auto-crossings-033",
+          "head_sha": "eef785cafcbb1d28799a5b1a84be2a270080e58f",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/abundent-crossings-032",
+          "updated_at": "2026-10-26T17:07:01Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/140"
+        },
+        {
+          "number": 139,
+          "title": "EXPERIMENT 001 · Reality 2.0 Waseca live field-card pilot",
+          "head_branch": "experiment/reality-2-waseca-field-001",
+          "head_sha": "73c700841eedfeeda7bdab18dd335afb5bd2ab1a",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/abundent-public-first-yes-030",
+          "updated_at": "2026-10-26T17:39:28Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/139"
+        },
+        {
+          "number": 138,
+          "title": "CROSSINGS-032 · one portable public-safe work card across Abundent experiments",
+          "head_branch": "feature/abundent-crossings-032",
+          "head_sha": "963b047a414a5822a82681fd838dfdadeb5c8c41",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feature/abundent-public-first-yes-030",
+          "updated_at": "2026-10-26T16:33:36Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/138"
+        },
         {
           "number": 136,
           "title": "FIRST-YES-030 · A safe, actual public Abundent doorway from question to usable work card",
@@ -18246,10 +18574,10 @@
           "number": 126,
           "title": "WORKBOARD-025 · persistent, consent-first community conversation history",
           "head_branch": "feature/jarvis-opportunity-board-024",
-          "head_sha": "31b194d1b8f22fd978eeeda1a744dba63962d7fe",
+          "head_sha": "43cea3f6dd0a07db1667a2b0468a4b3ede4b91da",
           "head_repo": "the-static-collective/webZ",
           "base_branch": "feature/jarvis-campfire-right-to-try-022",
-          "updated_at": "2026-10-26T01:01:51Z",
+          "updated_at": "2026-10-26T22:10:38Z",
           "url": "https://github.com/the-static-collective/webZ/pull/126"
         },
         {
@@ -18556,10 +18884,10 @@
           "number": 94,
           "title": "The Garden / Already Growing — Waseca network atlas and printable node cards",
           "head_branch": "field/garden-network-atlas-20261024",
-          "head_sha": "3996c13fd5681bb6f48c01a3a7cdcfe9f244343e",
+          "head_sha": "7a2e8f501e94240f666ac1c4361bbf2f3b97cea2",
           "head_repo": "the-static-collective/webZ",
           "base_branch": "main",
-          "updated_at": "2026-10-25T22:52:42Z",
+          "updated_at": "2026-10-26T22:11:59Z",
           "url": "https://github.com/the-static-collective/webZ/pull/94"
         },
         {
@@ -19550,7 +19878,7 @@
         },
         {
           "name": "main",
-          "sha": "31f941587a18df1040d2b251362883a0ad723e12"
+          "sha": "0340eaeab23bc9eaf5caaa72ac5e6fe20cd904fb"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -20009,5 +20337,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-26T14:15:19+00:00"
+  "captured_at": "2026-10-27T13:11:52+00:00"
 }
