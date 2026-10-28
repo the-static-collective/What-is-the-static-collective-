@@ -1260,7 +1260,7 @@ Default: `main` · other refs: 19 · open PRs: 19
 
 [Repository](https://github.com/the-static-collective/webZ) · [Branches](https://github.com/the-static-collective/webZ/branches) · [Pull requests](https://github.com/the-static-collective/webZ/pulls)
 
-Default: `main` · other refs: 143 · open PRs: 123
+Default: `main` · other refs: 148 · open PRs: 123
 
 ### Open pull requests
 
@@ -1530,10 +1530,15 @@ Default: `main` · other refs: 143 · open PRs: 123
 | [feature/workboard-open-seats-027](https://github.com/the-static-collective/webZ/tree/feature/workboard-open-seats-027) | [07589ecda3](https://github.com/the-static-collective/webZ/commit/07589ecda39d50a78f71332552311e30a5a1269e) | [open PR #129](https://github.com/the-static-collective/webZ/pull/129) |
 | [field/garden-network-atlas-20261024](https://github.com/the-static-collective/webZ/tree/field/garden-network-atlas-20261024) | [7a2e8f501e](https://github.com/the-static-collective/webZ/commit/7a2e8f501e94240f666ac1c4361bbf2f3b97cea2) | [open PR #94](https://github.com/the-static-collective/webZ/pull/94) |
 | [fix/abundent-switchboard-verification](https://github.com/the-static-collective/webZ/tree/fix/abundent-switchboard-verification) | [862e4ab9df](https://github.com/the-static-collective/webZ/commit/862e4ab9dfbe290a9ada12d70ec10d8b7fc1d54d) | Retained ref; disposition unverified |
+| [fix/pages-fallback-independent-of-custom-domain-002](https://github.com/the-static-collective/webZ/tree/fix/pages-fallback-independent-of-custom-domain-002) | [866e865b6e](https://github.com/the-static-collective/webZ/commit/866e865b6e4acc389c9d9acb55b6abc2bbcc1d5b) | Retained ref; disposition unverified |
 | [fix/post-office-003-proof-route-verified](https://github.com/the-static-collective/webZ/tree/fix/post-office-003-proof-route-verified) | [850b78bea4](https://github.com/the-static-collective/webZ/commit/850b78bea41ec4cef0a826882eabcc054f776078) | Retained ref; disposition unverified |
+| [infra/github-pages-custom-domain-proof-001](https://github.com/the-static-collective/webZ/tree/infra/github-pages-custom-domain-proof-001) | [dbded76973](https://github.com/the-static-collective/webZ/commit/dbded76973ca0120591a36121f3199f4efaa7905) | Retained ref; disposition unverified |
+| [infra/vercel-budget-portable-publishing-001](https://github.com/the-static-collective/webZ/tree/infra/vercel-budget-portable-publishing-001) | [bb0997c662](https://github.com/the-static-collective/webZ/commit/bb0997c662a393e6905c509b4627ae6773f6d0c9) | Retained ref; disposition unverified |
+| [ops/pages-domain-verification-20261027](https://github.com/the-static-collective/webZ/tree/ops/pages-domain-verification-20261027) | [2611f34e1f](https://github.com/the-static-collective/webZ/commit/2611f34e1ffa0740bcae1688400b9900a8ec881c) | Retained ref; disposition unverified |
 | [ops/post-office-once-proof-20261026](https://github.com/the-static-collective/webZ/tree/ops/post-office-once-proof-20261026) | [6d7f2c91ba](https://github.com/the-static-collective/webZ/commit/6d7f2c91ba69c240fdc37f73751fca7be9b57af3) | Retained ref; disposition unverified |
 | [post-office-005-useful-letters-20261026](https://github.com/the-static-collective/webZ/tree/post-office-005-useful-letters-20261026) | [0b703d9b54](https://github.com/the-static-collective/webZ/commit/0b703d9b54a5d3a1736963ff3d48284062534b6d) | [open PR #147](https://github.com/the-static-collective/webZ/pull/147) |
 | [release/a-week-together-garden-001](https://github.com/the-static-collective/webZ/tree/release/a-week-together-garden-001) | [1617369bc1](https://github.com/the-static-collective/webZ/commit/1617369bc105ec065c2ec917298ea5381647cc43) | Retained ref; disposition unverified |
+| [release/enable-pages-backup-001](https://github.com/the-static-collective/webZ/tree/release/enable-pages-backup-001) | [54245ac506](https://github.com/the-static-collective/webZ/commit/54245ac506163d69b58841a0c0db146bca57240d) | Retained ref; disposition unverified |
 | [release/field-cards-reconciled-001](https://github.com/the-static-collective/webZ/tree/release/field-cards-reconciled-001) | [31f80398c9](https://github.com/the-static-collective/webZ/commit/31f80398c937e5da289d517f50e01cf6470c7c6a) | [open PR #67](https://github.com/the-static-collective/webZ/pull/67) |
 | [release/heartbeat-002-first-crossing](https://github.com/the-static-collective/webZ/tree/release/heartbeat-002-first-crossing) | [772261ace8](https://github.com/the-static-collective/webZ/commit/772261ace87d2217af50c7c26e2c0b2de9381a40) | Retained ref; disposition unverified |
 | [release/needs-001-abundent-live](https://github.com/the-static-collective/webZ/tree/release/needs-001-abundent-live) | [65539f065d](https://github.com/the-static-collective/webZ/commit/65539f065db609c97e5c3ca1ca0b2d0f90c7498a) | [open PR #64](https://github.com/the-static-collective/webZ/pull/64) |

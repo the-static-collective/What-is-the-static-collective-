@@ -1,401 +1,51 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-26T14:15:19+00:00",
-  "to_captured_at": "2026-10-27T13:11:52+00:00",
+  "from_captured_at": "2026-10-27T13:11:52+00:00",
+  "to_captured_at": "2026-10-28T14:01:15+00:00",
   "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "BananaSpork",
-      "branch": "feat/first-chair-001",
-      "sha": "35f618169c4014cc60ccda7d40e5208ee2e629bf"
-    },
-    {
-      "repository": "BananaSpork",
-      "branch": "feat/inheritance-interrupt-001",
-      "sha": "c0b0dc514542fd2367c4bef9eaeeebe49d9a7257"
-    },
-    {
-      "repository": "BananaSpork",
-      "branch": "feat/watch-the-watchmen-001",
-      "sha": "e0d23bbb0cce5fcf80a8337d5cfc4b0da805b575"
-    },
-    {
-      "repository": "BananaSpork",
-      "branch": "fix/porchlight-deployed-content",
-      "sha": "ee76017128c9dc535567d57f4433efc5c0eba5ac"
-    },
-    {
-      "repository": "BananaSpork",
-      "branch": "fix/porchlight-route-anchors",
-      "sha": "bfd7b202a8c66a71783df3cd3d293daa75ccd73d"
-    },
-    {
-      "repository": "BananaSpork",
-      "branch": "pilot/porchlight-001-national-field",
-      "sha": "53efccddc5a38753267c8ab31886397890936af7"
-    },
-    {
-      "repository": "full-measure-world-layer",
-      "branch": "practice-room-001",
-      "sha": "e88d5b55d58fa4cc5c37f01192a5a4ab400680f7"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/impact-weave-001",
-      "sha": "be6a622fdfc4c5299fd0868eb993bf5cf97440cb"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/weaves-to-weves-001",
-      "sha": "8d442739216af024a20a299cf06073ca90c195ad"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "experiment/cloud-orchard-001-20261026",
-      "sha": "f41691a180650fcb31efb907d7d5fd477223a89d"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "feat/backend-006-durable-attention-belt",
-      "sha": "86fa68388abccd164befd14d6919d0e3889faa98"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "feat/operator-crosspanel-003",
-      "sha": "a04781f6d5e559cb91b53a92e6766b1afa116dac"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "feat/reviewer-weave-002",
-      "sha": "aed5d8d808c3d8d432e240bb649dd432b5a54b0a"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "feat/work-inherits-001",
-      "sha": "a1541436f082df7ae162b9b78f7987e8afc3261b"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "feature/backend-007-operator-panel-scoped-workers",
-      "sha": "98d80f50ffa976ed1dce69192849202a7bde7ce5"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "feature/backend008-email-otp-gateway",
-      "sha": "415ef337064aca823bea12edae4ee57b99dd8f30"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "feature/post-office-001-field-outreach",
-      "sha": "6d97a0a90e6455962985d5c2a50bd193641a1d91"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "integration/reality2-waseca-reviewed-field-001",
-      "sha": "c734e04e7f55abc90edf577536bdb26f3dd710a8"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "ops/post-office-inbound-proof-outbound-handoff-002",
-      "sha": "d354957e58933b4650295dd1c43aefb4e44183aa"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "ops/us-at-abundent-forwarding-20261026",
-      "sha": "c5b07f704e7e895064e6fba87f4655bd4e6f8dc1"
-    },
-    {
-      "repository": "lemonPRESS",
-      "branch": "press/living-rural-dispatch-001",
-      "sha": "ec2599532fa310379eec5ecbad9479512b39fe9c"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feat/commuter-001-correspondence",
-      "sha": "603d138f7ffc858804a0061c8abf7e2d926fafd0"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feat/evidence-transit-001-night-shift",
-      "sha": "97563254e45d2dd13d8966946876b567cfe16f29"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feat/farm-post-office-invite-001",
-      "sha": "8a39a066b229e44b2da7f9f7ed56f6cac6772574"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feat/night-evidence-worker-001",
-      "sha": "d74e04d070c30adda82619747261c0ddcbbb4afd"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feat/night-shift-evidence-source-001",
-      "sha": "d90ab773146d7519a47d29c2236e610466b66cdf"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "test/night-transport-hosted-signed-006",
-      "sha": "976d5ecf6f4237e091257c69f00756cc5a842198"
+      "repository": "webZ",
+      "branch": "fix/pages-fallback-independent-of-custom-domain-002",
+      "sha": "866e865b6e4acc389c9d9acb55b6abc2bbcc1d5b"
     },
     {
       "repository": "webZ",
-      "branch": "experiment/reality-2-waseca-field-001",
-      "sha": "73c700841eedfeeda7bdab18dd335afb5bd2ab1a"
+      "branch": "infra/github-pages-custom-domain-proof-001",
+      "sha": "dbded76973ca0120591a36121f3199f4efaa7905"
     },
     {
       "repository": "webZ",
-      "branch": "feat/abundent-apps-switchboard-001",
-      "sha": "0c46c3da462231ff2403c98256da4e85a1819fec"
+      "branch": "infra/vercel-budget-portable-publishing-001",
+      "sha": "bb0997c662a393e6905c509b4627ae6773f6d0c9"
     },
     {
       "repository": "webZ",
-      "branch": "feat/tomorrow-work-door-002",
-      "sha": "185117581a4f42befc34c723822cbd179c20cfe6"
+      "branch": "ops/pages-domain-verification-20261027",
+      "sha": "2611f34e1ffa0740bcae1688400b9900a8ec881c"
     },
     {
       "repository": "webZ",
-      "branch": "feature/abundent-auto-crossings-033",
-      "sha": "eef785cafcbb1d28799a5b1a84be2a270080e58f"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/abundent-crossings-032",
-      "sha": "963b047a414a5822a82681fd838dfdadeb5c8c41"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/idea-atlas-explorers-035",
-      "sha": "73679b2c0c9a54eee9b0ff16fb49ff7dbe3ee2f3"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/lemonpress-computer-books-034",
-      "sha": "a244c6a39e99f54c3d3f583e79eaf9ca1c563a91"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/organization-seed-doors-036",
-      "sha": "4960ce7509f304d1ae3f3a75cfee8752e84db863"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/post-office-selftest-003",
-      "sha": "1a4c0906b49e7809d6621811453ccdb8bf24f93f"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/still-here-first-circle-029",
-      "sha": "af88284c0241b55e08899889b34807b59326ff57"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/us-at-abundent-contact-door-001",
-      "sha": "dd6e881bfb4e406b0e7e488670c183e69fb25c68"
-    },
-    {
-      "repository": "webZ",
-      "branch": "fix/abundent-switchboard-verification",
-      "sha": "862e4ab9dfbe290a9ada12d70ec10d8b7fc1d54d"
-    },
-    {
-      "repository": "webZ",
-      "branch": "fix/post-office-003-proof-route-verified",
-      "sha": "850b78bea41ec4cef0a826882eabcc054f776078"
-    },
-    {
-      "repository": "webZ",
-      "branch": "ops/post-office-once-proof-20261026",
-      "sha": "6d7f2c91ba69c240fdc37f73751fca7be9b57af3"
-    },
-    {
-      "repository": "webZ",
-      "branch": "post-office-005-useful-letters-20261026",
-      "sha": "0b703d9b54a5d3a1736963ff3d48284062534b6d"
+      "branch": "release/enable-pages-backup-001",
+      "sha": "54245ac506163d69b58841a0c0db146bca57240d"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "BananaSpork",
-      "branch": "main",
-      "from_sha": "6738230a8557060dd59aabc19caf21826806d16f",
-      "to_sha": "f4c4067b5896eb5eb20a7498f89da38f04731d73"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "main",
-      "from_sha": "57eb58d3b4d8256ccbfaf1c9b733f1ae0e154634",
-      "to_sha": "e83ab618a9d0815fbcaeb19b4707030ad0957930"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "main",
-      "from_sha": "7016dadcafc335d7ad8dccc26f4d6e0769dcf28c",
-      "to_sha": "746b0f3042d481dd49574fb215883030f6267148"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "main",
-      "from_sha": "69891357779d5487264bba36636030434c5bd91a",
-      "to_sha": "aa81be1e20d22b131fa6d6b2d728c6479ea886f6"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/jarvis-opportunity-board-024",
-      "from_sha": "31b194d1b8f22fd978eeeda1a744dba63962d7fe",
-      "to_sha": "43cea3f6dd0a07db1667a2b0468a4b3ede4b91da"
-    },
-    {
-      "repository": "webZ",
-      "branch": "field/garden-network-atlas-20261024",
-      "from_sha": "3996c13fd5681bb6f48c01a3a7cdcfe9f244343e",
-      "to_sha": "7a2e8f501e94240f666ac1c4361bbf2f3b97cea2"
-    },
-    {
       "repository": "webZ",
       "branch": "main",
-      "from_sha": "3cbc91d6b9a4dbaa941995de6006b2f290d00d51",
-      "to_sha": "eebf23dacb2f5fff91cf568d13f1909f401ed0b9"
+      "from_sha": "eebf23dacb2f5fff91cf568d13f1909f401ed0b9",
+      "to_sha": "089988ebbf4c5b52b88181c2cd916c8d09395644"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "31f941587a18df1040d2b251362883a0ad723e12",
-      "to_sha": "0340eaeab23bc9eaf5caaa72ac5e6fe20cd904fb"
+      "from_sha": "0340eaeab23bc9eaf5caaa72ac5e6fe20cd904fb",
+      "to_sha": "c07db0ddef1f84ac338e6671f626e5cf14409a60"
     }
   ],
-  "opened_prs": [
-    {
-      "repository": "BananaSpork",
-      "number": 21,
-      "title": "INHERITANCE-INTERRUPT-001 — voluntary capacity seed without beneficiary debt",
-      "url": "https://github.com/the-static-collective/BananaSpork/pull/21",
-      "head_branch": "feat/inheritance-interrupt-001",
-      "base_branch": "feat/campfire-selfhost-backend-001"
-    },
-    {
-      "repository": "BananaSpork",
-      "number": 22,
-      "title": "WATCH-THE-WATCHMEN-001 · process concern receipts and no-self-certification gate",
-      "url": "https://github.com/the-static-collective/BananaSpork/pull/22",
-      "head_branch": "feat/watch-the-watchmen-001",
-      "base_branch": "feat/inheritance-interrupt-001"
-    },
-    {
-      "repository": "BananaSpork",
-      "number": 23,
-      "title": "FIRST CHAIR 001 — Lu volunteers as first steward; independent second chair remains open",
-      "url": "https://github.com/the-static-collective/BananaSpork/pull/23",
-      "head_branch": "feat/first-chair-001",
-      "base_branch": "feat/watch-the-watchmen-001"
-    },
-    {
-      "repository": "full-measure-world-layer",
-      "number": 56,
-      "title": "STILL HERE × Full Measure — Seven Days of Returning",
-      "url": "https://github.com/the-static-collective/full-measure-world-layer/pull/56",
-      "head_branch": "practice-room-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "GRAFT",
-      "number": 7,
-      "title": "IMPACT-WEAVE-001 · four-door Right Hands cross for optional community stewardship",
-      "url": "https://github.com/the-static-collective/GRAFT/pull/7",
-      "head_branch": "graft/impact-weave-001",
-      "base_branch": "graft/jarvis-live-research-work-002"
-    },
-    {
-      "repository": "GRAFT",
-      "number": 9,
-      "title": "HOLD / DO NOT MERGE — WEAVES → WE'VES 001 executable reweaving specimen",
-      "url": "https://github.com/the-static-collective/GRAFT/pull/9",
-      "head_branch": "graft/weaves-to-weves-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "JAR-VIS",
-      "number": 21,
-      "title": "Cloud Orchard 001: bounded creative compute nursery, offline gallery, optional Modal fanout",
-      "url": "https://github.com/the-static-collective/JAR-VIS/pull/21",
-      "head_branch": "experiment/cloud-orchard-001-20261026",
-      "base_branch": "main"
-    },
-    {
-      "repository": "lemonPRESS",
-      "number": 56,
-      "title": "PENNY PRESS 001 — Living Rural Dispatch: independent web/email/print source + local printer bid kit",
-      "url": "https://github.com/the-static-collective/lemonPRESS/pull/56",
-      "head_branch": "press/living-rural-dispatch-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "webZ",
-      "number": 138,
-      "title": "CROSSINGS-032 · one portable public-safe work card across Abundent experiments",
-      "url": "https://github.com/the-static-collective/webZ/pull/138",
-      "head_branch": "feature/abundent-crossings-032",
-      "base_branch": "feature/abundent-public-first-yes-030"
-    },
-    {
-      "repository": "webZ",
-      "number": 139,
-      "title": "EXPERIMENT 001 · Reality 2.0 Waseca live field-card pilot",
-      "url": "https://github.com/the-static-collective/webZ/pull/139",
-      "head_branch": "experiment/reality-2-waseca-field-001",
-      "base_branch": "feature/abundent-public-first-yes-030"
-    },
-    {
-      "repository": "webZ",
-      "number": 140,
-      "title": "AUTO-CROSSINGS-033 · continue to the next room without exporting tickets",
-      "url": "https://github.com/the-static-collective/webZ/pull/140",
-      "head_branch": "feature/abundent-auto-crossings-033",
-      "base_branch": "feature/abundent-crossings-032"
-    },
-    {
-      "repository": "webZ",
-      "number": 145,
-      "title": "LEMONPRESS-034 · books for computers on every released Abundent public page",
-      "url": "https://github.com/the-static-collective/webZ/pull/145",
-      "head_branch": "feature/lemonpress-computer-books-034",
-      "base_branch": "feature/abundent-auto-crossings-033"
-    },
-    {
-      "repository": "webZ",
-      "number": 147,
-      "title": "Post Office 005: evidence-gated, owner-only daily useful letters",
-      "url": "https://github.com/the-static-collective/webZ/pull/147",
-      "head_branch": "post-office-005-useful-letters-20261026",
-      "base_branch": "main"
-    },
-    {
-      "repository": "webZ",
-      "number": 150,
-      "title": "WEBZ-035 · The Static Collective front room, Daily Slice / National Treasure idea explorers & machine books",
-      "url": "https://github.com/the-static-collective/webZ/pull/150",
-      "head_branch": "feature/idea-atlas-explorers-035",
-      "base_branch": "feature/lemonpress-computer-books-034"
-    },
-    {
-      "repository": "webZ",
-      "number": 152,
-      "title": "WEBZ-036 · Six doors into organizations that don't exist yet",
-      "url": "https://github.com/the-static-collective/webZ/pull/152",
-      "head_branch": "feature/organization-seed-doors-036",
-      "base_branch": "feature/idea-atlas-explorers-035"
-    },
-    {
-      "repository": "webZ",
-      "number": 153,
-      "title": "STILL HERE 029 · A door for people who know no one",
-      "url": "https://github.com/the-static-collective/webZ/pull/153",
-      "head_branch": "feature/still-here-first-circle-029",
-      "base_branch": "feature/still-here-campfire-028"
-    }
-  ],
+  "opened_prs": [],
   "left_open_prs": []
 }

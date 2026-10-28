@@ -18357,12 +18357,28 @@
           "sha": "862e4ab9dfbe290a9ada12d70ec10d8b7fc1d54d"
         },
         {
+          "name": "fix/pages-fallback-independent-of-custom-domain-002",
+          "sha": "866e865b6e4acc389c9d9acb55b6abc2bbcc1d5b"
+        },
+        {
           "name": "fix/post-office-003-proof-route-verified",
           "sha": "850b78bea41ec4cef0a826882eabcc054f776078"
         },
         {
+          "name": "infra/github-pages-custom-domain-proof-001",
+          "sha": "dbded76973ca0120591a36121f3199f4efaa7905"
+        },
+        {
+          "name": "infra/vercel-budget-portable-publishing-001",
+          "sha": "bb0997c662a393e6905c509b4627ae6773f6d0c9"
+        },
+        {
           "name": "main",
-          "sha": "eebf23dacb2f5fff91cf568d13f1909f401ed0b9"
+          "sha": "089988ebbf4c5b52b88181c2cd916c8d09395644"
+        },
+        {
+          "name": "ops/pages-domain-verification-20261027",
+          "sha": "2611f34e1ffa0740bcae1688400b9900a8ec881c"
         },
         {
           "name": "ops/post-office-once-proof-20261026",
@@ -18375,6 +18391,10 @@
         {
           "name": "release/a-week-together-garden-001",
           "sha": "1617369bc105ec065c2ec917298ea5381647cc43"
+        },
+        {
+          "name": "release/enable-pages-backup-001",
+          "sha": "54245ac506163d69b58841a0c0db146bca57240d"
         },
         {
           "name": "release/field-cards-reconciled-001",
@@ -19878,7 +19898,7 @@
         },
         {
           "name": "main",
-          "sha": "0340eaeab23bc9eaf5caaa72ac5e6fe20cd904fb"
+          "sha": "c07db0ddef1f84ac338e6671f626e5cf14409a60"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -20337,5 +20357,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-27T13:11:52+00:00"
+  "captured_at": "2026-10-28T14:01:15+00:00"
 }
