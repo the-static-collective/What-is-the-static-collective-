@@ -124,7 +124,7 @@ Default: `main` · other refs: 4 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/full-measure-world-layer) · [Branches](https://github.com/the-static-collective/full-measure-world-layer/branches) · [Pull requests](https://github.com/the-static-collective/full-measure-world-layer/pulls)
 
-Default: `main` · other refs: 34 · open PRs: 18
+Default: `main` · other refs: 35 · open PRs: 18
 
 ### Open pull requests
 
@@ -176,6 +176,7 @@ Default: `main` · other refs: 34 · open PRs: 18
 | [experiment/tenet-arpg-frontier-002](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/tenet-arpg-frontier-002) | [199df20706](https://github.com/the-static-collective/full-measure-world-layer/commit/199df2070681e68126bd83f3f74fbd21d92ade27) | [open PR #52](https://github.com/the-static-collective/full-measure-world-layer/pull/52) |
 | [experiment/warm-thread-world-001](https://github.com/the-static-collective/full-measure-world-layer/tree/experiment/warm-thread-world-001) | [553e97401a](https://github.com/the-static-collective/full-measure-world-layer/commit/553e97401a8483a0ee3c369fed9d3fb8f1c9058d) | [open PR #50](https://github.com/the-static-collective/full-measure-world-layer/pull/50) |
 | [experimental/alchematrix-001-haunted-telescope](https://github.com/the-static-collective/full-measure-world-layer/tree/experimental/alchematrix-001-haunted-telescope) | [587af5a8f1](https://github.com/the-static-collective/full-measure-world-layer/commit/587af5a8f1cb73781d1943343234d75aabd0f9c4) | [open PR #45](https://github.com/the-static-collective/full-measure-world-layer/pull/45) |
+| [feat/commons-return-lens-001](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/commons-return-lens-001) | [59b3f9f5fa](https://github.com/the-static-collective/full-measure-world-layer/commit/59b3f9f5fafd36f6e10c25d9043380ae773d81c2) | Retained ref; disposition unverified |
 | [feat/grace-foreign-room-offer-003](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/grace-foreign-room-offer-003) | [c7d856b23d](https://github.com/the-static-collective/full-measure-world-layer/commit/c7d856b23d6a16dccbebe29c7976af24dfee26dc) | [open PR #36](https://github.com/the-static-collective/full-measure-world-layer/pull/36) |
 | [feat/grace-mercy-broken-promise-001](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/grace-mercy-broken-promise-001) | [8e551d4fa8](https://github.com/the-static-collective/full-measure-world-layer/commit/8e551d4fa8b2e6a6139350d6a372df1d441a24e5) | Retained ref; disposition unverified |
 | [feat/grace-origin-entry-002](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/grace-origin-entry-002) | [91d2f2526c](https://github.com/the-static-collective/full-measure-world-layer/commit/91d2f2526cb46a552caab09a36761a12c0ed13b8) | [open PR #35](https://github.com/the-static-collective/full-measure-world-layer/pull/35) |

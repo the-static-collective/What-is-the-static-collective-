@@ -1,51 +1,636 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-27T13:11:52+00:00",
-  "to_captured_at": "2026-10-28T14:01:15+00:00",
+  "from_captured_at": "2026-10-28T14:01:15+00:00",
+  "to_captured_at": "2026-10-29T14:16:06+00:00",
   "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "webZ",
-      "branch": "fix/pages-fallback-independent-of-custom-domain-002",
-      "sha": "866e865b6e4acc389c9d9acb55b6abc2bbcc1d5b"
+      "repository": "CANNON",
+      "branch": "experiment/constellation-001",
+      "sha": "32979819f5bf7e35dcb19d30fc8ffdeb8c81ccb1"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/constellation-002-stranger-arcade",
+      "sha": "c5031495424abcd6141d546a1f85a5e781539072"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/culture-forge-001-webz-gro",
+      "sha": "cb7f14b71e7e26456097abd7b0e78a49f50c64eb"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/culture-forge-002-lemonpress-receiver",
+      "sha": "864aac4b71111a7ac76807abeceb18d6b523817c"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/culture-forge-003-fullmeasure-penny",
+      "sha": "41cca1eac0749658e07dfb7a2e4f943234e68f1d"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/culture-forge-003-use-capacity-penny",
+      "sha": "864aac4b71111a7ac76807abeceb18d6b523817c"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/culture-forge-004-relatte-return",
+      "sha": "307fa96d83b40e9a09827eef2f89fe37b8ba78ce"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/culture-forge-005-planz-graft-jarvis-return",
+      "sha": "479458216ccc5546ad6947ec36ba282aadbefdac"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/genesis-boot-001-cross-branch-a-b",
+      "sha": "bb57e71151bca1eb245abfc82cf74047e9105169"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/genesis-boot-002-interactive-porch",
+      "sha": "92a73324ec6918765cbd15b7a12cb83878b403eb"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/voqal-self-application-001",
+      "sha": "bd1c7e4ac9f1e658b25bb325c2934f6508df4640"
+    },
+    {
+      "repository": "full-measure-world-layer",
+      "branch": "feat/commons-return-lens-001",
+      "sha": "59b3f9f5fafd36f6e10c25d9043380ae773d81c2"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/culture-return-005",
+      "sha": "78976228eba243acb489c0aa9c501128904fbda6"
+    },
+    {
+      "repository": "GrO",
+      "branch": "experiment/mattercraft-001-witness-encounter",
+      "sha": "9e6361105aae335ccb0657092809eef43e7ab4da"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "experiment/constellation-001-attendant",
+      "sha": "cb794d471877d729df61294255604621291df7d8"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "experiment/culture-return-005",
+      "sha": "98388d1bef8e876a5a72e7c20fe6d81d481caae2"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "experiment/suno-mcp-song-garden-001",
+      "sha": "cb1fdad10cc1ae3c9f54f2bed50e340c6719d0f2"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "feat/bridge005-receiver-work-card",
+      "sha": "3007ebac2861d7d7aff55b16f519d817cd5d6ce2"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "feat/planz-owner-attention-001",
+      "sha": "42b4eac3c261a701571d35bd2a3fc9718e6bd004"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "feat/planz-work-return-001",
+      "sha": "1da7fe37d05a2fd249112eba2f10e7e0804b3db3"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "feature/harmony-public-source-001",
+      "sha": "c9b8341f2eff16105f58dcd5bb9031245bcb0558"
+    },
+    {
+      "repository": "lemonPRESS",
+      "branch": "experiment/culture-forge-002-independent-hold",
+      "sha": "f091e73d2f64b2237ee828010ae244b39e4070b8"
+    },
+    {
+      "repository": "planZ",
+      "branch": "experiment/culture-return-005",
+      "sha": "ca050aeb94dfe73a719513cb5cb8dad58ab2783a"
+    },
+    {
+      "repository": "planZ",
+      "branch": "feat/bridge005-receiver-work-card",
+      "sha": "fb55004ed4b79686ec045eb05dc0c31ba2761253"
+    },
+    {
+      "repository": "planZ",
+      "branch": "feat/planz-jarvis-attention-001",
+      "sha": "0c19aa6f83d899620c22eb7ea79d3aa2488cd2cc"
+    },
+    {
+      "repository": "planZ",
+      "branch": "feat/return-triage-001",
+      "sha": "83248c49eb1a90dbc328d7efb353c17a3ff54cf1"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "feat/bridge005-review-only-signed-crossing",
+      "sha": "bf6e73bd88a88e7d5a8eb7436de34916ea70f8e7"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "feat/planz-return-transport-001",
+      "sha": "4b905a2de7eae9a55f49091f5229cc25fa478307"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "fix/planz-return-payload-binding",
+      "sha": "5c7b3ebbee4fb4f56d215da3c1f943bf2431ca35"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/genesis-boot-003-live-first-boot-iso",
+      "sha": "730c0edb4a720dff92541d20be241067c6fa06ac"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/genesis-boot-004-multidistro",
+      "sha": "914c4bbe7c0d39e7f875c931eb176ba37b59c4c7"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/genesis-boot-005-alpine-live-iso",
+      "sha": "1f41c919211b42b0549be8680b0aecb648943ba1"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/genesis-boot-006-wii-native-porch",
+      "sha": "ccfe372031bb131e6a590ea4f2b9dbde8d377f57"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/genesis-boot-007-strange-nodes",
+      "sha": "1de22f5f5fc037fa3d2893c545c9ec7c79550b7c"
+    },
+    {
+      "repository": "static-os",
+      "branch": "experiment/suitcase-genesis-001-mission-composer",
+      "sha": "b02b5016cbd5bf2f73d758d5ed1416246b789157"
     },
     {
       "repository": "webZ",
-      "branch": "infra/github-pages-custom-domain-proof-001",
-      "sha": "dbded76973ca0120591a36121f3199f4efaa7905"
+      "branch": "experiment/capability-growth-print-shop-001",
+      "sha": "0f0259e91d79ceed7b22d458f2429292c8609d9e"
     },
     {
       "repository": "webZ",
-      "branch": "infra/vercel-budget-portable-publishing-001",
-      "sha": "bb0997c662a393e6905c509b4627ae6773f6d0c9"
+      "branch": "experiment/relational-inheritance-no-authority-008",
+      "sha": "8bb56a83f653a8e8dbe16685b210bb7140002a2d"
     },
     {
       "repository": "webZ",
-      "branch": "ops/pages-domain-verification-20261027",
-      "sha": "2611f34e1ffa0740bcae1688400b9900a8ec881c"
+      "branch": "feat/abundent-link-wallet-001",
+      "sha": "d7f541d9d5754191bdf2720e5a5f2ad8db52a2fb"
     },
     {
       "repository": "webZ",
-      "branch": "release/enable-pages-backup-001",
-      "sha": "54245ac506163d69b58841a0c0db146bca57240d"
+      "branch": "feat/bridge-institutional-relations-003",
+      "sha": "b8b2446fbf78f74eee902c901700d252b5ad126c"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/bridge-ledger-004-encrypted-operator-desk",
+      "sha": "32d55df0e958164eb7e8dfe04cc180fc1062f015"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/bridge005-source-owned-work-card",
+      "sha": "0a7449feb54390f164c1dd3bc6788620a89a16a4"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/bridge006-current-main-outbox-integrated",
+      "sha": "ddf28e3030fd22bedd4b52ce866aab79dc336201"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/bridge006-first-acknowledgement",
+      "sha": "4fd57551b5614e7ee6cb88aaf637ad8deb56c8b8"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/living-inbox-002",
+      "sha": "7c705785a40704b98c151dbbaf4de4c03965c64f"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/living-receiver-001",
+      "sha": "8e75488a097aba6d847e258da4cb555a45101ada"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/porchlight-commons-global-crossing-001",
+      "sha": "2b65a6e243c9abbe7a9277a57d492c9310c7009e"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/porchlight-commons-portable-public",
+      "sha": "c09b7a13a32a4a321395834e78f4b91ef9ba4ee9"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/post-office-external-recipient-006",
+      "sha": "cc2c81c663479139f03406d875b5615cf065e7c3"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/post-office-panel-007",
+      "sha": "6a217758209673119469f1f3227ec2d5c630ee17"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/static-commons-first-true-yes-001",
+      "sha": "fe1ab55999ef7e2eba733521f358b2e9aa51a595"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/wallet-one-tap-handoff-002",
+      "sha": "f8a63e04dbfdff824bc1aee6d0ee7ebb79c8dd04"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/harmony-culture-constellation-pitch-002",
+      "sha": "b71544fe53cea49b09846993d3fe1ab292f70765"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/harmony-culture-economy-native-007",
+      "sha": "19ff4f10dbaa9dd542c56bea15eab09cc12b7367"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/harmony-culture-seed-003",
+      "sha": "814e4269dbfc49f7e5390247508cdfb004dba352"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/harmony-layer-001",
+      "sha": "714cd30556e7f01cb8f635132940ccac93b762c7"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/harmony-matter-idea-craft-004",
+      "sha": "ee0b0891ff755aabf23daa2199af906eb43e97c1"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/harmony-return-loop-008",
+      "sha": "0942d12bb919a0e4119fa8b2c900b34269ea3e85"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/harmony-show-independent-lemonpress-006",
+      "sha": "d0573773fff2536036e654f76f28aa4896d5b067"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/harmony-show-native-cannon-proof-005",
+      "sha": "59e26fdf66c8677b24876a67f1f9f95f5e7ad312"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/suitcase-002-independent-genesis",
+      "sha": "c7bb40e7c3a9924ecd329c815d73ab64747589ce"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/suitcase-003-physical-bench-first-power-on",
+      "sha": "60a2d91e0a3f840c83ce45c76e6413e4f81c563f"
+    },
+    {
+      "repository": "webZ",
+      "branch": "grant/mit-solve-2027-living-suitcase-door",
+      "sha": "92d79dc2c33ea34dac58e4666698317aa28732f0"
+    },
+    {
+      "repository": "webZ",
+      "branch": "proposal/festival-fork-network-011",
+      "sha": "2130f8b26c04eb39f6cef428b60530214d2409a5"
+    },
+    {
+      "repository": "webZ",
+      "branch": "proposal/harmony-park-grand-finale-010",
+      "sha": "e82d505372dc4f7011dfb1d7575045893a77c2de"
+    },
+    {
+      "repository": "webZ",
+      "branch": "proposal/voqal-commons-circuit-009",
+      "sha": "867ac289abfbaf63267e480c662de85acc0ebe95"
+    },
+    {
+      "repository": "webZ",
+      "branch": "proposal/voqal-first-circle-foundry-007",
+      "sha": "15779ad9e6c69d703a248b0037f1cf94216bae44"
+    },
+    {
+      "repository": "webZ",
+      "branch": "test/living-inbox-http-proof-002",
+      "sha": "fc78a0b116eeb2da597ad53d82d095defbc90e5e"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
+      "repository": "full-measure-world-layer",
+      "branch": "main",
+      "from_sha": "9e6662b47cb7bd2b3df0041fc33fffa1f1973d39",
+      "to_sha": "93cabb25759093aef4461d2b97ce232da284399c"
+    },
+    {
+      "repository": "GHoT",
+      "branch": "main",
+      "from_sha": "e35dd470384d864b7b0b629a68dad570875a7df0",
+      "to_sha": "9748a0772c4a13135421c4fa84a9991e0a51e05f"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "main",
+      "from_sha": "e83ab618a9d0815fbcaeb19b4707030ad0957930",
+      "to_sha": "f8c1c2541a1b68b8b24fb46f0b5ca99628ee3d79"
+    },
+    {
+      "repository": "planZ",
+      "branch": "main",
+      "from_sha": "dad6593c3718c65fa4bb7a3650af8fc80d060ce6",
+      "to_sha": "5b6df7fb2a3a0c57d0fff8381108589ec2765a94"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "main",
+      "from_sha": "746b0f3042d481dd49574fb215883030f6267148",
+      "to_sha": "39038d66b15f43559c48c7da8b8a40a76b883ff0"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/still-here-campfire-028",
+      "from_sha": "c761d3b40e77f1181dd31177672dfd6f201dff98",
+      "to_sha": "4998776b9f17ea16742247fa27f00a4f0d3dea46"
+    },
+    {
       "repository": "webZ",
       "branch": "main",
-      "from_sha": "eebf23dacb2f5fff91cf568d13f1909f401ed0b9",
-      "to_sha": "089988ebbf4c5b52b88181c2cd916c8d09395644"
+      "from_sha": "089988ebbf4c5b52b88181c2cd916c8d09395644",
+      "to_sha": "35d94548bf03b83e4919e60e07dc8a1991421926"
+    },
+    {
+      "repository": "webZ",
+      "branch": "release/heartbeat-002-first-crossing",
+      "from_sha": "772261ace87d2217af50c7c26e2c0b2de9381a40",
+      "to_sha": "1cd56c0a1f07649f4c45aacd853143c51b59ea64"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "0340eaeab23bc9eaf5caaa72ac5e6fe20cd904fb",
-      "to_sha": "c07db0ddef1f84ac338e6671f626e5cf14409a60"
+      "from_sha": "c07db0ddef1f84ac338e6671f626e5cf14409a60",
+      "to_sha": "026d33921e8876294db1f9ad43f986c8a61172f7"
     }
   ],
-  "opened_prs": [],
+  "opened_prs": [
+    {
+      "repository": "CANNON",
+      "number": 37,
+      "title": "CULTURE FORGE 001: actual native GrO × Harmony execution → printable cultural artifact + cold receipt",
+      "url": "https://github.com/the-static-collective/CANNON/pull/37",
+      "head_branch": "experiment/culture-forge-001-webz-gro",
+      "base_branch": "experiment/present-use-003"
+    },
+    {
+      "repository": "CANNON",
+      "number": 38,
+      "title": "GENESIS BOOT 001: CANNON executes original open-PR Suitcase A/B house composition across six repos",
+      "url": "https://github.com/the-static-collective/CANNON/pull/38",
+      "head_branch": "experiment/genesis-boot-001-cross-branch-a-b",
+      "base_branch": "experiment/culture-forge-001-webz-gro"
+    },
+    {
+      "repository": "CANNON",
+      "number": 39,
+      "title": "CULTURE FORGE 002: native CANNON → independently governed lemonPRESS HOLD/REFUSE",
+      "url": "https://github.com/the-static-collective/CANNON/pull/39",
+      "head_branch": "experiment/culture-forge-002-lemonpress-receiver",
+      "base_branch": "experiment/culture-forge-001-webz-gro"
+    },
+    {
+      "repository": "CANNON",
+      "number": 40,
+      "title": "CULTURE FORGE 003 — source-pinned Full Measure and PENNY review",
+      "url": "https://github.com/the-static-collective/CANNON/pull/40",
+      "head_branch": "experiment/culture-forge-003-fullmeasure-penny",
+      "base_branch": "experiment/culture-forge-002-lemonpress-receiver"
+    },
+    {
+      "repository": "CANNON",
+      "number": 41,
+      "title": "GENESIS BOOT 002: interactive Suitcase + native Warm Thread crossing across 11 original checkouts",
+      "url": "https://github.com/the-static-collective/CANNON/pull/41",
+      "head_branch": "experiment/genesis-boot-002-interactive-porch",
+      "base_branch": "experiment/genesis-boot-001-cross-branch-a-b"
+    },
+    {
+      "repository": "CANNON",
+      "number": 42,
+      "title": "CULTURE FORGE 004 — native GHoT and reLATTE signed return of a held cultural work",
+      "url": "https://github.com/the-static-collective/CANNON/pull/42",
+      "head_branch": "experiment/culture-forge-004-relatte-return",
+      "base_branch": "experiment/culture-forge-003-fullmeasure-penny"
+    },
+    {
+      "repository": "CANNON",
+      "number": 44,
+      "title": "CULTURE FORGE 005: signed cultural method returns to original planZ, GRAFT and JAR;VIS",
+      "url": "https://github.com/the-static-collective/CANNON/pull/44",
+      "head_branch": "experiment/culture-forge-005-planz-graft-jarvis-return",
+      "base_branch": "experiment/culture-forge-004-relatte-return"
+    },
+    {
+      "repository": "CANNON",
+      "number": 45,
+      "title": "CONSTELLATION-001: nine native source owners, replayable MIT/Voqal evidence desk",
+      "url": "https://github.com/the-static-collective/CANNON/pull/45",
+      "head_branch": "experiment/constellation-001",
+      "base_branch": "experiment/genesis-boot-001-cross-branch-a-b"
+    },
+    {
+      "repository": "CANNON",
+      "number": 47,
+      "title": "STRANGER ARCADE 002 — 50+ pinned public source lab and playful institutional review scaffold",
+      "url": "https://github.com/the-static-collective/CANNON/pull/47",
+      "head_branch": "experiment/constellation-002-stranger-arcade",
+      "base_branch": "experiment/constellation-001"
+    },
+    {
+      "repository": "CANNON",
+      "number": 48,
+      "title": "VOQAL SELF-APPLICATION 001: the source-verified machinery drafts its own human-first fellowship case",
+      "url": "https://github.com/the-static-collective/CANNON/pull/48",
+      "head_branch": "experiment/voqal-self-application-001",
+      "base_branch": "experiment/constellation-001"
+    },
+    {
+      "repository": "GRAFT",
+      "number": 11,
+      "title": "GRAFT 005: independently held culture-return nursery candidate",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/11",
+      "head_branch": "graft/culture-return-005",
+      "base_branch": "main"
+    },
+    {
+      "repository": "GrO",
+      "number": 32,
+      "title": "MATTERCRAFT-001: GrO 42 WOOD local encounters, witness dispute and held material transformation",
+      "url": "https://github.com/the-static-collective/GrO/pull/32",
+      "head_branch": "experiment/mattercraft-001-witness-encounter",
+      "base_branch": "main"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 27,
+      "title": "CULTURE ATTENTION 005: read held planZ × GRAFT cultural reuse",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/27",
+      "head_branch": "experiment/culture-return-005",
+      "base_branch": "main"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 28,
+      "title": "CONSTELLATION-001: exact-pinned local CANNON attendant with explicit authorization",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/28",
+      "head_branch": "experiment/constellation-001-attendant",
+      "base_branch": "main"
+    },
+    {
+      "repository": "lemonPRESS",
+      "number": 57,
+      "title": "CULTURE RECEIVER 002: native lemonPRESS HOLD / REFUSE for CANNON's real cultural artifacts",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/57",
+      "head_branch": "experiment/culture-forge-002-independent-hold",
+      "base_branch": "main"
+    },
+    {
+      "repository": "planZ",
+      "number": 35,
+      "title": "CULTURE RETURN 005: planZ owner-held candidate reuse, no automatic plan activation",
+      "url": "https://github.com/the-static-collective/planZ/pull/35",
+      "head_branch": "experiment/culture-return-005",
+      "base_branch": "main"
+    },
+    {
+      "repository": "static-os",
+      "number": 91,
+      "title": "SUITCASE-GENESIS-001: mission composer + offline first-signal physical bench",
+      "url": "https://github.com/the-static-collective/static-os/pull/91",
+      "head_branch": "experiment/suitcase-genesis-001-mission-composer",
+      "base_branch": "genesis-001-live-iso"
+    },
+    {
+      "repository": "static-os",
+      "number": 92,
+      "title": "GENESIS BOOT 003: source-native CANNON first boot integrated into real Debian Live ISO and QEMU gate",
+      "url": "https://github.com/the-static-collective/static-os/pull/92",
+      "head_branch": "experiment/genesis-boot-003-live-first-boot-iso",
+      "base_branch": "experiment/suitcase-genesis-001-mission-composer"
+    },
+    {
+      "repository": "static-os",
+      "number": 93,
+      "title": "GENESIS BOOT 004: Alpine + Fedora non-Debian native builds from 11 original open-PR histories",
+      "url": "https://github.com/the-static-collective/static-os/pull/93",
+      "head_branch": "experiment/genesis-boot-004-multidistro",
+      "base_branch": "experiment/genesis-boot-003-live-first-boot-iso"
+    },
+    {
+      "repository": "static-os",
+      "number": 94,
+      "title": "GENESIS BOOT 005: genuine Alpine Live ISO with source-pinned original CANNON first boot",
+      "url": "https://github.com/the-static-collective/static-os/pull/94",
+      "head_branch": "experiment/genesis-boot-005-alpine-live-iso",
+      "base_branch": "experiment/genesis-boot-004-multidistro"
+    },
+    {
+      "repository": "static-os",
+      "number": 95,
+      "title": "GENESIS BOOT 006: actual Nintendo Wii PowerPC Homebrew front door + offline SD → original CANNON",
+      "url": "https://github.com/the-static-collective/static-os/pull/95",
+      "head_branch": "experiment/genesis-boot-006-wii-native-porch",
+      "base_branch": "experiment/genesis-boot-005-alpine-live-iso"
+    },
+    {
+      "repository": "static-os",
+      "number": 96,
+      "title": "GENESIS BOOT 007: GameCube, Nintendo DS, ESP32, Android, Raspberry Pi, old-laptop ports",
+      "url": "https://github.com/the-static-collective/static-os/pull/96",
+      "head_branch": "experiment/genesis-boot-007-strange-nodes",
+      "base_branch": "experiment/genesis-boot-006-wii-native-porch"
+    },
+    {
+      "repository": "webZ",
+      "number": 177,
+      "title": "BRIDGE-005 — manually reviewed public-only source work card",
+      "url": "https://github.com/the-static-collective/webZ/pull/177",
+      "head_branch": "feat/bridge005-source-owned-work-card",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 187,
+      "title": "BRIDGE MIT-002: Living Suitcase × Mattercraft × Blueprint Foundry — current Solve presentation",
+      "url": "https://github.com/the-static-collective/webZ/pull/187",
+      "head_branch": "grant/mit-solve-2027-living-suitcase-door",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 193,
+      "title": "RECURSIVE-WORKSHOP-001: recover GHoT printer stack and compose held Suitcase successor",
+      "url": "https://github.com/the-static-collective/webZ/pull/193",
+      "head_branch": "experiment/capability-growth-print-shop-001",
+      "base_branch": "grant/mit-solve-2027-living-suitcase-door"
+    },
+    {
+      "repository": "webZ",
+      "number": 195,
+      "title": "VOQAL-007: widen Still Here to the First Circle Foundry without expanding the six-month pilot",
+      "url": "https://github.com/the-static-collective/webZ/pull/195",
+      "head_branch": "proposal/voqal-first-circle-foundry-007",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 196,
+      "title": "RELATIONAL-INHERITANCE-008: source-native signed founding without inherited authority, RDL research correspondence",
+      "url": "https://github.com/the-static-collective/webZ/pull/196",
+      "head_branch": "experiment/relational-inheritance-no-authority-008",
+      "base_branch": "proposal/voqal-first-circle-foundry-007"
+    },
+    {
+      "repository": "webZ",
+      "number": 198,
+      "title": "VOQAL-009: fund the Commons Circuit — weekly tables, steward relationships, potlucks, music & community festivals",
+      "url": "https://github.com/the-static-collective/webZ/pull/198",
+      "head_branch": "proposal/voqal-commons-circuit-009",
+      "base_branch": "experiment/relational-inheritance-no-authority-008"
+    },
+    {
+      "repository": "webZ",
+      "number": 199,
+      "title": "VOQAL-010: Harmony Park family festival grand finale after Commons Circuit mini-festival rehearsal",
+      "url": "https://github.com/the-static-collective/webZ/pull/199",
+      "head_branch": "proposal/harmony-park-grand-finale-010",
+      "base_branch": "proposal/voqal-commons-circuit-009"
+    }
+  ],
   "left_open_prs": []
 }
