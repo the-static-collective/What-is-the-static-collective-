@@ -186,12 +186,13 @@ Default: `main` · other refs: 98 · open PRs: 57
 
 [Repository](https://github.com/the-static-collective/static-os) · [Branches](https://github.com/the-static-collective/static-os/branches) · [Pull requests](https://github.com/the-static-collective/static-os/pulls)
 
-Default: `main` · other refs: 80 · open PRs: 77
+Default: `main` · other refs: 81 · open PRs: 78
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#97](https://github.com/the-static-collective/static-os/pull/97) | GENESIS 008: universal cartridges × museum of unfinished futures × recursive festival | `experiment/genesis-boot-008-universal-cartridge-festival` → `experiment/genesis-boot-007-strange-nodes` | 2026-10-29 |
 | [#96](https://github.com/the-static-collective/static-os/pull/96) | GENESIS BOOT 007: GameCube, Nintendo DS, ESP32, Android, Raspberry Pi, old-laptop ports | `experiment/genesis-boot-007-strange-nodes` → `experiment/genesis-boot-006-wii-native-porch` | 2026-10-29 |
 | [#95](https://github.com/the-static-collective/static-os/pull/95) | GENESIS BOOT 006: actual Nintendo Wii PowerPC Homebrew front door + offline SD → original CANNON | `experiment/genesis-boot-006-wii-native-porch` → `experiment/genesis-boot-005-alpine-live-iso` | 2026-10-29 |
 | [#94](https://github.com/the-static-collective/static-os/pull/94) | GENESIS BOOT 005: genuine Alpine Live ISO with source-pinned original CANNON first boot | `experiment/genesis-boot-005-alpine-live-iso` → `experiment/genesis-boot-004-multidistro` | 2026-10-29 |
@@ -301,6 +302,7 @@ Default: `main` · other refs: 80 · open PRs: 77
 | [experiment/genesis-boot-005-alpine-live-iso](https://github.com/the-static-collective/static-os/tree/experiment/genesis-boot-005-alpine-live-iso) | [1f41c91921](https://github.com/the-static-collective/static-os/commit/1f41c919211b42b0549be8680b0aecb648943ba1) | [open PR #94](https://github.com/the-static-collective/static-os/pull/94) |
 | [experiment/genesis-boot-006-wii-native-porch](https://github.com/the-static-collective/static-os/tree/experiment/genesis-boot-006-wii-native-porch) | [ccfe372031](https://github.com/the-static-collective/static-os/commit/ccfe372031bb131e6a590ea4f2b9dbde8d377f57) | [open PR #95](https://github.com/the-static-collective/static-os/pull/95) |
 | [experiment/genesis-boot-007-strange-nodes](https://github.com/the-static-collective/static-os/tree/experiment/genesis-boot-007-strange-nodes) | [1de22f5f5f](https://github.com/the-static-collective/static-os/commit/1de22f5f5fc037fa3d2893c545c9ec7c79550b7c) | [open PR #96](https://github.com/the-static-collective/static-os/pull/96) |
+| [experiment/genesis-boot-008-universal-cartridge-festival](https://github.com/the-static-collective/static-os/tree/experiment/genesis-boot-008-universal-cartridge-festival) | [b4cf776fae](https://github.com/the-static-collective/static-os/commit/b4cf776fae485b9035812196db7abb6553a78972) | [open PR #97](https://github.com/the-static-collective/static-os/pull/97) |
 | [experiment/glean-001-steward-remainder](https://github.com/the-static-collective/static-os/tree/experiment/glean-001-steward-remainder) | [1190446dd0](https://github.com/the-static-collective/static-os/commit/1190446dd09e158491d79c36dad6502027c98a9d) | Retained ref; disposition unverified |
 | [experiment/kettlenode-001-energy-gate](https://github.com/the-static-collective/static-os/tree/experiment/kettlenode-001-energy-gate) | [99d3a12faf](https://github.com/the-static-collective/static-os/commit/99d3a12faf1cd5502793091a0ac99754a75d39fc) | [open PR #78](https://github.com/the-static-collective/static-os/pull/78) |
 | [experiment/kettlenode-002-heat-commons](https://github.com/the-static-collective/static-os/tree/experiment/kettlenode-002-heat-commons) | [af09cddbdb](https://github.com/the-static-collective/static-os/commit/af09cddbdb8a7854890b10013cbdce40193f0fc4) | [open PR #81](https://github.com/the-static-collective/static-os/pull/81) |

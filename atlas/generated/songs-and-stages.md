@@ -15,12 +15,13 @@ Musical encounters, creative crossings, performance, and their receipts.
 
 [Repository](https://github.com/the-static-collective/band-runtime) · [Branches](https://github.com/the-static-collective/band-runtime/branches) · [Pull requests](https://github.com/the-static-collective/band-runtime/pulls)
 
-Default: `main` · other refs: 17 · open PRs: 1
+Default: `main` · other refs: 18 · open PRs: 2
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#26](https://github.com/the-static-collective/band-runtime/pull/26) | ROOM-BAND-001: original Band Runtime witnesses synthetic Groove correspondence without semantic promotion | `experiment/creative-room-001` → `main` | 2026-10-29 |
 | [#20](https://github.com/the-static-collective/band-runtime/pull/20) | Band Runtime: adopt body surface v0 | `agent/body-surface-standard-v0` → `main` | 2026-09-18 |
 
 ### Retained nondefault branches
@@ -35,6 +36,7 @@ Default: `main` · other refs: 17 · open PRs: 1
 | [design/help-slip-holding-basket-001](https://github.com/the-static-collective/band-runtime/tree/design/help-slip-holding-basket-001) | [7cdd63ff6a](https://github.com/the-static-collective/band-runtime/commit/7cdd63ff6a11f2d76ca54e5b2d3303340bf1d6ff) | Retained ref; disposition unverified |
 | [docs/receive-hold-pour-node-boundary](https://github.com/the-static-collective/band-runtime/tree/docs/receive-hold-pour-node-boundary) | [e855ae0077](https://github.com/the-static-collective/band-runtime/commit/e855ae0077444b623fd382a4152a8ec363b032e0) | Retained ref; disposition unverified |
 | [docs/runtime-status-handoff](https://github.com/the-static-collective/band-runtime/tree/docs/runtime-status-handoff) | [f32c4bbd08](https://github.com/the-static-collective/band-runtime/commit/f32c4bbd0876ba6df49d43fe1833b18cc65a86c1) | Retained ref; disposition unverified |
+| [experiment/creative-room-001](https://github.com/the-static-collective/band-runtime/tree/experiment/creative-room-001) | [081c5742da](https://github.com/the-static-collective/band-runtime/commit/081c5742dae49153a3b554db1f2f9be48078a93e) | [open PR #26](https://github.com/the-static-collective/band-runtime/pull/26) |
 | [feat/capture-001-witness-spine](https://github.com/the-static-collective/band-runtime/tree/feat/capture-001-witness-spine) | [e1198f3cac](https://github.com/the-static-collective/band-runtime/commit/e1198f3cac876d8c81740c0eb4ec53db46533aad) | Retained ref; disposition unverified |
 | [feat/first-mcp-admission-tool](https://github.com/the-static-collective/band-runtime/tree/feat/first-mcp-admission-tool) | [4efcbf2f7f](https://github.com/the-static-collective/band-runtime/commit/4efcbf2f7ff75e35f473438b4dfde330236f20ff) | Retained ref; disposition unverified |
 | [feat/first-vertical-slice-12488053708411637009](https://github.com/the-static-collective/band-runtime/tree/feat/first-vertical-slice-12488053708411637009) | [3a36684b79](https://github.com/the-static-collective/band-runtime/commit/3a36684b79483c568bd685068f01c684aaa79345) | Retained ref; disposition unverified |

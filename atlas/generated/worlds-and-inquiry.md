@@ -179,12 +179,16 @@ Default: `main` · other refs: 77 · open PRs: 12
 
 [Repository](https://github.com/the-static-collective/static-field) · [Branches](https://github.com/the-static-collective/static-field/branches) · [Pull requests](https://github.com/the-static-collective/static-field/pulls)
 
-Default: `main` · other refs: 10 · open PRs: 8
+Default: `main` · other refs: 14 · open PRs: 12
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#16](https://github.com/the-static-collective/static-field/pull/16) | WORLD BREEDER 011 — two sovereign game worlds invent a third rule | `experiment/world-breeder-011` → `experiment/living-world-atlas-010` | 2026-10-30 |
+| [#15](https://github.com/the-static-collective/static-field/pull/15) | LIVING WORLD ATLAS 010 — independent party worlds, mail, forks and constellations | `experiment/living-world-atlas-010` → `experiment/expansion-forge-009` | 2026-10-30 |
+| [#14](https://github.com/the-static-collective/static-field/pull/14) | EXPANSION FORGE 009 — Little Yes parties generate playable, source-bound new games | `experiment/expansion-forge-009` → `experiment/little-yes-field-008` | 2026-10-30 |
+| [#13](https://github.com/the-static-collective/static-field/pull/13) | LITTLE YES FIELD 008 — living deck doorway to cooperative railway + Earth Remembers | `experiment/little-yes-field-008` → `experiment/postemahhn-living-deck-001` | 2026-10-29 |
 | [#12](https://github.com/the-static-collective/static-field/pull/12) | EXPERIMENT: PostEmahh'n Living Deck 001 — cards × stickers × Fellowship Table | `experiment/postemahhn-living-deck-001` → `main` | 2026-09-24 |
 | [#8](https://github.com/the-static-collective/static-field/pull/8) | VISUAL-001: illustrated cards and dimensional table feedback | `experiment/wormhole-wars-004-visual-pass` → `experiment/wormhole-wars-003-table-world` | 2026-09-21 |
 | [#7](https://github.com/the-static-collective/static-field/pull/7) | PLAY-SEEDPLATE-001: four-donor playable UX composer | `experiment/play-seedplate-001` → `main` | 2026-09-21 |
@@ -200,8 +204,12 @@ Default: `main` · other refs: 10 · open PRs: 8
 | --- | --- | --- |
 | [assets/first-bell-porch-3d-001](https://github.com/the-static-collective/static-field/tree/assets/first-bell-porch-3d-001) | [0250e5a7cc](https://github.com/the-static-collective/static-field/commit/0250e5a7cc3493b50040a5dbe4a06a263e2c0abb) | Retained ref; disposition unverified |
 | [assets/first-bell-porch-portable-glb-001](https://github.com/the-static-collective/static-field/tree/assets/first-bell-porch-portable-glb-001) | [8893762805](https://github.com/the-static-collective/static-field/commit/8893762805e40e47812ca2f09c4dd3df9a37ec7b) | Retained ref; disposition unverified |
+| [experiment/expansion-forge-009](https://github.com/the-static-collective/static-field/tree/experiment/expansion-forge-009) | [a37d12b537](https://github.com/the-static-collective/static-field/commit/a37d12b5379097c0b75c60193277a34730570c29) | [open PR #14](https://github.com/the-static-collective/static-field/pull/14) |
+| [experiment/little-yes-field-008](https://github.com/the-static-collective/static-field/tree/experiment/little-yes-field-008) | [74fdf74db6](https://github.com/the-static-collective/static-field/commit/74fdf74db6fa352a40ba3ed96805b23f5750271f) | [open PR #13](https://github.com/the-static-collective/static-field/pull/13) |
+| [experiment/living-world-atlas-010](https://github.com/the-static-collective/static-field/tree/experiment/living-world-atlas-010) | [2a40607831](https://github.com/the-static-collective/static-field/commit/2a40607831167b237a2d3cdebb6d840db0b9e745) | [open PR #15](https://github.com/the-static-collective/static-field/pull/15) |
 | [experiment/play-seedplate-001](https://github.com/the-static-collective/static-field/tree/experiment/play-seedplate-001) | [50a2c2c48f](https://github.com/the-static-collective/static-field/commit/50a2c2c48f5cc18a00fd860861d0fe1efd3e49c5) | [open PR #7](https://github.com/the-static-collective/static-field/pull/7) |
 | [experiment/postemahhn-living-deck-001](https://github.com/the-static-collective/static-field/tree/experiment/postemahhn-living-deck-001) | [80b08f7a45](https://github.com/the-static-collective/static-field/commit/80b08f7a45f6957239582091536ea9528df7a1b7) | [open PR #12](https://github.com/the-static-collective/static-field/pull/12) |
+| [experiment/world-breeder-011](https://github.com/the-static-collective/static-field/tree/experiment/world-breeder-011) | [8c8ed28eb6](https://github.com/the-static-collective/static-field/commit/8c8ed28eb676940c031bfd1bb8f08c46107f0a04) | [open PR #16](https://github.com/the-static-collective/static-field/pull/16) |
 | [experiment/wormhole-wars-001](https://github.com/the-static-collective/static-field/tree/experiment/wormhole-wars-001) | [e75221c6a3](https://github.com/the-static-collective/static-field/commit/e75221c6a3cec8686968d1892dc001fae17f3e0f) | [open PR #3](https://github.com/the-static-collective/static-field/pull/3) |
 | [experiment/wormhole-wars-002-receiving-world](https://github.com/the-static-collective/static-field/tree/experiment/wormhole-wars-002-receiving-world) | [c64a417f3a](https://github.com/the-static-collective/static-field/commit/c64a417f3a54df3b14b557e3b976cabe3a601378) | [open PR #5](https://github.com/the-static-collective/static-field/pull/5) |
 | [experiment/wormhole-wars-003-table-world](https://github.com/the-static-collective/static-field/tree/experiment/wormhole-wars-003-table-world) | [19e200a03d](https://github.com/the-static-collective/static-field/commit/19e200a03d26c86de26c80535552fe538a3fe119) | [open PR #6](https://github.com/the-static-collective/static-field/pull/6) |

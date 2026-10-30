@@ -223,12 +223,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/revival) · [Branches](https://github.com/the-static-collective/revival/branches) · [Pull requests](https://github.com/the-static-collective/revival/pulls)
 
-Default: `main` · other refs: 15 · open PRs: 2
+Default: `main` · other refs: 16 · open PRs: 3
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#16](https://github.com/the-static-collective/revival/pull/16) | REVIVAL-016: Inheritance Constellation — 16 source owners and 840 held questions | `experiment/revival-inheritance-constellation-016` → `build/jubilee-scripture-door-001` | 2026-10-30 |
 | [#15](https://github.com/the-static-collective/revival/pull/15) | JUBILEE SCRIPTURE DOOR — pinned Genesis export and read-only lookup | `build/jubilee-scripture-door-001` → `main` | 2026-10-11 |
 | [#13](https://github.com/the-static-collective/revival/pull/13) | DOOR PACKET 001 — hold external Scripture doors without source promotion | `feat/door-packet-001` → `main` | 2026-10-06 |
 
@@ -237,6 +238,7 @@ Default: `main` · other refs: 15 · open PRs: 2
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
 | [build/jubilee-scripture-door-001](https://github.com/the-static-collective/revival/tree/build/jubilee-scripture-door-001) | [cc48fcf1eb](https://github.com/the-static-collective/revival/commit/cc48fcf1eb469dd998c1317abce21be00a9429b4) | [open PR #15](https://github.com/the-static-collective/revival/pull/15) |
+| [experiment/revival-inheritance-constellation-016](https://github.com/the-static-collective/revival/tree/experiment/revival-inheritance-constellation-016) | [cc9db9cc8a](https://github.com/the-static-collective/revival/commit/cc9db9cc8a871b0d5ca6594cf712ad5356072a71) | [open PR #16](https://github.com/the-static-collective/revival/pull/16) |
 | [feat/door-packet-001](https://github.com/the-static-collective/revival/tree/feat/door-packet-001) | [47a6ee01c7](https://github.com/the-static-collective/revival/commit/47a6ee01c721ad4eca7f8260e9cb8875bbe37e28) | [open PR #13](https://github.com/the-static-collective/revival/pull/13) |
 | [genesis-001-executable-kernel](https://github.com/the-static-collective/revival/tree/genesis-001-executable-kernel) | [ec5b7c64b1](https://github.com/the-static-collective/revival/commit/ec5b7c64b1472e77a178f34d619cf383e98b9e37) | Retained ref; disposition unverified |
 | [revival-002-curiosity-compiler](https://github.com/the-static-collective/revival/tree/revival-002-curiosity-compiler) | [5f45217a5e](https://github.com/the-static-collective/revival/commit/5f45217a5e643a0af2b2471d5a7347df7d627dcb) | Retained ref; disposition unverified |

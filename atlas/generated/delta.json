@@ -1,635 +1,1229 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-28T14:01:15+00:00",
-  "to_captured_at": "2026-10-29T14:16:06+00:00",
+  "from_captured_at": "2026-10-29T14:16:06+00:00",
+  "to_captured_at": "2026-10-30T14:06:31+00:00",
   "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "CANNON",
-      "branch": "experiment/constellation-001",
-      "sha": "32979819f5bf7e35dcb19d30fc8ffdeb8c81ccb1"
+      "repository": "band-runtime",
+      "branch": "experiment/creative-room-001",
+      "sha": "081c5742dae49153a3b554db1f2f9be48078a93e"
     },
     {
       "repository": "CANNON",
-      "branch": "experiment/constellation-002-stranger-arcade",
-      "sha": "c5031495424abcd6141d546a1f85a5e781539072"
+      "branch": "experiment/constellation-002-native-machine",
+      "sha": "f99d4b0f74b117e0af034137d550e88aa3d01f26"
     },
     {
       "repository": "CANNON",
-      "branch": "experiment/culture-forge-001-webz-gro",
-      "sha": "cb7f14b71e7e26456097abd7b0e78a49f50c64eb"
+      "branch": "experiment/constellation-003-creative-bridge",
+      "sha": "9c31009cda0a9d93413451a37896ae939c0112bc"
     },
     {
       "repository": "CANNON",
-      "branch": "experiment/culture-forge-002-lemonpress-receiver",
-      "sha": "864aac4b71111a7ac76807abeceb18d6b523817c"
+      "branch": "experiment/creative-engine-001",
+      "sha": "b87e62ab59e3e69fdb486a6037ed110eb4c347ea"
     },
     {
       "repository": "CANNON",
-      "branch": "experiment/culture-forge-003-fullmeasure-penny",
-      "sha": "41cca1eac0749658e07dfb7a2e4f943234e68f1d"
+      "branch": "experiment/film-press-001",
+      "sha": "3beedd17c5f881f104b5e1f3a0ad86319de2c111"
     },
     {
       "repository": "CANNON",
-      "branch": "experiment/culture-forge-003-use-capacity-penny",
-      "sha": "864aac4b71111a7ac76807abeceb18d6b523817c"
+      "branch": "experiment/groovetown-001",
+      "sha": "076305540707913b1e2998f62dc90b94cc031c00"
     },
     {
       "repository": "CANNON",
-      "branch": "experiment/culture-forge-004-relatte-return",
-      "sha": "307fa96d83b40e9a09827eef2f89fe37b8ba78ce"
+      "branch": "experiment/groovetown-002-particularity",
+      "sha": "0dcf4a84c0b6520656d9cfd119fb2e784e0b44e1"
     },
     {
       "repository": "CANNON",
-      "branch": "experiment/culture-forge-005-planz-graft-jarvis-return",
-      "sha": "479458216ccc5546ad6947ec36ba282aadbefdac"
+      "branch": "experiment/groovetown-003-cooperative-compiler",
+      "sha": "6101cc91af71d7bdcfe73423f281273dad5d2197"
     },
     {
       "repository": "CANNON",
-      "branch": "experiment/genesis-boot-001-cross-branch-a-b",
-      "sha": "bb57e71151bca1eb245abfc82cf74047e9105169"
+      "branch": "experiment/groovetown-004-reciprocity-reactor",
+      "sha": "9f5ff6d1d40ecaa85367a553fbe805a03d25e201"
     },
     {
       "repository": "CANNON",
-      "branch": "experiment/genesis-boot-002-interactive-porch",
-      "sha": "92a73324ec6918765cbd15b7a12cb83878b403eb"
+      "branch": "experiment/groovetown-005-impossibility-foundry",
+      "sha": "1910d9ab064f683f63d396a259bcdb977508b01e"
     },
     {
       "repository": "CANNON",
-      "branch": "experiment/voqal-self-application-001",
-      "sha": "bd1c7e4ac9f1e658b25bb325c2934f6508df4640"
+      "branch": "experiment/groovetown-006-invention-ecosystem",
+      "sha": "beb006e236f099fa5d40c2f01ea0aa9a2126f39a"
     },
     {
-      "repository": "full-measure-world-layer",
-      "branch": "feat/commons-return-lens-001",
-      "sha": "59b3f9f5fafd36f6e10c25d9043380ae773d81c2"
+      "repository": "CANNON",
+      "branch": "experiment/guest-concourse-003",
+      "sha": "2ef80372025576c5306ea75d43175c9d094c1b4a"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-001-first-reflex",
+      "sha": "39fdfb2612a572d6a046fe5fa8f192cd0189cc94"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-002-plan-to-pixels",
+      "sha": "1e3a0e14f09b327a5f496d19d76c85bc9b278728"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-003-reflex-library",
+      "sha": "a1e43996bd2cc507bbec77e8c64dd271ee3cad4d"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-004-reflex-composer",
+      "sha": "932c3400903123630d1dc6957ee38ae955944930"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-005-lung-to-reflex",
+      "sha": "ff9aaa9be1939e9750bdae9fab93c330ff00329f"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-006-mutation-lab",
+      "sha": "823111eb6ad151a4c5853aed60446d432d4a9677"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-007-compass-triangulation",
+      "sha": "4aa03263660678973ca5b0683d64c5667d1665f5"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-008-real-contract-address",
+      "sha": "b75e1fa9eb784f7b88796416a5d41d4aaeab7c5e"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-009-content-grounding",
+      "sha": "dcc0af67aea8812590f6bd00f8776cbf1136a59a"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-010-truth-first-compiler",
+      "sha": "e135756a31a1f4e71db87d951701cb61be4c3f74"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-011-national-treasure-question-box",
+      "sha": "7310a80dbaf9b61ebb5c24bbf1b6beaf2a1572d4"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-012-question-experiment-loop",
+      "sha": "7ea2c37f02ec61226c8371620dbad48e3d7ed5c0"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-013-multi-repo-question-atlas",
+      "sha": "8e641a8aecee4e1cc9c9a6a3e62e02e0f3f5e5cc"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-014-playdeck-toaster-red-gate",
+      "sha": "6b79a6ba98a5cb3ef4a130cfcc414f0a57d9cdeb"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/inspand-015-playdeck-toaster-native-still",
+      "sha": "49c4dcd6366bc6836f5c0e6a99d5803f7e34fa70"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/one-invention-plan-return-006",
+      "sha": "f9ab8a5dfeee8e383d622d5a17a1f9311f7ae9ad"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/one-invention-seven-005",
+      "sha": "ab1f70e6adf58d7bd503b2c1153c3e2154539a7d"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/phono-live-001",
+      "sha": "36874b172bb49549b66a4cefa1261805fc2afde2"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/reactor-book-003",
+      "sha": "12668486cee709b80cd9675ca3418a254c0dd756"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/reactor-seven-native-004",
+      "sha": "3d7ace98e74a225acace43751c48d4b228569c46"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/reality2-little-yes-express-007",
+      "sha": "d634b9fb0ed1e9df9224fdc76cef279b5b40e4d4"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/room-vinyl-001",
+      "sha": "d1d22a55ef7d7858be12b10184796b55211b55cd"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/root-nested-seven-cycle-007",
+      "sha": "fb5e599ec8b5791c6798e11023f89afb1202329b"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/season-001-field-witness",
+      "sha": "63925118a42ef307fa274443fa9f81957c5a6682"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/story-rooms-005-native-culture-replay",
+      "sha": "7d7dd1c1af9ae1013bb0d9664d2f68a68d35d429"
+    },
+    {
+      "repository": "CANNON",
+      "branch": "experiment/voqal-self-application-002-native-evidence",
+      "sha": "3ec5715edb230e6e53b2bdfd5e55ed9063d8bdce"
     },
     {
       "repository": "GRAFT",
-      "branch": "graft/culture-return-005",
-      "sha": "78976228eba243acb489c0aa9c501128904fbda6"
+      "branch": "graft/unfutures-001-possibility-exchange",
+      "sha": "75164d6119fc181ef813a90281433b471b98489d"
     },
     {
-      "repository": "GrO",
-      "branch": "experiment/mattercraft-001-witness-encounter",
-      "sha": "9e6361105aae335ccb0657092809eef43e7ab4da"
+      "repository": "GRAFT",
+      "branch": "graft/unfutures-002-reciprocity-reactor",
+      "sha": "7268435ef01d072b1415759bb1cdfdd47dd43926"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/unfutures-003-generative-economy",
+      "sha": "d1ecdacbe74ec4b536b7eaf7a1e220a72095bce2"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/unfutures-004-economic-imagination",
+      "sha": "ca80e108d30555b6e4f5729fa284372eebd9223c"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/unfutures-005-dogram-experiment",
+      "sha": "b6cf9b956765030f488f5774a26c6a84b11a6433"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/unfutures-006-dogram-allocation",
+      "sha": "3ad4a06d9899d954056492d32fe76ee9d6fc090c"
+    },
+    {
+      "repository": "iron-lung",
+      "branch": "experiment/compass-actual-contracts-004",
+      "sha": "4f0218070b283ccb05835553f9e50ba2b45d8531"
+    },
+    {
+      "repository": "iron-lung",
+      "branch": "experiment/compass-content-005",
+      "sha": "5cd0d4280fddefc650ee3538e98f5b41ffb70086"
+    },
+    {
+      "repository": "iron-lung",
+      "branch": "experiment/compass-dyad-003",
+      "sha": "6159d4c45d96e51922413c5e5aaf2461ae576a6e"
+    },
+    {
+      "repository": "iron-lung",
+      "branch": "experiment/nt-question-cycle-006",
+      "sha": "30126b936ed948b793828cdede744344affb9370"
+    },
+    {
+      "repository": "iron-lung",
+      "branch": "experiment/t5-triple-002-mutation-pressure",
+      "sha": "955e2f39493ca4b429969ad268a7e31a3d546445"
+    },
+    {
+      "repository": "iron-lung",
+      "branch": "experiment/triple-transfer-t5-001",
+      "sha": "955e2f39493ca4b429969ad268a7e31a3d546445"
     },
     {
       "repository": "JAR-VIS",
-      "branch": "experiment/constellation-001-attendant",
-      "sha": "cb794d471877d729df61294255604621291df7d8"
+      "branch": "experiment/constellation-002-22-owner-attendant",
+      "sha": "27b44c172ab42c316ec2d99d78a079ef05b48e8a"
     },
     {
       "repository": "JAR-VIS",
-      "branch": "experiment/culture-return-005",
-      "sha": "98388d1bef8e876a5a72e7c20fe6d81d481caae2"
+      "branch": "experiment/constellation-002-operator",
+      "sha": "1571061701ddf968df925257ccff8f1b37c2ab6d"
     },
     {
       "repository": "JAR-VIS",
-      "branch": "experiment/suno-mcp-song-garden-001",
-      "sha": "cb1fdad10cc1ae3c9f54f2bed50e340c6719d0f2"
+      "branch": "experiment/inspand-003-reflex-attendant",
+      "sha": "4ba71cef35d59bb5bacab6abb76d77929f420d4f"
     },
     {
       "repository": "JAR-VIS",
-      "branch": "feat/bridge005-receiver-work-card",
-      "sha": "3007ebac2861d7d7aff55b16f519d817cd5d6ce2"
+      "branch": "experiment/inspand-004-composition-attendant",
+      "sha": "040752770385dd3f0ddbe91d02b9e48237c0b612"
     },
     {
       "repository": "JAR-VIS",
-      "branch": "feat/planz-owner-attention-001",
-      "sha": "42b4eac3c261a701571d35bd2a3fc9718e6bd004"
+      "branch": "experiment/maddclown-slots-004",
+      "sha": "1660e98a3e456e2a1fdfe098d1b3cd0277e5db32"
     },
     {
       "repository": "JAR-VIS",
-      "branch": "feat/planz-work-return-001",
-      "sha": "1da7fe37d05a2fd249112eba2f10e7e0804b3db3"
+      "branch": "experiment/nourish-banana-attendant-018",
+      "sha": "206c23f15510961976db7e89df433c124f2ea83a"
     },
     {
       "repository": "JAR-VIS",
-      "branch": "feature/harmony-public-source-001",
-      "sha": "c9b8341f2eff16105f58dcd5bb9031245bcb0558"
+      "branch": "experiment/season-001-witness-attendant",
+      "sha": "5754fab77a6771fcbd075ea68c16e537279ed237"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "experiment/stranger-cabaret-003",
+      "sha": "3d93867898eac44d5f54d79251ea90a6ee9b50c9"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "experiment/thought-food-001-creative-pantry",
+      "sha": "28d46f26ae373cb20f4fc288c21b891fe97a6f68"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "experiment/toaster-crossing-005-offer",
+      "sha": "0bba5fa3381fe7475b021cd35e56309ae5817aa2"
     },
     {
       "repository": "lemonPRESS",
-      "branch": "experiment/culture-forge-002-independent-hold",
-      "sha": "f091e73d2f64b2237ee828010ae244b39e4070b8"
+      "branch": "experiment/fencepost-001-reverse-seismograph",
+      "sha": "e760319a3b6bb1eca943b8c0827ac4ce54b02e3e"
+    },
+    {
+      "repository": "lemonPRESS",
+      "branch": "experiment/fencepost-audio-key-005",
+      "sha": "08a2e7adf5a8f744e26922f1ba879e7415cee22a"
+    },
+    {
+      "repository": "lemonPRESS",
+      "branch": "experiment/fencepost-groovevault-004",
+      "sha": "a97eef7fe3e0198b007b31def4fe1d45ee5e7d6c"
+    },
+    {
+      "repository": "lemonPRESS",
+      "branch": "experiment/fencepost-return-press-006",
+      "sha": "fe1d154fa3b76d933016634683a4d743a02a0338"
+    },
+    {
+      "repository": "lemonPRESS",
+      "branch": "experiment/fencepost-reverse-seismograph-001",
+      "sha": "5694b475296d63e04bbcec56ec5e539a5b442080"
+    },
+    {
+      "repository": "lemonPRESS",
+      "branch": "experiment/machine-manuscript-001",
+      "sha": "aae960f13d45eb4713460ed9660b7baf5ba3c473"
+    },
+    {
+      "repository": "lemonPRESS",
+      "branch": "experiment/opf-vinyl-preflight-001",
+      "sha": "c96738e8333b3f75e1c485b8e25f276c4da68f8a"
     },
     {
       "repository": "planZ",
-      "branch": "experiment/culture-return-005",
-      "sha": "ca050aeb94dfe73a719513cb5cb8dad58ab2783a"
+      "branch": "experiment/nested-seven-planning-cycle-003",
+      "sha": "336e03879fc230fcc3bea4b13c78f0f4919d13a0"
     },
     {
       "repository": "planZ",
-      "branch": "feat/bridge005-receiver-work-card",
-      "sha": "fb55004ed4b79686ec045eb05dc0c31ba2761253"
+      "branch": "experiment/recursive-plan-reactor-001",
+      "sha": "64ed8a376acd63a5d630e1649b6001fb3b3251de"
     },
     {
       "repository": "planZ",
-      "branch": "feat/planz-jarvis-attention-001",
-      "sha": "0c19aa6f83d899620c22eb7ea79d3aa2488cd2cc"
+      "branch": "experiment/return-seven-native-002",
+      "sha": "c94c2091d2d121def39d85981d8c323f5724f6e7"
     },
     {
       "repository": "planZ",
-      "branch": "feat/return-triage-001",
-      "sha": "83248c49eb1a90dbc328d7efb353c17a3ff54cf1"
+      "branch": "experiment/story-rooms-004-four-lens-return",
+      "sha": "2507c36c0dc832b49b67d3c8b975544b5a53a84c"
     },
     {
-      "repository": "reLATTE",
-      "branch": "feat/bridge005-review-only-signed-crossing",
-      "sha": "bf6e73bd88a88e7d5a8eb7436de34916ea70f8e7"
+      "repository": "revival",
+      "branch": "experiment/revival-inheritance-constellation-016",
+      "sha": "cc9db9cc8a871b0d5ca6594cf712ad5356072a71"
     },
     {
-      "repository": "reLATTE",
-      "branch": "feat/planz-return-transport-001",
-      "sha": "4b905a2de7eae9a55f49091f5229cc25fa478307"
+      "repository": "static-field",
+      "branch": "experiment/expansion-forge-009",
+      "sha": "a37d12b5379097c0b75c60193277a34730570c29"
     },
     {
-      "repository": "reLATTE",
-      "branch": "fix/planz-return-payload-binding",
-      "sha": "5c7b3ebbee4fb4f56d215da3c1f943bf2431ca35"
+      "repository": "static-field",
+      "branch": "experiment/little-yes-field-008",
+      "sha": "74fdf74db6fa352a40ba3ed96805b23f5750271f"
     },
     {
-      "repository": "static-os",
-      "branch": "experiment/genesis-boot-003-live-first-boot-iso",
-      "sha": "730c0edb4a720dff92541d20be241067c6fa06ac"
+      "repository": "static-field",
+      "branch": "experiment/living-world-atlas-010",
+      "sha": "2a40607831167b237a2d3cdebb6d840db0b9e745"
     },
     {
-      "repository": "static-os",
-      "branch": "experiment/genesis-boot-004-multidistro",
-      "sha": "914c4bbe7c0d39e7f875c931eb176ba37b59c4c7"
-    },
-    {
-      "repository": "static-os",
-      "branch": "experiment/genesis-boot-005-alpine-live-iso",
-      "sha": "1f41c919211b42b0549be8680b0aecb648943ba1"
+      "repository": "static-field",
+      "branch": "experiment/world-breeder-011",
+      "sha": "8c8ed28eb676940c031bfd1bb8f08c46107f0a04"
     },
     {
       "repository": "static-os",
-      "branch": "experiment/genesis-boot-006-wii-native-porch",
-      "sha": "ccfe372031bb131e6a590ea4f2b9dbde8d377f57"
+      "branch": "experiment/genesis-boot-008-universal-cartridge-festival",
+      "sha": "b4cf776fae485b9035812196db7abb6553a78972"
     },
     {
-      "repository": "static-os",
-      "branch": "experiment/genesis-boot-007-strange-nodes",
-      "sha": "1de22f5f5fc037fa3d2893c545c9ec7c79550b7c"
+      "repository": "the-haunted-toaster",
+      "branch": "experiment/maddclown-six-films-006",
+      "sha": "b9cdd0533c34635a84d4a83bbcb1ae1cbf81a9fa"
     },
     {
-      "repository": "static-os",
-      "branch": "experiment/suitcase-genesis-001-mission-composer",
-      "sha": "b02b5016cbd5bf2f73d758d5ed1416246b789157"
-    },
-    {
-      "repository": "webZ",
-      "branch": "experiment/capability-growth-print-shop-001",
-      "sha": "0f0259e91d79ceed7b22d458f2429292c8609d9e"
+      "repository": "the-haunted-toaster",
+      "branch": "experiment/stranger-native-005",
+      "sha": "1675fc4fc33b7ee38e940386145a9ad8351d450a"
     },
     {
       "repository": "webZ",
-      "branch": "experiment/relational-inheritance-no-authority-008",
-      "sha": "8bb56a83f653a8e8dbe16685b210bb7140002a2d"
+      "branch": "experiment/finite-delight-time-back-001",
+      "sha": "aabb5ef1722ee32e66d1e2e93f0e4624160e480c"
     },
     {
       "repository": "webZ",
-      "branch": "feat/abundent-link-wallet-001",
-      "sha": "d7f541d9d5754191bdf2720e5a5f2ad8db52a2fb"
+      "branch": "experiment/first-inch-002-six-up-dogram-planner",
+      "sha": "4e81980b986d549f10104bf3f86d4ecb5085241d"
     },
     {
       "repository": "webZ",
-      "branch": "feat/bridge-institutional-relations-003",
-      "sha": "b8b2446fbf78f74eee902c901700d252b5ad126c"
+      "branch": "experiment/first-inch-003-real-source-constellation",
+      "sha": "86baa619973e39b22ec9c1cec59620a2cfd9df51"
     },
     {
       "repository": "webZ",
-      "branch": "feat/bridge-ledger-004-encrypted-operator-desk",
-      "sha": "32d55df0e958164eb7e8dfe04cc180fc1062f015"
+      "branch": "experiment/timeback-film-grammar-001",
+      "sha": "3a4e9f679a92c2545c474723682e8b1311dc2e76"
     },
     {
       "repository": "webZ",
-      "branch": "feat/bridge005-source-owned-work-card",
-      "sha": "0a7449feb54390f164c1dd3bc6788620a89a16a4"
+      "branch": "experiment/timeback-source-owned-creative-001",
+      "sha": "ac235265df4283e20e8d9b15178788a0412d20d4"
     },
     {
       "repository": "webZ",
-      "branch": "feat/bridge006-current-main-outbox-integrated",
-      "sha": "ddf28e3030fd22bedd4b52ce866aab79dc336201"
+      "branch": "feat/first-inch-001-stranger-door",
+      "sha": "8051c72fbb7f5308729d8148026cfb3d0fb6deaa"
     },
     {
       "repository": "webZ",
-      "branch": "feat/bridge006-first-acknowledgement",
-      "sha": "4fd57551b5614e7ee6cb88aaf637ad8deb56c8b8"
+      "branch": "feat/use-the-tools-first-shelf-001",
+      "sha": "fc498ad61bc0bbc70ff3f2ca7e0c5daa2ab21e97"
     },
     {
       "repository": "webZ",
-      "branch": "feat/living-inbox-002",
-      "sha": "7c705785a40704b98c151dbbaf4de4c03965c64f"
+      "branch": "proposal/nourish-banana-native-crossing-017",
+      "sha": "38dbeb6b0acca96854bb8fcc84abbce326b9716a"
     },
     {
       "repository": "webZ",
-      "branch": "feat/living-receiver-001",
-      "sha": "8e75488a097aba6d847e258da4cb555a45101ada"
+      "branch": "proposal/voqal-nourish-kids-first-door-016",
+      "sha": "e385062e9aaca3e4a2aec0946eb2b5a895d2ba3f"
     },
     {
       "repository": "webZ",
-      "branch": "feat/porchlight-commons-global-crossing-001",
-      "sha": "2b65a6e243c9abbe7a9277a57d492c9310c7009e"
+      "branch": "proposal/voqal-people-budget-audit-015",
+      "sha": "87fb62ee4f4f8646f87e455269ba2a0503becf47"
     },
     {
       "repository": "webZ",
-      "branch": "feat/porchlight-commons-portable-public",
-      "sha": "c09b7a13a32a4a321395834e78f4b91ef9ba4ee9"
+      "branch": "proposal/voqal-second-table-thought-food-012",
+      "sha": "52b45697508b89e282dad7979666a60ce143457b"
     },
     {
       "repository": "webZ",
-      "branch": "feat/post-office-external-recipient-006",
-      "sha": "cc2c81c663479139f03406d875b5615cf065e7c3"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feat/post-office-panel-007",
-      "sha": "6a217758209673119469f1f3227ec2d5c630ee17"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feat/static-commons-first-true-yes-001",
-      "sha": "fe1ab55999ef7e2eba733521f358b2e9aa51a595"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feat/wallet-one-tap-handoff-002",
-      "sha": "f8a63e04dbfdff824bc1aee6d0ee7ebb79c8dd04"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/harmony-culture-constellation-pitch-002",
-      "sha": "b71544fe53cea49b09846993d3fe1ab292f70765"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/harmony-culture-economy-native-007",
-      "sha": "19ff4f10dbaa9dd542c56bea15eab09cc12b7367"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/harmony-culture-seed-003",
-      "sha": "814e4269dbfc49f7e5390247508cdfb004dba352"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/harmony-layer-001",
-      "sha": "714cd30556e7f01cb8f635132940ccac93b762c7"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/harmony-matter-idea-craft-004",
-      "sha": "ee0b0891ff755aabf23daa2199af906eb43e97c1"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/harmony-return-loop-008",
-      "sha": "0942d12bb919a0e4119fa8b2c900b34269ea3e85"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/harmony-show-independent-lemonpress-006",
-      "sha": "d0573773fff2536036e654f76f28aa4896d5b067"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/harmony-show-native-cannon-proof-005",
-      "sha": "59e26fdf66c8677b24876a67f1f9f95f5e7ad312"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/suitcase-002-independent-genesis",
-      "sha": "c7bb40e7c3a9924ecd329c815d73ab64747589ce"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/suitcase-003-physical-bench-first-power-on",
-      "sha": "60a2d91e0a3f840c83ce45c76e6413e4f81c563f"
-    },
-    {
-      "repository": "webZ",
-      "branch": "grant/mit-solve-2027-living-suitcase-door",
-      "sha": "92d79dc2c33ea34dac58e4666698317aa28732f0"
-    },
-    {
-      "repository": "webZ",
-      "branch": "proposal/festival-fork-network-011",
-      "sha": "2130f8b26c04eb39f6cef428b60530214d2409a5"
-    },
-    {
-      "repository": "webZ",
-      "branch": "proposal/harmony-park-grand-finale-010",
-      "sha": "e82d505372dc4f7011dfb1d7575045893a77c2de"
-    },
-    {
-      "repository": "webZ",
-      "branch": "proposal/voqal-commons-circuit-009",
-      "sha": "867ac289abfbaf63267e480c662de85acc0ebe95"
-    },
-    {
-      "repository": "webZ",
-      "branch": "proposal/voqal-first-circle-foundry-007",
-      "sha": "15779ad9e6c69d703a248b0037f1cf94216bae44"
-    },
-    {
-      "repository": "webZ",
-      "branch": "test/living-inbox-http-proof-002",
-      "sha": "fc78a0b116eeb2da597ad53d82d095defbc90e5e"
+      "branch": "proposal/voqal-stranger-gauntlet-014",
+      "sha": "921dbd62234421d4871d7badfa367ebadd9ddedf"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "full-measure-world-layer",
-      "branch": "main",
-      "from_sha": "9e6662b47cb7bd2b3df0041fc33fffa1f1973d39",
-      "to_sha": "93cabb25759093aef4461d2b97ce232da284399c"
-    },
-    {
-      "repository": "GHoT",
-      "branch": "main",
-      "from_sha": "e35dd470384d864b7b0b629a68dad570875a7df0",
-      "to_sha": "9748a0772c4a13135421c4fa84a9991e0a51e05f"
+      "repository": "JAR-VIS",
+      "branch": "experiment/suno-mcp-song-garden-001",
+      "from_sha": "cb1fdad10cc1ae3c9f54f2bed50e340c6719d0f2",
+      "to_sha": "333fa478ab26ae7ce80306493986c424adea7aa5"
     },
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "e83ab618a9d0815fbcaeb19b4707030ad0957930",
-      "to_sha": "f8c1c2541a1b68b8b24fb46f0b5ca99628ee3d79"
-    },
-    {
-      "repository": "planZ",
-      "branch": "main",
-      "from_sha": "dad6593c3718c65fa4bb7a3650af8fc80d060ce6",
-      "to_sha": "5b6df7fb2a3a0c57d0fff8381108589ec2765a94"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "main",
-      "from_sha": "746b0f3042d481dd49574fb215883030f6267148",
-      "to_sha": "39038d66b15f43559c48c7da8b8a40a76b883ff0"
+      "from_sha": "f8c1c2541a1b68b8b24fb46f0b5ca99628ee3d79",
+      "to_sha": "81aea538b4708ca185801e4e01c983ab20e255b0"
     },
     {
       "repository": "webZ",
-      "branch": "feature/still-here-campfire-028",
-      "from_sha": "c761d3b40e77f1181dd31177672dfd6f201dff98",
-      "to_sha": "4998776b9f17ea16742247fa27f00a4f0d3dea46"
-    },
-    {
-      "repository": "webZ",
-      "branch": "main",
-      "from_sha": "089988ebbf4c5b52b88181c2cd916c8d09395644",
-      "to_sha": "35d94548bf03b83e4919e60e07dc8a1991421926"
-    },
-    {
-      "repository": "webZ",
-      "branch": "release/heartbeat-002-first-crossing",
-      "from_sha": "772261ace87d2217af50c7c26e2c0b2de9381a40",
-      "to_sha": "1cd56c0a1f07649f4c45aacd853143c51b59ea64"
+      "branch": "proposal/festival-fork-network-011",
+      "from_sha": "2130f8b26c04eb39f6cef428b60530214d2409a5",
+      "to_sha": "11bebee583f01866512e050c3bf44f5ea08e9d2c"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "c07db0ddef1f84ac338e6671f626e5cf14409a60",
-      "to_sha": "026d33921e8876294db1f9ad43f986c8a61172f7"
+      "from_sha": "026d33921e8876294db1f9ad43f986c8a61172f7",
+      "to_sha": "81edcf03c57a4790c51aea862508eb66dfa4eb61"
     }
   ],
   "opened_prs": [
     {
-      "repository": "CANNON",
-      "number": 37,
-      "title": "CULTURE FORGE 001: actual native GrO × Harmony execution → printable cultural artifact + cold receipt",
-      "url": "https://github.com/the-static-collective/CANNON/pull/37",
-      "head_branch": "experiment/culture-forge-001-webz-gro",
-      "base_branch": "experiment/present-use-003"
+      "repository": "band-runtime",
+      "number": 26,
+      "title": "ROOM-BAND-001: original Band Runtime witnesses synthetic Groove correspondence without semantic promotion",
+      "url": "https://github.com/the-static-collective/band-runtime/pull/26",
+      "head_branch": "experiment/creative-room-001",
+      "base_branch": "main"
     },
     {
       "repository": "CANNON",
-      "number": 38,
-      "title": "GENESIS BOOT 001: CANNON executes original open-PR Suitcase A/B house composition across six repos",
-      "url": "https://github.com/the-static-collective/CANNON/pull/38",
-      "head_branch": "experiment/genesis-boot-001-cross-branch-a-b",
-      "base_branch": "experiment/culture-forge-001-webz-gro"
+      "number": 49,
+      "title": "CONSTELLATION-002: 22 native owners, five executable stranger challenge pathways",
+      "url": "https://github.com/the-static-collective/CANNON/pull/49",
+      "head_branch": "experiment/constellation-002-native-machine",
+      "base_branch": "experiment/constellation-002-stranger-arcade"
     },
     {
       "repository": "CANNON",
-      "number": 39,
-      "title": "CULTURE FORGE 002: native CANNON → independently governed lemonPRESS HOLD/REFUSE",
-      "url": "https://github.com/the-static-collective/CANNON/pull/39",
-      "head_branch": "experiment/culture-forge-002-lemonpress-receiver",
-      "base_branch": "experiment/culture-forge-001-webz-gro"
+      "number": 50,
+      "title": "VOQAL SELF-APPLICATION 002 — upgrade human-first fellowship pack with native 22-owner proof",
+      "url": "https://github.com/the-static-collective/CANNON/pull/50",
+      "head_branch": "experiment/voqal-self-application-002-native-evidence",
+      "base_branch": "experiment/voqal-self-application-001"
     },
     {
       "repository": "CANNON",
-      "number": 40,
-      "title": "CULTURE FORGE 003 — source-pinned Full Measure and PENNY review",
-      "url": "https://github.com/the-static-collective/CANNON/pull/40",
-      "head_branch": "experiment/culture-forge-003-fullmeasure-penny",
-      "base_branch": "experiment/culture-forge-002-lemonpress-receiver"
+      "number": 51,
+      "title": "SEASON-001: field witness kernel — evidence ladder, consent HOLD, refusal, next-season gates",
+      "url": "https://github.com/the-static-collective/CANNON/pull/51",
+      "head_branch": "experiment/season-001-field-witness",
+      "base_branch": "experiment/constellation-002-native-machine"
     },
     {
       "repository": "CANNON",
-      "number": 41,
-      "title": "GENESIS BOOT 002: interactive Suitcase + native Warm Thread crossing across 11 original checkouts",
-      "url": "https://github.com/the-static-collective/CANNON/pull/41",
-      "head_branch": "experiment/genesis-boot-002-interactive-porch",
-      "base_branch": "experiment/genesis-boot-001-cross-branch-a-b"
-    },
-    {
-      "repository": "CANNON",
-      "number": 42,
-      "title": "CULTURE FORGE 004 — native GHoT and reLATTE signed return of a held cultural work",
-      "url": "https://github.com/the-static-collective/CANNON/pull/42",
-      "head_branch": "experiment/culture-forge-004-relatte-return",
-      "base_branch": "experiment/culture-forge-003-fullmeasure-penny"
-    },
-    {
-      "repository": "CANNON",
-      "number": 44,
-      "title": "CULTURE FORGE 005: signed cultural method returns to original planZ, GRAFT and JAR;VIS",
-      "url": "https://github.com/the-static-collective/CANNON/pull/44",
-      "head_branch": "experiment/culture-forge-005-planz-graft-jarvis-return",
-      "base_branch": "experiment/culture-forge-004-relatte-return"
-    },
-    {
-      "repository": "CANNON",
-      "number": 45,
-      "title": "CONSTELLATION-001: nine native source owners, replayable MIT/Voqal evidence desk",
-      "url": "https://github.com/the-static-collective/CANNON/pull/45",
-      "head_branch": "experiment/constellation-001",
-      "base_branch": "experiment/genesis-boot-001-cross-branch-a-b"
-    },
-    {
-      "repository": "CANNON",
-      "number": 47,
-      "title": "STRANGER ARCADE 002 — 50+ pinned public source lab and playful institutional review scaffold",
-      "url": "https://github.com/the-static-collective/CANNON/pull/47",
-      "head_branch": "experiment/constellation-002-stranger-arcade",
+      "number": 52,
+      "title": "CREATIVE ENGINE 001: native Iron Lung + Static Live, Groove Rooms owner gate, 23 creative donor doors",
+      "url": "https://github.com/the-static-collective/CANNON/pull/52",
+      "head_branch": "experiment/creative-engine-001",
       "base_branch": "experiment/constellation-001"
     },
     {
       "repository": "CANNON",
-      "number": 48,
-      "title": "VOQAL SELF-APPLICATION 001: the source-verified machinery drafts its own human-first fellowship case",
-      "url": "https://github.com/the-static-collective/CANNON/pull/48",
-      "head_branch": "experiment/voqal-self-application-001",
-      "base_branch": "experiment/constellation-001"
+      "number": 53,
+      "title": "PHONO-LIVE-001: actual original Phonograph → Static Live crossing with fallback veto and byte replay",
+      "url": "https://github.com/the-static-collective/CANNON/pull/53",
+      "head_branch": "experiment/phono-live-001",
+      "base_branch": "experiment/creative-engine-001"
+    },
+    {
+      "repository": "CANNON",
+      "number": 54,
+      "title": "ROOM-VINYL-001: native Band Runtime → lemonPRESS vinyl proof with CANNON cold replay",
+      "url": "https://github.com/the-static-collective/CANNON/pull/54",
+      "head_branch": "experiment/room-vinyl-001",
+      "base_branch": "experiment/phono-live-001"
+    },
+    {
+      "repository": "CANNON",
+      "number": 55,
+      "title": "FILM-PRESS-001: native Toaster six-up → PlayDeck → Blender silent film + lemonPRESS held jacket",
+      "url": "https://github.com/the-static-collective/CANNON/pull/55",
+      "head_branch": "experiment/film-press-001",
+      "base_branch": "experiment/room-vinyl-001"
+    },
+    {
+      "repository": "CANNON",
+      "number": 57,
+      "title": "CONCOURSE-003: 22 more exact-source guest rooms, held crossing offers and source-native probes",
+      "url": "https://github.com/the-static-collective/CANNON/pull/57",
+      "head_branch": "experiment/guest-concourse-003",
+      "base_branch": "experiment/season-001-field-witness"
+    },
+    {
+      "repository": "CANNON",
+      "number": 58,
+      "title": "REACTOR-BOOK-003 — native planZ → Workbench Book of Machines → lemonPRESS edition, CANNON replay",
+      "url": "https://github.com/the-static-collective/CANNON/pull/58",
+      "head_branch": "experiment/reactor-book-003",
+      "base_branch": "experiment/film-press-001"
+    },
+    {
+      "repository": "CANNON",
+      "number": 59,
+      "title": "REACTOR-SEVEN-004 — seven original creative engines, two native chains + portable cartridge",
+      "url": "https://github.com/the-static-collective/CANNON/pull/59",
+      "head_branch": "experiment/reactor-seven-native-004",
+      "base_branch": "experiment/reactor-book-003"
+    },
+    {
+      "repository": "CANNON",
+      "number": 60,
+      "title": "CONSTELLATION-003: verified stranger scenes → native JAR creative offers → Static Live",
+      "url": "https://github.com/the-static-collective/CANNON/pull/60",
+      "head_branch": "experiment/constellation-003-creative-bridge",
+      "base_branch": "experiment/constellation-002-native-machine"
+    },
+    {
+      "repository": "CANNON",
+      "number": 61,
+      "title": "INSPAND-001: selected original planZ proposal gates CANNON native proof + cold replay",
+      "url": "https://github.com/the-static-collective/CANNON/pull/61",
+      "head_branch": "experiment/inspand-001-first-reflex",
+      "base_branch": "experiment/film-press-001"
+    },
+    {
+      "repository": "CANNON",
+      "number": 62,
+      "title": "ONE-INVENTION-SEVEN-005 — single PlanZ machine → seven native expressions → seven held returns",
+      "url": "https://github.com/the-static-collective/CANNON/pull/62",
+      "head_branch": "experiment/one-invention-seven-005",
+      "base_branch": "experiment/reactor-seven-native-004"
+    },
+    {
+      "repository": "CANNON",
+      "number": 63,
+      "title": "ONE-INVENTION-RETURN-006 — seven real native creative outputs feed the original PlanZ recursive compiler",
+      "url": "https://github.com/the-static-collective/CANNON/pull/63",
+      "head_branch": "experiment/one-invention-plan-return-006",
+      "base_branch": "experiment/one-invention-seven-005"
+    },
+    {
+      "repository": "CANNON",
+      "number": 64,
+      "title": "INSPAND-002 — original planZ content actually shapes Toaster → PlayDeck → Blender silent films",
+      "url": "https://github.com/the-static-collective/CANNON/pull/64",
+      "head_branch": "experiment/inspand-002-plan-to-pixels",
+      "base_branch": "experiment/inspand-001-first-reflex"
+    },
+    {
+      "repository": "CANNON",
+      "number": 65,
+      "title": "ROOT-NESTED-007 — first PlanZ output encloses seven creative software planning cycles and their recursive descendants",
+      "url": "https://github.com/the-static-collective/CANNON/pull/65",
+      "head_branch": "experiment/root-nested-seven-cycle-007",
+      "base_branch": "experiment/one-invention-plan-return-006"
+    },
+    {
+      "repository": "CANNON",
+      "number": 66,
+      "title": "GROOVETOWN-001: signed portable town, musical witness loop and sovereign receiver fork",
+      "url": "https://github.com/the-static-collective/CANNON/pull/66",
+      "head_branch": "experiment/groovetown-001",
+      "base_branch": "experiment/inspand-002-plan-to-pixels"
+    },
+    {
+      "repository": "CANNON",
+      "number": 67,
+      "title": "INSPAND-003 — Reflex Library: discover, choose, execute, cold replay, and reuse held capabilities",
+      "url": "https://github.com/the-static-collective/CANNON/pull/67",
+      "head_branch": "experiment/inspand-003-reflex-library",
+      "base_branch": "experiment/inspand-002-plan-to-pixels"
+    },
+    {
+      "repository": "CANNON",
+      "number": 68,
+      "title": "INSPAND-004 — two source-native Reflex Library capabilities compose through verified receipt handoff",
+      "url": "https://github.com/the-static-collective/CANNON/pull/68",
+      "head_branch": "experiment/inspand-004-reflex-composer",
+      "base_branch": "experiment/inspand-003-reflex-library"
+    },
+    {
+      "repository": "CANNON",
+      "number": 69,
+      "title": "GROOVETOWN-002: executable evidence-bounded Particularity Engine, hosted cold replay",
+      "url": "https://github.com/the-static-collective/CANNON/pull/69",
+      "head_branch": "experiment/groovetown-002-particularity",
+      "base_branch": "experiment/groovetown-001"
+    },
+    {
+      "repository": "CANNON",
+      "number": 70,
+      "title": "STORY-ROOMS-005: real three-owner Deuce/Renji/Octopus → PlanZ → Second Table replay",
+      "url": "https://github.com/the-static-collective/CANNON/pull/70",
+      "head_branch": "experiment/story-rooms-005-native-culture-replay",
+      "base_branch": "experiment/inspand-003-reflex-library"
+    },
+    {
+      "repository": "CANNON",
+      "number": 71,
+      "title": "GROOVETOWN-003: source-bounded four-town possibility compiler, pledges HOLD, cold replay",
+      "url": "https://github.com/the-static-collective/CANNON/pull/71",
+      "head_branch": "experiment/groovetown-003-cooperative-compiler",
+      "base_branch": "experiment/groovetown-002-particularity"
+    },
+    {
+      "repository": "CANNON",
+      "number": 72,
+      "title": "INSPAND-005 — original Iron Lung real FLAN 3×3 proposals cross into CANNON native composer",
+      "url": "https://github.com/the-static-collective/CANNON/pull/72",
+      "head_branch": "experiment/inspand-005-lung-to-reflex",
+      "base_branch": "experiment/inspand-004-reflex-composer"
+    },
+    {
+      "repository": "CANNON",
+      "number": 73,
+      "title": "GROOVETOWN-004: source-bound reciprocity reactor, mutual needs and missing-organ proofs",
+      "url": "https://github.com/the-static-collective/CANNON/pull/73",
+      "head_branch": "experiment/groovetown-004-reciprocity-reactor",
+      "base_branch": "experiment/groovetown-003-cooperative-compiler"
+    },
+    {
+      "repository": "CANNON",
+      "number": 74,
+      "title": "INSPAND-006 — seven-strategy real FLAN-T5 mutation pressure laboratory with baseline and replay",
+      "url": "https://github.com/the-static-collective/CANNON/pull/74",
+      "head_branch": "experiment/inspand-006-mutation-lab",
+      "base_branch": "experiment/inspand-005-lung-to-reflex"
+    },
+    {
+      "repository": "CANNON",
+      "number": 75,
+      "title": "GROOVETOWN-005: Impossibility Foundry — recursively build hypothetical missing capabilities",
+      "url": "https://github.com/the-static-collective/CANNON/pull/75",
+      "head_branch": "experiment/groovetown-005-impossibility-foundry",
+      "base_branch": "experiment/groovetown-004-reciprocity-reactor"
+    },
+    {
+      "repository": "CANNON",
+      "number": 76,
+      "title": "GROOVETOWN-006 — two invention routes, one shared enabling platform (source-owned core)",
+      "url": "https://github.com/the-static-collective/CANNON/pull/76",
+      "head_branch": "experiment/groovetown-006-invention-ecosystem",
+      "base_branch": "experiment/groovetown-005-impossibility-foundry"
+    },
+    {
+      "repository": "CANNON",
+      "number": 77,
+      "title": "INSPAND-007 — Golden Compass 2–3-word triads, nine-vs-nine FLAN comparison and 27 microquestions",
+      "url": "https://github.com/the-static-collective/CANNON/pull/77",
+      "head_branch": "experiment/inspand-007-compass-triangulation",
+      "base_branch": "experiment/inspand-006-mutation-lab"
+    },
+    {
+      "repository": "CANNON",
+      "number": 78,
+      "title": "REALITY.2 × LITTLE YES EXPRESS 007 — cooperative railroad party expansion",
+      "url": "https://github.com/the-static-collective/CANNON/pull/78",
+      "head_branch": "experiment/reality2-little-yes-express-007",
+      "base_branch": "experiment/groovetown-006-invention-ecosystem"
+    },
+    {
+      "repository": "CANNON",
+      "number": 79,
+      "title": "INSPAND-008 — real Reflex Composer source contracts and conditional You-address FLAN comparison",
+      "url": "https://github.com/the-static-collective/CANNON/pull/79",
+      "head_branch": "experiment/inspand-008-real-contract-address",
+      "base_branch": "experiment/inspand-007-compass-triangulation"
+    },
+    {
+      "repository": "CANNON",
+      "number": 80,
+      "title": "INSPAND-009 — source-backed facts, possible adapters and actual typed relations replace Compass headers",
+      "url": "https://github.com/the-static-collective/CANNON/pull/80",
+      "head_branch": "experiment/inspand-009-content-grounding",
+      "base_branch": "experiment/inspand-008-real-contract-address"
+    },
+    {
+      "repository": "CANNON",
+      "number": 81,
+      "title": "INSPAND-010 — truth-first Compass: source-verifiable adapter selection and real native execution",
+      "url": "https://github.com/the-static-collective/CANNON/pull/81",
+      "head_branch": "experiment/inspand-010-truth-first-compiler",
+      "base_branch": "experiment/inspand-009-content-grounding"
+    },
+    {
+      "repository": "CANNON",
+      "number": 82,
+      "title": "INSPAND-011 — actual National Treasure Question Box asks what's missing in CANNON's truth-first source graph",
+      "url": "https://github.com/the-static-collective/CANNON/pull/82",
+      "head_branch": "experiment/inspand-011-national-treasure-question-box",
+      "base_branch": "experiment/inspand-010-truth-first-compiler"
+    },
+    {
+      "repository": "CANNON",
+      "number": 83,
+      "title": "INSPAND-012 — full original-source Question → Possibilities → Native Experiment → Better Question loop",
+      "url": "https://github.com/the-static-collective/CANNON/pull/83",
+      "head_branch": "experiment/inspand-012-question-experiment-loop",
+      "base_branch": "experiment/inspand-011-national-treasure-question-box"
+    },
+    {
+      "repository": "CANNON",
+      "number": 84,
+      "title": "INSPAND-013 — six real cross-repository interface research questions from five source owners",
+      "url": "https://github.com/the-static-collective/CANNON/pull/84",
+      "head_branch": "experiment/inspand-013-multi-repo-question-atlas",
+      "base_branch": "experiment/inspand-012-question-experiment-loop"
+    },
+    {
+      "repository": "CANNON",
+      "number": 85,
+      "title": "INSPAND-014 — PlayDeck → Haunted Toaster original-source RED-first compatibility and typed adapter requirements",
+      "url": "https://github.com/the-static-collective/CANNON/pull/85",
+      "head_branch": "experiment/inspand-014-playdeck-toaster-red-gate",
+      "base_branch": "experiment/inspand-013-multi-repo-question-atlas"
+    },
+    {
+      "repository": "CANNON",
+      "number": 86,
+      "title": "INSPAND-015 — genuine original PlayDeck Remotion still to Haunted Toaster scored MP4/Dogram checkpoint bridge",
+      "url": "https://github.com/the-static-collective/CANNON/pull/86",
+      "head_branch": "experiment/inspand-015-playdeck-toaster-native-still",
+      "base_branch": "experiment/inspand-014-playdeck-toaster-red-gate"
     },
     {
       "repository": "GRAFT",
+      "number": 12,
+      "title": "UNFUTURES-001: synthetic non-speculative possibility exchange",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/12",
+      "head_branch": "graft/unfutures-001-possibility-exchange",
+      "base_branch": "main"
+    },
+    {
+      "repository": "GRAFT",
+      "number": 13,
+      "title": "UNFUTURES-002: Reciprocity Reactor × Reality 2.0 offline quest board",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/13",
+      "head_branch": "graft/unfutures-002-reciprocity-reactor",
+      "base_branch": "graft/unfutures-001-possibility-exchange"
+    },
+    {
+      "repository": "GRAFT",
+      "number": 14,
+      "title": "UNFUTURES-003: bounded generative economy and capability lineage",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/14",
+      "head_branch": "graft/unfutures-003-generative-economy",
+      "base_branch": "graft/unfutures-002-reciprocity-reactor"
+    },
+    {
+      "repository": "GRAFT",
+      "number": 15,
+      "title": "UNFUTURES-004: bounded Economic Imagination Engine and counterfactual lab",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/15",
+      "head_branch": "graft/unfutures-004-economic-imagination",
+      "base_branch": "graft/unfutures-003-generative-economy"
+    },
+    {
+      "repository": "GRAFT",
+      "number": 16,
+      "title": "UNFUTURES-005: Dogram native math × bounded Experimental Economy",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/16",
+      "head_branch": "graft/unfutures-005-dogram-experiment",
+      "base_branch": "graft/unfutures-004-economic-imagination"
+    },
+    {
+      "repository": "GRAFT",
+      "number": 17,
+      "title": "UNFUTURES-006: Original Dogram exact scarcity math, rounding residues and anti-collapse audit",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/17",
+      "head_branch": "graft/unfutures-006-dogram-allocation",
+      "base_branch": "graft/unfutures-005-dogram-experiment"
+    },
+    {
+      "repository": "iron-lung",
+      "number": 8,
+      "title": "T5-TRIPLE-001: run original Iron Lung three-nested recursive transfers (fixture + real FLAN-T5)",
+      "url": "https://github.com/the-static-collective/iron-lung/pull/8",
+      "head_branch": "experiment/triple-transfer-t5-001",
+      "base_branch": "experiment/heart-lung-combinatrix-heart-001"
+    },
+    {
+      "repository": "iron-lung",
+      "number": 9,
+      "title": "COMPASS-001 — Fact / Idea / Relation dyad microquestions with equal-budget real FLAN experiment",
+      "url": "https://github.com/the-static-collective/iron-lung/pull/9",
+      "head_branch": "experiment/compass-dyad-003",
+      "base_branch": "experiment/triple-transfer-t5-001"
+    },
+    {
+      "repository": "iron-lung",
+      "number": 10,
+      "title": "COMPASS-002 — actual source interface facts and conditional You-address four-arm FLAN comparison",
+      "url": "https://github.com/the-static-collective/iron-lung/pull/10",
+      "head_branch": "experiment/compass-actual-contracts-004",
+      "base_branch": "experiment/compass-dyad-003"
+    },
+    {
+      "repository": "iron-lung",
       "number": 11,
-      "title": "GRAFT 005: independently held culture-return nursery candidate",
-      "url": "https://github.com/the-static-collective/GRAFT/pull/11",
-      "head_branch": "graft/culture-return-005",
-      "base_branch": "main"
+      "title": "COMPASS-003 — meaning-bearing two-word facts, bridge ideas, and interface relations without label headers",
+      "url": "https://github.com/the-static-collective/iron-lung/pull/11",
+      "head_branch": "experiment/compass-content-005",
+      "base_branch": "experiment/compass-actual-contracts-004"
     },
     {
-      "repository": "GrO",
+      "repository": "iron-lung",
+      "number": 12,
+      "title": "Q-CYCLE-001 — investigate real National Treasure unanswered receipts through nine held Iron Lung transfers",
+      "url": "https://github.com/the-static-collective/iron-lung/pull/12",
+      "head_branch": "experiment/nt-question-cycle-006",
+      "base_branch": "experiment/compass-content-005"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 29,
+      "title": "SUNO SONG GARDEN 001 — official MCP handoff for church-led songs",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/29",
+      "head_branch": "experiment/suno-mcp-song-garden-001",
+      "base_branch": "experiment/constellation-001-attendant"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 30,
+      "title": "CONSTELLATION-002: source-locked operator for native stranger challenges",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/30",
+      "head_branch": "experiment/constellation-002-operator",
+      "base_branch": "experiment/constellation-001-attendant"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 31,
+      "title": "STRANGER ARCADE 002: JAR;VIS attends exact-pinned 22-owner CANNON native machine",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/31",
+      "head_branch": "experiment/constellation-002-22-owner-attendant",
+      "base_branch": "experiment/constellation-001-attendant"
+    },
+    {
+      "repository": "JAR-VIS",
       "number": 32,
-      "title": "MATTERCRAFT-001: GrO 42 WOOD local encounters, witness dispute and held material transformation",
-      "url": "https://github.com/the-static-collective/GrO/pull/32",
-      "head_branch": "experiment/mattercraft-001-witness-encounter",
-      "base_branch": "main"
+      "title": "SEASON-001: source-locked JAR;VIS field-witness attendant and stranger review doorway",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/32",
+      "head_branch": "experiment/season-001-witness-attendant",
+      "base_branch": "experiment/constellation-002-22-owner-attendant"
     },
     {
       "repository": "JAR-VIS",
-      "number": 27,
-      "title": "CULTURE ATTENTION 005: read held planZ × GRAFT cultural reuse",
-      "url": "https://github.com/the-static-collective/JAR-VIS/pull/27",
-      "head_branch": "experiment/culture-return-005",
-      "base_branch": "main"
+      "number": 33,
+      "title": "STRANGER CABARET 003: JAR;VIS ghost cowboy answers in songs, manga and haunted flipbooks",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/33",
+      "head_branch": "experiment/stranger-cabaret-003",
+      "base_branch": "experiment/season-001-witness-attendant"
     },
     {
       "repository": "JAR-VIS",
-      "number": 28,
-      "title": "CONSTELLATION-001: exact-pinned local CANNON attendant with explicit authorization",
-      "url": "https://github.com/the-static-collective/JAR-VIS/pull/28",
-      "head_branch": "experiment/constellation-001-attendant",
+      "number": 34,
+      "title": "MADDCL0WN CRAZY SLOTS 004: 47 species, 15 playable media forms, a six-up evolutionary dealer",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/34",
+      "head_branch": "experiment/maddclown-slots-004",
+      "base_branch": "experiment/stranger-cabaret-003"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 35,
+      "title": "CROSSING-005 A: source-replayable local KEEP offer for native Haunted Toaster",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/35",
+      "head_branch": "experiment/toaster-crossing-005-offer",
+      "base_branch": "experiment/maddclown-slots-004"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 36,
+      "title": "INSPAND-003 — JAR;VIS independently verifies and discovers CANNON reflex capabilities",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/36",
+      "head_branch": "experiment/inspand-003-reflex-attendant",
+      "base_branch": "experiment/constellation-001-attendant"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 37,
+      "title": "INSPAND-004 — JAR;VIS independently inspects CANNON's native typed Reflex Composer",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/37",
+      "head_branch": "experiment/inspand-004-composition-attendant",
+      "base_branch": "experiment/inspand-003-reflex-attendant"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 38,
+      "title": "THOUGHT-FOOD-001: films, books and living records become bounded JAR;VIS idea lenses",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/38",
+      "head_branch": "experiment/thought-food-001-creative-pantry",
+      "base_branch": "experiment/toaster-crossing-005-offer"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 39,
+      "title": "JARVIS-018: Nourish → BananaSpork source-native attendant; redacted human-gate HOLD",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/39",
+      "head_branch": "experiment/nourish-banana-attendant-018",
+      "base_branch": "experiment/thought-food-001-creative-pantry"
+    },
+    {
+      "repository": "lemonPRESS",
+      "number": 58,
+      "title": "PRESS-001: native vinyl preflight from PRESS 000 and Band witness; print mockups with strict manufacture HOLD",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/58",
+      "head_branch": "experiment/opf-vinyl-preflight-001",
+      "base_branch": "experiment/opf-press-000-rosemary-bloom"
+    },
+    {
+      "repository": "lemonPRESS",
+      "number": 59,
+      "title": "FENCEPOST: form-and-sing dual-station record maker, reverse seismograph and thermo-stylus",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/59",
+      "head_branch": "experiment/fencepost-reverse-seismograph-001",
       "base_branch": "main"
     },
     {
       "repository": "lemonPRESS",
-      "number": 57,
-      "title": "CULTURE RECEIVER 002: native lemonPRESS HOLD / REFUSE for CANNON's real cultural artifacts",
-      "url": "https://github.com/the-static-collective/lemonPRESS/pull/57",
-      "head_branch": "experiment/culture-forge-002-independent-hold",
+      "number": 60,
+      "title": "FENCEPOST-001: reverse seismograph + 3D-printer extension research proof",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/60",
+      "head_branch": "experiment/fencepost-001-reverse-seismograph",
+      "base_branch": "press/physical"
+    },
+    {
+      "repository": "lemonPRESS",
+      "number": 61,
+      "title": "GROOVEVAULT-004: data on records — 300-baud binary↔WAV digital proof",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/61",
+      "head_branch": "experiment/fencepost-groovevault-004",
+      "base_branch": "experiment/fencepost-reverse-seismograph-001"
+    },
+    {
+      "repository": "lemonPRESS",
+      "number": 62,
+      "title": "AUDIO KEY-005: record-borne hashed portals and opt-in local code fixtures",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/62",
+      "head_branch": "experiment/fencepost-audio-key-005",
+      "base_branch": "experiment/fencepost-groovevault-004"
+    },
+    {
+      "repository": "lemonPRESS",
+      "number": 63,
+      "title": "MACHINE-MANUSCRIPT-001 — native held Book of Machines illustrated edition",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/63",
+      "head_branch": "experiment/machine-manuscript-001",
       "base_branch": "main"
+    },
+    {
+      "repository": "lemonPRESS",
+      "number": 64,
+      "title": "RETURN PRESS-006: let a record's consented history compose a new audio-keyed remix",
+      "url": "https://github.com/the-static-collective/lemonPRESS/pull/64",
+      "head_branch": "experiment/fencepost-return-press-006",
+      "base_branch": "experiment/fencepost-audio-key-005"
     },
     {
       "repository": "planZ",
-      "number": 35,
-      "title": "CULTURE RETURN 005: planZ owner-held candidate reuse, no automatic plan activation",
-      "url": "https://github.com/the-static-collective/planZ/pull/35",
-      "head_branch": "experiment/culture-return-005",
+      "number": 36,
+      "title": "REACTOR-001 — recursive plan compiler, immutable angle cuts and new-plan DAG",
+      "url": "https://github.com/the-static-collective/planZ/pull/36",
+      "head_branch": "experiment/recursive-plan-reactor-001",
+      "base_branch": "experiment/banana-reactor-64-001"
+    },
+    {
+      "repository": "planZ",
+      "number": 37,
+      "title": "RETURN-SEVEN-002 — original PlanZ ingests seven native-software outcomes as 28 angle cuts and 7 new plans",
+      "url": "https://github.com/the-static-collective/planZ/pull/37",
+      "head_branch": "experiment/return-seven-native-002",
+      "base_branch": "experiment/recursive-plan-reactor-001"
+    },
+    {
+      "repository": "planZ",
+      "number": 38,
+      "title": "NESTED-SEVEN-003 — original PlanZ idea contains seven creative subcycles and bounded recursive descendants",
+      "url": "https://github.com/the-static-collective/planZ/pull/38",
+      "head_branch": "experiment/nested-seven-planning-cycle-003",
+      "base_branch": "experiment/return-seven-native-002"
+    },
+    {
+      "repository": "planZ",
+      "number": 39,
+      "title": "STORY-ROOMS-004: Deuce/Renji/Octopus story packet → original PlanZ recursive four-lens return",
+      "url": "https://github.com/the-static-collective/planZ/pull/39",
+      "head_branch": "experiment/story-rooms-004-four-lens-return",
+      "base_branch": "experiment/nested-seven-planning-cycle-003"
+    },
+    {
+      "repository": "revival",
+      "number": 16,
+      "title": "REVIVAL-016: Inheritance Constellation — 16 source owners and 840 held questions",
+      "url": "https://github.com/the-static-collective/revival/pull/16",
+      "head_branch": "experiment/revival-inheritance-constellation-016",
+      "base_branch": "build/jubilee-scripture-door-001"
+    },
+    {
+      "repository": "static-field",
+      "number": 13,
+      "title": "LITTLE YES FIELD 008 — living deck doorway to cooperative railway + Earth Remembers",
+      "url": "https://github.com/the-static-collective/static-field/pull/13",
+      "head_branch": "experiment/little-yes-field-008",
+      "base_branch": "experiment/postemahhn-living-deck-001"
+    },
+    {
+      "repository": "static-field",
+      "number": 14,
+      "title": "EXPANSION FORGE 009 — Little Yes parties generate playable, source-bound new games",
+      "url": "https://github.com/the-static-collective/static-field/pull/14",
+      "head_branch": "experiment/expansion-forge-009",
+      "base_branch": "experiment/little-yes-field-008"
+    },
+    {
+      "repository": "static-field",
+      "number": 15,
+      "title": "LIVING WORLD ATLAS 010 — independent party worlds, mail, forks and constellations",
+      "url": "https://github.com/the-static-collective/static-field/pull/15",
+      "head_branch": "experiment/living-world-atlas-010",
+      "base_branch": "experiment/expansion-forge-009"
+    },
+    {
+      "repository": "static-field",
+      "number": 16,
+      "title": "WORLD BREEDER 011 — two sovereign game worlds invent a third rule",
+      "url": "https://github.com/the-static-collective/static-field/pull/16",
+      "head_branch": "experiment/world-breeder-011",
+      "base_branch": "experiment/living-world-atlas-010"
+    },
+    {
+      "repository": "static-os",
+      "number": 97,
+      "title": "GENESIS 008: universal cartridges × museum of unfinished futures × recursive festival",
+      "url": "https://github.com/the-static-collective/static-os/pull/97",
+      "head_branch": "experiment/genesis-boot-008-universal-cartridge-festival",
+      "base_branch": "experiment/genesis-boot-007-strange-nodes"
+    },
+    {
+      "repository": "the-haunted-toaster",
+      "number": 361,
+      "title": "CROSSING-005 B: original JAR;VIS kept radio → original WAV → native Toaster six-up → separate KEEP → MP4",
+      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/361",
+      "head_branch": "experiment/stranger-native-005",
+      "base_branch": "beta/reconcile-0.0.0"
+    },
+    {
+      "repository": "the-haunted-toaster",
+      "number": 362,
+      "title": "MADDCL0WN 006: one kept JAR;VIS song → six real native Toaster movies → offline screening room",
+      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/362",
+      "head_branch": "experiment/maddclown-six-films-006",
+      "base_branch": "experiment/stranger-native-005"
+    },
+    {
+      "repository": "webZ",
+      "number": 200,
+      "title": "FESTIVAL-FORK-011: Road Nights → Courthouse Park rehearsal → Harmony Park → independently authored October festival branches",
+      "url": "https://github.com/the-static-collective/webZ/pull/200",
+      "head_branch": "proposal/festival-fork-network-011",
+      "base_branch": "proposal/harmony-park-grand-finale-010"
+    },
+    {
+      "repository": "webZ",
+      "number": 201,
+      "title": "FIRST-INCH-001: one-question Abundent doorway → honest first work card",
+      "url": "https://github.com/the-static-collective/webZ/pull/201",
+      "head_branch": "feat/first-inch-001-stranger-door",
       "base_branch": "main"
     },
     {
-      "repository": "static-os",
-      "number": 91,
-      "title": "SUITCASE-GENESIS-001: mission composer + offline first-signal physical bench",
-      "url": "https://github.com/the-static-collective/static-os/pull/91",
-      "head_branch": "experiment/suitcase-genesis-001-mission-composer",
-      "base_branch": "genesis-001-live-iso"
-    },
-    {
-      "repository": "static-os",
-      "number": 92,
-      "title": "GENESIS BOOT 003: source-native CANNON first boot integrated into real Debian Live ISO and QEMU gate",
-      "url": "https://github.com/the-static-collective/static-os/pull/92",
-      "head_branch": "experiment/genesis-boot-003-live-first-boot-iso",
-      "base_branch": "experiment/suitcase-genesis-001-mission-composer"
-    },
-    {
-      "repository": "static-os",
-      "number": 93,
-      "title": "GENESIS BOOT 004: Alpine + Fedora non-Debian native builds from 11 original open-PR histories",
-      "url": "https://github.com/the-static-collective/static-os/pull/93",
-      "head_branch": "experiment/genesis-boot-004-multidistro",
-      "base_branch": "experiment/genesis-boot-003-live-first-boot-iso"
-    },
-    {
-      "repository": "static-os",
-      "number": 94,
-      "title": "GENESIS BOOT 005: genuine Alpine Live ISO with source-pinned original CANNON first boot",
-      "url": "https://github.com/the-static-collective/static-os/pull/94",
-      "head_branch": "experiment/genesis-boot-005-alpine-live-iso",
-      "base_branch": "experiment/genesis-boot-004-multidistro"
-    },
-    {
-      "repository": "static-os",
-      "number": 95,
-      "title": "GENESIS BOOT 006: actual Nintendo Wii PowerPC Homebrew front door + offline SD → original CANNON",
-      "url": "https://github.com/the-static-collective/static-os/pull/95",
-      "head_branch": "experiment/genesis-boot-006-wii-native-porch",
-      "base_branch": "experiment/genesis-boot-005-alpine-live-iso"
-    },
-    {
-      "repository": "static-os",
-      "number": 96,
-      "title": "GENESIS BOOT 007: GameCube, Nintendo DS, ESP32, Android, Raspberry Pi, old-laptop ports",
-      "url": "https://github.com/the-static-collective/static-os/pull/96",
-      "head_branch": "experiment/genesis-boot-007-strange-nodes",
-      "base_branch": "experiment/genesis-boot-006-wii-native-porch"
+      "repository": "webZ",
+      "number": 202,
+      "title": "FIRST-INCH-002: deterministic six-up planner × Dogram ablation × Wolfram fixture",
+      "url": "https://github.com/the-static-collective/webZ/pull/202",
+      "head_branch": "experiment/first-inch-002-six-up-dogram-planner",
+      "base_branch": "feat/first-inch-001-stranger-door"
     },
     {
       "repository": "webZ",
-      "number": 177,
-      "title": "BRIDGE-005 — manually reviewed public-only source work card",
-      "url": "https://github.com/the-static-collective/webZ/pull/177",
-      "head_branch": "feat/bridge005-source-owned-work-card",
+      "number": 203,
+      "title": "FIRST-INCH-003: source-owned JAR;VIS pointers + native Dogram and Toaster proof",
+      "url": "https://github.com/the-static-collective/webZ/pull/203",
+      "head_branch": "experiment/first-inch-003-real-source-constellation",
+      "base_branch": "experiment/first-inch-002-six-up-dogram-planner"
+    },
+    {
+      "repository": "webZ",
+      "number": 204,
+      "title": "USE-FIRST-001: put working tools one click away from ordinary people",
+      "url": "https://github.com/the-static-collective/webZ/pull/204",
+      "head_branch": "feat/use-the-tools-first-shelf-001",
       "base_branch": "main"
     },
     {
       "repository": "webZ",
-      "number": 187,
-      "title": "BRIDGE MIT-002: Living Suitcase × Mattercraft × Blueprint Foundry — current Solve presentation",
-      "url": "https://github.com/the-static-collective/webZ/pull/187",
-      "head_branch": "grant/mit-solve-2027-living-suitcase-door",
-      "base_branch": "main"
+      "number": 205,
+      "title": "FINITE-DELIGHT-001: three small gifts and a hard stop instead of a feed",
+      "url": "https://github.com/the-static-collective/webZ/pull/205",
+      "head_branch": "experiment/finite-delight-time-back-001",
+      "base_branch": "feat/use-the-tools-first-shelf-001"
     },
     {
       "repository": "webZ",
-      "number": 193,
-      "title": "RECURSIVE-WORKSHOP-001: recover GHoT printer stack and compose held Suitcase successor",
-      "url": "https://github.com/the-static-collective/webZ/pull/193",
-      "head_branch": "experiment/capability-growth-print-shop-001",
-      "base_branch": "grant/mit-solve-2027-living-suitcase-door"
+      "number": 206,
+      "title": "TIMEBACK-CREATIVE-001: one card → take-home pocket book + original Toaster / PlayDeck creative witnesses",
+      "url": "https://github.com/the-static-collective/webZ/pull/206",
+      "head_branch": "experiment/timeback-source-owned-creative-001",
+      "base_branch": "experiment/finite-delight-time-back-001"
     },
     {
       "repository": "webZ",
-      "number": 195,
-      "title": "VOQAL-007: widen Still Here to the First Circle Foundry without expanding the six-month pilot",
-      "url": "https://github.com/the-static-collective/webZ/pull/195",
-      "head_branch": "proposal/voqal-first-circle-foundry-007",
-      "base_branch": "main"
+      "number": 207,
+      "title": "TIMEBACK-FILM-001: teach the stack to make offline music films from reusable scene recipes",
+      "url": "https://github.com/the-static-collective/webZ/pull/207",
+      "head_branch": "experiment/timeback-film-grammar-001",
+      "base_branch": "experiment/timeback-source-owned-creative-001"
     },
     {
       "repository": "webZ",
-      "number": 196,
-      "title": "RELATIONAL-INHERITANCE-008: source-native signed founding without inherited authority, RDL research correspondence",
-      "url": "https://github.com/the-static-collective/webZ/pull/196",
-      "head_branch": "experiment/relational-inheritance-no-authority-008",
-      "base_branch": "proposal/voqal-first-circle-foundry-007"
+      "number": 208,
+      "title": "VOQAL-012: Second Table signed synthetic test × optional JAR;VIS film/book thought-food",
+      "url": "https://github.com/the-static-collective/webZ/pull/208",
+      "head_branch": "proposal/voqal-second-table-thought-food-012",
+      "base_branch": "proposal/festival-fork-network-011"
     },
     {
       "repository": "webZ",
-      "number": 198,
-      "title": "VOQAL-009: fund the Commons Circuit — weekly tables, steward relationships, potlucks, music & community festivals",
-      "url": "https://github.com/the-static-collective/webZ/pull/198",
-      "head_branch": "proposal/voqal-commons-circuit-009",
-      "base_branch": "experiment/relational-inheritance-no-authority-008"
+      "number": 209,
+      "title": "VOQAL-014: executable Stranger Gauntlet × original Second Table, three reviewers and seven hostile claims",
+      "url": "https://github.com/the-static-collective/webZ/pull/209",
+      "head_branch": "proposal/voqal-stranger-gauntlet-014",
+      "base_branch": "proposal/voqal-second-table-thought-food-012"
     },
     {
       "repository": "webZ",
-      "number": 199,
-      "title": "VOQAL-010: Harmony Park family festival grand finale after Commons Circuit mini-festival rehearsal",
-      "url": "https://github.com/the-static-collective/webZ/pull/199",
-      "head_branch": "proposal/harmony-park-grand-finale-010",
-      "base_branch": "proposal/voqal-commons-circuit-009"
+      "number": 210,
+      "title": "VOQAL-015: named table prospects, $30k cash-vs-relationship budget, application field audit",
+      "url": "https://github.com/the-static-collective/webZ/pull/210",
+      "head_branch": "proposal/voqal-people-budget-audit-015",
+      "base_branch": "proposal/voqal-stranger-gauntlet-014"
+    },
+    {
+      "repository": "webZ",
+      "number": 211,
+      "title": "VOQAL-016: Nourish Kids first — original source-native one-dinner proof → independent Second Table",
+      "url": "https://github.com/the-static-collective/webZ/pull/211",
+      "head_branch": "proposal/voqal-nourish-kids-first-door-016",
+      "base_branch": "proposal/voqal-people-budget-audit-015"
+    },
+    {
+      "repository": "webZ",
+      "number": 212,
+      "title": "VOQAL-017: original Nourish → BananaSpork native crossing, 8 refused mutations + Banana-family Rosetta",
+      "url": "https://github.com/the-static-collective/webZ/pull/212",
+      "head_branch": "proposal/nourish-banana-native-crossing-017",
+      "base_branch": "proposal/voqal-nourish-kids-first-door-016"
     }
   ],
   "left_open_prs": []
