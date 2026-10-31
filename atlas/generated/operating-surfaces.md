@@ -186,12 +186,14 @@ Default: `main` · other refs: 98 · open PRs: 57
 
 [Repository](https://github.com/the-static-collective/static-os) · [Branches](https://github.com/the-static-collective/static-os/branches) · [Pull requests](https://github.com/the-static-collective/static-os/pulls)
 
-Default: `main` · other refs: 81 · open PRs: 78
+Default: `main` · other refs: 83 · open PRs: 80
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#99](https://github.com/the-static-collective/static-os/pull/99) | RECOMPOSER-002: Haunted Toaster witness memory for self-recomposing question engines | `experiment/recomposer-002-toaster-witness` → `experiment/recomposer-001-bounded-self-assembly` | 2026-10-31 |
+| [#98](https://github.com/the-static-collective/static-os/pull/98) | RECOMPOSER-001: deterministic self-reassembly from question to approved macro | `experiment/recomposer-001-bounded-self-assembly` → `experiment/apparatus-compiler-002` | 2026-10-31 |
 | [#97](https://github.com/the-static-collective/static-os/pull/97) | GENESIS 008: universal cartridges × museum of unfinished futures × recursive festival | `experiment/genesis-boot-008-universal-cartridge-festival` → `experiment/genesis-boot-007-strange-nodes` | 2026-10-29 |
 | [#96](https://github.com/the-static-collective/static-os/pull/96) | GENESIS BOOT 007: GameCube, Nintendo DS, ESP32, Android, Raspberry Pi, old-laptop ports | `experiment/genesis-boot-007-strange-nodes` → `experiment/genesis-boot-006-wii-native-porch` | 2026-10-29 |
 | [#95](https://github.com/the-static-collective/static-os/pull/95) | GENESIS BOOT 006: actual Nintendo Wii PowerPC Homebrew front door + offline SD → original CANNON | `experiment/genesis-boot-006-wii-native-porch` → `experiment/genesis-boot-005-alpine-live-iso` | 2026-10-29 |
@@ -316,6 +318,8 @@ Default: `main` · other refs: 81 · open PRs: 78
 | [experiment/navigation-weave-001](https://github.com/the-static-collective/static-os/tree/experiment/navigation-weave-001) | [e19e1f3214](https://github.com/the-static-collective/static-os/commit/e19e1f32149dec300ff83f6f676f107d5a1f1717) | [open PR #22](https://github.com/the-static-collective/static-os/pull/22) |
 | [experiment/physical-print-packet-011](https://github.com/the-static-collective/static-os/tree/experiment/physical-print-packet-011) | [49d06c7954](https://github.com/the-static-collective/static-os/commit/49d06c79542ecd0994f116417fe14fceed867a24) | [open PR #61](https://github.com/the-static-collective/static-os/pull/61) |
 | [experiment/question-first-session-001](https://github.com/the-static-collective/static-os/tree/experiment/question-first-session-001) | [457cd6fb09](https://github.com/the-static-collective/static-os/commit/457cd6fb09f3010c2f80634fa3c4e3e7c8bcedbe) | [open PR #51](https://github.com/the-static-collective/static-os/pull/51) |
+| [experiment/recomposer-001-bounded-self-assembly](https://github.com/the-static-collective/static-os/tree/experiment/recomposer-001-bounded-self-assembly) | [c75218dec4](https://github.com/the-static-collective/static-os/commit/c75218dec43b82d3c3e7fc43b823df130c1dc540) | [open PR #98](https://github.com/the-static-collective/static-os/pull/98) |
+| [experiment/recomposer-002-toaster-witness](https://github.com/the-static-collective/static-os/tree/experiment/recomposer-002-toaster-witness) | [e25bb81029](https://github.com/the-static-collective/static-os/commit/e25bb810295c79b2b663f8bd8f8b5fe278c82914) | [open PR #99](https://github.com/the-static-collective/static-os/pull/99) |
 | [experiment/regenerative-design-capacity-010](https://github.com/the-static-collective/static-os/tree/experiment/regenerative-design-capacity-010) | [a1cf59835a](https://github.com/the-static-collective/static-os/commit/a1cf59835a03a689b371cb64585b48631a28267b) | [open PR #59](https://github.com/the-static-collective/static-os/pull/59) |
 | [experiment/residual-witness-discriminator-001](https://github.com/the-static-collective/static-os/tree/experiment/residual-witness-discriminator-001) | [3d97808e34](https://github.com/the-static-collective/static-os/commit/3d97808e34a0815a3f130f4ae5bbdceacb235a86) | [open PR #33](https://github.com/the-static-collective/static-os/pull/33) |
 | [experiment/return-room-001-question-custody](https://github.com/the-static-collective/static-os/tree/experiment/return-room-001-question-custody) | [2201d09107](https://github.com/the-static-collective/static-os/commit/2201d09107c31e5823ef641643b269fbd765c0d1) | [open PR #86](https://github.com/the-static-collective/static-os/pull/86) |

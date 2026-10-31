@@ -15,12 +15,16 @@ New or unclassified public repositories. Placement requires editorial review.
 
 [Repository](https://github.com/the-static-collective/CANNON) · [Branches](https://github.com/the-static-collective/CANNON/branches) · [Pull requests](https://github.com/the-static-collective/CANNON/pulls)
 
-Default: `main` · other refs: 80 · open PRs: 79
+Default: `main` · other refs: 84 · open PRs: 83
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#90](https://github.com/the-static-collective/CANNON/pull/90) | INSPAND-019 — a genuinely new minute-post-office film, two original Haunted Toaster native passes | `experiment/inspand-019-minute-mail-original-toaster` → `experiment/inspand-018-creative-route-switchyard` | 2026-10-30 |
+| [#89](https://github.com/the-static-collective/CANNON/pull/89) | INSPAND-018 — Creative Switchyard: select and replay three real PlayDeck→Toaster→Dogram native routes | `experiment/inspand-018-creative-route-switchyard` → `experiment/inspand-017-whole-banana-full-genesis` | 2026-10-30 |
+| [#88](https://github.com/the-static-collective/CANNON/pull/88) | INSPAND-017 — WHOLE BANANA: full 6,389-frame PlayDeck performance + owner-sealed receipt → full Toaster video/Dogram | `experiment/inspand-017-whole-banana-full-genesis` → `experiment/inspand-016-playdeck-toaster-video-source` | 2026-10-30 |
+| [#87](https://github.com/the-static-collective/CANNON/pull/87) | INSPAND-016 — actual PlayDeck moving video+audio into original Toaster VSPantry/foreign-material renderer and Dogram | `experiment/inspand-016-playdeck-toaster-video-source` → `experiment/inspand-015-playdeck-toaster-native-still` | 2026-10-30 |
 | [#86](https://github.com/the-static-collective/CANNON/pull/86) | INSPAND-015 — genuine original PlayDeck Remotion still to Haunted Toaster scored MP4/Dogram checkpoint bridge | `experiment/inspand-015-playdeck-toaster-native-still` → `experiment/inspand-014-playdeck-toaster-red-gate` | 2026-10-30 |
 | [#85](https://github.com/the-static-collective/CANNON/pull/85) | INSPAND-014 — PlayDeck → Haunted Toaster original-source RED-first compatibility and typed adapter requirements | `experiment/inspand-014-playdeck-toaster-red-gate` → `experiment/inspand-013-multi-repo-question-atlas` | 2026-10-30 |
 | [#84](https://github.com/the-static-collective/CANNON/pull/84) | INSPAND-013 — six real cross-repository interface research questions from five source owners | `experiment/inspand-013-multi-repo-question-atlas` → `experiment/inspand-012-question-experiment-loop` | 2026-10-30 |
@@ -154,6 +158,10 @@ Default: `main` · other refs: 80 · open PRs: 79
 | [experiment/inspand-013-multi-repo-question-atlas](https://github.com/the-static-collective/CANNON/tree/experiment/inspand-013-multi-repo-question-atlas) | [8e641a8aec](https://github.com/the-static-collective/CANNON/commit/8e641a8aecee4e1cc9c9a6a3e62e02e0f3f5e5cc) | [open PR #84](https://github.com/the-static-collective/CANNON/pull/84) |
 | [experiment/inspand-014-playdeck-toaster-red-gate](https://github.com/the-static-collective/CANNON/tree/experiment/inspand-014-playdeck-toaster-red-gate) | [6b79a6ba98](https://github.com/the-static-collective/CANNON/commit/6b79a6ba98a5cb3ef4a130cfcc414f0a57d9cdeb) | [open PR #85](https://github.com/the-static-collective/CANNON/pull/85) |
 | [experiment/inspand-015-playdeck-toaster-native-still](https://github.com/the-static-collective/CANNON/tree/experiment/inspand-015-playdeck-toaster-native-still) | [49c4dcd636](https://github.com/the-static-collective/CANNON/commit/49c4dcd6366bc6836f5c0e6a99d5803f7e34fa70) | [open PR #86](https://github.com/the-static-collective/CANNON/pull/86) |
+| [experiment/inspand-016-playdeck-toaster-video-source](https://github.com/the-static-collective/CANNON/tree/experiment/inspand-016-playdeck-toaster-video-source) | [d77b46f4ae](https://github.com/the-static-collective/CANNON/commit/d77b46f4aed56f4a51b6500e50bd6f96415c31ad) | [open PR #87](https://github.com/the-static-collective/CANNON/pull/87) |
+| [experiment/inspand-017-whole-banana-full-genesis](https://github.com/the-static-collective/CANNON/tree/experiment/inspand-017-whole-banana-full-genesis) | [db4570983e](https://github.com/the-static-collective/CANNON/commit/db4570983e6f1e6633379d4346247a35ee5f60cf) | [open PR #88](https://github.com/the-static-collective/CANNON/pull/88) |
+| [experiment/inspand-018-creative-route-switchyard](https://github.com/the-static-collective/CANNON/tree/experiment/inspand-018-creative-route-switchyard) | [18381a447d](https://github.com/the-static-collective/CANNON/commit/18381a447db3310927e003ec36989840133e98b8) | [open PR #89](https://github.com/the-static-collective/CANNON/pull/89) |
+| [experiment/inspand-019-minute-mail-original-toaster](https://github.com/the-static-collective/CANNON/tree/experiment/inspand-019-minute-mail-original-toaster) | [f757bd954c](https://github.com/the-static-collective/CANNON/commit/f757bd954caade89cfd68f7ca1488a54fc723a2e) | [open PR #90](https://github.com/the-static-collective/CANNON/pull/90) |
 | [experiment/kinship-bridge-africa-007](https://github.com/the-static-collective/CANNON/tree/experiment/kinship-bridge-africa-007) | [8906a7b559](https://github.com/the-static-collective/CANNON/commit/8906a7b559565e844ed0a7791eced89ac5a549d4) | [open PR #11](https://github.com/the-static-collective/CANNON/pull/11) |
 | [experiment/kinship-surplus-006](https://github.com/the-static-collective/CANNON/tree/experiment/kinship-surplus-006) | [9101b76f13](https://github.com/the-static-collective/CANNON/commit/9101b76f1387389300e070f3a6851df75269f39f) | [open PR #9](https://github.com/the-static-collective/CANNON/pull/9) |
 | [experiment/one-invention-plan-return-006](https://github.com/the-static-collective/CANNON/tree/experiment/one-invention-plan-return-006) | [f9ab8a5dfe](https://github.com/the-static-collective/CANNON/commit/f9ab8a5dfeee8e383d622d5a17a1f9311f7ae9ad) | [open PR #63](https://github.com/the-static-collective/CANNON/pull/63) |
@@ -512,12 +520,13 @@ Default: `main` · other refs: 127 · open PRs: 119
 
 [Repository](https://github.com/the-static-collective/GRAFT) · [Branches](https://github.com/the-static-collective/GRAFT/branches) · [Pull requests](https://github.com/the-static-collective/GRAFT/pulls)
 
-Default: `main` · other refs: 35 · open PRs: 14
+Default: `main` · other refs: 36 · open PRs: 15
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#18](https://github.com/the-static-collective/GRAFT/pull/18) | UNFUTURES-007: Fairness Laboratory — competing allocation policies, original Dogram witness | `graft/unfutures-007-fairness-laboratory` → `graft/unfutures-006-dogram-allocation` | 2026-10-30 |
 | [#17](https://github.com/the-static-collective/GRAFT/pull/17) | UNFUTURES-006: Original Dogram exact scarcity math, rounding residues and anti-collapse audit | `graft/unfutures-006-dogram-allocation` → `graft/unfutures-005-dogram-experiment` | 2026-10-30 |
 | [#16](https://github.com/the-static-collective/GRAFT/pull/16) | UNFUTURES-005: Dogram native math × bounded Experimental Economy | `graft/unfutures-005-dogram-experiment` → `graft/unfutures-004-economic-imagination` | 2026-10-30 |
 | [#15](https://github.com/the-static-collective/GRAFT/pull/15) | UNFUTURES-004: bounded Economic Imagination Engine and counterfactual lab | `graft/unfutures-004-economic-imagination` → `graft/unfutures-003-generative-economy` | 2026-10-30 |
@@ -571,6 +580,7 @@ Default: `main` · other refs: 35 · open PRs: 14
 | [graft/unfutures-004-economic-imagination](https://github.com/the-static-collective/GRAFT/tree/graft/unfutures-004-economic-imagination) | [ca80e108d3](https://github.com/the-static-collective/GRAFT/commit/ca80e108d30555b6e4f5729fa284372eebd9223c) | [open PR #15](https://github.com/the-static-collective/GRAFT/pull/15) |
 | [graft/unfutures-005-dogram-experiment](https://github.com/the-static-collective/GRAFT/tree/graft/unfutures-005-dogram-experiment) | [b6cf9b9567](https://github.com/the-static-collective/GRAFT/commit/b6cf9b956765030f488f5774a26c6a84b11a6433) | [open PR #16](https://github.com/the-static-collective/GRAFT/pull/16) |
 | [graft/unfutures-006-dogram-allocation](https://github.com/the-static-collective/GRAFT/tree/graft/unfutures-006-dogram-allocation) | [3ad4a06d98](https://github.com/the-static-collective/GRAFT/commit/3ad4a06d9899d954056492d32fe76ee9d6fc090c) | [open PR #17](https://github.com/the-static-collective/GRAFT/pull/17) |
+| [graft/unfutures-007-fairness-laboratory](https://github.com/the-static-collective/GRAFT/tree/graft/unfutures-007-fairness-laboratory) | [b89f737490](https://github.com/the-static-collective/GRAFT/commit/b89f737490cea77869e18b85602b33f06a4e51c9) | [open PR #18](https://github.com/the-static-collective/GRAFT/pull/18) |
 | [graft/weaves-to-weves-001](https://github.com/the-static-collective/GRAFT/tree/graft/weaves-to-weves-001) | [8d44273921](https://github.com/the-static-collective/GRAFT/commit/8d442739216af024a20a299cf06073ca90c195ad) | [open PR #9](https://github.com/the-static-collective/GRAFT/pull/9) |
 
 ## GrO
@@ -638,12 +648,16 @@ Default: `main` · other refs: 30 · open PRs: 15
 
 [Repository](https://github.com/the-static-collective/JAR-VIS) · [Branches](https://github.com/the-static-collective/JAR-VIS/branches) · [Pull requests](https://github.com/the-static-collective/JAR-VIS/pulls)
 
-Default: `main` · other refs: 39 · open PRs: 16
+Default: `main` · other refs: 46 · open PRs: 20
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#43](https://github.com/the-static-collective/JAR-VIS/pull/43) | PORCH-RECEIVER-009: human needs/offers into private JAR;VIS review with revocable receipts | `feature/porch-receiver-009` → `main` | 2026-10-30 |
+| [#42](https://github.com/the-static-collective/JAR-VIS/pull/42) | JARVIS-019: Storyship × Story DNA narrative-justice attendant with six human gates | `experiment/narrative-justice-attendant-019` → `experiment/nourish-banana-attendant-018` | 2026-10-30 |
+| [#41](https://github.com/the-static-collective/JAR-VIS/pull/41) | JARVIS-MINUTE-001 — new brief, original two-film production and two revisions across five source-owned repos | `experiment/jarvis-minute-mail-001` → `experiment/jarvis-studio-return-loop-001` | 2026-10-30 |
+| [#40](https://github.com/the-static-collective/JAR-VIS/pull/40) | JARVIS-STUDIO-001 — plan/render/return/replan loop across six original repos, ending in playable lemonPRESS film package | `experiment/jarvis-studio-return-loop-001` → `main` | 2026-10-30 |
 | [#39](https://github.com/the-static-collective/JAR-VIS/pull/39) | JARVIS-018: Nourish → BananaSpork source-native attendant; redacted human-gate HOLD | `experiment/nourish-banana-attendant-018` → `experiment/thought-food-001-creative-pantry` | 2026-10-30 |
 | [#38](https://github.com/the-static-collective/JAR-VIS/pull/38) | THOUGHT-FOOD-001: films, books and living records become bounded JAR;VIS idea lenses | `experiment/thought-food-001-creative-pantry` → `experiment/toaster-crossing-005-offer` | 2026-10-29 |
 | [#37](https://github.com/the-static-collective/JAR-VIS/pull/37) | INSPAND-004 — JAR;VIS independently inspects CANNON's native typed Reflex Composer | `experiment/inspand-004-composition-attendant` → `experiment/inspand-003-reflex-attendant` | 2026-10-29 |
@@ -672,7 +686,10 @@ Default: `main` · other refs: 39 · open PRs: 16
 | [experiment/culture-return-005](https://github.com/the-static-collective/JAR-VIS/tree/experiment/culture-return-005) | [98388d1bef](https://github.com/the-static-collective/JAR-VIS/commit/98388d1bef8e876a5a72e7c20fe6d81d481caae2) | [open PR #27](https://github.com/the-static-collective/JAR-VIS/pull/27) |
 | [experiment/inspand-003-reflex-attendant](https://github.com/the-static-collective/JAR-VIS/tree/experiment/inspand-003-reflex-attendant) | [4ba71cef35](https://github.com/the-static-collective/JAR-VIS/commit/4ba71cef35d59bb5bacab6abb76d77929f420d4f) | [open PR #36](https://github.com/the-static-collective/JAR-VIS/pull/36) |
 | [experiment/inspand-004-composition-attendant](https://github.com/the-static-collective/JAR-VIS/tree/experiment/inspand-004-composition-attendant) | [0407527703](https://github.com/the-static-collective/JAR-VIS/commit/040752770385dd3f0ddbe91d02b9e48237c0b612) | [open PR #37](https://github.com/the-static-collective/JAR-VIS/pull/37) |
+| [experiment/jarvis-minute-mail-001](https://github.com/the-static-collective/JAR-VIS/tree/experiment/jarvis-minute-mail-001) | [af4069379f](https://github.com/the-static-collective/JAR-VIS/commit/af4069379f223697727e68bd41f3e8b588554629) | [open PR #41](https://github.com/the-static-collective/JAR-VIS/pull/41) |
+| [experiment/jarvis-studio-return-loop-001](https://github.com/the-static-collective/JAR-VIS/tree/experiment/jarvis-studio-return-loop-001) | [cda94419cd](https://github.com/the-static-collective/JAR-VIS/commit/cda94419cda9243197e8101db70bf1911de18abb) | [open PR #40](https://github.com/the-static-collective/JAR-VIS/pull/40) |
 | [experiment/maddclown-slots-004](https://github.com/the-static-collective/JAR-VIS/tree/experiment/maddclown-slots-004) | [1660e98a3e](https://github.com/the-static-collective/JAR-VIS/commit/1660e98a3e456e2a1fdfe098d1b3cd0277e5db32) | [open PR #34](https://github.com/the-static-collective/JAR-VIS/pull/34) |
+| [experiment/narrative-justice-attendant-019](https://github.com/the-static-collective/JAR-VIS/tree/experiment/narrative-justice-attendant-019) | [5e9c211c43](https://github.com/the-static-collective/JAR-VIS/commit/5e9c211c4382916998f3a0a96f1a1fc89c719c23) | [open PR #42](https://github.com/the-static-collective/JAR-VIS/pull/42) |
 | [experiment/nourish-banana-attendant-018](https://github.com/the-static-collective/JAR-VIS/tree/experiment/nourish-banana-attendant-018) | [206c23f155](https://github.com/the-static-collective/JAR-VIS/commit/206c23f15510961976db7e89df433c124f2ea83a) | [open PR #39](https://github.com/the-static-collective/JAR-VIS/pull/39) |
 | [experiment/season-001-witness-attendant](https://github.com/the-static-collective/JAR-VIS/tree/experiment/season-001-witness-attendant) | [5754fab77a](https://github.com/the-static-collective/JAR-VIS/commit/5754fab77a6771fcbd075ea68c16e537279ed237) | [open PR #32](https://github.com/the-static-collective/JAR-VIS/pull/32) |
 | [experiment/stranger-cabaret-003](https://github.com/the-static-collective/JAR-VIS/tree/experiment/stranger-cabaret-003) | [3d93867898](https://github.com/the-static-collective/JAR-VIS/commit/3d93867898eac44d5f54d79251ea90a6ee9b50c9) | [open PR #33](https://github.com/the-static-collective/JAR-VIS/pull/33) |
@@ -680,11 +697,14 @@ Default: `main` · other refs: 39 · open PRs: 16
 | [experiment/thought-food-001-creative-pantry](https://github.com/the-static-collective/JAR-VIS/tree/experiment/thought-food-001-creative-pantry) | [28d46f26ae](https://github.com/the-static-collective/JAR-VIS/commit/28d46f26ae373cb20f4fc288c21b891fe97a6f68) | [open PR #38](https://github.com/the-static-collective/JAR-VIS/pull/38) |
 | [experiment/toaster-crossing-005-offer](https://github.com/the-static-collective/JAR-VIS/tree/experiment/toaster-crossing-005-offer) | [0bba5fa338](https://github.com/the-static-collective/JAR-VIS/commit/0bba5fa3381fe7475b021cd35e56309ae5817aa2) | [open PR #35](https://github.com/the-static-collective/JAR-VIS/pull/35) |
 | [feat/backend-006-durable-attention-belt](https://github.com/the-static-collective/JAR-VIS/tree/feat/backend-006-durable-attention-belt) | [86fa68388a](https://github.com/the-static-collective/JAR-VIS/commit/86fa68388abccd164befd14d6919d0e3889faa98) | Retained ref; disposition unverified |
+| [feat/boundary-inhabitation-bus-001](https://github.com/the-static-collective/JAR-VIS/tree/feat/boundary-inhabitation-bus-001) | [56c00d1386](https://github.com/the-static-collective/JAR-VIS/commit/56c00d1386a3b609f0965b8ebf6422405fe493a9) | Retained ref; disposition unverified |
 | [feat/bridge005-receiver-work-card](https://github.com/the-static-collective/JAR-VIS/tree/feat/bridge005-receiver-work-card) | [3007ebac28](https://github.com/the-static-collective/JAR-VIS/commit/3007ebac2861d7d7aff55b16f519d817cd5d6ce2) | Retained ref; disposition unverified |
+| [feat/bus-boundary-field-scout-002](https://github.com/the-static-collective/JAR-VIS/tree/feat/bus-boundary-field-scout-002) | [c503f8007f](https://github.com/the-static-collective/JAR-VIS/commit/c503f8007faeb4c87d1f2c55bf72f5c34feadbf9) | Retained ref; disposition unverified |
 | [feat/campfire-first-yes-gateway-001](https://github.com/the-static-collective/JAR-VIS/tree/feat/campfire-first-yes-gateway-001) | [5150ea19d7](https://github.com/the-static-collective/JAR-VIS/commit/5150ea19d744d339f5657acded7629da10a75146) | [open PR #10](https://github.com/the-static-collective/JAR-VIS/pull/10) |
 | [feat/operator-crosspanel-003](https://github.com/the-static-collective/JAR-VIS/tree/feat/operator-crosspanel-003) | [a04781f6d5](https://github.com/the-static-collective/JAR-VIS/commit/a04781f6d5e559cb91b53a92e6766b1afa116dac) | Retained ref; disposition unverified |
 | [feat/planz-owner-attention-001](https://github.com/the-static-collective/JAR-VIS/tree/feat/planz-owner-attention-001) | [42b4eac3c2](https://github.com/the-static-collective/JAR-VIS/commit/42b4eac3c261a701571d35bd2a3fc9718e6bd004) | Retained ref; disposition unverified |
 | [feat/planz-work-return-001](https://github.com/the-static-collective/JAR-VIS/tree/feat/planz-work-return-001) | [1da7fe37d0](https://github.com/the-static-collective/JAR-VIS/commit/1da7fe37d05a2fd249112eba2f10e7e0804b3db3) | Retained ref; disposition unverified |
+| [feat/recursive-workshop-001-toaster-recomposer](https://github.com/the-static-collective/JAR-VIS/tree/feat/recursive-workshop-001-toaster-recomposer) | [f8233b411f](https://github.com/the-static-collective/JAR-VIS/commit/f8233b411f3ebc828f480f9471796a343393c7ec) | Retained ref; disposition unverified |
 | [feat/reviewer-weave-002](https://github.com/the-static-collective/JAR-VIS/tree/feat/reviewer-weave-002) | [aed5d8d808](https://github.com/the-static-collective/JAR-VIS/commit/aed5d8d808c3d8d432e240bb649dd432b5a54b0a) | Retained ref; disposition unverified |
 | [feat/work-inherits-001](https://github.com/the-static-collective/JAR-VIS/tree/feat/work-inherits-001) | [a1541436f0](https://github.com/the-static-collective/JAR-VIS/commit/a1541436f082df7ae162b9b78f7987e8afc3261b) | Retained ref; disposition unverified |
 | [feature/backend-007-operator-panel-scoped-workers](https://github.com/the-static-collective/JAR-VIS/tree/feature/backend-007-operator-panel-scoped-workers) | [98d80f50ff](https://github.com/the-static-collective/JAR-VIS/commit/98d80f50ffa976ed1dce69192849202a7bde7ce5) | Retained ref; disposition unverified |
@@ -692,6 +712,7 @@ Default: `main` · other refs: 39 · open PRs: 16
 | [feature/community-brain-open-seats-006](https://github.com/the-static-collective/JAR-VIS/tree/feature/community-brain-open-seats-006) | [fe0f6f24c4](https://github.com/the-static-collective/JAR-VIS/commit/fe0f6f24c4250e0dc6ac476883ebc2c0dc45b743) | [open PR #9](https://github.com/the-static-collective/JAR-VIS/pull/9) |
 | [feature/harmony-public-source-001](https://github.com/the-static-collective/JAR-VIS/tree/feature/harmony-public-source-001) | [c9b8341f2e](https://github.com/the-static-collective/JAR-VIS/commit/c9b8341f2eff16105f58dcd5bb9031245bcb0558) | Retained ref; disposition unverified |
 | [feature/heartbeat-001-roundtrip](https://github.com/the-static-collective/JAR-VIS/tree/feature/heartbeat-001-roundtrip) | [f06213463f](https://github.com/the-static-collective/JAR-VIS/commit/f06213463f616cddc023ac942ff671ba69096531) | Retained ref; disposition unverified |
+| [feature/porch-receiver-009](https://github.com/the-static-collective/JAR-VIS/tree/feature/porch-receiver-009) | [befdcd7aec](https://github.com/the-static-collective/JAR-VIS/commit/befdcd7aec1bb5c47eb60017d54c440f9cd12ec1) | [open PR #43](https://github.com/the-static-collective/JAR-VIS/pull/43) |
 | [feature/post-office-001-field-outreach](https://github.com/the-static-collective/JAR-VIS/tree/feature/post-office-001-field-outreach) | [6d97a0a90e](https://github.com/the-static-collective/JAR-VIS/commit/6d97a0a90e6455962985d5c2a50bd193641a1d91) | Retained ref; disposition unverified |
 | [fix/005-openmanus-venv](https://github.com/the-static-collective/JAR-VIS/tree/fix/005-openmanus-venv) | [cad2c7bb02](https://github.com/the-static-collective/JAR-VIS/commit/cad2c7bb026ddae967f85d627503bd8150308e02) | Retained ref; disposition unverified |
 | [genesis-001-voluntary-crossing](https://github.com/the-static-collective/JAR-VIS/tree/genesis-001-voluntary-crossing) | [8d39453d11](https://github.com/the-static-collective/JAR-VIS/commit/8d39453d1104cdab2571806059a4fd43d481196d) | Retained ref; disposition unverified |
@@ -767,12 +788,14 @@ Default: `main` · other refs: 21 · open PRs: 21
 
 [Repository](https://github.com/the-static-collective/lemonPRESS) · [Branches](https://github.com/the-static-collective/lemonPRESS/branches) · [Pull requests](https://github.com/the-static-collective/lemonPRESS/pulls)
 
-Default: `main` · other refs: 70 · open PRs: 44
+Default: `main` · other refs: 72 · open PRs: 46
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#66](https://github.com/the-static-collective/lemonPRESS/pull/66) | LEMONPRESS-MINUTE-001 — a printable, playable minute-return post office with evidence-reviewed revision | `experiment/minute-mail-house-001` → `experiment/screening-return-001` | 2026-10-30 |
+| [#65](https://github.com/the-static-collective/lemonPRESS/pull/65) | LEMONPRESS-SCREENING-001 — source-linked draft → revised final screening program and poster | `experiment/screening-return-001` → `main` | 2026-10-30 |
 | [#64](https://github.com/the-static-collective/lemonPRESS/pull/64) | RETURN PRESS-006: let a record's consented history compose a new audio-keyed remix | `experiment/fencepost-return-press-006` → `experiment/fencepost-audio-key-005` | 2026-10-29 |
 | [#63](https://github.com/the-static-collective/lemonPRESS/pull/63) | MACHINE-MANUSCRIPT-001 — native held Book of Machines illustrated edition | `experiment/machine-manuscript-001` → `main` | 2026-10-29 |
 | [#62](https://github.com/the-static-collective/lemonPRESS/pull/62) | AUDIO KEY-005: record-borne hashed portals and opt-in local code fixtures | `experiment/fencepost-audio-key-005` → `experiment/fencepost-groovevault-004` | 2026-10-29 |
@@ -842,12 +865,14 @@ Default: `main` · other refs: 70 · open PRs: 44
 | [experiment/marginalia-printproof-review-003](https://github.com/the-static-collective/lemonPRESS/tree/experiment/marginalia-printproof-review-003) | [5635dadedf](https://github.com/the-static-collective/lemonPRESS/commit/5635dadedf171eb2f5b81e24ba2299933a0da85b) | [open PR #53](https://github.com/the-static-collective/lemonPRESS/pull/53) |
 | [experiment/marginalia-three-doors-002](https://github.com/the-static-collective/lemonPRESS/tree/experiment/marginalia-three-doors-002) | [1b1265b73c](https://github.com/the-static-collective/lemonPRESS/commit/1b1265b73c51e0e7b07840609a693b5aac4ba920) | [open PR #52](https://github.com/the-static-collective/lemonPRESS/pull/52) |
 | [experiment/material-memory-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/material-memory-001) | [3ea755da14](https://github.com/the-static-collective/lemonPRESS/commit/3ea755da14db9ecdd3b3b6e45dcbc56f9cbc58cd) | [open PR #49](https://github.com/the-static-collective/lemonPRESS/pull/49) |
+| [experiment/minute-mail-house-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/minute-mail-house-001) | [c4fcb447a7](https://github.com/the-static-collective/lemonPRESS/commit/c4fcb447a74bd54b62b026ef607eaa92a209af70) | [open PR #66](https://github.com/the-static-collective/lemonPRESS/pull/66) |
 | [experiment/opf-press-000-rosemary-bloom](https://github.com/the-static-collective/lemonPRESS/tree/experiment/opf-press-000-rosemary-bloom) | [b75c878f94](https://github.com/the-static-collective/lemonPRESS/commit/b75c878f94beed624e4698468324bf004ed5546a) | [open PR #55](https://github.com/the-static-collective/lemonPRESS/pull/55) |
 | [experiment/opf-vinyl-preflight-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/opf-vinyl-preflight-001) | [c96738e833](https://github.com/the-static-collective/lemonPRESS/commit/c96738e8333b3f75e1c485b8e25f276c4da68f8a) | [open PR #58](https://github.com/the-static-collective/lemonPRESS/pull/58) |
 | [experiment/page-intake-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/page-intake-001) | [81dc84dfe9](https://github.com/the-static-collective/lemonPRESS/commit/81dc84dfe9e6ebebb54c751e5c8c213ff9516d82) | [open PR #36](https://github.com/the-static-collective/lemonPRESS/pull/36) |
 | [experiment/reletter-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/reletter-001) | [2b9ef5c703](https://github.com/the-static-collective/lemonPRESS/commit/2b9ef5c7039816d20a51a7411e276999874f78d3) | [open PR #35](https://github.com/the-static-collective/lemonPRESS/pull/35) |
 | [experiment/reletter-batch-mask-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/reletter-batch-mask-001) | [6fe2bfd13f](https://github.com/the-static-collective/lemonPRESS/commit/6fe2bfd13fba08bcc096e31109a038a56a63f7df) | [open PR #40](https://github.com/the-static-collective/lemonPRESS/pull/40) |
 | [experiment/remix-sequence-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/remix-sequence-001) | [6387170a1d](https://github.com/the-static-collective/lemonPRESS/commit/6387170a1d623c4e819db572e70d7a0df1ce1b70) | [open PR #27](https://github.com/the-static-collective/lemonPRESS/pull/27) |
+| [experiment/screening-return-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/screening-return-001) | [f60429311b](https://github.com/the-static-collective/lemonPRESS/commit/f60429311ba2d5fec3b1442ab783025872987a12) | [open PR #65](https://github.com/the-static-collective/lemonPRESS/pull/65) |
 | [experiment/translation-relay-001](https://github.com/the-static-collective/lemonPRESS/tree/experiment/translation-relay-001) | [7c175dd081](https://github.com/the-static-collective/lemonPRESS/commit/7c175dd08130dc519c325ac0bd70ea1b82a3366e) | [open PR #34](https://github.com/the-static-collective/lemonPRESS/pull/34) |
 | [experiment/waseca-lemon-issue-000](https://github.com/the-static-collective/lemonPRESS/tree/experiment/waseca-lemon-issue-000) | [f4e4a25759](https://github.com/the-static-collective/lemonPRESS/commit/f4e4a25759c489190b2b1b040823e972b1486f08) | Retained ref; disposition unverified |
 | [feat/2day-crawler-001](https://github.com/the-static-collective/lemonPRESS/tree/feat/2day-crawler-001) | [f084eb35d7](https://github.com/the-static-collective/lemonPRESS/commit/f084eb35d76a10f46a9c50b9aed3667ed01e3451) | [open PR #32](https://github.com/the-static-collective/lemonPRESS/pull/32) |
@@ -918,12 +943,14 @@ Default: `main` · other refs: 4 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/planZ) · [Branches](https://github.com/the-static-collective/planZ/branches) · [Pull requests](https://github.com/the-static-collective/planZ/pulls)
 
-Default: `main` · other refs: 29 · open PRs: 26
+Default: `main` · other refs: 31 · open PRs: 28
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#41](https://github.com/the-static-collective/planZ/pull/41) | PLANZ-MINUTE-001 — adapt creative plans to an untried objective, advancing only after real owner evidence | `experiment/minute-mail-plan-001` → `experiment/production-return-001` | 2026-10-30 |
+| [#40](https://github.com/the-static-collective/planZ/pull/40) | PLANZ-PRODUCTION-001 — source-owned evidence-return four-pass creative planner | `experiment/production-return-001` → `main` | 2026-10-30 |
 | [#39](https://github.com/the-static-collective/planZ/pull/39) | STORY-ROOMS-004: Deuce/Renji/Octopus story packet → original PlanZ recursive four-lens return | `experiment/story-rooms-004-four-lens-return` → `experiment/nested-seven-planning-cycle-003` | 2026-10-29 |
 | [#38](https://github.com/the-static-collective/planZ/pull/38) | NESTED-SEVEN-003 — original PlanZ idea contains seven creative subcycles and bounded recursive descendants | `experiment/nested-seven-planning-cycle-003` → `experiment/return-seven-native-002` | 2026-10-29 |
 | [#37](https://github.com/the-static-collective/planZ/pull/37) | RETURN-SEVEN-002 — original PlanZ ingests seven native-software outcomes as 28 angle cuts and 7 new plans | `experiment/return-seven-native-002` → `experiment/recursive-plan-reactor-001` | 2026-10-29 |
@@ -963,7 +990,9 @@ Default: `main` · other refs: 29 · open PRs: 26
 | [experiment/culture-return-005](https://github.com/the-static-collective/planZ/tree/experiment/culture-return-005) | [ca050aeb94](https://github.com/the-static-collective/planZ/commit/ca050aeb94dfe73a719513cb5cb8dad58ab2783a) | [open PR #35](https://github.com/the-static-collective/planZ/pull/35) |
 | [experiment/fatherhand-grant-chain-residue-001](https://github.com/the-static-collective/planZ/tree/experiment/fatherhand-grant-chain-residue-001) | [e8111fdb64](https://github.com/the-static-collective/planZ/commit/e8111fdb64c5587b33aece0fed639ed3d03375ac) | [open PR #10](https://github.com/the-static-collective/planZ/pull/10) |
 | [experiment/heart-001-fatherhand-combinatrix](https://github.com/the-static-collective/planZ/tree/experiment/heart-001-fatherhand-combinatrix) | [bc0ae32e0a](https://github.com/the-static-collective/planZ/commit/bc0ae32e0abb22cda53cc197acd6d14429fee6fa) | [open PR #9](https://github.com/the-static-collective/planZ/pull/9) |
+| [experiment/minute-mail-plan-001](https://github.com/the-static-collective/planZ/tree/experiment/minute-mail-plan-001) | [d7eb38b90f](https://github.com/the-static-collective/planZ/commit/d7eb38b90f7794ad2570644522f3da687f42cb0d) | [open PR #41](https://github.com/the-static-collective/planZ/pull/41) |
 | [experiment/nested-seven-planning-cycle-003](https://github.com/the-static-collective/planZ/tree/experiment/nested-seven-planning-cycle-003) | [336e03879f](https://github.com/the-static-collective/planZ/commit/336e03879fc230fcc3bea4b13c78f0f4919d13a0) | [open PR #38](https://github.com/the-static-collective/planZ/pull/38) |
+| [experiment/production-return-001](https://github.com/the-static-collective/planZ/tree/experiment/production-return-001) | [aac8349ee9](https://github.com/the-static-collective/planZ/commit/aac8349ee9be9cdbeae37f15fe13de7405ff11fd) | [open PR #40](https://github.com/the-static-collective/planZ/pull/40) |
 | [experiment/recursive-plan-reactor-001](https://github.com/the-static-collective/planZ/tree/experiment/recursive-plan-reactor-001) | [64ed8a376a](https://github.com/the-static-collective/planZ/commit/64ed8a376acd63a5d630e1649b6001fb3b3251de) | [open PR #36](https://github.com/the-static-collective/planZ/pull/36) |
 | [experiment/relay001-next-mission](https://github.com/the-static-collective/planZ/tree/experiment/relay001-next-mission) | [f4b8207105](https://github.com/the-static-collective/planZ/commit/f4b8207105cc7c7883d5533892c83089d0a7322d) | [open PR #17](https://github.com/the-static-collective/planZ/pull/17) |
 | [experiment/return-seven-native-002](https://github.com/the-static-collective/planZ/tree/experiment/return-seven-native-002) | [c94c2091d2](https://github.com/the-static-collective/planZ/commit/c94c2091d2d121def39d85981d8c323f5724f6e7) | [open PR #37](https://github.com/the-static-collective/planZ/pull/37) |
@@ -989,12 +1018,13 @@ Default: `main` · other refs: 29 · open PRs: 26
 
 [Repository](https://github.com/the-static-collective/playdeck) · [Branches](https://github.com/the-static-collective/playdeck/branches) · [Pull requests](https://github.com/the-static-collective/playdeck/pulls)
 
-Default: `main` · other refs: 3 · open PRs: 3
+Default: `main` · other refs: 4 · open PRs: 4
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#4](https://github.com/the-static-collective/playdeck/pull/4) | GENESIS-FULL-001 — complete 6,389-frame original Genesis performance with source-owning sealed receipt | `experiment/genesis-full-performance-receipt-001` → `main` | 2026-10-30 |
 | [#3](https://github.com/the-static-collective/playdeck/pull/3) | LEMONPRESS SEQUENCE HANDOFF 001 — verified reading order into Playdeck | `experiment/lemonpress-sequence-handoff-001` → `experiment/page-playlist-press-001` | 2026-10-07 |
 | [#2](https://github.com/the-static-collective/playdeck/pull/2) | PAGE PLAYLIST PRESS 001 — originals + remixes into Playdeck | `experiment/page-playlist-press-001` → `main` | 2026-10-07 |
 | [#1](https://github.com/the-static-collective/playdeck/pull/1) | FRANKEN SMASH 001: deterministic cross-organ composition runtime | `experiment/franken-smash-001` → `main` | 2026-10-04 |
@@ -1004,6 +1034,7 @@ Default: `main` · other refs: 3 · open PRs: 3
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
 | [experiment/franken-smash-001](https://github.com/the-static-collective/playdeck/tree/experiment/franken-smash-001) | [012186fd67](https://github.com/the-static-collective/playdeck/commit/012186fd67f4c4ef1c6591fc5e29cb559b5a80d0) | [open PR #1](https://github.com/the-static-collective/playdeck/pull/1) |
+| [experiment/genesis-full-performance-receipt-001](https://github.com/the-static-collective/playdeck/tree/experiment/genesis-full-performance-receipt-001) | [2e410230ba](https://github.com/the-static-collective/playdeck/commit/2e410230ba2f230cd801f156ed2eecc2fd23b330) | [open PR #4](https://github.com/the-static-collective/playdeck/pull/4) |
 | [experiment/lemonpress-sequence-handoff-001](https://github.com/the-static-collective/playdeck/tree/experiment/lemonpress-sequence-handoff-001) | [e64f11f728](https://github.com/the-static-collective/playdeck/commit/e64f11f728137e8908e4f5bdbde9aab39e2d9bbd) | [open PR #3](https://github.com/the-static-collective/playdeck/pull/3) |
 | [experiment/page-playlist-press-001](https://github.com/the-static-collective/playdeck/tree/experiment/page-playlist-press-001) | [7f0fefaa6d](https://github.com/the-static-collective/playdeck/commit/7f0fefaa6d69f8cd5c682dc92a641b7799e7dedc) | [open PR #2](https://github.com/the-static-collective/playdeck/pull/2) |
 
@@ -1311,12 +1342,13 @@ Default: `main` · other refs: 11 · open PRs: 8
 
 [Repository](https://github.com/the-static-collective/story-dna) · [Branches](https://github.com/the-static-collective/story-dna/branches) · [Pull requests](https://github.com/the-static-collective/story-dna/pulls)
 
-Default: `main` · other refs: 5 · open PRs: 5
+Default: `main` · other refs: 6 · open PRs: 6
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#6](https://github.com/the-static-collective/story-dna/pull/6) | \[Candidate\] Department of Unclaimed Tomorrows — postal desk + Episode 000 | `feat/unclaimed-tomorrows-001` → `main` | 2026-10-31 |
 | [#5](https://github.com/the-static-collective/story-dna/pull/5) | LAB-005: portable Grok Build rescue and local Story DNA bank | `feat/grok-lab-rescue-005` → `main` | 2026-10-16 |
 | [#4](https://github.com/the-static-collective/story-dna/pull/4) | KEEP-A-PLACE-001: real owner MP3 → held five-panel Story DNA / lemonPRESS / VidMage handoff | `experiment/keep-a-place-song-to-panel-001` → `feat/visual-continuity-004` | 2026-10-16 |
 | [#3](https://github.com/the-static-collective/story-dna/pull/3) | Visual Continuity 004 — source-bound Character Mirror, style variation and human review | `feat/visual-continuity-004` → `feat/character-registry-003` | 2026-10-16 |
@@ -1331,6 +1363,7 @@ Default: `main` · other refs: 5 · open PRs: 5
 | [feat/character-registry-003](https://github.com/the-static-collective/story-dna/tree/feat/character-registry-003) | [096514ce33](https://github.com/the-static-collective/story-dna/commit/096514ce33ccf8f83629273fe83d74b78bc58fc6) | [open PR #2](https://github.com/the-static-collective/story-dna/pull/2) |
 | [feat/grok-lab-rescue-005](https://github.com/the-static-collective/story-dna/tree/feat/grok-lab-rescue-005) | [b38905bfde](https://github.com/the-static-collective/story-dna/commit/b38905bfde3e4389f6007caf183d07e536fdeea5) | [open PR #5](https://github.com/the-static-collective/story-dna/pull/5) |
 | [feat/relationship-passenger-002](https://github.com/the-static-collective/story-dna/tree/feat/relationship-passenger-002) | [beab7fd5ab](https://github.com/the-static-collective/story-dna/commit/beab7fd5ab6f63de2a7a9332998c22bedf6b73ea) | [open PR #1](https://github.com/the-static-collective/story-dna/pull/1) |
+| [feat/unclaimed-tomorrows-001](https://github.com/the-static-collective/story-dna/tree/feat/unclaimed-tomorrows-001) | [92383f4506](https://github.com/the-static-collective/story-dna/commit/92383f4506bfbf3b34c16bdf043f7cb1dffc2357) | [open PR #6](https://github.com/the-static-collective/story-dna/pull/6) |
 | [feat/visual-continuity-004](https://github.com/the-static-collective/story-dna/tree/feat/visual-continuity-004) | [c541c4511c](https://github.com/the-static-collective/story-dna/commit/c541c4511c459bbb80668f2a655904437d8296fd) | [open PR #3](https://github.com/the-static-collective/story-dna/pull/3) |
 
 ## TABLElogic
@@ -1361,7 +1394,44 @@ Default: `main` · other refs: 4 · open PRs: 4
 
 [Repository](https://github.com/the-static-collective/the-static-collective) · [Branches](https://github.com/the-static-collective/the-static-collective/branches) · [Pull requests](https://github.com/the-static-collective/the-static-collective/pulls)
 
-Default: `main` · other refs: 0 · open PRs: 0
+Default: `main` · other refs: 14 · open PRs: 13
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#13](https://github.com/the-static-collective/the-static-collective/pull/13) | Agent Commons 016/017 — Vercel-free front door and gated Modal setup | `feature/modal-vercel-exit-016` → `feature/agent-commons-party-budget-015` | 2026-10-31 |
+| [#12](https://github.com/the-static-collective/the-static-collective/pull/12) | AGENT COMMONS 015: deployed provider quota witness and original source/RLS replay | `feature/agent-commons-party-budget-015` → `feature/hosted-agent-commons-014` | 2026-10-31 |
+| [#11](https://github.com/the-static-collective/the-static-collective/pull/11) | AGENT COMMONS 014 — first actually hosted public room and HTTPS MCP read door | `feature/hosted-agent-commons-014` → `feature/agent-commons-mcp-party-013` | 2026-10-31 |
+| [#10](https://github.com/the-static-collective/the-static-collective/pull/10) | AGENT COMMONS 013 — durable plural guest rooms, local MCP and opt-in Groq/Gemini/OpenRouter/Nemotron party | `feature/agent-commons-mcp-party-013` → `feature/native-specificity-011` | 2026-10-31 |
+| [#9](https://github.com/the-static-collective/the-static-collective/pull/9) | SPECIFICITY-011: pressure-test CANNON with a 6:14 a.m. Waseca octopus request | `feature/native-specificity-011` → `feature/native-output-makers-010` | 2026-10-31 |
+| [#8](https://github.com/the-static-collective/the-static-collective/pull/8) | NATIVE-OUTPUT-010: CANNON 11-source executable output chain → Free Graph native artifact, no fake execution | `feature/native-output-makers-010` → `feature/abundent-operator-routes-008` | 2026-10-30 |
+| [#7](https://github.com/the-static-collective/the-static-collective/pull/7) | OPERATOR-ROUTES-008: make the existing 31 Abundent capabilities usable for eight real jobs | `feature/abundent-operator-routes-008` → `feature/website-convergence-007` | 2026-10-30 |
+| [#6](https://github.com/the-static-collective/the-static-collective/pull/6) | WEBSITE-CONVERGENCE-007: recover existing website capabilities, stop duplicate front doors, repair one misleading link | `feature/website-convergence-007` → `feature/abundent-return-card-006` | 2026-10-30 |
+| [#5](https://github.com/the-static-collective/the-static-collective/pull/5) | RETURN-CARD-006: close a personal loop without faking a shared outcome | `feature/abundent-return-card-006` → `feature/abundent-interest-roads-005` | 2026-10-30 |
+| [#4](https://github.com/the-static-collective/the-static-collective/pull/4) | INTEREST-ROADS-005: make Abundent's Porch connect to source-owned public work by interest | `feature/abundent-interest-roads-005` → `feature/attention-flow-004` | 2026-10-30 |
+| [#3](https://github.com/the-static-collective/the-static-collective/pull/3) | ATTENTION-FLOW-004: let Abundent follow the visitor's moment, not a profile | `feature/attention-flow-004` → `feature/abundent-useful-next-move-003` | 2026-10-30 |
+| [#2](https://github.com/the-static-collective/the-static-collective/pull/2) | NEXT-MOVE-003: give every Abundent porch visitor a useful first ten minutes | `feature/abundent-useful-next-move-003` → `feature/abundent-front-door-002` | 2026-10-30 |
+| [#1](https://github.com/the-static-collective/the-static-collective/pull/1) | FRONT-DOOR-002 + HUMAN-PORCH-002: a useful first step for people | `feature/abundent-front-door-002` → `main` | 2026-10-31 |
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [feature/abundent-front-door-002](https://github.com/the-static-collective/the-static-collective/tree/feature/abundent-front-door-002) | [45b33251f0](https://github.com/the-static-collective/the-static-collective/commit/45b33251f0a08341b6b20cbc0941942657027bd1) | [open PR #1](https://github.com/the-static-collective/the-static-collective/pull/1) |
+| [feature/abundent-interest-roads-005](https://github.com/the-static-collective/the-static-collective/tree/feature/abundent-interest-roads-005) | [2bb535edc8](https://github.com/the-static-collective/the-static-collective/commit/2bb535edc89aed58c6fbd5e089dd669ea4f2dccd) | [open PR #4](https://github.com/the-static-collective/the-static-collective/pull/4) |
+| [feature/abundent-operator-routes-008](https://github.com/the-static-collective/the-static-collective/tree/feature/abundent-operator-routes-008) | [9facc31e75](https://github.com/the-static-collective/the-static-collective/commit/9facc31e75736bba55759b66fcd21eaf64a3a5c5) | [open PR #7](https://github.com/the-static-collective/the-static-collective/pull/7) |
+| [feature/abundent-return-card-006](https://github.com/the-static-collective/the-static-collective/tree/feature/abundent-return-card-006) | [a5a595e1ef](https://github.com/the-static-collective/the-static-collective/commit/a5a595e1ef1cde5096402a345d5924e9ac61b7cb) | [open PR #5](https://github.com/the-static-collective/the-static-collective/pull/5) |
+| [feature/abundent-useful-next-move-003](https://github.com/the-static-collective/the-static-collective/tree/feature/abundent-useful-next-move-003) | [96d5fb6608](https://github.com/the-static-collective/the-static-collective/commit/96d5fb660835a333b8a4820eb28b0460c12bdc2c) | [open PR #2](https://github.com/the-static-collective/the-static-collective/pull/2) |
+| [feature/agent-commons-mcp-party-013](https://github.com/the-static-collective/the-static-collective/tree/feature/agent-commons-mcp-party-013) | [e15787b74c](https://github.com/the-static-collective/the-static-collective/commit/e15787b74cf7761b9ea3e293619eb2c21b32ab40) | [open PR #10](https://github.com/the-static-collective/the-static-collective/pull/10) |
+| [feature/agent-commons-party-budget-015](https://github.com/the-static-collective/the-static-collective/tree/feature/agent-commons-party-budget-015) | [92d4f2a6fc](https://github.com/the-static-collective/the-static-collective/commit/92d4f2a6fc6fc0728a5c870be1694682cf5f6eca) | [open PR #12](https://github.com/the-static-collective/the-static-collective/pull/12) |
+| [feature/attention-flow-004](https://github.com/the-static-collective/the-static-collective/tree/feature/attention-flow-004) | [79f0071a65](https://github.com/the-static-collective/the-static-collective/commit/79f0071a657a514ab81931869e46c8ccfbc61556) | [open PR #3](https://github.com/the-static-collective/the-static-collective/pull/3) |
+| [feature/hello-jarvis-personal-door-011](https://github.com/the-static-collective/the-static-collective/tree/feature/hello-jarvis-personal-door-011) | [f0805ade9c](https://github.com/the-static-collective/the-static-collective/commit/f0805ade9c64a7ac32e07af215847142d1b227ba) | Retained ref; disposition unverified |
+| [feature/hosted-agent-commons-014](https://github.com/the-static-collective/the-static-collective/tree/feature/hosted-agent-commons-014) | [e7cb7426ea](https://github.com/the-static-collective/the-static-collective/commit/e7cb7426eaaec8e98f139e4a0d02581c29636a85) | [open PR #11](https://github.com/the-static-collective/the-static-collective/pull/11) |
+| [feature/modal-vercel-exit-016](https://github.com/the-static-collective/the-static-collective/tree/feature/modal-vercel-exit-016) | [104ba42363](https://github.com/the-static-collective/the-static-collective/commit/104ba423635e63908a0db1a6410d2adc27f19fa4) | [open PR #13](https://github.com/the-static-collective/the-static-collective/pull/13) |
+| [feature/native-output-makers-010](https://github.com/the-static-collective/the-static-collective/tree/feature/native-output-makers-010) | [37e4e037cc](https://github.com/the-static-collective/the-static-collective/commit/37e4e037cc70d5ee3245be53254cc58e2097ed1a) | [open PR #8](https://github.com/the-static-collective/the-static-collective/pull/8) |
+| [feature/native-specificity-011](https://github.com/the-static-collective/the-static-collective/tree/feature/native-specificity-011) | [52eb2d572a](https://github.com/the-static-collective/the-static-collective/commit/52eb2d572a3172eaeb6f64fd3f4a343d264bb4d1) | [open PR #9](https://github.com/the-static-collective/the-static-collective/pull/9) |
+| [feature/website-convergence-007](https://github.com/the-static-collective/the-static-collective/tree/feature/website-convergence-007) | [c9414006e1](https://github.com/the-static-collective/the-static-collective/commit/c9414006e1120164fbef32dcd7fc6915b92bc7d7) | [open PR #6](https://github.com/the-static-collective/the-static-collective/pull/6) |
 
 ## trust
 
@@ -1433,12 +1503,15 @@ Default: `main` · other refs: 19 · open PRs: 19
 
 [Repository](https://github.com/the-static-collective/webZ) · [Branches](https://github.com/the-static-collective/webZ/branches) · [Pull requests](https://github.com/the-static-collective/webZ/pulls)
 
-Default: `main` · other refs: 192 · open PRs: 143
+Default: `main` · other refs: 199 · open PRs: 146
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#215](https://github.com/the-static-collective/webZ/pull/215) | AGENT COMMONS 015: operator-invoked REAL Groq/Gemini/OpenRouter to independently HELD public room contributions | `feature/agent-commons-first-live-ai-party-015` → `feature/ask-jarvis-free-compute-007` | 2026-10-31 |
+| [#214](https://github.com/the-static-collective/webZ/pull/214) | PORCH-WAYFINDING-002: distinguish real human note from world rehearsal | `feature/human-porch-wayfinding-002` → `main` | 2026-10-30 |
+| [#213](https://github.com/the-static-collective/webZ/pull/213) | NARRATIVE-DOORWAY-018: the story needs a truthful doorway | `proposal/narrative-doorway-018` → `proposal/nourish-banana-native-crossing-017` | 2026-10-30 |
 | [#212](https://github.com/the-static-collective/webZ/pull/212) | VOQAL-017: original Nourish → BananaSpork native crossing, 8 refused mutations + Banana-family Rosetta | `proposal/nourish-banana-native-crossing-017` → `proposal/voqal-nourish-kids-first-door-016` | 2026-10-29 |
 | [#211](https://github.com/the-static-collective/webZ/pull/211) | VOQAL-016: Nourish Kids first — original source-native one-dinner proof → independent Second Table | `proposal/voqal-nourish-kids-first-door-016` → `proposal/voqal-people-budget-audit-015` | 2026-10-29 |
 | [#210](https://github.com/the-static-collective/webZ/pull/210) | VOQAL-015: named table prospects, $30k cash-vs-relationship budget, application field audit | `proposal/voqal-people-budget-audit-015` → `proposal/voqal-stranger-gauntlet-014` | 2026-10-29 |
@@ -1650,6 +1723,7 @@ Default: `main` · other refs: 192 · open PRs: 143
 | [feat/bridge005-source-owned-work-card](https://github.com/the-static-collective/webZ/tree/feat/bridge005-source-owned-work-card) | [0a7449feb5](https://github.com/the-static-collective/webZ/commit/0a7449feb54390f164c1dd3bc6788620a89a16a4) | [open PR #177](https://github.com/the-static-collective/webZ/pull/177) |
 | [feat/bridge006-current-main-outbox-integrated](https://github.com/the-static-collective/webZ/tree/feat/bridge006-current-main-outbox-integrated) | [ddf28e3030](https://github.com/the-static-collective/webZ/commit/ddf28e3030fd22bedd4b52ce866aab79dc336201) | Retained ref; disposition unverified |
 | [feat/bridge006-first-acknowledgement](https://github.com/the-static-collective/webZ/tree/feat/bridge006-first-acknowledgement) | [4fd57551b5](https://github.com/the-static-collective/webZ/commit/4fd57551b5614e7ee6cb88aaf637ad8deb56c8b8) | Retained ref; disposition unverified |
+| [feat/bus-ecm-tech-note-002](https://github.com/the-static-collective/webZ/tree/feat/bus-ecm-tech-note-002) | [3f074ff68f](https://github.com/the-static-collective/webZ/commit/3f074ff68f8f9e1c6c1a7eef33ad7e9e24417c6b) | Retained ref; disposition unverified |
 | [feat/first-encounter-002](https://github.com/the-static-collective/webZ/tree/feat/first-encounter-002) | [8153c60393](https://github.com/the-static-collective/webZ/commit/8153c60393e4e206160b284082f7eb3161d3f379) | [open PR #4](https://github.com/the-static-collective/webZ/pull/4) |
 | [feat/first-inch-001-stranger-door](https://github.com/the-static-collective/webZ/tree/feat/first-inch-001-stranger-door) | [8051c72fbb](https://github.com/the-static-collective/webZ/commit/8051c72fbb7f5308729d8148026cfb3d0fb6deaa) | [open PR #201](https://github.com/the-static-collective/webZ/pull/201) |
 | [feat/garden-signal-001](https://github.com/the-static-collective/webZ/tree/feat/garden-signal-001) | [6f0bb3a176](https://github.com/the-static-collective/webZ/commit/6f0bb3a17668bc95a15ec3becfb5fea776fd87cb) | [open PR #120](https://github.com/the-static-collective/webZ/pull/120) |
@@ -1691,6 +1765,7 @@ Default: `main` · other refs: 192 · open PRs: 143
 | [feature/abundent-switchboard-001](https://github.com/the-static-collective/webZ/tree/feature/abundent-switchboard-001) | [68503f27e0](https://github.com/the-static-collective/webZ/commit/68503f27e08c5d2f80632f5cc80f52dcbefc67b9) | [open PR #84](https://github.com/the-static-collective/webZ/pull/84) |
 | [feature/abundent-table-live-bridge-001](https://github.com/the-static-collective/webZ/tree/feature/abundent-table-live-bridge-001) | [853432ac1b](https://github.com/the-static-collective/webZ/commit/853432ac1b122e16ee699a3934d98b5f1118f857) | [open PR #80](https://github.com/the-static-collective/webZ/pull/80) |
 | [feature/abundent-town-freegraph-010](https://github.com/the-static-collective/webZ/tree/feature/abundent-town-freegraph-010) | [63f5958a23](https://github.com/the-static-collective/webZ/commit/63f5958a2327e3db418db15c928ddda1b84843d0) | [open PR #107](https://github.com/the-static-collective/webZ/pull/107) |
+| [feature/agent-commons-first-live-ai-party-015](https://github.com/the-static-collective/webZ/tree/feature/agent-commons-first-live-ai-party-015) | [43113b9e94](https://github.com/the-static-collective/webZ/commit/43113b9e9408c223f6c5946efe8d496fad63c487) | [open PR #215](https://github.com/the-static-collective/webZ/pull/215) |
 | [feature/aippy-sparkfork-023](https://github.com/the-static-collective/webZ/tree/feature/aippy-sparkfork-023) | [65245a7d8c](https://github.com/the-static-collective/webZ/commit/65245a7d8c057ae5e9a5a971b15c7e4e60c99b39) | [open PR #125](https://github.com/the-static-collective/webZ/pull/125) |
 | [feature/alongside-survivor-first-027](https://github.com/the-static-collective/webZ/tree/feature/alongside-survivor-first-027) | [1532d234ed](https://github.com/the-static-collective/webZ/commit/1532d234ed1671e6211f11e6254ec208bdafeb25) | [open PR #132](https://github.com/the-static-collective/webZ/pull/132) |
 | [feature/ask-jarvis-1999](https://github.com/the-static-collective/webZ/tree/feature/ask-jarvis-1999) | [b24c863903](https://github.com/the-static-collective/webZ/commit/b24c863903537b84bb81816fca394280743eb406) | [open PR #73](https://github.com/the-static-collective/webZ/pull/73) |
@@ -1722,6 +1797,7 @@ Default: `main` · other refs: 192 · open PRs: 143
 | [feature/harmony-show-independent-lemonpress-006](https://github.com/the-static-collective/webZ/tree/feature/harmony-show-independent-lemonpress-006) | [d0573773ff](https://github.com/the-static-collective/webZ/commit/d0573773fff2536036e654f76f28aa4896d5b067) | Retained ref; disposition unverified |
 | [feature/harmony-show-native-cannon-proof-005](https://github.com/the-static-collective/webZ/tree/feature/harmony-show-native-cannon-proof-005) | [59e26fdf66](https://github.com/the-static-collective/webZ/commit/59e26fdf66c8677b24876a67f1f9f95f5e7ad312) | Retained ref; disposition unverified |
 | [feature/heartbeat-002-first-real-crossing](https://github.com/the-static-collective/webZ/tree/feature/heartbeat-002-first-real-crossing) | [eb5128cab4](https://github.com/the-static-collective/webZ/commit/eb5128cab46b666febd27056d9cb893a610d7fc4) | [open PR #101](https://github.com/the-static-collective/webZ/pull/101) |
+| [feature/human-porch-wayfinding-002](https://github.com/the-static-collective/webZ/tree/feature/human-porch-wayfinding-002) | [8da25e5f83](https://github.com/the-static-collective/webZ/commit/8da25e5f8353da2d23aa4f0d7375d042ba15585c) | [open PR #214](https://github.com/the-static-collective/webZ/pull/214) |
 | [feature/idea-atlas-explorers-035](https://github.com/the-static-collective/webZ/tree/feature/idea-atlas-explorers-035) | [73679b2c0c](https://github.com/the-static-collective/webZ/commit/73679b2c0c9a54eee9b0ff16fb49ff7dbe3ee2f3) | [open PR #150](https://github.com/the-static-collective/webZ/pull/150) |
 | [feature/jarvis-adaptive-answer-016](https://github.com/the-static-collective/webZ/tree/feature/jarvis-adaptive-answer-016) | [0aaf571c7f](https://github.com/the-static-collective/webZ/commit/0aaf571c7f6a48fb850a7a94ff7a61ce41b54beb) | [open PR #116](https://github.com/the-static-collective/webZ/pull/116) |
 | [feature/jarvis-campfire-right-to-try-022](https://github.com/the-static-collective/webZ/tree/feature/jarvis-campfire-right-to-try-022) | [6cdd93e993](https://github.com/the-static-collective/webZ/commit/6cdd93e993063297e1d2619a304e0a4a910efa7e) | [open PR #124](https://github.com/the-static-collective/webZ/pull/124) |
@@ -1740,6 +1816,9 @@ Default: `main` · other refs: 192 · open PRs: 143
 | [feature/listening-rooms-dial-zoom-001](https://github.com/the-static-collective/webZ/tree/feature/listening-rooms-dial-zoom-001) | [e06ecfdf68](https://github.com/the-static-collective/webZ/commit/e06ecfdf681eef1df12f19d0ac36fb23d6b17833) | Retained ref; disposition unverified |
 | [feature/missing-ingredient-field-001](https://github.com/the-static-collective/webZ/tree/feature/missing-ingredient-field-001) | [fcb78be842](https://github.com/the-static-collective/webZ/commit/fcb78be842eea74667370f0351c77bf3f4dba922) | [open PR #98](https://github.com/the-static-collective/webZ/pull/98) |
 | [feature/msyou-energy-commons-abundent-001](https://github.com/the-static-collective/webZ/tree/feature/msyou-energy-commons-abundent-001) | [43dc1c33da](https://github.com/the-static-collective/webZ/commit/43dc1c33dae4c536a7013af01b6e72650a30075a) | Retained ref; disposition unverified |
+| [feature/next-paper-001-be-the-marble](https://github.com/the-static-collective/webZ/tree/feature/next-paper-001-be-the-marble) | [20fcfe3111](https://github.com/the-static-collective/webZ/commit/20fcfe3111271867278bef7e7b7f35569305fc0d) | Retained ref; disposition unverified |
+| [feature/next-paper-fb-share-20261031](https://github.com/the-static-collective/webZ/tree/feature/next-paper-fb-share-20261031) | [bc92d43d00](https://github.com/the-static-collective/webZ/commit/bc92d43d00ff750d870cf76769d521ed8e8085d6) | Retained ref; disposition unverified |
+| [feature/next-paper-issue-000-20261031](https://github.com/the-static-collective/webZ/tree/feature/next-paper-issue-000-20261031) | [5684670420](https://github.com/the-static-collective/webZ/commit/568467042008d57c07f3789e29b9f090c102c397) | Retained ref; disposition unverified |
 | [feature/organization-seed-doors-036](https://github.com/the-static-collective/webZ/tree/feature/organization-seed-doors-036) | [4960ce7509](https://github.com/the-static-collective/webZ/commit/4960ce7509f304d1ae3f3a75cfee8752e84db863) | [open PR #152](https://github.com/the-static-collective/webZ/pull/152) |
 | [feature/post-office-selftest-003](https://github.com/the-static-collective/webZ/tree/feature/post-office-selftest-003) | [1a4c0906b4](https://github.com/the-static-collective/webZ/commit/1a4c0906b49e7809d6621811453ccdb8bf24f93f) | Retained ref; disposition unverified |
 | [feature/reality2-question-key-town-002](https://github.com/the-static-collective/webZ/tree/feature/reality2-question-key-town-002) | [15f780d640](https://github.com/the-static-collective/webZ/commit/15f780d64075e5843640db757c2e580393ffbfb6) | [open PR #75](https://github.com/the-static-collective/webZ/pull/75) |
@@ -1766,6 +1845,7 @@ Default: `main` · other refs: 192 · open PRs: 143
 | [post-office-005-useful-letters-20261026](https://github.com/the-static-collective/webZ/tree/post-office-005-useful-letters-20261026) | [0b703d9b54](https://github.com/the-static-collective/webZ/commit/0b703d9b54a5d3a1736963ff3d48284062534b6d) | [open PR #147](https://github.com/the-static-collective/webZ/pull/147) |
 | [proposal/festival-fork-network-011](https://github.com/the-static-collective/webZ/tree/proposal/festival-fork-network-011) | [11bebee583](https://github.com/the-static-collective/webZ/commit/11bebee583f01866512e050c3bf44f5ea08e9d2c) | [open PR #200](https://github.com/the-static-collective/webZ/pull/200) |
 | [proposal/harmony-park-grand-finale-010](https://github.com/the-static-collective/webZ/tree/proposal/harmony-park-grand-finale-010) | [e82d505372](https://github.com/the-static-collective/webZ/commit/e82d505372dc4f7011dfb1d7575045893a77c2de) | [open PR #199](https://github.com/the-static-collective/webZ/pull/199) |
+| [proposal/narrative-doorway-018](https://github.com/the-static-collective/webZ/tree/proposal/narrative-doorway-018) | [5bd9dfc318](https://github.com/the-static-collective/webZ/commit/5bd9dfc318bad7cb8800156944bb0d5a0ecad84f) | [open PR #213](https://github.com/the-static-collective/webZ/pull/213) |
 | [proposal/nourish-banana-native-crossing-017](https://github.com/the-static-collective/webZ/tree/proposal/nourish-banana-native-crossing-017) | [38dbeb6b0a](https://github.com/the-static-collective/webZ/commit/38dbeb6b0acca96854bb8fcc84abbce326b9716a) | [open PR #212](https://github.com/the-static-collective/webZ/pull/212) |
 | [proposal/voqal-commons-circuit-009](https://github.com/the-static-collective/webZ/tree/proposal/voqal-commons-circuit-009) | [867ac289ab](https://github.com/the-static-collective/webZ/commit/867ac289abfbaf63267e480c662de85acc0ebe95) | [open PR #198](https://github.com/the-static-collective/webZ/pull/198) |
 | [proposal/voqal-first-circle-foundry-007](https://github.com/the-static-collective/webZ/tree/proposal/voqal-first-circle-foundry-007) | [15779ad9e6](https://github.com/the-static-collective/webZ/commit/15779ad9e6c69d703a248b0037f1cf94216bae44) | [open PR #195](https://github.com/the-static-collective/webZ/pull/195) |

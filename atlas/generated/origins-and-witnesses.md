@@ -21,12 +21,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/the-autodisco) · [Branches](https://github.com/the-static-collective/the-autodisco/branches) · [Pull requests](https://github.com/the-static-collective/the-autodisco/pulls)
 
-Default: `main` · other refs: 8 · open PRs: 8
+Default: `main` · other refs: 9 · open PRs: 9
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#17](https://github.com/the-static-collective/the-autodisco/pull/17) | DOCS: Why so many songs? Cultural-care intention and provenance | `notes/cultural-care-origin-2026-10-30` → `main` | 2026-10-30 |
 | [#16](https://github.com/the-static-collective/the-autodisco/pull/16) | LISTENER RETURN 001 — carry post-broadcast response home | `feat/listener-return-001` → `feat/broadcast-receipt-001` | 2026-10-01 |
 | [#14](https://github.com/the-static-collective/the-autodisco/pull/14) | BROADCAST RECEIPT 001 — record actual station airings | `feat/broadcast-receipt-001` → `feat/voice-provider-001` | 2026-10-01 |
 | [#12](https://github.com/the-static-collective/the-autodisco/pull/12) | VOICE PROVIDER 001 — permission-preserving audio render | `feat/voice-provider-001` → `feat/voice-render-001` | 2026-10-01 |
@@ -48,6 +49,7 @@ Default: `main` · other refs: 8 · open PRs: 8
 | [feat/release-gate-001](https://github.com/the-static-collective/the-autodisco/tree/feat/release-gate-001) | [dc00e6dd68](https://github.com/the-static-collective/the-autodisco/commit/dc00e6dd6862fbc37333fdaaaccb66e3f4ae445e) | [open PR #2](https://github.com/the-static-collective/the-autodisco/pull/2) |
 | [feat/voice-provider-001](https://github.com/the-static-collective/the-autodisco/tree/feat/voice-provider-001) | [0c8444f28d](https://github.com/the-static-collective/the-autodisco/commit/0c8444f28deb2025ca4c3d510349a43b909a91ce) | [open PR #12](https://github.com/the-static-collective/the-autodisco/pull/12) |
 | [feat/voice-render-001](https://github.com/the-static-collective/the-autodisco/tree/feat/voice-render-001) | [6df332a567](https://github.com/the-static-collective/the-autodisco/commit/6df332a5672f8c140b9ba916d40d107e96cbc378) | [open PR #10](https://github.com/the-static-collective/the-autodisco/pull/10) |
+| [notes/cultural-care-origin-2026-10-30](https://github.com/the-static-collective/the-autodisco/tree/notes/cultural-care-origin-2026-10-30) | [b3d48ff7d1](https://github.com/the-static-collective/the-autodisco/commit/b3d48ff7d163ad2441a453efaa03eb251dd285f0) | [open PR #17](https://github.com/the-static-collective/the-autodisco/pull/17) |
 
 ## BananaDash
 

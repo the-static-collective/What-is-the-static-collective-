@@ -179,12 +179,14 @@ Default: `main` · other refs: 77 · open PRs: 12
 
 [Repository](https://github.com/the-static-collective/static-field) · [Branches](https://github.com/the-static-collective/static-field/branches) · [Pull requests](https://github.com/the-static-collective/static-field/pulls)
 
-Default: `main` · other refs: 14 · open PRs: 12
+Default: `main` · other refs: 16 · open PRs: 14
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#18](https://github.com/the-static-collective/static-field/pull/18) | STATIC FIELD 013 — The Seed Exchange: four independent tables grow games together | `experiment/seed-exchange-013` → `experiment/world-garden-012` | 2026-10-30 |
+| [#17](https://github.com/the-static-collective/static-field/pull/17) | STATIC FIELD 012 — World Garden: nurture source-linked game seeds, graft mechanics and sovereign pollen mail | `experiment/world-garden-012` → `experiment/world-breeder-011` | 2026-10-30 |
 | [#16](https://github.com/the-static-collective/static-field/pull/16) | WORLD BREEDER 011 — two sovereign game worlds invent a third rule | `experiment/world-breeder-011` → `experiment/living-world-atlas-010` | 2026-10-30 |
 | [#15](https://github.com/the-static-collective/static-field/pull/15) | LIVING WORLD ATLAS 010 — independent party worlds, mail, forks and constellations | `experiment/living-world-atlas-010` → `experiment/expansion-forge-009` | 2026-10-30 |
 | [#14](https://github.com/the-static-collective/static-field/pull/14) | EXPANSION FORGE 009 — Little Yes parties generate playable, source-bound new games | `experiment/expansion-forge-009` → `experiment/little-yes-field-008` | 2026-10-30 |
@@ -209,7 +211,9 @@ Default: `main` · other refs: 14 · open PRs: 12
 | [experiment/living-world-atlas-010](https://github.com/the-static-collective/static-field/tree/experiment/living-world-atlas-010) | [2a40607831](https://github.com/the-static-collective/static-field/commit/2a40607831167b237a2d3cdebb6d840db0b9e745) | [open PR #15](https://github.com/the-static-collective/static-field/pull/15) |
 | [experiment/play-seedplate-001](https://github.com/the-static-collective/static-field/tree/experiment/play-seedplate-001) | [50a2c2c48f](https://github.com/the-static-collective/static-field/commit/50a2c2c48f5cc18a00fd860861d0fe1efd3e49c5) | [open PR #7](https://github.com/the-static-collective/static-field/pull/7) |
 | [experiment/postemahhn-living-deck-001](https://github.com/the-static-collective/static-field/tree/experiment/postemahhn-living-deck-001) | [80b08f7a45](https://github.com/the-static-collective/static-field/commit/80b08f7a45f6957239582091536ea9528df7a1b7) | [open PR #12](https://github.com/the-static-collective/static-field/pull/12) |
+| [experiment/seed-exchange-013](https://github.com/the-static-collective/static-field/tree/experiment/seed-exchange-013) | [ade5c42e2e](https://github.com/the-static-collective/static-field/commit/ade5c42e2e5978cf16f7446d35c0e8fd47e2570a) | [open PR #18](https://github.com/the-static-collective/static-field/pull/18) |
 | [experiment/world-breeder-011](https://github.com/the-static-collective/static-field/tree/experiment/world-breeder-011) | [8c8ed28eb6](https://github.com/the-static-collective/static-field/commit/8c8ed28eb676940c031bfd1bb8f08c46107f0a04) | [open PR #16](https://github.com/the-static-collective/static-field/pull/16) |
+| [experiment/world-garden-012](https://github.com/the-static-collective/static-field/tree/experiment/world-garden-012) | [e73f5e8a72](https://github.com/the-static-collective/static-field/commit/e73f5e8a72fedf5872ee61763db8f3ee92c00987) | [open PR #17](https://github.com/the-static-collective/static-field/pull/17) |
 | [experiment/wormhole-wars-001](https://github.com/the-static-collective/static-field/tree/experiment/wormhole-wars-001) | [e75221c6a3](https://github.com/the-static-collective/static-field/commit/e75221c6a3cec8686968d1892dc001fae17f3e0f) | [open PR #3](https://github.com/the-static-collective/static-field/pull/3) |
 | [experiment/wormhole-wars-002-receiving-world](https://github.com/the-static-collective/static-field/tree/experiment/wormhole-wars-002-receiving-world) | [c64a417f3a](https://github.com/the-static-collective/static-field/commit/c64a417f3a54df3b14b557e3b976cabe3a601378) | [open PR #5](https://github.com/the-static-collective/static-field/pull/5) |
 | [experiment/wormhole-wars-003-table-world](https://github.com/the-static-collective/static-field/tree/experiment/wormhole-wars-003-table-world) | [19e200a03d](https://github.com/the-static-collective/static-field/commit/19e200a03d26c86de26c80535552fe538a3fe119) | [open PR #6](https://github.com/the-static-collective/static-field/pull/6) |

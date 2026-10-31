@@ -15,12 +15,13 @@ Visual and audio-video instruments, pantry experiments, and older appliance bran
 
 [Repository](https://github.com/the-static-collective/the-haunted-toaster) · [Branches](https://github.com/the-static-collective/the-haunted-toaster/branches) · [Pull requests](https://github.com/the-static-collective/the-haunted-toaster/pulls)
 
-Default: `main` · other refs: 237 · open PRs: 79
+Default: `main` · other refs: 238 · open PRs: 80
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#363](https://github.com/the-static-collective/the-haunted-toaster/pull/363) | GHOT-FIX-001 — native Witness Window normalizes foreign full-range video to limited yuv420p | `fix/foreign-video-limited-range-witness-001` → `main` | 2026-10-30 |
 | [#362](https://github.com/the-static-collective/the-haunted-toaster/pull/362) | MADDCL0WN 006: one kept JAR;VIS song → six real native Toaster movies → offline screening room | `experiment/maddclown-six-films-006` → `experiment/stranger-native-005` | 2026-10-29 |
 | [#361](https://github.com/the-static-collective/the-haunted-toaster/pull/361) | CROSSING-005 B: original JAR;VIS kept radio → original WAV → native Toaster six-up → separate KEEP → MP4 | `experiment/stranger-native-005` → `beta/reconcile-0.0.0` | 2026-10-29 |
 | [#360](https://github.com/the-static-collective/the-haunted-toaster/pull/360) | RELAY-001 organ 8: run source-pinned native six-up without KEEP or render | `experiment/relay001-blue-night-six-up` → `main` | 2026-10-13 |
@@ -282,6 +283,7 @@ Default: `main` · other refs: 237 · open PRs: 79
 | [fix/177-vspantry-counts-visible](https://github.com/the-static-collective/the-haunted-toaster/tree/fix/177-vspantry-counts-visible) | [bbdaa60db1](https://github.com/the-static-collective/the-haunted-toaster/commit/bbdaa60db1a9d77c163f94e5fb9c9cb39f90a262) | Retained ref; disposition unverified |
 | [fix/alpha9-range-calibration](https://github.com/the-static-collective/the-haunted-toaster/tree/fix/alpha9-range-calibration) | [26ad588983](https://github.com/the-static-collective/the-haunted-toaster/commit/26ad5889831a17e25c8432c6def9ff43cce0364e) | Retained ref; disposition unverified |
 | [fix/beta-no-silent-garment-fallback](https://github.com/the-static-collective/the-haunted-toaster/tree/fix/beta-no-silent-garment-fallback) | [21bc6cd38f](https://github.com/the-static-collective/the-haunted-toaster/commit/21bc6cd38f862893ddd161c99be7f4e100cf1720) | Retained ref; disposition unverified |
+| [fix/foreign-video-limited-range-witness-001](https://github.com/the-static-collective/the-haunted-toaster/tree/fix/foreign-video-limited-range-witness-001) | [a3ce7b1349](https://github.com/the-static-collective/the-haunted-toaster/commit/a3ce7b1349a940325cb72362e818ce907a95f35c) | [open PR #363](https://github.com/the-static-collective/the-haunted-toaster/pull/363) |
 | [fix/lab-proposal-constraint-translation](https://github.com/the-static-collective/the-haunted-toaster/tree/fix/lab-proposal-constraint-translation) | [094792af76](https://github.com/the-static-collective/the-haunted-toaster/commit/094792af76860b476b1016477bdda00389181ce1) | Retained ref; disposition unverified |
 | [fix/listening-eye-family-evidence-001](https://github.com/the-static-collective/the-haunted-toaster/tree/fix/listening-eye-family-evidence-001) | [8d83d67822](https://github.com/the-static-collective/the-haunted-toaster/commit/8d83d678221e28e7f81bb619fd9834fe28147f97) | [open PR #321](https://github.com/the-static-collective/the-haunted-toaster/pull/321) |
 | [fix/magnetic-crop-invariant](https://github.com/the-static-collective/the-haunted-toaster/tree/fix/magnetic-crop-invariant) | [eef20b3c68](https://github.com/the-static-collective/the-haunted-toaster/commit/eef20b3c681908565a87d23d7fe1ad590f1d2815) | Retained ref; disposition unverified |
