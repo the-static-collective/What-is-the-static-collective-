@@ -1412,6 +1412,10 @@
           "sha": "3beedd17c5f881f104b5e1f3a0ad86319de2c111"
         },
         {
+          "name": "experiment/first-knock-001-human-door",
+          "sha": "8e6dcd617eac8f5fb9fa528588a80af36af700f2"
+        },
+        {
           "name": "experiment/founder-pollen-loadout-012",
           "sha": "2da1f596a15fa7295baf4126db7118904cdee63f"
         },
@@ -1657,6 +1661,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 91,
+          "title": "FIRST-KNOCK-001 — one human sentence → offline printable card (no contact claims)",
+          "head_branch": "experiment/first-knock-001-human-door",
+          "head_sha": "8e6dcd617eac8f5fb9fa528588a80af36af700f2",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/inspand-019-minute-mail-original-toaster",
+          "updated_at": "2026-10-31T15:52:04Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/91"
+        },
         {
           "number": 90,
           "title": "INSPAND-019 — a genuinely new minute-post-office film, two original Haunted Toaster native passes",
@@ -6867,6 +6881,14 @@
           "sha": "0f29e3d3a7a0c2d965afed1870f91efc20deb02d"
         },
         {
+          "name": "experiment/useful-later-001",
+          "sha": "8a5387786ee7706bbbb7e51cbc8e64edebfc106e"
+        },
+        {
+          "name": "experiment/useful-later-relatte-export-001",
+          "sha": "08adcfe6454bf24b58e9ac775e4db678bd3ae7d5"
+        },
+        {
           "name": "feat/door-packet-001",
           "sha": "2e62fb3be2ee46f474d612f1918b6a3c955948aa"
         },
@@ -6888,7 +6910,7 @@
         },
         {
           "name": "main",
-          "sha": "86798d9baed2e697af5700fc3c27b8c3444b19f0"
+          "sha": "dcf2a6adb3a5596efb79f893a54854eff1a95b0c"
         },
         {
           "name": "mineral/world-seed-001",
@@ -7506,7 +7528,7 @@
         },
         {
           "name": "main",
-          "sha": "cd289032b0b2dd8787fa2d62b85be1233c8d404d"
+          "sha": "dfe535318ab57b63526310e72f355d69fafc0e76"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -10562,6 +10584,10 @@
           "sha": "b0d20852a44e5a80b124bc9690e1af547942221b"
         },
         {
+          "name": "experiment/possibility-crossings-001",
+          "sha": "5fabf889dace0c427a3906e66e014e9af46f1808"
+        },
+        {
           "name": "experiment/psi-membrane-001",
           "sha": "c2197d0b0b77b1ac731bb6045819a613010562f7"
         },
@@ -10903,7 +10929,7 @@
         },
         {
           "name": "main",
-          "sha": "39038d66b15f43559c48c7da8b8a40a76b883ff0"
+          "sha": "d69a863943e071346527eafc79a63ef332d524af"
         },
         {
           "name": "mirror-store-serve-001",
@@ -19874,6 +19900,14 @@
           "sha": "2a7e9f2627a04c82b5aa52a66992744b18c99024"
         },
         {
+          "name": "experiment/hey-response-grammar-001",
+          "sha": "fafd4d41915affca3c247027a94d13dd6cc804fc"
+        },
+        {
+          "name": "experiment/living-cards-001",
+          "sha": "274b5e043a5aa8365df415e924a3b4f72498e632"
+        },
+        {
           "name": "experiment/living-grounds-006",
           "sha": "365dd07812b05566993d3ccb53932bcfdd87dcb7"
         },
@@ -19930,6 +19964,10 @@
           "sha": "b395c8f9f7ce35fdbc33d83353aeb5f0f7313fef"
         },
         {
+          "name": "experiment/question-arcade-p5-001",
+          "sha": "da8073bbab2d55326c1e0a8a59bec439ed27f671"
+        },
+        {
           "name": "experiment/reality-2-waseca-field-001",
           "sha": "73c700841eedfeeda7bdab18dd335afb5bd2ab1a"
         },
@@ -19952,6 +19990,10 @@
         {
           "name": "experiment/skymirror-webz-optical-lab-001",
           "sha": "a890a1ca30b2327262909a8eed58e0fc5db5fc87"
+        },
+        {
+          "name": "experiment/spam-musubi-002",
+          "sha": "7aaa5d111f1f499f9a6f06b60482ea587828a32a"
         },
         {
           "name": "experiment/static-field-week-001",
@@ -20426,6 +20468,10 @@
           "sha": "4960ce7509f304d1ae3f3a75cfee8752e84db863"
         },
         {
+          "name": "feature/poke-001-signal-handshake",
+          "sha": "7a6eb9714936ad8d9cbae0a25c98b11240750a4a"
+        },
+        {
           "name": "feature/post-office-selftest-003",
           "sha": "1a4c0906b49e7809d6621811453ccdb8bf24f93f"
         },
@@ -20468,6 +20514,10 @@
         {
           "name": "feature/us-at-abundent-contact-door-001",
           "sha": "dd6e881bfb4e406b0e7e488670c183e69fb25c68"
+        },
+        {
+          "name": "feature/wanted-demand-first-001",
+          "sha": "3ef3c9064e9790bfbb9cf5169cac0e439e8d2ea5"
         },
         {
           "name": "feature/workboard-actionable-memory-026",
@@ -20587,6 +20637,66 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 225,
+          "title": "Living Cards 001: one real thing → shareable card → reply → reported action → return",
+          "head_branch": "experiment/living-cards-001",
+          "head_sha": "274b5e043a5aa8365df415e924a3b4f72498e632",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-31T17:36:29Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/225"
+        },
+        {
+          "number": 224,
+          "title": "QUESTION ARCADE 001: teachable idle game → synthetic community HOLD crossing",
+          "head_branch": "experiment/question-arcade-p5-001",
+          "head_sha": "da8073bbab2d55326c1e0a8a59bec439ed27f671",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-31T17:27:27Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/224"
+        },
+        {
+          "number": 223,
+          "title": "WANTED-001/002: buyer-first reverse auction and play-credit laboratory",
+          "head_branch": "feature/wanted-demand-first-001",
+          "head_sha": "3ef3c9064e9790bfbb9cf5169cac0e439e8d2ea5",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-31T17:03:15Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/223"
+        },
+        {
+          "number": 222,
+          "title": "SPAM-MUSUBI-002: compost troll noise into safe test recipes; make PLAY first-class",
+          "head_branch": "experiment/spam-musubi-002",
+          "head_sha": "7aaa5d111f1f499f9a6f06b60482ea587828a32a",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/hey-response-grammar-001",
+          "updated_at": "2026-10-31T16:42:08Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/222"
+        },
+        {
+          "number": 221,
+          "title": "HEY-001: one-click human response grammar → portable unsigned draft",
+          "head_branch": "experiment/hey-response-grammar-001",
+          "head_sha": "fafd4d41915affca3c247027a94d13dd6cc804fc",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-31T16:17:12Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/221"
+        },
+        {
+          "number": 220,
+          "title": "POKE-001: one signal, one echo, no obligation",
+          "head_branch": "feature/poke-001-signal-handshake",
+          "head_sha": "7a6eb9714936ad8d9cbae0a25c98b11240750a4a",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-10-31T15:43:12Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/220"
+        },
         {
           "number": 215,
           "title": "AGENT COMMONS 015: operator-invoked REAL Groq/Gemini/OpenRouter to independently HELD public room contributions",
@@ -22305,7 +22415,7 @@
         },
         {
           "name": "main",
-          "sha": "1104a30d424e5512a08181dd19993d01b59d837c"
+          "sha": "2e1416f45ecab12f21b4743b5ac64363e4f3433d"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -22764,5 +22874,5 @@
       ]
     }
   ],
-  "captured_at": "2026-10-31T13:38:33+00:00"
+  "captured_at": "2026-11-01T14:16:56+00:00"
 }

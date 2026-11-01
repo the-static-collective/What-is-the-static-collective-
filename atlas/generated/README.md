@@ -4,7 +4,7 @@ description: "Dated, source-linked public Git inventory for the Static Collectiv
 
 # Public Git inventory
 
-Captured: **2026-10-31T13:38:33+00:00** · **89 public repositories** · **2411 branch refs** (including defaults) · **1226 open PRs**.
+Captured: **2026-11-01T14:16:56+00:00** · **89 public repositories** · **2421 branch refs** (including defaults) · **1233 open PRs**.
 
 [Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
 
@@ -25,7 +25,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [Images and appliances](images-and-appliances.md) | 10 | 348 | 151 |
 | [Worlds and inquiry](worlds-and-inquiry.md) | 6 | 134 | 52 |
 | [Operating surfaces](operating-surfaces.md) | 5 | 187 | 137 |
-| [Unplaced public repositories](unplaced.md) | 24 | 887 | 651 |
+| [Unplaced public repositories](unplaced.md) | 24 | 897 | 658 |
 
 ## All public repositories
 
@@ -41,7 +41,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [BananaSpork](https://github.com/the-static-collective/BananaSpork) | [Participation and care](participation-and-care.md) | 20 | 8 |
 | [band-runtime](https://github.com/the-static-collective/band-runtime) | [Songs and stages](songs-and-stages.md) | 18 | 2 |
 | [BnanaGram](https://github.com/the-static-collective/BnanaGram) | [Participation and care](participation-and-care.md) | 0 | 0 |
-| [CANNON](https://github.com/the-static-collective/CANNON) | [Unplaced public repositories](unplaced.md) | 84 | 83 |
+| [CANNON](https://github.com/the-static-collective/CANNON) | [Unplaced public repositories](unplaced.md) | 85 | 84 |
 | [ChronoQuest](https://github.com/the-static-collective/ChronoQuest) | [Worlds and inquiry](worlds-and-inquiry.md) | 0 | 0 |
 | [cloudflare-control](https://github.com/the-static-collective/cloudflare-control) | [Operating surfaces](operating-surfaces.md) | 0 | 0 |
 | [convergent-codec](https://github.com/the-static-collective/convergent-codec) | [Contracts and memory](contracts-and-memory.md) | 1 | 0 |
@@ -57,7 +57,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [GHoT](https://github.com/the-static-collective/GHoT) | [Unplaced public repositories](unplaced.md) | 127 | 119 |
 | [GOATnote](https://github.com/the-static-collective/GOATnote) | [Origins and witnesses](origins-and-witnesses.md) | 13 | 12 |
 | [GRAFT](https://github.com/the-static-collective/GRAFT) | [Unplaced public repositories](unplaced.md) | 36 | 15 |
-| [GrO](https://github.com/the-static-collective/GrO) | [Unplaced public repositories](unplaced.md) | 30 | 15 |
+| [GrO](https://github.com/the-static-collective/GrO) | [Unplaced public repositories](unplaced.md) | 32 | 15 |
 | [Human-Witness](https://github.com/the-static-collective/Human-Witness) | [Origins and witnesses](origins-and-witnesses.md) | 4 | 2 |
 | [iron-lung](https://github.com/the-static-collective/iron-lung) | [Images and appliances](images-and-appliances.md) | 23 | 7 |
 | [JAR-VIS](https://github.com/the-static-collective/JAR-VIS) | [Unplaced public repositories](unplaced.md) | 46 | 20 |
@@ -81,7 +81,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [reCOreturn](https://github.com/the-static-collective/reCOreturn) | [Operating surfaces](operating-surfaces.md) | 1 | 0 |
 | [reCURV](https://github.com/the-static-collective/reCURV) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [reCURVrePAIR](https://github.com/the-static-collective/reCURVrePAIR) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
-| [reLATTE](https://github.com/the-static-collective/reLATTE) | [Unplaced public repositories](unplaced.md) | 129 | 88 |
+| [reLATTE](https://github.com/the-static-collective/reLATTE) | [Unplaced public repositories](unplaced.md) | 130 | 88 |
 | [reMIX-reCURVrePAIR](https://github.com/the-static-collective/reMIX-reCURVrePAIR) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [revival](https://github.com/the-static-collective/revival) | [Participation and care](participation-and-care.md) | 16 | 3 |
 | [ROroomOM](https://github.com/the-static-collective/ROroomOM) | [Worlds and inquiry](worlds-and-inquiry.md) | 18 | 16 |
@@ -116,7 +116,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [unfolding-ledger](https://github.com/the-static-collective/unfolding-ledger) | [Contracts and memory](contracts-and-memory.md) | 1 | 0 |
 | [Upper-room](https://github.com/the-static-collective/Upper-room) | [Worlds and inquiry](worlds-and-inquiry.md) | 8 | 3 |
 | [vidmage](https://github.com/the-static-collective/vidmage) | [Unplaced public repositories](unplaced.md) | 19 | 19 |
-| [webZ](https://github.com/the-static-collective/webZ) | [Unplaced public repositories](unplaced.md) | 199 | 146 |
+| [webZ](https://github.com/the-static-collective/webZ) | [Unplaced public repositories](unplaced.md) | 205 | 152 |
 | [What-is-the-static-collective-](https://github.com/the-static-collective/What-is-the-static-collective-) | [Origins and witnesses](origins-and-witnesses.md) | 82 | 22 |
 | [WITNESS](https://github.com/the-static-collective/WITNESS) | [Unplaced public repositories](unplaced.md) | 2 | 1 |
 | [WORLDSEED](https://github.com/the-static-collective/WORLDSEED) | [Worlds and inquiry](worlds-and-inquiry.md) | 9 | 7 |

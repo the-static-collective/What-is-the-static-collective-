@@ -1,566 +1,144 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-30T14:06:31+00:00",
-  "to_captured_at": "2026-10-31T13:38:33+00:00",
+  "from_captured_at": "2026-10-31T13:38:33+00:00",
+  "to_captured_at": "2026-11-01T14:16:56+00:00",
   "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
       "repository": "CANNON",
-      "branch": "experiment/inspand-016-playdeck-toaster-video-source",
-      "sha": "d77b46f4aed56f4a51b6500e50bd6f96415c31ad"
+      "branch": "experiment/first-knock-001-human-door",
+      "sha": "8e6dcd617eac8f5fb9fa528588a80af36af700f2"
     },
     {
-      "repository": "CANNON",
-      "branch": "experiment/inspand-017-whole-banana-full-genesis",
-      "sha": "db4570983e6f1e6633379d4346247a35ee5f60cf"
+      "repository": "GrO",
+      "branch": "experiment/useful-later-001",
+      "sha": "8a5387786ee7706bbbb7e51cbc8e64edebfc106e"
     },
     {
-      "repository": "CANNON",
-      "branch": "experiment/inspand-018-creative-route-switchyard",
-      "sha": "18381a447db3310927e003ec36989840133e98b8"
+      "repository": "GrO",
+      "branch": "experiment/useful-later-relatte-export-001",
+      "sha": "08adcfe6454bf24b58e9ac775e4db678bd3ae7d5"
     },
     {
-      "repository": "CANNON",
-      "branch": "experiment/inspand-019-minute-mail-original-toaster",
-      "sha": "f757bd954caade89cfd68f7ca1488a54fc723a2e"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "graft/unfutures-007-fairness-laboratory",
-      "sha": "b89f737490cea77869e18b85602b33f06a4e51c9"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "experiment/jarvis-minute-mail-001",
-      "sha": "af4069379f223697727e68bd41f3e8b588554629"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "experiment/jarvis-studio-return-loop-001",
-      "sha": "cda94419cda9243197e8101db70bf1911de18abb"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "experiment/narrative-justice-attendant-019",
-      "sha": "5e9c211c4382916998f3a0a96f1a1fc89c719c23"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "feat/boundary-inhabitation-bus-001",
-      "sha": "56c00d1386a3b609f0965b8ebf6422405fe493a9"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "feat/bus-boundary-field-scout-002",
-      "sha": "c503f8007faeb4c87d1f2c55bf72f5c34feadbf9"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "feat/recursive-workshop-001-toaster-recomposer",
-      "sha": "f8233b411f3ebc828f480f9471796a343393c7ec"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "feature/porch-receiver-009",
-      "sha": "befdcd7aec1bb5c47eb60017d54c440f9cd12ec1"
-    },
-    {
-      "repository": "lemonPRESS",
-      "branch": "experiment/minute-mail-house-001",
-      "sha": "c4fcb447a74bd54b62b026ef607eaa92a209af70"
-    },
-    {
-      "repository": "lemonPRESS",
-      "branch": "experiment/screening-return-001",
-      "sha": "f60429311ba2d5fec3b1442ab783025872987a12"
-    },
-    {
-      "repository": "planZ",
-      "branch": "experiment/minute-mail-plan-001",
-      "sha": "d7eb38b90f7794ad2570644522f3da687f42cb0d"
-    },
-    {
-      "repository": "planZ",
-      "branch": "experiment/production-return-001",
-      "sha": "aac8349ee9be9cdbeae37f15fe13de7405ff11fd"
-    },
-    {
-      "repository": "playdeck",
-      "branch": "experiment/genesis-full-performance-receipt-001",
-      "sha": "2e410230ba2f230cd801f156ed2eecc2fd23b330"
-    },
-    {
-      "repository": "static-field",
-      "branch": "experiment/seed-exchange-013",
-      "sha": "ade5c42e2e5978cf16f7446d35c0e8fd47e2570a"
-    },
-    {
-      "repository": "static-field",
-      "branch": "experiment/world-garden-012",
-      "sha": "e73f5e8a72fedf5872ee61763db8f3ee92c00987"
-    },
-    {
-      "repository": "static-os",
-      "branch": "experiment/recomposer-001-bounded-self-assembly",
-      "sha": "c75218dec43b82d3c3e7fc43b823df130c1dc540"
-    },
-    {
-      "repository": "static-os",
-      "branch": "experiment/recomposer-002-toaster-witness",
-      "sha": "e25bb810295c79b2b663f8bd8f8b5fe278c82914"
-    },
-    {
-      "repository": "story-dna",
-      "branch": "feat/unclaimed-tomorrows-001",
-      "sha": "92383f4506bfbf3b34c16bdf043f7cb1dffc2357"
-    },
-    {
-      "repository": "STORYSHIP",
-      "branch": "feat/storyship-narrative-justice-turn-008",
-      "sha": "dec614a4205051b4aa666f81ce423ff1ee7c26c7"
-    },
-    {
-      "repository": "the-autodisco",
-      "branch": "notes/cultural-care-origin-2026-10-30",
-      "sha": "b3d48ff7d163ad2441a453efaa03eb251dd285f0"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "branch": "fix/foreign-video-limited-range-witness-001",
-      "sha": "a3ce7b1349a940325cb72362e818ce907a95f35c"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feature/abundent-front-door-002",
-      "sha": "45b33251f0a08341b6b20cbc0941942657027bd1"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feature/abundent-interest-roads-005",
-      "sha": "2bb535edc89aed58c6fbd5e089dd669ea4f2dccd"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feature/abundent-operator-routes-008",
-      "sha": "9facc31e75736bba55759b66fcd21eaf64a3a5c5"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feature/abundent-return-card-006",
-      "sha": "a5a595e1ef1cde5096402a345d5924e9ac61b7cb"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feature/abundent-useful-next-move-003",
-      "sha": "96d5fb660835a333b8a4820eb28b0460c12bdc2c"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feature/agent-commons-mcp-party-013",
-      "sha": "e15787b74cf7761b9ea3e293619eb2c21b32ab40"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feature/agent-commons-party-budget-015",
-      "sha": "92d4f2a6fc6fc0728a5c870be1694682cf5f6eca"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feature/attention-flow-004",
-      "sha": "79f0071a657a514ab81931869e46c8ccfbc61556"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feature/hello-jarvis-personal-door-011",
-      "sha": "f0805ade9c64a7ac32e07af215847142d1b227ba"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feature/hosted-agent-commons-014",
-      "sha": "e7cb7426eaaec8e98f139e4a0d02581c29636a85"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feature/modal-vercel-exit-016",
-      "sha": "104ba423635e63908a0db1a6410d2adc27f19fa4"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feature/native-output-makers-010",
-      "sha": "37e4e037cc70d5ee3245be53254cc58e2097ed1a"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feature/native-specificity-011",
-      "sha": "52eb2d572a3172eaeb6f64fd3f4a343d264bb4d1"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feature/website-convergence-007",
-      "sha": "c9414006e1120164fbef32dcd7fc6915b92bc7d7"
+      "repository": "reLATTE",
+      "branch": "experiment/possibility-crossings-001",
+      "sha": "5fabf889dace0c427a3906e66e014e9af46f1808"
     },
     {
       "repository": "webZ",
-      "branch": "feat/bus-ecm-tech-note-002",
-      "sha": "3f074ff68f8f9e1c6c1a7eef33ad7e9e24417c6b"
+      "branch": "experiment/hey-response-grammar-001",
+      "sha": "fafd4d41915affca3c247027a94d13dd6cc804fc"
     },
     {
       "repository": "webZ",
-      "branch": "feature/agent-commons-first-live-ai-party-015",
-      "sha": "43113b9e9408c223f6c5946efe8d496fad63c487"
+      "branch": "experiment/living-cards-001",
+      "sha": "274b5e043a5aa8365df415e924a3b4f72498e632"
     },
     {
       "repository": "webZ",
-      "branch": "feature/human-porch-wayfinding-002",
-      "sha": "8da25e5f8353da2d23aa4f0d7375d042ba15585c"
+      "branch": "experiment/question-arcade-p5-001",
+      "sha": "da8073bbab2d55326c1e0a8a59bec439ed27f671"
     },
     {
       "repository": "webZ",
-      "branch": "feature/next-paper-001-be-the-marble",
-      "sha": "20fcfe3111271867278bef7e7b7f35569305fc0d"
+      "branch": "experiment/spam-musubi-002",
+      "sha": "7aaa5d111f1f499f9a6f06b60482ea587828a32a"
     },
     {
       "repository": "webZ",
-      "branch": "feature/next-paper-fb-share-20261031",
-      "sha": "bc92d43d00ff750d870cf76769d521ed8e8085d6"
+      "branch": "feature/poke-001-signal-handshake",
+      "sha": "7a6eb9714936ad8d9cbae0a25c98b11240750a4a"
     },
     {
       "repository": "webZ",
-      "branch": "feature/next-paper-issue-000-20261031",
-      "sha": "568467042008d57c07f3789e29b9f090c102c397"
-    },
-    {
-      "repository": "webZ",
-      "branch": "proposal/narrative-doorway-018",
-      "sha": "5bd9dfc318bad7cb8800156944bb0d5a0ecad84f"
+      "branch": "feature/wanted-demand-first-001",
+      "sha": "3ef3c9064e9790bfbb9cf5169cac0e439e8d2ea5"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "JAR-VIS",
+      "repository": "GrO",
       "branch": "main",
-      "from_sha": "81aea538b4708ca185801e4e01c983ab20e255b0",
-      "to_sha": "cd289032b0b2dd8787fa2d62b85be1233c8d404d"
+      "from_sha": "86798d9baed2e697af5700fc3c27b8c3444b19f0",
+      "to_sha": "dcf2a6adb3a5596efb79f893a54854eff1a95b0c"
     },
     {
-      "repository": "webZ",
+      "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "35d94548bf03b83e4919e60e07dc8a1991421926",
-      "to_sha": "0472ed8735af37d1e6d0841fd105f6ecaebc7f58"
+      "from_sha": "cd289032b0b2dd8787fa2d62b85be1233c8d404d",
+      "to_sha": "dfe535318ab57b63526310e72f355d69fafc0e76"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "main",
+      "from_sha": "39038d66b15f43559c48c7da8b8a40a76b883ff0",
+      "to_sha": "d69a863943e071346527eafc79a63ef332d524af"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "81edcf03c57a4790c51aea862508eb66dfa4eb61",
-      "to_sha": "1104a30d424e5512a08181dd19993d01b59d837c"
+      "from_sha": "1104a30d424e5512a08181dd19993d01b59d837c",
+      "to_sha": "2e1416f45ecab12f21b4743b5ac64363e4f3433d"
     }
   ],
   "opened_prs": [
     {
       "repository": "CANNON",
-      "number": 87,
-      "title": "INSPAND-016 — actual PlayDeck moving video+audio into original Toaster VSPantry/foreign-material renderer and Dogram",
-      "url": "https://github.com/the-static-collective/CANNON/pull/87",
-      "head_branch": "experiment/inspand-016-playdeck-toaster-video-source",
-      "base_branch": "experiment/inspand-015-playdeck-toaster-native-still"
-    },
-    {
-      "repository": "CANNON",
-      "number": 88,
-      "title": "INSPAND-017 — WHOLE BANANA: full 6,389-frame PlayDeck performance + owner-sealed receipt → full Toaster video/Dogram",
-      "url": "https://github.com/the-static-collective/CANNON/pull/88",
-      "head_branch": "experiment/inspand-017-whole-banana-full-genesis",
-      "base_branch": "experiment/inspand-016-playdeck-toaster-video-source"
-    },
-    {
-      "repository": "CANNON",
-      "number": 89,
-      "title": "INSPAND-018 — Creative Switchyard: select and replay three real PlayDeck→Toaster→Dogram native routes",
-      "url": "https://github.com/the-static-collective/CANNON/pull/89",
-      "head_branch": "experiment/inspand-018-creative-route-switchyard",
-      "base_branch": "experiment/inspand-017-whole-banana-full-genesis"
-    },
-    {
-      "repository": "CANNON",
-      "number": 90,
-      "title": "INSPAND-019 — a genuinely new minute-post-office film, two original Haunted Toaster native passes",
-      "url": "https://github.com/the-static-collective/CANNON/pull/90",
-      "head_branch": "experiment/inspand-019-minute-mail-original-toaster",
-      "base_branch": "experiment/inspand-018-creative-route-switchyard"
-    },
-    {
-      "repository": "GRAFT",
-      "number": 18,
-      "title": "UNFUTURES-007: Fairness Laboratory — competing allocation policies, original Dogram witness",
-      "url": "https://github.com/the-static-collective/GRAFT/pull/18",
-      "head_branch": "graft/unfutures-007-fairness-laboratory",
-      "base_branch": "graft/unfutures-006-dogram-allocation"
-    },
-    {
-      "repository": "JAR-VIS",
-      "number": 40,
-      "title": "JARVIS-STUDIO-001 — plan/render/return/replan loop across six original repos, ending in playable lemonPRESS film package",
-      "url": "https://github.com/the-static-collective/JAR-VIS/pull/40",
-      "head_branch": "experiment/jarvis-studio-return-loop-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "JAR-VIS",
-      "number": 41,
-      "title": "JARVIS-MINUTE-001 — new brief, original two-film production and two revisions across five source-owned repos",
-      "url": "https://github.com/the-static-collective/JAR-VIS/pull/41",
-      "head_branch": "experiment/jarvis-minute-mail-001",
-      "base_branch": "experiment/jarvis-studio-return-loop-001"
-    },
-    {
-      "repository": "JAR-VIS",
-      "number": 42,
-      "title": "JARVIS-019: Storyship × Story DNA narrative-justice attendant with six human gates",
-      "url": "https://github.com/the-static-collective/JAR-VIS/pull/42",
-      "head_branch": "experiment/narrative-justice-attendant-019",
-      "base_branch": "experiment/nourish-banana-attendant-018"
-    },
-    {
-      "repository": "JAR-VIS",
-      "number": 43,
-      "title": "PORCH-RECEIVER-009: human needs/offers into private JAR;VIS review with revocable receipts",
-      "url": "https://github.com/the-static-collective/JAR-VIS/pull/43",
-      "head_branch": "feature/porch-receiver-009",
-      "base_branch": "main"
-    },
-    {
-      "repository": "lemonPRESS",
-      "number": 65,
-      "title": "LEMONPRESS-SCREENING-001 — source-linked draft → revised final screening program and poster",
-      "url": "https://github.com/the-static-collective/lemonPRESS/pull/65",
-      "head_branch": "experiment/screening-return-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "lemonPRESS",
-      "number": 66,
-      "title": "LEMONPRESS-MINUTE-001 — a printable, playable minute-return post office with evidence-reviewed revision",
-      "url": "https://github.com/the-static-collective/lemonPRESS/pull/66",
-      "head_branch": "experiment/minute-mail-house-001",
-      "base_branch": "experiment/screening-return-001"
-    },
-    {
-      "repository": "planZ",
-      "number": 40,
-      "title": "PLANZ-PRODUCTION-001 — source-owned evidence-return four-pass creative planner",
-      "url": "https://github.com/the-static-collective/planZ/pull/40",
-      "head_branch": "experiment/production-return-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "planZ",
-      "number": 41,
-      "title": "PLANZ-MINUTE-001 — adapt creative plans to an untried objective, advancing only after real owner evidence",
-      "url": "https://github.com/the-static-collective/planZ/pull/41",
-      "head_branch": "experiment/minute-mail-plan-001",
-      "base_branch": "experiment/production-return-001"
-    },
-    {
-      "repository": "playdeck",
-      "number": 4,
-      "title": "GENESIS-FULL-001 — complete 6,389-frame original Genesis performance with source-owning sealed receipt",
-      "url": "https://github.com/the-static-collective/playdeck/pull/4",
-      "head_branch": "experiment/genesis-full-performance-receipt-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "static-field",
-      "number": 17,
-      "title": "STATIC FIELD 012 — World Garden: nurture source-linked game seeds, graft mechanics and sovereign pollen mail",
-      "url": "https://github.com/the-static-collective/static-field/pull/17",
-      "head_branch": "experiment/world-garden-012",
-      "base_branch": "experiment/world-breeder-011"
-    },
-    {
-      "repository": "static-field",
-      "number": 18,
-      "title": "STATIC FIELD 013 — The Seed Exchange: four independent tables grow games together",
-      "url": "https://github.com/the-static-collective/static-field/pull/18",
-      "head_branch": "experiment/seed-exchange-013",
-      "base_branch": "experiment/world-garden-012"
-    },
-    {
-      "repository": "static-os",
-      "number": 98,
-      "title": "RECOMPOSER-001: deterministic self-reassembly from question to approved macro",
-      "url": "https://github.com/the-static-collective/static-os/pull/98",
-      "head_branch": "experiment/recomposer-001-bounded-self-assembly",
-      "base_branch": "experiment/apparatus-compiler-002"
-    },
-    {
-      "repository": "static-os",
-      "number": 99,
-      "title": "RECOMPOSER-002: Haunted Toaster witness memory for self-recomposing question engines",
-      "url": "https://github.com/the-static-collective/static-os/pull/99",
-      "head_branch": "experiment/recomposer-002-toaster-witness",
-      "base_branch": "experiment/recomposer-001-bounded-self-assembly"
-    },
-    {
-      "repository": "story-dna",
-      "number": 6,
-      "title": "[Candidate] Department of Unclaimed Tomorrows — postal desk + Episode 000",
-      "url": "https://github.com/the-static-collective/story-dna/pull/6",
-      "head_branch": "feat/unclaimed-tomorrows-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "STORYSHIP",
-      "number": 9,
-      "title": "NARRATIVE-JUSTICE-008: source-native navigator rights without narrator authority",
-      "url": "https://github.com/the-static-collective/STORYSHIP/pull/9",
-      "head_branch": "feat/storyship-narrative-justice-turn-008",
-      "base_branch": "proposal/life-ship-narrative-navigation-001"
-    },
-    {
-      "repository": "the-autodisco",
-      "number": 17,
-      "title": "DOCS: Why so many songs? Cultural-care intention and provenance",
-      "url": "https://github.com/the-static-collective/the-autodisco/pull/17",
-      "head_branch": "notes/cultural-care-origin-2026-10-30",
-      "base_branch": "main"
-    },
-    {
-      "repository": "the-haunted-toaster",
-      "number": 363,
-      "title": "GHOT-FIX-001 — native Witness Window normalizes foreign full-range video to limited yuv420p",
-      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/363",
-      "head_branch": "fix/foreign-video-limited-range-witness-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "the-static-collective",
-      "number": 1,
-      "title": "FRONT-DOOR-002 + HUMAN-PORCH-002: a useful first step for people",
-      "url": "https://github.com/the-static-collective/the-static-collective/pull/1",
-      "head_branch": "feature/abundent-front-door-002",
-      "base_branch": "main"
-    },
-    {
-      "repository": "the-static-collective",
-      "number": 2,
-      "title": "NEXT-MOVE-003: give every Abundent porch visitor a useful first ten minutes",
-      "url": "https://github.com/the-static-collective/the-static-collective/pull/2",
-      "head_branch": "feature/abundent-useful-next-move-003",
-      "base_branch": "feature/abundent-front-door-002"
-    },
-    {
-      "repository": "the-static-collective",
-      "number": 3,
-      "title": "ATTENTION-FLOW-004: let Abundent follow the visitor's moment, not a profile",
-      "url": "https://github.com/the-static-collective/the-static-collective/pull/3",
-      "head_branch": "feature/attention-flow-004",
-      "base_branch": "feature/abundent-useful-next-move-003"
-    },
-    {
-      "repository": "the-static-collective",
-      "number": 4,
-      "title": "INTEREST-ROADS-005: make Abundent's Porch connect to source-owned public work by interest",
-      "url": "https://github.com/the-static-collective/the-static-collective/pull/4",
-      "head_branch": "feature/abundent-interest-roads-005",
-      "base_branch": "feature/attention-flow-004"
-    },
-    {
-      "repository": "the-static-collective",
-      "number": 5,
-      "title": "RETURN-CARD-006: close a personal loop without faking a shared outcome",
-      "url": "https://github.com/the-static-collective/the-static-collective/pull/5",
-      "head_branch": "feature/abundent-return-card-006",
-      "base_branch": "feature/abundent-interest-roads-005"
-    },
-    {
-      "repository": "the-static-collective",
-      "number": 6,
-      "title": "WEBSITE-CONVERGENCE-007: recover existing website capabilities, stop duplicate front doors, repair one misleading link",
-      "url": "https://github.com/the-static-collective/the-static-collective/pull/6",
-      "head_branch": "feature/website-convergence-007",
-      "base_branch": "feature/abundent-return-card-006"
-    },
-    {
-      "repository": "the-static-collective",
-      "number": 7,
-      "title": "OPERATOR-ROUTES-008: make the existing 31 Abundent capabilities usable for eight real jobs",
-      "url": "https://github.com/the-static-collective/the-static-collective/pull/7",
-      "head_branch": "feature/abundent-operator-routes-008",
-      "base_branch": "feature/website-convergence-007"
-    },
-    {
-      "repository": "the-static-collective",
-      "number": 8,
-      "title": "NATIVE-OUTPUT-010: CANNON 11-source executable output chain → Free Graph native artifact, no fake execution",
-      "url": "https://github.com/the-static-collective/the-static-collective/pull/8",
-      "head_branch": "feature/native-output-makers-010",
-      "base_branch": "feature/abundent-operator-routes-008"
-    },
-    {
-      "repository": "the-static-collective",
-      "number": 9,
-      "title": "SPECIFICITY-011: pressure-test CANNON with a 6:14 a.m. Waseca octopus request",
-      "url": "https://github.com/the-static-collective/the-static-collective/pull/9",
-      "head_branch": "feature/native-specificity-011",
-      "base_branch": "feature/native-output-makers-010"
-    },
-    {
-      "repository": "the-static-collective",
-      "number": 10,
-      "title": "AGENT COMMONS 013 — durable plural guest rooms, local MCP and opt-in Groq/Gemini/OpenRouter/Nemotron party",
-      "url": "https://github.com/the-static-collective/the-static-collective/pull/10",
-      "head_branch": "feature/agent-commons-mcp-party-013",
-      "base_branch": "feature/native-specificity-011"
-    },
-    {
-      "repository": "the-static-collective",
-      "number": 11,
-      "title": "AGENT COMMONS 014 — first actually hosted public room and HTTPS MCP read door",
-      "url": "https://github.com/the-static-collective/the-static-collective/pull/11",
-      "head_branch": "feature/hosted-agent-commons-014",
-      "base_branch": "feature/agent-commons-mcp-party-013"
-    },
-    {
-      "repository": "the-static-collective",
-      "number": 12,
-      "title": "AGENT COMMONS 015: deployed provider quota witness and original source/RLS replay",
-      "url": "https://github.com/the-static-collective/the-static-collective/pull/12",
-      "head_branch": "feature/agent-commons-party-budget-015",
-      "base_branch": "feature/hosted-agent-commons-014"
-    },
-    {
-      "repository": "the-static-collective",
-      "number": 13,
-      "title": "Agent Commons 016/017 — Vercel-free front door and gated Modal setup",
-      "url": "https://github.com/the-static-collective/the-static-collective/pull/13",
-      "head_branch": "feature/modal-vercel-exit-016",
-      "base_branch": "feature/agent-commons-party-budget-015"
+      "number": 91,
+      "title": "FIRST-KNOCK-001 — one human sentence → offline printable card (no contact claims)",
+      "url": "https://github.com/the-static-collective/CANNON/pull/91",
+      "head_branch": "experiment/first-knock-001-human-door",
+      "base_branch": "experiment/inspand-019-minute-mail-original-toaster"
     },
     {
       "repository": "webZ",
-      "number": 213,
-      "title": "NARRATIVE-DOORWAY-018: the story needs a truthful doorway",
-      "url": "https://github.com/the-static-collective/webZ/pull/213",
-      "head_branch": "proposal/narrative-doorway-018",
-      "base_branch": "proposal/nourish-banana-native-crossing-017"
-    },
-    {
-      "repository": "webZ",
-      "number": 214,
-      "title": "PORCH-WAYFINDING-002: distinguish real human note from world rehearsal",
-      "url": "https://github.com/the-static-collective/webZ/pull/214",
-      "head_branch": "feature/human-porch-wayfinding-002",
+      "number": 220,
+      "title": "POKE-001: one signal, one echo, no obligation",
+      "url": "https://github.com/the-static-collective/webZ/pull/220",
+      "head_branch": "feature/poke-001-signal-handshake",
       "base_branch": "main"
     },
     {
       "repository": "webZ",
-      "number": 215,
-      "title": "AGENT COMMONS 015: operator-invoked REAL Groq/Gemini/OpenRouter to independently HELD public room contributions",
-      "url": "https://github.com/the-static-collective/webZ/pull/215",
-      "head_branch": "feature/agent-commons-first-live-ai-party-015",
-      "base_branch": "feature/ask-jarvis-free-compute-007"
+      "number": 221,
+      "title": "HEY-001: one-click human response grammar → portable unsigned draft",
+      "url": "https://github.com/the-static-collective/webZ/pull/221",
+      "head_branch": "experiment/hey-response-grammar-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 222,
+      "title": "SPAM-MUSUBI-002: compost troll noise into safe test recipes; make PLAY first-class",
+      "url": "https://github.com/the-static-collective/webZ/pull/222",
+      "head_branch": "experiment/spam-musubi-002",
+      "base_branch": "experiment/hey-response-grammar-001"
+    },
+    {
+      "repository": "webZ",
+      "number": 223,
+      "title": "WANTED-001/002: buyer-first reverse auction and play-credit laboratory",
+      "url": "https://github.com/the-static-collective/webZ/pull/223",
+      "head_branch": "feature/wanted-demand-first-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 224,
+      "title": "QUESTION ARCADE 001: teachable idle game → synthetic community HOLD crossing",
+      "url": "https://github.com/the-static-collective/webZ/pull/224",
+      "head_branch": "experiment/question-arcade-p5-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 225,
+      "title": "Living Cards 001: one real thing → shareable card → reply → reported action → return",
+      "url": "https://github.com/the-static-collective/webZ/pull/225",
+      "head_branch": "experiment/living-cards-001",
+      "base_branch": "main"
     }
   ],
   "left_open_prs": []
