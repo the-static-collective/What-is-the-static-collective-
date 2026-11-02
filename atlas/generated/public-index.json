@@ -7399,6 +7399,10 @@
           "sha": "5e9c211c4382916998f3a0a96f1a1fc89c719c23"
         },
         {
+          "name": "experiment/node-zero-garden-static-live-001",
+          "sha": "bc5f08a374a6a40bb81cc543d73cd10d89a83307"
+        },
+        {
           "name": "experiment/nourish-banana-attendant-018",
           "sha": "206c23f15510961976db7e89df433c124f2ea83a"
         },
@@ -7528,7 +7532,7 @@
         },
         {
           "name": "main",
-          "sha": "dfe535318ab57b63526310e72f355d69fafc0e76"
+          "sha": "aa793a9d5bc9913accfbb961b17a05fd4712d1e6"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -7544,6 +7548,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 47,
+          "title": "Experiment: NODE ZERO local Garden exchange + Static Live bulletin",
+          "head_branch": "experiment/node-zero-garden-static-live-001",
+          "head_sha": "bc5f08a374a6a40bb81cc543d73cd10d89a83307",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "main",
+          "updated_at": "2026-11-02T01:57:49Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/47"
+        },
         {
           "number": 43,
           "title": "PORCH-RECEIVER-009: human needs/offers into private JAR;VIS review with revocable receipts",
@@ -12600,7 +12614,7 @@
         },
         {
           "name": "main",
-          "sha": "2d4433864e8e31275e56766522c090007e0d522b"
+          "sha": "d9f8cf23acb29fd5ef3ac9db62e5abeba9a6be82"
         }
       ],
       "open_prs": [
@@ -19920,6 +19934,10 @@
           "sha": "6f41061a6d62ad1ab8622a89ad48271fd9605349"
         },
         {
+          "name": "experiment/mit-infinite-fabricator-suitcase-001",
+          "sha": "6f8a39e78384c61805881a474acec46c774bf122"
+        },
+        {
           "name": "experiment/music-field-002-federated-sources",
           "sha": "fcdb6290090dd19f23f6502826d5760b80d90850"
         },
@@ -20637,6 +20655,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 226,
+          "title": "INFINITE-FABRICATOR-SUITCASE-001 — physical-output port for MIT Living Suitcase (HOLD only)",
+          "head_branch": "experiment/mit-infinite-fabricator-suitcase-001",
+          "head_sha": "6f8a39e78384c61805881a474acec46c774bf122",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "experiment/capability-growth-print-shop-001",
+          "updated_at": "2026-11-01T19:02:20Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/226"
+        },
         {
           "number": 225,
           "title": "Living Cards 001: one real thing → shareable card → reply → reported action → return",
@@ -22415,7 +22443,7 @@
         },
         {
           "name": "main",
-          "sha": "2e1416f45ecab12f21b4743b5ac64363e4f3433d"
+          "sha": "d43102fc62cdb2b6e6d2e41c793fd2893093de58"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -22874,5 +22902,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-01T14:16:56+00:00"
+  "captured_at": "2026-11-02T17:02:48+00:00"
 }

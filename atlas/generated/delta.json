@@ -1,144 +1,58 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-10-31T13:38:33+00:00",
-  "to_captured_at": "2026-11-01T14:16:56+00:00",
+  "from_captured_at": "2026-11-01T14:16:56+00:00",
+  "to_captured_at": "2026-11-02T17:02:48+00:00",
   "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "CANNON",
-      "branch": "experiment/first-knock-001-human-door",
-      "sha": "8e6dcd617eac8f5fb9fa528588a80af36af700f2"
-    },
-    {
-      "repository": "GrO",
-      "branch": "experiment/useful-later-001",
-      "sha": "8a5387786ee7706bbbb7e51cbc8e64edebfc106e"
-    },
-    {
-      "repository": "GrO",
-      "branch": "experiment/useful-later-relatte-export-001",
-      "sha": "08adcfe6454bf24b58e9ac775e4db678bd3ae7d5"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "experiment/possibility-crossings-001",
-      "sha": "5fabf889dace0c427a3906e66e014e9af46f1808"
+      "repository": "JAR-VIS",
+      "branch": "experiment/node-zero-garden-static-live-001",
+      "sha": "bc5f08a374a6a40bb81cc543d73cd10d89a83307"
     },
     {
       "repository": "webZ",
-      "branch": "experiment/hey-response-grammar-001",
-      "sha": "fafd4d41915affca3c247027a94d13dd6cc804fc"
-    },
-    {
-      "repository": "webZ",
-      "branch": "experiment/living-cards-001",
-      "sha": "274b5e043a5aa8365df415e924a3b4f72498e632"
-    },
-    {
-      "repository": "webZ",
-      "branch": "experiment/question-arcade-p5-001",
-      "sha": "da8073bbab2d55326c1e0a8a59bec439ed27f671"
-    },
-    {
-      "repository": "webZ",
-      "branch": "experiment/spam-musubi-002",
-      "sha": "7aaa5d111f1f499f9a6f06b60482ea587828a32a"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/poke-001-signal-handshake",
-      "sha": "7a6eb9714936ad8d9cbae0a25c98b11240750a4a"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/wanted-demand-first-001",
-      "sha": "3ef3c9064e9790bfbb9cf5169cac0e439e8d2ea5"
+      "branch": "experiment/mit-infinite-fabricator-suitcase-001",
+      "sha": "6f8a39e78384c61805881a474acec46c774bf122"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "GrO",
-      "branch": "main",
-      "from_sha": "86798d9baed2e697af5700fc3c27b8c3444b19f0",
-      "to_sha": "dcf2a6adb3a5596efb79f893a54854eff1a95b0c"
-    },
-    {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "cd289032b0b2dd8787fa2d62b85be1233c8d404d",
-      "to_sha": "dfe535318ab57b63526310e72f355d69fafc0e76"
+      "from_sha": "dfe535318ab57b63526310e72f355d69fafc0e76",
+      "to_sha": "aa793a9d5bc9913accfbb961b17a05fd4712d1e6"
     },
     {
-      "repository": "reLATTE",
+      "repository": "static-field",
       "branch": "main",
-      "from_sha": "39038d66b15f43559c48c7da8b8a40a76b883ff0",
-      "to_sha": "d69a863943e071346527eafc79a63ef332d524af"
+      "from_sha": "2d4433864e8e31275e56766522c090007e0d522b",
+      "to_sha": "d9f8cf23acb29fd5ef3ac9db62e5abeba9a6be82"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "1104a30d424e5512a08181dd19993d01b59d837c",
-      "to_sha": "2e1416f45ecab12f21b4743b5ac64363e4f3433d"
+      "from_sha": "2e1416f45ecab12f21b4743b5ac64363e4f3433d",
+      "to_sha": "d43102fc62cdb2b6e6d2e41c793fd2893093de58"
     }
   ],
   "opened_prs": [
     {
-      "repository": "CANNON",
-      "number": 91,
-      "title": "FIRST-KNOCK-001 — one human sentence → offline printable card (no contact claims)",
-      "url": "https://github.com/the-static-collective/CANNON/pull/91",
-      "head_branch": "experiment/first-knock-001-human-door",
-      "base_branch": "experiment/inspand-019-minute-mail-original-toaster"
-    },
-    {
-      "repository": "webZ",
-      "number": 220,
-      "title": "POKE-001: one signal, one echo, no obligation",
-      "url": "https://github.com/the-static-collective/webZ/pull/220",
-      "head_branch": "feature/poke-001-signal-handshake",
+      "repository": "JAR-VIS",
+      "number": 47,
+      "title": "Experiment: NODE ZERO local Garden exchange + Static Live bulletin",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/47",
+      "head_branch": "experiment/node-zero-garden-static-live-001",
       "base_branch": "main"
     },
     {
       "repository": "webZ",
-      "number": 221,
-      "title": "HEY-001: one-click human response grammar → portable unsigned draft",
-      "url": "https://github.com/the-static-collective/webZ/pull/221",
-      "head_branch": "experiment/hey-response-grammar-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "webZ",
-      "number": 222,
-      "title": "SPAM-MUSUBI-002: compost troll noise into safe test recipes; make PLAY first-class",
-      "url": "https://github.com/the-static-collective/webZ/pull/222",
-      "head_branch": "experiment/spam-musubi-002",
-      "base_branch": "experiment/hey-response-grammar-001"
-    },
-    {
-      "repository": "webZ",
-      "number": 223,
-      "title": "WANTED-001/002: buyer-first reverse auction and play-credit laboratory",
-      "url": "https://github.com/the-static-collective/webZ/pull/223",
-      "head_branch": "feature/wanted-demand-first-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "webZ",
-      "number": 224,
-      "title": "QUESTION ARCADE 001: teachable idle game → synthetic community HOLD crossing",
-      "url": "https://github.com/the-static-collective/webZ/pull/224",
-      "head_branch": "experiment/question-arcade-p5-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "webZ",
-      "number": 225,
-      "title": "Living Cards 001: one real thing → shareable card → reply → reported action → return",
-      "url": "https://github.com/the-static-collective/webZ/pull/225",
-      "head_branch": "experiment/living-cards-001",
-      "base_branch": "main"
+      "number": 226,
+      "title": "INFINITE-FABRICATOR-SUITCASE-001 — physical-output port for MIT Living Suitcase (HOLD only)",
+      "url": "https://github.com/the-static-collective/webZ/pull/226",
+      "head_branch": "experiment/mit-infinite-fabricator-suitcase-001",
+      "base_branch": "experiment/capability-growth-print-shop-001"
     }
   ],
   "left_open_prs": []

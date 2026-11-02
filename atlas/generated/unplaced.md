@@ -652,12 +652,13 @@ Default: `main` · other refs: 32 · open PRs: 15
 
 [Repository](https://github.com/the-static-collective/JAR-VIS) · [Branches](https://github.com/the-static-collective/JAR-VIS/branches) · [Pull requests](https://github.com/the-static-collective/JAR-VIS/pulls)
 
-Default: `main` · other refs: 46 · open PRs: 20
+Default: `main` · other refs: 47 · open PRs: 21
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#47](https://github.com/the-static-collective/JAR-VIS/pull/47) | Experiment: NODE ZERO local Garden exchange + Static Live bulletin | `experiment/node-zero-garden-static-live-001` → `main` | 2026-11-02 |
 | [#43](https://github.com/the-static-collective/JAR-VIS/pull/43) | PORCH-RECEIVER-009: human needs/offers into private JAR;VIS review with revocable receipts | `feature/porch-receiver-009` → `main` | 2026-10-30 |
 | [#42](https://github.com/the-static-collective/JAR-VIS/pull/42) | JARVIS-019: Storyship × Story DNA narrative-justice attendant with six human gates | `experiment/narrative-justice-attendant-019` → `experiment/nourish-banana-attendant-018` | 2026-10-30 |
 | [#41](https://github.com/the-static-collective/JAR-VIS/pull/41) | JARVIS-MINUTE-001 — new brief, original two-film production and two revisions across five source-owned repos | `experiment/jarvis-minute-mail-001` → `experiment/jarvis-studio-return-loop-001` | 2026-10-30 |
@@ -694,6 +695,7 @@ Default: `main` · other refs: 46 · open PRs: 20
 | [experiment/jarvis-studio-return-loop-001](https://github.com/the-static-collective/JAR-VIS/tree/experiment/jarvis-studio-return-loop-001) | [cda94419cd](https://github.com/the-static-collective/JAR-VIS/commit/cda94419cda9243197e8101db70bf1911de18abb) | [open PR #40](https://github.com/the-static-collective/JAR-VIS/pull/40) |
 | [experiment/maddclown-slots-004](https://github.com/the-static-collective/JAR-VIS/tree/experiment/maddclown-slots-004) | [1660e98a3e](https://github.com/the-static-collective/JAR-VIS/commit/1660e98a3e456e2a1fdfe098d1b3cd0277e5db32) | [open PR #34](https://github.com/the-static-collective/JAR-VIS/pull/34) |
 | [experiment/narrative-justice-attendant-019](https://github.com/the-static-collective/JAR-VIS/tree/experiment/narrative-justice-attendant-019) | [5e9c211c43](https://github.com/the-static-collective/JAR-VIS/commit/5e9c211c4382916998f3a0a96f1a1fc89c719c23) | [open PR #42](https://github.com/the-static-collective/JAR-VIS/pull/42) |
+| [experiment/node-zero-garden-static-live-001](https://github.com/the-static-collective/JAR-VIS/tree/experiment/node-zero-garden-static-live-001) | [bc5f08a374](https://github.com/the-static-collective/JAR-VIS/commit/bc5f08a374a6a40bb81cc543d73cd10d89a83307) | [open PR #47](https://github.com/the-static-collective/JAR-VIS/pull/47) |
 | [experiment/nourish-banana-attendant-018](https://github.com/the-static-collective/JAR-VIS/tree/experiment/nourish-banana-attendant-018) | [206c23f155](https://github.com/the-static-collective/JAR-VIS/commit/206c23f15510961976db7e89df433c124f2ea83a) | [open PR #39](https://github.com/the-static-collective/JAR-VIS/pull/39) |
 | [experiment/season-001-witness-attendant](https://github.com/the-static-collective/JAR-VIS/tree/experiment/season-001-witness-attendant) | [5754fab77a](https://github.com/the-static-collective/JAR-VIS/commit/5754fab77a6771fcbd075ea68c16e537279ed237) | [open PR #32](https://github.com/the-static-collective/JAR-VIS/pull/32) |
 | [experiment/stranger-cabaret-003](https://github.com/the-static-collective/JAR-VIS/tree/experiment/stranger-cabaret-003) | [3d93867898](https://github.com/the-static-collective/JAR-VIS/commit/3d93867898eac44d5f54d79251ea90a6ee9b50c9) | [open PR #33](https://github.com/the-static-collective/JAR-VIS/pull/33) |
@@ -1508,12 +1510,13 @@ Default: `main` · other refs: 19 · open PRs: 19
 
 [Repository](https://github.com/the-static-collective/webZ) · [Branches](https://github.com/the-static-collective/webZ/branches) · [Pull requests](https://github.com/the-static-collective/webZ/pulls)
 
-Default: `main` · other refs: 205 · open PRs: 152
+Default: `main` · other refs: 206 · open PRs: 153
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#226](https://github.com/the-static-collective/webZ/pull/226) | INFINITE-FABRICATOR-SUITCASE-001 — physical-output port for MIT Living Suitcase (HOLD only) | `experiment/mit-infinite-fabricator-suitcase-001` → `experiment/capability-growth-print-shop-001` | 2026-11-01 |
 | [#225](https://github.com/the-static-collective/webZ/pull/225) | Living Cards 001: one real thing → shareable card → reply → reported action → return | `experiment/living-cards-001` → `main` | 2026-10-31 |
 | [#224](https://github.com/the-static-collective/webZ/pull/224) | QUESTION ARCADE 001: teachable idle game → synthetic community HOLD crossing | `experiment/question-arcade-p5-001` → `main` | 2026-10-31 |
 | [#223](https://github.com/the-static-collective/webZ/pull/223) | WANTED-001/002: buyer-first reverse auction and play-credit laboratory | `feature/wanted-demand-first-001` → `main` | 2026-10-31 |
@@ -1698,6 +1701,7 @@ Default: `main` · other refs: 205 · open PRs: 152
 | [experiment/living-grounds-006](https://github.com/the-static-collective/webZ/tree/experiment/living-grounds-006) | [365dd07812](https://github.com/the-static-collective/webZ/commit/365dd07812b05566993d3ccb53932bcfdd87dcb7) | [open PR #43](https://github.com/the-static-collective/webZ/pull/43) |
 | [experiment/living-navigation-composer-001](https://github.com/the-static-collective/webZ/tree/experiment/living-navigation-composer-001) | [b55ad68d33](https://github.com/the-static-collective/webZ/commit/b55ad68d336c43ff9d48aa3ff1c09eb518016f4a) | [open PR #61](https://github.com/the-static-collective/webZ/pull/61) |
 | [experiment/living-watershed-001-full-measure-gro](https://github.com/the-static-collective/webZ/tree/experiment/living-watershed-001-full-measure-gro) | [6f41061a6d](https://github.com/the-static-collective/webZ/commit/6f41061a6d62ad1ab8622a89ad48271fd9605349) | [open PR #95](https://github.com/the-static-collective/webZ/pull/95) |
+| [experiment/mit-infinite-fabricator-suitcase-001](https://github.com/the-static-collective/webZ/tree/experiment/mit-infinite-fabricator-suitcase-001) | [6f8a39e783](https://github.com/the-static-collective/webZ/commit/6f8a39e78384c61805881a474acec46c774bf122) | [open PR #226](https://github.com/the-static-collective/webZ/pull/226) |
 | [experiment/music-field-002-federated-sources](https://github.com/the-static-collective/webZ/tree/experiment/music-field-002-federated-sources) | [fcdb629009](https://github.com/the-static-collective/webZ/commit/fcdb6290090dd19f23f6502826d5760b80d90850) | [open PR #23](https://github.com/the-static-collective/webZ/pull/23) |
 | [experiment/music-field-003-youtube-oauth](https://github.com/the-static-collective/webZ/tree/experiment/music-field-003-youtube-oauth) | [7ea6255ea1](https://github.com/the-static-collective/webZ/commit/7ea6255ea16b32e6ffbadc9ee2a512035110e0ec) | [open PR #28](https://github.com/the-static-collective/webZ/pull/28) |
 | [experiment/music-field-004-audius-listening-orchard](https://github.com/the-static-collective/webZ/tree/experiment/music-field-004-audius-listening-orchard) | [18189f7aac](https://github.com/the-static-collective/webZ/commit/18189f7aaca21ea90ab70b3749506fd8c3185dc8) | [open PR #38](https://github.com/the-static-collective/webZ/pull/38) |
