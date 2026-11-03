@@ -1,19 +1,24 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-01T14:16:56+00:00",
-  "to_captured_at": "2026-11-02T17:02:48+00:00",
+  "from_captured_at": "2026-11-02T17:02:48+00:00",
+  "to_captured_at": "2026-11-03T15:05:30+00:00",
   "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "JAR-VIS",
-      "branch": "experiment/node-zero-garden-static-live-001",
-      "sha": "bc5f08a374a6a40bb81cc543d73cd10d89a83307"
+      "repository": "reLATTE",
+      "branch": "experiment/lantern-commons-002-living-society",
+      "sha": "c4982fa720b1c632fbad4bf5fc1aedd05be977c4"
     },
     {
-      "repository": "webZ",
-      "branch": "experiment/mit-infinite-fabricator-suitcase-001",
-      "sha": "6f8a39e78384c61805881a474acec46c774bf122"
+      "repository": "the-haunted-pol-ish-roids",
+      "branch": "integration/mac-porch-photo-quarry-001",
+      "sha": "5f2cff167544123f281692fcdf123a66dccc6da2"
+    },
+    {
+      "repository": "the-haunted-pol-ish-roids",
+      "branch": "integration/photo-quarry-crossing-001",
+      "sha": "e3ee49a6fd6c8b20e2ca855d6e3ea157f95d6045"
     }
   ],
   "removed_branches": [],
@@ -21,38 +26,38 @@
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "dfe535318ab57b63526310e72f355d69fafc0e76",
-      "to_sha": "aa793a9d5bc9913accfbb961b17a05fd4712d1e6"
+      "from_sha": "aa793a9d5bc9913accfbb961b17a05fd4712d1e6",
+      "to_sha": "3e02cdfe9f2713963a25a87caf644a318f8728e2"
     },
     {
-      "repository": "static-field",
+      "repository": "the-haunted-pol-ish-roids",
       "branch": "main",
-      "from_sha": "2d4433864e8e31275e56766522c090007e0d522b",
-      "to_sha": "d9f8cf23acb29fd5ef3ac9db62e5abeba9a6be82"
+      "from_sha": "75f0ed5db8d79de37d58957d5bc09d7992a5b9d8",
+      "to_sha": "2bc1f32809004ae7fb6bed1abfb2c4d0ab4628a3"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "2e1416f45ecab12f21b4743b5ac64363e4f3433d",
-      "to_sha": "d43102fc62cdb2b6e6d2e41c793fd2893093de58"
+      "from_sha": "d43102fc62cdb2b6e6d2e41c793fd2893093de58",
+      "to_sha": "d7f782077515dac183efef4c3829302898f22957"
     }
   ],
   "opened_prs": [
     {
-      "repository": "JAR-VIS",
-      "number": 47,
-      "title": "Experiment: NODE ZERO local Garden exchange + Static Live bulletin",
-      "url": "https://github.com/the-static-collective/JAR-VIS/pull/47",
-      "head_branch": "experiment/node-zero-garden-static-live-001",
+      "repository": "reLATTE",
+      "number": 135,
+      "title": "LANTERN COMMONS 002 — living Minecraft society / Cartridge Forge integration contract",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/135",
+      "head_branch": "experiment/lantern-commons-002-living-society",
       "base_branch": "main"
     },
     {
-      "repository": "webZ",
-      "number": 226,
-      "title": "INFINITE-FABRICATOR-SUITCASE-001 — physical-output port for MIT Living Suitcase (HOLD only)",
-      "url": "https://github.com/the-static-collective/webZ/pull/226",
-      "head_branch": "experiment/mit-infinite-fabricator-suitcase-001",
-      "base_branch": "experiment/capability-growth-print-shop-001"
+      "repository": "the-haunted-pol-ish-roids",
+      "number": 7,
+      "title": "Mac Porch 001: local Photo Quarry host adapter and field-proof gate",
+      "url": "https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/7",
+      "head_branch": "integration/mac-porch-photo-quarry-001",
+      "base_branch": "main"
     }
   ],
   "left_open_prs": []

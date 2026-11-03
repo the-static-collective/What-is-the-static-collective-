@@ -7532,7 +7532,7 @@
         },
         {
           "name": "main",
-          "sha": "aa793a9d5bc9913accfbb961b17a05fd4712d1e6"
+          "sha": "3e02cdfe9f2713963a25a87caf644a318f8728e2"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -10570,6 +10570,10 @@
           "sha": "4affa111c367e50dc3dfcce45e5334931f9b9ca6"
         },
         {
+          "name": "experiment/lantern-commons-002-living-society",
+          "sha": "c4982fa720b1c632fbad4bf5fc1aedd05be977c4"
+        },
+        {
           "name": "experiment/manga-parcel-001",
           "sha": "d208d98bd88194cbd42c90379816b1167248595f"
         },
@@ -10995,6 +10999,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 135,
+          "title": "LANTERN COMMONS 002 — living Minecraft society / Cartridge Forge integration contract",
+          "head_branch": "experiment/lantern-commons-002-living-society",
+          "head_sha": "c4982fa720b1c632fbad4bf5fc1aedd05be977c4",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-11-03T03:22:40Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/135"
+        },
         {
           "number": 117,
           "title": "Living Hymnal 002 — signed lyric crossing, independently admitted or refused",
@@ -17036,8 +17050,16 @@
           "sha": "4889ee33eba02ee097bb3554ae1a9565e9dc728a"
         },
         {
+          "name": "integration/mac-porch-photo-quarry-001",
+          "sha": "5f2cff167544123f281692fcdf123a66dccc6da2"
+        },
+        {
+          "name": "integration/photo-quarry-crossing-001",
+          "sha": "e3ee49a6fd6c8b20e2ca855d6e3ea157f95d6045"
+        },
+        {
           "name": "main",
-          "sha": "75f0ed5db8d79de37d58957d5bc09d7992a5b9d8"
+          "sha": "2bc1f32809004ae7fb6bed1abfb2c4d0ab4628a3"
         },
         {
           "name": "plan/haunted-polaroid-first-proof",
@@ -17049,6 +17071,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 7,
+          "title": "Mac Porch 001: local Photo Quarry host adapter and field-proof gate",
+          "head_branch": "integration/mac-porch-photo-quarry-001",
+          "head_sha": "5f2cff167544123f281692fcdf123a66dccc6da2",
+          "head_repo": "the-static-collective/the-haunted-pol-ish-roids",
+          "base_branch": "main",
+          "updated_at": "2026-11-02T19:31:17Z",
+          "url": "https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/7"
+        },
         {
           "number": 5,
           "title": "World, not the feed: make photographs into doors",
@@ -22443,7 +22475,7 @@
         },
         {
           "name": "main",
-          "sha": "d43102fc62cdb2b6e6d2e41c793fd2893093de58"
+          "sha": "d7f782077515dac183efef4c3829302898f22957"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -22902,5 +22934,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-02T17:02:48+00:00"
+  "captured_at": "2026-11-03T15:05:30+00:00"
 }

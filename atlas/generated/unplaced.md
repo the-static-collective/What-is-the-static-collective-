@@ -1048,12 +1048,13 @@ Default: `main` · other refs: 4 · open PRs: 4
 
 [Repository](https://github.com/the-static-collective/reLATTE) · [Branches](https://github.com/the-static-collective/reLATTE/branches) · [Pull requests](https://github.com/the-static-collective/reLATTE/pulls)
 
-Default: `main` · other refs: 130 · open PRs: 88
+Default: `main` · other refs: 131 · open PRs: 89
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#135](https://github.com/the-static-collective/reLATTE/pull/135) | LANTERN COMMONS 002 — living Minecraft society / Cartridge Forge integration contract | `experiment/lantern-commons-002-living-society` → `main` | 2026-11-03 |
 | [#117](https://github.com/the-static-collective/reLATTE/pull/117) | Living Hymnal 002 — signed lyric crossing, independently admitted or refused | `experiment/hymnal-crossing-002` → `main` | 2026-10-18 |
 | [#116](https://github.com/the-static-collective/reLATTE/pull/116) | R3-CF-002: independent owner/receiver Durable Objects with signed crossing | `feat/mw-two-world-edge-002` → `feat/cloudflare-sqlite-receiver-001` | 2026-10-14 |
 | [#115](https://github.com/the-static-collective/reLATTE/pull/115) | R3-CF-001: reLATTE signed receiver on Cloudflare SQLite Durable Objects | `feat/cloudflare-sqlite-receiver-001` → `main` | 2026-10-14 |
@@ -1172,6 +1173,7 @@ Default: `main` · other refs: 130 · open PRs: 88
 | [experiment/horizon-mcp-readonly-002](https://github.com/the-static-collective/reLATTE/tree/experiment/horizon-mcp-readonly-002) | [ed39b59715](https://github.com/the-static-collective/reLATTE/commit/ed39b597154647f9d4905b00e3dd3f1e0fc54d05) | Retained ref; disposition unverified |
 | [experiment/hymnal-crossing-002](https://github.com/the-static-collective/reLATTE/tree/experiment/hymnal-crossing-002) | [6b1bf6b734](https://github.com/the-static-collective/reLATTE/commit/6b1bf6b7340bbe912d7e646f35a08862feeab4e5) | [open PR #117](https://github.com/the-static-collective/reLATTE/pull/117) |
 | [experiment/interface-superspace-001](https://github.com/the-static-collective/reLATTE/tree/experiment/interface-superspace-001) | [4affa111c3](https://github.com/the-static-collective/reLATTE/commit/4affa111c367e50dc3dfcce45e5334931f9b9ca6) | [open PR #76](https://github.com/the-static-collective/reLATTE/pull/76) |
+| [experiment/lantern-commons-002-living-society](https://github.com/the-static-collective/reLATTE/tree/experiment/lantern-commons-002-living-society) | [c4982fa720](https://github.com/the-static-collective/reLATTE/commit/c4982fa720b1c632fbad4bf5fc1aedd05be977c4) | [open PR #135](https://github.com/the-static-collective/reLATTE/pull/135) |
 | [experiment/manga-parcel-001](https://github.com/the-static-collective/reLATTE/tree/experiment/manga-parcel-001) | [d208d98bd8](https://github.com/the-static-collective/reLATTE/commit/d208d98bd88194cbd42c90379816b1167248595f) | [open PR #56](https://github.com/the-static-collective/reLATTE/pull/56) |
 | [experiment/paperchain-seed-vault-001](https://github.com/the-static-collective/reLATTE/tree/experiment/paperchain-seed-vault-001) | [51372e57b6](https://github.com/the-static-collective/reLATTE/commit/51372e57b6c1f5647621ea805f6f983b5ac28597) | [open PR #65](https://github.com/the-static-collective/reLATTE/pull/65) |
 | [experiment/particularity-crucible-001](https://github.com/the-static-collective/reLATTE/tree/experiment/particularity-crucible-001) | [f5cb7488be](https://github.com/the-static-collective/reLATTE/commit/f5cb7488bebc1a6e27fd458ad40af9b9b6f9e858) | [open PR #67](https://github.com/the-static-collective/reLATTE/pull/67) |

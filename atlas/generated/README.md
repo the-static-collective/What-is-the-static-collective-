@@ -4,7 +4,7 @@ description: "Dated, source-linked public Git inventory for the Static Collectiv
 
 # Public Git inventory
 
-Captured: **2026-11-02T17:02:48+00:00** · **89 public repositories** · **2423 branch refs** (including defaults) · **1235 open PRs**.
+Captured: **2026-11-03T15:05:30+00:00** · **89 public repositories** · **2426 branch refs** (including defaults) · **1237 open PRs**.
 
 [Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
 
@@ -22,10 +22,10 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [Contracts and memory](contracts-and-memory.md) | 11 | 449 | 115 |
 | [Participation and care](participation-and-care.md) | 13 | 96 | 32 |
 | [Songs and stages](songs-and-stages.md) | 5 | 86 | 20 |
-| [Images and appliances](images-and-appliances.md) | 10 | 348 | 151 |
+| [Images and appliances](images-and-appliances.md) | 10 | 350 | 152 |
 | [Worlds and inquiry](worlds-and-inquiry.md) | 6 | 134 | 52 |
 | [Operating surfaces](operating-surfaces.md) | 5 | 187 | 137 |
-| [Unplaced public repositories](unplaced.md) | 24 | 899 | 660 |
+| [Unplaced public repositories](unplaced.md) | 24 | 900 | 661 |
 
 ## All public repositories
 
@@ -81,7 +81,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [reCOreturn](https://github.com/the-static-collective/reCOreturn) | [Operating surfaces](operating-surfaces.md) | 1 | 0 |
 | [reCURV](https://github.com/the-static-collective/reCURV) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [reCURVrePAIR](https://github.com/the-static-collective/reCURVrePAIR) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
-| [reLATTE](https://github.com/the-static-collective/reLATTE) | [Unplaced public repositories](unplaced.md) | 130 | 88 |
+| [reLATTE](https://github.com/the-static-collective/reLATTE) | [Unplaced public repositories](unplaced.md) | 131 | 89 |
 | [reMIX-reCURVrePAIR](https://github.com/the-static-collective/reMIX-reCURVrePAIR) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [revival](https://github.com/the-static-collective/revival) | [Participation and care](participation-and-care.md) | 16 | 3 |
 | [ROroomOM](https://github.com/the-static-collective/ROroomOM) | [Worlds and inquiry](worlds-and-inquiry.md) | 18 | 16 |
@@ -103,7 +103,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [the-daily-slice](https://github.com/the-static-collective/the-daily-slice) | [Origins and witnesses](origins-and-witnesses.md) | 79 | 17 |
 | [the-haunted-blender](https://github.com/the-static-collective/the-haunted-blender) | [Images and appliances](images-and-appliances.md) | 59 | 59 |
 | [the-haunted-phonography](https://github.com/the-static-collective/the-haunted-phonography) | [Songs and stages](songs-and-stages.md) | 24 | 1 |
-| [the-haunted-pol-ish-roids](https://github.com/the-static-collective/the-haunted-pol-ish-roids) | [Images and appliances](images-and-appliances.md) | 3 | 2 |
+| [the-haunted-pol-ish-roids](https://github.com/the-static-collective/the-haunted-pol-ish-roids) | [Images and appliances](images-and-appliances.md) | 5 | 3 |
 | [the-haunted-toaster](https://github.com/the-static-collective/the-haunted-toaster) | [Images and appliances](images-and-appliances.md) | 238 | 80 |
 | [the-static-collective](https://github.com/the-static-collective/the-static-collective) | [Unplaced public repositories](unplaced.md) | 14 | 13 |
 | [toaster-lab](https://github.com/the-static-collective/toaster-lab) | [Images and appliances](images-and-appliances.md) | 3 | 0 |

@@ -483,12 +483,13 @@ Default: `main` · other refs: 59 · open PRs: 59
 
 [Repository](https://github.com/the-static-collective/the-haunted-pol-ish-roids) · [Branches](https://github.com/the-static-collective/the-haunted-pol-ish-roids/branches) · [Pull requests](https://github.com/the-static-collective/the-haunted-pol-ish-roids/pulls)
 
-Default: `main` · other refs: 3 · open PRs: 2
+Default: `main` · other refs: 5 · open PRs: 3
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#7](https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/7) | Mac Porch 001: local Photo Quarry host adapter and field-proof gate | `integration/mac-porch-photo-quarry-001` → `main` | 2026-11-02 |
 | [#5](https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/5) | World, not the feed: make photographs into doors | `world-not-the-feed-001` → `main` | 2026-09-27 |
 | [#4](https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/4) | docs: plan Haunted Polaroid first living-camera proof | `plan/haunted-polaroid-first-proof` → `main` | 2026-08-31 |
 
@@ -497,6 +498,8 @@ Default: `main` · other refs: 3 · open PRs: 2
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
 | [design/haunted-polaroid-organism](https://github.com/the-static-collective/the-haunted-pol-ish-roids/tree/design/haunted-polaroid-organism) | [4889ee33eb](https://github.com/the-static-collective/the-haunted-pol-ish-roids/commit/4889ee33eba02ee097bb3554ae1a9565e9dc728a) | Retained ref; disposition unverified |
+| [integration/mac-porch-photo-quarry-001](https://github.com/the-static-collective/the-haunted-pol-ish-roids/tree/integration/mac-porch-photo-quarry-001) | [5f2cff1675](https://github.com/the-static-collective/the-haunted-pol-ish-roids/commit/5f2cff167544123f281692fcdf123a66dccc6da2) | [open PR #7](https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/7) |
+| [integration/photo-quarry-crossing-001](https://github.com/the-static-collective/the-haunted-pol-ish-roids/tree/integration/photo-quarry-crossing-001) | [e3ee49a6fd](https://github.com/the-static-collective/the-haunted-pol-ish-roids/commit/e3ee49a6fd6c8b20e2ca855d6e3ea157f95d6045) | Retained ref; disposition unverified |
 | [plan/haunted-polaroid-first-proof](https://github.com/the-static-collective/the-haunted-pol-ish-roids/tree/plan/haunted-polaroid-first-proof) | [5ced71881d](https://github.com/the-static-collective/the-haunted-pol-ish-roids/commit/5ced71881dfbd94df843b486699654c8c8c4ef4f) | [open PR #4](https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/4) |
 | [world-not-the-feed-001](https://github.com/the-static-collective/the-haunted-pol-ish-roids/tree/world-not-the-feed-001) | [8c44216f8f](https://github.com/the-static-collective/the-haunted-pol-ish-roids/commit/8c44216f8f975b1f8d125b8272d7fe6f1bd259f6) | [open PR #5](https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/5) |
 
