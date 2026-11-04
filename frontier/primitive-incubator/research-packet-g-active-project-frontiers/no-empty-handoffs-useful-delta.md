@@ -41,6 +41,10 @@ The constraint is purpose-relative. If a person requests an invitation, a fully 
 
 All are distinct owning sources. Their tests show bounded implementation and regressions; **no independent field study yet establishes that a visitor's original practical problem was solved**.
 
+## Counterexample discovered during the bridge
+
+During source-level review of the Jubilee → First Circle carrier, we found another goal mismatch: a soup field kit was encoded as a generic **offer**, so an unsuccessful return could produce a new volunteer invitation rather than food-related assistance. This was a **code-level finding, not a field observation**. [webZ return alignment PR #246](https://github.com/the-static-collective/webZ/pull/246) replaces that fallback for each supported kit type with a complete role-matched second procedure, recipe, run sheet, or rehearsal. Regression tests cover all eight types, including export/import reconstruction. This is useful implementation evidence, not independent proof of practical benefit.
+
 ## The first-inch test
 
 Ask a person who has just used the interface: **"What usable thing do you now have that you did not have when you arrived?"** Keep separately the evidence for what the code prepared, what the human did, what the external recipient confirmed, and what remains unresolved.
