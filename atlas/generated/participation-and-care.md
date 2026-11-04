@@ -59,7 +59,7 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/BananaSpork) · [Branches](https://github.com/the-static-collective/BananaSpork/branches) · [Pull requests](https://github.com/the-static-collective/BananaSpork/pulls)
 
-Default: `main` · other refs: 20 · open PRs: 8
+Default: `main` · other refs: 21 · open PRs: 8
 
 ### Open pull requests
 
@@ -94,6 +94,7 @@ Default: `main` · other refs: 20 · open PRs: 8
 | [feat/penny-box-help-slip-bridge-001](https://github.com/the-static-collective/BananaSpork/tree/feat/penny-box-help-slip-bridge-001) | [8a21fd9f86](https://github.com/the-static-collective/BananaSpork/commit/8a21fd9f864adb2f05143d96279eeb58c8445730) | [open PR #16](https://github.com/the-static-collective/BananaSpork/pull/16) |
 | [feat/return-of-help-slip-001](https://github.com/the-static-collective/BananaSpork/tree/feat/return-of-help-slip-001) | [fa759384ce](https://github.com/the-static-collective/BananaSpork/commit/fa759384ceaf13fbfdec11dc2f9de025c4bf2615) | Retained ref; disposition unverified |
 | [feat/watch-the-watchmen-001](https://github.com/the-static-collective/BananaSpork/tree/feat/watch-the-watchmen-001) | [e0d23bbb0c](https://github.com/the-static-collective/BananaSpork/commit/e0d23bbb0cce5fcf80a8337d5cfc4b0da805b575) | [open PR #22](https://github.com/the-static-collective/BananaSpork/pull/22) |
+| [feature/garden-first-circle-001](https://github.com/the-static-collective/BananaSpork/tree/feature/garden-first-circle-001) | [07a762c047](https://github.com/the-static-collective/BananaSpork/commit/07a762c0472e4b9e54ac42b05198abfb5841ddd2) | Retained ref; disposition unverified |
 | [fix/porchlight-deployed-content](https://github.com/the-static-collective/BananaSpork/tree/fix/porchlight-deployed-content) | [ee76017128](https://github.com/the-static-collective/BananaSpork/commit/ee76017128c9dc535567d57f4433efc5c0eba5ac) | Retained ref; disposition unverified |
 | [fix/porchlight-route-anchors](https://github.com/the-static-collective/BananaSpork/tree/fix/porchlight-route-anchors) | [bfd7b202a8](https://github.com/the-static-collective/BananaSpork/commit/bfd7b202a8c66a71783df3cd3d293daa75ccd73d) | Retained ref; disposition unverified |
 | [nourish-kids-book-packets](https://github.com/the-static-collective/BananaSpork/tree/nourish-kids-book-packets) | [963bf6402e](https://github.com/the-static-collective/BananaSpork/commit/963bf6402e25c8c1dc08da9142cf746ed817f084) | Retained ref; disposition unverified |

@@ -1,63 +1,571 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-02T17:02:48+00:00",
-  "to_captured_at": "2026-11-03T15:05:30+00:00",
+  "from_captured_at": "2026-11-03T15:05:30+00:00",
+  "to_captured_at": "2026-11-04T15:24:50+00:00",
   "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
+      "repository": "appliance-prophet-king",
+      "branch": "002-nutoaster-minecraft-cartridge",
+      "sha": "9ba4d8d3b8d030b258c2a8a5fbeceffb86cf3ff5"
+    },
+    {
+      "repository": "appliance-prophet-king",
+      "branch": "003-nutoaster-provisional-dimensions",
+      "sha": "e6eb34bb099d0de515f35cde3edb67b79d67f496"
+    },
+    {
+      "repository": "BananaSpork",
+      "branch": "feature/garden-first-circle-001",
+      "sha": "07a762c0472e4b9e54ac42b05198abfb5841ddd2"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "feat/live-offer-cartridge-consumer",
+      "sha": "9fafe9e797c92837b5094b1e3a88e2ac9fd224f4"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "feature/progress-gate-002",
+      "sha": "ce6dd7b30d663536fcffba3c3111bc94a3065207"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "proposal/no-empty-handoffs-001",
+      "sha": "41ed978bb1174384f7ea204f71d81f67faafa8d3"
+    },
+    {
       "repository": "reLATTE",
-      "branch": "experiment/lantern-commons-002-living-society",
-      "sha": "c4982fa720b1c632fbad4bf5fc1aedd05be977c4"
+      "branch": "experiment/first-circle-001-self-forking-world",
+      "sha": "d5201fb97249c1fe151027087e950e0652ef47cd"
     },
     {
-      "repository": "the-haunted-pol-ish-roids",
-      "branch": "integration/mac-porch-photo-quarry-001",
-      "sha": "5f2cff167544123f281692fcdf123a66dccc6da2"
+      "repository": "reLATTE",
+      "branch": "experiment/lantern-commons-004-two-world-hold",
+      "sha": "67a902df408b4e615594449d6a813e7b41c9a71a"
     },
     {
-      "repository": "the-haunted-pol-ish-roids",
-      "branch": "integration/photo-quarry-crossing-001",
-      "sha": "e3ee49a6fd6c8b20e2ca855d6e3ea157f95d6045"
+      "repository": "reLATTE",
+      "branch": "experiment/lantern-commons-005-cartridge-transfer",
+      "sha": "33ec4d81319312a081e337068f42b491f676f83b"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/lantern-commons-005-full-society-vanilla",
+      "sha": "d040626572e06f58ee00cff4bf7094800aad74be"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/lantern-commons-006-god-mode-events",
+      "sha": "662cfdd26e0dc1848c45b43a79776ff906519ecf"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/lantern-commons-007-radical-cooperation",
+      "sha": "af919defb8e15b019af8006762e8d4d5691d572e"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/lantern-commons-008-discernment",
+      "sha": "4f62612393bbf0a275d7dd6744e5917335af4451"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/lantern-commons-009-cooperation-under-pressure",
+      "sha": "088bc3fd3e37384ec8e623cc1c82259f032b372a"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/lantern-commons-010-world-cartridges",
+      "sha": "1a51aee14208495a2b825bcc74c1c161be74763f"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/lantern-commons-011-generational-resources",
+      "sha": "58e705e0fb51283628c160e013dda44189de4fa8"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/lantern-commons-012-first-harvest",
+      "sha": "0f950fd68e31da9167e40b6821e13e88f074b029"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/lantern-commons-013-living-commons",
+      "sha": "abc2aa9366f5cbf5be6f1bd87852e352b936ea39"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/lantern-commons-014-one-useful-thing",
+      "sha": "e890588a8eaa898e221708690f68ecac766c15f2"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/lantern-commons-014-solo-desk",
+      "sha": "a52166b6fe42b1efd09428ef511820d20a47c045"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/world-forge-003-engine-gate",
+      "sha": "736e9850fd06ebd9a391b0f320dea27281cdad19"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/world-forge-004-independent-witness",
+      "sha": "040de5a2ed6941bdc3683b1a8402752d08e62934"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/world-forge-005-bounded-learn-rehearse",
+      "sha": "cf95aa424be67b5db0876d762b74c9bad574c2b9"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/world-forge-006-native-offer-receiver",
+      "sha": "908c3b1e567593896de51c569ba5e585407e7419"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/world-forge-007-pinned-native-source-policy",
+      "sha": "feee7676ddfb204c9965096419ac38281eded7c4"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/world-forge-008-local-human-key-delegation",
+      "sha": "5111fb993366fbd0f8b3cfe2a4d8e0e63686bd52"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "experiment/world-forge-009-verified-local-delegation-bridge",
+      "sha": "923b812461816964a4381c298a7fcb55c22e570c"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "feat/live-offer-cartridge-v0",
+      "sha": "a534f1a5beb41f675c4b0d98992676e77c4311af"
+    },
+    {
+      "repository": "webZ",
+      "branch": "experiment/first-circle-001-human-loop",
+      "sha": "3e004ad0103a89cbb004614d05d1c77e909102eb"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/abundent-circuit-001-self-building-commons",
+      "sha": "44b8d2fc32b4decbd58f3f58cdf3a390d95b004a"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/abundent-circuit-002-native-ghot",
+      "sha": "ceed7510b2523ce810ab57248f568e1d004c4251"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/abundent-circuit-003-paired-lan-ghot",
+      "sha": "dee506e1ed908b6f448c9c9c75ac20e0702b899e"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/abundent-circuit-004-minecraft-festival-foundry",
+      "sha": "faeee3e7e8cf2aa8b92e49f207fa40836410f3f2"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/abundent-circuit-004-revival-commons",
+      "sha": "a6b5d65b38828a6966f750e963ba475eb8231240"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/abundent-circuit-005-blueprint-bridge",
+      "sha": "78485fad1255a0fe4d03d5072c6b2a62532ce643"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/abundent-circuit-005-living-witness",
+      "sha": "f42ae1c51588305616840feb25a0161e7234839a"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/abundent-circuit-005-real-blueprint-foundry",
+      "sha": "7885d7be1c0df1ed14142435731457d35ddd5e56"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/abundent-circuit-006-human-crossing-field-kit",
+      "sha": "95bde473282d3257cc2e2f7e4ff936b4c4e66222"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/human-entry-001-five-empty-chairs",
+      "sha": "8be2e6b3d9990ffaaca2f5b9f6f10395fee9af81"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feat/live-offer-001-now-first",
+      "sha": "57e4359c909e5702bc4b9696c1caa91f3622446f"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/ask-jarvis-human-first-capability-router",
+      "sha": "b2f9db944608c228864ce57b747e1c75e81e10ac"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/first-circle-useful-work-002",
+      "sha": "7ea714213bea8b580837e1896db02bbb9f24455a"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/jubilee-to-first-circle-carrier",
+      "sha": "6ab5e537c18d068f35e3567f11d63b6bc3e96dac"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/link-wallet-003-owner-delegation-desk",
+      "sha": "0cf9f857fe21ff124b5a274c8a03f472b98c56a4"
+    },
+    {
+      "repository": "webZ",
+      "branch": "feature/useful-work-003-field-return",
+      "sha": "ec7679777385ec0c1f00bfa609d63bafff4c11cc"
+    },
+    {
+      "repository": "webZ",
+      "branch": "fix/jubilee-return-goal-alignment",
+      "sha": "2a682166482013cd91195ae6de7e7aafd641e180"
+    },
+    {
+      "repository": "webZ",
+      "branch": "proposal/progress-return-003",
+      "sha": "ce109b78781b6ae4a8b92ffff4950a46956f994b"
+    },
+    {
+      "repository": "webZ",
+      "branch": "ux/buttons-before-worksheets-front-doors-001",
+      "sha": "8ff59b6592fea5388a12b8a19421ac165b0f9c38"
+    },
+    {
+      "repository": "webZ",
+      "branch": "ux/commons-buttons-before-worksheets-002",
+      "sha": "789fd8dc434e869b3298628bcdba55ba7bf43095"
+    },
+    {
+      "repository": "webZ",
+      "branch": "ux/jubilee-role-buttons-003",
+      "sha": "f4d5b420589c63cc88c3445d6a675b2558e8113a"
+    },
+    {
+      "repository": "webZ",
+      "branch": "ux/value-before-intake-004",
+      "sha": "a640695c48cd556019572a022376648aa2e5e6c0"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "JAR-VIS",
+      "repository": "BananaSpork",
       "branch": "main",
-      "from_sha": "aa793a9d5bc9913accfbb961b17a05fd4712d1e6",
-      "to_sha": "3e02cdfe9f2713963a25a87caf644a318f8728e2"
+      "from_sha": "f4c4067b5896eb5eb20a7498f89da38f04731d73",
+      "to_sha": "4a109d6f7a286113d49329ff5544a4c9c4f89c91"
     },
     {
-      "repository": "the-haunted-pol-ish-roids",
+      "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "75f0ed5db8d79de37d58957d5bc09d7992a5b9d8",
-      "to_sha": "2bc1f32809004ae7fb6bed1abfb2c4d0ab4628a3"
+      "from_sha": "3e02cdfe9f2713963a25a87caf644a318f8728e2",
+      "to_sha": "9b5ed183c40e812803aea9b57a8cead2cc8fec54"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "main",
+      "from_sha": "d69a863943e071346527eafc79a63ef332d524af",
+      "to_sha": "b4e54c09828e260275c857ff7b5570a8fdd78ede"
+    },
+    {
+      "repository": "webZ",
+      "branch": "main",
+      "from_sha": "0472ed8735af37d1e6d0841fd105f6ecaebc7f58",
+      "to_sha": "ba32961e7be172e364be4ffa803ad047e2469970"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "d43102fc62cdb2b6e6d2e41c793fd2893093de58",
-      "to_sha": "d7f782077515dac183efef4c3829302898f22957"
+      "from_sha": "d7f782077515dac183efef4c3829302898f22957",
+      "to_sha": "f61ee43424c337ed95f34db37b56341e4dfe188a"
     }
   ],
   "opened_prs": [
     {
+      "repository": "appliance-prophet-king",
+      "number": 2,
+      "title": "NuToaster 002 — translate concept schematic into Minecraft semantic cartridge",
+      "url": "https://github.com/the-static-collective/appliance-prophet-king/pull/2",
+      "head_branch": "002-nutoaster-minecraft-cartridge",
+      "base_branch": "001-nutoaster-prototype"
+    },
+    {
+      "repository": "appliance-prophet-king",
+      "number": 3,
+      "title": "NuToaster 003 — invent seven P0 cold-trough dimensions; printable A3 pattern + parametric Minecraft",
+      "url": "https://github.com/the-static-collective/appliance-prophet-king/pull/3",
+      "head_branch": "003-nutoaster-provisional-dimensions",
+      "base_branch": "002-nutoaster-minecraft-cartridge"
+    },
+    {
       "repository": "reLATTE",
-      "number": 135,
-      "title": "LANTERN COMMONS 002 — living Minecraft society / Cartridge Forge integration contract",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/135",
-      "head_branch": "experiment/lantern-commons-002-living-society",
+      "number": 138,
+      "title": "WORLD-FORGE-001 × CRATER-SMASH-002 — source integration + cross-engine QA gate",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/138",
+      "head_branch": "experiment/world-forge-003-engine-gate",
       "base_branch": "main"
     },
     {
-      "repository": "the-haunted-pol-ish-roids",
-      "number": 7,
-      "title": "Mac Porch 001: local Photo Quarry host adapter and field-proof gate",
-      "url": "https://github.com/the-static-collective/the-haunted-pol-ish-roids/pull/7",
-      "head_branch": "integration/mac-porch-photo-quarry-001",
+      "repository": "reLATTE",
+      "number": 139,
+      "title": "LANTERN 004 — real Mojang two-world kitchen reproduction → native reLATTE HOLD (draft)",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/139",
+      "head_branch": "experiment/lantern-commons-004-two-world-hold",
       "base_branch": "main"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 140,
+      "title": "LANTERN-005 — two real Minecraft societies and signed reLATTE HOLD (proof green, draft)",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/140",
+      "head_branch": "experiment/lantern-commons-005-full-society-vanilla",
+      "base_branch": "experiment/lantern-commons-004-two-world-hold"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 141,
+      "title": "LANTERN 005 — SUCCESSFUL third Mojang world, translated skill cartridge, native signed HOLD",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/141",
+      "head_branch": "experiment/lantern-commons-005-cartridge-transfer",
+      "base_branch": "experiment/lantern-commons-004-two-world-hold"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 142,
+      "title": "WORLD-FORGE-004 — independent non-OP Minecraft reader × fresh-process Godot scene witness",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/142",
+      "head_branch": "experiment/world-forge-004-independent-witness",
+      "base_branch": "experiment/world-forge-003-engine-gate"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 143,
+      "title": "LANTERN 006 — SUCCESS: God Hand world events, diverging Mojang worlds, native signed HOLD",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/143",
+      "head_branch": "experiment/lantern-commons-006-god-mode-events",
+      "base_branch": "experiment/lantern-commons-005-cartridge-transfer"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 144,
+      "title": "WORLD-FORGE-005 — extract Minecraft witnessed repair procedure and replay in fresh Godot",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/144",
+      "head_branch": "experiment/world-forge-005-bounded-learn-rehearse",
+      "base_branch": "experiment/world-forge-004-independent-witness"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 145,
+      "title": "WORLD-FORGE-006 — native P-256 source-bound offer × sovereign local HOLD/REFUSE receivers",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/145",
+      "head_branch": "experiment/world-forge-006-native-offer-receiver",
+      "base_branch": "experiment/world-forge-005-bounded-learn-rehearse"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 146,
+      "title": "LANTERN 007 — SUCCESS: actual voluntary Minecraft gifts, reversible refusal, spoof-proof public benefit",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/146",
+      "head_branch": "experiment/lantern-commons-007-radical-cooperation",
+      "base_branch": "experiment/lantern-commons-006-god-mode-events"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 147,
+      "title": "WORLD-FORGE-007 — pinned original #101 signed Minecraft ancestry × receiver-local signer policies",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/147",
+      "head_branch": "experiment/world-forge-007-pinned-native-source-policy",
+      "base_branch": "experiment/world-forge-006-native-offer-receiver"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 148,
+      "title": "LANTERN 008 — SUCCESS: evidence-responsive creature learns reversible cooperation across 4 Minecraft worlds",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/148",
+      "head_branch": "experiment/lantern-commons-008-discernment",
+      "base_branch": "experiment/lantern-commons-007-radical-cooperation"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 149,
+      "title": "WORLD-FORGE-008 — owner-local nonextractable human-key ceremony × bounded AI project delegation",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/149",
+      "head_branch": "experiment/world-forge-008-local-human-key-delegation",
+      "base_branch": "experiment/world-forge-007-pinned-native-source-policy"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 150,
+      "title": "LANTERN 009 — SUCCESS: 24 official Minecraft episodes, 17 public repairs under four resource-pressure profiles",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/150",
+      "head_branch": "experiment/lantern-commons-009-cooperation-under-pressure",
+      "base_branch": "experiment/lantern-commons-008-discernment"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 151,
+      "title": "WORLD-FORGE-009 — verified WF008 owner grant → pinned local policy → native reLATTE HOLD/REFUSE",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/151",
+      "head_branch": "experiment/world-forge-009-verified-local-delegation-bridge",
+      "base_branch": "experiment/world-forge-008-local-human-key-delegation"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 152,
+      "title": "LANTERN 010 — SUCCESS: actual immutable Minecraft world cartridges and three independently versioned save forks",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/152",
+      "head_branch": "experiment/lantern-commons-010-world-cartridges",
+      "base_branch": "experiment/lantern-commons-009-cooperation-under-pressure"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 153,
+      "title": "LANTERN 011 — SUCCESS: three generations of real saved Minecraft worlds with zero new item grants",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/153",
+      "head_branch": "experiment/lantern-commons-011-generational-resources",
+      "base_branch": "experiment/lantern-commons-010-world-cartridges"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 154,
+      "title": "LANTERN 012 — VERIFIED: actual inherited Minecraft wheat harvest, replanted regrowth and bread eaten across world cartridges",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/154",
+      "head_branch": "experiment/lantern-commons-012-first-harvest",
+      "base_branch": "experiment/lantern-commons-011-generational-resources"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 155,
+      "title": "LANTERN 013 — VERIFIED playable Living Commons: four-button offline village + SHA-256 forkable JSON worlds",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/155",
+      "head_branch": "experiment/lantern-commons-013-living-commons",
+      "base_branch": "experiment/lantern-commons-012-first-harvest"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 156,
+      "title": "First Circle 001 + Consequence 001: offline child-world and manual help-return proof",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/156",
+      "head_branch": "experiment/first-circle-001-self-forking-world",
+      "base_branch": "main"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 157,
+      "title": "LANTERN 014 — VERIFIED: offline solo helper makes one tangible move without another person",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/157",
+      "head_branch": "experiment/lantern-commons-014-one-useful-thing",
+      "base_branch": "experiment/lantern-commons-013-living-commons"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 158,
+      "title": "LANTERN 014 — VERIFIED: JAR;VIS Step 03 offers four actions it can actually execute offline",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/158",
+      "head_branch": "experiment/lantern-commons-014-solo-desk",
+      "base_branch": "experiment/lantern-commons-013-living-commons"
+    },
+    {
+      "repository": "webZ",
+      "number": 227,
+      "title": "Abundent Circuit 001 — The Next Harbor: offline social-to-production pilot",
+      "url": "https://github.com/the-static-collective/webZ/pull/227",
+      "head_branch": "feat/abundent-circuit-001-self-building-commons",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 228,
+      "title": "Circuit 002: real GHoT runtime integration over localhost, native receipts, one-click Mac launcher",
+      "url": "https://github.com/the-static-collective/webZ/pull/228",
+      "head_branch": "feat/abundent-circuit-002-native-ghot",
+      "base_branch": "feat/abundent-circuit-001-self-building-commons"
+    },
+    {
+      "repository": "webZ",
+      "number": 229,
+      "title": "Circuit 003: pair a second native GHoT worker over trusted LAN with explicit HMAC consent",
+      "url": "https://github.com/the-static-collective/webZ/pull/229",
+      "head_branch": "feat/abundent-circuit-003-paired-lan-ghot",
+      "base_branch": "feat/abundent-circuit-002-native-ghot"
+    },
+    {
+      "repository": "webZ",
+      "number": 230,
+      "title": "Circuit 004 — native Revival × GHoT × two-harbor Commons crossing",
+      "url": "https://github.com/the-static-collective/webZ/pull/230",
+      "head_branch": "feat/abundent-circuit-004-revival-commons",
+      "base_branch": "feat/abundent-circuit-003-paired-lan-ghot"
+    },
+    {
+      "repository": "webZ",
+      "number": 231,
+      "title": "Circuit 004: native Minecraft Lantern Commons Festival Foundry + GHoT game HOLD",
+      "url": "https://github.com/the-static-collective/webZ/pull/231",
+      "head_branch": "feat/abundent-circuit-004-minecraft-festival-foundry",
+      "base_branch": "feat/abundent-circuit-003-paired-lan-ghot"
+    },
+    {
+      "repository": "webZ",
+      "number": 232,
+      "title": "Circuit 005 — Living Witness: native OSHB Revival × GHoT × signed reLATTE HOLD/REFUSE",
+      "url": "https://github.com/the-static-collective/webZ/pull/232",
+      "head_branch": "feat/abundent-circuit-005-living-witness",
+      "base_branch": "feat/abundent-circuit-004-revival-commons"
+    },
+    {
+      "repository": "webZ",
+      "number": 233,
+      "title": "LINK WALLET 003 — owner authority desk for WF008 signed project grants (local HOLD/REFUSE)",
+      "url": "https://github.com/the-static-collective/webZ/pull/233",
+      "head_branch": "feature/link-wallet-003-owner-delegation-desk",
+      "base_branch": "main"
+    },
+    {
+      "repository": "webZ",
+      "number": 234,
+      "title": "Circuit 006 — two-person field crossing: out-of-band key pins, human HOLD/REFUSE, signed return",
+      "url": "https://github.com/the-static-collective/webZ/pull/234",
+      "head_branch": "feat/abundent-circuit-006-human-crossing-field-kit",
+      "base_branch": "feat/abundent-circuit-005-living-witness"
+    },
+    {
+      "repository": "webZ",
+      "number": 235,
+      "title": "Circuit 005: translate calibrated real-world blueprints into Minecraft Java datapacks",
+      "url": "https://github.com/the-static-collective/webZ/pull/235",
+      "head_branch": "feat/abundent-circuit-005-real-blueprint-foundry",
+      "base_branch": "feat/abundent-circuit-004-minecraft-festival-foundry"
+    },
+    {
+      "repository": "webZ",
+      "number": 236,
+      "title": "Blueprint Bridge 005 — human-calibrated real floor plans to Minecraft draft cartridges",
+      "url": "https://github.com/the-static-collective/webZ/pull/236",
+      "head_branch": "feat/abundent-circuit-005-blueprint-bridge",
+      "base_branch": "feat/abundent-circuit-004-minecraft-festival-foundry"
+    },
+    {
+      "repository": "webZ",
+      "number": 237,
+      "title": "HUMAN ENTRY 001 — Five Empty Chairs: offline consent-gated activity proof",
+      "url": "https://github.com/the-static-collective/webZ/pull/237",
+      "head_branch": "feat/human-entry-001-five-empty-chairs",
+      "base_branch": "feat/abundent-circuit-006-human-crossing-field-kit"
     }
   ],
   "left_open_prs": []

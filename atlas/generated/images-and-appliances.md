@@ -539,13 +539,22 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/appliance-prophet-king) · [Branches](https://github.com/the-static-collective/appliance-prophet-king/branches) · [Pull requests](https://github.com/the-static-collective/appliance-prophet-king/pulls)
 
-Default: `main` · other refs: 1 · open PRs: 0
+Default: `main` · other refs: 3 · open PRs: 2
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#3](https://github.com/the-static-collective/appliance-prophet-king/pull/3) | NuToaster 003 — invent seven P0 cold-trough dimensions; printable A3 pattern + parametric Minecraft | `003-nutoaster-provisional-dimensions` → `002-nutoaster-minecraft-cartridge` | 2026-11-04 |
+| [#2](https://github.com/the-static-collective/appliance-prophet-king/pull/2) | NuToaster 002 — translate concept schematic into Minecraft semantic cartridge | `002-nutoaster-minecraft-cartridge` → `001-nutoaster-prototype` | 2026-11-04 |
 
 ### Retained nondefault branches
 
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
 | [001-nutoaster-prototype](https://github.com/the-static-collective/appliance-prophet-king/tree/001-nutoaster-prototype) | [a15388ebf2](https://github.com/the-static-collective/appliance-prophet-king/commit/a15388ebf2391807559d7cfb334a15c9f3f57992) | Retained ref; disposition unverified |
+| [002-nutoaster-minecraft-cartridge](https://github.com/the-static-collective/appliance-prophet-king/tree/002-nutoaster-minecraft-cartridge) | [9ba4d8d3b8](https://github.com/the-static-collective/appliance-prophet-king/commit/9ba4d8d3b8d030b258c2a8a5fbeceffb86cf3ff5) | [open PR #2](https://github.com/the-static-collective/appliance-prophet-king/pull/2) |
+| [003-nutoaster-provisional-dimensions](https://github.com/the-static-collective/appliance-prophet-king/tree/003-nutoaster-provisional-dimensions) | [e6eb34bb09](https://github.com/the-static-collective/appliance-prophet-king/commit/e6eb34bb099d0de515f35cde3edb67b79d67f496) | [open PR #3](https://github.com/the-static-collective/appliance-prophet-king/pull/3) |
 
 ## SEAMforge
 
