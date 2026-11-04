@@ -185,6 +185,7 @@
     * [Inhabitable Code — Room Contract v0](frontier/primitive-incubator/research-packet-g-active-project-frontiers/inhabitable-code-room-contract-v0.md)
     * [HAUNT v0.1 — Cross-Appliance Memory Language](frontier/primitive-incubator/research-packet-g-active-project-frontiers/haunt-v0.1-cross-appliance-memory-language.md)
     * [Iron Lung v0.1 — Own-Birth Braided Circulation](frontier/primitive-incubator/research-packet-g-active-project-frontiers/iron-lung-v0.1-own-birth-braided-circulation.md)
+    * [No Empty Handoffs — Useful Delta](frontier/primitive-incubator/research-packet-g-active-project-frontiers/no-empty-handoffs-useful-delta.md)
   * [Incubator Origin Ledger — Early Seeds & Graduations](frontier/primitive-incubator/incubator-origin-ledger-early-seeds-and-graduations.md)
 * [Haunted Toaster — Mutation Lattice, Shape Pack & Ghost Topology](frontier/haunted-toaster-mutation-lattice-shape-pack-and-ghost-topology.md)
 
