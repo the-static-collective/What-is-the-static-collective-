@@ -1,571 +1,1188 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-03T15:05:30+00:00",
-  "to_captured_at": "2026-11-04T15:24:50+00:00",
-  "added_repositories": [],
+  "from_captured_at": "2026-11-04T15:24:50+00:00",
+  "to_captured_at": "2026-11-05T15:27:31+00:00",
+  "added_repositories": [
+    "MOTIF"
+  ],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "appliance-prophet-king",
-      "branch": "002-nutoaster-minecraft-cartridge",
-      "sha": "9ba4d8d3b8d030b258c2a8a5fbeceffb86cf3ff5"
+      "repository": "ALEX.2",
+      "branch": "research/022-inquiry-from-question",
+      "sha": "46041203f90d4cc2976f9e2a16d3d55fd68b5748"
     },
     {
-      "repository": "appliance-prophet-king",
-      "branch": "003-nutoaster-provisional-dimensions",
-      "sha": "e6eb34bb099d0de515f35cde3edb67b79d67f496"
+      "repository": "ALEX.2",
+      "branch": "research/023-public-source-observations",
+      "sha": "e678b0a0596a6391f92e18b6b8135477ad49658d"
+    },
+    {
+      "repository": "ALEX.2",
+      "branch": "research/024-eagle-eye-public-discovery",
+      "sha": "1e09adbea42809a90a61aaf5fa38a52081de1637"
+    },
+    {
+      "repository": "ALEX.2",
+      "branch": "research/motif021-evidence-search",
+      "sha": "c697ce69258cf894be8e7323bd64c81093bd199c"
     },
     {
       "repository": "BananaSpork",
-      "branch": "feature/garden-first-circle-001",
-      "sha": "07a762c0472e4b9e54ac42b05198abfb5841ddd2"
+      "branch": "feat/capability-passport-v1",
+      "sha": "5519925bd1fb87d557131f11a30f9a1d0ce70d23"
+    },
+    {
+      "repository": "BananaSpork",
+      "branch": "feat/now-route-002-campfire-auth-discovery",
+      "sha": "c1fd954dd22e25ad51e63f539a2427914a4ae0dc"
+    },
+    {
+      "repository": "GHoT",
+      "branch": "experiment/ghot-conditional-inquiry-003",
+      "sha": "1517d2ac822ed1e6cfa30320a0f1e4574b6b0e55"
+    },
+    {
+      "repository": "GHoT",
+      "branch": "experiment/ghot-network-inquiry-002",
+      "sha": "3029ef5870a60df6edbbe0eff6ca49f7bdf7146b"
+    },
+    {
+      "repository": "GHoT",
+      "branch": "experiment/ghot-resource-witness-001",
+      "sha": "0cbd111a1f7d58a3e4d1dacaeb6be067cbffe9ad"
+    },
+    {
+      "repository": "GHoT",
+      "branch": "feat/capability-passport-v1",
+      "sha": "4d743b6e48651dc17be26838739c54b0dfa15e3b"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/022-question-to-capability",
+      "sha": "8df897ac161941fe90a68d52a3bc0ed1925b39bc"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/023-observation-composed-capability",
+      "sha": "9d02b83bc259ee0eaa68d4e6da7b526d9afc8ee4"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/motif021-compiled-capability",
+      "sha": "d4cefba0151d4813f8589663de14e0fc7cf2c242"
     },
     {
       "repository": "JAR-VIS",
-      "branch": "feat/live-offer-cartridge-consumer",
-      "sha": "9fafe9e797c92837b5094b1e3a88e2ac9fd224f4"
+      "branch": "feat/ai-human-commons-machine-entrance-017",
+      "sha": "f38d4a82c679514ce5712147b2dacd82776d1ff6"
     },
     {
       "repository": "JAR-VIS",
-      "branch": "feature/progress-gate-002",
-      "sha": "ce6dd7b30d663536fcffba3c3111bc94a3065207"
+      "branch": "feat/any-invitation-consumer-001",
+      "sha": "11fc41cc075854ab3598f887b56f1ce87e2bea24"
     },
     {
       "repository": "JAR-VIS",
-      "branch": "proposal/no-empty-handoffs-001",
-      "sha": "41ed978bb1174384f7ea204f71d81f67faafa8d3"
+      "branch": "feat/capability-passport-v1",
+      "sha": "a0df43cd9dcf2800aa1572f8ccbd47cdcd38dff0"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "feat/commons-001-human-outcome-cartridge",
+      "sha": "de1248781ceb83ace7b32575aa14bc1717735ddc"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "feat/investigation-desk-eagle-eye-024",
+      "sha": "49be23f3d010935f753c25e540733a1b841c8a6d"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "feat/motif-jarvis-reciprocal-001",
+      "sha": "8a100fdbc7736e254a58afafa2b2084dc75f8e64"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "feat/now-route-001-physical-gift-routing",
+      "sha": "c094cc2d71a0e989b6eae0c4347fe2b4f44c4553"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "feat/now-route-003-live-invite-pilot",
+      "sha": "4de5d65195d9dafcad4eda8dafa80937fd7fdaea"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "feat/now-route-existing-pantry-gate-bridge",
+      "sha": "cb2258d1b31bfe96dbb6f52c1c465fa573937274"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/motif-006-first-question-dogram-probes",
+      "sha": "404c0c6701737f35fd0998112d81a4ca850ff5f1"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/motif-007-smallest-key",
+      "sha": "10514da5cc61968cdd0ed3d2f9a75401c59a5fa1"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/reality-iron-015-weather-witness",
+      "sha": "60f27b6da7eea332627ab4cc8186193d48810fb9"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/reality-iron-016-living-watershed",
+      "sha": "685f55f7bd02a36880620df1fadd4439282c8234"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/reality-iron-017-event-learning",
+      "sha": "d0cf7ec78923a9f536857e2efa8038f5a333f708"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/reality-iron-018-question-engine",
+      "sha": "88ccef6085e545cdda386cca9e2eb16ad2ab31eb"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/reality-iron-019-availability-question",
+      "sha": "1bb4028141eb20a8798bed338dcb3d851284de22"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/reality-iron-020-embodied-inquiry",
+      "sha": "aa838a2c419edf5cb19afc15f76b5793e2fe8855"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/reality-iron-021-question-integrity",
+      "sha": "cdcec6013492bb6ccd0982ee9af9f5bf1d3200f7"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiments/015-multiplex-inquiry-20261105",
+      "sha": "f88c93e9c8385fa7ea588efd1b113042cc6126e5"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiments/016-living-forest-20261105",
+      "sha": "645bcafe3e398499db43ab062387d5129eaa7f57"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiments/017f-growing-diagnostic-20261105",
+      "sha": "d6d7861d171e62dd49f5f46e79f2828b08f1a541"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiments/019-memento-native-understory",
+      "sha": "9b785aea6ef2f61345d1b93fdc44b3d69073bf28"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiments/019f-native-question-planner-20261105",
+      "sha": "e0fe6b44e6d3f374cea71b75d9eb208c464d3dd6"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiments/020-instrument-garden-minecraft",
+      "sha": "8379f6018106ad68aa8d22ac884ede57f34508f9"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiments/020f-planz-omission-20261105",
+      "sha": "53b3740b8b30888b560c4f390fe61750e99da590"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiments/021-live-minecraft-epistemic-update",
+      "sha": "c9c5030667beb98da3863c2ec3e9ad828737b8a6"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiments/021f-t5-sidecar-chorus-20261105",
+      "sha": "89433236aeffcc32862bb721436ede299c155054"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiments/022-minimal-causal-witness",
+      "sha": "182b76584cacc767e377313745fb5787fb0f574b"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiments/022f-critic-question-loop-20261105",
+      "sha": "d9ab2edb6385dc3e5c9a50ef04bc6658d76714ee"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiments/023f-real-t5-critic-trial-20261105",
+      "sha": "c453dc41c1e8a31b814a95de76d0a1b2ba80eaad"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiments/024f-native-shortlist-t5-rerank-20261105",
+      "sha": "e58484efda51b33bbd6e34ed60cfc7bdd6410466"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "main",
+      "sha": "5fc3434fe8fb0b187f7744d9b44975908a4c7b9c"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/003-affordance-frontier",
+      "sha": "1577ed30213c0c4b20d1c99ed5b5d079621ba907"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/004-causal-scars",
+      "sha": "643cad8ada3719303c22901a04b006a49ceab0bd"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/005-birth-of-a-concept",
+      "sha": "69e5a1e8c8d1b3d325eb07b174e71cc1c85543d8"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/006-recursive-capability",
+      "sha": "14fae4fd43d2d4bb3ee6544f3d0c2bab69dff05b"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/007-federated-inheritance",
+      "sha": "180c2dc404a0e9d7a05b1850e2aa96ca36731747"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/008-unknown-world",
+      "sha": "c3944e1499aeb377ba7c3ad2ce22cd03a6023ad9"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/009-tree-cartridge-experimenter",
+      "sha": "26b587389364d8c92edea839f2693081222752be"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/010-scientist-interventions",
+      "sha": "30f6126f056cee978513bb6429d7fe4cfd86916f"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/011-skeptical-scientist",
+      "sha": "c2cd06c70152f384dd61f33dfafcad9700a0a607"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/012-causal-cartographer",
+      "sha": "5e49d5b3081f180d3f46c9ba7685a057045cb201"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/013-probabilistic-witness",
+      "sha": "5d34bf8a667e567000f960b66f2e5bbdf78a228a"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/014-organ-gardener-question-box",
+      "sha": "8b8d962ad46bf0ff8979c39dc2e0998d775cd4af"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/014-witness-of-witnesses",
+      "sha": "420b3d1b434c5fab5d5adc5033fd3c7d7258ef9e"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/015-invented-graft-metaprocedure",
+      "sha": "31b06790a3fa1a50ccf4087746b7f7b657342f59"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/016-gardener-gardener-metaquestion",
+      "sha": "31874858ffff94a6f1c8fe8da4279a6c4c6a4169"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/017-question-before-question",
+      "sha": "d13b1ab649ce3025df2fb4d4dcfdb26a6e7b2a82"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/018-witness-of-witness",
+      "sha": "17a2d488cf623c4120d1c04540f4356bef06e830"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/019-hidden-common-ancestor",
+      "sha": "2b07c847cc54605b5b05c02a50bddda188310564"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/020-madd-source-custody-maxhinal",
+      "sha": "73dbeec3beb89d444c3fd8b64127310b9db0803b"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/021-alex-planz-graft-orchestration",
+      "sha": "a46c4f7b82d4561f7a05c43232ca942c75d67956"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/022-question-to-capability",
+      "sha": "c32b0db670fe7587e25140e49c47aa761e4b6b7d"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/023-open-question-field",
+      "sha": "63225336a0aa72d040f5af4091b376284e508b4f"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/field-001-real-world-witness-desk",
+      "sha": "a6bd72c498f308a8dbf21f65af2d126ca41f0e17"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/first-real-door-bridge-synthesis",
+      "sha": "bc25f4ec1c6628845e3b5ff23f225f1c3c78b1b4"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/inquiry-smallest-key-dogram",
+      "sha": "3daa17affcb629e8647f522de7a33e8e000de83e"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "research/motif-018-representation-frontier",
+      "sha": "6a1e6f0becbe79d21c349ef87c10ca92cfeef70a"
+    },
+    {
+      "repository": "planZ",
+      "branch": "field/fellowship-dec04-two-person-001",
+      "sha": "9611323814245ad9227eeb5994347ec7c931aaa1"
+    },
+    {
+      "repository": "planZ",
+      "branch": "research/022-question-to-plan",
+      "sha": "8fc1c73ee804ddd2c46564b0ad422baca3693a4e"
+    },
+    {
+      "repository": "planZ",
+      "branch": "research/023-observation-replanning",
+      "sha": "a36ab06e2ac151a03b769bad9162a61946430270"
+    },
+    {
+      "repository": "planZ",
+      "branch": "research/motif021-classical-plan",
+      "sha": "b4c954c628991acc9d9f41cd42c2b1951bc5855c"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/first-circle-001-self-forking-world",
-      "sha": "d5201fb97249c1fe151027087e950e0652ef47cd"
+      "branch": "experiment/lantern-014-public-pages",
+      "sha": "bb7ee361e7e64a67dd2d121eb143a6782607adee"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/lantern-commons-004-two-world-hold",
-      "sha": "67a902df408b4e615594449d6a813e7b41c9a71a"
+      "branch": "experiment/lantern-015-connected-capability-bridge",
+      "sha": "3b0d37bd785a0e6d3e1e8735b03dc8df51889722"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/lantern-commons-005-cartridge-transfer",
-      "sha": "33ec4d81319312a081e337068f42b491f676f83b"
+      "branch": "experiment/lantern-015-connected-registry",
+      "sha": "5b44ac654bcddacf76f26e6d779a50bbc8c80246"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/lantern-commons-005-full-society-vanilla",
-      "sha": "d040626572e06f58ee00cff4bf7094800aad74be"
+      "branch": "experiment/lantern-commons-015-connected-jarvis",
+      "sha": "74cacd1528eabf3bd00b0a632c13f6394cbbf317"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/lantern-commons-006-god-mode-events",
-      "sha": "662cfdd26e0dc1848c45b43a79776ff906519ecf"
+      "branch": "experiment/minecraft-010-compressed-sensor",
+      "sha": "991d8e10a84b830f277a31d7feec8f1f4c2c09bd"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/lantern-commons-007-radical-cooperation",
-      "sha": "af919defb8e15b019af8006762e8d4d5691d572e"
+      "branch": "experiment/motif-instrument-garden-minecraft-008",
+      "sha": "ecf7a252099bde36ee649679f27cc8715a1478a2"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/lantern-commons-008-discernment",
-      "sha": "4f62612393bbf0a275d7dd6744e5917335af4451"
+      "branch": "experiment/motif-minecraft-009-native-observation-return",
+      "sha": "991d8e10a84b830f277a31d7feec8f1f4c2c09bd"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/lantern-commons-009-cooperation-under-pressure",
-      "sha": "088bc3fd3e37384ec8e623cc1c82259f032b372a"
+      "branch": "experiment/spawn-017-one-operator-many-hats",
+      "sha": "12c62c99e40dddd7c247c75e5f38e3e2b66897da"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/lantern-commons-010-world-cartridges",
-      "sha": "1a51aee14208495a2b825bcc74c1c161be74763f"
+      "branch": "experiment/spawn-018-gleaning-world-builder",
+      "sha": "39df14d9afeb498670132695b78f9f5b9a5de7bd"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/lantern-commons-011-generational-resources",
-      "sha": "58e705e0fb51283628c160e013dda44189de4fa8"
+      "branch": "experiment/spawn-019-maximum-reach",
+      "sha": "b80f875a4d568fbd4e0da1d27d1762605dedc0e0"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/lantern-commons-012-first-harvest",
-      "sha": "0f950fd68e31da9167e40b6821e13e88f074b029"
+      "branch": "experiment/spawn-020-imagination-loom",
+      "sha": "340f056ce8bec9d678d288f4df4840f541f00b1d"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/lantern-commons-013-living-commons",
-      "sha": "abc2aa9366f5cbf5be6f1bd87852e352b936ea39"
+      "branch": "experiment/spawn-021-learning-loom",
+      "sha": "4ec8f1d8dc193b0383ed5dcd604d78a3216159fe"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/lantern-commons-014-one-useful-thing",
-      "sha": "e890588a8eaa898e221708690f68ecac766c15f2"
+      "branch": "experiment/spawn-022-evolutionary-world-cartridges",
+      "sha": "36b2a83f7bd0d8c34963a7a140531a2268575a54"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/lantern-commons-014-solo-desk",
-      "sha": "a52166b6fe42b1efd09428ef511820d20a47c045"
+      "branch": "experiment/spawn-023-permissioned-crossings",
+      "sha": "fd854fe693933aa15bea36268041ed3fc0cd0732"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/world-forge-003-engine-gate",
-      "sha": "736e9850fd06ebd9a391b0f320dea27281cdad19"
+      "branch": "experiment/spawn-024-relay-discovery",
+      "sha": "a1af3d7bd5a7c5b7e43d87ec788612cd942675df"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/world-forge-004-independent-witness",
-      "sha": "040de5a2ed6941bdc3683b1a8402752d08e62934"
+      "branch": "experiment/spawn-025-solo-executor-connector-bridge",
+      "sha": "42b4b34561b5e2383a8c277713efc1d9f61336a9"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/world-forge-005-bounded-learn-rehearse",
-      "sha": "cf95aa424be67b5db0876d762b74c9bad574c2b9"
+      "branch": "experiment/spawn-026-deep-glean-discovery",
+      "sha": "133b597e7b018006d0da68a781f9d4f59e40867d"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/world-forge-006-native-offer-receiver",
-      "sha": "908c3b1e567593896de51c569ba5e585407e7419"
+      "branch": "feat/any-invitation-cartridge-001",
+      "sha": "7204239241809d589fc3ab4054fc6b657205f1b7"
     },
     {
       "repository": "reLATTE",
-      "branch": "experiment/world-forge-007-pinned-native-source-policy",
-      "sha": "feee7676ddfb204c9965096419ac38281eded7c4"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "experiment/world-forge-008-local-human-key-delegation",
-      "sha": "5111fb993366fbd0f8b3cfe2a4d8e0e63686bd52"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "experiment/world-forge-009-verified-local-delegation-bridge",
-      "sha": "923b812461816964a4381c298a7fcb55c22e570c"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feat/live-offer-cartridge-v0",
-      "sha": "a534f1a5beb41f675c4b0d98992676e77c4311af"
+      "branch": "feat/capability-passport-v1",
+      "sha": "81de4b92d0a9b5f7661594c5147ab95d8869dd51"
     },
     {
       "repository": "webZ",
-      "branch": "experiment/first-circle-001-human-loop",
-      "sha": "3e004ad0103a89cbb004614d05d1c77e909102eb"
+      "branch": "campaign/first-50-circulation-005",
+      "sha": "5eeddc3bef9a3d1439a93fbe07ea3f01eff0c686"
     },
     {
       "repository": "webZ",
-      "branch": "feat/abundent-circuit-001-self-building-commons",
-      "sha": "44b8d2fc32b4decbd58f3f58cdf3a390d95b004a"
+      "branch": "feat/any-invitation-chain-001",
+      "sha": "0c925f41398f22a85909b6828949dfab232e0d3c"
     },
     {
       "repository": "webZ",
-      "branch": "feat/abundent-circuit-002-native-ghot",
-      "sha": "ceed7510b2523ce810ab57248f568e1d004c4251"
+      "branch": "feat/capability-passport-v1",
+      "sha": "17722ccb6df4000fa08ae3ea325d0b843e99897a"
     },
     {
       "repository": "webZ",
-      "branch": "feat/abundent-circuit-003-paired-lan-ghot",
-      "sha": "dee506e1ed908b6f448c9c9c75ac20e0702b899e"
+      "branch": "feat/commons-self-play-001",
+      "sha": "d507b9ccc653709d55fb0d16654621016d608629"
     },
     {
       "repository": "webZ",
-      "branch": "feat/abundent-circuit-004-minecraft-festival-foundry",
-      "sha": "faeee3e7e8cf2aa8b92e49f207fa40836410f3f2"
+      "branch": "feat/commons-self-play-002-evolution",
+      "sha": "a89ba45c864323480b2faf0aa12be794cc8e188a"
     },
     {
       "repository": "webZ",
-      "branch": "feat/abundent-circuit-004-revival-commons",
-      "sha": "a6b5d65b38828a6966f750e963ba475eb8231240"
+      "branch": "feat/invitation-network-002-public-threads",
+      "sha": "4e0211a80a10e2bfa67e9a2827cf7575cfef2925"
     },
     {
       "repository": "webZ",
-      "branch": "feat/abundent-circuit-005-blueprint-bridge",
-      "sha": "78485fad1255a0fe4d03d5072c6b2a62532ce643"
+      "branch": "feat/living-commons-solo-lab-001",
+      "sha": "e01ac981d2ce8cfda316a1f0d34db77c4383da47"
     },
     {
       "repository": "webZ",
-      "branch": "feat/abundent-circuit-005-living-witness",
-      "sha": "f42ae1c51588305616840feb25a0161e7234839a"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feat/abundent-circuit-005-real-blueprint-foundry",
-      "sha": "7885d7be1c0df1ed14142435731457d35ddd5e56"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feat/abundent-circuit-006-human-crossing-field-kit",
-      "sha": "95bde473282d3257cc2e2f7e4ff936b4c4e66222"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feat/human-entry-001-five-empty-chairs",
-      "sha": "8be2e6b3d9990ffaaca2f5b9f6f10395fee9af81"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feat/live-offer-001-now-first",
-      "sha": "57e4359c909e5702bc4b9696c1caa91f3622446f"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/ask-jarvis-human-first-capability-router",
-      "sha": "b2f9db944608c228864ce57b747e1c75e81e10ac"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/first-circle-useful-work-002",
-      "sha": "7ea714213bea8b580837e1896db02bbb9f24455a"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/jubilee-to-first-circle-carrier",
-      "sha": "6ab5e537c18d068f35e3567f11d63b6bc3e96dac"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/link-wallet-003-owner-delegation-desk",
-      "sha": "0cf9f857fe21ff124b5a274c8a03f472b98c56a4"
-    },
-    {
-      "repository": "webZ",
-      "branch": "feature/useful-work-003-field-return",
-      "sha": "ec7679777385ec0c1f00bfa609d63bafff4c11cc"
-    },
-    {
-      "repository": "webZ",
-      "branch": "fix/jubilee-return-goal-alignment",
-      "sha": "2a682166482013cd91195ae6de7e7aafd641e180"
-    },
-    {
-      "repository": "webZ",
-      "branch": "proposal/progress-return-003",
-      "sha": "ce109b78781b6ae4a8b92ffff4950a46956f994b"
-    },
-    {
-      "repository": "webZ",
-      "branch": "ux/buttons-before-worksheets-front-doors-001",
-      "sha": "8ff59b6592fea5388a12b8a19421ac165b0f9c38"
-    },
-    {
-      "repository": "webZ",
-      "branch": "ux/commons-buttons-before-worksheets-002",
-      "sha": "789fd8dc434e869b3298628bcdba55ba7bf43095"
-    },
-    {
-      "repository": "webZ",
-      "branch": "ux/jubilee-role-buttons-003",
-      "sha": "f4d5b420589c63cc88c3445d6a675b2558e8113a"
-    },
-    {
-      "repository": "webZ",
-      "branch": "ux/value-before-intake-004",
-      "sha": "a640695c48cd556019572a022376648aa2e5e6c0"
+      "branch": "ux/invite-publication-bridge-003",
+      "sha": "b85a578fe0bca4c6df06c67d32f3e59b0d303901"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "BananaSpork",
+      "repository": "ALEX.2",
       "branch": "main",
-      "from_sha": "f4c4067b5896eb5eb20a7498f89da38f04731d73",
-      "to_sha": "4a109d6f7a286113d49329ff5544a4c9c4f89c91"
+      "from_sha": "7d116b716df82ee2379b399d90936d2fc01b7b16",
+      "to_sha": "515aea5ac73873300f87dcef2de7492e6e1d58d4"
     },
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "3e02cdfe9f2713963a25a87caf644a318f8728e2",
-      "to_sha": "9b5ed183c40e812803aea9b57a8cead2cc8fec54"
+      "from_sha": "9b5ed183c40e812803aea9b57a8cead2cc8fec54",
+      "to_sha": "73e3ef65cf95ccb147ce830a3472a1aadf0001aa"
     },
     {
       "repository": "reLATTE",
       "branch": "main",
-      "from_sha": "d69a863943e071346527eafc79a63ef332d524af",
-      "to_sha": "b4e54c09828e260275c857ff7b5570a8fdd78ede"
+      "from_sha": "b4e54c09828e260275c857ff7b5570a8fdd78ede",
+      "to_sha": "d2f18b0a26d177c76ebfe45edcf93aa60c10fd49"
     },
     {
       "repository": "webZ",
       "branch": "main",
-      "from_sha": "0472ed8735af37d1e6d0841fd105f6ecaebc7f58",
-      "to_sha": "ba32961e7be172e364be4ffa803ad047e2469970"
+      "from_sha": "ba32961e7be172e364be4ffa803ad047e2469970",
+      "to_sha": "09bf8711c12346aafb1fae7585231189a3b5db74"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "d7f782077515dac183efef4c3829302898f22957",
-      "to_sha": "f61ee43424c337ed95f34db37b56341e4dfe188a"
+      "from_sha": "f61ee43424c337ed95f34db37b56341e4dfe188a",
+      "to_sha": "8cc3e5d6c3c03616c04aef42e81e9cda300ae6bd"
     }
   ],
   "opened_prs": [
     {
-      "repository": "appliance-prophet-king",
-      "number": 2,
-      "title": "NuToaster 002 — translate concept schematic into Minecraft semantic cartridge",
-      "url": "https://github.com/the-static-collective/appliance-prophet-king/pull/2",
-      "head_branch": "002-nutoaster-minecraft-cartridge",
-      "base_branch": "001-nutoaster-prototype"
-    },
-    {
-      "repository": "appliance-prophet-king",
-      "number": 3,
-      "title": "NuToaster 003 — invent seven P0 cold-trough dimensions; printable A3 pattern + parametric Minecraft",
-      "url": "https://github.com/the-static-collective/appliance-prophet-king/pull/3",
-      "head_branch": "003-nutoaster-provisional-dimensions",
-      "base_branch": "002-nutoaster-minecraft-cartridge"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 138,
-      "title": "WORLD-FORGE-001 × CRATER-SMASH-002 — source integration + cross-engine QA gate",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/138",
-      "head_branch": "experiment/world-forge-003-engine-gate",
-      "base_branch": "main"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 139,
-      "title": "LANTERN 004 — real Mojang two-world kitchen reproduction → native reLATTE HOLD (draft)",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/139",
-      "head_branch": "experiment/lantern-commons-004-two-world-hold",
-      "base_branch": "main"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 140,
-      "title": "LANTERN-005 — two real Minecraft societies and signed reLATTE HOLD (proof green, draft)",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/140",
-      "head_branch": "experiment/lantern-commons-005-full-society-vanilla",
-      "base_branch": "experiment/lantern-commons-004-two-world-hold"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 141,
-      "title": "LANTERN 005 — SUCCESSFUL third Mojang world, translated skill cartridge, native signed HOLD",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/141",
-      "head_branch": "experiment/lantern-commons-005-cartridge-transfer",
-      "base_branch": "experiment/lantern-commons-004-two-world-hold"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 142,
-      "title": "WORLD-FORGE-004 — independent non-OP Minecraft reader × fresh-process Godot scene witness",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/142",
-      "head_branch": "experiment/world-forge-004-independent-witness",
-      "base_branch": "experiment/world-forge-003-engine-gate"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 143,
-      "title": "LANTERN 006 — SUCCESS: God Hand world events, diverging Mojang worlds, native signed HOLD",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/143",
-      "head_branch": "experiment/lantern-commons-006-god-mode-events",
-      "base_branch": "experiment/lantern-commons-005-cartridge-transfer"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 144,
-      "title": "WORLD-FORGE-005 — extract Minecraft witnessed repair procedure and replay in fresh Godot",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/144",
-      "head_branch": "experiment/world-forge-005-bounded-learn-rehearse",
-      "base_branch": "experiment/world-forge-004-independent-witness"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 145,
-      "title": "WORLD-FORGE-006 — native P-256 source-bound offer × sovereign local HOLD/REFUSE receivers",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/145",
-      "head_branch": "experiment/world-forge-006-native-offer-receiver",
-      "base_branch": "experiment/world-forge-005-bounded-learn-rehearse"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 146,
-      "title": "LANTERN 007 — SUCCESS: actual voluntary Minecraft gifts, reversible refusal, spoof-proof public benefit",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/146",
-      "head_branch": "experiment/lantern-commons-007-radical-cooperation",
-      "base_branch": "experiment/lantern-commons-006-god-mode-events"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 147,
-      "title": "WORLD-FORGE-007 — pinned original #101 signed Minecraft ancestry × receiver-local signer policies",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/147",
-      "head_branch": "experiment/world-forge-007-pinned-native-source-policy",
-      "base_branch": "experiment/world-forge-006-native-offer-receiver"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 148,
-      "title": "LANTERN 008 — SUCCESS: evidence-responsive creature learns reversible cooperation across 4 Minecraft worlds",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/148",
-      "head_branch": "experiment/lantern-commons-008-discernment",
-      "base_branch": "experiment/lantern-commons-007-radical-cooperation"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 149,
-      "title": "WORLD-FORGE-008 — owner-local nonextractable human-key ceremony × bounded AI project delegation",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/149",
-      "head_branch": "experiment/world-forge-008-local-human-key-delegation",
-      "base_branch": "experiment/world-forge-007-pinned-native-source-policy"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 150,
-      "title": "LANTERN 009 — SUCCESS: 24 official Minecraft episodes, 17 public repairs under four resource-pressure profiles",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/150",
-      "head_branch": "experiment/lantern-commons-009-cooperation-under-pressure",
-      "base_branch": "experiment/lantern-commons-008-discernment"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 151,
-      "title": "WORLD-FORGE-009 — verified WF008 owner grant → pinned local policy → native reLATTE HOLD/REFUSE",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/151",
-      "head_branch": "experiment/world-forge-009-verified-local-delegation-bridge",
-      "base_branch": "experiment/world-forge-008-local-human-key-delegation"
-    },
-    {
-      "repository": "reLATTE",
+      "repository": "ALEX.2",
       "number": 152,
-      "title": "LANTERN 010 — SUCCESS: actual immutable Minecraft world cartridges and three independently versioned save forks",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/152",
-      "head_branch": "experiment/lantern-commons-010-world-cartridges",
-      "base_branch": "experiment/lantern-commons-009-cooperation-under-pressure"
+      "title": "ALEX MOTIF-021 — inspect pinned source custody and persist research packet",
+      "url": "https://github.com/the-static-collective/ALEX.2/pull/152",
+      "head_branch": "research/motif021-evidence-search",
+      "base_branch": "main"
     },
     {
-      "repository": "reLATTE",
+      "repository": "ALEX.2",
       "number": 153,
-      "title": "LANTERN 011 — SUCCESS: three generations of real saved Minecraft worlds with zero new item grants",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/153",
-      "head_branch": "experiment/lantern-commons-011-generational-resources",
-      "base_branch": "experiment/lantern-commons-010-world-cartridges"
+      "title": "ALEX-022 — Dynamic question-to-pinned-source research packets",
+      "url": "https://github.com/the-static-collective/ALEX.2/pull/153",
+      "head_branch": "research/022-inquiry-from-question",
+      "base_branch": "research/motif021-evidence-search"
     },
     {
-      "repository": "reLATTE",
+      "repository": "ALEX.2",
       "number": 154,
-      "title": "LANTERN 012 — VERIFIED: actual inherited Minecraft wheat harvest, replanted regrowth and bread eaten across world cartridges",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/154",
-      "head_branch": "experiment/lantern-commons-012-first-harvest",
-      "base_branch": "experiment/lantern-commons-011-generational-resources"
+      "title": "ALEX-023 — Live, public-only source collections for new questions",
+      "url": "https://github.com/the-static-collective/ALEX.2/pull/154",
+      "head_branch": "research/023-public-source-observations",
+      "base_branch": "research/022-inquiry-from-question"
     },
     {
-      "repository": "reLATTE",
+      "repository": "ALEX.2",
       "number": 155,
-      "title": "LANTERN 013 — VERIFIED playable Living Commons: four-button offline village + SHA-256 forkable JSON worlds",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/155",
-      "head_branch": "experiment/lantern-commons-013-living-commons",
-      "base_branch": "experiment/lantern-commons-012-first-harvest"
+      "title": "ALEX-024 — Eagle Eye: broad public repository discovery plus opt-in research indexes",
+      "url": "https://github.com/the-static-collective/ALEX.2/pull/155",
+      "head_branch": "research/024-eagle-eye-public-discovery",
+      "base_branch": "research/023-public-source-observations"
+    },
+    {
+      "repository": "BananaSpork",
+      "number": 31,
+      "title": "Capability passport: Garden First Circle and food access research",
+      "url": "https://github.com/the-static-collective/BananaSpork/pull/31",
+      "head_branch": "feat/capability-passport-v1",
+      "base_branch": "main"
+    },
+    {
+      "repository": "BananaSpork",
+      "number": 32,
+      "title": "NOW-ROUTE 002: authenticated Campfire discovery, RLS proposal and 3-account proof harness",
+      "url": "https://github.com/the-static-collective/BananaSpork/pull/32",
+      "head_branch": "feat/now-route-002-campfire-auth-discovery",
+      "base_branch": "main"
+    },
+    {
+      "repository": "GHoT",
+      "number": 134,
+      "title": "Capability passport: local media inspection and deterministic compute planning",
+      "url": "https://github.com/the-static-collective/GHoT/pull/134",
+      "head_branch": "feat/capability-passport-v1",
+      "base_branch": "main"
+    },
+    {
+      "repository": "GHoT",
+      "number": 135,
+      "title": "GHoT RESOURCE-001: actual compute measurements, no invented credits",
+      "url": "https://github.com/the-static-collective/GHoT/pull/135",
+      "head_branch": "experiment/ghot-resource-witness-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "GHoT",
+      "number": 136,
+      "title": "GHoT-002: measure actual public information-acquisition costs in time and bytes",
+      "url": "https://github.com/the-static-collective/GHoT/pull/136",
+      "head_branch": "experiment/ghot-network-inquiry-002",
+      "base_branch": "experiment/ghot-resource-witness-001"
+    },
+    {
+      "repository": "GHoT",
+      "number": 137,
+      "title": "GHoT-003: actually stop when a public source gives enough evidence",
+      "url": "https://github.com/the-static-collective/GHoT/pull/137",
+      "head_branch": "experiment/ghot-conditional-inquiry-003",
+      "base_branch": "experiment/ghot-network-inquiry-002"
+    },
+    {
+      "repository": "GRAFT",
+      "number": 19,
+      "title": "GRAFT MOTIF-021 — compile and execute source-reviewed capability modules",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/19",
+      "head_branch": "graft/motif021-compiled-capability",
+      "base_branch": "main"
+    },
+    {
+      "repository": "GRAFT",
+      "number": 20,
+      "title": "GRAFT-022 — Compile question-selected executable review modules",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/20",
+      "head_branch": "graft/022-question-to-capability",
+      "base_branch": "graft/motif021-compiled-capability"
+    },
+    {
+      "repository": "GRAFT",
+      "number": 21,
+      "title": "GRAFT-023 — Compile and run new source-observation-specific executable modules",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/21",
+      "head_branch": "graft/023-observation-composed-capability",
+      "base_branch": "graft/022-question-to-capability"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 51,
+      "title": "NOW-ROUTE-001: route physical gifts to nearby opted-in needs (local demo)",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/51",
+      "head_branch": "feat/now-route-001-physical-gift-routing",
+      "base_branch": "main"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 52,
+      "title": "Capability Passports 001: reviewed project-source index and contract",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/52",
+      "head_branch": "feat/capability-passport-v1",
+      "base_branch": "main"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 54,
+      "title": "NOW-ROUTE: reuse existing active pantry-gate Supabase before new infrastructure",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/54",
+      "head_branch": "feat/now-route-existing-pantry-gate-bridge",
+      "base_branch": "main"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 55,
+      "title": "NOW-ROUTE 003: invite-only real-time physical exchange LIVE on pantry-gate",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/55",
+      "head_branch": "feat/now-route-003-live-invite-pilot",
+      "base_branch": "main"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 58,
+      "title": "COMMONS-001: save a reusable, private workflow after recipient-confirmed handoff",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/58",
+      "head_branch": "feat/commons-001-human-outcome-cartridge",
+      "base_branch": "feat/now-route-003-live-invite-pilot"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 59,
+      "title": "RECIPROCAL-001: JAR;VIS × MOTIF native reasoning crossing (proposal-only)",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/59",
+      "head_branch": "feat/motif-jarvis-reciprocal-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "JAR-VIS",
+      "number": 60,
+      "title": "JAR;VIS-024 — Human Investigation Desk powered by ALEX Eagle Eye and native MOTIF source reasoning",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/60",
+      "head_branch": "feat/investigation-desk-eagle-eye-024",
+      "base_branch": "main"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 7,
+      "title": "MOTIF Q-001 + SK-001 — The First Question × The Smallest Key × Dogram",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/7",
+      "head_branch": "research/inquiry-smallest-key-dogram",
+      "base_branch": "main"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 9,
+      "title": "BRIDGE-001 — The First Door Foundry: emergent cooperative moves + offline field desk",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/9",
+      "head_branch": "research/first-real-door-bridge-synthesis",
+      "base_branch": "research/inquiry-smallest-key-dogram"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 10,
+      "title": "FIELD-001 — The First Real Witness: prospective OFFER × NEED field journal",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/10",
+      "head_branch": "research/field-001-real-world-witness-desk",
+      "base_branch": "research/first-real-door-bridge-synthesis"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 16,
+      "title": "MOTIF-014 — Organ Gardener: original National Treasure Question Box × Dogram method graft",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/16",
+      "head_branch": "research/014-organ-gardener-question-box",
+      "base_branch": "main"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 18,
+      "title": "MOTIF-015 — Invented Graft: generate conditional question cartridges, test failures and meta-revision",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/18",
+      "head_branch": "research/015-invented-graft-metaprocedure",
+      "base_branch": "research/014-organ-gardener-question-box"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 19,
+      "title": "MOTIF-016 — The Gardener's Gardener: failure-driven meta-inquiry compiler",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/19",
+      "head_branch": "research/016-gardener-gardener-metaquestion",
+      "base_branch": "research/015-invented-graft-metaprocedure"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 20,
+      "title": "MOTIF-015: Many Roads — simultaneous answer/question portfolios",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/20",
+      "head_branch": "experiments/015-multiplex-inquiry-20261105",
+      "base_branch": "main"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 21,
+      "title": "MOTIF-016: The Living Forest — contingent parallel inquiry",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/21",
+      "head_branch": "experiments/016-living-forest-20261105",
+      "base_branch": "experiments/015-multiplex-inquiry-20261105"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 22,
+      "title": "MOTIF-017 — The Question Before the Question: active, source-skeptical inquiry portfolios",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/22",
+      "head_branch": "research/017-question-before-question",
+      "base_branch": "research/016-gardener-gardener-metaquestion"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 23,
+      "title": "MOTIF-017F: Self-growing questions and an improvable diagnostic",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/23",
+      "head_branch": "experiments/017f-growing-diagnostic-20261105",
+      "base_branch": "experiments/016-living-forest-20261105"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 24,
+      "title": "MOTIF-018: The Unknown Unknown × Green Grammar adversarial crucible",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/24",
+      "head_branch": "research/motif-018-representation-frontier",
+      "base_branch": "main"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 25,
+      "title": "MOTIF-018 — The Witness of the Witness: source drift, world shift, and reference-corruption failures",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/25",
+      "head_branch": "research/018-witness-of-witness",
+      "base_branch": "research/017-question-before-question"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 26,
+      "title": "MOTIF-019 — The Hidden Common Ancestor: source-family inference with falsifying common causes",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/26",
+      "head_branch": "research/019-hidden-common-ancestor",
+      "base_branch": "research/018-witness-of-witness"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 27,
+      "title": "MOTIF-015: reality iron — compare archived weather forecasts to NWS station measurements",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/27",
+      "head_branch": "experiment/reality-iron-015-weather-witness",
+      "base_branch": "main"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 28,
+      "title": "MOTIF-019F: Native Question Box × Dogram × online classical Planner Foundry",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/28",
+      "head_branch": "experiments/019f-native-question-planner-20261105",
+      "base_branch": "experiments/017f-growing-diagnostic-20261105"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 29,
+      "title": "MOTIF-020 — MADD Source-Custody Maxhinal: run original chambers against hidden-ancestor hypotheses",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/29",
+      "head_branch": "research/020-madd-source-custody-maxhinal",
+      "base_branch": "research/019-hidden-common-ancestor"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 30,
+      "title": "MOTIF-020F: The Inside-Out Box — native planZ × cost of inaction",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/30",
+      "head_branch": "experiments/020f-planz-omission-20261105",
+      "base_branch": "experiments/019f-native-question-planner-20261105"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 31,
+      "title": "MOTIF-016: Living Watershed — river gauges, model contest, independent holdout",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/31",
+      "head_branch": "experiment/reality-iron-016-living-watershed",
+      "base_branch": "experiment/reality-iron-015-weather-witness"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 32,
+      "title": "MOTIF-017: sealed June 2024 flood event to test whether reasoning learns from failure",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/32",
+      "head_branch": "experiment/reality-iron-017-event-learning",
+      "base_branch": "experiment/reality-iron-016-living-watershed"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 33,
+      "title": "MOTIF-021 — Source-pinned ALEX search × planZ STRIPS × GRAFT executable inquiry capabilities",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/33",
+      "head_branch": "research/021-alex-planz-graft-orchestration",
+      "base_branch": "research/020-madd-source-custody-maxhinal"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 34,
+      "title": "MOTIF-018: What question is worth asking when the measuring instrument may fail?",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/34",
+      "head_branch": "experiment/reality-iron-018-question-engine",
+      "base_branch": "experiment/reality-iron-017-event-learning"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 35,
+      "title": "MOTIF-019: MOTIF-selected next probe × native MEMENTO × UNDERSTORY",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/35",
+      "head_branch": "experiments/019-memento-native-understory",
+      "base_branch": "research/motif-018-representation-frontier"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 36,
+      "title": "MOTIF-022 — New question → real ALEX source packet → planZ classical plan → executable GRAFT module",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/36",
+      "head_branch": "research/022-question-to-capability",
+      "base_branch": "research/021-alex-planz-graft-orchestration"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 37,
+      "title": "MOTIF-019: Is it worth asking whether a sensor can answer?",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/37",
+      "head_branch": "experiment/reality-iron-019-availability-question",
+      "base_branch": "experiment/reality-iron-018-question-engine"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 38,
+      "title": "MOTIF-021F: Tiny T5 Chorus — parallel observer / critic / hypeman",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/38",
+      "head_branch": "experiments/021f-t5-sidecar-chorus-20261105",
+      "base_branch": "experiments/020f-planz-omission-20261105"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 39,
+      "title": "MOTIF-022F: Chorus Critic → typed Question Machine → reviewed Living Forest",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/39",
+      "head_branch": "experiments/022f-critic-question-loop-20261105",
+      "base_branch": "experiments/021f-t5-sidecar-chorus-20261105"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 40,
+      "title": "MOTIF-020: embodied resource inquiry — measured GHoT CPU, memory, I/O without credits",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/40",
+      "head_branch": "experiment/reality-iron-020-embodied-inquiry",
+      "base_branch": "experiment/reality-iron-019-availability-question"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 41,
+      "title": "MOTIF-020: Instrument Garden — invent the next Minecraft measurement, price inaction",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/41",
+      "head_branch": "experiments/020-instrument-garden-minecraft",
+      "base_branch": "experiments/019-memento-native-understory"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 42,
+      "title": "MOTIF-023 — Open Question Field: live public-source research → classical replan → new executed GRAFT capability",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/42",
+      "head_branch": "research/023-open-question-field",
+      "base_branch": "research/022-question-to-capability"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 43,
+      "title": "MOTIF-023F: Real 77M FLAN-T5 Critic in the Chorus — measured, falsifiable",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/43",
+      "head_branch": "experiments/023f-real-t5-critic-trial-20261105",
+      "base_branch": "experiments/022f-critic-question-loop-20261105"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 44,
+      "title": "MOTIF-021: interpret real Minecraft experiment; update rivals without overwriting evidence",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/44",
+      "head_branch": "experiments/021-live-minecraft-epistemic-update",
+      "base_branch": "experiments/020-instrument-garden-minecraft"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 45,
+      "title": "MOTIF-021: When the question encoding, not the world, is wrong",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/45",
+      "head_branch": "experiment/reality-iron-021-question-integrity",
+      "base_branch": "experiment/reality-iron-020-embodied-inquiry"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 46,
+      "title": "MOTIF-024F: Native-first question shortlist × real T5 shadow reranking — decisive negative result",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/46",
+      "head_branch": "experiments/024f-native-shortlist-t5-rerank-20261105",
+      "base_branch": "experiments/023f-real-t5-critic-trial-20261105"
+    },
+    {
+      "repository": "planZ",
+      "number": 42,
+      "title": "planZ MOTIF-021 — executable classical source-to-capability review plan",
+      "url": "https://github.com/the-static-collective/planZ/pull/42",
+      "head_branch": "research/motif021-classical-plan",
+      "base_branch": "main"
+    },
+    {
+      "repository": "planZ",
+      "number": 43,
+      "title": "FELLOWSHIP-001: December 4 two-person operating kit and owner-reported readiness",
+      "url": "https://github.com/the-static-collective/planZ/pull/43",
+      "head_branch": "field/fellowship-dec04-two-person-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "planZ",
+      "number": 44,
+      "title": "planZ-022 — Optimize a new question into a held classical inquiry plan",
+      "url": "https://github.com/the-static-collective/planZ/pull/44",
+      "head_branch": "research/022-question-to-plan",
+      "base_branch": "research/motif021-classical-plan"
+    },
+    {
+      "repository": "planZ",
+      "number": 45,
+      "title": "planZ-023 — Classical source-observation planning and feedback replanning",
+      "url": "https://github.com/the-static-collective/planZ/pull/45",
+      "head_branch": "research/023-observation-replanning",
+      "base_branch": "research/022-question-to-plan"
     },
     {
       "repository": "reLATTE",
-      "number": 156,
-      "title": "First Circle 001 + Consequence 001: offline child-world and manual help-return proof",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/156",
-      "head_branch": "experiment/first-circle-001-self-forking-world",
+      "number": 160,
+      "title": "LANTERN 014 LIVE — Free GitHub Pages hosting with site-safety checks and verified public HTTPS",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/160",
+      "head_branch": "experiment/lantern-014-public-pages",
+      "base_branch": "experiment/lantern-commons-014-solo-desk"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 161,
+      "title": "Capability passport: signed receiver and consent-aware COMMUTER boundaries",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/161",
+      "head_branch": "feat/capability-passport-v1",
       "base_branch": "main"
     },
     {
       "repository": "reLATTE",
-      "number": 157,
-      "title": "LANTERN 014 — VERIFIED: offline solo helper makes one tangible move without another person",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/157",
-      "head_branch": "experiment/lantern-commons-014-one-useful-thing",
-      "base_branch": "experiment/lantern-commons-013-living-commons"
+      "number": 163,
+      "title": "LANTERN 015 — VERIFIED LIVE: connected JAR;VIS source execution + GitHub capability registry + local audio capture",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/163",
+      "head_branch": "experiment/lantern-commons-015-connected-jarvis",
+      "base_branch": "experiment/lantern-commons-014-solo-desk"
     },
     {
       "repository": "reLATTE",
-      "number": 158,
-      "title": "LANTERN 014 — VERIFIED: JAR;VIS Step 03 offers four actions it can actually execute offline",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/158",
-      "head_branch": "experiment/lantern-commons-014-solo-desk",
-      "base_branch": "experiment/lantern-commons-013-living-commons"
+      "number": 164,
+      "title": "LANTERN 015 — VERIFIED LIVE: JAR;VIS reads real GitHub machinery and CI, with zero private-task transmission",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/164",
+      "head_branch": "experiment/lantern-015-connected-capability-bridge",
+      "base_branch": "experiment/lantern-commons-014-solo-desk"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 165,
+      "title": "LANTERN 015 + Commons Desk 002 — JAR;VIS real human-first integrations",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/165",
+      "head_branch": "experiment/lantern-015-connected-registry",
+      "base_branch": "experiment/lantern-014-public-pages"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 166,
+      "title": "SPAWN 017 — one person, many hats, forkable offline operator",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/166",
+      "head_branch": "experiment/spawn-017-one-operator-many-hats",
+      "base_branch": "experiment/lantern-015-connected-registry"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 167,
+      "title": "SPAWN 018 — Gleaning Engine: smallest materials, one-person world-building",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/167",
+      "head_branch": "experiment/spawn-018-gleaning-world-builder",
+      "base_branch": "experiment/spawn-017-one-operator-many-hats"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 168,
+      "title": "SPAWN 019 — smallest necessary step × largest responsible reachable action",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/168",
+      "head_branch": "experiment/spawn-019-maximum-reach",
+      "base_branch": "experiment/spawn-018-gleaning-world-builder"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 169,
+      "title": "SPAWN 020 — Imagination Loom: combinatorial possibility search and reality tests",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/169",
+      "head_branch": "experiment/spawn-020-imagination-loom",
+      "base_branch": "experiment/spawn-019-maximum-reach"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 170,
+      "title": "SPAWN 021 — Learning Loom: evidence-conditioned imagination and operator-authored rules",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/170",
+      "head_branch": "experiment/spawn-021-learning-loom",
+      "base_branch": "experiment/spawn-020-imagination-loom"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 171,
+      "title": "SPAWN 022 — Evolutionary Worlds: playable self-contained world cartridges",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/171",
+      "head_branch": "experiment/spawn-022-evolutionary-world-cartridges",
+      "base_branch": "experiment/spawn-021-learning-loom"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 172,
+      "title": "SPAWN 023 — reLATTE permissioned crossing between independent world cartridges",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/172",
+      "head_branch": "experiment/spawn-023-permissioned-crossings",
+      "base_branch": "experiment/spawn-022-evolutionary-world-cartridges"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 173,
+      "title": "SPAWN 024 — Opt-in signed reLATTE relay: discover, negotiate and confirm across independent world cartridges",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/173",
+      "head_branch": "experiment/spawn-024-relay-discovery",
+      "base_branch": "experiment/spawn-023-permissioned-crossings"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 174,
+      "title": "SPAWN 025 — Solo Commons Executor + scoped Google Drive/GitHub provider bridge",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/174",
+      "head_branch": "experiment/spawn-025-solo-executor-connector-bridge",
+      "base_branch": "experiment/spawn-024-relay-discovery"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 175,
+      "title": "SPAWN 026 — Local Deep Glean index",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/175",
+      "head_branch": "experiment/spawn-026-deep-glean-discovery",
+      "base_branch": "experiment/spawn-025-solo-executor-connector-bridge"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 176,
+      "title": "reLATTE Minecraft 008: MOTIF-designed instrument from signed two-world history",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/176",
+      "head_branch": "experiment/motif-instrument-garden-minecraft-008",
+      "base_branch": "experiment/riff-raft-minecraft-007-two-custodians"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 177,
+      "title": "Minecraft 009: MOTIF's new instrument measured 3/9 lamps in real vanilla world; signed return and learning",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/177",
+      "head_branch": "experiment/motif-minecraft-009-native-observation-return",
+      "base_branch": "experiment/motif-instrument-garden-minecraft-008"
     },
     {
       "repository": "webZ",
-      "number": 227,
-      "title": "Abundent Circuit 001 — The Next Harbor: offline social-to-production pilot",
-      "url": "https://github.com/the-static-collective/webZ/pull/227",
-      "head_branch": "feat/abundent-circuit-001-self-building-commons",
+      "number": 249,
+      "title": "Human First 006: discover source-owned capability passports in the first conversation",
+      "url": "https://github.com/the-static-collective/webZ/pull/249",
+      "head_branch": "feat/capability-passport-v1",
       "base_branch": "main"
     },
     {
       "repository": "webZ",
-      "number": 228,
-      "title": "Circuit 002: real GHoT runtime integration over localhost, native receipts, one-click Mac launcher",
-      "url": "https://github.com/the-static-collective/webZ/pull/228",
-      "head_branch": "feat/abundent-circuit-002-native-ghot",
-      "base_branch": "feat/abundent-circuit-001-self-building-commons"
-    },
-    {
-      "repository": "webZ",
-      "number": 229,
-      "title": "Circuit 003: pair a second native GHoT worker over trusted LAN with explicit HMAC consent",
-      "url": "https://github.com/the-static-collective/webZ/pull/229",
-      "head_branch": "feat/abundent-circuit-003-paired-lan-ghot",
-      "base_branch": "feat/abundent-circuit-002-native-ghot"
-    },
-    {
-      "repository": "webZ",
-      "number": 230,
-      "title": "Circuit 004 — native Revival × GHoT × two-harbor Commons crossing",
-      "url": "https://github.com/the-static-collective/webZ/pull/230",
-      "head_branch": "feat/abundent-circuit-004-revival-commons",
-      "base_branch": "feat/abundent-circuit-003-paired-lan-ghot"
-    },
-    {
-      "repository": "webZ",
-      "number": 231,
-      "title": "Circuit 004: native Minecraft Lantern Commons Festival Foundry + GHoT game HOLD",
-      "url": "https://github.com/the-static-collective/webZ/pull/231",
-      "head_branch": "feat/abundent-circuit-004-minecraft-festival-foundry",
-      "base_branch": "feat/abundent-circuit-003-paired-lan-ghot"
-    },
-    {
-      "repository": "webZ",
-      "number": 232,
-      "title": "Circuit 005 — Living Witness: native OSHB Revival × GHoT × signed reLATTE HOLD/REFUSE",
-      "url": "https://github.com/the-static-collective/webZ/pull/232",
-      "head_branch": "feat/abundent-circuit-005-living-witness",
-      "base_branch": "feat/abundent-circuit-004-revival-commons"
-    },
-    {
-      "repository": "webZ",
-      "number": 233,
-      "title": "LINK WALLET 003 — owner authority desk for WF008 signed project grants (local HOLD/REFUSE)",
-      "url": "https://github.com/the-static-collective/webZ/pull/233",
-      "head_branch": "feature/link-wallet-003-owner-delegation-desk",
+      "number": 252,
+      "title": "INVITATION 003 — make persistent publication unmistakable and discoverable",
+      "url": "https://github.com/the-static-collective/webZ/pull/252",
+      "head_branch": "ux/invite-publication-bridge-003",
       "base_branch": "main"
     },
     {
       "repository": "webZ",
-      "number": 234,
-      "title": "Circuit 006 — two-person field crossing: out-of-band key pins, human HOLD/REFUSE, signed return",
-      "url": "https://github.com/the-static-collective/webZ/pull/234",
-      "head_branch": "feat/abundent-circuit-006-human-crossing-field-kit",
-      "base_branch": "feat/abundent-circuit-005-living-witness"
+      "number": 253,
+      "title": "LIVING COMMONS SOLO LAB 001 — exercise exchanges without other people",
+      "url": "https://github.com/the-static-collective/webZ/pull/253",
+      "head_branch": "feat/living-commons-solo-lab-001",
+      "base_branch": "main"
     },
     {
       "repository": "webZ",
-      "number": 235,
-      "title": "Circuit 005: translate calibrated real-world blueprints into Minecraft Java datapacks",
-      "url": "https://github.com/the-static-collective/webZ/pull/235",
-      "head_branch": "feat/abundent-circuit-005-real-blueprint-foundry",
-      "base_branch": "feat/abundent-circuit-004-minecraft-festival-foundry"
+      "number": 255,
+      "title": "COMMONS SELF-PLAY 001 — Minecraft-inspired forked micro-society",
+      "url": "https://github.com/the-static-collective/webZ/pull/255",
+      "head_branch": "feat/commons-self-play-001",
+      "base_branch": "feat/living-commons-solo-lab-001"
     },
     {
       "repository": "webZ",
-      "number": 236,
-      "title": "Blueprint Bridge 005 — human-calibrated real floor plans to Minecraft draft cartridges",
-      "url": "https://github.com/the-static-collective/webZ/pull/236",
-      "head_branch": "feat/abundent-circuit-005-blueprint-bridge",
-      "base_branch": "feat/abundent-circuit-004-minecraft-festival-foundry"
-    },
-    {
-      "repository": "webZ",
-      "number": 237,
-      "title": "HUMAN ENTRY 001 — Five Empty Chairs: offline consent-gated activity proof",
-      "url": "https://github.com/the-static-collective/webZ/pull/237",
-      "head_branch": "feat/human-entry-001-five-empty-chairs",
-      "base_branch": "feat/abundent-circuit-006-human-crossing-field-kit"
+      "number": 256,
+      "title": "COMMONS SELF-PLAY 002 — evolving seeded societies without recruiting humans",
+      "url": "https://github.com/the-static-collective/webZ/pull/256",
+      "head_branch": "feat/commons-self-play-002-evolution",
+      "base_branch": "feat/commons-self-play-001"
     }
   ],
   "left_open_prs": []

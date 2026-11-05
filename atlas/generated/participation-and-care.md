@@ -59,12 +59,14 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/BananaSpork) · [Branches](https://github.com/the-static-collective/BananaSpork/branches) · [Pull requests](https://github.com/the-static-collective/BananaSpork/pulls)
 
-Default: `main` · other refs: 21 · open PRs: 8
+Default: `main` · other refs: 23 · open PRs: 10
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#32](https://github.com/the-static-collective/BananaSpork/pull/32) | NOW-ROUTE 002: authenticated Campfire discovery, RLS proposal and 3-account proof harness | `feat/now-route-002-campfire-auth-discovery` → `main` | 2026-11-04 |
+| [#31](https://github.com/the-static-collective/BananaSpork/pull/31) | Capability passport: Garden First Circle and food access research | `feat/capability-passport-v1` → `main` | 2026-11-04 |
 | [#23](https://github.com/the-static-collective/BananaSpork/pull/23) | FIRST CHAIR 001 — Lu volunteers as first steward; independent second chair remains open | `feat/first-chair-001` → `feat/watch-the-watchmen-001` | 2026-10-26 |
 | [#22](https://github.com/the-static-collective/BananaSpork/pull/22) | WATCH-THE-WATCHMEN-001 · process concern receipts and no-self-certification gate | `feat/watch-the-watchmen-001` → `feat/inheritance-interrupt-001` | 2026-10-26 |
 | [#21](https://github.com/the-static-collective/BananaSpork/pull/21) | INHERITANCE-INTERRUPT-001 — voluntary capacity seed without beneficiary debt | `feat/inheritance-interrupt-001` → `feat/campfire-selfhost-backend-001` | 2026-10-26 |
@@ -87,10 +89,12 @@ Default: `main` · other refs: 21 · open PRs: 8
 | [feat/banana-relay-001](https://github.com/the-static-collective/BananaSpork/tree/feat/banana-relay-001) | [36c3d3cc50](https://github.com/the-static-collective/BananaSpork/commit/36c3d3cc502b5d43bc9287b361d993b152837f6d) | Retained ref; disposition unverified |
 | [feat/campfire-conversation-field-proof-001](https://github.com/the-static-collective/BananaSpork/tree/feat/campfire-conversation-field-proof-001) | [e9c6adb3bd](https://github.com/the-static-collective/BananaSpork/commit/e9c6adb3bda9f24be71c749dc973dc5809f69111) | Retained ref; disposition unverified |
 | [feat/campfire-selfhost-backend-001](https://github.com/the-static-collective/BananaSpork/tree/feat/campfire-selfhost-backend-001) | [b8c41390da](https://github.com/the-static-collective/BananaSpork/commit/b8c41390da3f35997d329354a467e807f603f0da) | [open PR #20](https://github.com/the-static-collective/BananaSpork/pull/20) |
+| [feat/capability-passport-v1](https://github.com/the-static-collective/BananaSpork/tree/feat/capability-passport-v1) | [5519925bd1](https://github.com/the-static-collective/BananaSpork/commit/5519925bd1fb87d557131f11a30f9a1d0ce70d23) | [open PR #31](https://github.com/the-static-collective/BananaSpork/pull/31) |
 | [feat/field-specimen-independent-proof-002](https://github.com/the-static-collective/BananaSpork/tree/feat/field-specimen-independent-proof-002) | [850bada901](https://github.com/the-static-collective/BananaSpork/commit/850bada901a50e18b9aa7331d00c0557fa94add2) | [open PR #19](https://github.com/the-static-collective/BananaSpork/pull/19) |
 | [feat/first-chair-001](https://github.com/the-static-collective/BananaSpork/tree/feat/first-chair-001) | [35f618169c](https://github.com/the-static-collective/BananaSpork/commit/35f618169c4014cc60ccda7d40e5208ee2e629bf) | [open PR #23](https://github.com/the-static-collective/BananaSpork/pull/23) |
 | [feat/help-slip-garden-adapter-001](https://github.com/the-static-collective/BananaSpork/tree/feat/help-slip-garden-adapter-001) | [e16407f68b](https://github.com/the-static-collective/BananaSpork/commit/e16407f68b5fc7e4286dcfc540a0170dc13457f6) | Retained ref; disposition unverified |
 | [feat/inheritance-interrupt-001](https://github.com/the-static-collective/BananaSpork/tree/feat/inheritance-interrupt-001) | [c0b0dc5145](https://github.com/the-static-collective/BananaSpork/commit/c0b0dc514542fd2367c4bef9eaeeebe49d9a7257) | [open PR #21](https://github.com/the-static-collective/BananaSpork/pull/21) |
+| [feat/now-route-002-campfire-auth-discovery](https://github.com/the-static-collective/BananaSpork/tree/feat/now-route-002-campfire-auth-discovery) | [c1fd954dd2](https://github.com/the-static-collective/BananaSpork/commit/c1fd954dd22e25ad51e63f539a2427914a4ae0dc) | [open PR #32](https://github.com/the-static-collective/BananaSpork/pull/32) |
 | [feat/penny-box-help-slip-bridge-001](https://github.com/the-static-collective/BananaSpork/tree/feat/penny-box-help-slip-bridge-001) | [8a21fd9f86](https://github.com/the-static-collective/BananaSpork/commit/8a21fd9f864adb2f05143d96279eeb58c8445730) | [open PR #16](https://github.com/the-static-collective/BananaSpork/pull/16) |
 | [feat/return-of-help-slip-001](https://github.com/the-static-collective/BananaSpork/tree/feat/return-of-help-slip-001) | [fa759384ce](https://github.com/the-static-collective/BananaSpork/commit/fa759384ceaf13fbfdec11dc2f9de025c4bf2615) | Retained ref; disposition unverified |
 | [feat/watch-the-watchmen-001](https://github.com/the-static-collective/BananaSpork/tree/feat/watch-the-watchmen-001) | [e0d23bbb0c](https://github.com/the-static-collective/BananaSpork/commit/e0d23bbb0cce5fcf80a8337d5cfc4b0da805b575) | [open PR #22](https://github.com/the-static-collective/BananaSpork/pull/22) |

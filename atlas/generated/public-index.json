@@ -429,7 +429,7 @@
         },
         {
           "name": "main",
-          "sha": "7d116b716df82ee2379b399d90936d2fc01b7b16"
+          "sha": "515aea5ac73873300f87dcef2de7492e6e1d58d4"
         },
         {
           "name": "navigation-aperture-2026-09-27",
@@ -472,6 +472,18 @@
           "sha": "9543fdca106718259ee7f1ad0b25df62564fdd69"
         },
         {
+          "name": "research/022-inquiry-from-question",
+          "sha": "46041203f90d4cc2976f9e2a16d3d55fd68b5748"
+        },
+        {
+          "name": "research/023-public-source-observations",
+          "sha": "e678b0a0596a6391f92e18b6b8135477ad49658d"
+        },
+        {
+          "name": "research/024-eagle-eye-public-discovery",
+          "sha": "1e09adbea42809a90a61aaf5fa38a52081de1637"
+        },
+        {
           "name": "research/co-phase-relation-001",
           "sha": "4a3dfe7da92f6162abdf8f7dc8a3638f19890fa6"
         },
@@ -498,6 +510,10 @@
         {
           "name": "research/maddcl0wn-broken-decoder-pressure-2026-08-28-r2",
           "sha": "5b720d9f8cd2060a8259a2dcb321c54bdb8daaae"
+        },
+        {
+          "name": "research/motif021-evidence-search",
+          "sha": "c697ce69258cf894be8e7323bd64c81093bd199c"
         },
         {
           "name": "research/openness-multiplies-ringing-2026-08-28",
@@ -569,6 +585,46 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 155,
+          "title": "ALEX-024 — Eagle Eye: broad public repository discovery plus opt-in research indexes",
+          "head_branch": "research/024-eagle-eye-public-discovery",
+          "head_sha": "1e09adbea42809a90a61aaf5fa38a52081de1637",
+          "head_repo": "the-static-collective/ALEX.2",
+          "base_branch": "research/023-public-source-observations",
+          "updated_at": "2026-11-05T14:57:14Z",
+          "url": "https://github.com/the-static-collective/ALEX.2/pull/155"
+        },
+        {
+          "number": 154,
+          "title": "ALEX-023 — Live, public-only source collections for new questions",
+          "head_branch": "research/023-public-source-observations",
+          "head_sha": "e678b0a0596a6391f92e18b6b8135477ad49658d",
+          "head_repo": "the-static-collective/ALEX.2",
+          "base_branch": "research/022-inquiry-from-question",
+          "updated_at": "2026-11-05T14:24:09Z",
+          "url": "https://github.com/the-static-collective/ALEX.2/pull/154"
+        },
+        {
+          "number": 153,
+          "title": "ALEX-022 — Dynamic question-to-pinned-source research packets",
+          "head_branch": "research/022-inquiry-from-question",
+          "head_sha": "46041203f90d4cc2976f9e2a16d3d55fd68b5748",
+          "head_repo": "the-static-collective/ALEX.2",
+          "base_branch": "research/motif021-evidence-search",
+          "updated_at": "2026-11-05T13:55:05Z",
+          "url": "https://github.com/the-static-collective/ALEX.2/pull/153"
+        },
+        {
+          "number": 152,
+          "title": "ALEX MOTIF-021 — inspect pinned source custody and persist research packet",
+          "head_branch": "research/motif021-evidence-search",
+          "head_sha": "c697ce69258cf894be8e7323bd64c81093bd199c",
+          "head_repo": "the-static-collective/ALEX.2",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T13:16:28Z",
+          "url": "https://github.com/the-static-collective/ALEX.2/pull/152"
+        },
         {
           "number": 141,
           "title": "RELATION-NURSERY-001: immutable proposals with independently referenced pressure outcomes",
@@ -1088,6 +1144,10 @@
           "sha": "b8c41390da3f35997d329354a467e807f603f0da"
         },
         {
+          "name": "feat/capability-passport-v1",
+          "sha": "5519925bd1fb87d557131f11a30f9a1d0ce70d23"
+        },
+        {
           "name": "feat/field-specimen-independent-proof-002",
           "sha": "850bada901a50e18b9aa7331d00c0557fa94add2"
         },
@@ -1102,6 +1162,10 @@
         {
           "name": "feat/inheritance-interrupt-001",
           "sha": "c0b0dc514542fd2367c4bef9eaeeebe49d9a7257"
+        },
+        {
+          "name": "feat/now-route-002-campfire-auth-discovery",
+          "sha": "c1fd954dd22e25ad51e63f539a2427914a4ae0dc"
         },
         {
           "name": "feat/penny-box-help-slip-bridge-001",
@@ -1141,6 +1205,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 32,
+          "title": "NOW-ROUTE 002: authenticated Campfire discovery, RLS proposal and 3-account proof harness",
+          "head_branch": "feat/now-route-002-campfire-auth-discovery",
+          "head_sha": "c1fd954dd22e25ad51e63f539a2427914a4ae0dc",
+          "head_repo": "the-static-collective/BananaSpork",
+          "base_branch": "main",
+          "updated_at": "2026-11-04T16:39:18Z",
+          "url": "https://github.com/the-static-collective/BananaSpork/pull/32"
+        },
+        {
+          "number": 31,
+          "title": "Capability passport: Garden First Circle and food access research",
+          "head_branch": "feat/capability-passport-v1",
+          "head_sha": "5519925bd1fb87d557131f11a30f9a1d0ce70d23",
+          "head_repo": "the-static-collective/BananaSpork",
+          "base_branch": "main",
+          "updated_at": "2026-11-04T16:20:40Z",
+          "url": "https://github.com/the-static-collective/BananaSpork/pull/31"
+        },
         {
           "number": 23,
           "title": "FIRST CHAIR 001 — Lu volunteers as first steward; independent second chair remains open",
@@ -4856,6 +4940,18 @@
           "sha": "0b23062183f43735eda548fa3afcaebb2c7f4409"
         },
         {
+          "name": "experiment/ghot-conditional-inquiry-003",
+          "sha": "1517d2ac822ed1e6cfa30320a0f1e4574b6b0e55"
+        },
+        {
+          "name": "experiment/ghot-network-inquiry-002",
+          "sha": "3029ef5870a60df6edbbe0eff6ca49f7bdf7146b"
+        },
+        {
+          "name": "experiment/ghot-resource-witness-001",
+          "sha": "0cbd111a1f7d58a3e4d1dacaeb6be067cbffe9ad"
+        },
+        {
           "name": "experiment/listening-heap-001",
           "sha": "f7a14f8a433fd72050f69e400010fb731a58dac3"
         },
@@ -5064,6 +5160,10 @@
           "sha": "e12ce3e62486feb1e5cd2324d1ae5a6a2be8b19b"
         },
         {
+          "name": "feat/capability-passport-v1",
+          "sha": "4d743b6e48651dc17be26838739c54b0dfa15e3b"
+        },
+        {
           "name": "feat/compost-breeder-001",
           "sha": "d898cc6a25d0c3569d5126ecab2754c9f82cfd02"
         },
@@ -5177,6 +5277,46 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 137,
+          "title": "GHoT-003: actually stop when a public source gives enough evidence",
+          "head_branch": "experiment/ghot-conditional-inquiry-003",
+          "head_sha": "1517d2ac822ed1e6cfa30320a0f1e4574b6b0e55",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/ghot-network-inquiry-002",
+          "updated_at": "2026-11-05T15:10:07Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/137"
+        },
+        {
+          "number": 136,
+          "title": "GHoT-002: measure actual public information-acquisition costs in time and bytes",
+          "head_branch": "experiment/ghot-network-inquiry-002",
+          "head_sha": "3029ef5870a60df6edbbe0eff6ca49f7bdf7146b",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/ghot-resource-witness-001",
+          "updated_at": "2026-11-05T15:10:03Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/136"
+        },
+        {
+          "number": 135,
+          "title": "GHoT RESOURCE-001: actual compute measurements, no invented credits",
+          "head_branch": "experiment/ghot-resource-witness-001",
+          "head_sha": "0cbd111a1f7d58a3e4d1dacaeb6be067cbffe9ad",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T14:25:47Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/135"
+        },
+        {
+          "number": 134,
+          "title": "Capability passport: local media inspection and deterministic compute planning",
+          "head_branch": "feat/capability-passport-v1",
+          "head_sha": "4d743b6e48651dc17be26838739c54b0dfa15e3b",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "main",
+          "updated_at": "2026-11-04T16:20:36Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/134"
+        },
         {
           "number": 131,
           "title": "WORSHIP-STAGE-001 — GHoT capability for Static Live rehearsal checks",
@@ -6566,6 +6706,14 @@
           "sha": "9f32b0e1551fe1e853b5f82ecd8f16d0d5ee3f6a"
         },
         {
+          "name": "graft/022-question-to-capability",
+          "sha": "8df897ac161941fe90a68d52a3bc0ed1925b39bc"
+        },
+        {
+          "name": "graft/023-observation-composed-capability",
+          "sha": "9d02b83bc259ee0eaa68d4e6da7b526d9afc8ee4"
+        },
+        {
           "name": "graft/autodisco-video-receipt",
           "sha": "86a1fad4a342cc52dc62f41b3f541d0a52fc91df"
         },
@@ -6662,6 +6810,10 @@
           "sha": "22a5714f25c7be59bac37b3ab691c28c1f036845"
         },
         {
+          "name": "graft/motif021-compiled-capability",
+          "sha": "d4cefba0151d4813f8589663de14e0fc7cf2c242"
+        },
+        {
           "name": "graft/reconstruction-001",
           "sha": "87db43b9bd818696728976e9baea44c96d5816fb"
         },
@@ -6711,6 +6863,36 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 21,
+          "title": "GRAFT-023 — Compile and run new source-observation-specific executable modules",
+          "head_branch": "graft/023-observation-composed-capability",
+          "head_sha": "9d02b83bc259ee0eaa68d4e6da7b526d9afc8ee4",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "graft/022-question-to-capability",
+          "updated_at": "2026-11-05T14:24:20Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/21"
+        },
+        {
+          "number": 20,
+          "title": "GRAFT-022 — Compile question-selected executable review modules",
+          "head_branch": "graft/022-question-to-capability",
+          "head_sha": "8df897ac161941fe90a68d52a3bc0ed1925b39bc",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "graft/motif021-compiled-capability",
+          "updated_at": "2026-11-05T13:55:22Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/20"
+        },
+        {
+          "number": 19,
+          "title": "GRAFT MOTIF-021 — compile and execute source-reviewed capability modules",
+          "head_branch": "graft/motif021-compiled-capability",
+          "head_sha": "d4cefba0151d4813f8589663de14e0fc7cf2c242",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T13:16:34Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/19"
+        },
         {
           "number": 18,
           "title": "UNFUTURES-007: Fairness Laboratory — competing allocation policies, original Dogram witness",
@@ -7460,6 +7642,14 @@
           "sha": "0bba5fa3381fe7475b021cd35e56309ae5817aa2"
         },
         {
+          "name": "feat/ai-human-commons-machine-entrance-017",
+          "sha": "f38d4a82c679514ce5712147b2dacd82776d1ff6"
+        },
+        {
+          "name": "feat/any-invitation-consumer-001",
+          "sha": "11fc41cc075854ab3598f887b56f1ce87e2bea24"
+        },
+        {
           "name": "feat/backend-006-durable-attention-belt",
           "sha": "86fa68388abccd164befd14d6919d0e3889faa98"
         },
@@ -7480,8 +7670,36 @@
           "sha": "5150ea19d744d339f5657acded7629da10a75146"
         },
         {
+          "name": "feat/capability-passport-v1",
+          "sha": "a0df43cd9dcf2800aa1572f8ccbd47cdcd38dff0"
+        },
+        {
+          "name": "feat/commons-001-human-outcome-cartridge",
+          "sha": "de1248781ceb83ace7b32575aa14bc1717735ddc"
+        },
+        {
+          "name": "feat/investigation-desk-eagle-eye-024",
+          "sha": "49be23f3d010935f753c25e540733a1b841c8a6d"
+        },
+        {
           "name": "feat/live-offer-cartridge-consumer",
           "sha": "9fafe9e797c92837b5094b1e3a88e2ac9fd224f4"
+        },
+        {
+          "name": "feat/motif-jarvis-reciprocal-001",
+          "sha": "8a100fdbc7736e254a58afafa2b2084dc75f8e64"
+        },
+        {
+          "name": "feat/now-route-001-physical-gift-routing",
+          "sha": "c094cc2d71a0e989b6eae0c4347fe2b4f44c4553"
+        },
+        {
+          "name": "feat/now-route-003-live-invite-pilot",
+          "sha": "4de5d65195d9dafcad4eda8dafa80937fd7fdaea"
+        },
+        {
+          "name": "feat/now-route-existing-pantry-gate-bridge",
+          "sha": "cb2258d1b31bfe96dbb6f52c1c465fa573937274"
         },
         {
           "name": "feat/operator-crosspanel-003",
@@ -7573,7 +7791,7 @@
         },
         {
           "name": "main",
-          "sha": "9b5ed183c40e812803aea9b57a8cead2cc8fec54"
+          "sha": "73e3ef65cf95ccb147ce830a3472a1aadf0001aa"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -7593,6 +7811,76 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 60,
+          "title": "JAR;VIS-024 — Human Investigation Desk powered by ALEX Eagle Eye and native MOTIF source reasoning",
+          "head_branch": "feat/investigation-desk-eagle-eye-024",
+          "head_sha": "49be23f3d010935f753c25e540733a1b841c8a6d",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T14:57:17Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/60"
+        },
+        {
+          "number": 59,
+          "title": "RECIPROCAL-001: JAR;VIS × MOTIF native reasoning crossing (proposal-only)",
+          "head_branch": "feat/motif-jarvis-reciprocal-001",
+          "head_sha": "8a100fdbc7736e254a58afafa2b2084dc75f8e64",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T15:10:46Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/59"
+        },
+        {
+          "number": 58,
+          "title": "COMMONS-001: save a reusable, private workflow after recipient-confirmed handoff",
+          "head_branch": "feat/commons-001-human-outcome-cartridge",
+          "head_sha": "de1248781ceb83ace7b32575aa14bc1717735ddc",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "feat/now-route-003-live-invite-pilot",
+          "updated_at": "2026-11-04T19:46:26Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/58"
+        },
+        {
+          "number": 55,
+          "title": "NOW-ROUTE 003: invite-only real-time physical exchange LIVE on pantry-gate",
+          "head_branch": "feat/now-route-003-live-invite-pilot",
+          "head_sha": "4de5d65195d9dafcad4eda8dafa80937fd7fdaea",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "main",
+          "updated_at": "2026-11-04T17:24:47Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/55"
+        },
+        {
+          "number": 54,
+          "title": "NOW-ROUTE: reuse existing active pantry-gate Supabase before new infrastructure",
+          "head_branch": "feat/now-route-existing-pantry-gate-bridge",
+          "head_sha": "cb2258d1b31bfe96dbb6f52c1c465fa573937274",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "main",
+          "updated_at": "2026-11-04T16:52:50Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/54"
+        },
+        {
+          "number": 52,
+          "title": "Capability Passports 001: reviewed project-source index and contract",
+          "head_branch": "feat/capability-passport-v1",
+          "head_sha": "a0df43cd9dcf2800aa1572f8ccbd47cdcd38dff0",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "main",
+          "updated_at": "2026-11-04T16:20:30Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/52"
+        },
+        {
+          "number": 51,
+          "title": "NOW-ROUTE-001: route physical gifts to nearby opted-in needs (local demo)",
+          "head_branch": "feat/now-route-001-physical-gift-routing",
+          "head_sha": "c094cc2d71a0e989b6eae0c4347fe2b4f44c4553",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "main",
+          "updated_at": "2026-11-04T16:40:58Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/51"
+        },
         {
           "number": 47,
           "title": "Experiment: NODE ZERO local Garden exchange + Static Live bulletin",
@@ -9259,6 +9547,542 @@
       "open_prs": []
     },
     {
+      "name": "MOTIF",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "experiment/motif-006-first-question-dogram-probes",
+          "sha": "404c0c6701737f35fd0998112d81a4ca850ff5f1"
+        },
+        {
+          "name": "experiment/motif-007-smallest-key",
+          "sha": "10514da5cc61968cdd0ed3d2f9a75401c59a5fa1"
+        },
+        {
+          "name": "experiment/reality-iron-015-weather-witness",
+          "sha": "60f27b6da7eea332627ab4cc8186193d48810fb9"
+        },
+        {
+          "name": "experiment/reality-iron-016-living-watershed",
+          "sha": "685f55f7bd02a36880620df1fadd4439282c8234"
+        },
+        {
+          "name": "experiment/reality-iron-017-event-learning",
+          "sha": "d0cf7ec78923a9f536857e2efa8038f5a333f708"
+        },
+        {
+          "name": "experiment/reality-iron-018-question-engine",
+          "sha": "88ccef6085e545cdda386cca9e2eb16ad2ab31eb"
+        },
+        {
+          "name": "experiment/reality-iron-019-availability-question",
+          "sha": "1bb4028141eb20a8798bed338dcb3d851284de22"
+        },
+        {
+          "name": "experiment/reality-iron-020-embodied-inquiry",
+          "sha": "aa838a2c419edf5cb19afc15f76b5793e2fe8855"
+        },
+        {
+          "name": "experiment/reality-iron-021-question-integrity",
+          "sha": "cdcec6013492bb6ccd0982ee9af9f5bf1d3200f7"
+        },
+        {
+          "name": "experiments/015-multiplex-inquiry-20261105",
+          "sha": "f88c93e9c8385fa7ea588efd1b113042cc6126e5"
+        },
+        {
+          "name": "experiments/016-living-forest-20261105",
+          "sha": "645bcafe3e398499db43ab062387d5129eaa7f57"
+        },
+        {
+          "name": "experiments/017f-growing-diagnostic-20261105",
+          "sha": "d6d7861d171e62dd49f5f46e79f2828b08f1a541"
+        },
+        {
+          "name": "experiments/019-memento-native-understory",
+          "sha": "9b785aea6ef2f61345d1b93fdc44b3d69073bf28"
+        },
+        {
+          "name": "experiments/019f-native-question-planner-20261105",
+          "sha": "e0fe6b44e6d3f374cea71b75d9eb208c464d3dd6"
+        },
+        {
+          "name": "experiments/020-instrument-garden-minecraft",
+          "sha": "8379f6018106ad68aa8d22ac884ede57f34508f9"
+        },
+        {
+          "name": "experiments/020f-planz-omission-20261105",
+          "sha": "53b3740b8b30888b560c4f390fe61750e99da590"
+        },
+        {
+          "name": "experiments/021-live-minecraft-epistemic-update",
+          "sha": "c9c5030667beb98da3863c2ec3e9ad828737b8a6"
+        },
+        {
+          "name": "experiments/021f-t5-sidecar-chorus-20261105",
+          "sha": "89433236aeffcc32862bb721436ede299c155054"
+        },
+        {
+          "name": "experiments/022-minimal-causal-witness",
+          "sha": "182b76584cacc767e377313745fb5787fb0f574b"
+        },
+        {
+          "name": "experiments/022f-critic-question-loop-20261105",
+          "sha": "d9ab2edb6385dc3e5c9a50ef04bc6658d76714ee"
+        },
+        {
+          "name": "experiments/023f-real-t5-critic-trial-20261105",
+          "sha": "c453dc41c1e8a31b814a95de76d0a1b2ba80eaad"
+        },
+        {
+          "name": "experiments/024f-native-shortlist-t5-rerank-20261105",
+          "sha": "e58484efda51b33bbd6e34ed60cfc7bdd6410466"
+        },
+        {
+          "name": "main",
+          "sha": "5fc3434fe8fb0b187f7744d9b44975908a4c7b9c"
+        },
+        {
+          "name": "research/003-affordance-frontier",
+          "sha": "1577ed30213c0c4b20d1c99ed5b5d079621ba907"
+        },
+        {
+          "name": "research/004-causal-scars",
+          "sha": "643cad8ada3719303c22901a04b006a49ceab0bd"
+        },
+        {
+          "name": "research/005-birth-of-a-concept",
+          "sha": "69e5a1e8c8d1b3d325eb07b174e71cc1c85543d8"
+        },
+        {
+          "name": "research/006-recursive-capability",
+          "sha": "14fae4fd43d2d4bb3ee6544f3d0c2bab69dff05b"
+        },
+        {
+          "name": "research/007-federated-inheritance",
+          "sha": "180c2dc404a0e9d7a05b1850e2aa96ca36731747"
+        },
+        {
+          "name": "research/008-unknown-world",
+          "sha": "c3944e1499aeb377ba7c3ad2ce22cd03a6023ad9"
+        },
+        {
+          "name": "research/009-tree-cartridge-experimenter",
+          "sha": "26b587389364d8c92edea839f2693081222752be"
+        },
+        {
+          "name": "research/010-scientist-interventions",
+          "sha": "30f6126f056cee978513bb6429d7fe4cfd86916f"
+        },
+        {
+          "name": "research/011-skeptical-scientist",
+          "sha": "c2cd06c70152f384dd61f33dfafcad9700a0a607"
+        },
+        {
+          "name": "research/012-causal-cartographer",
+          "sha": "5e49d5b3081f180d3f46c9ba7685a057045cb201"
+        },
+        {
+          "name": "research/013-probabilistic-witness",
+          "sha": "5d34bf8a667e567000f960b66f2e5bbdf78a228a"
+        },
+        {
+          "name": "research/014-organ-gardener-question-box",
+          "sha": "8b8d962ad46bf0ff8979c39dc2e0998d775cd4af"
+        },
+        {
+          "name": "research/014-witness-of-witnesses",
+          "sha": "420b3d1b434c5fab5d5adc5033fd3c7d7258ef9e"
+        },
+        {
+          "name": "research/015-invented-graft-metaprocedure",
+          "sha": "31b06790a3fa1a50ccf4087746b7f7b657342f59"
+        },
+        {
+          "name": "research/016-gardener-gardener-metaquestion",
+          "sha": "31874858ffff94a6f1c8fe8da4279a6c4c6a4169"
+        },
+        {
+          "name": "research/017-question-before-question",
+          "sha": "d13b1ab649ce3025df2fb4d4dcfdb26a6e7b2a82"
+        },
+        {
+          "name": "research/018-witness-of-witness",
+          "sha": "17a2d488cf623c4120d1c04540f4356bef06e830"
+        },
+        {
+          "name": "research/019-hidden-common-ancestor",
+          "sha": "2b07c847cc54605b5b05c02a50bddda188310564"
+        },
+        {
+          "name": "research/020-madd-source-custody-maxhinal",
+          "sha": "73dbeec3beb89d444c3fd8b64127310b9db0803b"
+        },
+        {
+          "name": "research/021-alex-planz-graft-orchestration",
+          "sha": "a46c4f7b82d4561f7a05c43232ca942c75d67956"
+        },
+        {
+          "name": "research/022-question-to-capability",
+          "sha": "c32b0db670fe7587e25140e49c47aa761e4b6b7d"
+        },
+        {
+          "name": "research/023-open-question-field",
+          "sha": "63225336a0aa72d040f5af4091b376284e508b4f"
+        },
+        {
+          "name": "research/field-001-real-world-witness-desk",
+          "sha": "a6bd72c498f308a8dbf21f65af2d126ca41f0e17"
+        },
+        {
+          "name": "research/first-real-door-bridge-synthesis",
+          "sha": "bc25f4ec1c6628845e3b5ff23f225f1c3c78b1b4"
+        },
+        {
+          "name": "research/inquiry-smallest-key-dogram",
+          "sha": "3daa17affcb629e8647f522de7a33e8e000de83e"
+        },
+        {
+          "name": "research/motif-018-representation-frontier",
+          "sha": "6a1e6f0becbe79d21c349ef87c10ca92cfeef70a"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 46,
+          "title": "MOTIF-024F: Native-first question shortlist × real T5 shadow reranking — decisive negative result",
+          "head_branch": "experiments/024f-native-shortlist-t5-rerank-20261105",
+          "head_sha": "e58484efda51b33bbd6e34ed60cfc7bdd6410466",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiments/023f-real-t5-critic-trial-20261105",
+          "updated_at": "2026-11-05T15:06:59Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/46"
+        },
+        {
+          "number": 45,
+          "title": "MOTIF-021: When the question encoding, not the world, is wrong",
+          "head_branch": "experiment/reality-iron-021-question-integrity",
+          "head_sha": "cdcec6013492bb6ccd0982ee9af9f5bf1d3200f7",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reality-iron-020-embodied-inquiry",
+          "updated_at": "2026-11-05T15:10:13Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/45"
+        },
+        {
+          "number": 44,
+          "title": "MOTIF-021: interpret real Minecraft experiment; update rivals without overwriting evidence",
+          "head_branch": "experiments/021-live-minecraft-epistemic-update",
+          "head_sha": "c9c5030667beb98da3863c2ec3e9ad828737b8a6",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiments/020-instrument-garden-minecraft",
+          "updated_at": "2026-11-05T14:54:01Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/44"
+        },
+        {
+          "number": 43,
+          "title": "MOTIF-023F: Real 77M FLAN-T5 Critic in the Chorus — measured, falsifiable",
+          "head_branch": "experiments/023f-real-t5-critic-trial-20261105",
+          "head_sha": "c453dc41c1e8a31b814a95de76d0a1b2ba80eaad",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiments/022f-critic-question-loop-20261105",
+          "updated_at": "2026-11-05T14:47:40Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/43"
+        },
+        {
+          "number": 42,
+          "title": "MOTIF-023 — Open Question Field: live public-source research → classical replan → new executed GRAFT capability",
+          "head_branch": "research/023-open-question-field",
+          "head_sha": "63225336a0aa72d040f5af4091b376284e508b4f",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/022-question-to-capability",
+          "updated_at": "2026-11-05T14:25:17Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/42"
+        },
+        {
+          "number": 41,
+          "title": "MOTIF-020: Instrument Garden — invent the next Minecraft measurement, price inaction",
+          "head_branch": "experiments/020-instrument-garden-minecraft",
+          "head_sha": "8379f6018106ad68aa8d22ac884ede57f34508f9",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiments/019-memento-native-understory",
+          "updated_at": "2026-11-05T14:25:12Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/41"
+        },
+        {
+          "number": 40,
+          "title": "MOTIF-020: embodied resource inquiry — measured GHoT CPU, memory, I/O without credits",
+          "head_branch": "experiment/reality-iron-020-embodied-inquiry",
+          "head_sha": "aa838a2c419edf5cb19afc15f76b5793e2fe8855",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reality-iron-019-availability-question",
+          "updated_at": "2026-11-05T14:25:58Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/40"
+        },
+        {
+          "number": 39,
+          "title": "MOTIF-022F: Chorus Critic → typed Question Machine → reviewed Living Forest",
+          "head_branch": "experiments/022f-critic-question-loop-20261105",
+          "head_sha": "d9ab2edb6385dc3e5c9a50ef04bc6658d76714ee",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiments/021f-t5-sidecar-chorus-20261105",
+          "updated_at": "2026-11-05T14:18:05Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/39"
+        },
+        {
+          "number": 38,
+          "title": "MOTIF-021F: Tiny T5 Chorus — parallel observer / critic / hypeman",
+          "head_branch": "experiments/021f-t5-sidecar-chorus-20261105",
+          "head_sha": "89433236aeffcc32862bb721436ede299c155054",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiments/020f-planz-omission-20261105",
+          "updated_at": "2026-11-05T14:00:35Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/38"
+        },
+        {
+          "number": 37,
+          "title": "MOTIF-019: Is it worth asking whether a sensor can answer?",
+          "head_branch": "experiment/reality-iron-019-availability-question",
+          "head_sha": "1bb4028141eb20a8798bed338dcb3d851284de22",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reality-iron-018-question-engine",
+          "updated_at": "2026-11-05T14:03:34Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/37"
+        },
+        {
+          "number": 36,
+          "title": "MOTIF-022 — New question → real ALEX source packet → planZ classical plan → executable GRAFT module",
+          "head_branch": "research/022-question-to-capability",
+          "head_sha": "c32b0db670fe7587e25140e49c47aa761e4b6b7d",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/021-alex-planz-graft-orchestration",
+          "updated_at": "2026-11-05T13:56:02Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/36"
+        },
+        {
+          "number": 35,
+          "title": "MOTIF-019: MOTIF-selected next probe × native MEMENTO × UNDERSTORY",
+          "head_branch": "experiments/019-memento-native-understory",
+          "head_sha": "9b785aea6ef2f61345d1b93fdc44b3d69073bf28",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/motif-018-representation-frontier",
+          "updated_at": "2026-11-05T13:59:04Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/35"
+        },
+        {
+          "number": 34,
+          "title": "MOTIF-018: What question is worth asking when the measuring instrument may fail?",
+          "head_branch": "experiment/reality-iron-018-question-engine",
+          "head_sha": "88ccef6085e545cdda386cca9e2eb16ad2ab31eb",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reality-iron-017-event-learning",
+          "updated_at": "2026-11-05T13:43:15Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/34"
+        },
+        {
+          "number": 33,
+          "title": "MOTIF-021 — Source-pinned ALEX search × planZ STRIPS × GRAFT executable inquiry capabilities",
+          "head_branch": "research/021-alex-planz-graft-orchestration",
+          "head_sha": "a46c4f7b82d4561f7a05c43232ca942c75d67956",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/020-madd-source-custody-maxhinal",
+          "updated_at": "2026-11-05T13:16:37Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/33"
+        },
+        {
+          "number": 32,
+          "title": "MOTIF-017: sealed June 2024 flood event to test whether reasoning learns from failure",
+          "head_branch": "experiment/reality-iron-017-event-learning",
+          "head_sha": "d0cf7ec78923a9f536857e2efa8038f5a333f708",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reality-iron-016-living-watershed",
+          "updated_at": "2026-11-05T13:26:07Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/32"
+        },
+        {
+          "number": 31,
+          "title": "MOTIF-016: Living Watershed — river gauges, model contest, independent holdout",
+          "head_branch": "experiment/reality-iron-016-living-watershed",
+          "head_sha": "685f55f7bd02a36880620df1fadd4439282c8234",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reality-iron-015-weather-witness",
+          "updated_at": "2026-11-05T12:57:25Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/31"
+        },
+        {
+          "number": 30,
+          "title": "MOTIF-020F: The Inside-Out Box — native planZ × cost of inaction",
+          "head_branch": "experiments/020f-planz-omission-20261105",
+          "head_sha": "53b3740b8b30888b560c4f390fe61750e99da590",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiments/019f-native-question-planner-20261105",
+          "updated_at": "2026-11-05T13:23:49Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/30"
+        },
+        {
+          "number": 29,
+          "title": "MOTIF-020 — MADD Source-Custody Maxhinal: run original chambers against hidden-ancestor hypotheses",
+          "head_branch": "research/020-madd-source-custody-maxhinal",
+          "head_sha": "73dbeec3beb89d444c3fd8b64127310b9db0803b",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/019-hidden-common-ancestor",
+          "updated_at": "2026-11-05T12:50:00Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/29"
+        },
+        {
+          "number": 28,
+          "title": "MOTIF-019F: Native Question Box × Dogram × online classical Planner Foundry",
+          "head_branch": "experiments/019f-native-question-planner-20261105",
+          "head_sha": "e0fe6b44e6d3f374cea71b75d9eb208c464d3dd6",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiments/017f-growing-diagnostic-20261105",
+          "updated_at": "2026-11-05T12:34:11Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/28"
+        },
+        {
+          "number": 27,
+          "title": "MOTIF-015: reality iron — compare archived weather forecasts to NWS station measurements",
+          "head_branch": "experiment/reality-iron-015-weather-witness",
+          "head_sha": "60f27b6da7eea332627ab4cc8186193d48810fb9",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T12:34:50Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/27"
+        },
+        {
+          "number": 26,
+          "title": "MOTIF-019 — The Hidden Common Ancestor: source-family inference with falsifying common causes",
+          "head_branch": "research/019-hidden-common-ancestor",
+          "head_sha": "2b07c847cc54605b5b05c02a50bddda188310564",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/018-witness-of-witness",
+          "updated_at": "2026-11-05T12:31:48Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/26"
+        },
+        {
+          "number": 25,
+          "title": "MOTIF-018 — The Witness of the Witness: source drift, world shift, and reference-corruption failures",
+          "head_branch": "research/018-witness-of-witness",
+          "head_sha": "17a2d488cf623c4120d1c04540f4356bef06e830",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/017-question-before-question",
+          "updated_at": "2026-11-05T12:06:30Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/25"
+        },
+        {
+          "number": 24,
+          "title": "MOTIF-018: The Unknown Unknown × Green Grammar adversarial crucible",
+          "head_branch": "research/motif-018-representation-frontier",
+          "head_sha": "6a1e6f0becbe79d21c349ef87c10ca92cfeef70a",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T13:29:43Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/24"
+        },
+        {
+          "number": 23,
+          "title": "MOTIF-017F: Self-growing questions and an improvable diagnostic",
+          "head_branch": "experiments/017f-growing-diagnostic-20261105",
+          "head_sha": "d6d7861d171e62dd49f5f46e79f2828b08f1a541",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiments/016-living-forest-20261105",
+          "updated_at": "2026-11-05T12:00:09Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/23"
+        },
+        {
+          "number": 22,
+          "title": "MOTIF-017 — The Question Before the Question: active, source-skeptical inquiry portfolios",
+          "head_branch": "research/017-question-before-question",
+          "head_sha": "d13b1ab649ce3025df2fb4d4dcfdb26a6e7b2a82",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/016-gardener-gardener-metaquestion",
+          "updated_at": "2026-11-05T11:50:06Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/22"
+        },
+        {
+          "number": 21,
+          "title": "MOTIF-016: The Living Forest — contingent parallel inquiry",
+          "head_branch": "experiments/016-living-forest-20261105",
+          "head_sha": "645bcafe3e398499db43ab062387d5129eaa7f57",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiments/015-multiplex-inquiry-20261105",
+          "updated_at": "2026-11-05T11:38:25Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/21"
+        },
+        {
+          "number": 20,
+          "title": "MOTIF-015: Many Roads — simultaneous answer/question portfolios",
+          "head_branch": "experiments/015-multiplex-inquiry-20261105",
+          "head_sha": "f88c93e9c8385fa7ea588efd1b113042cc6126e5",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T11:19:25Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/20"
+        },
+        {
+          "number": 19,
+          "title": "MOTIF-016 — The Gardener's Gardener: failure-driven meta-inquiry compiler",
+          "head_branch": "research/016-gardener-gardener-metaquestion",
+          "head_sha": "31874858ffff94a6f1c8fe8da4279a6c4c6a4169",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/015-invented-graft-metaprocedure",
+          "updated_at": "2026-11-05T11:05:05Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/19"
+        },
+        {
+          "number": 18,
+          "title": "MOTIF-015 — Invented Graft: generate conditional question cartridges, test failures and meta-revision",
+          "head_branch": "research/015-invented-graft-metaprocedure",
+          "head_sha": "31b06790a3fa1a50ccf4087746b7f7b657342f59",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/014-organ-gardener-question-box",
+          "updated_at": "2026-11-05T10:52:32Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/18"
+        },
+        {
+          "number": 16,
+          "title": "MOTIF-014 — Organ Gardener: original National Treasure Question Box × Dogram method graft",
+          "head_branch": "research/014-organ-gardener-question-box",
+          "head_sha": "8b8d962ad46bf0ff8979c39dc2e0998d775cd4af",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T10:42:59Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/16"
+        },
+        {
+          "number": 10,
+          "title": "FIELD-001 — The First Real Witness: prospective OFFER × NEED field journal",
+          "head_branch": "research/field-001-real-world-witness-desk",
+          "head_sha": "a6bd72c498f308a8dbf21f65af2d126ca41f0e17",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/first-real-door-bridge-synthesis",
+          "updated_at": "2026-11-05T02:42:35Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/10"
+        },
+        {
+          "number": 9,
+          "title": "BRIDGE-001 — The First Door Foundry: emergent cooperative moves + offline field desk",
+          "head_branch": "research/first-real-door-bridge-synthesis",
+          "head_sha": "bc25f4ec1c6628845e3b5ff23f225f1c3c78b1b4",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/inquiry-smallest-key-dogram",
+          "updated_at": "2026-11-05T01:59:07Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/9"
+        },
+        {
+          "number": 7,
+          "title": "MOTIF Q-001 + SK-001 — The First Question × The Smallest Key × Dogram",
+          "head_branch": "research/inquiry-smallest-key-dogram",
+          "head_sha": "3daa17affcb629e8647f522de7a33e8e000de83e",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T01:36:03Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/7"
+        }
+      ]
+    },
+    {
       "name": "MSyoU",
       "visibility": "public",
       "default_branch": "main",
@@ -9894,6 +10718,10 @@
           "sha": "8621c46f8e4e70d7e2c09fe57a2936dcb949f6f6"
         },
         {
+          "name": "field/fellowship-dec04-two-person-001",
+          "sha": "9611323814245ad9227eeb5994347ec7c931aaa1"
+        },
+        {
           "name": "harvest/conversation-ideas-2026-10-16-001",
           "sha": "9fe64b9d48792499cfd972b9de88bf0d63268f11"
         },
@@ -9928,9 +10756,61 @@
         {
           "name": "proposal/the-garden-master-shard-001",
           "sha": "d0bcdf7d9fc40eef59deed560057c8579a69cb2a"
+        },
+        {
+          "name": "research/022-question-to-plan",
+          "sha": "8fc1c73ee804ddd2c46564b0ad422baca3693a4e"
+        },
+        {
+          "name": "research/023-observation-replanning",
+          "sha": "a36ab06e2ac151a03b769bad9162a61946430270"
+        },
+        {
+          "name": "research/motif021-classical-plan",
+          "sha": "b4c954c628991acc9d9f41cd42c2b1951bc5855c"
         }
       ],
       "open_prs": [
+        {
+          "number": 45,
+          "title": "planZ-023 — Classical source-observation planning and feedback replanning",
+          "head_branch": "research/023-observation-replanning",
+          "head_sha": "a36ab06e2ac151a03b769bad9162a61946430270",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "research/022-question-to-plan",
+          "updated_at": "2026-11-05T14:24:11Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/45"
+        },
+        {
+          "number": 44,
+          "title": "planZ-022 — Optimize a new question into a held classical inquiry plan",
+          "head_branch": "research/022-question-to-plan",
+          "head_sha": "8fc1c73ee804ddd2c46564b0ad422baca3693a4e",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "research/motif021-classical-plan",
+          "updated_at": "2026-11-05T13:55:07Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/44"
+        },
+        {
+          "number": 43,
+          "title": "FELLOWSHIP-001: December 4 two-person operating kit and owner-reported readiness",
+          "head_branch": "field/fellowship-dec04-two-person-001",
+          "head_sha": "9611323814245ad9227eeb5994347ec7c931aaa1",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T13:40:15Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/43"
+        },
+        {
+          "number": 42,
+          "title": "planZ MOTIF-021 — executable classical source-to-capability review plan",
+          "head_branch": "research/motif021-classical-plan",
+          "head_sha": "b4c954c628991acc9d9f41cd42c2b1951bc5855c",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T13:16:31Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/42"
+        },
         {
           "number": 41,
           "title": "PLANZ-MINUTE-001 — adapt creative plans to an untried objective, advancing only after real owner evidence",
@@ -10619,6 +11499,18 @@
           "sha": "4affa111c367e50dc3dfcce45e5334931f9b9ca6"
         },
         {
+          "name": "experiment/lantern-014-public-pages",
+          "sha": "bb7ee361e7e64a67dd2d121eb143a6782607adee"
+        },
+        {
+          "name": "experiment/lantern-015-connected-capability-bridge",
+          "sha": "3b0d37bd785a0e6d3e1e8735b03dc8df51889722"
+        },
+        {
+          "name": "experiment/lantern-015-connected-registry",
+          "sha": "5b44ac654bcddacf76f26e6d779a50bbc8c80246"
+        },
+        {
           "name": "experiment/lantern-commons-002-living-society",
           "sha": "c4982fa720b1c632fbad4bf5fc1aedd05be977c4"
         },
@@ -10675,8 +11567,24 @@
           "sha": "a52166b6fe42b1efd09428ef511820d20a47c045"
         },
         {
+          "name": "experiment/lantern-commons-015-connected-jarvis",
+          "sha": "74cacd1528eabf3bd00b0a632c13f6394cbbf317"
+        },
+        {
           "name": "experiment/manga-parcel-001",
           "sha": "d208d98bd88194cbd42c90379816b1167248595f"
+        },
+        {
+          "name": "experiment/minecraft-010-compressed-sensor",
+          "sha": "991d8e10a84b830f277a31d7feec8f1f4c2c09bd"
+        },
+        {
+          "name": "experiment/motif-instrument-garden-minecraft-008",
+          "sha": "ecf7a252099bde36ee649679f27cc8715a1478a2"
+        },
+        {
+          "name": "experiment/motif-minecraft-009-native-observation-return",
+          "sha": "991d8e10a84b830f277a31d7feec8f1f4c2c09bd"
         },
         {
           "name": "experiment/paperchain-seed-vault-001",
@@ -10803,6 +11711,46 @@
           "sha": "540da48104a8a76a87f2acefd60df00ffa76237c"
         },
         {
+          "name": "experiment/spawn-017-one-operator-many-hats",
+          "sha": "12c62c99e40dddd7c247c75e5f38e3e2b66897da"
+        },
+        {
+          "name": "experiment/spawn-018-gleaning-world-builder",
+          "sha": "39df14d9afeb498670132695b78f9f5b9a5de7bd"
+        },
+        {
+          "name": "experiment/spawn-019-maximum-reach",
+          "sha": "b80f875a4d568fbd4e0da1d27d1762605dedc0e0"
+        },
+        {
+          "name": "experiment/spawn-020-imagination-loom",
+          "sha": "340f056ce8bec9d678d288f4df4840f541f00b1d"
+        },
+        {
+          "name": "experiment/spawn-021-learning-loom",
+          "sha": "4ec8f1d8dc193b0383ed5dcd604d78a3216159fe"
+        },
+        {
+          "name": "experiment/spawn-022-evolutionary-world-cartridges",
+          "sha": "36b2a83f7bd0d8c34963a7a140531a2268575a54"
+        },
+        {
+          "name": "experiment/spawn-023-permissioned-crossings",
+          "sha": "fd854fe693933aa15bea36268041ed3fc0cd0732"
+        },
+        {
+          "name": "experiment/spawn-024-relay-discovery",
+          "sha": "a1af3d7bd5a7c5b7e43d87ec788612cd942675df"
+        },
+        {
+          "name": "experiment/spawn-025-solo-executor-connector-bridge",
+          "sha": "42b4b34561b5e2383a8c277713efc1d9f61336a9"
+        },
+        {
+          "name": "experiment/spawn-026-deep-glean-discovery",
+          "sha": "133b597e7b018006d0da68a781f9d4f59e40867d"
+        },
+        {
           "name": "experiment/supabardo-independent-verifier-001",
           "sha": "65294f135260ee48b38829f698598dfe3478b0e7"
         },
@@ -10867,6 +11815,10 @@
           "sha": "c0e59dfa361e91ef6c886ae0bd9a25752c2aa293"
         },
         {
+          "name": "feat/any-invitation-cartridge-001",
+          "sha": "7204239241809d589fc3ab4054fc6b657205f1b7"
+        },
+        {
           "name": "feat/automatic-failover-001",
           "sha": "19f394883af29122e92658413110be47f5bc7eb9"
         },
@@ -10881,6 +11833,10 @@
         {
           "name": "feat/capability-kernel-two-worlds-001",
           "sha": "08b45ed4b5a62714c197942438ec2c9fc4d62571"
+        },
+        {
+          "name": "feat/capability-passport-v1",
+          "sha": "81de4b92d0a9b5f7661594c5147ab95d8869dd51"
         },
         {
           "name": "feat/carry-card-hostile-001",
@@ -11080,7 +12036,7 @@
         },
         {
           "name": "main",
-          "sha": "b4e54c09828e260275c857ff7b5570a8fdd78ede"
+          "sha": "d2f18b0a26d177c76ebfe45edcf93aa60c10fd49"
         },
         {
           "name": "mirror-store-serve-001",
@@ -11132,6 +12088,176 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 177,
+          "title": "Minecraft 009: MOTIF's new instrument measured 3/9 lamps in real vanilla world; signed return and learning",
+          "head_branch": "experiment/motif-minecraft-009-native-observation-return",
+          "head_sha": "991d8e10a84b830f277a31d7feec8f1f4c2c09bd",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/motif-instrument-garden-minecraft-008",
+          "updated_at": "2026-11-05T14:53:58Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/177"
+        },
+        {
+          "number": 176,
+          "title": "reLATTE Minecraft 008: MOTIF-designed instrument from signed two-world history",
+          "head_branch": "experiment/motif-instrument-garden-minecraft-008",
+          "head_sha": "ecf7a252099bde36ee649679f27cc8715a1478a2",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/riff-raft-minecraft-007-two-custodians",
+          "updated_at": "2026-11-05T14:25:15Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/176"
+        },
+        {
+          "number": 175,
+          "title": "SPAWN 026 — Local Deep Glean index",
+          "head_branch": "experiment/spawn-026-deep-glean-discovery",
+          "head_sha": "133b597e7b018006d0da68a781f9d4f59e40867d",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/spawn-025-solo-executor-connector-bridge",
+          "updated_at": "2026-11-05T00:51:46Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/175"
+        },
+        {
+          "number": 174,
+          "title": "SPAWN 025 — Solo Commons Executor + scoped Google Drive/GitHub provider bridge",
+          "head_branch": "experiment/spawn-025-solo-executor-connector-bridge",
+          "head_sha": "42b4b34561b5e2383a8c277713efc1d9f61336a9",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/spawn-024-relay-discovery",
+          "updated_at": "2026-11-05T00:21:12Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/174"
+        },
+        {
+          "number": 173,
+          "title": "SPAWN 024 — Opt-in signed reLATTE relay: discover, negotiate and confirm across independent world cartridges",
+          "head_branch": "experiment/spawn-024-relay-discovery",
+          "head_sha": "a1af3d7bd5a7c5b7e43d87ec788612cd942675df",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/spawn-023-permissioned-crossings",
+          "updated_at": "2026-11-04T23:15:43Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/173"
+        },
+        {
+          "number": 172,
+          "title": "SPAWN 023 — reLATTE permissioned crossing between independent world cartridges",
+          "head_branch": "experiment/spawn-023-permissioned-crossings",
+          "head_sha": "fd854fe693933aa15bea36268041ed3fc0cd0732",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/spawn-022-evolutionary-world-cartridges",
+          "updated_at": "2026-11-04T22:57:01Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/172"
+        },
+        {
+          "number": 171,
+          "title": "SPAWN 022 — Evolutionary Worlds: playable self-contained world cartridges",
+          "head_branch": "experiment/spawn-022-evolutionary-world-cartridges",
+          "head_sha": "36b2a83f7bd0d8c34963a7a140531a2268575a54",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/spawn-021-learning-loom",
+          "updated_at": "2026-11-04T22:05:18Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/171"
+        },
+        {
+          "number": 170,
+          "title": "SPAWN 021 — Learning Loom: evidence-conditioned imagination and operator-authored rules",
+          "head_branch": "experiment/spawn-021-learning-loom",
+          "head_sha": "4ec8f1d8dc193b0383ed5dcd604d78a3216159fe",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/spawn-020-imagination-loom",
+          "updated_at": "2026-11-04T21:33:52Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/170"
+        },
+        {
+          "number": 169,
+          "title": "SPAWN 020 — Imagination Loom: combinatorial possibility search and reality tests",
+          "head_branch": "experiment/spawn-020-imagination-loom",
+          "head_sha": "340f056ce8bec9d678d288f4df4840f541f00b1d",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/spawn-019-maximum-reach",
+          "updated_at": "2026-11-04T21:07:47Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/169"
+        },
+        {
+          "number": 168,
+          "title": "SPAWN 019 — smallest necessary step × largest responsible reachable action",
+          "head_branch": "experiment/spawn-019-maximum-reach",
+          "head_sha": "b80f875a4d568fbd4e0da1d27d1762605dedc0e0",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/spawn-018-gleaning-world-builder",
+          "updated_at": "2026-11-04T20:12:12Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/168"
+        },
+        {
+          "number": 167,
+          "title": "SPAWN 018 — Gleaning Engine: smallest materials, one-person world-building",
+          "head_branch": "experiment/spawn-018-gleaning-world-builder",
+          "head_sha": "39df14d9afeb498670132695b78f9f5b9a5de7bd",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/spawn-017-one-operator-many-hats",
+          "updated_at": "2026-11-04T19:53:36Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/167"
+        },
+        {
+          "number": 166,
+          "title": "SPAWN 017 — one person, many hats, forkable offline operator",
+          "head_branch": "experiment/spawn-017-one-operator-many-hats",
+          "head_sha": "12c62c99e40dddd7c247c75e5f38e3e2b66897da",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/lantern-015-connected-registry",
+          "updated_at": "2026-11-04T19:36:49Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/166"
+        },
+        {
+          "number": 165,
+          "title": "LANTERN 015 + Commons Desk 002 — JAR;VIS real human-first integrations",
+          "head_branch": "experiment/lantern-015-connected-registry",
+          "head_sha": "5b44ac654bcddacf76f26e6d779a50bbc8c80246",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/lantern-014-public-pages",
+          "updated_at": "2026-11-04T17:50:52Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/165"
+        },
+        {
+          "number": 164,
+          "title": "LANTERN 015 — VERIFIED LIVE: JAR;VIS reads real GitHub machinery and CI, with zero private-task transmission",
+          "head_branch": "experiment/lantern-015-connected-capability-bridge",
+          "head_sha": "3b0d37bd785a0e6d3e1e8735b03dc8df51889722",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/lantern-commons-014-solo-desk",
+          "updated_at": "2026-11-04T16:55:36Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/164"
+        },
+        {
+          "number": 163,
+          "title": "LANTERN 015 — VERIFIED LIVE: connected JAR;VIS source execution + GitHub capability registry + local audio capture",
+          "head_branch": "experiment/lantern-commons-015-connected-jarvis",
+          "head_sha": "74cacd1528eabf3bd00b0a632c13f6394cbbf317",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/lantern-commons-014-solo-desk",
+          "updated_at": "2026-11-04T16:51:49Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/163"
+        },
+        {
+          "number": 161,
+          "title": "Capability passport: signed receiver and consent-aware COMMUTER boundaries",
+          "head_branch": "feat/capability-passport-v1",
+          "head_sha": "81de4b92d0a9b5f7661594c5147ab95d8869dd51",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-11-04T16:20:33Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/161"
+        },
+        {
+          "number": 160,
+          "title": "LANTERN 014 LIVE — Free GitHub Pages hosting with site-safety checks and verified public HTTPS",
+          "head_branch": "experiment/lantern-014-public-pages",
+          "head_sha": "bb7ee361e7e64a67dd2d121eb143a6782607adee",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/lantern-commons-014-solo-desk",
+          "updated_at": "2026-11-04T16:19:06Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/160"
+        },
         {
           "number": 158,
           "title": "LANTERN 014 — VERIFIED: JAR;VIS Step 03 offers four actions it can actually execute offline",
@@ -20205,6 +21331,10 @@
           "sha": "1617369bc105ec065c2ec917298ea5381647cc43"
         },
         {
+          "name": "campaign/first-50-circulation-005",
+          "sha": "5eeddc3bef9a3d1439a93fbe07ea3f01eff0c686"
+        },
+        {
           "name": "design/webz-maxhinal-porch-001",
           "sha": "b487aab92a8a2a572001cd91424a81b3a14abce9"
         },
@@ -20489,6 +21619,10 @@
           "sha": "87c55333db9f6a0c3598cb6f9a6086a4cca52465"
         },
         {
+          "name": "feat/any-invitation-chain-001",
+          "sha": "0c925f41398f22a85909b6828949dfab232e0d3c"
+        },
+        {
           "name": "feat/banana-pocket-seat-return-001",
           "sha": "0469c940f5116e4cc855a023a75294d5bb45ef69"
         },
@@ -20517,6 +21651,18 @@
           "sha": "3f074ff68f8f9e1c6c1a7eef33ad7e9e24417c6b"
         },
         {
+          "name": "feat/capability-passport-v1",
+          "sha": "17722ccb6df4000fa08ae3ea325d0b843e99897a"
+        },
+        {
+          "name": "feat/commons-self-play-001",
+          "sha": "d507b9ccc653709d55fb0d16654621016d608629"
+        },
+        {
+          "name": "feat/commons-self-play-002-evolution",
+          "sha": "a89ba45c864323480b2faf0aa12be794cc8e188a"
+        },
+        {
           "name": "feat/first-encounter-002",
           "sha": "8153c60393e4e206160b284082f7eb3161d3f379"
         },
@@ -20533,8 +21679,16 @@
           "sha": "8be2e6b3d9990ffaaca2f5b9f6f10395fee9af81"
         },
         {
+          "name": "feat/invitation-network-002-public-threads",
+          "sha": "4e0211a80a10e2bfa67e9a2827cf7575cfef2925"
+        },
+        {
           "name": "feat/live-offer-001-now-first",
           "sha": "57e4359c909e5702bc4b9696c1caa91f3622446f"
+        },
+        {
+          "name": "feat/living-commons-solo-lab-001",
+          "sha": "e01ac981d2ce8cfda316a1f0d34db77c4383da47"
         },
         {
           "name": "feat/living-inbox-002",
@@ -21022,7 +22176,7 @@
         },
         {
           "name": "main",
-          "sha": "ba32961e7be172e364be4ffa803ad047e2469970"
+          "sha": "09bf8711c12346aafb1fae7585231189a3b5db74"
         },
         {
           "name": "ops/pages-domain-verification-20261027",
@@ -21113,6 +22267,10 @@
           "sha": "789fd8dc434e869b3298628bcdba55ba7bf43095"
         },
         {
+          "name": "ux/invite-publication-bridge-003",
+          "sha": "b85a578fe0bca4c6df06c67d32f3e59b0d303901"
+        },
+        {
           "name": "ux/jubilee-role-buttons-003",
           "sha": "f4d5b420589c63cc88c3445d6a675b2558e8113a"
         },
@@ -21122,6 +22280,56 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 256,
+          "title": "COMMONS SELF-PLAY 002 — evolving seeded societies without recruiting humans",
+          "head_branch": "feat/commons-self-play-002-evolution",
+          "head_sha": "a89ba45c864323480b2faf0aa12be794cc8e188a",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feat/commons-self-play-001",
+          "updated_at": "2026-11-04T19:09:58Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/256"
+        },
+        {
+          "number": 255,
+          "title": "COMMONS SELF-PLAY 001 — Minecraft-inspired forked micro-society",
+          "head_branch": "feat/commons-self-play-001",
+          "head_sha": "d507b9ccc653709d55fb0d16654621016d608629",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "feat/living-commons-solo-lab-001",
+          "updated_at": "2026-11-04T18:55:19Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/255"
+        },
+        {
+          "number": 253,
+          "title": "LIVING COMMONS SOLO LAB 001 — exercise exchanges without other people",
+          "head_branch": "feat/living-commons-solo-lab-001",
+          "head_sha": "e01ac981d2ce8cfda316a1f0d34db77c4383da47",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-11-04T18:18:59Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/253"
+        },
+        {
+          "number": 252,
+          "title": "INVITATION 003 — make persistent publication unmistakable and discoverable",
+          "head_branch": "ux/invite-publication-bridge-003",
+          "head_sha": "b85a578fe0bca4c6df06c67d32f3e59b0d303901",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-11-04T17:39:46Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/252"
+        },
+        {
+          "number": 249,
+          "title": "Human First 006: discover source-owned capability passports in the first conversation",
+          "head_branch": "feat/capability-passport-v1",
+          "head_sha": "17722ccb6df4000fa08ae3ea325d0b843e99897a",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-11-04T16:21:14Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/249"
+        },
         {
           "number": 237,
           "title": "HUMAN ENTRY 001 — Five Empty Chairs: offline consent-gated activity proof",
@@ -23020,7 +24228,7 @@
         },
         {
           "name": "main",
-          "sha": "f61ee43424c337ed95f34db37b56341e4dfe188a"
+          "sha": "8cc3e5d6c3c03616c04aef42e81e9cda300ae6bd"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -23479,5 +24687,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-04T15:24:50+00:00"
+  "captured_at": "2026-11-05T15:27:31+00:00"
 }
