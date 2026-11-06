@@ -213,12 +213,14 @@ Default: `main` · other refs: 4 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/free-graph) · [Branches](https://github.com/the-static-collective/free-graph/branches) · [Pull requests](https://github.com/the-static-collective/free-graph/pulls)
 
-Default: `main` · other refs: 6 · open PRs: 1
+Default: `main` · other refs: 8 · open PRs: 3
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#21](https://github.com/the-static-collective/free-graph/pull/21) | REASON-SPACE-002: graph-native investigative selection, historical reuse, optional LSD divergence | `experiment/reason-space-002-selectors-lsd` → `experiment/reason-space-001-motif-trails` | 2026-11-05 |
+| [#20](https://github.com/the-static-collective/free-graph/pull/20) | Free Graph REASON-SPACE-001: abstract, source-pinned MOTIF reasoning trails and graph-native question pressure | `experiment/reason-space-001-motif-trails` → `main` | 2026-11-05 |
 | [#19](https://github.com/the-static-collective/free-graph/pull/19) | RELAY-001 sixth organ: native SIA provenance graph and bounded traversal | `experiment/relay001-sia-traversal` → `main` | 2026-10-13 |
 
 ### Retained nondefault branches
@@ -228,6 +230,8 @@ Default: `main` · other refs: 6 · open PRs: 1
 | [agent/body-emergence-001](https://github.com/the-static-collective/free-graph/tree/agent/body-emergence-001) | [1a361cf026](https://github.com/the-static-collective/free-graph/commit/1a361cf026b6953cce7412edeb3e99dcde4e842d) | Retained ref; disposition unverified |
 | [agent/skyslicey72](https://github.com/the-static-collective/free-graph/tree/agent/skyslicey72) | [7abf873831](https://github.com/the-static-collective/free-graph/commit/7abf8738310464629bc2bc98279a077a6e0a65e5) | Retained ref; disposition unverified |
 | [docs/relational-coordinate-v0](https://github.com/the-static-collective/free-graph/tree/docs/relational-coordinate-v0) | [fcd85804b6](https://github.com/the-static-collective/free-graph/commit/fcd85804b6284c7955eb60642d31b82930cae0d7) | Retained ref; disposition unverified |
+| [experiment/reason-space-001-motif-trails](https://github.com/the-static-collective/free-graph/tree/experiment/reason-space-001-motif-trails) | [a74d018a4e](https://github.com/the-static-collective/free-graph/commit/a74d018a4ebc7398733e5d98da8f7d389621fb9a) | [open PR #20](https://github.com/the-static-collective/free-graph/pull/20) |
+| [experiment/reason-space-002-selectors-lsd](https://github.com/the-static-collective/free-graph/tree/experiment/reason-space-002-selectors-lsd) | [76ddfbcde0](https://github.com/the-static-collective/free-graph/commit/76ddfbcde03bc6f464f5d27812a707fa5a0f5c9f) | [open PR #21](https://github.com/the-static-collective/free-graph/pull/21) |
 | [experiment/relay001-sia-traversal](https://github.com/the-static-collective/free-graph/tree/experiment/relay001-sia-traversal) | [fce3634baf](https://github.com/the-static-collective/free-graph/commit/fce3634baf2ac127695271671e3571ab54a9d92d) | [open PR #19](https://github.com/the-static-collective/free-graph/pull/19) |
 | [feat/free-graph-v0](https://github.com/the-static-collective/free-graph/tree/feat/free-graph-v0) | [826c6b06e2](https://github.com/the-static-collective/free-graph/commit/826c6b06e2835bc4cd84a5ae992644deb030ea70) | Retained ref; disposition unverified |
 | [feat/promotion-crucible-v0](https://github.com/the-static-collective/free-graph/tree/feat/promotion-crucible-v0) | [23c72ba2aa](https://github.com/the-static-collective/free-graph/commit/23c72ba2aa162be17717eee0ca0970a04672121a) | Retained ref; disposition unverified |
@@ -598,12 +602,14 @@ Default: `main` · other refs: 187 · open PRs: 58
 
 [Repository](https://github.com/the-static-collective/ALEX.2) · [Branches](https://github.com/the-static-collective/ALEX.2/branches) · [Pull requests](https://github.com/the-static-collective/ALEX.2/pulls)
 
-Default: `main` · other refs: 90 · open PRs: 33
+Default: `main` · other refs: 92 · open PRs: 35
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#157](https://github.com/the-static-collective/ALEX.2/pull/157) | ALEX-026 — Discovery of Discovery: look for unknown public API providers in source-pinned OpenAPI specs | `research/026-provider-genealogy` → `research/025-provider-routing-public` | 2026-11-05 |
+| [#156](https://github.com/the-static-collective/ALEX.2/pull/156) | ALEX-025 — Eagle Eye learns where to look: local provider routing and four new public indexes | `research/025-provider-routing-public` → `research/024-eagle-eye-public-discovery` | 2026-11-05 |
 | [#155](https://github.com/the-static-collective/ALEX.2/pull/155) | ALEX-024 — Eagle Eye: broad public repository discovery plus opt-in research indexes | `research/024-eagle-eye-public-discovery` → `research/023-public-source-observations` | 2026-11-05 |
 | [#154](https://github.com/the-static-collective/ALEX.2/pull/154) | ALEX-023 — Live, public-only source collections for new questions | `research/023-public-source-observations` → `research/022-inquiry-from-question` | 2026-11-05 |
 | [#153](https://github.com/the-static-collective/ALEX.2/pull/153) | ALEX-022 — Dynamic question-to-pinned-source research packets | `research/022-inquiry-from-question` → `research/motif021-evidence-search` | 2026-11-05 |
@@ -707,6 +713,8 @@ Default: `main` · other refs: 90 · open PRs: 33
 | [research/022-inquiry-from-question](https://github.com/the-static-collective/ALEX.2/tree/research/022-inquiry-from-question) | [46041203f9](https://github.com/the-static-collective/ALEX.2/commit/46041203f90d4cc2976f9e2a16d3d55fd68b5748) | [open PR #153](https://github.com/the-static-collective/ALEX.2/pull/153) |
 | [research/023-public-source-observations](https://github.com/the-static-collective/ALEX.2/tree/research/023-public-source-observations) | [e678b0a059](https://github.com/the-static-collective/ALEX.2/commit/e678b0a0596a6391f92e18b6b8135477ad49658d) | [open PR #154](https://github.com/the-static-collective/ALEX.2/pull/154) |
 | [research/024-eagle-eye-public-discovery](https://github.com/the-static-collective/ALEX.2/tree/research/024-eagle-eye-public-discovery) | [1e09adbea4](https://github.com/the-static-collective/ALEX.2/commit/1e09adbea42809a90a61aaf5fa38a52081de1637) | [open PR #155](https://github.com/the-static-collective/ALEX.2/pull/155) |
+| [research/025-provider-routing-public](https://github.com/the-static-collective/ALEX.2/tree/research/025-provider-routing-public) | [439188919b](https://github.com/the-static-collective/ALEX.2/commit/439188919bcc97f8d8655f63a6f04595210e9995) | [open PR #156](https://github.com/the-static-collective/ALEX.2/pull/156) |
+| [research/026-provider-genealogy](https://github.com/the-static-collective/ALEX.2/tree/research/026-provider-genealogy) | [db5be0ceb4](https://github.com/the-static-collective/ALEX.2/commit/db5be0ceb42ea736db08599c174959ec3d67bb03) | [open PR #157](https://github.com/the-static-collective/ALEX.2/pull/157) |
 | [research/co-phase-relation-001](https://github.com/the-static-collective/ALEX.2/tree/research/co-phase-relation-001) | [4a3dfe7da9](https://github.com/the-static-collective/ALEX.2/commit/4a3dfe7da92f6162abdf8f7dc8a3638f19890fa6) | Retained ref; disposition unverified |
 | [research/darkness-visible-wtc-corkboard-001](https://github.com/the-static-collective/ALEX.2/tree/research/darkness-visible-wtc-corkboard-001) | [d6a044d438](https://github.com/the-static-collective/ALEX.2/commit/d6a044d438263a13faf94ee2aa5433ecb4dbe723) | [open PR #97](https://github.com/the-static-collective/ALEX.2/pull/97) |
 | [research/decoder-as-probe-2026-08-28](https://github.com/the-static-collective/ALEX.2/tree/research/decoder-as-probe-2026-08-28) | [514378b2e3](https://github.com/the-static-collective/ALEX.2/commit/514378b2e3f77d82c561b7ab83626907a92c9efb) | [open PR #24](https://github.com/the-static-collective/ALEX.2/pull/24) |

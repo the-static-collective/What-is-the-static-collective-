@@ -484,6 +484,14 @@
           "sha": "1e09adbea42809a90a61aaf5fa38a52081de1637"
         },
         {
+          "name": "research/025-provider-routing-public",
+          "sha": "439188919bcc97f8d8655f63a6f04595210e9995"
+        },
+        {
+          "name": "research/026-provider-genealogy",
+          "sha": "db5be0ceb42ea736db08599c174959ec3d67bb03"
+        },
+        {
           "name": "research/co-phase-relation-001",
           "sha": "4a3dfe7da92f6162abdf8f7dc8a3638f19890fa6"
         },
@@ -585,6 +593,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 157,
+          "title": "ALEX-026 — Discovery of Discovery: look for unknown public API providers in source-pinned OpenAPI specs",
+          "head_branch": "research/026-provider-genealogy",
+          "head_sha": "db5be0ceb42ea736db08599c174959ec3d67bb03",
+          "head_repo": "the-static-collective/ALEX.2",
+          "base_branch": "research/025-provider-routing-public",
+          "updated_at": "2026-11-05T16:07:58Z",
+          "url": "https://github.com/the-static-collective/ALEX.2/pull/157"
+        },
+        {
+          "number": 156,
+          "title": "ALEX-025 — Eagle Eye learns where to look: local provider routing and four new public indexes",
+          "head_branch": "research/025-provider-routing-public",
+          "head_sha": "439188919bcc97f8d8655f63a6f04595210e9995",
+          "head_repo": "the-static-collective/ALEX.2",
+          "base_branch": "research/024-eagle-eye-public-discovery",
+          "updated_at": "2026-11-05T15:41:58Z",
+          "url": "https://github.com/the-static-collective/ALEX.2/pull/156"
+        },
         {
           "number": 155,
           "title": "ALEX-024 — Eagle Eye: broad public repository discovery plus opt-in research indexes",
@@ -1445,6 +1473,30 @@
           "sha": "edf95984c71f9a940d1dcb312e9c84b3e0d4cdcc"
         },
         {
+          "name": "experiment/cannon-094-graft-new-grammar-review",
+          "sha": "03f8c012b3d6eb48ed821a2be25aa5fd6a48970c"
+        },
+        {
+          "name": "experiment/cannon-095-visual-imagination-review",
+          "sha": "3f2210ba6272a9538843d093edb64d1b29d2f294"
+        },
+        {
+          "name": "experiment/cannon-096-motif-source-dependency-review",
+          "sha": "74271370acf57e3e9b0dcab27336abcfd4c68e55"
+        },
+        {
+          "name": "experiment/cannon-097-hidden-origin-inference-review",
+          "sha": "788739025352b89d57928bf145953befe3db6a37"
+        },
+        {
+          "name": "experiment/cannon-098-missing-world-source-review",
+          "sha": "bad1f9097966aeaa861385aab0933cc48f9aa016"
+        },
+        {
+          "name": "experiment/cannon-graft027-new-motif-organ-review",
+          "sha": "0fd326c1bb6f222dc572a4877818d63881828801"
+        },
+        {
           "name": "experiment/canon-crossing-002",
           "sha": "0b7cafb066ca51a54d87df9f7198ab18f45e73d9"
         },
@@ -1657,6 +1709,10 @@
           "sha": "9101b76f1387389300e070f3a6851df75269f39f"
         },
         {
+          "name": "experiment/motif-door-first-branch-native-selection-001",
+          "sha": "ce54c67f5e830b32a6e754c22da4a1acd51418c0"
+        },
+        {
           "name": "experiment/one-invention-plan-return-006",
           "sha": "f9ab8a5dfeee8e383d622d5a17a1f9311f7ae9ad"
         },
@@ -1778,6 +1834,76 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 98,
+          "title": "CANNON-098: independently verify held new world model and old closed-world counterproof",
+          "head_branch": "experiment/cannon-098-missing-world-source-review",
+          "head_sha": "bad1f9097966aeaa861385aab0933cc48f9aa016",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/cannon-097-hidden-origin-inference-review",
+          "updated_at": "2026-11-06T09:45:06Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/98"
+        },
+        {
+          "number": 97,
+          "title": "CANNON-097: independently verify hidden-source latent Bayes and false-positive controls",
+          "head_branch": "experiment/cannon-097-hidden-origin-inference-review",
+          "head_sha": "788739025352b89d57928bf145953befe3db6a37",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/cannon-096-motif-source-dependency-review",
+          "updated_at": "2026-11-06T08:39:32Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/97"
+        },
+        {
+          "number": 96,
+          "title": "CANNON-096: independently reject repeated source echoes as separate evidence",
+          "head_branch": "experiment/cannon-096-motif-source-dependency-review",
+          "head_sha": "74271370acf57e3e9b0dcab27336abcfd4c68e55",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/cannon-095-visual-imagination-review",
+          "updated_at": "2026-11-06T07:29:26Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/96"
+        },
+        {
+          "number": 95,
+          "title": "CANNON-095: verify actual PNG image-in and independently test GRAFT-born visual operator",
+          "head_branch": "experiment/cannon-095-visual-imagination-review",
+          "head_sha": "3f2210ba6272a9538843d093edb64d1b29d2f294",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/cannon-094-graft-new-grammar-review",
+          "updated_at": "2026-11-05T23:20:10Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/95"
+        },
+        {
+          "number": 94,
+          "title": "CANNON-094: source-verify GRAFT-born new graph operator against original MOTIF impossibility",
+          "head_branch": "experiment/cannon-094-graft-new-grammar-review",
+          "head_sha": "03f8c012b3d6eb48ed821a2be25aa5fd6a48970c",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/cannon-graft027-new-motif-organ-review",
+          "updated_at": "2026-11-05T22:49:25Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/94"
+        },
+        {
+          "number": 93,
+          "title": "CANNON-093: independently verify a genuine GRAFT-generated new MOTIF operator",
+          "head_branch": "experiment/cannon-graft027-new-motif-organ-review",
+          "head_sha": "0fd326c1bb6f222dc572a4877818d63881828801",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/motif-door-first-branch-native-selection-001",
+          "updated_at": "2026-11-05T19:47:57Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/93"
+        },
+        {
+          "number": 92,
+          "title": "CANNON × MOTIF: independently select and replay an unmerged Door Foundry",
+          "head_branch": "experiment/motif-door-first-branch-native-selection-001",
+          "head_sha": "ce54c67f5e830b32a6e754c22da4a1acd51418c0",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T18:43:39Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/92"
+        },
         {
           "number": 91,
           "title": "FIRST-KNOCK-001 — one human sentence → offline printable card (no contact claims)",
@@ -4308,6 +4434,14 @@
           "sha": "fcd85804b6284c7955eb60642d31b82930cae0d7"
         },
         {
+          "name": "experiment/reason-space-001-motif-trails",
+          "sha": "a74d018a4ebc7398733e5d98da8f7d389621fb9a"
+        },
+        {
+          "name": "experiment/reason-space-002-selectors-lsd",
+          "sha": "76ddfbcde03bc6f464f5d27812a707fa5a0f5c9f"
+        },
+        {
           "name": "experiment/relay001-sia-traversal",
           "sha": "fce3634baf2ac127695271671e3571ab54a9d92d"
         },
@@ -4325,6 +4459,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 21,
+          "title": "REASON-SPACE-002: graph-native investigative selection, historical reuse, optional LSD divergence",
+          "head_branch": "experiment/reason-space-002-selectors-lsd",
+          "head_sha": "76ddfbcde03bc6f464f5d27812a707fa5a0f5c9f",
+          "head_repo": "the-static-collective/free-graph",
+          "base_branch": "experiment/reason-space-001-motif-trails",
+          "updated_at": "2026-11-05T23:20:00Z",
+          "url": "https://github.com/the-static-collective/free-graph/pull/21"
+        },
+        {
+          "number": 20,
+          "title": "Free Graph REASON-SPACE-001: abstract, source-pinned MOTIF reasoning trails and graph-native question pressure",
+          "head_branch": "experiment/reason-space-001-motif-trails",
+          "head_sha": "a74d018a4ebc7398733e5d98da8f7d389621fb9a",
+          "head_repo": "the-static-collective/free-graph",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T21:53:52Z",
+          "url": "https://github.com/the-static-collective/free-graph/pull/20"
+        },
         {
           "number": 19,
           "title": "RELAY-001 sixth organ: native SIA provenance graph and bounded traversal",
@@ -4944,6 +5098,10 @@
           "sha": "1517d2ac822ed1e6cfa30320a0f1e4574b6b0e55"
         },
         {
+          "name": "experiment/ghot-goal-aware-inquiry-004",
+          "sha": "f6a36f5c9d8b567a69ead04ccf7641cba338a7f3"
+        },
+        {
           "name": "experiment/ghot-network-inquiry-002",
           "sha": "3029ef5870a60df6edbbe0eff6ca49f7bdf7146b"
         },
@@ -5277,6 +5435,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 138,
+          "title": "GHoT-004: actual cost of knowing when to stop asking",
+          "head_branch": "experiment/ghot-goal-aware-inquiry-004",
+          "head_sha": "f6a36f5c9d8b567a69ead04ccf7641cba338a7f3",
+          "head_repo": "the-static-collective/GHoT",
+          "base_branch": "experiment/ghot-conditional-inquiry-003",
+          "updated_at": "2026-11-05T15:52:44Z",
+          "url": "https://github.com/the-static-collective/GHoT/pull/138"
+        },
         {
           "number": 137,
           "title": "GHoT-003: actually stop when a public source gives enough evidence",
@@ -6702,6 +6870,10 @@
       "archived": false,
       "branches": [
         {
+          "name": "experiment/graft-031-out-of-support-world-model",
+          "sha": "8a4e85e2de9bdfdf74cd5bebd95fbab7cf11ab36"
+        },
+        {
           "name": "feature/commons-approved-feed-001",
           "sha": "9f32b0e1551fe1e853b5f82ecd8f16d0d5ee3f6a"
         },
@@ -6712,6 +6884,26 @@
         {
           "name": "graft/023-observation-composed-capability",
           "sha": "9d02b83bc259ee0eaa68d4e6da7b526d9afc8ee4"
+        },
+        {
+          "name": "graft/026-discovered-adapter",
+          "sha": "bbf053c1f517b38acb77c48af5c490f774b5a0be"
+        },
+        {
+          "name": "graft/027-capability-gardener",
+          "sha": "6ff59aead0296081e1547d8107e4b6f06ea2381e"
+        },
+        {
+          "name": "graft/028-experience-memory",
+          "sha": "54063332f0370fbd302a2354e71d08526d41afba"
+        },
+        {
+          "name": "graft/029-missing-operator-family",
+          "sha": "5023b594b0daa4f0328d01643a7f258b71f60bb9"
+        },
+        {
+          "name": "graft/030-visual-transition-grammar",
+          "sha": "0347c492c5e517788c0cbd87ee6f57aef3ce2a81"
         },
         {
           "name": "graft/autodisco-video-receipt",
@@ -6863,6 +7055,66 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 27,
+          "title": "GRAFT-031: synthesize a held environmental model when the old image grammar is impossible",
+          "head_branch": "experiment/graft-031-out-of-support-world-model",
+          "head_sha": "8a4e85e2de9bdfdf74cd5bebd95fbab7cf11ab36",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "graft/030-visual-transition-grammar",
+          "updated_at": "2026-11-06T09:29:25Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/27"
+        },
+        {
+          "number": 26,
+          "title": "GRAFT-030: source-own a new visual transition grammar from image-difference evidence",
+          "head_branch": "graft/030-visual-transition-grammar",
+          "head_sha": "0347c492c5e517788c0cbd87ee6f57aef3ce2a81",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "graft/029-missing-operator-family",
+          "updated_at": "2026-11-05T23:15:47Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/26"
+        },
+        {
+          "number": 25,
+          "title": "GRAFT-029 — generate a missing typed graph-operator family from MOTIF impossibility inquiry",
+          "head_branch": "graft/029-missing-operator-family",
+          "head_sha": "5023b594b0daa4f0328d01643a7f258b71f60bb9",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "graft/028-experience-memory",
+          "updated_at": "2026-11-05T22:44:31Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/25"
+        },
+        {
+          "number": 24,
+          "title": "GRAFT-028 — Experience memory: capture, structural recall and exact executable replay",
+          "head_branch": "graft/028-experience-memory",
+          "head_sha": "54063332f0370fbd302a2354e71d08526d41afba",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "graft/027-capability-gardener",
+          "updated_at": "2026-11-05T17:39:15Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/24"
+        },
+        {
+          "number": 23,
+          "title": "GRAFT-027 — Capability Gardener: generated variants, independent tests and bounded public pilot",
+          "head_branch": "graft/027-capability-gardener",
+          "head_sha": "6ff59aead0296081e1547d8107e4b6f06ea2381e",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "graft/026-discovered-adapter",
+          "updated_at": "2026-11-05T16:46:24Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/23"
+        },
+        {
+          "number": 22,
+          "title": "GRAFT-026 — Compile source-discovered APIs into executable, fixture-only review adapters",
+          "head_branch": "graft/026-discovered-adapter",
+          "head_sha": "bbf053c1f517b38acb77c48af5c490f774b5a0be",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "graft/023-observation-composed-capability",
+          "updated_at": "2026-11-05T16:05:12Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/22"
+        },
         {
           "number": 21,
           "title": "GRAFT-023 — Compile and run new source-observation-specific executable modules",
@@ -7682,12 +7934,48 @@
           "sha": "49be23f3d010935f753c25e540733a1b841c8a6d"
         },
         {
+          "name": "feat/investigation-desk-provider-routing-025",
+          "sha": "70763e2f64a27f6be99046a6e1ecbb154c5fca3a"
+        },
+        {
+          "name": "feat/investigation-gardener-027",
+          "sha": "cd83feaae210a4f990c695a14f938ba04c3ed9f8"
+        },
+        {
+          "name": "feat/investigation-memory-028",
+          "sha": "5336443a13207058427156d45164d306aac7b552"
+        },
+        {
+          "name": "feat/investigation-provider-discovery-026",
+          "sha": "c4933b98ddd6f4e7f8199e0c79f9de0d8cd35b1c"
+        },
+        {
           "name": "feat/live-offer-cartridge-consumer",
           "sha": "9fafe9e797c92837b5094b1e3a88e2ac9fd224f4"
         },
         {
+          "name": "feat/motif-024-example-right-to-correct",
+          "sha": "bfe0d5dbc5a72e09104ed9983eb01ccce166229a"
+        },
+        {
+          "name": "feat/motif-025-composable-goals",
+          "sha": "5ef3769b08f718c47c7aafea136ff10a40793372"
+        },
+        {
+          "name": "feat/motif-026-goal-to-local-work",
+          "sha": "734daa144cb83d86e8169a7993a04ddeb7653d78"
+        },
+        {
+          "name": "feat/motif-027-last-inch-handoff",
+          "sha": "f35e68e68fa23b7ed61b5a984d3709148ec372aa"
+        },
+        {
+          "name": "feat/motif-027-local-capability-handoff",
+          "sha": "ecce9023b0a89afaba8b055238f674ebcb37792b"
+        },
+        {
           "name": "feat/motif-jarvis-reciprocal-001",
-          "sha": "8a100fdbc7736e254a58afafa2b2084dc75f8e64"
+          "sha": "c1f3cbce55de620ffc527e23b8294f87b3b6f0f1"
         },
         {
           "name": "feat/now-route-001-physical-gift-routing",
@@ -7720,6 +8008,14 @@
         {
           "name": "feat/reviewer-weave-002",
           "sha": "aed5d8d808c3d8d432e240bb649dd432b5a54b0a"
+        },
+        {
+          "name": "feat/wake-network-weave-002",
+          "sha": "8ccd4b39533b4e92e3ee190580b7c0a7ed1b3a41"
+        },
+        {
+          "name": "feat/wake-signal-001-jarvis-desk",
+          "sha": "edafac946794130875d81c1b0110960a92f667b6"
         },
         {
           "name": "feat/work-inherits-001",
@@ -7791,7 +8087,7 @@
         },
         {
           "name": "main",
-          "sha": "73e3ef65cf95ccb147ce830a3472a1aadf0001aa"
+          "sha": "2a46fdf4c7396b48f791bdc275e4ee5562e11cc5"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -7812,6 +8108,106 @@
       ],
       "open_prs": [
         {
+          "number": 70,
+          "title": "NETWORK WEAVE 002 — connect WAKE to our 15-room sovereign opportunity network",
+          "head_branch": "feat/wake-network-weave-002",
+          "head_sha": "8ccd4b39533b4e92e3ee190580b7c0a7ed1b3a41",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "feat/wake-signal-001-jarvis-desk",
+          "updated_at": "2026-11-05T18:35:05Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/70"
+        },
+        {
+          "number": 69,
+          "title": "JAR;VIS × MOTIF WAKE SIGNAL 001 — human invitation desk with local evidence and consent",
+          "head_branch": "feat/wake-signal-001-jarvis-desk",
+          "head_sha": "edafac946794130875d81c1b0110960a92f667b6",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T18:13:20Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/69"
+        },
+        {
+          "number": 68,
+          "title": "MOTIF-027 × JAR;VIS: reviewed mail-app handoff and real local workshop door",
+          "head_branch": "feat/motif-027-local-capability-handoff",
+          "head_sha": "ecce9023b0a89afaba8b055238f674ebcb37792b",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "feat/motif-026-goal-to-local-work",
+          "updated_at": "2026-11-05T18:01:52Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/68"
+        },
+        {
+          "number": 67,
+          "title": "JAR;VIS-028 — Remember and replay failed experiments from the Investigation Desk",
+          "head_branch": "feat/investigation-memory-028",
+          "head_sha": "5336443a13207058427156d45164d306aac7b552",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "feat/investigation-gardener-027",
+          "updated_at": "2026-11-05T17:39:21Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/67"
+        },
+        {
+          "number": 66,
+          "title": "MOTIF-026: turn a confirmed definition of done into separately consented, downloadable local work",
+          "head_branch": "feat/motif-026-goal-to-local-work",
+          "head_sha": "734daa144cb83d86e8169a7993a04ddeb7653d78",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "feat/motif-025-composable-goals",
+          "updated_at": "2026-11-05T17:36:44Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/66"
+        },
+        {
+          "number": 65,
+          "title": "JAR;VIS × MOTIF-025 — two relevant examples for coffee, volunteers, events, web and more",
+          "head_branch": "feat/motif-025-composable-goals",
+          "head_sha": "5ef3769b08f718c47c7aafea136ff10a40793372",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "feat/motif-024-example-right-to-correct",
+          "updated_at": "2026-11-05T16:58:22Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/65"
+        },
+        {
+          "number": 64,
+          "title": "JAR;VIS-027 — Investigation Desk Capability Gardener and approved public API example",
+          "head_branch": "feat/investigation-gardener-027",
+          "head_sha": "cd83feaae210a4f990c695a14f938ba04c3ed9f8",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "feat/investigation-provider-discovery-026",
+          "updated_at": "2026-11-05T16:46:48Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/64"
+        },
+        {
+          "number": 63,
+          "title": "MOTIF-024 in JAR;VIS: two examples, your own example, and the right to correct",
+          "head_branch": "feat/motif-024-example-right-to-correct",
+          "head_sha": "bfe0d5dbc5a72e09104ed9983eb01ccce166229a",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "feat/motif-jarvis-reciprocal-001",
+          "updated_at": "2026-11-05T16:38:09Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/63"
+        },
+        {
+          "number": 62,
+          "title": "JAR;VIS-026 — Discover missing API sources and rehearse offline adapters",
+          "head_branch": "feat/investigation-provider-discovery-026",
+          "head_sha": "c4933b98ddd6f4e7f8199e0c79f9de0d8cd35b1c",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "feat/investigation-desk-provider-routing-025",
+          "updated_at": "2026-11-05T16:06:12Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/62"
+        },
+        {
+          "number": 61,
+          "title": "JAR;VIS-025 — Find the right sources: Eagle Eye provider advisor and 7-source investigation desk",
+          "head_branch": "feat/investigation-desk-provider-routing-025",
+          "head_sha": "70763e2f64a27f6be99046a6e1ecbb154c5fca3a",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "feat/investigation-desk-eagle-eye-024",
+          "updated_at": "2026-11-05T15:42:01Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/61"
+        },
+        {
           "number": 60,
           "title": "JAR;VIS-024 — Human Investigation Desk powered by ALEX Eagle Eye and native MOTIF source reasoning",
           "head_branch": "feat/investigation-desk-eagle-eye-024",
@@ -7825,10 +8221,10 @@
           "number": 59,
           "title": "RECIPROCAL-001: JAR;VIS × MOTIF native reasoning crossing (proposal-only)",
           "head_branch": "feat/motif-jarvis-reciprocal-001",
-          "head_sha": "8a100fdbc7736e254a58afafa2b2084dc75f8e64",
+          "head_sha": "c1f3cbce55de620ffc527e23b8294f87b3b6f0f1",
           "head_repo": "the-static-collective/JAR-VIS",
           "base_branch": "main",
-          "updated_at": "2026-11-05T15:10:46Z",
+          "updated_at": "2026-11-05T16:20:55Z",
           "url": "https://github.com/the-static-collective/JAR-VIS/pull/59"
         },
         {
@@ -9553,12 +9949,96 @@
       "archived": false,
       "branches": [
         {
+          "name": "experiment/door-foundry-001-capability-composition",
+          "sha": "5ee9207f04af2826750863526af7f92b31ef8578"
+        },
+        {
+          "name": "experiment/door-foundry-002-cannon-build-backloop",
+          "sha": "e4ca5449052562030f6a124e1fa664cf19e803e5"
+        },
+        {
+          "name": "experiment/door-foundry-003-graft-born-operator",
+          "sha": "1bcbdcc6e39228d4f23870337d459e1e0304cd17"
+        },
+        {
+          "name": "experiment/door-foundry-004-self-posed-question-gate",
+          "sha": "f34dc7f28be9f9f74a39dd7a882c40e94fe53c71"
+        },
+        {
+          "name": "experiment/door-foundry-005-impossibility-graft",
+          "sha": "30564cdf60ffb34769c496c91e79aade356a41ec"
+        },
+        {
+          "name": "experiment/door-foundry-006-image-in-imagination",
+          "sha": "67f05d7b235bfdafa9b11fddcb9bfe53e674eb54"
+        },
+        {
+          "name": "experiment/door-foundry-006-image-in-imagination-test",
+          "sha": "30564cdf60ffb34769c496c91e79aade356a41ec"
+        },
+        {
+          "name": "experiment/door-foundry-007-text-visual-cotranslation",
+          "sha": "4dc51dd3837d369bcba020d2b35e0095d93adabd"
+        },
+        {
+          "name": "experiment/door-foundry-008-three-way-crossexamination",
+          "sha": "eb8bb92779f5ea16147127155aa37af2a8ceb2b8"
+        },
+        {
+          "name": "experiment/door-foundry-009-active-visual-question",
+          "sha": "fa414df38ad674ac292d6505e66f0dd05077cc2c"
+        },
+        {
+          "name": "experiment/door-foundry-010-belief-ledger",
+          "sha": "8007f037733557ecdeb9e2017cda4a95e99ff84c"
+        },
+        {
+          "name": "experiment/door-foundry-011-evidence-dependency-frontier",
+          "sha": "03f16903838a6141b0088ebd5edb70d7ad52f380"
+        },
+        {
+          "name": "experiment/door-foundry-012-hidden-source",
+          "sha": "c340b463695adebab111372100a8c4b11e77284f"
+        },
+        {
+          "name": "experiment/door-foundry-013-missing-world",
+          "sha": "a4f3b6645a5bbf50e3304bd8df74215ecf99766b"
+        },
+        {
+          "name": "experiment/geometry-001-flower-of-life",
+          "sha": "db3840d951f1196410d611bf93ef2f16eb470904"
+        },
+        {
+          "name": "experiment/geometry-002-self-discovered-rules",
+          "sha": "de9d8ef8330446fda4d4007ae46bf19610e7f1cb"
+        },
+        {
+          "name": "experiment/geometry-003-inventable-constructions",
+          "sha": "1b7a55152979639a9177e14a3e86de70f6dcb27d"
+        },
+        {
+          "name": "experiment/legit-001-reason-routing-stranger-gate",
+          "sha": "cd8edf6d229a2663b535eba58389389a9257b12c"
+        },
+        {
+          "name": "experiment/legit-002-covert-consciousness-stranger",
+          "sha": "5188dfa4ff2707df0dd5c877da651d3480f42c32"
+        },
+        {
+          "name": "experiment/legit-003-grammar-of-the-unknown",
+          "sha": "34835a8c29aad30fad490252fc135ab51e3d8831"
+        },
+        {
           "name": "experiment/motif-006-first-question-dogram-probes",
           "sha": "404c0c6701737f35fd0998112d81a4ca850ff5f1"
         },
         {
           "name": "experiment/motif-007-smallest-key",
           "sha": "10514da5cc61968cdd0ed3d2f9a75401c59a5fa1"
+        },
+        {
+          "name": "experiment/observation-015-posthog-outcome-witness",
+          "sha": "87a5dc4749683a998784dedca5089a46d24325a9"
         },
         {
           "name": "experiment/reality-iron-015-weather-witness",
@@ -9587,6 +10067,82 @@
         {
           "name": "experiment/reality-iron-021-question-integrity",
           "sha": "cdcec6013492bb6ccd0982ee9af9f5bf1d3200f7"
+        },
+        {
+          "name": "experiment/reality-iron-022-cost-of-knowing",
+          "sha": "dd264e277a3ca66d55daed59ff52c38a0f81b307"
+        },
+        {
+          "name": "experiment/reality-iron-023-human-goal-handshake",
+          "sha": "5835a44a5eb52386c070121e94f4771a402687ce"
+        },
+        {
+          "name": "experiment/reality-iron-024-examples-and-correction",
+          "sha": "66dbc1a1b566609a4fc7cf0764bc374e31842d15"
+        },
+        {
+          "name": "experiment/reality-iron-025-composable-examples",
+          "sha": "1c3c6d3474c096ce2403902a1bc5a19f1633c344"
+        },
+        {
+          "name": "experiment/reality-iron-026-goal-to-local-work",
+          "sha": "a4af07cb48c201d22e34b5569496a4ac1d3deb58"
+        },
+        {
+          "name": "experiment/reality-iron-027-capability-handoff",
+          "sha": "90cbe6427d52286d17b74cdff48c4a81a48db3d0"
+        },
+        {
+          "name": "experiment/reason-cartridge-001-teacher-corrections",
+          "sha": "ca48c017975c754e415b70d159bb6333ea91fbaa"
+        },
+        {
+          "name": "experiment/reason-cartridge-002-method-distillery",
+          "sha": "5729d0dc4f452332ea433ed17f3e4b494b0fc447"
+        },
+        {
+          "name": "experiment/reason-cartridge-003-foreign-dogram-and-objection",
+          "sha": "f6c5eefcc0e562823230e63da85da66a5f7cddd2"
+        },
+        {
+          "name": "experiment/reason-cartridge-004-self-objecting-reasoner",
+          "sha": "f36be2fa1dcfe69d6daf480f6af8eecbacfa683a"
+        },
+        {
+          "name": "experiment/reason-cartridge-005-ci-import-fix",
+          "sha": "4f44b0562dd611631cc5317a50bf0b6f4b9199ef"
+        },
+        {
+          "name": "experiment/reason-cartridge-005-meta-objection-economy",
+          "sha": "386853599bcdb608d8024f155a8ade9869b10457"
+        },
+        {
+          "name": "experiment/reason-cartridge-006-reasoning-commonwealth",
+          "sha": "d0808c6a829fc6ef15d736c325790ddb4d169ab1"
+        },
+        {
+          "name": "experiment/reason-cartridge-007-discovery-market",
+          "sha": "49def94c74e3107a64c73f0744cce8ee185f5847"
+        },
+        {
+          "name": "experiment/reason-cartridge-008-missing-primitive",
+          "sha": "b0210bf2c709b2533867340804e2bde33c4d7519"
+        },
+        {
+          "name": "experiment/reason-cartridge-009-grammar-inventor",
+          "sha": "09d6d5cbbe883c6f90df8cbff7ca99d4477161d9"
+        },
+        {
+          "name": "experiment/reason-cartridge-010-strange-law",
+          "sha": "ec8131c38d779288f8688f1b410fd50c5de15912"
+        },
+        {
+          "name": "experiment/reason-cartridge-011-impossible-court",
+          "sha": "c83fa98d989d10cd61b4b42e51ac5ac35e1f81e4"
+        },
+        {
+          "name": "experiment/wake-signal-001-human-agency",
+          "sha": "efe133f0db12b439b9c483eace13601cf8c03285"
         },
         {
           "name": "experiments/015-multiplex-inquiry-20261105",
@@ -9626,11 +10182,15 @@
         },
         {
           "name": "experiments/022-minimal-causal-witness",
-          "sha": "182b76584cacc767e377313745fb5787fb0f574b"
+          "sha": "3b0c5767e77a98321e142e03328c876067e29d64"
         },
         {
           "name": "experiments/022f-critic-question-loop-20261105",
           "sha": "d9ab2edb6385dc3e5c9a50ef04bc6658d76714ee"
+        },
+        {
+          "name": "experiments/023-adversarial-method-falsifier",
+          "sha": "2fab3f845e1afb247a78d8129ace229f702a56ed"
         },
         {
           "name": "experiments/023f-real-t5-critic-trial-20261105",
@@ -9639,6 +10199,18 @@
         {
           "name": "experiments/024f-native-shortlist-t5-rerank-20261105",
           "sha": "e58484efda51b33bbd6e34ed60cfc7bdd6410466"
+        },
+        {
+          "name": "experiments/025f-t5-job-search-20261105",
+          "sha": "0a7560270d3574f51910d01db93028baed591b6c"
+        },
+        {
+          "name": "experiments/026f-semantic-question-loop-20261105",
+          "sha": "ce5b3407b4da43beb1d0d5f4a066804b70db0fda"
+        },
+        {
+          "name": "experiments/027f-three-specialist-semantic-20261105",
+          "sha": "3175fdb1a5ada605773741e1bfb293ee623bc8f1"
         },
         {
           "name": "main",
@@ -9733,6 +10305,18 @@
           "sha": "63225336a0aa72d040f5af4091b376284e508b4f"
         },
         {
+          "name": "research/026-discovery-of-discovery",
+          "sha": "7d14d59e12347dc7df3f8d5ceb2d5515bc41d266"
+        },
+        {
+          "name": "research/027-capability-gardener-evaluation",
+          "sha": "d1b0890a767239ab9799fe2e17937d7e9f0fa642"
+        },
+        {
+          "name": "research/028-memory-of-failure",
+          "sha": "526eb75823070c2d96c0e2a9e3f84460b07df81e"
+        },
+        {
           "name": "research/field-001-real-world-witness-desk",
           "sha": "a6bd72c498f308a8dbf21f65af2d126ca41f0e17"
         },
@@ -9745,11 +10329,671 @@
           "sha": "3daa17affcb629e8647f522de7a33e8e000de83e"
         },
         {
+          "name": "research/law-forge-001-20261105",
+          "sha": "fab484a9ba0fab5a0d4dc9234019e8eaeb45f58a"
+        },
+        {
+          "name": "research/law-forge-002-constructor-20261105",
+          "sha": "0576b038d432c2719e03268d1a63b45a6382d35e"
+        },
+        {
+          "name": "research/law-forge-003-operator-foundry-20261105",
+          "sha": "7a8845c31dbd58496d7004ada9374124cb30f91c"
+        },
+        {
+          "name": "research/law-forge-004-grammar-breaker-20261105",
+          "sha": "d77d74776e1c7f8edee2c029adc6782b4de80310"
+        },
+        {
+          "name": "research/law-forge-005-world-breaker-trinary-20261105",
+          "sha": "091b01df9bb2378259ae560135b768769e6e1748"
+        },
+        {
+          "name": "research/law-forge-006-instrument-inventor-20261105",
+          "sha": "54e7546727c665729b966a8f113e2a39d244cf66"
+        },
+        {
+          "name": "research/law-forge-007-lookup-assimilation-20261105",
+          "sha": "3cdad4206f54f1d0896e940e35fd5b4719df0fc7"
+        },
+        {
+          "name": "research/law-forge-008-unknown-world-20261105",
+          "sha": "3c933b18d3ba2295d3466c292c8242e6d6bd5bfe"
+        },
+        {
+          "name": "research/law-forge-009-stranger-entropy-cartridge-20261105",
+          "sha": "0d771ff937997a33a07b792f63f439903ecde360"
+        },
+        {
+          "name": "research/law-forge-010-blind-falsifier-20261105",
+          "sha": "9cf607cc3879c81f0b780ecd42613281f1ff9dc1"
+        },
+        {
+          "name": "research/law-forge-011-signed-counterfactual-20261105",
+          "sha": "b1c5ec2d4b3fe117746c50e207542abe40918b57"
+        },
+        {
+          "name": "research/map-of-maps-001-first-real-weave",
+          "sha": "4ea03de4e250d220fff14503edb89f065ca7fbd6"
+        },
+        {
+          "name": "research/map-of-maps-002-native-inquiry-court",
+          "sha": "070aba60319cbab3d1c1838ec7481c350e7d86e5"
+        },
+        {
+          "name": "research/map-of-maps-003-freegraph-reason-space",
+          "sha": "8c4ce04e3ec73b4dcad98097dffec6d44c7c17d3"
+        },
+        {
+          "name": "research/map-of-maps-004-freegraph-investigation-selection",
+          "sha": "ee4cd6a21c6cafb3a230e7127fc342ea921a8f2b"
+        },
+        {
           "name": "research/motif-018-representation-frontier",
           "sha": "6a1e6f0becbe79d21c349ef87c10ca92cfeef70a"
         }
       ],
       "open_prs": [
+        {
+          "number": 106,
+          "title": "MOTIF-GEOM-003: synthesize geometric construction methods; compose nine-point circle",
+          "head_branch": "experiment/geometry-003-inventable-constructions",
+          "head_sha": "1b7a55152979639a9177e14a3e86de70f6dcb27d",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/geometry-002-self-discovered-rules",
+          "updated_at": "2026-11-06T14:53:31Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/106"
+        },
+        {
+          "number": 105,
+          "title": "LEGIT-003: Grammar of the Unknown — construct countermodels rather than invent priors",
+          "head_branch": "experiment/legit-003-grammar-of-the-unknown",
+          "head_sha": "34835a8c29aad30fad490252fc135ab51e3d8831",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/legit-002-covert-consciousness-stranger",
+          "updated_at": "2026-11-06T14:46:13Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/105"
+        },
+        {
+          "number": 104,
+          "title": "MOTIF-GEOM-002 — Let the geometry discover its own rules",
+          "head_branch": "experiment/geometry-002-self-discovered-rules",
+          "head_sha": "de9d8ef8330446fda4d4007ae46bf19610e7f1cb",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/geometry-001-flower-of-life",
+          "updated_at": "2026-11-06T14:38:23Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/104"
+        },
+        {
+          "number": 103,
+          "title": "MOTIF-013: a missing-world certificate and held new environmental model",
+          "head_branch": "experiment/door-foundry-013-missing-world",
+          "head_sha": "a4f3b6645a5bbf50e3304bd8df74215ecf99766b",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/door-foundry-012-hidden-source",
+          "updated_at": "2026-11-06T09:48:35Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/103"
+        },
+        {
+          "number": 102,
+          "title": "REASON-CARTRIDGE-011: The Impossible Court — non-explosive contradictory legal hypotheticals",
+          "head_branch": "experiment/reason-cartridge-011-impossible-court",
+          "head_sha": "c83fa98d989d10cd61b4b42e51ac5ac35e1f81e4",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reason-cartridge-010-strange-law",
+          "updated_at": "2026-11-06T09:44:55Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/102"
+        },
+        {
+          "number": 101,
+          "title": "MOTIF-GEOM-001 — Flower of Life as an executable geometric reasoning cartridge",
+          "head_branch": "experiment/geometry-001-flower-of-life",
+          "head_sha": "db3840d951f1196410d611bf93ef2f16eb470904",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-06T09:38:25Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/101"
+        },
+        {
+          "number": 100,
+          "title": "LEGIT-002: The Silent Witness — head-to-head on covert consciousness, with native epistemic HOLD",
+          "head_branch": "experiment/legit-002-covert-consciousness-stranger",
+          "head_sha": "5188dfa4ff2707df0dd5c877da651d3480f42c32",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/legit-001-reason-routing-stranger-gate",
+          "updated_at": "2026-11-06T09:22:54Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/100"
+        },
+        {
+          "number": 99,
+          "title": "REASON-CARTRIDGE-010: The Strange Court — test typed reasoning on real bizarre historical cases",
+          "head_branch": "experiment/reason-cartridge-010-strange-law",
+          "head_sha": "ec8131c38d779288f8688f1b410fd50c5de15912",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reason-cartridge-009-grammar-inventor",
+          "updated_at": "2026-11-06T09:22:17Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/99"
+        },
+        {
+          "number": 98,
+          "title": "MOTIF-012: infer hidden common sources without discarding independent agreement",
+          "head_branch": "experiment/door-foundry-012-hidden-source",
+          "head_sha": "c340b463695adebab111372100a8c4b11e77284f",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/door-foundry-011-evidence-dependency-frontier",
+          "updated_at": "2026-11-06T08:40:48Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/98"
+        },
+        {
+          "number": 97,
+          "title": "MOTIF-015: offline PostHog observation witness (aggregate-only; review gate)",
+          "head_branch": "experiment/observation-015-posthog-outcome-witness",
+          "head_sha": "87a5dc4749683a998784dedca5089a46d24325a9",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-06T09:15:00Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/97"
+        },
+        {
+          "number": 96,
+          "title": "LEGIT-001: reason routing × authored Stranger Gate with exact classical control",
+          "head_branch": "experiment/legit-001-reason-routing-stranger-gate",
+          "head_sha": "cd8edf6d229a2663b535eba58389389a9257b12c",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-06T08:37:53Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/96"
+        },
+        {
+          "number": 95,
+          "title": "REASON-CARTRIDGE-009: recursive grammar inventor, source-owner CEGIS and 64 original Dogram audits",
+          "head_branch": "experiment/reason-cartridge-009-grammar-inventor",
+          "head_sha": "09d6d5cbbe883c6f90df8cbff7ca99d4477161d9",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reason-cartridge-008-missing-primitive",
+          "updated_at": "2026-11-06T08:35:22Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/95"
+        },
+        {
+          "number": 94,
+          "title": "MOTIF-011: evidence provenance graph detects source echoes before Bayesian belief updates",
+          "head_branch": "experiment/door-foundry-011-evidence-dependency-frontier",
+          "head_sha": "03f16903838a6141b0088ebd5edb70d7ad52f380",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/door-foundry-010-belief-ledger",
+          "updated_at": "2026-11-06T07:31:23Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/94"
+        },
+        {
+          "number": 93,
+          "title": "REASON-CARTRIDGE-008: missing-grammar proof, typed macro discovery, native Dogram verification",
+          "head_branch": "experiment/reason-cartridge-008-missing-primitive",
+          "head_sha": "b0210bf2c709b2533867340804e2bde33c4d7519",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reason-cartridge-007-discovery-market",
+          "updated_at": "2026-11-06T07:10:36Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/93"
+        },
+        {
+          "number": 92,
+          "title": "MOTIF-010: preserve visual world hypotheses and revise beliefs with source-audited evidence",
+          "head_branch": "experiment/door-foundry-010-belief-ledger",
+          "head_sha": "8007f037733557ecdeb9e2017cda4a95e99ff84c",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/door-foundry-009-active-visual-question",
+          "updated_at": "2026-11-06T07:06:01Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/92"
+        },
+        {
+          "number": 91,
+          "title": "MOTIF-009: ask the cost-sensitive question that resolves four uncertain visual worlds",
+          "head_branch": "experiment/door-foundry-009-active-visual-question",
+          "head_sha": "fa414df38ad674ac292d6505e66f0dd05077cc2c",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/door-foundry-008-three-way-crossexamination",
+          "updated_at": "2026-11-06T01:16:52Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/91"
+        },
+        {
+          "number": 90,
+          "title": "REASON-CARTRIDGE-007: Discovery Market, bounded sensor invention and verified capability rewards",
+          "head_branch": "experiment/reason-cartridge-007-discovery-market",
+          "head_sha": "49def94c74e3107a64c73f0744cce8ee185f5847",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reason-cartridge-006-reasoning-commonwealth",
+          "updated_at": "2026-11-06T01:01:10Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/90"
+        },
+        {
+          "number": 89,
+          "title": "MOTIF-008: let text, image and logic challenge one another with finite counterproofs",
+          "head_branch": "experiment/door-foundry-008-three-way-crossexamination",
+          "head_sha": "eb8bb92779f5ea16147127155aa37af2a8ceb2b8",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/door-foundry-007-text-visual-cotranslation",
+          "updated_at": "2026-11-06T00:16:15Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/89"
+        },
+        {
+          "number": 88,
+          "title": "REASON-CARTRIDGE-006: source-owned reasoning commonwealth with marginal-contribution ledger",
+          "head_branch": "experiment/reason-cartridge-006-reasoning-commonwealth",
+          "head_sha": "d0808c6a829fc6ef15d736c325790ddb4d169ab1",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reason-cartridge-005-meta-objection-economy",
+          "updated_at": "2026-11-06T00:15:53Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/88"
+        },
+        {
+          "number": 87,
+          "title": "LAW-FORGE-011: Real signed-literal counterfactual critic + independently checked Grok 015C donor",
+          "head_branch": "research/law-forge-011-signed-counterfactual-20261105",
+          "head_sha": "b1c5ec2d4b3fe117746c50e207542abe40918b57",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/law-forge-010-blind-falsifier-20261105",
+          "updated_at": "2026-11-06T00:07:10Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/87"
+        },
+        {
+          "number": 86,
+          "title": "MOTIF-007: text-to-picture-to-text reasoning with grounded PNG futures and uncertainty",
+          "head_branch": "experiment/door-foundry-007-text-visual-cotranslation",
+          "head_sha": "4dc51dd3837d369bcba020d2b35e0095d93adabd",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/door-foundry-006-image-in-imagination",
+          "updated_at": "2026-11-05T23:50:28Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/86"
+        },
+        {
+          "number": 85,
+          "title": "MOTIF-006: IMAGE-IN visual imagination with source-generated GRAFT futures and CANNON review",
+          "head_branch": "experiment/door-foundry-006-image-in-imagination",
+          "head_sha": "67f05d7b235bfdafa9b11fddcb9bfe53e674eb54",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/door-foundry-005-impossibility-graft",
+          "updated_at": "2026-11-05T23:35:41Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/85"
+        },
+        {
+          "number": 84,
+          "title": "REASON-CARTRIDGE-005: objections to objections, proof defenses and source corrections",
+          "head_branch": "experiment/reason-cartridge-005-meta-objection-economy",
+          "head_sha": "386853599bcdb608d8024f155a8ade9869b10457",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reason-cartridge-004-self-objecting-reasoner",
+          "updated_at": "2026-11-05T23:27:25Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/84"
+        },
+        {
+          "number": 83,
+          "title": "MOTIF MAP-004: select the next graph investigation from native Free Graph; optional LSD divergence",
+          "head_branch": "research/map-of-maps-004-freegraph-investigation-selection",
+          "head_sha": "ee4cd6a21c6cafb3a230e7127fc342ea921a8f2b",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/map-of-maps-003-freegraph-reason-space",
+          "updated_at": "2026-11-05T23:20:03Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/83"
+        },
+        {
+          "number": 82,
+          "title": "LAW-FORGE-010: Blind Falsifier — source-owned post-identification questions and grammar-gap certificates",
+          "head_branch": "research/law-forge-010-blind-falsifier-20261105",
+          "head_sha": "d83feec862e6e5d2e491a15163e61e72a041d53a",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/law-forge-009-stranger-entropy-cartridge-20261105",
+          "updated_at": "2026-11-05T23:46:41Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/82"
+        },
+        {
+          "number": 81,
+          "title": "DOOR-FOUNDRY-005: MOTIF proves missing grammar, GRAFT generates new rule, CANNON verifies",
+          "head_branch": "experiment/door-foundry-005-impossibility-graft",
+          "head_sha": "30564cdf60ffb34769c496c91e79aade356a41ec",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/door-foundry-004-self-posed-question-gate",
+          "updated_at": "2026-11-05T22:56:40Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/81"
+        },
+        {
+          "number": 80,
+          "title": "REASON-CARTRIDGE-004: self-objecting proofs and question-guided falsification",
+          "head_branch": "experiment/reason-cartridge-004-self-objecting-reasoner",
+          "head_sha": "f36be2fa1dcfe69d6daf480f6af8eecbacfa683a",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reason-cartridge-003-foreign-dogram-and-objection",
+          "updated_at": "2026-11-05T22:56:32Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/80"
+        },
+        {
+          "number": 79,
+          "title": "DOOR-FOUNDRY-004: MOTIF poses a native capability question before GRAFT proposes the answer",
+          "head_branch": "experiment/door-foundry-004-self-posed-question-gate",
+          "head_sha": "f34dc7f28be9f9f74a39dd7a882c40e94fe53c71",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/door-foundry-003-graft-born-operator",
+          "updated_at": "2026-11-05T22:34:22Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/79"
+        },
+        {
+          "number": 78,
+          "title": "MOTIF MAP-003: let native Free Graph reason about our investigations, not just diagram them",
+          "head_branch": "research/map-of-maps-003-freegraph-reason-space",
+          "head_sha": "8c4ce04e3ec73b4dcad98097dffec6d44c7c17d3",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/map-of-maps-002-native-inquiry-court",
+          "updated_at": "2026-11-05T22:00:30Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/78"
+        },
+        {
+          "number": 77,
+          "title": "REASON-CARTRIDGE-003: native Dogram teaches, exits; MOTIF retains method + epistemic objection engine",
+          "head_branch": "experiment/reason-cartridge-003-foreign-dogram-and-objection",
+          "head_sha": "f6c5eefcc0e562823230e63da85da66a5f7cddd2",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reason-cartridge-002-method-distillery",
+          "updated_at": "2026-11-05T21:43:13Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/77"
+        },
+        {
+          "number": 76,
+          "title": "LAW-FORGE-009: Assimilate real Shannon entropy as a portable reason cartridge and face the Stranger",
+          "head_branch": "research/law-forge-009-stranger-entropy-cartridge-20261105",
+          "head_sha": "0d771ff937997a33a07b792f63f439903ecde360",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/law-forge-008-unknown-world-20261105",
+          "updated_at": "2026-11-05T20:01:04Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/76"
+        },
+        {
+          "number": 75,
+          "title": "DOOR-FOUNDRY-003: GRAFT-born new executable MOTIF sensor via CANNON verification",
+          "head_branch": "experiment/door-foundry-003-graft-born-operator",
+          "head_sha": "1bcbdcc6e39228d4f23870337d459e1e0304cd17",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/door-foundry-002-cannon-build-backloop",
+          "updated_at": "2026-11-05T19:52:05Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/75"
+        },
+        {
+          "number": 74,
+          "title": "MOTIF MAP-002: use original ALEX, planZ, Dogram & GRAFT to investigate a real map-selected gap",
+          "head_branch": "research/map-of-maps-002-native-inquiry-court",
+          "head_sha": "070aba60319cbab3d1c1838ec7481c350e7d86e5",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/map-of-maps-001-first-real-weave",
+          "updated_at": "2026-11-05T19:48:59Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/74"
+        },
+        {
+          "number": 73,
+          "title": "REASON-CARTRIDGE-002: distil a third conditional procedure from two teacher traces",
+          "head_branch": "experiment/reason-cartridge-002-method-distillery",
+          "head_sha": "5729d0dc4f452332ea433ed17f3e4b494b0fc447",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reason-cartridge-001-teacher-corrections",
+          "updated_at": "2026-11-05T19:48:30Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/73"
+        },
+        {
+          "number": 72,
+          "title": "LAW-FORGE-008: Unknown World — assimilated lookup chooses bounded, consequence-aware questions",
+          "head_branch": "research/law-forge-008-unknown-world-20261105",
+          "head_sha": "3c933b18d3ba2295d3466c292c8242e6d6bd5bfe",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/law-forge-007-lookup-assimilation-20261105",
+          "updated_at": "2026-11-05T19:45:39Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/72"
+        },
+        {
+          "number": 71,
+          "title": "DOOR-FOUNDRY-002: CANNON evidence returns to generate three runnable MOTIF builds",
+          "head_branch": "experiment/door-foundry-002-cannon-build-backloop",
+          "head_sha": "e4ca5449052562030f6a124e1fa664cf19e803e5",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/door-foundry-001-capability-composition",
+          "updated_at": "2026-11-05T19:39:35Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/71"
+        },
+        {
+          "number": 70,
+          "title": "REASON-CARTRIDGE-001: learn method choices from teacher corrections, then locally revalidate",
+          "head_branch": "experiment/reason-cartridge-001-teacher-corrections",
+          "head_sha": "ca48c017975c754e415b70d159bb6333ea91fbaa",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T18:50:57Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/70"
+        },
+        {
+          "number": 69,
+          "title": "MOTIF Field Map 001 — source-pinned growing views of the Collective and what to ask next",
+          "head_branch": "research/map-of-maps-001-first-real-weave",
+          "head_sha": "4ea03de4e250d220fff14503edb89f065ca7fbd6",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T18:51:16Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/69"
+        },
+        {
+          "number": 68,
+          "title": "LAW-FORGE-007: Assimilate exact classical lookup as a source-pinned hybrid reasoning skill",
+          "head_branch": "research/law-forge-007-lookup-assimilation-20261105",
+          "head_sha": "3cdad4206f54f1d0896e940e35fd5b4719df0fc7",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/law-forge-006-instrument-inventor-20261105",
+          "updated_at": "2026-11-05T18:50:25Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/68"
+        },
+        {
+          "number": 67,
+          "title": "LAW-FORGE-006: Invent a sensor program from source-owned graph primitives, then verify with native Dogram",
+          "head_branch": "research/law-forge-006-instrument-inventor-20261105",
+          "head_sha": "54e7546727c665729b966a8f113e2a39d244cf66",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/law-forge-005-world-breaker-trinary-20261105",
+          "updated_at": "2026-11-05T18:32:21Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/67"
+        },
+        {
+          "number": 66,
+          "title": "DOOR-FOUNDRY-001: source-pinned capability registry + first composed Door",
+          "head_branch": "experiment/door-foundry-001-capability-composition",
+          "head_sha": "5ee9207f04af2826750863526af7f92b31ef8578",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T18:23:16Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/66"
+        },
+        {
+          "number": 65,
+          "title": "LAW-FORGE-005: World Breaker — put trinary on trial against binary and relational senses",
+          "head_branch": "research/law-forge-005-world-breaker-trinary-20261105",
+          "head_sha": "091b01df9bb2378259ae560135b768769e6e1748",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/law-forge-004-grammar-breaker-20261105",
+          "updated_at": "2026-11-05T18:09:19Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/65"
+        },
+        {
+          "number": 64,
+          "title": "WAKE SIGNAL 001: randomized voluntary human-agency invitation pilot",
+          "head_branch": "experiment/wake-signal-001-human-agency",
+          "head_sha": "efe133f0db12b439b9c483eace13601cf8c03285",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T17:57:26Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/64"
+        },
+        {
+          "number": 63,
+          "title": "LAW-FORGE-004: Break the fold grammar and infer executable stateful operators",
+          "head_branch": "research/law-forge-004-grammar-breaker-20261105",
+          "head_sha": "d77d74776e1c7f8edee2c029adc6782b4de80310",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/law-forge-003-operator-foundry-20261105",
+          "updated_at": "2026-11-05T17:53:37Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/63"
+        },
+        {
+          "number": 62,
+          "title": "MOTIF-027: The Last Inch — operator-approved local app handoff",
+          "head_branch": "experiment/reality-iron-027-capability-handoff",
+          "head_sha": "90cbe6427d52286d17b74cdff48c4a81a48db3d0",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reality-iron-026-goal-to-local-work",
+          "updated_at": "2026-11-05T18:01:50Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/62"
+        },
+        {
+          "number": 61,
+          "title": "MOTIF-028 — The Memory of Failure: persistent hash-linked ledger, exact replay and classical next experiment",
+          "head_branch": "research/028-memory-of-failure",
+          "head_sha": "526eb75823070c2d96c0e2a9e3f84460b07df81e",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/027-capability-gardener-evaluation",
+          "updated_at": "2026-11-05T17:39:18Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/61"
+        },
+        {
+          "number": 60,
+          "title": "LAW-FORGE-003: Synthesize executable operators from NAND alone, then falsify them",
+          "head_branch": "research/law-forge-003-operator-foundry-20261105",
+          "head_sha": "7a8845c31dbd58496d7004ada9374124cb30f91c",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/law-forge-002-constructor-20261105",
+          "updated_at": "2026-11-05T17:34:27Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/60"
+        },
+        {
+          "number": 59,
+          "title": "MOTIF-026: from human-defined enough to separately approved local work",
+          "head_branch": "experiment/reality-iron-026-goal-to-local-work",
+          "head_sha": "a4af07cb48c201d22e34b5569496a4ac1d3deb58",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reality-iron-025-composable-examples",
+          "updated_at": "2026-11-05T17:36:41Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/59"
+        },
+        {
+          "number": 58,
+          "title": "LAW-FORGE-002: Invent a bounded feature constructor, then try to falsify it",
+          "head_branch": "research/law-forge-002-constructor-20261105",
+          "head_sha": "0576b038d432c2719e03268d1a63b45a6382d35e",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/law-forge-001-20261105",
+          "updated_at": "2026-11-05T17:24:54Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/58"
+        },
+        {
+          "number": 57,
+          "title": "LAW-FORGE-001: Test temporal concept invention against hidden worlds and classical inquiry",
+          "head_branch": "research/law-forge-001-20261105",
+          "head_sha": "fab484a9ba0fab5a0d4dc9234019e8eaeb45f58a",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-05T16:50:08Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/57"
+        },
+        {
+          "number": 56,
+          "title": "MOTIF-025: composable examples for human-defined success across domains",
+          "head_branch": "experiment/reality-iron-025-composable-examples",
+          "head_sha": "1c3c6d3474c096ce2403902a1bc5a19f1633c344",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reality-iron-024-examples-and-correction",
+          "updated_at": "2026-11-05T16:58:19Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/56"
+        },
+        {
+          "number": 55,
+          "title": "MOTIF-027F: independent question relevance + three specialized real T5 encoder nodes (tested against NO_T5)",
+          "head_branch": "experiments/027f-three-specialist-semantic-20261105",
+          "head_sha": "3175fdb1a5ada605773741e1bfb293ee623bc8f1",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiments/026f-semantic-question-loop-20261105",
+          "updated_at": "2026-11-05T16:49:24Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/55"
+        },
+        {
+          "number": 54,
+          "title": "MOTIF-027 — Capability Gardener: observed test failures change next classical plan",
+          "head_branch": "research/027-capability-gardener-evaluation",
+          "head_sha": "d1b0890a767239ab9799fe2e17937d7e9f0fa642",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/026-discovery-of-discovery",
+          "updated_at": "2026-11-05T16:48:41Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/54"
+        },
+        {
+          "number": 53,
+          "title": "MOTIF-024: The Right to Be Wrong — two examples or write your own",
+          "head_branch": "experiment/reality-iron-024-examples-and-correction",
+          "head_sha": "66dbc1a1b566609a4fc7cf0764bc374e31842d15",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reality-iron-023-human-goal-handshake",
+          "updated_at": "2026-11-05T16:38:06Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/53"
+        },
+        {
+          "number": 52,
+          "title": "MOTIF-026F: Wire T5 silent semantic scout into native questions; ask again what model should do",
+          "head_branch": "experiments/026f-semantic-question-loop-20261105",
+          "head_sha": "ce5b3407b4da43beb1d0d5f4a066804b70db0fda",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiments/025f-t5-job-search-20261105",
+          "updated_at": "2026-11-05T16:25:50Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/52"
+        },
+        {
+          "number": 51,
+          "title": "MOTIF-026 — Discover an unknown source, classically plan review, compose and execute an offline GRAFT adapter",
+          "head_branch": "research/026-discovery-of-discovery",
+          "head_sha": "7d14d59e12347dc7df3f8d5ceb2d5515bc41d266",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "research/023-open-question-field",
+          "updated_at": "2026-11-05T16:05:19Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/51"
+        },
+        {
+          "number": 50,
+          "title": "MOTIF-023 — human goal handshake: who defines enough?",
+          "head_branch": "experiment/reality-iron-023-human-goal-handshake",
+          "head_sha": "5835a44a5eb52386c070121e94f4771a402687ce",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reality-iron-022-cost-of-knowing",
+          "updated_at": "2026-11-05T16:20:25Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/50"
+        },
+        {
+          "number": 49,
+          "title": "MOTIF-025F: Let MOTIF interview T5 for a job (including NO_T5) — real decoder failure, encoder lead",
+          "head_branch": "experiments/025f-t5-job-search-20261105",
+          "head_sha": "0a7560270d3574f51910d01db93028baed591b6c",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiments/024f-native-shortlist-t5-rerank-20261105",
+          "updated_at": "2026-11-05T15:58:07Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/49"
+        },
+        {
+          "number": 48,
+          "title": "MOTIF-022 CRATER: minimum causal witness — new instrument derived from real Minecraft evidence",
+          "head_branch": "experiments/022-minimal-causal-witness",
+          "head_sha": "3b0c5767e77a98321e142e03328c876067e29d64",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiments/021-live-minecraft-epistemic-update",
+          "updated_at": "2026-11-05T15:49:30Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/48"
+        },
+        {
+          "number": 47,
+          "title": "MOTIF-022: physically measured cost of knowing when to stop asking",
+          "head_branch": "experiment/reality-iron-022-cost-of-knowing",
+          "head_sha": "dd264e277a3ca66d55daed59ff52c38a0f81b307",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reality-iron-021-question-integrity",
+          "updated_at": "2026-11-05T15:52:48Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/47"
+        },
         {
           "number": 46,
           "title": "MOTIF-024F: Native-first question shortlist × real T5 shadow reranking — decisive negative result",
@@ -11576,7 +12820,15 @@
         },
         {
           "name": "experiment/minecraft-010-compressed-sensor",
-          "sha": "991d8e10a84b830f277a31d7feec8f1f4c2c09bd"
+          "sha": "47662a0e13f6915eddd7eb3ef321853fc49bb669"
+        },
+        {
+          "name": "experiment/minecraft-011-method-falsification",
+          "sha": "edfd299daaab130a859bfe3e348fe88f858ef684"
+        },
+        {
+          "name": "experiment/minecraft-012-revised-sensor-retest",
+          "sha": "a86282a59741e5976e6e3328633f0ea858dc2721"
         },
         {
           "name": "experiment/motif-instrument-garden-minecraft-008",
@@ -12088,6 +13340,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 178,
+          "title": "Minecraft-010: MOTIF-invented two-lamp witness observed 2/9 in new World A; independently verified",
+          "head_branch": "experiment/minecraft-010-compressed-sensor",
+          "head_sha": "47662a0e13f6915eddd7eb3ef321853fc49bb669",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "experiment/motif-minecraft-009-native-observation-return",
+          "updated_at": "2026-11-05T15:49:37Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/178"
+        },
         {
           "number": 177,
           "title": "Minecraft 009: MOTIF's new instrument measured 3/9 lamps in real vanilla world; signed return and learning",
@@ -21471,6 +22733,10 @@
           "sha": "b68810cd5ef7870458dd1ac40b246f4d2159ee6c"
         },
         {
+          "name": "experiment/one-thing-observation-007-bridge",
+          "sha": "f078cfece626d92935afdc072b18e03c61cc223c"
+        },
+        {
           "name": "experiment/pocket-door-crossing-006",
           "sha": "ea88ce53828f8b8bd46995ff51910ecb5872445c"
         },
@@ -22280,6 +23546,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 257,
+          "title": "ONE THING 007: consent-first observation bridge to MOTIF-015",
+          "head_branch": "experiment/one-thing-observation-007-bridge",
+          "head_sha": "f078cfece626d92935afdc072b18e03c61cc223c",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-11-06T09:12:25Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/257"
+        },
         {
           "number": 256,
           "title": "COMMONS SELF-PLAY 002 — evolving seeded societies without recruiting humans",
@@ -24228,7 +25504,7 @@
         },
         {
           "name": "main",
-          "sha": "8cc3e5d6c3c03616c04aef42e81e9cda300ae6bd"
+          "sha": "7de5e95a1dc04ead1790d91dd6326430008d954f"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -24687,5 +25963,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-05T15:27:31+00:00"
+  "captured_at": "2026-11-06T15:01:21+00:00"
 }
