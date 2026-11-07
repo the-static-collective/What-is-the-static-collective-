@@ -9,17 +9,17 @@ snapshot and the newest changed snapshot. It does **not** interpret why a branch
 moved or disappeared, and a PR leaving the open set does not by itself prove
 whether it merged, closed, or became unavailable.
 
-From: **2026-11-05T15:27:31+00:00**  
-To: **2026-11-06T15:01:21+00:00**
+From: **2026-11-06T15:01:21+00:00**  
+To: **2026-11-07T13:59:02+00:00**
 
 | Observed event | Count |
 | --- | ---: |
 | Repositories added | 0 |
 | Repositories removed | 0 |
-| Branches added | 94 |
+| Branches added | 61 |
 | Branches removed | 0 |
-| Branch heads moved | 5 |
-| PRs entering open set | 90 |
+| Branch heads moved | 3 |
+| PRs entering open set | 61 |
 | PRs leaving open set | 0 |
 
 ## Repository set
@@ -28,198 +28,134 @@ No repository membership changes in this delta.
 
 ## Branch set and pointer movement
 
-* **+ branch** ALEX.2 / [research/025-provider-routing-public](https://github.com/the-static-collective/ALEX.2/tree/research/025-provider-routing-public) → `439188919b`
-* **+ branch** ALEX.2 / [research/026-provider-genealogy](https://github.com/the-static-collective/ALEX.2/tree/research/026-provider-genealogy) → `db5be0ceb4`
-* **+ branch** CANNON / [experiment/cannon-094-graft-new-grammar-review](https://github.com/the-static-collective/CANNON/tree/experiment/cannon-094-graft-new-grammar-review) → `03f8c012b3`
-* **+ branch** CANNON / [experiment/cannon-095-visual-imagination-review](https://github.com/the-static-collective/CANNON/tree/experiment/cannon-095-visual-imagination-review) → `3f2210ba62`
-* **+ branch** CANNON / [experiment/cannon-096-motif-source-dependency-review](https://github.com/the-static-collective/CANNON/tree/experiment/cannon-096-motif-source-dependency-review) → `74271370ac`
-* **+ branch** CANNON / [experiment/cannon-097-hidden-origin-inference-review](https://github.com/the-static-collective/CANNON/tree/experiment/cannon-097-hidden-origin-inference-review) → `7887390253`
-* **+ branch** CANNON / [experiment/cannon-098-missing-world-source-review](https://github.com/the-static-collective/CANNON/tree/experiment/cannon-098-missing-world-source-review) → `bad1f90979`
-* **+ branch** CANNON / [experiment/cannon-graft027-new-motif-organ-review](https://github.com/the-static-collective/CANNON/tree/experiment/cannon-graft027-new-motif-organ-review) → `0fd326c1bb`
-* **+ branch** CANNON / [experiment/motif-door-first-branch-native-selection-001](https://github.com/the-static-collective/CANNON/tree/experiment/motif-door-first-branch-native-selection-001) → `ce54c67f5e`
-* **+ branch** free-graph / [experiment/reason-space-001-motif-trails](https://github.com/the-static-collective/free-graph/tree/experiment/reason-space-001-motif-trails) → `a74d018a4e`
-* **+ branch** free-graph / [experiment/reason-space-002-selectors-lsd](https://github.com/the-static-collective/free-graph/tree/experiment/reason-space-002-selectors-lsd) → `76ddfbcde0`
-* **+ branch** GHoT / [experiment/ghot-goal-aware-inquiry-004](https://github.com/the-static-collective/GHoT/tree/experiment/ghot-goal-aware-inquiry-004) → `f6a36f5c9d`
-* **+ branch** GRAFT / [experiment/graft-031-out-of-support-world-model](https://github.com/the-static-collective/GRAFT/tree/experiment/graft-031-out-of-support-world-model) → `8a4e85e2de`
-* **+ branch** GRAFT / [graft/026-discovered-adapter](https://github.com/the-static-collective/GRAFT/tree/graft/026-discovered-adapter) → `bbf053c1f5`
-* **+ branch** GRAFT / [graft/027-capability-gardener](https://github.com/the-static-collective/GRAFT/tree/graft/027-capability-gardener) → `6ff59aead0`
-* **+ branch** GRAFT / [graft/028-experience-memory](https://github.com/the-static-collective/GRAFT/tree/graft/028-experience-memory) → `54063332f0`
-* **+ branch** GRAFT / [graft/029-missing-operator-family](https://github.com/the-static-collective/GRAFT/tree/graft/029-missing-operator-family) → `5023b594b0`
-* **+ branch** GRAFT / [graft/030-visual-transition-grammar](https://github.com/the-static-collective/GRAFT/tree/graft/030-visual-transition-grammar) → `0347c492c5`
-* **+ branch** JAR-VIS / [feat/investigation-desk-provider-routing-025](https://github.com/the-static-collective/JAR-VIS/tree/feat/investigation-desk-provider-routing-025) → `70763e2f64`
-* **+ branch** JAR-VIS / [feat/investigation-gardener-027](https://github.com/the-static-collective/JAR-VIS/tree/feat/investigation-gardener-027) → `cd83feaae2`
-* **+ branch** JAR-VIS / [feat/investigation-memory-028](https://github.com/the-static-collective/JAR-VIS/tree/feat/investigation-memory-028) → `5336443a13`
-* **+ branch** JAR-VIS / [feat/investigation-provider-discovery-026](https://github.com/the-static-collective/JAR-VIS/tree/feat/investigation-provider-discovery-026) → `c4933b98dd`
-* **+ branch** JAR-VIS / [feat/motif-024-example-right-to-correct](https://github.com/the-static-collective/JAR-VIS/tree/feat/motif-024-example-right-to-correct) → `bfe0d5dbc5`
-* **+ branch** JAR-VIS / [feat/motif-025-composable-goals](https://github.com/the-static-collective/JAR-VIS/tree/feat/motif-025-composable-goals) → `5ef3769b08`
-* **+ branch** JAR-VIS / [feat/motif-026-goal-to-local-work](https://github.com/the-static-collective/JAR-VIS/tree/feat/motif-026-goal-to-local-work) → `734daa144c`
-* **+ branch** JAR-VIS / [feat/motif-027-last-inch-handoff](https://github.com/the-static-collective/JAR-VIS/tree/feat/motif-027-last-inch-handoff) → `f35e68e68f`
-* **+ branch** JAR-VIS / [feat/motif-027-local-capability-handoff](https://github.com/the-static-collective/JAR-VIS/tree/feat/motif-027-local-capability-handoff) → `ecce9023b0`
-* **+ branch** JAR-VIS / [feat/wake-network-weave-002](https://github.com/the-static-collective/JAR-VIS/tree/feat/wake-network-weave-002) → `8ccd4b3953`
-* **+ branch** JAR-VIS / [feat/wake-signal-001-jarvis-desk](https://github.com/the-static-collective/JAR-VIS/tree/feat/wake-signal-001-jarvis-desk) → `edafac9467`
-* **+ branch** MOTIF / [experiment/door-foundry-001-capability-composition](https://github.com/the-static-collective/MOTIF/tree/experiment/door-foundry-001-capability-composition) → `5ee9207f04`
-* **+ branch** MOTIF / [experiment/door-foundry-002-cannon-build-backloop](https://github.com/the-static-collective/MOTIF/tree/experiment/door-foundry-002-cannon-build-backloop) → `e4ca544905`
-* **+ branch** MOTIF / [experiment/door-foundry-003-graft-born-operator](https://github.com/the-static-collective/MOTIF/tree/experiment/door-foundry-003-graft-born-operator) → `1bcbdcc6e3`
-* **+ branch** MOTIF / [experiment/door-foundry-004-self-posed-question-gate](https://github.com/the-static-collective/MOTIF/tree/experiment/door-foundry-004-self-posed-question-gate) → `f34dc7f28b`
-* **+ branch** MOTIF / [experiment/door-foundry-005-impossibility-graft](https://github.com/the-static-collective/MOTIF/tree/experiment/door-foundry-005-impossibility-graft) → `30564cdf60`
-* **+ branch** MOTIF / [experiment/door-foundry-006-image-in-imagination](https://github.com/the-static-collective/MOTIF/tree/experiment/door-foundry-006-image-in-imagination) → `67f05d7b23`
-* **+ branch** MOTIF / [experiment/door-foundry-006-image-in-imagination-test](https://github.com/the-static-collective/MOTIF/tree/experiment/door-foundry-006-image-in-imagination-test) → `30564cdf60`
-* **+ branch** MOTIF / [experiment/door-foundry-007-text-visual-cotranslation](https://github.com/the-static-collective/MOTIF/tree/experiment/door-foundry-007-text-visual-cotranslation) → `4dc51dd383`
-* **+ branch** MOTIF / [experiment/door-foundry-008-three-way-crossexamination](https://github.com/the-static-collective/MOTIF/tree/experiment/door-foundry-008-three-way-crossexamination) → `eb8bb92779`
-* **+ branch** MOTIF / [experiment/door-foundry-009-active-visual-question](https://github.com/the-static-collective/MOTIF/tree/experiment/door-foundry-009-active-visual-question) → `fa414df38a`
-* **+ branch** MOTIF / [experiment/door-foundry-010-belief-ledger](https://github.com/the-static-collective/MOTIF/tree/experiment/door-foundry-010-belief-ledger) → `8007f03773`
-* **+ branch** MOTIF / [experiment/door-foundry-011-evidence-dependency-frontier](https://github.com/the-static-collective/MOTIF/tree/experiment/door-foundry-011-evidence-dependency-frontier) → `03f1690383`
-* **+ branch** MOTIF / [experiment/door-foundry-012-hidden-source](https://github.com/the-static-collective/MOTIF/tree/experiment/door-foundry-012-hidden-source) → `c340b46369`
-* **+ branch** MOTIF / [experiment/door-foundry-013-missing-world](https://github.com/the-static-collective/MOTIF/tree/experiment/door-foundry-013-missing-world) → `a4f3b6645a`
-* **+ branch** MOTIF / [experiment/geometry-001-flower-of-life](https://github.com/the-static-collective/MOTIF/tree/experiment/geometry-001-flower-of-life) → `db3840d951`
-* **+ branch** MOTIF / [experiment/geometry-002-self-discovered-rules](https://github.com/the-static-collective/MOTIF/tree/experiment/geometry-002-self-discovered-rules) → `de9d8ef833`
-* **+ branch** MOTIF / [experiment/geometry-003-inventable-constructions](https://github.com/the-static-collective/MOTIF/tree/experiment/geometry-003-inventable-constructions) → `1b7a551529`
-* **+ branch** MOTIF / [experiment/legit-001-reason-routing-stranger-gate](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-001-reason-routing-stranger-gate) → `cd8edf6d22`
-* **+ branch** MOTIF / [experiment/legit-002-covert-consciousness-stranger](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-002-covert-consciousness-stranger) → `5188dfa4ff`
-* **+ branch** MOTIF / [experiment/legit-003-grammar-of-the-unknown](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-003-grammar-of-the-unknown) → `34835a8c29`
-* **+ branch** MOTIF / [experiment/observation-015-posthog-outcome-witness](https://github.com/the-static-collective/MOTIF/tree/experiment/observation-015-posthog-outcome-witness) → `87a5dc4749`
-* **+ branch** MOTIF / [experiment/reality-iron-022-cost-of-knowing](https://github.com/the-static-collective/MOTIF/tree/experiment/reality-iron-022-cost-of-knowing) → `dd264e277a`
-* **+ branch** MOTIF / [experiment/reality-iron-023-human-goal-handshake](https://github.com/the-static-collective/MOTIF/tree/experiment/reality-iron-023-human-goal-handshake) → `5835a44a5e`
-* **+ branch** MOTIF / [experiment/reality-iron-024-examples-and-correction](https://github.com/the-static-collective/MOTIF/tree/experiment/reality-iron-024-examples-and-correction) → `66dbc1a1b5`
-* **+ branch** MOTIF / [experiment/reality-iron-025-composable-examples](https://github.com/the-static-collective/MOTIF/tree/experiment/reality-iron-025-composable-examples) → `1c3c6d3474`
-* **+ branch** MOTIF / [experiment/reality-iron-026-goal-to-local-work](https://github.com/the-static-collective/MOTIF/tree/experiment/reality-iron-026-goal-to-local-work) → `a4af07cb48`
-* **+ branch** MOTIF / [experiment/reality-iron-027-capability-handoff](https://github.com/the-static-collective/MOTIF/tree/experiment/reality-iron-027-capability-handoff) → `90cbe6427d`
-* **+ branch** MOTIF / [experiment/reason-cartridge-001-teacher-corrections](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-001-teacher-corrections) → `ca48c01797`
-* **+ branch** MOTIF / [experiment/reason-cartridge-002-method-distillery](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-002-method-distillery) → `5729d0dc4f`
-* **+ branch** MOTIF / [experiment/reason-cartridge-003-foreign-dogram-and-objection](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-003-foreign-dogram-and-objection) → `f6c5eefcc0`
-* **+ branch** MOTIF / [experiment/reason-cartridge-004-self-objecting-reasoner](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-004-self-objecting-reasoner) → `f36be2fa1d`
-* **+ branch** MOTIF / [experiment/reason-cartridge-005-ci-import-fix](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-005-ci-import-fix) → `4f44b0562d`
-* **+ branch** MOTIF / [experiment/reason-cartridge-005-meta-objection-economy](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-005-meta-objection-economy) → `386853599b`
-* **+ branch** MOTIF / [experiment/reason-cartridge-006-reasoning-commonwealth](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-006-reasoning-commonwealth) → `d0808c6a82`
-* **+ branch** MOTIF / [experiment/reason-cartridge-007-discovery-market](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-007-discovery-market) → `49def94c74`
-* **+ branch** MOTIF / [experiment/reason-cartridge-008-missing-primitive](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-008-missing-primitive) → `b0210bf2c7`
-* **+ branch** MOTIF / [experiment/reason-cartridge-009-grammar-inventor](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-009-grammar-inventor) → `09d6d5cbbe`
-* **+ branch** MOTIF / [experiment/reason-cartridge-010-strange-law](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-010-strange-law) → `ec8131c38d`
-* **+ branch** MOTIF / [experiment/reason-cartridge-011-impossible-court](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-011-impossible-court) → `c83fa98d98`
-* **+ branch** MOTIF / [experiment/wake-signal-001-human-agency](https://github.com/the-static-collective/MOTIF/tree/experiment/wake-signal-001-human-agency) → `efe133f0db`
-* **+ branch** MOTIF / [experiments/023-adversarial-method-falsifier](https://github.com/the-static-collective/MOTIF/tree/experiments/023-adversarial-method-falsifier) → `2fab3f845e`
-* **+ branch** MOTIF / [experiments/025f-t5-job-search-20261105](https://github.com/the-static-collective/MOTIF/tree/experiments/025f-t5-job-search-20261105) → `0a7560270d`
-* **+ branch** MOTIF / [experiments/026f-semantic-question-loop-20261105](https://github.com/the-static-collective/MOTIF/tree/experiments/026f-semantic-question-loop-20261105) → `ce5b3407b4`
-* **+ branch** MOTIF / [experiments/027f-three-specialist-semantic-20261105](https://github.com/the-static-collective/MOTIF/tree/experiments/027f-three-specialist-semantic-20261105) → `3175fdb1a5`
-* **+ branch** MOTIF / [research/026-discovery-of-discovery](https://github.com/the-static-collective/MOTIF/tree/research/026-discovery-of-discovery) → `7d14d59e12`
-* **+ branch** MOTIF / [research/027-capability-gardener-evaluation](https://github.com/the-static-collective/MOTIF/tree/research/027-capability-gardener-evaluation) → `d1b0890a76`
-* **+ branch** MOTIF / [research/028-memory-of-failure](https://github.com/the-static-collective/MOTIF/tree/research/028-memory-of-failure) → `526eb75823`
-* **+ branch** MOTIF / [research/law-forge-001-20261105](https://github.com/the-static-collective/MOTIF/tree/research/law-forge-001-20261105) → `fab484a9ba`
-* **+ branch** MOTIF / [research/law-forge-002-constructor-20261105](https://github.com/the-static-collective/MOTIF/tree/research/law-forge-002-constructor-20261105) → `0576b038d4`
-* **+ branch** MOTIF / [research/law-forge-003-operator-foundry-20261105](https://github.com/the-static-collective/MOTIF/tree/research/law-forge-003-operator-foundry-20261105) → `7a8845c31d`
-* **+ branch** MOTIF / [research/law-forge-004-grammar-breaker-20261105](https://github.com/the-static-collective/MOTIF/tree/research/law-forge-004-grammar-breaker-20261105) → `d77d74776e`
-* **+ branch** MOTIF / [research/law-forge-005-world-breaker-trinary-20261105](https://github.com/the-static-collective/MOTIF/tree/research/law-forge-005-world-breaker-trinary-20261105) → `091b01df9b`
-* **+ branch** MOTIF / [research/law-forge-006-instrument-inventor-20261105](https://github.com/the-static-collective/MOTIF/tree/research/law-forge-006-instrument-inventor-20261105) → `54e7546727`
-* **+ branch** MOTIF / [research/law-forge-007-lookup-assimilation-20261105](https://github.com/the-static-collective/MOTIF/tree/research/law-forge-007-lookup-assimilation-20261105) → `3cdad4206f`
-* **+ branch** MOTIF / [research/law-forge-008-unknown-world-20261105](https://github.com/the-static-collective/MOTIF/tree/research/law-forge-008-unknown-world-20261105) → `3c933b18d3`
-* **+ branch** MOTIF / [research/law-forge-009-stranger-entropy-cartridge-20261105](https://github.com/the-static-collective/MOTIF/tree/research/law-forge-009-stranger-entropy-cartridge-20261105) → `0d771ff937`
-* **+ branch** MOTIF / [research/law-forge-010-blind-falsifier-20261105](https://github.com/the-static-collective/MOTIF/tree/research/law-forge-010-blind-falsifier-20261105) → `9cf607cc38`
-* **+ branch** MOTIF / [research/law-forge-011-signed-counterfactual-20261105](https://github.com/the-static-collective/MOTIF/tree/research/law-forge-011-signed-counterfactual-20261105) → `b1c5ec2d4b`
-* **+ branch** MOTIF / [research/map-of-maps-001-first-real-weave](https://github.com/the-static-collective/MOTIF/tree/research/map-of-maps-001-first-real-weave) → `4ea03de4e2`
-* **+ branch** MOTIF / [research/map-of-maps-002-native-inquiry-court](https://github.com/the-static-collective/MOTIF/tree/research/map-of-maps-002-native-inquiry-court) → `070aba6031`
-* **+ branch** MOTIF / [research/map-of-maps-003-freegraph-reason-space](https://github.com/the-static-collective/MOTIF/tree/research/map-of-maps-003-freegraph-reason-space) → `8c4ce04e3e`
-* **+ branch** MOTIF / [research/map-of-maps-004-freegraph-investigation-selection](https://github.com/the-static-collective/MOTIF/tree/research/map-of-maps-004-freegraph-investigation-selection) → `ee4cd6a21c`
-* **+ branch** reLATTE / [experiment/minecraft-011-method-falsification](https://github.com/the-static-collective/reLATTE/tree/experiment/minecraft-011-method-falsification) → `edfd299daa`
-* **+ branch** reLATTE / [experiment/minecraft-012-revised-sensor-retest](https://github.com/the-static-collective/reLATTE/tree/experiment/minecraft-012-revised-sensor-retest) → `a86282a597`
-* **+ branch** webZ / [experiment/one-thing-observation-007-bridge](https://github.com/the-static-collective/webZ/tree/experiment/one-thing-observation-007-bridge) → `f078cfece6`
-* **↪ head** JAR-VIS / feat/motif-jarvis-reciprocal-001: [8a100fdbc7](https://github.com/the-static-collective/JAR-VIS/commit/8a100fdbc7736e254a58afafa2b2084dc75f8e64) → [c1f3cbce55](https://github.com/the-static-collective/JAR-VIS/commit/c1f3cbce55de620ffc527e23b8294f87b3b6f0f1)
-* **↪ head** JAR-VIS / main: [73e3ef65cf](https://github.com/the-static-collective/JAR-VIS/commit/73e3ef65cf95ccb147ce830a3472a1aadf0001aa) → [2a46fdf4c7](https://github.com/the-static-collective/JAR-VIS/commit/2a46fdf4c7396b48f791bdc275e4ee5562e11cc5)
-* **↪ head** MOTIF / experiments/022-minimal-causal-witness: [182b76584c](https://github.com/the-static-collective/MOTIF/commit/182b76584cacc767e377313745fb5787fb0f574b) → [3b0c5767e7](https://github.com/the-static-collective/MOTIF/commit/3b0c5767e77a98321e142e03328c876067e29d64)
-* **↪ head** reLATTE / experiment/minecraft-010-compressed-sensor: [991d8e10a8](https://github.com/the-static-collective/reLATTE/commit/991d8e10a84b830f277a31d7feec8f1f4c2c09bd) → [47662a0e13](https://github.com/the-static-collective/reLATTE/commit/47662a0e13f6915eddd7eb3ef321853fc49bb669)
-* **↪ head** What-is-the-static-collective- / main: [8cc3e5d6c3](https://github.com/the-static-collective/What-is-the-static-collective-/commit/8cc3e5d6c3c03616c04aef42e81e9cda300ae6bd) → [7de5e95a1d](https://github.com/the-static-collective/What-is-the-static-collective-/commit/7de5e95a1dc04ead1790d91dd6326430008d954f)
+* **+ branch** JAR-VIS / [feat/motif-thought-012-cross-lens-review](https://github.com/the-static-collective/JAR-VIS/tree/feat/motif-thought-012-cross-lens-review) → `74301033bb`
+* **+ branch** JAR-VIS / [feat/motif-thought-room-011](https://github.com/the-static-collective/JAR-VIS/tree/feat/motif-thought-room-011) → `80a314405e`
+* **+ branch** MOTIF / [experiment/cartridge-ring-001-branch-constellation](https://github.com/the-static-collective/MOTIF/tree/experiment/cartridge-ring-001-branch-constellation) → `9ea74347f7`
+* **+ branch** MOTIF / [experiment/cartridge-ring-002-live-branch-garden](https://github.com/the-static-collective/MOTIF/tree/experiment/cartridge-ring-002-live-branch-garden) → `b0e8166c01`
+* **+ branch** MOTIF / [experiment/cartridge-ring-003-hypergraph-affordance-router](https://github.com/the-static-collective/MOTIF/tree/experiment/cartridge-ring-003-hypergraph-affordance-router) → `9e4fc10c02`
+* **+ branch** MOTIF / [experiment/cartridge-ring-004-shared-evidence-trial](https://github.com/the-static-collective/MOTIF/tree/experiment/cartridge-ring-004-shared-evidence-trial) → `86a0c797bc`
+* **+ branch** MOTIF / [experiment/cartridge-ring-005-evidence-adaptive-routing](https://github.com/the-static-collective/MOTIF/tree/experiment/cartridge-ring-005-evidence-adaptive-routing) → `9fbd693b0c`
+* **+ branch** MOTIF / [experiment/cartridge-ring-006-adversarial-ood-loop](https://github.com/the-static-collective/MOTIF/tree/experiment/cartridge-ring-006-adversarial-ood-loop) → `becf21275a`
+* **+ branch** MOTIF / [experiment/cartridge-ring-007-investigate-before-abstain](https://github.com/the-static-collective/MOTIF/tree/experiment/cartridge-ring-007-investigate-before-abstain) → `c468eecc49`
+* **+ branch** MOTIF / [experiment/geometry-004-missing-macro](https://github.com/the-static-collective/MOTIF/tree/experiment/geometry-004-missing-macro) → `792149503e`
+* **+ branch** MOTIF / [experiment/geometry-005-optional-thought-space](https://github.com/the-static-collective/MOTIF/tree/experiment/geometry-005-optional-thought-space) → `2a07e68ff7`
+* **+ branch** MOTIF / [experiment/geometry-006-temporal-staircase](https://github.com/the-static-collective/MOTIF/tree/experiment/geometry-006-temporal-staircase) → `16204d6f14`
+* **+ branch** MOTIF / [experiment/geometry-007-contextual-imagination](https://github.com/the-static-collective/MOTIF/tree/experiment/geometry-007-contextual-imagination) → `754dad5764`
+* **+ branch** MOTIF / [experiment/geometry-008-free-graph-frontier](https://github.com/the-static-collective/MOTIF/tree/experiment/geometry-008-free-graph-frontier) → `79296285c2`
+* **+ branch** MOTIF / [experiment/geometry-009-self-questioning-grammar](https://github.com/the-static-collective/MOTIF/tree/experiment/geometry-009-self-questioning-grammar) → `a96d8ee9b0`
+* **+ branch** MOTIF / [experiment/geometry-010-self-revising-reason-lab](https://github.com/the-static-collective/MOTIF/tree/experiment/geometry-010-self-revising-reason-lab) → `fd9b81ab8f`
+* **+ branch** MOTIF / [experiment/geometry-011-missing-dimension](https://github.com/the-static-collective/MOTIF/tree/experiment/geometry-011-missing-dimension) → `3420435b08`
+* **+ branch** MOTIF / [experiment/geometry-012-procedural-instrument-synthesis](https://github.com/the-static-collective/MOTIF/tree/experiment/geometry-012-procedural-instrument-synthesis) → `07e19151c7`
+* **+ branch** MOTIF / [experiment/geometry-013-self-redesigning-instrument](https://github.com/the-static-collective/MOTIF/tree/experiment/geometry-013-self-redesigning-instrument) → `a3dc551aba`
+* **+ branch** MOTIF / [experiment/legit-004-question-grammar-induction](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-004-question-grammar-induction) → `95237960f7`
+* **+ branch** MOTIF / [experiment/legit-005-meaning-consequence-frontier](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-005-meaning-consequence-frontier) → `17f5e14bcb`
+* **+ branch** MOTIF / [experiment/legit-006-semantic-adversary](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-006-semantic-adversary) → `0967752731`
+* **+ branch** MOTIF / [experiment/legit-007-adversarial-witness-provenance](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-007-adversarial-witness-provenance) → `882aa53805`
+* **+ branch** MOTIF / [experiment/legit-008-proof-carrying-meta-reasoner](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-008-proof-carrying-meta-reasoner) → `779de5844d`
+* **+ branch** MOTIF / [experiment/legit-009-counterexample-cartridge-invention](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-009-counterexample-cartridge-invention) → `2f3a876dae`
+* **+ branch** MOTIF / [experiment/legit-010-self-hosted-reason-composer](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-010-self-hosted-reason-composer) → `bc8e2ad256`
+* **+ branch** MOTIF / [experiment/legit-011-self-rewriting-search-kernel](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-011-self-rewriting-search-kernel) → `660f9a3f40`
+* **+ branch** MOTIF / [experiment/legit-012-certified-search-dag-transformer](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-012-certified-search-dag-transformer) → `8c13997dd5`
+* **+ branch** MOTIF / [experiment/legit-013-examiner-z3-proven-transform](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-013-examiner-z3-proven-transform) → `8637472d20`
+* **+ branch** MOTIF / [experiment/legit-014-benchmark-gated-self-improvement](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-014-benchmark-gated-self-improvement) → `87cb8c4974`
+* **+ branch** MOTIF / [experiment/legit-015-compounding-improvement-economy](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-015-compounding-improvement-economy) → `921bfc0fec`
+* **+ branch** MOTIF / [experiment/legit-016-empirical-improvement-ledger](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-016-empirical-improvement-ledger) → `31ece9b9a3`
+* **+ branch** MOTIF / [experiment/legit-017-research-productivity-engine](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-017-research-productivity-engine) → `40bc7f5edd`
+* **+ branch** MOTIF / [experiment/legit-018-compositional-capability-discovery](https://github.com/the-static-collective/MOTIF/tree/experiment/legit-018-compositional-capability-discovery) → `ed171e19c2`
+* **+ branch** MOTIF / [experiment/reason-cartridge-012-actual-opinion-excerpts](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-012-actual-opinion-excerpts) → `3f73ea13c1`
+* **+ branch** MOTIF / [experiment/reason-cartridge-013-adversarial-reader](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-013-adversarial-reader) → `1903df3227`
+* **+ branch** MOTIF / [experiment/reason-cartridge-014-complete-opinion-retrieval](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-014-complete-opinion-retrieval) → `1fc06f9e96`
+* **+ branch** MOTIF / [experiment/reason-cartridge-015-unowned-good](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-015-unowned-good) → `96aaeab675`
+* **+ branch** MOTIF / [experiment/reason-cartridge-016-good-of-the-other](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-016-good-of-the-other) → `9733a3bcfb`
+* **+ branch** MOTIF / [experiment/reason-cartridge-017-unexpected-other](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-017-unexpected-other) → `d94b93698f`
+* **+ branch** MOTIF / [experiment/reason-cartridge-018-living-concept](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-018-living-concept) → `ce6b22951f`
+* **+ branch** MOTIF / [experiment/reason-cartridge-019-golden-mirror](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-019-golden-mirror) → `bb1cc8bd8a`
+* **+ branch** MOTIF / [experiment/reason-cartridge-020-golden-mirror-learns](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-020-golden-mirror-learns) → `c0db988ac1`
+* **+ branch** MOTIF / [experiment/reason-cartridge-021-other-teaches-self](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-021-other-teaches-self) → `d1dfacdc34`
+* **+ branch** MOTIF / [experiment/reason-cartridge-022-unimagined-distinction](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-022-unimagined-distinction) → `c2a0f55211`
+* **+ branch** MOTIF / [experiment/reason-cartridge-023-many-truth-mirror](https://github.com/the-static-collective/MOTIF/tree/experiment/reason-cartridge-023-many-truth-mirror) → `dc708dfa40`
+* **+ branch** MOTIF / [experiment/thought-006-pencil-pen-ledger](https://github.com/the-static-collective/MOTIF/tree/experiment/thought-006-pencil-pen-ledger) → `ffeefcedd3`
+* **+ branch** MOTIF / [experiment/thought-007-nonfungible-manifestations](https://github.com/the-static-collective/MOTIF/tree/experiment/thought-007-nonfungible-manifestations) → `9cfc817fd1`
+* **+ branch** MOTIF / [experiment/thought-008-parallel-geometries](https://github.com/the-static-collective/MOTIF/tree/experiment/thought-008-parallel-geometries) → `fbce0bc1b0`
+* **+ branch** MOTIF / [experiment/thought-009-representation-router](https://github.com/the-static-collective/MOTIF/tree/experiment/thought-009-representation-router) → `34222c31ab`
+* **+ branch** MOTIF / [experiment/thought-010-local-interoperability](https://github.com/the-static-collective/MOTIF/tree/experiment/thought-010-local-interoperability) → `e698ef70fd`
+* **+ branch** MOTIF / [experiment/thought-012-cross-lens-inquiry](https://github.com/the-static-collective/MOTIF/tree/experiment/thought-012-cross-lens-inquiry) → `b025aa46a0`
+* **+ branch** MOTIF / [experiment/thought-013-self-directed-human-talk](https://github.com/the-static-collective/MOTIF/tree/experiment/thought-013-self-directed-human-talk) → `61f8571a64`
+* **+ branch** MOTIF / [experiment/thought-014-native-language-selfdev](https://github.com/the-static-collective/MOTIF/tree/experiment/thought-014-native-language-selfdev) → `a38c617641`
+* **+ branch** MOTIF / [experiment/thought-015-model-developer-sandbox](https://github.com/the-static-collective/MOTIF/tree/experiment/thought-015-model-developer-sandbox) → `d726fea94b`
+* **+ branch** MOTIF / [experiment/thought-016-typed-algorithm-inventor](https://github.com/the-static-collective/MOTIF/tree/experiment/thought-016-typed-algorithm-inventor) → `4939e8c831`
+* **+ branch** MOTIF / [experiment/thought-017-nonmonotone-primitive](https://github.com/the-static-collective/MOTIF/tree/experiment/thought-017-nonmonotone-primitive) → `7b33250026`
+* **+ branch** MOTIF / [experiment/thought-018-model-research-director](https://github.com/the-static-collective/MOTIF/tree/experiment/thought-018-model-research-director) → `d53250b09f`
+* **+ branch** MOTIF / [experiment/thought-019-direct-generative-llm](https://github.com/the-static-collective/MOTIF/tree/experiment/thought-019-direct-generative-llm) → `daa04b0dbb`
+* **+ branch** MOTIF / [integration/motif-living-forest-mcp-v03](https://github.com/the-static-collective/MOTIF/tree/integration/motif-living-forest-mcp-v03) → `85e4856668`
+* **+ branch** MOTIF / [plan/thought-fields-full-stack-20261106](https://github.com/the-static-collective/MOTIF/tree/plan/thought-fields-full-stack-20261106) → `c08117b28d`
+* **↪ head** JAR-VIS / main: [2a46fdf4c7](https://github.com/the-static-collective/JAR-VIS/commit/2a46fdf4c7396b48f791bdc275e4ee5562e11cc5) → [d58e421ec2](https://github.com/the-static-collective/JAR-VIS/commit/d58e421ec2eb6033357a288cfcbde5d2a5266a7e)
+* **↪ head** MOTIF / main: [5fc3434fe8](https://github.com/the-static-collective/MOTIF/commit/5fc3434fe8fb0b187f7744d9b44975908a4c7b9c) → [66d27cfbd0](https://github.com/the-static-collective/MOTIF/commit/66d27cfbd077b2c91d0d86d66e320206d88d8f95)
+* **↪ head** What-is-the-static-collective- / main: [7de5e95a1d](https://github.com/the-static-collective/What-is-the-static-collective-/commit/7de5e95a1dc04ead1790d91dd6326430008d954f) → [7145d97aeb](https://github.com/the-static-collective/What-is-the-static-collective-/commit/7145d97aeb282307e9672944b8e0f7b8c2d2002c)
 
 ## Open pull-request set
 
-* **+ open PR** [ALEX.2 #156 — ALEX-025 — Eagle Eye learns where to look: local provider routing and four new public indexes](https://github.com/the-static-collective/ALEX.2/pull/156)
-* **+ open PR** [ALEX.2 #157 — ALEX-026 — Discovery of Discovery: look for unknown public API providers in source-pinned OpenAPI specs](https://github.com/the-static-collective/ALEX.2/pull/157)
-* **+ open PR** [CANNON #92 — CANNON × MOTIF: independently select and replay an unmerged Door Foundry](https://github.com/the-static-collective/CANNON/pull/92)
-* **+ open PR** [CANNON #93 — CANNON-093: independently verify a genuine GRAFT-generated new MOTIF operator](https://github.com/the-static-collective/CANNON/pull/93)
-* **+ open PR** [CANNON #94 — CANNON-094: source-verify GRAFT-born new graph operator against original MOTIF impossibility](https://github.com/the-static-collective/CANNON/pull/94)
-* **+ open PR** [CANNON #95 — CANNON-095: verify actual PNG image-in and independently test GRAFT-born visual operator](https://github.com/the-static-collective/CANNON/pull/95)
-* **+ open PR** [CANNON #96 — CANNON-096: independently reject repeated source echoes as separate evidence](https://github.com/the-static-collective/CANNON/pull/96)
-* **+ open PR** [CANNON #97 — CANNON-097: independently verify hidden-source latent Bayes and false-positive controls](https://github.com/the-static-collective/CANNON/pull/97)
-* **+ open PR** [CANNON #98 — CANNON-098: independently verify held new world model and old closed-world counterproof](https://github.com/the-static-collective/CANNON/pull/98)
-* **+ open PR** [free-graph #20 — Free Graph REASON-SPACE-001: abstract, source-pinned MOTIF reasoning trails and graph-native question pressure](https://github.com/the-static-collective/free-graph/pull/20)
-* **+ open PR** [free-graph #21 — REASON-SPACE-002: graph-native investigative selection, historical reuse, optional LSD divergence](https://github.com/the-static-collective/free-graph/pull/21)
-* **+ open PR** [GHoT #138 — GHoT-004: actual cost of knowing when to stop asking](https://github.com/the-static-collective/GHoT/pull/138)
-* **+ open PR** [GRAFT #22 — GRAFT-026 — Compile source-discovered APIs into executable, fixture-only review adapters](https://github.com/the-static-collective/GRAFT/pull/22)
-* **+ open PR** [GRAFT #23 — GRAFT-027 — Capability Gardener: generated variants, independent tests and bounded public pilot](https://github.com/the-static-collective/GRAFT/pull/23)
-* **+ open PR** [GRAFT #24 — GRAFT-028 — Experience memory: capture, structural recall and exact executable replay](https://github.com/the-static-collective/GRAFT/pull/24)
-* **+ open PR** [GRAFT #25 — GRAFT-029 — generate a missing typed graph-operator family from MOTIF impossibility inquiry](https://github.com/the-static-collective/GRAFT/pull/25)
-* **+ open PR** [GRAFT #26 — GRAFT-030: source-own a new visual transition grammar from image-difference evidence](https://github.com/the-static-collective/GRAFT/pull/26)
-* **+ open PR** [GRAFT #27 — GRAFT-031: synthesize a held environmental model when the old image grammar is impossible](https://github.com/the-static-collective/GRAFT/pull/27)
-* **+ open PR** [JAR-VIS #61 — JAR;VIS-025 — Find the right sources: Eagle Eye provider advisor and 7-source investigation desk](https://github.com/the-static-collective/JAR-VIS/pull/61)
-* **+ open PR** [JAR-VIS #62 — JAR;VIS-026 — Discover missing API sources and rehearse offline adapters](https://github.com/the-static-collective/JAR-VIS/pull/62)
-* **+ open PR** [JAR-VIS #63 — MOTIF-024 in JAR;VIS: two examples, your own example, and the right to correct](https://github.com/the-static-collective/JAR-VIS/pull/63)
-* **+ open PR** [JAR-VIS #64 — JAR;VIS-027 — Investigation Desk Capability Gardener and approved public API example](https://github.com/the-static-collective/JAR-VIS/pull/64)
-* **+ open PR** [JAR-VIS #65 — JAR;VIS × MOTIF-025 — two relevant examples for coffee, volunteers, events, web and more](https://github.com/the-static-collective/JAR-VIS/pull/65)
-* **+ open PR** [JAR-VIS #66 — MOTIF-026: turn a confirmed definition of done into separately consented, downloadable local work](https://github.com/the-static-collective/JAR-VIS/pull/66)
-* **+ open PR** [JAR-VIS #67 — JAR;VIS-028 — Remember and replay failed experiments from the Investigation Desk](https://github.com/the-static-collective/JAR-VIS/pull/67)
-* **+ open PR** [JAR-VIS #68 — MOTIF-027 × JAR;VIS: reviewed mail-app handoff and real local workshop door](https://github.com/the-static-collective/JAR-VIS/pull/68)
-* **+ open PR** [JAR-VIS #69 — JAR;VIS × MOTIF WAKE SIGNAL 001 — human invitation desk with local evidence and consent](https://github.com/the-static-collective/JAR-VIS/pull/69)
-* **+ open PR** [JAR-VIS #70 — NETWORK WEAVE 002 — connect WAKE to our 15-room sovereign opportunity network](https://github.com/the-static-collective/JAR-VIS/pull/70)
-* **+ open PR** [MOTIF #47 — MOTIF-022: physically measured cost of knowing when to stop asking](https://github.com/the-static-collective/MOTIF/pull/47)
-* **+ open PR** [MOTIF #48 — MOTIF-022 CRATER: minimum causal witness — new instrument derived from real Minecraft evidence](https://github.com/the-static-collective/MOTIF/pull/48)
-* **+ open PR** [MOTIF #49 — MOTIF-025F: Let MOTIF interview T5 for a job (including NO_T5) — real decoder failure, encoder lead](https://github.com/the-static-collective/MOTIF/pull/49)
-* **+ open PR** [MOTIF #50 — MOTIF-023 — human goal handshake: who defines enough?](https://github.com/the-static-collective/MOTIF/pull/50)
-* **+ open PR** [MOTIF #51 — MOTIF-026 — Discover an unknown source, classically plan review, compose and execute an offline GRAFT adapter](https://github.com/the-static-collective/MOTIF/pull/51)
-* **+ open PR** [MOTIF #52 — MOTIF-026F: Wire T5 silent semantic scout into native questions; ask again what model should do](https://github.com/the-static-collective/MOTIF/pull/52)
-* **+ open PR** [MOTIF #53 — MOTIF-024: The Right to Be Wrong — two examples or write your own](https://github.com/the-static-collective/MOTIF/pull/53)
-* **+ open PR** [MOTIF #54 — MOTIF-027 — Capability Gardener: observed test failures change next classical plan](https://github.com/the-static-collective/MOTIF/pull/54)
-* **+ open PR** [MOTIF #55 — MOTIF-027F: independent question relevance + three specialized real T5 encoder nodes (tested against NO_T5)](https://github.com/the-static-collective/MOTIF/pull/55)
-* **+ open PR** [MOTIF #56 — MOTIF-025: composable examples for human-defined success across domains](https://github.com/the-static-collective/MOTIF/pull/56)
-* **+ open PR** [MOTIF #57 — LAW-FORGE-001: Test temporal concept invention against hidden worlds and classical inquiry](https://github.com/the-static-collective/MOTIF/pull/57)
-* **+ open PR** [MOTIF #58 — LAW-FORGE-002: Invent a bounded feature constructor, then try to falsify it](https://github.com/the-static-collective/MOTIF/pull/58)
-* **+ open PR** [MOTIF #59 — MOTIF-026: from human-defined enough to separately approved local work](https://github.com/the-static-collective/MOTIF/pull/59)
-* **+ open PR** [MOTIF #60 — LAW-FORGE-003: Synthesize executable operators from NAND alone, then falsify them](https://github.com/the-static-collective/MOTIF/pull/60)
-* **+ open PR** [MOTIF #61 — MOTIF-028 — The Memory of Failure: persistent hash-linked ledger, exact replay and classical next experiment](https://github.com/the-static-collective/MOTIF/pull/61)
-* **+ open PR** [MOTIF #62 — MOTIF-027: The Last Inch — operator-approved local app handoff](https://github.com/the-static-collective/MOTIF/pull/62)
-* **+ open PR** [MOTIF #63 — LAW-FORGE-004: Break the fold grammar and infer executable stateful operators](https://github.com/the-static-collective/MOTIF/pull/63)
-* **+ open PR** [MOTIF #64 — WAKE SIGNAL 001: randomized voluntary human-agency invitation pilot](https://github.com/the-static-collective/MOTIF/pull/64)
-* **+ open PR** [MOTIF #65 — LAW-FORGE-005: World Breaker — put trinary on trial against binary and relational senses](https://github.com/the-static-collective/MOTIF/pull/65)
-* **+ open PR** [MOTIF #66 — DOOR-FOUNDRY-001: source-pinned capability registry + first composed Door](https://github.com/the-static-collective/MOTIF/pull/66)
-* **+ open PR** [MOTIF #67 — LAW-FORGE-006: Invent a sensor program from source-owned graph primitives, then verify with native Dogram](https://github.com/the-static-collective/MOTIF/pull/67)
-* **+ open PR** [MOTIF #68 — LAW-FORGE-007: Assimilate exact classical lookup as a source-pinned hybrid reasoning skill](https://github.com/the-static-collective/MOTIF/pull/68)
-* **+ open PR** [MOTIF #69 — MOTIF Field Map 001 — source-pinned growing views of the Collective and what to ask next](https://github.com/the-static-collective/MOTIF/pull/69)
-* **+ open PR** [MOTIF #70 — REASON-CARTRIDGE-001: learn method choices from teacher corrections, then locally revalidate](https://github.com/the-static-collective/MOTIF/pull/70)
-* **+ open PR** [MOTIF #71 — DOOR-FOUNDRY-002: CANNON evidence returns to generate three runnable MOTIF builds](https://github.com/the-static-collective/MOTIF/pull/71)
-* **+ open PR** [MOTIF #72 — LAW-FORGE-008: Unknown World — assimilated lookup chooses bounded, consequence-aware questions](https://github.com/the-static-collective/MOTIF/pull/72)
-* **+ open PR** [MOTIF #73 — REASON-CARTRIDGE-002: distil a third conditional procedure from two teacher traces](https://github.com/the-static-collective/MOTIF/pull/73)
-* **+ open PR** [MOTIF #74 — MOTIF MAP-002: use original ALEX, planZ, Dogram &amp; GRAFT to investigate a real map-selected gap](https://github.com/the-static-collective/MOTIF/pull/74)
-* **+ open PR** [MOTIF #75 — DOOR-FOUNDRY-003: GRAFT-born new executable MOTIF sensor via CANNON verification](https://github.com/the-static-collective/MOTIF/pull/75)
-* **+ open PR** [MOTIF #76 — LAW-FORGE-009: Assimilate real Shannon entropy as a portable reason cartridge and face the Stranger](https://github.com/the-static-collective/MOTIF/pull/76)
-* **+ open PR** [MOTIF #77 — REASON-CARTRIDGE-003: native Dogram teaches, exits; MOTIF retains method + epistemic objection engine](https://github.com/the-static-collective/MOTIF/pull/77)
-* **+ open PR** [MOTIF #78 — MOTIF MAP-003: let native Free Graph reason about our investigations, not just diagram them](https://github.com/the-static-collective/MOTIF/pull/78)
-* **+ open PR** [MOTIF #79 — DOOR-FOUNDRY-004: MOTIF poses a native capability question before GRAFT proposes the answer](https://github.com/the-static-collective/MOTIF/pull/79)
-* **+ open PR** [MOTIF #80 — REASON-CARTRIDGE-004: self-objecting proofs and question-guided falsification](https://github.com/the-static-collective/MOTIF/pull/80)
-* **+ open PR** [MOTIF #81 — DOOR-FOUNDRY-005: MOTIF proves missing grammar, GRAFT generates new rule, CANNON verifies](https://github.com/the-static-collective/MOTIF/pull/81)
-* **+ open PR** [MOTIF #82 — LAW-FORGE-010: Blind Falsifier — source-owned post-identification questions and grammar-gap certificates](https://github.com/the-static-collective/MOTIF/pull/82)
-* **+ open PR** [MOTIF #83 — MOTIF MAP-004: select the next graph investigation from native Free Graph; optional LSD divergence](https://github.com/the-static-collective/MOTIF/pull/83)
-* **+ open PR** [MOTIF #84 — REASON-CARTRIDGE-005: objections to objections, proof defenses and source corrections](https://github.com/the-static-collective/MOTIF/pull/84)
-* **+ open PR** [MOTIF #85 — MOTIF-006: IMAGE-IN visual imagination with source-generated GRAFT futures and CANNON review](https://github.com/the-static-collective/MOTIF/pull/85)
-* **+ open PR** [MOTIF #86 — MOTIF-007: text-to-picture-to-text reasoning with grounded PNG futures and uncertainty](https://github.com/the-static-collective/MOTIF/pull/86)
-* **+ open PR** [MOTIF #87 — LAW-FORGE-011: Real signed-literal counterfactual critic + independently checked Grok 015C donor](https://github.com/the-static-collective/MOTIF/pull/87)
-* **+ open PR** [MOTIF #88 — REASON-CARTRIDGE-006: source-owned reasoning commonwealth with marginal-contribution ledger](https://github.com/the-static-collective/MOTIF/pull/88)
-* **+ open PR** [MOTIF #89 — MOTIF-008: let text, image and logic challenge one another with finite counterproofs](https://github.com/the-static-collective/MOTIF/pull/89)
-* **+ open PR** [MOTIF #90 — REASON-CARTRIDGE-007: Discovery Market, bounded sensor invention and verified capability rewards](https://github.com/the-static-collective/MOTIF/pull/90)
-* **+ open PR** [MOTIF #91 — MOTIF-009: ask the cost-sensitive question that resolves four uncertain visual worlds](https://github.com/the-static-collective/MOTIF/pull/91)
-* **+ open PR** [MOTIF #92 — MOTIF-010: preserve visual world hypotheses and revise beliefs with source-audited evidence](https://github.com/the-static-collective/MOTIF/pull/92)
-* **+ open PR** [MOTIF #93 — REASON-CARTRIDGE-008: missing-grammar proof, typed macro discovery, native Dogram verification](https://github.com/the-static-collective/MOTIF/pull/93)
-* **+ open PR** [MOTIF #94 — MOTIF-011: evidence provenance graph detects source echoes before Bayesian belief updates](https://github.com/the-static-collective/MOTIF/pull/94)
-* **+ open PR** [MOTIF #95 — REASON-CARTRIDGE-009: recursive grammar inventor, source-owner CEGIS and 64 original Dogram audits](https://github.com/the-static-collective/MOTIF/pull/95)
-* **+ open PR** [MOTIF #96 — LEGIT-001: reason routing × authored Stranger Gate with exact classical control](https://github.com/the-static-collective/MOTIF/pull/96)
-* **+ open PR** [MOTIF #97 — MOTIF-015: offline PostHog observation witness (aggregate-only; review gate)](https://github.com/the-static-collective/MOTIF/pull/97)
-* **+ open PR** [MOTIF #98 — MOTIF-012: infer hidden common sources without discarding independent agreement](https://github.com/the-static-collective/MOTIF/pull/98)
-* **+ open PR** [MOTIF #99 — REASON-CARTRIDGE-010: The Strange Court — test typed reasoning on real bizarre historical cases](https://github.com/the-static-collective/MOTIF/pull/99)
-* **+ open PR** [MOTIF #100 — LEGIT-002: The Silent Witness — head-to-head on covert consciousness, with native epistemic HOLD](https://github.com/the-static-collective/MOTIF/pull/100)
-* **+ open PR** [MOTIF #101 — MOTIF-GEOM-001 — Flower of Life as an executable geometric reasoning cartridge](https://github.com/the-static-collective/MOTIF/pull/101)
-* **+ open PR** [MOTIF #102 — REASON-CARTRIDGE-011: The Impossible Court — non-explosive contradictory legal hypotheticals](https://github.com/the-static-collective/MOTIF/pull/102)
-* **+ open PR** [MOTIF #103 — MOTIF-013: a missing-world certificate and held new environmental model](https://github.com/the-static-collective/MOTIF/pull/103)
-* **+ open PR** [MOTIF #104 — MOTIF-GEOM-002 — Let the geometry discover its own rules](https://github.com/the-static-collective/MOTIF/pull/104)
-* **+ open PR** [MOTIF #105 — LEGIT-003: Grammar of the Unknown — construct countermodels rather than invent priors](https://github.com/the-static-collective/MOTIF/pull/105)
-* **+ open PR** [MOTIF #106 — MOTIF-GEOM-003: synthesize geometric construction methods; compose nine-point circle](https://github.com/the-static-collective/MOTIF/pull/106)
-* **+ open PR** [reLATTE #178 — Minecraft-010: MOTIF-invented two-lamp witness observed 2/9 in new World A; independently verified](https://github.com/the-static-collective/reLATTE/pull/178)
-* **+ open PR** [webZ #257 — ONE THING 007: consent-first observation bridge to MOTIF-015](https://github.com/the-static-collective/webZ/pull/257)
+* **+ open PR** [JAR-VIS #71 — JAR;VIS Thought Room 011 — a working human-facing Pencil desk for native MOTIF](https://github.com/the-static-collective/JAR-VIS/pull/71)
+* **+ open PR** [JAR-VIS #72 — Thought Room 012 — human-selected pencil questions travel across MOTIF reasoning lenses](https://github.com/the-static-collective/JAR-VIS/pull/72)
+* **+ open PR** [MOTIF #107 — REASON-CARTRIDGE-012: real opinion excerpt types, new Ulysses/Coca-Cola heldouts, four-value evidence scope](https://github.com/the-static-collective/MOTIF/pull/107)
+* **+ open PR** [MOTIF #108 — LEGIT-004: The Unknown Question — induce grammar from corrections and face a stronger classical parser](https://github.com/the-static-collective/MOTIF/pull/108)
+* **+ open PR** [MOTIF #109 — MOTIF-GEOM-004 — discover a missing geometric macro from existing operators](https://github.com/the-static-collective/MOTIF/pull/109)
+* **+ open PR** [MOTIF #110 — MOTIF-GEOM-005 — optional geometric thought-space for ideas, words, and associations](https://github.com/the-static-collective/MOTIF/pull/110)
+* **+ open PR** [MOTIF #111 — REASON-CARTRIDGE-013: Adversarial Reader — separate plurality, concurrence, dissent and source-anchored argument evidence](https://github.com/the-static-collective/MOTIF/pull/111)
+* **+ open PR** [MOTIF #112 — RFC: Full-stack Pencil/Pen Thought Fields (THOUGHT-006–010)](https://github.com/the-static-collective/MOTIF/pull/112)
+* **+ open PR** [MOTIF #113 — THOUGHT-006 — Pencil/Pen ledger: scoped commitments, objections, withdrawal and exact replay](https://github.com/the-static-collective/MOTIF/pull/113)
+* **+ open PR** [MOTIF #114 — REASON-CARTRIDGE-014: Full Supreme Court opinion ingestion, source-pinned retrieval and honest 11-question evaluation](https://github.com/the-static-collective/MOTIF/pull/114)
+* **+ open PR** [MOTIF #115 — LEGIT-005: Meaning Frontier — compose question semantics and falsify against countermodels](https://github.com/the-static-collective/MOTIF/pull/115)
+* **+ open PR** [MOTIF #116 — MOTIF-GEOM-006 — Temporal Staircase Lab: observer-relative edges and question selection](https://github.com/the-static-collective/MOTIF/pull/116)
+* **+ open PR** [MOTIF #117 — THOUGHT-007: Non-fungible concept manifestations and simultaneous placements](https://github.com/the-static-collective/MOTIF/pull/117)
+* **+ open PR** [MOTIF #118 — LEGIT-006: Semantic Adversary — absence of evidence ≠ evidence of absence, with independent FraCaS OOD HOLD](https://github.com/the-static-collective/MOTIF/pull/118)
+* **+ open PR** [MOTIF #119 — REASON-015: The Unowned Good — consent, uncoerced care and love without capture](https://github.com/the-static-collective/MOTIF/pull/119)
+* **+ open PR** [MOTIF #120 — MOTIF THOUGHT-008 — parallel geometric thought fields from one evidence graph](https://github.com/the-static-collective/MOTIF/pull/120)
+* **+ open PR** [MOTIF #121 — MOTIF-GEOM-007 — Contextual Imagination: local-to-global worlds and representation-gap certificates](https://github.com/the-static-collective/MOTIF/pull/121)
+* **+ open PR** [MOTIF #122 — LEGIT-007: Adversarial Witness — provenance chains, source calibration, and unsent Bayes-optimal audits](https://github.com/the-static-collective/MOTIF/pull/122)
+* **+ open PR** [MOTIF #123 — THOUGHT-009 — choose, abstain and reconsider thinking instruments](https://github.com/the-static-collective/MOTIF/pull/123)
+* **+ open PR** [MOTIF #124 — REASON-016: The Good of the Other — active listening, uncertain preferences and revocable action-scoped consent](https://github.com/the-static-collective/MOTIF/pull/124)
+* **+ open PR** [MOTIF #125 — LEGIT-008: Proof-Carrying Metareasoner — synthesized reasoning-depth policy beats fixed classical strategies under held-out compute cost](https://github.com/the-static-collective/MOTIF/pull/125)
+* **+ open PR** [MOTIF #126 — MOTIF-GEOM-008 — Free Graph Frontier: persistent hypergraph growth and synthesized reasoning operators](https://github.com/the-static-collective/MOTIF/pull/126)
+* **+ open PR** [MOTIF #127 — REASON-017 — The Unexpected Other: accept entirely new reported goals, correction and scoped consent](https://github.com/the-static-collective/MOTIF/pull/127)
+* **+ open PR** [MOTIF #128 — LEGIT-009: Invention of Reason — CEGIS-generated NAND reasoning cartridges with independent proof](https://github.com/the-static-collective/MOTIF/pull/128)
+* **+ open PR** [MOTIF #129 — MOTIF-GEOM-009 — Self-questioning grammar synthesis + huge-budget graph stress](https://github.com/the-static-collective/MOTIF/pull/129)
+* **+ open PR** [MOTIF #130 — REASON-018 — The Living Concept: relational program induction from counterexamples, four-valued witnesses and source-drift humility](https://github.com/the-static-collective/MOTIF/pull/130)
+* **+ open PR** [MOTIF #131 — THOUGHT-010: bounded local thought doorway and held Free Graph seed export](https://github.com/the-static-collective/MOTIF/pull/131)
+* **+ open PR** [MOTIF #132 — LEGIT-010: Self-Bootstrap — MOTIF runs its own synthesizer to write and verify successor algorithms](https://github.com/the-static-collective/MOTIF/pull/132)
+* **+ open PR** [MOTIF #133 — MOTIF-GEOM-010 — Self-Revising Reasoning Lab: Explorer/Critic/Inventor and guarded cartridges](https://github.com/the-static-collective/MOTIF/pull/133)
+* **+ open PR** [MOTIF #134 — THOUGHT-012 — carry pencil questions across changing reasoning representations](https://github.com/the-static-collective/MOTIF/pull/134)
+* **+ open PR** [MOTIF #135 — REASON-019 — The Golden Mirror: dual self/other circles, four real perspective elves, consent and nonprojection](https://github.com/the-static-collective/MOTIF/pull/135)
+* **+ open PR** [MOTIF #136 — MOTIF-GEOM-011 — Missing Dimension: collision witnesses, permitted probes, synthesized XOR feature](https://github.com/the-static-collective/MOTIF/pull/136)
+* **+ open PR** [MOTIF #137 — LEGIT-011: Motif rewrites its own synthesis search — CEGIS-generated Python source, exhaustive equivalence, exact classical index tie](https://github.com/the-static-collective/MOTIF/pull/137)
+* **+ open PR** [MOTIF #138 — THOUGHT-013 — Self-directed inquiry and a Human Terminal–inspired language membrane](https://github.com/the-static-collective/MOTIF/pull/138)
+* **+ open PR** [MOTIF #139 — MOTIF-GEOM-012 — Synthesize measurement instruments from raw event traces](https://github.com/the-static-collective/MOTIF/pull/139)
+* **+ open PR** [MOTIF #140 — REASON-020 — The Golden Mirror Learns: update both circles via source corrections and verified self-improvement](https://github.com/the-static-collective/MOTIF/pull/140)
+* **+ open PR** [MOTIF #141 — LEGIT-012: Certified Search-DAG Transformer — self-rewriting solver, finite proof, fair classical DP baseline](https://github.com/the-static-collective/MOTIF/pull/141)
+* **+ open PR** [MOTIF #142 — THOUGHT-014: native human-talk reasoning + MOTIF-run model development tests](https://github.com/the-static-collective/MOTIF/pull/142)
+* **+ open PR** [MOTIF #143 — MOTIF-GEOM-013 — measurement procedures that redesign through feedback](https://github.com/the-static-collective/MOTIF/pull/143)
+* **+ open PR** [MOTIF #144 — REASON-021 — The Other Teaches the Self: source-corrected conceptual vocabulary, four Golden Mirror elves and consent](https://github.com/the-static-collective/MOTIF/pull/144)
+* **+ open PR** [MOTIF #145 — LEGIT-013: Self-Improvement Examiner — source-profiler discoveries, real Z3 counterexamples, formal proof and honest runtime falsification](https://github.com/the-static-collective/MOTIF/pull/145)
+* **+ open PR** [MOTIF #146 — RING-001: discover 149 branches, selectively combine source-pinned cartridges in execution waves](https://github.com/the-static-collective/MOTIF/pull/146)
+* **+ open PR** [MOTIF #147 — THOUGHT-015: model-guided code repair, independent oracle and review-only patch](https://github.com/the-static-collective/MOTIF/pull/147)
+* **+ open PR** [MOTIF #148 — LEGIT-014: Self-improvement trial — Z3 refutes unsafe rewrites; runtime feedback refuses unearned promotion](https://github.com/the-static-collective/MOTIF/pull/148)
+* **+ open PR** [MOTIF #149 — REASON-022 — The Unimagined Distinction: independent typed reasoning, source ambiguity and Golden Rule obligations](https://github.com/the-static-collective/MOTIF/pull/149)
+* **+ open PR** [MOTIF #150 — RING-002: live discovery for every future branch + 3 isolated native reasoning adapters](https://github.com/the-static-collective/MOTIF/pull/150)
+* **+ open PR** [MOTIF #151 — THOUGHT-016: typed algorithm composition, real tests, and independent key-state oracle](https://github.com/the-static-collective/MOTIF/pull/151)
+* **+ open PR** [MOTIF #152 — LEGIT-015: Compounding Improvement Economy — finite reinvestment, second-order research dividends, exact no-hype oracle](https://github.com/the-static-collective/MOTIF/pull/152)
+* **+ open PR** [MOTIF #153 — RING-003: hypergraph of cartridge multi-uses, synergy hypotheses and future-branch source analysis](https://github.com/the-static-collective/MOTIF/pull/153)
+* **+ open PR** [MOTIF #154 — THOUGHT-017: model-proposed nonmonotone primitive, independent XOR oracle, frozen audit](https://github.com/the-static-collective/MOTIF/pull/154)
+* **+ open PR** [MOTIF #155 — REASON-023 — The Many-Truth Mirror: preserve multiple source answers, four-valued testimony and consent-bounded inquiry](https://github.com/the-static-collective/MOTIF/pull/155)
+* **+ open PR** [MOTIF #156 — LEGIT-016: Empirical Compounding Witness — reprove real generated solvers, measure costs and refuse unjustified growth estimates](https://github.com/the-static-collective/MOTIF/pull/156)
+* **+ open PR** [MOTIF #157 — RING-004: shared-evidence native triad, 64 held-out synthetic trials and empirical hypergraph feedback](https://github.com/the-static-collective/MOTIF/pull/157)
+* **+ open PR** [MOTIF #158 — THOUGHT-018: complete self-directed model research and attributed GPT-6 relay experiment](https://github.com/the-static-collective/MOTIF/pull/158)
+* **+ open PR** [MOTIF #159 — LEGIT-017: Research Productivity Engine — real cross-domain tool generation, frozen tool allocation, measured meta-verifier transfer and classical HOLD](https://github.com/the-static-collective/MOTIF/pull/159)
+* **+ open PR** [MOTIF #160 — MOTIF forest MCP v0.3 — live branch passports, reviewed native cartridges and shared-world trial](https://github.com/the-static-collective/MOTIF/pull/160)
+* **+ open PR** [MOTIF #161 — RING-005: evidence-adaptive native cartridge routing, 64+64 shared-world trials and self-correction gate](https://github.com/the-static-collective/MOTIF/pull/161)
+* **+ open PR** [MOTIF #162 — LEGIT-018: Compositional capability discovery — genuine predecessor-code transfer, counterexamples, forbidden-node adaptation and honest no-compounding ablation](https://github.com/the-static-collective/MOTIF/pull/162)
+* **+ open PR** [MOTIF #163 — RING-006: adversarial OOD counterexample, review-triggered cartridge quarantine and measured hypergraph tension](https://github.com/the-static-collective/MOTIF/pull/163)
+* **+ open PR** [MOTIF #164 — THOUGHT-019 — MOTIF directly operates a local generative LLM](https://github.com/the-static-collective/MOTIF/pull/164)
+* **+ open PR** [MOTIF #165 — RING-007: evidence-selected three-way investigation recovers benign answers without reopening synthetic unsafe decisions](https://github.com/the-static-collective/MOTIF/pull/165)
 
 The machine-readable companion is [delta.json](delta.json).
 For current status, follow the project source; DELTA is a witness of movement,
