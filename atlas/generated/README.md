@@ -4,7 +4,7 @@ description: "Dated, source-linked public Git inventory for the Static Collectiv
 
 # Public Git inventory
 
-Captured: **2026-11-07T13:59:02+00:00** · **90 public repositories** · **2734 branch refs** (including defaults) · **1501 open PRs**.
+Captured: **2026-11-08T14:17:16+00:00** · **90 public repositories** · **2776 branch refs** (including defaults) · **1543 open PRs**.
 
 [Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
 
@@ -25,7 +25,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [Images and appliances](images-and-appliances.md) | 10 | 352 | 154 |
 | [Worlds and inquiry](worlds-and-inquiry.md) | 6 | 134 | 52 |
 | [Operating surfaces](operating-surfaces.md) | 5 | 187 | 137 |
-| [Unplaced public repositories](unplaced.md) | 25 | 1195 | 913 |
+| [Unplaced public repositories](unplaced.md) | 25 | 1237 | 955 |
 
 ## All public repositories
 
@@ -70,7 +70,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [lemonPRESS](https://github.com/the-static-collective/lemonPRESS) | [Unplaced public repositories](unplaced.md) | 72 | 46 |
 | [LOADOUT](https://github.com/the-static-collective/LOADOUT) | [Contracts and memory](contracts-and-memory.md) | 24 | 11 |
 | [love](https://github.com/the-static-collective/love) | [Unplaced public repositories](unplaced.md) | 0 | 0 |
-| [MOTIF](https://github.com/the-static-collective/MOTIF) | [Unplaced public repositories](unplaced.md) | 169 | 152 |
+| [MOTIF](https://github.com/the-static-collective/MOTIF) | [Unplaced public repositories](unplaced.md) | 211 | 194 |
 | [MSyoU](https://github.com/the-static-collective/MSyoU) | [Unplaced public repositories](unplaced.md) | 4 | 0 |
 | [mundaneWORMHOLE](https://github.com/the-static-collective/mundaneWORMHOLE) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [national-treasure](https://github.com/the-static-collective/national-treasure) | [Worlds and inquiry](worlds-and-inquiry.md) | 77 | 12 |
