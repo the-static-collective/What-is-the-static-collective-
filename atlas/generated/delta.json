@@ -1,219 +1,24 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-07T13:59:02+00:00",
-  "to_captured_at": "2026-11-08T14:17:16+00:00",
+  "from_captured_at": "2026-11-08T14:17:16+00:00",
+  "to_captured_at": "2026-11-09T17:28:04+00:00",
   "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
       "repository": "MOTIF",
-      "branch": "experiment/cartridge-ring-008-language-algorithm-foundry",
-      "sha": "46af0bddd1bf90b70f9b39ebde365ce554d95705"
+      "branch": "experiment/adapter-invention-001-20261108",
+      "sha": "08885797fbcf13c12623363e2d1db2000f859b52"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/cartridge-ring-009-contrastive-relational-induction",
-      "sha": "d9bb73d08284d69019a5059f6950a0db1dfeef3b"
+      "branch": "experiment/cartridge-ring-015-conditional-real-test-followups",
+      "sha": "cdaa414ea13710450f8947ac8b6c4b58220fef16"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/cartridge-ring-010-latent-graph-grammar",
-      "sha": "bad8a50634b6ed5b35282c97cdc3012408f46137"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/cartridge-ring-011-nested-voice-carrier-binder",
-      "sha": "5e7fcabf0728e07d3573e33dcb53abf10405b35b"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/cartridge-ring-012-ambiguity-native-perspective-lattice",
-      "sha": "9712413c9eca2bc4f66adcff589762d2659cf499"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/cartridge-ring-013-value-of-next-move",
-      "sha": "4add70cced4129d8e4317d310a582c271f51218b"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/cartridge-ring-014-real-sandbox-tool-frontier",
-      "sha": "bb741a90cd4aafda2df829b46076d50b62a4bc37"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/context-gate-001-20261107",
-      "sha": "a0a96dd4295fb272f9e8759ac40061fb82a84d31"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/decoder-integrity-001-20261107",
-      "sha": "1680ec64776e040debd4190bf134b4f21c9162a7"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/fir-001-before-the-arrow",
-      "sha": "9d0e56166a413e5ab1a895c21477acc35befc5ca"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/legit-019-independent-math-and-compounding-challenge",
-      "sha": "18fa80172cb4759090783bfcd197ae996ba47889"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/legit-020-aperture-dogram-mathalizer",
-      "sha": "144f0b66e54b8b15bd0b08666dee0e98c62769bb"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/legit-021-aperture-inventor",
-      "sha": "a5eda2baa4380cf592616c80886d7402d30d9054"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/legit-022-atlas-aperture-dividend",
-      "sha": "375df67205fbae5788a9feb3b79a339ef4e423b4"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/mathal-001-nunumathal-001-20261107",
-      "sha": "485d8ea1bf3a0cb8f7498f0b79a4f16231992292"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/next-step-001-20261107",
-      "sha": "14a0fb7499faf2c7ea93e793722e9d39c856c31b"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/provenance-probe-001-20261107",
-      "sha": "b6eff160d59acd70e29034fed931f17a2796870b"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/quantum-code-001-20261107",
-      "sha": "66b659d8d1a27f02616b4fd04b301ef5008f8074"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/quantum-code-002-structural-20261107",
-      "sha": "6bc5338fa7be0e5b232c6ac9bc0e7f8a6eb61e04"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/quantum-code-003-aperture-20261107",
-      "sha": "f5fd6a1973caf8f88e96239cceb9deb757951db7"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/quantum-code-004-grammar-gardener-20261107",
-      "sha": "067312f2c394febee2fbd2210f000919bf0e9789"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/quantum-code-005-foreign-worlds-20261107",
-      "sha": "5b9571ac512381fcefc4d50747e905706d51e9cb"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/quantum-code-006-symbolic-remix-20261107",
-      "sha": "cbb7f1012a45f2445cb6cbe1ab0a92573640574d"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/quantum-code-007-living-action-field-20261107",
-      "sha": "bed8abf23476579c47609f7ec2fd9ccea0b5f443"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/quantum-code-008-affordance-recovery-20261107",
-      "sha": "ed6761154fcd4cf3a9582bb030a753a7f453be10"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/quantum-code-009-street-sense-20261107",
-      "sha": "c425fc99205d76eb34a9e0141e4b55908f7a9ae2"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/quantum-code-010-traction-loop-20261108",
-      "sha": "faa58ba687f62514a793f7eb09f52d8e5428ddfc"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/self-assembly-001-20261108",
-      "sha": "0b75ad661b37e2a3cc4cfa260cfd921475764340"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/self-build-001-20261107",
-      "sha": "649cc558a8f0a115d279e889e3a98703316e95a9"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/self-mirror-001-20261107",
-      "sha": "deb05681df638dc6098d37be28bafc7ba4968ca5"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/thought-020-semantic-development-critic",
-      "sha": "ceb83a5b737fcd9aa9dac4b301679f695d2c8f8b"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/thought-021-counterexample-guided-llm",
-      "sha": "62a474caf4754bfa24b24d4ebcc6e879097d6b79"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/thought-022-classical-llm-synthesis-race",
-      "sha": "5c5e863b62b5b9cc394c91227ec28d7477242cc6"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/thought-023-grammar-gardener",
-      "sha": "89d62cf3339637dc66d378305140e51f14073812"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/thought-024-cross-domain-transfer",
-      "sha": "52dd4abca1362f4f931e692a7f04048054e39940"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/thought-025-abstraction-discoverer",
-      "sha": "2b39b508860e5400b8ee3d8c323e9de8a54b962a"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/thought-026-stagewise-abstraction",
-      "sha": "19556a1b9b4d431c5417c4f374423682b4bad167"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/thought-027-proof-carrying-fragments",
-      "sha": "e7b4634437f603078fcab7781898a35b3f95f396"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/thought-028-proof-weave-active-composition",
-      "sha": "e6504b125961b4013505bf1aa16e6daa5e5523ba"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/thought-029-symbolic-artifact-access",
-      "sha": "47a0660b7c3193ba0b4e4958cc377ee6855f9122"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/thought-030-evidence-router-pidgin",
-      "sha": "e8b3daa9951484c4de869f9ee9245d38cac64392"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/witness-chain-001-20261107",
-      "sha": "cdf741dfade1e29254de4cf0a041ae9ab6261f66"
+      "branch": "experiment/thought-031-evidence-relay-compositional-pidgin",
+      "sha": "724ea2fe4b0beb845cd1b45883719577105aa16a"
     }
   ],
   "removed_branches": [],
@@ -221,358 +26,40 @@
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "d58e421ec2eb6033357a288cfcbde5d2a5266a7e",
-      "to_sha": "24098af23d479de861644b8faf95634f0c16f812"
-    },
-    {
-      "repository": "SIA",
-      "branch": "main",
-      "from_sha": "41a896f895474e950deb64db67049c794f2ae1d9",
-      "to_sha": "fe1292fc8ad3b6905ee9c5957ef4f4b33b7f2f0d"
+      "from_sha": "24098af23d479de861644b8faf95634f0c16f812",
+      "to_sha": "57db641aafbaf1d6f34ee2cb7082ea860b3aff71"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "7145d97aeb282307e9672944b8e0f7b8c2d2002c",
-      "to_sha": "c6e63dd44943cc5053c0b5b5300d676eb4541581"
+      "from_sha": "c6e63dd44943cc5053c0b5b5300d676eb4541581",
+      "to_sha": "6a26d0b3c473fc70008aa1963a18935e896d939e"
     }
   ],
   "opened_prs": [
     {
       "repository": "MOTIF",
-      "number": 166,
-      "title": "THOUGHT-020 — Semantic Development Critic for MOTIF-operated generative LLM",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/166",
-      "head_branch": "experiment/thought-020-semantic-development-critic",
-      "base_branch": "experiment/thought-019-direct-generative-llm"
+      "number": 208,
+      "title": "RING-015: real source triage and conditional second tests; FULL-only remains stronger on measured costs",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/208",
+      "head_branch": "experiment/cartridge-ring-015-conditional-real-test-followups",
+      "base_branch": "experiment/cartridge-ring-014-real-sandbox-tool-frontier"
     },
     {
       "repository": "MOTIF",
-      "number": 167,
-      "title": "LEGIT-019: Independently authored math challenge + Z3 conjecture discovery — test, not assume, novel reasoning and recursive compounding",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/167",
-      "head_branch": "experiment/legit-019-independent-math-and-compounding-challenge",
-      "base_branch": "experiment/legit-018-compositional-capability-discovery"
+      "number": 209,
+      "title": "ADAPTER-INVENTION-001: synthesize and test a real typed cartridge bridge",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/209",
+      "head_branch": "experiment/adapter-invention-001-20261108",
+      "base_branch": "experiment/self-assembly-001-20261108"
     },
     {
       "repository": "MOTIF",
-      "number": 168,
-      "title": "RING-008: synthesize 160 semantic programs, measure new grammar composition and falsify unsafe OOD generalization",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/168",
-      "head_branch": "experiment/cartridge-ring-008-language-algorithm-foundry",
-      "base_branch": "experiment/cartridge-ring-007-investigate-before-abstain"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 169,
-      "title": "THOUGHT-021 (draft): Counterexample-guided LLM development using witnessed constraints",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/169",
-      "head_branch": "experiment/thought-021-counterexample-guided-llm",
-      "base_branch": "experiment/thought-020-semantic-development-critic"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 170,
-      "title": "RING-009: invent typed contrastive meaning relations, test 240 novel utterances and preserve precision/coverage costs",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/170",
-      "head_branch": "experiment/cartridge-ring-009-contrastive-relational-induction",
-      "base_branch": "experiment/cartridge-ring-008-language-algorithm-foundry"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 171,
-      "title": "THOUGHT-022 (draft): Classical CEGIS vs direct Qwen 3B vs grammar-aware hybrid",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/171",
-      "head_branch": "experiment/thought-022-classical-llm-synthesis-race",
-      "base_branch": "experiment/thought-021-counterexample-guided-llm"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 172,
-      "title": "FIR-001: executable nunuMATH admission layer + Twelve Worlds pressure tests",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/172",
-      "head_branch": "experiment/fir-001-before-the-arrow",
-      "base_branch": "main"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 173,
-      "title": "RING-010: induce semantic graph-rewrite operators, test OOV/nested scope and preserve false-directive failures",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/173",
-      "head_branch": "experiment/cartridge-ring-010-latent-graph-grammar",
-      "base_branch": "experiment/cartridge-ring-009-contrastive-relational-induction"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 174,
-      "title": "LEGIT-020: APERTURE × Dogram Mathalizing — typed language perspectives, loss receipts and mathematical counterexamples",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/174",
-      "head_branch": "experiment/legit-020-aperture-dogram-mathalizer",
-      "base_branch": "experiment/legit-019-independent-math-and-compounding-challenge"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 175,
-      "title": "MATHAL-001 + NUNUMATHAL-001: typed crossings, receipt composition, and hostile invariant controls",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/175",
-      "head_branch": "experiment/mathal-001-nunumathal-001-20261107",
-      "base_branch": "experiment/fir-001-before-the-arrow"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 176,
-      "title": "THOUGHT-023: model-advised Grammar Gardener with independent expressivity tests",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/176",
-      "head_branch": "experiment/thought-023-grammar-gardener",
-      "base_branch": "experiment/thought-022-classical-llm-synthesis-race"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 177,
-      "title": "RING-011: contrast-induced nested-voice binder meets cryptic carrier epistemics; classical baselines falsify superiority",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/177",
-      "head_branch": "experiment/cartridge-ring-011-nested-voice-carrier-binder",
-      "base_branch": "experiment/cartridge-ring-010-latent-graph-grammar"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 178,
-      "title": "SELF-MIRROR-001: MOTIF audits and proposes revisions to its own selection heuristic",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/178",
-      "head_branch": "experiment/self-mirror-001-20261107",
-      "base_branch": "experiment/mathal-001-nunumathal-001-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 179,
-      "title": "THOUGHT-024 (draft): Transfer the universe primitive across typed domains, with explicit HOLD controls",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/179",
-      "head_branch": "experiment/thought-024-cross-domain-transfer",
-      "base_branch": "experiment/thought-023-grammar-gardener"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 180,
-      "title": "CONTEXT-GATE-001: context-sensitive policy routing with sensor-inversion hostile control",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/180",
-      "head_branch": "experiment/context-gate-001-20261107",
-      "base_branch": "experiment/self-mirror-001-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 181,
-      "title": "DECODER-INTEGRITY-001: prequential sensor drift monitor with FIR reopening and hostile co-drift controls",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/181",
-      "head_branch": "experiment/decoder-integrity-001-20261107",
-      "base_branch": "experiment/context-gate-001-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 182,
-      "title": "MOTIF QC-001: teach relational Quantum Code as validated recursive grammar",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/182",
-      "head_branch": "experiment/quantum-code-001-20261107",
-      "base_branch": "main"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 183,
-      "title": "LEGIT-021: The Aperture Inventor — generate mathematical questions, expand blind probe languages, prove Z3 discrimination",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/183",
-      "head_branch": "experiment/legit-021-aperture-inventor",
-      "base_branch": "experiment/legit-020-aperture-dogram-mathalizer"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 184,
-      "title": "THOUGHT-025 (draft): LLM discovers typed field bindings and mathematical abstractions",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/184",
-      "head_branch": "experiment/thought-025-abstraction-discoverer",
-      "base_branch": "experiment/thought-024-cross-domain-transfer"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 185,
-      "title": "QC-002: discover unnamed geometric rewrites and construct unseen topology",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/185",
-      "head_branch": "experiment/quantum-code-002-structural-20261107",
-      "base_branch": "experiment/quantum-code-001-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 186,
-      "title": "LEGIT-022: Atlas Aperture Dividend — 1998 independent graph corpus, math conjecture falsifiers, and matched recursive-improvement controls",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/186",
-      "head_branch": "experiment/legit-022-atlas-aperture-dividend",
-      "base_branch": "experiment/legit-021-aperture-inventor"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 187,
-      "title": "THOUGHT-026 (draft): staged role grounding, relation discovery and counterexample repair",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/187",
-      "head_branch": "experiment/thought-026-stagewise-abstraction",
-      "base_branch": "experiment/thought-025-abstraction-discoverer"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 188,
-      "title": "QC-003: induce unlabeled topology rewrites and discover a relational aperture",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/188",
-      "head_branch": "experiment/quantum-code-003-aperture-20261107",
-      "base_branch": "experiment/quantum-code-002-structural-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 189,
-      "title": "QC-004: Grammar Gardener — synthesize and graft typed relational questions",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/189",
-      "head_branch": "experiment/quantum-code-004-grammar-gardener-20261107",
-      "base_branch": "experiment/quantum-code-003-aperture-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 190,
-      "title": "PROVENANCE-PROBE-001: identify witness symmetries and nominate information-gaining anchor probes",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/190",
-      "head_branch": "experiment/provenance-probe-001-20261107",
-      "base_branch": "experiment/decoder-integrity-001-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 191,
-      "title": "QC-005: Foreign-world graph transfer, matched classical learner and provable HOLD",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/191",
-      "head_branch": "experiment/quantum-code-005-foreign-worlds-20261107",
-      "base_branch": "experiment/quantum-code-004-grammar-gardener-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 192,
-      "title": "THOUGHT-027 (draft): proof-carrying fragments, scoped verification and evidence-assisted reuse",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/192",
-      "head_branch": "experiment/thought-027-proof-carrying-fragments",
-      "base_branch": "experiment/thought-026-stagewise-abstraction"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 193,
-      "title": "RING-012: treat ambiguity as an open-world lattice of competing meanings, conditional invariants and source-preserving uncertainty",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/193",
-      "head_branch": "experiment/cartridge-ring-012-ambiguity-native-perspective-lattice",
-      "base_branch": "experiment/cartridge-ring-011-nested-voice-carrier-binder"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 194,
-      "title": "QC-006: Representation Inventor — remix symbolic meaning with typed source-grounded decoders",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/194",
-      "head_branch": "experiment/quantum-code-006-symbolic-remix-20261107",
-      "base_branch": "experiment/quantum-code-005-foreign-worlds-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 195,
-      "title": "WITNESS-CHAIN-001: recursively challenge synthetic truth anchors and stop at query-relative evidence",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/195",
-      "head_branch": "experiment/witness-chain-001-20261107",
-      "base_branch": "experiment/provenance-probe-001-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 196,
-      "title": "THOUGHT-028 (draft): proof-carrying active composition and reusable evidence memory",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/196",
-      "head_branch": "experiment/thought-028-proof-weave-active-composition",
-      "base_branch": "experiment/thought-027-proof-carrying-fragments"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 197,
-      "title": "QC-007: Living Meaning Field — source-pinned meanings, multi-horizon action networks, safe continuation",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/197",
-      "head_branch": "experiment/quantum-code-007-living-action-field-20261107",
-      "base_branch": "experiment/quantum-code-006-symbolic-remix-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 198,
-      "title": "NEXT-STEP-001: automatically ask and execute the next safe, relevant question",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/198",
-      "head_branch": "experiment/next-step-001-20261107",
-      "base_branch": "experiment/witness-chain-001-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 199,
-      "title": "RING-013: measure value of knowing vs doing next; autonomously run bounded safe internal smash trials under ambiguity",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/199",
-      "head_branch": "experiment/cartridge-ring-013-value-of-next-move",
-      "base_branch": "experiment/cartridge-ring-012-ambiguity-native-perspective-lattice"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 200,
-      "title": "QC-008: Affordance Recovery — no food path is not no useful next action",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/200",
-      "head_branch": "experiment/quantum-code-008-affordance-recovery-20261107",
-      "base_branch": "experiment/quantum-code-007-living-action-field-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 201,
-      "title": "THOUGHT-029: Read-only symbolic graph + all-type MOTIF artifact aperture for LLM",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/201",
-      "head_branch": "experiment/thought-029-symbolic-artifact-access",
-      "base_branch": "experiment/thought-028-proof-weave-active-composition"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 202,
-      "title": "SELF-BUILD-001: MOTIF asks how to make a verified bounded child",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/202",
-      "head_branch": "experiment/self-build-001-20261107",
-      "base_branch": "experiment/next-step-001-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 203,
-      "title": "RING-014: value planner actually runs Docker-isolated reviewed Python source tests and measures real failures vs DEEP-only",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/203",
-      "head_branch": "experiment/cartridge-ring-014-real-sandbox-tool-frontier",
-      "base_branch": "experiment/cartridge-ring-013-value-of-next-move"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 204,
-      "title": "QC-009: STREET SENSE — offline-first field options, cold/heat/water safety, lived local knowledge and outage resilience",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/204",
-      "head_branch": "experiment/quantum-code-009-street-sense-20261107",
-      "base_branch": "experiment/quantum-code-008-affordance-recovery-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 205,
-      "title": "THOUGHT-030 (draft): evidence-routed LLM investigation with optional invented pidgin",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/205",
-      "head_branch": "experiment/thought-030-evidence-router-pidgin",
-      "base_branch": "experiment/thought-029-symbolic-artifact-access"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 206,
-      "title": "QC-010: TRACTION LOOP — work-as-done, anthropological bricolage and risk-calibrated live adaptation",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/206",
-      "head_branch": "experiment/quantum-code-010-traction-loop-20261108",
-      "base_branch": "experiment/quantum-code-009-street-sense-20261107"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 207,
-      "title": "SELF-ASSEMBLY-001: compose and execute actual MOTIF cartridges in pinned generated children",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/207",
-      "head_branch": "experiment/self-assembly-001-20261108",
-      "base_branch": "experiment/self-build-001-20261107"
+      "number": 210,
+      "title": "THOUGHT-031 (draft): preload relevant evidence and experiment with parameterized optional pidgin",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/210",
+      "head_branch": "experiment/thought-031-evidence-relay-compositional-pidgin",
+      "base_branch": "experiment/thought-030-evidence-router-pidgin"
     }
   ],
   "left_open_prs": []

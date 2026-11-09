@@ -8095,7 +8095,7 @@
         },
         {
           "name": "main",
-          "sha": "24098af23d479de861644b8faf95634f0c16f812"
+          "sha": "57db641aafbaf1d6f34ee2cb7082ea860b3aff71"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -9977,6 +9977,10 @@
       "archived": false,
       "branches": [
         {
+          "name": "experiment/adapter-invention-001-20261108",
+          "sha": "08885797fbcf13c12623363e2d1db2000f859b52"
+        },
+        {
           "name": "experiment/cartridge-ring-001-branch-constellation",
           "sha": "9ea74347f7e91feee90a7fb5d3dcfc745759b6ba"
         },
@@ -10031,6 +10035,10 @@
         {
           "name": "experiment/cartridge-ring-014-real-sandbox-tool-frontier",
           "sha": "bb741a90cd4aafda2df829b46076d50b62a4bc37"
+        },
+        {
+          "name": "experiment/cartridge-ring-015-conditional-real-test-followups",
+          "sha": "cdaa414ea13710450f8947ac8b6c4b58220fef16"
         },
         {
           "name": "experiment/context-gate-001-20261107",
@@ -10561,6 +10569,10 @@
           "sha": "e8b3daa9951484c4de869f9ee9245d38cac64392"
         },
         {
+          "name": "experiment/thought-031-evidence-relay-compositional-pidgin",
+          "sha": "724ea2fe4b0beb845cd1b45883719577105aa16a"
+        },
+        {
           "name": "experiment/wake-signal-001-human-agency",
           "sha": "efe133f0db12b439b9c483eace13601cf8c03285"
         },
@@ -10826,6 +10838,36 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 210,
+          "title": "THOUGHT-031 (draft): preload relevant evidence and experiment with parameterized optional pidgin",
+          "head_branch": "experiment/thought-031-evidence-relay-compositional-pidgin",
+          "head_sha": "724ea2fe4b0beb845cd1b45883719577105aa16a",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/thought-030-evidence-router-pidgin",
+          "updated_at": "2026-11-08T21:59:13Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/210"
+        },
+        {
+          "number": 209,
+          "title": "ADAPTER-INVENTION-001: synthesize and test a real typed cartridge bridge",
+          "head_branch": "experiment/adapter-invention-001-20261108",
+          "head_sha": "08885797fbcf13c12623363e2d1db2000f859b52",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/self-assembly-001-20261108",
+          "updated_at": "2026-11-08T21:56:58Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/209"
+        },
+        {
+          "number": 208,
+          "title": "RING-015: real source triage and conditional second tests; FULL-only remains stronger on measured costs",
+          "head_branch": "experiment/cartridge-ring-015-conditional-real-test-followups",
+          "head_sha": "cdaa414ea13710450f8947ac8b6c4b58220fef16",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/cartridge-ring-014-real-sandbox-tool-frontier",
+          "updated_at": "2026-11-08T17:55:41Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/208"
+        },
         {
           "number": 207,
           "title": "SELF-ASSEMBLY-001: compose and execute actual MOTIF cartridges in pinned generated children",
@@ -26946,7 +26988,7 @@
         },
         {
           "name": "main",
-          "sha": "c6e63dd44943cc5053c0b5b5300d676eb4541581"
+          "sha": "6a26d0b3c473fc70008aa1963a18935e896d939e"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -27405,5 +27447,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-08T14:17:16+00:00"
+  "captured_at": "2026-11-09T17:28:04+00:00"
 }
