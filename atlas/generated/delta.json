@@ -1,24 +1,259 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-08T14:17:16+00:00",
-  "to_captured_at": "2026-11-09T17:28:04+00:00",
+  "from_captured_at": "2026-11-09T17:28:04+00:00",
+  "to_captured_at": "2026-11-10T15:35:24+00:00",
   "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
       "repository": "MOTIF",
-      "branch": "experiment/adapter-invention-001-20261108",
-      "sha": "08885797fbcf13c12623363e2d1db2000f859b52"
+      "branch": "experiment/collective-001-proof-carrying-answer-weave",
+      "sha": "269006b559dbc73766888bcd11f5f294b8e6aa64"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/cartridge-ring-015-conditional-real-test-followups",
-      "sha": "cdaa414ea13710450f8947ac8b6c4b58220fef16"
+      "branch": "experiment/collective-002-missing-link-question-invention",
+      "sha": "33b72d0fd81c940424eb713a6bd494448a4d411d"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/thought-031-evidence-relay-compositional-pidgin",
-      "sha": "724ea2fe4b0beb845cd1b45883719577105aa16a"
+      "branch": "experiment/collective-002-three-independent-tranchnodes",
+      "sha": "74b199482f65d8ad354b716b16fd30eba50e6e23"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/collective-003-national-treasure-questions",
+      "sha": "a82a4ee6f54e04bab8cd844a0f555aa8278c7f47"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/collective-004-invent-discriminator-grammar",
+      "sha": "033e1e496dd49917f306536216d92dd16462dbeb"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/collective-005-primitive-birth-atlas",
+      "sha": "bfdb97b6c61fbd40768c546508b20cc95b32d3d8"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/contract-discovery-001-20261109",
+      "sha": "4d85de3b7ad9884eaccf503feaed578f1f106336"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/contract-frontier-002-20261109",
+      "sha": "068125a477c15c176e4693617b8f33b7c1bdba45"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/control-flow-growth-001-20261109",
+      "sha": "ead6a6c8483c5f9b745eea062c5de5bf89c515ba"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/feature-frontier-001-20261109",
+      "sha": "ef2dade0cec27ed1c8714e71cfaa130c035dfd6b"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/field-001-generative-fact-world-20261110",
+      "sha": "5c93b78e0eca317825ca3f3a12a4a443516db9c1"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/field-002-composed-probes-20261110",
+      "sha": "1675970c5532e4ad8ca30a4d33280d0a7369145c"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/field-003-real-data-aperture-20261110",
+      "sha": "1b6b9d9c6c02fc6207ce4f10730822f84e79a030"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/field-004-relational-gap-challenge-20261110",
+      "sha": "fa53235bb1e70acf4b6e10f5f763ed245f86b174"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/genius001-architecture-of-discovery",
+      "sha": "0c739275c9fdc98f2efc3b3670fb988fbb9e4758"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/genius002-perspective-without-erasure",
+      "sha": "0b5ae2d140c70771429b7d8de5730efd93818f1b"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/genius003-correctable-perspectives",
+      "sha": "b2cd00ede8be71a4e2150f8c2ef332bea761204a"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/genius004-humility-aperture",
+      "sha": "664490c2e52e491e019038dd76527642da8c5b7a"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/genius005-evidence-before-revision",
+      "sha": "239f02a932678f711f37651f6425b8f797466463"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/immune-001-epistemic-virology",
+      "sha": "45070acc739cde9b15141b709f4192b05261e90f"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/immune-002-shoulders-of-giants",
+      "sha": "e2b2b50d5a4dfa256118d4a386041587b2ec939c"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/immune-003-external-epistemic-challenge",
+      "sha": "0f1b0e39d5f67da3a6ab1675f080397aaaf45310"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/invention-diagnosis-001-20261109",
+      "sha": "cdce8ab7d5360ec76827a08c6e1f697c74b7e130"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/language-growth-001-20261109",
+      "sha": "de242206e7f56672b231599f0f50bc99b349c830"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/legit-023-classical-research-repertoire",
+      "sha": "3a8ec50d7f0e62cabcc424616e23b39cd8387283"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/legit-024-method-ecology",
+      "sha": "b656fc517e61538f70c3d701b2be323022209723"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/legit-025-aperture-escape",
+      "sha": "d56be90d07ab9b3368b90b5fcb64a7d6115ba01e"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/legit-026-method-mirror",
+      "sha": "6206ded67ce7fe8b5322b43f92296df0232bc0b3"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/legit-027-cross-domain-question-transfer",
+      "sha": "a106a8c746741372ff42ab344e9dbcf3c087d798"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/legit-028-information-geometry",
+      "sha": "cb9219a143a5cc68464e8a8d7e260db269f194c5"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/legit-029-shift-aware-research-gate",
+      "sha": "c5ef2d71327f4904380a189693e4ca0a32ce673c"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/meta-001-open-collatz-primitive-inquiry",
+      "sha": "6968dd23fa90f3864acecdbeae49745ec543ee48"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/meta-002-variable-horizon-ranking-falsifiers",
+      "sha": "649f5535d0076152b53eb48c433a7f45bdfdf8dd"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/operator-invention-001-20261109",
+      "sha": "71184b13c8d3658227d9f0d04de5e43e09ec1572"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/quantum-code-011-survival-game-replay-20261109",
+      "sha": "1aa010d0daf557f6cad715f82bffcc15e08e2a73"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/quantum-code-012-real-crafter-playthrough-20261109",
+      "sha": "338331738959e05f58fabba71402dfeca31859f1"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/quantum-code-013-human-expert-apprentice-20261109",
+      "sha": "dbb3e42eed453a2d637d40ba0f9917f08c33985e"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/quantum-code-014-stagnation-breaker-20261109",
+      "sha": "18ba9bdd068e8e5f2e350c45deb85f67c20684c0"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/quantum-code-015-oscillation-frontier-20261109",
+      "sha": "374ebc22d584cd6f14b029ac7ec883ca8550d688"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/quantum-code-016-nested-cycles-goal-dividend-20261109",
+      "sha": "7f6598adfe3190cc38e68ebb1bdf15972071d985"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/quantum-code-017-observed-world-probe-planner-20261109",
+      "sha": "084caca52ca2bacf804f0aae0e2976cfc2f359d8"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/semantic-adapter-001-20261109",
+      "sha": "d8ba2dfea2ad0fe8601db54da641ae250de123fc"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/thought-032-proof-scoped-concept-language",
+      "sha": "7e476632542f971cf232c25ea446ff54bea7cc6c"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "integration/motif-mcp-oauth-hookup-001",
+      "sha": "ff383d0ff6eae47531eea2a857b767d5d8162242"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "integration/motif-phone-chatgpt-bridge-001",
+      "sha": "073561cd699d64170676b566c8963004d6976d5c"
+    },
+    {
+      "repository": "tranchnode",
+      "branch": "experiment/collective-003-installable-node-pwa",
+      "sha": "b09dc3c520f7afbd2f85685ed532533baaa136b8"
+    },
+    {
+      "repository": "tranchnode",
+      "branch": "experiment/collective-004-invite-only-living-network",
+      "sha": "c717dab8606d22be1ff63be710899904c44a83db"
+    },
+    {
+      "repository": "tranchnode",
+      "branch": "experiment/collective-005-private-question-routing",
+      "sha": "1ddb227ea86aca584c7c8fe0cde3db94dc2af67b"
+    },
+    {
+      "repository": "tranchnode",
+      "branch": "experiment/collective-006-what-if-multithread-feedback",
+      "sha": "fb1cb4fcfd1a0f5bedb3886edd266b965756475b"
+    },
+    {
+      "repository": "tranchnode",
+      "branch": "experiment/collective-007-parallel-inquiry-workers",
+      "sha": "6b5924781ec33292dbcf422e41c4612476464138"
     }
   ],
   "removed_branches": [],
@@ -26,40 +261,408 @@
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "24098af23d479de861644b8faf95634f0c16f812",
-      "to_sha": "57db641aafbaf1d6f34ee2cb7082ea860b3aff71"
+      "from_sha": "57db641aafbaf1d6f34ee2cb7082ea860b3aff71",
+      "to_sha": "ed4fae2760746796461de2be0917f422472ea820"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "c6e63dd44943cc5053c0b5b5300d676eb4541581",
-      "to_sha": "6a26d0b3c473fc70008aa1963a18935e896d939e"
+      "from_sha": "6a26d0b3c473fc70008aa1963a18935e896d939e",
+      "to_sha": "0fdd3d04df36c9e63ba726bd22a092b033be6a71"
     }
   ],
   "opened_prs": [
     {
       "repository": "MOTIF",
-      "number": 208,
-      "title": "RING-015: real source triage and conditional second tests; FULL-only remains stronger on measured costs",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/208",
-      "head_branch": "experiment/cartridge-ring-015-conditional-real-test-followups",
-      "base_branch": "experiment/cartridge-ring-014-real-sandbox-tool-frontier"
+      "number": 211,
+      "title": "THOUGHT-032 (draft): optional shared concept words with typed graph patterns and scoped independent verification",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/211",
+      "head_branch": "experiment/thought-032-proof-scoped-concept-language",
+      "base_branch": "experiment/thought-031-evidence-relay-compositional-pidgin"
     },
     {
       "repository": "MOTIF",
-      "number": 209,
-      "title": "ADAPTER-INVENTION-001: synthesize and test a real typed cartridge bridge",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/209",
-      "head_branch": "experiment/adapter-invention-001-20261108",
-      "base_branch": "experiment/self-assembly-001-20261108"
+      "number": 212,
+      "title": "QC-011: Survival RPG replay grammar — game-state interpretation and reLATTE HOLD preview",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/212",
+      "head_branch": "experiment/quantum-code-011-survival-game-replay-20261109",
+      "base_branch": "experiment/quantum-code-010-traction-loop-20261108"
     },
     {
       "repository": "MOTIF",
-      "number": 210,
-      "title": "THOUGHT-031 (draft): preload relevant evidence and experiment with parameterized optional pidgin",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/210",
-      "head_branch": "experiment/thought-031-evidence-relay-compositional-pidgin",
-      "base_branch": "experiment/thought-030-evidence-router-pidgin"
+      "number": 213,
+      "title": "SEMANTIC-ADAPTER-001: infer bridge from executable behavior and refuse type-correct meaning drift",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/213",
+      "head_branch": "experiment/semantic-adapter-001-20261109",
+      "base_branch": "experiment/adapter-invention-001-20261108"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 214,
+      "title": "LEGIT-023: Shoulders of Giants — executable classical research method portfolio",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/214",
+      "head_branch": "experiment/legit-023-classical-research-repertoire",
+      "base_branch": "experiment/legit-022-atlas-aperture-dividend"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 215,
+      "title": "CONTRACT-DISCOVERY-001: infer opaque numerical laws through interventions and build missing-port children",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/215",
+      "head_branch": "experiment/contract-discovery-001-20261109",
+      "base_branch": "experiment/semantic-adapter-001-20261109"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 216,
+      "title": "QC-012: REAL Crafter survival gameplay — 572 executed steps, telemetered affordance traces, failures and screenshots",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/216",
+      "head_branch": "experiment/quantum-code-012-real-crafter-playthrough-20261109",
+      "base_branch": "experiment/quantum-code-011-survival-game-replay-20261109"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 217,
+      "title": "LEGIT-024: Research Method Ecology — verified symbolic, constraint, graph and MOTIF portfolios",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/217",
+      "head_branch": "experiment/legit-024-method-ecology",
+      "base_branch": "experiment/legit-023-classical-research-repertoire"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 218,
+      "title": "LEGIT-025: Aperture Escape — detect blind spots, compose research questions, transfer verified probes",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/218",
+      "head_branch": "experiment/legit-025-aperture-escape",
+      "base_branch": "experiment/legit-024-method-ecology"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 219,
+      "title": "IMMUNE-001: epistemic virology — lineage tracing, verification gates and selective repair",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/219",
+      "head_branch": "experiment/immune-001-epistemic-virology",
+      "base_branch": "main"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 220,
+      "title": "CONTRACT-FRONTIER-002: actively discover conditional graph laws and test independent topology counters",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/220",
+      "head_branch": "experiment/contract-frontier-002-20261109",
+      "base_branch": "experiment/contract-discovery-001-20261109"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 221,
+      "title": "QC-013: Human Field Apprentice — 100 real expert Crafter runs, action-network evidence, live feedback tests",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/221",
+      "head_branch": "experiment/quantum-code-013-human-expert-apprentice-20261109",
+      "base_branch": "experiment/quantum-code-012-real-crafter-playthrough-20261109"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 222,
+      "title": "IMMUNE-002: Shoulders of Giants — truth maintenance, exact proof, classical ACLs",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/222",
+      "head_branch": "experiment/immune-002-shoulders-of-giants",
+      "base_branch": "experiment/immune-001-epistemic-virology"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 223,
+      "title": "FEATURE-FRONTIER-001: synthesize unnamed graph features from relational edge queries",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/223",
+      "head_branch": "experiment/feature-frontier-001-20261109",
+      "base_branch": "experiment/contract-frontier-002-20261109"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 224,
+      "title": "LEGIT-026: The Method Mirror — cross-world test of improving the question-invention policy",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/224",
+      "head_branch": "experiment/legit-026-method-mirror",
+      "base_branch": "experiment/legit-025-aperture-escape"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 225,
+      "title": "QC-014: Stagnation Breaker — detect 161-action failure, infer missing affordance, repair in real Crafter",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/225",
+      "head_branch": "experiment/quantum-code-014-stagnation-breaker-20261109",
+      "base_branch": "experiment/quantum-code-013-human-expert-apprentice-20261109"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 226,
+      "title": "LEGIT-027: Cross-domain research-question transfer — graph diversity scorer vs algebra and constraints",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/226",
+      "head_branch": "experiment/legit-027-cross-domain-question-transfer",
+      "base_branch": "experiment/legit-026-method-mirror"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 227,
+      "title": "LANGUAGE-GROWTH-001: diagnose insufficient graph language and synthesize a missing counting operator",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/227",
+      "head_branch": "experiment/language-growth-001-20261109",
+      "base_branch": "experiment/feature-frontier-001-20261109"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 228,
+      "title": "IMMUNE-003: Adversarial Epistemologist — external BIPIA challenges, grounded argumentation, source proofs",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/228",
+      "head_branch": "experiment/immune-003-external-epistemic-challenge",
+      "base_branch": "experiment/immune-002-shoulders-of-giants"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 229,
+      "title": "OPERATOR-INVENTION-001: synthesize and execute missing loop-based operators from primitive code",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/229",
+      "head_branch": "experiment/operator-invention-001-20261109",
+      "base_branch": "experiment/language-growth-001-20261109"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 230,
+      "title": "LEGIT-028: Information Geometry — when entropy is not the value of a research question",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/230",
+      "head_branch": "experiment/legit-028-information-geometry",
+      "base_branch": "experiment/legit-027-cross-domain-question-transfer"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 231,
+      "title": "QC-015: Oscillation Frontier — detect 2–N action cycles, test real-game info gain, abstain from unsafe novelty",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/231",
+      "head_branch": "experiment/quantum-code-015-oscillation-frontier-20261109",
+      "base_branch": "experiment/quantum-code-014-stagnation-breaker-20261109"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 232,
+      "title": "CONTROL-FLOW-GROWTH-001: synthesize a deeper executable loop AST after finite grammar failure",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/232",
+      "head_branch": "experiment/control-flow-growth-001-20261109",
+      "base_branch": "experiment/operator-invention-001-20261109"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 233,
+      "title": "COLLECTIVE-001 — proof-carrying answer nodes, scoped evidence and re-entry without re-inquiry",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/233",
+      "head_branch": "experiment/collective-001-proof-carrying-answer-weave",
+      "base_branch": "experiment/thought-028-proof-weave-active-composition"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 234,
+      "title": "LEGIT-029: Shift-aware research gate — empirically distrust misleading information metrics",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/234",
+      "head_branch": "experiment/legit-029-shift-aware-research-gate",
+      "base_branch": "experiment/legit-028-information-geometry"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 235,
+      "title": "COLLECTIVE-002 — invent the missing question between proof-carrying nodes, query owner, preserve evidence",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/235",
+      "head_branch": "experiment/collective-002-missing-link-question-invention",
+      "base_branch": "experiment/collective-001-proof-carrying-answer-weave"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 236,
+      "title": "INVENTION-DIAGNOSIS-001: ask why a method fails before proposing self-repair",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/236",
+      "head_branch": "experiment/invention-diagnosis-001-20261109",
+      "base_branch": "experiment/control-flow-growth-001-20261109"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 237,
+      "title": "COLLECTIVE-002 — three independent TranchNode-inspired MOTIF instances exchange bounded evidence",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/237",
+      "head_branch": "experiment/collective-002-three-independent-tranchnodes",
+      "base_branch": "main"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 238,
+      "title": "QC-016: Nested 2–7 cycles-of-cycles + goal-dependent information dividend with real Crafter proof",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/238",
+      "head_branch": "experiment/quantum-code-016-nested-cycles-goal-dividend-20261109",
+      "base_branch": "experiment/quantum-code-015-oscillation-frontier-20261109"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 239,
+      "title": "COLLECTIVE-003: National Treasure wild questions × native Question Box × source-pinned proof-bearing re-entry",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/239",
+      "head_branch": "experiment/collective-003-national-treasure-questions",
+      "base_branch": "experiment/collective-002-missing-link-question-invention"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 240,
+      "title": "QC-017: Observed-world goal planner — generate executable routes, replan on surprise, verify real Crafter resource gains",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/240",
+      "head_branch": "experiment/quantum-code-017-observed-world-probe-planner-20261109",
+      "base_branch": "experiment/quantum-code-016-nested-cycles-goal-dividend-20261109"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 241,
+      "title": "GENIUS-001: Einstein × Ramanujan × Leonardo — executable discovery operations",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/241",
+      "head_branch": "experiment/genius001-architecture-of-discovery",
+      "base_branch": "experiment/legit-029-shift-aware-research-gate"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 242,
+      "title": "APP-BRIDGE-001: ChatGPT sign-in path + gated MOTIF phone function adapter",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/242",
+      "head_branch": "integration/motif-phone-chatgpt-bridge-001",
+      "base_branch": "integration/motif-living-forest-mcp-v03"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 243,
+      "title": "MCP-HOOKUP-001: OAuth-protected ChatGPT front door for pinned MOTIF forest v0.3",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/243",
+      "head_branch": "integration/motif-mcp-oauth-hookup-001",
+      "base_branch": "integration/motif-living-forest-mcp-v03"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 244,
+      "title": "GENIUS-002: Perspective without erasure — source-owned Trench dialogue & consent-gated drafts",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/244",
+      "head_branch": "experiment/genius002-perspective-without-erasure",
+      "base_branch": "experiment/genius001-architecture-of-discovery"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 245,
+      "title": "COLLECTIVE-004 — question-grammar invention after formal proof that prior apertures cannot distinguish worlds",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/245",
+      "head_branch": "experiment/collective-004-invent-discriminator-grammar",
+      "base_branch": "experiment/collective-003-national-treasure-questions"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 246,
+      "title": "GENIUS-003: Correctable perspectives, frozen forecasts and hidden-profile cooperation",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/246",
+      "head_branch": "experiment/genius003-correctable-perspectives",
+      "base_branch": "experiment/genius002-perspective-without-erasure"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 247,
+      "title": "COLLECTIVE-005 — Primitive Birth: synthesize a missing measurement from raw graph atoms, verify on original Atlas holdouts",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/247",
+      "head_branch": "experiment/collective-005-primitive-birth-atlas",
+      "base_branch": "experiment/collective-004-invent-discriminator-grammar"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 248,
+      "title": "GENIUS-004: Humility Aperture — retain/revise/reframe/release/ask under drift",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/248",
+      "head_branch": "experiment/genius004-humility-aperture",
+      "base_branch": "experiment/genius003-correctable-perspectives"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 249,
+      "title": "FIELD-001 — from one verified fact to a recursive, falsifiable possibility field",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/249",
+      "head_branch": "experiment/field-001-generative-fact-world-20261110",
+      "base_branch": "main"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 250,
+      "title": "META-001 — ask MOTIF the unsolved Collatz conjecture; derive bounded symbolic residue proofs without inventing global answer",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/250",
+      "head_branch": "experiment/meta-001-open-collatz-primitive-inquiry",
+      "base_branch": "experiment/collective-005-primitive-birth-atlas"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 251,
+      "title": "FIELD-002 — one fact, composite probes, and honest grammar HOLD",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/251",
+      "head_branch": "experiment/field-002-composed-probes-20261110",
+      "base_branch": "experiment/field-001-generative-fact-world-20261110"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 252,
+      "title": "FIELD-003 — independent historical measurements pressure-test the invented probe grammar",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/252",
+      "head_branch": "experiment/field-003-real-data-aperture-20261110",
+      "base_branch": "experiment/field-002-composed-probes-20261110"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 253,
+      "title": "FIELD-004: relational feature challenge against strong classical CV with frozen audit",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/253",
+      "head_branch": "experiment/field-004-relational-gap-challenge-20261110",
+      "base_branch": "experiment/field-003-real-data-aperture-20261110"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 254,
+      "title": "GENIUS-005: Evidence Before Revision — exact drift tests vs noise and strong online controls",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/254",
+      "head_branch": "experiment/genius005-evidence-before-revision",
+      "base_branch": "experiment/genius004-humility-aperture"
+    },
+    {
+      "repository": "tranchnode",
+      "number": 80,
+      "title": "COLLECTIVE-003 — installable offline TranchNode × MOTIF field app with signed evidence exchange",
+      "url": "https://github.com/the-static-collective/tranchnode/pull/80",
+      "head_branch": "experiment/collective-003-installable-node-pwa",
+      "base_branch": "main"
+    },
+    {
+      "repository": "tranchnode",
+      "number": 81,
+      "title": "COLLECTIVE-004 — living network: invitation-scoped WebRTC peer discovery and consented proof exchange",
+      "url": "https://github.com/the-static-collective/tranchnode/pull/81",
+      "head_branch": "experiment/collective-004-invite-only-living-network",
+      "base_branch": "experiment/collective-003-installable-node-pwa"
+    },
+    {
+      "repository": "tranchnode",
+      "number": 82,
+      "title": "COLLECTIVE-005 — consented local question routing across independently operating nodes",
+      "url": "https://github.com/the-static-collective/tranchnode/pull/82",
+      "head_branch": "experiment/collective-005-private-question-routing",
+      "base_branch": "experiment/collective-004-invite-only-living-network"
+    },
+    {
+      "repository": "tranchnode",
+      "number": 83,
+      "title": "COLLECTIVE-006 — multi-thread what-if forest + outcome-aware consented peer inquiry",
+      "url": "https://github.com/the-static-collective/tranchnode/pull/83",
+      "head_branch": "experiment/collective-006-what-if-multithread-feedback",
+      "base_branch": "experiment/collective-005-private-question-routing"
+    },
+    {
+      "repository": "tranchnode",
+      "number": 84,
+      "title": "COLLECTIVE-007 — parallel budgeted What-If investigation workers and cross-thread research receipts",
+      "url": "https://github.com/the-static-collective/tranchnode/pull/84",
+      "head_branch": "experiment/collective-007-parallel-inquiry-workers",
+      "base_branch": "experiment/collective-006-what-if-multithread-feedback"
     }
   ],
   "left_open_prs": []

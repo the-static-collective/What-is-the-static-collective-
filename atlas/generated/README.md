@@ -4,7 +4,7 @@ description: "Dated, source-linked public Git inventory for the Static Collectiv
 
 # Public Git inventory
 
-Captured: **2026-11-09T17:28:04+00:00** · **90 public repositories** · **2779 branch refs** (including defaults) · **1546 open PRs**.
+Captured: **2026-11-10T15:35:24+00:00** · **90 public repositories** · **2829 branch refs** (including defaults) · **1595 open PRs**.
 
 [Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
 
@@ -19,13 +19,13 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | Editorial shelf | Public repos | Branch refs | Open PRs |
 | --- | ---: | ---: | ---: |
 | [Origins and witnesses](origins-and-witnesses.md) | 15 | 224 | 68 |
-| [Contracts and memory](contracts-and-memory.md) | 11 | 457 | 123 |
+| [Contracts and memory](contracts-and-memory.md) | 11 | 462 | 128 |
 | [Participation and care](participation-and-care.md) | 13 | 99 | 34 |
 | [Songs and stages](songs-and-stages.md) | 5 | 86 | 20 |
 | [Images and appliances](images-and-appliances.md) | 10 | 352 | 154 |
 | [Worlds and inquiry](worlds-and-inquiry.md) | 6 | 134 | 52 |
 | [Operating surfaces](operating-surfaces.md) | 5 | 187 | 137 |
-| [Unplaced public repositories](unplaced.md) | 25 | 1240 | 958 |
+| [Unplaced public repositories](unplaced.md) | 25 | 1285 | 1002 |
 
 ## All public repositories
 
@@ -70,7 +70,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [lemonPRESS](https://github.com/the-static-collective/lemonPRESS) | [Unplaced public repositories](unplaced.md) | 72 | 46 |
 | [LOADOUT](https://github.com/the-static-collective/LOADOUT) | [Contracts and memory](contracts-and-memory.md) | 24 | 11 |
 | [love](https://github.com/the-static-collective/love) | [Unplaced public repositories](unplaced.md) | 0 | 0 |
-| [MOTIF](https://github.com/the-static-collective/MOTIF) | [Unplaced public repositories](unplaced.md) | 214 | 197 |
+| [MOTIF](https://github.com/the-static-collective/MOTIF) | [Unplaced public repositories](unplaced.md) | 259 | 241 |
 | [MSyoU](https://github.com/the-static-collective/MSyoU) | [Unplaced public repositories](unplaced.md) | 4 | 0 |
 | [mundaneWORMHOLE](https://github.com/the-static-collective/mundaneWORMHOLE) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [national-treasure](https://github.com/the-static-collective/national-treasure) | [Worlds and inquiry](worlds-and-inquiry.md) | 77 | 12 |
@@ -110,7 +110,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [toaster-lab](https://github.com/the-static-collective/toaster-lab) | [Images and appliances](images-and-appliances.md) | 3 | 0 |
 | [toaster-lab2](https://github.com/the-static-collective/toaster-lab2) | [Images and appliances](images-and-appliances.md) | 1 | 0 |
 | [toaster-oracle](https://github.com/the-static-collective/toaster-oracle) | [Images and appliances](images-and-appliances.md) | 0 | 0 |
-| [tranchnode](https://github.com/the-static-collective/tranchnode) | [Contracts and memory](contracts-and-memory.md) | 44 | 5 |
+| [tranchnode](https://github.com/the-static-collective/tranchnode) | [Contracts and memory](contracts-and-memory.md) | 49 | 10 |
 | [tranchNode-v1](https://github.com/the-static-collective/tranchNode-v1) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [tranchNOSE](https://github.com/the-static-collective/tranchNOSE) | [Images and appliances](images-and-appliances.md) | 10 | 3 |
 | [trust](https://github.com/the-static-collective/trust) | [Unplaced public repositories](unplaced.md) | 1 | 0 |

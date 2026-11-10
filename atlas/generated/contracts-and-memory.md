@@ -15,12 +15,17 @@ Project-owned contracts for meaning, evidence, projection, calculation, and boun
 
 [Repository](https://github.com/the-static-collective/tranchnode) · [Branches](https://github.com/the-static-collective/tranchnode/branches) · [Pull requests](https://github.com/the-static-collective/tranchnode/pulls)
 
-Default: `main` · other refs: 44 · open PRs: 5
+Default: `main` · other refs: 49 · open PRs: 10
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#84](https://github.com/the-static-collective/tranchnode/pull/84) | COLLECTIVE-007 — parallel budgeted What-If investigation workers and cross-thread research receipts | `experiment/collective-007-parallel-inquiry-workers` → `experiment/collective-006-what-if-multithread-feedback` | 2026-11-10 |
+| [#83](https://github.com/the-static-collective/tranchnode/pull/83) | COLLECTIVE-006 — multi-thread what-if forest + outcome-aware consented peer inquiry | `experiment/collective-006-what-if-multithread-feedback` → `experiment/collective-005-private-question-routing` | 2026-11-10 |
+| [#82](https://github.com/the-static-collective/tranchnode/pull/82) | COLLECTIVE-005 — consented local question routing across independently operating nodes | `experiment/collective-005-private-question-routing` → `experiment/collective-004-invite-only-living-network` | 2026-11-10 |
+| [#81](https://github.com/the-static-collective/tranchnode/pull/81) | COLLECTIVE-004 — living network: invitation-scoped WebRTC peer discovery and consented proof exchange | `experiment/collective-004-invite-only-living-network` → `experiment/collective-003-installable-node-pwa` | 2026-11-10 |
+| [#80](https://github.com/the-static-collective/tranchnode/pull/80) | COLLECTIVE-003 — installable offline TranchNode × MOTIF field app with signed evidence exchange | `experiment/collective-003-installable-node-pwa` → `main` | 2026-11-10 |
 | [#79](https://github.com/the-static-collective/tranchnode/pull/79) | FATHERHAND-001: grant-chain validator + Paperchain PLANT capacity witness | `experiment/fatherhand-grant-chain-001` → `main` | 2026-10-07 |
 | [#78](https://github.com/the-static-collective/tranchnode/pull/78) | FLIGHT-002B: Storyship Ark evidence → addressed TranchNode proposal | `flight/002-storyship-continuity-boundary` → `main` | 2026-09-20 |
 | [#77](https://github.com/the-static-collective/tranchnode/pull/77) | TranchNode: adopt body surface v0 | `agent/body-surface-standard-v0` → `main` | 2026-09-18 |
@@ -59,6 +64,11 @@ Default: `main` · other refs: 44 · open PRs: 5
 | [docs/reconcile-status-2026-08-19](https://github.com/the-static-collective/tranchnode/tree/docs/reconcile-status-2026-08-19) | [39ff11b74d](https://github.com/the-static-collective/tranchnode/commit/39ff11b74d565e46ed79b88af4a072420385c8c4) | Retained ref; disposition unverified |
 | [docs/tranchish-decompression-lab](https://github.com/the-static-collective/tranchnode/tree/docs/tranchish-decompression-lab) | [3aeea72b1e](https://github.com/the-static-collective/tranchnode/commit/3aeea72b1ec4c5623016a69b2d2bf58cb047aaf6) | Retained ref; disposition unverified |
 | [docs/tranchish-v0-spike](https://github.com/the-static-collective/tranchnode/tree/docs/tranchish-v0-spike) | [4c772ad2b6](https://github.com/the-static-collective/tranchnode/commit/4c772ad2b69a4eaa93ee85f086587482f84af1a5) | Retained ref; disposition unverified |
+| [experiment/collective-003-installable-node-pwa](https://github.com/the-static-collective/tranchnode/tree/experiment/collective-003-installable-node-pwa) | [b09dc3c520](https://github.com/the-static-collective/tranchnode/commit/b09dc3c520f7afbd2f85685ed532533baaa136b8) | [open PR #80](https://github.com/the-static-collective/tranchnode/pull/80) |
+| [experiment/collective-004-invite-only-living-network](https://github.com/the-static-collective/tranchnode/tree/experiment/collective-004-invite-only-living-network) | [c717dab860](https://github.com/the-static-collective/tranchnode/commit/c717dab8606d22be1ff63be710899904c44a83db) | [open PR #81](https://github.com/the-static-collective/tranchnode/pull/81) |
+| [experiment/collective-005-private-question-routing](https://github.com/the-static-collective/tranchnode/tree/experiment/collective-005-private-question-routing) | [1ddb227ea8](https://github.com/the-static-collective/tranchnode/commit/1ddb227ea86aca584c7c8fe0cde3db94dc2af67b) | [open PR #82](https://github.com/the-static-collective/tranchnode/pull/82) |
+| [experiment/collective-006-what-if-multithread-feedback](https://github.com/the-static-collective/tranchnode/tree/experiment/collective-006-what-if-multithread-feedback) | [fb1cb4fcfd](https://github.com/the-static-collective/tranchnode/commit/fb1cb4fcfd1a0f5bedb3886edd266b965756475b) | [open PR #83](https://github.com/the-static-collective/tranchnode/pull/83) |
+| [experiment/collective-007-parallel-inquiry-workers](https://github.com/the-static-collective/tranchnode/tree/experiment/collective-007-parallel-inquiry-workers) | [6b5924781e](https://github.com/the-static-collective/tranchnode/commit/6b5924781ec33292dbcf422e41c4612476464138) | [open PR #84](https://github.com/the-static-collective/tranchnode/pull/84) |
 | [experiment/fatherhand-grant-chain-001](https://github.com/the-static-collective/tranchnode/tree/experiment/fatherhand-grant-chain-001) | [534e3dc5be](https://github.com/the-static-collective/tranchnode/commit/534e3dc5be763b7b11eb84bfab22f3efb25c254b) | [open PR #79](https://github.com/the-static-collective/tranchnode/pull/79) |
 | [feat/immutable-artifact-store-issue-6](https://github.com/the-static-collective/tranchnode/tree/feat/immutable-artifact-store-issue-6) | [7fbb0c868b](https://github.com/the-static-collective/tranchnode/commit/7fbb0c868befd5f6a7478bdd0447477a0e8e075e) | Retained ref; disposition unverified |
 | [feat/projection-root-closure-issue-7](https://github.com/the-static-collective/tranchnode/tree/feat/projection-root-closure-issue-7) | [aa7a15b6af](https://github.com/the-static-collective/tranchnode/commit/aa7a15b6af46efc0e8d672a5669cfb209899444c) | Retained ref; disposition unverified |

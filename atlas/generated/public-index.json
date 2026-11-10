@@ -8095,7 +8095,7 @@
         },
         {
           "name": "main",
-          "sha": "57db641aafbaf1d6f34ee2cb7082ea860b3aff71"
+          "sha": "ed4fae2760746796461de2be0917f422472ea820"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -10041,8 +10041,44 @@
           "sha": "cdaa414ea13710450f8947ac8b6c4b58220fef16"
         },
         {
+          "name": "experiment/collective-001-proof-carrying-answer-weave",
+          "sha": "269006b559dbc73766888bcd11f5f294b8e6aa64"
+        },
+        {
+          "name": "experiment/collective-002-missing-link-question-invention",
+          "sha": "33b72d0fd81c940424eb713a6bd494448a4d411d"
+        },
+        {
+          "name": "experiment/collective-002-three-independent-tranchnodes",
+          "sha": "74b199482f65d8ad354b716b16fd30eba50e6e23"
+        },
+        {
+          "name": "experiment/collective-003-national-treasure-questions",
+          "sha": "a82a4ee6f54e04bab8cd844a0f555aa8278c7f47"
+        },
+        {
+          "name": "experiment/collective-004-invent-discriminator-grammar",
+          "sha": "033e1e496dd49917f306536216d92dd16462dbeb"
+        },
+        {
+          "name": "experiment/collective-005-primitive-birth-atlas",
+          "sha": "bfdb97b6c61fbd40768c546508b20cc95b32d3d8"
+        },
+        {
           "name": "experiment/context-gate-001-20261107",
           "sha": "a0a96dd4295fb272f9e8759ac40061fb82a84d31"
+        },
+        {
+          "name": "experiment/contract-discovery-001-20261109",
+          "sha": "4d85de3b7ad9884eaccf503feaed578f1f106336"
+        },
+        {
+          "name": "experiment/contract-frontier-002-20261109",
+          "sha": "068125a477c15c176e4693617b8f33b7c1bdba45"
+        },
+        {
+          "name": "experiment/control-flow-growth-001-20261109",
+          "sha": "ead6a6c8483c5f9b745eea062c5de5bf89c515ba"
         },
         {
           "name": "experiment/decoder-integrity-001-20261107",
@@ -10105,8 +10141,48 @@
           "sha": "a4f3b6645a5bbf50e3304bd8df74215ecf99766b"
         },
         {
+          "name": "experiment/feature-frontier-001-20261109",
+          "sha": "ef2dade0cec27ed1c8714e71cfaa130c035dfd6b"
+        },
+        {
+          "name": "experiment/field-001-generative-fact-world-20261110",
+          "sha": "5c93b78e0eca317825ca3f3a12a4a443516db9c1"
+        },
+        {
+          "name": "experiment/field-002-composed-probes-20261110",
+          "sha": "1675970c5532e4ad8ca30a4d33280d0a7369145c"
+        },
+        {
+          "name": "experiment/field-003-real-data-aperture-20261110",
+          "sha": "1b6b9d9c6c02fc6207ce4f10730822f84e79a030"
+        },
+        {
+          "name": "experiment/field-004-relational-gap-challenge-20261110",
+          "sha": "fa53235bb1e70acf4b6e10f5f763ed245f86b174"
+        },
+        {
           "name": "experiment/fir-001-before-the-arrow",
           "sha": "9d0e56166a413e5ab1a895c21477acc35befc5ca"
+        },
+        {
+          "name": "experiment/genius001-architecture-of-discovery",
+          "sha": "0c739275c9fdc98f2efc3b3670fb988fbb9e4758"
+        },
+        {
+          "name": "experiment/genius002-perspective-without-erasure",
+          "sha": "0b5ae2d140c70771429b7d8de5730efd93818f1b"
+        },
+        {
+          "name": "experiment/genius003-correctable-perspectives",
+          "sha": "b2cd00ede8be71a4e2150f8c2ef332bea761204a"
+        },
+        {
+          "name": "experiment/genius004-humility-aperture",
+          "sha": "664490c2e52e491e019038dd76527642da8c5b7a"
+        },
+        {
+          "name": "experiment/genius005-evidence-before-revision",
+          "sha": "239f02a932678f711f37651f6425b8f797466463"
         },
         {
           "name": "experiment/geometry-001-flower-of-life",
@@ -10159,6 +10235,26 @@
         {
           "name": "experiment/geometry-013-self-redesigning-instrument",
           "sha": "a3dc551ababa40c29975c9b54c4eaa515d9dc18c"
+        },
+        {
+          "name": "experiment/immune-001-epistemic-virology",
+          "sha": "45070acc739cde9b15141b709f4192b05261e90f"
+        },
+        {
+          "name": "experiment/immune-002-shoulders-of-giants",
+          "sha": "e2b2b50d5a4dfa256118d4a386041587b2ec939c"
+        },
+        {
+          "name": "experiment/immune-003-external-epistemic-challenge",
+          "sha": "0f1b0e39d5f67da3a6ab1675f080397aaaf45310"
+        },
+        {
+          "name": "experiment/invention-diagnosis-001-20261109",
+          "sha": "cdce8ab7d5360ec76827a08c6e1f697c74b7e130"
+        },
+        {
+          "name": "experiment/language-growth-001-20261109",
+          "sha": "de242206e7f56672b231599f0f50bc99b349c830"
         },
         {
           "name": "experiment/legit-001-reason-routing-stranger-gate",
@@ -10249,8 +10345,44 @@
           "sha": "375df67205fbae5788a9feb3b79a339ef4e423b4"
         },
         {
+          "name": "experiment/legit-023-classical-research-repertoire",
+          "sha": "3a8ec50d7f0e62cabcc424616e23b39cd8387283"
+        },
+        {
+          "name": "experiment/legit-024-method-ecology",
+          "sha": "b656fc517e61538f70c3d701b2be323022209723"
+        },
+        {
+          "name": "experiment/legit-025-aperture-escape",
+          "sha": "d56be90d07ab9b3368b90b5fcb64a7d6115ba01e"
+        },
+        {
+          "name": "experiment/legit-026-method-mirror",
+          "sha": "6206ded67ce7fe8b5322b43f92296df0232bc0b3"
+        },
+        {
+          "name": "experiment/legit-027-cross-domain-question-transfer",
+          "sha": "a106a8c746741372ff42ab344e9dbcf3c087d798"
+        },
+        {
+          "name": "experiment/legit-028-information-geometry",
+          "sha": "cb9219a143a5cc68464e8a8d7e260db269f194c5"
+        },
+        {
+          "name": "experiment/legit-029-shift-aware-research-gate",
+          "sha": "c5ef2d71327f4904380a189693e4ca0a32ce673c"
+        },
+        {
           "name": "experiment/mathal-001-nunumathal-001-20261107",
           "sha": "485d8ea1bf3a0cb8f7498f0b79a4f16231992292"
+        },
+        {
+          "name": "experiment/meta-001-open-collatz-primitive-inquiry",
+          "sha": "6968dd23fa90f3864acecdbeae49745ec543ee48"
+        },
+        {
+          "name": "experiment/meta-002-variable-horizon-ranking-falsifiers",
+          "sha": "649f5535d0076152b53eb48c433a7f45bdfdf8dd"
         },
         {
           "name": "experiment/motif-006-first-question-dogram-probes",
@@ -10267,6 +10399,10 @@
         {
           "name": "experiment/observation-015-posthog-outcome-witness",
           "sha": "87a5dc4749683a998784dedca5089a46d24325a9"
+        },
+        {
+          "name": "experiment/operator-invention-001-20261109",
+          "sha": "71184b13c8d3658227d9f0d04de5e43e09ec1572"
         },
         {
           "name": "experiment/provenance-probe-001-20261107",
@@ -10311,6 +10447,34 @@
         {
           "name": "experiment/quantum-code-010-traction-loop-20261108",
           "sha": "faa58ba687f62514a793f7eb09f52d8e5428ddfc"
+        },
+        {
+          "name": "experiment/quantum-code-011-survival-game-replay-20261109",
+          "sha": "1aa010d0daf557f6cad715f82bffcc15e08e2a73"
+        },
+        {
+          "name": "experiment/quantum-code-012-real-crafter-playthrough-20261109",
+          "sha": "338331738959e05f58fabba71402dfeca31859f1"
+        },
+        {
+          "name": "experiment/quantum-code-013-human-expert-apprentice-20261109",
+          "sha": "dbb3e42eed453a2d637d40ba0f9917f08c33985e"
+        },
+        {
+          "name": "experiment/quantum-code-014-stagnation-breaker-20261109",
+          "sha": "18ba9bdd068e8e5f2e350c45deb85f67c20684c0"
+        },
+        {
+          "name": "experiment/quantum-code-015-oscillation-frontier-20261109",
+          "sha": "374ebc22d584cd6f14b029ac7ec883ca8550d688"
+        },
+        {
+          "name": "experiment/quantum-code-016-nested-cycles-goal-dividend-20261109",
+          "sha": "7f6598adfe3190cc38e68ebb1bdf15972071d985"
+        },
+        {
+          "name": "experiment/quantum-code-017-observed-world-probe-planner-20261109",
+          "sha": "084caca52ca2bacf804f0aae0e2976cfc2f359d8"
         },
         {
           "name": "experiment/reality-iron-015-weather-witness",
@@ -10473,6 +10637,10 @@
           "sha": "deb05681df638dc6098d37be28bafc7ba4968ca5"
         },
         {
+          "name": "experiment/semantic-adapter-001-20261109",
+          "sha": "d8ba2dfea2ad0fe8601db54da641ae250de123fc"
+        },
+        {
           "name": "experiment/thought-006-pencil-pen-ledger",
           "sha": "ffeefcedd32faa8f7670bad05db6b06496278e6e"
         },
@@ -10573,6 +10741,10 @@
           "sha": "724ea2fe4b0beb845cd1b45883719577105aa16a"
         },
         {
+          "name": "experiment/thought-032-proof-scoped-concept-language",
+          "sha": "7e476632542f971cf232c25ea446ff54bea7cc6c"
+        },
+        {
           "name": "experiment/wake-signal-001-human-agency",
           "sha": "efe133f0db12b439b9c483eace13601cf8c03285"
         },
@@ -10651,6 +10823,14 @@
         {
           "name": "integration/motif-living-forest-mcp-v03",
           "sha": "85e48566680f99be2cd8ef5969f80c8fb218c477"
+        },
+        {
+          "name": "integration/motif-mcp-oauth-hookup-001",
+          "sha": "ff383d0ff6eae47531eea2a857b767d5d8162242"
+        },
+        {
+          "name": "integration/motif-phone-chatgpt-bridge-001",
+          "sha": "073561cd699d64170676b566c8963004d6976d5c"
         },
         {
           "name": "main",
@@ -10838,6 +11018,446 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 254,
+          "title": "GENIUS-005: Evidence Before Revision — exact drift tests vs noise and strong online controls",
+          "head_branch": "experiment/genius005-evidence-before-revision",
+          "head_sha": "239f02a932678f711f37651f6425b8f797466463",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/genius004-humility-aperture",
+          "updated_at": "2026-11-10T15:33:44Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/254"
+        },
+        {
+          "number": 253,
+          "title": "FIELD-004: relational feature challenge against strong classical CV with frozen audit",
+          "head_branch": "experiment/field-004-relational-gap-challenge-20261110",
+          "head_sha": "fa53235bb1e70acf4b6e10f5f763ed245f86b174",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/field-003-real-data-aperture-20261110",
+          "updated_at": "2026-11-10T09:31:01Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/253"
+        },
+        {
+          "number": 252,
+          "title": "FIELD-003 — independent historical measurements pressure-test the invented probe grammar",
+          "head_branch": "experiment/field-003-real-data-aperture-20261110",
+          "head_sha": "1b6b9d9c6c02fc6207ce4f10730822f84e79a030",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/field-002-composed-probes-20261110",
+          "updated_at": "2026-11-10T08:06:11Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/252"
+        },
+        {
+          "number": 251,
+          "title": "FIELD-002 — one fact, composite probes, and honest grammar HOLD",
+          "head_branch": "experiment/field-002-composed-probes-20261110",
+          "head_sha": "1675970c5532e4ad8ca30a4d33280d0a7369145c",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/field-001-generative-fact-world-20261110",
+          "updated_at": "2026-11-10T07:15:13Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/251"
+        },
+        {
+          "number": 250,
+          "title": "META-001 — ask MOTIF the unsolved Collatz conjecture; derive bounded symbolic residue proofs without inventing global answer",
+          "head_branch": "experiment/meta-001-open-collatz-primitive-inquiry",
+          "head_sha": "6968dd23fa90f3864acecdbeae49745ec543ee48",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/collective-005-primitive-birth-atlas",
+          "updated_at": "2026-11-10T07:02:01Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/250"
+        },
+        {
+          "number": 249,
+          "title": "FIELD-001 — from one verified fact to a recursive, falsifiable possibility field",
+          "head_branch": "experiment/field-001-generative-fact-world-20261110",
+          "head_sha": "5c93b78e0eca317825ca3f3a12a4a443516db9c1",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-10T06:52:57Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/249"
+        },
+        {
+          "number": 248,
+          "title": "GENIUS-004: Humility Aperture — retain/revise/reframe/release/ask under drift",
+          "head_branch": "experiment/genius004-humility-aperture",
+          "head_sha": "664490c2e52e491e019038dd76527642da8c5b7a",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/genius003-correctable-perspectives",
+          "updated_at": "2026-11-10T06:56:18Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/248"
+        },
+        {
+          "number": 247,
+          "title": "COLLECTIVE-005 — Primitive Birth: synthesize a missing measurement from raw graph atoms, verify on original Atlas holdouts",
+          "head_branch": "experiment/collective-005-primitive-birth-atlas",
+          "head_sha": "bfdb97b6c61fbd40768c546508b20cc95b32d3d8",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/collective-004-invent-discriminator-grammar",
+          "updated_at": "2026-11-10T06:43:51Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/247"
+        },
+        {
+          "number": 246,
+          "title": "GENIUS-003: Correctable perspectives, frozen forecasts and hidden-profile cooperation",
+          "head_branch": "experiment/genius003-correctable-perspectives",
+          "head_sha": "b2cd00ede8be71a4e2150f8c2ef332bea761204a",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/genius002-perspective-without-erasure",
+          "updated_at": "2026-11-10T06:38:37Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/246"
+        },
+        {
+          "number": 245,
+          "title": "COLLECTIVE-004 — question-grammar invention after formal proof that prior apertures cannot distinguish worlds",
+          "head_branch": "experiment/collective-004-invent-discriminator-grammar",
+          "head_sha": "033e1e496dd49917f306536216d92dd16462dbeb",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/collective-003-national-treasure-questions",
+          "updated_at": "2026-11-10T05:01:32Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/245"
+        },
+        {
+          "number": 244,
+          "title": "GENIUS-002: Perspective without erasure — source-owned Trench dialogue & consent-gated drafts",
+          "head_branch": "experiment/genius002-perspective-without-erasure",
+          "head_sha": "0b5ae2d140c70771429b7d8de5730efd93818f1b",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/genius001-architecture-of-discovery",
+          "updated_at": "2026-11-10T04:52:15Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/244"
+        },
+        {
+          "number": 243,
+          "title": "MCP-HOOKUP-001: OAuth-protected ChatGPT front door for pinned MOTIF forest v0.3",
+          "head_branch": "integration/motif-mcp-oauth-hookup-001",
+          "head_sha": "ff383d0ff6eae47531eea2a857b767d5d8162242",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "integration/motif-living-forest-mcp-v03",
+          "updated_at": "2026-11-10T04:52:36Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/243"
+        },
+        {
+          "number": 242,
+          "title": "APP-BRIDGE-001: ChatGPT sign-in path + gated MOTIF phone function adapter",
+          "head_branch": "integration/motif-phone-chatgpt-bridge-001",
+          "head_sha": "073561cd699d64170676b566c8963004d6976d5c",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "integration/motif-living-forest-mcp-v03",
+          "updated_at": "2026-11-10T04:51:40Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/242"
+        },
+        {
+          "number": 241,
+          "title": "GENIUS-001: Einstein × Ramanujan × Leonardo — executable discovery operations",
+          "head_branch": "experiment/genius001-architecture-of-discovery",
+          "head_sha": "0c739275c9fdc98f2efc3b3670fb988fbb9e4758",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/legit-029-shift-aware-research-gate",
+          "updated_at": "2026-11-10T04:38:52Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/241"
+        },
+        {
+          "number": 240,
+          "title": "QC-017: Observed-world goal planner — generate executable routes, replan on surprise, verify real Crafter resource gains",
+          "head_branch": "experiment/quantum-code-017-observed-world-probe-planner-20261109",
+          "head_sha": "084caca52ca2bacf804f0aae0e2976cfc2f359d8",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/quantum-code-016-nested-cycles-goal-dividend-20261109",
+          "updated_at": "2026-11-10T04:28:03Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/240"
+        },
+        {
+          "number": 239,
+          "title": "COLLECTIVE-003: National Treasure wild questions × native Question Box × source-pinned proof-bearing re-entry",
+          "head_branch": "experiment/collective-003-national-treasure-questions",
+          "head_sha": "a82a4ee6f54e04bab8cd844a0f555aa8278c7f47",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/collective-002-missing-link-question-invention",
+          "updated_at": "2026-11-10T04:20:41Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/239"
+        },
+        {
+          "number": 238,
+          "title": "QC-016: Nested 2–7 cycles-of-cycles + goal-dependent information dividend with real Crafter proof",
+          "head_branch": "experiment/quantum-code-016-nested-cycles-goal-dividend-20261109",
+          "head_sha": "7f6598adfe3190cc38e68ebb1bdf15972071d985",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/quantum-code-015-oscillation-frontier-20261109",
+          "updated_at": "2026-11-10T04:11:25Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/238"
+        },
+        {
+          "number": 237,
+          "title": "COLLECTIVE-002 — three independent TranchNode-inspired MOTIF instances exchange bounded evidence",
+          "head_branch": "experiment/collective-002-three-independent-tranchnodes",
+          "head_sha": "74b199482f65d8ad354b716b16fd30eba50e6e23",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-10T04:35:50Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/237"
+        },
+        {
+          "number": 236,
+          "title": "INVENTION-DIAGNOSIS-001: ask why a method fails before proposing self-repair",
+          "head_branch": "experiment/invention-diagnosis-001-20261109",
+          "head_sha": "cdce8ab7d5360ec76827a08c6e1f697c74b7e130",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/control-flow-growth-001-20261109",
+          "updated_at": "2026-11-10T04:07:21Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/236"
+        },
+        {
+          "number": 235,
+          "title": "COLLECTIVE-002 — invent the missing question between proof-carrying nodes, query owner, preserve evidence",
+          "head_branch": "experiment/collective-002-missing-link-question-invention",
+          "head_sha": "33b72d0fd81c940424eb713a6bd494448a4d411d",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/collective-001-proof-carrying-answer-weave",
+          "updated_at": "2026-11-10T04:05:14Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/235"
+        },
+        {
+          "number": 234,
+          "title": "LEGIT-029: Shift-aware research gate — empirically distrust misleading information metrics",
+          "head_branch": "experiment/legit-029-shift-aware-research-gate",
+          "head_sha": "c5ef2d71327f4904380a189693e4ca0a32ce673c",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/legit-028-information-geometry",
+          "updated_at": "2026-11-10T04:07:39Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/234"
+        },
+        {
+          "number": 233,
+          "title": "COLLECTIVE-001 — proof-carrying answer nodes, scoped evidence and re-entry without re-inquiry",
+          "head_branch": "experiment/collective-001-proof-carrying-answer-weave",
+          "head_sha": "269006b559dbc73766888bcd11f5f294b8e6aa64",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/thought-028-proof-weave-active-composition",
+          "updated_at": "2026-11-10T03:51:25Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/233"
+        },
+        {
+          "number": 232,
+          "title": "CONTROL-FLOW-GROWTH-001: synthesize a deeper executable loop AST after finite grammar failure",
+          "head_branch": "experiment/control-flow-growth-001-20261109",
+          "head_sha": "ead6a6c8483c5f9b745eea062c5de5bf89c515ba",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/operator-invention-001-20261109",
+          "updated_at": "2026-11-10T03:47:32Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/232"
+        },
+        {
+          "number": 231,
+          "title": "QC-015: Oscillation Frontier — detect 2–N action cycles, test real-game info gain, abstain from unsafe novelty",
+          "head_branch": "experiment/quantum-code-015-oscillation-frontier-20261109",
+          "head_sha": "374ebc22d584cd6f14b029ac7ec883ca8550d688",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/quantum-code-014-stagnation-breaker-20261109",
+          "updated_at": "2026-11-10T03:41:33Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/231"
+        },
+        {
+          "number": 230,
+          "title": "LEGIT-028: Information Geometry — when entropy is not the value of a research question",
+          "head_branch": "experiment/legit-028-information-geometry",
+          "head_sha": "cb9219a143a5cc68464e8a8d7e260db269f194c5",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/legit-027-cross-domain-question-transfer",
+          "updated_at": "2026-11-10T03:40:10Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/230"
+        },
+        {
+          "number": 229,
+          "title": "OPERATOR-INVENTION-001: synthesize and execute missing loop-based operators from primitive code",
+          "head_branch": "experiment/operator-invention-001-20261109",
+          "head_sha": "71184b13c8d3658227d9f0d04de5e43e09ec1572",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/language-growth-001-20261109",
+          "updated_at": "2026-11-10T03:32:06Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/229"
+        },
+        {
+          "number": 228,
+          "title": "IMMUNE-003: Adversarial Epistemologist — external BIPIA challenges, grounded argumentation, source proofs",
+          "head_branch": "experiment/immune-003-external-epistemic-challenge",
+          "head_sha": "0f1b0e39d5f67da3a6ab1675f080397aaaf45310",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/immune-002-shoulders-of-giants",
+          "updated_at": "2026-11-10T03:42:46Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/228"
+        },
+        {
+          "number": 227,
+          "title": "LANGUAGE-GROWTH-001: diagnose insufficient graph language and synthesize a missing counting operator",
+          "head_branch": "experiment/language-growth-001-20261109",
+          "head_sha": "de242206e7f56672b231599f0f50bc99b349c830",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/feature-frontier-001-20261109",
+          "updated_at": "2026-11-10T03:12:47Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/227"
+        },
+        {
+          "number": 226,
+          "title": "LEGIT-027: Cross-domain research-question transfer — graph diversity scorer vs algebra and constraints",
+          "head_branch": "experiment/legit-027-cross-domain-question-transfer",
+          "head_sha": "a106a8c746741372ff42ab344e9dbcf3c087d798",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/legit-026-method-mirror",
+          "updated_at": "2026-11-10T03:17:32Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/226"
+        },
+        {
+          "number": 225,
+          "title": "QC-014: Stagnation Breaker — detect 161-action failure, infer missing affordance, repair in real Crafter",
+          "head_branch": "experiment/quantum-code-014-stagnation-breaker-20261109",
+          "head_sha": "18ba9bdd068e8e5f2e350c45deb85f67c20684c0",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/quantum-code-013-human-expert-apprentice-20261109",
+          "updated_at": "2026-11-10T03:12:16Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/225"
+        },
+        {
+          "number": 224,
+          "title": "LEGIT-026: The Method Mirror — cross-world test of improving the question-invention policy",
+          "head_branch": "experiment/legit-026-method-mirror",
+          "head_sha": "6206ded67ce7fe8b5322b43f92296df0232bc0b3",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/legit-025-aperture-escape",
+          "updated_at": "2026-11-10T03:01:12Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/224"
+        },
+        {
+          "number": 223,
+          "title": "FEATURE-FRONTIER-001: synthesize unnamed graph features from relational edge queries",
+          "head_branch": "experiment/feature-frontier-001-20261109",
+          "head_sha": "ef2dade0cec27ed1c8714e71cfaa130c035dfd6b",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/contract-frontier-002-20261109",
+          "updated_at": "2026-11-10T02:53:23Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/223"
+        },
+        {
+          "number": 222,
+          "title": "IMMUNE-002: Shoulders of Giants — truth maintenance, exact proof, classical ACLs",
+          "head_branch": "experiment/immune-002-shoulders-of-giants",
+          "head_sha": "e2b2b50d5a4dfa256118d4a386041587b2ec939c",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/immune-001-epistemic-virology",
+          "updated_at": "2026-11-10T03:05:07Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/222"
+        },
+        {
+          "number": 221,
+          "title": "QC-013: Human Field Apprentice — 100 real expert Crafter runs, action-network evidence, live feedback tests",
+          "head_branch": "experiment/quantum-code-013-human-expert-apprentice-20261109",
+          "head_sha": "dbb3e42eed453a2d637d40ba0f9917f08c33985e",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/quantum-code-012-real-crafter-playthrough-20261109",
+          "updated_at": "2026-11-10T02:43:55Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/221"
+        },
+        {
+          "number": 220,
+          "title": "CONTRACT-FRONTIER-002: actively discover conditional graph laws and test independent topology counters",
+          "head_branch": "experiment/contract-frontier-002-20261109",
+          "head_sha": "068125a477c15c176e4693617b8f33b7c1bdba45",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/contract-discovery-001-20261109",
+          "updated_at": "2026-11-10T02:37:43Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/220"
+        },
+        {
+          "number": 219,
+          "title": "IMMUNE-001: epistemic virology — lineage tracing, verification gates and selective repair",
+          "head_branch": "experiment/immune-001-epistemic-virology",
+          "head_sha": "45070acc739cde9b15141b709f4192b05261e90f",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-10T02:34:33Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/219"
+        },
+        {
+          "number": 218,
+          "title": "LEGIT-025: Aperture Escape — detect blind spots, compose research questions, transfer verified probes",
+          "head_branch": "experiment/legit-025-aperture-escape",
+          "head_sha": "d56be90d07ab9b3368b90b5fcb64a7d6115ba01e",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/legit-024-method-ecology",
+          "updated_at": "2026-11-10T02:40:21Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/218"
+        },
+        {
+          "number": 217,
+          "title": "LEGIT-024: Research Method Ecology — verified symbolic, constraint, graph and MOTIF portfolios",
+          "head_branch": "experiment/legit-024-method-ecology",
+          "head_sha": "b656fc517e61538f70c3d701b2be323022209723",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/legit-023-classical-research-repertoire",
+          "updated_at": "2026-11-10T02:13:54Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/217"
+        },
+        {
+          "number": 216,
+          "title": "QC-012: REAL Crafter survival gameplay — 572 executed steps, telemetered affordance traces, failures and screenshots",
+          "head_branch": "experiment/quantum-code-012-real-crafter-playthrough-20261109",
+          "head_sha": "338331738959e05f58fabba71402dfeca31859f1",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/quantum-code-011-survival-game-replay-20261109",
+          "updated_at": "2026-11-10T02:00:03Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/216"
+        },
+        {
+          "number": 215,
+          "title": "CONTRACT-DISCOVERY-001: infer opaque numerical laws through interventions and build missing-port children",
+          "head_branch": "experiment/contract-discovery-001-20261109",
+          "head_sha": "4d85de3b7ad9884eaccf503feaed578f1f106336",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/semantic-adapter-001-20261109",
+          "updated_at": "2026-11-10T00:12:28Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/215"
+        },
+        {
+          "number": 214,
+          "title": "LEGIT-023: Shoulders of Giants — executable classical research method portfolio",
+          "head_branch": "experiment/legit-023-classical-research-repertoire",
+          "head_sha": "3a8ec50d7f0e62cabcc424616e23b39cd8387283",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/legit-022-atlas-aperture-dividend",
+          "updated_at": "2026-11-09T23:59:43Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/214"
+        },
+        {
+          "number": 213,
+          "title": "SEMANTIC-ADAPTER-001: infer bridge from executable behavior and refuse type-correct meaning drift",
+          "head_branch": "experiment/semantic-adapter-001-20261109",
+          "head_sha": "d8ba2dfea2ad0fe8601db54da641ae250de123fc",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/adapter-invention-001-20261108",
+          "updated_at": "2026-11-09T23:54:23Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/213"
+        },
+        {
+          "number": 212,
+          "title": "QC-011: Survival RPG replay grammar — game-state interpretation and reLATTE HOLD preview",
+          "head_branch": "experiment/quantum-code-011-survival-game-replay-20261109",
+          "head_sha": "1aa010d0daf557f6cad715f82bffcc15e08e2a73",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/quantum-code-010-traction-loop-20261108",
+          "updated_at": "2026-11-09T23:53:47Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/212"
+        },
+        {
+          "number": 211,
+          "title": "THOUGHT-032 (draft): optional shared concept words with typed graph patterns and scoped independent verification",
+          "head_branch": "experiment/thought-032-proof-scoped-concept-language",
+          "head_sha": "7e476632542f971cf232c25ea446ff54bea7cc6c",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/thought-031-evidence-relay-compositional-pidgin",
+          "updated_at": "2026-11-09T23:47:26Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/211"
+        },
         {
           "number": 210,
           "title": "THOUGHT-031 (draft): preload relevant evidence and experiment with parameterized optional pidgin",
@@ -11345,7 +11965,7 @@
           "head_sha": "85e48566680f99be2cd8ef5969f80c8fb218c477",
           "head_repo": "the-static-collective/MOTIF",
           "base_branch": "main",
-          "updated_at": "2026-11-06T22:32:16Z",
+          "updated_at": "2026-11-10T04:51:38Z",
           "url": "https://github.com/the-static-collective/MOTIF/pull/160"
         },
         {
@@ -23458,6 +24078,26 @@
           "sha": "4c772ad2b69a4eaa93ee85f086587482f84af1a5"
         },
         {
+          "name": "experiment/collective-003-installable-node-pwa",
+          "sha": "b09dc3c520f7afbd2f85685ed532533baaa136b8"
+        },
+        {
+          "name": "experiment/collective-004-invite-only-living-network",
+          "sha": "c717dab8606d22be1ff63be710899904c44a83db"
+        },
+        {
+          "name": "experiment/collective-005-private-question-routing",
+          "sha": "1ddb227ea86aca584c7c8fe0cde3db94dc2af67b"
+        },
+        {
+          "name": "experiment/collective-006-what-if-multithread-feedback",
+          "sha": "fb1cb4fcfd1a0f5bedb3886edd266b965756475b"
+        },
+        {
+          "name": "experiment/collective-007-parallel-inquiry-workers",
+          "sha": "6b5924781ec33292dbcf422e41c4612476464138"
+        },
+        {
           "name": "experiment/fatherhand-grant-chain-001",
           "sha": "534e3dc5be763b7b11eb84bfab22f3efb25c254b"
         },
@@ -23527,6 +24167,56 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 84,
+          "title": "COLLECTIVE-007 — parallel budgeted What-If investigation workers and cross-thread research receipts",
+          "head_branch": "experiment/collective-007-parallel-inquiry-workers",
+          "head_sha": "6b5924781ec33292dbcf422e41c4612476464138",
+          "head_repo": "the-static-collective/tranchnode",
+          "base_branch": "experiment/collective-006-what-if-multithread-feedback",
+          "updated_at": "2026-11-10T07:43:53Z",
+          "url": "https://github.com/the-static-collective/tranchnode/pull/84"
+        },
+        {
+          "number": 83,
+          "title": "COLLECTIVE-006 — multi-thread what-if forest + outcome-aware consented peer inquiry",
+          "head_branch": "experiment/collective-006-what-if-multithread-feedback",
+          "head_sha": "fb1cb4fcfd1a0f5bedb3886edd266b965756475b",
+          "head_repo": "the-static-collective/tranchnode",
+          "base_branch": "experiment/collective-005-private-question-routing",
+          "updated_at": "2026-11-10T07:13:26Z",
+          "url": "https://github.com/the-static-collective/tranchnode/pull/83"
+        },
+        {
+          "number": 82,
+          "title": "COLLECTIVE-005 — consented local question routing across independently operating nodes",
+          "head_branch": "experiment/collective-005-private-question-routing",
+          "head_sha": "1ddb227ea86aca584c7c8fe0cde3db94dc2af67b",
+          "head_repo": "the-static-collective/tranchnode",
+          "base_branch": "experiment/collective-004-invite-only-living-network",
+          "updated_at": "2026-11-10T06:47:25Z",
+          "url": "https://github.com/the-static-collective/tranchnode/pull/82"
+        },
+        {
+          "number": 81,
+          "title": "COLLECTIVE-004 — living network: invitation-scoped WebRTC peer discovery and consented proof exchange",
+          "head_branch": "experiment/collective-004-invite-only-living-network",
+          "head_sha": "c717dab8606d22be1ff63be710899904c44a83db",
+          "head_repo": "the-static-collective/tranchnode",
+          "base_branch": "experiment/collective-003-installable-node-pwa",
+          "updated_at": "2026-11-10T04:57:41Z",
+          "url": "https://github.com/the-static-collective/tranchnode/pull/81"
+        },
+        {
+          "number": 80,
+          "title": "COLLECTIVE-003 — installable offline TranchNode × MOTIF field app with signed evidence exchange",
+          "head_branch": "experiment/collective-003-installable-node-pwa",
+          "head_sha": "b09dc3c520f7afbd2f85685ed532533baaa136b8",
+          "head_repo": "the-static-collective/tranchnode",
+          "base_branch": "main",
+          "updated_at": "2026-11-10T04:33:36Z",
+          "url": "https://github.com/the-static-collective/tranchnode/pull/80"
+        },
         {
           "number": 79,
           "title": "FATHERHAND-001: grant-chain validator + Paperchain PLANT capacity witness",
@@ -26988,7 +27678,7 @@
         },
         {
           "name": "main",
-          "sha": "6a26d0b3c473fc70008aa1963a18935e896d939e"
+          "sha": "0fdd3d04df36c9e63ba726bd22a092b033be6a71"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -27447,5 +28137,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-09T17:28:04+00:00"
+  "captured_at": "2026-11-10T15:35:24+00:00"
 }
