@@ -61,7 +61,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-) · [Branches](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/branches) · [Pull requests](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/pulls)
 
-Default: `main` · other refs: 6 · open PRs: 0
+Default: `main` · other refs: 7 · open PRs: 1
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#9](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/pull/9) | HUMKIN RADIO 001 — public mood dial + fictional transmissions on Auto Disco V20 | `feature/humkin-radio-001` → `main` | 2026-11-11 |
 
 ### Retained nondefault branches
 
@@ -70,6 +76,7 @@ Default: `main` · other refs: 6 · open PRs: 0
 | [audio-window-001](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/tree/audio-window-001) | [fcf2ba327a](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/commit/fcf2ba327a2bd150383ad6824116ffcfb6639bfe) | Retained ref; disposition unverified |
 | [audio-window-sample-exact-002](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/tree/audio-window-sample-exact-002) | [1d5ccc73bf](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/commit/1d5ccc73bf75354149c9988ae879b1fb2d5fbba6) | Retained ref; disposition unverified |
 | [broadcast-assembly-001](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/tree/broadcast-assembly-001) | [1e06cee070](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/commit/1e06cee07061116eb31afbcdc60b34971ee5b130) | Retained ref; disposition unverified |
+| [feature/humkin-radio-001](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/tree/feature/humkin-radio-001) | [4711eaf309](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/commit/4711eaf3098de0ecbe1ad3c60c3b4be22bc30a26) | [open PR #9](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/pull/9) |
 | [first-encounter-001](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/tree/first-encounter-001) | [ea03e2b07d](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/commit/ea03e2b07d99d7fa30d816ead9b708ee8d69b54e) | Retained ref; disposition unverified |
 | [first-encounter-native-env-002](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/tree/first-encounter-native-env-002) | [4e007383eb](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/commit/4e007383ebea586d448f6147bb60821773c49f5e) | Retained ref; disposition unverified |
 | [look-twice-002](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/tree/look-twice-002) | [2d258a1b1a](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/commit/2d258a1b1a326c9e13e4694a9c81f0e828abc669) | Retained ref; disposition unverified |

@@ -8095,7 +8095,7 @@
         },
         {
           "name": "main",
-          "sha": "ed4fae2760746796461de2be0917f422472ea820"
+          "sha": "8ff15f7482a920f48f325e71305ffa526a1eb03d"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -10065,6 +10065,10 @@
           "sha": "bfdb97b6c61fbd40768c546508b20cc95b32d3d8"
         },
         {
+          "name": "experiment/confluence-004-impossibility-aperture-20261110",
+          "sha": "13008a085b3b2283606fc3d7fc1f722e710c2498"
+        },
+        {
           "name": "experiment/context-gate-001-20261107",
           "sha": "a0a96dd4295fb272f9e8759ac40061fb82a84d31"
         },
@@ -10161,8 +10165,48 @@
           "sha": "fa53235bb1e70acf4b6e10f5f763ed245f86b174"
         },
         {
+          "name": "experiment/field-005-relational-question-dividend-20261110",
+          "sha": "4369ff98156816c2b8dc75e8709b44abd62bcc24"
+        },
+        {
+          "name": "experiment/field-006-counterexample-proof-20261110",
+          "sha": "3fd015cfbf1b578321005042b4076419ec5a45ee"
+        },
+        {
+          "name": "experiment/field-007-independent-source-transfer-20261110",
+          "sha": "27dacfb3c102b1560c1182158b64d03773f2aca0"
+        },
+        {
+          "name": "experiment/field-008-blanching-frontier-20261110",
+          "sha": "581ed7cbc289f65f42949dd332476eb672467a7c"
+        },
+        {
           "name": "experiment/fir-001-before-the-arrow",
           "sha": "9d0e56166a413e5ab1a895c21477acc35befc5ca"
+        },
+        {
+          "name": "experiment/fire001-cognitive-combustion",
+          "sha": "fe1beecb75c99ca93b10783dd76e50d3f9e3e388"
+        },
+        {
+          "name": "experiment/fire002-productive-combustion",
+          "sha": "88319d83143017b887b3c47359657010384b3365"
+        },
+        {
+          "name": "experiment/fire003-epistemic-smoke-detector",
+          "sha": "302b3215a27448c3dd0a6009100bae26d5ea3f9a"
+        },
+        {
+          "name": "experiment/fire004-witness-of-flame",
+          "sha": "ae7436eb0468f618cbf2af78f81a91023986847e"
+        },
+        {
+          "name": "experiment/fire005-discernment-and-rollback",
+          "sha": "cf8bab3ff19e61194f3bb7cd3cb361118c72fab4"
+        },
+        {
+          "name": "experiment/fire006-price-of-revision",
+          "sha": "6c49be0295ab511a0ba738ee0c745d006c9d5c44"
         },
         {
           "name": "experiment/genius001-architecture-of-discovery",
@@ -10182,7 +10226,31 @@
         },
         {
           "name": "experiment/genius005-evidence-before-revision",
-          "sha": "239f02a932678f711f37651f6425b8f797466463"
+          "sha": "4f03217bcd8c3f513482d264ccffacbf9c1b38eb"
+        },
+        {
+          "name": "experiment/genius006-discovery-dividend",
+          "sha": "c23a5adc7642a2e5e10c4cb368c8e44fc0dca24d"
+        },
+        {
+          "name": "experiment/genius007-question-foundry",
+          "sha": "9292675a28175eb481bdce260d92ff3307daaf25"
+        },
+        {
+          "name": "experiment/genius008-strange-atlas",
+          "sha": "9615772d27eb967aea4703e30240828ab4b30173"
+        },
+        {
+          "name": "experiment/genius009-two-clock-weave",
+          "sha": "cef86536ba65a82a95c86dc5e807cfa1ad95b9c4"
+        },
+        {
+          "name": "experiment/genius010-three-thread-convergence",
+          "sha": "ad41ef5a8f94ee412a6167392682959564119bc0"
+        },
+        {
+          "name": "experiment/genius011-unsuspected-relation",
+          "sha": "21edef16a0e849cdc17db4fac53f98b08d087d55"
         },
         {
           "name": "experiment/geometry-001-flower-of-life",
@@ -10382,7 +10450,27 @@
         },
         {
           "name": "experiment/meta-002-variable-horizon-ranking-falsifiers",
-          "sha": "649f5535d0076152b53eb48c433a7f45bdfdf8dd"
+          "sha": "d11bc27f0016e16e853282b06e187dfb3975c658"
+        },
+        {
+          "name": "experiment/meta-003-stateful-ranking-cegis",
+          "sha": "c7a87847bda26741d06ddedab2550dcf0aef0eaa"
+        },
+        {
+          "name": "experiment/meta-004-two-adic-ghost-nonlocal-rank",
+          "sha": "d1cd35f1beabf26a441d4791d57eca14e6f69f29"
+        },
+        {
+          "name": "experiment/meta-005-symbolic-infinite-rank-collatz",
+          "sha": "bbc47083c31e34f6c73b8012cfea37fd1787068f"
+        },
+        {
+          "name": "experiment/meta-006-branching-infinite-rank",
+          "sha": "9fd5dadfc00c9e8884a99fd2a4da094b255f1d78"
+        },
+        {
+          "name": "experiment/meta-007-weighted-branch-grammar-optimizer",
+          "sha": "ab73166ef5109b81b6560c1961174c5a85a5cd13"
         },
         {
           "name": "experiment/motif-006-first-question-dogram-probes",
@@ -10821,6 +10909,18 @@
           "sha": "3175fdb1a5ada605773741e1bfb293ee623bc8f1"
         },
         {
+          "name": "integration/confluence-001-coherent-field-20261110",
+          "sha": "b5dc22f8bd3c7783c0a8a2ad61f676e2cdce4e36"
+        },
+        {
+          "name": "integration/confluence-002-native-weave-20261110",
+          "sha": "74fbc509c44decebd8e7ed22115efafd34f92939"
+        },
+        {
+          "name": "integration/confluence-003-unfamiliar-worlds-20261110",
+          "sha": "dd33592c05c2c9430e6d654f1ef8407ce39f8cb9"
+        },
+        {
           "name": "integration/motif-living-forest-mcp-v03",
           "sha": "85e48566680f99be2cd8ef5969f80c8fb218c477"
         },
@@ -11019,13 +11119,273 @@
       ],
       "open_prs": [
         {
+          "number": 280,
+          "title": "FIRE-006 — The Price of Revision: multi-hypothesis portfolios, evidence-priced edits, verified rollback and strong classical controls",
+          "head_branch": "experiment/fire006-price-of-revision",
+          "head_sha": "6c49be0295ab511a0ba738ee0c745d006c9d5c44",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/fire005-discernment-and-rollback",
+          "updated_at": "2026-11-11T12:48:38Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/280"
+        },
+        {
+          "number": 279,
+          "title": "FIRE-005: The Discernment Frontier — Bayesian changepoints, reversible method edits, strong online-mixture falsifiers",
+          "head_branch": "experiment/fire005-discernment-and-rollback",
+          "head_sha": "cf8bab3ff19e61194f3bb7cd3cb361118c72fab4",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/fire004-witness-of-flame",
+          "updated_at": "2026-11-11T12:22:54Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/279"
+        },
+        {
+          "number": 278,
+          "title": "FIRE-004 — The Witness of the Flame: prequential self-auditing vs Bayesian HMM and classical Hedge controls",
+          "head_branch": "experiment/fire004-witness-of-flame",
+          "head_sha": "ae7436eb0468f618cbf2af78f81a91023986847e",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/fire003-epistemic-smoke-detector",
+          "updated_at": "2026-11-11T11:57:31Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/278"
+        },
+        {
+          "number": 277,
+          "title": "FIRE-003 — Epistemic Smoke Detector: independent-source lineage, proof-only learning and adversarial auditor falsifiers",
+          "head_branch": "experiment/fire003-epistemic-smoke-detector",
+          "head_sha": "302b3215a27448c3dd0a6009100bae26d5ea3f9a",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/fire002-productive-combustion",
+          "updated_at": "2026-11-11T11:33:21Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/277"
+        },
+        {
+          "number": 276,
+          "title": "FIRE-002: Productive Combustion — verification-yield governor, online-learning ablation, drift and correlated-source falsifiers",
+          "head_branch": "experiment/fire002-productive-combustion",
+          "head_sha": "88319d83143017b887b3c47359657010384b3365",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/fire001-cognitive-combustion",
+          "updated_at": "2026-11-11T11:19:56Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/276"
+        },
+        {
+          "number": 275,
+          "title": "FIRE-001 — Cognitive Combustion: fuel × oxygen × heat inquiry governor, tested against classical schedulers",
+          "head_branch": "experiment/fire001-cognitive-combustion",
+          "head_sha": "fe1beecb75c99ca93b10783dd76e50d3f9e3e388",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-11T03:08:19Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/275"
+        },
+        {
+          "number": 274,
+          "title": "CONFLUENCE-004: The Second Door — scoped impossibility, authorized new affordances, exact classical checks",
+          "head_branch": "experiment/confluence-004-impossibility-aperture-20261110",
+          "head_sha": "13008a085b3b2283606fc3d7fc1f722e710c2498",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "integration/confluence-003-unfamiliar-worlds-20261110",
+          "updated_at": "2026-11-11T00:01:37Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/274"
+        },
+        {
+          "number": 273,
+          "title": "CONFLUENCE-003: real external pathfinding data × four native methods × strong classical ablations",
+          "head_branch": "integration/confluence-003-unfamiliar-worlds-20261110",
+          "head_sha": "dd33592c05c2c9430e6d654f1ef8407ce39f8cb9",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "integration/confluence-002-native-weave-20261110",
+          "updated_at": "2026-11-10T23:48:38Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/273"
+        },
+        {
+          "number": 272,
+          "title": "GENIUS-011: The Unsuspected Relation — generate novel structural bridge questions, then try to falsify them",
+          "head_branch": "experiment/genius011-unsuspected-relation",
+          "head_sha": "21edef16a0e849cdc17db4fac53f98b08d087d55",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/genius010-three-thread-convergence",
+          "updated_at": "2026-11-10T23:21:10Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/272"
+        },
+        {
+          "number": 271,
+          "title": "CONFLUENCE-002: execute original 003 + 006 + FIELD-008 lineage + COLLECTIVE proof reentry",
+          "head_branch": "integration/confluence-002-native-weave-20261110",
+          "head_sha": "74fbc509c44decebd8e7ed22115efafd34f92939",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "integration/confluence-001-coherent-field-20261110",
+          "updated_at": "2026-11-10T23:18:43Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/271"
+        },
+        {
+          "number": 270,
+          "title": "CONFLUENCE-001: coherent field — proof-bound multi-world inquiry + real MOTIF-003 adapter",
+          "head_branch": "integration/confluence-001-coherent-field-20261110",
+          "head_sha": "b5dc22f8bd3c7783c0a8a2ad61f676e2cdce4e36",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-10T22:30:21Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/270"
+        },
+        {
+          "number": 269,
+          "title": "GENIUS-010: Three-Thread Convergence — can independent mysteries meet without forced coincidence?",
+          "head_branch": "experiment/genius010-three-thread-convergence",
+          "head_sha": "ad41ef5a8f94ee412a6167392682959564119bc0",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/genius009-two-clock-weave",
+          "updated_at": "2026-11-10T22:22:08Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/269"
+        },
+        {
+          "number": 268,
+          "title": "META-007 — break the frame with a proof-certified weighted inverse-language grammar optimizer",
+          "head_branch": "experiment/meta-007-weighted-branch-grammar-optimizer",
+          "head_sha": "ab73166ef5109b81b6560c1961174c5a85a5cd13",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/meta-006-branching-infinite-rank",
+          "updated_at": "2026-11-10T22:25:06Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/268"
+        },
+        {
+          "number": 267,
+          "title": "FIELD-008: BLANCHING FRONTIER — evidence-rooted provisional worlds and deep verification hinges",
+          "head_branch": "experiment/field-008-blanching-frontier-20261110",
+          "head_sha": "581ed7cbc289f65f42949dd332476eb672467a7c",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/field-007-independent-source-transfer-20261110",
+          "updated_at": "2026-11-10T21:40:00Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/267"
+        },
+        {
+          "number": 266,
+          "title": "GENIUS-009: Two-Clock Weave — Enochic witnesses × Nolan chronology × Acaster callbacks",
+          "head_branch": "experiment/genius009-two-clock-weave",
+          "head_sha": "cef86536ba65a82a95c86dc5e807cfa1ad95b9c4",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/genius008-strange-atlas",
+          "updated_at": "2026-11-10T21:37:41Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/266"
+        },
+        {
+          "number": 265,
+          "title": "META-006 — recursive modular inverse grammar yields a provably faster-growing infinite positive Collatz rank family",
+          "head_branch": "experiment/meta-006-branching-infinite-rank",
+          "head_sha": "9fd5dadfc00c9e8884a99fd2a4da094b255f1d78",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/meta-005-symbolic-infinite-rank-collatz",
+          "updated_at": "2026-11-10T17:52:18Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/265"
+        },
+        {
+          "number": 264,
+          "title": "GENIUS-008: Strange Genius Atlas — Enoch, Jesus, Oppenheimer, comedy, rhythm and epistemic craft",
+          "head_branch": "experiment/genius008-strange-atlas",
+          "head_sha": "9615772d27eb967aea4703e30240828ab4b30173",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/genius007-question-foundry",
+          "updated_at": "2026-11-10T17:43:19Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/264"
+        },
+        {
+          "number": 263,
+          "title": "META-005 — construct explicit INFINITE positive Collatz family with symbolic well-founded rank and rigorous limits",
+          "head_branch": "experiment/meta-005-symbolic-infinite-rank-collatz",
+          "head_sha": "bbc47083c31e34f6c73b8012cfea37fd1787068f",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/meta-004-two-adic-ghost-nonlocal-rank",
+          "updated_at": "2026-11-10T17:29:11Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/263"
+        },
+        {
+          "number": 262,
+          "title": "FIELD-007 — Frozen independent-source transfer tests, counterexamples and classical losses",
+          "head_branch": "experiment/field-007-independent-source-transfer-20261110",
+          "head_sha": "27dacfb3c102b1560c1182158b64d03773f2aca0",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/field-006-counterexample-proof-20261110",
+          "updated_at": "2026-11-10T17:27:59Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/262"
+        },
+        {
+          "number": 261,
+          "title": "FIELD-006 — Target counterexamples, preserve alternatives, and challenge classical active learning",
+          "head_branch": "experiment/field-006-counterexample-proof-20261110",
+          "head_sha": "3fd015cfbf1b578321005042b4076419ec5a45ee",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/field-005-relational-question-dividend-20261110",
+          "updated_at": "2026-11-10T16:58:02Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/261"
+        },
+        {
+          "number": 260,
+          "title": "GENIUS-007: Question Foundry — invent typed intermediate probes and verify downstream value",
+          "head_branch": "experiment/genius007-question-foundry",
+          "head_sha": "9292675a28175eb481bdce260d92ff3307daaf25",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/genius006-discovery-dividend",
+          "updated_at": "2026-11-10T16:56:56Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/260"
+        },
+        {
+          "number": 259,
+          "title": "META-004 — distinguish 2-adic ghost paths from positive Collatz orbits; exact nonlocal finite-basin ranking",
+          "head_branch": "experiment/meta-004-two-adic-ghost-nonlocal-rank",
+          "head_sha": "d1cd35f1beabf26a441d4791d57eca14e6f69f29",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/meta-003-stateful-ranking-cegis",
+          "updated_at": "2026-11-10T16:47:11Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/259"
+        },
+        {
+          "number": 258,
+          "title": "FIELD-005 — relational question dividend vs classical active learning (frozen audit, honest HOLD)",
+          "head_branch": "experiment/field-005-relational-question-dividend-20261110",
+          "head_sha": "4369ff98156816c2b8dc75e8709b44abd62bcc24",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/field-004-relational-gap-challenge-20261110",
+          "updated_at": "2026-11-10T16:33:31Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/258"
+        },
+        {
+          "number": 257,
+          "title": "META-003 — nonlinear rank CEGIS, 2-adic adversarial parity and proof-carrying stateful refinement",
+          "head_branch": "experiment/meta-003-stateful-ranking-cegis",
+          "head_sha": "c7a87847bda26741d06ddedab2550dcf0aef0eaa",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/meta-002-variable-horizon-ranking-falsifiers",
+          "updated_at": "2026-11-10T16:32:32Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/257"
+        },
+        {
+          "number": 256,
+          "title": "GENIUS-006: Discovery Dividend — proof-carrying question chains vs information gain",
+          "head_branch": "experiment/genius006-discovery-dividend",
+          "head_sha": "c23a5adc7642a2e5e10c4cb368c8e44fc0dca24d",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/genius005-evidence-before-revision",
+          "updated_at": "2026-11-10T16:35:57Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/256"
+        },
+        {
+          "number": 255,
+          "title": "META-002 — adaptive variable-time Collatz residue certificates and universal finite-state rank obstructions",
+          "head_branch": "experiment/meta-002-variable-horizon-ranking-falsifiers",
+          "head_sha": "d11bc27f0016e16e853282b06e187dfb3975c658",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/meta-001-open-collatz-primitive-inquiry",
+          "updated_at": "2026-11-10T15:38:43Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/255"
+        },
+        {
           "number": 254,
           "title": "GENIUS-005: Evidence Before Revision — exact drift tests vs noise and strong online controls",
           "head_branch": "experiment/genius005-evidence-before-revision",
-          "head_sha": "239f02a932678f711f37651f6425b8f797466463",
+          "head_sha": "4f03217bcd8c3f513482d264ccffacbf9c1b38eb",
           "head_repo": "the-static-collective/MOTIF",
           "base_branch": "experiment/genius004-humility-aperture",
-          "updated_at": "2026-11-10T15:33:44Z",
+          "updated_at": "2026-11-10T15:39:03Z",
           "url": "https://github.com/the-static-collective/MOTIF/pull/254"
         },
         {
@@ -20396,6 +20756,10 @@
           "sha": "1e06cee07061116eb31afbcdc60b34971ee5b130"
         },
         {
+          "name": "feature/humkin-radio-001",
+          "sha": "4711eaf3098de0ecbe1ad3c60c3b4be22bc30a26"
+        },
+        {
           "name": "first-encounter-001",
           "sha": "ea03e2b07d99d7fa30d816ead9b708ee8d69b54e"
         },
@@ -20412,7 +20776,18 @@
           "sha": "7ad77a46debc7e8c05fc7434c9091f3e36870651"
         }
       ],
-      "open_prs": []
+      "open_prs": [
+        {
+          "number": 9,
+          "title": "HUMKIN RADIO 001 — public mood dial + fictional transmissions on Auto Disco V20",
+          "head_branch": "feature/humkin-radio-001",
+          "head_sha": "4711eaf3098de0ecbe1ad3c60c3b4be22bc30a26",
+          "head_repo": "the-static-collective/The-AutodiscoV.20.-question-marks-",
+          "base_branch": "main",
+          "updated_at": "2026-11-11T02:54:24Z",
+          "url": "https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/pull/9"
+        }
+      ]
     },
     {
       "name": "the-daily-slice",
@@ -24098,6 +24473,38 @@
           "sha": "6b5924781ec33292dbcf422e41c4612476464138"
         },
         {
+          "name": "experiment/collective-008-aperture-experiment-selection",
+          "sha": "3d428e4262a72c67b6216c63f83a47de80637615"
+        },
+        {
+          "name": "experiment/collective-009-affordance-adaptive-research",
+          "sha": "31a9ce7a3405c03c91092a0b3da35594f0e3822a"
+        },
+        {
+          "name": "experiment/collective-010-calibration-claims-not-echoes",
+          "sha": "8996a76948c4318d82ccd27b10c0321bd374180d"
+        },
+        {
+          "name": "experiment/collective-011-presumed-delta",
+          "sha": "19e1d1596b271f1a91475a78cca9d7b7dd93a93b"
+        },
+        {
+          "name": "experiment/collective-012-shared-change-horizon",
+          "sha": "6581c110265e98217e6284ab4842e0bb28a8f3b9"
+        },
+        {
+          "name": "experiment/collective-013-temporal-trajectories",
+          "sha": "172af8809eda5b31de10acabd6b4c5de56914a9b"
+        },
+        {
+          "name": "experiment/collective-014-trajectories-of-trajectories",
+          "sha": "e331e06fbca797020d5f071f6849d2450767ddea"
+        },
+        {
+          "name": "experiment/collective-015-weak-signal-aperture",
+          "sha": "38e9d665d5384bcb890e040e5c18e554a8ab10e7"
+        },
+        {
           "name": "experiment/fatherhand-grant-chain-001",
           "sha": "534e3dc5be763b7b11eb84bfab22f3efb25c254b"
         },
@@ -24167,6 +24574,86 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 92,
+          "title": "COLLECTIVE-015 — Weak-Signal Aperture: multi-relation early warning with chronological falsifiers",
+          "head_branch": "experiment/collective-015-weak-signal-aperture",
+          "head_sha": "38e9d665d5384bcb890e040e5c18e554a8ab10e7",
+          "head_repo": "the-static-collective/tranchnode",
+          "base_branch": "experiment/collective-014-trajectories-of-trajectories",
+          "updated_at": "2026-11-10T23:39:20Z",
+          "url": "https://github.com/the-static-collective/tranchnode/pull/92"
+        },
+        {
+          "number": 91,
+          "title": "COLLECTIVE-014 — Trajectories of trajectories: market-inspired change regime forecasting",
+          "head_branch": "experiment/collective-014-trajectories-of-trajectories",
+          "head_sha": "e331e06fbca797020d5f071f6849d2450767ddea",
+          "head_repo": "the-static-collective/tranchnode",
+          "base_branch": "experiment/collective-013-temporal-trajectories",
+          "updated_at": "2026-11-10T23:21:21Z",
+          "url": "https://github.com/the-static-collective/tranchnode/pull/91"
+        },
+        {
+          "number": 90,
+          "title": "COLLECTIVE-013 — Temporal Trajectories: learn provisional sequences of reported change",
+          "head_branch": "experiment/collective-013-temporal-trajectories",
+          "head_sha": "172af8809eda5b31de10acabd6b4c5de56914a9b",
+          "head_repo": "the-static-collective/tranchnode",
+          "base_branch": "experiment/collective-012-shared-change-horizon",
+          "updated_at": "2026-11-10T22:26:47Z",
+          "url": "https://github.com/the-static-collective/tranchnode/pull/90"
+        },
+        {
+          "number": 89,
+          "title": "COLLECTIVE-012 — Shared-Change Horizon: propagate recheck uncertainty without asserting correlated changes",
+          "head_branch": "experiment/collective-012-shared-change-horizon",
+          "head_sha": "6581c110265e98217e6284ab4842e0bb28a8f3b9",
+          "head_repo": "the-static-collective/tranchnode",
+          "base_branch": "experiment/collective-011-presumed-delta",
+          "updated_at": "2026-11-10T21:36:43Z",
+          "url": "https://github.com/the-static-collective/tranchnode/pull/89"
+        },
+        {
+          "number": 88,
+          "title": "COLLECTIVE-011 — The Presumed Delta: time-aware change hazard and evidence rechecks",
+          "head_branch": "experiment/collective-011-presumed-delta",
+          "head_sha": "19e1d1596b271f1a91475a78cca9d7b7dd93a93b",
+          "head_repo": "the-static-collective/tranchnode",
+          "base_branch": "experiment/collective-010-calibration-claims-not-echoes",
+          "updated_at": "2026-11-10T17:45:47Z",
+          "url": "https://github.com/the-static-collective/tranchnode/pull/88"
+        },
+        {
+          "number": 87,
+          "title": "COLLECTIVE-010 — Calibration Crucible: learn from reference-linked outcomes, not echoed agreement",
+          "head_branch": "experiment/collective-010-calibration-claims-not-echoes",
+          "head_sha": "8996a76948c4318d82ccd27b10c0321bd374180d",
+          "head_repo": "the-static-collective/tranchnode",
+          "base_branch": "experiment/collective-009-affordance-adaptive-research",
+          "updated_at": "2026-11-10T17:03:33Z",
+          "url": "https://github.com/the-static-collective/tranchnode/pull/87"
+        },
+        {
+          "number": 86,
+          "title": "COLLECTIVE-009 — Discovery Dividend: cost-aware two-step What-If strategy with evidence-triggered pivots",
+          "head_branch": "experiment/collective-009-affordance-adaptive-research",
+          "head_sha": "31a9ce7a3405c03c91092a0b3da35594f0e3822a",
+          "head_repo": "the-static-collective/tranchnode",
+          "base_branch": "experiment/collective-008-aperture-experiment-selection",
+          "updated_at": "2026-11-10T16:25:20Z",
+          "url": "https://github.com/the-static-collective/tranchnode/pull/86"
+        },
+        {
+          "number": 85,
+          "title": "COLLECTIVE-008 — Aperture Dividend: choose counterfactual experiments across What-If threads",
+          "head_branch": "experiment/collective-008-aperture-experiment-selection",
+          "head_sha": "3d428e4262a72c67b6216c63f83a47de80637615",
+          "head_repo": "the-static-collective/tranchnode",
+          "base_branch": "experiment/collective-007-parallel-inquiry-workers",
+          "updated_at": "2026-11-10T15:58:55Z",
+          "url": "https://github.com/the-static-collective/tranchnode/pull/85"
+        },
         {
           "number": 84,
           "title": "COLLECTIVE-007 — parallel budgeted What-If investigation workers and cross-thread research receipts",
@@ -27678,7 +28165,7 @@
         },
         {
           "name": "main",
-          "sha": "0fdd3d04df36c9e63ba726bd22a092b033be6a71"
+          "sha": "3afb0ede4766a990686243d283a3a7064cc049d7"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -28137,5 +28624,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-10T15:35:24+00:00"
+  "captured_at": "2026-11-11T15:10:27+00:00"
 }
