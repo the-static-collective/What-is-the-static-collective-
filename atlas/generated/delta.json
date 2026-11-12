@@ -1,179 +1,314 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-10T15:35:24+00:00",
-  "to_captured_at": "2026-11-11T15:10:27+00:00",
+  "from_captured_at": "2026-11-11T15:10:27+00:00",
+  "to_captured_at": "2026-11-12T15:58:30+00:00",
   "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "MOTIF",
-      "branch": "experiment/confluence-004-impossibility-aperture-20261110",
-      "sha": "13008a085b3b2283606fc3d7fc1f722e710c2498"
+      "repository": "GRAFT",
+      "branch": "graft/capability-lab-017-unwritten-method",
+      "sha": "45779e412b05d1c57c693b9207eec1f4cb517a82"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/capability-laboratory-016",
+      "sha": "ff4377453c49a64b191ad988815e7d6b8b8e067b"
+    },
+    {
+      "repository": "GRAFT",
+      "branch": "graft/jubilee-capability-nursery-015",
+      "sha": "94a49c4e28e4d49d4b7f80ee5ecb78f28c1334c9"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "integration/motif-org001-local-hold-20261111",
+      "sha": "883e092d2a6787cc685ccfa028a443d662817fe0"
+    },
+    {
+      "repository": "JAR-VIS",
+      "branch": "integration/motif-org002-impasse-20261111",
+      "sha": "a190b85660f8695685798ca03c40838c86b19030"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-001-fragmented-cents",
+      "sha": "84db8c57471e5503a70103a9942293b79529a8d7"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-002-living-reserve",
+      "sha": "49de70d8983438b8a929c7048b5439e0332e11f1"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-003-steward-banks-network-weaving",
+      "sha": "474aefcf991668ec0ad0538d17e908afd87288ef"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-004-rare-coin-frontier",
+      "sha": "e9ca5d7fdda0dd407414a08b1c3d161f29968b7c"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-005-discovery-market-motif",
+      "sha": "67fa73875c35d39d8251807676bd52fad9701b69"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-006-worth-to-whom",
+      "sha": "3c3c9b7dd2945f2f98c2d76987ae801d7eda5693"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-007-mutual-surplus-liquidity",
+      "sha": "8ee03d5d2bc48821758df32b5cca08c1685f5497"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-008-angel-replenishment",
+      "sha": "86dada899af2a4c2fa96d8da9789d447d067ec39"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-009-anchor-commitment",
+      "sha": "8cbf3b655ea7095b2c234f11ff9fb37b54522017"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-010-who-knows-whom",
+      "sha": "5e304f4f19f466fb9985346ea3faa7d57ae86e38"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-011-contextual-consent-weave",
+      "sha": "9951a8667677fce903c6b60a155c779e74b10737"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-012-ask-the-next-question",
+      "sha": "a018dfe289dfe43cd0d2f82b6c36ecc77417ef10"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-013-network-question-frontier",
+      "sha": "7bbcbce977dff1ba8c34a47d1b04fcf1d96ae42c"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-014-agreement-invention",
+      "sha": "b54971c77cc4a721a952783044f3b27abc1a81ec"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-015-capability-construction",
+      "sha": "51989f5fa1f608558b8019e7a109161d1d29f8bc"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-016-capability-laboratory",
+      "sha": "5ab353eb6c007fa7233530f1f73de3f3d866f29d"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/penny-puddle-017-unwritten-method",
+      "sha": "53a03e6734dd9a4d08692b79e6bdb9e8f5e9e729"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/field-005-relational-question-dividend-20261110",
-      "sha": "4369ff98156816c2b8dc75e8709b44abd62bcc24"
+      "branch": "experiment/cognition001-four-speed-contemplation-20261111",
+      "sha": "b8204d5107d949b5e787ff5c56719635ab1d0409"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/field-006-counterexample-proof-20261110",
-      "sha": "3fd015cfbf1b578321005042b4076419ec5a45ee"
+      "branch": "experiment/cognition002-understory-freegraph-subconscious-20261111",
+      "sha": "51b2d137dd71ed2936ad2744f951803876dd4452"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/field-007-independent-source-transfer-20261110",
-      "sha": "27dacfb3c102b1560c1182158b64d03773f2aca0"
+      "branch": "experiment/cognition003-associative-resurfacing-20261111",
+      "sha": "ef805fb333be368421ec1204d7150ab8c6f378d8"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/field-008-blanching-frontier-20261110",
-      "sha": "581ed7cbc289f65f42949dd332476eb672467a7c"
+      "branch": "experiment/cognition004-unwritten-analogy-20261111",
+      "sha": "5436ea708f23c1923c81811ccfc6279e5d664b20"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/fire001-cognitive-combustion",
-      "sha": "fe1beecb75c99ca93b10783dd76e50d3f9e3e388"
+      "branch": "experiment/cognition005-open-world-novelty-gap-20261111",
+      "sha": "6842ad4da2b895e3180b1720867ccf27333d4d7a"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/fire002-productive-combustion",
-      "sha": "88319d83143017b887b3c47359657010384b3365"
+      "branch": "experiment/cognition006-novelgym-native-fire-20261112",
+      "sha": "c6b04b2ff27bc9b03f3bad12c585c0ddbd760e12"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/fire003-epistemic-smoke-detector",
-      "sha": "302b3215a27448c3dd0a6009100bae26d5ea3f9a"
+      "branch": "experiment/cognition007-novelgym-20seed-external-gap-20261112",
+      "sha": "8f3e532c766a421e9ea2dc7b202d992a7b98bf46"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/fire004-witness-of-flame",
-      "sha": "ae7436eb0468f618cbf2af78f81a91023986847e"
+      "branch": "experiment/cognition008-native-adaptation-ten-attempts-20261112",
+      "sha": "76f797e920aee74bfab065744b051eb5fd34084a"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/fire005-discernment-and-rollback",
-      "sha": "cf8bab3ff19e61194f3bb7cd3cb361118c72fab4"
+      "branch": "experiment/cognition009-native-unseen-novelties-20261112",
+      "sha": "a744bb942fc5d7babd5c7af0adf7b8ae92df9e2e"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/fire006-price-of-revision",
-      "sha": "6c49be0295ab511a0ba738ee0c745d006c9d5c44"
+      "branch": "experiment/cognition010-live-adaptive-replanner-20261112",
+      "sha": "143ad57170091487433307ec9ad5208376dda76e"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/genius006-discovery-dividend",
-      "sha": "c23a5adc7642a2e5e10c4cb368c8e44fc0dca24d"
+      "branch": "experiment/field-004-unsaid-move-20261111",
+      "sha": "01f64b77e42ab7e36ec0eb6653ee6b8c0eee7e10"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/genius007-question-foundry",
-      "sha": "9292675a28175eb481bdce260d92ff3307daaf25"
+      "branch": "experiment/field-005-visual-thought-20261111",
+      "sha": "5da23825704d0de6ac85fd6bc5844d44fb48e4bf"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/genius008-strange-atlas",
-      "sha": "9615772d27eb967aea4703e30240828ab4b30173"
+      "branch": "experiment/field-006-sketch-is-evidence-20261111",
+      "sha": "b61bf8b587a9d83d913fe74e281550ae2813fde6"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/genius009-two-clock-weave",
-      "sha": "cef86536ba65a82a95c86dc5e807cfa1ad95b9c4"
+      "branch": "experiment/field-007-ink-before-intent-20261111",
+      "sha": "99b109bc12a1f377c64425de768bdc7c016b45b7"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/genius010-three-thread-convergence",
-      "sha": "ad41ef5a8f94ee412a6167392682959564119bc0"
+      "branch": "experiment/field-008-two-eyes-one-source-20261111",
+      "sha": "52a6f6ee920413713a1b6f8d7e92b06e2aa8d3de"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/genius011-unsuspected-relation",
-      "sha": "21edef16a0e849cdc17db4fac53f98b08d087d55"
+      "branch": "experiment/field-009-ratio-first-20261111",
+      "sha": "d878d86054863acba0609e6d36b0f469b474f627"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/meta-003-stateful-ranking-cegis",
-      "sha": "c7a87847bda26741d06ddedab2550dcf0aef0eaa"
+      "branch": "experiment/field-010-shared-board-20261111",
+      "sha": "401e84ecfd456c86f545484bb3f955c05979262a"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/meta-004-two-adic-ghost-nonlocal-rank",
-      "sha": "d1cd35f1beabf26a441d4791d57eca14e6f69f29"
+      "branch": "experiment/field-011-autodraft-board-20261112",
+      "sha": "49c9493ae6ee87ca182546f2297a012afffcfb4b"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/meta-005-symbolic-infinite-rank-collatz",
-      "sha": "bbc47083c31e34f6c73b8012cfea37fd1787068f"
+      "branch": "experiment/field-012-object-aware-co-sketch-20261112",
+      "sha": "af168b9a742a329a5f3f8e22fb72f03580ce3a82"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/meta-006-branching-infinite-rank",
-      "sha": "9fd5dadfc00c9e8884a99fd2a4da094b255f1d78"
+      "branch": "experiment/field-013-zero-turn-object-aperture-20261112",
+      "sha": "edc7c7c5589492ef639b70bdab15345303cef4c8"
     },
     {
       "repository": "MOTIF",
-      "branch": "experiment/meta-007-weighted-branch-grammar-optimizer",
-      "sha": "ab73166ef5109b81b6560c1961174c5a85a5cd13"
+      "branch": "experiment/field-014-reality-has-depth-20261112",
+      "sha": "5f1f0ddca303616a4fd1805522c58a45baff934e"
     },
     {
       "repository": "MOTIF",
-      "branch": "integration/confluence-001-coherent-field-20261110",
-      "sha": "b5dc22f8bd3c7783c0a8a2ad61f676e2cdce4e36"
+      "branch": "experiment/field-015-two-reconstructions-matter-20261112",
+      "sha": "0e49f22249dc7a5db8e3a5f6bfb4d63f09bb4658"
     },
     {
       "repository": "MOTIF",
-      "branch": "integration/confluence-002-native-weave-20261110",
-      "sha": "74fbc509c44decebd8e7ed22115efafd34f92939"
+      "branch": "experiment/field-016-revise-matter-20261112",
+      "sha": "f5a53a80b2ebd57e9e848efeff35007df4ba5da4"
     },
     {
       "repository": "MOTIF",
-      "branch": "integration/confluence-003-unfamiliar-worlds-20261110",
-      "sha": "dd33592c05c2c9430e6d654f1ef8407ce39f8cb9"
+      "branch": "experiment/field-017-loop-in-matter-20261112",
+      "sha": "b8f3cfb8329f1d1a1fcb79a4ca429d58ff9edfd4"
     },
     {
-      "repository": "The-AutodiscoV.20.-question-marks-",
-      "branch": "feature/humkin-radio-001",
-      "sha": "4711eaf3098de0ecbe1ad3c60c3b4be22bc30a26"
+      "repository": "MOTIF",
+      "branch": "experiment/field-018-chain-under-test-20261112",
+      "sha": "a6cd06028ca2100ad86450280b9f5a25312ec01c"
     },
     {
-      "repository": "tranchnode",
-      "branch": "experiment/collective-008-aperture-experiment-selection",
-      "sha": "3d428e4262a72c67b6216c63f83a47de80637615"
+      "repository": "MOTIF",
+      "branch": "experiment/llm001-proof-carrying-branch-compiler-20261112",
+      "sha": "cd8b951f5cdd9730dacc545d41ed1f4603e84eec"
     },
     {
-      "repository": "tranchnode",
-      "branch": "experiment/collective-009-affordance-adaptive-research",
-      "sha": "31a9ce7a3405c03c91092a0b3da35594f0e3822a"
+      "repository": "MOTIF",
+      "branch": "experiment/llm002-graph-conditioned-prefix-forks-20261112",
+      "sha": "511e7d6025733bff01455b4a3014b731630d8838"
     },
     {
-      "repository": "tranchnode",
-      "branch": "experiment/collective-010-calibration-claims-not-echoes",
-      "sha": "8996a76948c4318d82ccd27b10c0321bd374180d"
+      "repository": "MOTIF",
+      "branch": "experiment/llm003-error-dividend-openweights-20261112",
+      "sha": "760d65fe179aae42109c9810cf118aaf6359041b"
     },
     {
-      "repository": "tranchnode",
-      "branch": "experiment/collective-011-presumed-delta",
-      "sha": "19e1d1596b271f1a91475a78cca9d7b7dd93a93b"
+      "repository": "MOTIF",
+      "branch": "experiment/llm004-reason-hypermap-20261112",
+      "sha": "1a5e9f0d3bfd55518ad1ba0e52cb8bf6e1184e3d"
     },
     {
-      "repository": "tranchnode",
-      "branch": "experiment/collective-012-shared-change-horizon",
-      "sha": "6581c110265e98217e6284ab4842e0bb28a8f3b9"
+      "repository": "MOTIF",
+      "branch": "experiment/org001-throughput-of-help-20261111",
+      "sha": "6affa0cabf07c3aa74877324e3eeef3465571ab1"
     },
     {
-      "repository": "tranchnode",
-      "branch": "experiment/collective-013-temporal-trajectories",
-      "sha": "172af8809eda5b31de10acabd6b4c5de56914a9b"
+      "repository": "MOTIF",
+      "branch": "experiment/org002-institutional-impasse-20261111",
+      "sha": "f05c8374fc86b4b743bc6254d6c31ffd309cea3d"
     },
     {
-      "repository": "tranchnode",
-      "branch": "experiment/collective-014-trajectories-of-trajectories",
-      "sha": "e331e06fbca797020d5f071f6849d2450767ddea"
+      "repository": "MOTIF",
+      "branch": "experiment/three-bet-reframe-trial-20261111",
+      "sha": "4233b82f366cebc1d78fc19c415b964a782a1aac"
     },
     {
-      "repository": "tranchnode",
-      "branch": "experiment/collective-015-weak-signal-aperture",
-      "sha": "38e9d665d5384bcb890e040e5c18e554a8ab10e7"
+      "repository": "MOTIF",
+      "branch": "experiment/void001-missing-middle-seed-mesh-20261111",
+      "sha": "72143e6462be971155e8e30450443fed2d4ba641"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/void002-crafter-natural-frontier-20261111",
+      "sha": "39a1982b84a4f02bd85767909a61341ad6b0a0ef"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/void003-two-run-memory-20261111",
+      "sha": "f7687b4f90b408593ea916270bc46a48bcae5db2"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/void004-retry-wave-fortress-20261111",
+      "sha": "72688fc486c7b15b7c63d96e9743acdf23b7ef45"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/void005-learning-adversary-20261111",
+      "sha": "56f6134ab646b753fdb7c14511c397dfb7de5264"
+    },
+    {
+      "repository": "MOTIF",
+      "branch": "experiment/void006-procedural-muscle-memory-20261111",
+      "sha": "1ed9adfbf92ff481da1251ea15975083ce5f081a"
+    },
+    {
+      "repository": "the-haunted-toaster",
+      "branch": "experiment/humkin-golden-yellow-blue-field-test",
+      "sha": "0150edf715e7a32efe2b322cba8dbb01fb39d4f0"
     }
   ],
   "removed_branches": [],
@@ -181,308 +316,504 @@
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "ed4fae2760746796461de2be0917f422472ea820",
-      "to_sha": "8ff15f7482a920f48f325e71305ffa526a1eb03d"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/genius005-evidence-before-revision",
-      "from_sha": "239f02a932678f711f37651f6425b8f797466463",
-      "to_sha": "4f03217bcd8c3f513482d264ccffacbf9c1b38eb"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "experiment/meta-002-variable-horizon-ranking-falsifiers",
-      "from_sha": "649f5535d0076152b53eb48c433a7f45bdfdf8dd",
-      "to_sha": "d11bc27f0016e16e853282b06e187dfb3975c658"
+      "from_sha": "8ff15f7482a920f48f325e71305ffa526a1eb03d",
+      "to_sha": "d076995e7d7c3a36267e2df8b3a392cdcfd6ad6d"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "0fdd3d04df36c9e63ba726bd22a092b033be6a71",
-      "to_sha": "3afb0ede4766a990686243d283a3a7064cc049d7"
+      "from_sha": "3afb0ede4766a990686243d283a3a7064cc049d7",
+      "to_sha": "09c513a022a2d1de2f2f02e6a31145587b8fd1df"
     }
   ],
   "opened_prs": [
     {
-      "repository": "MOTIF",
-      "number": 255,
-      "title": "META-002 — adaptive variable-time Collatz residue certificates and universal finite-state rank obstructions",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/255",
-      "head_branch": "experiment/meta-002-variable-horizon-ranking-falsifiers",
-      "base_branch": "experiment/meta-001-open-collatz-primitive-inquiry"
+      "repository": "GRAFT",
+      "number": 28,
+      "title": "GRAFT CAPABILITY-NURSERY-015 — build and return a verified local method to Jubilee",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/28",
+      "head_branch": "graft/jubilee-capability-nursery-015",
+      "base_branch": "graft/jarvis-live-research-work-002"
     },
     {
-      "repository": "MOTIF",
-      "number": 256,
-      "title": "GENIUS-006: Discovery Dividend — proof-carrying question chains vs information gain",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/256",
-      "head_branch": "experiment/genius006-discovery-dividend",
-      "base_branch": "experiment/genius005-evidence-before-revision"
+      "repository": "GRAFT",
+      "number": 29,
+      "title": "GRAFT × MOTIF-010 CAPABILITY LAB-016 — contest three real methods, select tests, return verified options",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/29",
+      "head_branch": "graft/capability-laboratory-016",
+      "base_branch": "graft/jubilee-capability-nursery-015"
     },
     {
-      "repository": "MOTIF",
-      "number": 257,
-      "title": "META-003 — nonlinear rank CEGIS, 2-adic adversarial parity and proof-carrying stateful refinement",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/257",
-      "head_branch": "experiment/meta-003-stateful-ranking-cegis",
-      "base_branch": "experiment/meta-002-variable-horizon-ranking-falsifiers"
+      "repository": "GRAFT",
+      "number": 30,
+      "title": "GRAFT × native MOTIF-003 CAPABILITY-017 — generate the unwritten typed method and learn from counterexamples",
+      "url": "https://github.com/the-static-collective/GRAFT/pull/30",
+      "head_branch": "graft/capability-lab-017-unwritten-method",
+      "base_branch": "graft/capability-laboratory-016"
     },
     {
-      "repository": "MOTIF",
-      "number": 258,
-      "title": "FIELD-005 — relational question dividend vs classical active learning (frozen audit, honest HOLD)",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/258",
-      "head_branch": "experiment/field-005-relational-question-dividend-20261110",
-      "base_branch": "experiment/field-004-relational-gap-challenge-20261110"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 259,
-      "title": "META-004 — distinguish 2-adic ghost paths from positive Collatz orbits; exact nonlocal finite-basin ranking",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/259",
-      "head_branch": "experiment/meta-004-two-adic-ghost-nonlocal-rank",
-      "base_branch": "experiment/meta-003-stateful-ranking-cegis"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 260,
-      "title": "GENIUS-007: Question Foundry — invent typed intermediate probes and verify downstream value",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/260",
-      "head_branch": "experiment/genius007-question-foundry",
-      "base_branch": "experiment/genius006-discovery-dividend"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 261,
-      "title": "FIELD-006 — Target counterexamples, preserve alternatives, and challenge classical active learning",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/261",
-      "head_branch": "experiment/field-006-counterexample-proof-20261110",
-      "base_branch": "experiment/field-005-relational-question-dividend-20261110"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 262,
-      "title": "FIELD-007 — Frozen independent-source transfer tests, counterexamples and classical losses",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/262",
-      "head_branch": "experiment/field-007-independent-source-transfer-20261110",
-      "base_branch": "experiment/field-006-counterexample-proof-20261110"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 263,
-      "title": "META-005 — construct explicit INFINITE positive Collatz family with symbolic well-founded rank and rigorous limits",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/263",
-      "head_branch": "experiment/meta-005-symbolic-infinite-rank-collatz",
-      "base_branch": "experiment/meta-004-two-adic-ghost-nonlocal-rank"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 264,
-      "title": "GENIUS-008: Strange Genius Atlas — Enoch, Jesus, Oppenheimer, comedy, rhythm and epistemic craft",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/264",
-      "head_branch": "experiment/genius008-strange-atlas",
-      "base_branch": "experiment/genius007-question-foundry"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 265,
-      "title": "META-006 — recursive modular inverse grammar yields a provably faster-growing infinite positive Collatz rank family",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/265",
-      "head_branch": "experiment/meta-006-branching-infinite-rank",
-      "base_branch": "experiment/meta-005-symbolic-infinite-rank-collatz"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 266,
-      "title": "GENIUS-009: Two-Clock Weave — Enochic witnesses × Nolan chronology × Acaster callbacks",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/266",
-      "head_branch": "experiment/genius009-two-clock-weave",
-      "base_branch": "experiment/genius008-strange-atlas"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 267,
-      "title": "FIELD-008: BLANCHING FRONTIER — evidence-rooted provisional worlds and deep verification hinges",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/267",
-      "head_branch": "experiment/field-008-blanching-frontier-20261110",
-      "base_branch": "experiment/field-007-independent-source-transfer-20261110"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 268,
-      "title": "META-007 — break the frame with a proof-certified weighted inverse-language grammar optimizer",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/268",
-      "head_branch": "experiment/meta-007-weighted-branch-grammar-optimizer",
-      "base_branch": "experiment/meta-006-branching-infinite-rank"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 269,
-      "title": "GENIUS-010: Three-Thread Convergence — can independent mysteries meet without forced coincidence?",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/269",
-      "head_branch": "experiment/genius010-three-thread-convergence",
-      "base_branch": "experiment/genius009-two-clock-weave"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 270,
-      "title": "CONFLUENCE-001: coherent field — proof-bound multi-world inquiry + real MOTIF-003 adapter",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/270",
-      "head_branch": "integration/confluence-001-coherent-field-20261110",
+      "repository": "JAR-VIS",
+      "number": 73,
+      "title": "ORG-001 × JAR;VIS — manual local HOLD receiver for MOTIF organizational delay cards",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/73",
+      "head_branch": "integration/motif-org001-local-hold-20261111",
       "base_branch": "main"
     },
     {
-      "repository": "MOTIF",
-      "number": 271,
-      "title": "CONFLUENCE-002: execute original 003 + 006 + FIELD-008 lineage + COLLECTIVE proof reentry",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/271",
-      "head_branch": "integration/confluence-002-native-weave-20261110",
-      "base_branch": "integration/confluence-001-coherent-field-20261110"
+      "repository": "JAR-VIS",
+      "number": 74,
+      "title": "ORG-002 × JAR;VIS — HOLD-only reception of institutional-shock scenarios",
+      "url": "https://github.com/the-static-collective/JAR-VIS/pull/74",
+      "head_branch": "integration/motif-org002-impasse-20261111",
+      "base_branch": "integration/motif-org001-local-hold-20261111"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 27,
+      "title": "PENNY × PUDDLE-001 — make fragmented cents legible without claiming payment powers",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/27",
+      "head_branch": "experiment/penny-puddle-001-fragmented-cents",
+      "base_branch": "main"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 28,
+      "title": "PENNY × PUDDLE-002 — living one-cent reserves, sponsored likes and conditional campaigns",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/28",
+      "head_branch": "experiment/penny-puddle-002-living-reserve",
+      "base_branch": "experiment/penny-puddle-001-fragmented-cents"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 29,
+      "title": "PENNY × PUDDLE-003 — proof-of-custody penny banks and constrained network weaving",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/29",
+      "head_branch": "experiment/penny-puddle-003-steward-banks-network-weaving",
+      "base_branch": "experiment/penny-puddle-002-living-reserve"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 30,
+      "title": "PENNY × PUDDLE-004 — rare-coin discovery, owner-controlled collector premium and safer value weaving",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/30",
+      "head_branch": "experiment/penny-puddle-004-rare-coin-frontier",
+      "base_branch": "experiment/penny-puddle-003-steward-banks-network-weaving"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 31,
+      "title": "PENNY × PUDDLE-005 — collector-demand graph and MOTIF-style discovery vs classical controls",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/31",
+      "head_branch": "experiment/penny-puddle-005-discovery-market-motif",
+      "base_branch": "experiment/penny-puddle-004-rare-coin-frontier"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 32,
+      "title": "PENNY × PUDDLE-006 — Worth to Whom? Direct raw-coin exchange through mutual meaning",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/32",
+      "head_branch": "experiment/penny-puddle-006-worth-to-whom",
+      "base_branch": "experiment/penny-puddle-005-discovery-market-motif"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 33,
+      "title": "Jubilee Treasury × PENNY × PUDDLE-007 — DEALWEAVER mutual surplus and large-asset liquidity without usury",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/33",
+      "head_branch": "experiment/penny-puddle-007-mutual-surplus-liquidity",
+      "base_branch": "experiment/penny-puddle-006-worth-to-whom"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 34,
+      "title": "PENNY × PUDDLE-008 — Angel Circle: pay urgent need now, optionally replenish and recycle",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/34",
+      "head_branch": "experiment/penny-puddle-008-angel-replenishment",
+      "base_branch": "experiment/penny-puddle-007-mutual-surplus-liquidity"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 35,
+      "title": "Jubilee ANCHOR-009 — make an illiquid gold-sized asset useful without selling or moving it",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/35",
+      "head_branch": "experiment/penny-puddle-009-anchor-commitment",
+      "base_branch": "experiment/penny-puddle-008-angel-replenishment"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 36,
+      "title": "Jubilee RELAY-010 — who you know, how you know them: consented relationship paths to good deals",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/36",
+      "head_branch": "experiment/penny-puddle-010-who-knows-whom",
+      "base_branch": "experiment/penny-puddle-009-anchor-commitment"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 37,
+      "title": "Jubilee RELAY-011 — Ask first: contextual consent and cooperative agreement design",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/37",
+      "head_branch": "experiment/penny-puddle-011-contextual-consent-weave",
+      "base_branch": "experiment/penny-puddle-010-who-knows-whom"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 38,
+      "title": "Jubilee QUESTION-012 — MOTIF asks the next useful question with two-step consent-aware decision value",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/38",
+      "head_branch": "experiment/penny-puddle-012-ask-the-next-question",
+      "base_branch": "experiment/penny-puddle-011-contextual-consent-weave"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 39,
+      "title": "Jubilee QUESTION-013 — network investigator: ask the right person first across a consented chain",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/39",
+      "head_branch": "experiment/penny-puddle-013-network-question-frontier",
+      "base_branch": "experiment/penny-puddle-012-ask-the-next-question"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 40,
+      "title": "Jubilee CONCORD-014 — synthesize new agreements from answers instead of evaluating prelisted chains",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/40",
+      "head_branch": "experiment/penny-puddle-014-agreement-invention",
+      "base_branch": "experiment/penny-puddle-013-network-question-frontier"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 41,
+      "title": "Jubilee CAPABILITY-015 — detect a missing verb and verify GRAFT built it before adding a new deal path",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/41",
+      "head_branch": "experiment/penny-puddle-015-capability-construction",
+      "base_branch": "experiment/penny-puddle-014-agreement-invention"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 42,
+      "title": "Jubilee CAPABILITY-016 — independently test competing GRAFT methods and choose resource-aware passing techniques",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/42",
+      "head_branch": "experiment/penny-puddle-016-capability-laboratory",
+      "base_branch": "experiment/penny-puddle-015-capability-construction"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 43,
+      "title": "Jubilee CAPABILITY-017 — independently verify generated typed method against final-only cases",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/43",
+      "head_branch": "experiment/penny-puddle-017-unwritten-method",
+      "base_branch": "experiment/penny-puddle-016-capability-laboratory"
     },
     {
       "repository": "MOTIF",
-      "number": 272,
-      "title": "GENIUS-011: The Unsuspected Relation — generate novel structural bridge questions, then try to falsify them",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/272",
-      "head_branch": "experiment/genius011-unsuspected-relation",
-      "base_branch": "experiment/genius010-three-thread-convergence"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 273,
-      "title": "CONFLUENCE-003: real external pathfinding data × four native methods × strong classical ablations",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/273",
-      "head_branch": "integration/confluence-003-unfamiliar-worlds-20261110",
-      "base_branch": "integration/confluence-002-native-weave-20261110"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 274,
-      "title": "CONFLUENCE-004: The Second Door — scoped impossibility, authorized new affordances, exact classical checks",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/274",
-      "head_branch": "experiment/confluence-004-impossibility-aperture-20261110",
+      "number": 281,
+      "title": "VOID-001: Missing Middle — external research feed + proof-bound question-to-outcome mesh",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/281",
+      "head_branch": "experiment/void001-missing-middle-seed-mesh-20261111",
       "base_branch": "integration/confluence-003-unfamiliar-worlds-20261110"
     },
     {
       "repository": "MOTIF",
-      "number": 275,
-      "title": "FIRE-001 — Cognitive Combustion: fuel × oxygen × heat inquiry governor, tested against classical schedulers",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/275",
-      "head_branch": "experiment/fire001-cognitive-combustion",
+      "number": 282,
+      "title": "ORG-001 — The Waiting Room: outcome-first organizational lag diagnosis with HOLD-only crosswise cards",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/282",
+      "head_branch": "experiment/org001-throughput-of-help-20261111",
       "base_branch": "main"
     },
     {
       "repository": "MOTIF",
-      "number": 276,
-      "title": "FIRE-002: Productive Combustion — verification-yield governor, online-learning ablation, drift and correlated-source falsifiers",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/276",
-      "head_branch": "experiment/fire002-productive-combustion",
-      "base_branch": "experiment/fire001-cognitive-combustion"
+      "number": 283,
+      "title": "VOID-002: natural Crafter opportunity-discovery test — native MOTIF-003 vs strong two-ply classical frontier",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/283",
+      "head_branch": "experiment/void002-crafter-natural-frontier-20261111",
+      "base_branch": "experiment/void001-missing-middle-seed-mesh-20261111"
     },
     {
       "repository": "MOTIF",
-      "number": 277,
-      "title": "FIRE-003 — Epistemic Smoke Detector: independent-source lineage, proof-only learning and adversarial auditor falsifiers",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/277",
-      "head_branch": "experiment/fire003-epistemic-smoke-detector",
-      "base_branch": "experiment/fire002-productive-combustion"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 278,
-      "title": "FIRE-004 — The Witness of the Flame: prequential self-auditing vs Bayesian HMM and classical Hedge controls",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/278",
-      "head_branch": "experiment/fire004-witness-of-flame",
-      "base_branch": "experiment/fire003-epistemic-smoke-detector"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 279,
-      "title": "FIRE-005: The Discernment Frontier — Bayesian changepoints, reversible method edits, strong online-mixture falsifiers",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/279",
-      "head_branch": "experiment/fire005-discernment-and-rollback",
-      "base_branch": "experiment/fire004-witness-of-flame"
-    },
-    {
-      "repository": "MOTIF",
-      "number": 280,
-      "title": "FIRE-006 — The Price of Revision: multi-hypothesis portfolios, evidence-priced edits, verified rollback and strong classical controls",
-      "url": "https://github.com/the-static-collective/MOTIF/pull/280",
-      "head_branch": "experiment/fire006-price-of-revision",
-      "base_branch": "experiment/fire005-discernment-and-rollback"
-    },
-    {
-      "repository": "The-AutodiscoV.20.-question-marks-",
-      "number": 9,
-      "title": "HUMKIN RADIO 001 — public mood dial + fictional transmissions on Auto Disco V20",
-      "url": "https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/pull/9",
-      "head_branch": "feature/humkin-radio-001",
+      "number": 284,
+      "title": "FIELD-004 (draft): autonomous reframe from sparse visual evidence — discover the unsaid move",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/284",
+      "head_branch": "experiment/field-004-unsaid-move-20261111",
       "base_branch": "main"
     },
     {
-      "repository": "tranchnode",
-      "number": 85,
-      "title": "COLLECTIVE-008 — Aperture Dividend: choose counterfactual experiments across What-If threads",
-      "url": "https://github.com/the-static-collective/tranchnode/pull/85",
-      "head_branch": "experiment/collective-008-aperture-experiment-selection",
-      "base_branch": "experiment/collective-007-parallel-inquiry-workers"
+      "repository": "MOTIF",
+      "number": 285,
+      "title": "FIELD-005 (draft): visual scratchpad, local multimodal aperture, cross-domain unsaid moves",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/285",
+      "head_branch": "experiment/field-005-visual-thought-20261111",
+      "base_branch": "experiment/field-004-unsaid-move-20261111"
     },
     {
-      "repository": "tranchnode",
-      "number": 86,
-      "title": "COLLECTIVE-009 — Discovery Dividend: cost-aware two-step What-If strategy with evidence-triggered pivots",
-      "url": "https://github.com/the-static-collective/tranchnode/pull/86",
-      "head_branch": "experiment/collective-009-affordance-adaptive-research",
-      "base_branch": "experiment/collective-008-aperture-experiment-selection"
+      "repository": "MOTIF",
+      "number": 286,
+      "title": "Run all three MOTIF reframe bets in one pilot",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/286",
+      "head_branch": "experiment/three-bet-reframe-trial-20261111",
+      "base_branch": "experiment/field-004-unsaid-move-20261111"
     },
     {
-      "repository": "tranchnode",
-      "number": 87,
-      "title": "COLLECTIVE-010 — Calibration Crucible: learn from reference-linked outcomes, not echoed agreement",
-      "url": "https://github.com/the-static-collective/tranchnode/pull/87",
-      "head_branch": "experiment/collective-010-calibration-claims-not-echoes",
-      "base_branch": "experiment/collective-009-affordance-adaptive-research"
+      "repository": "MOTIF",
+      "number": 287,
+      "title": "ORG-002 — The Impasse Frontier: shutdown-informed institutional resilience and lawful alternate routes",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/287",
+      "head_branch": "experiment/org002-institutional-impasse-20261111",
+      "base_branch": "experiment/org001-throughput-of-help-20261111"
     },
     {
-      "repository": "tranchnode",
-      "number": 88,
-      "title": "COLLECTIVE-011 — The Presumed Delta: time-aware change hazard and evidence rechecks",
-      "url": "https://github.com/the-static-collective/tranchnode/pull/88",
-      "head_branch": "experiment/collective-011-presumed-delta",
-      "base_branch": "experiment/collective-010-calibration-claims-not-echoes"
+      "repository": "MOTIF",
+      "number": 288,
+      "title": "FIELD-006 (draft): sketch-is-evidence atlas, photo witnesses, model-trace review and information-retention tests",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/288",
+      "head_branch": "experiment/field-006-sketch-is-evidence-20261111",
+      "base_branch": "experiment/field-005-visual-thought-20261111"
     },
     {
-      "repository": "tranchnode",
-      "number": 89,
-      "title": "COLLECTIVE-012 — Shared-Change Horizon: propagate recheck uncertainty without asserting correlated changes",
-      "url": "https://github.com/the-static-collective/tranchnode/pull/89",
-      "head_branch": "experiment/collective-012-shared-change-horizon",
-      "base_branch": "experiment/collective-011-presumed-delta"
+      "repository": "MOTIF",
+      "number": 289,
+      "title": "VOID-003 — The Memory Dividend: does exploration pay when MOTIF knows there is another run?",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/289",
+      "head_branch": "experiment/void003-two-run-memory-20261111",
+      "base_branch": "experiment/void002-crafter-natural-frontier-20261111"
     },
     {
-      "repository": "tranchnode",
-      "number": 90,
-      "title": "COLLECTIVE-013 — Temporal Trajectories: learn provisional sequences of reported change",
-      "url": "https://github.com/the-static-collective/tranchnode/pull/90",
-      "head_branch": "experiment/collective-013-temporal-trajectories",
-      "base_branch": "experiment/collective-012-shared-change-horizon"
+      "repository": "MOTIF",
+      "number": 290,
+      "title": "FIELD-007 (draft): automatically detect dotted sketch ink, critique solid lines, and HOLD photo registration",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/290",
+      "head_branch": "experiment/field-007-ink-before-intent-20261111",
+      "base_branch": "experiment/field-006-sketch-is-evidence-20261111"
     },
     {
-      "repository": "tranchnode",
-      "number": 91,
-      "title": "COLLECTIVE-014 — Trajectories of trajectories: market-inspired change regime forecasting",
-      "url": "https://github.com/the-static-collective/tranchnode/pull/91",
-      "head_branch": "experiment/collective-014-trajectories-of-trajectories",
-      "base_branch": "experiment/collective-013-temporal-trajectories"
+      "repository": "MOTIF",
+      "number": 291,
+      "title": "VOID-004 — Ten-Try Fortress: 24 waves, bounded retries, remembered discoveries and equal-information classical control",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/291",
+      "head_branch": "experiment/void004-retry-wave-fortress-20261111",
+      "base_branch": "experiment/void003-two-run-memory-20261111"
     },
     {
-      "repository": "tranchnode",
-      "number": 92,
-      "title": "COLLECTIVE-015 — Weak-Signal Aperture: multi-relation early warning with chronological falsifiers",
-      "url": "https://github.com/the-static-collective/tranchnode/pull/92",
-      "head_branch": "experiment/collective-015-weak-signal-aperture",
-      "base_branch": "experiment/collective-014-trajectories-of-trajectories"
+      "repository": "MOTIF",
+      "number": 292,
+      "title": "VOID-005 — Learning Adversary: change-aware 24-wave retries, fallible relays, native MOTIF vs classical VOI",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/292",
+      "head_branch": "experiment/void005-learning-adversary-20261111",
+      "base_branch": "experiment/void004-retry-wave-fortress-20261111"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 293,
+      "title": "FIELD-008 (draft): visual language eye + independent pixel critic + targeted second-look crop",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/293",
+      "head_branch": "experiment/field-008-two-eyes-one-source-20261111",
+      "base_branch": "experiment/field-007-ink-before-intent-20261111"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 294,
+      "title": "VOID-006 — Reflex Forge: source-verified procedural memory, guardable action chunks and sparse-change falsifiers",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/294",
+      "head_branch": "experiment/void006-procedural-muscle-memory-20261111",
+      "base_branch": "experiment/void005-learning-adversary-20261111"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 295,
+      "title": "FIELD-009 (draft): ratio-first visual reasoning, one-reference calibration and perspective HOLD",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/295",
+      "head_branch": "experiment/field-009-ratio-first-20261111",
+      "base_branch": "experiment/field-008-two-eyes-one-source-20261111"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 296,
+      "title": "COGNITION-001 — Four-Speed Mind: reflex, deliberation, reflection and GHoT-gated contemplation",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/296",
+      "head_branch": "experiment/cognition001-four-speed-contemplation-20261111",
+      "base_branch": "experiment/void006-procedural-muscle-memory-20261111"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 297,
+      "title": "COGNITION-002 — Subconscious Crossroads: MOTIF contemplation × private UNDERSTORY × native Free Graph",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/297",
+      "head_branch": "experiment/cognition002-understory-freegraph-subconscious-20261111",
+      "base_branch": "experiment/cognition001-four-speed-contemplation-20261111"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 298,
+      "title": "COGNITION-003 — When old traces matter: native Understory activation and verified repair on unprompted change",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/298",
+      "head_branch": "experiment/cognition003-associative-resurfacing-20261111",
+      "base_branch": "experiment/cognition002-understory-freegraph-subconscious-20261111"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 299,
+      "title": "FIELD-010 (draft): shared editable visual board + parallel solver and contextual interaction tracks",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/299",
+      "head_branch": "experiment/field-010-shared-board-20261111",
+      "base_branch": "experiment/field-009-ratio-first-20261111"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 300,
+      "title": "COGNITION-004 — Unwritten Relation: structure-based analogies across unrelated domains",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/300",
+      "head_branch": "experiment/cognition004-unwritten-analogy-20261111",
+      "base_branch": "experiment/cognition003-associative-resurfacing-20261111"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 301,
+      "title": "COGNITION-005 — Hunt an actual failure gap: external NovelGym fire novelty and strong adaptive classical controls",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/301",
+      "head_branch": "experiment/cognition005-open-world-novelty-gap-20261111",
+      "base_branch": "experiment/cognition004-unwritten-analogy-20261111"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 302,
+      "title": "COGNITION-006 — Execute original NovelGym fire environment and Metric-FF without inventing a game",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/302",
+      "head_branch": "experiment/cognition006-novelgym-native-fire-20261112",
+      "base_branch": "experiment/cognition005-open-world-novelty-gap-20261111"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 303,
+      "title": "COGNITION-007 — Real independent NovelGym: 20 matched seeds, original planner before and after fire",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/303",
+      "head_branch": "experiment/cognition007-novelgym-20seed-external-gap-20261112",
+      "base_branch": "experiment/cognition006-novelgym-native-fire-20261112"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 304,
+      "title": "FIELD-011 (draft): sketch pixels autonomously populate editable shared board",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/304",
+      "head_branch": "experiment/field-011-autodraft-board-20261112",
+      "base_branch": "experiment/field-010-shared-board-20261111"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 305,
+      "title": "COGNITION-008 — Native NovelGym ten-attempt adaptive experiment, matched classical control",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/305",
+      "head_branch": "experiment/cognition008-native-adaptation-ten-attempts-20261112",
+      "base_branch": "experiment/cognition007-novelgym-20seed-external-gap-20261112"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 306,
+      "title": "COGNITION-009 — Freeze the successful original-world policy and test four unseen NovelGym novelties",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/306",
+      "head_branch": "experiment/cognition009-native-unseen-novelties-20261112",
+      "base_branch": "experiment/cognition008-native-adaptation-ten-attempts-20261112"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 307,
+      "title": "FIELD-012 (draft): source-bound photo object palette and editable hypothetical placement",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/307",
+      "head_branch": "experiment/field-012-object-aware-co-sketch-20261112",
+      "base_branch": "experiment/field-011-autodraft-board-20261112"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 308,
+      "title": "COGNITION-010 — LIVE Model Forge: no premature failure; reobserve, replan, resume, use all attempts",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/308",
+      "head_branch": "experiment/cognition010-live-adaptive-replanner-20261112",
+      "base_branch": "experiment/cognition009-native-unseen-novelties-20261112"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 309,
+      "title": "FIELD-013 (draft): zero-turn photo regions, guarded material hypotheses, and opt-in local semantic VLM batch",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/309",
+      "head_branch": "experiment/field-013-zero-turn-object-aperture-20261112",
+      "base_branch": "experiment/field-012-object-aware-co-sketch-20261112"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 310,
+      "title": "FIELD-014 (draft): reality has depth — source-scoped interactive 2D↔3D matter lab",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/310",
+      "head_branch": "experiment/field-014-reality-has-depth-20261112",
+      "base_branch": "experiment/field-013-zero-turn-object-aperture-20261112"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 311,
+      "title": "LLM-001 (draft): convergence gate — source-bound speculative reasoning and counterfactual prompt compiler",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/311",
+      "head_branch": "experiment/llm001-proof-carrying-branch-compiler-20261112",
+      "base_branch": "experiment/cognition010-live-adaptive-replanner-20261112"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 312,
+      "title": "FIELD-015 (draft): MapAnything + Depth Anything 3 witnesses meet material physics and structural HOLD",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/312",
+      "head_branch": "experiment/field-015-two-reconstructions-matter-20261112",
+      "base_branch": "experiment/field-014-reality-has-depth-20261112"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 313,
+      "title": "FIELD-016 (draft): constrained 3D material replanning, physics counterexamples and decision-changing measurements",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/313",
+      "head_branch": "experiment/field-016-revise-matter-20261112",
+      "base_branch": "experiment/field-015-two-reconstructions-matter-20261112"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 314,
+      "title": "LLM-002 (draft) FORKWEAVE — trainable graph-to-hidden control × real causal-attention shared-prefix forks",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/314",
+      "head_branch": "experiment/llm002-graph-conditioned-prefix-forks-20261112",
+      "base_branch": "experiment/llm001-proof-carrying-branch-compiler-20261112"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 315,
+      "title": "FIELD-017 (draft): bounded physical-criticism loop, source-safe revisions and editable 3D experiment ledger",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/315",
+      "head_branch": "experiment/field-017-loop-in-matter-20261112",
+      "base_branch": "experiment/field-016-revise-matter-20261112"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 316,
+      "title": "LLM-003 DRAFT — real pretrained Forkweave × independently verified Error Dividend and shortcut falsifiers",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/316",
+      "head_branch": "experiment/llm003-error-dividend-openweights-20261112",
+      "base_branch": "experiment/llm002-graph-conditioned-prefix-forks-20261112"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 317,
+      "title": "FIELD-018 (draft): actually test photo → spatial evidence → physical critique → revision chain, and expose blocked gates",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/317",
+      "head_branch": "experiment/field-018-chain-under-test-20261112",
+      "base_branch": "experiment/field-017-loop-in-matter-20261112"
+    },
+    {
+      "repository": "MOTIF",
+      "number": 318,
+      "title": "LLM-004 DRAFT — REASON HYPERMAP: immutable counterexample memory × actual Free Graph traversal",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/318",
+      "head_branch": "experiment/llm004-reason-hypermap-20261112",
+      "base_branch": "experiment/llm003-error-dividend-openweights-20261112"
+    },
+    {
+      "repository": "the-haunted-toaster",
+      "number": 364,
+      "title": "HUMKIN — Golden Yellow Blue: real-song six-up field runner (experimental)",
+      "url": "https://github.com/the-static-collective/the-haunted-toaster/pull/364",
+      "head_branch": "experiment/humkin-golden-yellow-blue-field-test",
+      "base_branch": "experiment/nextgen-toaster-026-correspondence-bench"
     }
   ],
   "left_open_prs": []

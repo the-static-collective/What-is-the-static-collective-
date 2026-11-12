@@ -15,12 +15,13 @@ Visual and audio-video instruments, pantry experiments, and older appliance bran
 
 [Repository](https://github.com/the-static-collective/the-haunted-toaster) · [Branches](https://github.com/the-static-collective/the-haunted-toaster/branches) · [Pull requests](https://github.com/the-static-collective/the-haunted-toaster/pulls)
 
-Default: `main` · other refs: 238 · open PRs: 80
+Default: `main` · other refs: 239 · open PRs: 81
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#364](https://github.com/the-static-collective/the-haunted-toaster/pull/364) | HUMKIN — Golden Yellow Blue: real-song six-up field runner (experimental) | `experiment/humkin-golden-yellow-blue-field-test` → `experiment/nextgen-toaster-026-correspondence-bench` | 2026-11-11 |
 | [#363](https://github.com/the-static-collective/the-haunted-toaster/pull/363) | GHOT-FIX-001 — native Witness Window normalizes foreign full-range video to limited yuv420p | `fix/foreign-video-limited-range-witness-001` → `main` | 2026-10-30 |
 | [#362](https://github.com/the-static-collective/the-haunted-toaster/pull/362) | MADDCL0WN 006: one kept JAR;VIS song → six real native Toaster movies → offline screening room | `experiment/maddclown-six-films-006` → `experiment/stranger-native-005` | 2026-10-29 |
 | [#361](https://github.com/the-static-collective/the-haunted-toaster/pull/361) | CROSSING-005 B: original JAR;VIS kept radio → original WAV → native Toaster six-up → separate KEEP → MP4 | `experiment/stranger-native-005` → `beta/reconcile-0.0.0` | 2026-10-29 |
@@ -212,6 +213,7 @@ Default: `main` · other refs: 238 · open PRs: 80
 | [docs/toaster-archaeology-ii-lost-organs](https://github.com/the-static-collective/the-haunted-toaster/tree/docs/toaster-archaeology-ii-lost-organs) | [ff6edf236a](https://github.com/the-static-collective/the-haunted-toaster/commit/ff6edf236a1b1ee4f391e67855bcc8c18935b956) | [open PR #281](https://github.com/the-static-collective/the-haunted-toaster/pull/281) |
 | [docs/topology-events-v0-1](https://github.com/the-static-collective/the-haunted-toaster/tree/docs/topology-events-v0-1) | [bec4a87702](https://github.com/the-static-collective/the-haunted-toaster/commit/bec4a87702876866f87d46bcf3bc6e77ebc4aa36) | Retained ref; disposition unverified |
 | [experiment/franken-tester-001](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/franken-tester-001) | [c52f1c26ca](https://github.com/the-static-collective/the-haunted-toaster/commit/c52f1c26ca80c8676449449abb5133cbcd1f5445) | [open PR #319](https://github.com/the-static-collective/the-haunted-toaster/pull/319) |
+| [experiment/humkin-golden-yellow-blue-field-test](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/humkin-golden-yellow-blue-field-test) | [0150edf715](https://github.com/the-static-collective/the-haunted-toaster/commit/0150edf715e7a32efe2b322cba8dbb01fb39d4f0) | [open PR #364](https://github.com/the-static-collective/the-haunted-toaster/pull/364) |
 | [experiment/listener-look-twice-001](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/listener-look-twice-001) | [2b28002614](https://github.com/the-static-collective/the-haunted-toaster/commit/2b28002614b119841ca7e639b9be72b0da22987c) | [open PR #317](https://github.com/the-static-collective/the-haunted-toaster/pull/317) |
 | [experiment/listener-onepass-001a](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/listener-onepass-001a) | [b0291b1eb8](https://github.com/the-static-collective/the-haunted-toaster/commit/b0291b1eb8d42b0d76e28a231f2c972400eb60cb) | [open PR #340](https://github.com/the-static-collective/the-haunted-toaster/pull/340) |
 | [experiment/listener-onepass-001b-play-surface](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/listener-onepass-001b-play-surface) | [4e7a546ef9](https://github.com/the-static-collective/the-haunted-toaster/commit/4e7a546ef932dc3a0afe9be4fdbec7a329f30f76) | [open PR #341](https://github.com/the-static-collective/the-haunted-toaster/pull/341) |

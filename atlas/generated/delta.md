@@ -9,17 +9,17 @@ snapshot and the newest changed snapshot. It does **not** interpret why a branch
 moved or disappeared, and a PR leaving the open set does not by itself prove
 whether it merged, closed, or became unavailable.
 
-From: **2026-11-10T15:35:24+00:00**  
-To: **2026-11-11T15:10:27+00:00**
+From: **2026-11-11T15:10:27+00:00**  
+To: **2026-11-12T15:58:30+00:00**
 
 | Observed event | Count |
 | --- | ---: |
 | Repositories added | 0 |
 | Repositories removed | 0 |
-| Branches added | 34 |
+| Branches added | 61 |
 | Branches removed | 0 |
-| Branch heads moved | 4 |
-| PRs entering open set | 35 |
+| Branch heads moved | 2 |
+| PRs entering open set | 61 |
 | PRs leaving open set | 0 |
 
 ## Repository set
@@ -28,82 +28,133 @@ No repository membership changes in this delta.
 
 ## Branch set and pointer movement
 
-* **+ branch** MOTIF / [experiment/confluence-004-impossibility-aperture-20261110](https://github.com/the-static-collective/MOTIF/tree/experiment/confluence-004-impossibility-aperture-20261110) → `13008a085b`
-* **+ branch** MOTIF / [experiment/field-005-relational-question-dividend-20261110](https://github.com/the-static-collective/MOTIF/tree/experiment/field-005-relational-question-dividend-20261110) → `4369ff9815`
-* **+ branch** MOTIF / [experiment/field-006-counterexample-proof-20261110](https://github.com/the-static-collective/MOTIF/tree/experiment/field-006-counterexample-proof-20261110) → `3fd015cfbf`
-* **+ branch** MOTIF / [experiment/field-007-independent-source-transfer-20261110](https://github.com/the-static-collective/MOTIF/tree/experiment/field-007-independent-source-transfer-20261110) → `27dacfb3c1`
-* **+ branch** MOTIF / [experiment/field-008-blanching-frontier-20261110](https://github.com/the-static-collective/MOTIF/tree/experiment/field-008-blanching-frontier-20261110) → `581ed7cbc2`
-* **+ branch** MOTIF / [experiment/fire001-cognitive-combustion](https://github.com/the-static-collective/MOTIF/tree/experiment/fire001-cognitive-combustion) → `fe1beecb75`
-* **+ branch** MOTIF / [experiment/fire002-productive-combustion](https://github.com/the-static-collective/MOTIF/tree/experiment/fire002-productive-combustion) → `88319d8314`
-* **+ branch** MOTIF / [experiment/fire003-epistemic-smoke-detector](https://github.com/the-static-collective/MOTIF/tree/experiment/fire003-epistemic-smoke-detector) → `302b3215a2`
-* **+ branch** MOTIF / [experiment/fire004-witness-of-flame](https://github.com/the-static-collective/MOTIF/tree/experiment/fire004-witness-of-flame) → `ae7436eb04`
-* **+ branch** MOTIF / [experiment/fire005-discernment-and-rollback](https://github.com/the-static-collective/MOTIF/tree/experiment/fire005-discernment-and-rollback) → `cf8bab3ff1`
-* **+ branch** MOTIF / [experiment/fire006-price-of-revision](https://github.com/the-static-collective/MOTIF/tree/experiment/fire006-price-of-revision) → `6c49be0295`
-* **+ branch** MOTIF / [experiment/genius006-discovery-dividend](https://github.com/the-static-collective/MOTIF/tree/experiment/genius006-discovery-dividend) → `c23a5adc76`
-* **+ branch** MOTIF / [experiment/genius007-question-foundry](https://github.com/the-static-collective/MOTIF/tree/experiment/genius007-question-foundry) → `9292675a28`
-* **+ branch** MOTIF / [experiment/genius008-strange-atlas](https://github.com/the-static-collective/MOTIF/tree/experiment/genius008-strange-atlas) → `9615772d27`
-* **+ branch** MOTIF / [experiment/genius009-two-clock-weave](https://github.com/the-static-collective/MOTIF/tree/experiment/genius009-two-clock-weave) → `cef86536ba`
-* **+ branch** MOTIF / [experiment/genius010-three-thread-convergence](https://github.com/the-static-collective/MOTIF/tree/experiment/genius010-three-thread-convergence) → `ad41ef5a8f`
-* **+ branch** MOTIF / [experiment/genius011-unsuspected-relation](https://github.com/the-static-collective/MOTIF/tree/experiment/genius011-unsuspected-relation) → `21edef16a0`
-* **+ branch** MOTIF / [experiment/meta-003-stateful-ranking-cegis](https://github.com/the-static-collective/MOTIF/tree/experiment/meta-003-stateful-ranking-cegis) → `c7a87847bd`
-* **+ branch** MOTIF / [experiment/meta-004-two-adic-ghost-nonlocal-rank](https://github.com/the-static-collective/MOTIF/tree/experiment/meta-004-two-adic-ghost-nonlocal-rank) → `d1cd35f1be`
-* **+ branch** MOTIF / [experiment/meta-005-symbolic-infinite-rank-collatz](https://github.com/the-static-collective/MOTIF/tree/experiment/meta-005-symbolic-infinite-rank-collatz) → `bbc47083c3`
-* **+ branch** MOTIF / [experiment/meta-006-branching-infinite-rank](https://github.com/the-static-collective/MOTIF/tree/experiment/meta-006-branching-infinite-rank) → `9fd5dadfc0`
-* **+ branch** MOTIF / [experiment/meta-007-weighted-branch-grammar-optimizer](https://github.com/the-static-collective/MOTIF/tree/experiment/meta-007-weighted-branch-grammar-optimizer) → `ab73166ef5`
-* **+ branch** MOTIF / [integration/confluence-001-coherent-field-20261110](https://github.com/the-static-collective/MOTIF/tree/integration/confluence-001-coherent-field-20261110) → `b5dc22f8bd`
-* **+ branch** MOTIF / [integration/confluence-002-native-weave-20261110](https://github.com/the-static-collective/MOTIF/tree/integration/confluence-002-native-weave-20261110) → `74fbc509c4`
-* **+ branch** MOTIF / [integration/confluence-003-unfamiliar-worlds-20261110](https://github.com/the-static-collective/MOTIF/tree/integration/confluence-003-unfamiliar-worlds-20261110) → `dd33592c05`
-* **+ branch** The-AutodiscoV.20.-question-marks- / [feature/humkin-radio-001](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/tree/feature/humkin-radio-001) → `4711eaf309`
-* **+ branch** tranchnode / [experiment/collective-008-aperture-experiment-selection](https://github.com/the-static-collective/tranchnode/tree/experiment/collective-008-aperture-experiment-selection) → `3d428e4262`
-* **+ branch** tranchnode / [experiment/collective-009-affordance-adaptive-research](https://github.com/the-static-collective/tranchnode/tree/experiment/collective-009-affordance-adaptive-research) → `31a9ce7a34`
-* **+ branch** tranchnode / [experiment/collective-010-calibration-claims-not-echoes](https://github.com/the-static-collective/tranchnode/tree/experiment/collective-010-calibration-claims-not-echoes) → `8996a76948`
-* **+ branch** tranchnode / [experiment/collective-011-presumed-delta](https://github.com/the-static-collective/tranchnode/tree/experiment/collective-011-presumed-delta) → `19e1d1596b`
-* **+ branch** tranchnode / [experiment/collective-012-shared-change-horizon](https://github.com/the-static-collective/tranchnode/tree/experiment/collective-012-shared-change-horizon) → `6581c11026`
-* **+ branch** tranchnode / [experiment/collective-013-temporal-trajectories](https://github.com/the-static-collective/tranchnode/tree/experiment/collective-013-temporal-trajectories) → `172af8809e`
-* **+ branch** tranchnode / [experiment/collective-014-trajectories-of-trajectories](https://github.com/the-static-collective/tranchnode/tree/experiment/collective-014-trajectories-of-trajectories) → `e331e06fbc`
-* **+ branch** tranchnode / [experiment/collective-015-weak-signal-aperture](https://github.com/the-static-collective/tranchnode/tree/experiment/collective-015-weak-signal-aperture) → `38e9d665d5`
-* **↪ head** JAR-VIS / main: [ed4fae2760](https://github.com/the-static-collective/JAR-VIS/commit/ed4fae2760746796461de2be0917f422472ea820) → [8ff15f7482](https://github.com/the-static-collective/JAR-VIS/commit/8ff15f7482a920f48f325e71305ffa526a1eb03d)
-* **↪ head** MOTIF / experiment/genius005-evidence-before-revision: [239f02a932](https://github.com/the-static-collective/MOTIF/commit/239f02a932678f711f37651f6425b8f797466463) → [4f03217bcd](https://github.com/the-static-collective/MOTIF/commit/4f03217bcd8c3f513482d264ccffacbf9c1b38eb)
-* **↪ head** MOTIF / experiment/meta-002-variable-horizon-ranking-falsifiers: [649f5535d0](https://github.com/the-static-collective/MOTIF/commit/649f5535d0076152b53eb48c433a7f45bdfdf8dd) → [d11bc27f00](https://github.com/the-static-collective/MOTIF/commit/d11bc27f0016e16e853282b06e187dfb3975c658)
-* **↪ head** What-is-the-static-collective- / main: [0fdd3d04df](https://github.com/the-static-collective/What-is-the-static-collective-/commit/0fdd3d04df36c9e63ba726bd22a092b033be6a71) → [3afb0ede47](https://github.com/the-static-collective/What-is-the-static-collective-/commit/3afb0ede4766a990686243d283a3a7064cc049d7)
+* **+ branch** GRAFT / [graft/capability-lab-017-unwritten-method](https://github.com/the-static-collective/GRAFT/tree/graft/capability-lab-017-unwritten-method) → `45779e412b`
+* **+ branch** GRAFT / [graft/capability-laboratory-016](https://github.com/the-static-collective/GRAFT/tree/graft/capability-laboratory-016) → `ff4377453c`
+* **+ branch** GRAFT / [graft/jubilee-capability-nursery-015](https://github.com/the-static-collective/GRAFT/tree/graft/jubilee-capability-nursery-015) → `94a49c4e28`
+* **+ branch** JAR-VIS / [integration/motif-org001-local-hold-20261111](https://github.com/the-static-collective/JAR-VIS/tree/integration/motif-org001-local-hold-20261111) → `883e092d2a`
+* **+ branch** JAR-VIS / [integration/motif-org002-impasse-20261111](https://github.com/the-static-collective/JAR-VIS/tree/integration/motif-org002-impasse-20261111) → `a190b85660`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-001-fragmented-cents](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-001-fragmented-cents) → `84db8c5747`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-002-living-reserve](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-002-living-reserve) → `49de70d898`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-003-steward-banks-network-weaving](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-003-steward-banks-network-weaving) → `474aefcf99`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-004-rare-coin-frontier](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-004-rare-coin-frontier) → `e9ca5d7fdd`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-005-discovery-market-motif](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-005-discovery-market-motif) → `67fa73875c`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-006-worth-to-whom](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-006-worth-to-whom) → `3c3c9b7dd2`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-007-mutual-surplus-liquidity](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-007-mutual-surplus-liquidity) → `8ee03d5d2b`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-008-angel-replenishment](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-008-angel-replenishment) → `86dada899a`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-009-anchor-commitment](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-009-anchor-commitment) → `8cbf3b655e`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-010-who-knows-whom](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-010-who-knows-whom) → `5e304f4f19`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-011-contextual-consent-weave](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-011-contextual-consent-weave) → `9951a86676`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-012-ask-the-next-question](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-012-ask-the-next-question) → `a018dfe289`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-013-network-question-frontier](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-013-network-question-frontier) → `7bbcbce977`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-014-agreement-invention](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-014-agreement-invention) → `b54971c77c`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-015-capability-construction](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-015-capability-construction) → `51989f5fa1`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-016-capability-laboratory](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-016-capability-laboratory) → `5ab353eb6c`
+* **+ branch** Jubilee-treasury / [experiment/penny-puddle-017-unwritten-method](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-017-unwritten-method) → `53a03e6734`
+* **+ branch** MOTIF / [experiment/cognition001-four-speed-contemplation-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/cognition001-four-speed-contemplation-20261111) → `b8204d5107`
+* **+ branch** MOTIF / [experiment/cognition002-understory-freegraph-subconscious-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/cognition002-understory-freegraph-subconscious-20261111) → `51b2d137dd`
+* **+ branch** MOTIF / [experiment/cognition003-associative-resurfacing-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/cognition003-associative-resurfacing-20261111) → `ef805fb333`
+* **+ branch** MOTIF / [experiment/cognition004-unwritten-analogy-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/cognition004-unwritten-analogy-20261111) → `5436ea708f`
+* **+ branch** MOTIF / [experiment/cognition005-open-world-novelty-gap-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/cognition005-open-world-novelty-gap-20261111) → `6842ad4da2`
+* **+ branch** MOTIF / [experiment/cognition006-novelgym-native-fire-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/cognition006-novelgym-native-fire-20261112) → `c6b04b2ff2`
+* **+ branch** MOTIF / [experiment/cognition007-novelgym-20seed-external-gap-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/cognition007-novelgym-20seed-external-gap-20261112) → `8f3e532c76`
+* **+ branch** MOTIF / [experiment/cognition008-native-adaptation-ten-attempts-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/cognition008-native-adaptation-ten-attempts-20261112) → `76f797e920`
+* **+ branch** MOTIF / [experiment/cognition009-native-unseen-novelties-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/cognition009-native-unseen-novelties-20261112) → `a744bb942f`
+* **+ branch** MOTIF / [experiment/cognition010-live-adaptive-replanner-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/cognition010-live-adaptive-replanner-20261112) → `143ad57170`
+* **+ branch** MOTIF / [experiment/field-004-unsaid-move-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/field-004-unsaid-move-20261111) → `01f64b77e4`
+* **+ branch** MOTIF / [experiment/field-005-visual-thought-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/field-005-visual-thought-20261111) → `5da2382570`
+* **+ branch** MOTIF / [experiment/field-006-sketch-is-evidence-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/field-006-sketch-is-evidence-20261111) → `b61bf8b587`
+* **+ branch** MOTIF / [experiment/field-007-ink-before-intent-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/field-007-ink-before-intent-20261111) → `99b109bc12`
+* **+ branch** MOTIF / [experiment/field-008-two-eyes-one-source-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/field-008-two-eyes-one-source-20261111) → `52a6f6ee92`
+* **+ branch** MOTIF / [experiment/field-009-ratio-first-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/field-009-ratio-first-20261111) → `d878d86054`
+* **+ branch** MOTIF / [experiment/field-010-shared-board-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/field-010-shared-board-20261111) → `401e84ecfd`
+* **+ branch** MOTIF / [experiment/field-011-autodraft-board-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/field-011-autodraft-board-20261112) → `49c9493ae6`
+* **+ branch** MOTIF / [experiment/field-012-object-aware-co-sketch-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/field-012-object-aware-co-sketch-20261112) → `af168b9a74`
+* **+ branch** MOTIF / [experiment/field-013-zero-turn-object-aperture-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/field-013-zero-turn-object-aperture-20261112) → `edc7c7c558`
+* **+ branch** MOTIF / [experiment/field-014-reality-has-depth-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/field-014-reality-has-depth-20261112) → `5f1f0ddca3`
+* **+ branch** MOTIF / [experiment/field-015-two-reconstructions-matter-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/field-015-two-reconstructions-matter-20261112) → `0e49f22249`
+* **+ branch** MOTIF / [experiment/field-016-revise-matter-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/field-016-revise-matter-20261112) → `f5a53a80b2`
+* **+ branch** MOTIF / [experiment/field-017-loop-in-matter-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/field-017-loop-in-matter-20261112) → `b8f3cfb832`
+* **+ branch** MOTIF / [experiment/field-018-chain-under-test-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/field-018-chain-under-test-20261112) → `a6cd06028c`
+* **+ branch** MOTIF / [experiment/llm001-proof-carrying-branch-compiler-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/llm001-proof-carrying-branch-compiler-20261112) → `cd8b951f5c`
+* **+ branch** MOTIF / [experiment/llm002-graph-conditioned-prefix-forks-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/llm002-graph-conditioned-prefix-forks-20261112) → `511e7d6025`
+* **+ branch** MOTIF / [experiment/llm003-error-dividend-openweights-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/llm003-error-dividend-openweights-20261112) → `760d65fe17`
+* **+ branch** MOTIF / [experiment/llm004-reason-hypermap-20261112](https://github.com/the-static-collective/MOTIF/tree/experiment/llm004-reason-hypermap-20261112) → `1a5e9f0d3b`
+* **+ branch** MOTIF / [experiment/org001-throughput-of-help-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/org001-throughput-of-help-20261111) → `6affa0cabf`
+* **+ branch** MOTIF / [experiment/org002-institutional-impasse-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/org002-institutional-impasse-20261111) → `f05c8374fc`
+* **+ branch** MOTIF / [experiment/three-bet-reframe-trial-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/three-bet-reframe-trial-20261111) → `4233b82f36`
+* **+ branch** MOTIF / [experiment/void001-missing-middle-seed-mesh-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/void001-missing-middle-seed-mesh-20261111) → `72143e6462`
+* **+ branch** MOTIF / [experiment/void002-crafter-natural-frontier-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/void002-crafter-natural-frontier-20261111) → `39a1982b84`
+* **+ branch** MOTIF / [experiment/void003-two-run-memory-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/void003-two-run-memory-20261111) → `f7687b4f90`
+* **+ branch** MOTIF / [experiment/void004-retry-wave-fortress-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/void004-retry-wave-fortress-20261111) → `72688fc486`
+* **+ branch** MOTIF / [experiment/void005-learning-adversary-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/void005-learning-adversary-20261111) → `56f6134ab6`
+* **+ branch** MOTIF / [experiment/void006-procedural-muscle-memory-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/void006-procedural-muscle-memory-20261111) → `1ed9adfbf9`
+* **+ branch** the-haunted-toaster / [experiment/humkin-golden-yellow-blue-field-test](https://github.com/the-static-collective/the-haunted-toaster/tree/experiment/humkin-golden-yellow-blue-field-test) → `0150edf715`
+* **↪ head** JAR-VIS / main: [8ff15f7482](https://github.com/the-static-collective/JAR-VIS/commit/8ff15f7482a920f48f325e71305ffa526a1eb03d) → [d076995e7d](https://github.com/the-static-collective/JAR-VIS/commit/d076995e7d7c3a36267e2df8b3a392cdcfd6ad6d)
+* **↪ head** What-is-the-static-collective- / main: [3afb0ede47](https://github.com/the-static-collective/What-is-the-static-collective-/commit/3afb0ede4766a990686243d283a3a7064cc049d7) → [09c513a022](https://github.com/the-static-collective/What-is-the-static-collective-/commit/09c513a022a2d1de2f2f02e6a31145587b8fd1df)
 
 ## Open pull-request set
 
-* **+ open PR** [MOTIF #255 — META-002 — adaptive variable-time Collatz residue certificates and universal finite-state rank obstructions](https://github.com/the-static-collective/MOTIF/pull/255)
-* **+ open PR** [MOTIF #256 — GENIUS-006: Discovery Dividend — proof-carrying question chains vs information gain](https://github.com/the-static-collective/MOTIF/pull/256)
-* **+ open PR** [MOTIF #257 — META-003 — nonlinear rank CEGIS, 2-adic adversarial parity and proof-carrying stateful refinement](https://github.com/the-static-collective/MOTIF/pull/257)
-* **+ open PR** [MOTIF #258 — FIELD-005 — relational question dividend vs classical active learning (frozen audit, honest HOLD)](https://github.com/the-static-collective/MOTIF/pull/258)
-* **+ open PR** [MOTIF #259 — META-004 — distinguish 2-adic ghost paths from positive Collatz orbits; exact nonlocal finite-basin ranking](https://github.com/the-static-collective/MOTIF/pull/259)
-* **+ open PR** [MOTIF #260 — GENIUS-007: Question Foundry — invent typed intermediate probes and verify downstream value](https://github.com/the-static-collective/MOTIF/pull/260)
-* **+ open PR** [MOTIF #261 — FIELD-006 — Target counterexamples, preserve alternatives, and challenge classical active learning](https://github.com/the-static-collective/MOTIF/pull/261)
-* **+ open PR** [MOTIF #262 — FIELD-007 — Frozen independent-source transfer tests, counterexamples and classical losses](https://github.com/the-static-collective/MOTIF/pull/262)
-* **+ open PR** [MOTIF #263 — META-005 — construct explicit INFINITE positive Collatz family with symbolic well-founded rank and rigorous limits](https://github.com/the-static-collective/MOTIF/pull/263)
-* **+ open PR** [MOTIF #264 — GENIUS-008: Strange Genius Atlas — Enoch, Jesus, Oppenheimer, comedy, rhythm and epistemic craft](https://github.com/the-static-collective/MOTIF/pull/264)
-* **+ open PR** [MOTIF #265 — META-006 — recursive modular inverse grammar yields a provably faster-growing infinite positive Collatz rank family](https://github.com/the-static-collective/MOTIF/pull/265)
-* **+ open PR** [MOTIF #266 — GENIUS-009: Two-Clock Weave — Enochic witnesses × Nolan chronology × Acaster callbacks](https://github.com/the-static-collective/MOTIF/pull/266)
-* **+ open PR** [MOTIF #267 — FIELD-008: BLANCHING FRONTIER — evidence-rooted provisional worlds and deep verification hinges](https://github.com/the-static-collective/MOTIF/pull/267)
-* **+ open PR** [MOTIF #268 — META-007 — break the frame with a proof-certified weighted inverse-language grammar optimizer](https://github.com/the-static-collective/MOTIF/pull/268)
-* **+ open PR** [MOTIF #269 — GENIUS-010: Three-Thread Convergence — can independent mysteries meet without forced coincidence?](https://github.com/the-static-collective/MOTIF/pull/269)
-* **+ open PR** [MOTIF #270 — CONFLUENCE-001: coherent field — proof-bound multi-world inquiry + real MOTIF-003 adapter](https://github.com/the-static-collective/MOTIF/pull/270)
-* **+ open PR** [MOTIF #271 — CONFLUENCE-002: execute original 003 + 006 + FIELD-008 lineage + COLLECTIVE proof reentry](https://github.com/the-static-collective/MOTIF/pull/271)
-* **+ open PR** [MOTIF #272 — GENIUS-011: The Unsuspected Relation — generate novel structural bridge questions, then try to falsify them](https://github.com/the-static-collective/MOTIF/pull/272)
-* **+ open PR** [MOTIF #273 — CONFLUENCE-003: real external pathfinding data × four native methods × strong classical ablations](https://github.com/the-static-collective/MOTIF/pull/273)
-* **+ open PR** [MOTIF #274 — CONFLUENCE-004: The Second Door — scoped impossibility, authorized new affordances, exact classical checks](https://github.com/the-static-collective/MOTIF/pull/274)
-* **+ open PR** [MOTIF #275 — FIRE-001 — Cognitive Combustion: fuel × oxygen × heat inquiry governor, tested against classical schedulers](https://github.com/the-static-collective/MOTIF/pull/275)
-* **+ open PR** [MOTIF #276 — FIRE-002: Productive Combustion — verification-yield governor, online-learning ablation, drift and correlated-source falsifiers](https://github.com/the-static-collective/MOTIF/pull/276)
-* **+ open PR** [MOTIF #277 — FIRE-003 — Epistemic Smoke Detector: independent-source lineage, proof-only learning and adversarial auditor falsifiers](https://github.com/the-static-collective/MOTIF/pull/277)
-* **+ open PR** [MOTIF #278 — FIRE-004 — The Witness of the Flame: prequential self-auditing vs Bayesian HMM and classical Hedge controls](https://github.com/the-static-collective/MOTIF/pull/278)
-* **+ open PR** [MOTIF #279 — FIRE-005: The Discernment Frontier — Bayesian changepoints, reversible method edits, strong online-mixture falsifiers](https://github.com/the-static-collective/MOTIF/pull/279)
-* **+ open PR** [MOTIF #280 — FIRE-006 — The Price of Revision: multi-hypothesis portfolios, evidence-priced edits, verified rollback and strong classical controls](https://github.com/the-static-collective/MOTIF/pull/280)
-* **+ open PR** [The-AutodiscoV.20.-question-marks- #9 — HUMKIN RADIO 001 — public mood dial + fictional transmissions on Auto Disco V20](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/pull/9)
-* **+ open PR** [tranchnode #85 — COLLECTIVE-008 — Aperture Dividend: choose counterfactual experiments across What-If threads](https://github.com/the-static-collective/tranchnode/pull/85)
-* **+ open PR** [tranchnode #86 — COLLECTIVE-009 — Discovery Dividend: cost-aware two-step What-If strategy with evidence-triggered pivots](https://github.com/the-static-collective/tranchnode/pull/86)
-* **+ open PR** [tranchnode #87 — COLLECTIVE-010 — Calibration Crucible: learn from reference-linked outcomes, not echoed agreement](https://github.com/the-static-collective/tranchnode/pull/87)
-* **+ open PR** [tranchnode #88 — COLLECTIVE-011 — The Presumed Delta: time-aware change hazard and evidence rechecks](https://github.com/the-static-collective/tranchnode/pull/88)
-* **+ open PR** [tranchnode #89 — COLLECTIVE-012 — Shared-Change Horizon: propagate recheck uncertainty without asserting correlated changes](https://github.com/the-static-collective/tranchnode/pull/89)
-* **+ open PR** [tranchnode #90 — COLLECTIVE-013 — Temporal Trajectories: learn provisional sequences of reported change](https://github.com/the-static-collective/tranchnode/pull/90)
-* **+ open PR** [tranchnode #91 — COLLECTIVE-014 — Trajectories of trajectories: market-inspired change regime forecasting](https://github.com/the-static-collective/tranchnode/pull/91)
-* **+ open PR** [tranchnode #92 — COLLECTIVE-015 — Weak-Signal Aperture: multi-relation early warning with chronological falsifiers](https://github.com/the-static-collective/tranchnode/pull/92)
+* **+ open PR** [GRAFT #28 — GRAFT CAPABILITY-NURSERY-015 — build and return a verified local method to Jubilee](https://github.com/the-static-collective/GRAFT/pull/28)
+* **+ open PR** [GRAFT #29 — GRAFT × MOTIF-010 CAPABILITY LAB-016 — contest three real methods, select tests, return verified options](https://github.com/the-static-collective/GRAFT/pull/29)
+* **+ open PR** [GRAFT #30 — GRAFT × native MOTIF-003 CAPABILITY-017 — generate the unwritten typed method and learn from counterexamples](https://github.com/the-static-collective/GRAFT/pull/30)
+* **+ open PR** [JAR-VIS #73 — ORG-001 × JAR;VIS — manual local HOLD receiver for MOTIF organizational delay cards](https://github.com/the-static-collective/JAR-VIS/pull/73)
+* **+ open PR** [JAR-VIS #74 — ORG-002 × JAR;VIS — HOLD-only reception of institutional-shock scenarios](https://github.com/the-static-collective/JAR-VIS/pull/74)
+* **+ open PR** [Jubilee-treasury #27 — PENNY × PUDDLE-001 — make fragmented cents legible without claiming payment powers](https://github.com/the-static-collective/Jubilee-treasury/pull/27)
+* **+ open PR** [Jubilee-treasury #28 — PENNY × PUDDLE-002 — living one-cent reserves, sponsored likes and conditional campaigns](https://github.com/the-static-collective/Jubilee-treasury/pull/28)
+* **+ open PR** [Jubilee-treasury #29 — PENNY × PUDDLE-003 — proof-of-custody penny banks and constrained network weaving](https://github.com/the-static-collective/Jubilee-treasury/pull/29)
+* **+ open PR** [Jubilee-treasury #30 — PENNY × PUDDLE-004 — rare-coin discovery, owner-controlled collector premium and safer value weaving](https://github.com/the-static-collective/Jubilee-treasury/pull/30)
+* **+ open PR** [Jubilee-treasury #31 — PENNY × PUDDLE-005 — collector-demand graph and MOTIF-style discovery vs classical controls](https://github.com/the-static-collective/Jubilee-treasury/pull/31)
+* **+ open PR** [Jubilee-treasury #32 — PENNY × PUDDLE-006 — Worth to Whom? Direct raw-coin exchange through mutual meaning](https://github.com/the-static-collective/Jubilee-treasury/pull/32)
+* **+ open PR** [Jubilee-treasury #33 — Jubilee Treasury × PENNY × PUDDLE-007 — DEALWEAVER mutual surplus and large-asset liquidity without usury](https://github.com/the-static-collective/Jubilee-treasury/pull/33)
+* **+ open PR** [Jubilee-treasury #34 — PENNY × PUDDLE-008 — Angel Circle: pay urgent need now, optionally replenish and recycle](https://github.com/the-static-collective/Jubilee-treasury/pull/34)
+* **+ open PR** [Jubilee-treasury #35 — Jubilee ANCHOR-009 — make an illiquid gold-sized asset useful without selling or moving it](https://github.com/the-static-collective/Jubilee-treasury/pull/35)
+* **+ open PR** [Jubilee-treasury #36 — Jubilee RELAY-010 — who you know, how you know them: consented relationship paths to good deals](https://github.com/the-static-collective/Jubilee-treasury/pull/36)
+* **+ open PR** [Jubilee-treasury #37 — Jubilee RELAY-011 — Ask first: contextual consent and cooperative agreement design](https://github.com/the-static-collective/Jubilee-treasury/pull/37)
+* **+ open PR** [Jubilee-treasury #38 — Jubilee QUESTION-012 — MOTIF asks the next useful question with two-step consent-aware decision value](https://github.com/the-static-collective/Jubilee-treasury/pull/38)
+* **+ open PR** [Jubilee-treasury #39 — Jubilee QUESTION-013 — network investigator: ask the right person first across a consented chain](https://github.com/the-static-collective/Jubilee-treasury/pull/39)
+* **+ open PR** [Jubilee-treasury #40 — Jubilee CONCORD-014 — synthesize new agreements from answers instead of evaluating prelisted chains](https://github.com/the-static-collective/Jubilee-treasury/pull/40)
+* **+ open PR** [Jubilee-treasury #41 — Jubilee CAPABILITY-015 — detect a missing verb and verify GRAFT built it before adding a new deal path](https://github.com/the-static-collective/Jubilee-treasury/pull/41)
+* **+ open PR** [Jubilee-treasury #42 — Jubilee CAPABILITY-016 — independently test competing GRAFT methods and choose resource-aware passing techniques](https://github.com/the-static-collective/Jubilee-treasury/pull/42)
+* **+ open PR** [Jubilee-treasury #43 — Jubilee CAPABILITY-017 — independently verify generated typed method against final-only cases](https://github.com/the-static-collective/Jubilee-treasury/pull/43)
+* **+ open PR** [MOTIF #281 — VOID-001: Missing Middle — external research feed + proof-bound question-to-outcome mesh](https://github.com/the-static-collective/MOTIF/pull/281)
+* **+ open PR** [MOTIF #282 — ORG-001 — The Waiting Room: outcome-first organizational lag diagnosis with HOLD-only crosswise cards](https://github.com/the-static-collective/MOTIF/pull/282)
+* **+ open PR** [MOTIF #283 — VOID-002: natural Crafter opportunity-discovery test — native MOTIF-003 vs strong two-ply classical frontier](https://github.com/the-static-collective/MOTIF/pull/283)
+* **+ open PR** [MOTIF #284 — FIELD-004 (draft): autonomous reframe from sparse visual evidence — discover the unsaid move](https://github.com/the-static-collective/MOTIF/pull/284)
+* **+ open PR** [MOTIF #285 — FIELD-005 (draft): visual scratchpad, local multimodal aperture, cross-domain unsaid moves](https://github.com/the-static-collective/MOTIF/pull/285)
+* **+ open PR** [MOTIF #286 — Run all three MOTIF reframe bets in one pilot](https://github.com/the-static-collective/MOTIF/pull/286)
+* **+ open PR** [MOTIF #287 — ORG-002 — The Impasse Frontier: shutdown-informed institutional resilience and lawful alternate routes](https://github.com/the-static-collective/MOTIF/pull/287)
+* **+ open PR** [MOTIF #288 — FIELD-006 (draft): sketch-is-evidence atlas, photo witnesses, model-trace review and information-retention tests](https://github.com/the-static-collective/MOTIF/pull/288)
+* **+ open PR** [MOTIF #289 — VOID-003 — The Memory Dividend: does exploration pay when MOTIF knows there is another run?](https://github.com/the-static-collective/MOTIF/pull/289)
+* **+ open PR** [MOTIF #290 — FIELD-007 (draft): automatically detect dotted sketch ink, critique solid lines, and HOLD photo registration](https://github.com/the-static-collective/MOTIF/pull/290)
+* **+ open PR** [MOTIF #291 — VOID-004 — Ten-Try Fortress: 24 waves, bounded retries, remembered discoveries and equal-information classical control](https://github.com/the-static-collective/MOTIF/pull/291)
+* **+ open PR** [MOTIF #292 — VOID-005 — Learning Adversary: change-aware 24-wave retries, fallible relays, native MOTIF vs classical VOI](https://github.com/the-static-collective/MOTIF/pull/292)
+* **+ open PR** [MOTIF #293 — FIELD-008 (draft): visual language eye + independent pixel critic + targeted second-look crop](https://github.com/the-static-collective/MOTIF/pull/293)
+* **+ open PR** [MOTIF #294 — VOID-006 — Reflex Forge: source-verified procedural memory, guardable action chunks and sparse-change falsifiers](https://github.com/the-static-collective/MOTIF/pull/294)
+* **+ open PR** [MOTIF #295 — FIELD-009 (draft): ratio-first visual reasoning, one-reference calibration and perspective HOLD](https://github.com/the-static-collective/MOTIF/pull/295)
+* **+ open PR** [MOTIF #296 — COGNITION-001 — Four-Speed Mind: reflex, deliberation, reflection and GHoT-gated contemplation](https://github.com/the-static-collective/MOTIF/pull/296)
+* **+ open PR** [MOTIF #297 — COGNITION-002 — Subconscious Crossroads: MOTIF contemplation × private UNDERSTORY × native Free Graph](https://github.com/the-static-collective/MOTIF/pull/297)
+* **+ open PR** [MOTIF #298 — COGNITION-003 — When old traces matter: native Understory activation and verified repair on unprompted change](https://github.com/the-static-collective/MOTIF/pull/298)
+* **+ open PR** [MOTIF #299 — FIELD-010 (draft): shared editable visual board + parallel solver and contextual interaction tracks](https://github.com/the-static-collective/MOTIF/pull/299)
+* **+ open PR** [MOTIF #300 — COGNITION-004 — Unwritten Relation: structure-based analogies across unrelated domains](https://github.com/the-static-collective/MOTIF/pull/300)
+* **+ open PR** [MOTIF #301 — COGNITION-005 — Hunt an actual failure gap: external NovelGym fire novelty and strong adaptive classical controls](https://github.com/the-static-collective/MOTIF/pull/301)
+* **+ open PR** [MOTIF #302 — COGNITION-006 — Execute original NovelGym fire environment and Metric-FF without inventing a game](https://github.com/the-static-collective/MOTIF/pull/302)
+* **+ open PR** [MOTIF #303 — COGNITION-007 — Real independent NovelGym: 20 matched seeds, original planner before and after fire](https://github.com/the-static-collective/MOTIF/pull/303)
+* **+ open PR** [MOTIF #304 — FIELD-011 (draft): sketch pixels autonomously populate editable shared board](https://github.com/the-static-collective/MOTIF/pull/304)
+* **+ open PR** [MOTIF #305 — COGNITION-008 — Native NovelGym ten-attempt adaptive experiment, matched classical control](https://github.com/the-static-collective/MOTIF/pull/305)
+* **+ open PR** [MOTIF #306 — COGNITION-009 — Freeze the successful original-world policy and test four unseen NovelGym novelties](https://github.com/the-static-collective/MOTIF/pull/306)
+* **+ open PR** [MOTIF #307 — FIELD-012 (draft): source-bound photo object palette and editable hypothetical placement](https://github.com/the-static-collective/MOTIF/pull/307)
+* **+ open PR** [MOTIF #308 — COGNITION-010 — LIVE Model Forge: no premature failure; reobserve, replan, resume, use all attempts](https://github.com/the-static-collective/MOTIF/pull/308)
+* **+ open PR** [MOTIF #309 — FIELD-013 (draft): zero-turn photo regions, guarded material hypotheses, and opt-in local semantic VLM batch](https://github.com/the-static-collective/MOTIF/pull/309)
+* **+ open PR** [MOTIF #310 — FIELD-014 (draft): reality has depth — source-scoped interactive 2D↔3D matter lab](https://github.com/the-static-collective/MOTIF/pull/310)
+* **+ open PR** [MOTIF #311 — LLM-001 (draft): convergence gate — source-bound speculative reasoning and counterfactual prompt compiler](https://github.com/the-static-collective/MOTIF/pull/311)
+* **+ open PR** [MOTIF #312 — FIELD-015 (draft): MapAnything + Depth Anything 3 witnesses meet material physics and structural HOLD](https://github.com/the-static-collective/MOTIF/pull/312)
+* **+ open PR** [MOTIF #313 — FIELD-016 (draft): constrained 3D material replanning, physics counterexamples and decision-changing measurements](https://github.com/the-static-collective/MOTIF/pull/313)
+* **+ open PR** [MOTIF #314 — LLM-002 (draft) FORKWEAVE — trainable graph-to-hidden control × real causal-attention shared-prefix forks](https://github.com/the-static-collective/MOTIF/pull/314)
+* **+ open PR** [MOTIF #315 — FIELD-017 (draft): bounded physical-criticism loop, source-safe revisions and editable 3D experiment ledger](https://github.com/the-static-collective/MOTIF/pull/315)
+* **+ open PR** [MOTIF #316 — LLM-003 DRAFT — real pretrained Forkweave × independently verified Error Dividend and shortcut falsifiers](https://github.com/the-static-collective/MOTIF/pull/316)
+* **+ open PR** [MOTIF #317 — FIELD-018 (draft): actually test photo → spatial evidence → physical critique → revision chain, and expose blocked gates](https://github.com/the-static-collective/MOTIF/pull/317)
+* **+ open PR** [MOTIF #318 — LLM-004 DRAFT — REASON HYPERMAP: immutable counterexample memory × actual Free Graph traversal](https://github.com/the-static-collective/MOTIF/pull/318)
+* **+ open PR** [the-haunted-toaster #364 — HUMKIN — Golden Yellow Blue: real-song six-up field runner (experimental)](https://github.com/the-static-collective/the-haunted-toaster/pull/364)
 
 The machine-readable companion is [delta.json](delta.json).
 For current status, follow the project source; DELTA is a witness of movement,
