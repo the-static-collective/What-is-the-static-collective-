@@ -4,7 +4,7 @@ description: "Dated, source-linked public Git inventory for the Static Collectiv
 
 # Public Git inventory
 
-Captured: **2026-11-12T15:58:30+00:00** · **90 public repositories** · **2924 branch refs** (including defaults) · **1691 open PRs**.
+Captured: **2026-11-13T15:23:12+00:00** · **91 public repositories** · **2965 branch refs** (including defaults) · **1713 open PRs**.
 
 [Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
 
@@ -25,7 +25,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [Images and appliances](images-and-appliances.md) | 10 | 353 | 155 |
 | [Worlds and inquiry](worlds-and-inquiry.md) | 6 | 134 | 52 |
 | [Operating surfaces](operating-surfaces.md) | 5 | 187 | 137 |
-| [Unplaced public repositories](unplaced.md) | 25 | 1370 | 1088 |
+| [Unplaced public repositories](unplaced.md) | 26 | 1411 | 1110 |
 
 ## All public repositories
 
@@ -56,21 +56,22 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [full-measure-world-layer](https://github.com/the-static-collective/full-measure-world-layer) | [Participation and care](participation-and-care.md) | 35 | 18 |
 | [GHoT](https://github.com/the-static-collective/GHoT) | [Unplaced public repositories](unplaced.md) | 132 | 124 |
 | [GOATnote](https://github.com/the-static-collective/GOATnote) | [Origins and witnesses](origins-and-witnesses.md) | 13 | 12 |
-| [GRAFT](https://github.com/the-static-collective/GRAFT) | [Unplaced public repositories](unplaced.md) | 48 | 27 |
+| [GRAFT](https://github.com/the-static-collective/GRAFT) | [Unplaced public repositories](unplaced.md) | 53 | 32 |
 | [GrO](https://github.com/the-static-collective/GrO) | [Unplaced public repositories](unplaced.md) | 32 | 15 |
 | [Human-Witness](https://github.com/the-static-collective/Human-Witness) | [Origins and witnesses](origins-and-witnesses.md) | 4 | 2 |
+| [HUMKIN](https://github.com/the-static-collective/HUMKIN) | [Unplaced public repositories](unplaced.md) | 17 | 2 |
 | [iron-lung](https://github.com/the-static-collective/iron-lung) | [Images and appliances](images-and-appliances.md) | 23 | 7 |
-| [JAR-VIS](https://github.com/the-static-collective/JAR-VIS) | [Unplaced public repositories](unplaced.md) | 74 | 42 |
+| [JAR-VIS](https://github.com/the-static-collective/JAR-VIS) | [Unplaced public repositories](unplaced.md) | 77 | 45 |
 | [jubilee-authority-kit](https://github.com/the-static-collective/jubilee-authority-kit) | [Contracts and memory](contracts-and-memory.md) | 4 | 0 |
 | [Jubilee-Campfire](https://github.com/the-static-collective/Jubilee-Campfire) | [Participation and care](participation-and-care.md) | 0 | 0 |
 | [Jubilee-Engine-VM](https://github.com/the-static-collective/Jubilee-Engine-VM) | [Participation and care](participation-and-care.md) | 8 | 2 |
-| [Jubilee-treasury](https://github.com/the-static-collective/Jubilee-treasury) | [Unplaced public repositories](unplaced.md) | 38 | 38 |
+| [Jubilee-treasury](https://github.com/the-static-collective/Jubilee-treasury) | [Unplaced public repositories](unplaced.md) | 42 | 42 |
 | [jublEchat](https://github.com/the-static-collective/jublEchat) | [Songs and stages](songs-and-stages.md) | 4 | 0 |
 | [LampPost](https://github.com/the-static-collective/LampPost) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [lemonPRESS](https://github.com/the-static-collective/lemonPRESS) | [Unplaced public repositories](unplaced.md) | 72 | 46 |
 | [LOADOUT](https://github.com/the-static-collective/LOADOUT) | [Contracts and memory](contracts-and-memory.md) | 24 | 11 |
 | [love](https://github.com/the-static-collective/love) | [Unplaced public repositories](unplaced.md) | 0 | 0 |
-| [MOTIF](https://github.com/the-static-collective/MOTIF) | [Unplaced public repositories](unplaced.md) | 322 | 305 |
+| [MOTIF](https://github.com/the-static-collective/MOTIF) | [Unplaced public repositories](unplaced.md) | 333 | 313 |
 | [MSyoU](https://github.com/the-static-collective/MSyoU) | [Unplaced public repositories](unplaced.md) | 4 | 0 |
 | [mundaneWORMHOLE](https://github.com/the-static-collective/mundaneWORMHOLE) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [national-treasure](https://github.com/the-static-collective/national-treasure) | [Worlds and inquiry](worlds-and-inquiry.md) | 77 | 12 |

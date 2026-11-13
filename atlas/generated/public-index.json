@@ -6914,6 +6914,22 @@
           "sha": "08f42f769f9590d78b85c8d84358e1791d5bd318"
         },
         {
+          "name": "graft/capability-018-missing-primitive",
+          "sha": "028357b6b3525e514e4ab066ed74a0fe98dc70f8"
+        },
+        {
+          "name": "graft/capability-019-constructive-primitive",
+          "sha": "7e57c253764b45ca99be6c66212f0970445fee51"
+        },
+        {
+          "name": "graft/capability-019-nand-synthesis",
+          "sha": "39a129014a03eac9c86764b196425855831e9249"
+        },
+        {
+          "name": "graft/capability-020-structural-memory",
+          "sha": "305e21832c692db7d5a0de2131e825936ea11c50"
+        },
+        {
           "name": "graft/capability-lab-017-unwritten-method",
           "sha": "45779e412b05d1c57c693b9207eec1f4cb517a82"
         },
@@ -7014,6 +7030,10 @@
           "sha": "22a5714f25c7be59bac37b3ab691c28c1f036845"
         },
         {
+          "name": "graft/motif-reciprocal-004-held-candidate",
+          "sha": "9d873a47848f4c6213c8488870dd225df3a3f88a"
+        },
+        {
           "name": "graft/motif021-compiled-capability",
           "sha": "d4cefba0151d4813f8589663de14e0fc7cf2c242"
         },
@@ -7067,6 +7087,56 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 35,
+          "title": "GRAFT MOTIF-RECIPROCAL-004 DRAFT — original native donor tested, still HELD",
+          "head_branch": "graft/motif-reciprocal-004-held-candidate",
+          "head_sha": "9d873a47848f4c6213c8488870dd225df3a3f88a",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "main",
+          "updated_at": "2026-11-12T20:24:30Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/35"
+        },
+        {
+          "number": 34,
+          "title": "GRAFT × native MOTIF CAPABILITY-020 — recognize when the algorithm needs a different memory representation",
+          "head_branch": "graft/capability-020-structural-memory",
+          "head_sha": "305e21832c692db7d5a0de2131e825936ea11c50",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "graft/capability-019-constructive-primitive",
+          "updated_at": "2026-11-12T17:03:24Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/34"
+        },
+        {
+          "number": 33,
+          "title": "GRAFT × native MOTIF CAPABILITY-019 — synthesize missing XOR method from NAND only, prove minimality and transfer",
+          "head_branch": "graft/capability-019-nand-synthesis",
+          "head_sha": "39a129014a03eac9c86764b196425855831e9249",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "graft/capability-018-missing-primitive",
+          "updated_at": "2026-11-12T16:45:23Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/33"
+        },
+        {
+          "number": 32,
+          "title": "GRAFT × native MOTIF CAPABILITY-019 — synthesize an absent reversible Unicode run algorithm with fallible hypotheses",
+          "head_branch": "graft/capability-019-constructive-primitive",
+          "head_sha": "7e57c253764b45ca99be6c66212f0970445fee51",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "graft/capability-018-missing-primitive",
+          "updated_at": "2026-11-12T16:44:58Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/32"
+        },
+        {
+          "number": 31,
+          "title": "GRAFT × native MOTIF CAPABILITY-018 — prove missing operator, synthesize new Unicode counting primitive, falsify with independent cases",
+          "head_branch": "graft/capability-018-missing-primitive",
+          "head_sha": "028357b6b3525e514e4ab066ed74a0fe98dc70f8",
+          "head_repo": "the-static-collective/GRAFT",
+          "base_branch": "graft/capability-lab-017-unwritten-method",
+          "updated_at": "2026-11-12T16:21:22Z",
+          "url": "https://github.com/the-static-collective/GRAFT/pull/31"
+        },
         {
           "number": 30,
           "title": "GRAFT × native MOTIF-003 CAPABILITY-017 — generate the unwritten typed method and learn from counterexamples",
@@ -7682,6 +7752,108 @@
       ]
     },
     {
+      "name": "HUMKIN",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "chore/preserve-player-landing-walmart",
+          "sha": "2ae1a384e21429dd5bc3ddcc0749117124683f92"
+        },
+        {
+          "name": "design/approved-paper-manga-look",
+          "sha": "ae552cdbeaed9fe0a44b66f206a9759bbf0e145f"
+        },
+        {
+          "name": "experiment/fellowship-dec4-possibility-engine",
+          "sha": "3002f1b8cd8a0b67105f3a593eafadf259bd3c0d"
+        },
+        {
+          "name": "feat/distribution-station-2026-11-13",
+          "sha": "c8484a23171b78a4876efad46d74916137277fcc"
+        },
+        {
+          "name": "feat/humkin-dj-desk-2026-11-13",
+          "sha": "bf8d9de750be5afe42b791debd2f1735f8a7bae2"
+        },
+        {
+          "name": "feat/humkin-dj-desk-rebased-2026-11-13",
+          "sha": "4f143efa974c736b4adfff6d23f97fe5bfcab43f"
+        },
+        {
+          "name": "feat/humkin-relay-cards-2026-11-13",
+          "sha": "480aea9476aa922a3a71a746c60ca9080e473a85"
+        },
+        {
+          "name": "feat/little-music-relay-2026-11-13",
+          "sha": "e7aa90fe7e4dcea61ac8bb4c54d6aa05770608d4"
+        },
+        {
+          "name": "feature/creative-commons-001",
+          "sha": "4a0de96cfe3e9191ccb9c8795ce094c61f6adb17"
+        },
+        {
+          "name": "feature/emoji-jukebox-postcard-art-library",
+          "sha": "adcd6bf6e187654672e4b734d231b2c7b1cf504a"
+        },
+        {
+          "name": "feature/github-pages-player-002",
+          "sha": "252613990386e47b25b3f1c5b6b8cc8ddd0817fd"
+        },
+        {
+          "name": "feature/little-human-machine-v2",
+          "sha": "7d2bb0c3d0f742f2306c29604baf7e2bd98a0cca"
+        },
+        {
+          "name": "feature/quiet-postcards-signup",
+          "sha": "7562e80f9dc1973dccccfc524b8610eb21db3923"
+        },
+        {
+          "name": "feature/random-postcard-art",
+          "sha": "1f30f18751d44cc4fdd84b984911f23859c0bfce"
+        },
+        {
+          "name": "feature/ten-manga-postcards",
+          "sha": "02348ed302060521c59ae6f2a9e0a6143f775084"
+        },
+        {
+          "name": "fix/postcard-buttons-cache-mismatch",
+          "sha": "8cbdaad5657a4fec42e4f4c43c037837984443f3"
+        },
+        {
+          "name": "main",
+          "sha": "4733ee0b21eb1307cdcaa3102a723cb47f0c62f0"
+        },
+        {
+          "name": "release/everywhere-near-you-001",
+          "sha": "17a438524668e55468a3c5ea6715beabbc5d4ffe"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 14,
+          "title": "DRAFT: HUMKIN — everywhere;near you (7-song looping release room)",
+          "head_branch": "release/everywhere-near-you-001",
+          "head_sha": "17a438524668e55468a3c5ea6715beabbc5d4ffe",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-13T14:51:02Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/14"
+        },
+        {
+          "number": 13,
+          "title": "EXPERIMENT: HUMKIN × Paula-led Fellowship live possibility score — Dec 4",
+          "head_branch": "experiment/fellowship-dec4-possibility-engine",
+          "head_sha": "3002f1b8cd8a0b67105f3a593eafadf259bd3c0d",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-13T13:55:26Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/13"
+        }
+      ]
+    },
+    {
       "name": "iron-lung",
       "visibility": "public",
       "default_branch": "main",
@@ -8092,6 +8264,18 @@
           "sha": "f06213463f616cddc023ac942ff671ba69096531"
         },
         {
+          "name": "feature/motif-reciprocal-source-door-004",
+          "sha": "375368bf54a445234114c760cdb7830d6cc43c3c"
+        },
+        {
+          "name": "feature/motif-source-council-local-002",
+          "sha": "20f5635d1a77956ff2d8b54398b4c25683a7b920"
+        },
+        {
+          "name": "feature/motif-spine-live-local-001",
+          "sha": "989ce05506007e5ec268d823c7cac66ba01c1471"
+        },
+        {
           "name": "feature/porch-receiver-009",
           "sha": "befdcd7aec1bb5c47eb60017d54c440f9cd12ec1"
         },
@@ -8145,7 +8329,7 @@
         },
         {
           "name": "main",
-          "sha": "d076995e7d7c3a36267e2df8b3a392cdcfd6ad6d"
+          "sha": "c41bda67c7f38c52916fbc9bd188f07fcc4e5ba7"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -8165,6 +8349,36 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 77,
+          "title": "MOTIF COUNCIL 002 × JAR;VIS — find unmerged methods when reasoning encounters a gap",
+          "head_branch": "feature/motif-source-council-local-002",
+          "head_sha": "20f5635d1a77956ff2d8b54398b4c25683a7b920",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "feature/motif-spine-live-local-001",
+          "updated_at": "2026-11-13T15:02:20Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/77"
+        },
+        {
+          "number": 76,
+          "title": "MOTIF LIVE LOCAL 001 — original reasoning spine inside JAR;VIS Two Doors desk",
+          "head_branch": "feature/motif-spine-live-local-001",
+          "head_sha": "989ce05506007e5ec268d823c7cac66ba01c1471",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "main",
+          "updated_at": "2026-11-13T14:34:51Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/76"
+        },
+        {
+          "number": 75,
+          "title": "MOTIF-RECIPROCAL-004 DRAFT — source-pinned public capability door (read-only)",
+          "head_branch": "feature/motif-reciprocal-source-door-004",
+          "head_sha": "375368bf54a445234114c760cdb7830d6cc43c3c",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "main",
+          "updated_at": "2026-11-12T20:24:28Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/75"
+        },
         {
           "number": 74,
           "title": "ORG-002 × JAR;VIS — HOLD-only reception of institutional-shock scenarios",
@@ -8822,6 +9036,22 @@
           "sha": "53a03e6734dd9a4d08692b79e6bdb9e8f5e9e729"
         },
         {
+          "name": "experiment/penny-puddle-018-missing-primitive",
+          "sha": "dbf352e67829dc27ce5b97bd35b50dd61403f946"
+        },
+        {
+          "name": "experiment/penny-puddle-019-constructive-primitive",
+          "sha": "9b886abaa8bdce5879031da24406b42c4bcd43e4"
+        },
+        {
+          "name": "experiment/penny-puddle-019-gate-invention",
+          "sha": "0860e1febe4e7740e3612a3c3caf193c0dd14210"
+        },
+        {
+          "name": "experiment/penny-puddle-020-structural-memory",
+          "sha": "50838b8ea7ddcf857df86a7963b6fa61b5f626c6"
+        },
+        {
           "name": "experiment/penny-recursive-option-engine-013",
           "sha": "6a85276b43d215184def60bdc43ac486fa78c452"
         },
@@ -8859,6 +9089,46 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 47,
+          "title": "Jubilee CAPABILITY-020 — independently verify a change of memory representation rather than just another primitive",
+          "head_branch": "experiment/penny-puddle-020-structural-memory",
+          "head_sha": "50838b8ea7ddcf857df86a7963b6fa61b5f626c6",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/penny-puddle-019-constructive-primitive",
+          "updated_at": "2026-11-12T17:03:50Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/47"
+        },
+        {
+          "number": 46,
+          "title": "Jubilee CAPABILITY-019 — independently prove NAND-only method synthesis and unseen three-input transfer",
+          "head_branch": "experiment/penny-puddle-019-gate-invention",
+          "head_sha": "0860e1febe4e7740e3612a3c3caf193c0dd14210",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/penny-puddle-018-missing-primitive",
+          "updated_at": "2026-11-12T16:45:20Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/46"
+        },
+        {
+          "number": 45,
+          "title": "Jubilee CAPABILITY-019 — construct an absent reversible grapheme-run algorithm from smaller state-machine primitives",
+          "head_branch": "experiment/penny-puddle-019-constructive-primitive",
+          "head_sha": "9b886abaa8bdce5879031da24406b42c4bcd43e4",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/penny-puddle-018-missing-primitive",
+          "updated_at": "2026-11-12T16:44:28Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/45"
+        },
+        {
+          "number": 44,
+          "title": "Jubilee CAPABILITY-018 — prove 017 vocabulary gap, verify synthesized Unicode primitive on heldout cases",
+          "head_branch": "experiment/penny-puddle-018-missing-primitive",
+          "head_sha": "dbf352e67829dc27ce5b97bd35b50dd61403f946",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/penny-puddle-017-unwritten-method",
+          "updated_at": "2026-11-12T16:21:20Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/44"
+        },
         {
           "number": 43,
           "title": "Jubilee CAPABILITY-017 — independently verify generated typed method against final-only cases",
@@ -10285,6 +10555,10 @@
       "archived": false,
       "branches": [
         {
+          "name": "docs/reason-spine-main-entry-001",
+          "sha": "521478931ab6531583afefa1244c60ddbf586f64"
+        },
+        {
           "name": "experiment/adapter-invention-001-20261108",
           "sha": "08885797fbcf13c12623363e2d1db2000f859b52"
         },
@@ -10589,6 +10863,10 @@
           "sha": "a6cd06028ca2100ad86450280b9f5a25312ec01c"
         },
         {
+          "name": "experiment/field-019-three-way-geometry-20261112",
+          "sha": "3743ab41d4b4f6ccd28211c9abd0d3148757fe98"
+        },
+        {
           "name": "experiment/fir-001-before-the-arrow",
           "sha": "9d0e56166a413e5ab1a895c21477acc35befc5ca"
         },
@@ -10865,6 +11143,14 @@
           "sha": "1a5e9f0d3bfd55518ad1ba0e52cb8bf6e1184e3d"
         },
         {
+          "name": "experiment/llm005-odyssey-240-reason-chain-20261112",
+          "sha": "aed048676ef473e6f2be808a206bdad003d43c6e"
+        },
+        {
+          "name": "experiment/llm006-real-weights-odyssey-20261112",
+          "sha": "b0902a4c0d8581e71ed62ea41a15b5265d15b19a"
+        },
+        {
           "name": "experiment/mathal-001-nunumathal-001-20261107",
           "sha": "485d8ea1bf3a0cb8f7498f0b79a4f16231992292"
         },
@@ -10895,6 +11181,10 @@
         {
           "name": "experiment/meta-007-weighted-branch-grammar-optimizer",
           "sha": "ab73166ef5109b81b6560c1961174c5a85a5cd13"
+        },
+        {
+          "name": "experiment/method-tournament-003-held-cartridge-transfer",
+          "sha": "f48ead648c56bce61e0f3b0cc78bfffba69ba1e8"
         },
         {
           "name": "experiment/motif-006-first-question-dogram-probes",
@@ -11145,6 +11435,22 @@
           "sha": "dc708dfa4009aedda27002229fb17c6c6b3f4e43"
         },
         {
+          "name": "experiment/reciprocal-001-mutual-apprentice-20261112",
+          "sha": "a9470ef3050cce1f3cd88028804a8799be29f27f"
+        },
+        {
+          "name": "experiment/reciprocal-002-two-doors-20261112",
+          "sha": "34f014f12dd042cc307c05bf195d830ca4e55865"
+        },
+        {
+          "name": "experiment/reciprocal-003-hypermap-foundry-20261112",
+          "sha": "4cd625daea43d48248a062d6c686cc42940f2f01"
+        },
+        {
+          "name": "experiment/reciprocal-004-ecosystem-crosswire-20261112",
+          "sha": "586be3530d2b5b4d41f810515f9c457d2a27a371"
+        },
+        {
           "name": "experiment/self-assembly-001-20261108",
           "sha": "0b75ad661b37e2a3cc4cfa260cfd921475764340"
         },
@@ -11369,6 +11675,14 @@
           "sha": "3175fdb1a5ada605773741e1bfb293ee623bc8f1"
         },
         {
+          "name": "feature/reason-spine-001-branch-garden",
+          "sha": "c7add8f6be53d066282d94cea4866fc38bca881c"
+        },
+        {
+          "name": "feature/reason-spine-002-evidence-council",
+          "sha": "90e41d18a04ae2aaae0a16ded61199415488250f"
+        },
+        {
           "name": "integration/confluence-001-coherent-field-20261110",
           "sha": "b5dc22f8bd3c7783c0a8a2ad61f676e2cdce4e36"
         },
@@ -11394,7 +11708,7 @@
         },
         {
           "name": "main",
-          "sha": "66d27cfbd077b2c91d0d86d66e320206d88d8f95"
+          "sha": "139b59d22414659d75c7ffebe9e75cbd01c25925"
         },
         {
           "name": "plan/thought-fields-full-stack-20261106",
@@ -11578,6 +11892,86 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 328,
+          "title": "SOURCE COUNCIL 002 — select unmerged experiments using original evidence, not branch names",
+          "head_branch": "feature/reason-spine-002-evidence-council",
+          "head_sha": "90e41d18a04ae2aaae0a16ded61199415488250f",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-13T14:33:40Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/328"
+        },
+        {
+          "number": 325,
+          "title": "RECIPROCAL-004 DRAFT — source-owned Git constellation passport + native Free Graph bridge",
+          "head_branch": "experiment/reciprocal-004-ecosystem-crosswire-20261112",
+          "head_sha": "586be3530d2b5b4d41f810515f9c457d2a27a371",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reciprocal-003-hypermap-foundry-20261112",
+          "updated_at": "2026-11-12T20:29:40Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/325"
+        },
+        {
+          "number": 324,
+          "title": "RECIPROCAL-003 DRAFT — Purposeful questions → reason field → falsifiable Method Foundry",
+          "head_branch": "experiment/reciprocal-003-hypermap-foundry-20261112",
+          "head_sha": "4cd625daea43d48248a062d6c686cc42940f2f01",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reciprocal-002-two-doors-20261112",
+          "updated_at": "2026-11-12T20:02:23Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/324"
+        },
+        {
+          "number": 323,
+          "title": "RECIPROCAL-002 DRAFT — Two Doors: purpose-gated human ↔ MOTIF inquiry app",
+          "head_branch": "experiment/reciprocal-002-two-doors-20261112",
+          "head_sha": "34f014f12dd042cc307c05bf195d830ca4e55865",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reciprocal-001-mutual-apprentice-20261112",
+          "updated_at": "2026-11-12T19:30:02Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/323"
+        },
+        {
+          "number": 322,
+          "title": "RECIPROCAL-001 DRAFT — Two-way human ↔ MOTIF teaching room with real correction and transfer probes",
+          "head_branch": "experiment/reciprocal-001-mutual-apprentice-20261112",
+          "head_sha": "a9470ef3050cce1f3cd88028804a8799be29f27f",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/reason-cartridge-023-many-truth-mirror",
+          "updated_at": "2026-11-12T19:08:37Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/322"
+        },
+        {
+          "number": 321,
+          "title": "LLM-006 DRAFT — Actual pretrained SmolLM2 traverses ODYSSEY's 384 source-gated decisions",
+          "head_branch": "experiment/llm006-real-weights-odyssey-20261112",
+          "head_sha": "b0902a4c0d8581e71ed62ea41a15b5265d15b19a",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/llm005-odyssey-240-reason-chain-20261112",
+          "updated_at": "2026-11-12T17:03:09Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/321"
+        },
+        {
+          "number": 320,
+          "title": "FIELD-019 (draft): triangulate sketch, camera pixels, and height through conditional multi-view geometry",
+          "head_branch": "experiment/field-019-three-way-geometry-20261112",
+          "head_sha": "3743ab41d4b4f6ccd28211c9abd0d3148757fe98",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/field-018-chain-under-test-20261112",
+          "updated_at": "2026-11-12T16:33:31Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/320"
+        },
+        {
+          "number": 319,
+          "title": "LLM-005 (draft) ODYSSEY-240 — 219+ serial steps × 96 sourced decisions × 64 contested worlds",
+          "head_branch": "experiment/llm005-odyssey-240-reason-chain-20261112",
+          "head_sha": "aed048676ef473e6f2be808a206bdad003d43c6e",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "experiment/llm004-reason-hypermap-20261112",
+          "updated_at": "2026-11-12T16:38:06Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/319"
+        },
         {
           "number": 318,
           "title": "LLM-004 DRAFT — REASON HYPERMAP: immutable counterexample memory × actual Free Graph traversal",
@@ -29019,7 +29413,7 @@
         },
         {
           "name": "main",
-          "sha": "09c513a022a2d1de2f2f02e6a31145587b8fd1df"
+          "sha": "45bf7e7f5a0256feb5b4a47fbd74a4a2b4c5e441"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -29478,5 +29872,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-12T15:58:30+00:00"
+  "captured_at": "2026-11-13T15:23:12+00:00"
 }
