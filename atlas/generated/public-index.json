@@ -4514,8 +4514,12 @@
           "sha": "b2693fb141cc8eebca56e74fa644dc6b1938b518"
         },
         {
+          "name": "feature/creative-media-harbor-007",
+          "sha": "6ac93e76d85f91469889c71bbb9164b25f3cfd52"
+        },
+        {
           "name": "main",
-          "sha": "78560cb7d53d6fee108fee0d09017a720ad69fcf"
+          "sha": "bfb1e09f42a5dd3863c3f96eea43a73f2d41e40f"
         }
       ],
       "open_prs": [
@@ -7770,8 +7774,24 @@
           "sha": "3002f1b8cd8a0b67105f3a593eafadf259bd3c0d"
         },
         {
+          "name": "feat/continuous-radio-car-2026-11-13",
+          "sha": "ffb2614f9d122bc853ad0900c6c7ced46d2162ae"
+        },
+        {
           "name": "feat/distribution-station-2026-11-13",
           "sha": "c8484a23171b78a4876efad46d74916137277fcc"
+        },
+        {
+          "name": "feat/fm-add-everywhere-near-you-7",
+          "sha": "b277379176c589cc0b0337db277e325dfd5ea470"
+        },
+        {
+          "name": "feat/fm-haileylu-bloom-2026-11-13",
+          "sha": "2c357161676320dbe5c1c755389c4e5e16593ca9"
+        },
+        {
+          "name": "feat/fm-leave-the-kettle-on-2026-11-13",
+          "sha": "4bac592e860dcbaafc7fc3d3a9c3692f630b9e06"
         },
         {
           "name": "feat/humkin-dj-desk-2026-11-13",
@@ -7790,6 +7810,10 @@
           "sha": "e7aa90fe7e4dcea61ac8bb4c54d6aa05770608d4"
         },
         {
+          "name": "feature/commons-harbor-source-002",
+          "sha": "72eed140ec406cd59ce7c78ff320f46edce2c638"
+        },
+        {
           "name": "feature/creative-commons-001",
           "sha": "4a0de96cfe3e9191ccb9c8795ce094c61f6adb17"
         },
@@ -7802,12 +7826,32 @@
           "sha": "252613990386e47b25b3f1c5b6b8cc8ddd0817fd"
         },
         {
+          "name": "feature/humkin-icecast-broadcast-kit-20261113",
+          "sha": "c9221153b56115df36703ffdc46293b0d4df89bf"
+        },
+        {
+          "name": "feature/humkin-radio-autodj-20261113",
+          "sha": "da9454075197e5d49896b07f925a1d9e88cfd102"
+        },
+        {
+          "name": "feature/humkin-station-manager-20261113",
+          "sha": "4d0e9a8d494e2635ca7c8aa2ffc6e618a0a34799"
+        },
+        {
           "name": "feature/little-human-machine-v2",
           "sha": "7d2bb0c3d0f742f2306c29604baf7e2bd98a0cca"
         },
         {
+          "name": "feature/living-discography-kinship-producer-desk",
+          "sha": "3a50aa1a6ee38eb405fb346d22d032f675a66d35"
+        },
+        {
           "name": "feature/quiet-postcards-signup",
           "sha": "7562e80f9dc1973dccccfc524b8610eb21db3923"
+        },
+        {
+          "name": "feature/radio-batch-loader-20261113",
+          "sha": "5e5f389d0f2918bb84fb872a7f9a5aa95d529a92"
         },
         {
           "name": "feature/random-postcard-art",
@@ -7818,29 +7862,35 @@
           "sha": "02348ed302060521c59ae6f2a9e0a6143f775084"
         },
         {
+          "name": "fix/humkin-magiclink-localhost-recovery-20261113",
+          "sha": "789d2d26d61a0fb3dccffabcf78fd945d656a646"
+        },
+        {
           "name": "fix/postcard-buttons-cache-mismatch",
           "sha": "8cbdaad5657a4fec42e4f4c43c037837984443f3"
         },
         {
+          "name": "fix/radio-boundary-gaps-no-seek-20261114",
+          "sha": "4f679d5be3785398b85b95cf1f012800d3571db6"
+        },
+        {
+          "name": "fix/radio-lockscreen-continuity-20261113",
+          "sha": "404596220cc57c149b5882b6b0602b0a2b8a11b0"
+        },
+        {
+          "name": "fix/radio-spotlight-haileylu-bloom",
+          "sha": "902ae30a701fbb99d4b25e8f8449803f514feb81"
+        },
+        {
           "name": "main",
-          "sha": "4733ee0b21eb1307cdcaa3102a723cb47f0c62f0"
+          "sha": "cdc6644503d3f179f5863e7f07cfe3feb6ba3cd7"
         },
         {
           "name": "release/everywhere-near-you-001",
-          "sha": "17a438524668e55468a3c5ea6715beabbc5d4ffe"
+          "sha": "1db2f6a726781aa0404670d5b2e26004c1f049f9"
         }
       ],
       "open_prs": [
-        {
-          "number": 14,
-          "title": "DRAFT: HUMKIN — everywhere;near you (7-song looping release room)",
-          "head_branch": "release/everywhere-near-you-001",
-          "head_sha": "17a438524668e55468a3c5ea6715beabbc5d4ffe",
-          "head_repo": "the-static-collective/HUMKIN",
-          "base_branch": "main",
-          "updated_at": "2026-11-13T14:51:02Z",
-          "url": "https://github.com/the-static-collective/HUMKIN/pull/14"
-        },
         {
           "number": 13,
           "title": "EXPERIMENT: HUMKIN × Paula-led Fellowship live possibility score — Dec 4",
@@ -8264,6 +8314,10 @@
           "sha": "f06213463f616cddc023ac942ff671ba69096531"
         },
         {
+          "name": "feature/motif-method-tournament-local-003",
+          "sha": "3b91b17f236ffca9097081c348ebdcc4b0511549"
+        },
+        {
           "name": "feature/motif-reciprocal-source-door-004",
           "sha": "375368bf54a445234114c760cdb7830d6cc43c3c"
         },
@@ -8329,7 +8383,7 @@
         },
         {
           "name": "main",
-          "sha": "c41bda67c7f38c52916fbc9bd188f07fcc4e5ba7"
+          "sha": "ee490e743a2b64778856602ed927c61b5c248638"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -8349,6 +8403,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 78,
+          "title": "MOTIF TOURNAMENT 003 × JAR;VIS — run original unmerged method against strong controls, save held receipt",
+          "head_branch": "feature/motif-method-tournament-local-003",
+          "head_sha": "3b91b17f236ffca9097081c348ebdcc4b0511549",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "feature/motif-source-council-local-002",
+          "updated_at": "2026-11-13T15:37:56Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/78"
+        },
         {
           "number": 77,
           "title": "MOTIF COUNCIL 002 × JAR;VIS — find unmerged methods when reasoning encounters a gap",
@@ -11184,7 +11248,7 @@
         },
         {
           "name": "experiment/method-tournament-003-held-cartridge-transfer",
-          "sha": "f48ead648c56bce61e0f3b0cc78bfffba69ba1e8"
+          "sha": "e8de788b83b0d3b1538dda028c1e0091f09524a0"
         },
         {
           "name": "experiment/motif-006-first-question-dogram-probes",
@@ -11892,6 +11956,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 329,
+          "title": "TOURNAMENT 003 — run original unmerged method against adverse transfer controls; retain HELD receipt",
+          "head_branch": "experiment/method-tournament-003-held-cartridge-transfer",
+          "head_sha": "e8de788b83b0d3b1538dda028c1e0091f09524a0",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "feature/reason-spine-002-evidence-council",
+          "updated_at": "2026-11-13T15:37:54Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/329"
+        },
         {
           "number": 328,
           "title": "SOURCE COUNCIL 002 — select unmerged experiments using original evidence, not branch names",
@@ -29413,7 +29487,7 @@
         },
         {
           "name": "main",
-          "sha": "45bf7e7f5a0256feb5b4a47fbd74a4a2b4c5e441"
+          "sha": "28ba91411545e313c8c664f8c4ede6e57c65a2c9"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -29872,5 +29946,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-13T15:23:12+00:00"
+  "captured_at": "2026-11-14T14:07:51+00:00"
 }

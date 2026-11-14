@@ -250,7 +250,7 @@ Default: `main` · other refs: 8 · open PRs: 6
 
 [Repository](https://github.com/the-static-collective/freeport) · [Branches](https://github.com/the-static-collective/freeport/branches) · [Pull requests](https://github.com/the-static-collective/freeport/pulls)
 
-Default: `main` · other refs: 4 · open PRs: 4
+Default: `main` · other refs: 5 · open PRs: 4
 
 ### Open pull requests
 
@@ -269,6 +269,7 @@ Default: `main` · other refs: 4 · open PRs: 4
 | [experiment/freeport-004-first-foreign-ship](https://github.com/the-static-collective/freeport/tree/experiment/freeport-004-first-foreign-ship) | [c4aef4b3f4](https://github.com/the-static-collective/freeport/commit/c4aef4b3f4f0dea71013f43489fafc4eca38bf8d) | [open PR #2](https://github.com/the-static-collective/freeport/pull/2) |
 | [experiment/freeport-005-supabase-harbor-signals](https://github.com/the-static-collective/freeport/tree/experiment/freeport-005-supabase-harbor-signals) | [311775a402](https://github.com/the-static-collective/freeport/commit/311775a4024eefd0b09c1e42d3f6bf05f7798316) | [open PR #3](https://github.com/the-static-collective/freeport/pull/3) |
 | [experiment/freeport-006-first-branch-graft](https://github.com/the-static-collective/freeport/tree/experiment/freeport-006-first-branch-graft) | [b2693fb141](https://github.com/the-static-collective/freeport/commit/b2693fb141cc8eebca56e74fa644dc6b1938b518) | [open PR #4](https://github.com/the-static-collective/freeport/pull/4) |
+| [feature/creative-media-harbor-007](https://github.com/the-static-collective/freeport/tree/feature/creative-media-harbor-007) | [6ac93e76d8](https://github.com/the-static-collective/freeport/commit/6ac93e76d85f91469889c71bbb9164b25f3cfd52) | Retained ref; disposition unverified |
 
 ## GHoT
 
@@ -710,13 +711,12 @@ Default: `main` · other refs: 32 · open PRs: 15
 
 [Repository](https://github.com/the-static-collective/HUMKIN) · [Branches](https://github.com/the-static-collective/HUMKIN/branches) · [Pull requests](https://github.com/the-static-collective/HUMKIN/pulls)
 
-Default: `main` · other refs: 17 · open PRs: 2
+Default: `main` · other refs: 31 · open PRs: 1
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
-| [#14](https://github.com/the-static-collective/HUMKIN/pull/14) | DRAFT: HUMKIN — everywhere;near you (7-song looping release room) | `release/everywhere-near-you-001` → `main` | 2026-11-13 |
 | [#13](https://github.com/the-static-collective/HUMKIN/pull/13) | EXPERIMENT: HUMKIN × Paula-led Fellowship live possibility score — Dec 4 | `experiment/fellowship-dec4-possibility-engine` → `main` | 2026-11-13 |
 
 ### Retained nondefault branches
@@ -726,31 +726,46 @@ Default: `main` · other refs: 17 · open PRs: 2
 | [chore/preserve-player-landing-walmart](https://github.com/the-static-collective/HUMKIN/tree/chore/preserve-player-landing-walmart) | [2ae1a384e2](https://github.com/the-static-collective/HUMKIN/commit/2ae1a384e21429dd5bc3ddcc0749117124683f92) | Retained ref; disposition unverified |
 | [design/approved-paper-manga-look](https://github.com/the-static-collective/HUMKIN/tree/design/approved-paper-manga-look) | [ae552cdbea](https://github.com/the-static-collective/HUMKIN/commit/ae552cdbeaed9fe0a44b66f206a9759bbf0e145f) | Retained ref; disposition unverified |
 | [experiment/fellowship-dec4-possibility-engine](https://github.com/the-static-collective/HUMKIN/tree/experiment/fellowship-dec4-possibility-engine) | [3002f1b8cd](https://github.com/the-static-collective/HUMKIN/commit/3002f1b8cd8a0b67105f3a593eafadf259bd3c0d) | [open PR #13](https://github.com/the-static-collective/HUMKIN/pull/13) |
+| [feat/continuous-radio-car-2026-11-13](https://github.com/the-static-collective/HUMKIN/tree/feat/continuous-radio-car-2026-11-13) | [ffb2614f9d](https://github.com/the-static-collective/HUMKIN/commit/ffb2614f9d122bc853ad0900c6c7ced46d2162ae) | Retained ref; disposition unverified |
 | [feat/distribution-station-2026-11-13](https://github.com/the-static-collective/HUMKIN/tree/feat/distribution-station-2026-11-13) | [c8484a2317](https://github.com/the-static-collective/HUMKIN/commit/c8484a23171b78a4876efad46d74916137277fcc) | Retained ref; disposition unverified |
+| [feat/fm-add-everywhere-near-you-7](https://github.com/the-static-collective/HUMKIN/tree/feat/fm-add-everywhere-near-you-7) | [b277379176](https://github.com/the-static-collective/HUMKIN/commit/b277379176c589cc0b0337db277e325dfd5ea470) | Retained ref; disposition unverified |
+| [feat/fm-haileylu-bloom-2026-11-13](https://github.com/the-static-collective/HUMKIN/tree/feat/fm-haileylu-bloom-2026-11-13) | [2c35716167](https://github.com/the-static-collective/HUMKIN/commit/2c357161676320dbe5c1c755389c4e5e16593ca9) | Retained ref; disposition unverified |
+| [feat/fm-leave-the-kettle-on-2026-11-13](https://github.com/the-static-collective/HUMKIN/tree/feat/fm-leave-the-kettle-on-2026-11-13) | [4bac592e86](https://github.com/the-static-collective/HUMKIN/commit/4bac592e860dcbaafc7fc3d3a9c3692f630b9e06) | Retained ref; disposition unverified |
 | [feat/humkin-dj-desk-2026-11-13](https://github.com/the-static-collective/HUMKIN/tree/feat/humkin-dj-desk-2026-11-13) | [bf8d9de750](https://github.com/the-static-collective/HUMKIN/commit/bf8d9de750be5afe42b791debd2f1735f8a7bae2) | Retained ref; disposition unverified |
 | [feat/humkin-dj-desk-rebased-2026-11-13](https://github.com/the-static-collective/HUMKIN/tree/feat/humkin-dj-desk-rebased-2026-11-13) | [4f143efa97](https://github.com/the-static-collective/HUMKIN/commit/4f143efa974c736b4adfff6d23f97fe5bfcab43f) | Retained ref; disposition unverified |
 | [feat/humkin-relay-cards-2026-11-13](https://github.com/the-static-collective/HUMKIN/tree/feat/humkin-relay-cards-2026-11-13) | [480aea9476](https://github.com/the-static-collective/HUMKIN/commit/480aea9476aa922a3a71a746c60ca9080e473a85) | Retained ref; disposition unverified |
 | [feat/little-music-relay-2026-11-13](https://github.com/the-static-collective/HUMKIN/tree/feat/little-music-relay-2026-11-13) | [e7aa90fe7e](https://github.com/the-static-collective/HUMKIN/commit/e7aa90fe7e4dcea61ac8bb4c54d6aa05770608d4) | Retained ref; disposition unverified |
+| [feature/commons-harbor-source-002](https://github.com/the-static-collective/HUMKIN/tree/feature/commons-harbor-source-002) | [72eed140ec](https://github.com/the-static-collective/HUMKIN/commit/72eed140ec406cd59ce7c78ff320f46edce2c638) | Retained ref; disposition unverified |
 | [feature/creative-commons-001](https://github.com/the-static-collective/HUMKIN/tree/feature/creative-commons-001) | [4a0de96cfe](https://github.com/the-static-collective/HUMKIN/commit/4a0de96cfe3e9191ccb9c8795ce094c61f6adb17) | Retained ref; disposition unverified |
 | [feature/emoji-jukebox-postcard-art-library](https://github.com/the-static-collective/HUMKIN/tree/feature/emoji-jukebox-postcard-art-library) | [adcd6bf6e1](https://github.com/the-static-collective/HUMKIN/commit/adcd6bf6e187654672e4b734d231b2c7b1cf504a) | Retained ref; disposition unverified |
 | [feature/github-pages-player-002](https://github.com/the-static-collective/HUMKIN/tree/feature/github-pages-player-002) | [2526139903](https://github.com/the-static-collective/HUMKIN/commit/252613990386e47b25b3f1c5b6b8cc8ddd0817fd) | Retained ref; disposition unverified |
+| [feature/humkin-icecast-broadcast-kit-20261113](https://github.com/the-static-collective/HUMKIN/tree/feature/humkin-icecast-broadcast-kit-20261113) | [c9221153b5](https://github.com/the-static-collective/HUMKIN/commit/c9221153b56115df36703ffdc46293b0d4df89bf) | Retained ref; disposition unverified |
+| [feature/humkin-radio-autodj-20261113](https://github.com/the-static-collective/HUMKIN/tree/feature/humkin-radio-autodj-20261113) | [da94540751](https://github.com/the-static-collective/HUMKIN/commit/da9454075197e5d49896b07f925a1d9e88cfd102) | Retained ref; disposition unverified |
+| [feature/humkin-station-manager-20261113](https://github.com/the-static-collective/HUMKIN/tree/feature/humkin-station-manager-20261113) | [4d0e9a8d49](https://github.com/the-static-collective/HUMKIN/commit/4d0e9a8d494e2635ca7c8aa2ffc6e618a0a34799) | Retained ref; disposition unverified |
 | [feature/little-human-machine-v2](https://github.com/the-static-collective/HUMKIN/tree/feature/little-human-machine-v2) | [7d2bb0c3d0](https://github.com/the-static-collective/HUMKIN/commit/7d2bb0c3d0f742f2306c29604baf7e2bd98a0cca) | Retained ref; disposition unverified |
+| [feature/living-discography-kinship-producer-desk](https://github.com/the-static-collective/HUMKIN/tree/feature/living-discography-kinship-producer-desk) | [3a50aa1a6e](https://github.com/the-static-collective/HUMKIN/commit/3a50aa1a6ee38eb405fb346d22d032f675a66d35) | Retained ref; disposition unverified |
 | [feature/quiet-postcards-signup](https://github.com/the-static-collective/HUMKIN/tree/feature/quiet-postcards-signup) | [7562e80f9d](https://github.com/the-static-collective/HUMKIN/commit/7562e80f9dc1973dccccfc524b8610eb21db3923) | Retained ref; disposition unverified |
+| [feature/radio-batch-loader-20261113](https://github.com/the-static-collective/HUMKIN/tree/feature/radio-batch-loader-20261113) | [5e5f389d0f](https://github.com/the-static-collective/HUMKIN/commit/5e5f389d0f2918bb84fb872a7f9a5aa95d529a92) | Retained ref; disposition unverified |
 | [feature/random-postcard-art](https://github.com/the-static-collective/HUMKIN/tree/feature/random-postcard-art) | [1f30f18751](https://github.com/the-static-collective/HUMKIN/commit/1f30f18751d44cc4fdd84b984911f23859c0bfce) | Retained ref; disposition unverified |
 | [feature/ten-manga-postcards](https://github.com/the-static-collective/HUMKIN/tree/feature/ten-manga-postcards) | [02348ed302](https://github.com/the-static-collective/HUMKIN/commit/02348ed302060521c59ae6f2a9e0a6143f775084) | Retained ref; disposition unverified |
+| [fix/humkin-magiclink-localhost-recovery-20261113](https://github.com/the-static-collective/HUMKIN/tree/fix/humkin-magiclink-localhost-recovery-20261113) | [789d2d26d6](https://github.com/the-static-collective/HUMKIN/commit/789d2d26d61a0fb3dccffabcf78fd945d656a646) | Retained ref; disposition unverified |
 | [fix/postcard-buttons-cache-mismatch](https://github.com/the-static-collective/HUMKIN/tree/fix/postcard-buttons-cache-mismatch) | [8cbdaad565](https://github.com/the-static-collective/HUMKIN/commit/8cbdaad5657a4fec42e4f4c43c037837984443f3) | Retained ref; disposition unverified |
-| [release/everywhere-near-you-001](https://github.com/the-static-collective/HUMKIN/tree/release/everywhere-near-you-001) | [17a4385246](https://github.com/the-static-collective/HUMKIN/commit/17a438524668e55468a3c5ea6715beabbc5d4ffe) | [open PR #14](https://github.com/the-static-collective/HUMKIN/pull/14) |
+| [fix/radio-boundary-gaps-no-seek-20261114](https://github.com/the-static-collective/HUMKIN/tree/fix/radio-boundary-gaps-no-seek-20261114) | [4f679d5be3](https://github.com/the-static-collective/HUMKIN/commit/4f679d5be3785398b85b95cf1f012800d3571db6) | Retained ref; disposition unverified |
+| [fix/radio-lockscreen-continuity-20261113](https://github.com/the-static-collective/HUMKIN/tree/fix/radio-lockscreen-continuity-20261113) | [404596220c](https://github.com/the-static-collective/HUMKIN/commit/404596220cc57c149b5882b6b0602b0a2b8a11b0) | Retained ref; disposition unverified |
+| [fix/radio-spotlight-haileylu-bloom](https://github.com/the-static-collective/HUMKIN/tree/fix/radio-spotlight-haileylu-bloom) | [902ae30a70](https://github.com/the-static-collective/HUMKIN/commit/902ae30a701fbb99d4b25e8f8449803f514feb81) | Retained ref; disposition unverified |
+| [release/everywhere-near-you-001](https://github.com/the-static-collective/HUMKIN/tree/release/everywhere-near-you-001) | [1db2f6a726](https://github.com/the-static-collective/HUMKIN/commit/1db2f6a726781aa0404670d5b2e26004c1f049f9) | Retained ref; disposition unverified |
 
 ## JAR-VIS
 
 [Repository](https://github.com/the-static-collective/JAR-VIS) · [Branches](https://github.com/the-static-collective/JAR-VIS/branches) · [Pull requests](https://github.com/the-static-collective/JAR-VIS/pulls)
 
-Default: `main` · other refs: 77 · open PRs: 45
+Default: `main` · other refs: 78 · open PRs: 46
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#78](https://github.com/the-static-collective/JAR-VIS/pull/78) | MOTIF TOURNAMENT 003 × JAR;VIS — run original unmerged method against strong controls, save held receipt | `feature/motif-method-tournament-local-003` → `feature/motif-source-council-local-002` | 2026-11-13 |
 | [#77](https://github.com/the-static-collective/JAR-VIS/pull/77) | MOTIF COUNCIL 002 × JAR;VIS — find unmerged methods when reasoning encounters a gap | `feature/motif-source-council-local-002` → `feature/motif-spine-live-local-001` | 2026-11-13 |
 | [#76](https://github.com/the-static-collective/JAR-VIS/pull/76) | MOTIF LIVE LOCAL 001 — original reasoning spine inside JAR;VIS Two Doors desk | `feature/motif-spine-live-local-001` → `main` | 2026-11-13 |
 | [#75](https://github.com/the-static-collective/JAR-VIS/pull/75) | MOTIF-RECIPROCAL-004 DRAFT — source-pinned public capability door (read-only) | `feature/motif-reciprocal-source-door-004` → `main` | 2026-11-12 |
@@ -858,6 +873,7 @@ Default: `main` · other refs: 77 · open PRs: 45
 | [feature/community-brain-open-seats-006](https://github.com/the-static-collective/JAR-VIS/tree/feature/community-brain-open-seats-006) | [fe0f6f24c4](https://github.com/the-static-collective/JAR-VIS/commit/fe0f6f24c4250e0dc6ac476883ebc2c0dc45b743) | [open PR #9](https://github.com/the-static-collective/JAR-VIS/pull/9) |
 | [feature/harmony-public-source-001](https://github.com/the-static-collective/JAR-VIS/tree/feature/harmony-public-source-001) | [c9b8341f2e](https://github.com/the-static-collective/JAR-VIS/commit/c9b8341f2eff16105f58dcd5bb9031245bcb0558) | Retained ref; disposition unverified |
 | [feature/heartbeat-001-roundtrip](https://github.com/the-static-collective/JAR-VIS/tree/feature/heartbeat-001-roundtrip) | [f06213463f](https://github.com/the-static-collective/JAR-VIS/commit/f06213463f616cddc023ac942ff671ba69096531) | Retained ref; disposition unverified |
+| [feature/motif-method-tournament-local-003](https://github.com/the-static-collective/JAR-VIS/tree/feature/motif-method-tournament-local-003) | [3b91b17f23](https://github.com/the-static-collective/JAR-VIS/commit/3b91b17f236ffca9097081c348ebdcc4b0511549) | [open PR #78](https://github.com/the-static-collective/JAR-VIS/pull/78) |
 | [feature/motif-reciprocal-source-door-004](https://github.com/the-static-collective/JAR-VIS/tree/feature/motif-reciprocal-source-door-004) | [375368bf54](https://github.com/the-static-collective/JAR-VIS/commit/375368bf54a445234114c760cdb7830d6cc43c3c) | [open PR #75](https://github.com/the-static-collective/JAR-VIS/pull/75) |
 | [feature/motif-source-council-local-002](https://github.com/the-static-collective/JAR-VIS/tree/feature/motif-source-council-local-002) | [20f5635d1a](https://github.com/the-static-collective/JAR-VIS/commit/20f5635d1a77956ff2d8b54398b4c25683a7b920) | [open PR #77](https://github.com/the-static-collective/JAR-VIS/pull/77) |
 | [feature/motif-spine-live-local-001](https://github.com/the-static-collective/JAR-VIS/tree/feature/motif-spine-live-local-001) | [989ce05506](https://github.com/the-static-collective/JAR-VIS/commit/989ce05506007e5ec268d823c7cac66ba01c1471) | [open PR #76](https://github.com/the-static-collective/JAR-VIS/pull/76) |
@@ -1123,12 +1139,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/MOTIF) · [Branches](https://github.com/the-static-collective/MOTIF/branches) · [Pull requests](https://github.com/the-static-collective/MOTIF/pulls)
 
-Default: `main` · other refs: 333 · open PRs: 313
+Default: `main` · other refs: 333 · open PRs: 314
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#329](https://github.com/the-static-collective/MOTIF/pull/329) | TOURNAMENT 003 — run original unmerged method against adverse transfer controls; retain HELD receipt | `experiment/method-tournament-003-held-cartridge-transfer` → `feature/reason-spine-002-evidence-council` | 2026-11-13 |
 | [#328](https://github.com/the-static-collective/MOTIF/pull/328) | SOURCE COUNCIL 002 — select unmerged experiments using original evidence, not branch names | `feature/reason-spine-002-evidence-council` → `main` | 2026-11-13 |
 | [#325](https://github.com/the-static-collective/MOTIF/pull/325) | RECIPROCAL-004 DRAFT — source-owned Git constellation passport + native Free Graph bridge | `experiment/reciprocal-004-ecosystem-crosswire-20261112` → `experiment/reciprocal-003-hypermap-foundry-20261112` | 2026-11-12 |
 | [#324](https://github.com/the-static-collective/MOTIF/pull/324) | RECIPROCAL-003 DRAFT — Purposeful questions → reason field → falsifiable Method Foundry | `experiment/reciprocal-003-hypermap-foundry-20261112` → `experiment/reciprocal-002-two-doors-20261112` | 2026-11-12 |
@@ -1604,7 +1621,7 @@ Default: `main` · other refs: 333 · open PRs: 313
 | [experiment/meta-005-symbolic-infinite-rank-collatz](https://github.com/the-static-collective/MOTIF/tree/experiment/meta-005-symbolic-infinite-rank-collatz) | [bbc47083c3](https://github.com/the-static-collective/MOTIF/commit/bbc47083c31e34f6c73b8012cfea37fd1787068f) | [open PR #263](https://github.com/the-static-collective/MOTIF/pull/263) |
 | [experiment/meta-006-branching-infinite-rank](https://github.com/the-static-collective/MOTIF/tree/experiment/meta-006-branching-infinite-rank) | [9fd5dadfc0](https://github.com/the-static-collective/MOTIF/commit/9fd5dadfc00c9e8884a99fd2a4da094b255f1d78) | [open PR #265](https://github.com/the-static-collective/MOTIF/pull/265) |
 | [experiment/meta-007-weighted-branch-grammar-optimizer](https://github.com/the-static-collective/MOTIF/tree/experiment/meta-007-weighted-branch-grammar-optimizer) | [ab73166ef5](https://github.com/the-static-collective/MOTIF/commit/ab73166ef5109b81b6560c1961174c5a85a5cd13) | [open PR #268](https://github.com/the-static-collective/MOTIF/pull/268) |
-| [experiment/method-tournament-003-held-cartridge-transfer](https://github.com/the-static-collective/MOTIF/tree/experiment/method-tournament-003-held-cartridge-transfer) | [f48ead648c](https://github.com/the-static-collective/MOTIF/commit/f48ead648c56bce61e0f3b0cc78bfffba69ba1e8) | Retained ref; disposition unverified |
+| [experiment/method-tournament-003-held-cartridge-transfer](https://github.com/the-static-collective/MOTIF/tree/experiment/method-tournament-003-held-cartridge-transfer) | [e8de788b83](https://github.com/the-static-collective/MOTIF/commit/e8de788b83b0d3b1538dda028c1e0091f09524a0) | [open PR #329](https://github.com/the-static-collective/MOTIF/pull/329) |
 | [experiment/motif-006-first-question-dogram-probes](https://github.com/the-static-collective/MOTIF/tree/experiment/motif-006-first-question-dogram-probes) | [404c0c6701](https://github.com/the-static-collective/MOTIF/commit/404c0c6701737f35fd0998112d81a4ca850ff5f1) | Retained ref; disposition unverified |
 | [experiment/motif-007-smallest-key](https://github.com/the-static-collective/MOTIF/tree/experiment/motif-007-smallest-key) | [10514da5cc](https://github.com/the-static-collective/MOTIF/commit/10514da5cc61968cdd0ed3d2f9a75401c59a5fa1) | Retained ref; disposition unverified |
 | [experiment/next-step-001-20261107](https://github.com/the-static-collective/MOTIF/tree/experiment/next-step-001-20261107) | [14a0fb7499](https://github.com/the-static-collective/MOTIF/commit/14a0fb7499faf2c7ea93e793722e9d39c856c31b) | [open PR #198](https://github.com/the-static-collective/MOTIF/pull/198) |
