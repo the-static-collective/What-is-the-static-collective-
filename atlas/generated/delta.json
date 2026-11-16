@@ -1,94 +1,91 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-14T14:07:51+00:00",
-  "to_captured_at": "2026-11-15T14:44:43+00:00",
-  "added_repositories": [],
+  "from_captured_at": "2026-11-15T14:44:43+00:00",
+  "to_captured_at": "2026-11-16T16:59:41+00:00",
+  "added_repositories": [
+    "PUENTE"
+  ],
   "removed_repositories": [],
   "added_branches": [
     {
       "repository": "HUMKIN",
-      "branch": "feature/bump-it-announcer-20261115",
-      "sha": "a0ce3e6731f8fda771ed0c854b9f4d5fb6905945"
+      "branch": "feat/living-cart-machine-20261115",
+      "sha": "cb7c4abdc00c518b6a62710d472a83fe8da13562"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/field-announcer-bumper-carts-20261115",
-      "sha": "484c93fdd59f2c030ffe2fe97af0fd903d2bb51c"
+      "branch": "feat/native-android-radio-001",
+      "sha": "6ea936b8ba274257f9034c6e812736ce9e95308a"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/field-announcer-you-found-music-20261115",
-      "sha": "971b34881f69e7f981d1fca3543d255cc8788d6e"
+      "branch": "feat/upload-designated-singles-20261116",
+      "sha": "1dfe31b8e72e9d7df6f9052e03ee0b75a01fc980"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/humkin-lumi-call-in-line-20261114",
-      "sha": "d7eb233ab9860376a0204656abbaa38724004084"
+      "branch": "feature/air-all-field-bumpers-20261115",
+      "sha": "c2a94c1bd6db68b6c25f34bb491975ebcaac5a99"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/lumi-assistant-manager-station-id-20261114",
-      "sha": "e82fd07fe3333076a049800a6d995923e5b42e59"
+      "branch": "feature/air-approved-production-carts-20261115",
+      "sha": "5d29b0f5caae842a48136346bc7a2dc8ece576f2"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/lumi-cart-finisher-20261114",
-      "sha": "f428e14a95bd5ab074910f07afa47233e2339968"
+      "branch": "feature/four-live-radio-links-20261115",
+      "sha": "fd46e589d0eb3464679e75ced7d239961580d7f3"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/lumi-department-of-static-20261114",
-      "sha": "8a7853010402746e6e3748d3568cf132114be4b3"
+      "branch": "feature/humkin-archive-always-here-20261115",
+      "sha": "4f945a221291d83ba349e07290ae08ab9bc604fb"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/radio-default-warmth-42-20261114",
-      "sha": "a79400d14095e7d12a598ac4fbf74bb445424178"
+      "branch": "feature/humkin-time-then-clock-liner-20261115",
+      "sha": "f00c8982fe548eab1122d04885c02814cdbc1928"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/radio-first-day-production-bible-20261114",
-      "sha": "3ea9d3f122f42ace60f014ecf7b66101070a75f8"
+      "branch": "feature/more-music-warning-bumper-20261115",
+      "sha": "a7b98c2339a638697a5a861cd5a23daef8983ffd"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/radio-hour-memory-and-warm-signal-20261114",
-      "sha": "e155ad3890eb9daaeca65f721e085c2355891cf8"
+      "branch": "feature/radio-era-jumble-20261116",
+      "sha": "b6317a3ba8da086252c7f3d473636ae5e0816cdb"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/radio-house-source-network-and-transmitter-gate-20261114",
-      "sha": "addd87a6dae20baf0588ad3e8b724c181f6cd9cd"
+      "branch": "feature/radio-featured-double-rotation-20261116",
+      "sha": "278f2c17a724133f4e41b1a7781ef77fbe9324bf"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/radio-reusable-art-library-20261114",
-      "sha": "22f4429d7948d89f1af728804d2e64c840b96bc0"
+      "branch": "feature/radio-four-voice-liners-20261115",
+      "sha": "6509b8e92efe944a396684aecd868e1f3b11a502"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/radio-sync-92bpm-airwave-20261114",
-      "sha": "9d12039fcbb8a54677d019831bbfcc98062467a5"
+      "branch": "feature/winter-sunday-bumpers-20261115",
+      "sha": "7e7cba3ddf60a51752797e78c893ddf00dbd4826"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/wkrp-producer-studio-20261114",
-      "sha": "e0dee514b7ad2cf29e047a803b873e0871113ef0"
+      "branch": "fix/humkin-studio-on-air-clarity-20261115",
+      "sha": "f9794528c43ea1b2f9b6ec46a74c397ce03fb829"
     },
     {
       "repository": "HUMKIN",
-      "branch": "fix/lumi-radio-bible-scene-count-20261114",
-      "sha": "9af8145dc7711003534f95bd7cd1f351b91bf9de"
+      "branch": "fix/radio-fairness-one-drop-20261116",
+      "sha": "006704e8680187c138b4ec65493ecb64fe677c0f"
     },
     {
-      "repository": "MOTIF",
-      "branch": "integration/motif-native-spine-readonly-mcp-20261115",
-      "sha": "524b6d6aa412602b540d68a51671d6df5f93a0db"
-    },
-    {
-      "repository": "the-static-collective",
-      "branch": "feat/lumi-line-telephone-gateway-001",
-      "sha": "7783ba0a7ffc1a48e97b4705e99f8a6e57a88446"
+      "repository": "PUENTE",
+      "branch": "main",
+      "sha": "2e8b4147f8e6b5715efec0f8cae57ca89ada8dd7"
     }
   ],
   "removed_branches": [],
@@ -96,41 +93,37 @@
     {
       "repository": "HUMKIN",
       "branch": "main",
-      "from_sha": "cdc6644503d3f179f5863e7f07cfe3feb6ba3cd7",
-      "to_sha": "0ffc5e96af147f77f5a595a49a6c384bcd81acf3"
+      "from_sha": "0ffc5e96af147f77f5a595a49a6c384bcd81acf3",
+      "to_sha": "4db6b9b00d3eb9c54070e3dcd6059cf1fecb0a7b"
     },
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "ee490e743a2b64778856602ed927c61b5c248638",
-      "to_sha": "3525878255f0c2f234797d426a7a709e8966dc87"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "integration/motif-mcp-oauth-hookup-001",
-      "from_sha": "ff383d0ff6eae47531eea2a857b767d5d8162242",
-      "to_sha": "8fa7227cb2771b82e6638fd33e77f098d7cf7ef2"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "main",
-      "from_sha": "139b59d22414659d75c7ffebe9e75cbd01c25925",
-      "to_sha": "9593b0b8e1f9e70bfc09e72adc49ee64e567609b"
+      "from_sha": "3525878255f0c2f234797d426a7a709e8966dc87",
+      "to_sha": "7170c92064bbafb7d86b18da01efa7b4cc77a67e"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "28ba91411545e313c8c664f8c4ede6e57c65a2c9",
-      "to_sha": "38a7767d37d32ffb257d82d37cdb5334ae50d3fa"
+      "from_sha": "38a7767d37d32ffb257d82d37cdb5334ae50d3fa",
+      "to_sha": "f4eaff279499dd404ca181b1795a1ae6cbae9bd0"
     }
   ],
   "opened_prs": [
     {
-      "repository": "the-static-collective",
-      "number": 16,
-      "title": "LUMI-LINE-001: owner-only voice + SMS gateway",
-      "url": "https://github.com/the-static-collective/the-static-collective/pull/16",
-      "head_branch": "feat/lumi-line-telephone-gateway-001",
+      "repository": "HUMKIN",
+      "number": 56,
+      "title": "ANDROID-001 · HUMKIN RADIO v0.8 — one-tap radio + animated waveform",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/56",
+      "head_branch": "feat/native-android-radio-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "HUMKIN",
+      "number": 61,
+      "title": "RADIO: designate official singles directly in the Crate Loader",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/61",
+      "head_branch": "feat/upload-designated-singles-20261116",
       "base_branch": "main"
     }
   ],
