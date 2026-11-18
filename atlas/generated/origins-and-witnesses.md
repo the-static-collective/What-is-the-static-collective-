@@ -235,12 +235,13 @@ Default: `main` · other refs: 82 · open PRs: 22
 
 [Repository](https://github.com/the-static-collective/the-daily-slice) · [Branches](https://github.com/the-static-collective/the-daily-slice/branches) · [Pull requests](https://github.com/the-static-collective/the-daily-slice/pulls)
 
-Default: `main` · other refs: 79 · open PRs: 17
+Default: `main` · other refs: 80 · open PRs: 18
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#81](https://github.com/the-static-collective/the-daily-slice/pull/81) | Export pinned Daily Slice bulletin candidates for HUMKIN | `codex/daily-slice-crossover-pilot` → `main` | 2026-11-18 |
 | [#79](https://github.com/the-static-collective/the-daily-slice/pull/79) | Daily Slice: The Charter Under the Bell — 1701 all the way down | `slice/2026-10-05-charter-under-the-bell` → `main` | 2026-10-05 |
 | [#78](https://github.com/the-static-collective/the-daily-slice/pull/78) | OCTOPUS MADE THIS — Mutation Line 002: The Library That Returns Stories | `octopus/return-room-wrecking-crew-001` → `main` | 2026-09-30 |
 | [#77](https://github.com/the-static-collective/the-daily-slice/pull/77) | Daily Slice: 🦇 BABYBODY — The Thing That Learned What Kind of Line It Needed | `slice/2026-09-25-babybody-pressure-to-tissue` → `main` | 2026-09-25 |
@@ -267,6 +268,7 @@ Default: `main` · other refs: 79 · open PRs: 17
 | [agent/skyslicey72](https://github.com/the-static-collective/the-daily-slice/tree/agent/skyslicey72) | [f582700e73](https://github.com/the-static-collective/the-daily-slice/commit/f582700e73855d53a83b93327f55bb8ccea1812b) | Retained ref; disposition unverified |
 | [artifact/hjdm-witness-first](https://github.com/the-static-collective/the-daily-slice/tree/artifact/hjdm-witness-first) | [81b09dce98](https://github.com/the-static-collective/the-daily-slice/commit/81b09dce9823c97e46c48dc5cea888c77ae06b3a) | Retained ref; disposition unverified |
 | [artifact/hugh-jackman-discontinuity-machine](https://github.com/the-static-collective/the-daily-slice/tree/artifact/hugh-jackman-discontinuity-machine) | [ea661cc607](https://github.com/the-static-collective/the-daily-slice/commit/ea661cc607468ce14b7e5038957c1610ca22c460) | Retained ref; disposition unverified |
+| [codex/daily-slice-crossover-pilot](https://github.com/the-static-collective/the-daily-slice/tree/codex/daily-slice-crossover-pilot) | [d4a5a07816](https://github.com/the-static-collective/the-daily-slice/commit/d4a5a07816475a4538015a4a28de4746ba0e7ad9) | [open PR #81](https://github.com/the-static-collective/the-daily-slice/pull/81) |
 | [content/banana-elf-late-edition](https://github.com/the-static-collective/the-daily-slice/tree/content/banana-elf-late-edition) | [25835b921f](https://github.com/the-static-collective/the-daily-slice/commit/25835b921f99b1a8e1baef316a6ddd604b79ff5c) | Retained ref; disposition unverified |
 | [feat/daily-slice-learns-to-speak](https://github.com/the-static-collective/the-daily-slice/tree/feat/daily-slice-learns-to-speak) | [a6e9cbe0f6](https://github.com/the-static-collective/the-daily-slice/commit/a6e9cbe0f66937eb5e408bb4667198472c69a5ab) | Retained ref; disposition unverified |
 | [feat/daily-slice-v0](https://github.com/the-static-collective/the-daily-slice/tree/feat/daily-slice-v0) | [4427fc9020](https://github.com/the-static-collective/the-daily-slice/commit/4427fc9020779dd2060daea0b1059e9bdfb7289b) | Retained ref; disposition unverified |

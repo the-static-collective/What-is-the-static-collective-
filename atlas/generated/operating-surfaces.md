@@ -15,12 +15,13 @@ Desks, machines, release surfaces, return paths, and small new probes.
 
 [Repository](https://github.com/the-static-collective/static-workbench) · [Branches](https://github.com/the-static-collective/static-workbench/branches) · [Pull requests](https://github.com/the-static-collective/static-workbench/pulls)
 
-Default: `main` · other refs: 98 · open PRs: 57
+Default: `main` · other refs: 99 · open PRs: 58
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#127](https://github.com/the-static-collective/static-workbench/pull/127) | HUMKIN-GHOT-002 — verified GitHub catalog HOLD → actual local GHoT execution → reLATTE signed return | `experiment/humkin-ghot-return-001` → `main` | 2026-11-17 |
 | [#125](https://github.com/the-static-collective/static-workbench/pull/125) | PINCERSMASH 002 — receiving jaw: independent two-machine song HOLD | `experiment/pincersmash-week-crossing-002` → `main` | 2026-10-11 |
 | [#124](https://github.com/the-static-collective/static-workbench/pull/124) | STACK² 029 — original LIVE OpenManus output → two verified mortal ELF occurrences | `experiment/stack-squared-029-live-elf-lineage` → `experiment/stack-squared-028-elf-openmanus-local-model` | 2026-10-11 |
 | [#123](https://github.com/the-static-collective/static-workbench/pull/123) | STACK² 028 — Genuine pinned OpenManus ToolCallAgent × credential-free local Ollama model | `experiment/stack-squared-028-elf-openmanus-local-model` → `experiment/stack-squared-027-elf-openmanus-hatch` | 2026-10-11 |
@@ -93,6 +94,7 @@ Default: `main` · other refs: 98 · open PRs: 57
 | [experiment/clockwork-001-multicalendar](https://github.com/the-static-collective/static-workbench/tree/experiment/clockwork-001-multicalendar) | [ac1aff2faa](https://github.com/the-static-collective/static-workbench/commit/ac1aff2faa817692b15864f435f43ba9f2a20b3d) | [open PR #27](https://github.com/the-static-collective/static-workbench/pull/27) |
 | [experiment/composable-occurrence-001](https://github.com/the-static-collective/static-workbench/tree/experiment/composable-occurrence-001) | [f2a99546c9](https://github.com/the-static-collective/static-workbench/commit/f2a99546c9bca1f90cb3305895ea50315e4f3339) | [open PR #28](https://github.com/the-static-collective/static-workbench/pull/28) |
 | [experiment/composition-ecology-001](https://github.com/the-static-collective/static-workbench/tree/experiment/composition-ecology-001) | [bf652a5f05](https://github.com/the-static-collective/static-workbench/commit/bf652a5f05d6d7b68b8b9436be5c2ff1d94d0934) | [open PR #57](https://github.com/the-static-collective/static-workbench/pull/57) |
+| [experiment/humkin-ghot-return-001](https://github.com/the-static-collective/static-workbench/tree/experiment/humkin-ghot-return-001) | [ee932d39b4](https://github.com/the-static-collective/static-workbench/commit/ee932d39b4c7a48b646020f7df9ea103dfbf1f6b) | [open PR #127](https://github.com/the-static-collective/static-workbench/pull/127) |
 | [experiment/l-branch-context-mix-001](https://github.com/the-static-collective/static-workbench/tree/experiment/l-branch-context-mix-001) | [2d13a40822](https://github.com/the-static-collective/static-workbench/commit/2d13a40822da8d82899fc181ffda1e289d052e71) | [open PR #55](https://github.com/the-static-collective/static-workbench/pull/55) |
 | [experiment/pincersmash-week-crossing-002](https://github.com/the-static-collective/static-workbench/tree/experiment/pincersmash-week-crossing-002) | [d52f25b7ff](https://github.com/the-static-collective/static-workbench/commit/d52f25b7ffa19887a414d85b833e0562c73804f0) | [open PR #125](https://github.com/the-static-collective/static-workbench/pull/125) |
 | [experiment/return-room-workbench-001](https://github.com/the-static-collective/static-workbench/tree/experiment/return-room-workbench-001) | [a7528199af](https://github.com/the-static-collective/static-workbench/commit/a7528199af3bb3e4286561e3aa4200b33cedbd94) | [open PR #110](https://github.com/the-static-collective/static-workbench/pull/110) |

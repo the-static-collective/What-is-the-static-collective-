@@ -1,224 +1,204 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-16T16:59:41+00:00",
-  "to_captured_at": "2026-11-17T16:53:07+00:00",
+  "from_captured_at": "2026-11-17T16:53:07+00:00",
+  "to_captured_at": "2026-11-18T16:26:30+00:00",
   "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "GHoT",
-      "branch": "feat/humkin-orchard-relay-001",
-      "sha": "d4e1a452913f107e4a3fb8733c9ff9898ed3c077"
+      "repository": "HUMKIN",
+      "branch": "ci/build-android-r2-repair-apk-035",
+      "sha": "3c3fe8c2fe620881e4521ad472262c7000051523"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/android-027-radio-rebel-skin",
-      "sha": "a3bd2eb58065641862f2fd8a8f8199f963888290"
+      "branch": "codex/daily-slice-crossover-pilot",
+      "sha": "f7cabeaa4b167bc6ffcf369417d413eb266b24fe"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/android-028-living-virtual-tuner",
-      "sha": "a428731ab3f06623714d29291c1ead9016443f2d"
+      "branch": "experiment/humkin-listener-receptacle-001",
+      "sha": "be316936bdbc987d8eeedb311f7960ffa4eea8f7"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/android-live-orchard-018",
-      "sha": "10bf79bfee1ce46510d7767876d0ebcaa709f00b"
+      "branch": "experiment/orchard-graft-tape-001",
+      "sha": "242e58e78f3ace90264507f36f66486fc76ffe81"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/android-orchard-001",
-      "sha": "991fed6b1bd0c9955c5d7871d410339469af27d0"
+      "branch": "experiment/outpost-directed-loop-001",
+      "sha": "4fb6fef4250352280cf110026ec73d17c492eec6"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/android-outpost-abilities-015",
-      "sha": "6303963a5d9ac34626c06f69ff62256d7355a630"
+      "branch": "experiment/skill-fractal-kernel-001",
+      "sha": "d3b42bdf30418ca3f97a5be84aafb946fb6ca630"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/android-outpost-discovery-022",
-      "sha": "e7e451f8c8156e73e0a2b6afd66887d6bf3be7b9"
+      "branch": "feat/android-031-sliced-responsive-hardware",
+      "sha": "435cffe539c8112eaf647ebc220221ef5b42f86a"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/android-pirate-frequencies-021",
-      "sha": "6ffc0624a9fd012115a8a8a9677300e8b5437c9f"
+      "branch": "feat/android-034-classic-radio-return",
+      "sha": "0e17e5d7187758557ac11c4b9f80eebb1065b6b6"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/android-signal-orchard-019",
-      "sha": "ee1f60e7a851793fa796e79a4ce8decad25dfd9c"
+      "branch": "feat/bumper-cycle-shuffle-001",
+      "sha": "2278ae31bdcf4666a3002ef8fced654d86550cc4"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/android-signal-outpost-rpg-001",
-      "sha": "1e55695363a8be38e6f813ed2a7d569b59f26fcd"
+      "branch": "feat/living-relay-001",
+      "sha": "e6ad613308ef3754ec1e15961aeba6893fe350a4"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/android-song-hearts-020",
-      "sha": "ae3a812513353d145105d000c4048e63c6bdd692"
+      "branch": "feat/long-wave-background-stream-001",
+      "sha": "79e1c1197223960004929103c8bfa599a65659d0"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/android-station-guilds-017",
-      "sha": "6d6b5fbab5f7e0e7cd8a5930c53cc7acc0b01d3a"
+      "branch": "feat/r2-blue-at-the-tip-loadin-001",
+      "sha": "51ae8ce839736e8c84cc9534102c62adcbae8177"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/blue-lemon-broadcast-001",
-      "sha": "d2961abb7534b05147003c855e4d90f99e8fc323"
+      "branch": "feat/r2-primary-storage-bridge-001",
+      "sha": "d9c6fc1eb1f63359bfc4a6d866aad575a65910cd"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/bumper-brain-robot-desk-20261116",
-      "sha": "37d9a037a5cc8828d235173c6a5b579e4f87af1a"
+      "branch": "feat/r2-public-seasonal-rotation-001",
+      "sha": "243f4c0dad62c32cc0777d4094fb67434d39175c"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/guild-tools-and-cleanup-001",
-      "sha": "c2e785d3c7fdfd623835044b88fed3deafe3ccae"
+      "branch": "feature/listener-tip-jar-discoverability-001",
+      "sha": "b5bb6901bbf49f9b1761979821bc63d98fc14ddb"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/iphone-ios14-receiver-001",
-      "sha": "52a72480e9b3a1f8967b7adccb7c5ded7ca4cf6c"
+      "branch": "feature/r2-live-hls-relay-001",
+      "sha": "8161e77a0c4e3d4758ac4aa75f2fc4b650fc9975"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/listener-weather-001",
-      "sha": "d1345b6e1de3d949fc8dcb676d9fd369683bd1aa"
+      "branch": "fix/android-030-api30-wallet-and-living-face",
+      "sha": "b1a08b1e29879b90575a4722ede186bb36d860e2"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/listener-weather-respond-002",
-      "sha": "e8cbae437bb1a6c7c5fbcc718e7aa900809b8c04"
+      "branch": "fix/android-031-install-safe-flex",
+      "sha": "c452c5fe23632dbe1c2d76b4ddcb5fbba08b17b9"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/little-signal-towers-001",
-      "sha": "e0151c8cd4bddf69f79fcc04073b11c7f84c72c6"
+      "branch": "fix/android-032-native-fit-viewport",
+      "sha": "fcd041349ce90c4fbbe4365ccab3a6642afaeef1"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/living-radio-receiver-002",
-      "sha": "6e079f900fa0785f47611a805b3e48b55e2929ba"
+      "branch": "fix/android-r2-native-playback-035",
+      "sha": "da0d042f51403b059991cf3a7b5495267b9e673a"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/living-record-shelf-feed-001",
-      "sha": "ef38eaa046b35ed7a6eb75e0956550788bb8eaeb"
+      "branch": "fix/bumper-family-spacing-20261118",
+      "sha": "47a73ad5bc7b0db6ac5f31fc360a5186131db115"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/orchard-001-listener-world",
-      "sha": "874df5e87aee5d0c8f67a77ffa9be094c391715e"
+      "branch": "fix/r2-domain-dns-ui-clarification-001",
+      "sha": "e7dd8c5f42407cfc56a9517529da458aefa66c15"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/orchard-network-004",
-      "sha": "9ce1211289b279db3d3d58fef809a529d1ab31f5"
+      "branch": "fix/r2-key-check-constraint-002",
+      "sha": "93067c60efd8af543a2a780b18dc5f0a93bf9cb4"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/participation-engine-001",
-      "sha": "93a329f42c03c062d9178969d62ca48bc0621b25"
+      "branch": "fix/web-r2-continuous-play-001",
+      "sha": "e1de1fa951f4c00c15299f53a82cc3e62de172b5"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/phonograph-humkin-stem-orchard-001",
-      "sha": "25766fbaadc172b1791b5cb0138d3a7f28e1caeb"
+      "branch": "fix/web-radio-desktop-source-recovery-001",
+      "sha": "d1f8159511d952ec1535cd2237d43d484fc954a4"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/robot-desk-editorial-knobs-20261116",
-      "sha": "ba18bc354a75371370fa522092c68123d2988c51"
+      "branch": "station-desk-03-blackbox-simulator",
+      "sha": "8955aeda6a491d951f828888a1137a2f46292337"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/robot-desk-many-voices-timeless-comedy-20261116",
-      "sha": "38a57e258a5ee8c85fd779b0c87ba1159972a172"
+      "branch": "station-one/003-r2-migration-reconciliation",
+      "sha": "c895938188b2c0febb976d69418b1de5a404cad6"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/robot-seed-garden-20261116",
-      "sha": "79a99f25ed8bc8f32500159de587cfd52ceee1b6"
+      "branch": "station-one/005-fix-powershell-preflight-output",
+      "sha": "a5e17337eff26322665e1c09c025901269ecb5a0"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/signal-current-track-seed-003",
-      "sha": "89a4c93c544b9e4603d128d1ed2d835a47f4f56e"
+      "branch": "station-one/006-windows-cache-handle-fix",
+      "sha": "43e0d50fccae6af14281ddb9d139e674dbc37a24"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/signal-seeded-composer-002",
-      "sha": "5889d6b09a78e0264c7b74ca20b749bd144517a5"
+      "branch": "station-one/007-preview-overwrite-and-encoder-diagnostics",
+      "sha": "32cfc0383528594988129ad195d88c77c9c99a7b"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/signal-station-seeds-002",
-      "sha": "038056febb8cb90e33d21554f95595023a82fb9d"
+      "branch": "station-one/008-hosted-relay-onair-gates",
+      "sha": "5781756e2e4a2a0f598cbc59e23c18d6845bd50e"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/top42-record-league-001",
-      "sha": "1b2d1e6b6125915523c1115ce54f2913b4b8c06d"
+      "branch": "station-one/fix-windows-zoneinfo-quote-probe",
+      "sha": "6dcd1dee8483ad7c47ce61ac17ccc99746eec803"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/top42-request-beacons-001",
-      "sha": "ac6a4b909f97642b26fb569586c9396a748f1425"
+      "branch": "station-one/icecast-python-v2",
+      "sha": "c0968278e249db93510b87e90b003855a30c2321"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/weather-complete-vibes-003",
-      "sha": "0513c20da5f3a67af325a22c5e8fc1d953ee3a59"
+      "branch": "station-one/windows-acer-launch-kit",
+      "sha": "794ca9fbccb4a217669efadf827ec59eb714b8a4"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/equal-bumper-rotation-20261116",
-      "sha": "239bf2d9bf836c2eda3e1f696b6a96c7207709f3"
+      "branch": "test/blue-at-tip-r2-ffprobe-001",
+      "sha": "757a3ea44a5fa9f7238c25d069825e8fbda8fe2b"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "feature/night-watch-native-001",
-      "sha": "a4625fa67de2067d70eac6d9aa312a9c01822ea7"
+      "repository": "reLATTE",
+      "branch": "experiment/humkin-gh-relatte-catalog-001",
+      "sha": "46f7bd3a4001a407251226872755053b411f96af"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "feature/night-watch-outpost-001",
-      "sha": "702056e5e694c93673676dee76bb52a37a07050a"
+      "repository": "SIA",
+      "branch": "feat/linkbank-little-packet-001",
+      "sha": "32ec983da289f2a6b7af41e59960ead05e21f52a"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "feature/night-watch-sidecar-apk-001",
-      "sha": "f412769704cbc4bd736ab8e7ed0738a614369c98"
+      "repository": "static-workbench",
+      "branch": "experiment/humkin-ghot-return-001",
+      "sha": "ee932d39b4c7a48b646020f7df9ea103dfbf1f6b"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "feature/phi-cadence-three-lengths-20261116",
-      "sha": "61ae780e86fef9518893f385ec0358ff9a2c6913"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "fix/android-029-startup-recovery",
-      "sha": "15b6a9e4529f5e6607c5eb53d4f4be1ca131bdd1"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "fix/iphone-ios14-radio-base-001",
-      "sha": "60d144bd630d3c3035599df5e480a41e4aec1591"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "fix/top42-publish-and-mobile-20261116",
-      "sha": "e6da1c6964c090443c6068ea6224678664e3903f"
-    },
-    {
-      "repository": "the-haunted-phonography",
-      "branch": "feat/phonograph-humkin-stem-orchard-001",
-      "sha": "b5932a8f8110e35257b0e795060c2f97939cee7e"
+      "repository": "the-daily-slice",
+      "branch": "codex/daily-slice-crossover-pilot",
+      "sha": "d4a5a07816475a4538015a4a28de4746ba0e7ad9"
     }
   ],
   "removed_branches": [],
@@ -226,66 +206,121 @@
     {
       "repository": "HUMKIN",
       "branch": "feat/native-android-radio-001",
-      "from_sha": "6ea936b8ba274257f9034c6e812736ce9e95308a",
-      "to_sha": "ee596aa5f1a43b9776384a3e08fdea0c4a11444f"
+      "from_sha": "ee596aa5f1a43b9776384a3e08fdea0c4a11444f",
+      "to_sha": "8c16e1a6e46adb045f92d9dc16c77ad80c09d1e4"
     },
     {
       "repository": "HUMKIN",
       "branch": "main",
-      "from_sha": "4db6b9b00d3eb9c54070e3dcd6059cf1fecb0a7b",
-      "to_sha": "da962b09690ca78d93eb58016446167236518994"
+      "from_sha": "da962b09690ca78d93eb58016446167236518994",
+      "to_sha": "c3713f28859c83ddbd544f19723a74c45c595e60"
     },
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "7170c92064bbafb7d86b18da01efa7b4cc77a67e",
-      "to_sha": "d4d38aa3793b46e4e3144d2263cd27f8bf220c33"
+      "from_sha": "d4d38aa3793b46e4e3144d2263cd27f8bf220c33",
+      "to_sha": "27df5679863ea81e87c6054db9b0c3e92a12eaca"
     },
     {
-      "repository": "PUENTE",
-      "branch": "main",
-      "from_sha": "2e8b4147f8e6b5715efec0f8cae57ca89ada8dd7",
-      "to_sha": "64216f097a0a1269bbf36c17bea65393d4c409d1"
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/universal-door-registry-012",
+      "from_sha": "8c76773faa9ea7d068bc5baede7a503b4f3caa5e",
+      "to_sha": "32ba9880902ce72510bbf8f49e423957d009889c"
     },
     {
-      "repository": "the-haunted-phonography",
+      "repository": "SIA",
       "branch": "main",
-      "from_sha": "038b7101ecff781ee2ae17a22a1323ca28740d06",
-      "to_sha": "f5709e096756055e1a28c95ac5f9e79873319631"
+      "from_sha": "fe1292fc8ad3b6905ee9c5957ef4f4b33b7f2f0d",
+      "to_sha": "bee015a33407d58357402f7926f34d987962ce94"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "f4eaff279499dd404ca181b1795a1ae6cbae9bd0",
-      "to_sha": "d55deb52b776015f9e79c0ad5f2084089a9b79c5"
+      "from_sha": "d55deb52b776015f9e79c0ad5f2084089a9b79c5",
+      "to_sha": "365542f9bf9c5d02d8387b1e17f78785e5793643"
     }
   ],
   "opened_prs": [
     {
       "repository": "HUMKIN",
-      "number": 95,
-      "title": "BLUE LEMON 001 — live queue backend + plug-in home computer broadcaster",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/95",
-      "head_branch": "feat/blue-lemon-broadcast-001",
+      "number": 108,
+      "title": "UNIVERSAL JOY 001 — fractal skill-tree kernel, shared slices and native read-only bridge",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/108",
+      "head_branch": "experiment/skill-fractal-kernel-001",
+      "base_branch": "feat/native-android-radio-001"
+    },
+    {
+      "repository": "HUMKIN",
+      "number": 110,
+      "title": "ORCHARD-GRAFT-001 — turn two real songs into a new audible native radio experience",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/110",
+      "head_branch": "experiment/orchard-graft-tape-001",
+      "base_branch": "experiment/skill-fractal-kernel-001"
+    },
+    {
+      "repository": "HUMKIN",
+      "number": 112,
+      "title": "UNIVERSAL JOY 002 — real-consequence main Outpost flow with adaptive storylet director",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/112",
+      "head_branch": "experiment/outpost-directed-loop-001",
+      "base_branch": "experiment/orchard-graft-tape-001"
+    },
+    {
+      "repository": "HUMKIN",
+      "number": 120,
+      "title": "BUILD-ONLY: native Android R2 playback repair APK v0.35 (diverged Android source)",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/120",
+      "head_branch": "fix/android-r2-native-playback-035",
       "base_branch": "main"
     },
     {
       "repository": "HUMKIN",
-      "number": 103,
-      "title": "ANDROID-029 · catch native startup crashes before app boot, ship crash-report APK",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/103",
-      "head_branch": "fix/android-029-startup-recovery",
-      "base_branch": "feat/native-android-radio-001"
-    }
-  ],
-  "left_open_prs": [
+      "number": 133,
+      "title": "HUMKIN: build experimental synchronized R2 live HLS alongside Long Wave",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/133",
+      "head_branch": "feature/r2-live-hls-relay-001",
+      "base_branch": "main"
+    },
     {
       "repository": "HUMKIN",
-      "number": 61,
-      "title": "RADIO: designate official singles directly in the Crate Loader",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/61",
-      "head_branch": "feat/upload-designated-singles-20261116",
+      "number": 135,
+      "title": "LIVING RELAY 001+002 — permanent relic, Kinship Porch, Living Gifts and consented music",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/135",
+      "head_branch": "feat/living-relay-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "HUMKIN",
+      "number": 138,
+      "title": "Add a private Daily Slice editorial preview",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/138",
+      "head_branch": "codex/daily-slice-crossover-pilot",
+      "base_branch": "main"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 179,
+      "title": "CRATER 002 — HUMKIN → GitHub → reLATTE → Workbench → native GHoT → signed return",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/179",
+      "head_branch": "experiment/humkin-gh-relatte-catalog-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "static-workbench",
+      "number": 127,
+      "title": "HUMKIN-GHOT-002 — verified GitHub catalog HOLD → actual local GHoT execution → reLATTE signed return",
+      "url": "https://github.com/the-static-collective/static-workbench/pull/127",
+      "head_branch": "experiment/humkin-ghot-return-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "the-daily-slice",
+      "number": 81,
+      "title": "Export pinned Daily Slice bulletin candidates for HUMKIN",
+      "url": "https://github.com/the-static-collective/the-daily-slice/pull/81",
+      "head_branch": "codex/daily-slice-crossover-pilot",
       "base_branch": "main"
     }
-  ]
+  ],
+  "left_open_prs": []
 }

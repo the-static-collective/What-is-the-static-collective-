@@ -7770,6 +7770,14 @@
           "sha": "2ae1a384e21429dd5bc3ddcc0749117124683f92"
         },
         {
+          "name": "ci/build-android-r2-repair-apk-035",
+          "sha": "3c3fe8c2fe620881e4521ad472262c7000051523"
+        },
+        {
+          "name": "codex/daily-slice-crossover-pilot",
+          "sha": "f7cabeaa4b167bc6ffcf369417d413eb266b24fe"
+        },
+        {
           "name": "design/approved-paper-manga-look",
           "sha": "ae552cdbeaed9fe0a44b66f206a9759bbf0e145f"
         },
@@ -7778,12 +7786,36 @@
           "sha": "3002f1b8cd8a0b67105f3a593eafadf259bd3c0d"
         },
         {
+          "name": "experiment/humkin-listener-receptacle-001",
+          "sha": "be316936bdbc987d8eeedb311f7960ffa4eea8f7"
+        },
+        {
+          "name": "experiment/orchard-graft-tape-001",
+          "sha": "242e58e78f3ace90264507f36f66486fc76ffe81"
+        },
+        {
+          "name": "experiment/outpost-directed-loop-001",
+          "sha": "4fb6fef4250352280cf110026ec73d17c492eec6"
+        },
+        {
+          "name": "experiment/skill-fractal-kernel-001",
+          "sha": "d3b42bdf30418ca3f97a5be84aafb946fb6ca630"
+        },
+        {
           "name": "feat/android-027-radio-rebel-skin",
           "sha": "a3bd2eb58065641862f2fd8a8f8199f963888290"
         },
         {
           "name": "feat/android-028-living-virtual-tuner",
           "sha": "a428731ab3f06623714d29291c1ead9016443f2d"
+        },
+        {
+          "name": "feat/android-031-sliced-responsive-hardware",
+          "sha": "435cffe539c8112eaf647ebc220221ef5b42f86a"
+        },
+        {
+          "name": "feat/android-034-classic-radio-return",
+          "sha": "0e17e5d7187758557ac11c4b9f80eebb1065b6b6"
         },
         {
           "name": "feat/android-live-orchard-018",
@@ -7828,6 +7860,10 @@
         {
           "name": "feat/bumper-brain-robot-desk-20261116",
           "sha": "37d9a037a5cc8828d235173c6a5b579e4f87af1a"
+        },
+        {
+          "name": "feat/bumper-cycle-shuffle-001",
+          "sha": "2278ae31bdcf4666a3002ef8fced654d86550cc4"
         },
         {
           "name": "feat/continuous-radio-car-2026-11-13",
@@ -7898,8 +7934,16 @@
           "sha": "ef38eaa046b35ed7a6eb75e0956550788bb8eaeb"
         },
         {
+          "name": "feat/living-relay-001",
+          "sha": "e6ad613308ef3754ec1e15961aeba6893fe350a4"
+        },
+        {
+          "name": "feat/long-wave-background-stream-001",
+          "sha": "79e1c1197223960004929103c8bfa599a65659d0"
+        },
+        {
           "name": "feat/native-android-radio-001",
-          "sha": "ee596aa5f1a43b9776384a3e08fdea0c4a11444f"
+          "sha": "8c16e1a6e46adb045f92d9dc16c77ad80c09d1e4"
         },
         {
           "name": "feat/orchard-001-listener-world",
@@ -7916,6 +7960,18 @@
         {
           "name": "feat/phonograph-humkin-stem-orchard-001",
           "sha": "25766fbaadc172b1791b5cb0138d3a7f28e1caeb"
+        },
+        {
+          "name": "feat/r2-blue-at-the-tip-loadin-001",
+          "sha": "51ae8ce839736e8c84cc9534102c62adcbae8177"
+        },
+        {
+          "name": "feat/r2-primary-storage-bridge-001",
+          "sha": "d9c6fc1eb1f63359bfc4a6d866aad575a65910cd"
+        },
+        {
+          "name": "feat/r2-public-seasonal-rotation-001",
+          "sha": "243f4c0dad62c32cc0777d4094fb67434d39175c"
         },
         {
           "name": "feat/robot-desk-editorial-knobs-20261116",
@@ -8026,6 +8082,10 @@
           "sha": "f00c8982fe548eab1122d04885c02814cdbc1928"
         },
         {
+          "name": "feature/listener-tip-jar-discoverability-001",
+          "sha": "b5bb6901bbf49f9b1761979821bc63d98fc14ddb"
+        },
+        {
           "name": "feature/little-human-machine-v2",
           "sha": "7d2bb0c3d0f742f2306c29604baf7e2bd98a0cca"
         },
@@ -8068,6 +8128,10 @@
         {
           "name": "feature/quiet-postcards-signup",
           "sha": "7562e80f9dc1973dccccfc524b8610eb21db3923"
+        },
+        {
+          "name": "feature/r2-live-hls-relay-001",
+          "sha": "8161e77a0c4e3d4758ac4aa75f2fc4b650fc9975"
         },
         {
           "name": "feature/radio-batch-loader-20261113",
@@ -8130,6 +8194,26 @@
           "sha": "15b6a9e4529f5e6607c5eb53d4f4be1ca131bdd1"
         },
         {
+          "name": "fix/android-030-api30-wallet-and-living-face",
+          "sha": "b1a08b1e29879b90575a4722ede186bb36d860e2"
+        },
+        {
+          "name": "fix/android-031-install-safe-flex",
+          "sha": "c452c5fe23632dbe1c2d76b4ddcb5fbba08b17b9"
+        },
+        {
+          "name": "fix/android-032-native-fit-viewport",
+          "sha": "fcd041349ce90c4fbbe4365ccab3a6642afaeef1"
+        },
+        {
+          "name": "fix/android-r2-native-playback-035",
+          "sha": "da0d042f51403b059991cf3a7b5495267b9e673a"
+        },
+        {
+          "name": "fix/bumper-family-spacing-20261118",
+          "sha": "47a73ad5bc7b0db6ac5f31fc360a5186131db115"
+        },
+        {
           "name": "fix/humkin-magiclink-localhost-recovery-20261113",
           "sha": "789d2d26d61a0fb3dccffabcf78fd945d656a646"
         },
@@ -8148,6 +8232,14 @@
         {
           "name": "fix/postcard-buttons-cache-mismatch",
           "sha": "8cbdaad5657a4fec42e4f4c43c037837984443f3"
+        },
+        {
+          "name": "fix/r2-domain-dns-ui-clarification-001",
+          "sha": "e7dd8c5f42407cfc56a9517529da458aefa66c15"
+        },
+        {
+          "name": "fix/r2-key-check-constraint-002",
+          "sha": "93067c60efd8af543a2a780b18dc5f0a93bf9cb4"
         },
         {
           "name": "fix/radio-boundary-gaps-no-seek-20261114",
@@ -8170,15 +8262,133 @@
           "sha": "e6da1c6964c090443c6068ea6224678664e3903f"
         },
         {
+          "name": "fix/web-r2-continuous-play-001",
+          "sha": "e1de1fa951f4c00c15299f53a82cc3e62de172b5"
+        },
+        {
+          "name": "fix/web-radio-desktop-source-recovery-001",
+          "sha": "d1f8159511d952ec1535cd2237d43d484fc954a4"
+        },
+        {
           "name": "main",
-          "sha": "da962b09690ca78d93eb58016446167236518994"
+          "sha": "c3713f28859c83ddbd544f19723a74c45c595e60"
         },
         {
           "name": "release/everywhere-near-you-001",
           "sha": "1db2f6a726781aa0404670d5b2e26004c1f049f9"
+        },
+        {
+          "name": "station-desk-03-blackbox-simulator",
+          "sha": "8955aeda6a491d951f828888a1137a2f46292337"
+        },
+        {
+          "name": "station-one/003-r2-migration-reconciliation",
+          "sha": "c895938188b2c0febb976d69418b1de5a404cad6"
+        },
+        {
+          "name": "station-one/005-fix-powershell-preflight-output",
+          "sha": "a5e17337eff26322665e1c09c025901269ecb5a0"
+        },
+        {
+          "name": "station-one/006-windows-cache-handle-fix",
+          "sha": "43e0d50fccae6af14281ddb9d139e674dbc37a24"
+        },
+        {
+          "name": "station-one/007-preview-overwrite-and-encoder-diagnostics",
+          "sha": "32cfc0383528594988129ad195d88c77c9c99a7b"
+        },
+        {
+          "name": "station-one/008-hosted-relay-onair-gates",
+          "sha": "5781756e2e4a2a0f598cbc59e23c18d6845bd50e"
+        },
+        {
+          "name": "station-one/fix-windows-zoneinfo-quote-probe",
+          "sha": "6dcd1dee8483ad7c47ce61ac17ccc99746eec803"
+        },
+        {
+          "name": "station-one/icecast-python-v2",
+          "sha": "c0968278e249db93510b87e90b003855a30c2321"
+        },
+        {
+          "name": "station-one/windows-acer-launch-kit",
+          "sha": "794ca9fbccb4a217669efadf827ec59eb714b8a4"
+        },
+        {
+          "name": "test/blue-at-tip-r2-ffprobe-001",
+          "sha": "757a3ea44a5fa9f7238c25d069825e8fbda8fe2b"
         }
       ],
       "open_prs": [
+        {
+          "number": 138,
+          "title": "Add a private Daily Slice editorial preview",
+          "head_branch": "codex/daily-slice-crossover-pilot",
+          "head_sha": "f7cabeaa4b167bc6ffcf369417d413eb266b24fe",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-18T16:06:10Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/138"
+        },
+        {
+          "number": 135,
+          "title": "LIVING RELAY 001+002 — permanent relic, Kinship Porch, Living Gifts and consented music",
+          "head_branch": "feat/living-relay-001",
+          "head_sha": "e6ad613308ef3754ec1e15961aeba6893fe350a4",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-18T14:16:32Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/135"
+        },
+        {
+          "number": 133,
+          "title": "HUMKIN: build experimental synchronized R2 live HLS alongside Long Wave",
+          "head_branch": "feature/r2-live-hls-relay-001",
+          "head_sha": "8161e77a0c4e3d4758ac4aa75f2fc4b650fc9975",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-18T16:23:14Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/133"
+        },
+        {
+          "number": 120,
+          "title": "BUILD-ONLY: native Android R2 playback repair APK v0.35 (diverged Android source)",
+          "head_branch": "fix/android-r2-native-playback-035",
+          "head_sha": "da0d042f51403b059991cf3a7b5495267b9e673a",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-17T23:55:12Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/120"
+        },
+        {
+          "number": 112,
+          "title": "UNIVERSAL JOY 002 — real-consequence main Outpost flow with adaptive storylet director",
+          "head_branch": "experiment/outpost-directed-loop-001",
+          "head_sha": "4fb6fef4250352280cf110026ec73d17c492eec6",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "experiment/orchard-graft-tape-001",
+          "updated_at": "2026-11-17T21:17:12Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/112"
+        },
+        {
+          "number": 110,
+          "title": "ORCHARD-GRAFT-001 — turn two real songs into a new audible native radio experience",
+          "head_branch": "experiment/orchard-graft-tape-001",
+          "head_sha": "242e58e78f3ace90264507f36f66486fc76ffe81",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "experiment/skill-fractal-kernel-001",
+          "updated_at": "2026-11-17T19:37:10Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/110"
+        },
+        {
+          "number": 108,
+          "title": "UNIVERSAL JOY 001 — fractal skill-tree kernel, shared slices and native read-only bridge",
+          "head_branch": "experiment/skill-fractal-kernel-001",
+          "head_sha": "d3b42bdf30418ca3f97a5be84aafb946fb6ca630",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "feat/native-android-radio-001",
+          "updated_at": "2026-11-17T18:23:48Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/108"
+        },
         {
           "number": 103,
           "title": "ANDROID-029 · catch native startup crashes before app boot, ship crash-report APK",
@@ -8203,10 +8413,10 @@
           "number": 56,
           "title": "ANDROID-001 · HUMKIN v0.29 — signed live HUM wallet + crash follow-up",
           "head_branch": "feat/native-android-radio-001",
-          "head_sha": "ee596aa5f1a43b9776384a3e08fdea0c4a11444f",
+          "head_sha": "8c16e1a6e46adb045f92d9dc16c77ad80c09d1e4",
           "head_repo": "the-static-collective/HUMKIN",
           "base_branch": "main",
-          "updated_at": "2026-11-17T16:27:10Z",
+          "updated_at": "2026-11-17T19:05:17Z",
           "url": "https://github.com/the-static-collective/HUMKIN/pull/56"
         },
         {
@@ -8701,7 +8911,7 @@
         },
         {
           "name": "main",
-          "sha": "d4d38aa3793b46e4e3144d2263cd27f8bf220c33"
+          "sha": "27df5679863ea81e87c6054db9b0c3e92a12eaca"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -9459,7 +9669,7 @@
         },
         {
           "name": "experiment/universal-door-registry-012",
-          "sha": "8c76773faa9ea7d068bc5baede7a503b4f3caa5e"
+          "sha": "32ba9880902ce72510bbf8f49e423957d009889c"
         },
         {
           "name": "main",
@@ -9815,10 +10025,10 @@
           "number": 12,
           "title": "DOOR REGISTRY 012 — Cash App, Venmo, PayPal, wallets, gold, pennies and work",
           "head_branch": "experiment/universal-door-registry-012",
-          "head_sha": "8c76773faa9ea7d068bc5baede7a503b4f3caa5e",
+          "head_sha": "32ba9880902ce72510bbf8f49e423957d009889c",
           "head_repo": "the-static-collective/Jubilee-treasury",
           "base_branch": "experiment/bandcamp-source-011",
-          "updated_at": "2026-10-08T21:20:37Z",
+          "updated_at": "2026-11-18T15:12:01Z",
           "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/12"
         },
         {
@@ -16842,6 +17052,10 @@
           "sha": "ed39b597154647f9d4905b00e3dd3f1e0fc54d05"
         },
         {
+          "name": "experiment/humkin-gh-relatte-catalog-001",
+          "sha": "46f7bd3a4001a407251226872755053b411f96af"
+        },
+        {
           "name": "experiment/hymnal-crossing-002",
           "sha": "6b1bf6b7340bbe912d7e646f35a08862feeab4e5"
         },
@@ -17447,6 +17661,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 179,
+          "title": "CRATER 002 — HUMKIN → GitHub → reLATTE → Workbench → native GHoT → signed return",
+          "head_branch": "experiment/humkin-gh-relatte-catalog-001",
+          "head_sha": "46f7bd3a4001a407251226872755053b411f96af",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-11-17T18:07:56Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/179"
+        },
         {
           "number": 178,
           "title": "Minecraft-010: MOTIF-invented two-lamp witness observed 2/9 in new World A; independently verified",
@@ -19183,6 +19407,10 @@
           "sha": "051e05f67769c2bde2b4741d5c760c0ccf5e3624"
         },
         {
+          "name": "feat/linkbank-little-packet-001",
+          "sha": "32ec983da289f2a6b7af41e59960ead05e21f52a"
+        },
+        {
           "name": "feat/story-dna-relationship-passenger-002",
           "sha": "e17df81515ad392eedb573f323a163eef77b53b8"
         },
@@ -19196,7 +19424,7 @@
         },
         {
           "name": "main",
-          "sha": "fe1292fc8ad3b6905ee9c5957ef4f4b33b7f2f0d"
+          "sha": "bee015a33407d58357402f7926f34d987962ce94"
         },
         {
           "name": "test/fishbone-live-browser-smoke",
@@ -21075,6 +21303,10 @@
           "sha": "bf652a5f05d6d7b68b8b9436be5c2ff1d94d0934"
         },
         {
+          "name": "experiment/humkin-ghot-return-001",
+          "sha": "ee932d39b4c7a48b646020f7df9ea103dfbf1f6b"
+        },
+        {
           "name": "experiment/l-branch-context-mix-001",
           "sha": "2d13a40822da8d82899fc181ffda1e289d052e71"
         },
@@ -21432,6 +21664,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 127,
+          "title": "HUMKIN-GHOT-002 — verified GitHub catalog HOLD → actual local GHoT execution → reLATTE signed return",
+          "head_branch": "experiment/humkin-ghot-return-001",
+          "head_sha": "ee932d39b4c7a48b646020f7df9ea103dfbf1f6b",
+          "head_repo": "the-static-collective/static-workbench",
+          "base_branch": "main",
+          "updated_at": "2026-11-17T18:08:16Z",
+          "url": "https://github.com/the-static-collective/static-workbench/pull/127"
+        },
         {
           "number": 125,
           "title": "PINCERSMASH 002 — receiving jaw: independent two-machine song HOLD",
@@ -22455,6 +22697,10 @@
           "sha": "ea661cc607468ce14b7e5038957c1610ca22c460"
         },
         {
+          "name": "codex/daily-slice-crossover-pilot",
+          "sha": "d4a5a07816475a4538015a4a28de4746ba0e7ad9"
+        },
+        {
           "name": "content/banana-elf-late-edition",
           "sha": "25835b921f99b1a8e1baef316a6ddd604b79ff5c"
         },
@@ -22760,6 +23006,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 81,
+          "title": "Export pinned Daily Slice bulletin candidates for HUMKIN",
+          "head_branch": "codex/daily-slice-crossover-pilot",
+          "head_sha": "d4a5a07816475a4538015a4a28de4746ba0e7ad9",
+          "head_repo": "the-static-collective/the-daily-slice",
+          "base_branch": "main",
+          "updated_at": "2026-11-18T16:06:19Z",
+          "url": "https://github.com/the-static-collective/the-daily-slice/pull/81"
+        },
         {
           "number": 79,
           "title": "Daily Slice: The Charter Under the Bell — 1701 all the way down",
@@ -29840,7 +30096,7 @@
         },
         {
           "name": "main",
-          "sha": "d55deb52b776015f9e79c0ad5f2084089a9b79c5"
+          "sha": "365542f9bf9c5d02d8387b1e17f78785e5793643"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -30299,5 +30555,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-17T16:53:07+00:00"
+  "captured_at": "2026-11-18T16:26:30+00:00"
 }
