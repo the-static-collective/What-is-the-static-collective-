@@ -7766,6 +7766,10 @@
       "archived": false,
       "branches": [
         {
+          "name": "archive/classic-radio-template",
+          "sha": "34bb5aa32cd810a794d9da08db459d2742675fad"
+        },
+        {
           "name": "chore/preserve-player-landing-walmart",
           "sha": "2ae1a384e21429dd5bc3ddcc0749117124683f92"
         },
@@ -7778,6 +7782,14 @@
           "sha": "f7cabeaa4b167bc6ffcf369417d413eb266b24fe"
         },
         {
+          "name": "codex/humkin-compost-heap",
+          "sha": "219ca8d8fb6025017e2194ddf4b949e91c1bd197"
+        },
+        {
+          "name": "codex/humkin-fmstudio-preview",
+          "sha": "5986be427453a88333dc3012223b9c26da2b5d1a"
+        },
+        {
           "name": "design/approved-paper-manga-look",
           "sha": "ae552cdbeaed9fe0a44b66f206a9759bbf0e145f"
         },
@@ -7788,6 +7800,10 @@
         {
           "name": "experiment/humkin-listener-receptacle-001",
           "sha": "be316936bdbc987d8eeedb311f7960ffa4eea8f7"
+        },
+        {
+          "name": "experiment/mesh-radio-linkblocks-001-20261119",
+          "sha": "ebde7024479d53937fe97cdbac18f1edae6efbcf"
         },
         {
           "name": "experiment/orchard-graft-tape-001",
@@ -8014,12 +8030,24 @@
           "sha": "0513c20da5f3a67af325a22c5e8fc1d953ee3a59"
         },
         {
+          "name": "feature/acer-tower-now-playing",
+          "sha": "d70a4a030ea6198b5f52f7245fd5ba157d0428d9"
+        },
+        {
           "name": "feature/air-all-field-bumpers-20261115",
           "sha": "c2a94c1bd6db68b6c25f34bb491975ebcaac5a99"
         },
         {
           "name": "feature/air-approved-production-carts-20261115",
           "sha": "5d29b0f5caae842a48136346bc7a2dc8ece576f2"
+        },
+        {
+          "name": "feature/autodisco-accident-frequency-001",
+          "sha": "58193e08911741e60e51cce045a78a34a31a99eb"
+        },
+        {
+          "name": "feature/autodisco-v20-real-dial-station",
+          "sha": "c443310884fe3ff20eb0e09da8d5161f81af389c"
         },
         {
           "name": "feature/bump-it-announcer-20261115",
@@ -8034,8 +8062,16 @@
           "sha": "4a0de96cfe3e9191ccb9c8795ce094c61f6adb17"
         },
         {
+          "name": "feature/desktop-folder-metadata-ingest-001",
+          "sha": "73d0f4ac31402d73cf0008806be19cb58b967715"
+        },
+        {
           "name": "feature/emoji-jukebox-postcard-art-library",
           "sha": "adcd6bf6e187654672e4b734d231b2c7b1cf504a"
+        },
+        {
+          "name": "feature/eno-efia-guest-feature-20261118",
+          "sha": "04709165a7f5294b77842ca422d50326ecbead77"
         },
         {
           "name": "feature/equal-bumper-rotation-20261116",
@@ -8048,6 +8084,10 @@
         {
           "name": "feature/field-announcer-you-found-music-20261115",
           "sha": "971b34881f69e7f981d1fca3543d255cc8788d6e"
+        },
+        {
+          "name": "feature/fmstudio-live-station-dial-20261118",
+          "sha": "a053c185257af70a6a4d17340b7ab64addf9e558"
         },
         {
           "name": "feature/four-live-radio-links-20261115",
@@ -8068,6 +8108,10 @@
         {
           "name": "feature/humkin-lumi-call-in-line-20261114",
           "sha": "d7eb233ab9860376a0204656abbaa38724004084"
+        },
+        {
+          "name": "feature/humkin-proton-totp-owner-login-20261119",
+          "sha": "d763cdce398c78c5f36d8943717733741557ddde"
         },
         {
           "name": "feature/humkin-radio-autodj-20261113",
@@ -8094,6 +8138,10 @@
           "sha": "3a50aa1a6ee38eb405fb346d22d032f675a66d35"
         },
         {
+          "name": "feature/long-wave-virtual-stations-001",
+          "sha": "e8b6f079b7626f6326a607d78bc941e1437f6221"
+        },
+        {
           "name": "feature/lumi-assistant-manager-station-id-20261114",
           "sha": "e82fd07fe3333076a049800a6d995923e5b42e59"
         },
@@ -8104,6 +8152,14 @@
         {
           "name": "feature/lumi-department-of-static-20261114",
           "sha": "8a7853010402746e6e3748d3568cf132114be4b3"
+        },
+        {
+          "name": "feature/mesh-001-distributed-library-sia-linkbank",
+          "sha": "fad2df9eb08369d7301a242b1377350b3ef56eb2"
+        },
+        {
+          "name": "feature/mesh-radio-direct-r2-upload-20261119",
+          "sha": "e25107bcc3c5723eb8a86c53ef68f074f139c1a7"
         },
         {
           "name": "feature/more-music-warning-bumper-20261115",
@@ -8130,8 +8186,16 @@
           "sha": "7562e80f9dc1973dccccfc524b8610eb21db3923"
         },
         {
+          "name": "feature/r2-direct-credential-reuse-001",
+          "sha": "957005dda46988ff2ab2843d0a7b706922139873"
+        },
+        {
+          "name": "feature/r2-direct-private-bulk-ingest-001",
+          "sha": "e0ba0a426a8f642a34e5b335ff35270237a79eef"
+        },
+        {
           "name": "feature/r2-live-hls-relay-001",
-          "sha": "8161e77a0c4e3d4758ac4aa75f2fc4b650fc9975"
+          "sha": "1b34d26c67c4b0d93ebf10374580854c9d765291"
         },
         {
           "name": "feature/radio-batch-loader-20261113",
@@ -8174,12 +8238,28 @@
           "sha": "9d12039fcbb8a54677d019831bbfcc98062467a5"
         },
         {
+          "name": "feature/radio-web-primary-live-001",
+          "sha": "0f7fb8cf9e82f06b1c009e1c7d56e150031b61ca"
+        },
+        {
           "name": "feature/random-postcard-art",
           "sha": "1f30f18751d44cc4fdd84b984911f23859c0bfce"
         },
         {
+          "name": "feature/spotlight-single-into-live-001",
+          "sha": "0fe0488cd07443bc8cf8d216f2196584ac2114e2"
+        },
+        {
+          "name": "feature/station-one-live-web-receiver-001",
+          "sha": "e8dfa4cfd1b0be402e52717edcb9ceee2c009744"
+        },
+        {
           "name": "feature/ten-manga-postcards",
           "sha": "02348ed302060521c59ae6f2a9e0a6143f775084"
+        },
+        {
+          "name": "feature/unified-dial-live-fallback-001",
+          "sha": "6f7618dc75a601be663dde817b042c0be6f9d291"
         },
         {
           "name": "feature/winter-sunday-bumpers-20261115",
@@ -8212,6 +8292,14 @@
         {
           "name": "fix/bumper-family-spacing-20261118",
           "sha": "47a73ad5bc7b0db6ac5f31fc360a5186131db115"
+        },
+        {
+          "name": "fix/eno-efia-interview-feature-20261118",
+          "sha": "c1b9f8bf48a1e1fdeac23f2a10dabb9de84fd8bb"
+        },
+        {
+          "name": "fix/humkin-mac-denied-session-lock-20261119",
+          "sha": "7e61d8ea4f719889eb63e9c9542840e3312d5a51"
         },
         {
           "name": "fix/humkin-magiclink-localhost-recovery-20261113",
@@ -8270,12 +8358,36 @@
           "sha": "d1f8159511d952ec1535cd2237d43d484fc954a4"
         },
         {
+          "name": "integration/humkin-tracer-001-20261118",
+          "sha": "95fa0bdc90656794e648825d8076ffa6a03fe5bb"
+        },
+        {
+          "name": "integration/living-hls-v20-bugtest-20261118",
+          "sha": "0ba809b60520fa70aad2a11b25848c58e709fa9a"
+        },
+        {
+          "name": "integration/radio-signal-train-20261118",
+          "sha": "3ea9689173088c76eb41b17823eaef421cc3a63e"
+        },
+        {
+          "name": "integration/radio-tower-council-20261118",
+          "sha": "e5aa1bc3f00f7157a0bf57c6362271326697ad5f"
+        },
+        {
           "name": "main",
-          "sha": "c3713f28859c83ddbd544f19723a74c45c595e60"
+          "sha": "5476240fa78a6a7de54c1770731253044439c43d"
+        },
+        {
+          "name": "preview/radio-and-records-season-two",
+          "sha": "6b64209b70e4aa77da08671774a8d4790bb0e619"
         },
         {
           "name": "release/everywhere-near-you-001",
           "sha": "1db2f6a726781aa0404670d5b2e26004c1f049f9"
+        },
+        {
+          "name": "signal-001-compost-editorial-relay-20261118",
+          "sha": "98334b60dac93d6f172aa30dba77708a53ca5f94"
         },
         {
           "name": "station-desk-03-blackbox-simulator",
@@ -8320,6 +8432,96 @@
       ],
       "open_prs": [
         {
+          "number": 161,
+          "title": "INTEGRATION TRAIN 003 · Living Relay + HLS lab + real V20 frequency",
+          "head_branch": "integration/living-hls-v20-bugtest-20261118",
+          "head_sha": "0ba809b60520fa70aad2a11b25848c58e709fa9a",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "integration/radio-tower-council-20261118",
+          "updated_at": "2026-11-19T07:46:50Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/161"
+        },
+        {
+          "number": 160,
+          "title": "AUTO DISCO V20 RADIO 001 — independent production-only frequency on the dial",
+          "head_branch": "feature/autodisco-v20-real-dial-station",
+          "head_sha": "c443310884fe3ff20eb0e09da8d5161f81af389c",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "integration/radio-tower-council-20261118",
+          "updated_at": "2026-11-19T04:24:07Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/160"
+        },
+        {
+          "number": 159,
+          "title": "INTEGRATION TRAIN 002 · TOWER stations + Vinyl Council over SIGNAL",
+          "head_branch": "integration/radio-tower-council-20261118",
+          "head_sha": "e5aa1bc3f00f7157a0bf57c6362271326697ad5f",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "integration/radio-signal-train-20261118",
+          "updated_at": "2026-11-19T04:12:53Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/159"
+        },
+        {
+          "number": 158,
+          "title": "INTEGRATION TRAIN 001 · SIGNAL + Auto Disco + Season Two + Tracer",
+          "head_branch": "integration/radio-signal-train-20261118",
+          "head_sha": "3ea9689173088c76eb41b17823eaef421cc3a63e",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-19T04:12:50Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/158"
+        },
+        {
+          "number": 156,
+          "title": "TRACER 001 · Verify one recording across public catalog, HLS cues and SIGNAL drafts",
+          "head_branch": "integration/humkin-tracer-001-20261118",
+          "head_sha": "95fa0bdc90656794e648825d8076ffa6a03fe5bb",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-19T03:38:30Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/156"
+        },
+        {
+          "number": 155,
+          "title": "SIGNAL RELAY 001 · Compost listener signals → owner-held station drafts",
+          "head_branch": "signal-001-compost-editorial-relay-20261118",
+          "head_sha": "98334b60dac93d6f172aa30dba77708a53ca5f94",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-19T03:12:43Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/155"
+        },
+        {
+          "number": 154,
+          "title": "AUTODISCO × ACCIDENT 001+002 — browser frequency and listener feedback snapshots",
+          "head_branch": "feature/autodisco-accident-frequency-001",
+          "head_sha": "58193e08911741e60e51cce045a78a34a31a99eb",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-19T04:03:52Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/154"
+        },
+        {
+          "number": 151,
+          "title": "Preview HUMKIN Radio & Records season two",
+          "head_branch": "preview/radio-and-records-season-two",
+          "head_sha": "6b64209b70e4aa77da08671774a8d4790bb0e619",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-19T02:04:29Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/151"
+        },
+        {
+          "number": 145,
+          "title": "HUMKIN TOWER: Counterpoint + Record Constellation + Feedback/Vinyl Council",
+          "head_branch": "feature/long-wave-virtual-stations-001",
+          "head_sha": "e8b6f079b7626f6326a607d78bc941e1437f6221",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-19T02:13:27Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/145"
+        },
+        {
           "number": 138,
           "title": "Add a private Daily Slice editorial preview",
           "head_branch": "codex/daily-slice-crossover-pilot",
@@ -8343,10 +8545,10 @@
           "number": 133,
           "title": "HUMKIN: build experimental synchronized R2 live HLS alongside Long Wave",
           "head_branch": "feature/r2-live-hls-relay-001",
-          "head_sha": "8161e77a0c4e3d4758ac4aa75f2fc4b650fc9975",
+          "head_sha": "1b34d26c67c4b0d93ebf10374580854c9d765291",
           "head_repo": "the-static-collective/HUMKIN",
           "base_branch": "main",
-          "updated_at": "2026-11-18T16:23:14Z",
+          "updated_at": "2026-11-18T18:45:11Z",
           "url": "https://github.com/the-static-collective/HUMKIN/pull/133"
         },
         {
@@ -8911,7 +9113,7 @@
         },
         {
           "name": "main",
-          "sha": "27df5679863ea81e87c6054db9b0c3e92a12eaca"
+          "sha": "bb1725fd973746c4150fd72e292773bfce798b98"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -19411,6 +19613,10 @@
           "sha": "32ec983da289f2a6b7af41e59960ead05e21f52a"
         },
         {
+          "name": "feat/mesh-linkbank-bridge-001",
+          "sha": "40d6b9bf55e6d8ab2661e94dd2499211b06dd99b"
+        },
+        {
           "name": "feat/story-dna-relationship-passenger-002",
           "sha": "e17df81515ad392eedb573f323a163eef77b53b8"
         },
@@ -19424,7 +19630,7 @@
         },
         {
           "name": "main",
-          "sha": "bee015a33407d58357402f7926f34d987962ce94"
+          "sha": "c4e628f9df161bb80340b651c389ef65f8b2a093"
         },
         {
           "name": "test/fishbone-live-browser-smoke",
@@ -22641,8 +22847,16 @@
           "sha": "1e06cee07061116eb31afbcdc60b34971ee5b130"
         },
         {
+          "name": "feature/humkin-accident-v20-intake-001",
+          "sha": "4d230e5e5ecb597605cc7ae8cd4550c2752bd04d"
+        },
+        {
           "name": "feature/humkin-radio-001",
           "sha": "4711eaf3098de0ecbe1ad3c60c3b4be22bc30a26"
+        },
+        {
+          "name": "feature/v20-rendered-broadcast-masters-001",
+          "sha": "db5c8458a62c0a76677a7614b724c5a508d42fca"
         },
         {
           "name": "first-encounter-001",
@@ -22662,6 +22876,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 11,
+          "title": "AUTO DISCO V20 MASTER 001 — original DJ episodes into rendered MP3 for HUMKIN radio",
+          "head_branch": "feature/v20-rendered-broadcast-masters-001",
+          "head_sha": "db5c8458a62c0a76677a7614b724c5a508d42fca",
+          "head_repo": "the-static-collective/The-AutodiscoV.20.-question-marks-",
+          "base_branch": "feature/humkin-accident-v20-intake-001",
+          "updated_at": "2026-11-19T04:24:54Z",
+          "url": "https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/pull/11"
+        },
+        {
+          "number": 10,
+          "title": "V20 × HUMKIN × MOTIF 001+002 — blind intake, feedback and native reasoning loop",
+          "head_branch": "feature/humkin-accident-v20-intake-001",
+          "head_sha": "4d230e5e5ecb597605cc7ae8cd4550c2752bd04d",
+          "head_repo": "the-static-collective/The-AutodiscoV.20.-question-marks-",
+          "base_branch": "main",
+          "updated_at": "2026-11-19T04:03:54Z",
+          "url": "https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/pull/10"
+        },
         {
           "number": 9,
           "title": "HUMKIN RADIO 001 — public mood dial + fictional transmissions on Auto Disco V20",
@@ -30096,7 +30330,7 @@
         },
         {
           "name": "main",
-          "sha": "365542f9bf9c5d02d8387b1e17f78785e5793643"
+          "sha": "cf106bee484386be7ac1090e4817b82d253d28aa"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -30555,5 +30789,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-18T16:26:30+00:00"
+  "captured_at": "2026-11-19T16:32:54+00:00"
 }
