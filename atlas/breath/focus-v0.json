@@ -1,0 +1,26 @@
+{
+  "schema": "breath-atlas/focus-v0",
+  "snapshot_captured_at": "2026-10-22T12:58:16+00:00",
+  "branches": [
+    {
+      "repository": "planZ",
+      "branch": "feat/phaselift-001-living-phase-board",
+      "head_sha": "52183eafe0daf311582c6016b37805ae24ef4ec6"
+    },
+    {
+      "repository": "the-haunted-blender",
+      "branch": "integration/franken-blender-008p-owned-pixel-manga-film",
+      "head_sha": "4e3f098d328a9659d9074852ef7861b7d3078fee"
+    },
+    {
+      "repository": "webZ",
+      "branch": "release/needs-001-abundent-live",
+      "head_sha": "65539f065db609c97e5c3ca1ca0b2d0f90c7498a"
+    },
+    {
+      "repository": "WITNESS",
+      "branch": "genesis/community-audio-bible-001",
+      "head_sha": "9644f24628b705bc405a03bbd80cc26e8b5e01f0"
+    }
+  ]
+}
