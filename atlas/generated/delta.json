@@ -1,287 +1,158 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-18T16:26:30+00:00",
-  "to_captured_at": "2026-11-19T16:32:54+00:00",
+  "from_captured_at": "2026-11-19T16:32:54+00:00",
+  "to_captured_at": "2026-11-20T16:08:38+00:00",
   "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "HUMKIN",
-      "branch": "archive/classic-radio-template",
-      "sha": "34bb5aa32cd810a794d9da08db459d2742675fad"
+      "repository": "GHoT",
+      "branch": "continuity/one-garden-pulse-001-20261119",
+      "sha": "d60f4032266ce534eb6d5c2d71194a6ef954bac1"
+    },
+    {
+      "repository": "GHoT",
+      "branch": "feature/garden-router-reentry-20261119",
+      "sha": "368bb29a921e43c717d21c8f280d044752d5f3d3"
+    },
+    {
+      "repository": "GHoT",
+      "branch": "fix/garden-windows-scheduler-20261119",
+      "sha": "4f674519f433620378b6d2270a9b443bd5b26797"
     },
     {
       "repository": "HUMKIN",
-      "branch": "codex/humkin-compost-heap",
-      "sha": "219ca8d8fb6025017e2194ddf4b949e91c1bd197"
+      "branch": "docs/continuity-pilot-001-20261119",
+      "sha": "4d581d28b3f6ea27d8096f6e13cd00a48977051b"
     },
     {
       "repository": "HUMKIN",
-      "branch": "codex/humkin-fmstudio-preview",
-      "sha": "5986be427453a88333dc3012223b9c26da2b5d1a"
+      "branch": "feat/cloud-autopilot-shared-program-lab-20261119",
+      "sha": "532c297e3418d730e6f2f4069507bdad0ce1a242"
     },
     {
       "repository": "HUMKIN",
-      "branch": "experiment/mesh-radio-linkblocks-001-20261119",
-      "sha": "ebde7024479d53937fe97cdbac18f1edae6efbcf"
+      "branch": "feat/fmstudio-native-skinable-receiver-20261119",
+      "sha": "5ee715f7ddca6aec44f53f3a168f06d2f5059b65"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/acer-tower-now-playing",
-      "sha": "d70a4a030ea6198b5f52f7245fd5ba157d0428d9"
+      "branch": "feat/gambits-daily-cloud-program-review-20261119",
+      "sha": "ec1d648610f0ab36d224890b22a7b56577e9eafd"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/autodisco-accident-frequency-001",
-      "sha": "58193e08911741e60e51cce045a78a34a31a99eb"
+      "branch": "feat/orchard-gambit-progression-workbench-20261119",
+      "sha": "035df1d741e97bd2269331cdf091aed7512f9af9"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/autodisco-v20-real-dial-station",
-      "sha": "c443310884fe3ff20eb0e09da8d5161f81af389c"
+      "branch": "feat/reservoir-delay-and-windows-stay-awake-20261119",
+      "sha": "f9a8be4ce449d36baaf70ab7423326305e033f22"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/desktop-folder-metadata-ingest-001",
-      "sha": "73d0f4ac31402d73cf0008806be19cb58b967715"
+      "branch": "feat/tower-autopilot-remote-media-20261120",
+      "sha": "c14f8b0d258dea9ab2b4aee8d926527c39f8bc8d"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/eno-efia-guest-feature-20261118",
-      "sha": "04709165a7f5294b77842ca422d50326ecbead77"
+      "branch": "feat/tower-batch-programs-20261119",
+      "sha": "571f935de2656e0c9545571405533fcce0b1855f"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/fmstudio-live-station-dial-20261118",
-      "sha": "a053c185257af70a6a4d17340b7ab64addf9e558"
+      "branch": "feat/tower-cloud-program-handoff-20261119",
+      "sha": "90fbe150d5507d2a03b8cad8f34d8a93a8c9a4ae"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/humkin-proton-totp-owner-login-20261119",
-      "sha": "d763cdce398c78c5f36d8943717733741557ddde"
+      "branch": "feature/catalog-graph-guardrails-predictive-radio-20261119",
+      "sha": "62e7ef0f0573f4fad39ff500edeed35948c3356a"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/long-wave-virtual-stations-001",
-      "sha": "e8b6f079b7626f6326a607d78bc941e1437f6221"
+      "branch": "fix/tower-live-resume-and-track-editor-20261119",
+      "sha": "f0ffd64bb4acf9fac9357679986e6ea1cc554d90"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/mesh-001-distributed-library-sia-linkbank",
-      "sha": "fad2df9eb08369d7301a242b1377350b3ef56eb2"
+      "branch": "review/living-receiver-service-20261120",
+      "sha": "691b67437f06bfa26231561db6aabab6788bb1b7"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "feature/mesh-radio-direct-r2-upload-20261119",
-      "sha": "e25107bcc3c5723eb8a86c53ef68f074f139c1a7"
+      "repository": "MOTIF",
+      "branch": "experiment/continuity-reentry-001-20261119",
+      "sha": "10067e519ca9414f916d7262be53e1a4a955ff2a"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "feature/r2-direct-credential-reuse-001",
-      "sha": "957005dda46988ff2ab2843d0a7b706922139873"
+      "repository": "What-is-the-static-collective-",
+      "branch": "continuity/history-first-entry-20261119",
+      "sha": "313a4f8f37487dc04e4528d2661406b3ff246a66"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "feature/r2-direct-private-bulk-ingest-001",
-      "sha": "e0ba0a426a8f642a34e5b335ff35270237a79eef"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "feature/radio-web-primary-live-001",
-      "sha": "0f7fb8cf9e82f06b1c009e1c7d56e150031b61ca"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "feature/spotlight-single-into-live-001",
-      "sha": "0fe0488cd07443bc8cf8d216f2196584ac2114e2"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "feature/station-one-live-web-receiver-001",
-      "sha": "e8dfa4cfd1b0be402e52717edcb9ceee2c009744"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "feature/unified-dial-live-fallback-001",
-      "sha": "6f7618dc75a601be663dde817b042c0be6f9d291"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "fix/eno-efia-interview-feature-20261118",
-      "sha": "c1b9f8bf48a1e1fdeac23f2a10dabb9de84fd8bb"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "fix/humkin-mac-denied-session-lock-20261119",
-      "sha": "7e61d8ea4f719889eb63e9c9542840e3312d5a51"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "integration/humkin-tracer-001-20261118",
-      "sha": "95fa0bdc90656794e648825d8076ffa6a03fe5bb"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "integration/living-hls-v20-bugtest-20261118",
-      "sha": "0ba809b60520fa70aad2a11b25848c58e709fa9a"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "integration/radio-signal-train-20261118",
-      "sha": "3ea9689173088c76eb41b17823eaef421cc3a63e"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "integration/radio-tower-council-20261118",
-      "sha": "e5aa1bc3f00f7157a0bf57c6362271326697ad5f"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "preview/radio-and-records-season-two",
-      "sha": "6b64209b70e4aa77da08671774a8d4790bb0e619"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "signal-001-compost-editorial-relay-20261118",
-      "sha": "98334b60dac93d6f172aa30dba77708a53ca5f94"
-    },
-    {
-      "repository": "SIA",
-      "branch": "feat/mesh-linkbank-bridge-001",
-      "sha": "40d6b9bf55e6d8ab2661e94dd2499211b06dd99b"
-    },
-    {
-      "repository": "The-AutodiscoV.20.-question-marks-",
-      "branch": "feature/humkin-accident-v20-intake-001",
-      "sha": "4d230e5e5ecb597605cc7ae8cd4550c2752bd04d"
-    },
-    {
-      "repository": "The-AutodiscoV.20.-question-marks-",
-      "branch": "feature/v20-rendered-broadcast-masters-001",
-      "sha": "db5c8458a62c0a76677a7614b724c5a508d42fca"
+      "repository": "What-is-the-static-collective-",
+      "branch": "continuity/return-loop-001-20261119",
+      "sha": "322cc07e73a78f4ede0a01be0555883ac3c9e562"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "HUMKIN",
-      "branch": "feature/r2-live-hls-relay-001",
-      "from_sha": "8161e77a0c4e3d4758ac4aa75f2fc4b650fc9975",
-      "to_sha": "1b34d26c67c4b0d93ebf10374580854c9d765291"
+      "repository": "GHoT",
+      "branch": "main",
+      "from_sha": "9748a0772c4a13135421c4fa84a9991e0a51e05f",
+      "to_sha": "5894b2c2038470670ea069a966b688c7dc81531d"
     },
     {
       "repository": "HUMKIN",
       "branch": "main",
-      "from_sha": "c3713f28859c83ddbd544f19723a74c45c595e60",
-      "to_sha": "5476240fa78a6a7de54c1770731253044439c43d"
+      "from_sha": "5476240fa78a6a7de54c1770731253044439c43d",
+      "to_sha": "d1ded537cae3c6e81c159e6a4051a48e05b1d6f2"
     },
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "27df5679863ea81e87c6054db9b0c3e92a12eaca",
-      "to_sha": "bb1725fd973746c4150fd72e292773bfce798b98"
+      "from_sha": "bb1725fd973746c4150fd72e292773bfce798b98",
+      "to_sha": "536b24d4253b8d9b09ee14a977d32060951b410e"
     },
     {
-      "repository": "SIA",
+      "repository": "MOTIF",
       "branch": "main",
-      "from_sha": "bee015a33407d58357402f7926f34d987962ce94",
-      "to_sha": "c4e628f9df161bb80340b651c389ef65f8b2a093"
+      "from_sha": "9593b0b8e1f9e70bfc09e72adc49ee64e567609b",
+      "to_sha": "948beab83113199f5542ee4b914dade0dca96909"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "365542f9bf9c5d02d8387b1e17f78785e5793643",
-      "to_sha": "cf106bee484386be7ac1090e4817b82d253d28aa"
+      "from_sha": "cf106bee484386be7ac1090e4817b82d253d28aa",
+      "to_sha": "f1c379526353e7ef820b8ffb5bb063eebb3635c3"
     }
   ],
   "opened_prs": [
     {
       "repository": "HUMKIN",
-      "number": 145,
-      "title": "HUMKIN TOWER: Counterpoint + Record Constellation + Feedback/Vinyl Council",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/145",
-      "head_branch": "feature/long-wave-virtual-stations-001",
+      "number": 168,
+      "title": "CATALOG GRAPH 001 + predictive radio clock: safe experimental foundations",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/168",
+      "head_branch": "feature/catalog-graph-guardrails-predictive-radio-20261119",
       "base_branch": "main"
     },
     {
       "repository": "HUMKIN",
-      "number": 151,
-      "title": "Preview HUMKIN Radio & Records season two",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/151",
-      "head_branch": "preview/radio-and-records-season-two",
+      "number": 177,
+      "title": "TOWER Cloud Autopilot: prepare published remote music without local masters",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/177",
+      "head_branch": "feat/tower-autopilot-remote-media-20261120",
       "base_branch": "main"
     },
     {
       "repository": "HUMKIN",
-      "number": 154,
-      "title": "AUTODISCO × ACCIDENT 001+002 — browser frequency and listener feedback snapshots",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/154",
-      "head_branch": "feature/autodisco-accident-frequency-001",
+      "number": 178,
+      "title": "Living Receiver 002: service-owned radio and continuous-listening proof (isolated Android preview)",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/178",
+      "head_branch": "review/living-receiver-service-20261120",
       "base_branch": "main"
-    },
-    {
-      "repository": "HUMKIN",
-      "number": 155,
-      "title": "SIGNAL RELAY 001 · Compost listener signals → owner-held station drafts",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/155",
-      "head_branch": "signal-001-compost-editorial-relay-20261118",
-      "base_branch": "main"
-    },
-    {
-      "repository": "HUMKIN",
-      "number": 156,
-      "title": "TRACER 001 · Verify one recording across public catalog, HLS cues and SIGNAL drafts",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/156",
-      "head_branch": "integration/humkin-tracer-001-20261118",
-      "base_branch": "main"
-    },
-    {
-      "repository": "HUMKIN",
-      "number": 158,
-      "title": "INTEGRATION TRAIN 001 · SIGNAL + Auto Disco + Season Two + Tracer",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/158",
-      "head_branch": "integration/radio-signal-train-20261118",
-      "base_branch": "main"
-    },
-    {
-      "repository": "HUMKIN",
-      "number": 159,
-      "title": "INTEGRATION TRAIN 002 · TOWER stations + Vinyl Council over SIGNAL",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/159",
-      "head_branch": "integration/radio-tower-council-20261118",
-      "base_branch": "integration/radio-signal-train-20261118"
-    },
-    {
-      "repository": "HUMKIN",
-      "number": 160,
-      "title": "AUTO DISCO V20 RADIO 001 — independent production-only frequency on the dial",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/160",
-      "head_branch": "feature/autodisco-v20-real-dial-station",
-      "base_branch": "integration/radio-tower-council-20261118"
-    },
-    {
-      "repository": "HUMKIN",
-      "number": 161,
-      "title": "INTEGRATION TRAIN 003 · Living Relay + HLS lab + real V20 frequency",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/161",
-      "head_branch": "integration/living-hls-v20-bugtest-20261118",
-      "base_branch": "integration/radio-tower-council-20261118"
-    },
-    {
-      "repository": "The-AutodiscoV.20.-question-marks-",
-      "number": 10,
-      "title": "V20 × HUMKIN × MOTIF 001+002 — blind intake, feedback and native reasoning loop",
-      "url": "https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/pull/10",
-      "head_branch": "feature/humkin-accident-v20-intake-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "The-AutodiscoV.20.-question-marks-",
-      "number": 11,
-      "title": "AUTO DISCO V20 MASTER 001 — original DJ episodes into rendered MP3 for HUMKIN radio",
-      "url": "https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/pull/11",
-      "head_branch": "feature/v20-rendered-broadcast-masters-001",
-      "base_branch": "feature/humkin-accident-v20-intake-001"
     }
   ],
   "left_open_prs": []

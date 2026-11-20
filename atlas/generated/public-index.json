@@ -4934,6 +4934,10 @@
           "sha": "1913513c70237bbb92d5d8e4b6b6f894dd5a1b32"
         },
         {
+          "name": "continuity/one-garden-pulse-001-20261119",
+          "sha": "d60f4032266ce534eb6d5c2d71194a6ef954bac1"
+        },
+        {
           "name": "curious-door-navigation-026",
           "sha": "294802d61ec93b078cf3ed607af165388709e9f2"
         },
@@ -5342,12 +5346,20 @@
           "sha": "3d64e5d486d9324ec6086da69889a81ab2e48cd8"
         },
         {
+          "name": "feature/garden-router-reentry-20261119",
+          "sha": "368bb29a921e43c717d21c8f280d044752d5f3d3"
+        },
+        {
           "name": "field-commons-001",
           "sha": "6a734c834e0b4880f3de1e39465f73800f338a9d"
         },
         {
           "name": "field-reseed-receiver-001",
           "sha": "391f0edd5da5eae5d3f19d61f01d80de386837c5"
+        },
+        {
+          "name": "fix/garden-windows-scheduler-20261119",
+          "sha": "4f674519f433620378b6d2270a9b443bd5b26797"
         },
         {
           "name": "grammar-exchange-023",
@@ -5391,7 +5403,7 @@
         },
         {
           "name": "main",
-          "sha": "9748a0772c4a13135421c4fa84a9991e0a51e05f"
+          "sha": "5894b2c2038470670ea069a966b688c7dc81531d"
         },
         {
           "name": "many-bodied-machine-001",
@@ -7794,6 +7806,10 @@
           "sha": "ae552cdbeaed9fe0a44b66f206a9759bbf0e145f"
         },
         {
+          "name": "docs/continuity-pilot-001-20261119",
+          "sha": "4d581d28b3f6ea27d8096f6e13cd00a48977051b"
+        },
+        {
           "name": "experiment/fellowship-dec4-possibility-engine",
           "sha": "3002f1b8cd8a0b67105f3a593eafadf259bd3c0d"
         },
@@ -7882,6 +7898,10 @@
           "sha": "2278ae31bdcf4666a3002ef8fced654d86550cc4"
         },
         {
+          "name": "feat/cloud-autopilot-shared-program-lab-20261119",
+          "sha": "532c297e3418d730e6f2f4069507bdad0ce1a242"
+        },
+        {
           "name": "feat/continuous-radio-car-2026-11-13",
           "sha": "ffb2614f9d122bc853ad0900c6c7ced46d2162ae"
         },
@@ -7900,6 +7920,14 @@
         {
           "name": "feat/fm-leave-the-kettle-on-2026-11-13",
           "sha": "4bac592e860dcbaafc7fc3d3a9c3692f630b9e06"
+        },
+        {
+          "name": "feat/fmstudio-native-skinable-receiver-20261119",
+          "sha": "5ee715f7ddca6aec44f53f3a168f06d2f5059b65"
+        },
+        {
+          "name": "feat/gambits-daily-cloud-program-review-20261119",
+          "sha": "ec1d648610f0ab36d224890b22a7b56577e9eafd"
         },
         {
           "name": "feat/guild-tools-and-cleanup-001",
@@ -7966,6 +7994,10 @@
           "sha": "874df5e87aee5d0c8f67a77ffa9be094c391715e"
         },
         {
+          "name": "feat/orchard-gambit-progression-workbench-20261119",
+          "sha": "035df1d741e97bd2269331cdf091aed7512f9af9"
+        },
+        {
           "name": "feat/orchard-network-004",
           "sha": "9ce1211289b279db3d3d58fef809a529d1ab31f5"
         },
@@ -7988,6 +8020,10 @@
         {
           "name": "feat/r2-public-seasonal-rotation-001",
           "sha": "243f4c0dad62c32cc0777d4094fb67434d39175c"
+        },
+        {
+          "name": "feat/reservoir-delay-and-windows-stay-awake-20261119",
+          "sha": "f9a8be4ce449d36baaf70ab7423326305e033f22"
         },
         {
           "name": "feat/robot-desk-editorial-knobs-20261116",
@@ -8022,6 +8058,18 @@
           "sha": "ac6a4b909f97642b26fb569586c9396a748f1425"
         },
         {
+          "name": "feat/tower-autopilot-remote-media-20261120",
+          "sha": "c14f8b0d258dea9ab2b4aee8d926527c39f8bc8d"
+        },
+        {
+          "name": "feat/tower-batch-programs-20261119",
+          "sha": "571f935de2656e0c9545571405533fcce0b1855f"
+        },
+        {
+          "name": "feat/tower-cloud-program-handoff-20261119",
+          "sha": "90fbe150d5507d2a03b8cad8f34d8a93a8c9a4ae"
+        },
+        {
           "name": "feat/upload-designated-singles-20261116",
           "sha": "1dfe31b8e72e9d7df6f9052e03ee0b75a01fc980"
         },
@@ -8052,6 +8100,10 @@
         {
           "name": "feature/bump-it-announcer-20261115",
           "sha": "a0ce3e6731f8fda771ed0c854b9f4d5fb6905945"
+        },
+        {
+          "name": "feature/catalog-graph-guardrails-predictive-radio-20261119",
+          "sha": "62e7ef0f0573f4fad39ff500edeed35948c3356a"
         },
         {
           "name": "feature/commons-harbor-source-002",
@@ -8350,6 +8402,10 @@
           "sha": "e6da1c6964c090443c6068ea6224678664e3903f"
         },
         {
+          "name": "fix/tower-live-resume-and-track-editor-20261119",
+          "sha": "f0ffd64bb4acf9fac9357679986e6ea1cc554d90"
+        },
+        {
           "name": "fix/web-r2-continuous-play-001",
           "sha": "e1de1fa951f4c00c15299f53a82cc3e62de172b5"
         },
@@ -8375,7 +8431,7 @@
         },
         {
           "name": "main",
-          "sha": "5476240fa78a6a7de54c1770731253044439c43d"
+          "sha": "d1ded537cae3c6e81c159e6a4051a48e05b1d6f2"
         },
         {
           "name": "preview/radio-and-records-season-two",
@@ -8384,6 +8440,10 @@
         {
           "name": "release/everywhere-near-you-001",
           "sha": "1db2f6a726781aa0404670d5b2e26004c1f049f9"
+        },
+        {
+          "name": "review/living-receiver-service-20261120",
+          "sha": "691b67437f06bfa26231561db6aabab6788bb1b7"
         },
         {
           "name": "signal-001-compost-editorial-relay-20261118",
@@ -8431,6 +8491,36 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 178,
+          "title": "Living Receiver 002: service-owned radio and continuous-listening proof (isolated Android preview)",
+          "head_branch": "review/living-receiver-service-20261120",
+          "head_sha": "691b67437f06bfa26231561db6aabab6788bb1b7",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-20T14:49:34Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/178"
+        },
+        {
+          "number": 177,
+          "title": "TOWER Cloud Autopilot: prepare published remote music without local masters",
+          "head_branch": "feat/tower-autopilot-remote-media-20261120",
+          "head_sha": "c14f8b0d258dea9ab2b4aee8d926527c39f8bc8d",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-20T14:21:07Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/177"
+        },
+        {
+          "number": 168,
+          "title": "CATALOG GRAPH 001 + predictive radio clock: safe experimental foundations",
+          "head_branch": "feature/catalog-graph-guardrails-predictive-radio-20261119",
+          "head_sha": "62e7ef0f0573f4fad39ff500edeed35948c3356a",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-19T19:19:42Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/168"
+        },
         {
           "number": 161,
           "title": "INTEGRATION TRAIN 003 · Living Relay + HLS lab + real V20 frequency",
@@ -9113,7 +9203,7 @@
         },
         {
           "name": "main",
-          "sha": "bb1725fd973746c4150fd72e292773bfce798b98"
+          "sha": "536b24d4253b8d9b09ee14a977d32060951b410e"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -11489,6 +11579,10 @@
           "sha": "a0a96dd4295fb272f9e8759ac40061fb82a84d31"
         },
         {
+          "name": "experiment/continuity-reentry-001-20261119",
+          "sha": "10067e519ca9414f916d7262be53e1a4a955ff2a"
+        },
+        {
           "name": "experiment/contract-discovery-001-20261109",
           "sha": "4d85de3b7ad9884eaccf503feaed578f1f106336"
         },
@@ -12506,7 +12600,7 @@
         },
         {
           "name": "main",
-          "sha": "9593b0b8e1f9e70bfc09e72adc49ee64e567609b"
+          "sha": "948beab83113199f5542ee4b914dade0dca96909"
         },
         {
           "name": "plan/thought-fields-full-stack-20261106",
@@ -30149,6 +30243,14 @@
           "sha": "0c0dda47cbe28d286b46ed6afb96c8297fabb4d4"
         },
         {
+          "name": "continuity/history-first-entry-20261119",
+          "sha": "313a4f8f37487dc04e4528d2661406b3ff246a66"
+        },
+        {
+          "name": "continuity/return-loop-001-20261119",
+          "sha": "322cc07e73a78f4ede0a01be0555883ac3c9e562"
+        },
+        {
           "name": "design/breath-atlas-026",
           "sha": "2157ab71248c80daf54e58dbc576bf1f1bf012d7"
         },
@@ -30330,7 +30432,7 @@
         },
         {
           "name": "main",
-          "sha": "cf106bee484386be7ac1090e4817b82d253d28aa"
+          "sha": "f1c379526353e7ef820b8ffb5bb063eebb3635c3"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -30789,5 +30891,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-19T16:32:54+00:00"
+  "captured_at": "2026-11-20T16:08:38+00:00"
 }

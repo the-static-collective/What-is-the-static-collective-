@@ -119,7 +119,7 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/What-is-the-static-collective-) · [Branches](https://github.com/the-static-collective/What-is-the-static-collective-/branches) · [Pull requests](https://github.com/the-static-collective/What-is-the-static-collective-/pulls)
 
-Default: `main` · other refs: 82 · open PRs: 22
+Default: `main` · other refs: 84 · open PRs: 22
 
 ### Open pull requests
 
@@ -169,6 +169,8 @@ Default: `main` · other refs: 82 · open PRs: 22
 | [agent/threshold-scan-design](https://github.com/the-static-collective/What-is-the-static-collective-/tree/agent/threshold-scan-design) | [af9d6eecf8](https://github.com/the-static-collective/What-is-the-static-collective-/commit/af9d6eecf8f132ab56dfe1f41a84e541350f628e) | Retained ref; disposition unverified |
 | [agent/traex-full-witness-design](https://github.com/the-static-collective/What-is-the-static-collective-/tree/agent/traex-full-witness-design) | [4d814e3fca](https://github.com/the-static-collective/What-is-the-static-collective-/commit/4d814e3fca9c0c11e9742a4f676fa74e319b852a) | Retained ref; disposition unverified |
 | [agent/witness-memento](https://github.com/the-static-collective/What-is-the-static-collective-/tree/agent/witness-memento) | [0c0dda47cb](https://github.com/the-static-collective/What-is-the-static-collective-/commit/0c0dda47cbe28d286b46ed6afb96c8297fabb4d4) | Retained ref; disposition unverified |
+| [continuity/history-first-entry-20261119](https://github.com/the-static-collective/What-is-the-static-collective-/tree/continuity/history-first-entry-20261119) | [313a4f8f37](https://github.com/the-static-collective/What-is-the-static-collective-/commit/313a4f8f37487dc04e4528d2661406b3ff246a66) | Retained ref; disposition unverified |
+| [continuity/return-loop-001-20261119](https://github.com/the-static-collective/What-is-the-static-collective-/tree/continuity/return-loop-001-20261119) | [322cc07e73](https://github.com/the-static-collective/What-is-the-static-collective-/commit/322cc07e73a78f4ede0a01be0555883ac3c9e562) | Retained ref; disposition unverified |
 | [design/breath-atlas-026](https://github.com/the-static-collective/What-is-the-static-collective-/tree/design/breath-atlas-026) | [2157ab7124](https://github.com/the-static-collective/What-is-the-static-collective-/commit/2157ab71248c80daf54e58dbc576bf1f1bf012d7) | [open PR #101](https://github.com/the-static-collective/What-is-the-static-collective-/pull/101) |
 | [design/human-witness-relay-v0](https://github.com/the-static-collective/What-is-the-static-collective-/tree/design/human-witness-relay-v0) | [bf8ffc9698](https://github.com/the-static-collective/What-is-the-static-collective-/commit/bf8ffc9698742a1ede68869579ab7bb1ca58e295) | Retained ref; disposition unverified |
 | [design/mortal-actor-001-common-stack](https://github.com/the-static-collective/What-is-the-static-collective-/tree/design/mortal-actor-001-common-stack) | [b1dabb5d57](https://github.com/the-static-collective/What-is-the-static-collective-/commit/b1dabb5d57d0f91a7e1c80289e462ed57a8d5254) | Retained ref; disposition unverified |
