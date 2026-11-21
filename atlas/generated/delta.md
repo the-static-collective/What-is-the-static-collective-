@@ -9,54 +9,59 @@ snapshot and the newest changed snapshot. It does **not** interpret why a branch
 moved or disappeared, and a PR leaving the open set does not by itself prove
 whether it merged, closed, or became unavailable.
 
-From: **2026-11-19T16:32:54+00:00**  
-To: **2026-11-20T16:08:38+00:00**
+From: **2026-11-20T16:08:38+00:00**  
+To: **2026-11-21T15:20:44+00:00**
 
 | Observed event | Count |
 | --- | ---: |
-| Repositories added | 0 |
+| Repositories added | 1 |
 | Repositories removed | 0 |
 | Branches added | 18 |
 | Branches removed | 0 |
-| Branch heads moved | 5 |
-| PRs entering open set | 3 |
-| PRs leaving open set | 0 |
+| Branch heads moved | 6 |
+| PRs entering open set | 6 |
+| PRs leaving open set | 1 |
 
 ## Repository set
 
-No repository membership changes in this delta.
+* **+ repo** [fellowSHIP](https://github.com/the-static-collective/fellowSHIP)
 
 ## Branch set and pointer movement
 
-* **+ branch** GHoT / [continuity/one-garden-pulse-001-20261119](https://github.com/the-static-collective/GHoT/tree/continuity/one-garden-pulse-001-20261119) → `d60f403226`
-* **+ branch** GHoT / [feature/garden-router-reentry-20261119](https://github.com/the-static-collective/GHoT/tree/feature/garden-router-reentry-20261119) → `368bb29a92`
-* **+ branch** GHoT / [fix/garden-windows-scheduler-20261119](https://github.com/the-static-collective/GHoT/tree/fix/garden-windows-scheduler-20261119) → `4f674519f4`
-* **+ branch** HUMKIN / [docs/continuity-pilot-001-20261119](https://github.com/the-static-collective/HUMKIN/tree/docs/continuity-pilot-001-20261119) → `4d581d28b3`
-* **+ branch** HUMKIN / [feat/cloud-autopilot-shared-program-lab-20261119](https://github.com/the-static-collective/HUMKIN/tree/feat/cloud-autopilot-shared-program-lab-20261119) → `532c297e34`
-* **+ branch** HUMKIN / [feat/fmstudio-native-skinable-receiver-20261119](https://github.com/the-static-collective/HUMKIN/tree/feat/fmstudio-native-skinable-receiver-20261119) → `5ee715f7dd`
-* **+ branch** HUMKIN / [feat/gambits-daily-cloud-program-review-20261119](https://github.com/the-static-collective/HUMKIN/tree/feat/gambits-daily-cloud-program-review-20261119) → `ec1d648610`
-* **+ branch** HUMKIN / [feat/orchard-gambit-progression-workbench-20261119](https://github.com/the-static-collective/HUMKIN/tree/feat/orchard-gambit-progression-workbench-20261119) → `035df1d741`
-* **+ branch** HUMKIN / [feat/reservoir-delay-and-windows-stay-awake-20261119](https://github.com/the-static-collective/HUMKIN/tree/feat/reservoir-delay-and-windows-stay-awake-20261119) → `f9a8be4ce4`
-* **+ branch** HUMKIN / [feat/tower-autopilot-remote-media-20261120](https://github.com/the-static-collective/HUMKIN/tree/feat/tower-autopilot-remote-media-20261120) → `c14f8b0d25`
-* **+ branch** HUMKIN / [feat/tower-batch-programs-20261119](https://github.com/the-static-collective/HUMKIN/tree/feat/tower-batch-programs-20261119) → `571f935de2`
-* **+ branch** HUMKIN / [feat/tower-cloud-program-handoff-20261119](https://github.com/the-static-collective/HUMKIN/tree/feat/tower-cloud-program-handoff-20261119) → `90fbe150d5`
-* **+ branch** HUMKIN / [feature/catalog-graph-guardrails-predictive-radio-20261119](https://github.com/the-static-collective/HUMKIN/tree/feature/catalog-graph-guardrails-predictive-radio-20261119) → `62e7ef0f05`
-* **+ branch** HUMKIN / [fix/tower-live-resume-and-track-editor-20261119](https://github.com/the-static-collective/HUMKIN/tree/fix/tower-live-resume-and-track-editor-20261119) → `f0ffd64bb4`
-* **+ branch** HUMKIN / [review/living-receiver-service-20261120](https://github.com/the-static-collective/HUMKIN/tree/review/living-receiver-service-20261120) → `691b67437f`
-* **+ branch** MOTIF / [experiment/continuity-reentry-001-20261119](https://github.com/the-static-collective/MOTIF/tree/experiment/continuity-reentry-001-20261119) → `10067e519c`
-* **+ branch** What-is-the-static-collective- / [continuity/history-first-entry-20261119](https://github.com/the-static-collective/What-is-the-static-collective-/tree/continuity/history-first-entry-20261119) → `313a4f8f37`
-* **+ branch** What-is-the-static-collective- / [continuity/return-loop-001-20261119](https://github.com/the-static-collective/What-is-the-static-collective-/tree/continuity/return-loop-001-20261119) → `322cc07e73`
-* **↪ head** GHoT / main: [9748a0772c](https://github.com/the-static-collective/GHoT/commit/9748a0772c4a13135421c4fa84a9991e0a51e05f) → [5894b2c203](https://github.com/the-static-collective/GHoT/commit/5894b2c2038470670ea069a966b688c7dc81531d)
-* **↪ head** HUMKIN / main: [5476240fa7](https://github.com/the-static-collective/HUMKIN/commit/5476240fa78a6a7de54c1770731253044439c43d) → [d1ded537ca](https://github.com/the-static-collective/HUMKIN/commit/d1ded537cae3c6e81c159e6a4051a48e05b1d6f2)
-* **↪ head** JAR-VIS / main: [bb1725fd97](https://github.com/the-static-collective/JAR-VIS/commit/bb1725fd973746c4150fd72e292773bfce798b98) → [536b24d425](https://github.com/the-static-collective/JAR-VIS/commit/536b24d4253b8d9b09ee14a977d32060951b410e)
-* **↪ head** MOTIF / main: [9593b0b8e1](https://github.com/the-static-collective/MOTIF/commit/9593b0b8e1f9e70bfc09e72adc49ee64e567609b) → [948beab831](https://github.com/the-static-collective/MOTIF/commit/948beab83113199f5542ee4b914dade0dca96909)
-* **↪ head** What-is-the-static-collective- / main: [cf106bee48](https://github.com/the-static-collective/What-is-the-static-collective-/commit/cf106bee484386be7ac1090e4817b82d253d28aa) → [f1c3795263](https://github.com/the-static-collective/What-is-the-static-collective-/commit/f1c379526353e7ef820b8ffb5bb063eebb3635c3)
+* **+ branch** BananaSpork / [experiment/possibility-engine-001-20261120](https://github.com/the-static-collective/BananaSpork/tree/experiment/possibility-engine-001-20261120) → `ccbe2a4731`
+* **+ branch** fellowSHIP / [feat/commons-foundation-001](https://github.com/the-static-collective/fellowSHIP/tree/feat/commons-foundation-001) → `230b06f064`
+* **+ branch** fellowSHIP / [main](https://github.com/the-static-collective/fellowSHIP/tree/main) → `c98a35632b`
+* **+ branch** full-measure-world-layer / [integration/pact-human-witness-review-001](https://github.com/the-static-collective/full-measure-world-layer/tree/integration/pact-human-witness-review-001) → `cb0cff3c63`
+* **+ branch** full-measure-world-layer / [integration/witness-community-audio-bible-001](https://github.com/the-static-collective/full-measure-world-layer/tree/integration/witness-community-audio-bible-001) → `cb2a6c8ed0`
+* **+ branch** HUMKIN / [experiment/night-shift-aircheck-001](https://github.com/the-static-collective/HUMKIN/tree/experiment/night-shift-aircheck-001) → `52453351d6`
+* **+ branch** HUMKIN / [feat/acer-tower-catalog-online-001](https://github.com/the-static-collective/HUMKIN/tree/feat/acer-tower-catalog-online-001) → `1233deb051`
+* **+ branch** HUMKIN / [feat/cloud-house-publish-action-005](https://github.com/the-static-collective/HUMKIN/tree/feat/cloud-house-publish-action-005) → `5db2e801ad`
+* **+ branch** HUMKIN / [feat/night-shift-40-song-house-004](https://github.com/the-static-collective/HUMKIN/tree/feat/night-shift-40-song-house-004) → `89be0448e8`
+* **+ branch** HUMKIN / [feat/night-shift-house-003](https://github.com/the-static-collective/HUMKIN/tree/feat/night-shift-house-003) → `2490a5ac2f`
+* **+ branch** HUMKIN / [feat/night-shift-one-tap-002](https://github.com/the-static-collective/HUMKIN/tree/feat/night-shift-one-tap-002) → `327d89801e`
+* **+ branch** HUMKIN / [feature/android-native-tower-hls-20261120](https://github.com/the-static-collective/HUMKIN/tree/feature/android-native-tower-hls-20261120) → `b779d55801`
+* **+ branch** HUMKIN / [feature/save-the-hour-cards-001](https://github.com/the-static-collective/HUMKIN/tree/feature/save-the-hour-cards-001) → `c0158707ca`
+* **+ branch** HUMKIN / [fix/night-shift-hls-short-final-segment-007](https://github.com/the-static-collective/HUMKIN/tree/fix/night-shift-hls-short-final-segment-007) → `b7ce875d8d`
+* **+ branch** HUMKIN / [fix/night-shift-publisher-install-ffmpeg-006](https://github.com/the-static-collective/HUMKIN/tree/fix/night-shift-publisher-install-ffmpeg-006) → `7df92d0d84`
+* **+ branch** HUMKIN / [recovery/android-classic-spine-20261120](https://github.com/the-static-collective/HUMKIN/tree/recovery/android-classic-spine-20261120) → `23c6b3bfe1`
+* **+ branch** revival / [integration/scripture-stack-expedition-013](https://github.com/the-static-collective/revival/tree/integration/scripture-stack-expedition-013) → `fcd4f152de`
+* **+ branch** WITNESS / [feature/free-witness-expedition-001](https://github.com/the-static-collective/WITNESS/tree/feature/free-witness-expedition-001) → `4861d075c5`
+* **↪ head** HUMKIN / main: [d1ded537ca](https://github.com/the-static-collective/HUMKIN/commit/d1ded537cae3c6e81c159e6a4051a48e05b1d6f2) → [f9a325dd19](https://github.com/the-static-collective/HUMKIN/commit/f9a325dd19e257cc2f90fef9154d1cd00fee6694)
+* **↪ head** JAR-VIS / main: [536b24d425](https://github.com/the-static-collective/JAR-VIS/commit/536b24d4253b8d9b09ee14a977d32060951b410e) → [81e3b0b95d](https://github.com/the-static-collective/JAR-VIS/commit/81e3b0b95dd8a4a83be2b384080ec82cd4d71147)
+* **↪ head** planZ / main: [5b6df7fb2a](https://github.com/the-static-collective/planZ/commit/5b6df7fb2a3a0c57d0fff8381108589ec2765a94) → [6f24230fa6](https://github.com/the-static-collective/planZ/commit/6f24230fa617182b073c8d4806959eceb39cd825)
+* **↪ head** revival / main: [af1e00c24e](https://github.com/the-static-collective/revival/commit/af1e00c24e3d7c6eb6b1ac39ef59bf894e2385fd) → [19de96625d](https://github.com/the-static-collective/revival/commit/19de96625d9279c19575c0c72cd96610ee2848a5)
+* **↪ head** What-is-the-static-collective- / main: [f1c3795263](https://github.com/the-static-collective/What-is-the-static-collective-/commit/f1c379526353e7ef820b8ffb5bb063eebb3635c3) → [c674695906](https://github.com/the-static-collective/What-is-the-static-collective-/commit/c67469590661b3de11e164b7c15c03dd5e70f2c7)
+* **↪ head** WITNESS / genesis/community-audio-bible-001: [9644f24628](https://github.com/the-static-collective/WITNESS/commit/9644f24628b705bc405a03bbd80cc26e8b5e01f0) → [22e8fb3c2d](https://github.com/the-static-collective/WITNESS/commit/22e8fb3c2d8725cf0a5414ce4cfac08f5421eae9)
 
 ## Open pull-request set
 
-* **+ open PR** [HUMKIN #168 — CATALOG GRAPH 001 + predictive radio clock: safe experimental foundations](https://github.com/the-static-collective/HUMKIN/pull/168)
-* **+ open PR** [HUMKIN #177 — TOWER Cloud Autopilot: prepare published remote music without local masters](https://github.com/the-static-collective/HUMKIN/pull/177)
-* **+ open PR** [HUMKIN #178 — Living Receiver 002: service-owned radio and continuous-listening proof (isolated Android preview)](https://github.com/the-static-collective/HUMKIN/pull/178)
+* **+ open PR** [BananaSpork #33 — POSSIBILITY-ENGINE-001 — compose consented capacities into a missing-bridge question](https://github.com/the-static-collective/BananaSpork/pull/33)
+* **+ open PR** [fellowSHIP #1 — Commons 001: secure shared church rooms and task handoffs](https://github.com/the-static-collective/fellowSHIP/pull/1)
+* **+ open PR** [full-measure-world-layer #58 — Full Measure: receive PACT human-witness consequence packets as review-only candidates](https://github.com/the-static-collective/full-measure-world-layer/pull/58)
+* **+ open PR** [full-measure-world-layer #59 — Full Measure: read-only return lens for WITNESS community Bible recordings](https://github.com/the-static-collective/full-measure-world-layer/pull/59)
+* **+ open PR** [HUMKIN #179 — ANDROID RECOVERY 001 — canonical classic native app + Android 11 launch proof](https://github.com/the-static-collective/HUMKIN/pull/179)
+* **+ open PR** [HUMKIN #180 — ANDROID TOWER 001 — real native HLS as opt-in classic radio mode](https://github.com/the-static-collective/HUMKIN/pull/180)
+* **− open-set PR** [HUMKIN #177 — TOWER Cloud Autopilot: prepare published remote music without local masters](https://github.com/the-static-collective/HUMKIN/pull/177)
 
 The machine-readable companion is [delta.json](delta.json).
 For current status, follow the project source; DELTA is a witness of movement,

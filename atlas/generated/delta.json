@@ -1,143 +1,193 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-19T16:32:54+00:00",
-  "to_captured_at": "2026-11-20T16:08:38+00:00",
-  "added_repositories": [],
+  "from_captured_at": "2026-11-20T16:08:38+00:00",
+  "to_captured_at": "2026-11-21T15:20:44+00:00",
+  "added_repositories": [
+    "fellowSHIP"
+  ],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "GHoT",
-      "branch": "continuity/one-garden-pulse-001-20261119",
-      "sha": "d60f4032266ce534eb6d5c2d71194a6ef954bac1"
+      "repository": "BananaSpork",
+      "branch": "experiment/possibility-engine-001-20261120",
+      "sha": "ccbe2a4731444f4ff3aed744050e208bad55ec7b"
     },
     {
-      "repository": "GHoT",
-      "branch": "feature/garden-router-reentry-20261119",
-      "sha": "368bb29a921e43c717d21c8f280d044752d5f3d3"
+      "repository": "fellowSHIP",
+      "branch": "feat/commons-foundation-001",
+      "sha": "230b06f06418e165f85628c21fa9e55b0b2585ca"
     },
     {
-      "repository": "GHoT",
-      "branch": "fix/garden-windows-scheduler-20261119",
-      "sha": "4f674519f433620378b6d2270a9b443bd5b26797"
+      "repository": "fellowSHIP",
+      "branch": "main",
+      "sha": "c98a35632bb4b5f751afd4a10a07d2ed15965656"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "docs/continuity-pilot-001-20261119",
-      "sha": "4d581d28b3f6ea27d8096f6e13cd00a48977051b"
+      "repository": "full-measure-world-layer",
+      "branch": "integration/pact-human-witness-review-001",
+      "sha": "cb0cff3c63df41c98d3ce745f9703db54b162b59"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "feat/cloud-autopilot-shared-program-lab-20261119",
-      "sha": "532c297e3418d730e6f2f4069507bdad0ce1a242"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "feat/fmstudio-native-skinable-receiver-20261119",
-      "sha": "5ee715f7ddca6aec44f53f3a168f06d2f5059b65"
+      "repository": "full-measure-world-layer",
+      "branch": "integration/witness-community-audio-bible-001",
+      "sha": "cb2a6c8ed08a0bc77e0db850b3592f73e327d7b6"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/gambits-daily-cloud-program-review-20261119",
-      "sha": "ec1d648610f0ab36d224890b22a7b56577e9eafd"
+      "branch": "experiment/night-shift-aircheck-001",
+      "sha": "52453351d653c78dd4dd998f9dce33c28b62c3ed"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/orchard-gambit-progression-workbench-20261119",
-      "sha": "035df1d741e97bd2269331cdf091aed7512f9af9"
+      "branch": "feat/acer-tower-catalog-online-001",
+      "sha": "1233deb051ade368fb84ec1720d8634f1ae3fd96"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/reservoir-delay-and-windows-stay-awake-20261119",
-      "sha": "f9a8be4ce449d36baaf70ab7423326305e033f22"
+      "branch": "feat/cloud-house-publish-action-005",
+      "sha": "5db2e801ade54c5baaeb2e8b9a3c09169064797d"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/tower-autopilot-remote-media-20261120",
-      "sha": "c14f8b0d258dea9ab2b4aee8d926527c39f8bc8d"
+      "branch": "feat/night-shift-40-song-house-004",
+      "sha": "89be0448e8a0ed8b77de44031a71bc4ad9d3dc96"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/tower-batch-programs-20261119",
-      "sha": "571f935de2656e0c9545571405533fcce0b1855f"
+      "branch": "feat/night-shift-house-003",
+      "sha": "2490a5ac2f0f45ae90797c63c48fd14ce5525bca"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/tower-cloud-program-handoff-20261119",
-      "sha": "90fbe150d5507d2a03b8cad8f34d8a93a8c9a4ae"
+      "branch": "feat/night-shift-one-tap-002",
+      "sha": "327d89801ea51f07166b689d887c2d29c5705051"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/catalog-graph-guardrails-predictive-radio-20261119",
-      "sha": "62e7ef0f0573f4fad39ff500edeed35948c3356a"
+      "branch": "feature/android-native-tower-hls-20261120",
+      "sha": "b779d558019c968476d9ef8a912ee2cd46a6bd00"
     },
     {
       "repository": "HUMKIN",
-      "branch": "fix/tower-live-resume-and-track-editor-20261119",
-      "sha": "f0ffd64bb4acf9fac9357679986e6ea1cc554d90"
+      "branch": "feature/save-the-hour-cards-001",
+      "sha": "c0158707ca3f3828ba7a7313a1ecf1f3c8cb9f3e"
     },
     {
       "repository": "HUMKIN",
-      "branch": "review/living-receiver-service-20261120",
-      "sha": "691b67437f06bfa26231561db6aabab6788bb1b7"
+      "branch": "fix/night-shift-hls-short-final-segment-007",
+      "sha": "b7ce875d8d048386e316c1a82ba510ca004935ea"
     },
     {
-      "repository": "MOTIF",
-      "branch": "experiment/continuity-reentry-001-20261119",
-      "sha": "10067e519ca9414f916d7262be53e1a4a955ff2a"
+      "repository": "HUMKIN",
+      "branch": "fix/night-shift-publisher-install-ffmpeg-006",
+      "sha": "7df92d0d8454c3b30f000b6a7c9209ce16cd5211"
     },
     {
-      "repository": "What-is-the-static-collective-",
-      "branch": "continuity/history-first-entry-20261119",
-      "sha": "313a4f8f37487dc04e4528d2661406b3ff246a66"
+      "repository": "HUMKIN",
+      "branch": "recovery/android-classic-spine-20261120",
+      "sha": "23c6b3bfe14e912387d4d23d76f7acefca8be97e"
     },
     {
-      "repository": "What-is-the-static-collective-",
-      "branch": "continuity/return-loop-001-20261119",
-      "sha": "322cc07e73a78f4ede0a01be0555883ac3c9e562"
+      "repository": "revival",
+      "branch": "integration/scripture-stack-expedition-013",
+      "sha": "fcd4f152dea8aba4739f9bff79ae55857e1cd18d"
+    },
+    {
+      "repository": "WITNESS",
+      "branch": "feature/free-witness-expedition-001",
+      "sha": "4861d075c592a707f947cbcb98afc506fa48a5e7"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "GHoT",
-      "branch": "main",
-      "from_sha": "9748a0772c4a13135421c4fa84a9991e0a51e05f",
-      "to_sha": "5894b2c2038470670ea069a966b688c7dc81531d"
-    },
-    {
       "repository": "HUMKIN",
       "branch": "main",
-      "from_sha": "5476240fa78a6a7de54c1770731253044439c43d",
-      "to_sha": "d1ded537cae3c6e81c159e6a4051a48e05b1d6f2"
+      "from_sha": "d1ded537cae3c6e81c159e6a4051a48e05b1d6f2",
+      "to_sha": "f9a325dd19e257cc2f90fef9154d1cd00fee6694"
     },
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "bb1725fd973746c4150fd72e292773bfce798b98",
-      "to_sha": "536b24d4253b8d9b09ee14a977d32060951b410e"
+      "from_sha": "536b24d4253b8d9b09ee14a977d32060951b410e",
+      "to_sha": "81e3b0b95dd8a4a83be2b384080ec82cd4d71147"
     },
     {
-      "repository": "MOTIF",
+      "repository": "planZ",
       "branch": "main",
-      "from_sha": "9593b0b8e1f9e70bfc09e72adc49ee64e567609b",
-      "to_sha": "948beab83113199f5542ee4b914dade0dca96909"
+      "from_sha": "5b6df7fb2a3a0c57d0fff8381108589ec2765a94",
+      "to_sha": "6f24230fa617182b073c8d4806959eceb39cd825"
+    },
+    {
+      "repository": "revival",
+      "branch": "main",
+      "from_sha": "af1e00c24e3d7c6eb6b1ac39ef59bf894e2385fd",
+      "to_sha": "19de96625d9279c19575c0c72cd96610ee2848a5"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "cf106bee484386be7ac1090e4817b82d253d28aa",
-      "to_sha": "f1c379526353e7ef820b8ffb5bb063eebb3635c3"
+      "from_sha": "f1c379526353e7ef820b8ffb5bb063eebb3635c3",
+      "to_sha": "c67469590661b3de11e164b7c15c03dd5e70f2c7"
+    },
+    {
+      "repository": "WITNESS",
+      "branch": "genesis/community-audio-bible-001",
+      "from_sha": "9644f24628b705bc405a03bbd80cc26e8b5e01f0",
+      "to_sha": "22e8fb3c2d8725cf0a5414ce4cfac08f5421eae9"
     }
   ],
   "opened_prs": [
     {
-      "repository": "HUMKIN",
-      "number": 168,
-      "title": "CATALOG GRAPH 001 + predictive radio clock: safe experimental foundations",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/168",
-      "head_branch": "feature/catalog-graph-guardrails-predictive-radio-20261119",
+      "repository": "BananaSpork",
+      "number": 33,
+      "title": "POSSIBILITY-ENGINE-001 — compose consented capacities into a missing-bridge question",
+      "url": "https://github.com/the-static-collective/BananaSpork/pull/33",
+      "head_branch": "experiment/possibility-engine-001-20261120",
       "base_branch": "main"
     },
+    {
+      "repository": "fellowSHIP",
+      "number": 1,
+      "title": "Commons 001: secure shared church rooms and task handoffs",
+      "url": "https://github.com/the-static-collective/fellowSHIP/pull/1",
+      "head_branch": "feat/commons-foundation-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "full-measure-world-layer",
+      "number": 58,
+      "title": "Full Measure: receive PACT human-witness consequence packets as review-only candidates",
+      "url": "https://github.com/the-static-collective/full-measure-world-layer/pull/58",
+      "head_branch": "integration/pact-human-witness-review-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "full-measure-world-layer",
+      "number": 59,
+      "title": "Full Measure: read-only return lens for WITNESS community Bible recordings",
+      "url": "https://github.com/the-static-collective/full-measure-world-layer/pull/59",
+      "head_branch": "integration/witness-community-audio-bible-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "HUMKIN",
+      "number": 179,
+      "title": "ANDROID RECOVERY 001 — canonical classic native app + Android 11 launch proof",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/179",
+      "head_branch": "recovery/android-classic-spine-20261120",
+      "base_branch": "main"
+    },
+    {
+      "repository": "HUMKIN",
+      "number": 180,
+      "title": "ANDROID TOWER 001 — real native HLS as opt-in classic radio mode",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/180",
+      "head_branch": "feature/android-native-tower-hls-20261120",
+      "base_branch": "recovery/android-classic-spine-20261120"
+    }
+  ],
+  "left_open_prs": [
     {
       "repository": "HUMKIN",
       "number": 177,
@@ -145,15 +195,6 @@
       "url": "https://github.com/the-static-collective/HUMKIN/pull/177",
       "head_branch": "feat/tower-autopilot-remote-media-20261120",
       "base_branch": "main"
-    },
-    {
-      "repository": "HUMKIN",
-      "number": 178,
-      "title": "Living Receiver 002: service-owned radio and continuous-listening proof (isolated Android preview)",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/178",
-      "head_branch": "review/living-receiver-service-20261120",
-      "base_branch": "main"
     }
-  ],
-  "left_open_prs": []
+  ]
 }

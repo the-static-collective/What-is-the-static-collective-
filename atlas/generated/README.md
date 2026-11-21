@@ -4,7 +4,7 @@ description: "Dated, source-linked public Git inventory for the Static Collectiv
 
 # Public Git inventory
 
-Captured: **2026-11-20T16:08:38+00:00** · **92 public repositories** · **3145 branch refs** (including defaults) · **1742 open PRs**.
+Captured: **2026-11-21T15:20:44+00:00** · **93 public repositories** · **3163 branch refs** (including defaults) · **1747 open PRs**.
 
 [Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
 
@@ -20,12 +20,12 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | --- | ---: | ---: | ---: |
 | [Origins and witnesses](origins-and-witnesses.md) | 15 | 230 | 72 |
 | [Contracts and memory](contracts-and-memory.md) | 11 | 470 | 136 |
-| [Participation and care](participation-and-care.md) | 13 | 99 | 34 |
+| [Participation and care](participation-and-care.md) | 13 | 103 | 37 |
 | [Songs and stages](songs-and-stages.md) | 5 | 87 | 20 |
 | [Images and appliances](images-and-appliances.md) | 10 | 353 | 155 |
 | [Worlds and inquiry](worlds-and-inquiry.md) | 6 | 134 | 52 |
 | [Operating surfaces](operating-surfaces.md) | 5 | 188 | 138 |
-| [Unplaced public repositories](unplaced.md) | 27 | 1584 | 1135 |
+| [Unplaced public repositories](unplaced.md) | 28 | 1598 | 1137 |
 
 ## All public repositories
 
@@ -38,7 +38,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [autodiscography-vault](https://github.com/the-static-collective/autodiscography-vault) | [Origins and witnesses](origins-and-witnesses.md) | 12 | 5 |
 | [BananaDash](https://github.com/the-static-collective/BananaDash) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [BananaGram-Gram-to-Fork](https://github.com/the-static-collective/BananaGram-Gram-to-Fork) | [Participation and care](participation-and-care.md) | 0 | 0 |
-| [BananaSpork](https://github.com/the-static-collective/BananaSpork) | [Participation and care](participation-and-care.md) | 23 | 10 |
+| [BananaSpork](https://github.com/the-static-collective/BananaSpork) | [Participation and care](participation-and-care.md) | 24 | 11 |
 | [band-runtime](https://github.com/the-static-collective/band-runtime) | [Songs and stages](songs-and-stages.md) | 18 | 2 |
 | [BnanaGram](https://github.com/the-static-collective/BnanaGram) | [Participation and care](participation-and-care.md) | 0 | 0 |
 | [CANNON](https://github.com/the-static-collective/CANNON) | [Unplaced public repositories](unplaced.md) | 92 | 91 |
@@ -49,17 +49,18 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [cUps](https://github.com/the-static-collective/cUps) | [Unplaced public repositories](unplaced.md) | 0 | 0 |
 | [Dogram](https://github.com/the-static-collective/Dogram) | [Contracts and memory](contracts-and-memory.md) | 187 | 58 |
 | [DVOTE](https://github.com/the-static-collective/DVOTE) | [Unplaced public repositories](unplaced.md) | 8 | 6 |
+| [fellowSHIP](https://github.com/the-static-collective/fellowSHIP) | [Unplaced public repositories](unplaced.md) | 1 | 1 |
 | [fogGlass](https://github.com/the-static-collective/fogGlass) | [Operating surfaces](operating-surfaces.md) | 0 | 0 |
 | [founder-node](https://github.com/the-static-collective/founder-node) | [Origins and witnesses](origins-and-witnesses.md) | 4 | 1 |
 | [free-graph](https://github.com/the-static-collective/free-graph) | [Contracts and memory](contracts-and-memory.md) | 8 | 3 |
 | [freeport](https://github.com/the-static-collective/freeport) | [Unplaced public repositories](unplaced.md) | 5 | 4 |
-| [full-measure-world-layer](https://github.com/the-static-collective/full-measure-world-layer) | [Participation and care](participation-and-care.md) | 35 | 18 |
+| [full-measure-world-layer](https://github.com/the-static-collective/full-measure-world-layer) | [Participation and care](participation-and-care.md) | 37 | 20 |
 | [GHoT](https://github.com/the-static-collective/GHoT) | [Unplaced public repositories](unplaced.md) | 136 | 124 |
 | [GOATnote](https://github.com/the-static-collective/GOATnote) | [Origins and witnesses](origins-and-witnesses.md) | 13 | 12 |
 | [GRAFT](https://github.com/the-static-collective/GRAFT) | [Unplaced public repositories](unplaced.md) | 53 | 32 |
 | [GrO](https://github.com/the-static-collective/GrO) | [Unplaced public repositories](unplaced.md) | 32 | 15 |
 | [Human-Witness](https://github.com/the-static-collective/Human-Witness) | [Origins and witnesses](origins-and-witnesses.md) | 4 | 2 |
-| [HUMKIN](https://github.com/the-static-collective/HUMKIN) | [Unplaced public repositories](unplaced.md) | 177 | 23 |
+| [HUMKIN](https://github.com/the-static-collective/HUMKIN) | [Unplaced public repositories](unplaced.md) | 188 | 24 |
 | [iron-lung](https://github.com/the-static-collective/iron-lung) | [Images and appliances](images-and-appliances.md) | 23 | 7 |
 | [JAR-VIS](https://github.com/the-static-collective/JAR-VIS) | [Unplaced public repositories](unplaced.md) | 78 | 46 |
 | [jubilee-authority-kit](https://github.com/the-static-collective/jubilee-authority-kit) | [Contracts and memory](contracts-and-memory.md) | 4 | 0 |
@@ -86,7 +87,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [reCURVrePAIR](https://github.com/the-static-collective/reCURVrePAIR) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [reLATTE](https://github.com/the-static-collective/reLATTE) | [Unplaced public repositories](unplaced.md) | 175 | 129 |
 | [reMIX-reCURVrePAIR](https://github.com/the-static-collective/reMIX-reCURVrePAIR) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
-| [revival](https://github.com/the-static-collective/revival) | [Participation and care](participation-and-care.md) | 16 | 3 |
+| [revival](https://github.com/the-static-collective/revival) | [Participation and care](participation-and-care.md) | 17 | 3 |
 | [ROroomOM](https://github.com/the-static-collective/ROroomOM) | [Worlds and inquiry](worlds-and-inquiry.md) | 18 | 16 |
 | [SEAMforge](https://github.com/the-static-collective/SEAMforge) | [Images and appliances](images-and-appliances.md) | 0 | 0 |
 | [seedforge](https://github.com/the-static-collective/seedforge) | [Participation and care](participation-and-care.md) | 0 | 0 |
@@ -121,7 +122,7 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [vidmage](https://github.com/the-static-collective/vidmage) | [Unplaced public repositories](unplaced.md) | 19 | 19 |
 | [webZ](https://github.com/the-static-collective/webZ) | [Unplaced public repositories](unplaced.md) | 238 | 170 |
 | [What-is-the-static-collective-](https://github.com/the-static-collective/What-is-the-static-collective-) | [Origins and witnesses](origins-and-witnesses.md) | 84 | 22 |
-| [WITNESS](https://github.com/the-static-collective/WITNESS) | [Unplaced public repositories](unplaced.md) | 2 | 1 |
+| [WITNESS](https://github.com/the-static-collective/WITNESS) | [Unplaced public repositories](unplaced.md) | 3 | 1 |
 | [WORLDSEED](https://github.com/the-static-collective/WORLDSEED) | [Worlds and inquiry](worlds-and-inquiry.md) | 9 | 7 |
 
 ## Refresh contract

@@ -246,6 +246,24 @@ Default: `main` · other refs: 8 · open PRs: 6
 | [experiment/threshold-shelf-receipts-001](https://github.com/the-static-collective/DVOTE/tree/experiment/threshold-shelf-receipts-001) | [9a2a45db41](https://github.com/the-static-collective/DVOTE/commit/9a2a45db41039dfc952bcf8d2d849aa487ed0da0) | [open PR #5](https://github.com/the-static-collective/DVOTE/pull/5) |
 | [feat/door-packet-001](https://github.com/the-static-collective/DVOTE/tree/feat/door-packet-001) | [dae5441582](https://github.com/the-static-collective/DVOTE/commit/dae5441582a4d475b5426991c3882853bc17dadd) | [open PR #8](https://github.com/the-static-collective/DVOTE/pull/8) |
 
+## fellowSHIP
+
+[Repository](https://github.com/the-static-collective/fellowSHIP) · [Branches](https://github.com/the-static-collective/fellowSHIP/branches) · [Pull requests](https://github.com/the-static-collective/fellowSHIP/pulls)
+
+Default: `main` · other refs: 1 · open PRs: 1
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#1](https://github.com/the-static-collective/fellowSHIP/pull/1) | Commons 001: secure shared church rooms and task handoffs | `feat/commons-foundation-001` → `main` | 2026-11-21 |
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [feat/commons-foundation-001](https://github.com/the-static-collective/fellowSHIP/tree/feat/commons-foundation-001) | [230b06f064](https://github.com/the-static-collective/fellowSHIP/commit/230b06f06418e165f85628c21fa9e55b0b2585ca) | [open PR #1](https://github.com/the-static-collective/fellowSHIP/pull/1) |
+
 ## freeport
 
 [Repository](https://github.com/the-static-collective/freeport) · [Branches](https://github.com/the-static-collective/freeport/branches) · [Pull requests](https://github.com/the-static-collective/freeport/pulls)
@@ -715,14 +733,15 @@ Default: `main` · other refs: 32 · open PRs: 15
 
 [Repository](https://github.com/the-static-collective/HUMKIN) · [Branches](https://github.com/the-static-collective/HUMKIN/branches) · [Pull requests](https://github.com/the-static-collective/HUMKIN/pulls)
 
-Default: `main` · other refs: 177 · open PRs: 23
+Default: `main` · other refs: 188 · open PRs: 24
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#180](https://github.com/the-static-collective/HUMKIN/pull/180) | ANDROID TOWER 001 — real native HLS as opt-in classic radio mode | `feature/android-native-tower-hls-20261120` → `recovery/android-classic-spine-20261120` | 2026-11-20 |
+| [#179](https://github.com/the-static-collective/HUMKIN/pull/179) | ANDROID RECOVERY 001 — canonical classic native app + Android 11 launch proof | `recovery/android-classic-spine-20261120` → `main` | 2026-11-20 |
 | [#178](https://github.com/the-static-collective/HUMKIN/pull/178) | Living Receiver 002: service-owned radio and continuous-listening proof (isolated Android preview) | `review/living-receiver-service-20261120` → `main` | 2026-11-20 |
-| [#177](https://github.com/the-static-collective/HUMKIN/pull/177) | TOWER Cloud Autopilot: prepare published remote music without local masters | `feat/tower-autopilot-remote-media-20261120` → `main` | 2026-11-20 |
 | [#168](https://github.com/the-static-collective/HUMKIN/pull/168) | CATALOG GRAPH 001 + predictive radio clock: safe experimental foundations | `feature/catalog-graph-guardrails-predictive-radio-20261119` → `main` | 2026-11-19 |
 | [#161](https://github.com/the-static-collective/HUMKIN/pull/161) | INTEGRATION TRAIN 003 · Living Relay + HLS lab + real V20 frequency | `integration/living-hls-v20-bugtest-20261118` → `integration/radio-tower-council-20261118` | 2026-11-19 |
 | [#160](https://github.com/the-static-collective/HUMKIN/pull/160) | AUTO DISCO V20 RADIO 001 — independent production-only frequency on the dial | `feature/autodisco-v20-real-dial-station` → `integration/radio-tower-council-20261118` | 2026-11-19 |
@@ -760,9 +779,11 @@ Default: `main` · other refs: 177 · open PRs: 23
 | [experiment/fellowship-dec4-possibility-engine](https://github.com/the-static-collective/HUMKIN/tree/experiment/fellowship-dec4-possibility-engine) | [3002f1b8cd](https://github.com/the-static-collective/HUMKIN/commit/3002f1b8cd8a0b67105f3a593eafadf259bd3c0d) | [open PR #13](https://github.com/the-static-collective/HUMKIN/pull/13) |
 | [experiment/humkin-listener-receptacle-001](https://github.com/the-static-collective/HUMKIN/tree/experiment/humkin-listener-receptacle-001) | [be316936bd](https://github.com/the-static-collective/HUMKIN/commit/be316936bdbc987d8eeedb311f7960ffa4eea8f7) | Retained ref; disposition unverified |
 | [experiment/mesh-radio-linkblocks-001-20261119](https://github.com/the-static-collective/HUMKIN/tree/experiment/mesh-radio-linkblocks-001-20261119) | [ebde702447](https://github.com/the-static-collective/HUMKIN/commit/ebde7024479d53937fe97cdbac18f1edae6efbcf) | Retained ref; disposition unverified |
+| [experiment/night-shift-aircheck-001](https://github.com/the-static-collective/HUMKIN/tree/experiment/night-shift-aircheck-001) | [52453351d6](https://github.com/the-static-collective/HUMKIN/commit/52453351d653c78dd4dd998f9dce33c28b62c3ed) | Retained ref; disposition unverified |
 | [experiment/orchard-graft-tape-001](https://github.com/the-static-collective/HUMKIN/tree/experiment/orchard-graft-tape-001) | [242e58e78f](https://github.com/the-static-collective/HUMKIN/commit/242e58e78f3ace90264507f36f66486fc76ffe81) | [open PR #110](https://github.com/the-static-collective/HUMKIN/pull/110) |
 | [experiment/outpost-directed-loop-001](https://github.com/the-static-collective/HUMKIN/tree/experiment/outpost-directed-loop-001) | [4fb6fef425](https://github.com/the-static-collective/HUMKIN/commit/4fb6fef4250352280cf110026ec73d17c492eec6) | [open PR #112](https://github.com/the-static-collective/HUMKIN/pull/112) |
 | [experiment/skill-fractal-kernel-001](https://github.com/the-static-collective/HUMKIN/tree/experiment/skill-fractal-kernel-001) | [d3b42bdf30](https://github.com/the-static-collective/HUMKIN/commit/d3b42bdf30418ca3f97a5be84aafb946fb6ca630) | [open PR #108](https://github.com/the-static-collective/HUMKIN/pull/108) |
+| [feat/acer-tower-catalog-online-001](https://github.com/the-static-collective/HUMKIN/tree/feat/acer-tower-catalog-online-001) | [1233deb051](https://github.com/the-static-collective/HUMKIN/commit/1233deb051ade368fb84ec1720d8634f1ae3fd96) | Retained ref; disposition unverified |
 | [feat/android-027-radio-rebel-skin](https://github.com/the-static-collective/HUMKIN/tree/feat/android-027-radio-rebel-skin) | [a3bd2eb580](https://github.com/the-static-collective/HUMKIN/commit/a3bd2eb58065641862f2fd8a8f8199f963888290) | Retained ref; disposition unverified |
 | [feat/android-028-living-virtual-tuner](https://github.com/the-static-collective/HUMKIN/tree/feat/android-028-living-virtual-tuner) | [a428731ab3](https://github.com/the-static-collective/HUMKIN/commit/a428731ab3f06623714d29291c1ead9016443f2d) | Retained ref; disposition unverified |
 | [feat/android-031-sliced-responsive-hardware](https://github.com/the-static-collective/HUMKIN/tree/feat/android-031-sliced-responsive-hardware) | [435cffe539](https://github.com/the-static-collective/HUMKIN/commit/435cffe539c8112eaf647ebc220221ef5b42f86a) | Retained ref; disposition unverified |
@@ -780,6 +801,7 @@ Default: `main` · other refs: 177 · open PRs: 23
 | [feat/bumper-brain-robot-desk-20261116](https://github.com/the-static-collective/HUMKIN/tree/feat/bumper-brain-robot-desk-20261116) | [37d9a037a5](https://github.com/the-static-collective/HUMKIN/commit/37d9a037a5cc8828d235173c6a5b579e4f87af1a) | Retained ref; disposition unverified |
 | [feat/bumper-cycle-shuffle-001](https://github.com/the-static-collective/HUMKIN/tree/feat/bumper-cycle-shuffle-001) | [2278ae31bd](https://github.com/the-static-collective/HUMKIN/commit/2278ae31bdcf4666a3002ef8fced654d86550cc4) | Retained ref; disposition unverified |
 | [feat/cloud-autopilot-shared-program-lab-20261119](https://github.com/the-static-collective/HUMKIN/tree/feat/cloud-autopilot-shared-program-lab-20261119) | [532c297e34](https://github.com/the-static-collective/HUMKIN/commit/532c297e3418d730e6f2f4069507bdad0ce1a242) | Retained ref; disposition unverified |
+| [feat/cloud-house-publish-action-005](https://github.com/the-static-collective/HUMKIN/tree/feat/cloud-house-publish-action-005) | [5db2e801ad](https://github.com/the-static-collective/HUMKIN/commit/5db2e801ade54c5baaeb2e8b9a3c09169064797d) | Retained ref; disposition unverified |
 | [feat/continuous-radio-car-2026-11-13](https://github.com/the-static-collective/HUMKIN/tree/feat/continuous-radio-car-2026-11-13) | [ffb2614f9d](https://github.com/the-static-collective/HUMKIN/commit/ffb2614f9d122bc853ad0900c6c7ced46d2162ae) | Retained ref; disposition unverified |
 | [feat/distribution-station-2026-11-13](https://github.com/the-static-collective/HUMKIN/tree/feat/distribution-station-2026-11-13) | [c8484a2317](https://github.com/the-static-collective/HUMKIN/commit/c8484a23171b78a4876efad46d74916137277fcc) | Retained ref; disposition unverified |
 | [feat/fm-add-everywhere-near-you-7](https://github.com/the-static-collective/HUMKIN/tree/feat/fm-add-everywhere-near-you-7) | [b277379176](https://github.com/the-static-collective/HUMKIN/commit/b277379176c589cc0b0337db277e325dfd5ea470) | Retained ref; disposition unverified |
@@ -802,6 +824,9 @@ Default: `main` · other refs: 177 · open PRs: 23
 | [feat/living-relay-001](https://github.com/the-static-collective/HUMKIN/tree/feat/living-relay-001) | [e6ad613308](https://github.com/the-static-collective/HUMKIN/commit/e6ad613308ef3754ec1e15961aeba6893fe350a4) | [open PR #135](https://github.com/the-static-collective/HUMKIN/pull/135) |
 | [feat/long-wave-background-stream-001](https://github.com/the-static-collective/HUMKIN/tree/feat/long-wave-background-stream-001) | [79e1c11972](https://github.com/the-static-collective/HUMKIN/commit/79e1c1197223960004929103c8bfa599a65659d0) | Retained ref; disposition unverified |
 | [feat/native-android-radio-001](https://github.com/the-static-collective/HUMKIN/tree/feat/native-android-radio-001) | [8c16e1a6e4](https://github.com/the-static-collective/HUMKIN/commit/8c16e1a6e46adb045f92d9dc16c77ad80c09d1e4) | [open PR #56](https://github.com/the-static-collective/HUMKIN/pull/56) |
+| [feat/night-shift-40-song-house-004](https://github.com/the-static-collective/HUMKIN/tree/feat/night-shift-40-song-house-004) | [89be0448e8](https://github.com/the-static-collective/HUMKIN/commit/89be0448e8a0ed8b77de44031a71bc4ad9d3dc96) | Retained ref; disposition unverified |
+| [feat/night-shift-house-003](https://github.com/the-static-collective/HUMKIN/tree/feat/night-shift-house-003) | [2490a5ac2f](https://github.com/the-static-collective/HUMKIN/commit/2490a5ac2f0f45ae90797c63c48fd14ce5525bca) | Retained ref; disposition unverified |
+| [feat/night-shift-one-tap-002](https://github.com/the-static-collective/HUMKIN/tree/feat/night-shift-one-tap-002) | [327d89801e](https://github.com/the-static-collective/HUMKIN/commit/327d89801ea51f07166b689d887c2d29c5705051) | Retained ref; disposition unverified |
 | [feat/orchard-001-listener-world](https://github.com/the-static-collective/HUMKIN/tree/feat/orchard-001-listener-world) | [874df5e87a](https://github.com/the-static-collective/HUMKIN/commit/874df5e87aee5d0c8f67a77ffa9be094c391715e) | Retained ref; disposition unverified |
 | [feat/orchard-gambit-progression-workbench-20261119](https://github.com/the-static-collective/HUMKIN/tree/feat/orchard-gambit-progression-workbench-20261119) | [035df1d741](https://github.com/the-static-collective/HUMKIN/commit/035df1d741e97bd2269331cdf091aed7512f9af9) | Retained ref; disposition unverified |
 | [feat/orchard-network-004](https://github.com/the-static-collective/HUMKIN/tree/feat/orchard-network-004) | [9ce1211289](https://github.com/the-static-collective/HUMKIN/commit/9ce1211289b279db3d3d58fef809a529d1ab31f5) | Retained ref; disposition unverified |
@@ -819,7 +844,7 @@ Default: `main` · other refs: 177 · open PRs: 23
 | [feat/signal-station-seeds-002](https://github.com/the-static-collective/HUMKIN/tree/feat/signal-station-seeds-002) | [038056febb](https://github.com/the-static-collective/HUMKIN/commit/038056febb8cb90e33d21554f95595023a82fb9d) | Retained ref; disposition unverified |
 | [feat/top42-record-league-001](https://github.com/the-static-collective/HUMKIN/tree/feat/top42-record-league-001) | [1b2d1e6b61](https://github.com/the-static-collective/HUMKIN/commit/1b2d1e6b6125915523c1115ce54f2913b4b8c06d) | Retained ref; disposition unverified |
 | [feat/top42-request-beacons-001](https://github.com/the-static-collective/HUMKIN/tree/feat/top42-request-beacons-001) | [ac6a4b909f](https://github.com/the-static-collective/HUMKIN/commit/ac6a4b909f97642b26fb569586c9396a748f1425) | Retained ref; disposition unverified |
-| [feat/tower-autopilot-remote-media-20261120](https://github.com/the-static-collective/HUMKIN/tree/feat/tower-autopilot-remote-media-20261120) | [c14f8b0d25](https://github.com/the-static-collective/HUMKIN/commit/c14f8b0d258dea9ab2b4aee8d926527c39f8bc8d) | [open PR #177](https://github.com/the-static-collective/HUMKIN/pull/177) |
+| [feat/tower-autopilot-remote-media-20261120](https://github.com/the-static-collective/HUMKIN/tree/feat/tower-autopilot-remote-media-20261120) | [c14f8b0d25](https://github.com/the-static-collective/HUMKIN/commit/c14f8b0d258dea9ab2b4aee8d926527c39f8bc8d) | Retained ref; disposition unverified |
 | [feat/tower-batch-programs-20261119](https://github.com/the-static-collective/HUMKIN/tree/feat/tower-batch-programs-20261119) | [571f935de2](https://github.com/the-static-collective/HUMKIN/commit/571f935de2656e0c9545571405533fcce0b1855f) | Retained ref; disposition unverified |
 | [feat/tower-cloud-program-handoff-20261119](https://github.com/the-static-collective/HUMKIN/tree/feat/tower-cloud-program-handoff-20261119) | [90fbe150d5](https://github.com/the-static-collective/HUMKIN/commit/90fbe150d5507d2a03b8cad8f34d8a93a8c9a4ae) | Retained ref; disposition unverified |
 | [feat/upload-designated-singles-20261116](https://github.com/the-static-collective/HUMKIN/tree/feat/upload-designated-singles-20261116) | [1dfe31b8e7](https://github.com/the-static-collective/HUMKIN/commit/1dfe31b8e72e9d7df6f9052e03ee0b75a01fc980) | Retained ref; disposition unverified |
@@ -827,6 +852,7 @@ Default: `main` · other refs: 177 · open PRs: 23
 | [feature/acer-tower-now-playing](https://github.com/the-static-collective/HUMKIN/tree/feature/acer-tower-now-playing) | [d70a4a030e](https://github.com/the-static-collective/HUMKIN/commit/d70a4a030ea6198b5f52f7245fd5ba157d0428d9) | Retained ref; disposition unverified |
 | [feature/air-all-field-bumpers-20261115](https://github.com/the-static-collective/HUMKIN/tree/feature/air-all-field-bumpers-20261115) | [c2a94c1bd6](https://github.com/the-static-collective/HUMKIN/commit/c2a94c1bd6db68b6c25f34bb491975ebcaac5a99) | Retained ref; disposition unverified |
 | [feature/air-approved-production-carts-20261115](https://github.com/the-static-collective/HUMKIN/tree/feature/air-approved-production-carts-20261115) | [5d29b0f5ca](https://github.com/the-static-collective/HUMKIN/commit/5d29b0f5caae842a48136346bc7a2dc8ece576f2) | Retained ref; disposition unverified |
+| [feature/android-native-tower-hls-20261120](https://github.com/the-static-collective/HUMKIN/tree/feature/android-native-tower-hls-20261120) | [b779d55801](https://github.com/the-static-collective/HUMKIN/commit/b779d558019c968476d9ef8a912ee2cd46a6bd00) | [open PR #180](https://github.com/the-static-collective/HUMKIN/pull/180) |
 | [feature/autodisco-accident-frequency-001](https://github.com/the-static-collective/HUMKIN/tree/feature/autodisco-accident-frequency-001) | [58193e0891](https://github.com/the-static-collective/HUMKIN/commit/58193e08911741e60e51cce045a78a34a31a99eb) | [open PR #154](https://github.com/the-static-collective/HUMKIN/pull/154) |
 | [feature/autodisco-v20-real-dial-station](https://github.com/the-static-collective/HUMKIN/tree/feature/autodisco-v20-real-dial-station) | [c443310884](https://github.com/the-static-collective/HUMKIN/commit/c443310884fe3ff20eb0e09da8d5161f81af389c) | [open PR #160](https://github.com/the-static-collective/HUMKIN/pull/160) |
 | [feature/bump-it-announcer-20261115](https://github.com/the-static-collective/HUMKIN/tree/feature/bump-it-announcer-20261115) | [a0ce3e6731](https://github.com/the-static-collective/HUMKIN/commit/a0ce3e6731f8fda771ed0c854b9f4d5fb6905945) | Retained ref; disposition unverified |
@@ -879,6 +905,7 @@ Default: `main` · other refs: 177 · open PRs: 23
 | [feature/radio-sync-92bpm-airwave-20261114](https://github.com/the-static-collective/HUMKIN/tree/feature/radio-sync-92bpm-airwave-20261114) | [9d12039fcb](https://github.com/the-static-collective/HUMKIN/commit/9d12039fcbb8a54677d019831bbfcc98062467a5) | Retained ref; disposition unverified |
 | [feature/radio-web-primary-live-001](https://github.com/the-static-collective/HUMKIN/tree/feature/radio-web-primary-live-001) | [0f7fb8cf9e](https://github.com/the-static-collective/HUMKIN/commit/0f7fb8cf9e82f06b1c009e1c7d56e150031b61ca) | Retained ref; disposition unverified |
 | [feature/random-postcard-art](https://github.com/the-static-collective/HUMKIN/tree/feature/random-postcard-art) | [1f30f18751](https://github.com/the-static-collective/HUMKIN/commit/1f30f18751d44cc4fdd84b984911f23859c0bfce) | Retained ref; disposition unverified |
+| [feature/save-the-hour-cards-001](https://github.com/the-static-collective/HUMKIN/tree/feature/save-the-hour-cards-001) | [c0158707ca](https://github.com/the-static-collective/HUMKIN/commit/c0158707ca3f3828ba7a7313a1ecf1f3c8cb9f3e) | Retained ref; disposition unverified |
 | [feature/spotlight-single-into-live-001](https://github.com/the-static-collective/HUMKIN/tree/feature/spotlight-single-into-live-001) | [0fe0488cd0](https://github.com/the-static-collective/HUMKIN/commit/0fe0488cd07443bc8cf8d216f2196584ac2114e2) | Retained ref; disposition unverified |
 | [feature/station-one-live-web-receiver-001](https://github.com/the-static-collective/HUMKIN/tree/feature/station-one-live-web-receiver-001) | [e8dfa4cfd1](https://github.com/the-static-collective/HUMKIN/commit/e8dfa4cfd1b0be402e52717edcb9ceee2c009744) | Retained ref; disposition unverified |
 | [feature/ten-manga-postcards](https://github.com/the-static-collective/HUMKIN/tree/feature/ten-manga-postcards) | [02348ed302](https://github.com/the-static-collective/HUMKIN/commit/02348ed302060521c59ae6f2a9e0a6143f775084) | Retained ref; disposition unverified |
@@ -897,6 +924,8 @@ Default: `main` · other refs: 177 · open PRs: 23
 | [fix/humkin-studio-on-air-clarity-20261115](https://github.com/the-static-collective/HUMKIN/tree/fix/humkin-studio-on-air-clarity-20261115) | [f9794528c4](https://github.com/the-static-collective/HUMKIN/commit/f9794528c43ea1b2f9b6ec46a74c397ce03fb829) | Retained ref; disposition unverified |
 | [fix/iphone-ios14-radio-base-001](https://github.com/the-static-collective/HUMKIN/tree/fix/iphone-ios14-radio-base-001) | [60d144bd63](https://github.com/the-static-collective/HUMKIN/commit/60d144bd630d3c3035599df5e480a41e4aec1591) | Retained ref; disposition unverified |
 | [fix/lumi-radio-bible-scene-count-20261114](https://github.com/the-static-collective/HUMKIN/tree/fix/lumi-radio-bible-scene-count-20261114) | [9af8145dc7](https://github.com/the-static-collective/HUMKIN/commit/9af8145dc7711003534f95bd7cd1f351b91bf9de) | Retained ref; disposition unverified |
+| [fix/night-shift-hls-short-final-segment-007](https://github.com/the-static-collective/HUMKIN/tree/fix/night-shift-hls-short-final-segment-007) | [b7ce875d8d](https://github.com/the-static-collective/HUMKIN/commit/b7ce875d8d048386e316c1a82ba510ca004935ea) | Retained ref; disposition unverified |
+| [fix/night-shift-publisher-install-ffmpeg-006](https://github.com/the-static-collective/HUMKIN/tree/fix/night-shift-publisher-install-ffmpeg-006) | [7df92d0d84](https://github.com/the-static-collective/HUMKIN/commit/7df92d0d8454c3b30f000b6a7c9209ce16cd5211) | Retained ref; disposition unverified |
 | [fix/postcard-buttons-cache-mismatch](https://github.com/the-static-collective/HUMKIN/tree/fix/postcard-buttons-cache-mismatch) | [8cbdaad565](https://github.com/the-static-collective/HUMKIN/commit/8cbdaad5657a4fec42e4f4c43c037837984443f3) | Retained ref; disposition unverified |
 | [fix/r2-domain-dns-ui-clarification-001](https://github.com/the-static-collective/HUMKIN/tree/fix/r2-domain-dns-ui-clarification-001) | [e7dd8c5f42](https://github.com/the-static-collective/HUMKIN/commit/e7dd8c5f42407cfc56a9517529da458aefa66c15) | Retained ref; disposition unverified |
 | [fix/r2-key-check-constraint-002](https://github.com/the-static-collective/HUMKIN/tree/fix/r2-key-check-constraint-002) | [93067c60ef](https://github.com/the-static-collective/HUMKIN/commit/93067c60efd8af543a2a780b18dc5f0a93bf9cb4) | Retained ref; disposition unverified |
@@ -913,6 +942,7 @@ Default: `main` · other refs: 177 · open PRs: 23
 | [integration/radio-signal-train-20261118](https://github.com/the-static-collective/HUMKIN/tree/integration/radio-signal-train-20261118) | [3ea9689173](https://github.com/the-static-collective/HUMKIN/commit/3ea9689173088c76eb41b17823eaef421cc3a63e) | [open PR #158](https://github.com/the-static-collective/HUMKIN/pull/158) |
 | [integration/radio-tower-council-20261118](https://github.com/the-static-collective/HUMKIN/tree/integration/radio-tower-council-20261118) | [e5aa1bc3f0](https://github.com/the-static-collective/HUMKIN/commit/e5aa1bc3f00f7157a0bf57c6362271326697ad5f) | [open PR #159](https://github.com/the-static-collective/HUMKIN/pull/159) |
 | [preview/radio-and-records-season-two](https://github.com/the-static-collective/HUMKIN/tree/preview/radio-and-records-season-two) | [6b64209b70](https://github.com/the-static-collective/HUMKIN/commit/6b64209b70e4aa77da08671774a8d4790bb0e619) | [open PR #151](https://github.com/the-static-collective/HUMKIN/pull/151) |
+| [recovery/android-classic-spine-20261120](https://github.com/the-static-collective/HUMKIN/tree/recovery/android-classic-spine-20261120) | [23c6b3bfe1](https://github.com/the-static-collective/HUMKIN/commit/23c6b3bfe14e912387d4d23d76f7acefca8be97e) | [open PR #179](https://github.com/the-static-collective/HUMKIN/pull/179) |
 | [release/everywhere-near-you-001](https://github.com/the-static-collective/HUMKIN/tree/release/everywhere-near-you-001) | [1db2f6a726](https://github.com/the-static-collective/HUMKIN/commit/1db2f6a726781aa0404670d5b2e26004c1f049f9) | Retained ref; disposition unverified |
 | [review/living-receiver-service-20261120](https://github.com/the-static-collective/HUMKIN/tree/review/living-receiver-service-20261120) | [691b67437f](https://github.com/the-static-collective/HUMKIN/commit/691b67437f06bfa26231561db6aabab6788bb1b7) | [open PR #178](https://github.com/the-static-collective/HUMKIN/pull/178) |
 | [signal-001-compost-editorial-relay-20261118](https://github.com/the-static-collective/HUMKIN/tree/signal-001-compost-editorial-relay-20261118) | [98334b60da](https://github.com/the-static-collective/HUMKIN/commit/98334b60dac93d6f172aa30dba77708a53ca5f94) | [open PR #155](https://github.com/the-static-collective/HUMKIN/pull/155) |
@@ -3080,17 +3110,18 @@ Default: `main` · other refs: 238 · open PRs: 170
 
 [Repository](https://github.com/the-static-collective/WITNESS) · [Branches](https://github.com/the-static-collective/WITNESS/branches) · [Pull requests](https://github.com/the-static-collective/WITNESS/pulls)
 
-Default: `main` · other refs: 2 · open PRs: 1
+Default: `main` · other refs: 3 · open PRs: 1
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
-| [#1](https://github.com/the-static-collective/WITNESS/pull/1) | GENESIS-001: community audio Bible witness layer | `genesis/community-audio-bible-001` → `main` | 2026-09-26 |
+| [#1](https://github.com/the-static-collective/WITNESS/pull/1) | GENESIS-001: community audio Bible witness layer | `genesis/community-audio-bible-001` → `main` | 2026-11-21 |
 
 ### Retained nondefault branches
 
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
-| [genesis/community-audio-bible-001](https://github.com/the-static-collective/WITNESS/tree/genesis/community-audio-bible-001) | [9644f24628](https://github.com/the-static-collective/WITNESS/commit/9644f24628b705bc405a03bbd80cc26e8b5e01f0) | [open PR #1](https://github.com/the-static-collective/WITNESS/pull/1) |
+| [feature/free-witness-expedition-001](https://github.com/the-static-collective/WITNESS/tree/feature/free-witness-expedition-001) | [4861d075c5](https://github.com/the-static-collective/WITNESS/commit/4861d075c592a707f947cbcb98afc506fa48a5e7) | Retained ref; disposition unverified |
+| [genesis/community-audio-bible-001](https://github.com/the-static-collective/WITNESS/tree/genesis/community-audio-bible-001) | [22e8fb3c2d](https://github.com/the-static-collective/WITNESS/commit/22e8fb3c2d8725cf0a5414ce4cfac08f5421eae9) | [open PR #1](https://github.com/the-static-collective/WITNESS/pull/1) |
 | [navigation-aperture-2026-09-27](https://github.com/the-static-collective/WITNESS/tree/navigation-aperture-2026-09-27) | [2d0911bccd](https://github.com/the-static-collective/WITNESS/commit/2d0911bccdb7fb88b2f80d073484e870a78ca3d7) | Retained ref; disposition unverified |

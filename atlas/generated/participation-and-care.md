@@ -59,12 +59,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/BananaSpork) · [Branches](https://github.com/the-static-collective/BananaSpork/branches) · [Pull requests](https://github.com/the-static-collective/BananaSpork/pulls)
 
-Default: `main` · other refs: 23 · open PRs: 10
+Default: `main` · other refs: 24 · open PRs: 11
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#33](https://github.com/the-static-collective/BananaSpork/pull/33) | POSSIBILITY-ENGINE-001 — compose consented capacities into a missing-bridge question | `experiment/possibility-engine-001-20261120` → `main` | 2026-11-20 |
 | [#32](https://github.com/the-static-collective/BananaSpork/pull/32) | NOW-ROUTE 002: authenticated Campfire discovery, RLS proposal and 3-account proof harness | `feat/now-route-002-campfire-auth-discovery` → `main` | 2026-11-04 |
 | [#31](https://github.com/the-static-collective/BananaSpork/pull/31) | Capability passport: Garden First Circle and food access research | `feat/capability-passport-v1` → `main` | 2026-11-04 |
 | [#23](https://github.com/the-static-collective/BananaSpork/pull/23) | FIRST CHAIR 001 — Lu volunteers as first steward; independent second chair remains open | `feat/first-chair-001` → `feat/watch-the-watchmen-001` | 2026-10-26 |
@@ -85,6 +86,7 @@ Default: `main` · other refs: 23 · open PRs: 10
 | [design/help-slip-garden-adapter-001](https://github.com/the-static-collective/BananaSpork/tree/design/help-slip-garden-adapter-001) | [ede5162e34](https://github.com/the-static-collective/BananaSpork/commit/ede5162e34f6eee8223cb5dfb6c82708e3b687b5) | Retained ref; disposition unverified |
 | [experiment/banana-elf-time](https://github.com/the-static-collective/BananaSpork/tree/experiment/banana-elf-time) | [53227ec707](https://github.com/the-static-collective/BananaSpork/commit/53227ec7073204ea53672ec03e0f82b72757c0a2) | Retained ref; disposition unverified |
 | [experiment/circulation-002-native-garden-receiver](https://github.com/the-static-collective/BananaSpork/tree/experiment/circulation-002-native-garden-receiver) | [28e24d7305](https://github.com/the-static-collective/BananaSpork/commit/28e24d730571510d9dc3559ebec547401e626095) | [open PR #18](https://github.com/the-static-collective/BananaSpork/pull/18) |
+| [experiment/possibility-engine-001-20261120](https://github.com/the-static-collective/BananaSpork/tree/experiment/possibility-engine-001-20261120) | [ccbe2a4731](https://github.com/the-static-collective/BananaSpork/commit/ccbe2a4731444f4ff3aed744050e208bad55ec7b) | [open PR #33](https://github.com/the-static-collective/BananaSpork/pull/33) |
 | [feat/1201-door-001](https://github.com/the-static-collective/BananaSpork/tree/feat/1201-door-001) | [22e283460d](https://github.com/the-static-collective/BananaSpork/commit/22e283460d61bbb6a46fa657899affadaaa04484) | Retained ref; disposition unverified |
 | [feat/banana-relay-001](https://github.com/the-static-collective/BananaSpork/tree/feat/banana-relay-001) | [36c3d3cc50](https://github.com/the-static-collective/BananaSpork/commit/36c3d3cc502b5d43bc9287b361d993b152837f6d) | Retained ref; disposition unverified |
 | [feat/campfire-conversation-field-proof-001](https://github.com/the-static-collective/BananaSpork/tree/feat/campfire-conversation-field-proof-001) | [e9c6adb3bd](https://github.com/the-static-collective/BananaSpork/commit/e9c6adb3bda9f24be71c749dc973dc5809f69111) | Retained ref; disposition unverified |
@@ -129,12 +131,14 @@ Default: `main` · other refs: 4 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/full-measure-world-layer) · [Branches](https://github.com/the-static-collective/full-measure-world-layer/branches) · [Pull requests](https://github.com/the-static-collective/full-measure-world-layer/pulls)
 
-Default: `main` · other refs: 35 · open PRs: 18
+Default: `main` · other refs: 37 · open PRs: 20
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#59](https://github.com/the-static-collective/full-measure-world-layer/pull/59) | Full Measure: read-only return lens for WITNESS community Bible recordings | `integration/witness-community-audio-bible-001` → `main` | 2026-11-21 |
+| [#58](https://github.com/the-static-collective/full-measure-world-layer/pull/58) | Full Measure: receive PACT human-witness consequence packets as review-only candidates | `integration/pact-human-witness-review-001` → `main` | 2026-11-21 |
 | [#56](https://github.com/the-static-collective/full-measure-world-layer/pull/56) | STILL HERE × Full Measure — Seven Days of Returning | `practice-room-001` → `main` | 2026-10-26 |
 | [#55](https://github.com/the-static-collective/full-measure-world-layer/pull/55) | POSTAL-CORPS-001: Full Measure receives carrier route proposals without awarding Deeds | `experiment/postal-corps-001-quest-door` → `experiment/field-quest-engine-001` | 2026-10-09 |
 | [#54](https://github.com/the-static-collective/full-measure-world-layer/pull/54) | FIELD QUEST ENGINE-001: physical-test inbox, opt-in Garden quest drafts | `experiment/field-quest-engine-001` → `main` | 2026-10-09 |
@@ -190,6 +194,8 @@ Default: `main` · other refs: 35 · open PRs: 18
 | [feat/grace-walkable-room-005](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/grace-walkable-room-005) | [a8b1689f40](https://github.com/the-static-collective/full-measure-world-layer/commit/a8b1689f40818776cafa924245acf6869838cbc1) | [open PR #38](https://github.com/the-static-collective/full-measure-world-layer/pull/38) |
 | [feat/plenty-001-scarcity-inverter](https://github.com/the-static-collective/full-measure-world-layer/tree/feat/plenty-001-scarcity-inverter) | [fa44f99ea8](https://github.com/the-static-collective/full-measure-world-layer/commit/fa44f99ea82137808c248fe0747e599142d5429f) | [open PR #53](https://github.com/the-static-collective/full-measure-world-layer/pull/53) |
 | [feature/grace-001-worldseed](https://github.com/the-static-collective/full-measure-world-layer/tree/feature/grace-001-worldseed) | [b1eb6b7337](https://github.com/the-static-collective/full-measure-world-layer/commit/b1eb6b7337b535709031df50ead728f8b2e382d4) | [open PR #33](https://github.com/the-static-collective/full-measure-world-layer/pull/33) |
+| [integration/pact-human-witness-review-001](https://github.com/the-static-collective/full-measure-world-layer/tree/integration/pact-human-witness-review-001) | [cb0cff3c63](https://github.com/the-static-collective/full-measure-world-layer/commit/cb0cff3c63df41c98d3ce745f9703db54b162b59) | [open PR #58](https://github.com/the-static-collective/full-measure-world-layer/pull/58) |
+| [integration/witness-community-audio-bible-001](https://github.com/the-static-collective/full-measure-world-layer/tree/integration/witness-community-audio-bible-001) | [cb2a6c8ed0](https://github.com/the-static-collective/full-measure-world-layer/commit/cb2a6c8ed08a0bc77e0db850b3592f73e327d7b6) | [open PR #59](https://github.com/the-static-collective/full-measure-world-layer/pull/59) |
 | [navigation-aperture-2026-09-27](https://github.com/the-static-collective/full-measure-world-layer/tree/navigation-aperture-2026-09-27) | [8abbad653a](https://github.com/the-static-collective/full-measure-world-layer/commit/8abbad653a7c9655490783c723aa11d81eeaa343) | Retained ref; disposition unverified |
 | [practice-room-001](https://github.com/the-static-collective/full-measure-world-layer/tree/practice-room-001) | [e88d5b55d5](https://github.com/the-static-collective/full-measure-world-layer/commit/e88d5b55d58fa4cc5c37f01192a5a4ab400680f7) | [open PR #56](https://github.com/the-static-collective/full-measure-world-layer/pull/56) |
 | [spec/plenty-001-scarcity-inverter](https://github.com/the-static-collective/full-measure-world-layer/tree/spec/plenty-001-scarcity-inverter) | [7ef777cf0f](https://github.com/the-static-collective/full-measure-world-layer/commit/7ef777cf0fa31bd8f4da673f83f89d29d9ade45b) | Retained ref; disposition unverified |
@@ -228,7 +234,7 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/revival) · [Branches](https://github.com/the-static-collective/revival/branches) · [Pull requests](https://github.com/the-static-collective/revival/pulls)
 
-Default: `main` · other refs: 16 · open PRs: 3
+Default: `main` · other refs: 17 · open PRs: 3
 
 ### Open pull requests
 
@@ -246,6 +252,7 @@ Default: `main` · other refs: 16 · open PRs: 3
 | [experiment/revival-inheritance-constellation-016](https://github.com/the-static-collective/revival/tree/experiment/revival-inheritance-constellation-016) | [cc9db9cc8a](https://github.com/the-static-collective/revival/commit/cc9db9cc8a871b0d5ca6594cf712ad5356072a71) | [open PR #16](https://github.com/the-static-collective/revival/pull/16) |
 | [feat/door-packet-001](https://github.com/the-static-collective/revival/tree/feat/door-packet-001) | [47a6ee01c7](https://github.com/the-static-collective/revival/commit/47a6ee01c721ad4eca7f8260e9cb8875bbe37e28) | [open PR #13](https://github.com/the-static-collective/revival/pull/13) |
 | [genesis-001-executable-kernel](https://github.com/the-static-collective/revival/tree/genesis-001-executable-kernel) | [ec5b7c64b1](https://github.com/the-static-collective/revival/commit/ec5b7c64b1472e77a178f34d619cf383e98b9e37) | Retained ref; disposition unverified |
+| [integration/scripture-stack-expedition-013](https://github.com/the-static-collective/revival/tree/integration/scripture-stack-expedition-013) | [fcd4f152de](https://github.com/the-static-collective/revival/commit/fcd4f152dea8aba4739f9bff79ae55857e1cd18d) | Retained ref; disposition unverified |
 | [revival-002-curiosity-compiler](https://github.com/the-static-collective/revival/tree/revival-002-curiosity-compiler) | [5f45217a5e](https://github.com/the-static-collective/revival/commit/5f45217a5e643a0af2b2471d5a7347df7d627dcb) | Retained ref; disposition unverified |
 | [revival-003-choice-surface](https://github.com/the-static-collective/revival/tree/revival-003-choice-surface) | [c0e2fe8a87](https://github.com/the-static-collective/revival/commit/c0e2fe8a872fe40d033046f5d81fc6eaa0cea06b) | Retained ref; disposition unverified |
 | [revival-004-curiosity-room](https://github.com/the-static-collective/revival/tree/revival-004-curiosity-room) | [cbef94c8b5](https://github.com/the-static-collective/revival/commit/cbef94c8b5cd24a091e600768d8f2ae098d0c3a2) | Retained ref; disposition unverified |

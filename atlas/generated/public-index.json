@@ -1156,6 +1156,10 @@
           "sha": "28e24d730571510d9dc3559ebec547401e626095"
         },
         {
+          "name": "experiment/possibility-engine-001-20261120",
+          "sha": "ccbe2a4731444f4ff3aed744050e208bad55ec7b"
+        },
+        {
           "name": "feat/1201-door-001",
           "sha": "22e283460d61bbb6a46fa657899affadaaa04484"
         },
@@ -1233,6 +1237,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 33,
+          "title": "POSSIBILITY-ENGINE-001 — compose consented capacities into a missing-bridge question",
+          "head_branch": "experiment/possibility-engine-001-20261120",
+          "head_sha": "ccbe2a4731444f4ff3aed744050e208bad55ec7b",
+          "head_repo": "the-static-collective/BananaSpork",
+          "base_branch": "main",
+          "updated_at": "2026-11-20T16:28:11Z",
+          "url": "https://github.com/the-static-collective/BananaSpork/pull/33"
+        },
         {
           "number": 32,
           "title": "NOW-ROUTE 002: authenticated Campfire discovery, RLS proposal and 3-account proof harness",
@@ -4363,6 +4377,34 @@
       ]
     },
     {
+      "name": "fellowSHIP",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "feat/commons-foundation-001",
+          "sha": "230b06f06418e165f85628c21fa9e55b0b2585ca"
+        },
+        {
+          "name": "main",
+          "sha": "c98a35632bb4b5f751afd4a10a07d2ed15965656"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 1,
+          "title": "Commons 001: secure shared church rooms and task handoffs",
+          "head_branch": "feat/commons-foundation-001",
+          "head_sha": "230b06f06418e165f85628c21fa9e55b0b2585ca",
+          "head_repo": "the-static-collective/fellowSHIP",
+          "base_branch": "main",
+          "updated_at": "2026-11-21T15:09:50Z",
+          "url": "https://github.com/the-static-collective/fellowSHIP/pull/1"
+        }
+      ]
+    },
+    {
       "name": "fogGlass",
       "visibility": "public",
       "default_branch": "main",
@@ -4700,6 +4742,14 @@
           "sha": "b1eb6b7337b535709031df50ead728f8b2e382d4"
         },
         {
+          "name": "integration/pact-human-witness-review-001",
+          "sha": "cb0cff3c63df41c98d3ce745f9703db54b162b59"
+        },
+        {
+          "name": "integration/witness-community-audio-bible-001",
+          "sha": "cb2a6c8ed08a0bc77e0db850b3592f73e327d7b6"
+        },
+        {
           "name": "main",
           "sha": "93cabb25759093aef4461d2b97ce232da284399c"
         },
@@ -4717,6 +4767,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 59,
+          "title": "Full Measure: read-only return lens for WITNESS community Bible recordings",
+          "head_branch": "integration/witness-community-audio-bible-001",
+          "head_sha": "cb2a6c8ed08a0bc77e0db850b3592f73e327d7b6",
+          "head_repo": "the-static-collective/full-measure-world-layer",
+          "base_branch": "main",
+          "updated_at": "2026-11-21T06:19:59Z",
+          "url": "https://github.com/the-static-collective/full-measure-world-layer/pull/59"
+        },
+        {
+          "number": 58,
+          "title": "Full Measure: receive PACT human-witness consequence packets as review-only candidates",
+          "head_branch": "integration/pact-human-witness-review-001",
+          "head_sha": "cb0cff3c63df41c98d3ce745f9703db54b162b59",
+          "head_repo": "the-static-collective/full-measure-world-layer",
+          "base_branch": "main",
+          "updated_at": "2026-11-21T06:10:27Z",
+          "url": "https://github.com/the-static-collective/full-measure-world-layer/pull/58"
+        },
         {
           "number": 56,
           "title": "STILL HERE × Full Measure — Seven Days of Returning",
@@ -7822,6 +7892,10 @@
           "sha": "ebde7024479d53937fe97cdbac18f1edae6efbcf"
         },
         {
+          "name": "experiment/night-shift-aircheck-001",
+          "sha": "52453351d653c78dd4dd998f9dce33c28b62c3ed"
+        },
+        {
           "name": "experiment/orchard-graft-tape-001",
           "sha": "242e58e78f3ace90264507f36f66486fc76ffe81"
         },
@@ -7832,6 +7906,10 @@
         {
           "name": "experiment/skill-fractal-kernel-001",
           "sha": "d3b42bdf30418ca3f97a5be84aafb946fb6ca630"
+        },
+        {
+          "name": "feat/acer-tower-catalog-online-001",
+          "sha": "1233deb051ade368fb84ec1720d8634f1ae3fd96"
         },
         {
           "name": "feat/android-027-radio-rebel-skin",
@@ -7900,6 +7978,10 @@
         {
           "name": "feat/cloud-autopilot-shared-program-lab-20261119",
           "sha": "532c297e3418d730e6f2f4069507bdad0ce1a242"
+        },
+        {
+          "name": "feat/cloud-house-publish-action-005",
+          "sha": "5db2e801ade54c5baaeb2e8b9a3c09169064797d"
         },
         {
           "name": "feat/continuous-radio-car-2026-11-13",
@@ -7988,6 +8070,18 @@
         {
           "name": "feat/native-android-radio-001",
           "sha": "8c16e1a6e46adb045f92d9dc16c77ad80c09d1e4"
+        },
+        {
+          "name": "feat/night-shift-40-song-house-004",
+          "sha": "89be0448e8a0ed8b77de44031a71bc4ad9d3dc96"
+        },
+        {
+          "name": "feat/night-shift-house-003",
+          "sha": "2490a5ac2f0f45ae90797c63c48fd14ce5525bca"
+        },
+        {
+          "name": "feat/night-shift-one-tap-002",
+          "sha": "327d89801ea51f07166b689d887c2d29c5705051"
         },
         {
           "name": "feat/orchard-001-listener-world",
@@ -8088,6 +8182,10 @@
         {
           "name": "feature/air-approved-production-carts-20261115",
           "sha": "5d29b0f5caae842a48136346bc7a2dc8ece576f2"
+        },
+        {
+          "name": "feature/android-native-tower-hls-20261120",
+          "sha": "b779d558019c968476d9ef8a912ee2cd46a6bd00"
         },
         {
           "name": "feature/autodisco-accident-frequency-001",
@@ -8298,6 +8396,10 @@
           "sha": "1f30f18751d44cc4fdd84b984911f23859c0bfce"
         },
         {
+          "name": "feature/save-the-hour-cards-001",
+          "sha": "c0158707ca3f3828ba7a7313a1ecf1f3c8cb9f3e"
+        },
+        {
           "name": "feature/spotlight-single-into-live-001",
           "sha": "0fe0488cd07443bc8cf8d216f2196584ac2114e2"
         },
@@ -8370,6 +8472,14 @@
           "sha": "9af8145dc7711003534f95bd7cd1f351b91bf9de"
         },
         {
+          "name": "fix/night-shift-hls-short-final-segment-007",
+          "sha": "b7ce875d8d048386e316c1a82ba510ca004935ea"
+        },
+        {
+          "name": "fix/night-shift-publisher-install-ffmpeg-006",
+          "sha": "7df92d0d8454c3b30f000b6a7c9209ce16cd5211"
+        },
+        {
           "name": "fix/postcard-buttons-cache-mismatch",
           "sha": "8cbdaad5657a4fec42e4f4c43c037837984443f3"
         },
@@ -8431,11 +8541,15 @@
         },
         {
           "name": "main",
-          "sha": "d1ded537cae3c6e81c159e6a4051a48e05b1d6f2"
+          "sha": "f9a325dd19e257cc2f90fef9154d1cd00fee6694"
         },
         {
           "name": "preview/radio-and-records-season-two",
           "sha": "6b64209b70e4aa77da08671774a8d4790bb0e619"
+        },
+        {
+          "name": "recovery/android-classic-spine-20261120",
+          "sha": "23c6b3bfe14e912387d4d23d76f7acefca8be97e"
         },
         {
           "name": "release/everywhere-near-you-001",
@@ -8492,6 +8606,26 @@
       ],
       "open_prs": [
         {
+          "number": 180,
+          "title": "ANDROID TOWER 001 — real native HLS as opt-in classic radio mode",
+          "head_branch": "feature/android-native-tower-hls-20261120",
+          "head_sha": "b779d558019c968476d9ef8a912ee2cd46a6bd00",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "recovery/android-classic-spine-20261120",
+          "updated_at": "2026-11-20T16:25:20Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/180"
+        },
+        {
+          "number": 179,
+          "title": "ANDROID RECOVERY 001 — canonical classic native app + Android 11 launch proof",
+          "head_branch": "recovery/android-classic-spine-20261120",
+          "head_sha": "23c6b3bfe14e912387d4d23d76f7acefca8be97e",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-20T16:25:13Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/179"
+        },
+        {
           "number": 178,
           "title": "Living Receiver 002: service-owned radio and continuous-listening proof (isolated Android preview)",
           "head_branch": "review/living-receiver-service-20261120",
@@ -8500,16 +8634,6 @@
           "base_branch": "main",
           "updated_at": "2026-11-20T14:49:34Z",
           "url": "https://github.com/the-static-collective/HUMKIN/pull/178"
-        },
-        {
-          "number": 177,
-          "title": "TOWER Cloud Autopilot: prepare published remote music without local masters",
-          "head_branch": "feat/tower-autopilot-remote-media-20261120",
-          "head_sha": "c14f8b0d258dea9ab2b4aee8d926527c39f8bc8d",
-          "head_repo": "the-static-collective/HUMKIN",
-          "base_branch": "main",
-          "updated_at": "2026-11-20T14:21:07Z",
-          "url": "https://github.com/the-static-collective/HUMKIN/pull/177"
         },
         {
           "number": 168,
@@ -9203,7 +9327,7 @@
         },
         {
           "name": "main",
-          "sha": "536b24d4253b8d9b09ee14a977d32060951b410e"
+          "sha": "81e3b0b95dd8a4a83be2b384080ec82cd4d71147"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -16571,7 +16695,7 @@
         },
         {
           "name": "main",
-          "sha": "5b6df7fb2a3a0c57d0fff8381108589ec2765a94"
+          "sha": "6f24230fa617182b073c8d4806959eceb39cd825"
         },
         {
           "name": "plan/abundent-field-grand-shard-001",
@@ -19285,8 +19409,12 @@
           "sha": "ec5b7c64b1472e77a178f34d619cf383e98b9e37"
         },
         {
+          "name": "integration/scripture-stack-expedition-013",
+          "sha": "fcd4f152dea8aba4739f9bff79ae55857e1cd18d"
+        },
+        {
           "name": "main",
-          "sha": "af1e00c24e3d7c6eb6b1ac39ef59bf894e2385fd"
+          "sha": "19de96625d9279c19575c0c72cd96610ee2848a5"
         },
         {
           "name": "revival-002-curiosity-compiler",
@@ -30432,7 +30560,7 @@
         },
         {
           "name": "main",
-          "sha": "f1c379526353e7ef820b8ffb5bb063eebb3635c3"
+          "sha": "c67469590661b3de11e164b7c15c03dd5e70f2c7"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -30745,8 +30873,12 @@
       "archived": false,
       "branches": [
         {
+          "name": "feature/free-witness-expedition-001",
+          "sha": "4861d075c592a707f947cbcb98afc506fa48a5e7"
+        },
+        {
           "name": "genesis/community-audio-bible-001",
-          "sha": "9644f24628b705bc405a03bbd80cc26e8b5e01f0"
+          "sha": "22e8fb3c2d8725cf0a5414ce4cfac08f5421eae9"
         },
         {
           "name": "main",
@@ -30762,10 +30894,10 @@
           "number": 1,
           "title": "GENESIS-001: community audio Bible witness layer",
           "head_branch": "genesis/community-audio-bible-001",
-          "head_sha": "9644f24628b705bc405a03bbd80cc26e8b5e01f0",
+          "head_sha": "22e8fb3c2d8725cf0a5414ce4cfac08f5421eae9",
           "head_repo": "the-static-collective/WITNESS",
           "base_branch": "main",
-          "updated_at": "2026-09-26T21:29:20Z",
+          "updated_at": "2026-11-21T14:21:36Z",
           "url": "https://github.com/the-static-collective/WITNESS/pull/1"
         }
       ]
@@ -30891,5 +31023,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-20T16:08:38+00:00"
+  "captured_at": "2026-11-21T15:20:44+00:00"
 }
