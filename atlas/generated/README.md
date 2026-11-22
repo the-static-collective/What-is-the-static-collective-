@@ -4,7 +4,7 @@ description: "Dated, source-linked public Git inventory for the Static Collectiv
 
 # Public Git inventory
 
-Captured: **2026-11-21T15:20:44+00:00** · **93 public repositories** · **3163 branch refs** (including defaults) · **1747 open PRs**.
+Captured: **2026-11-22T15:17:18+00:00** · **93 public repositories** · **3181 branch refs** (including defaults) · **1754 open PRs**.
 
 [Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
 
@@ -20,12 +20,12 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | --- | ---: | ---: | ---: |
 | [Origins and witnesses](origins-and-witnesses.md) | 15 | 230 | 72 |
 | [Contracts and memory](contracts-and-memory.md) | 11 | 470 | 136 |
-| [Participation and care](participation-and-care.md) | 13 | 103 | 37 |
+| [Participation and care](participation-and-care.md) | 13 | 105 | 38 |
 | [Songs and stages](songs-and-stages.md) | 5 | 87 | 20 |
 | [Images and appliances](images-and-appliances.md) | 10 | 353 | 155 |
 | [Worlds and inquiry](worlds-and-inquiry.md) | 6 | 134 | 52 |
 | [Operating surfaces](operating-surfaces.md) | 5 | 188 | 138 |
-| [Unplaced public repositories](unplaced.md) | 28 | 1598 | 1137 |
+| [Unplaced public repositories](unplaced.md) | 28 | 1614 | 1143 |
 
 ## All public repositories
 
@@ -49,23 +49,23 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [cUps](https://github.com/the-static-collective/cUps) | [Unplaced public repositories](unplaced.md) | 0 | 0 |
 | [Dogram](https://github.com/the-static-collective/Dogram) | [Contracts and memory](contracts-and-memory.md) | 187 | 58 |
 | [DVOTE](https://github.com/the-static-collective/DVOTE) | [Unplaced public repositories](unplaced.md) | 8 | 6 |
-| [fellowSHIP](https://github.com/the-static-collective/fellowSHIP) | [Unplaced public repositories](unplaced.md) | 1 | 1 |
+| [fellowSHIP](https://github.com/the-static-collective/fellowSHIP) | [Unplaced public repositories](unplaced.md) | 3 | 2 |
 | [fogGlass](https://github.com/the-static-collective/fogGlass) | [Operating surfaces](operating-surfaces.md) | 0 | 0 |
 | [founder-node](https://github.com/the-static-collective/founder-node) | [Origins and witnesses](origins-and-witnesses.md) | 4 | 1 |
 | [free-graph](https://github.com/the-static-collective/free-graph) | [Contracts and memory](contracts-and-memory.md) | 8 | 3 |
-| [freeport](https://github.com/the-static-collective/freeport) | [Unplaced public repositories](unplaced.md) | 5 | 4 |
+| [freeport](https://github.com/the-static-collective/freeport) | [Unplaced public repositories](unplaced.md) | 6 | 5 |
 | [full-measure-world-layer](https://github.com/the-static-collective/full-measure-world-layer) | [Participation and care](participation-and-care.md) | 37 | 20 |
 | [GHoT](https://github.com/the-static-collective/GHoT) | [Unplaced public repositories](unplaced.md) | 136 | 124 |
 | [GOATnote](https://github.com/the-static-collective/GOATnote) | [Origins and witnesses](origins-and-witnesses.md) | 13 | 12 |
 | [GRAFT](https://github.com/the-static-collective/GRAFT) | [Unplaced public repositories](unplaced.md) | 53 | 32 |
 | [GrO](https://github.com/the-static-collective/GrO) | [Unplaced public repositories](unplaced.md) | 32 | 15 |
 | [Human-Witness](https://github.com/the-static-collective/Human-Witness) | [Origins and witnesses](origins-and-witnesses.md) | 4 | 2 |
-| [HUMKIN](https://github.com/the-static-collective/HUMKIN) | [Unplaced public repositories](unplaced.md) | 188 | 24 |
+| [HUMKIN](https://github.com/the-static-collective/HUMKIN) | [Unplaced public repositories](unplaced.md) | 200 | 27 |
 | [iron-lung](https://github.com/the-static-collective/iron-lung) | [Images and appliances](images-and-appliances.md) | 23 | 7 |
 | [JAR-VIS](https://github.com/the-static-collective/JAR-VIS) | [Unplaced public repositories](unplaced.md) | 78 | 46 |
 | [jubilee-authority-kit](https://github.com/the-static-collective/jubilee-authority-kit) | [Contracts and memory](contracts-and-memory.md) | 4 | 0 |
 | [Jubilee-Campfire](https://github.com/the-static-collective/Jubilee-Campfire) | [Participation and care](participation-and-care.md) | 0 | 0 |
-| [Jubilee-Engine-VM](https://github.com/the-static-collective/Jubilee-Engine-VM) | [Participation and care](participation-and-care.md) | 8 | 2 |
+| [Jubilee-Engine-VM](https://github.com/the-static-collective/Jubilee-Engine-VM) | [Participation and care](participation-and-care.md) | 9 | 3 |
 | [Jubilee-treasury](https://github.com/the-static-collective/Jubilee-treasury) | [Unplaced public repositories](unplaced.md) | 42 | 42 |
 | [jublEchat](https://github.com/the-static-collective/jublEchat) | [Songs and stages](songs-and-stages.md) | 4 | 0 |
 | [LampPost](https://github.com/the-static-collective/LampPost) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
@@ -85,9 +85,9 @@ the current branch tip exactly. Otherwise its status is kept separate.
 | [reCOreturn](https://github.com/the-static-collective/reCOreturn) | [Operating surfaces](operating-surfaces.md) | 1 | 0 |
 | [reCURV](https://github.com/the-static-collective/reCURV) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
 | [reCURVrePAIR](https://github.com/the-static-collective/reCURVrePAIR) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
-| [reLATTE](https://github.com/the-static-collective/reLATTE) | [Unplaced public repositories](unplaced.md) | 175 | 129 |
+| [reLATTE](https://github.com/the-static-collective/reLATTE) | [Unplaced public repositories](unplaced.md) | 176 | 130 |
 | [reMIX-reCURVrePAIR](https://github.com/the-static-collective/reMIX-reCURVrePAIR) | [Origins and witnesses](origins-and-witnesses.md) | 0 | 0 |
-| [revival](https://github.com/the-static-collective/revival) | [Participation and care](participation-and-care.md) | 17 | 3 |
+| [revival](https://github.com/the-static-collective/revival) | [Participation and care](participation-and-care.md) | 18 | 3 |
 | [ROroomOM](https://github.com/the-static-collective/ROroomOM) | [Worlds and inquiry](worlds-and-inquiry.md) | 18 | 16 |
 | [SEAMforge](https://github.com/the-static-collective/SEAMforge) | [Images and appliances](images-and-appliances.md) | 0 | 0 |
 | [seedforge](https://github.com/the-static-collective/seedforge) | [Participation and care](participation-and-care.md) | 0 | 0 |

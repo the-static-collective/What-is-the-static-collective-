@@ -4384,22 +4384,40 @@
       "branches": [
         {
           "name": "feat/commons-foundation-001",
-          "sha": "230b06f06418e165f85628c21fa9e55b0b2585ca"
+          "sha": "e6e088febcb9dc324092e80bd76c4adf2d6e7044"
+        },
+        {
+          "name": "gh-pages",
+          "sha": "080b2bbaa3162eb8e45def106b195c2fefc65367"
         },
         {
           "name": "main",
           "sha": "c98a35632bb4b5f751afd4a10a07d2ed15965656"
+        },
+        {
+          "name": "proposal/fellowship-childcare-need-001-20261121",
+          "sha": "a23def66a2b0c1f88f315f6f15edee6f37bf42fa"
         }
       ],
       "open_prs": [
         {
-          "number": 1,
-          "title": "Commons 001: secure shared church rooms and task handoffs",
-          "head_branch": "feat/commons-foundation-001",
-          "head_sha": "230b06f06418e165f85628c21fa9e55b0b2585ca",
+          "number": 2,
+          "title": "FELLOWSHIP-CHILDCARE-001: real childcare need, unfilled and host-gated",
+          "head_branch": "proposal/fellowship-childcare-need-001-20261121",
+          "head_sha": "a23def66a2b0c1f88f315f6f15edee6f37bf42fa",
           "head_repo": "the-static-collective/fellowSHIP",
           "base_branch": "main",
-          "updated_at": "2026-11-21T15:09:50Z",
+          "updated_at": "2026-11-21T18:18:33Z",
+          "url": "https://github.com/the-static-collective/fellowSHIP/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "Commons 001–006: room collaboration, email-ready invitations and Pages host",
+          "head_branch": "feat/commons-foundation-001",
+          "head_sha": "e6e088febcb9dc324092e80bd76c4adf2d6e7044",
+          "head_repo": "the-static-collective/fellowSHIP",
+          "base_branch": "main",
+          "updated_at": "2026-11-21T19:00:43Z",
           "url": "https://github.com/the-static-collective/fellowSHIP/pull/1"
         }
       ]
@@ -4560,11 +4578,25 @@
           "sha": "6ac93e76d85f91469889c71bbb9164b25f3cfd52"
         },
         {
+          "name": "feature/freeport-008-relatte-neon",
+          "sha": "9d47e84ef1c05b503dfa9fca5f559a092ac83c33"
+        },
+        {
           "name": "main",
           "sha": "bfb1e09f42a5dd3863c3f96eea43a73f2d41e40f"
         }
       ],
       "open_prs": [
+        {
+          "number": 6,
+          "title": "FREEPORT 008: Neon review-only signed crossing archive and authority contract",
+          "head_branch": "feature/freeport-008-relatte-neon",
+          "head_sha": "9d47e84ef1c05b503dfa9fca5f559a092ac83c33",
+          "head_repo": "the-static-collective/freeport",
+          "base_branch": "main",
+          "updated_at": "2026-11-21T22:56:01Z",
+          "url": "https://github.com/the-static-collective/freeport/pull/6"
+        },
         {
           "number": 4,
           "title": "FREEPORT 006 — Branch Harbor: two pinned Git futures, native Workbench graft × GHoT probe, sovereign HOLD",
@@ -7860,6 +7892,10 @@
           "sha": "3c3fe8c2fe620881e4521ad472262c7000051523"
         },
         {
+          "name": "codex/cloud-house-android-preview",
+          "sha": "51376941af38476ebae32105803234ee6bef7ef4"
+        },
+        {
           "name": "codex/daily-slice-crossover-pilot",
           "sha": "f7cabeaa4b167bc6ffcf369417d413eb266b24fe"
         },
@@ -7872,6 +7908,10 @@
           "sha": "5986be427453a88333dc3012223b9c26da2b5d1a"
         },
         {
+          "name": "codex/radio-house-station-seed",
+          "sha": "2df6862247aa55031149af82e0535d3faf9206e1"
+        },
+        {
           "name": "design/approved-paper-manga-look",
           "sha": "ae552cdbeaed9fe0a44b66f206a9759bbf0e145f"
         },
@@ -7880,8 +7920,16 @@
           "sha": "4d581d28b3f6ea27d8096f6e13cd00a48977051b"
         },
         {
+          "name": "docs/radio-house-001-consolidation-20261121",
+          "sha": "fdd186705467ac20529becd7601213d835810f48"
+        },
+        {
           "name": "experiment/fellowship-dec4-possibility-engine",
           "sha": "3002f1b8cd8a0b67105f3a593eafadf259bd3c0d"
+        },
+        {
+          "name": "experiment/field-outside-witness-001-20261121",
+          "sha": "317ca33952d3eecc1dfaae6a7f0e221fcd2774b1"
         },
         {
           "name": "experiment/humkin-listener-receptacle-001",
@@ -8316,6 +8364,10 @@
           "sha": "a7b98c2339a638697a5a861cd5a23daef8983ffd"
         },
         {
+          "name": "feature/night-shift-full-catalog-bumper-brain-006",
+          "sha": "0e7b9ec642326efce6776ab44521c9ac5e41b1b4"
+        },
+        {
           "name": "feature/night-watch-native-001",
           "sha": "a4625fa67de2067d70eac6d9aa312a9c01822ea7"
         },
@@ -8376,6 +8428,10 @@
           "sha": "e155ad3890eb9daaeca65f721e085c2355891cf8"
         },
         {
+          "name": "feature/radio-house-cloud-schedule-viewer-20261121",
+          "sha": "44a84965608012c2951ed9d541bf14c37d792508"
+        },
+        {
           "name": "feature/radio-house-source-network-and-transmitter-gate-20261114",
           "sha": "addd87a6dae20baf0588ad3e8b724c181f6cd9cd"
         },
@@ -8400,6 +8456,10 @@
           "sha": "c0158707ca3f3828ba7a7313a1ecf1f3c8cb9f3e"
         },
         {
+          "name": "feature/shortie-gap-guard-20261121",
+          "sha": "5428a6c704ec9a2c20456a72e4a90e7f1010864f"
+        },
+        {
           "name": "feature/spotlight-single-into-live-001",
           "sha": "0fe0488cd07443bc8cf8d216f2196584ac2114e2"
         },
@@ -8410,6 +8470,26 @@
         {
           "name": "feature/ten-manga-postcards",
           "sha": "02348ed302060521c59ae6f2a9e0a6143f775084"
+        },
+        {
+          "name": "feature/tower-010-living-control",
+          "sha": "e680d8dce2b642f69ded3ba8e4618fb7fdd7bea7"
+        },
+        {
+          "name": "feature/tower-011-durable-asset-spine",
+          "sha": "de3617f680c86828587cdc3b11679bbf14e9e0a7"
+        },
+        {
+          "name": "feature/tower-feature-handoff-009",
+          "sha": "38ddc94066e72444cbc1abfbd75457c293ca495d"
+        },
+        {
+          "name": "feature/tower-living-crate-007-20261121",
+          "sha": "b5309ccc79456d5db0c2b5474478eee8339a5e7b"
+        },
+        {
+          "name": "feature/tower-living-crate-008-incremental-cloud-sync",
+          "sha": "f033598e8eda96ec6db75db6a24abe01aba90993"
         },
         {
           "name": "feature/unified-dial-live-fallback-001",
@@ -8541,7 +8621,7 @@
         },
         {
           "name": "main",
-          "sha": "f9a325dd19e257cc2f90fef9154d1cd00fee6694"
+          "sha": "bdfbcae0a78b5d828840c4347f7992def635867d"
         },
         {
           "name": "preview/radio-and-records-season-two",
@@ -8605,6 +8685,36 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 194,
+          "title": "RADIO HOUSE · Add Cloud HOUSE to the Android Living Receiver preview",
+          "head_branch": "codex/cloud-house-android-preview",
+          "head_sha": "51376941af38476ebae32105803234ee6bef7ef4",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "review/living-receiver-service-20261120",
+          "updated_at": "2026-11-21T18:55:00Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/194"
+        },
+        {
+          "number": 193,
+          "title": "RADIO HOUSE 003 · Generate a FELLOWSHIP Station Seed rehearsal",
+          "head_branch": "codex/radio-house-station-seed",
+          "head_sha": "2df6862247aa55031149af82e0535d3faf9206e1",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-21T18:37:50Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/193"
+        },
+        {
+          "number": 190,
+          "title": "FIELD WITNESS 001 — local listener receipts for Night Shift (no transmitter change)",
+          "head_branch": "experiment/field-outside-witness-001-20261121",
+          "head_sha": "317ca33952d3eecc1dfaae6a7f0e221fcd2774b1",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-21T15:36:58Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/190"
+        },
         {
           "number": 180,
           "title": "ANDROID TOWER 001 — real native HLS as opt-in classic radio mode",
@@ -9327,7 +9437,7 @@
         },
         {
           "name": "main",
-          "sha": "81e3b0b95dd8a4a83be2b384080ec82cd4d71147"
+          "sha": "004b820313ef88528b3d48f5b5d4e501839ea9a1"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -9866,6 +9976,10 @@
           "sha": "20b529038be86cb88e2fd386536493cd694fd719"
         },
         {
+          "name": "experiment/nuthang-harmony-001-first-chord-20261121",
+          "sha": "b596a4e78878e417e8e1eff0b6acc50a9cbf4d9b"
+        },
+        {
           "name": "feat/help-case-book-of-acts-adapter",
           "sha": "97b2d9122ff065fafcda9e407c5def23748c3337"
         },
@@ -9895,6 +10009,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 14,
+          "title": "NUTHANG-HARMONY-001 — First Chord: local compositional encounter instrument",
+          "head_branch": "experiment/nuthang-harmony-001-first-chord-20261121",
+          "head_sha": "b596a4e78878e417e8e1eff0b6acc50a9cbf4d9b",
+          "head_repo": "the-static-collective/Jubilee-Engine-VM",
+          "base_branch": "main",
+          "updated_at": "2026-11-21T18:18:44Z",
+          "url": "https://github.com/the-static-collective/Jubilee-Engine-VM/pull/14"
+        },
         {
           "number": 12,
           "title": "design: freeze PostEmahh'n v0.1 constitution",
@@ -18016,6 +18140,10 @@
           "sha": "743e5705c1e397c40aff82960e361d0b36eb11a5"
         },
         {
+          "name": "feature/freeport-008-program-crossing",
+          "sha": "660fc99567d63128b879cb6297ea7ac4dd15d280"
+        },
+        {
           "name": "field-consequence-001",
           "sha": "5a8724d0624fb32b142d0901a3a378df26a5f9a9"
         },
@@ -18081,6 +18209,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 180,
+          "title": "FREEPORT 008: native signed HUMKIN programming proposal review crossing",
+          "head_branch": "feature/freeport-008-program-crossing",
+          "head_sha": "660fc99567d63128b879cb6297ea7ac4dd15d280",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-11-21T22:56:03Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/180"
+        },
         {
           "number": 179,
           "title": "CRATER 002 — HUMKIN → GitHub → reLATTE → Workbench → native GHoT → signed return",
@@ -19405,6 +19543,10 @@
           "sha": "47a6ee01c721ad4eca7f8260e9cb8875bbe37e28"
         },
         {
+          "name": "feature/revival-014-matthew5-sblgnt",
+          "sha": "098286ccdc6dfec2cea5ccf2a91565daa8dd29c2"
+        },
+        {
           "name": "genesis-001-executable-kernel",
           "sha": "ec5b7c64b1472e77a178f34d619cf383e98b9e37"
         },
@@ -19414,7 +19556,7 @@
         },
         {
           "name": "main",
-          "sha": "19de96625d9279c19575c0c72cd96610ee2848a5"
+          "sha": "fc30cc34dedccbdff6cc1fb343c902db8b5ed397"
         },
         {
           "name": "revival-002-curiosity-compiler",
@@ -30560,7 +30702,7 @@
         },
         {
           "name": "main",
-          "sha": "c67469590661b3de11e164b7c15c03dd5e70f2c7"
+          "sha": "d90848d44d5f47e54da53b90428dcab4c41657a7"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -31023,5 +31165,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-21T15:20:44+00:00"
+  "captured_at": "2026-11-22T15:17:18+00:00"
 }

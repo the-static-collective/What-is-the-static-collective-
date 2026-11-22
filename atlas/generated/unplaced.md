@@ -250,30 +250,34 @@ Default: `main` · other refs: 8 · open PRs: 6
 
 [Repository](https://github.com/the-static-collective/fellowSHIP) · [Branches](https://github.com/the-static-collective/fellowSHIP/branches) · [Pull requests](https://github.com/the-static-collective/fellowSHIP/pulls)
 
-Default: `main` · other refs: 1 · open PRs: 1
+Default: `main` · other refs: 3 · open PRs: 2
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
-| [#1](https://github.com/the-static-collective/fellowSHIP/pull/1) | Commons 001: secure shared church rooms and task handoffs | `feat/commons-foundation-001` → `main` | 2026-11-21 |
+| [#2](https://github.com/the-static-collective/fellowSHIP/pull/2) | FELLOWSHIP-CHILDCARE-001: real childcare need, unfilled and host-gated | `proposal/fellowship-childcare-need-001-20261121` → `main` | 2026-11-21 |
+| [#1](https://github.com/the-static-collective/fellowSHIP/pull/1) | Commons 001–006: room collaboration, email-ready invitations and Pages host | `feat/commons-foundation-001` → `main` | 2026-11-21 |
 
 ### Retained nondefault branches
 
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
-| [feat/commons-foundation-001](https://github.com/the-static-collective/fellowSHIP/tree/feat/commons-foundation-001) | [230b06f064](https://github.com/the-static-collective/fellowSHIP/commit/230b06f06418e165f85628c21fa9e55b0b2585ca) | [open PR #1](https://github.com/the-static-collective/fellowSHIP/pull/1) |
+| [feat/commons-foundation-001](https://github.com/the-static-collective/fellowSHIP/tree/feat/commons-foundation-001) | [e6e088febc](https://github.com/the-static-collective/fellowSHIP/commit/e6e088febcb9dc324092e80bd76c4adf2d6e7044) | [open PR #1](https://github.com/the-static-collective/fellowSHIP/pull/1) |
+| [gh-pages](https://github.com/the-static-collective/fellowSHIP/tree/gh-pages) | [080b2bbaa3](https://github.com/the-static-collective/fellowSHIP/commit/080b2bbaa3162eb8e45def106b195c2fefc65367) | Retained ref; disposition unverified |
+| [proposal/fellowship-childcare-need-001-20261121](https://github.com/the-static-collective/fellowSHIP/tree/proposal/fellowship-childcare-need-001-20261121) | [a23def66a2](https://github.com/the-static-collective/fellowSHIP/commit/a23def66a2b0c1f88f315f6f15edee6f37bf42fa) | [open PR #2](https://github.com/the-static-collective/fellowSHIP/pull/2) |
 
 ## freeport
 
 [Repository](https://github.com/the-static-collective/freeport) · [Branches](https://github.com/the-static-collective/freeport/branches) · [Pull requests](https://github.com/the-static-collective/freeport/pulls)
 
-Default: `main` · other refs: 5 · open PRs: 4
+Default: `main` · other refs: 6 · open PRs: 5
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#6](https://github.com/the-static-collective/freeport/pull/6) | FREEPORT 008: Neon review-only signed crossing archive and authority contract | `feature/freeport-008-relatte-neon` → `main` | 2026-11-21 |
 | [#4](https://github.com/the-static-collective/freeport/pull/4) | FREEPORT 006 — Branch Harbor: two pinned Git futures, native Workbench graft × GHoT probe, sovereign HOLD | `experiment/freeport-006-first-branch-graft` → `experiment/freeport-005-supabase-harbor-signals` | 2026-10-11 |
 | [#3](https://github.com/the-static-collective/freeport/pull/3) | FREEPORT 005 — Supabase Harbor: existing MX13 docks, bounded notices, no automatic admission | `experiment/freeport-005-supabase-harbor-signals` → `experiment/freeport-004-first-foreign-ship` | 2026-10-11 |
 | [#2](https://github.com/the-static-collective/freeport/pull/2) | FREEPORT 004 — first foreign ship: native TranchNode custody × reLATTE signed transit × sovereign HOLD | `experiment/freeport-004-first-foreign-ship` → `experiment/freeport-003-bonded-garden` | 2026-10-11 |
@@ -288,6 +292,7 @@ Default: `main` · other refs: 5 · open PRs: 4
 | [experiment/freeport-005-supabase-harbor-signals](https://github.com/the-static-collective/freeport/tree/experiment/freeport-005-supabase-harbor-signals) | [311775a402](https://github.com/the-static-collective/freeport/commit/311775a4024eefd0b09c1e42d3f6bf05f7798316) | [open PR #3](https://github.com/the-static-collective/freeport/pull/3) |
 | [experiment/freeport-006-first-branch-graft](https://github.com/the-static-collective/freeport/tree/experiment/freeport-006-first-branch-graft) | [b2693fb141](https://github.com/the-static-collective/freeport/commit/b2693fb141cc8eebca56e74fa644dc6b1938b518) | [open PR #4](https://github.com/the-static-collective/freeport/pull/4) |
 | [feature/creative-media-harbor-007](https://github.com/the-static-collective/freeport/tree/feature/creative-media-harbor-007) | [6ac93e76d8](https://github.com/the-static-collective/freeport/commit/6ac93e76d85f91469889c71bbb9164b25f3cfd52) | Retained ref; disposition unverified |
+| [feature/freeport-008-relatte-neon](https://github.com/the-static-collective/freeport/tree/feature/freeport-008-relatte-neon) | [9d47e84ef1](https://github.com/the-static-collective/freeport/commit/9d47e84ef1c05b503dfa9fca5f559a092ac83c33) | [open PR #6](https://github.com/the-static-collective/freeport/pull/6) |
 
 ## GHoT
 
@@ -733,12 +738,15 @@ Default: `main` · other refs: 32 · open PRs: 15
 
 [Repository](https://github.com/the-static-collective/HUMKIN) · [Branches](https://github.com/the-static-collective/HUMKIN/branches) · [Pull requests](https://github.com/the-static-collective/HUMKIN/pulls)
 
-Default: `main` · other refs: 188 · open PRs: 24
+Default: `main` · other refs: 200 · open PRs: 27
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#194](https://github.com/the-static-collective/HUMKIN/pull/194) | RADIO HOUSE · Add Cloud HOUSE to the Android Living Receiver preview | `codex/cloud-house-android-preview` → `review/living-receiver-service-20261120` | 2026-11-21 |
+| [#193](https://github.com/the-static-collective/HUMKIN/pull/193) | RADIO HOUSE 003 · Generate a FELLOWSHIP Station Seed rehearsal | `codex/radio-house-station-seed` → `main` | 2026-11-21 |
+| [#190](https://github.com/the-static-collective/HUMKIN/pull/190) | FIELD WITNESS 001 — local listener receipts for Night Shift (no transmitter change) | `experiment/field-outside-witness-001-20261121` → `main` | 2026-11-21 |
 | [#180](https://github.com/the-static-collective/HUMKIN/pull/180) | ANDROID TOWER 001 — real native HLS as opt-in classic radio mode | `feature/android-native-tower-hls-20261120` → `recovery/android-classic-spine-20261120` | 2026-11-20 |
 | [#179](https://github.com/the-static-collective/HUMKIN/pull/179) | ANDROID RECOVERY 001 — canonical classic native app + Android 11 launch proof | `recovery/android-classic-spine-20261120` → `main` | 2026-11-20 |
 | [#178](https://github.com/the-static-collective/HUMKIN/pull/178) | Living Receiver 002: service-owned radio and continuous-listening proof (isolated Android preview) | `review/living-receiver-service-20261120` → `main` | 2026-11-20 |
@@ -771,12 +779,16 @@ Default: `main` · other refs: 188 · open PRs: 24
 | [archive/classic-radio-template](https://github.com/the-static-collective/HUMKIN/tree/archive/classic-radio-template) | [34bb5aa32c](https://github.com/the-static-collective/HUMKIN/commit/34bb5aa32cd810a794d9da08db459d2742675fad) | Retained ref; disposition unverified |
 | [chore/preserve-player-landing-walmart](https://github.com/the-static-collective/HUMKIN/tree/chore/preserve-player-landing-walmart) | [2ae1a384e2](https://github.com/the-static-collective/HUMKIN/commit/2ae1a384e21429dd5bc3ddcc0749117124683f92) | Retained ref; disposition unverified |
 | [ci/build-android-r2-repair-apk-035](https://github.com/the-static-collective/HUMKIN/tree/ci/build-android-r2-repair-apk-035) | [3c3fe8c2fe](https://github.com/the-static-collective/HUMKIN/commit/3c3fe8c2fe620881e4521ad472262c7000051523) | Retained ref; disposition unverified |
+| [codex/cloud-house-android-preview](https://github.com/the-static-collective/HUMKIN/tree/codex/cloud-house-android-preview) | [51376941af](https://github.com/the-static-collective/HUMKIN/commit/51376941af38476ebae32105803234ee6bef7ef4) | [open PR #194](https://github.com/the-static-collective/HUMKIN/pull/194) |
 | [codex/daily-slice-crossover-pilot](https://github.com/the-static-collective/HUMKIN/tree/codex/daily-slice-crossover-pilot) | [f7cabeaa4b](https://github.com/the-static-collective/HUMKIN/commit/f7cabeaa4b167bc6ffcf369417d413eb266b24fe) | [open PR #138](https://github.com/the-static-collective/HUMKIN/pull/138) |
 | [codex/humkin-compost-heap](https://github.com/the-static-collective/HUMKIN/tree/codex/humkin-compost-heap) | [219ca8d8fb](https://github.com/the-static-collective/HUMKIN/commit/219ca8d8fb6025017e2194ddf4b949e91c1bd197) | Retained ref; disposition unverified |
 | [codex/humkin-fmstudio-preview](https://github.com/the-static-collective/HUMKIN/tree/codex/humkin-fmstudio-preview) | [5986be4274](https://github.com/the-static-collective/HUMKIN/commit/5986be427453a88333dc3012223b9c26da2b5d1a) | Retained ref; disposition unverified |
+| [codex/radio-house-station-seed](https://github.com/the-static-collective/HUMKIN/tree/codex/radio-house-station-seed) | [2df6862247](https://github.com/the-static-collective/HUMKIN/commit/2df6862247aa55031149af82e0535d3faf9206e1) | [open PR #193](https://github.com/the-static-collective/HUMKIN/pull/193) |
 | [design/approved-paper-manga-look](https://github.com/the-static-collective/HUMKIN/tree/design/approved-paper-manga-look) | [ae552cdbea](https://github.com/the-static-collective/HUMKIN/commit/ae552cdbeaed9fe0a44b66f206a9759bbf0e145f) | Retained ref; disposition unverified |
 | [docs/continuity-pilot-001-20261119](https://github.com/the-static-collective/HUMKIN/tree/docs/continuity-pilot-001-20261119) | [4d581d28b3](https://github.com/the-static-collective/HUMKIN/commit/4d581d28b3f6ea27d8096f6e13cd00a48977051b) | Retained ref; disposition unverified |
+| [docs/radio-house-001-consolidation-20261121](https://github.com/the-static-collective/HUMKIN/tree/docs/radio-house-001-consolidation-20261121) | [fdd1867054](https://github.com/the-static-collective/HUMKIN/commit/fdd186705467ac20529becd7601213d835810f48) | Retained ref; disposition unverified |
 | [experiment/fellowship-dec4-possibility-engine](https://github.com/the-static-collective/HUMKIN/tree/experiment/fellowship-dec4-possibility-engine) | [3002f1b8cd](https://github.com/the-static-collective/HUMKIN/commit/3002f1b8cd8a0b67105f3a593eafadf259bd3c0d) | [open PR #13](https://github.com/the-static-collective/HUMKIN/pull/13) |
+| [experiment/field-outside-witness-001-20261121](https://github.com/the-static-collective/HUMKIN/tree/experiment/field-outside-witness-001-20261121) | [317ca33952](https://github.com/the-static-collective/HUMKIN/commit/317ca33952d3eecc1dfaae6a7f0e221fcd2774b1) | [open PR #190](https://github.com/the-static-collective/HUMKIN/pull/190) |
 | [experiment/humkin-listener-receptacle-001](https://github.com/the-static-collective/HUMKIN/tree/experiment/humkin-listener-receptacle-001) | [be316936bd](https://github.com/the-static-collective/HUMKIN/commit/be316936bdbc987d8eeedb311f7960ffa4eea8f7) | Retained ref; disposition unverified |
 | [experiment/mesh-radio-linkblocks-001-20261119](https://github.com/the-static-collective/HUMKIN/tree/experiment/mesh-radio-linkblocks-001-20261119) | [ebde702447](https://github.com/the-static-collective/HUMKIN/commit/ebde7024479d53937fe97cdbac18f1edae6efbcf) | Retained ref; disposition unverified |
 | [experiment/night-shift-aircheck-001](https://github.com/the-static-collective/HUMKIN/tree/experiment/night-shift-aircheck-001) | [52453351d6](https://github.com/the-static-collective/HUMKIN/commit/52453351d653c78dd4dd998f9dce33c28b62c3ed) | Retained ref; disposition unverified |
@@ -885,6 +897,7 @@ Default: `main` · other refs: 188 · open PRs: 24
 | [feature/mesh-001-distributed-library-sia-linkbank](https://github.com/the-static-collective/HUMKIN/tree/feature/mesh-001-distributed-library-sia-linkbank) | [fad2df9eb0](https://github.com/the-static-collective/HUMKIN/commit/fad2df9eb08369d7301a242b1377350b3ef56eb2) | Retained ref; disposition unverified |
 | [feature/mesh-radio-direct-r2-upload-20261119](https://github.com/the-static-collective/HUMKIN/tree/feature/mesh-radio-direct-r2-upload-20261119) | [e25107bcc3](https://github.com/the-static-collective/HUMKIN/commit/e25107bcc3c5723eb8a86c53ef68f074f139c1a7) | Retained ref; disposition unverified |
 | [feature/more-music-warning-bumper-20261115](https://github.com/the-static-collective/HUMKIN/tree/feature/more-music-warning-bumper-20261115) | [a7b98c2339](https://github.com/the-static-collective/HUMKIN/commit/a7b98c2339a638697a5a861cd5a23daef8983ffd) | Retained ref; disposition unverified |
+| [feature/night-shift-full-catalog-bumper-brain-006](https://github.com/the-static-collective/HUMKIN/tree/feature/night-shift-full-catalog-bumper-brain-006) | [0e7b9ec642](https://github.com/the-static-collective/HUMKIN/commit/0e7b9ec642326efce6776ab44521c9ac5e41b1b4) | Retained ref; disposition unverified |
 | [feature/night-watch-native-001](https://github.com/the-static-collective/HUMKIN/tree/feature/night-watch-native-001) | [a4625fa67d](https://github.com/the-static-collective/HUMKIN/commit/a4625fa67de2067d70eac6d9aa312a9c01822ea7) | Retained ref; disposition unverified |
 | [feature/night-watch-outpost-001](https://github.com/the-static-collective/HUMKIN/tree/feature/night-watch-outpost-001) | [702056e5e6](https://github.com/the-static-collective/HUMKIN/commit/702056e5e694c93673676dee76bb52a37a07050a) | Retained ref; disposition unverified |
 | [feature/night-watch-sidecar-apk-001](https://github.com/the-static-collective/HUMKIN/tree/feature/night-watch-sidecar-apk-001) | [f412769704](https://github.com/the-static-collective/HUMKIN/commit/f412769704cbc4bd736ab8e7ed0738a614369c98) | Retained ref; disposition unverified |
@@ -900,15 +913,22 @@ Default: `main` · other refs: 188 · open PRs: 24
 | [feature/radio-first-day-production-bible-20261114](https://github.com/the-static-collective/HUMKIN/tree/feature/radio-first-day-production-bible-20261114) | [3ea9d3f122](https://github.com/the-static-collective/HUMKIN/commit/3ea9d3f122f42ace60f014ecf7b66101070a75f8) | Retained ref; disposition unverified |
 | [feature/radio-four-voice-liners-20261115](https://github.com/the-static-collective/HUMKIN/tree/feature/radio-four-voice-liners-20261115) | [6509b8e92e](https://github.com/the-static-collective/HUMKIN/commit/6509b8e92efe944a396684aecd868e1f3b11a502) | Retained ref; disposition unverified |
 | [feature/radio-hour-memory-and-warm-signal-20261114](https://github.com/the-static-collective/HUMKIN/tree/feature/radio-hour-memory-and-warm-signal-20261114) | [e155ad3890](https://github.com/the-static-collective/HUMKIN/commit/e155ad3890eb9daaeca65f721e085c2355891cf8) | Retained ref; disposition unverified |
+| [feature/radio-house-cloud-schedule-viewer-20261121](https://github.com/the-static-collective/HUMKIN/tree/feature/radio-house-cloud-schedule-viewer-20261121) | [44a8496560](https://github.com/the-static-collective/HUMKIN/commit/44a84965608012c2951ed9d541bf14c37d792508) | Retained ref; disposition unverified |
 | [feature/radio-house-source-network-and-transmitter-gate-20261114](https://github.com/the-static-collective/HUMKIN/tree/feature/radio-house-source-network-and-transmitter-gate-20261114) | [addd87a6da](https://github.com/the-static-collective/HUMKIN/commit/addd87a6dae20baf0588ad3e8b724c181f6cd9cd) | Retained ref; disposition unverified |
 | [feature/radio-reusable-art-library-20261114](https://github.com/the-static-collective/HUMKIN/tree/feature/radio-reusable-art-library-20261114) | [22f4429d79](https://github.com/the-static-collective/HUMKIN/commit/22f4429d7948d89f1af728804d2e64c840b96bc0) | Retained ref; disposition unverified |
 | [feature/radio-sync-92bpm-airwave-20261114](https://github.com/the-static-collective/HUMKIN/tree/feature/radio-sync-92bpm-airwave-20261114) | [9d12039fcb](https://github.com/the-static-collective/HUMKIN/commit/9d12039fcbb8a54677d019831bbfcc98062467a5) | Retained ref; disposition unverified |
 | [feature/radio-web-primary-live-001](https://github.com/the-static-collective/HUMKIN/tree/feature/radio-web-primary-live-001) | [0f7fb8cf9e](https://github.com/the-static-collective/HUMKIN/commit/0f7fb8cf9e82f06b1c009e1c7d56e150031b61ca) | Retained ref; disposition unverified |
 | [feature/random-postcard-art](https://github.com/the-static-collective/HUMKIN/tree/feature/random-postcard-art) | [1f30f18751](https://github.com/the-static-collective/HUMKIN/commit/1f30f18751d44cc4fdd84b984911f23859c0bfce) | Retained ref; disposition unverified |
 | [feature/save-the-hour-cards-001](https://github.com/the-static-collective/HUMKIN/tree/feature/save-the-hour-cards-001) | [c0158707ca](https://github.com/the-static-collective/HUMKIN/commit/c0158707ca3f3828ba7a7313a1ecf1f3c8cb9f3e) | Retained ref; disposition unverified |
+| [feature/shortie-gap-guard-20261121](https://github.com/the-static-collective/HUMKIN/tree/feature/shortie-gap-guard-20261121) | [5428a6c704](https://github.com/the-static-collective/HUMKIN/commit/5428a6c704ec9a2c20456a72e4a90e7f1010864f) | Retained ref; disposition unverified |
 | [feature/spotlight-single-into-live-001](https://github.com/the-static-collective/HUMKIN/tree/feature/spotlight-single-into-live-001) | [0fe0488cd0](https://github.com/the-static-collective/HUMKIN/commit/0fe0488cd07443bc8cf8d216f2196584ac2114e2) | Retained ref; disposition unverified |
 | [feature/station-one-live-web-receiver-001](https://github.com/the-static-collective/HUMKIN/tree/feature/station-one-live-web-receiver-001) | [e8dfa4cfd1](https://github.com/the-static-collective/HUMKIN/commit/e8dfa4cfd1b0be402e52717edcb9ceee2c009744) | Retained ref; disposition unverified |
 | [feature/ten-manga-postcards](https://github.com/the-static-collective/HUMKIN/tree/feature/ten-manga-postcards) | [02348ed302](https://github.com/the-static-collective/HUMKIN/commit/02348ed302060521c59ae6f2a9e0a6143f775084) | Retained ref; disposition unverified |
+| [feature/tower-010-living-control](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-010-living-control) | [e680d8dce2](https://github.com/the-static-collective/HUMKIN/commit/e680d8dce2b642f69ded3ba8e4618fb7fdd7bea7) | Retained ref; disposition unverified |
+| [feature/tower-011-durable-asset-spine](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-011-durable-asset-spine) | [de3617f680](https://github.com/the-static-collective/HUMKIN/commit/de3617f680c86828587cdc3b11679bbf14e9e0a7) | Retained ref; disposition unverified |
+| [feature/tower-feature-handoff-009](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-feature-handoff-009) | [38ddc94066](https://github.com/the-static-collective/HUMKIN/commit/38ddc94066e72444cbc1abfbd75457c293ca495d) | Retained ref; disposition unverified |
+| [feature/tower-living-crate-007-20261121](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-living-crate-007-20261121) | [b5309ccc79](https://github.com/the-static-collective/HUMKIN/commit/b5309ccc79456d5db0c2b5474478eee8339a5e7b) | Retained ref; disposition unverified |
+| [feature/tower-living-crate-008-incremental-cloud-sync](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-living-crate-008-incremental-cloud-sync) | [f033598e8e](https://github.com/the-static-collective/HUMKIN/commit/f033598e8eda96ec6db75db6a24abe01aba90993) | Retained ref; disposition unverified |
 | [feature/unified-dial-live-fallback-001](https://github.com/the-static-collective/HUMKIN/tree/feature/unified-dial-live-fallback-001) | [6f7618dc75](https://github.com/the-static-collective/HUMKIN/commit/6f7618dc75a601be663dde817b042c0be6f9d291) | Retained ref; disposition unverified |
 | [feature/winter-sunday-bumpers-20261115](https://github.com/the-static-collective/HUMKIN/tree/feature/winter-sunday-bumpers-20261115) | [7e7cba3ddf](https://github.com/the-static-collective/HUMKIN/commit/7e7cba3ddf60a51752797e78c893ddf00dbd4826) | Retained ref; disposition unverified |
 | [feature/wkrp-producer-studio-20261114](https://github.com/the-static-collective/HUMKIN/tree/feature/wkrp-producer-studio-20261114) | [e0dee514b7](https://github.com/the-static-collective/HUMKIN/commit/e0dee514b7ad2cf29e047a803b873e0871113ef0) | Retained ref; disposition unverified |
@@ -2134,12 +2154,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/reLATTE) · [Branches](https://github.com/the-static-collective/reLATTE/branches) · [Pull requests](https://github.com/the-static-collective/reLATTE/pulls)
 
-Default: `main` · other refs: 175 · open PRs: 129
+Default: `main` · other refs: 176 · open PRs: 130
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#180](https://github.com/the-static-collective/reLATTE/pull/180) | FREEPORT 008: native signed HUMKIN programming proposal review crossing | `feature/freeport-008-program-crossing` → `main` | 2026-11-21 |
 | [#179](https://github.com/the-static-collective/reLATTE/pull/179) | CRATER 002 — HUMKIN → GitHub → reLATTE → Workbench → native GHoT → signed return | `experiment/humkin-gh-relatte-catalog-001` → `main` | 2026-11-17 |
 | [#178](https://github.com/the-static-collective/reLATTE/pull/178) | Minecraft-010: MOTIF-invented two-lamp witness observed 2/9 in new World A; independently verified | `experiment/minecraft-010-compressed-sensor` → `experiment/motif-minecraft-009-native-observation-return` | 2026-11-05 |
 | [#177](https://github.com/the-static-collective/reLATTE/pull/177) | Minecraft 009: MOTIF's new instrument measured 3/9 lamps in real vanilla world; signed return and learning | `experiment/motif-minecraft-009-native-observation-return` → `experiment/motif-instrument-garden-minecraft-008` | 2026-11-05 |
@@ -2434,6 +2455,7 @@ Default: `main` · other refs: 175 · open PRs: 129
 | [feat/walkable-provenance](https://github.com/the-static-collective/reLATTE/tree/feat/walkable-provenance) | [9f8a6473a4](https://github.com/the-static-collective/reLATTE/commit/9f8a6473a4bbdede3fba476edc9b19a9bde30a6c) | [open PR #11](https://github.com/the-static-collective/reLATTE/pull/11) |
 | [feat/web5-five-door-room](https://github.com/the-static-collective/reLATTE/tree/feat/web5-five-door-room) | [6e4b2c9c3a](https://github.com/the-static-collective/reLATTE/commit/6e4b2c9c3a3acaf82989148cf07aa0b3999563d6) | [open PR #9](https://github.com/the-static-collective/reLATTE/pull/9) |
 | [feat/webz-003-receiver-material-custody](https://github.com/the-static-collective/reLATTE/tree/feat/webz-003-receiver-material-custody) | [743e5705c1](https://github.com/the-static-collective/reLATTE/commit/743e5705c1e397c40aff82960e361d0b36eb11a5) | Retained ref; disposition unverified |
+| [feature/freeport-008-program-crossing](https://github.com/the-static-collective/reLATTE/tree/feature/freeport-008-program-crossing) | [660fc99567](https://github.com/the-static-collective/reLATTE/commit/660fc99567d63128b879cb6297ea7ac4dd15d280) | [open PR #180](https://github.com/the-static-collective/reLATTE/pull/180) |
 | [field-consequence-001](https://github.com/the-static-collective/reLATTE/tree/field-consequence-001) | [5a8724d062](https://github.com/the-static-collective/reLATTE/commit/5a8724d0624fb32b142d0901a3a378df26a5f9a9) | Retained ref; disposition unverified |
 | [fix/planz-return-payload-binding](https://github.com/the-static-collective/reLATTE/tree/fix/planz-return-payload-binding) | [5c7b3ebbee](https://github.com/the-static-collective/reLATTE/commit/5c7b3ebbee4fb4f56d215da3c1f943bf2431ca35) | Retained ref; disposition unverified |
 | [local-receiver-001](https://github.com/the-static-collective/reLATTE/tree/local-receiver-001) | [38739f2de9](https://github.com/the-static-collective/reLATTE/commit/38739f2de9ea499e2734caf2a4b3b7ab81969eb8) | Retained ref; disposition unverified |

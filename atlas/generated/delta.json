@@ -1,200 +1,191 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-20T16:08:38+00:00",
-  "to_captured_at": "2026-11-21T15:20:44+00:00",
-  "added_repositories": [
-    "fellowSHIP"
-  ],
+  "from_captured_at": "2026-11-21T15:20:44+00:00",
+  "to_captured_at": "2026-11-22T15:17:18+00:00",
+  "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "BananaSpork",
-      "branch": "experiment/possibility-engine-001-20261120",
-      "sha": "ccbe2a4731444f4ff3aed744050e208bad55ec7b"
+      "repository": "fellowSHIP",
+      "branch": "gh-pages",
+      "sha": "080b2bbaa3162eb8e45def106b195c2fefc65367"
     },
     {
       "repository": "fellowSHIP",
-      "branch": "feat/commons-foundation-001",
-      "sha": "230b06f06418e165f85628c21fa9e55b0b2585ca"
+      "branch": "proposal/fellowship-childcare-need-001-20261121",
+      "sha": "a23def66a2b0c1f88f315f6f15edee6f37bf42fa"
     },
     {
-      "repository": "fellowSHIP",
-      "branch": "main",
-      "sha": "c98a35632bb4b5f751afd4a10a07d2ed15965656"
-    },
-    {
-      "repository": "full-measure-world-layer",
-      "branch": "integration/pact-human-witness-review-001",
-      "sha": "cb0cff3c63df41c98d3ce745f9703db54b162b59"
-    },
-    {
-      "repository": "full-measure-world-layer",
-      "branch": "integration/witness-community-audio-bible-001",
-      "sha": "cb2a6c8ed08a0bc77e0db850b3592f73e327d7b6"
+      "repository": "freeport",
+      "branch": "feature/freeport-008-relatte-neon",
+      "sha": "9d47e84ef1c05b503dfa9fca5f559a092ac83c33"
     },
     {
       "repository": "HUMKIN",
-      "branch": "experiment/night-shift-aircheck-001",
-      "sha": "52453351d653c78dd4dd998f9dce33c28b62c3ed"
+      "branch": "codex/cloud-house-android-preview",
+      "sha": "51376941af38476ebae32105803234ee6bef7ef4"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/acer-tower-catalog-online-001",
-      "sha": "1233deb051ade368fb84ec1720d8634f1ae3fd96"
+      "branch": "codex/radio-house-station-seed",
+      "sha": "2df6862247aa55031149af82e0535d3faf9206e1"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/cloud-house-publish-action-005",
-      "sha": "5db2e801ade54c5baaeb2e8b9a3c09169064797d"
+      "branch": "docs/radio-house-001-consolidation-20261121",
+      "sha": "fdd186705467ac20529becd7601213d835810f48"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/night-shift-40-song-house-004",
-      "sha": "89be0448e8a0ed8b77de44031a71bc4ad9d3dc96"
+      "branch": "experiment/field-outside-witness-001-20261121",
+      "sha": "317ca33952d3eecc1dfaae6a7f0e221fcd2774b1"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/night-shift-house-003",
-      "sha": "2490a5ac2f0f45ae90797c63c48fd14ce5525bca"
+      "branch": "feature/night-shift-full-catalog-bumper-brain-006",
+      "sha": "0e7b9ec642326efce6776ab44521c9ac5e41b1b4"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feat/night-shift-one-tap-002",
-      "sha": "327d89801ea51f07166b689d887c2d29c5705051"
+      "branch": "feature/radio-house-cloud-schedule-viewer-20261121",
+      "sha": "44a84965608012c2951ed9d541bf14c37d792508"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/android-native-tower-hls-20261120",
-      "sha": "b779d558019c968476d9ef8a912ee2cd46a6bd00"
+      "branch": "feature/shortie-gap-guard-20261121",
+      "sha": "5428a6c704ec9a2c20456a72e4a90e7f1010864f"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/save-the-hour-cards-001",
-      "sha": "c0158707ca3f3828ba7a7313a1ecf1f3c8cb9f3e"
+      "branch": "feature/tower-010-living-control",
+      "sha": "e680d8dce2b642f69ded3ba8e4618fb7fdd7bea7"
     },
     {
       "repository": "HUMKIN",
-      "branch": "fix/night-shift-hls-short-final-segment-007",
-      "sha": "b7ce875d8d048386e316c1a82ba510ca004935ea"
+      "branch": "feature/tower-011-durable-asset-spine",
+      "sha": "de3617f680c86828587cdc3b11679bbf14e9e0a7"
     },
     {
       "repository": "HUMKIN",
-      "branch": "fix/night-shift-publisher-install-ffmpeg-006",
-      "sha": "7df92d0d8454c3b30f000b6a7c9209ce16cd5211"
+      "branch": "feature/tower-feature-handoff-009",
+      "sha": "38ddc94066e72444cbc1abfbd75457c293ca495d"
     },
     {
       "repository": "HUMKIN",
-      "branch": "recovery/android-classic-spine-20261120",
-      "sha": "23c6b3bfe14e912387d4d23d76f7acefca8be97e"
+      "branch": "feature/tower-living-crate-007-20261121",
+      "sha": "b5309ccc79456d5db0c2b5474478eee8339a5e7b"
+    },
+    {
+      "repository": "HUMKIN",
+      "branch": "feature/tower-living-crate-008-incremental-cloud-sync",
+      "sha": "f033598e8eda96ec6db75db6a24abe01aba90993"
+    },
+    {
+      "repository": "Jubilee-Engine-VM",
+      "branch": "experiment/nuthang-harmony-001-first-chord-20261121",
+      "sha": "b596a4e78878e417e8e1eff0b6acc50a9cbf4d9b"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "feature/freeport-008-program-crossing",
+      "sha": "660fc99567d63128b879cb6297ea7ac4dd15d280"
     },
     {
       "repository": "revival",
-      "branch": "integration/scripture-stack-expedition-013",
-      "sha": "fcd4f152dea8aba4739f9bff79ae55857e1cd18d"
-    },
-    {
-      "repository": "WITNESS",
-      "branch": "feature/free-witness-expedition-001",
-      "sha": "4861d075c592a707f947cbcb98afc506fa48a5e7"
+      "branch": "feature/revival-014-matthew5-sblgnt",
+      "sha": "098286ccdc6dfec2cea5ccf2a91565daa8dd29c2"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
+      "repository": "fellowSHIP",
+      "branch": "feat/commons-foundation-001",
+      "from_sha": "230b06f06418e165f85628c21fa9e55b0b2585ca",
+      "to_sha": "e6e088febcb9dc324092e80bd76c4adf2d6e7044"
+    },
+    {
       "repository": "HUMKIN",
       "branch": "main",
-      "from_sha": "d1ded537cae3c6e81c159e6a4051a48e05b1d6f2",
-      "to_sha": "f9a325dd19e257cc2f90fef9154d1cd00fee6694"
+      "from_sha": "f9a325dd19e257cc2f90fef9154d1cd00fee6694",
+      "to_sha": "bdfbcae0a78b5d828840c4347f7992def635867d"
     },
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "536b24d4253b8d9b09ee14a977d32060951b410e",
-      "to_sha": "81e3b0b95dd8a4a83be2b384080ec82cd4d71147"
-    },
-    {
-      "repository": "planZ",
-      "branch": "main",
-      "from_sha": "5b6df7fb2a3a0c57d0fff8381108589ec2765a94",
-      "to_sha": "6f24230fa617182b073c8d4806959eceb39cd825"
+      "from_sha": "81e3b0b95dd8a4a83be2b384080ec82cd4d71147",
+      "to_sha": "004b820313ef88528b3d48f5b5d4e501839ea9a1"
     },
     {
       "repository": "revival",
       "branch": "main",
-      "from_sha": "af1e00c24e3d7c6eb6b1ac39ef59bf894e2385fd",
-      "to_sha": "19de96625d9279c19575c0c72cd96610ee2848a5"
+      "from_sha": "19de96625d9279c19575c0c72cd96610ee2848a5",
+      "to_sha": "fc30cc34dedccbdff6cc1fb343c902db8b5ed397"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "f1c379526353e7ef820b8ffb5bb063eebb3635c3",
-      "to_sha": "c67469590661b3de11e164b7c15c03dd5e70f2c7"
-    },
-    {
-      "repository": "WITNESS",
-      "branch": "genesis/community-audio-bible-001",
-      "from_sha": "9644f24628b705bc405a03bbd80cc26e8b5e01f0",
-      "to_sha": "22e8fb3c2d8725cf0a5414ce4cfac08f5421eae9"
+      "from_sha": "c67469590661b3de11e164b7c15c03dd5e70f2c7",
+      "to_sha": "d90848d44d5f47e54da53b90428dcab4c41657a7"
     }
   ],
   "opened_prs": [
     {
-      "repository": "BananaSpork",
-      "number": 33,
-      "title": "POSSIBILITY-ENGINE-001 — compose consented capacities into a missing-bridge question",
-      "url": "https://github.com/the-static-collective/BananaSpork/pull/33",
-      "head_branch": "experiment/possibility-engine-001-20261120",
-      "base_branch": "main"
-    },
-    {
       "repository": "fellowSHIP",
-      "number": 1,
-      "title": "Commons 001: secure shared church rooms and task handoffs",
-      "url": "https://github.com/the-static-collective/fellowSHIP/pull/1",
-      "head_branch": "feat/commons-foundation-001",
+      "number": 2,
+      "title": "FELLOWSHIP-CHILDCARE-001: real childcare need, unfilled and host-gated",
+      "url": "https://github.com/the-static-collective/fellowSHIP/pull/2",
+      "head_branch": "proposal/fellowship-childcare-need-001-20261121",
       "base_branch": "main"
     },
     {
-      "repository": "full-measure-world-layer",
-      "number": 58,
-      "title": "Full Measure: receive PACT human-witness consequence packets as review-only candidates",
-      "url": "https://github.com/the-static-collective/full-measure-world-layer/pull/58",
-      "head_branch": "integration/pact-human-witness-review-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "full-measure-world-layer",
-      "number": 59,
-      "title": "Full Measure: read-only return lens for WITNESS community Bible recordings",
-      "url": "https://github.com/the-static-collective/full-measure-world-layer/pull/59",
-      "head_branch": "integration/witness-community-audio-bible-001",
+      "repository": "freeport",
+      "number": 6,
+      "title": "FREEPORT 008: Neon review-only signed crossing archive and authority contract",
+      "url": "https://github.com/the-static-collective/freeport/pull/6",
+      "head_branch": "feature/freeport-008-relatte-neon",
       "base_branch": "main"
     },
     {
       "repository": "HUMKIN",
-      "number": 179,
-      "title": "ANDROID RECOVERY 001 — canonical classic native app + Android 11 launch proof",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/179",
-      "head_branch": "recovery/android-classic-spine-20261120",
+      "number": 190,
+      "title": "FIELD WITNESS 001 — local listener receipts for Night Shift (no transmitter change)",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/190",
+      "head_branch": "experiment/field-outside-witness-001-20261121",
       "base_branch": "main"
     },
     {
       "repository": "HUMKIN",
+      "number": 193,
+      "title": "RADIO HOUSE 003 · Generate a FELLOWSHIP Station Seed rehearsal",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/193",
+      "head_branch": "codex/radio-house-station-seed",
+      "base_branch": "main"
+    },
+    {
+      "repository": "HUMKIN",
+      "number": 194,
+      "title": "RADIO HOUSE · Add Cloud HOUSE to the Android Living Receiver preview",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/194",
+      "head_branch": "codex/cloud-house-android-preview",
+      "base_branch": "review/living-receiver-service-20261120"
+    },
+    {
+      "repository": "Jubilee-Engine-VM",
+      "number": 14,
+      "title": "NUTHANG-HARMONY-001 — First Chord: local compositional encounter instrument",
+      "url": "https://github.com/the-static-collective/Jubilee-Engine-VM/pull/14",
+      "head_branch": "experiment/nuthang-harmony-001-first-chord-20261121",
+      "base_branch": "main"
+    },
+    {
+      "repository": "reLATTE",
       "number": 180,
-      "title": "ANDROID TOWER 001 — real native HLS as opt-in classic radio mode",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/180",
-      "head_branch": "feature/android-native-tower-hls-20261120",
-      "base_branch": "recovery/android-classic-spine-20261120"
+      "title": "FREEPORT 008: native signed HUMKIN programming proposal review crossing",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/180",
+      "head_branch": "feature/freeport-008-program-crossing",
+      "base_branch": "main"
     }
   ],
-  "left_open_prs": [
-    {
-      "repository": "HUMKIN",
-      "number": 177,
-      "title": "TOWER Cloud Autopilot: prepare published remote music without local masters",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/177",
-      "head_branch": "feat/tower-autopilot-remote-media-20261120",
-      "base_branch": "main"
-    }
-  ]
+  "left_open_prs": []
 }

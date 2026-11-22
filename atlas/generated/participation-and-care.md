@@ -15,12 +15,13 @@ Food, households, accountable acts, return loops, and inhabitability.
 
 [Repository](https://github.com/the-static-collective/Jubilee-Engine-VM) · [Branches](https://github.com/the-static-collective/Jubilee-Engine-VM/branches) · [Pull requests](https://github.com/the-static-collective/Jubilee-Engine-VM/pulls)
 
-Default: `main` · other refs: 8 · open PRs: 2
+Default: `main` · other refs: 9 · open PRs: 3
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#14](https://github.com/the-static-collective/Jubilee-Engine-VM/pull/14) | NUTHANG-HARMONY-001 — First Chord: local compositional encounter instrument | `experiment/nuthang-harmony-001-first-chord-20261121` → `main` | 2026-11-21 |
 | [#12](https://github.com/the-static-collective/Jubilee-Engine-VM/pull/12) | design: freeze PostEmahh'n v0.1 constitution | `design/postemahhn-v0.1` → `main` | 2026-09-21 |
 | [#4](https://github.com/the-static-collective/Jubilee-Engine-VM/pull/4) | Add zero-authority reconstitution crossing specimen | `feat/reconstitution-crossing-v0` → `main` | 2026-09-18 |
 
@@ -30,6 +31,7 @@ Default: `main` · other refs: 8 · open PRs: 2
 | --- | --- | --- |
 | [agent/nuthang-book-of-acts-v0](https://github.com/the-static-collective/Jubilee-Engine-VM/tree/agent/nuthang-book-of-acts-v0) | [f2768ad25b](https://github.com/the-static-collective/Jubilee-Engine-VM/commit/f2768ad25bf08b676ee56bee96b09eace5a351d3) | Retained ref; disposition unverified |
 | [design/postemahhn-v0.1](https://github.com/the-static-collective/Jubilee-Engine-VM/tree/design/postemahhn-v0.1) | [20b529038b](https://github.com/the-static-collective/Jubilee-Engine-VM/commit/20b529038be86cb88e2fd386536493cd694fd719) | [open PR #12](https://github.com/the-static-collective/Jubilee-Engine-VM/pull/12) |
+| [experiment/nuthang-harmony-001-first-chord-20261121](https://github.com/the-static-collective/Jubilee-Engine-VM/tree/experiment/nuthang-harmony-001-first-chord-20261121) | [b596a4e788](https://github.com/the-static-collective/Jubilee-Engine-VM/commit/b596a4e78878e417e8e1eff0b6acc50a9cbf4d9b) | [open PR #14](https://github.com/the-static-collective/Jubilee-Engine-VM/pull/14) |
 | [feat/help-case-book-of-acts-adapter](https://github.com/the-static-collective/Jubilee-Engine-VM/tree/feat/help-case-book-of-acts-adapter) | [97b2d9122f](https://github.com/the-static-collective/Jubilee-Engine-VM/commit/97b2d9122ff065fafcda9e407c5def23748c3337) | Retained ref; disposition unverified |
 | [feat/reconstitution-crossing-v0](https://github.com/the-static-collective/Jubilee-Engine-VM/tree/feat/reconstitution-crossing-v0) | [48e8edf6cb](https://github.com/the-static-collective/Jubilee-Engine-VM/commit/48e8edf6cbed33bd8a3d4404f37165bd21047c14) | [open PR #4](https://github.com/the-static-collective/Jubilee-Engine-VM/pull/4) |
 | [research/jubilee-t10-001](https://github.com/the-static-collective/Jubilee-Engine-VM/tree/research/jubilee-t10-001) | [5d72e97059](https://github.com/the-static-collective/Jubilee-Engine-VM/commit/5d72e97059d073f6b4e2c3f0e6fa9b84c4178a60) | Retained ref; disposition unverified |
@@ -234,7 +236,7 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/revival) · [Branches](https://github.com/the-static-collective/revival/branches) · [Pull requests](https://github.com/the-static-collective/revival/pulls)
 
-Default: `main` · other refs: 17 · open PRs: 3
+Default: `main` · other refs: 18 · open PRs: 3
 
 ### Open pull requests
 
@@ -251,6 +253,7 @@ Default: `main` · other refs: 17 · open PRs: 3
 | [build/jubilee-scripture-door-001](https://github.com/the-static-collective/revival/tree/build/jubilee-scripture-door-001) | [cc48fcf1eb](https://github.com/the-static-collective/revival/commit/cc48fcf1eb469dd998c1317abce21be00a9429b4) | [open PR #15](https://github.com/the-static-collective/revival/pull/15) |
 | [experiment/revival-inheritance-constellation-016](https://github.com/the-static-collective/revival/tree/experiment/revival-inheritance-constellation-016) | [cc9db9cc8a](https://github.com/the-static-collective/revival/commit/cc9db9cc8a871b0d5ca6594cf712ad5356072a71) | [open PR #16](https://github.com/the-static-collective/revival/pull/16) |
 | [feat/door-packet-001](https://github.com/the-static-collective/revival/tree/feat/door-packet-001) | [47a6ee01c7](https://github.com/the-static-collective/revival/commit/47a6ee01c721ad4eca7f8260e9cb8875bbe37e28) | [open PR #13](https://github.com/the-static-collective/revival/pull/13) |
+| [feature/revival-014-matthew5-sblgnt](https://github.com/the-static-collective/revival/tree/feature/revival-014-matthew5-sblgnt) | [098286ccdc](https://github.com/the-static-collective/revival/commit/098286ccdc6dfec2cea5ccf2a91565daa8dd29c2) | Retained ref; disposition unverified |
 | [genesis-001-executable-kernel](https://github.com/the-static-collective/revival/tree/genesis-001-executable-kernel) | [ec5b7c64b1](https://github.com/the-static-collective/revival/commit/ec5b7c64b1472e77a178f34d619cf383e98b9e37) | Retained ref; disposition unverified |
 | [integration/scripture-stack-expedition-013](https://github.com/the-static-collective/revival/tree/integration/scripture-stack-expedition-013) | [fcd4f152de](https://github.com/the-static-collective/revival/commit/fcd4f152dea8aba4739f9bff79ae55857e1cd18d) | Retained ref; disposition unverified |
 | [revival-002-curiosity-compiler](https://github.com/the-static-collective/revival/tree/revival-002-curiosity-compiler) | [5f45217a5e](https://github.com/the-static-collective/revival/commit/5f45217a5e643a0af2b2471d5a7347df7d627dcb) | Retained ref; disposition unverified |
