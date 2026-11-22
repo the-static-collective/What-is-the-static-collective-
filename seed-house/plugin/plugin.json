@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "static-seed",
+  "version": "0.2.0",
+  "description": "Portable modular House of Houses: independent homes, rooms, attachable workbenches, source-aware business/fiction/publishing and owner-gated handoffs. Skills and optional local registry; no hosted collaboration.",
+  "author": {
+    "name": "The Static Collective"
+  },
+  "keywords": [
+    "creative-workflow",
+    "modular-homes",
+    "owner-consent",
+    "portable",
+    "portable-workbenches",
+    "publishing",
+    "room-charters",
+    "small-business",
+    "source-grounded",
+    "story-world"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "STATIC SEED · Work & Storyship",
+        "shortDescription": "Work, worlds, books and memory",
+        "longDescription": "Grow independent homes for a business, story worlds, books and new projects; create bounded rooms, attach only relevant workbenches and carry consent-aware return cards. Portable skills and optional local registry, not a hosted shared service.",
+        "developerName": "The Static Collective",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Help me use STATIC SEED on the most important thing I am working on.",
+          "Map my cleaning-business workflow, locate a bottleneck, and propose one useful improvement.",
+          "Help me build my story world, test its continuity, and plan one publication."
+        ]
+      }
+    }
+  }
+}

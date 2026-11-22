@@ -1,0 +1,13 @@
+{
+  "schema": "static-seed.house/v2",
+  "owner": {"id": "owner-local-1", "display_name": "Example owner"},
+  "revision": 0,
+  "homes": [
+    {"id": "cleaning", "name": "Cleaning Business", "kind": "business", "archived": false,
+     "rooms": [{"id": "operations", "name": "Operations", "visibility": "private", "workbenches": ["business-desk", "memento"]}]},
+    {"id": "story-world", "name": "Story World", "kind": "fiction", "archived": false,
+     "rooms": [{"id": "canon", "name": "Canon", "visibility": "private", "workbenches": ["storyship", "memento", "motif-lab"]}]},
+    {"id": "publishing", "name": "Publishing", "kind": "publishing", "archived": false,
+     "rooms": [{"id": "book-one", "name": "Book One", "visibility": "private", "workbenches": ["lemonpress", "bridge"]}]}
+  ]
+}
