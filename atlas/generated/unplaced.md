@@ -738,12 +738,13 @@ Default: `main` · other refs: 32 · open PRs: 15
 
 [Repository](https://github.com/the-static-collective/HUMKIN) · [Branches](https://github.com/the-static-collective/HUMKIN/branches) · [Pull requests](https://github.com/the-static-collective/HUMKIN/pulls)
 
-Default: `main` · other refs: 200 · open PRs: 27
+Default: `main` · other refs: 201 · open PRs: 28
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#203](https://github.com/the-static-collective/HUMKIN/pull/203) | TOWER 012 · native OAuth MCP for ChatGPT Station Desk + owner-safe cloud controls | `feature/tower-012a-b-chat-auth-bridge` → `main` | 2026-11-23 |
 | [#194](https://github.com/the-static-collective/HUMKIN/pull/194) | RADIO HOUSE · Add Cloud HOUSE to the Android Living Receiver preview | `codex/cloud-house-android-preview` → `review/living-receiver-service-20261120` | 2026-11-21 |
 | [#193](https://github.com/the-static-collective/HUMKIN/pull/193) | RADIO HOUSE 003 · Generate a FELLOWSHIP Station Seed rehearsal | `codex/radio-house-station-seed` → `main` | 2026-11-21 |
 | [#190](https://github.com/the-static-collective/HUMKIN/pull/190) | FIELD WITNESS 001 — local listener receipts for Night Shift (no transmitter change) | `experiment/field-outside-witness-001-20261121` → `main` | 2026-11-21 |
@@ -926,6 +927,7 @@ Default: `main` · other refs: 200 · open PRs: 27
 | [feature/ten-manga-postcards](https://github.com/the-static-collective/HUMKIN/tree/feature/ten-manga-postcards) | [02348ed302](https://github.com/the-static-collective/HUMKIN/commit/02348ed302060521c59ae6f2a9e0a6143f775084) | Retained ref; disposition unverified |
 | [feature/tower-010-living-control](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-010-living-control) | [e680d8dce2](https://github.com/the-static-collective/HUMKIN/commit/e680d8dce2b642f69ded3ba8e4618fb7fdd7bea7) | Retained ref; disposition unverified |
 | [feature/tower-011-durable-asset-spine](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-011-durable-asset-spine) | [de3617f680](https://github.com/the-static-collective/HUMKIN/commit/de3617f680c86828587cdc3b11679bbf14e9e0a7) | Retained ref; disposition unverified |
+| [feature/tower-012a-b-chat-auth-bridge](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-012a-b-chat-auth-bridge) | [01b7a15b74](https://github.com/the-static-collective/HUMKIN/commit/01b7a15b747a26bf9b48ded6a041d350817edd8d) | [open PR #203](https://github.com/the-static-collective/HUMKIN/pull/203) |
 | [feature/tower-feature-handoff-009](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-feature-handoff-009) | [38ddc94066](https://github.com/the-static-collective/HUMKIN/commit/38ddc94066e72444cbc1abfbd75457c293ca495d) | Retained ref; disposition unverified |
 | [feature/tower-living-crate-007-20261121](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-living-crate-007-20261121) | [b5309ccc79](https://github.com/the-static-collective/HUMKIN/commit/b5309ccc79456d5db0c2b5474478eee8339a5e7b) | Retained ref; disposition unverified |
 | [feature/tower-living-crate-008-incremental-cloud-sync](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-living-crate-008-incremental-cloud-sync) | [f033598e8e](https://github.com/the-static-collective/HUMKIN/commit/f033598e8eda96ec6db75db6a24abe01aba90993) | Retained ref; disposition unverified |
@@ -3127,6 +3129,34 @@ Default: `main` · other refs: 238 · open PRs: 170
 | [ux/invite-publication-bridge-003](https://github.com/the-static-collective/webZ/tree/ux/invite-publication-bridge-003) | [b85a578fe0](https://github.com/the-static-collective/webZ/commit/b85a578fe0bca4c6df06c67d32f3e59b0d303901) | [open PR #252](https://github.com/the-static-collective/webZ/pull/252) |
 | [ux/jubilee-role-buttons-003](https://github.com/the-static-collective/webZ/tree/ux/jubilee-role-buttons-003) | [f4d5b42058](https://github.com/the-static-collective/webZ/commit/f4d5b420589c63cc88c3445d6a675b2558e8113a) | Retained ref; disposition unverified |
 | [ux/value-before-intake-004](https://github.com/the-static-collective/webZ/tree/ux/value-before-intake-004) | [a640695c48](https://github.com/the-static-collective/webZ/commit/a640695c48cd556019572a022376648aa2e5e6c0) | Retained ref; disposition unverified |
+
+## willowlab
+
+[Repository](https://github.com/the-static-collective/willowlab) · [Branches](https://github.com/the-static-collective/willowlab/branches) · [Pull requests](https://github.com/the-static-collective/willowlab/pulls)
+
+Default: `main` · other refs: 6 · open PRs: 6
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#6](https://github.com/the-static-collective/willowlab/pull/6) | Willow Partner Sprint 002 — sourced regional prospects, one-click drafts and followup board | `feature/willow-partner-sprint-002` → `feature/willow-growth-desk-001` | 2026-11-23 |
+| [#5](https://github.com/the-static-collective/willowlab/pull/5) | WILLOW GROWTH DESK 001 — Field Bell + COMMUTER transplanted into Neighbor Weave | `feature/willow-growth-desk-001` → `experiment/static-seed-neighbor-weave-021` | 2026-11-23 |
+| [#4](https://github.com/the-static-collective/willowlab/pull/4) | Draft: STATIC SEED v2.1 Neighbor Weave local-only partnership review room | `experiment/static-seed-neighbor-weave-021` → `main` | 2026-11-23 |
+| [#3](https://github.com/the-static-collective/willowlab/pull/3) | Draft: owner-gated read-only WillowConnect public catalog bridge | `integration/willowconnect-public-catalog-001` → `main` | 2026-11-23 |
+| [#2](https://github.com/the-static-collective/willowlab/pull/2) | STATIC FILEPORT 001 — private Neon storage + owner-gated WillowLab share portal | `feature/static-fileport-neon-001` → `main` | 2026-11-23 |
+| [#1](https://github.com/the-static-collective/willowlab/pull/1) | Experiment: STATIC Workbench + source-pinned private MEMENTO read bridge | `experiment/static-workbench-001` → `main` | 2026-11-23 |
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [experiment/static-seed-neighbor-weave-021](https://github.com/the-static-collective/willowlab/tree/experiment/static-seed-neighbor-weave-021) | [a98cf80447](https://github.com/the-static-collective/willowlab/commit/a98cf80447cf0e7af7b61be80bfdb84b481e79b2) | [open PR #4](https://github.com/the-static-collective/willowlab/pull/4) |
+| [experiment/static-workbench-001](https://github.com/the-static-collective/willowlab/tree/experiment/static-workbench-001) | [687f7ecc21](https://github.com/the-static-collective/willowlab/commit/687f7ecc21a92c6976d9ae69a4e3652eab702904) | [open PR #1](https://github.com/the-static-collective/willowlab/pull/1) |
+| [feature/static-fileport-neon-001](https://github.com/the-static-collective/willowlab/tree/feature/static-fileport-neon-001) | [0b6bba4040](https://github.com/the-static-collective/willowlab/commit/0b6bba40405abb502856664c36917cbe46c14a33) | [open PR #2](https://github.com/the-static-collective/willowlab/pull/2) |
+| [feature/willow-growth-desk-001](https://github.com/the-static-collective/willowlab/tree/feature/willow-growth-desk-001) | [8fbeba9e32](https://github.com/the-static-collective/willowlab/commit/8fbeba9e326727bc6bda794c76f1a2626bae5684) | [open PR #5](https://github.com/the-static-collective/willowlab/pull/5) |
+| [feature/willow-partner-sprint-002](https://github.com/the-static-collective/willowlab/tree/feature/willow-partner-sprint-002) | [572611daa4](https://github.com/the-static-collective/willowlab/commit/572611daa42cbf44d4a02de2a4eb74843e87b51d) | [open PR #6](https://github.com/the-static-collective/willowlab/pull/6) |
+| [integration/willowconnect-public-catalog-001](https://github.com/the-static-collective/willowlab/tree/integration/willowconnect-public-catalog-001) | [ed03a996e7](https://github.com/the-static-collective/willowlab/commit/ed03a996e7f6ba5499859c0922b06e20206bef9d) | [open PR #3](https://github.com/the-static-collective/willowlab/pull/3) |
 
 ## WITNESS
 

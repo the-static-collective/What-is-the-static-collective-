@@ -1,190 +1,143 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-21T15:20:44+00:00",
-  "to_captured_at": "2026-11-22T15:17:18+00:00",
-  "added_repositories": [],
+  "from_captured_at": "2026-11-22T15:17:18+00:00",
+  "to_captured_at": "2026-11-23T19:14:02+00:00",
+  "added_repositories": [
+    "willowlab"
+  ],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "fellowSHIP",
-      "branch": "gh-pages",
-      "sha": "080b2bbaa3162eb8e45def106b195c2fefc65367"
-    },
-    {
-      "repository": "fellowSHIP",
-      "branch": "proposal/fellowship-childcare-need-001-20261121",
-      "sha": "a23def66a2b0c1f88f315f6f15edee6f37bf42fa"
-    },
-    {
-      "repository": "freeport",
-      "branch": "feature/freeport-008-relatte-neon",
-      "sha": "9d47e84ef1c05b503dfa9fca5f559a092ac83c33"
-    },
-    {
       "repository": "HUMKIN",
-      "branch": "codex/cloud-house-android-preview",
-      "sha": "51376941af38476ebae32105803234ee6bef7ef4"
+      "branch": "feature/tower-012a-b-chat-auth-bridge",
+      "sha": "01b7a15b747a26bf9b48ded6a041d350817edd8d"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "codex/radio-house-station-seed",
-      "sha": "2df6862247aa55031149af82e0535d3faf9206e1"
+      "repository": "What-is-the-static-collective-",
+      "branch": "feature/static-seed-v2-house-of-houses-20261122",
+      "sha": "8a390914bad017562343e2b1ed23e7e8fb6045ad"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "docs/radio-house-001-consolidation-20261121",
-      "sha": "fdd186705467ac20529becd7601213d835810f48"
+      "repository": "willowlab",
+      "branch": "experiment/static-seed-neighbor-weave-021",
+      "sha": "a98cf80447cf0e7af7b61be80bfdb84b481e79b2"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "experiment/field-outside-witness-001-20261121",
-      "sha": "317ca33952d3eecc1dfaae6a7f0e221fcd2774b1"
+      "repository": "willowlab",
+      "branch": "experiment/static-workbench-001",
+      "sha": "687f7ecc21a92c6976d9ae69a4e3652eab702904"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "feature/night-shift-full-catalog-bumper-brain-006",
-      "sha": "0e7b9ec642326efce6776ab44521c9ac5e41b1b4"
+      "repository": "willowlab",
+      "branch": "feature/static-fileport-neon-001",
+      "sha": "0b6bba40405abb502856664c36917cbe46c14a33"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "feature/radio-house-cloud-schedule-viewer-20261121",
-      "sha": "44a84965608012c2951ed9d541bf14c37d792508"
+      "repository": "willowlab",
+      "branch": "feature/willow-growth-desk-001",
+      "sha": "8fbeba9e326727bc6bda794c76f1a2626bae5684"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "feature/shortie-gap-guard-20261121",
-      "sha": "5428a6c704ec9a2c20456a72e4a90e7f1010864f"
+      "repository": "willowlab",
+      "branch": "feature/willow-partner-sprint-002",
+      "sha": "572611daa42cbf44d4a02de2a4eb74843e87b51d"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "feature/tower-010-living-control",
-      "sha": "e680d8dce2b642f69ded3ba8e4618fb7fdd7bea7"
+      "repository": "willowlab",
+      "branch": "integration/willowconnect-public-catalog-001",
+      "sha": "ed03a996e7f6ba5499859c0922b06e20206bef9d"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "feature/tower-011-durable-asset-spine",
-      "sha": "de3617f680c86828587cdc3b11679bbf14e9e0a7"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "feature/tower-feature-handoff-009",
-      "sha": "38ddc94066e72444cbc1abfbd75457c293ca495d"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "feature/tower-living-crate-007-20261121",
-      "sha": "b5309ccc79456d5db0c2b5474478eee8339a5e7b"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "feature/tower-living-crate-008-incremental-cloud-sync",
-      "sha": "f033598e8eda96ec6db75db6a24abe01aba90993"
-    },
-    {
-      "repository": "Jubilee-Engine-VM",
-      "branch": "experiment/nuthang-harmony-001-first-chord-20261121",
-      "sha": "b596a4e78878e417e8e1eff0b6acc50a9cbf4d9b"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "feature/freeport-008-program-crossing",
-      "sha": "660fc99567d63128b879cb6297ea7ac4dd15d280"
-    },
-    {
-      "repository": "revival",
-      "branch": "feature/revival-014-matthew5-sblgnt",
-      "sha": "098286ccdc6dfec2cea5ccf2a91565daa8dd29c2"
+      "repository": "willowlab",
+      "branch": "main",
+      "sha": "0fc59515902bb662b3c5bb44bd73d33d43f5145f"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "fellowSHIP",
-      "branch": "feat/commons-foundation-001",
-      "from_sha": "230b06f06418e165f85628c21fa9e55b0b2585ca",
-      "to_sha": "e6e088febcb9dc324092e80bd76c4adf2d6e7044"
-    },
-    {
       "repository": "HUMKIN",
       "branch": "main",
-      "from_sha": "f9a325dd19e257cc2f90fef9154d1cd00fee6694",
-      "to_sha": "bdfbcae0a78b5d828840c4347f7992def635867d"
+      "from_sha": "bdfbcae0a78b5d828840c4347f7992def635867d",
+      "to_sha": "4e7e166be8f45bc83afd2f10f3915a27bf189d76"
     },
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "81e3b0b95dd8a4a83be2b384080ec82cd4d71147",
-      "to_sha": "004b820313ef88528b3d48f5b5d4e501839ea9a1"
-    },
-    {
-      "repository": "revival",
-      "branch": "main",
-      "from_sha": "19de96625d9279c19575c0c72cd96610ee2848a5",
-      "to_sha": "fc30cc34dedccbdff6cc1fb343c902db8b5ed397"
+      "from_sha": "004b820313ef88528b3d48f5b5d4e501839ea9a1",
+      "to_sha": "80f1c01e3efb4c724f282ddb915f5ad647f8efb7"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "c67469590661b3de11e164b7c15c03dd5e70f2c7",
-      "to_sha": "d90848d44d5f47e54da53b90428dcab4c41657a7"
+      "from_sha": "d90848d44d5f47e54da53b90428dcab4c41657a7",
+      "to_sha": "159b5edf1af7bafd27d2ef4673809e86326ff73d"
     }
   ],
   "opened_prs": [
     {
-      "repository": "fellowSHIP",
+      "repository": "HUMKIN",
+      "number": 203,
+      "title": "TOWER 012 · native OAuth MCP for ChatGPT Station Desk + owner-safe cloud controls",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/203",
+      "head_branch": "feature/tower-012a-b-chat-auth-bridge",
+      "base_branch": "main"
+    },
+    {
+      "repository": "What-is-the-static-collective-",
+      "number": 104,
+      "title": "STATIC SEED v2.1: modular homes + Neighbor Weave partnership workbench",
+      "url": "https://github.com/the-static-collective/What-is-the-static-collective-/pull/104",
+      "head_branch": "feature/static-seed-v2-house-of-houses-20261122",
+      "base_branch": "main"
+    },
+    {
+      "repository": "willowlab",
+      "number": 1,
+      "title": "Experiment: STATIC Workbench + source-pinned private MEMENTO read bridge",
+      "url": "https://github.com/the-static-collective/willowlab/pull/1",
+      "head_branch": "experiment/static-workbench-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "willowlab",
       "number": 2,
-      "title": "FELLOWSHIP-CHILDCARE-001: real childcare need, unfilled and host-gated",
-      "url": "https://github.com/the-static-collective/fellowSHIP/pull/2",
-      "head_branch": "proposal/fellowship-childcare-need-001-20261121",
+      "title": "STATIC FILEPORT 001 — private Neon storage + owner-gated WillowLab share portal",
+      "url": "https://github.com/the-static-collective/willowlab/pull/2",
+      "head_branch": "feature/static-fileport-neon-001",
       "base_branch": "main"
     },
     {
-      "repository": "freeport",
+      "repository": "willowlab",
+      "number": 3,
+      "title": "Draft: owner-gated read-only WillowConnect public catalog bridge",
+      "url": "https://github.com/the-static-collective/willowlab/pull/3",
+      "head_branch": "integration/willowconnect-public-catalog-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "willowlab",
+      "number": 4,
+      "title": "Draft: STATIC SEED v2.1 Neighbor Weave local-only partnership review room",
+      "url": "https://github.com/the-static-collective/willowlab/pull/4",
+      "head_branch": "experiment/static-seed-neighbor-weave-021",
+      "base_branch": "main"
+    },
+    {
+      "repository": "willowlab",
+      "number": 5,
+      "title": "WILLOW GROWTH DESK 001 — Field Bell + COMMUTER transplanted into Neighbor Weave",
+      "url": "https://github.com/the-static-collective/willowlab/pull/5",
+      "head_branch": "feature/willow-growth-desk-001",
+      "base_branch": "experiment/static-seed-neighbor-weave-021"
+    },
+    {
+      "repository": "willowlab",
       "number": 6,
-      "title": "FREEPORT 008: Neon review-only signed crossing archive and authority contract",
-      "url": "https://github.com/the-static-collective/freeport/pull/6",
-      "head_branch": "feature/freeport-008-relatte-neon",
-      "base_branch": "main"
-    },
-    {
-      "repository": "HUMKIN",
-      "number": 190,
-      "title": "FIELD WITNESS 001 — local listener receipts for Night Shift (no transmitter change)",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/190",
-      "head_branch": "experiment/field-outside-witness-001-20261121",
-      "base_branch": "main"
-    },
-    {
-      "repository": "HUMKIN",
-      "number": 193,
-      "title": "RADIO HOUSE 003 · Generate a FELLOWSHIP Station Seed rehearsal",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/193",
-      "head_branch": "codex/radio-house-station-seed",
-      "base_branch": "main"
-    },
-    {
-      "repository": "HUMKIN",
-      "number": 194,
-      "title": "RADIO HOUSE · Add Cloud HOUSE to the Android Living Receiver preview",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/194",
-      "head_branch": "codex/cloud-house-android-preview",
-      "base_branch": "review/living-receiver-service-20261120"
-    },
-    {
-      "repository": "Jubilee-Engine-VM",
-      "number": 14,
-      "title": "NUTHANG-HARMONY-001 — First Chord: local compositional encounter instrument",
-      "url": "https://github.com/the-static-collective/Jubilee-Engine-VM/pull/14",
-      "head_branch": "experiment/nuthang-harmony-001-first-chord-20261121",
-      "base_branch": "main"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 180,
-      "title": "FREEPORT 008: native signed HUMKIN programming proposal review crossing",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/180",
-      "head_branch": "feature/freeport-008-program-crossing",
-      "base_branch": "main"
+      "title": "Willow Partner Sprint 002 — sourced regional prospects, one-click drafts and followup board",
+      "url": "https://github.com/the-static-collective/willowlab/pull/6",
+      "head_branch": "feature/willow-partner-sprint-002",
+      "base_branch": "feature/willow-growth-desk-001"
     }
   ],
   "left_open_prs": []

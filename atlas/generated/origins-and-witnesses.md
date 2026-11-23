@@ -119,12 +119,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/What-is-the-static-collective-) · [Branches](https://github.com/the-static-collective/What-is-the-static-collective-/branches) · [Pull requests](https://github.com/the-static-collective/What-is-the-static-collective-/pulls)
 
-Default: `main` · other refs: 84 · open PRs: 22
+Default: `main` · other refs: 85 · open PRs: 23
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#104](https://github.com/the-static-collective/What-is-the-static-collective-/pull/104) | STATIC SEED v2.1: modular homes + Neighbor Weave partnership workbench | `feature/static-seed-v2-house-of-houses-20261122` → `main` | 2026-11-23 |
 | [#101](https://github.com/the-static-collective/What-is-the-static-collective-/pull/101) | STACK² 026 — Breath Atlas: first branch-evidence instrument (draft) | `design/breath-atlas-026` → `main` | 2026-10-22 |
 | [#100](https://github.com/the-static-collective/What-is-the-static-collective-/pull/100) | Creator Workspace Living Wiki 001 — branch-first semantic overlay for the public Git terrain | `proposal/creator-workspace-living-wiki-001` → `main` | 2026-10-22 |
 | [#99](https://github.com/the-static-collective/What-is-the-static-collective-/pull/99) | CONSEQUENCE SEQUENCE — residue, re-entry, and future possibility | `pattern/consequence-sequence-001` → `main` | 2026-10-05 |
@@ -206,6 +207,7 @@ Default: `main` · other refs: 84 · open PRs: 22
 | [feat/visibility-aperture-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/feat/visibility-aperture-001) | [283586415e](https://github.com/the-static-collective/What-is-the-static-collective-/commit/283586415e393646f9220cd69b680c0cf2aafc37) | Retained ref; disposition unverified |
 | [feature/orchard-picker-v0](https://github.com/the-static-collective/What-is-the-static-collective-/tree/feature/orchard-picker-v0) | [3b73445a12](https://github.com/the-static-collective/What-is-the-static-collective-/commit/3b73445a126c3a9496c4befe7e3316aaeb597c8b) | Retained ref; disposition unverified |
 | [feature/relay-garden-001](https://github.com/the-static-collective/What-is-the-static-collective-/tree/feature/relay-garden-001) | [6c1bfcf5f3](https://github.com/the-static-collective/What-is-the-static-collective-/commit/6c1bfcf5f39765b762f901ee9e954e7855a06eba) | [open PR #98](https://github.com/the-static-collective/What-is-the-static-collective-/pull/98) |
+| [feature/static-seed-v2-house-of-houses-20261122](https://github.com/the-static-collective/What-is-the-static-collective-/tree/feature/static-seed-v2-house-of-houses-20261122) | [8a390914ba](https://github.com/the-static-collective/What-is-the-static-collective-/commit/8a390914bad017562343e2b1ed23e7e8fb6045ad) | [open PR #104](https://github.com/the-static-collective/What-is-the-static-collective-/pull/104) |
 | [fix/full-bowl-encounter-binding](https://github.com/the-static-collective/What-is-the-static-collective-/tree/fix/full-bowl-encounter-binding) | [0b86926061](https://github.com/the-static-collective/What-is-the-static-collective-/commit/0b869260610ca354bea9114208619cebcd920e03) | Retained ref; disposition unverified |
 | [fix/git-atlas-return-links-20260925](https://github.com/the-static-collective/What-is-the-static-collective-/tree/fix/git-atlas-return-links-20260925) | [5c9650df71](https://github.com/the-static-collective/What-is-the-static-collective-/commit/5c9650df71d05f5ad12e72b540b8e1f74375e568) | Retained ref; disposition unverified |
 | [frontier/attention-resolution-field](https://github.com/the-static-collective/What-is-the-static-collective-/tree/frontier/attention-resolution-field) | [42a9f4c209](https://github.com/the-static-collective/What-is-the-static-collective-/commit/42a9f4c209ce8e9e67d5bb783dcca728d63af817) | Retained ref; disposition unverified |

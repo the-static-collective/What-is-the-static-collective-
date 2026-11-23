@@ -8480,6 +8480,10 @@
           "sha": "de3617f680c86828587cdc3b11679bbf14e9e0a7"
         },
         {
+          "name": "feature/tower-012a-b-chat-auth-bridge",
+          "sha": "01b7a15b747a26bf9b48ded6a041d350817edd8d"
+        },
+        {
           "name": "feature/tower-feature-handoff-009",
           "sha": "38ddc94066e72444cbc1abfbd75457c293ca495d"
         },
@@ -8621,7 +8625,7 @@
         },
         {
           "name": "main",
-          "sha": "bdfbcae0a78b5d828840c4347f7992def635867d"
+          "sha": "4e7e166be8f45bc83afd2f10f3915a27bf189d76"
         },
         {
           "name": "preview/radio-and-records-season-two",
@@ -8685,6 +8689,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 203,
+          "title": "TOWER 012 · native OAuth MCP for ChatGPT Station Desk + owner-safe cloud controls",
+          "head_branch": "feature/tower-012a-b-chat-auth-bridge",
+          "head_sha": "01b7a15b747a26bf9b48ded6a041d350817edd8d",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-23T19:12:55Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/203"
+        },
         {
           "number": 194,
           "title": "RADIO HOUSE · Add Cloud HOUSE to the Android Living Receiver preview",
@@ -9437,7 +9451,7 @@
         },
         {
           "name": "main",
-          "sha": "004b820313ef88528b3d48f5b5d4e501839ea9a1"
+          "sha": "80f1c01e3efb4c724f282ddb915f5ad647f8efb7"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -30661,6 +30675,10 @@
           "sha": "6c1bfcf5f39765b762f901ee9e954e7855a06eba"
         },
         {
+          "name": "feature/static-seed-v2-house-of-houses-20261122",
+          "sha": "8a390914bad017562343e2b1ed23e7e8fb6045ad"
+        },
+        {
           "name": "fix/full-bowl-encounter-binding",
           "sha": "0b869260610ca354bea9114208619cebcd920e03"
         },
@@ -30702,7 +30720,7 @@
         },
         {
           "name": "main",
-          "sha": "d90848d44d5f47e54da53b90428dcab4c41657a7"
+          "sha": "159b5edf1af7bafd27d2ef4673809e86326ff73d"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -30786,6 +30804,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 104,
+          "title": "STATIC SEED v2.1: modular homes + Neighbor Weave partnership workbench",
+          "head_branch": "feature/static-seed-v2-house-of-houses-20261122",
+          "head_sha": "8a390914bad017562343e2b1ed23e7e8fb6045ad",
+          "head_repo": "the-static-collective/What-is-the-static-collective-",
+          "base_branch": "main",
+          "updated_at": "2026-11-23T16:23:47Z",
+          "url": "https://github.com/the-static-collective/What-is-the-static-collective-/pull/104"
+        },
         {
           "number": 101,
           "title": "STACK² 026 — Breath Atlas: first branch-evidence instrument (draft)",
@@ -31009,6 +31037,104 @@
       ]
     },
     {
+      "name": "willowlab",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "experiment/static-seed-neighbor-weave-021",
+          "sha": "a98cf80447cf0e7af7b61be80bfdb84b481e79b2"
+        },
+        {
+          "name": "experiment/static-workbench-001",
+          "sha": "687f7ecc21a92c6976d9ae69a4e3652eab702904"
+        },
+        {
+          "name": "feature/static-fileport-neon-001",
+          "sha": "0b6bba40405abb502856664c36917cbe46c14a33"
+        },
+        {
+          "name": "feature/willow-growth-desk-001",
+          "sha": "8fbeba9e326727bc6bda794c76f1a2626bae5684"
+        },
+        {
+          "name": "feature/willow-partner-sprint-002",
+          "sha": "572611daa42cbf44d4a02de2a4eb74843e87b51d"
+        },
+        {
+          "name": "integration/willowconnect-public-catalog-001",
+          "sha": "ed03a996e7f6ba5499859c0922b06e20206bef9d"
+        },
+        {
+          "name": "main",
+          "sha": "0fc59515902bb662b3c5bb44bd73d33d43f5145f"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 6,
+          "title": "Willow Partner Sprint 002 — sourced regional prospects, one-click drafts and followup board",
+          "head_branch": "feature/willow-partner-sprint-002",
+          "head_sha": "572611daa42cbf44d4a02de2a4eb74843e87b51d",
+          "head_repo": "the-static-collective/willowlab",
+          "base_branch": "feature/willow-growth-desk-001",
+          "updated_at": "2026-11-23T19:13:51Z",
+          "url": "https://github.com/the-static-collective/willowlab/pull/6"
+        },
+        {
+          "number": 5,
+          "title": "WILLOW GROWTH DESK 001 — Field Bell + COMMUTER transplanted into Neighbor Weave",
+          "head_branch": "feature/willow-growth-desk-001",
+          "head_sha": "8fbeba9e326727bc6bda794c76f1a2626bae5684",
+          "head_repo": "the-static-collective/willowlab",
+          "base_branch": "experiment/static-seed-neighbor-weave-021",
+          "updated_at": "2026-11-23T18:49:55Z",
+          "url": "https://github.com/the-static-collective/willowlab/pull/5"
+        },
+        {
+          "number": 4,
+          "title": "Draft: STATIC SEED v2.1 Neighbor Weave local-only partnership review room",
+          "head_branch": "experiment/static-seed-neighbor-weave-021",
+          "head_sha": "a98cf80447cf0e7af7b61be80bfdb84b481e79b2",
+          "head_repo": "the-static-collective/willowlab",
+          "base_branch": "main",
+          "updated_at": "2026-11-23T18:27:47Z",
+          "url": "https://github.com/the-static-collective/willowlab/pull/4"
+        },
+        {
+          "number": 3,
+          "title": "Draft: owner-gated read-only WillowConnect public catalog bridge",
+          "head_branch": "integration/willowconnect-public-catalog-001",
+          "head_sha": "ed03a996e7f6ba5499859c0922b06e20206bef9d",
+          "head_repo": "the-static-collective/willowlab",
+          "base_branch": "main",
+          "updated_at": "2026-11-23T17:14:35Z",
+          "url": "https://github.com/the-static-collective/willowlab/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "STATIC FILEPORT 001 — private Neon storage + owner-gated WillowLab share portal",
+          "head_branch": "feature/static-fileport-neon-001",
+          "head_sha": "0b6bba40405abb502856664c36917cbe46c14a33",
+          "head_repo": "the-static-collective/willowlab",
+          "base_branch": "main",
+          "updated_at": "2026-11-23T19:11:05Z",
+          "url": "https://github.com/the-static-collective/willowlab/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "Experiment: STATIC Workbench + source-pinned private MEMENTO read bridge",
+          "head_branch": "experiment/static-workbench-001",
+          "head_sha": "687f7ecc21a92c6976d9ae69a4e3652eab702904",
+          "head_repo": "the-static-collective/willowlab",
+          "base_branch": "main",
+          "updated_at": "2026-11-23T10:44:56Z",
+          "url": "https://github.com/the-static-collective/willowlab/pull/1"
+        }
+      ]
+    },
+    {
       "name": "WITNESS",
       "visibility": "public",
       "default_branch": "main",
@@ -31165,5 +31291,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-22T15:17:18+00:00"
+  "captured_at": "2026-11-23T19:14:02+00:00"
 }
