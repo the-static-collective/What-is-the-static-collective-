@@ -27,8 +27,9 @@ Each home owns its own records and decisions. Rooms have bounded purposes; workb
 
 ## Available now
 
-- Eleven ChatGPT skills under [`plugin/skills/`](plugin/skills/), including housekeeper, room-maker and workbench.
+- Twelve ChatGPT skills under [`plugin/skills/`](plugin/skills/), including housekeeper, room-maker and workbench.
 - Copy-and-paste [no-install starter prompt](plugin/portable-starter-prompt.txt).
+- Optional [Neighbor Weave pilot](plugin/docs/NEIGHBOR-WEAVE-PILOT.md) with three source-checked, uncontacted southern Minnesota business leads and a reciprocal partnership-card template.
 - An owner-editable [House Registry example](plugin/templates/HOUSE-REGISTRY.example.json), room charter and crossing packet.
 - Optional Python standard-library [local CLI](plugin/toolkit/seed_house.py) with [five tests](plugin/tests/test_seed_house.py).
 

@@ -1,0 +1,101 @@
+{
+  "schema": "static-seed.neighbor-garden/v1",
+  "status": "PUBLIC_RESEARCH_SPECIMEN_NOT_COLTON_APPROVED",
+  "created_on": "2026-11-23",
+  "proposed_home": "cleaning",
+  "proposed_private_room": "partnerships",
+  "relationship_states": [
+    "DISCOVERED",
+    "REVIEWED",
+    "INTRODUCED",
+    "TRIAL",
+    "COLLABORATING",
+    "PAUSED",
+    "DECLINED",
+    "NO_FIT"
+  ],
+  "record_scope": "public organization facts and untested reciprocal hypotheses only; no client records, private contacts, or messages",
+  "leads": [
+    {
+      "id": "factor-property-management",
+      "business_name": "Factor Property Management",
+      "region": "Mankato, Minnesota",
+      "relationship_type": "recurring-vendor",
+      "stage": "DISCOVERED",
+      "source": {
+        "url": "https://www.factor.rent/services",
+        "checked_on": "2026-11-23",
+        "observed": "The business publishes property management services for the Mankato area."
+      },
+      "proposed_mutual_value": {
+        "to_neighbor": "Potentially reliable, checklist-based rental turnover or common-area cleaning, if within Willow's capacity.",
+        "to_willow": "Potential access to repeatable, agreed cleaning assignments rather than ad hoc one-offs."
+      },
+      "uncertainties": [
+        "Existing vendor contracts or in-house cleaning",
+        "Actual job volume",
+        "Willow commercial capacity and coverage"
+      ],
+      "next_owner_step": "Review Willow's capacity; then request permission to draft a single exploratory introduction.",
+      "introduction_evidence": null,
+      "mutual_trial_evidence": null,
+      "partner_confirmed": false
+    },
+    {
+      "id": "caring-transitions-mankato",
+      "business_name": "Caring Transitions of Mankato",
+      "region": "Mankato, Minnesota",
+      "relationship_type": "project-handoff",
+      "stage": "DISCOVERED",
+      "source": {
+        "url": "https://www.caringtransitionsmankato.com/services",
+        "checked_on": "2026-11-23",
+        "observed": "The business describes downsizing, estate sales and relocation assistance."
+      },
+      "proposed_mutual_value": {
+        "to_neighbor": "Possible move-out or final-clean capacity only where it complements services they already provide.",
+        "to_willow": "Potential relevant project introductions and opportunities for reciprocal referral."
+      },
+      "uncertainties": [
+        "Whether cleaning is already fully provided by the organization",
+        "Customer consent to cross-provider introductions",
+        "Specialist needs and timing"
+      ],
+      "next_owner_step": "Review service overlap before assuming a fit.",
+      "introduction_evidence": null,
+      "mutual_trial_evidence": null,
+      "partner_confirmed": false
+    },
+    {
+      "id": "shine-way-services",
+      "business_name": "Shine Way Interior Preservation Services",
+      "region": "Waseca, Minnesota",
+      "relationship_type": "specialty-peer",
+      "stage": "DISCOVERED",
+      "source": {
+        "url": "https://www.shinewayservices.com/",
+        "checked_on": "2026-11-23",
+        "observed": "The business publishes commercial janitorial and interior cleaning specialties."
+      },
+      "proposed_mutual_value": {
+        "to_neighbor": "Possibly handle distinct overflow jobs or categories outside the neighbor's preferred scope, if mutually agreed.",
+        "to_willow": "Specialty cleaning referrals or an experienced local peer perspective."
+      },
+      "uncertainties": [
+        "Potential direct competition/overlap",
+        "Independent service and price decisions",
+        "Actual desire for referral cooperation"
+      ],
+      "next_owner_step": "First assess whether there is a distinct, non-overlapping specialty worth discussing.",
+      "introduction_evidence": null,
+      "mutual_trial_evidence": null,
+      "partner_confirmed": false
+    }
+  ],
+  "actions_taken": {
+    "outreach_sent": false,
+    "partnerships_confirmed": 0,
+    "crm_imports": 0
+  },
+  "next_pilot": "Owner chooses one lead, verifies source and capacity, and only then authorizes one specific introduction."
+}

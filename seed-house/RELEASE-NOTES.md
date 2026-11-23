@@ -1,3 +1,14 @@
+# STATIC SEED v0.2.1 — Neighbor Weave pilot (2026-11-23)
+
+**Status:** source implementation on review branch; not a deployed relationship network or a confirmed Colton partnership.
+
+- Added `neighbor-weave` as the twelfth optional workbench skill, with a source-pinned, reciprocal Neighbor Card and a consent-gated relationship lifecycle.
+- Added a private Partnerships room to the *fictional example* House map, not to Colton's account or WillowConnect.
+- Added three independently source-checked businesses as `DISCOVERED` only, with mutually useful hypotheses; no real customer data, contact details, outreach, or business commitments.
+- Added a one-introduction pilot with plain-notes baseline and falsification criteria. No second CRM, automatic contact, registry sync, or workbench/hosted-room deployment.
+
+---
+
 # STATIC SEED v0.2.0 — release and verification
 
 Date: 2026-11-22

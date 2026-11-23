@@ -7,7 +7,7 @@ description: Use to discover, attach, disable, detach, replace or compose modula
 
 A WORKBENCH is a reusable **method** selected for a ROOM. Attachments do not activate tools, grant API scopes, bind secrets, change the owner of records or automatically provide remembered context.
 
-Catalog in v2: `business-desk`, `storyship`, `lemonpress`, `memento`, `motif-lab`, `loadout`, `bridge`; `housekeeper` and `room-maker` are structural skills. New workbenches can be defined without changing the schema or renaming existing homes.
+Catalog in v2: `business-desk`, `neighbor-weave`, `storyship`, `lemonpress`, `memento`, `motif-lab`, `loadout`, `bridge`; `housekeeper` and `room-maker` are structural skills. New workbenches can be defined without changing the schema or renaming existing homes.
 
 Procedure:
 1. Understand the current room's purpose and immediate outcome.
@@ -18,3 +18,7 @@ Procedure:
 6. Give a concise Workbench Card: home, room, method, purpose, allowed inputs, excluded data, claimed effects, status, next test.
 
 When available, validate the portable registry with `../../toolkit/seed_house.py validate`; this script works on local JSON only and is not a shared service.
+
+## Neighbor Weave attachment
+
+A private **Partnerships** room may attach `neighbor-weave` when the owner wants reciprocal local-business links. This only enables a planning method: discovered businesses remain `DISCOVERED` until a separate, evidenced owner review. No web scraping, contacts, outreach, lead scoring, contracts, referrals, or CRM updates happen by attaching the workbench. Use the `neighbor-weave` skill and its source-grounded Neighbor Cards.
