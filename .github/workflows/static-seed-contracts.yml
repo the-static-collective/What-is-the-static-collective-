@@ -1,0 +1,32 @@
+name: STATIC SEED portable contracts
+on:
+  push:
+    paths:
+      - "seed-house/**"
+      - ".github/workflows/static-seed-contracts.yml"
+  pull_request:
+    paths:
+      - "seed-house/**"
+      - ".github/workflows/static-seed-contracts.yml"
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate source and pilots
+        run: |
+          cd seed-house/plugin
+          python3 -m unittest discover -s tests -v
+          python3 toolkit/seed_house.py validate --file templates/HOUSE-REGISTRY.example.json
+          python3 -c 'import json; from pathlib import Path; root=Path("."); [json.loads(p.read_text()) for p in [root/"plugin.json",root/".codex-plugin/plugin.json",root/"templates/NEIGHBOR-GARDEN.example.json"]]'
+      - name: Package STATIC SEED v2.1 as plugin-only ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: static-seed-v2.1-plugin-source
+          path: seed-house/plugin/
+          include-hidden-files: true
+          if-no-files-found: error
+          compression-level: 9
+          retention-days: 30

@@ -1,0 +1,12 @@
+{
+  "schema": "static-seed.crossing/v1",
+  "status": "PROPOSED",
+  "source": {"home": "story-world", "room": "canon"},
+  "target": {"home": "publishing", "room": "book-one"},
+  "resource_refs": ["original-mascot-concept-001"],
+  "purpose": "Request rights/continuity review of an original proposed character",
+  "permissions": "none; requires source and receiving-owner review",
+  "scope": "proposal-metadata-only",
+  "expires_at": null,
+  "decision": "HELD"
+}
