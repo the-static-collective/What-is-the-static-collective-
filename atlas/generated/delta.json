@@ -1,56 +1,122 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-22T15:17:18+00:00",
-  "to_captured_at": "2026-11-23T19:14:02+00:00",
+  "from_captured_at": "2026-11-23T19:14:02+00:00",
+  "to_captured_at": "2026-11-24T18:52:57+00:00",
   "added_repositories": [
-    "willowlab"
+    "fileport",
+    "staticID"
   ],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "HUMKIN",
-      "branch": "feature/tower-012a-b-chat-auth-bridge",
-      "sha": "01b7a15b747a26bf9b48ded6a041d350817edd8d"
+      "repository": "fileport",
+      "branch": "feature/fileport-003-static-id",
+      "sha": "478df6b98c44e8a4998890a25272ca4cd18901f2"
     },
     {
-      "repository": "What-is-the-static-collective-",
-      "branch": "feature/static-seed-v2-house-of-houses-20261122",
-      "sha": "8a390914bad017562343e2b1ed23e7e8fb6045ad"
+      "repository": "fileport",
+      "branch": "feature/intranet-fileport-v1",
+      "sha": "b69034b316ff87ea82c781a8fa8a2085f85b5365"
     },
     {
-      "repository": "willowlab",
-      "branch": "experiment/static-seed-neighbor-weave-021",
-      "sha": "a98cf80447cf0e7af7b61be80bfdb84b481e79b2"
+      "repository": "fileport",
+      "branch": "feature/neon-first-multicloud-002",
+      "sha": "4ac8bdf9faa1fb2fb102fdb62d8aa91ec3f046cc"
     },
     {
-      "repository": "willowlab",
-      "branch": "experiment/static-workbench-001",
-      "sha": "687f7ecc21a92c6976d9ae69a4e3652eab702904"
+      "repository": "fileport",
+      "branch": "fix/static-id-callback-diagnostics",
+      "sha": "3313e8ae1248d7db97b7660fa5c69fa6bac7dba9"
     },
     {
-      "repository": "willowlab",
-      "branch": "feature/static-fileport-neon-001",
-      "sha": "0b6bba40405abb502856664c36917cbe46c14a33"
+      "repository": "fileport",
+      "branch": "fix/static-id-token-transport",
+      "sha": "ed0cc8c7c15bc358a488e4492336b18cc893ec4d"
     },
     {
-      "repository": "willowlab",
-      "branch": "feature/willow-growth-desk-001",
-      "sha": "8fbeba9e326727bc6bda794c76f1a2626bae5684"
+      "repository": "fileport",
+      "branch": "fix/static-id-workers-jwks",
+      "sha": "6e6b3a4a4e7680bbdbb6d45c66113333a843c643"
     },
     {
-      "repository": "willowlab",
-      "branch": "feature/willow-partner-sprint-002",
-      "sha": "572611daa42cbf44d4a02de2a4eb74843e87b51d"
-    },
-    {
-      "repository": "willowlab",
-      "branch": "integration/willowconnect-public-catalog-001",
-      "sha": "ed03a996e7f6ba5499859c0922b06e20206bef9d"
-    },
-    {
-      "repository": "willowlab",
+      "repository": "fileport",
       "branch": "main",
-      "sha": "0fc59515902bb662b3c5bb44bd73d33d43f5145f"
+      "sha": "215276fb74ebd7ae359c6391614661892b01f60b"
+    },
+    {
+      "repository": "HUMKIN",
+      "branch": "feat/robot-radio-discovery-001",
+      "sha": "f3d5d4e09891c9b7ad478e63227033c817929bf1"
+    },
+    {
+      "repository": "HUMKIN",
+      "branch": "feature/static-id-consent-multiple-apps",
+      "sha": "e9854c52baa463e27af867c7a00c348e166c84d4"
+    },
+    {
+      "repository": "HUMKIN",
+      "branch": "fix/pages-artifact-index-wait",
+      "sha": "52a05541baf518689b343cdd558340a9b3b68948"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "experiment/mooncrater-001-common-harvest",
+      "sha": "bbe39a8dc7c8b0064be8c258cfe9b1fe43b7cdd6"
+    },
+    {
+      "repository": "reLATTE",
+      "branch": "feat/humkin-suno-listening-review-001",
+      "sha": "315f5270b299a5543667bf2e028d659fefba9892"
+    },
+    {
+      "repository": "SIA",
+      "branch": "feature/fishbone-003-local-operator",
+      "sha": "a040f0c98b4b6fc171586baf2bed4fd547499ff3"
+    },
+    {
+      "repository": "SIA",
+      "branch": "fix/fishbone-003-manual-notes",
+      "sha": "9aaefa07eb6108f17985074f40653f991a1d54fe"
+    },
+    {
+      "repository": "staticID",
+      "branch": "feature/application-onboarding-002",
+      "sha": "9848fc6e84473cbd147f1870d7c51a7bb792dbdd"
+    },
+    {
+      "repository": "staticID",
+      "branch": "feature/application-registry-003",
+      "sha": "c89a5d30172b165079b2e0fd7952fc5729772b96"
+    },
+    {
+      "repository": "staticID",
+      "branch": "feature/static-id-001-oauth-bridge",
+      "sha": "45a964bea0e9df46b89a8cdaaebfe4bfde015809"
+    },
+    {
+      "repository": "staticID",
+      "branch": "feature/village-gate-004",
+      "sha": "8d866e54ad7cf4bbb1df6c55cb9b8073d74caaf0"
+    },
+    {
+      "repository": "staticID",
+      "branch": "fix/callback-diagnostics",
+      "sha": "8cf6110ff224b2bdf11b0a77808764eb6faa37b3"
+    },
+    {
+      "repository": "staticID",
+      "branch": "fix/token-exchange-transport",
+      "sha": "e703d819588f5bd5d251e6811b9f8fb6788bcbe3"
+    },
+    {
+      "repository": "staticID",
+      "branch": "fix/workers-jwks-fetch",
+      "sha": "d6f36e551021dfc67f8dab846c504cc06614e834"
+    },
+    {
+      "repository": "staticID",
+      "branch": "main",
+      "sha": "259787c50dc4cc2c5e7fb1defe09c9a3cd82c4a3"
     }
   ],
   "removed_branches": [],
@@ -58,23 +124,73 @@
     {
       "repository": "HUMKIN",
       "branch": "main",
-      "from_sha": "bdfbcae0a78b5d828840c4347f7992def635867d",
-      "to_sha": "4e7e166be8f45bc83afd2f10f3915a27bf189d76"
+      "from_sha": "4e7e166be8f45bc83afd2f10f3915a27bf189d76",
+      "to_sha": "2afc79b7c58f7fc9e3b0405773810c35b8a5ca63"
     },
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "004b820313ef88528b3d48f5b5d4e501839ea9a1",
-      "to_sha": "80f1c01e3efb4c724f282ddb915f5ad647f8efb7"
+      "from_sha": "80f1c01e3efb4c724f282ddb915f5ad647f8efb7",
+      "to_sha": "b061f7c029c8e97cd928e99bb5227a90ffe958bd"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "branch": "main",
+      "from_sha": "922639ef84fcf773dbf179d8d9966b0db1247424",
+      "to_sha": "550093f2a97a24b35a542fa47dab7115e071b1a2"
+    },
+    {
+      "repository": "SIA",
+      "branch": "main",
+      "from_sha": "c4e628f9df161bb80340b651c389ef65f8b2a093",
+      "to_sha": "041c2ab682195a787a478b08f98ca211cab8f610"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "d90848d44d5f47e54da53b90428dcab4c41657a7",
-      "to_sha": "159b5edf1af7bafd27d2ef4673809e86326ff73d"
+      "from_sha": "159b5edf1af7bafd27d2ef4673809e86326ff73d",
+      "to_sha": "e97e858a19ee2eb094e956c180c99bdf1baaaa27"
+    },
+    {
+      "repository": "willowlab",
+      "branch": "feature/static-fileport-neon-001",
+      "from_sha": "0b6bba40405abb502856664c36917cbe46c14a33",
+      "to_sha": "52bdf7f13c209ecec5065329f13ffce7756f3d9b"
+    },
+    {
+      "repository": "willowlab",
+      "branch": "feature/willow-partner-sprint-002",
+      "from_sha": "572611daa42cbf44d4a02de2a4eb74843e87b51d",
+      "to_sha": "de5eb5acd971bb8466c8e012949b4b33b450fe6f"
     }
   ],
   "opened_prs": [
+    {
+      "repository": "HUMKIN",
+      "number": 204,
+      "title": "ROBOT RADIO 001 — read-only discovery porch for human and machine listeners",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/204",
+      "head_branch": "feat/robot-radio-discovery-001",
+      "base_branch": "main"
+    },
+    {
+      "repository": "Jubilee-treasury",
+      "number": 48,
+      "title": "MOONCRATER 001–010 — Common Harvest through THE FEAST",
+      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/48",
+      "head_branch": "experiment/mooncrater-001-common-harvest",
+      "base_branch": "main"
+    },
+    {
+      "repository": "reLATTE",
+      "number": 181,
+      "title": "HUMKIN × Suno Listening 001 — signed evidence HOLD for robot radio",
+      "url": "https://github.com/the-static-collective/reLATTE/pull/181",
+      "head_branch": "feat/humkin-suno-listening-review-001",
+      "base_branch": "main"
+    }
+  ],
+  "left_open_prs": [
     {
       "repository": "HUMKIN",
       "number": 203,
@@ -82,63 +198,6 @@
       "url": "https://github.com/the-static-collective/HUMKIN/pull/203",
       "head_branch": "feature/tower-012a-b-chat-auth-bridge",
       "base_branch": "main"
-    },
-    {
-      "repository": "What-is-the-static-collective-",
-      "number": 104,
-      "title": "STATIC SEED v2.1: modular homes + Neighbor Weave partnership workbench",
-      "url": "https://github.com/the-static-collective/What-is-the-static-collective-/pull/104",
-      "head_branch": "feature/static-seed-v2-house-of-houses-20261122",
-      "base_branch": "main"
-    },
-    {
-      "repository": "willowlab",
-      "number": 1,
-      "title": "Experiment: STATIC Workbench + source-pinned private MEMENTO read bridge",
-      "url": "https://github.com/the-static-collective/willowlab/pull/1",
-      "head_branch": "experiment/static-workbench-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "willowlab",
-      "number": 2,
-      "title": "STATIC FILEPORT 001 — private Neon storage + owner-gated WillowLab share portal",
-      "url": "https://github.com/the-static-collective/willowlab/pull/2",
-      "head_branch": "feature/static-fileport-neon-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "willowlab",
-      "number": 3,
-      "title": "Draft: owner-gated read-only WillowConnect public catalog bridge",
-      "url": "https://github.com/the-static-collective/willowlab/pull/3",
-      "head_branch": "integration/willowconnect-public-catalog-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "willowlab",
-      "number": 4,
-      "title": "Draft: STATIC SEED v2.1 Neighbor Weave local-only partnership review room",
-      "url": "https://github.com/the-static-collective/willowlab/pull/4",
-      "head_branch": "experiment/static-seed-neighbor-weave-021",
-      "base_branch": "main"
-    },
-    {
-      "repository": "willowlab",
-      "number": 5,
-      "title": "WILLOW GROWTH DESK 001 — Field Bell + COMMUTER transplanted into Neighbor Weave",
-      "url": "https://github.com/the-static-collective/willowlab/pull/5",
-      "head_branch": "feature/willow-growth-desk-001",
-      "base_branch": "experiment/static-seed-neighbor-weave-021"
-    },
-    {
-      "repository": "willowlab",
-      "number": 6,
-      "title": "Willow Partner Sprint 002 — sourced regional prospects, one-click drafts and followup board",
-      "url": "https://github.com/the-static-collective/willowlab/pull/6",
-      "head_branch": "feature/willow-partner-sprint-002",
-      "base_branch": "feature/willow-growth-desk-001"
     }
-  ],
-  "left_open_prs": []
+  ]
 }

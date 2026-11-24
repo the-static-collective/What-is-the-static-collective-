@@ -267,6 +267,23 @@ Default: `main` · other refs: 3 · open PRs: 2
 | [gh-pages](https://github.com/the-static-collective/fellowSHIP/tree/gh-pages) | [080b2bbaa3](https://github.com/the-static-collective/fellowSHIP/commit/080b2bbaa3162eb8e45def106b195c2fefc65367) | Retained ref; disposition unverified |
 | [proposal/fellowship-childcare-need-001-20261121](https://github.com/the-static-collective/fellowSHIP/tree/proposal/fellowship-childcare-need-001-20261121) | [a23def66a2](https://github.com/the-static-collective/fellowSHIP/commit/a23def66a2b0c1f88f315f6f15edee6f37bf42fa) | [open PR #2](https://github.com/the-static-collective/fellowSHIP/pull/2) |
 
+## fileport
+
+[Repository](https://github.com/the-static-collective/fileport) · [Branches](https://github.com/the-static-collective/fileport/branches) · [Pull requests](https://github.com/the-static-collective/fileport/pulls)
+
+Default: `main` · other refs: 6 · open PRs: 0
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [feature/fileport-003-static-id](https://github.com/the-static-collective/fileport/tree/feature/fileport-003-static-id) | [478df6b98c](https://github.com/the-static-collective/fileport/commit/478df6b98c44e8a4998890a25272ca4cd18901f2) | Retained ref; disposition unverified |
+| [feature/intranet-fileport-v1](https://github.com/the-static-collective/fileport/tree/feature/intranet-fileport-v1) | [b69034b316](https://github.com/the-static-collective/fileport/commit/b69034b316ff87ea82c781a8fa8a2085f85b5365) | Retained ref; disposition unverified |
+| [feature/neon-first-multicloud-002](https://github.com/the-static-collective/fileport/tree/feature/neon-first-multicloud-002) | [4ac8bdf9fa](https://github.com/the-static-collective/fileport/commit/4ac8bdf9faa1fb2fb102fdb62d8aa91ec3f046cc) | Retained ref; disposition unverified |
+| [fix/static-id-callback-diagnostics](https://github.com/the-static-collective/fileport/tree/fix/static-id-callback-diagnostics) | [3313e8ae12](https://github.com/the-static-collective/fileport/commit/3313e8ae1248d7db97b7660fa5c69fa6bac7dba9) | Retained ref; disposition unverified |
+| [fix/static-id-token-transport](https://github.com/the-static-collective/fileport/tree/fix/static-id-token-transport) | [ed0cc8c7c1](https://github.com/the-static-collective/fileport/commit/ed0cc8c7c15bc358a488e4492336b18cc893ec4d) | Retained ref; disposition unverified |
+| [fix/static-id-workers-jwks](https://github.com/the-static-collective/fileport/tree/fix/static-id-workers-jwks) | [6e6b3a4a4e](https://github.com/the-static-collective/fileport/commit/6e6b3a4a4e7680bbdbb6d45c66113333a843c643) | Retained ref; disposition unverified |
+
 ## freeport
 
 [Repository](https://github.com/the-static-collective/freeport) · [Branches](https://github.com/the-static-collective/freeport/branches) · [Pull requests](https://github.com/the-static-collective/freeport/pulls)
@@ -738,13 +755,13 @@ Default: `main` · other refs: 32 · open PRs: 15
 
 [Repository](https://github.com/the-static-collective/HUMKIN) · [Branches](https://github.com/the-static-collective/HUMKIN/branches) · [Pull requests](https://github.com/the-static-collective/HUMKIN/pulls)
 
-Default: `main` · other refs: 201 · open PRs: 28
+Default: `main` · other refs: 204 · open PRs: 28
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
-| [#203](https://github.com/the-static-collective/HUMKIN/pull/203) | TOWER 012 · native OAuth MCP for ChatGPT Station Desk + owner-safe cloud controls | `feature/tower-012a-b-chat-auth-bridge` → `main` | 2026-11-23 |
+| [#204](https://github.com/the-static-collective/HUMKIN/pull/204) | ROBOT RADIO 001 — read-only discovery porch for human and machine listeners | `feat/robot-radio-discovery-001` → `main` | 2026-11-23 |
 | [#194](https://github.com/the-static-collective/HUMKIN/pull/194) | RADIO HOUSE · Add Cloud HOUSE to the Android Living Receiver preview | `codex/cloud-house-android-preview` → `review/living-receiver-service-20261120` | 2026-11-21 |
 | [#193](https://github.com/the-static-collective/HUMKIN/pull/193) | RADIO HOUSE 003 · Generate a FELLOWSHIP Station Seed rehearsal | `codex/radio-house-station-seed` → `main` | 2026-11-21 |
 | [#190](https://github.com/the-static-collective/HUMKIN/pull/190) | FIELD WITNESS 001 — local listener receipts for Night Shift (no transmitter change) | `experiment/field-outside-witness-001-20261121` → `main` | 2026-11-21 |
@@ -851,6 +868,7 @@ Default: `main` · other refs: 201 · open PRs: 28
 | [feat/reservoir-delay-and-windows-stay-awake-20261119](https://github.com/the-static-collective/HUMKIN/tree/feat/reservoir-delay-and-windows-stay-awake-20261119) | [f9a8be4ce4](https://github.com/the-static-collective/HUMKIN/commit/f9a8be4ce449d36baaf70ab7423326305e033f22) | Retained ref; disposition unverified |
 | [feat/robot-desk-editorial-knobs-20261116](https://github.com/the-static-collective/HUMKIN/tree/feat/robot-desk-editorial-knobs-20261116) | [ba18bc354a](https://github.com/the-static-collective/HUMKIN/commit/ba18bc354a75371370fa522092c68123d2988c51) | Retained ref; disposition unverified |
 | [feat/robot-desk-many-voices-timeless-comedy-20261116](https://github.com/the-static-collective/HUMKIN/tree/feat/robot-desk-many-voices-timeless-comedy-20261116) | [38a57e258a](https://github.com/the-static-collective/HUMKIN/commit/38a57e258a5ee8c85fd779b0c87ba1159972a172) | Retained ref; disposition unverified |
+| [feat/robot-radio-discovery-001](https://github.com/the-static-collective/HUMKIN/tree/feat/robot-radio-discovery-001) | [f3d5d4e098](https://github.com/the-static-collective/HUMKIN/commit/f3d5d4e09891c9b7ad478e63227033c817929bf1) | [open PR #204](https://github.com/the-static-collective/HUMKIN/pull/204) |
 | [feat/robot-seed-garden-20261116](https://github.com/the-static-collective/HUMKIN/tree/feat/robot-seed-garden-20261116) | [79a99f25ed](https://github.com/the-static-collective/HUMKIN/commit/79a99f25ed8bc8f32500159de587cfd52ceee1b6) | Retained ref; disposition unverified |
 | [feat/signal-current-track-seed-003](https://github.com/the-static-collective/HUMKIN/tree/feat/signal-current-track-seed-003) | [89a4c93c54](https://github.com/the-static-collective/HUMKIN/commit/89a4c93c544b9e4603d128d1ed2d835a47f4f56e) | Retained ref; disposition unverified |
 | [feat/signal-seeded-composer-002](https://github.com/the-static-collective/HUMKIN/tree/feat/signal-seeded-composer-002) | [5889d6b09a](https://github.com/the-static-collective/HUMKIN/commit/5889d6b09a78e0264c7b74ca20b749bd144517a5) | Retained ref; disposition unverified |
@@ -923,11 +941,12 @@ Default: `main` · other refs: 201 · open PRs: 28
 | [feature/save-the-hour-cards-001](https://github.com/the-static-collective/HUMKIN/tree/feature/save-the-hour-cards-001) | [c0158707ca](https://github.com/the-static-collective/HUMKIN/commit/c0158707ca3f3828ba7a7313a1ecf1f3c8cb9f3e) | Retained ref; disposition unverified |
 | [feature/shortie-gap-guard-20261121](https://github.com/the-static-collective/HUMKIN/tree/feature/shortie-gap-guard-20261121) | [5428a6c704](https://github.com/the-static-collective/HUMKIN/commit/5428a6c704ec9a2c20456a72e4a90e7f1010864f) | Retained ref; disposition unverified |
 | [feature/spotlight-single-into-live-001](https://github.com/the-static-collective/HUMKIN/tree/feature/spotlight-single-into-live-001) | [0fe0488cd0](https://github.com/the-static-collective/HUMKIN/commit/0fe0488cd07443bc8cf8d216f2196584ac2114e2) | Retained ref; disposition unverified |
+| [feature/static-id-consent-multiple-apps](https://github.com/the-static-collective/HUMKIN/tree/feature/static-id-consent-multiple-apps) | [e9854c52ba](https://github.com/the-static-collective/HUMKIN/commit/e9854c52baa463e27af867c7a00c348e166c84d4) | Retained ref; disposition unverified |
 | [feature/station-one-live-web-receiver-001](https://github.com/the-static-collective/HUMKIN/tree/feature/station-one-live-web-receiver-001) | [e8dfa4cfd1](https://github.com/the-static-collective/HUMKIN/commit/e8dfa4cfd1b0be402e52717edcb9ceee2c009744) | Retained ref; disposition unverified |
 | [feature/ten-manga-postcards](https://github.com/the-static-collective/HUMKIN/tree/feature/ten-manga-postcards) | [02348ed302](https://github.com/the-static-collective/HUMKIN/commit/02348ed302060521c59ae6f2a9e0a6143f775084) | Retained ref; disposition unverified |
 | [feature/tower-010-living-control](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-010-living-control) | [e680d8dce2](https://github.com/the-static-collective/HUMKIN/commit/e680d8dce2b642f69ded3ba8e4618fb7fdd7bea7) | Retained ref; disposition unverified |
 | [feature/tower-011-durable-asset-spine](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-011-durable-asset-spine) | [de3617f680](https://github.com/the-static-collective/HUMKIN/commit/de3617f680c86828587cdc3b11679bbf14e9e0a7) | Retained ref; disposition unverified |
-| [feature/tower-012a-b-chat-auth-bridge](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-012a-b-chat-auth-bridge) | [01b7a15b74](https://github.com/the-static-collective/HUMKIN/commit/01b7a15b747a26bf9b48ded6a041d350817edd8d) | [open PR #203](https://github.com/the-static-collective/HUMKIN/pull/203) |
+| [feature/tower-012a-b-chat-auth-bridge](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-012a-b-chat-auth-bridge) | [01b7a15b74](https://github.com/the-static-collective/HUMKIN/commit/01b7a15b747a26bf9b48ded6a041d350817edd8d) | Retained ref; disposition unverified |
 | [feature/tower-feature-handoff-009](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-feature-handoff-009) | [38ddc94066](https://github.com/the-static-collective/HUMKIN/commit/38ddc94066e72444cbc1abfbd75457c293ca495d) | Retained ref; disposition unverified |
 | [feature/tower-living-crate-007-20261121](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-living-crate-007-20261121) | [b5309ccc79](https://github.com/the-static-collective/HUMKIN/commit/b5309ccc79456d5db0c2b5474478eee8339a5e7b) | Retained ref; disposition unverified |
 | [feature/tower-living-crate-008-incremental-cloud-sync](https://github.com/the-static-collective/HUMKIN/tree/feature/tower-living-crate-008-incremental-cloud-sync) | [f033598e8e](https://github.com/the-static-collective/HUMKIN/commit/f033598e8eda96ec6db75db6a24abe01aba90993) | Retained ref; disposition unverified |
@@ -948,6 +967,7 @@ Default: `main` · other refs: 201 · open PRs: 28
 | [fix/lumi-radio-bible-scene-count-20261114](https://github.com/the-static-collective/HUMKIN/tree/fix/lumi-radio-bible-scene-count-20261114) | [9af8145dc7](https://github.com/the-static-collective/HUMKIN/commit/9af8145dc7711003534f95bd7cd1f351b91bf9de) | Retained ref; disposition unverified |
 | [fix/night-shift-hls-short-final-segment-007](https://github.com/the-static-collective/HUMKIN/tree/fix/night-shift-hls-short-final-segment-007) | [b7ce875d8d](https://github.com/the-static-collective/HUMKIN/commit/b7ce875d8d048386e316c1a82ba510ca004935ea) | Retained ref; disposition unverified |
 | [fix/night-shift-publisher-install-ffmpeg-006](https://github.com/the-static-collective/HUMKIN/tree/fix/night-shift-publisher-install-ffmpeg-006) | [7df92d0d84](https://github.com/the-static-collective/HUMKIN/commit/7df92d0d8454c3b30f000b6a7c9209ce16cd5211) | Retained ref; disposition unverified |
+| [fix/pages-artifact-index-wait](https://github.com/the-static-collective/HUMKIN/tree/fix/pages-artifact-index-wait) | [52a05541ba](https://github.com/the-static-collective/HUMKIN/commit/52a05541baf518689b343cdd558340a9b3b68948) | Retained ref; disposition unverified |
 | [fix/postcard-buttons-cache-mismatch](https://github.com/the-static-collective/HUMKIN/tree/fix/postcard-buttons-cache-mismatch) | [8cbdaad565](https://github.com/the-static-collective/HUMKIN/commit/8cbdaad5657a4fec42e4f4c43c037837984443f3) | Retained ref; disposition unverified |
 | [fix/r2-domain-dns-ui-clarification-001](https://github.com/the-static-collective/HUMKIN/tree/fix/r2-domain-dns-ui-clarification-001) | [e7dd8c5f42](https://github.com/the-static-collective/HUMKIN/commit/e7dd8c5f42407cfc56a9517529da458aefa66c15) | Retained ref; disposition unverified |
 | [fix/r2-key-check-constraint-002](https://github.com/the-static-collective/HUMKIN/tree/fix/r2-key-check-constraint-002) | [93067c60ef](https://github.com/the-static-collective/HUMKIN/commit/93067c60efd8af543a2a780b18dc5f0a93bf9cb4) | Retained ref; disposition unverified |
@@ -1123,12 +1143,13 @@ Default: `main` · other refs: 78 · open PRs: 46
 
 [Repository](https://github.com/the-static-collective/Jubilee-treasury) · [Branches](https://github.com/the-static-collective/Jubilee-treasury/branches) · [Pull requests](https://github.com/the-static-collective/Jubilee-treasury/pulls)
 
-Default: `main` · other refs: 42 · open PRs: 42
+Default: `main` · other refs: 43 · open PRs: 43
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#48](https://github.com/the-static-collective/Jubilee-treasury/pull/48) | MOONCRATER 001–010 — Common Harvest through THE FEAST | `experiment/mooncrater-001-common-harvest` → `main` | 2026-11-24 |
 | [#47](https://github.com/the-static-collective/Jubilee-treasury/pull/47) | Jubilee CAPABILITY-020 — independently verify a change of memory representation rather than just another primitive | `experiment/penny-puddle-020-structural-memory` → `experiment/penny-puddle-019-constructive-primitive` | 2026-11-12 |
 | [#46](https://github.com/the-static-collective/Jubilee-treasury/pull/46) | Jubilee CAPABILITY-019 — independently prove NAND-only method synthesis and unseen three-input transfer | `experiment/penny-puddle-019-gate-invention` → `experiment/penny-puddle-018-missing-primitive` | 2026-11-12 |
 | [#45](https://github.com/the-static-collective/Jubilee-treasury/pull/45) | Jubilee CAPABILITY-019 — construct an absent reversible grapheme-run algorithm from smaller state-machine primitives | `experiment/penny-puddle-019-constructive-primitive` → `experiment/penny-puddle-018-missing-primitive` | 2026-11-12 |
@@ -1183,6 +1204,7 @@ Default: `main` · other refs: 42 · open PRs: 42
 | [experiment/haunted-jubilee-arcade-019](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/haunted-jubilee-arcade-019) | [f2a3989209](https://github.com/the-static-collective/Jubilee-treasury/commit/f2a3989209f309c077dd5c7b595e1d3ba08f61a9) | [open PR #22](https://github.com/the-static-collective/Jubilee-treasury/pull/22) |
 | [experiment/haunted-jubilee-powerloss-020](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/haunted-jubilee-powerloss-020) | [33fa9c4bdd](https://github.com/the-static-collective/Jubilee-treasury/commit/33fa9c4bddc35fca77834ece45cfeee50f482afc) | [open PR #23](https://github.com/the-static-collective/Jubilee-treasury/pull/23) |
 | [experiment/living-capacity-index-008](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/living-capacity-index-008) | [04eefb6454](https://github.com/the-static-collective/Jubilee-treasury/commit/04eefb64541700d5ac3f31387d6c5f6d2d830c0d) | [open PR #7](https://github.com/the-static-collective/Jubilee-treasury/pull/7) |
+| [experiment/mooncrater-001-common-harvest](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/mooncrater-001-common-harvest) | [bbe39a8dc7](https://github.com/the-static-collective/Jubilee-treasury/commit/bbe39a8dc7c8b0064be8c258cfe9b1fe43b7cdd6) | [open PR #48](https://github.com/the-static-collective/Jubilee-treasury/pull/48) |
 | [experiment/native-capacity-routing-002](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/native-capacity-routing-002) | [efb6ce130b](https://github.com/the-static-collective/Jubilee-treasury/commit/efb6ce130bc793bbe8990a08907fa6ef9b7cd68b) | [open PR #4](https://github.com/the-static-collective/Jubilee-treasury/pull/4) |
 | [experiment/penny-box-001-church-participation](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-box-001-church-participation) | [bb05d90c12](https://github.com/the-static-collective/Jubilee-treasury/commit/bb05d90c12b13f5c7c1c948d85c54cec2dbcd2ce) | [open PR #24](https://github.com/the-static-collective/Jubilee-treasury/pull/24) |
 | [experiment/penny-box-002-physical-digital-identity](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-box-002-physical-digital-identity) | [495424cea6](https://github.com/the-static-collective/Jubilee-treasury/commit/495424cea612d2f10555866218d0dda3d277f7b3) | [open PR #25](https://github.com/the-static-collective/Jubilee-treasury/pull/25) |
@@ -2156,12 +2178,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/reLATTE) · [Branches](https://github.com/the-static-collective/reLATTE/branches) · [Pull requests](https://github.com/the-static-collective/reLATTE/pulls)
 
-Default: `main` · other refs: 176 · open PRs: 130
+Default: `main` · other refs: 177 · open PRs: 131
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#181](https://github.com/the-static-collective/reLATTE/pull/181) | HUMKIN × Suno Listening 001 — signed evidence HOLD for robot radio | `feat/humkin-suno-listening-review-001` → `main` | 2026-11-23 |
 | [#180](https://github.com/the-static-collective/reLATTE/pull/180) | FREEPORT 008: native signed HUMKIN programming proposal review crossing | `feature/freeport-008-program-crossing` → `main` | 2026-11-21 |
 | [#179](https://github.com/the-static-collective/reLATTE/pull/179) | CRATER 002 — HUMKIN → GitHub → reLATTE → Workbench → native GHoT → signed return | `experiment/humkin-gh-relatte-catalog-001` → `main` | 2026-11-17 |
 | [#178](https://github.com/the-static-collective/reLATTE/pull/178) | Minecraft-010: MOTIF-invented two-lamp witness observed 2/9 in new World A; independently verified | `experiment/minecraft-010-compressed-sensor` → `experiment/motif-minecraft-009-native-observation-return` | 2026-11-05 |
@@ -2423,6 +2446,7 @@ Default: `main` · other refs: 176 · open PRs: 130
 | [feat/enterable-particular](https://github.com/the-static-collective/reLATTE/tree/feat/enterable-particular) | [a2b57126d1](https://github.com/the-static-collective/reLATTE/commit/a2b57126d1aa1daf64c80c1c4d10ae042bc83896) | [open PR #14](https://github.com/the-static-collective/reLATTE/pull/14) |
 | [feat/evidence-transit-001-night-shift](https://github.com/the-static-collective/reLATTE/tree/feat/evidence-transit-001-night-shift) | [97563254e4](https://github.com/the-static-collective/reLATTE/commit/97563254e45d2dd13d8966946876b567cfe16f29) | Retained ref; disposition unverified |
 | [feat/farm-post-office-invite-001](https://github.com/the-static-collective/reLATTE/tree/feat/farm-post-office-invite-001) | [8a39a066b2](https://github.com/the-static-collective/reLATTE/commit/8a39a066b229e44b2da7f9f7ed56f6cac6772574) | Retained ref; disposition unverified |
+| [feat/humkin-suno-listening-review-001](https://github.com/the-static-collective/reLATTE/tree/feat/humkin-suno-listening-review-001) | [315f5270b2](https://github.com/the-static-collective/reLATTE/commit/315f5270b299a5543667bf2e028d659fefba9892) | [open PR #181](https://github.com/the-static-collective/reLATTE/pull/181) |
 | [feat/live-dht-gateway-001](https://github.com/the-static-collective/reLATTE/tree/feat/live-dht-gateway-001) | [eb956dcae5](https://github.com/the-static-collective/reLATTE/commit/eb956dcae5a042947a45f588805eaa248bea0ee1) | [open PR #33](https://github.com/the-static-collective/reLATTE/pull/33) |
 | [feat/live-offer-cartridge-v0](https://github.com/the-static-collective/reLATTE/tree/feat/live-offer-cartridge-v0) | [a534f1a5be](https://github.com/the-static-collective/reLATTE/commit/a534f1a5beb41f675c4b0d98992676e77c4311af) | Retained ref; disposition unverified |
 | [feat/mail-slot-static-post-001](https://github.com/the-static-collective/reLATTE/tree/feat/mail-slot-static-post-001) | [28b67acbae](https://github.com/the-static-collective/reLATTE/commit/28b67acbae929c77877647b0cb67354edbcc211c) | [open PR #46](https://github.com/the-static-collective/reLATTE/pull/46) |
@@ -2478,7 +2502,7 @@ Default: `main` · other refs: 176 · open PRs: 130
 
 [Repository](https://github.com/the-static-collective/SIA) · [Branches](https://github.com/the-static-collective/SIA/branches) · [Pull requests](https://github.com/the-static-collective/SIA/pulls)
 
-Default: `main` · other refs: 13 · open PRs: 5
+Default: `main` · other refs: 15 · open PRs: 5
 
 ### Open pull requests
 
@@ -2505,7 +2529,9 @@ Default: `main` · other refs: 13 · open PRs: 5
 | [feat/mesh-linkbank-bridge-001](https://github.com/the-static-collective/SIA/tree/feat/mesh-linkbank-bridge-001) | [40d6b9bf55](https://github.com/the-static-collective/SIA/commit/40d6b9bf55e6d8ab2661e94dd2499211b06dd99b) | Retained ref; disposition unverified |
 | [feat/story-dna-relationship-passenger-002](https://github.com/the-static-collective/SIA/tree/feat/story-dna-relationship-passenger-002) | [e17df81515](https://github.com/the-static-collective/SIA/commit/e17df81515ad392eedb573f323a163eef77b53b8) | [open PR #5](https://github.com/the-static-collective/SIA/pull/5) |
 | [feat/suno-album-capture-2026-10-13](https://github.com/the-static-collective/SIA/tree/feat/suno-album-capture-2026-10-13) | [f4005afd63](https://github.com/the-static-collective/SIA/commit/f4005afd6357b5ffca3ed6f19421d1b0a7ffbc1f) | Retained ref; disposition unverified |
+| [feature/fishbone-003-local-operator](https://github.com/the-static-collective/SIA/tree/feature/fishbone-003-local-operator) | [a040f0c98b](https://github.com/the-static-collective/SIA/commit/a040f0c98b4b6fc171586baf2bed4fd547499ff3) | Retained ref; disposition unverified |
 | [feature/suno-owner-export-intake-001](https://github.com/the-static-collective/SIA/tree/feature/suno-owner-export-intake-001) | [d8ee6f0fac](https://github.com/the-static-collective/SIA/commit/d8ee6f0facf41980523e4bb95a1d28d8a1223836) | [open PR #1](https://github.com/the-static-collective/SIA/pull/1) |
+| [fix/fishbone-003-manual-notes](https://github.com/the-static-collective/SIA/tree/fix/fishbone-003-manual-notes) | [9aaefa07eb](https://github.com/the-static-collective/SIA/commit/9aaefa07eb6108f17985074f40653f991a1d54fe) | Retained ref; disposition unverified |
 | [test/fishbone-live-browser-smoke](https://github.com/the-static-collective/SIA/tree/test/fishbone-live-browser-smoke) | [9097dd050f](https://github.com/the-static-collective/SIA/commit/9097dd050f22b9c45d335e4469f8bcf25f8f30cc) | [open PR #8](https://github.com/the-static-collective/SIA/pull/8) |
 
 ## static-briars
@@ -2542,6 +2568,24 @@ Default: `main` · other refs: 11 · open PRs: 8
 | [fix/android-compile-toolchain-001](https://github.com/the-static-collective/static-briars/tree/fix/android-compile-toolchain-001) | [a0f6ed0463](https://github.com/the-static-collective/static-briars/commit/a0f6ed046331919ef3e56f141c67e1ebb2cea70f) | Retained ref; disposition unverified |
 | [static/continuation-001](https://github.com/the-static-collective/static-briars/tree/static/continuation-001) | [aa275f28c1](https://github.com/the-static-collective/static-briars/commit/aa275f28c1c4b3795e254d6967898d0e5bf3831e) | Retained ref; disposition unverified |
 | [upstream/release-1.5.22](https://github.com/the-static-collective/static-briars/tree/upstream/release-1.5.22) | [d03d6fcd77](https://github.com/the-static-collective/static-briars/commit/d03d6fcd776349ec6c8b7d22035e9bb04aa1787c) | Retained ref; disposition unverified |
+
+## staticID
+
+[Repository](https://github.com/the-static-collective/staticID) · [Branches](https://github.com/the-static-collective/staticID/branches) · [Pull requests](https://github.com/the-static-collective/staticID/pulls)
+
+Default: `main` · other refs: 7 · open PRs: 0
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [feature/application-onboarding-002](https://github.com/the-static-collective/staticID/tree/feature/application-onboarding-002) | [9848fc6e84](https://github.com/the-static-collective/staticID/commit/9848fc6e84473cbd147f1870d7c51a7bb792dbdd) | Retained ref; disposition unverified |
+| [feature/application-registry-003](https://github.com/the-static-collective/staticID/tree/feature/application-registry-003) | [c89a5d3017](https://github.com/the-static-collective/staticID/commit/c89a5d30172b165079b2e0fd7952fc5729772b96) | Retained ref; disposition unverified |
+| [feature/static-id-001-oauth-bridge](https://github.com/the-static-collective/staticID/tree/feature/static-id-001-oauth-bridge) | [45a964bea0](https://github.com/the-static-collective/staticID/commit/45a964bea0e9df46b89a8cdaaebfe4bfde015809) | Retained ref; disposition unverified |
+| [feature/village-gate-004](https://github.com/the-static-collective/staticID/tree/feature/village-gate-004) | [8d866e54ad](https://github.com/the-static-collective/staticID/commit/8d866e54ad7cf4bbb1df6c55cb9b8073d74caaf0) | Retained ref; disposition unverified |
+| [fix/callback-diagnostics](https://github.com/the-static-collective/staticID/tree/fix/callback-diagnostics) | [8cf6110ff2](https://github.com/the-static-collective/staticID/commit/8cf6110ff224b2bdf11b0a77808764eb6faa37b3) | Retained ref; disposition unverified |
+| [fix/token-exchange-transport](https://github.com/the-static-collective/staticID/tree/fix/token-exchange-transport) | [e703d81958](https://github.com/the-static-collective/staticID/commit/e703d819588f5bd5d251e6811b9f8fb6788bcbe3) | Retained ref; disposition unverified |
+| [fix/workers-jwks-fetch](https://github.com/the-static-collective/staticID/tree/fix/workers-jwks-fetch) | [d6f36e5510](https://github.com/the-static-collective/staticID/commit/d6f36e551021dfc67f8dab846c504cc06614e834) | Retained ref; disposition unverified |
 
 ## story-dna
 
@@ -3153,9 +3197,9 @@ Default: `main` · other refs: 6 · open PRs: 6
 | --- | --- | --- |
 | [experiment/static-seed-neighbor-weave-021](https://github.com/the-static-collective/willowlab/tree/experiment/static-seed-neighbor-weave-021) | [a98cf80447](https://github.com/the-static-collective/willowlab/commit/a98cf80447cf0e7af7b61be80bfdb84b481e79b2) | [open PR #4](https://github.com/the-static-collective/willowlab/pull/4) |
 | [experiment/static-workbench-001](https://github.com/the-static-collective/willowlab/tree/experiment/static-workbench-001) | [687f7ecc21](https://github.com/the-static-collective/willowlab/commit/687f7ecc21a92c6976d9ae69a4e3652eab702904) | [open PR #1](https://github.com/the-static-collective/willowlab/pull/1) |
-| [feature/static-fileport-neon-001](https://github.com/the-static-collective/willowlab/tree/feature/static-fileport-neon-001) | [0b6bba4040](https://github.com/the-static-collective/willowlab/commit/0b6bba40405abb502856664c36917cbe46c14a33) | [open PR #2](https://github.com/the-static-collective/willowlab/pull/2) |
+| [feature/static-fileport-neon-001](https://github.com/the-static-collective/willowlab/tree/feature/static-fileport-neon-001) | [52bdf7f13c](https://github.com/the-static-collective/willowlab/commit/52bdf7f13c209ecec5065329f13ffce7756f3d9b) | [open PR #2](https://github.com/the-static-collective/willowlab/pull/2) |
 | [feature/willow-growth-desk-001](https://github.com/the-static-collective/willowlab/tree/feature/willow-growth-desk-001) | [8fbeba9e32](https://github.com/the-static-collective/willowlab/commit/8fbeba9e326727bc6bda794c76f1a2626bae5684) | [open PR #5](https://github.com/the-static-collective/willowlab/pull/5) |
-| [feature/willow-partner-sprint-002](https://github.com/the-static-collective/willowlab/tree/feature/willow-partner-sprint-002) | [572611daa4](https://github.com/the-static-collective/willowlab/commit/572611daa42cbf44d4a02de2a4eb74843e87b51d) | [open PR #6](https://github.com/the-static-collective/willowlab/pull/6) |
+| [feature/willow-partner-sprint-002](https://github.com/the-static-collective/willowlab/tree/feature/willow-partner-sprint-002) | [de5eb5acd9](https://github.com/the-static-collective/willowlab/commit/de5eb5acd971bb8466c8e012949b4b33b450fe6f) | [open PR #6](https://github.com/the-static-collective/willowlab/pull/6) |
 | [integration/willowconnect-public-catalog-001](https://github.com/the-static-collective/willowlab/tree/integration/willowconnect-public-catalog-001) | [ed03a996e7](https://github.com/the-static-collective/willowlab/commit/ed03a996e7f6ba5499859c0922b06e20206bef9d) | [open PR #3](https://github.com/the-static-collective/willowlab/pull/3) |
 
 ## WITNESS

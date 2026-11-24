@@ -4423,6 +4423,43 @@
       ]
     },
     {
+      "name": "fileport",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "feature/fileport-003-static-id",
+          "sha": "478df6b98c44e8a4998890a25272ca4cd18901f2"
+        },
+        {
+          "name": "feature/intranet-fileport-v1",
+          "sha": "b69034b316ff87ea82c781a8fa8a2085f85b5365"
+        },
+        {
+          "name": "feature/neon-first-multicloud-002",
+          "sha": "4ac8bdf9faa1fb2fb102fdb62d8aa91ec3f046cc"
+        },
+        {
+          "name": "fix/static-id-callback-diagnostics",
+          "sha": "3313e8ae1248d7db97b7660fa5c69fa6bac7dba9"
+        },
+        {
+          "name": "fix/static-id-token-transport",
+          "sha": "ed0cc8c7c15bc358a488e4492336b18cc893ec4d"
+        },
+        {
+          "name": "fix/static-id-workers-jwks",
+          "sha": "6e6b3a4a4e7680bbdbb6d45c66113333a843c643"
+        },
+        {
+          "name": "main",
+          "sha": "215276fb74ebd7ae359c6391614661892b01f60b"
+        }
+      ],
+      "open_prs": []
+    },
+    {
       "name": "fogGlass",
       "visibility": "public",
       "default_branch": "main",
@@ -8176,6 +8213,10 @@
           "sha": "38a57e258a5ee8c85fd779b0c87ba1159972a172"
         },
         {
+          "name": "feat/robot-radio-discovery-001",
+          "sha": "f3d5d4e09891c9b7ad478e63227033c817929bf1"
+        },
+        {
           "name": "feat/robot-seed-garden-20261116",
           "sha": "79a99f25ed8bc8f32500159de587cfd52ceee1b6"
         },
@@ -8464,6 +8505,10 @@
           "sha": "0fe0488cd07443bc8cf8d216f2196584ac2114e2"
         },
         {
+          "name": "feature/static-id-consent-multiple-apps",
+          "sha": "e9854c52baa463e27af867c7a00c348e166c84d4"
+        },
+        {
           "name": "feature/station-one-live-web-receiver-001",
           "sha": "e8dfa4cfd1b0be402e52717edcb9ceee2c009744"
         },
@@ -8564,6 +8609,10 @@
           "sha": "7df92d0d8454c3b30f000b6a7c9209ce16cd5211"
         },
         {
+          "name": "fix/pages-artifact-index-wait",
+          "sha": "52a05541baf518689b343cdd558340a9b3b68948"
+        },
+        {
           "name": "fix/postcard-buttons-cache-mismatch",
           "sha": "8cbdaad5657a4fec42e4f4c43c037837984443f3"
         },
@@ -8625,7 +8674,7 @@
         },
         {
           "name": "main",
-          "sha": "4e7e166be8f45bc83afd2f10f3915a27bf189d76"
+          "sha": "2afc79b7c58f7fc9e3b0405773810c35b8a5ca63"
         },
         {
           "name": "preview/radio-and-records-season-two",
@@ -8690,14 +8739,14 @@
       ],
       "open_prs": [
         {
-          "number": 203,
-          "title": "TOWER 012 · native OAuth MCP for ChatGPT Station Desk + owner-safe cloud controls",
-          "head_branch": "feature/tower-012a-b-chat-auth-bridge",
-          "head_sha": "01b7a15b747a26bf9b48ded6a041d350817edd8d",
+          "number": 204,
+          "title": "ROBOT RADIO 001 — read-only discovery porch for human and machine listeners",
+          "head_branch": "feat/robot-radio-discovery-001",
+          "head_sha": "f3d5d4e09891c9b7ad478e63227033c817929bf1",
           "head_repo": "the-static-collective/HUMKIN",
           "base_branch": "main",
-          "updated_at": "2026-11-23T19:12:55Z",
-          "url": "https://github.com/the-static-collective/HUMKIN/pull/203"
+          "updated_at": "2026-11-23T22:37:03Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/204"
         },
         {
           "number": 194,
@@ -9451,7 +9500,7 @@
         },
         {
           "name": "main",
-          "sha": "80f1c01e3efb4c724f282ddb915f5ad647f8efb7"
+          "sha": "b061f7c029c8e97cd928e99bb5227a90ffe958bd"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -10090,6 +10139,10 @@
           "sha": "04eefb64541700d5ac3f31387d6c5f6d2d830c0d"
         },
         {
+          "name": "experiment/mooncrater-001-common-harvest",
+          "sha": "bbe39a8dc7c8b0064be8c258cfe9b1fe43b7cdd6"
+        },
+        {
           "name": "experiment/native-capacity-routing-002",
           "sha": "efb6ce130bc793bbe8990a08907fa6ef9b7cd68b"
         },
@@ -10227,7 +10280,7 @@
         },
         {
           "name": "main",
-          "sha": "922639ef84fcf773dbf179d8d9966b0db1247424"
+          "sha": "550093f2a97a24b35a542fa47dab7115e071b1a2"
         },
         {
           "name": "proposal/penny-stewardship-reserve-001",
@@ -10235,6 +10288,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 48,
+          "title": "MOONCRATER 001–010 — Common Harvest through THE FEAST",
+          "head_branch": "experiment/mooncrater-001-common-harvest",
+          "head_sha": "bbe39a8dc7c8b0064be8c258cfe9b1fe43b7cdd6",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "main",
+          "updated_at": "2026-11-24T17:06:01Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/48"
+        },
         {
           "number": 47,
           "title": "Jubilee CAPABILITY-020 — independently verify a change of memory representation rather than just another primitive",
@@ -18018,6 +18081,10 @@
           "sha": "8a39a066b229e44b2da7f9f7ed56f6cac6772574"
         },
         {
+          "name": "feat/humkin-suno-listening-review-001",
+          "sha": "315f5270b299a5543667bf2e028d659fefba9892"
+        },
+        {
           "name": "feat/live-dht-gateway-001",
           "sha": "eb956dcae5a042947a45f588805eaa248bea0ee1"
         },
@@ -18223,6 +18290,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 181,
+          "title": "HUMKIN × Suno Listening 001 — signed evidence HOLD for robot radio",
+          "head_branch": "feat/humkin-suno-listening-review-001",
+          "head_sha": "315f5270b299a5543667bf2e028d659fefba9892",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-11-23T22:37:34Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/181"
+        },
         {
           "number": 180,
           "title": "FREEPORT 008: native signed HUMKIN programming proposal review crossing",
@@ -20003,12 +20080,20 @@
           "sha": "f4005afd6357b5ffca3ed6f19421d1b0a7ffbc1f"
         },
         {
+          "name": "feature/fishbone-003-local-operator",
+          "sha": "a040f0c98b4b6fc171586baf2bed4fd547499ff3"
+        },
+        {
           "name": "feature/suno-owner-export-intake-001",
           "sha": "d8ee6f0facf41980523e4bb95a1d28d8a1223836"
         },
         {
+          "name": "fix/fishbone-003-manual-notes",
+          "sha": "9aaefa07eb6108f17985074f40653f991a1d54fe"
+        },
+        {
           "name": "main",
-          "sha": "c4e628f9df161bb80340b651c389ef65f8b2a093"
+          "sha": "041c2ab682195a787a478b08f98ca211cab8f610"
         },
         {
           "name": "test/fishbone-live-browser-smoke",
@@ -22829,6 +22914,47 @@
           "url": "https://github.com/the-static-collective/static-workbench/pull/16"
         }
       ]
+    },
+    {
+      "name": "staticID",
+      "visibility": "public",
+      "default_branch": "main",
+      "archived": false,
+      "branches": [
+        {
+          "name": "feature/application-onboarding-002",
+          "sha": "9848fc6e84473cbd147f1870d7c51a7bb792dbdd"
+        },
+        {
+          "name": "feature/application-registry-003",
+          "sha": "c89a5d30172b165079b2e0fd7952fc5729772b96"
+        },
+        {
+          "name": "feature/static-id-001-oauth-bridge",
+          "sha": "45a964bea0e9df46b89a8cdaaebfe4bfde015809"
+        },
+        {
+          "name": "feature/village-gate-004",
+          "sha": "8d866e54ad7cf4bbb1df6c55cb9b8073d74caaf0"
+        },
+        {
+          "name": "fix/callback-diagnostics",
+          "sha": "8cf6110ff224b2bdf11b0a77808764eb6faa37b3"
+        },
+        {
+          "name": "fix/token-exchange-transport",
+          "sha": "e703d819588f5bd5d251e6811b9f8fb6788bcbe3"
+        },
+        {
+          "name": "fix/workers-jwks-fetch",
+          "sha": "d6f36e551021dfc67f8dab846c504cc06614e834"
+        },
+        {
+          "name": "main",
+          "sha": "259787c50dc4cc2c5e7fb1defe09c9a3cd82c4a3"
+        }
+      ],
+      "open_prs": []
     },
     {
       "name": "story-dna",
@@ -30720,7 +30846,7 @@
         },
         {
           "name": "main",
-          "sha": "159b5edf1af7bafd27d2ef4673809e86326ff73d"
+          "sha": "e97e858a19ee2eb094e956c180c99bdf1baaaa27"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -31052,7 +31178,7 @@
         },
         {
           "name": "feature/static-fileport-neon-001",
-          "sha": "0b6bba40405abb502856664c36917cbe46c14a33"
+          "sha": "52bdf7f13c209ecec5065329f13ffce7756f3d9b"
         },
         {
           "name": "feature/willow-growth-desk-001",
@@ -31060,7 +31186,7 @@
         },
         {
           "name": "feature/willow-partner-sprint-002",
-          "sha": "572611daa42cbf44d4a02de2a4eb74843e87b51d"
+          "sha": "de5eb5acd971bb8466c8e012949b4b33b450fe6f"
         },
         {
           "name": "integration/willowconnect-public-catalog-001",
@@ -31076,10 +31202,10 @@
           "number": 6,
           "title": "Willow Partner Sprint 002 — sourced regional prospects, one-click drafts and followup board",
           "head_branch": "feature/willow-partner-sprint-002",
-          "head_sha": "572611daa42cbf44d4a02de2a4eb74843e87b51d",
+          "head_sha": "de5eb5acd971bb8466c8e012949b4b33b450fe6f",
           "head_repo": "the-static-collective/willowlab",
           "base_branch": "feature/willow-growth-desk-001",
-          "updated_at": "2026-11-23T19:13:51Z",
+          "updated_at": "2026-11-23T20:17:09Z",
           "url": "https://github.com/the-static-collective/willowlab/pull/6"
         },
         {
@@ -31116,10 +31242,10 @@
           "number": 2,
           "title": "STATIC FILEPORT 001 — private Neon storage + owner-gated WillowLab share portal",
           "head_branch": "feature/static-fileport-neon-001",
-          "head_sha": "0b6bba40405abb502856664c36917cbe46c14a33",
+          "head_sha": "52bdf7f13c209ecec5065329f13ffce7756f3d9b",
           "head_repo": "the-static-collective/willowlab",
           "base_branch": "main",
-          "updated_at": "2026-11-23T19:11:05Z",
+          "updated_at": "2026-11-23T19:19:18Z",
           "url": "https://github.com/the-static-collective/willowlab/pull/2"
         },
         {
@@ -31291,5 +31417,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-23T19:14:02+00:00"
+  "captured_at": "2026-11-24T18:52:57+00:00"
 }
