@@ -1,0 +1,29 @@
+{
+  "schema": "breath-atlas/comparisons-v0",
+  "comparisons": [
+    {
+      "id": "compare-planz-phase",
+      "repository": "planZ",
+      "branch": "feat/phaselift-001-living-phase-board",
+      "head_sha": "52183eafe0daf311582c6016b37805ae24ef4ec6",
+      "base_sha": "dad6593c3718c65fa4bb7a3650af8fc80d060ce6",
+      "status": "ahead",
+      "ahead_by": 13,
+      "behind_by": 0,
+      "files_changed": 9,
+      "observed_at": "2026-10-22"
+    },
+    {
+      "id": "compare-blender-pagefive",
+      "repository": "the-haunted-blender",
+      "branch": "integration/franken-blender-008p-owned-pixel-manga-film",
+      "head_sha": "4e3f098d328a9659d9074852ef7861b7d3078fee",
+      "base_sha": "b9e8279b864089510517d278e29292bda176f066",
+      "status": "ahead",
+      "ahead_by": 345,
+      "behind_by": 0,
+      "files_changed": 281,
+      "observed_at": "2026-10-22"
+    }
+  ]
+}
