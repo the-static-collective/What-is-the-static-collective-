@@ -6,7 +6,7 @@ description: "Dated, source-linked public Git inventory for the Static Collectiv
 
 Captured: **2026-11-24T18:52:57+00:00** · **96 public repositories** · **3212 branch refs** (including defaults) · **1764 open PRs**.
 
-[Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
+[Living map](https://the-static-collective.gitbook.io/the-static-collective-docs/living-git-map/atlas) · [DELTA](delta.md) · [RELATIONS](relations.md) · [RECOVERY](recovery.md) · [VISIBILITY](../visibility-aperture.md) · [Machine-readable snapshot](public-index.json) · [GitHub owner](https://github.com/the-static-collective)
 
 Only repositories confirmed public at capture time are present. The account also has
 private work; this inventory does not expose its names, branches, or links.
