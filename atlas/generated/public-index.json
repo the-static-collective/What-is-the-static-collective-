@@ -1723,6 +1723,30 @@
           "sha": "9101b76f1387389300e070f3a6851df75269f39f"
         },
         {
+          "name": "experiment/ministry-suitcase-004-native",
+          "sha": "edccb1d86afa5488866a134a0ada92a4b4b7f57c"
+        },
+        {
+          "name": "experiment/ministry-suitcase-005-living-machine",
+          "sha": "d171d83d88931ab40059873dc2360c497a472835"
+        },
+        {
+          "name": "experiment/ministry-suitcase-006-living-church",
+          "sha": "fc726e1028b95f5420d8fb5ddbd7dac1714518e3"
+        },
+        {
+          "name": "experiment/ministry-suitcase-007-mustard-seed",
+          "sha": "83e5ad62400ed4787340e922145f43e9126d885e"
+        },
+        {
+          "name": "experiment/ministry-suitcase-008-root-system",
+          "sha": "ba4624f382b7f0de139d874702e809845d5a5b2a"
+        },
+        {
+          "name": "experiment/ministry-suitcase-009-rhizome",
+          "sha": "0e04a5e75d29e209f773c0f582b0e6f4a2ac77b0"
+        },
+        {
           "name": "experiment/motif-door-first-branch-native-selection-001",
           "sha": "ce54c67f5e830b32a6e754c22da4a1acd51418c0"
         },
@@ -1848,6 +1872,56 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 103,
+          "title": "Root System 008: encrypted node recovery and reviewed inbox",
+          "head_branch": "experiment/ministry-suitcase-008-root-system",
+          "head_sha": "ba4624f382b7f0de139d874702e809845d5a5b2a",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/ministry-suitcase-007-mustard-seed",
+          "updated_at": "2026-11-25T16:06:34Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/103"
+        },
+        {
+          "number": 102,
+          "title": "Mustard Seed 007: verify independent signed nodes",
+          "head_branch": "experiment/ministry-suitcase-007-mustard-seed",
+          "head_sha": "83e5ad62400ed4787340e922145f43e9126d885e",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/ministry-suitcase-006-living-church",
+          "updated_at": "2026-11-25T15:55:20Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/102"
+        },
+        {
+          "number": 101,
+          "title": "Living Church 006: verify cooperative lifecycle",
+          "head_branch": "experiment/ministry-suitcase-006-living-church",
+          "head_sha": "fc726e1028b95f5420d8fb5ddbd7dac1714518e3",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/ministry-suitcase-005-living-machine",
+          "updated_at": "2026-11-25T15:49:24Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/101"
+        },
+        {
+          "number": 100,
+          "title": "Living Ministry Machine 005 — original EXODUS, PUENTE, PENNY BOX, WITNESS and Full Measure",
+          "head_branch": "experiment/ministry-suitcase-005-living-machine",
+          "head_sha": "d171d83d88931ab40059873dc2360c497a472835",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/ministry-suitcase-004-native",
+          "updated_at": "2026-11-25T15:40:31Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/100"
+        },
+        {
+          "number": 99,
+          "title": "Ministry Suitcase 004 — original CANNON source-native Pentecost crossing",
+          "head_branch": "experiment/ministry-suitcase-004-native",
+          "head_sha": "edccb1d86afa5488866a134a0ada92a4b4b7f57c",
+          "head_repo": "the-static-collective/CANNON",
+          "base_branch": "experiment/genesis-boot-002-interactive-porch",
+          "updated_at": "2026-11-25T15:30:04Z",
+          "url": "https://github.com/the-static-collective/CANNON/pull/99"
+        },
         {
           "number": 98,
           "title": "CANNON-098: independently verify held new world model and old closed-world counterproof",
@@ -4441,6 +4515,10 @@
           "sha": "4ac8bdf9faa1fb2fb102fdb62d8aa91ec3f046cc"
         },
         {
+          "name": "fix/desktop-media-preview",
+          "sha": "9f10c962750491e8d13fbad7d18ac41105b00642"
+        },
+        {
           "name": "fix/static-id-callback-diagnostics",
           "sha": "3313e8ae1248d7db97b7660fa5c69fa6bac7dba9"
         },
@@ -4453,11 +4531,26 @@
           "sha": "6e6b3a4a4e7680bbdbb6d45c66113333a843c643"
         },
         {
+          "name": "fix/workbench-entry",
+          "sha": "8bed608da2c17c92ebe0534344061ebad56850cc"
+        },
+        {
           "name": "main",
-          "sha": "215276fb74ebd7ae359c6391614661892b01f60b"
+          "sha": "c826d90975a6dd418140f9ff3a64d067897ca7f5"
         }
       ],
-      "open_prs": []
+      "open_prs": [
+        {
+          "number": 8,
+          "title": "Fileport: desktop playback compatibility mode",
+          "head_branch": "fix/desktop-media-preview",
+          "head_sha": "9f10c962750491e8d13fbad7d18ac41105b00642",
+          "head_repo": "the-static-collective/fileport",
+          "base_branch": "main",
+          "updated_at": "2026-11-25T00:10:58Z",
+          "url": "https://github.com/the-static-collective/fileport/pull/8"
+        }
+      ]
     },
     {
       "name": "fogGlass",
@@ -5542,7 +5635,7 @@
         },
         {
           "name": "main",
-          "sha": "5894b2c2038470670ea069a966b688c7dc81531d"
+          "sha": "0cedefb76f830a90d4f1331ff5b5fc99a827fd04"
         },
         {
           "name": "many-bodied-machine-001",
@@ -7242,7 +7335,7 @@
         },
         {
           "name": "main",
-          "sha": "265fd538266a742d033ba2f5b408a78610d0a75c"
+          "sha": "f06fed6d055082fb9e9574037205bd4134b5ff68"
         }
       ],
       "open_prs": [
@@ -8425,6 +8518,10 @@
           "sha": "61ae780e86fef9518893f385ec0358ff9a2c6913"
         },
         {
+          "name": "feature/quiet-frequency-001",
+          "sha": "ad2c7d8f1c305a2e223d223b070d3b2cbc0c9101"
+        },
+        {
           "name": "feature/quiet-postcards-signup",
           "sha": "7562e80f9dc1973dccccfc524b8610eb21db3923"
         },
@@ -8491,6 +8588,10 @@
         {
           "name": "feature/random-postcard-art",
           "sha": "1f30f18751d44cc4fdd84b984911f23859c0bfce"
+        },
+        {
+          "name": "feature/return-signal-001",
+          "sha": "aeefabb79a7c582262dc1b489fe55a33afe89ed7"
         },
         {
           "name": "feature/save-the-hour-cards-001",
@@ -8674,7 +8775,7 @@
         },
         {
           "name": "main",
-          "sha": "2afc79b7c58f7fc9e3b0405773810c35b8a5ca63"
+          "sha": "ac1d537a6447fb6928304ba397f6229624774068"
         },
         {
           "name": "preview/radio-and-records-season-two",
@@ -8687,6 +8788,10 @@
         {
           "name": "release/everywhere-near-you-001",
           "sha": "1db2f6a726781aa0404670d5b2e26004c1f049f9"
+        },
+        {
+          "name": "return-signal-feed",
+          "sha": "f0ae7c4d7cc4efec44c9aa632bdfffdb1bda4696"
         },
         {
           "name": "review/living-receiver-service-20261120",
@@ -8738,6 +8843,26 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 208,
+          "title": "RETURN SIGNAL 001 — actual machine audio correspondence on HUMKIN",
+          "head_branch": "feature/return-signal-001",
+          "head_sha": "aeefabb79a7c582262dc1b489fe55a33afe89ed7",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-25T05:09:11Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/208"
+        },
+        {
+          "number": 207,
+          "title": "QUIET FREQUENCY 001 — shared cloud radio and Haunted Toaster study room",
+          "head_branch": "feature/quiet-frequency-001",
+          "head_sha": "ad2c7d8f1c305a2e223d223b070d3b2cbc0c9101",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-25T02:37:56Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/207"
+        },
         {
           "number": 204,
           "title": "ROBOT RADIO 001 — read-only discovery porch for human and machine listeners",
@@ -9500,7 +9625,7 @@
         },
         {
           "name": "main",
-          "sha": "b061f7c029c8e97cd928e99bb5227a90ffe958bd"
+          "sha": "999395f4a6cb717e7f6c3e428cd721d706c4433a"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -10119,6 +10244,42 @@
           "sha": "4a811ea520be427a3f5a6a5cf2c9f8f32bb1007c"
         },
         {
+          "name": "experiment/concord-live-002-generative-cooperation",
+          "sha": "7b77072fa9ada034fdde6e7cff95a07bc71d1f8f"
+        },
+        {
+          "name": "experiment/concord-live-003-living-capability-field",
+          "sha": "96dd3d858114c8576c1968fc05aa821adfefcb1c"
+        },
+        {
+          "name": "experiment/concord-live-004-steward-desk",
+          "sha": "dfb4b4609df4ec8e6a6cffead78dd7e86e9a3f53"
+        },
+        {
+          "name": "experiment/exodus-001-branch-recovery",
+          "sha": "550edc4837187a79007d8313ff2afba34c5c08f5"
+        },
+        {
+          "name": "experiment/exodus-002-returning-node",
+          "sha": "a224992236bbb6d4085f4b452b2275732130fd03"
+        },
+        {
+          "name": "experiment/exodus-003-ark",
+          "sha": "44c166711549798f950c1f768c0f6ac331a00287"
+        },
+        {
+          "name": "experiment/exodus-004-casework",
+          "sha": "3e1672b477207405770260d05d16fdb16c62550f"
+        },
+        {
+          "name": "experiment/exodus-005-shepherd-desk",
+          "sha": "f8bf5a292bf9853bcf86df1a1ab9cf2ab08bf975"
+        },
+        {
+          "name": "experiment/exodus-006-common-table",
+          "sha": "88453937380fdfa68670cc8521662dddc61c0068"
+        },
+        {
           "name": "experiment/fall-share-asset-treasury-007",
           "sha": "a2872299eb0a294713c3d34a77f47814c3d4403b"
         },
@@ -10279,8 +10440,24 @@
           "sha": "32ba9880902ce72510bbf8f49e423957d009889c"
         },
         {
+          "name": "integration/inte-great-002-workbench",
+          "sha": "e8211b9cbccec2ca27d6855cc560a053cd41ffdd"
+        },
+        {
+          "name": "integration/inte-great-003-living-grammar",
+          "sha": "bdb8bc4691dbd42ab301ba7e7956a2be2ebb712b"
+        },
+        {
+          "name": "integration/inte-great-004-growing-grammar",
+          "sha": "19760a2c74637ab8d6f9ea6506879002797a4b47"
+        },
+        {
+          "name": "integration/inte-great-portable-001",
+          "sha": "f5b8507794e965f1883b49bc93e2f1aa9ee295d0"
+        },
+        {
           "name": "main",
-          "sha": "550093f2a97a24b35a542fa47dab7115e071b1a2"
+          "sha": "e7585b550cece031b5442349ec84e0b8591d2a6e"
         },
         {
           "name": "proposal/penny-stewardship-reserve-001",
@@ -10288,6 +10465,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 50,
+          "title": "CONCORD 003 — Living Capability Field",
+          "head_branch": "experiment/concord-live-003-living-capability-field",
+          "head_sha": "96dd3d858114c8576c1968fc05aa821adfefcb1c",
+          "head_repo": "the-static-collective/Jubilee-treasury",
+          "base_branch": "experiment/concord-live-002-generative-cooperation",
+          "updated_at": "2026-11-25T04:05:42Z",
+          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/50"
+        },
         {
           "number": 48,
           "title": "MOONCRATER 001–010 — Common Harvest through THE FEAST",
@@ -10497,16 +10684,6 @@
           "base_branch": "experiment/penny-puddle-001-fragmented-cents",
           "updated_at": "2026-11-11T17:34:45Z",
           "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/28"
-        },
-        {
-          "number": 27,
-          "title": "PENNY × PUDDLE-001 — make fragmented cents legible without claiming payment powers",
-          "head_branch": "experiment/penny-puddle-001-fragmented-cents",
-          "head_sha": "84db8c57471e5503a70103a9942293b79529a8d7",
-          "head_repo": "the-static-collective/Jubilee-treasury",
-          "base_branch": "main",
-          "updated_at": "2026-11-11T17:17:53Z",
-          "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/27"
         },
         {
           "number": 26,
@@ -12925,7 +13102,7 @@
         },
         {
           "name": "main",
-          "sha": "948beab83113199f5542ee4b914dade0dca96909"
+          "sha": "db4c17cfac407e3cefa20fc9fee101449b05bcc4"
         },
         {
           "name": "plan/thought-fields-full-stack-20261106",
@@ -22952,9 +23129,24 @@
         {
           "name": "main",
           "sha": "259787c50dc4cc2c5e7fb1defe09c9a3cd82c4a3"
+        },
+        {
+          "name": "proposal/federation-005",
+          "sha": "197452720391f65eb856bf7c2a612ae00ced6970"
         }
       ],
-      "open_prs": []
+      "open_prs": [
+        {
+          "number": 8,
+          "title": "PROPOSAL: StaticID 005–006 — Federation and Passport",
+          "head_branch": "proposal/federation-005",
+          "head_sha": "197452720391f65eb856bf7c2a612ae00ced6970",
+          "head_repo": "the-static-collective/staticID",
+          "base_branch": "main",
+          "updated_at": "2026-11-24T21:48:52Z",
+          "url": "https://github.com/the-static-collective/staticID/pull/8"
+        }
+      ]
     },
     {
       "name": "story-dna",
@@ -30846,7 +31038,7 @@
         },
         {
           "name": "main",
-          "sha": "e97e858a19ee2eb094e956c180c99bdf1baaaa27"
+          "sha": "1fc2c24f3fd57c24b8226329c8209e5752caf135"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -31417,5 +31609,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-24T18:52:57+00:00"
+  "captured_at": "2026-11-25T17:57:48+00:00"
 }

@@ -9,62 +9,72 @@ snapshot and the newest changed snapshot. It does **not** interpret why a branch
 moved or disappeared, and a PR leaving the open set does not by itself prove
 whether it merged, closed, or became unavailable.
 
-From: **2026-11-23T19:14:02+00:00**  
-To: **2026-11-24T18:52:57+00:00**
+From: **2026-11-24T18:52:57+00:00**  
+To: **2026-11-25T17:57:48+00:00**
 
 | Observed event | Count |
 | --- | ---: |
-| Repositories added | 2 |
+| Repositories added | 0 |
 | Repositories removed | 0 |
-| Branches added | 22 |
+| Branches added | 25 |
 | Branches removed | 0 |
-| Branch heads moved | 7 |
-| PRs entering open set | 3 |
+| Branch heads moved | 8 |
+| PRs entering open set | 10 |
 | PRs leaving open set | 1 |
 
 ## Repository set
 
-* **+ repo** [fileport](https://github.com/the-static-collective/fileport)
-* **+ repo** [staticID](https://github.com/the-static-collective/staticID)
+No repository membership changes in this delta.
 
 ## Branch set and pointer movement
 
-* **+ branch** fileport / [feature/fileport-003-static-id](https://github.com/the-static-collective/fileport/tree/feature/fileport-003-static-id) → `478df6b98c`
-* **+ branch** fileport / [feature/intranet-fileport-v1](https://github.com/the-static-collective/fileport/tree/feature/intranet-fileport-v1) → `b69034b316`
-* **+ branch** fileport / [feature/neon-first-multicloud-002](https://github.com/the-static-collective/fileport/tree/feature/neon-first-multicloud-002) → `4ac8bdf9fa`
-* **+ branch** fileport / [fix/static-id-callback-diagnostics](https://github.com/the-static-collective/fileport/tree/fix/static-id-callback-diagnostics) → `3313e8ae12`
-* **+ branch** fileport / [fix/static-id-token-transport](https://github.com/the-static-collective/fileport/tree/fix/static-id-token-transport) → `ed0cc8c7c1`
-* **+ branch** fileport / [fix/static-id-workers-jwks](https://github.com/the-static-collective/fileport/tree/fix/static-id-workers-jwks) → `6e6b3a4a4e`
-* **+ branch** fileport / [main](https://github.com/the-static-collective/fileport/tree/main) → `215276fb74`
-* **+ branch** HUMKIN / [feat/robot-radio-discovery-001](https://github.com/the-static-collective/HUMKIN/tree/feat/robot-radio-discovery-001) → `f3d5d4e098`
-* **+ branch** HUMKIN / [feature/static-id-consent-multiple-apps](https://github.com/the-static-collective/HUMKIN/tree/feature/static-id-consent-multiple-apps) → `e9854c52ba`
-* **+ branch** HUMKIN / [fix/pages-artifact-index-wait](https://github.com/the-static-collective/HUMKIN/tree/fix/pages-artifact-index-wait) → `52a05541ba`
-* **+ branch** Jubilee-treasury / [experiment/mooncrater-001-common-harvest](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/mooncrater-001-common-harvest) → `bbe39a8dc7`
-* **+ branch** reLATTE / [feat/humkin-suno-listening-review-001](https://github.com/the-static-collective/reLATTE/tree/feat/humkin-suno-listening-review-001) → `315f5270b2`
-* **+ branch** SIA / [feature/fishbone-003-local-operator](https://github.com/the-static-collective/SIA/tree/feature/fishbone-003-local-operator) → `a040f0c98b`
-* **+ branch** SIA / [fix/fishbone-003-manual-notes](https://github.com/the-static-collective/SIA/tree/fix/fishbone-003-manual-notes) → `9aaefa07eb`
-* **+ branch** staticID / [feature/application-onboarding-002](https://github.com/the-static-collective/staticID/tree/feature/application-onboarding-002) → `9848fc6e84`
-* **+ branch** staticID / [feature/application-registry-003](https://github.com/the-static-collective/staticID/tree/feature/application-registry-003) → `c89a5d3017`
-* **+ branch** staticID / [feature/static-id-001-oauth-bridge](https://github.com/the-static-collective/staticID/tree/feature/static-id-001-oauth-bridge) → `45a964bea0`
-* **+ branch** staticID / [feature/village-gate-004](https://github.com/the-static-collective/staticID/tree/feature/village-gate-004) → `8d866e54ad`
-* **+ branch** staticID / [fix/callback-diagnostics](https://github.com/the-static-collective/staticID/tree/fix/callback-diagnostics) → `8cf6110ff2`
-* **+ branch** staticID / [fix/token-exchange-transport](https://github.com/the-static-collective/staticID/tree/fix/token-exchange-transport) → `e703d81958`
-* **+ branch** staticID / [fix/workers-jwks-fetch](https://github.com/the-static-collective/staticID/tree/fix/workers-jwks-fetch) → `d6f36e5510`
-* **+ branch** staticID / [main](https://github.com/the-static-collective/staticID/tree/main) → `259787c50d`
-* **↪ head** HUMKIN / main: [4e7e166be8](https://github.com/the-static-collective/HUMKIN/commit/4e7e166be8f45bc83afd2f10f3915a27bf189d76) → [2afc79b7c5](https://github.com/the-static-collective/HUMKIN/commit/2afc79b7c58f7fc9e3b0405773810c35b8a5ca63)
-* **↪ head** JAR-VIS / main: [80f1c01e3e](https://github.com/the-static-collective/JAR-VIS/commit/80f1c01e3efb4c724f282ddb915f5ad647f8efb7) → [b061f7c029](https://github.com/the-static-collective/JAR-VIS/commit/b061f7c029c8e97cd928e99bb5227a90ffe958bd)
-* **↪ head** Jubilee-treasury / main: [922639ef84](https://github.com/the-static-collective/Jubilee-treasury/commit/922639ef84fcf773dbf179d8d9966b0db1247424) → [550093f2a9](https://github.com/the-static-collective/Jubilee-treasury/commit/550093f2a97a24b35a542fa47dab7115e071b1a2)
-* **↪ head** SIA / main: [c4e628f9df](https://github.com/the-static-collective/SIA/commit/c4e628f9df161bb80340b651c389ef65f8b2a093) → [041c2ab682](https://github.com/the-static-collective/SIA/commit/041c2ab682195a787a478b08f98ca211cab8f610)
-* **↪ head** What-is-the-static-collective- / main: [159b5edf1a](https://github.com/the-static-collective/What-is-the-static-collective-/commit/159b5edf1af7bafd27d2ef4673809e86326ff73d) → [e97e858a19](https://github.com/the-static-collective/What-is-the-static-collective-/commit/e97e858a19ee2eb094e956c180c99bdf1baaaa27)
-* **↪ head** willowlab / feature/static-fileport-neon-001: [0b6bba4040](https://github.com/the-static-collective/willowlab/commit/0b6bba40405abb502856664c36917cbe46c14a33) → [52bdf7f13c](https://github.com/the-static-collective/willowlab/commit/52bdf7f13c209ecec5065329f13ffce7756f3d9b)
-* **↪ head** willowlab / feature/willow-partner-sprint-002: [572611daa4](https://github.com/the-static-collective/willowlab/commit/572611daa42cbf44d4a02de2a4eb74843e87b51d) → [de5eb5acd9](https://github.com/the-static-collective/willowlab/commit/de5eb5acd971bb8466c8e012949b4b33b450fe6f)
+* **+ branch** CANNON / [experiment/ministry-suitcase-004-native](https://github.com/the-static-collective/CANNON/tree/experiment/ministry-suitcase-004-native) → `edccb1d86a`
+* **+ branch** CANNON / [experiment/ministry-suitcase-005-living-machine](https://github.com/the-static-collective/CANNON/tree/experiment/ministry-suitcase-005-living-machine) → `d171d83d88`
+* **+ branch** CANNON / [experiment/ministry-suitcase-006-living-church](https://github.com/the-static-collective/CANNON/tree/experiment/ministry-suitcase-006-living-church) → `fc726e1028`
+* **+ branch** CANNON / [experiment/ministry-suitcase-007-mustard-seed](https://github.com/the-static-collective/CANNON/tree/experiment/ministry-suitcase-007-mustard-seed) → `83e5ad6240`
+* **+ branch** CANNON / [experiment/ministry-suitcase-008-root-system](https://github.com/the-static-collective/CANNON/tree/experiment/ministry-suitcase-008-root-system) → `ba4624f382`
+* **+ branch** CANNON / [experiment/ministry-suitcase-009-rhizome](https://github.com/the-static-collective/CANNON/tree/experiment/ministry-suitcase-009-rhizome) → `0e04a5e75d`
+* **+ branch** fileport / [fix/desktop-media-preview](https://github.com/the-static-collective/fileport/tree/fix/desktop-media-preview) → `9f10c96275`
+* **+ branch** fileport / [fix/workbench-entry](https://github.com/the-static-collective/fileport/tree/fix/workbench-entry) → `8bed608da2`
+* **+ branch** HUMKIN / [feature/quiet-frequency-001](https://github.com/the-static-collective/HUMKIN/tree/feature/quiet-frequency-001) → `ad2c7d8f1c`
+* **+ branch** HUMKIN / [feature/return-signal-001](https://github.com/the-static-collective/HUMKIN/tree/feature/return-signal-001) → `aeefabb79a`
+* **+ branch** HUMKIN / [return-signal-feed](https://github.com/the-static-collective/HUMKIN/tree/return-signal-feed) → `f0ae7c4d7c`
+* **+ branch** Jubilee-treasury / [experiment/concord-live-002-generative-cooperation](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/concord-live-002-generative-cooperation) → `7b77072fa9`
+* **+ branch** Jubilee-treasury / [experiment/concord-live-003-living-capability-field](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/concord-live-003-living-capability-field) → `96dd3d8581`
+* **+ branch** Jubilee-treasury / [experiment/concord-live-004-steward-desk](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/concord-live-004-steward-desk) → `dfb4b4609d`
+* **+ branch** Jubilee-treasury / [experiment/exodus-001-branch-recovery](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/exodus-001-branch-recovery) → `550edc4837`
+* **+ branch** Jubilee-treasury / [experiment/exodus-002-returning-node](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/exodus-002-returning-node) → `a224992236`
+* **+ branch** Jubilee-treasury / [experiment/exodus-003-ark](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/exodus-003-ark) → `44c1667115`
+* **+ branch** Jubilee-treasury / [experiment/exodus-004-casework](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/exodus-004-casework) → `3e1672b477`
+* **+ branch** Jubilee-treasury / [experiment/exodus-005-shepherd-desk](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/exodus-005-shepherd-desk) → `f8bf5a292b`
+* **+ branch** Jubilee-treasury / [experiment/exodus-006-common-table](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/exodus-006-common-table) → `8845393738`
+* **+ branch** Jubilee-treasury / [integration/inte-great-002-workbench](https://github.com/the-static-collective/Jubilee-treasury/tree/integration/inte-great-002-workbench) → `e8211b9cbc`
+* **+ branch** Jubilee-treasury / [integration/inte-great-003-living-grammar](https://github.com/the-static-collective/Jubilee-treasury/tree/integration/inte-great-003-living-grammar) → `bdb8bc4691`
+* **+ branch** Jubilee-treasury / [integration/inte-great-004-growing-grammar](https://github.com/the-static-collective/Jubilee-treasury/tree/integration/inte-great-004-growing-grammar) → `19760a2c74`
+* **+ branch** Jubilee-treasury / [integration/inte-great-portable-001](https://github.com/the-static-collective/Jubilee-treasury/tree/integration/inte-great-portable-001) → `f5b8507794`
+* **+ branch** staticID / [proposal/federation-005](https://github.com/the-static-collective/staticID/tree/proposal/federation-005) → `1974527203`
+* **↪ head** fileport / main: [215276fb74](https://github.com/the-static-collective/fileport/commit/215276fb74ebd7ae359c6391614661892b01f60b) → [c826d90975](https://github.com/the-static-collective/fileport/commit/c826d90975a6dd418140f9ff3a64d067897ca7f5)
+* **↪ head** GHoT / main: [5894b2c203](https://github.com/the-static-collective/GHoT/commit/5894b2c2038470670ea069a966b688c7dc81531d) → [0cedefb76f](https://github.com/the-static-collective/GHoT/commit/0cedefb76f830a90d4f1331ff5b5fc99a827fd04)
+* **↪ head** GRAFT / main: [265fd53826](https://github.com/the-static-collective/GRAFT/commit/265fd538266a742d033ba2f5b408a78610d0a75c) → [f06fed6d05](https://github.com/the-static-collective/GRAFT/commit/f06fed6d055082fb9e9574037205bd4134b5ff68)
+* **↪ head** HUMKIN / main: [2afc79b7c5](https://github.com/the-static-collective/HUMKIN/commit/2afc79b7c58f7fc9e3b0405773810c35b8a5ca63) → [ac1d537a64](https://github.com/the-static-collective/HUMKIN/commit/ac1d537a6447fb6928304ba397f6229624774068)
+* **↪ head** JAR-VIS / main: [b061f7c029](https://github.com/the-static-collective/JAR-VIS/commit/b061f7c029c8e97cd928e99bb5227a90ffe958bd) → [999395f4a6](https://github.com/the-static-collective/JAR-VIS/commit/999395f4a6cb717e7f6c3e428cd721d706c4433a)
+* **↪ head** Jubilee-treasury / main: [550093f2a9](https://github.com/the-static-collective/Jubilee-treasury/commit/550093f2a97a24b35a542fa47dab7115e071b1a2) → [e7585b550c](https://github.com/the-static-collective/Jubilee-treasury/commit/e7585b550cece031b5442349ec84e0b8591d2a6e)
+* **↪ head** MOTIF / main: [948beab831](https://github.com/the-static-collective/MOTIF/commit/948beab83113199f5542ee4b914dade0dca96909) → [db4c17cfac](https://github.com/the-static-collective/MOTIF/commit/db4c17cfac407e3cefa20fc9fee101449b05bcc4)
+* **↪ head** What-is-the-static-collective- / main: [e97e858a19](https://github.com/the-static-collective/What-is-the-static-collective-/commit/e97e858a19ee2eb094e956c180c99bdf1baaaa27) → [1fc2c24f3f](https://github.com/the-static-collective/What-is-the-static-collective-/commit/1fc2c24f3fd57c24b8226329c8209e5752caf135)
 
 ## Open pull-request set
 
-* **+ open PR** [HUMKIN #204 — ROBOT RADIO 001 — read-only discovery porch for human and machine listeners](https://github.com/the-static-collective/HUMKIN/pull/204)
-* **+ open PR** [Jubilee-treasury #48 — MOONCRATER 001–010 — Common Harvest through THE FEAST](https://github.com/the-static-collective/Jubilee-treasury/pull/48)
-* **+ open PR** [reLATTE #181 — HUMKIN × Suno Listening 001 — signed evidence HOLD for robot radio](https://github.com/the-static-collective/reLATTE/pull/181)
-* **− open-set PR** [HUMKIN #203 — TOWER 012 · native OAuth MCP for ChatGPT Station Desk + owner-safe cloud controls](https://github.com/the-static-collective/HUMKIN/pull/203)
+* **+ open PR** [CANNON #99 — Ministry Suitcase 004 — original CANNON source-native Pentecost crossing](https://github.com/the-static-collective/CANNON/pull/99)
+* **+ open PR** [CANNON #100 — Living Ministry Machine 005 — original EXODUS, PUENTE, PENNY BOX, WITNESS and Full Measure](https://github.com/the-static-collective/CANNON/pull/100)
+* **+ open PR** [CANNON #101 — Living Church 006: verify cooperative lifecycle](https://github.com/the-static-collective/CANNON/pull/101)
+* **+ open PR** [CANNON #102 — Mustard Seed 007: verify independent signed nodes](https://github.com/the-static-collective/CANNON/pull/102)
+* **+ open PR** [CANNON #103 — Root System 008: encrypted node recovery and reviewed inbox](https://github.com/the-static-collective/CANNON/pull/103)
+* **+ open PR** [fileport #8 — Fileport: desktop playback compatibility mode](https://github.com/the-static-collective/fileport/pull/8)
+* **+ open PR** [HUMKIN #207 — QUIET FREQUENCY 001 — shared cloud radio and Haunted Toaster study room](https://github.com/the-static-collective/HUMKIN/pull/207)
+* **+ open PR** [HUMKIN #208 — RETURN SIGNAL 001 — actual machine audio correspondence on HUMKIN](https://github.com/the-static-collective/HUMKIN/pull/208)
+* **+ open PR** [Jubilee-treasury #50 — CONCORD 003 — Living Capability Field](https://github.com/the-static-collective/Jubilee-treasury/pull/50)
+* **+ open PR** [staticID #8 — PROPOSAL: StaticID 005–006 — Federation and Passport](https://github.com/the-static-collective/staticID/pull/8)
+* **− open-set PR** [Jubilee-treasury #27 — PENNY × PUDDLE-001 — make fragmented cents legible without claiming payment powers](https://github.com/the-static-collective/Jubilee-treasury/pull/27)
 
 The machine-readable companion is [delta.json](delta.json).
 For current status, follow the project source; DELTA is a witness of movement,

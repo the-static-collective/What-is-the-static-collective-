@@ -15,12 +15,17 @@ New or unclassified public repositories. Placement requires editorial review.
 
 [Repository](https://github.com/the-static-collective/CANNON) · [Branches](https://github.com/the-static-collective/CANNON/branches) · [Pull requests](https://github.com/the-static-collective/CANNON/pulls)
 
-Default: `main` · other refs: 92 · open PRs: 91
+Default: `main` · other refs: 98 · open PRs: 96
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#103](https://github.com/the-static-collective/CANNON/pull/103) | Root System 008: encrypted node recovery and reviewed inbox | `experiment/ministry-suitcase-008-root-system` → `experiment/ministry-suitcase-007-mustard-seed` | 2026-11-25 |
+| [#102](https://github.com/the-static-collective/CANNON/pull/102) | Mustard Seed 007: verify independent signed nodes | `experiment/ministry-suitcase-007-mustard-seed` → `experiment/ministry-suitcase-006-living-church` | 2026-11-25 |
+| [#101](https://github.com/the-static-collective/CANNON/pull/101) | Living Church 006: verify cooperative lifecycle | `experiment/ministry-suitcase-006-living-church` → `experiment/ministry-suitcase-005-living-machine` | 2026-11-25 |
+| [#100](https://github.com/the-static-collective/CANNON/pull/100) | Living Ministry Machine 005 — original EXODUS, PUENTE, PENNY BOX, WITNESS and Full Measure | `experiment/ministry-suitcase-005-living-machine` → `experiment/ministry-suitcase-004-native` | 2026-11-25 |
+| [#99](https://github.com/the-static-collective/CANNON/pull/99) | Ministry Suitcase 004 — original CANNON source-native Pentecost crossing | `experiment/ministry-suitcase-004-native` → `experiment/genesis-boot-002-interactive-porch` | 2026-11-25 |
 | [#98](https://github.com/the-static-collective/CANNON/pull/98) | CANNON-098: independently verify held new world model and old closed-world counterproof | `experiment/cannon-098-missing-world-source-review` → `experiment/cannon-097-hidden-origin-inference-review` | 2026-11-06 |
 | [#97](https://github.com/the-static-collective/CANNON/pull/97) | CANNON-097: independently verify hidden-source latent Bayes and false-positive controls | `experiment/cannon-097-hidden-origin-inference-review` → `experiment/cannon-096-motif-source-dependency-review` | 2026-11-06 |
 | [#96](https://github.com/the-static-collective/CANNON/pull/96) | CANNON-096: independently reject repeated source echoes as separate evidence | `experiment/cannon-096-motif-source-dependency-review` → `experiment/cannon-095-visual-imagination-review` | 2026-11-06 |
@@ -179,6 +184,12 @@ Default: `main` · other refs: 92 · open PRs: 91
 | [experiment/inspand-019-minute-mail-original-toaster](https://github.com/the-static-collective/CANNON/tree/experiment/inspand-019-minute-mail-original-toaster) | [f757bd954c](https://github.com/the-static-collective/CANNON/commit/f757bd954caade89cfd68f7ca1488a54fc723a2e) | [open PR #90](https://github.com/the-static-collective/CANNON/pull/90) |
 | [experiment/kinship-bridge-africa-007](https://github.com/the-static-collective/CANNON/tree/experiment/kinship-bridge-africa-007) | [8906a7b559](https://github.com/the-static-collective/CANNON/commit/8906a7b559565e844ed0a7791eced89ac5a549d4) | [open PR #11](https://github.com/the-static-collective/CANNON/pull/11) |
 | [experiment/kinship-surplus-006](https://github.com/the-static-collective/CANNON/tree/experiment/kinship-surplus-006) | [9101b76f13](https://github.com/the-static-collective/CANNON/commit/9101b76f1387389300e070f3a6851df75269f39f) | [open PR #9](https://github.com/the-static-collective/CANNON/pull/9) |
+| [experiment/ministry-suitcase-004-native](https://github.com/the-static-collective/CANNON/tree/experiment/ministry-suitcase-004-native) | [edccb1d86a](https://github.com/the-static-collective/CANNON/commit/edccb1d86afa5488866a134a0ada92a4b4b7f57c) | [open PR #99](https://github.com/the-static-collective/CANNON/pull/99) |
+| [experiment/ministry-suitcase-005-living-machine](https://github.com/the-static-collective/CANNON/tree/experiment/ministry-suitcase-005-living-machine) | [d171d83d88](https://github.com/the-static-collective/CANNON/commit/d171d83d88931ab40059873dc2360c497a472835) | [open PR #100](https://github.com/the-static-collective/CANNON/pull/100) |
+| [experiment/ministry-suitcase-006-living-church](https://github.com/the-static-collective/CANNON/tree/experiment/ministry-suitcase-006-living-church) | [fc726e1028](https://github.com/the-static-collective/CANNON/commit/fc726e1028b95f5420d8fb5ddbd7dac1714518e3) | [open PR #101](https://github.com/the-static-collective/CANNON/pull/101) |
+| [experiment/ministry-suitcase-007-mustard-seed](https://github.com/the-static-collective/CANNON/tree/experiment/ministry-suitcase-007-mustard-seed) | [83e5ad6240](https://github.com/the-static-collective/CANNON/commit/83e5ad62400ed4787340e922145f43e9126d885e) | [open PR #102](https://github.com/the-static-collective/CANNON/pull/102) |
+| [experiment/ministry-suitcase-008-root-system](https://github.com/the-static-collective/CANNON/tree/experiment/ministry-suitcase-008-root-system) | [ba4624f382](https://github.com/the-static-collective/CANNON/commit/ba4624f382b7f0de139d874702e809845d5a5b2a) | [open PR #103](https://github.com/the-static-collective/CANNON/pull/103) |
+| [experiment/ministry-suitcase-009-rhizome](https://github.com/the-static-collective/CANNON/tree/experiment/ministry-suitcase-009-rhizome) | [0e04a5e75d](https://github.com/the-static-collective/CANNON/commit/0e04a5e75d29e209f773c0f582b0e6f4a2ac77b0) | Retained ref; disposition unverified |
 | [experiment/motif-door-first-branch-native-selection-001](https://github.com/the-static-collective/CANNON/tree/experiment/motif-door-first-branch-native-selection-001) | [ce54c67f5e](https://github.com/the-static-collective/CANNON/commit/ce54c67f5e830b32a6e754c22da4a1acd51418c0) | [open PR #92](https://github.com/the-static-collective/CANNON/pull/92) |
 | [experiment/one-invention-plan-return-006](https://github.com/the-static-collective/CANNON/tree/experiment/one-invention-plan-return-006) | [f9ab8a5dfe](https://github.com/the-static-collective/CANNON/commit/f9ab8a5dfeee8e383d622d5a17a1f9311f7ae9ad) | [open PR #63](https://github.com/the-static-collective/CANNON/pull/63) |
 | [experiment/one-invention-seven-005](https://github.com/the-static-collective/CANNON/tree/experiment/one-invention-seven-005) | [ab1f70e6ad](https://github.com/the-static-collective/CANNON/commit/ab1f70e6adf58d7bd503b2c1153c3e2154539a7d) | [open PR #62](https://github.com/the-static-collective/CANNON/pull/62) |
@@ -271,7 +282,13 @@ Default: `main` · other refs: 3 · open PRs: 2
 
 [Repository](https://github.com/the-static-collective/fileport) · [Branches](https://github.com/the-static-collective/fileport/branches) · [Pull requests](https://github.com/the-static-collective/fileport/pulls)
 
-Default: `main` · other refs: 6 · open PRs: 0
+Default: `main` · other refs: 8 · open PRs: 1
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#8](https://github.com/the-static-collective/fileport/pull/8) | Fileport: desktop playback compatibility mode | `fix/desktop-media-preview` → `main` | 2026-11-25 |
 
 ### Retained nondefault branches
 
@@ -280,9 +297,11 @@ Default: `main` · other refs: 6 · open PRs: 0
 | [feature/fileport-003-static-id](https://github.com/the-static-collective/fileport/tree/feature/fileport-003-static-id) | [478df6b98c](https://github.com/the-static-collective/fileport/commit/478df6b98c44e8a4998890a25272ca4cd18901f2) | Retained ref; disposition unverified |
 | [feature/intranet-fileport-v1](https://github.com/the-static-collective/fileport/tree/feature/intranet-fileport-v1) | [b69034b316](https://github.com/the-static-collective/fileport/commit/b69034b316ff87ea82c781a8fa8a2085f85b5365) | Retained ref; disposition unverified |
 | [feature/neon-first-multicloud-002](https://github.com/the-static-collective/fileport/tree/feature/neon-first-multicloud-002) | [4ac8bdf9fa](https://github.com/the-static-collective/fileport/commit/4ac8bdf9faa1fb2fb102fdb62d8aa91ec3f046cc) | Retained ref; disposition unverified |
+| [fix/desktop-media-preview](https://github.com/the-static-collective/fileport/tree/fix/desktop-media-preview) | [9f10c96275](https://github.com/the-static-collective/fileport/commit/9f10c962750491e8d13fbad7d18ac41105b00642) | [open PR #8](https://github.com/the-static-collective/fileport/pull/8) |
 | [fix/static-id-callback-diagnostics](https://github.com/the-static-collective/fileport/tree/fix/static-id-callback-diagnostics) | [3313e8ae12](https://github.com/the-static-collective/fileport/commit/3313e8ae1248d7db97b7660fa5c69fa6bac7dba9) | Retained ref; disposition unverified |
 | [fix/static-id-token-transport](https://github.com/the-static-collective/fileport/tree/fix/static-id-token-transport) | [ed0cc8c7c1](https://github.com/the-static-collective/fileport/commit/ed0cc8c7c15bc358a488e4492336b18cc893ec4d) | Retained ref; disposition unverified |
 | [fix/static-id-workers-jwks](https://github.com/the-static-collective/fileport/tree/fix/static-id-workers-jwks) | [6e6b3a4a4e](https://github.com/the-static-collective/fileport/commit/6e6b3a4a4e7680bbdbb6d45c66113333a843c643) | Retained ref; disposition unverified |
+| [fix/workbench-entry](https://github.com/the-static-collective/fileport/tree/fix/workbench-entry) | [8bed608da2](https://github.com/the-static-collective/fileport/commit/8bed608da2c17c92ebe0534344061ebad56850cc) | Retained ref; disposition unverified |
 
 ## freeport
 
@@ -755,12 +774,14 @@ Default: `main` · other refs: 32 · open PRs: 15
 
 [Repository](https://github.com/the-static-collective/HUMKIN) · [Branches](https://github.com/the-static-collective/HUMKIN/branches) · [Pull requests](https://github.com/the-static-collective/HUMKIN/pulls)
 
-Default: `main` · other refs: 204 · open PRs: 28
+Default: `main` · other refs: 207 · open PRs: 30
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#208](https://github.com/the-static-collective/HUMKIN/pull/208) | RETURN SIGNAL 001 — actual machine audio correspondence on HUMKIN | `feature/return-signal-001` → `main` | 2026-11-25 |
+| [#207](https://github.com/the-static-collective/HUMKIN/pull/207) | QUIET FREQUENCY 001 — shared cloud radio and Haunted Toaster study room | `feature/quiet-frequency-001` → `main` | 2026-11-25 |
 | [#204](https://github.com/the-static-collective/HUMKIN/pull/204) | ROBOT RADIO 001 — read-only discovery porch for human and machine listeners | `feat/robot-radio-discovery-001` → `main` | 2026-11-23 |
 | [#194](https://github.com/the-static-collective/HUMKIN/pull/194) | RADIO HOUSE · Add Cloud HOUSE to the Android Living Receiver preview | `codex/cloud-house-android-preview` → `review/living-receiver-service-20261120` | 2026-11-21 |
 | [#193](https://github.com/the-static-collective/HUMKIN/pull/193) | RADIO HOUSE 003 · Generate a FELLOWSHIP Station Seed rehearsal | `codex/radio-house-station-seed` → `main` | 2026-11-21 |
@@ -921,6 +942,7 @@ Default: `main` · other refs: 204 · open PRs: 28
 | [feature/night-watch-outpost-001](https://github.com/the-static-collective/HUMKIN/tree/feature/night-watch-outpost-001) | [702056e5e6](https://github.com/the-static-collective/HUMKIN/commit/702056e5e694c93673676dee76bb52a37a07050a) | Retained ref; disposition unverified |
 | [feature/night-watch-sidecar-apk-001](https://github.com/the-static-collective/HUMKIN/tree/feature/night-watch-sidecar-apk-001) | [f412769704](https://github.com/the-static-collective/HUMKIN/commit/f412769704cbc4bd736ab8e7ed0738a614369c98) | Retained ref; disposition unverified |
 | [feature/phi-cadence-three-lengths-20261116](https://github.com/the-static-collective/HUMKIN/tree/feature/phi-cadence-three-lengths-20261116) | [61ae780e86](https://github.com/the-static-collective/HUMKIN/commit/61ae780e86fef9518893f385ec0358ff9a2c6913) | Retained ref; disposition unverified |
+| [feature/quiet-frequency-001](https://github.com/the-static-collective/HUMKIN/tree/feature/quiet-frequency-001) | [ad2c7d8f1c](https://github.com/the-static-collective/HUMKIN/commit/ad2c7d8f1c305a2e223d223b070d3b2cbc0c9101) | [open PR #207](https://github.com/the-static-collective/HUMKIN/pull/207) |
 | [feature/quiet-postcards-signup](https://github.com/the-static-collective/HUMKIN/tree/feature/quiet-postcards-signup) | [7562e80f9d](https://github.com/the-static-collective/HUMKIN/commit/7562e80f9dc1973dccccfc524b8610eb21db3923) | Retained ref; disposition unverified |
 | [feature/r2-direct-credential-reuse-001](https://github.com/the-static-collective/HUMKIN/tree/feature/r2-direct-credential-reuse-001) | [957005dda4](https://github.com/the-static-collective/HUMKIN/commit/957005dda46988ff2ab2843d0a7b706922139873) | Retained ref; disposition unverified |
 | [feature/r2-direct-private-bulk-ingest-001](https://github.com/the-static-collective/HUMKIN/tree/feature/r2-direct-private-bulk-ingest-001) | [e0ba0a426a](https://github.com/the-static-collective/HUMKIN/commit/e0ba0a426a8f642a34e5b335ff35270237a79eef) | Retained ref; disposition unverified |
@@ -938,6 +960,7 @@ Default: `main` · other refs: 204 · open PRs: 28
 | [feature/radio-sync-92bpm-airwave-20261114](https://github.com/the-static-collective/HUMKIN/tree/feature/radio-sync-92bpm-airwave-20261114) | [9d12039fcb](https://github.com/the-static-collective/HUMKIN/commit/9d12039fcbb8a54677d019831bbfcc98062467a5) | Retained ref; disposition unverified |
 | [feature/radio-web-primary-live-001](https://github.com/the-static-collective/HUMKIN/tree/feature/radio-web-primary-live-001) | [0f7fb8cf9e](https://github.com/the-static-collective/HUMKIN/commit/0f7fb8cf9e82f06b1c009e1c7d56e150031b61ca) | Retained ref; disposition unverified |
 | [feature/random-postcard-art](https://github.com/the-static-collective/HUMKIN/tree/feature/random-postcard-art) | [1f30f18751](https://github.com/the-static-collective/HUMKIN/commit/1f30f18751d44cc4fdd84b984911f23859c0bfce) | Retained ref; disposition unverified |
+| [feature/return-signal-001](https://github.com/the-static-collective/HUMKIN/tree/feature/return-signal-001) | [aeefabb79a](https://github.com/the-static-collective/HUMKIN/commit/aeefabb79a7c582262dc1b489fe55a33afe89ed7) | [open PR #208](https://github.com/the-static-collective/HUMKIN/pull/208) |
 | [feature/save-the-hour-cards-001](https://github.com/the-static-collective/HUMKIN/tree/feature/save-the-hour-cards-001) | [c0158707ca](https://github.com/the-static-collective/HUMKIN/commit/c0158707ca3f3828ba7a7313a1ecf1f3c8cb9f3e) | Retained ref; disposition unverified |
 | [feature/shortie-gap-guard-20261121](https://github.com/the-static-collective/HUMKIN/tree/feature/shortie-gap-guard-20261121) | [5428a6c704](https://github.com/the-static-collective/HUMKIN/commit/5428a6c704ec9a2c20456a72e4a90e7f1010864f) | Retained ref; disposition unverified |
 | [feature/spotlight-single-into-live-001](https://github.com/the-static-collective/HUMKIN/tree/feature/spotlight-single-into-live-001) | [0fe0488cd0](https://github.com/the-static-collective/HUMKIN/commit/0fe0488cd07443bc8cf8d216f2196584ac2114e2) | Retained ref; disposition unverified |
@@ -986,6 +1009,7 @@ Default: `main` · other refs: 204 · open PRs: 28
 | [preview/radio-and-records-season-two](https://github.com/the-static-collective/HUMKIN/tree/preview/radio-and-records-season-two) | [6b64209b70](https://github.com/the-static-collective/HUMKIN/commit/6b64209b70e4aa77da08671774a8d4790bb0e619) | [open PR #151](https://github.com/the-static-collective/HUMKIN/pull/151) |
 | [recovery/android-classic-spine-20261120](https://github.com/the-static-collective/HUMKIN/tree/recovery/android-classic-spine-20261120) | [23c6b3bfe1](https://github.com/the-static-collective/HUMKIN/commit/23c6b3bfe14e912387d4d23d76f7acefca8be97e) | [open PR #179](https://github.com/the-static-collective/HUMKIN/pull/179) |
 | [release/everywhere-near-you-001](https://github.com/the-static-collective/HUMKIN/tree/release/everywhere-near-you-001) | [1db2f6a726](https://github.com/the-static-collective/HUMKIN/commit/1db2f6a726781aa0404670d5b2e26004c1f049f9) | Retained ref; disposition unverified |
+| [return-signal-feed](https://github.com/the-static-collective/HUMKIN/tree/return-signal-feed) | [f0ae7c4d7c](https://github.com/the-static-collective/HUMKIN/commit/f0ae7c4d7cc4efec44c9aa632bdfffdb1bda4696) | Retained ref; disposition unverified |
 | [review/living-receiver-service-20261120](https://github.com/the-static-collective/HUMKIN/tree/review/living-receiver-service-20261120) | [691b67437f](https://github.com/the-static-collective/HUMKIN/commit/691b67437f06bfa26231561db6aabab6788bb1b7) | [open PR #178](https://github.com/the-static-collective/HUMKIN/pull/178) |
 | [signal-001-compost-editorial-relay-20261118](https://github.com/the-static-collective/HUMKIN/tree/signal-001-compost-editorial-relay-20261118) | [98334b60da](https://github.com/the-static-collective/HUMKIN/commit/98334b60dac93d6f172aa30dba77708a53ca5f94) | [open PR #155](https://github.com/the-static-collective/HUMKIN/pull/155) |
 | [station-desk-03-blackbox-simulator](https://github.com/the-static-collective/HUMKIN/tree/station-desk-03-blackbox-simulator) | [8955aeda6a](https://github.com/the-static-collective/HUMKIN/commit/8955aeda6a491d951f828888a1137a2f46292337) | Retained ref; disposition unverified |
@@ -1143,12 +1167,13 @@ Default: `main` · other refs: 78 · open PRs: 46
 
 [Repository](https://github.com/the-static-collective/Jubilee-treasury) · [Branches](https://github.com/the-static-collective/Jubilee-treasury/branches) · [Pull requests](https://github.com/the-static-collective/Jubilee-treasury/pulls)
 
-Default: `main` · other refs: 43 · open PRs: 43
+Default: `main` · other refs: 56 · open PRs: 43
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#50](https://github.com/the-static-collective/Jubilee-treasury/pull/50) | CONCORD 003 — Living Capability Field | `experiment/concord-live-003-living-capability-field` → `experiment/concord-live-002-generative-cooperation` | 2026-11-25 |
 | [#48](https://github.com/the-static-collective/Jubilee-treasury/pull/48) | MOONCRATER 001–010 — Common Harvest through THE FEAST | `experiment/mooncrater-001-common-harvest` → `main` | 2026-11-24 |
 | [#47](https://github.com/the-static-collective/Jubilee-treasury/pull/47) | Jubilee CAPABILITY-020 — independently verify a change of memory representation rather than just another primitive | `experiment/penny-puddle-020-structural-memory` → `experiment/penny-puddle-019-constructive-primitive` | 2026-11-12 |
 | [#46](https://github.com/the-static-collective/Jubilee-treasury/pull/46) | Jubilee CAPABILITY-019 — independently prove NAND-only method synthesis and unseen three-input transfer | `experiment/penny-puddle-019-gate-invention` → `experiment/penny-puddle-018-missing-primitive` | 2026-11-12 |
@@ -1170,7 +1195,6 @@ Default: `main` · other refs: 43 · open PRs: 43
 | [#30](https://github.com/the-static-collective/Jubilee-treasury/pull/30) | PENNY × PUDDLE-004 — rare-coin discovery, owner-controlled collector premium and safer value weaving | `experiment/penny-puddle-004-rare-coin-frontier` → `experiment/penny-puddle-003-steward-banks-network-weaving` | 2026-11-11 |
 | [#29](https://github.com/the-static-collective/Jubilee-treasury/pull/29) | PENNY × PUDDLE-003 — proof-of-custody penny banks and constrained network weaving | `experiment/penny-puddle-003-steward-banks-network-weaving` → `experiment/penny-puddle-002-living-reserve` | 2026-11-11 |
 | [#28](https://github.com/the-static-collective/Jubilee-treasury/pull/28) | PENNY × PUDDLE-002 — living one-cent reserves, sponsored likes and conditional campaigns | `experiment/penny-puddle-002-living-reserve` → `experiment/penny-puddle-001-fragmented-cents` | 2026-11-11 |
-| [#27](https://github.com/the-static-collective/Jubilee-treasury/pull/27) | PENNY × PUDDLE-001 — make fragmented cents legible without claiming payment powers | `experiment/penny-puddle-001-fragmented-cents` → `main` | 2026-11-11 |
 | [#26](https://github.com/the-static-collective/Jubilee-treasury/pull/26) | PENNY reserve 001 — stewardship proceeds without fictitious backing | `proposal/penny-stewardship-reserve-001` → `main` | 2026-10-25 |
 | [#25](https://github.com/the-static-collective/Jubilee-treasury/pull/25) | PENNY BOX 002 — one physical-and-digital identity, QR-ready poster and mobile commons board | `experiment/penny-box-002-physical-digital-identity` → `experiment/penny-box-001-church-participation` | 2026-10-18 |
 | [#24](https://github.com/the-static-collective/Jubilee-treasury/pull/24) | PENNY BOX 001 — small things count: physical box, community need board, steward receipts | `experiment/penny-box-001-church-participation` → `main` | 2026-10-18 |
@@ -1199,6 +1223,15 @@ Default: `main` · other refs: 43 · open PRs: 43
 | --- | --- | --- |
 | [experiment/ambient-trickle-inbox-009](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/ambient-trickle-inbox-009) | [ecc94e38c7](https://github.com/the-static-collective/Jubilee-treasury/commit/ecc94e38c7cb2752fd16c3f0969c51637dae4192) | [open PR #8](https://github.com/the-static-collective/Jubilee-treasury/pull/8) |
 | [experiment/bandcamp-source-011](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/bandcamp-source-011) | [4a811ea520](https://github.com/the-static-collective/Jubilee-treasury/commit/4a811ea520be427a3f5a6a5cf2c9f8f32bb1007c) | [open PR #11](https://github.com/the-static-collective/Jubilee-treasury/pull/11) |
+| [experiment/concord-live-002-generative-cooperation](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/concord-live-002-generative-cooperation) | [7b77072fa9](https://github.com/the-static-collective/Jubilee-treasury/commit/7b77072fa9ada034fdde6e7cff95a07bc71d1f8f) | Retained ref; disposition unverified |
+| [experiment/concord-live-003-living-capability-field](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/concord-live-003-living-capability-field) | [96dd3d8581](https://github.com/the-static-collective/Jubilee-treasury/commit/96dd3d858114c8576c1968fc05aa821adfefcb1c) | [open PR #50](https://github.com/the-static-collective/Jubilee-treasury/pull/50) |
+| [experiment/concord-live-004-steward-desk](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/concord-live-004-steward-desk) | [dfb4b4609d](https://github.com/the-static-collective/Jubilee-treasury/commit/dfb4b4609df4ec8e6a6cffead78dd7e86e9a3f53) | Retained ref; disposition unverified |
+| [experiment/exodus-001-branch-recovery](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/exodus-001-branch-recovery) | [550edc4837](https://github.com/the-static-collective/Jubilee-treasury/commit/550edc4837187a79007d8313ff2afba34c5c08f5) | Retained ref; disposition unverified |
+| [experiment/exodus-002-returning-node](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/exodus-002-returning-node) | [a224992236](https://github.com/the-static-collective/Jubilee-treasury/commit/a224992236bbb6d4085f4b452b2275732130fd03) | Retained ref; disposition unverified |
+| [experiment/exodus-003-ark](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/exodus-003-ark) | [44c1667115](https://github.com/the-static-collective/Jubilee-treasury/commit/44c166711549798f950c1f768c0f6ac331a00287) | Retained ref; disposition unverified |
+| [experiment/exodus-004-casework](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/exodus-004-casework) | [3e1672b477](https://github.com/the-static-collective/Jubilee-treasury/commit/3e1672b477207405770260d05d16fdb16c62550f) | Retained ref; disposition unverified |
+| [experiment/exodus-005-shepherd-desk](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/exodus-005-shepherd-desk) | [f8bf5a292b](https://github.com/the-static-collective/Jubilee-treasury/commit/f8bf5a292bf9853bcf86df1a1ab9cf2ab08bf975) | Retained ref; disposition unverified |
+| [experiment/exodus-006-common-table](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/exodus-006-common-table) | [8845393738](https://github.com/the-static-collective/Jubilee-treasury/commit/88453937380fdfa68670cc8521662dddc61c0068) | Retained ref; disposition unverified |
 | [experiment/fall-share-asset-treasury-007](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/fall-share-asset-treasury-007) | [a2872299eb](https://github.com/the-static-collective/Jubilee-treasury/commit/a2872299eb0a294713c3d34a77f47814c3d4403b) | [open PR #5](https://github.com/the-static-collective/Jubilee-treasury/pull/5) |
 | [experiment/github-live-trickle-010](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/github-live-trickle-010) | [2043baa720](https://github.com/the-static-collective/Jubilee-treasury/commit/2043baa72042c864274e8d2abd416c05cfb4b1fd) | [open PR #9](https://github.com/the-static-collective/Jubilee-treasury/pull/9) |
 | [experiment/haunted-jubilee-arcade-019](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/haunted-jubilee-arcade-019) | [f2a3989209](https://github.com/the-static-collective/Jubilee-treasury/commit/f2a3989209f309c077dd5c7b595e1d3ba08f61a9) | [open PR #22](https://github.com/the-static-collective/Jubilee-treasury/pull/22) |
@@ -1211,7 +1244,7 @@ Default: `main` · other refs: 43 · open PRs: 43
 | [experiment/penny-box-that-asks-016](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-box-that-asks-016) | [55fcc580db](https://github.com/the-static-collective/Jubilee-treasury/commit/55fcc580db6c6acee5b49660d45f8b809dc86b9d) | [open PR #19](https://github.com/the-static-collective/Jubilee-treasury/pull/19) |
 | [experiment/penny-field-capture-018](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-field-capture-018) | [3b6bbad7e1](https://github.com/the-static-collective/Jubilee-treasury/commit/3b6bbad7e17e782c8724542c18755d9d12fc5f3e) | [open PR #21](https://github.com/the-static-collective/Jubilee-treasury/pull/21) |
 | [experiment/penny-hardware-witness-017](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-hardware-witness-017) | [3dc224f618](https://github.com/the-static-collective/Jubilee-treasury/commit/3dc224f61839f5312f99ab65a546dca6a9a9254c) | [open PR #20](https://github.com/the-static-collective/Jubilee-treasury/pull/20) |
-| [experiment/penny-puddle-001-fragmented-cents](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-001-fragmented-cents) | [84db8c5747](https://github.com/the-static-collective/Jubilee-treasury/commit/84db8c57471e5503a70103a9942293b79529a8d7) | [open PR #27](https://github.com/the-static-collective/Jubilee-treasury/pull/27) |
+| [experiment/penny-puddle-001-fragmented-cents](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-001-fragmented-cents) | [84db8c5747](https://github.com/the-static-collective/Jubilee-treasury/commit/84db8c57471e5503a70103a9942293b79529a8d7) | Retained ref; disposition unverified |
 | [experiment/penny-puddle-002-living-reserve](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-002-living-reserve) | [49de70d898](https://github.com/the-static-collective/Jubilee-treasury/commit/49de70d8983438b8a929c7048b5439e0332e11f1) | [open PR #28](https://github.com/the-static-collective/Jubilee-treasury/pull/28) |
 | [experiment/penny-puddle-003-steward-banks-network-weaving](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-003-steward-banks-network-weaving) | [474aefcf99](https://github.com/the-static-collective/Jubilee-treasury/commit/474aefcf991668ec0ad0538d17e908afd87288ef) | [open PR #29](https://github.com/the-static-collective/Jubilee-treasury/pull/29) |
 | [experiment/penny-puddle-004-rare-coin-frontier](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/penny-puddle-004-rare-coin-frontier) | [e9ca5d7fdd](https://github.com/the-static-collective/Jubilee-treasury/commit/e9ca5d7fdda0dd407414a08b1c3d161f29968b7c) | [open PR #30](https://github.com/the-static-collective/Jubilee-treasury/pull/30) |
@@ -1239,6 +1272,10 @@ Default: `main` · other refs: 43 · open PRs: 43
 | [experiment/regenerative-cad-handoff-010](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/regenerative-cad-handoff-010) | [00a3e0a1d5](https://github.com/the-static-collective/Jubilee-treasury/commit/00a3e0a1d522b4bd8021a46ecde9b2db27698441) | [open PR #16](https://github.com/the-static-collective/Jubilee-treasury/pull/16) |
 | [experiment/regenerative-capacity-static-os-009](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/regenerative-capacity-static-os-009) | [e3783ed8a9](https://github.com/the-static-collective/Jubilee-treasury/commit/e3783ed8a9a0c5ac731b9b560aea662bacd75bd9) | [open PR #14](https://github.com/the-static-collective/Jubilee-treasury/pull/14) |
 | [experiment/universal-door-registry-012](https://github.com/the-static-collective/Jubilee-treasury/tree/experiment/universal-door-registry-012) | [32ba988090](https://github.com/the-static-collective/Jubilee-treasury/commit/32ba9880902ce72510bbf8f49e423957d009889c) | [open PR #12](https://github.com/the-static-collective/Jubilee-treasury/pull/12) |
+| [integration/inte-great-002-workbench](https://github.com/the-static-collective/Jubilee-treasury/tree/integration/inte-great-002-workbench) | [e8211b9cbc](https://github.com/the-static-collective/Jubilee-treasury/commit/e8211b9cbccec2ca27d6855cc560a053cd41ffdd) | Retained ref; disposition unverified |
+| [integration/inte-great-003-living-grammar](https://github.com/the-static-collective/Jubilee-treasury/tree/integration/inte-great-003-living-grammar) | [bdb8bc4691](https://github.com/the-static-collective/Jubilee-treasury/commit/bdb8bc4691dbd42ab301ba7e7956a2be2ebb712b) | Retained ref; disposition unverified |
+| [integration/inte-great-004-growing-grammar](https://github.com/the-static-collective/Jubilee-treasury/tree/integration/inte-great-004-growing-grammar) | [19760a2c74](https://github.com/the-static-collective/Jubilee-treasury/commit/19760a2c74637ab8d6f9ea6506879002797a4b47) | Retained ref; disposition unverified |
+| [integration/inte-great-portable-001](https://github.com/the-static-collective/Jubilee-treasury/tree/integration/inte-great-portable-001) | [f5b8507794](https://github.com/the-static-collective/Jubilee-treasury/commit/f5b8507794e965f1883b49bc93e2f1aa9ee295d0) | Retained ref; disposition unverified |
 | [proposal/penny-stewardship-reserve-001](https://github.com/the-static-collective/Jubilee-treasury/tree/proposal/penny-stewardship-reserve-001) | [200d4b1871](https://github.com/the-static-collective/Jubilee-treasury/commit/200d4b1871fb55ee7b02e3f044fea02c3e717ee1) | [open PR #26](https://github.com/the-static-collective/Jubilee-treasury/pull/26) |
 
 ## lemonPRESS
@@ -2573,7 +2610,13 @@ Default: `main` · other refs: 11 · open PRs: 8
 
 [Repository](https://github.com/the-static-collective/staticID) · [Branches](https://github.com/the-static-collective/staticID/branches) · [Pull requests](https://github.com/the-static-collective/staticID/pulls)
 
-Default: `main` · other refs: 7 · open PRs: 0
+Default: `main` · other refs: 8 · open PRs: 1
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#8](https://github.com/the-static-collective/staticID/pull/8) | PROPOSAL: StaticID 005–006 — Federation and Passport | `proposal/federation-005` → `main` | 2026-11-24 |
 
 ### Retained nondefault branches
 
@@ -2586,6 +2629,7 @@ Default: `main` · other refs: 7 · open PRs: 0
 | [fix/callback-diagnostics](https://github.com/the-static-collective/staticID/tree/fix/callback-diagnostics) | [8cf6110ff2](https://github.com/the-static-collective/staticID/commit/8cf6110ff224b2bdf11b0a77808764eb6faa37b3) | Retained ref; disposition unverified |
 | [fix/token-exchange-transport](https://github.com/the-static-collective/staticID/tree/fix/token-exchange-transport) | [e703d81958](https://github.com/the-static-collective/staticID/commit/e703d819588f5bd5d251e6811b9f8fb6788bcbe3) | Retained ref; disposition unverified |
 | [fix/workers-jwks-fetch](https://github.com/the-static-collective/staticID/tree/fix/workers-jwks-fetch) | [d6f36e5510](https://github.com/the-static-collective/staticID/commit/d6f36e551021dfc67f8dab846c504cc06614e834) | Retained ref; disposition unverified |
+| [proposal/federation-005](https://github.com/the-static-collective/staticID/tree/proposal/federation-005) | [1974527203](https://github.com/the-static-collective/staticID/commit/197452720391f65eb856bf7c2a612ae00ced6970) | [open PR #8](https://github.com/the-static-collective/staticID/pull/8) |
 
 ## story-dna
 
