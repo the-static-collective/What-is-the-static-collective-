@@ -2871,11 +2871,26 @@
           "sha": "38ede773ace9a38e27c61e159c36cda17090ca16"
         },
         {
+          "name": "research/crossroads-012-embodiment",
+          "sha": "9384dda29bd02a60e432bbbcd044738fb60d637e"
+        },
+        {
           "name": "shared-mask-multichannel",
           "sha": "7fd58367246bcd20b205b07406f40791066e6237"
         }
       ],
-      "open_prs": []
+      "open_prs": [
+        {
+          "number": 1,
+          "title": "CROSSROADS 012 — Embodiment: persistent knowledge compiler and sufficiency gate",
+          "head_branch": "research/crossroads-012-embodiment",
+          "head_sha": "9384dda29bd02a60e432bbbcd044738fb60d637e",
+          "head_repo": "the-static-collective/convergent-codec",
+          "base_branch": "main",
+          "updated_at": "2026-11-26T14:39:53Z",
+          "url": "https://github.com/the-static-collective/convergent-codec/pull/1"
+        }
+      ]
     },
     {
       "name": "corpus-os",
@@ -8775,7 +8790,7 @@
         },
         {
           "name": "main",
-          "sha": "ac1d537a6447fb6928304ba397f6229624774068"
+          "sha": "10ffb553a73710fff02ab241069b4b1f5c55cb7d"
         },
         {
           "name": "preview/radio-and-records-season-two",
@@ -8788,6 +8803,10 @@
         {
           "name": "release/everywhere-near-you-001",
           "sha": "1db2f6a726781aa0404670d5b2e26004c1f049f9"
+        },
+        {
+          "name": "research/ultimate-joy-ghost-frequency-001",
+          "sha": "7c6551b9e59180a8f406cf474e3f156ddb918ad5"
         },
         {
           "name": "return-signal-feed",
@@ -8843,6 +8862,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 209,
+          "title": "ULTIMATE JOY — Ghost Frequency: discover the laws of radio programming",
+          "head_branch": "research/ultimate-joy-ghost-frequency-001",
+          "head_sha": "7c6551b9e59180a8f406cf474e3f156ddb918ad5",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-26T16:00:16Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/209"
+        },
         {
           "number": 208,
           "title": "RETURN SIGNAL 001 — actual machine audio correspondence on HUMKIN",
@@ -9625,7 +9654,7 @@
         },
         {
           "name": "main",
-          "sha": "999395f4a6cb717e7f6c3e428cd721d706c4433a"
+          "sha": "6942a723e3fcd79695399ce293374ce4cf5037df"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -12605,6 +12634,10 @@
           "sha": "f05c8374fc86b4b743bc6254d6c31ffd309cea3d"
         },
         {
+          "name": "experiment/phi-shark-lucas-001-20261126",
+          "sha": "c24471ff328635276f4f8c113cae4b583850ae5b"
+        },
+        {
           "name": "experiment/provenance-probe-001-20261107",
           "sha": "b6eff160d59acd70e29034fed931f17a2796870b"
         },
@@ -13286,6 +13319,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 332,
+          "title": "PHI SHARK 001 — reversible Lucas inheritance and matched controls",
+          "head_branch": "experiment/phi-shark-lucas-001-20261126",
+          "head_sha": "c24471ff328635276f4f8c113cae4b583850ae5b",
+          "head_repo": "the-static-collective/MOTIF",
+          "base_branch": "main",
+          "updated_at": "2026-11-26T12:37:46Z",
+          "url": "https://github.com/the-static-collective/MOTIF/pull/332"
+        },
         {
           "number": 329,
           "title": "TOURNAMENT 003 — run original unmerged method against adverse transfer controls; retain HELD receipt",
@@ -17700,9 +17743,24 @@
         {
           "name": "main",
           "sha": "64216f097a0a1269bbf36c17bea65393d4c409d1"
+        },
+        {
+          "name": "research/misunderstanding-001",
+          "sha": "0501d8940060fb6dd3af94aca20ad407a8eb67f0"
         }
       ],
-      "open_prs": []
+      "open_prs": [
+        {
+          "number": 1,
+          "title": "PUENTE — Rule Detective 001: adaptive misunderstanding research",
+          "head_branch": "research/misunderstanding-001",
+          "head_sha": "0501d8940060fb6dd3af94aca20ad407a8eb67f0",
+          "head_repo": "the-static-collective/PUENTE",
+          "base_branch": "main",
+          "updated_at": "2026-11-26T15:53:09Z",
+          "url": "https://github.com/the-static-collective/PUENTE/pull/1"
+        }
+      ]
     },
     {
       "name": "reCOreturn",
@@ -17956,6 +18014,10 @@
         {
           "name": "experiment/motif-minecraft-009-native-observation-return",
           "sha": "991d8e10a84b830f277a31d7feec8f1f4c2c09bd"
+        },
+        {
+          "name": "experiment/mustard-seed-003-minecraft-regenerative-village",
+          "sha": "0f950fd68e31da9167e40b6821e13e88f074b029"
         },
         {
           "name": "experiment/paperchain-seed-vault-001",
@@ -31038,7 +31100,7 @@
         },
         {
           "name": "main",
-          "sha": "1fc2c24f3fd57c24b8226329c8209e5752caf135"
+          "sha": "e2f940486bdcc80e4a2d26563d60384f2f4132d0"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -31609,5 +31671,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-25T17:57:48+00:00"
+  "captured_at": "2026-11-26T17:43:13+00:00"
 }

@@ -774,12 +774,13 @@ Default: `main` · other refs: 32 · open PRs: 15
 
 [Repository](https://github.com/the-static-collective/HUMKIN) · [Branches](https://github.com/the-static-collective/HUMKIN/branches) · [Pull requests](https://github.com/the-static-collective/HUMKIN/pulls)
 
-Default: `main` · other refs: 207 · open PRs: 30
+Default: `main` · other refs: 208 · open PRs: 31
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#209](https://github.com/the-static-collective/HUMKIN/pull/209) | ULTIMATE JOY — Ghost Frequency: discover the laws of radio programming | `research/ultimate-joy-ghost-frequency-001` → `main` | 2026-11-26 |
 | [#208](https://github.com/the-static-collective/HUMKIN/pull/208) | RETURN SIGNAL 001 — actual machine audio correspondence on HUMKIN | `feature/return-signal-001` → `main` | 2026-11-25 |
 | [#207](https://github.com/the-static-collective/HUMKIN/pull/207) | QUIET FREQUENCY 001 — shared cloud radio and Haunted Toaster study room | `feature/quiet-frequency-001` → `main` | 2026-11-25 |
 | [#204](https://github.com/the-static-collective/HUMKIN/pull/204) | ROBOT RADIO 001 — read-only discovery porch for human and machine listeners | `feat/robot-radio-discovery-001` → `main` | 2026-11-23 |
@@ -1009,6 +1010,7 @@ Default: `main` · other refs: 207 · open PRs: 30
 | [preview/radio-and-records-season-two](https://github.com/the-static-collective/HUMKIN/tree/preview/radio-and-records-season-two) | [6b64209b70](https://github.com/the-static-collective/HUMKIN/commit/6b64209b70e4aa77da08671774a8d4790bb0e619) | [open PR #151](https://github.com/the-static-collective/HUMKIN/pull/151) |
 | [recovery/android-classic-spine-20261120](https://github.com/the-static-collective/HUMKIN/tree/recovery/android-classic-spine-20261120) | [23c6b3bfe1](https://github.com/the-static-collective/HUMKIN/commit/23c6b3bfe14e912387d4d23d76f7acefca8be97e) | [open PR #179](https://github.com/the-static-collective/HUMKIN/pull/179) |
 | [release/everywhere-near-you-001](https://github.com/the-static-collective/HUMKIN/tree/release/everywhere-near-you-001) | [1db2f6a726](https://github.com/the-static-collective/HUMKIN/commit/1db2f6a726781aa0404670d5b2e26004c1f049f9) | Retained ref; disposition unverified |
+| [research/ultimate-joy-ghost-frequency-001](https://github.com/the-static-collective/HUMKIN/tree/research/ultimate-joy-ghost-frequency-001) | [7c6551b9e5](https://github.com/the-static-collective/HUMKIN/commit/7c6551b9e59180a8f406cf474e3f156ddb918ad5) | [open PR #209](https://github.com/the-static-collective/HUMKIN/pull/209) |
 | [return-signal-feed](https://github.com/the-static-collective/HUMKIN/tree/return-signal-feed) | [f0ae7c4d7c](https://github.com/the-static-collective/HUMKIN/commit/f0ae7c4d7cc4efec44c9aa632bdfffdb1bda4696) | Retained ref; disposition unverified |
 | [review/living-receiver-service-20261120](https://github.com/the-static-collective/HUMKIN/tree/review/living-receiver-service-20261120) | [691b67437f](https://github.com/the-static-collective/HUMKIN/commit/691b67437f06bfa26231561db6aabab6788bb1b7) | [open PR #178](https://github.com/the-static-collective/HUMKIN/pull/178) |
 | [signal-001-compost-editorial-relay-20261118](https://github.com/the-static-collective/HUMKIN/tree/signal-001-compost-editorial-relay-20261118) | [98334b60da](https://github.com/the-static-collective/HUMKIN/commit/98334b60dac93d6f172aa30dba77708a53ca5f94) | [open PR #155](https://github.com/the-static-collective/HUMKIN/pull/155) |
@@ -1422,12 +1424,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/MOTIF) · [Branches](https://github.com/the-static-collective/MOTIF/branches) · [Pull requests](https://github.com/the-static-collective/MOTIF/pulls)
 
-Default: `main` · other refs: 335 · open PRs: 314
+Default: `main` · other refs: 336 · open PRs: 315
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#332](https://github.com/the-static-collective/MOTIF/pull/332) | PHI SHARK 001 — reversible Lucas inheritance and matched controls | `experiment/phi-shark-lucas-001-20261126` → `main` | 2026-11-26 |
 | [#329](https://github.com/the-static-collective/MOTIF/pull/329) | TOURNAMENT 003 — run original unmerged method against adverse transfer controls; retain HELD receipt | `experiment/method-tournament-003-held-cartridge-transfer` → `feature/reason-spine-002-evidence-council` | 2026-11-13 |
 | [#328](https://github.com/the-static-collective/MOTIF/pull/328) | SOURCE COUNCIL 002 — select unmerged experiments using original evidence, not branch names | `feature/reason-spine-002-evidence-council` → `main` | 2026-11-13 |
 | [#325](https://github.com/the-static-collective/MOTIF/pull/325) | RECIPROCAL-004 DRAFT — source-owned Git constellation passport + native Free Graph bridge | `experiment/reciprocal-004-ecosystem-crosswire-20261112` → `experiment/reciprocal-003-hypermap-foundry-20261112` | 2026-11-12 |
@@ -1913,6 +1916,7 @@ Default: `main` · other refs: 335 · open PRs: 314
 | [experiment/operator-invention-001-20261109](https://github.com/the-static-collective/MOTIF/tree/experiment/operator-invention-001-20261109) | [71184b13c8](https://github.com/the-static-collective/MOTIF/commit/71184b13c8d3658227d9f0d04de5e43e09ec1572) | [open PR #229](https://github.com/the-static-collective/MOTIF/pull/229) |
 | [experiment/org001-throughput-of-help-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/org001-throughput-of-help-20261111) | [6affa0cabf](https://github.com/the-static-collective/MOTIF/commit/6affa0cabf07c3aa74877324e3eeef3465571ab1) | [open PR #282](https://github.com/the-static-collective/MOTIF/pull/282) |
 | [experiment/org002-institutional-impasse-20261111](https://github.com/the-static-collective/MOTIF/tree/experiment/org002-institutional-impasse-20261111) | [f05c8374fc](https://github.com/the-static-collective/MOTIF/commit/f05c8374fc86b4b743bc6254d6c31ffd309cea3d) | [open PR #287](https://github.com/the-static-collective/MOTIF/pull/287) |
+| [experiment/phi-shark-lucas-001-20261126](https://github.com/the-static-collective/MOTIF/tree/experiment/phi-shark-lucas-001-20261126) | [c24471ff32](https://github.com/the-static-collective/MOTIF/commit/c24471ff328635276f4f8c113cae4b583850ae5b) | [open PR #332](https://github.com/the-static-collective/MOTIF/pull/332) |
 | [experiment/provenance-probe-001-20261107](https://github.com/the-static-collective/MOTIF/tree/experiment/provenance-probe-001-20261107) | [b6eff160d5](https://github.com/the-static-collective/MOTIF/commit/b6eff160d59acd70e29034fed931f17a2796870b) | [open PR #190](https://github.com/the-static-collective/MOTIF/pull/190) |
 | [experiment/quantum-code-001-20261107](https://github.com/the-static-collective/MOTIF/tree/experiment/quantum-code-001-20261107) | [66b659d8d1](https://github.com/the-static-collective/MOTIF/commit/66b659d8d1a27f02616b4fd04b301ef5008f8074) | [open PR #182](https://github.com/the-static-collective/MOTIF/pull/182) |
 | [experiment/quantum-code-002-structural-20261107](https://github.com/the-static-collective/MOTIF/tree/experiment/quantum-code-002-structural-20261107) | [6bc5338fa7](https://github.com/the-static-collective/MOTIF/commit/6bc5338fa7be0e5b232c6ac9bc0e7f8a6eb61e04) | [open PR #185](https://github.com/the-static-collective/MOTIF/pull/185) |
@@ -2209,13 +2213,25 @@ Default: `main` · other refs: 4 · open PRs: 4
 
 [Repository](https://github.com/the-static-collective/PUENTE) · [Branches](https://github.com/the-static-collective/PUENTE/branches) · [Pull requests](https://github.com/the-static-collective/PUENTE/pulls)
 
-Default: `main` · other refs: 0 · open PRs: 0
+Default: `main` · other refs: 1 · open PRs: 1
+
+### Open pull requests
+
+| PR | Candidate title | Source → target | Updated (UTC) |
+| --- | --- | --- | --- |
+| [#1](https://github.com/the-static-collective/PUENTE/pull/1) | PUENTE — Rule Detective 001: adaptive misunderstanding research | `research/misunderstanding-001` → `main` | 2026-11-26 |
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [research/misunderstanding-001](https://github.com/the-static-collective/PUENTE/tree/research/misunderstanding-001) | [0501d89400](https://github.com/the-static-collective/PUENTE/commit/0501d8940060fb6dd3af94aca20ad407a8eb67f0) | [open PR #1](https://github.com/the-static-collective/PUENTE/pull/1) |
 
 ## reLATTE
 
 [Repository](https://github.com/the-static-collective/reLATTE) · [Branches](https://github.com/the-static-collective/reLATTE/branches) · [Pull requests](https://github.com/the-static-collective/reLATTE/pulls)
 
-Default: `main` · other refs: 177 · open PRs: 131
+Default: `main` · other refs: 178 · open PRs: 131
 
 ### Open pull requests
 
@@ -2408,6 +2424,7 @@ Default: `main` · other refs: 177 · open PRs: 131
 | [experiment/minecraft-012-revised-sensor-retest](https://github.com/the-static-collective/reLATTE/tree/experiment/minecraft-012-revised-sensor-retest) | [a86282a597](https://github.com/the-static-collective/reLATTE/commit/a86282a59741e5976e6e3328633f0ea858dc2721) | Retained ref; disposition unverified |
 | [experiment/motif-instrument-garden-minecraft-008](https://github.com/the-static-collective/reLATTE/tree/experiment/motif-instrument-garden-minecraft-008) | [ecf7a25209](https://github.com/the-static-collective/reLATTE/commit/ecf7a252099bde36ee649679f27cc8715a1478a2) | [open PR #176](https://github.com/the-static-collective/reLATTE/pull/176) |
 | [experiment/motif-minecraft-009-native-observation-return](https://github.com/the-static-collective/reLATTE/tree/experiment/motif-minecraft-009-native-observation-return) | [991d8e10a8](https://github.com/the-static-collective/reLATTE/commit/991d8e10a84b830f277a31d7feec8f1f4c2c09bd) | [open PR #177](https://github.com/the-static-collective/reLATTE/pull/177) |
+| [experiment/mustard-seed-003-minecraft-regenerative-village](https://github.com/the-static-collective/reLATTE/tree/experiment/mustard-seed-003-minecraft-regenerative-village) | [0f950fd68e](https://github.com/the-static-collective/reLATTE/commit/0f950fd68e31da9167e40b6821e13e88f074b029) | Retained ref; disposition unverified |
 | [experiment/paperchain-seed-vault-001](https://github.com/the-static-collective/reLATTE/tree/experiment/paperchain-seed-vault-001) | [51372e57b6](https://github.com/the-static-collective/reLATTE/commit/51372e57b6c1f5647621ea805f6f983b5ac28597) | [open PR #65](https://github.com/the-static-collective/reLATTE/pull/65) |
 | [experiment/particularity-crucible-001](https://github.com/the-static-collective/reLATTE/tree/experiment/particularity-crucible-001) | [f5cb7488be](https://github.com/the-static-collective/reLATTE/commit/f5cb7488bebc1a6e27fd458ad40af9b9b6f9e858) | [open PR #67](https://github.com/the-static-collective/reLATTE/pull/67) |
 | [experiment/perceived-affordance-field-001](https://github.com/the-static-collective/reLATTE/tree/experiment/perceived-affordance-field-001) | [203b836cd7](https://github.com/the-static-collective/reLATTE/commit/203b836cd7a36e105d4f3798f366db744dee47db) | [open PR #83](https://github.com/the-static-collective/reLATTE/pull/83) |

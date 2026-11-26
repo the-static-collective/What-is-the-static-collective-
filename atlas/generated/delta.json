@@ -1,277 +1,90 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-24T18:52:57+00:00",
-  "to_captured_at": "2026-11-25T17:57:48+00:00",
+  "from_captured_at": "2026-11-25T17:57:48+00:00",
+  "to_captured_at": "2026-11-26T17:43:13+00:00",
   "added_repositories": [],
   "removed_repositories": [],
   "added_branches": [
     {
-      "repository": "CANNON",
-      "branch": "experiment/ministry-suitcase-004-native",
-      "sha": "edccb1d86afa5488866a134a0ada92a4b4b7f57c"
-    },
-    {
-      "repository": "CANNON",
-      "branch": "experiment/ministry-suitcase-005-living-machine",
-      "sha": "d171d83d88931ab40059873dc2360c497a472835"
-    },
-    {
-      "repository": "CANNON",
-      "branch": "experiment/ministry-suitcase-006-living-church",
-      "sha": "fc726e1028b95f5420d8fb5ddbd7dac1714518e3"
-    },
-    {
-      "repository": "CANNON",
-      "branch": "experiment/ministry-suitcase-007-mustard-seed",
-      "sha": "83e5ad62400ed4787340e922145f43e9126d885e"
-    },
-    {
-      "repository": "CANNON",
-      "branch": "experiment/ministry-suitcase-008-root-system",
-      "sha": "ba4624f382b7f0de139d874702e809845d5a5b2a"
-    },
-    {
-      "repository": "CANNON",
-      "branch": "experiment/ministry-suitcase-009-rhizome",
-      "sha": "0e04a5e75d29e209f773c0f582b0e6f4a2ac77b0"
-    },
-    {
-      "repository": "fileport",
-      "branch": "fix/desktop-media-preview",
-      "sha": "9f10c962750491e8d13fbad7d18ac41105b00642"
-    },
-    {
-      "repository": "fileport",
-      "branch": "fix/workbench-entry",
-      "sha": "8bed608da2c17c92ebe0534344061ebad56850cc"
+      "repository": "convergent-codec",
+      "branch": "research/crossroads-012-embodiment",
+      "sha": "9384dda29bd02a60e432bbbcd044738fb60d637e"
     },
     {
       "repository": "HUMKIN",
-      "branch": "feature/quiet-frequency-001",
-      "sha": "ad2c7d8f1c305a2e223d223b070d3b2cbc0c9101"
+      "branch": "research/ultimate-joy-ghost-frequency-001",
+      "sha": "7c6551b9e59180a8f406cf474e3f156ddb918ad5"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "feature/return-signal-001",
-      "sha": "aeefabb79a7c582262dc1b489fe55a33afe89ed7"
+      "repository": "MOTIF",
+      "branch": "experiment/phi-shark-lucas-001-20261126",
+      "sha": "c24471ff328635276f4f8c113cae4b583850ae5b"
     },
     {
-      "repository": "HUMKIN",
-      "branch": "return-signal-feed",
-      "sha": "f0ae7c4d7cc4efec44c9aa632bdfffdb1bda4696"
+      "repository": "PUENTE",
+      "branch": "research/misunderstanding-001",
+      "sha": "0501d8940060fb6dd3af94aca20ad407a8eb67f0"
     },
     {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/concord-live-002-generative-cooperation",
-      "sha": "7b77072fa9ada034fdde6e7cff95a07bc71d1f8f"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/concord-live-003-living-capability-field",
-      "sha": "96dd3d858114c8576c1968fc05aa821adfefcb1c"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/concord-live-004-steward-desk",
-      "sha": "dfb4b4609df4ec8e6a6cffead78dd7e86e9a3f53"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/exodus-001-branch-recovery",
-      "sha": "550edc4837187a79007d8313ff2afba34c5c08f5"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/exodus-002-returning-node",
-      "sha": "a224992236bbb6d4085f4b452b2275732130fd03"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/exodus-003-ark",
-      "sha": "44c166711549798f950c1f768c0f6ac331a00287"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/exodus-004-casework",
-      "sha": "3e1672b477207405770260d05d16fdb16c62550f"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/exodus-005-shepherd-desk",
-      "sha": "f8bf5a292bf9853bcf86df1a1ab9cf2ab08bf975"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "experiment/exodus-006-common-table",
-      "sha": "88453937380fdfa68670cc8521662dddc61c0068"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "integration/inte-great-002-workbench",
-      "sha": "e8211b9cbccec2ca27d6855cc560a053cd41ffdd"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "integration/inte-great-003-living-grammar",
-      "sha": "bdb8bc4691dbd42ab301ba7e7956a2be2ebb712b"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "integration/inte-great-004-growing-grammar",
-      "sha": "19760a2c74637ab8d6f9ea6506879002797a4b47"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "integration/inte-great-portable-001",
-      "sha": "f5b8507794e965f1883b49bc93e2f1aa9ee295d0"
-    },
-    {
-      "repository": "staticID",
-      "branch": "proposal/federation-005",
-      "sha": "197452720391f65eb856bf7c2a612ae00ced6970"
+      "repository": "reLATTE",
+      "branch": "experiment/mustard-seed-003-minecraft-regenerative-village",
+      "sha": "0f950fd68e31da9167e40b6821e13e88f074b029"
     }
   ],
   "removed_branches": [],
   "moved_branch_heads": [
     {
-      "repository": "fileport",
-      "branch": "main",
-      "from_sha": "215276fb74ebd7ae359c6391614661892b01f60b",
-      "to_sha": "c826d90975a6dd418140f9ff3a64d067897ca7f5"
-    },
-    {
-      "repository": "GHoT",
-      "branch": "main",
-      "from_sha": "5894b2c2038470670ea069a966b688c7dc81531d",
-      "to_sha": "0cedefb76f830a90d4f1331ff5b5fc99a827fd04"
-    },
-    {
-      "repository": "GRAFT",
-      "branch": "main",
-      "from_sha": "265fd538266a742d033ba2f5b408a78610d0a75c",
-      "to_sha": "f06fed6d055082fb9e9574037205bd4134b5ff68"
-    },
-    {
       "repository": "HUMKIN",
       "branch": "main",
-      "from_sha": "2afc79b7c58f7fc9e3b0405773810c35b8a5ca63",
-      "to_sha": "ac1d537a6447fb6928304ba397f6229624774068"
+      "from_sha": "ac1d537a6447fb6928304ba397f6229624774068",
+      "to_sha": "10ffb553a73710fff02ab241069b4b1f5c55cb7d"
     },
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "b061f7c029c8e97cd928e99bb5227a90ffe958bd",
-      "to_sha": "999395f4a6cb717e7f6c3e428cd721d706c4433a"
-    },
-    {
-      "repository": "Jubilee-treasury",
-      "branch": "main",
-      "from_sha": "550093f2a97a24b35a542fa47dab7115e071b1a2",
-      "to_sha": "e7585b550cece031b5442349ec84e0b8591d2a6e"
-    },
-    {
-      "repository": "MOTIF",
-      "branch": "main",
-      "from_sha": "948beab83113199f5542ee4b914dade0dca96909",
-      "to_sha": "db4c17cfac407e3cefa20fc9fee101449b05bcc4"
+      "from_sha": "999395f4a6cb717e7f6c3e428cd721d706c4433a",
+      "to_sha": "6942a723e3fcd79695399ce293374ce4cf5037df"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "e97e858a19ee2eb094e956c180c99bdf1baaaa27",
-      "to_sha": "1fc2c24f3fd57c24b8226329c8209e5752caf135"
+      "from_sha": "1fc2c24f3fd57c24b8226329c8209e5752caf135",
+      "to_sha": "e2f940486bdcc80e4a2d26563d60384f2f4132d0"
     }
   ],
   "opened_prs": [
     {
-      "repository": "CANNON",
-      "number": 99,
-      "title": "Ministry Suitcase 004 — original CANNON source-native Pentecost crossing",
-      "url": "https://github.com/the-static-collective/CANNON/pull/99",
-      "head_branch": "experiment/ministry-suitcase-004-native",
-      "base_branch": "experiment/genesis-boot-002-interactive-porch"
-    },
-    {
-      "repository": "CANNON",
-      "number": 100,
-      "title": "Living Ministry Machine 005 — original EXODUS, PUENTE, PENNY BOX, WITNESS and Full Measure",
-      "url": "https://github.com/the-static-collective/CANNON/pull/100",
-      "head_branch": "experiment/ministry-suitcase-005-living-machine",
-      "base_branch": "experiment/ministry-suitcase-004-native"
-    },
-    {
-      "repository": "CANNON",
-      "number": 101,
-      "title": "Living Church 006: verify cooperative lifecycle",
-      "url": "https://github.com/the-static-collective/CANNON/pull/101",
-      "head_branch": "experiment/ministry-suitcase-006-living-church",
-      "base_branch": "experiment/ministry-suitcase-005-living-machine"
-    },
-    {
-      "repository": "CANNON",
-      "number": 102,
-      "title": "Mustard Seed 007: verify independent signed nodes",
-      "url": "https://github.com/the-static-collective/CANNON/pull/102",
-      "head_branch": "experiment/ministry-suitcase-007-mustard-seed",
-      "base_branch": "experiment/ministry-suitcase-006-living-church"
-    },
-    {
-      "repository": "CANNON",
-      "number": 103,
-      "title": "Root System 008: encrypted node recovery and reviewed inbox",
-      "url": "https://github.com/the-static-collective/CANNON/pull/103",
-      "head_branch": "experiment/ministry-suitcase-008-root-system",
-      "base_branch": "experiment/ministry-suitcase-007-mustard-seed"
-    },
-    {
-      "repository": "fileport",
-      "number": 8,
-      "title": "Fileport: desktop playback compatibility mode",
-      "url": "https://github.com/the-static-collective/fileport/pull/8",
-      "head_branch": "fix/desktop-media-preview",
+      "repository": "convergent-codec",
+      "number": 1,
+      "title": "CROSSROADS 012 — Embodiment: persistent knowledge compiler and sufficiency gate",
+      "url": "https://github.com/the-static-collective/convergent-codec/pull/1",
+      "head_branch": "research/crossroads-012-embodiment",
       "base_branch": "main"
     },
     {
       "repository": "HUMKIN",
-      "number": 207,
-      "title": "QUIET FREQUENCY 001 — shared cloud radio and Haunted Toaster study room",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/207",
-      "head_branch": "feature/quiet-frequency-001",
+      "number": 209,
+      "title": "ULTIMATE JOY — Ghost Frequency: discover the laws of radio programming",
+      "url": "https://github.com/the-static-collective/HUMKIN/pull/209",
+      "head_branch": "research/ultimate-joy-ghost-frequency-001",
       "base_branch": "main"
     },
     {
-      "repository": "HUMKIN",
-      "number": 208,
-      "title": "RETURN SIGNAL 001 — actual machine audio correspondence on HUMKIN",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/208",
-      "head_branch": "feature/return-signal-001",
+      "repository": "MOTIF",
+      "number": 332,
+      "title": "PHI SHARK 001 — reversible Lucas inheritance and matched controls",
+      "url": "https://github.com/the-static-collective/MOTIF/pull/332",
+      "head_branch": "experiment/phi-shark-lucas-001-20261126",
       "base_branch": "main"
     },
     {
-      "repository": "Jubilee-treasury",
-      "number": 50,
-      "title": "CONCORD 003 — Living Capability Field",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/50",
-      "head_branch": "experiment/concord-live-003-living-capability-field",
-      "base_branch": "experiment/concord-live-002-generative-cooperation"
-    },
-    {
-      "repository": "staticID",
-      "number": 8,
-      "title": "PROPOSAL: StaticID 005–006 — Federation and Passport",
-      "url": "https://github.com/the-static-collective/staticID/pull/8",
-      "head_branch": "proposal/federation-005",
+      "repository": "PUENTE",
+      "number": 1,
+      "title": "PUENTE — Rule Detective 001: adaptive misunderstanding research",
+      "url": "https://github.com/the-static-collective/PUENTE/pull/1",
+      "head_branch": "research/misunderstanding-001",
       "base_branch": "main"
     }
   ],
-  "left_open_prs": [
-    {
-      "repository": "Jubilee-treasury",
-      "number": 27,
-      "title": "PENNY × PUDDLE-001 — make fragmented cents legible without claiming payment powers",
-      "url": "https://github.com/the-static-collective/Jubilee-treasury/pull/27",
-      "head_branch": "experiment/penny-puddle-001-fragmented-cents",
-      "base_branch": "main"
-    }
-  ]
+  "left_open_prs": []
 }
