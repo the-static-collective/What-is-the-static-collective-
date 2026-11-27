@@ -9,6 +9,10 @@
       "archived": false,
       "branches": [
         {
+          "name": "gh-pages",
+          "sha": "ce87bf34144a10f34f3dc4ee5bc412c38bf5ad3b"
+        },
+        {
           "name": "main",
           "sha": "88c29cfefd13093708ad70f0361a6d516d87cd8c"
         }
@@ -2875,11 +2879,25 @@
           "sha": "9384dda29bd02a60e432bbbcd044738fb60d637e"
         },
         {
+          "name": "research/organism-021",
+          "sha": "2b92c93e8cad493465b851f97545d179dea8ca2a"
+        },
+        {
           "name": "shared-mask-multichannel",
           "sha": "7fd58367246bcd20b205b07406f40791066e6237"
         }
       ],
       "open_prs": [
+        {
+          "number": 2,
+          "title": "ORGANISM 021 — integrated codec ablation and runtime admission gates",
+          "head_branch": "research/organism-021",
+          "head_sha": "2b92c93e8cad493465b851f97545d179dea8ca2a",
+          "head_repo": "the-static-collective/convergent-codec",
+          "base_branch": "main",
+          "updated_at": "2026-11-27T00:00:36Z",
+          "url": "https://github.com/the-static-collective/convergent-codec/pull/2"
+        },
         {
           "number": 1,
           "title": "CROSSROADS 012 — Embodiment: persistent knowledge compiler and sufficiency gate",
@@ -4550,11 +4568,25 @@
           "sha": "8bed608da2c17c92ebe0534344061ebad56850cc"
         },
         {
+          "name": "integration/harvest-return-050",
+          "sha": "87fc3d802b54efd243970f299f1438783d390926"
+        },
+        {
           "name": "main",
           "sha": "c826d90975a6dd418140f9ff3a64d067897ca7f5"
         }
       ],
       "open_prs": [
+        {
+          "number": 9,
+          "title": "HARVEST 050: verify downloaded artifact bytes locally",
+          "head_branch": "integration/harvest-return-050",
+          "head_sha": "87fc3d802b54efd243970f299f1438783d390926",
+          "head_repo": "the-static-collective/fileport",
+          "base_branch": "main",
+          "updated_at": "2026-11-26T23:24:26Z",
+          "url": "https://github.com/the-static-collective/fileport/pull/9"
+        },
         {
           "number": 8,
           "title": "Fileport: desktop playback compatibility mode",
@@ -8473,6 +8505,10 @@
           "sha": "f00c8982fe548eab1122d04885c02814cdbc1928"
         },
         {
+          "name": "feature/humkin-transmission-ledger-001",
+          "sha": "e49315d40f875a77fbb178dcfedbb88af709bf57"
+        },
+        {
           "name": "feature/listener-tip-jar-discoverability-001",
           "sha": "b5bb6901bbf49f9b1761979821bc63d98fc14ddb"
         },
@@ -8790,11 +8826,23 @@
         },
         {
           "name": "main",
-          "sha": "10ffb553a73710fff02ab241069b4b1f5c55cb7d"
+          "sha": "b436289c9809e716b4857fe405d4ae0e7d0773b6"
         },
         {
           "name": "preview/radio-and-records-season-two",
           "sha": "6b64209b70e4aa77da08671774a8d4790bb0e619"
+        },
+        {
+          "name": "proposal/archive-janitor-001",
+          "sha": "c782a508e7d7db126f5c99af53b6a1bf7c792a42"
+        },
+        {
+          "name": "proposal/station-operating-desk-001",
+          "sha": "32c77cf6984992bc2400f3f93c34dfcbb775d396"
+        },
+        {
+          "name": "proposal/tower-unified-desk-002",
+          "sha": "1188184c1847db153c3cf9ae5e184c381062a821"
         },
         {
           "name": "recovery/android-classic-spine-20261120",
@@ -8862,6 +8910,46 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 213,
+          "title": "TOWER 002 — Unified Radio House operating desk and crate workspaces",
+          "head_branch": "proposal/tower-unified-desk-002",
+          "head_sha": "1188184c1847db153c3cf9ae5e184c381062a821",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-27T17:23:03Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/213"
+        },
+        {
+          "number": 212,
+          "title": "TOWER — Operating Desk 001: consolidate Station Manager",
+          "head_branch": "proposal/station-operating-desk-001",
+          "head_sha": "32c77cf6984992bc2400f3f93c34dfcbb775d396",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-27T15:55:20Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/212"
+        },
+        {
+          "number": 211,
+          "title": "ARCHIVE JANITOR 001 — bounded automatic Supabase copy reclamation",
+          "head_branch": "proposal/archive-janitor-001",
+          "head_sha": "c782a508e7d7db126f5c99af53b6a1bf7c792a42",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-27T15:29:39Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/211"
+        },
+        {
+          "number": 210,
+          "title": "HUMKIN ESCALATION 001–003 — Ledger, Dial and Switchyard",
+          "head_branch": "feature/humkin-transmission-ledger-001",
+          "head_sha": "e49315d40f875a77fbb178dcfedbb88af709bf57",
+          "head_repo": "the-static-collective/HUMKIN",
+          "base_branch": "main",
+          "updated_at": "2026-11-27T11:07:53Z",
+          "url": "https://github.com/the-static-collective/HUMKIN/pull/210"
+        },
         {
           "number": 209,
           "title": "ULTIMATE JOY — Ghost Frequency: discover the laws of radio programming",
@@ -9637,6 +9725,10 @@
           "sha": "20fa89a340251443afa7afbdb5432ed11fce88a6"
         },
         {
+          "name": "integration/harvest-return-050",
+          "sha": "ab8f07b1144a75004615c3314f765d77d1a30045"
+        },
+        {
           "name": "integration/modal-return-worker-001",
           "sha": "00ec46008d6f5d39bd415f7b85c2f482d9fdbcbc"
         },
@@ -9654,7 +9746,7 @@
         },
         {
           "name": "main",
-          "sha": "6942a723e3fcd79695399ce293374ce4cf5037df"
+          "sha": "0e958aac27edd05eb408fa1e8a29c97f5b210f24"
         },
         {
           "name": "ops/post-office-inbound-proof-outbound-handoff-002",
@@ -9674,6 +9766,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 79,
+          "title": "HARVEST 050: local held recovery return reader",
+          "head_branch": "integration/harvest-return-050",
+          "head_sha": "ab8f07b1144a75004615c3314f765d77d1a30045",
+          "head_repo": "the-static-collective/JAR-VIS",
+          "base_branch": "main",
+          "updated_at": "2026-11-27T15:09:18Z",
+          "url": "https://github.com/the-static-collective/JAR-VIS/pull/79"
+        },
         {
           "number": 78,
           "title": "MOTIF TOURNAMENT 003 × JAR;VIS — run original unmerged method against strong controls, save held receipt",
@@ -17031,6 +17133,10 @@
           "sha": "ec384bfddbdff471ea8d9b295b905980f702e1ad"
         },
         {
+          "name": "experiment/caravan-genesis-node-alive-007",
+          "sha": "537f71e2f850409035e2b453205998df5bd30a4c"
+        },
+        {
           "name": "experiment/circulation-001-owner-local-replies",
           "sha": "316000e071e0da5af4762f119f80dfc3add26d7c"
         },
@@ -17160,6 +17266,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 49,
+          "title": "CARAVAN 007 — NODE ALIVE: land Genesis and physical field runbook",
+          "head_branch": "experiment/caravan-genesis-node-alive-007",
+          "head_sha": "537f71e2f850409035e2b453205998df5bd30a4c",
+          "head_repo": "the-static-collective/planZ",
+          "base_branch": "main",
+          "updated_at": "2026-11-27T15:10:19Z",
+          "url": "https://github.com/the-static-collective/planZ/pull/49"
+        },
         {
           "number": 45,
           "title": "planZ-023 — Classical source-observation planning and feedback replanning",
@@ -18472,6 +18588,10 @@
           "sha": "5c7b3ebbee4fb4f56d215da3c1f943bf2431ca35"
         },
         {
+          "name": "integration/postmark-review-001",
+          "sha": "c87a04d96a39c49d9f0197426a9b4c6212b35b46"
+        },
+        {
           "name": "local-receiver-001",
           "sha": "38739f2de9ea499e2734caf2a4b3b7ab81969eb8"
         },
@@ -18529,6 +18649,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 182,
+          "title": "POSTMARK review — native stateless opaque-file crossing",
+          "head_branch": "integration/postmark-review-001",
+          "head_sha": "c87a04d96a39c49d9f0197426a9b4c6212b35b46",
+          "head_repo": "the-static-collective/reLATTE",
+          "base_branch": "main",
+          "updated_at": "2026-11-27T15:08:25Z",
+          "url": "https://github.com/the-static-collective/reLATTE/pull/182"
+        },
         {
           "number": 181,
           "title": "HUMKIN × Suno Listening 001 — signed evidence HOLD for robot radio",
@@ -21049,6 +21179,10 @@
           "sha": "17e209cebb8d45b05dd9c564e99b5f5519b2d4a0"
         },
         {
+          "name": "experiment/caravan-008-embodiment",
+          "sha": "bcfc0f329dc863f3d76707eff11d8e3b82963ef1"
+        },
+        {
           "name": "experiment/composed-nav-contact-to-witness-001",
           "sha": "42a99796b2959b49917d087e21d8a7f192bc736e"
         },
@@ -21362,6 +21496,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 100,
+          "title": "CARAVAN 008 — EMBODIMENT: optional STATIC OS community mission",
+          "head_branch": "experiment/caravan-008-embodiment",
+          "head_sha": "bcfc0f329dc863f3d76707eff11d8e3b82963ef1",
+          "head_repo": "the-static-collective/static-os",
+          "base_branch": "experiment/genesis-boot-008-universal-cartridge-festival",
+          "updated_at": "2026-11-27T15:19:31Z",
+          "url": "https://github.com/the-static-collective/static-os/pull/100"
+        },
         {
           "number": 99,
           "title": "RECOMPOSER-002: Haunted Toaster witness memory for self-recomposing question engines",
@@ -29025,6 +29169,10 @@
           "sha": "bb0997c662a393e6905c509b4627ae6773f6d0c9"
         },
         {
+          "name": "integration/suitcase-context-003",
+          "sha": "0a0311db595f65c3ce4f542a8b4db126c85e4c6d"
+        },
+        {
           "name": "main",
           "sha": "09bf8711c12346aafb1fae7585231189a3b5db74"
         },
@@ -29130,6 +29278,16 @@
         }
       ],
       "open_prs": [
+        {
+          "number": 258,
+          "title": "SUITCASE-CONTEXT-003 — exact signed disposition relationship checks",
+          "head_branch": "integration/suitcase-context-003",
+          "head_sha": "0a0311db595f65c3ce4f542a8b4db126c85e4c6d",
+          "head_repo": "the-static-collective/webZ",
+          "base_branch": "main",
+          "updated_at": "2026-11-27T01:03:41Z",
+          "url": "https://github.com/the-static-collective/webZ/pull/258"
+        },
         {
           "number": 257,
           "title": "ONE THING 007: consent-first observation bridge to MOTIF-015",
@@ -31100,7 +31258,7 @@
         },
         {
           "name": "main",
-          "sha": "e2f940486bdcc80e4a2d26563d60384f2f4132d0"
+          "sha": "d32d2b22e9628d392a51eb9e968aab5ce774ec0c"
         },
         {
           "name": "pattern/consequence-sequence-001",
@@ -31671,5 +31829,5 @@
       ]
     }
   ],
-  "captured_at": "2026-11-26T17:43:13+00:00"
+  "captured_at": "2026-11-27T17:27:13+00:00"
 }

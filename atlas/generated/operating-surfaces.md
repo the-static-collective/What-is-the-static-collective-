@@ -188,12 +188,13 @@ Default: `main` · other refs: 99 · open PRs: 58
 
 [Repository](https://github.com/the-static-collective/static-os) · [Branches](https://github.com/the-static-collective/static-os/branches) · [Pull requests](https://github.com/the-static-collective/static-os/pulls)
 
-Default: `main` · other refs: 83 · open PRs: 80
+Default: `main` · other refs: 84 · open PRs: 81
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#100](https://github.com/the-static-collective/static-os/pull/100) | CARAVAN 008 — EMBODIMENT: optional STATIC OS community mission | `experiment/caravan-008-embodiment` → `experiment/genesis-boot-008-universal-cartridge-festival` | 2026-11-27 |
 | [#99](https://github.com/the-static-collective/static-os/pull/99) | RECOMPOSER-002: Haunted Toaster witness memory for self-recomposing question engines | `experiment/recomposer-002-toaster-witness` → `experiment/recomposer-001-bounded-self-assembly` | 2026-10-31 |
 | [#98](https://github.com/the-static-collective/static-os/pull/98) | RECOMPOSER-001: deterministic self-reassembly from question to approved macro | `experiment/recomposer-001-bounded-self-assembly` → `experiment/apparatus-compiler-002` | 2026-10-31 |
 | [#97](https://github.com/the-static-collective/static-os/pull/97) | GENESIS 008: universal cartridges × museum of unfinished futures × recursive festival | `experiment/genesis-boot-008-universal-cartridge-festival` → `experiment/genesis-boot-007-strange-nodes` | 2026-10-29 |
@@ -285,6 +286,7 @@ Default: `main` · other refs: 83 · open PRs: 80
 | [experiment/apparatus-compiler-002](https://github.com/the-static-collective/static-os/tree/experiment/apparatus-compiler-002) | [e4cea89903](https://github.com/the-static-collective/static-os/commit/e4cea899035d701ce0a68aaead6397aea912161f) | [open PR #52](https://github.com/the-static-collective/static-os/pull/52) |
 | [experiment/bandcamp-field-score-001-singing-sigil](https://github.com/the-static-collective/static-os/tree/experiment/bandcamp-field-score-001-singing-sigil) | [ac2f149c96](https://github.com/the-static-collective/static-os/commit/ac2f149c96671cb84687f592fe71c1fc776010af) | [open PR #89](https://github.com/the-static-collective/static-os/pull/89) |
 | [experiment/bardo-boot-witness-001](https://github.com/the-static-collective/static-os/tree/experiment/bardo-boot-witness-001) | [17e209cebb](https://github.com/the-static-collective/static-os/commit/17e209cebb8d45b05dd9c564e99b5f5519b2d4a0) | [open PR #42](https://github.com/the-static-collective/static-os/pull/42) |
+| [experiment/caravan-008-embodiment](https://github.com/the-static-collective/static-os/tree/experiment/caravan-008-embodiment) | [bcfc0f329d](https://github.com/the-static-collective/static-os/commit/bcfc0f329dc863f3d76707eff11d8e3b82963ef1) | [open PR #100](https://github.com/the-static-collective/static-os/pull/100) |
 | [experiment/composed-nav-contact-to-witness-001](https://github.com/the-static-collective/static-os/tree/experiment/composed-nav-contact-to-witness-001) | [42a99796b2](https://github.com/the-static-collective/static-os/commit/42a99796b2959b49917d087e21d8a7f192bc736e) | [open PR #26](https://github.com/the-static-collective/static-os/pull/26) |
 | [experiment/composed-witness-to-world-001](https://github.com/the-static-collective/static-os/tree/experiment/composed-witness-to-world-001) | [8d0606d152](https://github.com/the-static-collective/static-os/commit/8d0606d15261185ff77cbada8edd4dbe21ffde4d) | [open PR #27](https://github.com/the-static-collective/static-os/pull/27) |
 | [experiment/condition-field-world-fork-001](https://github.com/the-static-collective/static-os/tree/experiment/condition-field-world-fork-001) | [5344b5750b](https://github.com/the-static-collective/static-os/commit/5344b5750b36588c2c49c73a9009d2550c0c5b84) | [open PR #34](https://github.com/the-static-collective/static-os/pull/34) |

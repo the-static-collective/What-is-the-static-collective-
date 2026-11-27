@@ -282,12 +282,13 @@ Default: `main` · other refs: 3 · open PRs: 2
 
 [Repository](https://github.com/the-static-collective/fileport) · [Branches](https://github.com/the-static-collective/fileport/branches) · [Pull requests](https://github.com/the-static-collective/fileport/pulls)
 
-Default: `main` · other refs: 8 · open PRs: 1
+Default: `main` · other refs: 9 · open PRs: 2
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#9](https://github.com/the-static-collective/fileport/pull/9) | HARVEST 050: verify downloaded artifact bytes locally | `integration/harvest-return-050` → `main` | 2026-11-26 |
 | [#8](https://github.com/the-static-collective/fileport/pull/8) | Fileport: desktop playback compatibility mode | `fix/desktop-media-preview` → `main` | 2026-11-25 |
 
 ### Retained nondefault branches
@@ -302,6 +303,7 @@ Default: `main` · other refs: 8 · open PRs: 1
 | [fix/static-id-token-transport](https://github.com/the-static-collective/fileport/tree/fix/static-id-token-transport) | [ed0cc8c7c1](https://github.com/the-static-collective/fileport/commit/ed0cc8c7c15bc358a488e4492336b18cc893ec4d) | Retained ref; disposition unverified |
 | [fix/static-id-workers-jwks](https://github.com/the-static-collective/fileport/tree/fix/static-id-workers-jwks) | [6e6b3a4a4e](https://github.com/the-static-collective/fileport/commit/6e6b3a4a4e7680bbdbb6d45c66113333a843c643) | Retained ref; disposition unverified |
 | [fix/workbench-entry](https://github.com/the-static-collective/fileport/tree/fix/workbench-entry) | [8bed608da2](https://github.com/the-static-collective/fileport/commit/8bed608da2c17c92ebe0534344061ebad56850cc) | Retained ref; disposition unverified |
+| [integration/harvest-return-050](https://github.com/the-static-collective/fileport/tree/integration/harvest-return-050) | [87fc3d802b](https://github.com/the-static-collective/fileport/commit/87fc3d802b54efd243970f299f1438783d390926) | [open PR #9](https://github.com/the-static-collective/fileport/pull/9) |
 
 ## freeport
 
@@ -774,12 +776,16 @@ Default: `main` · other refs: 32 · open PRs: 15
 
 [Repository](https://github.com/the-static-collective/HUMKIN) · [Branches](https://github.com/the-static-collective/HUMKIN/branches) · [Pull requests](https://github.com/the-static-collective/HUMKIN/pulls)
 
-Default: `main` · other refs: 208 · open PRs: 31
+Default: `main` · other refs: 212 · open PRs: 35
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#213](https://github.com/the-static-collective/HUMKIN/pull/213) | TOWER 002 — Unified Radio House operating desk and crate workspaces | `proposal/tower-unified-desk-002` → `main` | 2026-11-27 |
+| [#212](https://github.com/the-static-collective/HUMKIN/pull/212) | TOWER — Operating Desk 001: consolidate Station Manager | `proposal/station-operating-desk-001` → `main` | 2026-11-27 |
+| [#211](https://github.com/the-static-collective/HUMKIN/pull/211) | ARCHIVE JANITOR 001 — bounded automatic Supabase copy reclamation | `proposal/archive-janitor-001` → `main` | 2026-11-27 |
+| [#210](https://github.com/the-static-collective/HUMKIN/pull/210) | HUMKIN ESCALATION 001–003 — Ledger, Dial and Switchyard | `feature/humkin-transmission-ledger-001` → `main` | 2026-11-27 |
 | [#209](https://github.com/the-static-collective/HUMKIN/pull/209) | ULTIMATE JOY — Ghost Frequency: discover the laws of radio programming | `research/ultimate-joy-ghost-frequency-001` → `main` | 2026-11-26 |
 | [#208](https://github.com/the-static-collective/HUMKIN/pull/208) | RETURN SIGNAL 001 — actual machine audio correspondence on HUMKIN | `feature/return-signal-001` → `main` | 2026-11-25 |
 | [#207](https://github.com/the-static-collective/HUMKIN/pull/207) | QUIET FREQUENCY 001 — shared cloud radio and Haunted Toaster study room | `feature/quiet-frequency-001` → `main` | 2026-11-25 |
@@ -928,6 +934,7 @@ Default: `main` · other refs: 208 · open PRs: 31
 | [feature/humkin-radio-autodj-20261113](https://github.com/the-static-collective/HUMKIN/tree/feature/humkin-radio-autodj-20261113) | [da94540751](https://github.com/the-static-collective/HUMKIN/commit/da9454075197e5d49896b07f925a1d9e88cfd102) | Retained ref; disposition unverified |
 | [feature/humkin-station-manager-20261113](https://github.com/the-static-collective/HUMKIN/tree/feature/humkin-station-manager-20261113) | [4d0e9a8d49](https://github.com/the-static-collective/HUMKIN/commit/4d0e9a8d494e2635ca7c8aa2ffc6e618a0a34799) | Retained ref; disposition unverified |
 | [feature/humkin-time-then-clock-liner-20261115](https://github.com/the-static-collective/HUMKIN/tree/feature/humkin-time-then-clock-liner-20261115) | [f00c8982fe](https://github.com/the-static-collective/HUMKIN/commit/f00c8982fe548eab1122d04885c02814cdbc1928) | Retained ref; disposition unverified |
+| [feature/humkin-transmission-ledger-001](https://github.com/the-static-collective/HUMKIN/tree/feature/humkin-transmission-ledger-001) | [e49315d40f](https://github.com/the-static-collective/HUMKIN/commit/e49315d40f875a77fbb178dcfedbb88af709bf57) | [open PR #210](https://github.com/the-static-collective/HUMKIN/pull/210) |
 | [feature/listener-tip-jar-discoverability-001](https://github.com/the-static-collective/HUMKIN/tree/feature/listener-tip-jar-discoverability-001) | [b5bb6901bb](https://github.com/the-static-collective/HUMKIN/commit/b5bb6901bbf49f9b1761979821bc63d98fc14ddb) | Retained ref; disposition unverified |
 | [feature/little-human-machine-v2](https://github.com/the-static-collective/HUMKIN/tree/feature/little-human-machine-v2) | [7d2bb0c3d0](https://github.com/the-static-collective/HUMKIN/commit/7d2bb0c3d0f742f2306c29604baf7e2bd98a0cca) | Retained ref; disposition unverified |
 | [feature/living-discography-kinship-producer-desk](https://github.com/the-static-collective/HUMKIN/tree/feature/living-discography-kinship-producer-desk) | [3a50aa1a6e](https://github.com/the-static-collective/HUMKIN/commit/3a50aa1a6ee38eb405fb346d22d032f675a66d35) | Retained ref; disposition unverified |
@@ -1008,6 +1015,9 @@ Default: `main` · other refs: 208 · open PRs: 31
 | [integration/radio-signal-train-20261118](https://github.com/the-static-collective/HUMKIN/tree/integration/radio-signal-train-20261118) | [3ea9689173](https://github.com/the-static-collective/HUMKIN/commit/3ea9689173088c76eb41b17823eaef421cc3a63e) | [open PR #158](https://github.com/the-static-collective/HUMKIN/pull/158) |
 | [integration/radio-tower-council-20261118](https://github.com/the-static-collective/HUMKIN/tree/integration/radio-tower-council-20261118) | [e5aa1bc3f0](https://github.com/the-static-collective/HUMKIN/commit/e5aa1bc3f00f7157a0bf57c6362271326697ad5f) | [open PR #159](https://github.com/the-static-collective/HUMKIN/pull/159) |
 | [preview/radio-and-records-season-two](https://github.com/the-static-collective/HUMKIN/tree/preview/radio-and-records-season-two) | [6b64209b70](https://github.com/the-static-collective/HUMKIN/commit/6b64209b70e4aa77da08671774a8d4790bb0e619) | [open PR #151](https://github.com/the-static-collective/HUMKIN/pull/151) |
+| [proposal/archive-janitor-001](https://github.com/the-static-collective/HUMKIN/tree/proposal/archive-janitor-001) | [c782a508e7](https://github.com/the-static-collective/HUMKIN/commit/c782a508e7d7db126f5c99af53b6a1bf7c792a42) | [open PR #211](https://github.com/the-static-collective/HUMKIN/pull/211) |
+| [proposal/station-operating-desk-001](https://github.com/the-static-collective/HUMKIN/tree/proposal/station-operating-desk-001) | [32c77cf698](https://github.com/the-static-collective/HUMKIN/commit/32c77cf6984992bc2400f3f93c34dfcbb775d396) | [open PR #212](https://github.com/the-static-collective/HUMKIN/pull/212) |
+| [proposal/tower-unified-desk-002](https://github.com/the-static-collective/HUMKIN/tree/proposal/tower-unified-desk-002) | [1188184c18](https://github.com/the-static-collective/HUMKIN/commit/1188184c1847db153c3cf9ae5e184c381062a821) | [open PR #213](https://github.com/the-static-collective/HUMKIN/pull/213) |
 | [recovery/android-classic-spine-20261120](https://github.com/the-static-collective/HUMKIN/tree/recovery/android-classic-spine-20261120) | [23c6b3bfe1](https://github.com/the-static-collective/HUMKIN/commit/23c6b3bfe14e912387d4d23d76f7acefca8be97e) | [open PR #179](https://github.com/the-static-collective/HUMKIN/pull/179) |
 | [release/everywhere-near-you-001](https://github.com/the-static-collective/HUMKIN/tree/release/everywhere-near-you-001) | [1db2f6a726](https://github.com/the-static-collective/HUMKIN/commit/1db2f6a726781aa0404670d5b2e26004c1f049f9) | Retained ref; disposition unverified |
 | [research/ultimate-joy-ghost-frequency-001](https://github.com/the-static-collective/HUMKIN/tree/research/ultimate-joy-ghost-frequency-001) | [7c6551b9e5](https://github.com/the-static-collective/HUMKIN/commit/7c6551b9e59180a8f406cf474e3f156ddb918ad5) | [open PR #209](https://github.com/the-static-collective/HUMKIN/pull/209) |
@@ -1029,12 +1039,13 @@ Default: `main` · other refs: 208 · open PRs: 31
 
 [Repository](https://github.com/the-static-collective/JAR-VIS) · [Branches](https://github.com/the-static-collective/JAR-VIS/branches) · [Pull requests](https://github.com/the-static-collective/JAR-VIS/pulls)
 
-Default: `main` · other refs: 78 · open PRs: 46
+Default: `main` · other refs: 79 · open PRs: 47
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#79](https://github.com/the-static-collective/JAR-VIS/pull/79) | HARVEST 050: local held recovery return reader | `integration/harvest-return-050` → `main` | 2026-11-27 |
 | [#78](https://github.com/the-static-collective/JAR-VIS/pull/78) | MOTIF TOURNAMENT 003 × JAR;VIS — run original unmerged method against strong controls, save held receipt | `feature/motif-method-tournament-local-003` → `feature/motif-source-council-local-002` | 2026-11-13 |
 | [#77](https://github.com/the-static-collective/JAR-VIS/pull/77) | MOTIF COUNCIL 002 × JAR;VIS — find unmerged methods when reasoning encounters a gap | `feature/motif-source-council-local-002` → `feature/motif-spine-live-local-001` | 2026-11-13 |
 | [#76](https://github.com/the-static-collective/JAR-VIS/pull/76) | MOTIF LIVE LOCAL 001 — original reasoning spine inside JAR;VIS Two Doors desk | `feature/motif-spine-live-local-001` → `main` | 2026-11-13 |
@@ -1156,6 +1167,7 @@ Default: `main` · other refs: 78 · open PRs: 46
 | [genesis-003-first-real-door](https://github.com/the-static-collective/JAR-VIS/tree/genesis-003-first-real-door) | [36976fd3d4](https://github.com/the-static-collective/JAR-VIS/commit/36976fd3d4908a8461873c90d6750f0b6ae11d9c) | Retained ref; disposition unverified |
 | [genesis-004-house-party](https://github.com/the-static-collective/JAR-VIS/tree/genesis-004-house-party) | [b806b9c837](https://github.com/the-static-collective/JAR-VIS/commit/b806b9c837e167441958208a894408b00acf3a41) | Retained ref; disposition unverified |
 | [genesis-005-first-live-guests](https://github.com/the-static-collective/JAR-VIS/tree/genesis-005-first-live-guests) | [20fa89a340](https://github.com/the-static-collective/JAR-VIS/commit/20fa89a340251443afa7afbdb5432ed11fce88a6) | Retained ref; disposition unverified |
+| [integration/harvest-return-050](https://github.com/the-static-collective/JAR-VIS/tree/integration/harvest-return-050) | [ab8f07b114](https://github.com/the-static-collective/JAR-VIS/commit/ab8f07b1144a75004615c3314f765d77d1a30045) | [open PR #79](https://github.com/the-static-collective/JAR-VIS/pull/79) |
 | [integration/modal-return-worker-001](https://github.com/the-static-collective/JAR-VIS/tree/integration/modal-return-worker-001) | [00ec46008d](https://github.com/the-static-collective/JAR-VIS/commit/00ec46008d6f5d39bd415f7b85c2f482d9fdbcbc) | Retained ref; disposition unverified |
 | [integration/motif-org001-local-hold-20261111](https://github.com/the-static-collective/JAR-VIS/tree/integration/motif-org001-local-hold-20261111) | [883e092d2a](https://github.com/the-static-collective/JAR-VIS/commit/883e092d2a6787cc685ccfa028a443d662817fe0) | [open PR #73](https://github.com/the-static-collective/JAR-VIS/pull/73) |
 | [integration/motif-org002-impasse-20261111](https://github.com/the-static-collective/JAR-VIS/tree/integration/motif-org002-impasse-20261111) | [a190b85660](https://github.com/the-static-collective/JAR-VIS/commit/a190b85660f8695685798ca03c40838c86b19030) | [open PR #74](https://github.com/the-static-collective/JAR-VIS/pull/74) |
@@ -2106,12 +2118,13 @@ Default: `main` · other refs: 4 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/planZ) · [Branches](https://github.com/the-static-collective/planZ/branches) · [Pull requests](https://github.com/the-static-collective/planZ/pulls)
 
-Default: `main` · other refs: 35 · open PRs: 32
+Default: `main` · other refs: 36 · open PRs: 33
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#49](https://github.com/the-static-collective/planZ/pull/49) | CARAVAN 007 — NODE ALIVE: land Genesis and physical field runbook | `experiment/caravan-genesis-node-alive-007` → `main` | 2026-11-27 |
 | [#45](https://github.com/the-static-collective/planZ/pull/45) | planZ-023 — Classical source-observation planning and feedback replanning | `research/023-observation-replanning` → `research/022-question-to-plan` | 2026-11-05 |
 | [#44](https://github.com/the-static-collective/planZ/pull/44) | planZ-022 — Optimize a new question into a held classical inquiry plan | `research/022-question-to-plan` → `research/motif021-classical-plan` | 2026-11-05 |
 | [#43](https://github.com/the-static-collective/planZ/pull/43) | FELLOWSHIP-001: December 4 two-person operating kit and owner-reported readiness | `field/fellowship-dec04-two-person-001` → `main` | 2026-11-05 |
@@ -2153,6 +2166,7 @@ Default: `main` · other refs: 35 · open PRs: 32
 | [build/jubilee-road-room-001](https://github.com/the-static-collective/planZ/tree/build/jubilee-road-room-001) | [9f6f1c3391](https://github.com/the-static-collective/planZ/commit/9f6f1c339109f73c351eff1dcf1ed77187044693) | [open PR #15](https://github.com/the-static-collective/planZ/pull/15) |
 | [experiment/banana-reactor-64-001](https://github.com/the-static-collective/planZ/tree/experiment/banana-reactor-64-001) | [7481da74c9](https://github.com/the-static-collective/planZ/commit/7481da74c98b66ef34daf04a6d36458fedae7167) | [open PR #19](https://github.com/the-static-collective/planZ/pull/19) |
 | [experiment/branch-capability-census-004](https://github.com/the-static-collective/planZ/tree/experiment/branch-capability-census-004) | [ec384bfddb](https://github.com/the-static-collective/planZ/commit/ec384bfddbdff471ea8d9b295b905980f702e1ad) | [open PR #11](https://github.com/the-static-collective/planZ/pull/11) |
+| [experiment/caravan-genesis-node-alive-007](https://github.com/the-static-collective/planZ/tree/experiment/caravan-genesis-node-alive-007) | [537f71e2f8](https://github.com/the-static-collective/planZ/commit/537f71e2f850409035e2b453205998df5bd30a4c) | [open PR #49](https://github.com/the-static-collective/planZ/pull/49) |
 | [experiment/circulation-001-owner-local-replies](https://github.com/the-static-collective/planZ/tree/experiment/circulation-001-owner-local-replies) | [316000e071](https://github.com/the-static-collective/planZ/commit/316000e071e0da5af4762f119f80dfc3add26d7c) | [open PR #28](https://github.com/the-static-collective/planZ/pull/28) |
 | [experiment/culture-return-005](https://github.com/the-static-collective/planZ/tree/experiment/culture-return-005) | [ca050aeb94](https://github.com/the-static-collective/planZ/commit/ca050aeb94dfe73a719513cb5cb8dad58ab2783a) | [open PR #35](https://github.com/the-static-collective/planZ/pull/35) |
 | [experiment/fatherhand-grant-chain-residue-001](https://github.com/the-static-collective/planZ/tree/experiment/fatherhand-grant-chain-residue-001) | [e8111fdb64](https://github.com/the-static-collective/planZ/commit/e8111fdb64c5587b33aece0fed639ed3d03375ac) | [open PR #10](https://github.com/the-static-collective/planZ/pull/10) |
@@ -2231,12 +2245,13 @@ Default: `main` · other refs: 1 · open PRs: 1
 
 [Repository](https://github.com/the-static-collective/reLATTE) · [Branches](https://github.com/the-static-collective/reLATTE/branches) · [Pull requests](https://github.com/the-static-collective/reLATTE/pulls)
 
-Default: `main` · other refs: 178 · open PRs: 131
+Default: `main` · other refs: 179 · open PRs: 132
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#182](https://github.com/the-static-collective/reLATTE/pull/182) | POSTMARK review — native stateless opaque-file crossing | `integration/postmark-review-001` → `main` | 2026-11-27 |
 | [#181](https://github.com/the-static-collective/reLATTE/pull/181) | HUMKIN × Suno Listening 001 — signed evidence HOLD for robot radio | `feat/humkin-suno-listening-review-001` → `main` | 2026-11-23 |
 | [#180](https://github.com/the-static-collective/reLATTE/pull/180) | FREEPORT 008: native signed HUMKIN programming proposal review crossing | `feature/freeport-008-program-crossing` → `main` | 2026-11-21 |
 | [#179](https://github.com/the-static-collective/reLATTE/pull/179) | CRATER 002 — HUMKIN → GitHub → reLATTE → Workbench → native GHoT → signed return | `experiment/humkin-gh-relatte-catalog-001` → `main` | 2026-11-17 |
@@ -2538,6 +2553,7 @@ Default: `main` · other refs: 178 · open PRs: 131
 | [feature/freeport-008-program-crossing](https://github.com/the-static-collective/reLATTE/tree/feature/freeport-008-program-crossing) | [660fc99567](https://github.com/the-static-collective/reLATTE/commit/660fc99567d63128b879cb6297ea7ac4dd15d280) | [open PR #180](https://github.com/the-static-collective/reLATTE/pull/180) |
 | [field-consequence-001](https://github.com/the-static-collective/reLATTE/tree/field-consequence-001) | [5a8724d062](https://github.com/the-static-collective/reLATTE/commit/5a8724d0624fb32b142d0901a3a378df26a5f9a9) | Retained ref; disposition unverified |
 | [fix/planz-return-payload-binding](https://github.com/the-static-collective/reLATTE/tree/fix/planz-return-payload-binding) | [5c7b3ebbee](https://github.com/the-static-collective/reLATTE/commit/5c7b3ebbee4fb4f56d215da3c1f943bf2431ca35) | Retained ref; disposition unverified |
+| [integration/postmark-review-001](https://github.com/the-static-collective/reLATTE/tree/integration/postmark-review-001) | [c87a04d96a](https://github.com/the-static-collective/reLATTE/commit/c87a04d96a39c49d9f0197426a9b4c6212b35b46) | [open PR #182](https://github.com/the-static-collective/reLATTE/pull/182) |
 | [local-receiver-001](https://github.com/the-static-collective/reLATTE/tree/local-receiver-001) | [38739f2de9](https://github.com/the-static-collective/reLATTE/commit/38739f2de9ea499e2734caf2a4b3b7ab81969eb8) | Retained ref; disposition unverified |
 | [mirror-store-serve-001](https://github.com/the-static-collective/reLATTE/tree/mirror-store-serve-001) | [3908d1e052](https://github.com/the-static-collective/reLATTE/commit/3908d1e052b54725245882c1825661ff4ef8bf57) | Retained ref; disposition unverified |
 | [moment-perspective-001](https://github.com/the-static-collective/reLATTE/tree/moment-perspective-001) | [37e1bf8eee](https://github.com/the-static-collective/reLATTE/commit/37e1bf8eeedfbb1d6ae56a72d1c93caabbb80f64) | Retained ref; disposition unverified |
@@ -2815,12 +2831,13 @@ Default: `main` · other refs: 19 · open PRs: 19
 
 [Repository](https://github.com/the-static-collective/webZ) · [Branches](https://github.com/the-static-collective/webZ/branches) · [Pull requests](https://github.com/the-static-collective/webZ/pulls)
 
-Default: `main` · other refs: 238 · open PRs: 170
+Default: `main` · other refs: 239 · open PRs: 171
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#258](https://github.com/the-static-collective/webZ/pull/258) | SUITCASE-CONTEXT-003 — exact signed disposition relationship checks | `integration/suitcase-context-003` → `main` | 2026-11-27 |
 | [#257](https://github.com/the-static-collective/webZ/pull/257) | ONE THING 007: consent-first observation bridge to MOTIF-015 | `experiment/one-thing-observation-007-bridge` → `main` | 2026-11-06 |
 | [#256](https://github.com/the-static-collective/webZ/pull/256) | COMMONS SELF-PLAY 002 — evolving seeded societies without recruiting humans | `feat/commons-self-play-002-evolution` → `feat/commons-self-play-001` | 2026-11-04 |
 | [#255](https://github.com/the-static-collective/webZ/pull/255) | COMMONS SELF-PLAY 001 — Minecraft-inspired forked micro-society | `feat/commons-self-play-001` → `feat/living-commons-solo-lab-001` | 2026-11-04 |
@@ -3209,6 +3226,7 @@ Default: `main` · other refs: 238 · open PRs: 170
 | [grant/mit-solve-2027-living-suitcase-door](https://github.com/the-static-collective/webZ/tree/grant/mit-solve-2027-living-suitcase-door) | [92d79dc2c3](https://github.com/the-static-collective/webZ/commit/92d79dc2c33ea34dac58e4666698317aa28732f0) | [open PR #187](https://github.com/the-static-collective/webZ/pull/187) |
 | [infra/github-pages-custom-domain-proof-001](https://github.com/the-static-collective/webZ/tree/infra/github-pages-custom-domain-proof-001) | [dbded76973](https://github.com/the-static-collective/webZ/commit/dbded76973ca0120591a36121f3199f4efaa7905) | Retained ref; disposition unverified |
 | [infra/vercel-budget-portable-publishing-001](https://github.com/the-static-collective/webZ/tree/infra/vercel-budget-portable-publishing-001) | [bb0997c662](https://github.com/the-static-collective/webZ/commit/bb0997c662a393e6905c509b4627ae6773f6d0c9) | Retained ref; disposition unverified |
+| [integration/suitcase-context-003](https://github.com/the-static-collective/webZ/tree/integration/suitcase-context-003) | [0a0311db59](https://github.com/the-static-collective/webZ/commit/0a0311db595f65c3ce4f542a8b4db126c85e4c6d) | [open PR #258](https://github.com/the-static-collective/webZ/pull/258) |
 | [ops/pages-domain-verification-20261027](https://github.com/the-static-collective/webZ/tree/ops/pages-domain-verification-20261027) | [2611f34e1f](https://github.com/the-static-collective/webZ/commit/2611f34e1ffa0740bcae1688400b9900a8ec881c) | Retained ref; disposition unverified |
 | [ops/post-office-once-proof-20261026](https://github.com/the-static-collective/webZ/tree/ops/post-office-once-proof-20261026) | [6d7f2c91ba](https://github.com/the-static-collective/webZ/commit/6d7f2c91ba69c240fdc37f73751fca7be9b57af3) | Retained ref; disposition unverified |
 | [post-office-005-useful-letters-20261026](https://github.com/the-static-collective/webZ/tree/post-office-005-useful-letters-20261026) | [0b703d9b54](https://github.com/the-static-collective/webZ/commit/0b703d9b54a5d3a1736963ff3d48284062534b6d) | [open PR #147](https://github.com/the-static-collective/webZ/pull/147) |

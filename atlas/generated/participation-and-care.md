@@ -224,7 +224,13 @@ Default: `main` · other refs: 0 · open PRs: 0
 
 [Repository](https://github.com/the-static-collective/100pies) · [Branches](https://github.com/the-static-collective/100pies/branches) · [Pull requests](https://github.com/the-static-collective/100pies/pulls)
 
-Default: `main` · other refs: 0 · open PRs: 0
+Default: `main` · other refs: 1 · open PRs: 0
+
+### Retained nondefault branches
+
+| Ref | Git head | What is evidenced |
+| --- | --- | --- |
+| [gh-pages](https://github.com/the-static-collective/100pies/tree/gh-pages) | [ce87bf3414](https://github.com/the-static-collective/100pies/commit/ce87bf34144a10f34f3dc4ee5bc412c38bf5ad3b) | Retained ref; disposition unverified |
 
 ## pies
 

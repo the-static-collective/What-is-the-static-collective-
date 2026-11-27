@@ -161,12 +161,13 @@ Default: `main` · other refs: 37 · open PRs: 2
 
 [Repository](https://github.com/the-static-collective/convergent-codec) · [Branches](https://github.com/the-static-collective/convergent-codec/branches) · [Pull requests](https://github.com/the-static-collective/convergent-codec/pulls)
 
-Default: `main` · other refs: 2 · open PRs: 1
+Default: `main` · other refs: 3 · open PRs: 2
 
 ### Open pull requests
 
 | PR | Candidate title | Source → target | Updated (UTC) |
 | --- | --- | --- | --- |
+| [#2](https://github.com/the-static-collective/convergent-codec/pull/2) | ORGANISM 021 — integrated codec ablation and runtime admission gates | `research/organism-021` → `main` | 2026-11-27 |
 | [#1](https://github.com/the-static-collective/convergent-codec/pull/1) | CROSSROADS 012 — Embodiment: persistent knowledge compiler and sufficiency gate | `research/crossroads-012-embodiment` → `main` | 2026-11-26 |
 
 ### Retained nondefault branches
@@ -174,6 +175,7 @@ Default: `main` · other refs: 2 · open PRs: 1
 | Ref | Git head | What is evidenced |
 | --- | --- | --- |
 | [research/crossroads-012-embodiment](https://github.com/the-static-collective/convergent-codec/tree/research/crossroads-012-embodiment) | [9384dda29b](https://github.com/the-static-collective/convergent-codec/commit/9384dda29bd02a60e432bbbcd044738fb60d637e) | [open PR #1](https://github.com/the-static-collective/convergent-codec/pull/1) |
+| [research/organism-021](https://github.com/the-static-collective/convergent-codec/tree/research/organism-021) | [2b92c93e8c](https://github.com/the-static-collective/convergent-codec/commit/2b92c93e8cad493465b851f97545d179dea8ca2a) | [open PR #2](https://github.com/the-static-collective/convergent-codec/pull/2) |
 | [shared-mask-multichannel](https://github.com/the-static-collective/convergent-codec/tree/shared-mask-multichannel) | [7fd5836724](https://github.com/the-static-collective/convergent-codec/commit/7fd58367246bcd20b205b07406f40791066e6237) | Retained ref; disposition unverified |
 
 ## unfolding-ledger
