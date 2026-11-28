@@ -1,181 +1,31 @@
 {
   "schema": "static-git-atlas/delta-v1",
-  "from_captured_at": "2026-11-26T17:43:13+00:00",
-  "to_captured_at": "2026-11-27T17:27:13+00:00",
+  "from_captured_at": "2026-11-27T17:27:13+00:00",
+  "to_captured_at": "2026-11-28T16:10:13+00:00",
   "added_repositories": [],
   "removed_repositories": [],
-  "added_branches": [
-    {
-      "repository": "100pies",
-      "branch": "gh-pages",
-      "sha": "ce87bf34144a10f34f3dc4ee5bc412c38bf5ad3b"
-    },
-    {
-      "repository": "convergent-codec",
-      "branch": "research/organism-021",
-      "sha": "2b92c93e8cad493465b851f97545d179dea8ca2a"
-    },
-    {
-      "repository": "fileport",
-      "branch": "integration/harvest-return-050",
-      "sha": "87fc3d802b54efd243970f299f1438783d390926"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "feature/humkin-transmission-ledger-001",
-      "sha": "e49315d40f875a77fbb178dcfedbb88af709bf57"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "proposal/archive-janitor-001",
-      "sha": "c782a508e7d7db126f5c99af53b6a1bf7c792a42"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "proposal/station-operating-desk-001",
-      "sha": "32c77cf6984992bc2400f3f93c34dfcbb775d396"
-    },
-    {
-      "repository": "HUMKIN",
-      "branch": "proposal/tower-unified-desk-002",
-      "sha": "1188184c1847db153c3cf9ae5e184c381062a821"
-    },
-    {
-      "repository": "JAR-VIS",
-      "branch": "integration/harvest-return-050",
-      "sha": "ab8f07b1144a75004615c3314f765d77d1a30045"
-    },
-    {
-      "repository": "planZ",
-      "branch": "experiment/caravan-genesis-node-alive-007",
-      "sha": "537f71e2f850409035e2b453205998df5bd30a4c"
-    },
-    {
-      "repository": "reLATTE",
-      "branch": "integration/postmark-review-001",
-      "sha": "c87a04d96a39c49d9f0197426a9b4c6212b35b46"
-    },
-    {
-      "repository": "static-os",
-      "branch": "experiment/caravan-008-embodiment",
-      "sha": "bcfc0f329dc863f3d76707eff11d8e3b82963ef1"
-    },
-    {
-      "repository": "webZ",
-      "branch": "integration/suitcase-context-003",
-      "sha": "0a0311db595f65c3ce4f542a8b4db126c85e4c6d"
-    }
-  ],
+  "added_branches": [],
   "removed_branches": [],
   "moved_branch_heads": [
     {
       "repository": "HUMKIN",
       "branch": "main",
-      "from_sha": "10ffb553a73710fff02ab241069b4b1f5c55cb7d",
-      "to_sha": "b436289c9809e716b4857fe405d4ae0e7d0773b6"
+      "from_sha": "b436289c9809e716b4857fe405d4ae0e7d0773b6",
+      "to_sha": "3f244e53341b7efc7fcf7bd28cd2b6eda3a90e5c"
     },
     {
       "repository": "JAR-VIS",
       "branch": "main",
-      "from_sha": "6942a723e3fcd79695399ce293374ce4cf5037df",
-      "to_sha": "0e958aac27edd05eb408fa1e8a29c97f5b210f24"
+      "from_sha": "0e958aac27edd05eb408fa1e8a29c97f5b210f24",
+      "to_sha": "5133ad97029d28f4710c1935832f3cf66918effa"
     },
     {
       "repository": "What-is-the-static-collective-",
       "branch": "main",
-      "from_sha": "e2f940486bdcc80e4a2d26563d60384f2f4132d0",
-      "to_sha": "d32d2b22e9628d392a51eb9e968aab5ce774ec0c"
+      "from_sha": "d32d2b22e9628d392a51eb9e968aab5ce774ec0c",
+      "to_sha": "f1bd4aecd41c0b1f2669988fc1f96b193eb41188"
     }
   ],
-  "opened_prs": [
-    {
-      "repository": "convergent-codec",
-      "number": 2,
-      "title": "ORGANISM 021 — integrated codec ablation and runtime admission gates",
-      "url": "https://github.com/the-static-collective/convergent-codec/pull/2",
-      "head_branch": "research/organism-021",
-      "base_branch": "main"
-    },
-    {
-      "repository": "fileport",
-      "number": 9,
-      "title": "HARVEST 050: verify downloaded artifact bytes locally",
-      "url": "https://github.com/the-static-collective/fileport/pull/9",
-      "head_branch": "integration/harvest-return-050",
-      "base_branch": "main"
-    },
-    {
-      "repository": "HUMKIN",
-      "number": 210,
-      "title": "HUMKIN ESCALATION 001–003 — Ledger, Dial and Switchyard",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/210",
-      "head_branch": "feature/humkin-transmission-ledger-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "HUMKIN",
-      "number": 211,
-      "title": "ARCHIVE JANITOR 001 — bounded automatic Supabase copy reclamation",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/211",
-      "head_branch": "proposal/archive-janitor-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "HUMKIN",
-      "number": 212,
-      "title": "TOWER — Operating Desk 001: consolidate Station Manager",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/212",
-      "head_branch": "proposal/station-operating-desk-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "HUMKIN",
-      "number": 213,
-      "title": "TOWER 002 — Unified Radio House operating desk and crate workspaces",
-      "url": "https://github.com/the-static-collective/HUMKIN/pull/213",
-      "head_branch": "proposal/tower-unified-desk-002",
-      "base_branch": "main"
-    },
-    {
-      "repository": "JAR-VIS",
-      "number": 79,
-      "title": "HARVEST 050: local held recovery return reader",
-      "url": "https://github.com/the-static-collective/JAR-VIS/pull/79",
-      "head_branch": "integration/harvest-return-050",
-      "base_branch": "main"
-    },
-    {
-      "repository": "planZ",
-      "number": 49,
-      "title": "CARAVAN 007 — NODE ALIVE: land Genesis and physical field runbook",
-      "url": "https://github.com/the-static-collective/planZ/pull/49",
-      "head_branch": "experiment/caravan-genesis-node-alive-007",
-      "base_branch": "main"
-    },
-    {
-      "repository": "reLATTE",
-      "number": 182,
-      "title": "POSTMARK review — native stateless opaque-file crossing",
-      "url": "https://github.com/the-static-collective/reLATTE/pull/182",
-      "head_branch": "integration/postmark-review-001",
-      "base_branch": "main"
-    },
-    {
-      "repository": "static-os",
-      "number": 100,
-      "title": "CARAVAN 008 — EMBODIMENT: optional STATIC OS community mission",
-      "url": "https://github.com/the-static-collective/static-os/pull/100",
-      "head_branch": "experiment/caravan-008-embodiment",
-      "base_branch": "experiment/genesis-boot-008-universal-cartridge-festival"
-    },
-    {
-      "repository": "webZ",
-      "number": 258,
-      "title": "SUITCASE-CONTEXT-003 — exact signed disposition relationship checks",
-      "url": "https://github.com/the-static-collective/webZ/pull/258",
-      "head_branch": "integration/suitcase-context-003",
-      "base_branch": "main"
-    }
-  ],
+  "opened_prs": [],
   "left_open_prs": []
 }
